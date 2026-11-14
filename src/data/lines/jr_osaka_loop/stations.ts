@@ -9,8 +9,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "天王寺",
     "nameKana": "てんのうじ",
     "nameEn": "Tennoji",
-    "lat": 34.64722,
-    "lng": 135.51389,
+    "lat": 34.64685,
+    "lng": 135.51522,
     "transfers": [
       "ＪＲ大和路線",
       "ＪＲ阪和線",
@@ -46,8 +46,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "寺田町",
     "nameKana": "てらだちょう",
     "nameEn": "Teradacho",
-    "lat": 34.64755,
-    "lng": 135.52319,
+    "lat": 34.64833,
+    "lng": 135.52401,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -78,8 +78,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "桃谷",
     "nameKana": "ももだに",
     "nameEn": "Momodani",
-    "lat": 34.65781,
-    "lng": 135.52777,
+    "lat": 34.65925,
+    "lng": 135.52823,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -110,8 +110,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "鶴橋",
     "nameKana": "つるはし",
     "nameEn": "Tsuruhashi",
-    "lat": 34.66503,
-    "lng": 135.53014,
+    "lat": 34.66679,
+    "lng": 135.5307,
     "transfers": [
       "近鉄大阪線",
       "近鉄奈良線",
@@ -146,8 +146,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "玉造",
     "nameKana": "たまつくり",
     "nameEn": "Tamatsukuri",
-    "lat": 34.67431,
-    "lng": 135.53304,
+    "lat": 34.67273,
+    "lng": 135.53271,
     "transfers": [
       "OsakaMetro長堀鶴見緑地線"
     ],
@@ -180,8 +180,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "森ノ宮",
     "nameKana": "もりのみや",
     "nameEn": "Morinomiya",
-    "lat": 34.68108,
-    "lng": 135.53397,
+    "lat": 34.67983,
+    "lng": 135.53408,
     "transfers": [
       "OsakaMetro中央線",
       "OsakaMetro長堀鶴見緑地線"
@@ -215,8 +215,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "大阪城公園",
     "nameKana": "おおさかじょうこうえん",
     "nameEn": "Osakajokoen",
-    "lat": 34.68826,
-    "lng": 135.53444,
+    "lat": 34.68688,
+    "lng": 135.53427,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -247,8 +247,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "京橋",
     "nameKana": "きょうばし",
     "nameEn": "Kyobashi",
-    "lat": 34.69694,
-    "lng": 135.53389,
+    "lat": 34.69617,
+    "lng": 135.53422,
     "transfers": [
       "ＪＲ学研都市線",
       "ＪＲ東西線",
@@ -284,8 +284,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "桜ノ宮",
     "nameKana": "さくらのみや",
     "nameEn": "Sakuranomiya",
-    "lat": 34.70509,
-    "lng": 135.52109,
+    "lat": 34.7052,
+    "lng": 135.52163,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -316,8 +316,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "天満",
     "nameKana": "てんま",
     "nameEn": "Temma",
-    "lat": 34.70545,
-    "lng": 135.51157,
+    "lat": 34.70443,
+    "lng": 135.51317,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -348,8 +348,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "大阪",
     "nameKana": "おおさか",
     "nameEn": "Osaka",
-    "lat": 34.702485,
-    "lng": 135.495951,
+    "lat": 34.70281,
+    "lng": 135.49705,
     "transfers": [
       "ＪＲおおさか東線",
       "ＪＲ京都線",
@@ -386,8 +386,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "福島",
     "nameKana": "ふくしま",
     "nameEn": "Fukushima",
-    "lat": 34.69679,
-    "lng": 135.4858,
+    "lat": 34.69757,
+    "lng": 135.48736,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -418,8 +418,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "野田",
     "nameKana": "のだ",
     "nameEn": "Noda",
-    "lat": 34.68837,
-    "lng": 135.47419,
+    "lat": 34.6895,
+    "lng": 135.47567,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -450,8 +450,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "西九条",
     "nameKana": "にしくじょう",
     "nameEn": "Nishi-Kujo",
-    "lat": 34.68278,
-    "lng": 135.46667,
+    "lat": 34.68275,
+    "lng": 135.4669,
     "transfers": [
       "ＪＲゆめ咲線",
       "阪神なんば線"
@@ -485,8 +485,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "弁天町",
     "nameKana": "べんてんちょう",
     "nameEn": "Bentencho",
-    "lat": 34.66992,
-    "lng": 135.46204,
+    "lat": 34.67076,
+    "lng": 135.46157,
     "transfers": [
       "OsakaMetro中央線"
     ],
@@ -519,8 +519,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "大正",
     "nameKana": "たいしょう",
     "nameEn": "Taisho",
-    "lat": 34.66516,
-    "lng": 135.48096,
+    "lat": 34.66587,
+    "lng": 135.47903,
     "transfers": [
       "OsakaMetro長堀鶴見緑地線"
     ],
@@ -553,8 +553,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "芦原橋",
     "nameKana": "あしはらばし",
     "nameEn": "Ashiharabashi",
-    "lat": 34.65901,
-    "lng": 135.48874,
+    "lat": 34.65814,
+    "lng": 135.48964,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -585,8 +585,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "今宮",
     "nameKana": "いまみや",
     "nameEn": "Imamiya",
-    "lat": 34.65394,
-    "lng": 135.49271,
+    "lat": 34.65467,
+    "lng": 135.49235,
     "transfers": [
       "ＪＲ大和路線",
       "ＪＲ大和路線・阪和線",
@@ -622,8 +622,8 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "name": "新今宮",
     "nameKana": "しんいまみや",
     "nameEn": "Shin-Imamiya",
-    "lat": 34.65019,
-    "lng": 135.50066,
+    "lat": 34.64962,
+    "lng": 135.50292,
     "transfers": [
       "ＪＲ大和路線",
       "ＪＲ大和路線・阪和線",

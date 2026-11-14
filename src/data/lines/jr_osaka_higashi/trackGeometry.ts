@@ -307,8 +307,20 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.50169
       ],
       [
-        34.73377908,
-        135.50136763
+        34.73269,
+        135.50174
+      ],
+      [
+        34.73309031,
+        135.5018088
+      ],
+      [
+        34.73352575,
+        135.50188732
+      ],
+      [
+        34.73412,
+        135.50201
       ]
     ]
   },
@@ -318,12 +330,12 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "jr_osaka_higashi-03",
     "coordinates": [
       [
-        34.73377908,
-        135.50136763
+        34.73412,
+        135.50201
       ],
       [
-        34.73443881,
-        135.50153257
+        34.73464,
+        135.50217
       ],
       [
         34.73540304,
@@ -400,14 +412,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.74932724,
         135.5103692
-      ],
-      [
-        34.74944142,
-        135.51102893
-      ],
-      [
-        34.74947949,
-        135.5117521
       ]
     ]
   },
@@ -416,6 +420,14 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-03",
     "toStationId": "jr_osaka_higashi-04",
     "coordinates": [
+      [
+        34.74932724,
+        135.5103692
+      ],
+      [
+        34.74944142,
+        135.51102893
+      ],
       [
         34.74947949,
         135.5117521
@@ -479,10 +491,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.74138505,
         135.51931367
-      ],
-      [
-        34.74021783,
-        135.52031596
       ]
     ]
   },
@@ -491,6 +499,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-04",
     "toStationId": "jr_osaka_higashi-05",
     "coordinates": [
+      [
+        34.74138505,
+        135.51931367
+      ],
       [
         34.74021783,
         135.52031596
@@ -554,10 +566,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.72435566,
         135.53023893
-      ],
-      [
-        34.72304888,
-        135.5309621
       ]
     ]
   },
@@ -566,6 +574,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-05",
     "toStationId": "jr_osaka_higashi-06",
     "coordinates": [
+      [
+        34.72435566,
+        135.53023893
+      ],
       [
         34.72304888,
         135.5309621
@@ -637,10 +649,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.7075705,
         135.54142904
-      ],
-      [
-        34.70611147,
-        135.54135292
       ]
     ]
   },
@@ -649,6 +657,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-06",
     "toStationId": "jr_osaka_higashi-07",
     "coordinates": [
+      [
+        34.7075705,
+        135.54142904
+      ],
       [
         34.70611147,
         135.54135292
@@ -974,14 +986,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.67974766,
         135.57255213
-      ],
-      [
-        34.67882688,
-        135.572395065
-      ],
-      [
-        34.6779061,
-        135.572238
       ]
     ]
   },
@@ -990,6 +994,14 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-09",
     "toStationId": "jr_osaka_higashi-10",
     "coordinates": [
+      [
+        34.67974766,
+        135.57255213
+      ],
+      [
+        34.67882688,
+        135.572395065
+      ],
       [
         34.6779061,
         135.572238
@@ -1033,10 +1045,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.66507,
         135.57229
-      ],
-      [
-        34.66359,
-        135.57234
       ]
     ]
   },
@@ -1045,6 +1053,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-10",
     "toStationId": "jr_osaka_higashi-11",
     "coordinates": [
+      [
+        34.66507,
+        135.57229
+      ],
       [
         34.66359,
         135.57234
@@ -1060,10 +1072,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65942,
         135.57246
-      ],
-      [
-        34.6583,
-        135.57249
       ]
     ]
   },
@@ -1072,6 +1080,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-11",
     "toStationId": "jr_osaka_higashi-12",
     "coordinates": [
+      [
+        34.65942,
+        135.57246
+      ],
       [
         34.6583,
         135.57249
@@ -1099,10 +1111,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65056,
         135.5705
-      ],
-      [
-        34.64937,
-        135.57017
       ]
     ]
   },
@@ -1111,6 +1119,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-12",
     "toStationId": "jr_osaka_higashi-13",
     "coordinates": [
+      [
+        34.65056,
+        135.5705
+      ],
       [
         34.64937,
         135.57017
@@ -1138,6 +1150,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.63908345,
         135.56730459
+      ],
+      [
+        34.63777977,
+        135.56694299
       ]
     ]
   },
@@ -1146,10 +1162,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-13",
     "toStationId": "jr_osaka_higashi-14",
     "coordinates": [
-      [
-        34.63908345,
-        135.56730459
-      ],
       [
         34.63777977,
         135.56694299
@@ -1189,10 +1201,6 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62803,
         135.56721
-      ],
-      [
-        34.62717,
-        135.56817
       ]
     ]
   },
@@ -1201,6 +1209,10 @@ export const JR_OSAKA_HIGASHI_TRACK_SEGMENTS: TrackSegment[] = [
     "fromStationId": "jr_osaka_higashi-14",
     "toStationId": "jr_osaka_higashi-15",
     "coordinates": [
+      [
+        34.62803,
+        135.56721
+      ],
       [
         34.62717,
         135.56817

@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_meisho-01_jr_meisho-02",
+    "id": "jr_meisho-01_jr_meisho-02",
     "fromStationId": "jr_meisho-01",
     "toStationId": "jr_meisho-02",
     "coordinates": [
-      [
-        34.57722,
-        136.53611
-      ],
       [
         34.57724,
         136.53545
@@ -285,21 +281,25 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.59782,
         136.49965
-      ],
-      [
-        34.59818,
-        136.499
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-02_jr_meisho-03",
+    "id": "jr_meisho-02_jr_meisho-03",
     "fromStationId": "jr_meisho-02",
     "toStationId": "jr_meisho-03",
     "coordinates": [
       [
+        34.59782,
+        136.49965
+      ],
+      [
         34.59818,
         136.499
+      ],
+      [
+        34.5983,
+        136.49877
       ],
       [
         34.59849,
@@ -332,6 +332,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.60242,
         136.49294
+      ],
+      [
+        34.60316,
+        136.491965
       ],
       [
         34.6039,
@@ -400,18 +404,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61745,
         136.48226
-      ],
-      [
-        34.61804,
-        136.48197
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-03_jr_meisho-04",
+    "id": "jr_meisho-03_jr_meisho-04",
     "fromStationId": "jr_meisho-03",
     "toStationId": "jr_meisho-04",
     "coordinates": [
+      [
+        34.61745,
+        136.48226
+      ],
       [
         34.61804,
         136.48197
@@ -455,6 +459,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62696,
         136.47464
+      ],
+      [
+        34.627624999999995,
+        136.47382
       ],
       [
         34.62829,
@@ -509,6 +517,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.46642
       ],
       [
+        34.635104999999996,
+        136.466
+      ],
+      [
         34.63604,
         136.46558
       ],
@@ -529,8 +541,12 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.46442
       ],
       [
-        34.638369999999995,
-        136.46218499999998
+        34.638036666666665,
+        136.46293
+      ],
+      [
+        34.63870333333333,
+        136.46143999999998
       ],
       [
         34.63937,
@@ -541,12 +557,20 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.45893
       ],
       [
+        34.64026,
+        136.457945
+      ],
+      [
         34.64069,
         136.45696
       ],
       [
         34.64112,
         136.456
+      ],
+      [
+        34.64157,
+        136.45499999999998
       ],
       [
         34.64202,
@@ -583,18 +607,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.6471,
         136.44729
-      ],
-      [
-        34.64757,
-        136.44673
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-04_jr_meisho-05",
+    "id": "jr_meisho-04_jr_meisho-05",
     "fromStationId": "jr_meisho-04",
     "toStationId": "jr_meisho-05",
     "coordinates": [
+      [
+        34.6471,
+        136.44729
+      ],
       [
         34.64757,
         136.44673
@@ -658,18 +682,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65486,
         136.43648
-      ],
-      [
-        34.65493,
-        136.43571
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-05_jr_meisho-06",
+    "id": "jr_meisho-05_jr_meisho-06",
     "fromStationId": "jr_meisho-05",
     "toStationId": "jr_meisho-06",
     "coordinates": [
+      [
+        34.65486,
+        136.43648
+      ],
       [
         34.65493,
         136.43571
@@ -689,6 +713,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65445,
         136.4331
+      ],
+      [
+        34.653999999999996,
+        136.43213
       ],
       [
         34.65355,
@@ -767,6 +795,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.41852
       ],
       [
+        34.64474,
+        136.417405
+      ],
+      [
         34.64422,
         136.41629
       ],
@@ -779,20 +811,24 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.41518
       ],
       [
-        34.6428,
-        136.41327
+        34.643254999999996,
+        136.414225
       ],
       [
-        34.64235,
-        136.4123
+        34.6428,
+        136.41327
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-06_jr_meisho-07",
+    "id": "jr_meisho-06_jr_meisho-07",
     "fromStationId": "jr_meisho-06",
     "toStationId": "jr_meisho-07",
     "coordinates": [
+      [
+        34.6428,
+        136.41327
+      ],
       [
         34.64235,
         136.4123
@@ -844,6 +880,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64104,
         136.40544
+      ],
+      [
+        34.64147,
+        136.40442000000002
       ],
       [
         34.6419,
@@ -898,20 +938,32 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.39521
       ],
       [
-        34.644375,
-        136.39341
+        34.64396333333333,
+        136.39400999999998
+      ],
+      [
+        34.64478666666667,
+        136.39281
       ],
       [
         34.64561,
         136.39161
       ],
       [
-        34.64696,
-        136.38963999999999
+        34.64651,
+        136.39029666666667
+      ],
+      [
+        34.64741,
+        136.38898333333333
       ],
       [
         34.64831,
         136.38767
+      ],
+      [
+        34.64902,
+        136.38662
       ],
       [
         34.64973,
@@ -920,18 +972,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64979,
         136.38548
-      ],
-      [
-        34.6502,
-        136.38487
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-07_jr_meisho-08",
+    "id": "jr_meisho-07_jr_meisho-08",
     "fromStationId": "jr_meisho-07",
     "toStationId": "jr_meisho-08",
     "coordinates": [
+      [
+        34.64979,
+        136.38548
+      ],
       [
         34.6502,
         136.38487
@@ -1067,18 +1119,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64805,
         136.35731
+      ],
+      [
+        34.6476,
+        136.35618
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-08_jr_meisho-09",
+    "id": "jr_meisho-08_jr_meisho-09",
     "fromStationId": "jr_meisho-08",
     "toStationId": "jr_meisho-09",
     "coordinates": [
-      [
-        34.64805,
-        136.35731
-      ],
       [
         34.6476,
         136.35618
@@ -1086,6 +1138,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64696,
         136.35452
+      ],
+      [
+        34.6466,
+        136.353475
       ],
       [
         34.64624,
@@ -1098,6 +1154,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64523,
         136.34974
+      ],
+      [
+        34.644825,
+        136.348685
       ],
       [
         34.64442,
@@ -1144,16 +1204,9 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.34087
       ],
       [
-        34.63797,
-        136.33982
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_meisho-09_jr_meisho-10",
-    "fromStationId": "jr_meisho-09",
-    "toStationId": "jr_meisho-10",
-    "coordinates": [
+        34.6381,
+        136.33992
+      ],
       [
         34.63797,
         136.33982
@@ -1161,6 +1214,21 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.63742,
         136.33939
+      ]
+    ]
+  },
+  {
+    "id": "jr_meisho-09_jr_meisho-10",
+    "fromStationId": "jr_meisho-09",
+    "toStationId": "jr_meisho-10",
+    "coordinates": [
+      [
+        34.63742,
+        136.33939
+      ],
+      [
+        34.636605,
+        136.33881000000002
       ],
       [
         34.63579,
@@ -1201,6 +1269,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.63081,
         136.33504
+      ],
+      [
+        34.62999,
+        136.33442
       ],
       [
         34.62917,
@@ -1247,6 +1319,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.32717
       ],
       [
+        34.62722,
+        136.32603999999998
+      ],
+      [
         34.62724,
         136.32491
       ],
@@ -1269,18 +1345,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62603,
         136.31962
+      ],
+      [
+        34.62567,
+        136.31883
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-10_jr_meisho-11",
+    "id": "jr_meisho-10_jr_meisho-11",
     "fromStationId": "jr_meisho-10",
     "toStationId": "jr_meisho-11",
     "coordinates": [
-      [
-        34.62603,
-        136.31962
-      ],
       [
         34.62567,
         136.31883
@@ -1568,18 +1644,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.60039,
         136.30941
+      ],
+      [
+        34.59968,
+        136.30902
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-11_jr_meisho-12",
+    "id": "jr_meisho-11_jr_meisho-12",
     "fromStationId": "jr_meisho-11",
     "toStationId": "jr_meisho-12",
     "coordinates": [
-      [
-        34.60039,
-        136.30941
-      ],
       [
         34.59968,
         136.30902
@@ -1963,18 +2039,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.57428,
         136.27861
+      ],
+      [
+        34.57376,
+        136.27814
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-12_jr_meisho-13",
+    "id": "jr_meisho-12_jr_meisho-13",
     "fromStationId": "jr_meisho-12",
     "toStationId": "jr_meisho-13",
     "coordinates": [
-      [
-        34.57428,
-        136.27861
-      ],
       [
         34.57376,
         136.27814
@@ -2210,18 +2286,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.55542,
         136.26403
+      ],
+      [
+        34.55478,
+        136.26357
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-13_jr_meisho-14",
+    "id": "jr_meisho-13_jr_meisho-14",
     "fromStationId": "jr_meisho-13",
     "toStationId": "jr_meisho-14",
     "coordinates": [
-      [
-        34.55542,
-        136.26403
-      ],
       [
         34.55478,
         136.26357
@@ -2565,18 +2641,18 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.53266,
         136.27097
+      ],
+      [
+        34.53194,
+        136.27066
       ]
     ]
   },
   {
-    "segmentId": "jr_meisho-14_jr_meisho-15",
+    "id": "jr_meisho-14_jr_meisho-15",
     "fromStationId": "jr_meisho-14",
     "toStationId": "jr_meisho-15",
     "coordinates": [
-      [
-        34.53266,
-        136.27097
-      ],
       [
         34.53194,
         136.27066
@@ -2912,6 +2988,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.51231,
         136.26035
+      ],
+      [
+        34.51202,
+        136.25964
       ]
     ]
   }

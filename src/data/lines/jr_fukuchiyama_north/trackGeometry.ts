@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_fukuchiyama_north-01_jr_fukuchiyama_north-02",
+    "id": "jr_fukuchiyama_north-01_jr_fukuchiyama_north-02",
     "fromStationId": "jr_fukuchiyama_north-01",
     "toStationId": "jr_fukuchiyama_north-02",
     "coordinates": [
-      [
-        35.05694,
-        135.17639
-      ],
       [
         35.05712,
         135.17711
@@ -33,6 +29,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.0602,
         135.17685
+      ],
+      [
+        35.06114,
+        135.176965
       ],
       [
         35.06208,
@@ -169,18 +169,18 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.07211,
         135.16875
+      ],
+      [
+        35.07269,
+        135.16838
       ]
     ]
   },
   {
-    "segmentId": "jr_fukuchiyama_north-02_jr_fukuchiyama_north-03",
+    "id": "jr_fukuchiyama_north-02_jr_fukuchiyama_north-03",
     "fromStationId": "jr_fukuchiyama_north-02",
     "toStationId": "jr_fukuchiyama_north-03",
     "coordinates": [
-      [
-        35.07211,
-        135.16875
-      ],
       [
         35.07269,
         135.16838
@@ -570,6 +570,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.12494
       ],
       [
+        35.0805,
+        135.12407000000002
+      ],
+      [
         35.07985,
         135.1232
       ],
@@ -822,8 +826,12 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.10041
       ],
       [
-        35.087064999999996,
-        135.09797
+        35.08689,
+        135.09878333333333
+      ],
+      [
+        35.08724,
+        135.09715666666668
       ],
       [
         35.08759,
@@ -832,18 +840,18 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.08775,
         135.09477
-      ],
-      [
-        35.08799,
-        135.09357
       ]
     ]
   },
   {
-    "segmentId": "jr_fukuchiyama_north-03_jr_fukuchiyama_north-04",
+    "id": "jr_fukuchiyama_north-03_jr_fukuchiyama_north-04",
     "fromStationId": "jr_fukuchiyama_north-03",
     "toStationId": "jr_fukuchiyama_north-04",
     "coordinates": [
+      [
+        35.08775,
+        135.09477
+      ],
       [
         35.08799,
         135.09357
@@ -1239,7 +1247,7 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "segmentId": "jr_fukuchiyama_north-04_jr_fukuchiyama_north-05",
+    "id": "jr_fukuchiyama_north-04_jr_fukuchiyama_north-05",
     "fromStationId": "jr_fukuchiyama_north-04",
     "toStationId": "jr_fukuchiyama_north-05",
     "coordinates": [
@@ -1394,6 +1402,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.09635,
         135.05551
+      ],
+      [
+        35.097255000000004,
+        135.056085
       ],
       [
         35.09816,
@@ -1686,22 +1698,22 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.12649,
         135.07829
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_fukuchiyama_north-05_jr_fukuchiyama_north-06",
-    "fromStationId": "jr_fukuchiyama_north-05",
-    "toStationId": "jr_fukuchiyama_north-06",
-    "coordinates": [
-      [
-        35.12649,
-        135.07829
       ],
       [
         35.127195,
         135.07712500000002
       ],
+      [
+        35.1279,
+        135.07596
+      ]
+    ]
+  },
+  {
+    "id": "jr_fukuchiyama_north-05_jr_fukuchiyama_north-06",
+    "fromStationId": "jr_fukuchiyama_north-05",
+    "toStationId": "jr_fukuchiyama_north-06",
+    "coordinates": [
       [
         35.1279,
         135.07596
@@ -1775,8 +1787,12 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.06696
       ],
       [
-        35.144189999999995,
-        135.06588499999998
+        35.14356,
+        135.06624333333332
+      ],
+      [
+        35.144819999999996,
+        135.06552666666667
       ],
       [
         35.14608,
@@ -1833,22 +1849,22 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.15157,
         135.0635
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_fukuchiyama_north-06_jr_fukuchiyama_north-07",
-    "fromStationId": "jr_fukuchiyama_north-06",
-    "toStationId": "jr_fukuchiyama_north-07",
-    "coordinates": [
-      [
-        35.15157,
-        135.0635
       ],
       [
         35.15275,
         135.06375
       ],
+      [
+        35.15393,
+        135.064
+      ]
+    ]
+  },
+  {
+    "id": "jr_fukuchiyama_north-06_jr_fukuchiyama_north-07",
+    "fromStationId": "jr_fukuchiyama_north-06",
+    "toStationId": "jr_fukuchiyama_north-07",
+    "coordinates": [
       [
         35.15393,
         135.064
@@ -2010,6 +2026,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.08541
       ],
       [
+        35.170055000000005,
+        135.08669
+      ],
+      [
         35.16987,
         135.08797
       ],
@@ -2028,22 +2048,22 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.16878,
         135.09555
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_fukuchiyama_north-07_jr_fukuchiyama_north-08",
-    "fromStationId": "jr_fukuchiyama_north-07",
-    "toStationId": "jr_fukuchiyama_north-08",
-    "coordinates": [
-      [
-        35.16878,
-        135.09555
       ],
       [
         35.16852,
         135.097325
       ],
+      [
+        35.16826,
+        135.0991
+      ]
+    ]
+  },
+  {
+    "id": "jr_fukuchiyama_north-07_jr_fukuchiyama_north-08",
+    "fromStationId": "jr_fukuchiyama_north-07",
+    "toStationId": "jr_fukuchiyama_north-08",
+    "coordinates": [
       [
         35.16826,
         135.0991
@@ -2157,16 +2177,24 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.11881
       ],
       [
-        35.179874999999996,
-        135.119235
+        35.17927666666667,
+        135.11909333333332
+      ],
+      [
+        35.18047333333333,
+        135.11937666666668
       ],
       [
         35.18167,
         135.11966
       ],
       [
-        35.183539999999994,
-        135.12010500000002
+        35.182916666666664,
+        135.11995666666667
+      ],
+      [
+        35.18416333333333,
+        135.12025333333335
       ],
       [
         35.18541,
@@ -2245,8 +2273,12 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.11967
       ],
       [
-        35.196595,
-        135.120945
+        35.19596666666667,
+        135.12052
+      ],
+      [
+        35.19722333333333,
+        135.12137
       ],
       [
         35.19848,
@@ -2325,20 +2357,24 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.1287
       ],
       [
-        35.20751,
-        135.12961
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_fukuchiyama_north-08_jr_fukuchiyama_north-09",
-    "fromStationId": "jr_fukuchiyama_north-08",
-    "toStationId": "jr_fukuchiyama_north-09",
-    "coordinates": [
+        35.20744,
+        135.12957
+      ],
       [
         35.20751,
         135.12961
       ],
+      [
+        35.20847,
+        135.13051
+      ]
+    ]
+  },
+  {
+    "id": "jr_fukuchiyama_north-08_jr_fukuchiyama_north-09",
+    "fromStationId": "jr_fukuchiyama_north-08",
+    "toStationId": "jr_fukuchiyama_north-09",
+    "coordinates": [
       [
         35.20847,
         135.13051
@@ -2572,6 +2608,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.1312
       ],
       [
+        35.22823,
+        135.13119
+      ],
+      [
         35.2287,
         135.13117
       ],
@@ -2690,18 +2730,18 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.24333,
         135.13339
+      ],
+      [
+        35.24414,
+        135.1348
       ]
     ]
   },
   {
-    "segmentId": "jr_fukuchiyama_north-09_jr_fukuchiyama_north-10",
+    "id": "jr_fukuchiyama_north-09_jr_fukuchiyama_north-10",
     "fromStationId": "jr_fukuchiyama_north-09",
     "toStationId": "jr_fukuchiyama_north-10",
     "coordinates": [
-      [
-        35.24333,
-        135.13339
-      ],
       [
         35.24414,
         135.1348
@@ -2807,11 +2847,19 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.14486
       ],
       [
+        35.24862,
+        135.14486
+      ],
+      [
         35.24863,
         135.14493
       ],
       [
         35.24865,
+        135.14495
+      ],
+      [
+        35.24866,
         135.14495
       ],
       [
@@ -3149,6 +3197,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.2723,
         135.1443
+      ],
+      [
+        35.27231,
+        135.14429
       ],
       [
         35.27245,
@@ -3539,8 +3591,20 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.12221
       ],
       [
-        35.29583,
-        135.12056
+        35.29617,
+        135.12021
+      ],
+      [
+        35.29626,
+        135.11982
+      ],
+      [
+        35.29657,
+        135.118565
+      ],
+      [
+        35.29688,
+        135.11731
       ]
     ]
   }

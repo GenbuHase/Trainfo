@@ -9,8 +9,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "加茂",
     "nameKana": "かも",
     "nameEn": "Kamo",
-    "lat": 34.7525,
-    "lng": 135.87028,
+    "lat": 34.75203,
+    "lng": 135.86911,
     "transfers": [
       "ＪＲ関西本線"
     ],
@@ -42,8 +42,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "木津",
     "nameKana": "きづ",
     "nameEn": "Kizu",
-    "lat": 34.73667,
-    "lng": 135.82472,
+    "lat": 34.73686,
+    "lng": 135.8249,
     "transfers": [
       "ＪＲ奈良線",
       "ＪＲ学研都市線"
@@ -76,8 +76,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "平城山",
     "nameKana": "ならやま",
     "nameEn": "Narayama",
-    "lat": 34.71104,
-    "lng": 135.81089,
+    "lat": 34.71002,
+    "lng": 135.80981,
     "transfers": [
       "ＪＲ奈良線"
     ],
@@ -109,8 +109,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "奈良",
     "nameKana": "なら",
     "nameEn": "Nara",
-    "lat": 34.68056,
-    "lng": 135.81889,
+    "lat": 34.68162,
+    "lng": 135.81941,
     "transfers": [
       "ＪＲ奈良線",
       "ＪＲ万葉まほろば線"
@@ -143,8 +143,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "郡山",
     "nameKana": "こおりやま",
     "nameEn": "Koriyama",
-    "lat": 34.64841,
-    "lng": 135.79048,
+    "lat": 34.64888,
+    "lng": 135.79068,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -174,8 +174,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "大和小泉",
     "nameKana": "やまとこいずみ",
     "nameEn": "Yamato-Koizumi",
-    "lat": 34.62157,
-    "lng": 135.76289,
+    "lat": 34.62282,
+    "lng": 135.76401,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -205,8 +205,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "法隆寺",
     "nameKana": "ほうりゅうじ",
     "nameEn": "Horyuji",
-    "lat": 34.60104,
-    "lng": 135.73801,
+    "lat": 34.60206,
+    "lng": 135.73979,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -236,8 +236,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "王寺",
     "nameKana": "おうじ",
     "nameEn": "Oji",
-    "lat": 34.59778,
-    "lng": 135.705,
+    "lat": 34.59744,
+    "lng": 135.70445,
     "transfers": [
       "ＪＲ和歌山線",
       "近鉄生駒線"
@@ -270,8 +270,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "三郷",
     "nameKana": "さんごう",
     "nameEn": "Sango",
-    "lat": 34.58871,
-    "lng": 135.6872,
+    "lat": 34.58905,
+    "lng": 135.68785,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -301,8 +301,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "河内堅上",
     "nameKana": "かわちかたかみ",
     "nameEn": "Kawachi-Katakami",
-    "lat": 34.57434,
-    "lng": 135.66319,
+    "lat": 34.57498,
+    "lng": 135.66362,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -332,8 +332,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "高井田",
     "nameKana": "たかいだ",
     "nameEn": "Takaida",
-    "lat": 34.57152,
-    "lng": 135.63835,
+    "lat": 34.57137,
+    "lng": 135.6397,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -363,8 +363,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "柏原",
     "nameKana": "かいばら",
     "nameEn": "Kaibara",
-    "lat": 34.58793,
-    "lng": 135.62242,
+    "lat": 34.58684,
+    "lng": 135.62331,
     "transfers": [
       "近鉄道明寺線"
     ],
@@ -396,8 +396,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "志紀",
     "nameKana": "しき",
     "nameEn": "Shiki",
-    "lat": 34.60075,
-    "lng": 135.61561,
+    "lat": 34.59991,
+    "lng": 135.61621,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -427,8 +427,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "八尾",
     "nameKana": "やお",
     "nameEn": "Yao",
-    "lat": 34.61759,
-    "lng": 135.59625,
+    "lat": 34.61692,
+    "lng": 135.59777,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -458,8 +458,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "久宝寺",
     "nameKana": "きゅうほうじ",
     "nameEn": "Kyuhoji",
-    "lat": 34.6225,
-    "lng": 135.58472,
+    "lat": 34.62208,
+    "lng": 135.58523,
     "transfers": [
       "ＪＲおおさか東線"
     ],
@@ -491,8 +491,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "加美",
     "nameKana": "かみ",
     "nameEn": "Kami",
-    "lat": 34.62702,
-    "lng": 135.56621,
+    "lat": 34.62674,
+    "lng": 135.56728,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -522,8 +522,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "平野",
     "nameKana": "ひらの",
     "nameEn": "Hirano",
-    "lat": 34.63123,
-    "lng": 135.54974,
+    "lat": 34.63059,
+    "lng": 135.55231,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -553,8 +553,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "東部市場前",
     "nameKana": "とうぶしじょうまえ",
     "nameEn": "Tobushijomae",
-    "lat": 34.63851,
-    "lng": 135.53702,
+    "lat": 34.63767,
+    "lng": 135.53834,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -584,8 +584,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "天王寺",
     "nameKana": "てんのうじ",
     "nameEn": "Tennoji",
-    "lat": 34.64722,
-    "lng": 135.51389,
+    "lat": 34.64685,
+    "lng": 135.51522,
     "transfers": [
       "ＪＲ阪和線",
       "ＪＲ大阪環状線外回り",
@@ -621,8 +621,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "新今宮",
     "nameKana": "しんいまみや",
     "nameEn": "Shin-Imamiya",
-    "lat": 34.65019,
-    "lng": 135.50066,
+    "lat": 34.64962,
+    "lng": 135.50292,
     "transfers": [
       "ＪＲ大阪環状線外回り",
       "ＪＲ大阪環状線内回り",
@@ -657,8 +657,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "今宮",
     "nameKana": "いまみや",
     "nameEn": "Imamiya",
-    "lat": 34.65394,
-    "lng": 135.49271,
+    "lat": 34.65467,
+    "lng": 135.49235,
     "transfers": [
       "ＪＲ大阪環状線外回り",
       "ＪＲ大阪環状線内回り",
@@ -693,8 +693,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "name": "JR難波",
     "nameKana": "じぇいあーるなんば",
     "nameEn": "JR-Namba",
-    "lat": 34.66558,
-    "lng": 135.49506,
+    "lat": 34.66715,
+    "lng": 135.49552,
     "transfers": [],
     "address": "",
     "platforms": {

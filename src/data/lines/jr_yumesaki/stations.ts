@@ -9,8 +9,8 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "name": "西九条",
     "nameKana": "にしくじょう",
     "nameEn": "Nishi-Kujo",
-    "lat": 34.68278,
-    "lng": 135.46667,
+    "lat": 34.68275,
+    "lng": 135.4669,
     "transfers": [
       "ＪＲ大阪環状線外回り",
       "ＪＲ大阪環状線内回り",
@@ -41,8 +41,8 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "name": "安治川口",
     "nameKana": "あじかわぐち",
     "nameEn": "Ajikawaguchi",
-    "lat": 34.67308,
-    "lng": 135.44354,
+    "lat": 34.67369,
+    "lng": 135.4442,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -69,8 +69,8 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "name": "ユニバーサルシティ",
     "nameKana": "ゆにばーさるしてぃ",
     "nameEn": "Universal City",
-    "lat": 34.66843,
-    "lng": 135.43911,
+    "lat": 34.66725,
+    "lng": 135.43802,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -97,8 +97,8 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "name": "桜島",
     "nameKana": "さくらじま",
     "nameEn": "Sakurajima",
-    "lat": 34.66208,
-    "lng": 135.43199,
+    "lat": 34.66188,
+    "lng": 135.43209,
     "transfers": [],
     "address": "",
     "platforms": {

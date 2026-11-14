@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_taita-01_jr_taita-02",
+    "id": "jr_taita-01_jr_taita-02",
     "fromStationId": "jr_taita-01",
     "toStationId": "jr_taita-02",
     "coordinates": [
-      [
-        35.33472,
-        137.12111
-      ],
       [
         35.33454,
         137.11974
@@ -227,12 +223,16 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.09605
       ],
       [
-        35.357123333333334,
-        137.09441333333334
+        35.3567325,
+        137.0948225
       ],
       [
-        35.358686666666664,
-        137.09277666666665
+        35.357905,
+        137.093595
+      ],
+      [
+        35.3590775,
+        137.0923675
       ],
       [
         35.36025,
@@ -249,18 +249,18 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.3612,
         137.09027
-      ],
-      [
-        35.36174,
-        137.09002
       ]
     ]
   },
   {
-    "segmentId": "jr_taita-02_jr_taita-03",
+    "id": "jr_taita-02_jr_taita-03",
     "fromStationId": "jr_taita-02",
     "toStationId": "jr_taita-03",
     "coordinates": [
+      [
+        35.3612,
+        137.09027
+      ],
       [
         35.36174,
         137.09002
@@ -416,18 +416,18 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.38165,
         137.07225
-      ],
-      [
-        35.38235,
-        137.07198
       ]
     ]
   },
   {
-    "segmentId": "jr_taita-03_jr_taita-04",
+    "id": "jr_taita-03_jr_taita-04",
     "fromStationId": "jr_taita-03",
     "toStationId": "jr_taita-04",
     "coordinates": [
+      [
+        35.38165,
+        137.07225
+      ],
       [
         35.38235,
         137.07198
@@ -519,29 +519,37 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.39339,
         137.06384
-      ],
-      [
-        35.39408,
-        137.06359
       ]
     ]
   },
   {
-    "segmentId": "jr_taita-04_jr_taita-05",
+    "id": "jr_taita-04_jr_taita-05",
     "fromStationId": "jr_taita-04",
     "toStationId": "jr_taita-05",
     "coordinates": [
       [
+        35.39339,
+        137.06384
+      ],
+      [
         35.39408,
         137.06359
+      ],
+      [
+        35.39429,
+        137.06353
       ],
       [
         35.39436,
         137.06351
       ],
       [
-        35.39633,
-        137.06297
+        35.395673333333335,
+        137.06315
+      ],
+      [
+        35.39698666666666,
+        137.06279
       ],
       [
         35.3983,
@@ -576,16 +584,20 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.06066
       ],
       [
-        35.405405,
-        137.06025
+        35.405038000000005,
+        137.06033200000002
       ],
       [
-        35.40724,
-        137.05984
+        35.406506,
+        137.06000400000002
       ],
       [
-        35.409075,
-        137.05943000000002
+        35.407974,
+        137.059676
+      ],
+      [
+        35.409442,
+        137.059348
       ],
       [
         35.41091,
@@ -644,8 +656,12 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.05869
       ],
       [
-        35.41711,
-        137.057255
+        35.41659666666667,
+        137.05773333333335
+      ],
+      [
+        35.41762333333333,
+        137.05677666666668
       ],
       [
         35.41865,
@@ -682,24 +698,32 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.42194,
         137.05533
+      ],
+      [
+        35.42293,
+        137.05535
+      ],
+      [
+        35.42392,
+        137.05537
       ]
     ]
   },
   {
-    "segmentId": "jr_taita-05_jr_taita-06",
+    "id": "jr_taita-05_jr_taita-06",
     "fromStationId": "jr_taita-05",
     "toStationId": "jr_taita-06",
     "coordinates": [
-      [
-        35.42194,
-        137.05533
-      ],
       [
         35.42392,
         137.05537
       ],
       [
-        35.42562,
+        35.42393,
+        137.05537
+      ],
+      [
+        35.425625,
         137.05543
       ],
       [
@@ -771,8 +795,16 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.05222
       ],
       [
+        35.436335,
+        137.05160999999998
+      ],
+      [
         35.43711,
         137.051
+      ],
+      [
+        35.437925,
+        137.05036
       ],
       [
         35.43874,
@@ -815,16 +847,17 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.04574
       ],
       [
-        35.44393,
-        137.04555
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_taita-06_jr_taita-07",
-    "fromStationId": "jr_taita-06",
-    "toStationId": "jr_taita-07",
-    "coordinates": [
+        35.44384,
+        137.04564
+      ],
+      [
+        35.44386,
+        137.04563
+      ],
+      [
+        35.44392,
+        137.04556
+      ],
       [
         35.44393,
         137.04555
@@ -833,6 +866,17 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         35.44416,
         137.04534
       ],
+      [
+        35.44439,
+        137.04512
+      ]
+    ]
+  },
+  {
+    "id": "jr_taita-06_jr_taita-07",
+    "fromStationId": "jr_taita-06",
+    "toStationId": "jr_taita-07",
+    "coordinates": [
       [
         35.44439,
         137.04512
@@ -870,8 +914,12 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.04106
       ],
       [
-        35.4452,
-        137.03857499999998
+        35.44526333333334,
+        137.03940333333333
+      ],
+      [
+        35.44513666666667,
+        137.03774666666666
       ],
       [
         35.44501,
@@ -894,8 +942,16 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.02857
       ],
       [
+        35.44494,
+        137.02746000000002
+      ],
+      [
         35.44496,
         137.02635
+      ],
+      [
+        35.44505,
+        137.02509
       ],
       [
         35.44514,
@@ -922,8 +978,12 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
         137.02043
       ],
       [
-        35.44417,
-        137.01972
+        35.4456,
+        137.01965
+      ],
+      [
+        35.44563,
+        137.01935
       ]
     ]
   }

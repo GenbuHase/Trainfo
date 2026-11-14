@@ -2,7 +2,7 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_minobu-01_jr_minobu-02",
+    "id": "jr_minobu-01_jr_minobu-02",
     "fromStationId": "jr_minobu-01",
     "toStationId": "jr_minobu-02",
     "coordinates": [
@@ -87,20 +87,28 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.63895
       ],
       [
-        35.15697,
-        138.63901
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-02_jr_minobu-03",
-    "fromStationId": "jr_minobu-02",
-    "toStationId": "jr_minobu-03",
-    "coordinates": [
+        35.15688,
+        138.63899
+      ],
+      [
+        35.1569,
+        138.63899
+      ],
       [
         35.15697,
         138.63901
       ],
+      [
+        35.15765,
+        138.63921
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-02_jr_minobu-03",
+    "fromStationId": "jr_minobu-02",
+    "toStationId": "jr_minobu-03",
+    "coordinates": [
       [
         35.15765,
         138.63921
@@ -138,6 +146,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.64213
       ],
       [
+        35.16324,
+        138.64265
+      ],
+      [
         35.16405,
         138.64317
       ],
@@ -156,18 +168,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.16752,
         138.64545
+      ],
+      [
+        35.16861,
+        138.64613
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-03_jr_minobu-04",
+    "id": "jr_minobu-03_jr_minobu-04",
     "fromStationId": "jr_minobu-03",
     "toStationId": "jr_minobu-04",
     "coordinates": [
-      [
-        35.16752,
-        138.64545
-      ],
       [
         35.16861,
         138.64613
@@ -207,6 +219,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.17141,
         138.64866
+      ],
+      [
+        35.172005,
+        138.649595
       ],
       [
         35.1726,
@@ -343,18 +359,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.1881,
         138.64793
-      ],
-      [
-        35.1886,
-        138.64712
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-04_jr_minobu-05",
+    "id": "jr_minobu-04_jr_minobu-05",
     "fromStationId": "jr_minobu-04",
     "toStationId": "jr_minobu-05",
     "coordinates": [
+      [
+        35.1881,
+        138.64793
+      ],
       [
         35.1886,
         138.64712
@@ -492,6 +508,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.6413
       ],
       [
+        35.200295,
+        138.64062
+      ],
+      [
         35.20119,
         138.63994
       ],
@@ -538,18 +558,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.20507,
         138.63591
-      ],
-      [
-        35.20547,
-        138.63531
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-05_jr_minobu-06",
+    "id": "jr_minobu-05_jr_minobu-06",
     "fromStationId": "jr_minobu-05",
     "toStationId": "jr_minobu-06",
     "coordinates": [
+      [
+        35.20507,
+        138.63591
+      ],
       [
         35.20547,
         138.63531
@@ -577,6 +597,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.20841,
         138.63305
+      ],
+      [
+        35.209285,
+        138.632475
       ],
       [
         35.21016,
@@ -633,18 +657,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.21443,
         138.62742
-      ],
-      [
-        35.21454,
-        138.62682
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-06_jr_minobu-07",
+    "id": "jr_minobu-06_jr_minobu-07",
     "fromStationId": "jr_minobu-06",
     "toStationId": "jr_minobu-07",
     "coordinates": [
+      [
+        35.21443,
+        138.62742
+      ],
       [
         35.21454,
         138.62682
@@ -728,22 +752,22 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.22089,
         138.61665
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-07_jr_minobu-08",
+    "fromStationId": "jr_minobu-07",
+    "toStationId": "jr_minobu-08",
+    "coordinates": [
+      [
+        35.22089,
+        138.61665
       ],
       [
         35.22113,
         138.61574
       ],
-      [
-        35.22132,
-        138.61505
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-07_jr_minobu-08",
-    "fromStationId": "jr_minobu-07",
-    "toStationId": "jr_minobu-08",
-    "coordinates": [
       [
         35.22132,
         138.61505
@@ -835,6 +859,17 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.22469,
         138.60334
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-08_jr_minobu-09",
+    "fromStationId": "jr_minobu-08",
+    "toStationId": "jr_minobu-09",
+    "coordinates": [
+      [
+        35.22469,
+        138.60334
       ],
       [
         35.22493,
@@ -844,17 +879,6 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         35.22518,
         138.60276
       ],
-      [
-        35.22544,
-        138.60249
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-08_jr_minobu-09",
-    "fromStationId": "jr_minobu-08",
-    "toStationId": "jr_minobu-09",
-    "coordinates": [
       [
         35.22544,
         138.60249
@@ -1418,18 +1442,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.19963,
         138.58436
-      ],
-      [
-        35.19895,
-        138.58414
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-09_jr_minobu-10",
+    "id": "jr_minobu-09_jr_minobu-10",
     "fromStationId": "jr_minobu-09",
     "toStationId": "jr_minobu-10",
     "coordinates": [
+      [
+        35.19963,
+        138.58436
+      ],
       [
         35.19895,
         138.58414
@@ -1689,18 +1713,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.19685,
         138.56406
-      ],
-      [
-        35.19765,
-        138.5636
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-10_jr_minobu-11",
+    "id": "jr_minobu-10_jr_minobu-11",
     "fromStationId": "jr_minobu-10",
     "toStationId": "jr_minobu-11",
     "coordinates": [
+      [
+        35.19685,
+        138.56406
+      ],
       [
         35.19765,
         138.5636
@@ -2172,18 +2196,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.23022,
         138.53708
-      ],
-      [
-        35.23085,
-        138.53679
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-11_jr_minobu-12",
+    "id": "jr_minobu-11_jr_minobu-12",
     "fromStationId": "jr_minobu-11",
     "toStationId": "jr_minobu-12",
     "coordinates": [
+      [
+        35.23022,
+        138.53708
+      ],
       [
         35.23085,
         138.53679
@@ -2447,18 +2471,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.22996,
         138.51686
-      ],
-      [
-        35.23042,
-        138.51489
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-12_jr_minobu-13",
+    "id": "jr_minobu-12_jr_minobu-13",
     "fromStationId": "jr_minobu-12",
     "toStationId": "jr_minobu-13",
     "coordinates": [
+      [
+        35.22996,
+        138.51686
+      ],
       [
         35.23042,
         138.51489
@@ -2798,18 +2822,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.2473,
         138.49133
-      ],
-      [
-        35.24761,
-        138.49064
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-13_jr_minobu-14",
+    "id": "jr_minobu-13_jr_minobu-14",
     "fromStationId": "jr_minobu-13",
     "toStationId": "jr_minobu-14",
     "coordinates": [
+      [
+        35.2473,
+        138.49133
+      ],
       [
         35.24761,
         138.49064
@@ -3057,18 +3081,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.26467,
         138.47536
-      ],
-      [
-        35.265,
-        138.47463
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-14_jr_minobu-15",
+    "id": "jr_minobu-14_jr_minobu-15",
     "fromStationId": "jr_minobu-14",
     "toStationId": "jr_minobu-15",
     "coordinates": [
+      [
+        35.26467,
+        138.47536
+      ],
       [
         35.265,
         138.47463
@@ -3276,21 +3300,25 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.28191,
         138.46521
-      ],
-      [
-        35.28251,
-        138.46485
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-15_jr_minobu-16",
+    "id": "jr_minobu-15_jr_minobu-16",
     "fromStationId": "jr_minobu-15",
     "toStationId": "jr_minobu-16",
     "coordinates": [
       [
+        35.28191,
+        138.46521
+      ],
+      [
         35.28251,
         138.46485
+      ],
+      [
+        35.28264,
+        138.46477
       ],
       [
         35.28296,
@@ -3927,18 +3955,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.32784,
         138.45213
-      ],
-      [
-        35.3285,
-        138.45215
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-16_jr_minobu-17",
+    "id": "jr_minobu-16_jr_minobu-17",
     "fromStationId": "jr_minobu-16",
     "toStationId": "jr_minobu-17",
     "coordinates": [
+      [
+        35.32784,
+        138.45213
+      ],
       [
         35.3285,
         138.45215
@@ -4426,18 +4454,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.36097,
         138.453
+      ],
+      [
+        35.36193,
+        138.45312
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-17_jr_minobu-18",
+    "id": "jr_minobu-17_jr_minobu-18",
     "fromStationId": "jr_minobu-17",
     "toStationId": "jr_minobu-18",
     "coordinates": [
-      [
-        35.36097,
-        138.453
-      ],
       [
         35.36193,
         138.45312
@@ -4733,18 +4761,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.37939,
         138.45364
+      ],
+      [
+        35.37996,
+        138.45416
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-18_jr_minobu-19",
+    "id": "jr_minobu-18_jr_minobu-19",
     "fromStationId": "jr_minobu-18",
     "toStationId": "jr_minobu-19",
     "coordinates": [
-      [
-        35.37939,
-        138.45364
-      ],
       [
         35.37996,
         138.45416
@@ -5074,6 +5102,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.45678
       ],
       [
+        35.40626,
+        138.45679
+      ],
+      [
         35.40639,
         138.45684
       ],
@@ -5252,18 +5284,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.4182,
         138.45933
+      ],
+      [
+        35.41882,
+        138.46008
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-19_jr_minobu-20",
+    "id": "jr_minobu-19_jr_minobu-20",
     "fromStationId": "jr_minobu-19",
     "toStationId": "jr_minobu-20",
     "coordinates": [
-      [
-        35.4182,
-        138.45933
-      ],
       [
         35.41882,
         138.46008
@@ -5475,18 +5507,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.42555,
         138.47206
+      ],
+      [
+        35.42602,
+        138.47288
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-20_jr_minobu-21",
+    "id": "jr_minobu-20_jr_minobu-21",
     "fromStationId": "jr_minobu-20",
     "toStationId": "jr_minobu-21",
     "coordinates": [
-      [
-        35.42555,
-        138.47206
-      ],
       [
         35.42602,
         138.47288
@@ -5848,20 +5880,24 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.47709
       ],
       [
-        35.44421,
-        138.47703
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-21_jr_minobu-22",
-    "fromStationId": "jr_minobu-21",
-    "toStationId": "jr_minobu-22",
-    "coordinates": [
+        35.44399,
+        138.47706
+      ],
       [
         35.44421,
         138.47703
       ],
+      [
+        35.44516,
+        138.47691
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-21_jr_minobu-22",
+    "fromStationId": "jr_minobu-21",
+    "toStationId": "jr_minobu-22",
+    "coordinates": [
       [
         35.44516,
         138.47691
@@ -6147,20 +6183,24 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.48212
       ],
       [
-        35.46202,
-        138.48214
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-22_jr_minobu-23",
-    "fromStationId": "jr_minobu-22",
-    "toStationId": "jr_minobu-23",
-    "coordinates": [
+        35.46188,
+        138.48213
+      ],
       [
         35.46202,
         138.48214
       ],
+      [
+        35.46266,
+        138.48213
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-22_jr_minobu-23",
+    "fromStationId": "jr_minobu-22",
+    "toStationId": "jr_minobu-23",
+    "coordinates": [
       [
         35.46266,
         138.48213
@@ -6544,18 +6584,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.48143,
         138.4679
+      ],
+      [
+        35.48156,
+        138.46696
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-23_jr_minobu-24",
+    "id": "jr_minobu-23_jr_minobu-24",
     "fromStationId": "jr_minobu-23",
     "toStationId": "jr_minobu-24",
     "coordinates": [
-      [
-        35.48143,
-        138.4679
-      ],
       [
         35.48156,
         138.46696
@@ -6755,18 +6795,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.49205,
         138.46287
+      ],
+      [
+        35.49297,
+        138.46328
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-24_jr_minobu-25",
+    "id": "jr_minobu-24_jr_minobu-25",
     "fromStationId": "jr_minobu-24",
     "toStationId": "jr_minobu-25",
     "coordinates": [
-      [
-        35.49205,
-        138.46287
-      ],
       [
         35.49297,
         138.46328
@@ -6900,20 +6940,24 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.47048
       ],
       [
-        35.50335,
-        138.47096
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-25_jr_minobu-26",
-    "fromStationId": "jr_minobu-25",
-    "toStationId": "jr_minobu-26",
-    "coordinates": [
+        35.50323,
+        138.47085
+      ],
       [
         35.50335,
         138.47096
       ],
+      [
+        35.50381,
+        138.47153
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-25_jr_minobu-26",
+    "fromStationId": "jr_minobu-25",
+    "toStationId": "jr_minobu-26",
+    "coordinates": [
       [
         35.50381,
         138.47153
@@ -7601,18 +7645,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.54094,
         138.47083
+      ],
+      [
+        35.54189,
+        138.47093
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-26_jr_minobu-27",
+    "id": "jr_minobu-26_jr_minobu-27",
     "fromStationId": "jr_minobu-26",
     "toStationId": "jr_minobu-27",
     "coordinates": [
-      [
-        35.54094,
-        138.47083
-      ],
       [
         35.54189,
         138.47093
@@ -7880,18 +7924,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.56045,
         138.49239
+      ],
+      [
+        35.56048,
+        138.49402
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-27_jr_minobu-28",
+    "id": "jr_minobu-27_jr_minobu-28",
     "fromStationId": "jr_minobu-27",
     "toStationId": "jr_minobu-28",
     "coordinates": [
-      [
-        35.56045,
-        138.49239
-      ],
       [
         35.56048,
         138.49402
@@ -7915,18 +7959,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.56063,
         138.50163
+      ],
+      [
+        35.56063,
+        138.50241
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-28_jr_minobu-29",
+    "id": "jr_minobu-28_jr_minobu-29",
     "fromStationId": "jr_minobu-28",
     "toStationId": "jr_minobu-29",
     "coordinates": [
-      [
-        35.56063,
-        138.50163
-      ],
       [
         35.56063,
         138.50241
@@ -8024,6 +8068,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.50956
       ],
       [
+        35.56108,
+        138.50957
+      ],
+      [
         35.5612,
         138.5097
       ],
@@ -8046,18 +8094,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.56277,
         138.51107
+      ],
+      [
+        35.56338,
+        138.51144
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-29_jr_minobu-30",
+    "id": "jr_minobu-29_jr_minobu-30",
     "fromStationId": "jr_minobu-29",
     "toStationId": "jr_minobu-30",
     "coordinates": [
-      [
-        35.56277,
-        138.51107
-      ],
       [
         35.56338,
         138.51144
@@ -8153,17 +8201,21 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.56956,
         138.52088
+      ],
+      [
+        35.56955,
+        138.52111
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-30_jr_minobu-31",
+    "id": "jr_minobu-30_jr_minobu-31",
     "fromStationId": "jr_minobu-30",
     "toStationId": "jr_minobu-31",
     "coordinates": [
       [
-        35.56956,
-        138.52088
+        35.56955,
+        138.52111
       ],
       [
         35.56956,
@@ -8386,6 +8438,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.52583
       ],
       [
+        35.58843,
+        138.52599500000002
+      ],
+      [
         35.58946,
         138.52616
       ],
@@ -8404,18 +8460,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.59443,
         138.52696
+      ],
+      [
+        35.59527,
+        138.52709
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-31_jr_minobu-32",
+    "id": "jr_minobu-31_jr_minobu-32",
     "fromStationId": "jr_minobu-31",
     "toStationId": "jr_minobu-32",
     "coordinates": [
-      [
-        35.59443,
-        138.52696
-      ],
       [
         35.59527,
         138.52709
@@ -8451,21 +8507,25 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.60418,
         138.52849
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-32_jr_minobu-33",
-    "fromStationId": "jr_minobu-32",
-    "toStationId": "jr_minobu-33",
-    "coordinates": [
-      [
-        35.60418,
-        138.52849
       ],
       [
         35.60488,
         138.5286
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-32_jr_minobu-33",
+    "fromStationId": "jr_minobu-32",
+    "toStationId": "jr_minobu-33",
+    "coordinates": [
+      [
+        35.60488,
+        138.5286
+      ],
+      [
+        35.60589,
+        138.52876
       ],
       [
         35.6069,
@@ -8486,6 +8546,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.61063,
         138.52952
+      ],
+      [
+        35.61159,
+        138.52967999999998
       ],
       [
         35.61255,
@@ -8542,25 +8606,29 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.61668,
         138.53273
+      ],
+      [
+        35.6174,
+        138.53352
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-33_jr_minobu-34",
+    "id": "jr_minobu-33_jr_minobu-34",
     "fromStationId": "jr_minobu-33",
     "toStationId": "jr_minobu-34",
     "coordinates": [
-      [
-        35.61668,
-        138.53273
-      ],
       [
         35.6174,
         138.53352
       ],
       [
-        35.618845,
-        138.53513
+        35.618363333333335,
+        138.53459333333333
+      ],
+      [
+        35.619326666666666,
+        138.53566666666669
       ],
       [
         35.62029,
@@ -8652,15 +8720,8 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         35.63025,
-        138.5511
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-34_jr_minobu-35",
-    "fromStationId": "jr_minobu-34",
-    "toStationId": "jr_minobu-35",
-    "coordinates": [
+        138.55108
+      ],
       [
         35.63025,
         138.5511
@@ -8668,10 +8729,25 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.63087,
         138.553
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-34_jr_minobu-35",
+    "fromStationId": "jr_minobu-34",
+    "toStationId": "jr_minobu-35",
+    "coordinates": [
+      [
+        35.63087,
+        138.553
       ],
       [
         35.6312,
         138.55401
+      ],
+      [
+        35.631595000000004,
+        138.55527999999998
       ],
       [
         35.63199,
@@ -8732,18 +8808,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.63638,
         138.56964
+      ],
+      [
+        35.63681,
+        138.57024
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-35_jr_minobu-36",
+    "id": "jr_minobu-35_jr_minobu-36",
     "fromStationId": "jr_minobu-35",
     "toStationId": "jr_minobu-36",
     "coordinates": [
-      [
-        35.63638,
-        138.56964
-      ],
       [
         35.63681,
         138.57024
@@ -8779,18 +8855,18 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.64389,
         138.57835
+      ],
+      [
+        35.64418,
+        138.57869
       ]
     ]
   },
   {
-    "segmentId": "jr_minobu-36_jr_minobu-37",
+    "id": "jr_minobu-36_jr_minobu-37",
     "fromStationId": "jr_minobu-36",
     "toStationId": "jr_minobu-37",
     "coordinates": [
-      [
-        35.64389,
-        138.57835
-      ],
       [
         35.64418,
         138.57869
@@ -8936,20 +9012,24 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.58969
       ],
       [
-        35.65957,
-        138.58949
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-37_jr_minobu-38",
-    "fromStationId": "jr_minobu-37",
-    "toStationId": "jr_minobu-38",
-    "coordinates": [
+        35.65943,
+        138.58961
+      ],
       [
         35.65957,
         138.58949
       ],
+      [
+        35.6601,
+        138.58896
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-37_jr_minobu-38",
+    "fromStationId": "jr_minobu-37",
+    "toStationId": "jr_minobu-38",
+    "coordinates": [
       [
         35.6601,
         138.58896
@@ -9035,20 +9115,28 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.57949
       ],
       [
-        35.66198,
-        138.57916
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_minobu-38_jr_minobu-39",
-    "fromStationId": "jr_minobu-38",
-    "toStationId": "jr_minobu-39",
-    "coordinates": [
+        35.66186,
+        138.57937
+      ],
+      [
+        35.66191,
+        138.57926
+      ],
       [
         35.66198,
         138.57916
       ],
+      [
+        35.66245,
+        138.57858
+      ]
+    ]
+  },
+  {
+    "id": "jr_minobu-38_jr_minobu-39",
+    "fromStationId": "jr_minobu-38",
+    "toStationId": "jr_minobu-39",
+    "coordinates": [
       [
         35.66245,
         138.57858
@@ -9132,10 +9220,6 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.66664,
         138.56991
-      ],
-      [
-        35.667151,
-        138.568991
       ]
     ]
   }

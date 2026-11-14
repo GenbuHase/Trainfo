@@ -2,18 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_hanwa-01_jr_hanwa-02",
+    "id": "jr_hanwa-01_jr_hanwa-02",
     "fromStationId": "jr_hanwa-01",
     "toStationId": "jr_hanwa-02",
     "coordinates": [
-      [
-        34.64722,
-        135.51389
-      ],
-      [
-        34.64756,
-        135.5145
-      ],
       [
         34.64707,
         135.5161
@@ -115,20 +107,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.52375
       ],
       [
+        34.6394,
+        135.52377
+      ],
+      [
         34.63922,
+        135.52378
+      ],
+      [
+        34.63804,
         135.52378
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-02_jr_hanwa-03",
+    "id": "jr_hanwa-02_jr_hanwa-03",
     "fromStationId": "jr_hanwa-02",
     "toStationId": "jr_hanwa-03",
     "coordinates": [
-      [
-        34.63922,
-        135.52378
-      ],
       [
         34.63804,
         135.52378
@@ -142,8 +138,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.52378
       ],
       [
+        34.636455,
+        135.523765
+      ],
+      [
         34.63553,
         135.52375
+      ],
+      [
+        34.634605,
+        135.523735
       ],
       [
         34.63368,
@@ -190,6 +194,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.52284
       ],
       [
+        34.629145,
+        135.52244000000002
+      ],
+      [
         34.62823,
         135.52204
       ],
@@ -204,18 +212,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62601,
         135.52106
+      ],
+      [
+        34.62511,
+        135.52069
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-03_jr_hanwa-04",
+    "id": "jr_hanwa-03_jr_hanwa-04",
     "fromStationId": "jr_hanwa-03",
     "toStationId": "jr_hanwa-04",
     "coordinates": [
-      [
-        34.62601,
-        135.52106
-      ],
       [
         34.62511,
         135.52069
@@ -225,8 +233,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.52041
       ],
       [
+        34.623605,
+        135.51997
+      ],
+      [
         34.62268,
         135.51953
+      ],
+      [
+        34.621735,
+        135.51906
       ],
       [
         34.62079,
@@ -239,18 +255,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61865,
         135.51745
+      ],
+      [
+        34.6174,
+        135.51675
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-04_jr_hanwa-05",
+    "id": "jr_hanwa-04_jr_hanwa-05",
     "fromStationId": "jr_hanwa-04",
     "toStationId": "jr_hanwa-05",
     "coordinates": [
-      [
-        34.61865,
-        135.51745
-      ],
       [
         34.6174,
         135.51675
@@ -268,8 +284,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.51535
       ],
       [
+        34.61422,
+        135.51476000000002
+      ],
+      [
         34.61328,
         135.51417
+      ],
+      [
+        34.61233,
+        135.513595
       ],
       [
         34.61138,
@@ -278,18 +302,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61108,
         135.51286
+      ],
+      [
+        34.60996,
+        135.51217
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-05_jr_hanwa-06",
+    "id": "jr_hanwa-05_jr_hanwa-06",
     "fromStationId": "jr_hanwa-05",
     "toStationId": "jr_hanwa-06",
     "coordinates": [
-      [
-        34.61108,
-        135.51286
-      ],
       [
         34.60996,
         135.51217
@@ -299,8 +323,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.51189
       ],
       [
+        34.608595,
+        135.511315
+      ],
+      [
         34.60767,
         135.51074
+      ],
+      [
+        34.606745000000004,
+        135.510155
       ],
       [
         34.60582,
@@ -329,18 +361,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.6029,
         135.50753
+      ],
+      [
+        34.60168,
+        135.50654
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-06_jr_hanwa-07",
+    "id": "jr_hanwa-06_jr_hanwa-07",
     "fromStationId": "jr_hanwa-06",
     "toStationId": "jr_hanwa-07",
     "coordinates": [
-      [
-        34.6029,
-        135.50753
-      ],
       [
         34.60168,
         135.50654
@@ -408,18 +440,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.59364,
         135.50307
+      ],
+      [
+        34.59238,
+        135.50297
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-07_jr_hanwa-08",
+    "id": "jr_hanwa-07_jr_hanwa-08",
     "fromStationId": "jr_hanwa-07",
     "toStationId": "jr_hanwa-08",
     "coordinates": [
-      [
-        34.59364,
-        135.50307
-      ],
       [
         34.59238,
         135.50297
@@ -433,8 +465,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.50286
       ],
       [
+        34.59012,
+        135.502795
+      ],
+      [
         34.58918,
         135.50273
+      ],
+      [
+        34.588245,
+        135.502665
       ],
       [
         34.58731,
@@ -455,22 +495,22 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.58581,
         135.50255
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-08_jr_hanwa-09",
+    "fromStationId": "jr_hanwa-08",
+    "toStationId": "jr_hanwa-09",
+    "coordinates": [
+      [
+        34.58581,
+        135.50255
       ],
       [
         34.58568,
         135.50253
       ],
-      [
-        34.58531,
-        135.50249
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-08_jr_hanwa-09",
-    "fromStationId": "jr_hanwa-08",
-    "toStationId": "jr_hanwa-09",
-    "coordinates": [
       [
         34.58531,
         135.50249
@@ -522,21 +562,25 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.57827,
         135.49902
-      ],
-      [
-        34.57697,
-        135.49832
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-09_jr_hanwa-10",
+    "id": "jr_hanwa-09_jr_hanwa-10",
     "fromStationId": "jr_hanwa-09",
     "toStationId": "jr_hanwa-10",
     "coordinates": [
       [
+        34.57827,
+        135.49902
+      ],
+      [
         34.57697,
         135.49832
+      ],
+      [
+        34.576080000000005,
+        135.49779999999998
       ],
       [
         34.57519,
@@ -583,6 +627,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.49437
       ],
       [
+        34.56858,
+        135.49393
+      ],
+      [
         34.56762,
         135.49349
       ],
@@ -593,21 +641,25 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.56667,
         135.49299
-      ],
-      [
-        34.56573,
-        135.49255
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-10_jr_hanwa-11",
+    "id": "jr_hanwa-10_jr_hanwa-11",
     "fromStationId": "jr_hanwa-10",
     "toStationId": "jr_hanwa-11",
     "coordinates": [
       [
+        34.56667,
+        135.49299
+      ],
+      [
         34.56573,
         135.49255
+      ],
+      [
+        34.564725,
+        135.49211
       ],
       [
         34.56372,
@@ -632,18 +684,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.55921,
         135.48953
-      ],
-      [
-        34.55787,
-        135.48875
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-11_jr_hanwa-12",
+    "id": "jr_hanwa-11_jr_hanwa-12",
     "fromStationId": "jr_hanwa-11",
     "toStationId": "jr_hanwa-12",
     "coordinates": [
+      [
+        34.55921,
+        135.48953
+      ],
       [
         34.55787,
         135.48875
@@ -685,6 +737,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.48448
       ],
       [
+        34.55349,
+        135.483545
+      ],
+      [
         34.55279,
         135.48261
       ],
@@ -709,6 +765,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.48165
       ],
       [
+        34.551395,
+        135.48075
+      ],
+      [
         34.55072,
         135.47985
       ],
@@ -719,21 +779,29 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.55003,
         135.47893
-      ],
-      [
-        34.54877,
-        135.47714
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-12_jr_hanwa-13",
+    "id": "jr_hanwa-12_jr_hanwa-13",
     "fromStationId": "jr_hanwa-12",
     "toStationId": "jr_hanwa-13",
     "coordinates": [
       [
+        34.55003,
+        135.47893
+      ],
+      [
+        34.5494,
+        135.47803499999998
+      ],
+      [
         34.54877,
         135.47714
+      ],
+      [
+        34.54875,
+        135.47712
       ],
       [
         34.54784,
@@ -802,18 +870,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.54268,
         135.46879
-      ],
-      [
-        34.54188,
-        135.46771
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-13_jr_hanwa-14",
+    "id": "jr_hanwa-13_jr_hanwa-14",
     "fromStationId": "jr_hanwa-13",
     "toStationId": "jr_hanwa-14",
     "coordinates": [
+      [
+        34.54268,
+        135.46879
+      ],
       [
         34.54188,
         135.46771
@@ -857,6 +925,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.53944,
         135.46512
+      ],
+      [
+        34.538650000000004,
+        135.46446500000002
       ],
       [
         34.53786,
@@ -909,18 +981,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.5327,
         135.45954
-      ],
-      [
-        34.53227,
-        135.45918
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-14_jr_hanwa-15",
+    "id": "jr_hanwa-14_jr_hanwa-15",
     "fromStationId": "jr_hanwa-14",
     "toStationId": "jr_hanwa-15",
     "coordinates": [
+      [
+        34.5327,
+        135.45954
+      ],
       [
         34.53227,
         135.45918
@@ -978,24 +1050,28 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.45304
       ],
       [
+        34.52393,
+        135.452375
+      ],
+      [
         34.52311,
         135.45171
       ],
       [
         34.52306,
         135.45166
-      ],
-      [
-        34.52198,
-        135.45078
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-15_jr_hanwa-16",
+    "id": "jr_hanwa-15_jr_hanwa-16",
     "fromStationId": "jr_hanwa-15",
     "toStationId": "jr_hanwa-16",
     "coordinates": [
+      [
+        34.52306,
+        135.45166
+      ],
       [
         34.52198,
         135.45078
@@ -1019,6 +1095,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.51927,
         135.44854
+      ],
+      [
+        34.5184,
+        135.44783
       ],
       [
         34.51753,
@@ -1059,18 +1139,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.51116,
         135.44195
-      ],
-      [
-        34.50992,
-        135.44092
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-16_jr_hanwa-17",
+    "id": "jr_hanwa-16_jr_hanwa-17",
     "fromStationId": "jr_hanwa-16",
     "toStationId": "jr_hanwa-17",
     "coordinates": [
+      [
+        34.51116,
+        135.44195
+      ],
       [
         34.50992,
         135.44092
@@ -1120,9 +1200,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.43547
       ],
       [
+        34.502430000000004,
+        135.43476
+      ],
+      [
         34.50159,
         135.43405
       ],
+      [
+        34.50089,
+        135.43346
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-17_jr_hanwa-18",
+    "fromStationId": "jr_hanwa-17",
+    "toStationId": "jr_hanwa-18",
+    "coordinates": [
       [
         34.50089,
         135.43346
@@ -1130,21 +1225,14 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49963,
         135.43247
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-17_jr_hanwa-18",
-    "fromStationId": "jr_hanwa-17",
-    "toStationId": "jr_hanwa-18",
-    "coordinates": [
-      [
-        34.49963,
-        135.43247
       ],
       [
         34.49944,
         135.43232
+      ],
+      [
+        34.498509999999996,
+        135.43159
       ],
       [
         34.49758,
@@ -1161,6 +1249,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49468,
         135.42872
+      ],
+      [
+        34.49391,
+        135.42815000000002
       ],
       [
         34.49314,
@@ -1185,18 +1277,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.48873,
         135.42441
-      ],
-      [
-        34.48724,
-        135.42333
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-18_jr_hanwa-19",
+    "id": "jr_hanwa-18_jr_hanwa-19",
     "fromStationId": "jr_hanwa-18",
     "toStationId": "jr_hanwa-19",
     "coordinates": [
+      [
+        34.48873,
+        135.42441
+      ],
       [
         34.48724,
         135.42333
@@ -1224,6 +1316,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.48202,
         135.41951
+      ],
+      [
+        34.48117,
+        135.41890999999998
       ],
       [
         34.48032,
@@ -1256,6 +1352,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.47616,
         135.41529
+      ],
+      [
+        34.475215,
+        135.414615
       ],
       [
         34.47427,
@@ -1294,9 +1394,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.40817
       ],
       [
+        34.46758,
+        135.40745500000003
+      ],
+      [
         34.46688,
         135.40674
       ],
+      [
+        34.46614,
+        135.40597
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-19_jr_hanwa-20",
+    "fromStationId": "jr_hanwa-19",
+    "toStationId": "jr_hanwa-20",
+    "coordinates": [
       [
         34.46614,
         135.40597
@@ -1304,21 +1419,14 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.46523,
         135.40502
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-19_jr_hanwa-20",
-    "fromStationId": "jr_hanwa-19",
-    "toStationId": "jr_hanwa-20",
-    "coordinates": [
-      [
-        34.46523,
-        135.40502
       ],
       [
         34.46443,
         135.40418
+      ],
+      [
+        34.463695,
+        135.40343000000001
       ],
       [
         34.46296,
@@ -1355,21 +1463,25 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.45788,
         135.39739
-      ],
-      [
-        34.45698,
-        135.39648
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-20_jr_hanwa-21",
+    "id": "jr_hanwa-20_jr_hanwa-21",
     "fromStationId": "jr_hanwa-20",
     "toStationId": "jr_hanwa-21",
     "coordinates": [
       [
+        34.45788,
+        135.39739
+      ],
+      [
         34.45698,
         135.39648
+      ],
+      [
+        34.45688,
+        135.39637
       ],
       [
         34.45608,
@@ -1418,18 +1530,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.44981,
         135.38655
-      ],
-      [
-        34.44884,
-        135.3851
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-21_jr_hanwa-22",
+    "id": "jr_hanwa-21_jr_hanwa-22",
     "fromStationId": "jr_hanwa-21",
     "toStationId": "jr_hanwa-22",
     "coordinates": [
+      [
+        34.44981,
+        135.38655
+      ],
       [
         34.44884,
         135.3851
@@ -1483,9 +1595,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.37566
       ],
       [
+        34.44136,
+        135.37482
+      ],
+      [
         34.44075,
         135.37398
       ],
+      [
+        34.4405,
+        135.37364
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-22_jr_hanwa-23",
+    "fromStationId": "jr_hanwa-22",
+    "toStationId": "jr_hanwa-23",
+    "coordinates": [
       [
         34.4405,
         135.37364
@@ -1493,21 +1620,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.4396,
         135.37243
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-22_jr_hanwa-23",
-    "fromStationId": "jr_hanwa-22",
-    "toStationId": "jr_hanwa-23",
-    "coordinates": [
+      ],
       [
-        34.4396,
-        135.37243
+        34.43947,
+        135.37227
       ],
       [
         34.43942,
         135.37221
+      ],
+      [
+        34.438755,
+        135.371275
       ],
       [
         34.43809,
@@ -1584,18 +1708,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.42768,
         135.35911
-      ],
-      [
-        34.42692,
-        135.35854
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-23_jr_hanwa-24",
+    "id": "jr_hanwa-23_jr_hanwa-24",
     "fromStationId": "jr_hanwa-23",
     "toStationId": "jr_hanwa-24",
     "coordinates": [
+      [
+        34.42768,
+        135.35911
+      ],
       [
         34.42692,
         135.35854
@@ -1611,6 +1735,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.42327,
         135.35598
+      ],
+      [
+        34.422385000000006,
+        135.35521
       ],
       [
         34.4215,
@@ -1633,6 +1761,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.35284
       ],
       [
+        34.41976,
+        135.35283
+      ],
+      [
         34.41931,
         135.35235
       ],
@@ -1645,20 +1777,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.35176
       ],
       [
-        34.41708,
-        135.35042
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-24_jr_hanwa-25",
-    "fromStationId": "jr_hanwa-24",
-    "toStationId": "jr_hanwa-25",
-    "coordinates": [
+        34.41724,
+        135.35056
+      ],
       [
         34.41708,
         135.35042
       ],
+      [
+        34.41619,
+        135.34966
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-24_jr_hanwa-25",
+    "fromStationId": "jr_hanwa-24",
+    "toStationId": "jr_hanwa-25",
+    "coordinates": [
       [
         34.41619,
         135.34966
@@ -1712,20 +1848,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.34206
       ],
       [
-        34.407,
-        135.3418
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-25_jr_hanwa-26",
-    "fromStationId": "jr_hanwa-25",
-    "toStationId": "jr_hanwa-26",
-    "coordinates": [
+        34.4071,
+        135.34189
+      ],
       [
         34.407,
         135.3418
       ],
+      [
+        34.40558,
+        135.34063
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-25_jr_hanwa-26",
+    "fromStationId": "jr_hanwa-25",
+    "toStationId": "jr_hanwa-26",
+    "coordinates": [
       [
         34.40558,
         135.34063
@@ -1767,6 +1907,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.33559
       ],
       [
+        34.397904999999994,
+        135.33505
+      ],
+      [
         34.39691,
         135.33451
       ],
@@ -1791,20 +1935,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.3322
       ],
       [
-        34.39111,
-        135.33417
+        34.39149,
+        135.3317
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-26_jr_hanwa-27",
+    "id": "jr_hanwa-26_jr_hanwa-27",
     "fromStationId": "jr_hanwa-26",
     "toStationId": "jr_hanwa-27",
     "coordinates": [
-      [
-        34.39111,
-        135.33417
-      ],
       [
         34.39149,
         135.3317
@@ -1856,18 +1996,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.3823,
         135.32065
+      ],
+      [
+        34.38156,
+        135.31948
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-27_jr_hanwa-28",
+    "id": "jr_hanwa-27_jr_hanwa-28",
     "fromStationId": "jr_hanwa-27",
     "toStationId": "jr_hanwa-28",
     "coordinates": [
-      [
-        34.3823,
-        135.32065
-      ],
       [
         34.38156,
         135.31948
@@ -1877,8 +2017,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.31883
       ],
       [
+        34.38053,
+        135.31797
+      ],
+      [
         34.37992,
         135.31711
+      ],
+      [
+        34.379305,
+        135.3162
       ],
       [
         34.37869,
@@ -1907,6 +2055,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.37621,
         135.31018
+      ],
+      [
+        34.37592,
+        135.309045
       ],
       [
         34.37563,
@@ -1955,18 +2107,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.37272,
         135.29977
+      ],
+      [
+        34.37199,
+        135.29847
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-28_jr_hanwa-29",
+    "id": "jr_hanwa-28_jr_hanwa-29",
     "fromStationId": "jr_hanwa-28",
     "toStationId": "jr_hanwa-29",
     "coordinates": [
-      [
-        34.37272,
-        135.29977
-      ],
       [
         34.37199,
         135.29847
@@ -2012,6 +2164,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.28956
       ],
       [
+        34.36623,
+        135.288475
+      ],
+      [
         34.36564,
         135.28739
       ],
@@ -2028,6 +2184,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.28522
       ],
       [
+        34.363389999999995,
+        135.284475
+      ],
+      [
         34.36269,
         135.28373
       ],
@@ -2042,18 +2202,22 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.36096,
         135.28196
+      ],
+      [
+        34.360235,
+        135.281195
+      ],
+      [
+        34.35951,
+        135.28043
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-29_jr_hanwa-30",
+    "id": "jr_hanwa-29_jr_hanwa-30",
     "fromStationId": "jr_hanwa-29",
     "toStationId": "jr_hanwa-30",
     "coordinates": [
-      [
-        34.36096,
-        135.28196
-      ],
       [
         34.35951,
         135.28043
@@ -2063,12 +2227,24 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.28029
       ],
       [
+        34.358525,
+        135.279425
+      ],
+      [
         34.35769,
         135.27856
       ],
       [
+        34.356875,
+        135.27772
+      ],
+      [
         34.35606,
         135.27688
+      ],
+      [
+        34.355255,
+        135.27605499999999
       ],
       [
         34.35445,
@@ -2173,22 +2349,22 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.34275,
         135.26323
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hanwa-30_jr_hanwa-31",
-    "fromStationId": "jr_hanwa-30",
-    "toStationId": "jr_hanwa-31",
-    "coordinates": [
-      [
-        34.34275,
-        135.26323
       ],
       [
         34.34245,
         135.26318
       ],
+      [
+        34.34183,
+        135.26315
+      ]
+    ]
+  },
+  {
+    "id": "jr_hanwa-30_jr_hanwa-31",
+    "fromStationId": "jr_hanwa-30",
+    "toStationId": "jr_hanwa-31",
+    "coordinates": [
       [
         34.34183,
         135.26315
@@ -2332,18 +2508,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.32591,
         135.26991
-      ],
-      [
-        34.32516,
-        135.26944
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-31_jr_hanwa-32",
+    "id": "jr_hanwa-31_jr_hanwa-32",
     "fromStationId": "jr_hanwa-31",
     "toStationId": "jr_hanwa-32",
     "coordinates": [
+      [
+        34.32591,
+        135.26991
+      ],
       [
         34.32516,
         135.26944
@@ -2517,12 +2693,20 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.27098
       ],
       [
+        34.29565,
+        135.27125
+      ],
+      [
         34.29455,
         135.27152
       ],
       [
         34.29363,
         135.27174
+      ],
+      [
+        34.292625,
+        135.27199000000002
       ],
       [
         34.29162,
@@ -2747,21 +2931,25 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.26929,
         135.24678
-      ],
-      [
-        34.26922,
-        135.24575
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-32_jr_hanwa-33",
+    "id": "jr_hanwa-32_jr_hanwa-33",
     "fromStationId": "jr_hanwa-32",
     "toStationId": "jr_hanwa-33",
     "coordinates": [
       [
+        34.26929,
+        135.24678
+      ],
+      [
         34.26922,
         135.24575
+      ],
+      [
+        34.26921,
+        135.24562
       ],
       [
         34.26915,
@@ -3056,6 +3244,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.216
       ],
       [
+        34.26723,
+        135.21599
+      ],
+      [
         34.26707,
         135.21406
       ],
@@ -3158,18 +3350,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.26307,
         135.20761
-      ],
-      [
-        34.26223,
-        135.20716
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-33_jr_hanwa-34",
+    "id": "jr_hanwa-33_jr_hanwa-34",
     "fromStationId": "jr_hanwa-33",
     "toStationId": "jr_hanwa-34",
     "coordinates": [
+      [
+        34.26307,
+        135.20761
+      ],
       [
         34.26223,
         135.20716
@@ -3349,18 +3541,18 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.24315,
         135.19048
+      ],
+      [
+        34.24255,
+        135.1899
       ]
     ]
   },
   {
-    "segmentId": "jr_hanwa-34_jr_hanwa-35",
+    "id": "jr_hanwa-34_jr_hanwa-35",
     "fromStationId": "jr_hanwa-34",
     "toStationId": "jr_hanwa-35",
     "coordinates": [
-      [
-        34.24315,
-        135.19048
-      ],
       [
         34.24255,
         135.1899
@@ -3424,10 +3616,6 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.23334,
         135.19123
-      ],
-      [
-        34.2325,
-        135.19167
       ]
     ]
   }

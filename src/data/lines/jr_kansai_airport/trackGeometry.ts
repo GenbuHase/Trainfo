@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_kansai_airport-01_jr_kansai_airport-02",
+    "id": "jr_kansai_airport-01_jr_kansai_airport-02",
     "fromStationId": "jr_kansai_airport-01",
     "toStationId": "jr_kansai_airport-02",
     "coordinates": [
-      [
-        34.39111,
-        135.33417
-      ],
       [
         34.39149,
         135.3317
@@ -143,6 +139,10 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
         135.30937
       ],
       [
+        34.404525,
+        135.308425
+      ],
+      [
         34.40528,
         135.30748
       ],
@@ -161,6 +161,10 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.40722,
         135.3046
+      ],
+      [
+        34.40778,
+        135.303715
       ],
       [
         34.40834,
@@ -193,21 +197,17 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.41143,
         135.29887
-      ],
-      [
-        34.41083,
-        135.29778
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_airport-02_jr_kansai_airport-03",
+    "id": "jr_kansai_airport-02_jr_kansai_airport-03",
     "fromStationId": "jr_kansai_airport-02",
     "toStationId": "jr_kansai_airport-03",
     "coordinates": [
       [
-        34.41083,
-        135.29778
+        34.41143,
+        135.29887
       ],
       [
         34.41173,
@@ -270,12 +270,20 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
         135.2923
       ],
       [
+        34.41646,
+        135.29146500000002
+      ],
+      [
         34.41709,
         135.29063
       ],
       [
-        34.418395000000004,
-        135.28888999999998
+        34.41796,
+        135.28947
+      ],
+      [
+        34.41883,
+        135.28831
       ],
       [
         34.4197,
@@ -294,8 +302,16 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
         135.28539
       ],
       [
+        34.42162999999999,
+        135.284515
+      ],
+      [
         34.42229,
         135.28364
+      ],
+      [
+        34.422979999999995,
+        135.282715
       ],
       [
         34.42367,
@@ -304,6 +320,10 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.42484,
         135.28024
+      ],
+      [
+        34.42545,
+        135.27942000000002
       ],
       [
         34.42606,
@@ -322,16 +342,28 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
         135.27592
       ],
       [
-        34.42948,
-        135.274025
+        34.429006666666666,
+        135.2746566666667
+      ],
+      [
+        34.42995333333334,
+        135.27339333333333
       ],
       [
         34.4309,
         135.27213
       ],
       [
+        34.43153,
+        135.27129000000002
+      ],
+      [
         34.43216,
         135.27045
+      ],
+      [
+        34.43279,
+        135.269615
       ],
       [
         34.43342,
@@ -360,6 +392,10 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.43884,
         135.26292
+      ],
+      [
+        34.439685,
+        135.262065
       ],
       [
         34.44053,
@@ -446,6 +482,10 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
         135.24722
       ],
       [
+        34.439445,
+        135.246655
+      ],
+      [
         34.43855,
         135.24609
       ],
@@ -474,8 +514,24 @@ export const JR_KANSAI_AIRPORT_TRACK_SEGMENTS: TrackSegment[] = [
         135.24349
       ],
       [
+        34.43533,
+        135.2425
+      ],
+      [
         34.43528,
-        135.24361
+        135.2424
+      ],
+      [
+        34.4349,
+        135.24171
+      ],
+      [
+        34.43461,
+        135.24112
+      ],
+      [
+        34.43439,
+        135.24057
       ]
     ]
   }

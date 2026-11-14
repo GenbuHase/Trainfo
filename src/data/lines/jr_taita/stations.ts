@@ -9,8 +9,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "多治見",
     "nameKana": "たじみ",
     "nameEn": "Tajimi",
-    "lat": 35.33472,
-    "lng": 137.12111,
+    "lat": 35.33454,
+    "lng": 137.11974,
     "transfers": [
       "ＪＲ中央本線"
     ],
@@ -39,8 +39,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "根本",
     "nameKana": "ねもと",
     "nameEn": "Nemoto",
-    "lat": 35.36174,
-    "lng": 137.09002,
+    "lat": 35.3612,
+    "lng": 137.09027,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -67,8 +67,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "姫",
     "nameKana": "ひめ",
     "nameEn": "Hime",
-    "lat": 35.38235,
-    "lng": 137.07198,
+    "lat": 35.38165,
+    "lng": 137.07225,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -95,8 +95,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "下切",
     "nameKana": "しもぎり",
     "nameEn": "Shimogiri",
-    "lat": 35.39408,
-    "lng": 137.06359,
+    "lat": 35.39339,
+    "lng": 137.06384,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -123,8 +123,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "可児",
     "nameKana": "かに",
     "nameEn": "Kani",
-    "lat": 35.42194,
-    "lng": 137.05533,
+    "lat": 35.42392,
+    "lng": 137.05537,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -151,8 +151,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "美濃川合",
     "nameKana": "みのかわい",
     "nameEn": "Mino-Kawai",
-    "lat": 35.44393,
-    "lng": 137.04555,
+    "lat": 35.44439,
+    "lng": 137.04512,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -179,8 +179,8 @@ export const JR_TAITA_STATIONS: Station[] = [
     "name": "美濃太田",
     "nameKana": "みのおおた",
     "nameEn": "Mino-Ota",
-    "lat": 35.44417,
-    "lng": 137.01972,
+    "lat": 35.44563,
+    "lng": 137.01935,
     "transfers": [
       "ＪＲ高山本線",
       "長良川鉄道"

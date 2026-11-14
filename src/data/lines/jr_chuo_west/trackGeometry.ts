@@ -2,22 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_chuo_west-01_jr_chuo_west-02",
+    "id": "jr_chuo_west-01_jr_chuo_west-02",
     "fromStationId": "jr_chuo_west-01",
     "toStationId": "jr_chuo_west-02",
     "coordinates": [
-      [
-        35.17208,
-        136.88033
-      ],
-      [
-        35.17197,
-        136.88137
-      ],
-      [
-        35.17112,
-        136.8818
-      ],
       [
         35.16994,
         136.8824
@@ -105,6 +93,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.15649,
         136.88714
+      ],
+      [
+        35.1554,
+        136.88741499999998
       ],
       [
         35.15431,
@@ -233,21 +225,21 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.14362,
         136.8998
-      ],
-      [
-        35.14265,
-        136.90122
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-02_jr_chuo_west-03",
+    "id": "jr_chuo_west-02_jr_chuo_west-03",
     "fromStationId": "jr_chuo_west-02",
     "toStationId": "jr_chuo_west-03",
     "coordinates": [
       [
-        35.14265,
-        136.90122
+        35.14362,
+        136.8998
+      ],
+      [
+        35.143294999999995,
+        136.90085
       ],
       [
         35.14297,
@@ -330,6 +322,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.90728
       ],
       [
+        35.14596,
+        136.90796
+      ],
+      [
         35.1467,
         136.90864
       ],
@@ -404,21 +400,29 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.15614,
         136.91739
-      ],
-      [
-        35.15785,
-        136.91896
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-03_jr_chuo_west-04",
+    "id": "jr_chuo_west-03_jr_chuo_west-04",
     "fromStationId": "jr_chuo_west-03",
     "toStationId": "jr_chuo_west-04",
     "coordinates": [
       [
+        35.15614,
+        136.91739
+      ],
+      [
+        35.156995,
+        136.91817500000002
+      ],
+      [
         35.15785,
         136.91896
+      ],
+      [
+        35.15793,
+        136.91904
       ],
       [
         35.15858,
@@ -529,16 +533,13 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.92997
       ],
       [
-        35.17003,
-        136.93025
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-04_jr_chuo_west-05",
-    "fromStationId": "jr_chuo_west-04",
-    "toStationId": "jr_chuo_west-05",
-    "coordinates": [
+        35.16988,
+        136.93011
+      ],
+      [
+        35.1699,
+        136.93013
+      ],
       [
         35.17003,
         136.93025
@@ -547,6 +548,17 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         35.170925,
         136.931095
       ],
+      [
+        35.17182,
+        136.93194
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-04_jr_chuo_west-05",
+    "fromStationId": "jr_chuo_west-04",
+    "toStationId": "jr_chuo_west-05",
+    "coordinates": [
       [
         35.17182,
         136.93194
@@ -638,22 +650,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.18809,
         136.93718
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-05_jr_chuo_west-06",
-    "fromStationId": "jr_chuo_west-05",
-    "toStationId": "jr_chuo_west-06",
-    "coordinates": [
-      [
-        35.18809,
-        136.93718
       ],
       [
         35.18947,
         136.93718
       ],
+      [
+        35.19085,
+        136.93718
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-05_jr_chuo_west-06",
+    "fromStationId": "jr_chuo_west-05",
+    "toStationId": "jr_chuo_west-06",
+    "coordinates": [
       [
         35.19085,
         136.93718
@@ -807,20 +819,28 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.94874
       ],
       [
-        35.20522,
-        136.94973
+        35.204395,
+        136.949235
       ],
       [
-        35.20592,
-        136.95017
+        35.20522,
+        136.94973
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-06_jr_chuo_west-07",
+    "id": "jr_chuo_west-06_jr_chuo_west-07",
     "fromStationId": "jr_chuo_west-06",
     "toStationId": "jr_chuo_west-07",
     "coordinates": [
+      [
+        35.20522,
+        136.94973
+      ],
+      [
+        35.20572,
+        136.95005
+      ],
       [
         35.20592,
         136.95017
@@ -918,8 +938,12 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.95268
       ],
       [
-        35.220415,
-        136.95224
+        35.21976666666667,
+        136.95238666666665
+      ],
+      [
+        35.22106333333333,
+        136.95209333333332
       ],
       [
         35.22236,
@@ -988,22 +1012,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.22912,
         136.95533
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-07_jr_chuo_west-08",
-    "fromStationId": "jr_chuo_west-07",
-    "toStationId": "jr_chuo_west-08",
-    "coordinates": [
-      [
-        35.22912,
-        136.95533
       ],
       [
         35.2299,
         136.95646
       ],
+      [
+        35.23068,
+        136.95759
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-07_jr_chuo_west-08",
+    "fromStationId": "jr_chuo_west-07",
+    "toStationId": "jr_chuo_west-08",
+    "coordinates": [
       [
         35.23068,
         136.95759
@@ -1015,6 +1039,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.2329,
         136.96064
+      ],
+      [
+        35.23353,
+        136.96156000000002
       ],
       [
         35.23416,
@@ -1037,12 +1065,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.96436
       ],
       [
+        35.235485,
+        136.965415
+      ],
+      [
         35.23588,
         136.96647
       ],
       [
-        35.236824999999996,
-        136.96893
+        35.23651,
+        136.96811
+      ],
+      [
+        35.23714,
+        136.96975
       ],
       [
         35.23777,
@@ -1061,8 +1097,12 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.97244
       ],
       [
-        35.23908,
-        136.97486500000002
+        35.238776666666666,
+        136.97405666666668
+      ],
+      [
+        35.23938333333333,
+        136.97567333333333
       ],
       [
         35.23999,
@@ -1095,22 +1135,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.24258,
         136.98416
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-08_jr_chuo_west-09",
-    "fromStationId": "jr_chuo_west-08",
-    "toStationId": "jr_chuo_west-09",
-    "coordinates": [
-      [
-        35.24258,
-        136.98416
       ],
       [
         35.24321,
         136.9855
       ],
+      [
+        35.24372,
+        136.9865
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-08_jr_chuo_west-09",
+    "fromStationId": "jr_chuo_west-08",
+    "toStationId": "jr_chuo_west-09",
+    "coordinates": [
       [
         35.24372,
         136.9865
@@ -1126,6 +1166,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.24552,
         136.9898
+      ],
+      [
+        35.246095,
+        136.99085
       ],
       [
         35.24667,
@@ -1168,6 +1212,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.00419
       ],
       [
+        35.253789999999995,
+        137.00522999999998
+      ],
+      [
         35.25436,
         137.00627
       ],
@@ -1186,18 +1234,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.25601,
         137.00939
+      ],
+      [
+        35.256595000000004,
+        137.010465
+      ],
+      [
+        35.25718,
+        137.01154
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-09_jr_chuo_west-10",
+    "id": "jr_chuo_west-09_jr_chuo_west-10",
     "fromStationId": "jr_chuo_west-09",
     "toStationId": "jr_chuo_west-10",
     "coordinates": [
-      [
-        35.25601,
-        137.00939
-      ],
       [
         35.25718,
         137.01154
@@ -1207,12 +1259,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.01243
       ],
       [
-        35.258709999999994,
-        137.014345
+        35.25836333333333,
+        137.01370666666665
+      ],
+      [
+        35.259056666666666,
+        137.01498333333333
       ],
       [
         35.25975,
         137.01626
+      ],
+      [
+        35.260295,
+        137.01725
       ],
       [
         35.26084,
@@ -1259,12 +1319,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.0301
       ],
       [
+        35.263980000000004,
+        137.03126500000002
+      ],
+      [
         35.26402,
         137.03243
       ],
       [
-        35.264089999999996,
-        137.03477
+        35.264066666666665,
+        137.03399000000002
+      ],
+      [
+        35.264113333333334,
+        137.03555
       ],
       [
         35.26416,
@@ -1289,22 +1357,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.26436,
         137.04168
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-10_jr_chuo_west-11",
-    "fromStationId": "jr_chuo_west-10",
-    "toStationId": "jr_chuo_west-11",
-    "coordinates": [
-      [
-        35.26436,
-        137.04168
       ],
       [
         35.2644,
         137.043255
       ],
+      [
+        35.26444,
+        137.04483
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-10_jr_chuo_west-11",
+    "fromStationId": "jr_chuo_west-10",
+    "toStationId": "jr_chuo_west-11",
+    "coordinates": [
       [
         35.26444,
         137.04483
@@ -1426,12 +1494,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.0713
       ],
       [
+        35.268744999999996,
+        137.072235
+      ],
+      [
         35.26929,
         137.07317
       ],
       [
         35.26962,
         137.07373
+      ],
+      [
+        35.270185,
+        137.07467000000003
       ],
       [
         35.27075,
@@ -1488,18 +1564,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.27722,
         137.08073
+      ],
+      [
+        35.27872,
+        137.08116
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-11_jr_chuo_west-12",
+    "id": "jr_chuo_west-11_jr_chuo_west-12",
     "fromStationId": "jr_chuo_west-11",
     "toStationId": "jr_chuo_west-12",
     "coordinates": [
-      [
-        35.27722,
-        137.08073
-      ],
       [
         35.27872,
         137.08116
@@ -1563,6 +1639,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.28494,
         137.08617
+      ],
+      [
+        35.285714999999996,
+        137.08681
       ],
       [
         35.28649,
@@ -1671,18 +1751,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.30373,
         137.10175
+      ],
+      [
+        35.30482,
+        137.10236
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-12_jr_chuo_west-13",
+    "id": "jr_chuo_west-12_jr_chuo_west-13",
     "fromStationId": "jr_chuo_west-12",
     "toStationId": "jr_chuo_west-13",
     "coordinates": [
-      [
-        35.30373,
-        137.10175
-      ],
       [
         35.30482,
         137.10236
@@ -1812,6 +1892,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.10401
       ],
       [
+        35.32253,
+        137.104555
+      ],
+      [
         35.32341,
         137.1051
       ],
@@ -1898,21 +1982,17 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.33454,
         137.11974
-      ],
-      [
-        35.33472,
-        137.12111
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-13_jr_chuo_west-14",
+    "id": "jr_chuo_west-13_jr_chuo_west-14",
     "fromStationId": "jr_chuo_west-13",
     "toStationId": "jr_chuo_west-14",
     "coordinates": [
       [
-        35.33472,
-        137.12111
+        35.33454,
+        137.11974
       ],
       [
         35.33531,
@@ -2303,6 +2383,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.16396
       ],
       [
+        35.35437,
+        137.16521
+      ],
+      [
         35.35458,
         137.16646
       ],
@@ -2391,6 +2475,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.17773
       ],
       [
+        35.35708,
+        137.17774
+      ],
+      [
         35.35758,
         137.17856
       ],
@@ -2413,18 +2501,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.35889,
         137.18072
-      ],
-      [
-        35.3597,
-        137.18206
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-14_jr_chuo_west-15",
+    "id": "jr_chuo_west-14_jr_chuo_west-15",
     "fromStationId": "jr_chuo_west-14",
     "toStationId": "jr_chuo_west-15",
     "coordinates": [
+      [
+        35.35889,
+        137.18072
+      ],
       [
         35.3597,
         137.18206
@@ -2504,6 +2592,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.36463,
         137.19084
+      ],
+      [
+        35.36463,
+        137.19085
       ],
       [
         35.36471,
@@ -2588,6 +2680,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.36714,
         137.19867
+      ],
+      [
+        35.36715,
+        137.19868
       ],
       [
         35.36731,
@@ -2994,6 +3090,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.23996
       ],
       [
+        35.36732,
+        137.23997
+      ],
+      [
         35.36767,
         137.24098
       ],
@@ -3046,6 +3146,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.24533
       ],
       [
+        35.36915,
+        137.24534
+      ],
+      [
         35.36916,
         137.2454
       ],
@@ -3080,22 +3184,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.36943,
         137.25038
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-15_jr_chuo_west-16",
+    "fromStationId": "jr_chuo_west-15",
+    "toStationId": "jr_chuo_west-16",
+    "coordinates": [
+      [
+        35.36943,
+        137.25038
       ],
       [
         35.369115,
         137.251915
       ],
-      [
-        35.3688,
-        137.25345
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-15_jr_chuo_west-16",
-    "fromStationId": "jr_chuo_west-15",
-    "toStationId": "jr_chuo_west-16",
-    "coordinates": [
       [
         35.3688,
         137.25345
@@ -3289,6 +3393,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.26763
       ],
       [
+        35.38527,
+        137.26764
+      ],
+      [
         35.38535,
         137.26769
       ],
@@ -3433,6 +3541,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.27985
       ],
       [
+        35.39684,
+        137.280865
+      ],
+      [
         35.39742,
         137.28188
       ],
@@ -3471,6 +3583,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.39826,
         137.28474
+      ],
+      [
+        35.39827,
+        137.28475
       ],
       [
         35.3983,
@@ -3617,6 +3733,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.29868
       ],
       [
+        35.40391,
+        137.29869
+      ],
+      [
         35.40396,
         137.29872
       ],
@@ -3635,6 +3755,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40478,
         137.29933
+      ],
+      [
+        35.40479,
+        137.29934
       ],
       [
         35.40506,
@@ -3657,6 +3781,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.30001
       ],
       [
+        35.4057,
+        137.30002
+      ],
+      [
         35.40582,
         137.3001
       ],
@@ -3667,6 +3795,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40601,
         137.30024
+      ],
+      [
+        35.40602,
+        137.30025
       ],
       [
         35.40662,
@@ -3707,18 +3839,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.41044,
         137.30433
-      ],
-      [
-        35.41203,
-        137.30613
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-16_jr_chuo_west-17",
+    "id": "jr_chuo_west-16_jr_chuo_west-17",
     "fromStationId": "jr_chuo_west-16",
     "toStationId": "jr_chuo_west-17",
     "coordinates": [
+      [
+        35.41044,
+        137.30433
+      ],
+      [
+        35.411235000000005,
+        137.30523
+      ],
       [
         35.41203,
         137.30613
@@ -3792,6 +3928,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.31288
       ],
       [
+        35.41455,
+        137.31289
+      ],
+      [
         35.41471,
         137.31341
       ],
@@ -3814,6 +3954,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.41576,
         137.31574
+      ],
+      [
+        35.416235,
+        137.316775
       ],
       [
         35.41671,
@@ -3846,6 +3990,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.41846,
         137.32124
+      ],
+      [
+        35.419095,
+        137.32223499999998
       ],
       [
         35.41973,
@@ -4076,6 +4224,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.33986
       ],
       [
+        35.42953,
+        137.33987
+      ],
+      [
         35.42956,
         137.34006
       ],
@@ -4132,6 +4284,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.34341
       ],
       [
+        35.43146,
+        137.344325
+      ],
+      [
         35.43198,
         137.34524
       ],
@@ -4146,6 +4302,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.43229,
         137.34578
+      ],
+      [
+        35.43229,
+        137.34579
       ],
       [
         35.43257,
@@ -4242,18 +4402,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.43761,
         137.35373
-      ],
-      [
-        35.43825,
-        137.3545
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-17_jr_chuo_west-18",
+    "id": "jr_chuo_west-17_jr_chuo_west-18",
     "fromStationId": "jr_chuo_west-17",
     "toStationId": "jr_chuo_west-18",
     "coordinates": [
+      [
+        35.43761,
+        137.35373
+      ],
       [
         35.43825,
         137.3545
@@ -4431,6 +4591,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.38513
       ],
       [
+        35.44939,
+        137.38626
+      ],
+      [
         35.44984,
         137.38739
       ],
@@ -4527,20 +4691,28 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.40629
       ],
       [
-        35.45447,
-        137.40665
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-18_jr_chuo_west-19",
-    "fromStationId": "jr_chuo_west-18",
-    "toStationId": "jr_chuo_west-19",
-    "coordinates": [
+        35.45439,
+        137.40651
+      ],
       [
         35.45447,
         137.40665
       ],
+      [
+        35.45509,
+        137.40779500000002
+      ],
+      [
+        35.45571,
+        137.40894
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-18_jr_chuo_west-19",
+    "fromStationId": "jr_chuo_west-18",
+    "toStationId": "jr_chuo_west-19",
+    "coordinates": [
       [
         35.45571,
         137.40894
@@ -4750,8 +4922,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.43189
       ],
       [
+        35.47304,
+        137.4319
+      ],
+      [
         35.47303,
         137.43214
+      ],
+      [
+        35.473,
+        137.43335000000002
       ],
       [
         35.47297,
@@ -4822,20 +5002,24 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.44869
       ],
       [
-        35.4794,
-        137.44932
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-19_jr_chuo_west-20",
-    "fromStationId": "jr_chuo_west-19",
-    "toStationId": "jr_chuo_west-20",
-    "coordinates": [
+        35.47943,
+        137.44914
+      ],
       [
         35.4794,
         137.44932
       ],
+      [
+        35.47911,
+        137.45139
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-19_jr_chuo_west-20",
+    "fromStationId": "jr_chuo_west-19",
+    "toStationId": "jr_chuo_west-20",
+    "coordinates": [
       [
         35.47911,
         137.45139
@@ -5141,6 +5325,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.49468
       ],
       [
+        35.495580000000004,
+        137.49583
+      ],
+      [
         35.49585,
         137.49698
       ],
@@ -5151,6 +5339,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.4961,
         137.49786
+      ],
+      [
+        35.4961,
+        137.49787
       ],
       [
         35.49625,
@@ -5227,18 +5419,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.50015,
         137.50281
+      ],
+      [
+        35.50123,
+        137.50329
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-20_jr_chuo_west-21",
+    "id": "jr_chuo_west-20_jr_chuo_west-21",
     "fromStationId": "jr_chuo_west-20",
     "toStationId": "jr_chuo_west-21",
     "coordinates": [
-      [
-        35.50015,
-        137.50281
-      ],
       [
         35.50123,
         137.50329
@@ -5450,6 +5642,17 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.52476,
         137.52983
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-21_jr_chuo_west-22",
+    "fromStationId": "jr_chuo_west-21",
+    "toStationId": "jr_chuo_west-22",
+    "coordinates": [
+      [
+        35.52476,
+        137.52983
       ],
       [
         35.52521,
@@ -5458,17 +5661,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.52565,
         137.53019
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-21_jr_chuo_west-22",
-    "fromStationId": "jr_chuo_west-21",
-    "toStationId": "jr_chuo_west-22",
-    "coordinates": [
+      ],
       [
-        35.52565,
-        137.53019
+        35.52566,
+        137.5302
       ],
       [
         35.52634,
@@ -5507,8 +5703,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.53164
       ],
       [
+        35.532475000000005,
+        137.53165
+      ],
+      [
         35.53349,
         137.53166
+      ],
+      [
+        35.53448,
+        137.53168
       ],
       [
         35.53547,
@@ -5771,24 +5975,32 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.53067
       ],
       [
+        35.57209,
+        137.53068
+      ],
+      [
         35.57261,
         137.53079
       ],
       [
         35.57302,
         137.53087
-      ],
-      [
-        35.57523,
-        137.53131
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-22_jr_chuo_west-23",
+    "id": "jr_chuo_west-22_jr_chuo_west-23",
     "fromStationId": "jr_chuo_west-22",
     "toStationId": "jr_chuo_west-23",
     "coordinates": [
+      [
+        35.57302,
+        137.53087
+      ],
+      [
+        35.574124999999995,
+        137.53109
+      ],
       [
         35.57523,
         137.53131
@@ -5960,18 +6172,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.58823,
         137.54904
+      ],
+      [
+        35.58829,
+        137.54995
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-23_jr_chuo_west-24",
+    "id": "jr_chuo_west-23_jr_chuo_west-24",
     "fromStationId": "jr_chuo_west-23",
     "toStationId": "jr_chuo_west-24",
     "coordinates": [
-      [
-        35.58823,
-        137.54904
-      ],
       [
         35.58829,
         137.54995
@@ -6271,18 +6483,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.59895,
         137.60867
+      ],
+      [
+        35.60031,
+        137.60898
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-24_jr_chuo_west-25",
+    "id": "jr_chuo_west-24_jr_chuo_west-25",
     "fromStationId": "jr_chuo_west-24",
     "toStationId": "jr_chuo_west-25",
     "coordinates": [
-      [
-        35.59895,
-        137.60867
-      ],
       [
         35.60031,
         137.60898
@@ -6404,12 +6616,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.61839
       ],
       [
+        35.626900000000006,
+        137.61839
+      ],
+      [
         35.62792,
         137.61839
       ],
       [
         35.62837,
         137.61838
+      ],
+      [
+        35.62935,
+        137.61821500000002
       ],
       [
         35.63033,
@@ -6426,6 +6646,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.63365,
         137.6172
+      ],
+      [
+        35.634565,
+        137.6169
       ],
       [
         35.63548,
@@ -6504,24 +6728,13 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.61712
       ],
       [
-        35.6445,
-        137.6172
-      ],
-      [
         35.64469,
         137.61734
       ],
       [
-        35.64519,
-        137.61758
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-25_jr_chuo_west-26",
-    "fromStationId": "jr_chuo_west-25",
-    "toStationId": "jr_chuo_west-26",
-    "coordinates": [
+        35.64501,
+        137.6175
+      ],
       [
         35.64519,
         137.61758
@@ -6533,10 +6746,25 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.64619,
         137.61775
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-25_jr_chuo_west-26",
+    "fromStationId": "jr_chuo_west-25",
+    "toStationId": "jr_chuo_west-26",
+    "coordinates": [
+      [
+        35.64619,
+        137.61775
       ],
       [
         35.64684,
         137.61782
+      ],
+      [
+        35.647890000000004,
+        137.617895
       ],
       [
         35.64894,
@@ -6793,22 +7021,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.67228,
         137.63512
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-26_jr_chuo_west-27",
+    "fromStationId": "jr_chuo_west-26",
+    "toStationId": "jr_chuo_west-27",
+    "coordinates": [
+      [
+        35.67228,
+        137.63512
       ],
       [
         35.67304,
         137.636155
       ],
-      [
-        35.6738,
-        137.63719
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-26_jr_chuo_west-27",
-    "fromStationId": "jr_chuo_west-26",
-    "toStationId": "jr_chuo_west-27",
-    "coordinates": [
       [
         35.6738,
         137.63719
@@ -7088,22 +7316,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.68416,
         137.66325
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-27_jr_chuo_west-28",
+    "fromStationId": "jr_chuo_west-27",
+    "toStationId": "jr_chuo_west-28",
+    "coordinates": [
+      [
+        35.68416,
+        137.66325
       ],
       [
         35.68423,
         137.66363
       ],
-      [
-        35.68438,
-        137.66406
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-27_jr_chuo_west-28",
-    "fromStationId": "jr_chuo_west-27",
-    "toStationId": "jr_chuo_west-28",
-    "coordinates": [
       [
         35.68438,
         137.66406
@@ -7415,22 +7643,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.69681,
         137.6941
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-28_jr_chuo_west-29",
+    "fromStationId": "jr_chuo_west-28",
+    "toStationId": "jr_chuo_west-29",
+    "coordinates": [
+      [
+        35.69681,
+        137.6941
       ],
       [
         35.69785,
         137.69494
       ],
-      [
-        35.69889,
-        137.69578
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-28_jr_chuo_west-29",
-    "fromStationId": "jr_chuo_west-28",
-    "toStationId": "jr_chuo_west-29",
-    "coordinates": [
       [
         35.69889,
         137.69578
@@ -8026,18 +8254,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.73247,
         137.7138
-      ],
-      [
-        35.73341,
-        137.71485
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-29_jr_chuo_west-30",
+    "id": "jr_chuo_west-29_jr_chuo_west-30",
     "fromStationId": "jr_chuo_west-29",
     "toStationId": "jr_chuo_west-30",
     "coordinates": [
+      [
+        35.73247,
+        137.7138
+      ],
       [
         35.73341,
         137.71485
@@ -8665,22 +8893,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.78285,
         137.69309
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-30_jr_chuo_west-31",
+    "fromStationId": "jr_chuo_west-30",
+    "toStationId": "jr_chuo_west-31",
+    "coordinates": [
+      [
+        35.78285,
+        137.69309
       ],
       [
         35.784075,
         137.69327
       ],
-      [
-        35.7853,
-        137.69345
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-30_jr_chuo_west-31",
-    "fromStationId": "jr_chuo_west-30",
-    "toStationId": "jr_chuo_west-31",
-    "coordinates": [
       [
         35.7853,
         137.69345
@@ -9274,20 +9502,13 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.69065
       ],
       [
+        35.840885,
+        137.69133
+      ],
+      [
         35.8418,
         137.69201
       ],
-      [
-        35.84275,
-        137.6927
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-31_jr_chuo_west-32",
-    "fromStationId": "jr_chuo_west-31",
-    "toStationId": "jr_chuo_west-32",
-    "coordinates": [
       [
         35.84275,
         137.6927
@@ -9296,6 +9517,17 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         35.843725000000006,
         137.6934
       ],
+      [
+        35.8447,
+        137.6941
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-31_jr_chuo_west-32",
+    "fromStationId": "jr_chuo_west-31",
+    "toStationId": "jr_chuo_west-32",
+    "coordinates": [
       [
         35.8447,
         137.6941
@@ -9445,8 +9677,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.72249
       ],
       [
+        35.861315,
+        137.72332
+      ],
+      [
         35.86199,
         137.72415
+      ],
+      [
+        35.862669999999994,
+        137.72512
       ],
       [
         35.86335,
@@ -9537,20 +9777,24 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.7404
       ],
       [
-        35.871,
-        137.7407
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-32_jr_chuo_west-33",
-    "fromStationId": "jr_chuo_west-32",
-    "toStationId": "jr_chuo_west-33",
-    "coordinates": [
+        35.87097,
+        137.74062
+      ],
       [
         35.871,
         137.7407
       ],
+      [
+        35.87153,
+        137.74236
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-32_jr_chuo_west-33",
+    "fromStationId": "jr_chuo_west-32",
+    "toStationId": "jr_chuo_west-33",
+    "coordinates": [
       [
         35.87153,
         137.74236
@@ -9570,6 +9814,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.87307,
         137.74534
+      ],
+      [
+        35.873715000000004,
+        137.74614
       ],
       [
         35.87436,
@@ -9730,22 +9978,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.88757,
         137.76349
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-33_jr_chuo_west-34",
+    "fromStationId": "jr_chuo_west-33",
+    "toStationId": "jr_chuo_west-34",
+    "coordinates": [
+      [
+        35.88757,
+        137.76349
       ],
       [
         35.88823,
         137.76383
       ],
-      [
-        35.88856,
-        137.76401
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-33_jr_chuo_west-34",
-    "fromStationId": "jr_chuo_west-33",
-    "toStationId": "jr_chuo_west-34",
-    "coordinates": [
       [
         35.88856,
         137.76401
@@ -10173,18 +10421,22 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.9294,
         137.78409
+      ],
+      [
+        35.930369999999996,
+        137.784445
+      ],
+      [
+        35.93134,
+        137.7848
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-34_jr_chuo_west-35",
+    "id": "jr_chuo_west-34_jr_chuo_west-35",
     "fromStationId": "jr_chuo_west-34",
     "toStationId": "jr_chuo_west-35",
     "coordinates": [
-      [
-        35.9294,
-        137.78409
-      ],
       [
         35.93134,
         137.7848
@@ -10414,6 +10666,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.78892
       ],
       [
+        35.953755,
+        137.790005
+      ],
+      [
         35.95415,
         137.79109
       ],
@@ -10576,18 +10832,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.96891,
         137.8157
+      ],
+      [
+        35.97003,
+        137.81672
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-35_jr_chuo_west-36",
+    "id": "jr_chuo_west-35_jr_chuo_west-36",
     "fromStationId": "jr_chuo_west-35",
     "toStationId": "jr_chuo_west-36",
     "coordinates": [
-      [
-        35.96891,
-        137.8157
-      ],
       [
         35.97003,
         137.81672
@@ -10803,17 +11059,6 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.97885,
         137.83215
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_chuo_west-36_jr_chuo_west-37",
-    "fromStationId": "jr_chuo_west-36",
-    "toStationId": "jr_chuo_west-37",
-    "coordinates": [
-      [
-        35.97885,
-        137.83215
       ],
       [
         35.97906,
@@ -10831,6 +11076,17 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         35.97974,
         137.83327
       ],
+      [
+        35.97999,
+        137.83346
+      ]
+    ]
+  },
+  {
+    "id": "jr_chuo_west-36_jr_chuo_west-37",
+    "fromStationId": "jr_chuo_west-36",
+    "toStationId": "jr_chuo_west-37",
+    "coordinates": [
       [
         35.97999,
         137.83346
@@ -11274,18 +11530,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.01334,
         137.86063
-      ],
-      [
-        36.01463,
-        137.86126
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-37_jr_chuo_west-38",
+    "id": "jr_chuo_west-37_jr_chuo_west-38",
     "fromStationId": "jr_chuo_west-37",
     "toStationId": "jr_chuo_west-38",
     "coordinates": [
+      [
+        36.01334,
+        137.86063
+      ],
       [
         36.01463,
         137.86126
@@ -11609,21 +11865,25 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.0486,
         137.89444
-      ],
-      [
-        36.04952,
-        137.89527
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-38_jr_chuo_west-39",
+    "id": "jr_chuo_west-38_jr_chuo_west-39",
     "fromStationId": "jr_chuo_west-38",
     "toStationId": "jr_chuo_west-39",
     "coordinates": [
       [
+        36.0486,
+        137.89444
+      ],
+      [
         36.04952,
         137.89527
+      ],
+      [
+        36.04965,
+        137.89539
       ],
       [
         36.04999,
@@ -11694,6 +11954,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.90064
       ],
       [
+        36.06076,
+        137.90045500000002
+      ],
+      [
         36.0617,
         137.90027
       ],
@@ -11740,6 +12004,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.06896,
         137.90231
+      ],
+      [
+        36.06984,
+        137.90287999999998
       ],
       [
         36.07072,
@@ -11798,6 +12066,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.9117
       ],
       [
+        36.082515,
+        137.91253999999998
+      ],
+      [
         36.08332,
         137.91338
       ],
@@ -11828,18 +12100,18 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.08653,
         137.91632
-      ],
-      [
-        36.08773,
-        137.91731
       ]
     ]
   },
   {
-    "segmentId": "jr_chuo_west-39_jr_chuo_west-40",
+    "id": "jr_chuo_west-39_jr_chuo_west-40",
     "fromStationId": "jr_chuo_west-39",
     "toStationId": "jr_chuo_west-40",
     "coordinates": [
+      [
+        36.08653,
+        137.91632
+      ],
       [
         36.08773,
         137.91731
@@ -11933,6 +12205,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.93609
       ],
       [
+        36.103989999999996,
+        137.936915
+      ],
+      [
         36.10466,
         137.93774
       ],
@@ -11941,8 +12217,12 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.93778
       ],
       [
-        36.106025,
-        137.93943000000002
+        36.105579999999996,
+        137.93888
+      ],
+      [
+        36.10647,
+        137.93998
       ],
       [
         36.10736,
@@ -11983,10 +12263,6 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.1139,
         137.94783
-      ],
-      [
-        36.1144795,
-        137.9475995
       ]
     ]
   }

@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_gakken_toshi-01_jr_gakken_toshi-02",
+    "id": "jr_gakken_toshi-01_jr_gakken_toshi-02",
     "fromStationId": "jr_gakken_toshi-01",
     "toStationId": "jr_gakken_toshi-02",
     "coordinates": [
-      [
-        34.73667,
-        135.82472
-      ],
       [
         34.73686,
         135.8249
@@ -201,21 +197,25 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.738,
         135.80286
-      ],
-      [
-        34.73826,
-        135.80203
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-02_jr_gakken_toshi-03",
+    "id": "jr_gakken_toshi-02_jr_gakken_toshi-03",
     "fromStationId": "jr_gakken_toshi-02",
     "toStationId": "jr_gakken_toshi-03",
     "coordinates": [
       [
+        34.738,
+        135.80286
+      ],
+      [
         34.73826,
         135.80203
+      ],
+      [
+        34.73834,
+        135.80179
       ],
       [
         34.73862,
@@ -354,6 +354,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.79258
       ],
       [
+        34.756905,
+        135.792435
+      ],
+      [
         34.75784,
         135.79229
       ],
@@ -368,21 +372,25 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.75985,
         135.79205
-      ],
-      [
-        34.76053,
-        135.792
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-03_jr_gakken_toshi-04",
+    "id": "jr_gakken_toshi-03_jr_gakken_toshi-04",
     "fromStationId": "jr_gakken_toshi-03",
     "toStationId": "jr_gakken_toshi-04",
     "coordinates": [
       [
+        34.75985,
+        135.79205
+      ],
+      [
         34.76053,
         135.792
+      ],
+      [
+        34.761485,
+        135.791895
       ],
       [
         34.76244,
@@ -421,6 +429,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.79067
       ],
       [
+        34.772315000000006,
+        135.79055499999998
+      ],
+      [
         34.77322,
         135.79044
       ],
@@ -455,18 +467,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.78022,
         135.78862
-      ],
-      [
-        34.78093,
-        135.78849
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-04_jr_gakken_toshi-05",
+    "id": "jr_gakken_toshi-04_jr_gakken_toshi-05",
     "fromStationId": "jr_gakken_toshi-04",
     "toStationId": "jr_gakken_toshi-05",
     "coordinates": [
+      [
+        34.78022,
+        135.78862
+      ],
       [
         34.78093,
         135.78849
@@ -482,6 +494,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.78306,
         135.78813
+      ],
+      [
+        34.784015,
+        135.78798
       ],
       [
         34.78497,
@@ -544,20 +560,24 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.78555
       ],
       [
-        34.79795,
-        135.78474
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_gakken_toshi-05_jr_gakken_toshi-06",
-    "fromStationId": "jr_gakken_toshi-05",
-    "toStationId": "jr_gakken_toshi-06",
-    "coordinates": [
+        34.79774,
+        135.78483
+      ],
       [
         34.79795,
         135.78474
       ],
+      [
+        34.79899,
+        135.78427
+      ]
+    ]
+  },
+  {
+    "id": "jr_gakken_toshi-05_jr_gakken_toshi-06",
+    "fromStationId": "jr_gakken_toshi-05",
+    "toStationId": "jr_gakken_toshi-06",
+    "coordinates": [
       [
         34.79899,
         135.78427
@@ -617,18 +637,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.8053,
         135.77865
-      ],
-      [
-        34.80563,
-        135.77835
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-06_jr_gakken_toshi-07",
+    "id": "jr_gakken_toshi-06_jr_gakken_toshi-07",
     "fromStationId": "jr_gakken_toshi-06",
     "toStationId": "jr_gakken_toshi-07",
     "coordinates": [
+      [
+        34.8053,
+        135.77865
+      ],
       [
         34.80563,
         135.77835
@@ -748,18 +768,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.82071,
         135.76895
-      ],
-      [
-        34.822,
-        135.76818
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-07_jr_gakken_toshi-08",
+    "id": "jr_gakken_toshi-07_jr_gakken_toshi-08",
     "fromStationId": "jr_gakken_toshi-07",
     "toStationId": "jr_gakken_toshi-08",
     "coordinates": [
+      [
+        34.82071,
+        135.76895
+      ],
       [
         34.822,
         135.76818
@@ -963,18 +983,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.83074,
         135.7503
-      ],
-      [
-        34.83087,
-        135.74949
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-08_jr_gakken_toshi-09",
+    "id": "jr_gakken_toshi-08_jr_gakken_toshi-09",
     "fromStationId": "jr_gakken_toshi-08",
     "toStationId": "jr_gakken_toshi-09",
     "coordinates": [
+      [
+        34.83074,
+        135.7503
+      ],
       [
         34.83087,
         135.74949
@@ -1190,18 +1210,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.83374,
         135.72784
-      ],
-      [
-        34.83264,
-        135.7273
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-09_jr_gakken_toshi-10",
+    "id": "jr_gakken_toshi-09_jr_gakken_toshi-10",
     "fromStationId": "jr_gakken_toshi-09",
     "toStationId": "jr_gakken_toshi-10",
     "coordinates": [
+      [
+        34.83374,
+        135.72784
+      ],
       [
         34.83264,
         135.7273
@@ -1325,18 +1345,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.82617,
         135.71339
-      ],
-      [
-        34.82596,
-        135.71303
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-10_jr_gakken_toshi-11",
+    "id": "jr_gakken_toshi-10_jr_gakken_toshi-11",
     "fromStationId": "jr_gakken_toshi-10",
     "toStationId": "jr_gakken_toshi-11",
     "coordinates": [
+      [
+        34.82617,
+        135.71339
+      ],
       [
         34.82596,
         135.71303
@@ -1356,6 +1376,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.82472,
         135.71172
+      ],
+      [
+        34.8238,
+        135.71101
       ],
       [
         34.82288,
@@ -1432,18 +1456,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81479,
         135.7029
-      ],
-      [
-        34.81409,
-        135.7026
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-11_jr_gakken_toshi-12",
+    "id": "jr_gakken_toshi-11_jr_gakken_toshi-12",
     "fromStationId": "jr_gakken_toshi-11",
     "toStationId": "jr_gakken_toshi-12",
     "coordinates": [
+      [
+        34.81479,
+        135.7029
+      ],
       [
         34.81409,
         135.7026
@@ -1461,6 +1485,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.7023
       ],
       [
+        34.812295,
+        135.70191499999999
+      ],
+      [
         34.81128,
         135.70153
       ],
@@ -1469,8 +1497,16 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.70145
       ],
       [
+        34.810010000000005,
+        135.701035
+      ],
+      [
         34.80895,
         135.70062
+      ],
+      [
+        34.807975,
+        135.70024
       ],
       [
         34.807,
@@ -1499,18 +1535,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.80188,
         135.69804
-      ],
-      [
-        34.80094,
-        135.69791
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-12_jr_gakken_toshi-13",
+    "id": "jr_gakken_toshi-12_jr_gakken_toshi-13",
     "fromStationId": "jr_gakken_toshi-12",
     "toStationId": "jr_gakken_toshi-13",
     "coordinates": [
+      [
+        34.80188,
+        135.69804
+      ],
       [
         34.80094,
         135.69791
@@ -1526,6 +1562,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.79891,
         135.69761
+      ],
+      [
+        34.798,
+        135.69750499999998
       ],
       [
         34.79709,
@@ -1572,6 +1612,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.69576
       ],
       [
+        34.788105,
+        135.6952
+      ],
+      [
         34.78731,
         135.69464
       ],
@@ -1612,6 +1656,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.69067
       ],
       [
+        34.780555,
+        135.690075
+      ],
+      [
         34.77969,
         135.68948
       ],
@@ -1644,20 +1692,24 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.68713
       ],
       [
-        34.77668,
-        135.68502
+        34.77714,
+        135.68607500000002
       ],
       [
-        34.77635,
-        135.68428
+        34.77668,
+        135.68502
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-13_jr_gakken_toshi-14",
+    "id": "jr_gakken_toshi-13_jr_gakken_toshi-14",
     "fromStationId": "jr_gakken_toshi-13",
     "toStationId": "jr_gakken_toshi-14",
     "coordinates": [
+      [
+        34.77668,
+        135.68502
+      ],
       [
         34.77635,
         135.68428
@@ -1695,6 +1747,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.6768
       ],
       [
+        34.772635,
+        135.675765
+      ],
+      [
         34.77219,
         135.67473
       ],
@@ -1711,8 +1767,12 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.67169
       ],
       [
-        34.76999,
-        135.6696
+        34.77029,
+        135.67029666666667
+      ],
+      [
+        34.76969,
+        135.66890333333333
       ],
       [
         34.76909,
@@ -1729,18 +1789,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.76762,
         135.66408
-      ],
-      [
-        34.76708,
-        135.66281
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-14_jr_gakken_toshi-15",
+    "id": "jr_gakken_toshi-14_jr_gakken_toshi-15",
     "fromStationId": "jr_gakken_toshi-14",
     "toStationId": "jr_gakken_toshi-15",
     "coordinates": [
+      [
+        34.76762,
+        135.66408
+      ],
       [
         34.76708,
         135.66281
@@ -1848,20 +1908,24 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.75583,
         135.65337
-      ],
-      [
-        34.75518,
-        135.65333
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-15_jr_gakken_toshi-16",
+    "id": "jr_gakken_toshi-15_jr_gakken_toshi-16",
     "fromStationId": "jr_gakken_toshi-15",
     "toStationId": "jr_gakken_toshi-16",
     "coordinates": [
       [
+        34.75583,
+        135.65337
+      ],
+      [
         34.75518,
+        135.65333
+      ],
+      [
+        34.75507,
         135.65333
       ],
       [
@@ -1929,8 +1993,12 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.64858
       ],
       [
+        34.74912,
+        135.64857
+      ],
+      [
         34.74811,
-        135.64757500000002
+        135.64757
       ],
       [
         34.7471,
@@ -1951,21 +2019,25 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.74595,
         135.64544
-      ],
-      [
-        34.74534,
-        135.64487
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-16_jr_gakken_toshi-17",
+    "id": "jr_gakken_toshi-16_jr_gakken_toshi-17",
     "fromStationId": "jr_gakken_toshi-16",
     "toStationId": "jr_gakken_toshi-17",
     "coordinates": [
       [
+        34.74595,
+        135.64544
+      ],
+      [
         34.74534,
         135.64487
+      ],
+      [
+        34.74526,
+        135.64478
       ],
       [
         34.74485,
@@ -2098,18 +2170,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.73117,
         135.63927
+      ],
+      [
+        34.72963,
+        135.63922
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-17_jr_gakken_toshi-18",
+    "id": "jr_gakken_toshi-17_jr_gakken_toshi-18",
     "fromStationId": "jr_gakken_toshi-17",
     "toStationId": "jr_gakken_toshi-18",
     "coordinates": [
-      [
-        34.73117,
-        135.63927
-      ],
       [
         34.72963,
         135.63922
@@ -2203,6 +2275,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.63821
       ],
       [
+        34.72276,
+        135.6382
+      ],
+      [
         34.72248,
         135.63813
       ],
@@ -2239,20 +2315,24 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.63732
       ],
       [
-        34.71896,
-        135.63717
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_gakken_toshi-18_jr_gakken_toshi-19",
-    "fromStationId": "jr_gakken_toshi-18",
-    "toStationId": "jr_gakken_toshi-19",
-    "coordinates": [
+        34.71902,
+        135.63718
+      ],
       [
         34.71896,
         135.63717
       ],
+      [
+        34.71795,
+        135.63688
+      ]
+    ]
+  },
+  {
+    "id": "jr_gakken_toshi-18_jr_gakken_toshi-19",
+    "fromStationId": "jr_gakken_toshi-18",
+    "toStationId": "jr_gakken_toshi-19",
+    "coordinates": [
       [
         34.71795,
         135.63688
@@ -2280,6 +2360,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.71546,
         135.63616
+      ],
+      [
+        34.71452,
+        135.635895
       ],
       [
         34.71358,
@@ -2402,16 +2486,20 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.62371
       ],
       [
-        34.7063,
-        135.62218
+        34.70631,
+        135.62238
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-19_jr_gakken_toshi-20",
+    "id": "jr_gakken_toshi-19_jr_gakken_toshi-20",
     "fromStationId": "jr_gakken_toshi-19",
     "toStationId": "jr_gakken_toshi-20",
     "coordinates": [
+      [
+        34.70631,
+        135.62238
+      ],
       [
         34.7063,
         135.62218
@@ -2513,8 +2601,12 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.61013
       ],
       [
-        34.702569999999994,
-        135.608275
+        34.70289333333333,
+        135.60889333333333
+      ],
+      [
+        34.70224666666667,
+        135.60765666666668
       ],
       [
         34.7016,
@@ -2545,6 +2637,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.60343
       ],
       [
+        34.699585,
+        135.602465
+      ],
+      [
         34.69909,
         135.6015
       ],
@@ -2573,20 +2669,28 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.59914
       ],
       [
-        34.69875,
-        135.59848
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_gakken_toshi-20_jr_gakken_toshi-21",
-    "fromStationId": "jr_gakken_toshi-20",
-    "toStationId": "jr_gakken_toshi-21",
-    "coordinates": [
+        34.69872,
+        135.59872
+      ],
+      [
+        34.69874,
+        135.59852
+      ],
       [
         34.69875,
         135.59848
       ],
+      [
+        34.69897,
+        135.59681
+      ]
+    ]
+  },
+  {
+    "id": "jr_gakken_toshi-20_jr_gakken_toshi-21",
+    "fromStationId": "jr_gakken_toshi-20",
+    "toStationId": "jr_gakken_toshi-21",
+    "coordinates": [
       [
         34.69897,
         135.59681
@@ -2738,18 +2842,18 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69301,
         135.58184
+      ],
+      [
+        34.69197,
+        135.581
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-21_jr_gakken_toshi-22",
+    "id": "jr_gakken_toshi-21_jr_gakken_toshi-22",
     "fromStationId": "jr_gakken_toshi-21",
     "toStationId": "jr_gakken_toshi-22",
     "coordinates": [
-      [
-        34.69301,
-        135.58184
-      ],
       [
         34.69197,
         135.581
@@ -2843,6 +2947,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.56792546
       ],
       [
+        34.687986225,
+        135.56663335000002
+      ],
+      [
         34.68799812,
         135.56534124
       ],
@@ -2851,19 +2959,19 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.56463392
       ],
       [
-        34.68806,
-        135.56389
+        34.6879783,
+        135.56400353
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-22_jr_gakken_toshi-23",
+    "id": "jr_gakken_toshi-22_jr_gakken_toshi-23",
     "fromStationId": "jr_gakken_toshi-22",
     "toStationId": "jr_gakken_toshi-23",
     "coordinates": [
       [
-        34.68806,
-        135.56389
+        34.6879783,
+        135.56400353
       ],
       [
         34.68802013,
@@ -2980,21 +3088,17 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69220135,
         135.54590425
-      ],
-      [
-        34.6925,
-        135.54583
       ]
     ]
   },
   {
-    "segmentId": "jr_gakken_toshi-23_jr_gakken_toshi-24",
+    "id": "jr_gakken_toshi-23_jr_gakken_toshi-24",
     "fromStationId": "jr_gakken_toshi-23",
     "toStationId": "jr_gakken_toshi-24",
     "coordinates": [
       [
-        34.6925,
-        135.54583
+        34.69220135,
+        135.54590425
       ],
       [
         34.69257562,
@@ -3153,8 +3257,8 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.53483
       ],
       [
-        34.69694,
-        135.53389
+        34.696019,
+        135.534105
       ]
     ]
   }

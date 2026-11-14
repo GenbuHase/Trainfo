@@ -9,8 +9,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "名古屋",
     "nameKana": "なごや",
     "nameEn": "Nagoya",
-    "lat": 35.17208,
-    "lng": 136.88033,
+    "lat": 35.16976,
+    "lng": 136.88205,
     "transfers": [
       "ＪＲ東海道新幹線",
       "ＪＲ中央本線",
@@ -48,8 +48,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "八田",
     "nameKana": "はった",
     "nameEn": "Hatta",
-    "lat": 35.14873,
-    "lng": 136.85193,
+    "lat": 35.14858,
+    "lng": 136.8514,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -80,8 +80,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "春田",
     "nameKana": "はるた",
     "nameEn": "Haruta",
-    "lat": 35.1432,
-    "lng": 136.8138,
+    "lat": 35.1431,
+    "lng": 136.81297,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -112,8 +112,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "蟹江",
     "nameKana": "かにえ",
     "nameEn": "Kanie",
-    "lat": 35.14189,
-    "lng": 136.79283,
+    "lat": 35.14207,
+    "lng": 136.79412,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -144,8 +144,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "永和",
     "nameKana": "えいわ",
     "nameEn": "Eiwa",
-    "lat": 35.13259,
-    "lng": 136.76394,
+    "lat": 35.13309,
+    "lng": 136.76488,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -176,8 +176,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "弥富",
     "nameKana": "やとみ",
     "nameEn": "Yatomi",
-    "lat": 35.11353,
-    "lng": 136.72479,
+    "lat": 35.1146,
+    "lng": 136.7269,
     "transfers": [
       "名鉄尾西線"
     ],
@@ -210,8 +210,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "長島",
     "nameKana": "ながしま",
     "nameEn": "Nagashima",
-    "lat": 35.09784,
-    "lng": 136.69491,
+    "lat": 35.0985,
+    "lng": 136.6964,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -242,8 +242,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "桑名",
     "nameKana": "くわな",
     "nameEn": "Kwana",
-    "lat": 35.06796,
-    "lng": 136.68395,
+    "lat": 35.06538,
+    "lng": 136.68353,
     "transfers": [
       "近鉄名古屋線",
       "養老鉄道養老線"
@@ -277,8 +277,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "朝日",
     "nameKana": "あさひ",
     "nameEn": "Asahi",
-    "lat": 35.03397,
-    "lng": 136.65826,
+    "lat": 35.0335,
+    "lng": 136.65774,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -309,8 +309,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "富田",
     "nameKana": "とみだ",
     "nameEn": "Tomida",
-    "lat": 35.00904,
-    "lng": 136.65268,
+    "lat": 35.00728,
+    "lng": 136.65364,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -341,8 +341,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "富田浜",
     "nameKana": "とみだはま",
     "nameEn": "Tomidahama",
-    "lat": 34.99563,
-    "lng": 136.64958,
+    "lat": 34.99749,
+    "lng": 136.65061,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -373,8 +373,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "四日市",
     "nameKana": "よっかいち",
     "nameEn": "Yokkaichi",
-    "lat": 34.96188,
-    "lng": 136.62976,
+    "lat": 34.96094,
+    "lng": 136.62932,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -405,8 +405,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "南四日市",
     "nameKana": "みなみよっかいち",
     "nameEn": "Minami-Yokkaichi",
-    "lat": 34.94121,
-    "lng": 136.60935,
+    "lat": 34.94233,
+    "lng": 136.6105,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -437,8 +437,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "河原田",
     "nameKana": "かわらだ",
     "nameEn": "Kawarada",
-    "lat": 34.91167,
-    "lng": 136.59957,
+    "lat": 34.9108,
+    "lng": 136.59898,
     "transfers": [
       "伊勢鉄道"
     ],
@@ -471,8 +471,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "河曲",
     "nameKana": "かわの",
     "nameEn": "Kawano",
-    "lat": 34.89772,
-    "lng": 136.56746,
+    "lat": 34.89805,
+    "lng": 136.56861,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -503,8 +503,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "加佐登",
     "nameKana": "かさど",
     "nameEn": "Kasado",
-    "lat": 34.89018,
-    "lng": 136.52897,
+    "lat": 34.89046,
+    "lng": 136.53101,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -535,8 +535,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "井田川",
     "nameKana": "いだがわ",
     "nameEn": "Idagawa",
-    "lat": 34.86746,
-    "lng": 136.4919,
+    "lat": 34.86907,
+    "lng": 136.49327,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -567,8 +567,8 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "name": "亀山",
     "nameKana": "かめやま",
     "nameEn": "Kameyama",
-    "lat": 34.85172,
-    "lng": 136.45278,
+    "lat": 34.85032,
+    "lng": 136.44867,
     "transfers": [
       "ＪＲ紀勢本線"
     ],

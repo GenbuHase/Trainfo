@@ -9,8 +9,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "尼崎",
     "nameKana": "あまがさき",
     "nameEn": "Amagasaki",
-    "lat": 34.71944,
-    "lng": 135.43194,
+    "lat": 34.73167,
+    "lng": 135.4329,
     "transfers": [
       "ＪＲ東西線",
       "ＪＲ神戸線"
@@ -44,8 +44,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "塚口",
     "nameKana": "つかぐち",
     "nameEn": "Tsukaguchi",
-    "lat": 34.74993,
-    "lng": 135.42527,
+    "lat": 34.75173,
+    "lng": 135.42497,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -76,8 +76,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "猪名寺",
     "nameKana": "いなでら",
     "nameEn": "Inadera",
-    "lat": 34.7648,
-    "lng": 135.42247,
+    "lat": 34.7632,
+    "lng": 135.42276,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -108,8 +108,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "伊丹",
     "nameKana": "いたみ",
     "nameEn": "Itami",
-    "lat": 34.78114,
-    "lng": 135.42175,
+    "lat": 34.78009,
+    "lng": 135.4218,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -140,8 +140,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "北伊丹",
     "nameKana": "きたいたみ",
     "nameEn": "Kita-Itami",
-    "lat": 34.8018,
-    "lng": 135.41938,
+    "lat": 34.79976,
+    "lng": 135.41971,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -172,8 +172,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "川西池田",
     "nameKana": "かわにしいけだ",
     "nameEn": "Kawanishi-Ikeda",
-    "lat": 34.82508,
-    "lng": 135.4092,
+    "lat": 34.8247,
+    "lng": 135.41042,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -204,8 +204,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "中山寺",
     "nameKana": "なかやまでら",
     "nameEn": "Nakayamadera",
-    "lat": 34.81665,
-    "lng": 135.37318,
+    "lat": 34.81655,
+    "lng": 135.37483,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -236,8 +236,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "宝塚",
     "nameKana": "たからづか",
     "nameEn": "Takarazuka",
-    "lat": 34.81103,
-    "lng": 135.34156,
+    "lat": 34.81168,
+    "lng": 135.34013,
     "transfers": [
       "阪急今津線",
       "阪急宝塚本線"
@@ -271,8 +271,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "生瀬",
     "nameKana": "なまぜ",
     "nameEn": "Namaze",
-    "lat": 34.81966,
-    "lng": 135.32611,
+    "lat": 34.81902,
+    "lng": 135.32454,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -303,8 +303,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "西宮名塩",
     "nameKana": "にしのみやなじお",
     "nameEn": "Nishinomiyanajio",
-    "lat": 34.82675,
-    "lng": 135.30889,
+    "lat": 34.82771,
+    "lng": 135.30888,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -335,8 +335,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "武田尾",
     "nameKana": "たけだお",
     "nameEn": "Takedao",
-    "lat": 34.85566,
-    "lng": 135.3056,
+    "lat": 34.85499,
+    "lng": 135.3061,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -367,8 +367,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "道場",
     "nameKana": "どうじょう",
     "nameEn": "Dojo",
-    "lat": 34.86727,
-    "lng": 135.25499,
+    "lat": 34.86728,
+    "lng": 135.25662,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -399,8 +399,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "三田",
     "nameKana": "さんだ",
     "nameEn": "Sanda",
-    "lat": 34.88909,
-    "lng": 135.22863,
+    "lat": 34.88829,
+    "lng": 135.2312,
     "transfers": [
       "神鉄三田線"
     ],
@@ -433,8 +433,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "新三田",
     "nameKana": "しんさんだ",
     "nameEn": "Shin-Sanda",
-    "lat": 34.91067,
-    "lng": 135.20833,
+    "lat": 34.90961,
+    "lng": 135.2089,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -465,8 +465,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "広野",
     "nameKana": "ひろの",
     "nameEn": "Hirono",
-    "lat": 34.92773,
-    "lng": 135.19117,
+    "lat": 34.92937,
+    "lng": 135.19169,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -497,8 +497,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "相野",
     "nameKana": "あいの",
     "nameEn": "Aino",
-    "lat": 34.94732,
-    "lng": 135.15699,
+    "lat": 34.94795,
+    "lng": 135.15491,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -529,8 +529,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "藍本",
     "nameKana": "あいもと",
     "nameEn": "Aimoto",
-    "lat": 34.97612,
-    "lng": 135.15572,
+    "lat": 34.9778,
+    "lng": 135.15534,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -561,8 +561,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "草野",
     "nameKana": "くさの",
     "nameEn": "Kusano",
-    "lat": 34.99637,
-    "lng": 135.15235,
+    "lat": 34.99749,
+    "lng": 135.15239,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -593,8 +593,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "古市",
     "nameKana": "ふるいち",
     "nameEn": "Furuichi",
-    "lat": 35.02141,
-    "lng": 135.1542,
+    "lat": 35.02251,
+    "lng": 135.1557,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -625,8 +625,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "南矢代",
     "nameKana": "みなみやしろ",
     "nameEn": "Minami-Yashiro",
-    "lat": 35.03715,
-    "lng": 135.1746,
+    "lat": 35.03813,
+    "lng": 135.17501,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -657,8 +657,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "name": "篠山口",
     "nameKana": "ささやまぐち",
     "nameEn": "Sasayamaguchi",
-    "lat": 35.05694,
-    "lng": 135.17639,
+    "lat": 35.05712,
+    "lng": 135.17711,
     "transfers": [
       "ＪＲ福知山線"
     ],

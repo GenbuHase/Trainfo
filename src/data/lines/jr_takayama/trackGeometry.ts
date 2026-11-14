@@ -2,10 +2,22 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_takayama-01_jr_takayama-02",
+    "id": "jr_takayama-01_jr_takayama-02",
     "fromStationId": "jr_takayama-01",
     "toStationId": "jr_takayama-02",
     "coordinates": [
+      [
+        35.40974,
+        136.75464
+      ],
+      [
+        35.40965,
+        136.75546
+      ],
+      [
+        35.409530000000004,
+        136.756595
+      ],
       [
         35.40941,
         136.75773
@@ -103,20 +115,28 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.78391
       ],
       [
-        35.40474,
-        136.78644
+        35.4048425,
+        136.7858075
       ],
       [
-        35.40433,
-        136.78897
+        35.404534999999996,
+        136.78770500000002
+      ],
+      [
+        35.4042275,
+        136.7896025
       ],
       [
         35.40392,
         136.7915
       ],
       [
-        35.403545,
-        136.793815
+        35.40367,
+        136.79304333333334
+      ],
+      [
+        35.403420000000004,
+        136.79458666666667
       ],
       [
         35.40317,
@@ -137,33 +157,37 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40216,
         136.80237
-      ],
-      [
-        35.40201,
-        136.80334
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-02_jr_takayama-03",
+    "id": "jr_takayama-02_jr_takayama-03",
     "fromStationId": "jr_takayama-02",
     "toStationId": "jr_takayama-03",
     "coordinates": [
+      [
+        35.40216,
+        136.80237
+      ],
       [
         35.40201,
         136.80334
       ],
       [
-        35.401619999999994,
-        136.8057875
+        35.401697999999996,
+        136.805298
       ],
       [
-        35.40123,
-        136.808235
+        35.401385999999995,
+        136.807256
       ],
       [
-        35.40084,
-        136.81068249999998
+        35.401074,
+        136.809214
+      ],
+      [
+        35.400762,
+        136.811172
       ],
       [
         35.40045,
@@ -186,8 +210,12 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.81468
       ],
       [
-        35.39982,
-        136.81708
+        35.399946666666665,
+        136.81628
+      ],
+      [
+        35.39969333333333,
+        136.81788
       ],
       [
         35.39944,
@@ -218,12 +246,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.82467
       ],
       [
-        35.399923333333334,
-        136.82740666666666
+        35.3998725,
+        136.8267225
       ],
       [
-        35.400126666666665,
-        136.83014333333333
+        35.400025,
+        136.828775
+      ],
+      [
+        35.4001775,
+        136.8308275
       ],
       [
         35.40033,
@@ -232,18 +264,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40046,
         136.83464
-      ],
-      [
-        35.40061,
-        136.83651
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-03_jr_takayama-04",
+    "id": "jr_takayama-03_jr_takayama-04",
     "fromStationId": "jr_takayama-03",
     "toStationId": "jr_takayama-04",
     "coordinates": [
+      [
+        35.40046,
+        136.83464
+      ],
       [
         35.40061,
         136.83651
@@ -281,20 +313,24 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.84853
       ],
       [
-        35.40166,
-        136.850736
+        35.40163166666667,
+        136.85036833333334
       ],
       [
-        35.401830000000004,
-        136.852942
+        35.40177333333334,
+        136.85220666666666
       ],
       [
-        35.402,
-        136.85514799999999
+        35.401915,
+        136.85404499999999
       ],
       [
-        35.402170000000005,
-        136.857354
+        35.40205666666667,
+        136.85588333333334
+      ],
+      [
+        35.40219833333334,
+        136.85772166666666
       ],
       [
         35.40234,
@@ -305,16 +341,20 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.8607
       ],
       [
-        35.402609999999996,
-        136.86317250000002
+        35.402572,
+        136.86267800000002
       ],
       [
-        35.4028,
-        136.865645
+        35.402724,
+        136.864656
       ],
       [
-        35.40299,
-        136.86811749999998
+        35.402876,
+        136.866634
+      ],
+      [
+        35.403028,
+        136.86861199999998
       ],
       [
         35.40318,
@@ -323,18 +363,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.4033,
         136.87204
+      ],
+      [
+        35.40334,
+        136.87267
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-04_jr_takayama-05",
+    "id": "jr_takayama-04_jr_takayama-05",
     "fromStationId": "jr_takayama-04",
     "toStationId": "jr_takayama-05",
     "coordinates": [
-      [
-        35.4033,
-        136.87204
-      ],
       [
         35.40334,
         136.87267
@@ -354,6 +394,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40373,
         136.87812
+      ],
+      [
+        35.403825,
+        136.87932999999998
       ],
       [
         35.40392,
@@ -408,6 +452,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.89304
       ],
       [
+        35.403355000000005,
+        136.894415
+      ],
+      [
         35.40346,
         136.89579
       ],
@@ -426,18 +474,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40387,
         136.90087
+      ],
+      [
+        35.40393,
+        136.90179
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-05_jr_takayama-06",
+    "id": "jr_takayama-05_jr_takayama-06",
     "fromStationId": "jr_takayama-05",
     "toStationId": "jr_takayama-06",
     "coordinates": [
-      [
-        35.40387,
-        136.90087
-      ],
       [
         35.40393,
         136.90179
@@ -491,6 +539,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.91886
       ],
       [
+        35.402405,
+        136.92004500000002
+      ],
+      [
         35.40219,
         136.92123
       ],
@@ -515,8 +567,12 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.93055
       ],
       [
-        35.39999,
-        136.932975
+        35.40014,
+        136.93216666666666
+      ],
+      [
+        35.399840000000005,
+        136.93378333333334
       ],
       [
         35.39954,
@@ -535,8 +591,12 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.93734
       ],
       [
-        35.39875,
-        136.93958500000002
+        35.39889,
+        136.93883666666667
+      ],
+      [
+        35.39861,
+        136.94033333333334
       ],
       [
         35.39833,
@@ -553,18 +613,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.39772,
         136.9451
+      ],
+      [
+        35.3974,
+        136.947
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-06_jr_takayama-07",
+    "id": "jr_takayama-06_jr_takayama-07",
     "fromStationId": "jr_takayama-06",
     "toStationId": "jr_takayama-07",
     "coordinates": [
-      [
-        35.39772,
-        136.9451
-      ],
       [
         35.3974,
         136.947
@@ -614,6 +674,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.95622
       ],
       [
+        35.40087,
+        136.957045
+      ],
+      [
         35.40166,
         136.95787
       ],
@@ -648,6 +712,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.41003,
         136.96072
+      ],
+      [
+        35.411114999999995,
+        136.960685
       ],
       [
         35.4122,
@@ -788,18 +856,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.42632,
         136.97595
+      ],
+      [
+        35.42647,
+        136.97767
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-07_jr_takayama-08",
+    "id": "jr_takayama-07_jr_takayama-08",
     "fromStationId": "jr_takayama-07",
     "toStationId": "jr_takayama-08",
     "coordinates": [
-      [
-        35.42632,
-        136.97595
-      ],
       [
         35.42647,
         136.97767
@@ -853,16 +921,20 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.98902
       ],
       [
-        35.4316775,
-        136.99047000000002
+        35.431382,
+        136.99018
       ],
       [
-        35.433155,
-        136.99192
+        35.432564,
+        136.99134
       ],
       [
-        35.4346325,
-        136.99337
+        35.433746,
+        136.9925
+      ],
+      [
+        35.434928,
+        136.99366
       ],
       [
         35.43611,
@@ -875,6 +947,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.43835,
         136.99703
+      ],
+      [
+        35.439045,
+        136.99777999999998
       ],
       [
         35.43974,
@@ -891,6 +967,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.44245,
         137.00133
+      ],
+      [
+        35.44318,
+        137.00209
       ],
       [
         35.44391,
@@ -981,9 +1061,24 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.01793
       ],
       [
+        35.44579,
+        137.01794
+      ],
+      [
         35.44571,
         137.01864
       ],
+      [
+        35.44563,
+        137.01935
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-08_jr_takayama-09",
+    "fromStationId": "jr_takayama-08",
+    "toStationId": "jr_takayama-09",
+    "coordinates": [
       [
         35.44563,
         137.01935
@@ -991,21 +1086,6 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.4456,
         137.01965
-      ],
-      [
-        35.44417,
-        137.01972
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-08_jr_takayama-09",
-    "fromStationId": "jr_takayama-08",
-    "toStationId": "jr_takayama-09",
-    "coordinates": [
-      [
-        35.44417,
-        137.01972
       ],
       [
         35.44552,
@@ -1032,6 +1112,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.02383
       ],
       [
+        35.44505,
+        137.02509
+      ],
+      [
         35.44496,
         137.02635
       ],
@@ -1048,12 +1132,24 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.02893
       ],
       [
+        35.446485,
+        137.02989
+      ],
+      [
         35.44709,
         137.03085
       ],
       [
+        35.447685,
+        137.03181999999998
+      ],
+      [
         35.44828,
         137.03279
+      ],
+      [
+        35.448875,
+        137.03375499999999
       ],
       [
         35.44947,
@@ -1080,6 +1176,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.04102
       ],
       [
+        35.45401,
+        137.042075
+      ],
+      [
         35.45466,
         137.04313
       ],
@@ -1102,21 +1202,25 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.45729,
         137.04742
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-09_jr_takayama-10",
-    "fromStationId": "jr_takayama-09",
-    "toStationId": "jr_takayama-10",
-    "coordinates": [
-      [
-        35.45729,
-        137.04742
       ],
       [
         35.45773,
         137.04814
+      ],
+      [
+        35.45774,
+        137.04815
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-09_jr_takayama-10",
+    "fromStationId": "jr_takayama-09",
+    "toStationId": "jr_takayama-10",
+    "coordinates": [
+      [
+        35.45774,
+        137.04815
       ],
       [
         35.45848,
@@ -1183,6 +1287,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.0524
       ],
       [
+        35.46929,
+        137.052625
+      ],
+      [
         35.47021,
         137.05285
       ],
@@ -1205,6 +1313,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.47229,
         137.05373
+      ],
+      [
+        35.473095,
+        137.054255
       ],
       [
         35.4739,
@@ -1239,8 +1351,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.0582
       ],
       [
+        35.479569999999995,
+        137.059105
+      ],
+      [
         35.48017,
         137.06001
+      ],
+      [
+        35.480815,
+        137.061015
       ],
       [
         35.48146,
@@ -1285,18 +1405,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.48706,
         137.06512
+      ],
+      [
+        35.48772,
+        137.0653
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-10_jr_takayama-11",
+    "id": "jr_takayama-10_jr_takayama-11",
     "fromStationId": "jr_takayama-10",
     "toStationId": "jr_takayama-11",
     "coordinates": [
-      [
-        35.48706,
-        137.06512
-      ],
       [
         35.48772,
         137.0653
@@ -1318,8 +1438,12 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.06673
       ],
       [
-        35.494755,
-        137.067205
+        35.494166666666665,
+        137.06704666666667
+      ],
+      [
+        35.49534333333333,
+        137.06736333333333
       ],
       [
         35.49652,
@@ -1446,6 +1570,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.07887
       ],
       [
+        35.50786,
+        137.0796
+      ],
+      [
         35.50854,
         137.08033
       ],
@@ -1504,18 +1632,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.5149,
         137.08708
+      ],
+      [
+        35.51561,
+        137.08784
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-11_jr_takayama-12",
+    "id": "jr_takayama-11_jr_takayama-12",
     "fromStationId": "jr_takayama-11",
     "toStationId": "jr_takayama-12",
     "coordinates": [
-      [
-        35.5149,
-        137.08708
-      ],
       [
         35.51561,
         137.08784
@@ -1601,7 +1729,15 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.09447
       ],
       [
+        35.52256,
+        137.09448
+      ],
+      [
         35.52278,
+        137.09492
+      ],
+      [
+        35.52279,
         137.09492
       ],
       [
@@ -2019,22 +2155,22 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.54131,
         137.11843
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-12_jr_takayama-13",
-    "fromStationId": "jr_takayama-12",
-    "toStationId": "jr_takayama-13",
-    "coordinates": [
-      [
-        35.54131,
-        137.11843
       ],
       [
         35.54138,
         137.1191
       ],
+      [
+        35.54139,
+        137.11984
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-12_jr_takayama-13",
+    "fromStationId": "jr_takayama-12",
+    "toStationId": "jr_takayama-13",
+    "coordinates": [
       [
         35.54139,
         137.11984
@@ -2232,12 +2368,20 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.14264
       ],
       [
-        35.54549,
-        137.144695
+        35.54504,
+        137.14401
+      ],
+      [
+        35.54594,
+        137.14538
       ],
       [
         35.54684,
         137.14675
+      ],
+      [
+        35.54742,
+        137.147675
       ],
       [
         35.548,
@@ -2426,6 +2570,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.55511,
         137.1668
+      ],
+      [
+        35.555335,
+        137.16797
       ],
       [
         35.55556,
@@ -2650,18 +2798,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.57899,
         137.18543
+      ],
+      [
+        35.57976,
+        137.18425
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-13_jr_takayama-14",
+    "id": "jr_takayama-13_jr_takayama-14",
     "fromStationId": "jr_takayama-13",
     "toStationId": "jr_takayama-14",
     "coordinates": [
-      [
-        35.57899,
-        137.18543
-      ],
       [
         35.57976,
         137.18425
@@ -3083,6 +3231,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.17269
       ],
       [
+        35.622895,
+        137.173915
+      ],
+      [
         35.62282,
         137.17514
       ],
@@ -3171,20 +3323,24 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.18329
       ],
       [
-        35.63294,
-        137.1831
+        35.631855,
+        137.183195
       ],
       [
-        35.6336,
-        137.18313
+        35.63294,
+        137.1831
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-14_jr_takayama-15",
+    "id": "jr_takayama-14_jr_takayama-15",
     "fromStationId": "jr_takayama-14",
     "toStationId": "jr_takayama-15",
     "coordinates": [
+      [
+        35.63294,
+        137.1831
+      ],
       [
         35.6336,
         137.18313
@@ -3374,6 +3530,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.18144
       ],
       [
+        35.64562,
+        137.180185
+      ],
+      [
         35.64566,
         137.17893
       ],
@@ -3448,6 +3608,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.65144,
         137.16784
+      ],
+      [
+        35.652125,
+        137.16706
       ],
       [
         35.65281,
@@ -3536,18 +3700,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.66196,
         137.1646
-      ],
-      [
-        35.66301,
-        137.16417
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-15_jr_takayama-16",
+    "id": "jr_takayama-15_jr_takayama-16",
     "fromStationId": "jr_takayama-15",
     "toStationId": "jr_takayama-16",
     "coordinates": [
+      [
+        35.66196,
+        137.1646
+      ],
       [
         35.66301,
         137.16417
@@ -3743,6 +3907,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.68199,
         137.16694
+      ],
+      [
+        35.683080000000004,
+        137.167165
       ],
       [
         35.68417,
@@ -4195,18 +4363,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.72516,
         137.20085
-      ],
-      [
-        35.72609,
-        137.20037
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-16_jr_takayama-17",
+    "id": "jr_takayama-16_jr_takayama-17",
     "fromStationId": "jr_takayama-16",
     "toStationId": "jr_takayama-17",
     "coordinates": [
+      [
+        35.72516,
+        137.20085
+      ],
       [
         35.72609,
         137.20037
@@ -4452,12 +4620,20 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.21685
       ],
       [
+        35.747870000000006,
+        137.217905
+      ],
+      [
         35.74835,
         137.21896
       ],
       [
-        35.749235,
-        137.22090500000002
+        35.748940000000005,
+        137.22025666666667
+      ],
+      [
+        35.74953,
+        137.22155333333333
       ],
       [
         35.75012,
@@ -4912,6 +5088,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.25479
       ],
       [
+        35.79085,
+        137.25456000000003
+      ],
+      [
         35.79186,
         137.25433
       ],
@@ -5004,9 +5184,28 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.24258
       ],
       [
+        35.802765,
+        137.241975
+      ],
+      [
         35.80363,
         137.24137
       ],
+      [
+        35.804475,
+        137.240705
+      ],
+      [
+        35.80532,
+        137.24004
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-17_jr_takayama-18",
+    "fromStationId": "jr_takayama-17",
+    "toStationId": "jr_takayama-18",
+    "coordinates": [
       [
         35.80532,
         137.24004
@@ -5016,19 +5215,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.23969
       ],
       [
-        35.80621,
-        137.23929
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-17_jr_takayama-18",
-    "fromStationId": "jr_takayama-17",
-    "toStationId": "jr_takayama-18",
-    "coordinates": [
+        35.80608,
+        137.2394
+      ],
       [
         35.80621,
         137.23929
+      ],
+      [
+        35.8063,
+        137.23921
       ],
       [
         35.80645,
@@ -5069,6 +5265,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.81446,
         137.23687
+      ],
+      [
+        35.8155,
+        137.236855
       ],
       [
         35.81654,
@@ -5285,18 +5485,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.84919,
         137.22517
+      ],
+      [
+        35.84967,
+        137.2249
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-18_jr_takayama-19",
+    "id": "jr_takayama-18_jr_takayama-19",
     "fromStationId": "jr_takayama-18",
     "toStationId": "jr_takayama-19",
     "coordinates": [
-      [
-        35.84919,
-        137.22517
-      ],
       [
         35.84967,
         137.2249
@@ -5410,6 +5610,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.22095
       ],
       [
+        35.86727,
+        137.220285
+      ],
+      [
         35.8681,
         137.21962
       ],
@@ -5452,22 +5656,22 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.8739,
         137.21422
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-19_jr_takayama-20",
-    "fromStationId": "jr_takayama-19",
-    "toStationId": "jr_takayama-20",
-    "coordinates": [
-      [
-        35.8739,
-        137.21422
       ],
       [
         35.87446,
         137.21389
       ],
+      [
+        35.87557,
+        137.21342
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-19_jr_takayama-20",
+    "fromStationId": "jr_takayama-19",
+    "toStationId": "jr_takayama-20",
+    "coordinates": [
       [
         35.87557,
         137.21342
@@ -5559,6 +5763,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.88826,
         137.21171
+      ],
+      [
+        35.889285,
+        137.21126500000003
       ],
       [
         35.89031,
@@ -5657,24 +5865,28 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.20526
       ],
       [
+        35.909065,
+        137.20504
+      ],
+      [
         35.91017,
         137.20482
       ],
       [
         35.91082,
         137.20469
+      ],
+      [
+        35.91175,
+        137.20451
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-20_jr_takayama-21",
+    "id": "jr_takayama-20_jr_takayama-21",
     "fromStationId": "jr_takayama-20",
     "toStationId": "jr_takayama-21",
     "coordinates": [
-      [
-        35.91082,
-        137.20469
-      ],
       [
         35.91175,
         137.20451
@@ -5962,18 +6174,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.92834,
         137.23502
-      ],
-      [
-        35.92845,
-        137.23555
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-21_jr_takayama-22",
+    "id": "jr_takayama-21_jr_takayama-22",
     "fromStationId": "jr_takayama-21",
     "toStationId": "jr_takayama-22",
     "coordinates": [
+      [
+        35.92834,
+        137.23502
+      ],
       [
         35.92845,
         137.23555
@@ -5985,6 +6197,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.92895,
         137.23813
+      ],
+      [
+        35.929190000000006,
+        137.23944
       ],
       [
         35.92943,
@@ -6103,6 +6319,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.25013
       ],
       [
+        35.94092,
+        137.25014
+      ],
+      [
         35.94135,
         137.25031
       ],
@@ -6181,18 +6401,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.95012,
         137.25615
-      ],
-      [
-        35.95145,
-        137.25757
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-22_jr_takayama-23",
+    "id": "jr_takayama-22_jr_takayama-23",
     "fromStationId": "jr_takayama-22",
     "toStationId": "jr_takayama-23",
     "coordinates": [
+      [
+        35.95012,
+        137.25615
+      ],
       [
         35.95145,
         137.25757
@@ -6360,6 +6580,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.96802,
         137.26062
+      ],
+      [
+        35.968915,
+        137.26094999999998
       ],
       [
         35.96981,
@@ -6536,6 +6760,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.97868,
         137.27447
+      ],
+      [
+        35.97868,
+        137.27448
       ],
       [
         35.97885,
@@ -6814,6 +7042,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.28433
       ],
       [
+        35.99911,
+        137.28434
+      ],
+      [
         35.9992,
         137.28437
       ],
@@ -6848,18 +7080,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.00121,
         137.28735
+      ],
+      [
+        36.0017,
+        137.28854
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-23_jr_takayama-24",
+    "id": "jr_takayama-23_jr_takayama-24",
     "fromStationId": "jr_takayama-23",
     "toStationId": "jr_takayama-24",
     "coordinates": [
-      [
-        36.00121,
-        137.28735
-      ],
       [
         36.0017,
         137.28854
@@ -7491,18 +7723,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.05161,
         137.27746
-      ],
-      [
-        36.05307,
-        137.27619
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-24_jr_takayama-25",
+    "id": "jr_takayama-24_jr_takayama-25",
     "fromStationId": "jr_takayama-24",
     "toStationId": "jr_takayama-25",
     "coordinates": [
+      [
+        36.05161,
+        137.27746
+      ],
       [
         36.05307,
         137.27619
@@ -7578,6 +7810,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.06184,
         137.27164
+      ],
+      [
+        36.062625,
+        137.270975
       ],
       [
         36.06341,
@@ -7664,6 +7900,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.26206
       ],
       [
+        36.072720000000004,
+        137.26094
+      ],
+      [
         36.07332,
         137.25982
       ],
@@ -7686,6 +7926,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.07672,
         137.25346
+      ],
+      [
+        36.077285,
+        137.25241
       ],
       [
         36.07785,
@@ -7882,21 +8126,25 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.08821,
         137.24715
-      ],
-      [
-        36.08846,
-        137.24795
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-25_jr_takayama-26",
+    "id": "jr_takayama-25_jr_takayama-26",
     "fromStationId": "jr_takayama-25",
     "toStationId": "jr_takayama-26",
     "coordinates": [
       [
+        36.08821,
+        137.24715
+      ],
+      [
         36.08846,
         137.24795
+      ],
+      [
+        36.08854,
+        137.24818
       ],
       [
         36.0887,
@@ -8135,6 +8383,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.26107
       ],
       [
+        36.12035,
+        137.26072
+      ],
+      [
         36.12125,
         137.26037
       ],
@@ -8237,18 +8489,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.13996,
         137.25149
-      ],
-      [
-        36.14142,
-        137.25131
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-26_jr_takayama-27",
+    "id": "jr_takayama-26_jr_takayama-27",
     "fromStationId": "jr_takayama-26",
     "toStationId": "jr_takayama-27",
     "coordinates": [
+      [
+        36.13996,
+        137.25149
+      ],
       [
         36.14142,
         137.25131
@@ -8290,12 +8542,20 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.25037
       ],
       [
+        36.150245,
+        137.249965
+      ],
+      [
         36.15123,
         137.24956
       ],
       [
         36.15185,
         137.2493
+      ],
+      [
+        36.152895,
+        137.24887999999999
       ],
       [
         36.15394,
@@ -8460,21 +8720,25 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.18066,
         137.2457
-      ],
-      [
-        36.18131,
-        137.24597
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-27_jr_takayama-28",
+    "id": "jr_takayama-27_jr_takayama-28",
     "fromStationId": "jr_takayama-27",
     "toStationId": "jr_takayama-28",
     "coordinates": [
       [
+        36.18066,
+        137.2457
+      ],
+      [
         36.18131,
         137.24597
+      ],
+      [
+        36.182175,
+        137.24633
       ],
       [
         36.18304,
@@ -8525,6 +8789,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.25121
       ],
       [
+        36.18817,
+        137.252225
+      ],
+      [
         36.18888,
         137.25324
       ],
@@ -8567,6 +8835,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.19353,
         137.25773
+      ],
+      [
+        36.194425,
+        137.257975
       ],
       [
         36.19532,
@@ -8641,6 +8913,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.25523
       ],
       [
+        36.199765,
+        137.254115
+      ],
+      [
         36.19987,
         137.253
       ],
@@ -8651,6 +8927,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.20021,
         137.24939
+      ],
+      [
+        36.200334999999995,
+        137.248185
       ],
       [
         36.20046,
@@ -8787,18 +9067,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.21081,
         137.21624
-      ],
-      [
-        36.21143,
-        137.2153
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-28_jr_takayama-29",
+    "id": "jr_takayama-28_jr_takayama-29",
     "fromStationId": "jr_takayama-28",
     "toStationId": "jr_takayama-29",
     "coordinates": [
+      [
+        36.21081,
+        137.21624
+      ],
       [
         36.21143,
         137.2153
@@ -8834,6 +9114,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.2156,
         137.21019
+      ],
+      [
+        36.216480000000004,
+        137.209495
       ],
       [
         36.21736,
@@ -8930,18 +9214,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.23611,
         137.1908
-      ],
-      [
-        36.23714,
-        137.18917
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-29_jr_takayama-30",
+    "id": "jr_takayama-29_jr_takayama-30",
     "fromStationId": "jr_takayama-29",
     "toStationId": "jr_takayama-30",
     "coordinates": [
+      [
+        36.23611,
+        137.1908
+      ],
       [
         36.23714,
         137.18917
@@ -8957,6 +9241,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.23855,
         137.18696
+      ],
+      [
+        36.239115,
+        137.18607
       ],
       [
         36.23968,
@@ -9017,18 +9305,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.24961,
         137.16946
-      ],
-      [
-        36.25018,
-        137.16852
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-30_jr_takayama-31",
+    "id": "jr_takayama-30_jr_takayama-31",
     "fromStationId": "jr_takayama-30",
     "toStationId": "jr_takayama-31",
     "coordinates": [
+      [
+        36.24961,
+        137.16946
+      ],
       [
         36.25018,
         137.16852
@@ -9082,8 +9370,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.1546
       ],
       [
+        36.257810000000006,
+        137.153495
+      ],
+      [
         36.25836,
         137.15239
+      ],
+      [
+        36.258835000000005,
+        137.1514
       ],
       [
         36.25931,
@@ -9100,18 +9396,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.26087,
         137.14638
-      ],
-      [
-        36.26138,
-        137.14488
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-31_jr_takayama-32",
+    "id": "jr_takayama-31_jr_takayama-32",
     "fromStationId": "jr_takayama-31",
     "toStationId": "jr_takayama-32",
     "coordinates": [
+      [
+        36.26087,
+        137.14638
+      ],
       [
         36.26138,
         137.14488
@@ -9531,18 +9827,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.29959,
         137.11352
+      ],
+      [
+        36.30022,
+        137.11319
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-32_jr_takayama-33",
+    "id": "jr_takayama-32_jr_takayama-33",
     "fromStationId": "jr_takayama-32",
     "toStationId": "jr_takayama-33",
     "coordinates": [
-      [
-        36.29959,
-        137.11352
-      ],
       [
         36.30022,
         137.11319
@@ -9906,18 +10202,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.32727,
         137.14007
-      ],
-      [
-        36.32755,
-        137.14091
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-33_jr_takayama-34",
+    "id": "jr_takayama-33_jr_takayama-34",
     "fromStationId": "jr_takayama-33",
     "toStationId": "jr_takayama-34",
     "coordinates": [
+      [
+        36.32727,
+        137.14007
+      ],
       [
         36.32755,
         137.14091
@@ -10769,21 +11065,25 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.38362,
         137.18205
-      ],
-      [
-        36.38425,
-        137.18194
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-34_jr_takayama-35",
+    "id": "jr_takayama-34_jr_takayama-35",
     "fromStationId": "jr_takayama-34",
     "toStationId": "jr_takayama-35",
     "coordinates": [
       [
+        36.38362,
+        137.18205
+      ],
+      [
         36.38425,
         137.18194
+      ],
+      [
+        36.38436,
+        137.1819
       ],
       [
         36.38474,
@@ -10934,6 +11234,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.18218
       ],
       [
+        36.40056,
+        137.18219
+      ],
+      [
         36.40162,
         137.18254
       ],
@@ -10948,6 +11252,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.40322,
         137.18302
+      ],
+      [
+        36.40323,
+        137.18303
       ],
       [
         36.40329,
@@ -11104,18 +11412,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.41558,
         137.1923
+      ],
+      [
+        36.41613,
+        137.19264
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-35_jr_takayama-36",
+    "id": "jr_takayama-35_jr_takayama-36",
     "fromStationId": "jr_takayama-35",
     "toStationId": "jr_takayama-36",
     "coordinates": [
-      [
-        36.41558,
-        137.1923
-      ],
       [
         36.41613,
         137.19264
@@ -11713,6 +12021,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.24304
       ],
       [
+        36.45949,
+        137.24305
+      ],
+      [
         36.45983,
         137.24354
       ],
@@ -11869,24 +12181,32 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.23946
       ],
       [
+        36.47036,
+        137.23945
+      ],
+      [
         36.47092,
         137.23881
       ],
       [
-        36.47141,
-        137.23829
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-36_jr_takayama-37",
-    "fromStationId": "jr_takayama-36",
-    "toStationId": "jr_takayama-37",
-    "coordinates": [
+        36.47136,
+        137.23834
+      ],
       [
         36.47141,
         137.23829
       ],
+      [
+        36.4722,
+        137.2374
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-36_jr_takayama-37",
+    "fromStationId": "jr_takayama-36",
+    "toStationId": "jr_takayama-37",
+    "coordinates": [
       [
         36.4722,
         137.2374
@@ -12438,22 +12758,22 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.52924,
         137.22872
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-37_jr_takayama-38",
-    "fromStationId": "jr_takayama-37",
-    "toStationId": "jr_takayama-38",
-    "coordinates": [
-      [
-        36.52924,
-        137.22872
       ],
       [
         36.52962,
         137.22877
       ],
+      [
+        36.53007,
+        137.22879
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-37_jr_takayama-38",
+    "fromStationId": "jr_takayama-37",
+    "toStationId": "jr_takayama-38",
+    "coordinates": [
       [
         36.53007,
         137.22879
@@ -12741,18 +13061,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.56078,
         137.212
+      ],
+      [
+        36.56205,
+        137.21115
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-38_jr_takayama-39",
+    "id": "jr_takayama-38_jr_takayama-39",
     "fromStationId": "jr_takayama-38",
     "toStationId": "jr_takayama-39",
     "coordinates": [
-      [
-        36.56078,
-        137.212
-      ],
       [
         36.56205,
         137.21115
@@ -12846,6 +13166,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.20573
       ],
       [
+        36.56843,
+        137.20573
+      ],
+      [
         36.56924,
         137.20464
       ],
@@ -12862,12 +13186,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.20167
       ],
       [
-        36.572763333333334,
-        137.19994
+        36.57244,
+        137.20037250000001
       ],
       [
-        36.574056666666664,
-        137.19821000000002
+        36.573409999999996,
+        137.199075
+      ],
+      [
+        36.57438,
+        137.1977775
       ],
       [
         36.57535,
@@ -12996,18 +13324,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.58966,
         137.17495
+      ],
+      [
+        36.58975,
+        137.17452
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-39_jr_takayama-40",
+    "id": "jr_takayama-39_jr_takayama-40",
     "fromStationId": "jr_takayama-39",
     "toStationId": "jr_takayama-40",
     "coordinates": [
-      [
-        36.58966,
-        137.17495
-      ],
       [
         36.58975,
         137.17452
@@ -13017,12 +13345,24 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.17308
       ],
       [
+        36.590305,
+        137.171775
+      ],
+      [
         36.59056,
         137.17047
       ],
       [
+        36.590860000000006,
+        137.16924
+      ],
+      [
         36.59116,
         137.16801
+      ],
+      [
+        36.591525000000004,
+        137.166765
       ],
       [
         36.59189,
@@ -13179,22 +13519,22 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.59144,
         137.13852
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takayama-40_jr_takayama-41",
-    "fromStationId": "jr_takayama-40",
-    "toStationId": "jr_takayama-41",
-    "coordinates": [
-      [
-        36.59144,
-        137.13852
       ],
       [
         36.59185,
         137.13815
       ],
+      [
+        36.59226,
+        137.13779
+      ]
+    ]
+  },
+  {
+    "id": "jr_takayama-40_jr_takayama-41",
+    "fromStationId": "jr_takayama-40",
+    "toStationId": "jr_takayama-41",
+    "coordinates": [
       [
         36.59226,
         137.13779
@@ -13252,6 +13592,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.13355
       ],
       [
+        36.605145,
+        137.13335
+      ],
+      [
         36.60607,
         137.13315
       ],
@@ -13268,6 +13612,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.13217
       ],
       [
+        36.61141,
+        137.131955
+      ],
+      [
         36.61235,
         137.13174
       ],
@@ -13282,6 +13630,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.61516,
         137.13174
+      ],
+      [
+        36.616285000000005,
+        137.131775
       ],
       [
         36.61741,
@@ -13312,8 +13664,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.13212
       ],
       [
+        36.626315,
+        137.13215
+      ],
+      [
         36.62734,
         137.13218
+      ],
+      [
+        36.62835,
+        137.13222000000002
       ],
       [
         36.62936,
@@ -13342,18 +13702,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.63446,
         137.13245
+      ],
+      [
+        36.63525,
+        137.13248
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-41_jr_takayama-42",
+    "id": "jr_takayama-41_jr_takayama-42",
     "fromStationId": "jr_takayama-41",
     "toStationId": "jr_takayama-42",
     "coordinates": [
-      [
-        36.63446,
-        137.13245
-      ],
       [
         36.63525,
         137.13248
@@ -13421,6 +13781,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.64519,
         137.14053
+      ],
+      [
+        36.64579,
+        137.141375
       ],
       [
         36.64639,
@@ -13527,6 +13891,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.15333
       ],
       [
+        36.655755,
+        137.154165
+      ],
+      [
         36.65645,
         137.155
       ],
@@ -13569,18 +13937,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.66402,
         137.16041
+      ],
+      [
+        36.66442,
+        137.16065
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-42_jr_takayama-43",
+    "id": "jr_takayama-42_jr_takayama-43",
     "fromStationId": "jr_takayama-42",
     "toStationId": "jr_takayama-43",
     "coordinates": [
-      [
-        36.66402,
-        137.16041
-      ],
       [
         36.66442,
         137.16065
@@ -13590,8 +13958,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.16152
       ],
       [
+        36.66692,
+        137.16210999999998
+      ],
+      [
         36.66793,
         137.1627
+      ],
+      [
+        36.668825,
+        137.163225
       ],
       [
         36.66972,
@@ -13652,18 +14028,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.67782,
         137.16862
+      ],
+      [
+        36.67814,
+        137.16881
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-43_jr_takayama-44",
+    "id": "jr_takayama-43_jr_takayama-44",
     "fromStationId": "jr_takayama-43",
     "toStationId": "jr_takayama-44",
     "coordinates": [
-      [
-        36.67782,
-        137.16862
-      ],
       [
         36.67814,
         137.16881
@@ -13725,8 +14101,16 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.172
       ],
       [
+        36.686765,
+        137.172135
+      ],
+      [
         36.68775,
         137.17227
+      ],
+      [
+        36.688855000000004,
+        137.17242
       ],
       [
         36.68996,
@@ -13735,6 +14119,10 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.6914,
         137.17276
+      ],
+      [
+        36.692385,
+        137.17289
       ],
       [
         36.69337,
@@ -13803,18 +14191,18 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.69899,
         137.17664
+      ],
+      [
+        36.69977,
+        137.17753
       ]
     ]
   },
   {
-    "segmentId": "jr_takayama-44_jr_takayama-45",
+    "id": "jr_takayama-44_jr_takayama-45",
     "fromStationId": "jr_takayama-44",
     "toStationId": "jr_takayama-45",
     "coordinates": [
-      [
-        36.69899,
-        137.17664
-      ],
       [
         36.69977,
         137.17753
@@ -13944,12 +14332,20 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.20183
       ],
       [
-        36.70538,
-        137.204025
+        36.70567,
+        137.20329333333333
+      ],
+      [
+        36.70509,
+        137.20475666666667
       ],
       [
         36.70451,
         137.20622
+      ],
+      [
+        36.70402,
+        137.207425
       ],
       [
         36.70353,
@@ -13968,8 +14364,12 @@ export const JR_TAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         137.21197
       ],
       [
-        36.701368,
-        137.2134438
+        36.70169,
+        137.21321
+      ],
+      [
+        36.70118,
+        137.21445
       ]
     ]
   }

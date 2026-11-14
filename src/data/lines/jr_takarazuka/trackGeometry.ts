@@ -2,37 +2,17 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_takarazuka-01_jr_takarazuka-02",
+    "id": "jr_takarazuka-01_jr_takarazuka-02",
     "fromStationId": "jr_takarazuka-01",
     "toStationId": "jr_takarazuka-02",
     "coordinates": [
       [
-        34.71944,
-        135.43194
-      ],
-      [
-        34.72147833333333,
-        135.4321
-      ],
-      [
-        34.72351666666667,
-        135.43225999999999
-      ],
-      [
-        34.725555,
-        135.43241999999998
-      ],
-      [
-        34.72759333333333,
-        135.43258
-      ],
-      [
-        34.72963166666667,
-        135.43274
-      ],
-      [
         34.73167,
         135.4329
+      ],
+      [
+        34.731854999999996,
+        135.43178
       ],
       [
         34.73204,
@@ -145,18 +125,22 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.74993,
         135.42527
+      ],
+      [
+        34.75083,
+        135.42512
+      ],
+      [
+        34.75173,
+        135.42497
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-02_jr_takarazuka-03",
+    "id": "jr_takarazuka-02_jr_takarazuka-03",
     "fromStationId": "jr_takarazuka-02",
     "toStationId": "jr_takarazuka-03",
     "coordinates": [
-      [
-        34.74993,
-        135.42527
-      ],
       [
         34.75173,
         135.42497
@@ -304,18 +288,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.7632,
         135.42276
-      ],
-      [
-        34.7648,
-        135.42247
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-03_jr_takarazuka-04",
+    "id": "jr_takarazuka-03_jr_takarazuka-04",
     "fromStationId": "jr_takarazuka-03",
     "toStationId": "jr_takarazuka-04",
     "coordinates": [
+      [
+        34.7632,
+        135.42276
+      ],
       [
         34.7648,
         135.42247
@@ -439,18 +423,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.78009,
         135.4218
-      ],
-      [
-        34.78114,
-        135.42175
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-04_jr_takarazuka-05",
+    "id": "jr_takarazuka-04_jr_takarazuka-05",
     "fromStationId": "jr_takarazuka-04",
     "toStationId": "jr_takarazuka-05",
     "coordinates": [
+      [
+        34.78009,
+        135.4218
+      ],
       [
         34.78114,
         135.42175
@@ -622,21 +606,29 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.79976,
         135.41971
-      ],
-      [
-        34.8018,
-        135.41938
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-05_jr_takarazuka-06",
+    "id": "jr_takarazuka-05_jr_takarazuka-06",
     "fromStationId": "jr_takarazuka-05",
     "toStationId": "jr_takarazuka-06",
     "coordinates": [
       [
+        34.79976,
+        135.41971
+      ],
+      [
+        34.80078,
+        135.419545
+      ],
+      [
         34.8018,
         135.41938
+      ],
+      [
+        34.80188,
+        135.41937
       ],
       [
         34.80218,
@@ -791,6 +783,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.41587
       ],
       [
+        34.81182,
+        135.41587
+      ],
+      [
         34.81237,
         135.41563
       ],
@@ -841,6 +837,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81551,
         135.41483
+      ],
+      [
+        34.816525,
+        135.4148
       ],
       [
         34.81754,
@@ -935,24 +935,28 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.41165
       ],
       [
+        34.82424,
+        135.41165
+      ],
+      [
         34.82448,
         135.41106
       ],
       [
         34.8247,
         135.41042
-      ],
-      [
-        34.82508,
-        135.4092
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-06_jr_takarazuka-07",
+    "id": "jr_takarazuka-06_jr_takarazuka-07",
     "fromStationId": "jr_takarazuka-06",
     "toStationId": "jr_takarazuka-07",
     "coordinates": [
+      [
+        34.8247,
+        135.41042
+      ],
       [
         34.82508,
         135.4092
@@ -1332,18 +1336,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81655,
         135.37483
-      ],
-      [
-        34.81665,
-        135.37318
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-07_jr_takarazuka-08",
+    "id": "jr_takarazuka-07_jr_takarazuka-08",
     "fromStationId": "jr_takarazuka-07",
     "toStationId": "jr_takarazuka-08",
     "coordinates": [
+      [
+        34.81655,
+        135.37483
+      ],
       [
         34.81665,
         135.37318
@@ -1457,6 +1461,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.35703
       ],
       [
+        34.81076,
+        135.35588
+      ],
+      [
         34.81016,
         135.35473
       ],
@@ -1559,18 +1567,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81103,
         135.34156
+      ],
+      [
+        34.81168,
+        135.34013
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-08_jr_takarazuka-09",
+    "id": "jr_takarazuka-08_jr_takarazuka-09",
     "fromStationId": "jr_takarazuka-08",
     "toStationId": "jr_takarazuka-09",
     "coordinates": [
-      [
-        34.81103,
-        135.34156
-      ],
       [
         34.81168,
         135.34013
@@ -1614,6 +1622,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81314,
         135.33777
+      ],
+      [
+        34.813925,
+        135.33720499999998
       ],
       [
         34.81471,
@@ -1750,18 +1762,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81966,
         135.32611
+      ],
+      [
+        34.81902,
+        135.32454
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-09_jr_takarazuka-10",
+    "id": "jr_takarazuka-09_jr_takarazuka-10",
     "fromStationId": "jr_takarazuka-09",
     "toStationId": "jr_takarazuka-10",
     "coordinates": [
-      [
-        34.81966,
-        135.32611
-      ],
       [
         34.81902,
         135.32454
@@ -1991,20 +2003,28 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.30885
       ],
       [
-        34.82675,
-        135.30889
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takarazuka-10_jr_takarazuka-11",
-    "fromStationId": "jr_takarazuka-10",
-    "toStationId": "jr_takarazuka-11",
-    "coordinates": [
+        34.8266,
+        135.30888
+      ],
+      [
+        34.82666,
+        135.30888
+      ],
       [
         34.82675,
         135.30889
       ],
+      [
+        34.82771,
+        135.30888
+      ]
+    ]
+  },
+  {
+    "id": "jr_takarazuka-10_jr_takarazuka-11",
+    "fromStationId": "jr_takarazuka-10",
+    "toStationId": "jr_takarazuka-11",
+    "coordinates": [
       [
         34.82771,
         135.30888
@@ -2192,22 +2212,22 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.85499,
         135.3061
+      ]
+    ]
+  },
+  {
+    "id": "jr_takarazuka-11_jr_takarazuka-12",
+    "fromStationId": "jr_takarazuka-11",
+    "toStationId": "jr_takarazuka-12",
+    "coordinates": [
+      [
+        34.85499,
+        135.3061
       ],
       [
         34.85537,
         135.30582
       ],
-      [
-        34.85566,
-        135.3056
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takarazuka-11_jr_takarazuka-12",
-    "fromStationId": "jr_takarazuka-11",
-    "toStationId": "jr_takarazuka-12",
-    "coordinates": [
       [
         34.85566,
         135.3056
@@ -2333,6 +2353,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.29184
       ],
       [
+        34.862425,
+        135.29062
+      ],
+      [
         34.86255,
         135.2894
       ],
@@ -2435,6 +2459,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.86496,
         135.27339
+      ],
+      [
+        34.865315,
+        135.27212500000002
       ],
       [
         34.86567,
@@ -2547,18 +2575,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.86728,
         135.25662
-      ],
-      [
-        34.86727,
-        135.25499
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-12_jr_takarazuka-13",
+    "id": "jr_takarazuka-12_jr_takarazuka-13",
     "fromStationId": "jr_takarazuka-12",
     "toStationId": "jr_takarazuka-13",
     "coordinates": [
+      [
+        34.86728,
+        135.25662
+      ],
       [
         34.86727,
         135.25499
@@ -2678,6 +2706,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.87304,
         135.2499
+      ],
+      [
+        34.87305,
+        135.24989
       ],
       [
         34.87309,
@@ -2962,6 +2994,17 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.88829,
         135.2312
+      ]
+    ]
+  },
+  {
+    "id": "jr_takarazuka-13_jr_takarazuka-14",
+    "fromStationId": "jr_takarazuka-13",
+    "toStationId": "jr_takarazuka-14",
+    "coordinates": [
+      [
+        34.88829,
+        135.2312
       ],
       [
         34.88869,
@@ -2970,17 +3013,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.88909,
         135.22863
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_takarazuka-13_jr_takarazuka-14",
-    "fromStationId": "jr_takarazuka-13",
-    "toStationId": "jr_takarazuka-14",
-    "coordinates": [
+      ],
       [
-        34.88909,
-        135.22863
+        34.8891,
+        135.22858
       ],
       [
         34.8893,
@@ -3189,21 +3225,29 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.90961,
         135.2089
-      ],
-      [
-        34.91067,
-        135.20833
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-14_jr_takarazuka-15",
+    "id": "jr_takarazuka-14_jr_takarazuka-15",
     "fromStationId": "jr_takarazuka-14",
     "toStationId": "jr_takarazuka-15",
     "coordinates": [
       [
+        34.90961,
+        135.2089
+      ],
+      [
         34.91067,
         135.20833
+      ],
+      [
+        34.91071,
+        135.20831
+      ],
+      [
+        34.91083,
+        135.20825
       ],
       [
         34.9111,
@@ -3310,6 +3354,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.20085
       ],
       [
+        34.918845000000005,
+        135.199815
+      ],
+      [
         34.91926,
         135.19878
       ],
@@ -3412,18 +3460,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.92773,
         135.19117
+      ],
+      [
+        34.92937,
+        135.19169
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-15_jr_takarazuka-16",
+    "id": "jr_takarazuka-15_jr_takarazuka-16",
     "fromStationId": "jr_takarazuka-15",
     "toStationId": "jr_takarazuka-16",
     "coordinates": [
-      [
-        34.92773,
-        135.19117
-      ],
       [
         34.92937,
         135.19169
@@ -3501,6 +3549,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.18856
       ],
       [
+        34.934695000000005,
+        135.18725
+      ],
+      [
         34.93495,
         135.18594
       ],
@@ -3517,8 +3569,12 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.18288
       ],
       [
-        34.936045,
-        135.18060000000003
+        34.93588666666667,
+        135.18136
+      ],
+      [
+        34.93620333333333,
+        135.17984
       ],
       [
         34.93652,
@@ -3625,24 +3681,32 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.15944
       ],
       [
+        34.94685,
+        135.158415
+      ],
+      [
         34.94718,
         135.15739
       ],
       [
         34.94732,
         135.15699
+      ],
+      [
+        34.947635,
+        135.15595000000002
+      ],
+      [
+        34.94795,
+        135.15491
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-16_jr_takarazuka-17",
+    "id": "jr_takarazuka-16_jr_takarazuka-17",
     "fromStationId": "jr_takarazuka-16",
     "toStationId": "jr_takarazuka-17",
     "coordinates": [
-      [
-        34.94732,
-        135.15699
-      ],
       [
         34.94795,
         135.15491
@@ -3696,6 +3760,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.14818
       ],
       [
+        34.952615,
+        135.147535
+      ],
+      [
         34.9536,
         135.14689
       ],
@@ -3728,8 +3796,16 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.14504
       ],
       [
+        34.95828,
+        135.144795
+      ],
+      [
         34.95921,
         135.14455
+      ],
+      [
+        34.960145,
+        135.144305
       ],
       [
         34.96108,
@@ -3804,6 +3880,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.15113
       ],
       [
+        34.96977,
+        135.15210000000002
+      ],
+      [
         34.97041,
         135.15307
       ],
@@ -3858,18 +3938,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.97612,
         135.15572
+      ],
+      [
+        34.9778,
+        135.15534
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-17_jr_takarazuka-18",
+    "id": "jr_takarazuka-17_jr_takarazuka-18",
     "fromStationId": "jr_takarazuka-17",
     "toStationId": "jr_takarazuka-18",
     "coordinates": [
-      [
-        34.97612,
-        135.15572
-      ],
       [
         34.9778,
         135.15534
@@ -3963,6 +4043,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.15357
       ],
       [
+        34.98875,
+        135.15357
+      ],
+      [
         34.98972,
         135.15346
       ],
@@ -4017,18 +4101,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.99637,
         135.15235
+      ],
+      [
+        34.99749,
+        135.15239
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-18_jr_takarazuka-19",
+    "id": "jr_takarazuka-18_jr_takarazuka-19",
     "fromStationId": "jr_takarazuka-18",
     "toStationId": "jr_takarazuka-19",
     "coordinates": [
-      [
-        34.99637,
-        135.15235
-      ],
       [
         34.99749,
         135.15239
@@ -4052,6 +4136,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.00322,
         135.15276
+      ],
+      [
+        35.004324999999994,
+        135.152805
       ],
       [
         35.00543,
@@ -4204,18 +4292,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.02141,
         135.1542
+      ],
+      [
+        35.02251,
+        135.1557
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-19_jr_takarazuka-20",
+    "id": "jr_takarazuka-19_jr_takarazuka-20",
     "fromStationId": "jr_takarazuka-19",
     "toStationId": "jr_takarazuka-20",
     "coordinates": [
-      [
-        35.02141,
-        135.1542
-      ],
       [
         35.02251,
         135.1557
@@ -4265,6 +4353,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.1627
       ],
       [
+        35.026610000000005,
+        135.16372
+      ],
+      [
         35.02731,
         135.16474
       ],
@@ -4277,8 +4369,12 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.16763
       ],
       [
-        35.030685000000005,
-        135.16961500000002
+        35.03022666666667,
+        135.16895333333335
+      ],
+      [
+        35.03114333333333,
+        135.17027666666667
       ],
       [
         35.03206,
@@ -4323,18 +4419,18 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.03715,
         135.1746
+      ],
+      [
+        35.03813,
+        135.17501
       ]
     ]
   },
   {
-    "segmentId": "jr_takarazuka-20_jr_takarazuka-21",
+    "id": "jr_takarazuka-20_jr_takarazuka-21",
     "fromStationId": "jr_takarazuka-20",
     "toStationId": "jr_takarazuka-21",
     "coordinates": [
-      [
-        35.03715,
-        135.1746
-      ],
       [
         35.03813,
         135.17501
@@ -4342,6 +4438,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.03977,
         135.17568
+      ],
+      [
+        35.04063,
+        135.17606999999998
       ],
       [
         35.04149,
@@ -4352,8 +4452,12 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.17719
       ],
       [
-        35.044745,
-        135.17813999999998
+        35.044156666666666,
+        135.17782333333332
+      ],
+      [
+        35.04533333333333,
+        135.17845666666668
       ],
       [
         35.04651,
@@ -4460,12 +4564,12 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.17787
       ],
       [
-        35.05712,
-        135.17711
+        35.056195,
+        135.17749
       ],
       [
-        35.05694,
-        135.17639
+        35.05712,
+        135.17711
       ]
     ]
   }

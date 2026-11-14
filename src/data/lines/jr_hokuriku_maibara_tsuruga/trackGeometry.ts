@@ -2,45 +2,45 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-01_jr_hokuriku_maibara_tsuruga-02",
+    "id": "jr_hokuriku_maibara_tsuruga-01_jr_hokuriku_maibara_tsuruga-02",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-01",
     "toStationId": "jr_hokuriku_maibara_tsuruga-02",
     "coordinates": [
       [
-        35.31528,
-        136.28972
+        35.313891,
+        136.289841
       ],
       [
-        35.3159,
-        136.29037
+        35.3148405,
+        136.2902235
       ],
       [
-        35.31649,
-        136.29063
+        35.31579,
+        136.290606
       ],
       [
-        35.31702,
-        136.29084
+        35.316694999999996,
+        136.291018
       ],
       [
-        35.31759,
-        136.29103
+        35.3176,
+        136.29143
       ],
       [
-        35.31814,
-        136.29119
+        35.31813,
+        136.29153
       ],
       [
-        35.31817,
-        136.2912
+        35.31815,
+        136.29153
       ],
       [
-        35.3192,
-        136.29142
+        35.31835,
+        136.29158
       ],
       [
-        35.32,
-        136.29162
+        35.32007,
+        136.29175
       ],
       [
         35.3209,
@@ -69,6 +69,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.32586,
         136.29069
+      ],
+      [
+        35.326785,
+        136.29042
       ],
       [
         35.32771,
@@ -109,21 +113,25 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.33581,
         136.28777
-      ],
-      [
-        35.33644,
-        136.28759
       ]
     ]
   },
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-02_jr_hokuriku_maibara_tsuruga-03",
+    "id": "jr_hokuriku_maibara_tsuruga-02_jr_hokuriku_maibara_tsuruga-03",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-02",
     "toStationId": "jr_hokuriku_maibara_tsuruga-03",
     "coordinates": [
       [
+        35.33581,
+        136.28777
+      ],
+      [
         35.33644,
         136.28759
+      ],
+      [
+        35.33653,
+        136.28756
       ],
       [
         35.33751,
@@ -216,18 +224,18 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.35589,
         136.282
-      ],
-      [
-        35.35673,
-        136.28176
       ]
     ]
   },
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-03_jr_hokuriku_maibara_tsuruga-04",
+    "id": "jr_hokuriku_maibara_tsuruga-03_jr_hokuriku_maibara_tsuruga-04",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-03",
     "toStationId": "jr_hokuriku_maibara_tsuruga-04",
     "coordinates": [
+      [
+        35.35589,
+        136.282
+      ],
       [
         35.35673,
         136.28176
@@ -371,22 +379,22 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.37759,
         136.26563
+      ]
+    ]
+  },
+  {
+    "id": "jr_hokuriku_maibara_tsuruga-04_jr_hokuriku_maibara_tsuruga-05",
+    "fromStationId": "jr_hokuriku_maibara_tsuruga-04",
+    "toStationId": "jr_hokuriku_maibara_tsuruga-05",
+    "coordinates": [
+      [
+        35.37759,
+        136.26563
       ],
       [
         35.378605,
         136.26499
       ],
-      [
-        35.37962,
-        136.26435
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-04_jr_hokuriku_maibara_tsuruga-05",
-    "fromStationId": "jr_hokuriku_maibara_tsuruga-04",
-    "toStationId": "jr_hokuriku_maibara_tsuruga-05",
-    "coordinates": [
       [
         35.37962,
         136.26435
@@ -452,6 +460,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.26284
       ],
       [
+        35.392830000000004,
+        136.26275
+      ],
+      [
         35.39379,
         136.26266
       ],
@@ -472,8 +484,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.26217
       ],
       [
+        35.400435,
+        136.26209
+      ],
+      [
         35.40143,
         136.26201
+      ],
+      [
+        35.40241,
+        136.26192500000002
       ],
       [
         35.40339,
@@ -482,6 +502,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40445,
         136.26174
+      ],
+      [
+        35.405505,
+        136.26165500000002
       ],
       [
         35.40656,
@@ -530,6 +554,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.41416,
         136.26073
+      ],
+      [
+        35.415085000000005,
+        136.260425
       ],
       [
         35.41601,
@@ -594,18 +622,18 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.42391,
         136.25759
-      ],
-      [
-        35.4252,
-        136.25719
       ]
     ]
   },
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-05_jr_hokuriku_maibara_tsuruga-06",
+    "id": "jr_hokuriku_maibara_tsuruga-05_jr_hokuriku_maibara_tsuruga-06",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-05",
     "toStationId": "jr_hokuriku_maibara_tsuruga-06",
     "coordinates": [
+      [
+        35.42391,
+        136.25759
+      ],
       [
         35.4252,
         136.25719
@@ -633,6 +661,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.4285,
         136.25611
+      ],
+      [
+        35.429495,
+        136.255785
       ],
       [
         35.43049,
@@ -737,21 +769,25 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.44811,
         136.24963
-      ],
-      [
-        35.44876,
-        136.24939
       ]
     ]
   },
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-06_jr_hokuriku_maibara_tsuruga-07",
+    "id": "jr_hokuriku_maibara_tsuruga-06_jr_hokuriku_maibara_tsuruga-07",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-06",
     "toStationId": "jr_hokuriku_maibara_tsuruga-07",
     "coordinates": [
       [
+        35.44811,
+        136.24963
+      ],
+      [
         35.44876,
         136.24939
+      ],
+      [
+        35.44895,
+        136.24933
       ],
       [
         35.44956,
@@ -886,8 +922,12 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.24182
       ],
       [
-        35.463245,
-        136.241015
+        35.46265666666667,
+        136.2412833333333
+      ],
+      [
+        35.46383333333333,
+        136.24074666666667
       ],
       [
         35.46501,
@@ -920,18 +960,18 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.47088,
         136.23755
+      ],
+      [
+        35.47156,
+        136.23724
       ]
     ]
   },
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-07_jr_hokuriku_maibara_tsuruga-08",
+    "id": "jr_hokuriku_maibara_tsuruga-07_jr_hokuriku_maibara_tsuruga-08",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-07",
     "toStationId": "jr_hokuriku_maibara_tsuruga-08",
     "coordinates": [
-      [
-        35.47088,
-        136.23755
-      ],
       [
         35.47156,
         136.23724
@@ -973,6 +1013,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.23519
       ],
       [
+        35.477005000000005,
+        136.23478
+      ],
+      [
         35.47791,
         136.23437
       ],
@@ -1009,8 +1053,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.23138
       ],
       [
+        35.48544,
+        136.230935
+      ],
+      [
         35.48643,
         136.23049
+      ],
+      [
+        35.487295,
+        136.2301
       ],
       [
         35.48816,
@@ -1123,22 +1175,22 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.50497,
         136.22213
+      ]
+    ]
+  },
+  {
+    "id": "jr_hokuriku_maibara_tsuruga-08_jr_hokuriku_maibara_tsuruga-09",
+    "fromStationId": "jr_hokuriku_maibara_tsuruga-08",
+    "toStationId": "jr_hokuriku_maibara_tsuruga-09",
+    "coordinates": [
+      [
+        35.50497,
+        136.22213
       ],
       [
         35.50618,
         136.221585
       ],
-      [
-        35.50739,
-        136.22104
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-08_jr_hokuriku_maibara_tsuruga-09",
-    "fromStationId": "jr_hokuriku_maibara_tsuruga-08",
-    "toStationId": "jr_hokuriku_maibara_tsuruga-09",
-    "coordinates": [
       [
         35.50739,
         136.22104
@@ -1152,8 +1204,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.2199
       ],
       [
+        35.51084,
+        136.21946
+      ],
+      [
         35.51179,
         136.21902
+      ],
+      [
+        35.51278,
+        136.21857
       ],
       [
         35.51377,
@@ -1178,6 +1238,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.51688,
         136.21672
+      ],
+      [
+        35.51775,
+        136.21632
       ],
       [
         35.51862,
@@ -1296,16 +1360,24 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.20192
       ],
       [
-        35.53394,
-        136.19933
+        35.533995,
+        136.20068500000002
+      ],
+      [
+        35.53395,
+        136.19945
       ]
     ]
   },
   {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-09_jr_hokuriku_maibara_tsuruga-10",
+    "id": "jr_hokuriku_maibara_tsuruga-09_jr_hokuriku_maibara_tsuruga-10",
     "fromStationId": "jr_hokuriku_maibara_tsuruga-09",
     "toStationId": "jr_hokuriku_maibara_tsuruga-10",
     "coordinates": [
+      [
+        35.53395,
+        136.19945
+      ],
       [
         35.53394,
         136.19933
@@ -1549,6 +1621,21 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.54105,
         136.15092
+      ]
+    ]
+  },
+  {
+    "id": "jr_hokuriku_maibara_tsuruga-10_jr_hokuriku_maibara_tsuruga-11",
+    "fromStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "toStationId": "jr_hokuriku_maibara_tsuruga-11",
+    "coordinates": [
+      [
+        35.54105,
+        136.15092
+      ],
+      [
+        35.541979999999995,
+        136.150575
       ],
       [
         35.54291,
@@ -1593,25 +1680,6 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.54827,
         136.14828
-      ],
-      [
-        35.54877,
-        136.14813
-      ],
-      [
-        35.54833,
-        136.14583
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_hokuriku_maibara_tsuruga-10_jr_hokuriku_maibara_tsuruga-11",
-    "fromStationId": "jr_hokuriku_maibara_tsuruga-10",
-    "toStationId": "jr_hokuriku_maibara_tsuruga-11",
-    "coordinates": [
-      [
-        35.54833,
-        136.14583
       ],
       [
         35.54877,
@@ -1730,8 +1798,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.1343
       ],
       [
+        35.56187,
+        136.133525
+      ],
+      [
         35.56264,
         136.13275
+      ],
+      [
+        35.563395,
+        136.13198999999997
       ],
       [
         35.56415,
@@ -1770,6 +1846,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.12432
       ],
       [
+        35.571675,
+        136.12358
+      ],
+      [
         35.57238,
         136.12284
       ],
@@ -1790,6 +1870,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.12007
       ],
       [
+        35.575739999999996,
+        136.119305
+      ],
+      [
         35.5765,
         136.11854
       ],
@@ -1800,6 +1884,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.57865,
         136.11636
+      ],
+      [
+        35.57937,
+        136.11561999999998
       ],
       [
         35.58009,
@@ -1826,6 +1914,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.1101
       ],
       [
+        35.58563,
+        136.109235
+      ],
+      [
         35.5865,
         136.10837
       ],
@@ -1844,6 +1936,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.59095,
         136.1038
+      ],
+      [
+        35.59174,
+        136.10298
       ],
       [
         35.59253,

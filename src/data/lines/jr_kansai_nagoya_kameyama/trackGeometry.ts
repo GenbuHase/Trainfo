@@ -2,26 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-01_jr_kansai_nagoya_kameyama-02",
+    "id": "jr_kansai_nagoya_kameyama-01_jr_kansai_nagoya_kameyama-02",
     "fromStationId": "jr_kansai_nagoya_kameyama-01",
     "toStationId": "jr_kansai_nagoya_kameyama-02",
     "coordinates": [
-      [
-        35.17208,
-        136.88033
-      ],
-      [
-        35.17199,
-        136.88084
-      ],
-      [
-        35.17113,
-        136.8813
-      ],
-      [
-        35.16989,
-        136.88197
-      ],
       [
         35.169764,
         136.882049
@@ -269,18 +253,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.14873,
         136.85193
+      ],
+      [
+        35.14858,
+        136.8514
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-02_jr_kansai_nagoya_kameyama-03",
+    "id": "jr_kansai_nagoya_kameyama-02_jr_kansai_nagoya_kameyama-03",
     "fromStationId": "jr_kansai_nagoya_kameyama-02",
     "toStationId": "jr_kansai_nagoya_kameyama-03",
     "coordinates": [
-      [
-        35.14873,
-        136.85193
-      ],
       [
         35.14858,
         136.8514
@@ -296,6 +280,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.14763,
         136.84821
+      ],
+      [
+        35.14734,
+        136.84706
       ],
       [
         35.14705,
@@ -508,18 +496,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.1432,
         136.8138
+      ],
+      [
+        35.1431,
+        136.81297
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-03_jr_kansai_nagoya_kameyama-04",
+    "id": "jr_kansai_nagoya_kameyama-03_jr_kansai_nagoya_kameyama-04",
     "fromStationId": "jr_kansai_nagoya_kameyama-03",
     "toStationId": "jr_kansai_nagoya_kameyama-04",
     "coordinates": [
-      [
-        35.1432,
-        136.8138
-      ],
       [
         35.1431,
         136.81297
@@ -659,18 +647,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.14207,
         136.79412
-      ],
-      [
-        35.14189,
-        136.79283
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-04_jr_kansai_nagoya_kameyama-05",
+    "id": "jr_kansai_nagoya_kameyama-04_jr_kansai_nagoya_kameyama-05",
     "fromStationId": "jr_kansai_nagoya_kameyama-04",
     "toStationId": "jr_kansai_nagoya_kameyama-05",
     "coordinates": [
+      [
+        35.14207,
+        136.79412
+      ],
       [
         35.14189,
         136.79283
@@ -934,21 +922,25 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.13309,
         136.76488
-      ],
-      [
-        35.13259,
-        136.76394
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-05_jr_kansai_nagoya_kameyama-06",
+    "id": "jr_kansai_nagoya_kameyama-05_jr_kansai_nagoya_kameyama-06",
     "fromStationId": "jr_kansai_nagoya_kameyama-05",
     "toStationId": "jr_kansai_nagoya_kameyama-06",
     "coordinates": [
       [
+        35.13309,
+        136.76488
+      ],
+      [
         35.13259,
         136.76394
+      ],
+      [
+        35.1325,
+        136.76374
       ],
       [
         35.13237,
@@ -1183,12 +1175,20 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.73825
       ],
       [
+        35.11905,
+        136.7371
+      ],
+      [
         35.11861,
         136.73595
       ],
       [
-        35.117835,
-        136.73392
+        35.118093333333334,
+        136.73459666666668
+      ],
+      [
+        35.117576666666665,
+        136.73324333333332
       ],
       [
         35.11706,
@@ -1225,18 +1225,22 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.1146,
         136.7269
-      ],
-      [
-        35.11353,
-        136.72479
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-06_jr_kansai_nagoya_kameyama-07",
+    "id": "jr_kansai_nagoya_kameyama-06_jr_kansai_nagoya_kameyama-07",
     "fromStationId": "jr_kansai_nagoya_kameyama-06",
     "toStationId": "jr_kansai_nagoya_kameyama-07",
     "coordinates": [
+      [
+        35.1146,
+        136.7269
+      ],
+      [
+        35.114065,
+        136.725845
+      ],
       [
         35.11353,
         136.72479
@@ -1252,6 +1256,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.11278,
         136.72333
+      ],
+      [
+        35.112285,
+        136.72238
       ],
       [
         35.11179,
@@ -1326,6 +1334,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.70326
       ],
       [
+        35.101034999999996,
+        136.7021
+      ],
+      [
         35.10051,
         136.70094
       ],
@@ -1344,18 +1356,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.0985,
         136.6964
-      ],
-      [
-        35.09784,
-        136.69491
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-07_jr_kansai_nagoya_kameyama-08",
+    "id": "jr_kansai_nagoya_kameyama-07_jr_kansai_nagoya_kameyama-08",
     "fromStationId": "jr_kansai_nagoya_kameyama-07",
     "toStationId": "jr_kansai_nagoya_kameyama-08",
     "coordinates": [
+      [
+        35.0985,
+        136.6964
+      ],
       [
         35.09784,
         136.69491
@@ -1405,8 +1417,12 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.68915
       ],
       [
-        35.093805,
-        136.68726500000002
+        35.09423,
+        136.68789333333334
+      ],
+      [
+        35.093379999999996,
+        136.6866366666667
       ],
       [
         35.09253,
@@ -1583,22 +1599,22 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.06796,
         136.68395
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kansai_nagoya_kameyama-08_jr_kansai_nagoya_kameyama-09",
-    "fromStationId": "jr_kansai_nagoya_kameyama-08",
-    "toStationId": "jr_kansai_nagoya_kameyama-09",
-    "coordinates": [
-      [
-        35.06796,
-        136.68395
       ],
       [
         35.06667,
         136.68374
       ],
+      [
+        35.06538,
+        136.68353
+      ]
+    ]
+  },
+  {
+    "id": "jr_kansai_nagoya_kameyama-08_jr_kansai_nagoya_kameyama-09",
+    "fromStationId": "jr_kansai_nagoya_kameyama-08",
+    "toStationId": "jr_kansai_nagoya_kameyama-09",
+    "coordinates": [
       [
         35.06538,
         136.68353
@@ -1844,6 +1860,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.66827
       ],
       [
+        35.04222,
+        136.66752000000002
+      ],
+      [
         35.04156,
         136.66677
       ],
@@ -1922,18 +1942,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.03397,
         136.65826
+      ],
+      [
+        35.0335,
+        136.65774
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-09_jr_kansai_nagoya_kameyama-10",
+    "id": "jr_kansai_nagoya_kameyama-09_jr_kansai_nagoya_kameyama-10",
     "fromStationId": "jr_kansai_nagoya_kameyama-09",
     "toStationId": "jr_kansai_nagoya_kameyama-10",
     "coordinates": [
-      [
-        35.03397,
-        136.65826
-      ],
       [
         35.0335,
         136.65774
@@ -2143,20 +2163,28 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.65167
       ],
       [
-        35.00904,
-        136.65268
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kansai_nagoya_kameyama-10_jr_kansai_nagoya_kameyama-11",
-    "fromStationId": "jr_kansai_nagoya_kameyama-10",
-    "toStationId": "jr_kansai_nagoya_kameyama-11",
-    "coordinates": [
+        35.00994,
+        136.652175
+      ],
       [
         35.00904,
         136.65268
       ],
+      [
+        35.008160000000004,
+        136.65316
+      ],
+      [
+        35.00728,
+        136.65364
+      ]
+    ]
+  },
+  {
+    "id": "jr_kansai_nagoya_kameyama-10_jr_kansai_nagoya_kameyama-11",
+    "fromStationId": "jr_kansai_nagoya_kameyama-10",
+    "toStationId": "jr_kansai_nagoya_kameyama-11",
+    "coordinates": [
       [
         35.00728,
         136.65364
@@ -2280,21 +2308,29 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.99749,
         136.65061
-      ],
-      [
-        34.99563,
-        136.64958
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-11_jr_kansai_nagoya_kameyama-12",
+    "id": "jr_kansai_nagoya_kameyama-11_jr_kansai_nagoya_kameyama-12",
     "fromStationId": "jr_kansai_nagoya_kameyama-11",
     "toStationId": "jr_kansai_nagoya_kameyama-12",
     "coordinates": [
       [
+        34.99749,
+        136.65061
+      ],
+      [
+        34.99656,
+        136.650095
+      ],
+      [
         34.99563,
         136.64958
+      ],
+      [
+        34.99554,
+        136.64953
       ],
       [
         34.9946,
@@ -2385,7 +2421,15 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.64281
       ],
       [
+        34.9822,
+        136.64228
+      ],
+      [
         34.98123,
+        136.64175
+      ],
+      [
+        34.98122,
         136.64175
       ],
       [
@@ -2422,6 +2466,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         34.97563,
+        136.63874
+      ],
+      [
+        34.97562,
         136.63874
       ],
       [
@@ -2509,6 +2557,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.6358
       ],
       [
+        34.968875,
+        136.63495999999998
+      ],
+      [
         34.96819,
         136.63412
       ],
@@ -2567,18 +2619,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.96188,
         136.62976
+      ],
+      [
+        34.96094,
+        136.62932
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-12_jr_kansai_nagoya_kameyama-13",
+    "id": "jr_kansai_nagoya_kameyama-12_jr_kansai_nagoya_kameyama-13",
     "fromStationId": "jr_kansai_nagoya_kameyama-12",
     "toStationId": "jr_kansai_nagoya_kameyama-13",
     "coordinates": [
-      [
-        34.96188,
-        136.62976
-      ],
       [
         34.96094,
         136.62932
@@ -2628,6 +2680,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.62835
       ],
       [
+        34.9591,
+        136.62834
+      ],
+      [
         34.95901,
         136.6283
       ],
@@ -2674,6 +2730,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.95615,
         136.62511
+      ],
+      [
+        34.95614,
+        136.6251
       ],
       [
         34.95549,
@@ -2732,6 +2792,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.61836
       ],
       [
+        34.949265,
+        136.61763
+      ],
+      [
         34.94855,
         136.6169
       ],
@@ -2762,18 +2826,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.94233,
         136.6105
-      ],
-      [
-        34.94121,
-        136.60935
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-13_jr_kansai_nagoya_kameyama-14",
+    "id": "jr_kansai_nagoya_kameyama-13_jr_kansai_nagoya_kameyama-14",
     "fromStationId": "jr_kansai_nagoya_kameyama-13",
     "toStationId": "jr_kansai_nagoya_kameyama-14",
     "coordinates": [
+      [
+        34.94233,
+        136.6105
+      ],
       [
         34.94121,
         136.60935
@@ -2809,6 +2873,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.93613,
         136.60517
+      ],
+      [
+        34.93504,
+        136.60490499999997
       ],
       [
         34.93395,
@@ -2929,21 +2997,21 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.91167,
         136.59957
+      ],
+      [
+        34.9108,
+        136.59898
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-14_jr_kansai_nagoya_kameyama-15",
+    "id": "jr_kansai_nagoya_kameyama-14_jr_kansai_nagoya_kameyama-15",
     "fromStationId": "jr_kansai_nagoya_kameyama-14",
     "toStationId": "jr_kansai_nagoya_kameyama-15",
     "coordinates": [
       [
-        34.91167,
-        136.59957
-      ],
-      [
-        34.91176,
-        136.59927
+        34.9108,
+        136.59898
       ],
       [
         34.91022,
@@ -3058,6 +3126,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.58103
       ],
       [
+        34.90157000000001,
+        136.58001000000002
+      ],
+      [
         34.9012,
         136.57899
       ],
@@ -3090,20 +3162,24 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.571
       ],
       [
-        34.89805,
-        136.56861
+        34.898385,
+        136.569805
       ],
       [
-        34.89772,
-        136.56746
+        34.89805,
+        136.56861
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-15_jr_kansai_nagoya_kameyama-16",
+    "id": "jr_kansai_nagoya_kameyama-15_jr_kansai_nagoya_kameyama-16",
     "fromStationId": "jr_kansai_nagoya_kameyama-15",
     "toStationId": "jr_kansai_nagoya_kameyama-16",
     "coordinates": [
+      [
+        34.89805,
+        136.56861
+      ],
       [
         34.89772,
         136.56746
@@ -3213,6 +3289,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.54562
       ],
       [
+        34.893575,
+        136.544515
+      ],
+      [
         34.89329,
         136.54341
       ],
@@ -3259,18 +3339,18 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.89046,
         136.53101
-      ],
-      [
-        34.89018,
-        136.52897
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-16_jr_kansai_nagoya_kameyama-17",
+    "id": "jr_kansai_nagoya_kameyama-16_jr_kansai_nagoya_kameyama-17",
     "fromStationId": "jr_kansai_nagoya_kameyama-16",
     "toStationId": "jr_kansai_nagoya_kameyama-17",
     "coordinates": [
+      [
+        34.89046,
+        136.53101
+      ],
       [
         34.89018,
         136.52897
@@ -3474,21 +3554,29 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.86907,
         136.49327
-      ],
-      [
-        34.86746,
-        136.4919
       ]
     ]
   },
   {
-    "segmentId": "jr_kansai_nagoya_kameyama-17_jr_kansai_nagoya_kameyama-18",
+    "id": "jr_kansai_nagoya_kameyama-17_jr_kansai_nagoya_kameyama-18",
     "fromStationId": "jr_kansai_nagoya_kameyama-17",
     "toStationId": "jr_kansai_nagoya_kameyama-18",
     "coordinates": [
       [
+        34.86907,
+        136.49327
+      ],
+      [
+        34.868265,
+        136.492585
+      ],
+      [
         34.86746,
         136.4919
+      ],
+      [
+        34.8673,
+        136.49176
       ],
       [
         34.86686,
@@ -3759,6 +3847,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.46583
       ],
       [
+        34.850635,
+        136.464675
+      ],
+      [
         34.85039,
         136.46352
       ],
@@ -3851,6 +3943,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.45504
       ],
       [
+        34.84969,
+        136.45503
+      ],
+      [
         34.84973,
         136.45437
       ],
@@ -3871,8 +3967,12 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.45237
       ],
       [
-        34.85172,
-        136.45278
+        34.85008500000001,
+        136.45051999999998
+      ],
+      [
+        34.85032,
+        136.44867
       ]
     ]
   }

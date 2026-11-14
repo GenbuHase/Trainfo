@@ -2,13 +2,13 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_yumesaki-01_jr_yumesaki-02",
+    "id": "jr_yumesaki-01_jr_yumesaki-02",
     "fromStationId": "jr_yumesaki-01",
     "toStationId": "jr_yumesaki-02",
     "coordinates": [
       [
-        34.68278,
-        135.46667
+        34.68275,
+        135.4669
       ],
       [
         34.68215,
@@ -17,6 +17,10 @@ export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.68212,
         135.46622
+      ],
+      [
+        34.68142,
+        135.46549
       ],
       [
         34.68072,
@@ -127,6 +131,10 @@ export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
         135.45068
       ],
       [
+        34.677255,
+        135.449615
+      ],
+      [
         34.67677,
         135.44855
       ],
@@ -157,21 +165,25 @@ export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.67369,
         135.4442
-      ],
-      [
-        34.67308,
-        135.44354
       ]
     ]
   },
   {
-    "segmentId": "jr_yumesaki-02_jr_yumesaki-03",
+    "id": "jr_yumesaki-02_jr_yumesaki-03",
     "fromStationId": "jr_yumesaki-02",
     "toStationId": "jr_yumesaki-03",
     "coordinates": [
       [
+        34.67369,
+        135.4442
+      ],
+      [
         34.67308,
         135.44354
+      ],
+      [
+        34.672275,
+        135.442685
       ],
       [
         34.67147,
@@ -196,18 +208,18 @@ export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.66843,
         135.43911
+      ],
+      [
+        34.66725,
+        135.43802
       ]
     ]
   },
   {
-    "segmentId": "jr_yumesaki-03_jr_yumesaki-04",
+    "id": "jr_yumesaki-03_jr_yumesaki-04",
     "fromStationId": "jr_yumesaki-03",
     "toStationId": "jr_yumesaki-04",
     "coordinates": [
-      [
-        34.66843,
-        135.43911
-      ],
       [
         34.66725,
         135.43802
@@ -259,6 +271,10 @@ export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.66208,
         135.43199
+      ],
+      [
+        34.66188,
+        135.43209
       ]
     ]
   }

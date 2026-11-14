@@ -36,8 +36,8 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "name": "淵垣",
     "nameKana": "ふちがき",
     "nameEn": "Fuchigaki",
-    "lat": 35.32806,
-    "lng": 135.29395,
+    "lat": 35.32847,
+    "lng": 135.29518,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -92,8 +92,8 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "name": "真倉",
     "nameKana": "まぐら",
     "nameEn": "Magura",
-    "lat": 35.4078,
-    "lng": 135.32673,
+    "lat": 35.40666,
+    "lng": 135.32577,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -120,8 +120,8 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "name": "西舞鶴",
     "nameKana": "にしまいづる",
     "nameEn": "Nishi-Maizuru",
-    "lat": 35.44155,
-    "lng": 135.3305,
+    "lat": 35.4406,
+    "lng": 135.33032,
     "transfers": [],
     "address": "",
     "platforms": {

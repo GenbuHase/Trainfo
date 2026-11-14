@@ -2,17 +2,21 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_kisei_kameyama_shingu-01_jr_kisei_kameyama_shingu-02",
+    "id": "jr_kisei_kameyama_shingu-01_jr_kisei_kameyama_shingu-02",
     "fromStationId": "jr_kisei_kameyama_shingu-01",
     "toStationId": "jr_kisei_kameyama_shingu-02",
     "coordinates": [
       [
-        34.85172,
-        136.45278
+        34.85017,
+        136.44865
       ],
       [
-        34.84976,
-        136.45236
+        34.849935,
+        136.45049999999998
+      ],
+      [
+        34.8497,
+        136.45235
       ],
       [
         34.84963,
@@ -119,8 +123,12 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.4574
       ],
       [
-        34.839515,
-        136.457365
+        34.84014,
+        136.45737666666668
+      ],
+      [
+        34.83889,
+        136.45735333333334
       ],
       [
         34.83764,
@@ -445,22 +453,22 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.8142,
         136.47957
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-02_jr_kisei_kameyama_shingu-03",
-    "fromStationId": "jr_kisei_kameyama_shingu-02",
-    "toStationId": "jr_kisei_kameyama_shingu-03",
-    "coordinates": [
-      [
-        34.8142,
-        136.47957
       ],
       [
         34.81393,
         136.47959
       ],
+      [
+        34.81358,
+        136.47964
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-02_jr_kisei_kameyama_shingu-03",
+    "fromStationId": "jr_kisei_kameyama_shingu-02",
+    "toStationId": "jr_kisei_kameyama_shingu-03",
+    "coordinates": [
       [
         34.81358,
         136.47964
@@ -591,6 +599,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         34.80182,
+        136.48618
+      ],
+      [
+        34.80181,
         136.48618
       ],
       [
@@ -746,6 +758,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.48349
       ],
       [
+        34.78387,
+        136.48349
+      ],
+      [
         34.78344,
         136.48358
       ],
@@ -894,6 +910,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.49703
       ],
       [
+        34.76888,
+        136.49704
+      ],
+      [
         34.7688,
         136.49709
       ],
@@ -928,18 +948,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.7634,
         136.49922
+      ],
+      [
+        34.76215,
+        136.49956
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-03_jr_kisei_kameyama_shingu-04",
+    "id": "jr_kisei_kameyama_shingu-03_jr_kisei_kameyama_shingu-04",
     "fromStationId": "jr_kisei_kameyama_shingu-03",
     "toStationId": "jr_kisei_kameyama_shingu-04",
     "coordinates": [
-      [
-        34.7634,
-        136.49922
-      ],
       [
         34.76215,
         136.49956
@@ -1131,18 +1151,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.73432,
         136.51073
+      ],
+      [
+        34.7334,
+        136.51077
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-04_jr_kisei_kameyama_shingu-05",
+    "id": "jr_kisei_kameyama_shingu-04_jr_kisei_kameyama_shingu-05",
     "fromStationId": "jr_kisei_kameyama_shingu-04",
     "toStationId": "jr_kisei_kameyama_shingu-05",
     "coordinates": [
-      [
-        34.73432,
-        136.51073
-      ],
       [
         34.7334,
         136.51077
@@ -1344,6 +1364,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50183
       ],
       [
+        34.706329999999994,
+        136.50248
+      ],
+      [
         34.70538,
         136.50313
       ],
@@ -1358,18 +1382,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.7038,
         136.50414
+      ],
+      [
+        34.70241,
+        136.50488
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-05_jr_kisei_kameyama_shingu-06",
+    "id": "jr_kisei_kameyama_shingu-05_jr_kisei_kameyama_shingu-06",
     "fromStationId": "jr_kisei_kameyama_shingu-05",
     "toStationId": "jr_kisei_kameyama_shingu-06",
     "coordinates": [
-      [
-        34.7038,
-        136.50414
-      ],
       [
         34.70241,
         136.50488
@@ -1479,6 +1503,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.51181
       ],
       [
+        34.67836,
+        136.51205
+      ],
+      [
         34.67735,
         136.51229
       ],
@@ -1549,22 +1577,22 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.66831,
         136.51324
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-06_jr_kisei_kameyama_shingu-07",
+    "fromStationId": "jr_kisei_kameyama_shingu-06",
+    "toStationId": "jr_kisei_kameyama_shingu-07",
+    "coordinates": [
+      [
+        34.66831,
+        136.51324
       ],
       [
         34.66728,
         136.51262
       ],
-      [
-        34.66625,
-        136.512
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-06_jr_kisei_kameyama_shingu-07",
-    "fromStationId": "jr_kisei_kameyama_shingu-06",
-    "toStationId": "jr_kisei_kameyama_shingu-07",
-    "coordinates": [
       [
         34.66625,
         136.512
@@ -1654,6 +1682,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50487
       ],
       [
+        34.651775,
+        136.50460500000003
+      ],
+      [
         34.65069,
         136.50434
       ],
@@ -1708,6 +1740,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.643,
         136.504
+      ],
+      [
+        34.64208,
+        136.50423
       ],
       [
         34.64116,
@@ -1794,6 +1830,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50694
       ],
       [
+        34.62428,
+        136.507025
+      ],
+      [
         34.6233,
         136.50711
       ],
@@ -1810,20 +1850,24 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50734
       ],
       [
-        34.61851,
-        136.50752
+        34.619425,
+        136.50743
       ],
       [
-        34.61674,
-        136.50766
+        34.61851,
+        136.50752
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-07_jr_kisei_kameyama_shingu-08",
+    "id": "jr_kisei_kameyama_shingu-07_jr_kisei_kameyama_shingu-08",
     "fromStationId": "jr_kisei_kameyama_shingu-07",
     "toStationId": "jr_kisei_kameyama_shingu-08",
     "coordinates": [
+      [
+        34.61851,
+        136.50752
+      ],
       [
         34.61674,
         136.50766
@@ -1885,6 +1929,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50873
       ],
       [
+        34.60478,
+        136.50913000000003
+      ],
+      [
         34.60391,
         136.50953
       ],
@@ -1899,6 +1947,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.60116,
         136.51079
+      ],
+      [
+        34.60024,
+        136.511205
       ],
       [
         34.59932,
@@ -2155,21 +2207,17 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.57724,
         136.53545
-      ],
-      [
-        34.57722,
-        136.53611
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-08_jr_kisei_kameyama_shingu-09",
+    "id": "jr_kisei_kameyama_shingu-08_jr_kisei_kameyama_shingu-09",
     "fromStationId": "jr_kisei_kameyama_shingu-08",
     "toStationId": "jr_kisei_kameyama_shingu-09",
     "coordinates": [
       [
-        34.57722,
-        136.53611
+        34.57724,
+        136.53545
       ],
       [
         34.57647,
@@ -2350,18 +2398,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.55472,
         136.55324
+      ],
+      [
+        34.55334,
+        136.55386
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-09_jr_kisei_kameyama_shingu-10",
+    "id": "jr_kisei_kameyama_shingu-09_jr_kisei_kameyama_shingu-10",
     "fromStationId": "jr_kisei_kameyama_shingu-09",
     "toStationId": "jr_kisei_kameyama_shingu-10",
     "coordinates": [
-      [
-        34.55472,
-        136.55324
-      ],
       [
         34.55334,
         136.55386
@@ -2371,8 +2419,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.55416
       ],
       [
+        34.55161,
+        136.55455999999998
+      ],
+      [
         34.55067,
         136.55496
+      ],
+      [
+        34.54971999999999,
+        136.55536
       ],
       [
         34.54877,
@@ -2637,25 +2693,21 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.51706,
         136.57264
-      ],
-      [
-        34.51617,
-        136.57354
-      ],
-      [
-        34.51528,
-        136.57444
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-10_jr_kisei_kameyama_shingu-11",
+    "id": "jr_kisei_kameyama_shingu-10_jr_kisei_kameyama_shingu-11",
     "fromStationId": "jr_kisei_kameyama_shingu-10",
     "toStationId": "jr_kisei_kameyama_shingu-11",
     "coordinates": [
       [
-        34.51528,
-        136.57444
+        34.51706,
+        136.57264
+      ],
+      [
+        34.515905000000004,
+        136.57310999999999
       ],
       [
         34.51475,
@@ -2724,6 +2776,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.50802,
         136.57064
+      ],
+      [
+        34.507985000000005,
+        136.56937
       ],
       [
         34.50795,
@@ -2798,6 +2854,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.55218
       ],
       [
+        34.508465,
+        136.55144
+      ],
+      [
         34.50779,
         136.5507
       ],
@@ -2816,18 +2876,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.50367,
         136.54653
-      ],
-      [
-        34.5033,
-        136.54609
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-11_jr_kisei_kameyama_shingu-12",
+    "id": "jr_kisei_kameyama_shingu-11_jr_kisei_kameyama_shingu-12",
     "fromStationId": "jr_kisei_kameyama_shingu-11",
     "toStationId": "jr_kisei_kameyama_shingu-12",
     "coordinates": [
+      [
+        34.50367,
+        136.54653
+      ],
       [
         34.5033,
         136.54609
@@ -3075,18 +3135,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.47887,
         136.53979
-      ],
-      [
-        34.47806,
-        136.53829
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-12_jr_kisei_kameyama_shingu-13",
+    "id": "jr_kisei_kameyama_shingu-12_jr_kisei_kameyama_shingu-13",
     "fromStationId": "jr_kisei_kameyama_shingu-12",
     "toStationId": "jr_kisei_kameyama_shingu-13",
     "coordinates": [
+      [
+        34.47887,
+        136.53979
+      ],
       [
         34.47806,
         136.53829
@@ -3134,6 +3194,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.47271,
         136.52931
+      ],
+      [
+        34.472134999999994,
+        136.52838
       ],
       [
         34.47156,
@@ -3308,6 +3372,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50905
       ],
       [
+        34.45852,
+        136.50822499999998
+      ],
+      [
         34.45778,
         136.5074
       ],
@@ -3360,8 +3428,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50534
       ],
       [
+        34.451944999999995,
+        136.50573
+      ],
+      [
         34.45093,
         136.50612
+      ],
+      [
+        34.449865,
+        136.50654
       ],
       [
         34.4488,
@@ -3390,18 +3466,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.4451,
         136.50891
-      ],
-      [
-        34.44401,
-        136.50977
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-13_jr_kisei_kameyama_shingu-14",
+    "id": "jr_kisei_kameyama_shingu-13_jr_kisei_kameyama_shingu-14",
     "fromStationId": "jr_kisei_kameyama_shingu-13",
     "toStationId": "jr_kisei_kameyama_shingu-14",
     "coordinates": [
+      [
+        34.4451,
+        136.50891
+      ],
       [
         34.44401,
         136.50977
@@ -3529,6 +3605,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.43907,
         136.50234
+      ],
+      [
+        34.4393,
+        136.501105
       ],
       [
         34.43953,
@@ -3809,18 +3889,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.42022,
         136.47452
-      ],
-      [
-        34.41997,
-        136.47387
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-14_jr_kisei_kameyama_shingu-15",
+    "id": "jr_kisei_kameyama_shingu-14_jr_kisei_kameyama_shingu-15",
     "fromStationId": "jr_kisei_kameyama_shingu-14",
     "toStationId": "jr_kisei_kameyama_shingu-15",
     "coordinates": [
+      [
+        34.42022,
+        136.47452
+      ],
       [
         34.41997,
         136.47387
@@ -3891,6 +3971,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         34.41627,
+        136.46669
+      ],
+      [
+        34.41626,
         136.46669
       ],
       [
@@ -4222,6 +4306,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.43883
       ],
       [
+        34.404005,
+        136.43797
+      ],
+      [
         34.40338,
         136.43711
       ],
@@ -4275,6 +4363,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         34.40205,
+        136.43179
+      ],
+      [
+        34.40206,
         136.43179
       ],
       [
@@ -4562,20 +4654,24 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.41044
       ],
       [
-        34.39507,
-        136.40996
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-15_jr_kisei_kameyama_shingu-16",
-    "fromStationId": "jr_kisei_kameyama_shingu-15",
-    "toStationId": "jr_kisei_kameyama_shingu-16",
-    "coordinates": [
+        34.3951,
+        136.41005
+      ],
       [
         34.39507,
         136.40996
       ],
+      [
+        34.39443,
+        136.40812
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-15_jr_kisei_kameyama_shingu-16",
+    "fromStationId": "jr_kisei_kameyama_shingu-15",
+    "toStationId": "jr_kisei_kameyama_shingu-16",
+    "coordinates": [
       [
         34.39443,
         136.40812
@@ -4853,6 +4949,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.41324
       ],
       [
+        34.38365,
+        136.41325
+      ],
+      [
         34.38354,
         136.4136
       ],
@@ -4933,8 +5033,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.41693
       ],
       [
+        34.38007,
+        136.41692
+      ],
+      [
         34.38005,
         136.41692
+      ],
+      [
+        34.38004,
+        136.41691
       ],
       [
         34.37977,
@@ -5093,6 +5201,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.41384
       ],
       [
+        34.36672,
+        136.41383
+      ],
+      [
         34.36636,
         136.41376
       ],
@@ -5191,18 +5303,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.36087,
         136.41264
-      ],
-      [
-        34.36028,
-        136.41214
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-16_jr_kisei_kameyama_shingu-17",
+    "id": "jr_kisei_kameyama_shingu-16_jr_kisei_kameyama_shingu-17",
     "fromStationId": "jr_kisei_kameyama_shingu-16",
     "toStationId": "jr_kisei_kameyama_shingu-17",
     "coordinates": [
+      [
+        34.36087,
+        136.41264
+      ],
       [
         34.36028,
         136.41214
@@ -5658,18 +5770,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.33192,
         136.41131
+      ],
+      [
+        34.33067,
+        136.41093
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-17_jr_kisei_kameyama_shingu-18",
+    "id": "jr_kisei_kameyama_shingu-17_jr_kisei_kameyama_shingu-18",
     "fromStationId": "jr_kisei_kameyama_shingu-17",
     "toStationId": "jr_kisei_kameyama_shingu-18",
     "coordinates": [
-      [
-        34.33192,
-        136.41131
-      ],
       [
         34.33067,
         136.41093
@@ -6159,6 +6271,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.39813
       ],
       [
+        34.29855,
+        136.39812
+      ],
+      [
         34.29864,
         136.39774
       ],
@@ -6171,16 +6287,9 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.3965
       ],
       [
-        34.29942,
-        136.3959
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-18_jr_kisei_kameyama_shingu-19",
-    "fromStationId": "jr_kisei_kameyama_shingu-18",
-    "toStationId": "jr_kisei_kameyama_shingu-19",
-    "coordinates": [
+        34.29932,
+        136.39606
+      ],
       [
         34.29942,
         136.3959
@@ -6189,6 +6298,17 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         34.29984,
         136.39529
       ],
+      [
+        34.30011,
+        136.39487
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-18_jr_kisei_kameyama_shingu-19",
+    "fromStationId": "jr_kisei_kameyama_shingu-18",
+    "toStationId": "jr_kisei_kameyama_shingu-19",
+    "coordinates": [
       [
         34.30011,
         136.39487
@@ -6652,18 +6772,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.27838,
         136.35962
+      ],
+      [
+        34.27789,
+        136.35886
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-19_jr_kisei_kameyama_shingu-20",
+    "id": "jr_kisei_kameyama_shingu-19_jr_kisei_kameyama_shingu-20",
     "fromStationId": "jr_kisei_kameyama_shingu-19",
     "toStationId": "jr_kisei_kameyama_shingu-20",
     "coordinates": [
-      [
-        34.27838,
-        136.35962
-      ],
       [
         34.27789,
         136.35886
@@ -6879,22 +6999,22 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.25798,
         136.35653
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-20_jr_kisei_kameyama_shingu-21",
-    "fromStationId": "jr_kisei_kameyama_shingu-20",
-    "toStationId": "jr_kisei_kameyama_shingu-21",
-    "coordinates": [
-      [
-        34.25798,
-        136.35653
       ],
       [
         34.25773,
         136.35648
       ],
+      [
+        34.25752,
+        136.35646
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-20_jr_kisei_kameyama_shingu-21",
+    "fromStationId": "jr_kisei_kameyama_shingu-20",
+    "toStationId": "jr_kisei_kameyama_shingu-21",
+    "coordinates": [
       [
         34.25752,
         136.35646
@@ -6936,6 +7056,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.35573
       ],
       [
+        34.249905,
+        136.355655
+      ],
+      [
         34.24897,
         136.35558
       ],
@@ -6966,6 +7090,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.24045,
         136.35491
+      ],
+      [
+        34.239540000000005,
+        136.35484
       ],
       [
         34.23863,
@@ -7606,18 +7734,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.20955,
         136.34046
+      ],
+      [
+        34.20911,
+        136.33941
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-21_jr_kisei_kameyama_shingu-22",
+    "id": "jr_kisei_kameyama_shingu-21_jr_kisei_kameyama_shingu-22",
     "fromStationId": "jr_kisei_kameyama_shingu-21",
     "toStationId": "jr_kisei_kameyama_shingu-22",
     "coordinates": [
-      [
-        34.20955,
-        136.34046
-      ],
       [
         34.20911,
         136.33941
@@ -7695,8 +7823,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.33133
       ],
       [
+        34.20417,
+        136.330725
+      ],
+      [
         34.20339,
         136.33012
+      ],
+      [
+        34.202574999999996,
+        136.329495
       ],
       [
         34.20176,
@@ -7853,6 +7989,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.18766,
         136.30735
+      ],
+      [
+        34.186755000000005,
+        136.30704
       ],
       [
         34.18585,
@@ -8077,18 +8217,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.16818,
         136.28318
-      ],
-      [
-        34.1672,
-        136.28159
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-22_jr_kisei_kameyama_shingu-23",
+    "id": "jr_kisei_kameyama_shingu-22_jr_kisei_kameyama_shingu-23",
     "fromStationId": "jr_kisei_kameyama_shingu-22",
     "toStationId": "jr_kisei_kameyama_shingu-23",
     "coordinates": [
+      [
+        34.16818,
+        136.28318
+      ],
       [
         34.1672,
         136.28159
@@ -8344,6 +8484,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.15579,
         136.26593
+      ],
+      [
+        34.154965000000004,
+        136.26541
       ],
       [
         34.15414,
@@ -8634,6 +8778,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.23678
       ],
       [
+        34.14079,
+        136.23569500000002
+      ],
+      [
         34.14124,
         136.23461
       ],
@@ -8664,18 +8812,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.14228,
         136.22956
-      ],
-      [
-        34.14219,
-        136.22861
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-23_jr_kisei_kameyama_shingu-24",
+    "id": "jr_kisei_kameyama_shingu-23_jr_kisei_kameyama_shingu-24",
     "fromStationId": "jr_kisei_kameyama_shingu-23",
     "toStationId": "jr_kisei_kameyama_shingu-24",
     "coordinates": [
+      [
+        34.14228,
+        136.22956
+      ],
       [
         34.14219,
         136.22861
@@ -8705,6 +8853,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.22514
       ],
       [
+        34.1404,
+        136.22415
+      ],
+      [
         34.1398,
         136.22316
       ],
@@ -8713,12 +8865,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.22289
       ],
       [
+        34.13905,
+        136.22195
+      ],
+      [
         34.13847,
         136.22101
       ],
       [
         34.13801,
         136.22025
+      ],
+      [
+        34.13736,
+        136.2192
       ],
       [
         34.13671,
@@ -8801,12 +8961,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.21576
       ],
       [
+        34.12974,
+        136.21634999999998
+      ],
+      [
         34.12877,
         136.21694
       ],
       [
         34.1285,
         136.21709
+      ],
+      [
+        34.127505,
+        136.21769
       ],
       [
         34.12651,
@@ -8841,6 +9009,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.22377
       ],
       [
+        34.116515,
+        136.22437000000002
+      ],
+      [
         34.11554,
         136.22497
       ],
@@ -8853,20 +9025,24 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.22578
       ],
       [
-        34.11259,
-        136.22676
+        34.113395,
+        136.22627
       ],
       [
-        34.11196,
-        136.22714
+        34.11259,
+        136.22676
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-24_jr_kisei_kameyama_shingu-25",
+    "id": "jr_kisei_kameyama_shingu-24_jr_kisei_kameyama_shingu-25",
     "fromStationId": "jr_kisei_kameyama_shingu-24",
     "toStationId": "jr_kisei_kameyama_shingu-25",
     "coordinates": [
+      [
+        34.11259,
+        136.22676
+      ],
       [
         34.11196,
         136.22714
@@ -9104,6 +9280,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.19587
       ],
       [
+        34.095595,
+        136.195635
+      ],
+      [
         34.09469,
         136.1954
       ],
@@ -9126,6 +9306,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.09029,
         136.19418
+      ],
+      [
+        34.089255,
+        136.19389
       ],
       [
         34.08822,
@@ -9290,21 +9474,25 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.075,
         136.19013
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-25_jr_kisei_kameyama_shingu-26",
-    "fromStationId": "jr_kisei_kameyama_shingu-25",
-    "toStationId": "jr_kisei_kameyama_shingu-26",
-    "coordinates": [
-      [
-        34.075,
-        136.19013
       ],
       [
         34.07366,
         136.19018
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-25_jr_kisei_kameyama_shingu-26",
+    "fromStationId": "jr_kisei_kameyama_shingu-25",
+    "toStationId": "jr_kisei_kameyama_shingu-26",
+    "coordinates": [
+      [
+        34.07366,
+        136.19018
+      ],
+      [
+        34.072595,
+        136.190235
       ],
       [
         34.07153,
@@ -9613,18 +9801,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.06189,
         136.22303
+      ],
+      [
+        34.06202,
+        136.22366
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-26_jr_kisei_kameyama_shingu-27",
+    "id": "jr_kisei_kameyama_shingu-26_jr_kisei_kameyama_shingu-27",
     "fromStationId": "jr_kisei_kameyama_shingu-26",
     "toStationId": "jr_kisei_kameyama_shingu-27",
     "coordinates": [
-      [
-        34.06189,
-        136.22303
-      ],
       [
         34.06202,
         136.22366
@@ -9808,6 +9996,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.058,
         136.24256
+      ],
+      [
+        34.05691,
+        136.24271
       ],
       [
         34.05582,
@@ -10072,22 +10264,22 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.01607,
         136.24274
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-27_jr_kisei_kameyama_shingu-28",
-    "fromStationId": "jr_kisei_kameyama_shingu-27",
-    "toStationId": "jr_kisei_kameyama_shingu-28",
-    "coordinates": [
-      [
-        34.01607,
-        136.24274
       ],
       [
         34.01584,
         136.24261
       ],
+      [
+        34.01547,
+        136.24237
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-27_jr_kisei_kameyama_shingu-28",
+    "fromStationId": "jr_kisei_kameyama_shingu-27",
+    "toStationId": "jr_kisei_kameyama_shingu-28",
+    "coordinates": [
       [
         34.01547,
         136.24237
@@ -10157,12 +10349,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.23159
       ],
       [
+        34.009365,
+        136.23040500000002
+      ],
+      [
         34.00896,
         136.22922
       ],
       [
         34.00861,
         136.22822
+      ],
+      [
+        34.008215,
+        136.227055
       ],
       [
         34.00782,
@@ -10307,18 +10507,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.00153,
         136.20295
+      ],
+      [
+        34.00142,
+        136.20215
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-28_jr_kisei_kameyama_shingu-29",
+    "id": "jr_kisei_kameyama_shingu-28_jr_kisei_kameyama_shingu-29",
     "fromStationId": "jr_kisei_kameyama_shingu-28",
     "toStationId": "jr_kisei_kameyama_shingu-29",
     "coordinates": [
-      [
-        34.00153,
-        136.20295
-      ],
       [
         34.00142,
         136.20215
@@ -10420,6 +10620,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.19054
       ],
       [
+        33.984970000000004,
+        136.190065
+      ],
+      [
         33.98404,
         136.18959
       ],
@@ -10428,12 +10632,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.1888
       ],
       [
-        33.98064333333333,
-        136.18787
+        33.981102500000006,
+        136.18810249999999
       ],
       [
-        33.97880666666667,
-        136.18694
+        33.979725,
+        136.187405
+      ],
+      [
+        33.9783475,
+        136.1867075
       ],
       [
         33.97697,
@@ -10500,20 +10708,24 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.18756
       ],
       [
-        33.97199,
-        136.18925
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-29_jr_kisei_kameyama_shingu-30",
-    "fromStationId": "jr_kisei_kameyama_shingu-29",
-    "toStationId": "jr_kisei_kameyama_shingu-30",
-    "coordinates": [
+        33.9721,
+        136.18911
+      ],
       [
         33.97199,
         136.18925
       ],
+      [
+        33.97131,
+        136.19023
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-29_jr_kisei_kameyama_shingu-30",
+    "fromStationId": "jr_kisei_kameyama_shingu-29",
+    "toStationId": "jr_kisei_kameyama_shingu-30",
+    "coordinates": [
       [
         33.97131,
         136.19023
@@ -10731,6 +10943,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.1857
       ],
       [
+        33.945530000000005,
+        136.1851
+      ],
+      [
         33.94464,
         136.1845
       ],
@@ -10767,20 +10983,24 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.18154
       ],
       [
-        33.93969,
-        136.18106
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_kisei_kameyama_shingu-30_jr_kisei_kameyama_shingu-31",
-    "fromStationId": "jr_kisei_kameyama_shingu-30",
-    "toStationId": "jr_kisei_kameyama_shingu-31",
-    "coordinates": [
+        33.93981,
+        136.18115
+      ],
       [
         33.93969,
         136.18106
       ],
+      [
+        33.93912,
+        136.1806
+      ]
+    ]
+  },
+  {
+    "id": "jr_kisei_kameyama_shingu-30_jr_kisei_kameyama_shingu-31",
+    "fromStationId": "jr_kisei_kameyama_shingu-30",
+    "toStationId": "jr_kisei_kameyama_shingu-31",
+    "coordinates": [
       [
         33.93912,
         136.1806
@@ -10840,6 +11060,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.93742,
         136.17355
+      ],
+      [
+        33.937345,
+        136.17244
       ],
       [
         33.93727,
@@ -11012,18 +11236,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.92806,
         136.14409
+      ],
+      [
+        33.92739,
+        136.14457
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-31_jr_kisei_kameyama_shingu-32",
+    "id": "jr_kisei_kameyama_shingu-31_jr_kisei_kameyama_shingu-32",
     "fromStationId": "jr_kisei_kameyama_shingu-31",
     "toStationId": "jr_kisei_kameyama_shingu-32",
     "coordinates": [
-      [
-        33.92806,
-        136.14409
-      ],
       [
         33.92739,
         136.14457
@@ -11129,6 +11353,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.14433
       ],
       [
+        33.91505,
+        136.143855
+      ],
+      [
         33.91404,
         136.14338
       ],
@@ -11187,18 +11415,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.91031,
         136.13858
+      ],
+      [
+        33.90992,
+        136.13762
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-32_jr_kisei_kameyama_shingu-33",
+    "id": "jr_kisei_kameyama_shingu-32_jr_kisei_kameyama_shingu-33",
     "fromStationId": "jr_kisei_kameyama_shingu-32",
     "toStationId": "jr_kisei_kameyama_shingu-33",
     "coordinates": [
-      [
-        33.91031,
-        136.13858
-      ],
       [
         33.90992,
         136.13762
@@ -11220,8 +11448,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.13471
       ],
       [
+        33.9084,
+        136.13369
+      ],
+      [
         33.908,
         136.13267
+      ],
+      [
+        33.90759,
+        136.13159
       ],
       [
         33.90718,
@@ -11230,6 +11466,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.90649,
         136.12878
+      ],
+      [
+        33.906054999999995,
+        136.127645
       ],
       [
         33.90562,
@@ -11248,24 +11488,28 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.12215
       ],
       [
+        33.90344,
+        136.120965
+      ],
+      [
         33.90296,
         136.11978
       ],
       [
         33.90254,
         136.11878
+      ],
+      [
+        33.90194,
+        136.11736
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-33_jr_kisei_kameyama_shingu-34",
+    "id": "jr_kisei_kameyama_shingu-33_jr_kisei_kameyama_shingu-34",
     "fromStationId": "jr_kisei_kameyama_shingu-33",
     "toStationId": "jr_kisei_kameyama_shingu-34",
     "coordinates": [
-      [
-        33.90254,
-        136.11878
-      ],
       [
         33.90194,
         136.11736
@@ -11299,16 +11543,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.11446
       ],
       [
-        33.8989725,
-        136.1127375
+        33.899218,
+        136.11308200000002
       ],
       [
-        33.897745,
-        136.111015
+        33.898236,
+        136.111704
       ],
       [
-        33.8965175,
-        136.1092925
+        33.897254000000004,
+        136.11032600000001
+      ],
+      [
+        33.896272,
+        136.108948
       ],
       [
         33.89529,
@@ -11333,6 +11581,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.89387,
         136.1049
+      ],
+      [
+        33.893285,
+        136.10388999999998
       ],
       [
         33.8927,
@@ -11381,18 +11633,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.89016,
         136.09921
+      ],
+      [
+        33.88913,
+        136.09834
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-34_jr_kisei_kameyama_shingu-35",
+    "id": "jr_kisei_kameyama_shingu-34_jr_kisei_kameyama_shingu-35",
     "fromStationId": "jr_kisei_kameyama_shingu-34",
     "toStationId": "jr_kisei_kameyama_shingu-35",
     "coordinates": [
-      [
-        33.89016,
-        136.09921
-      ],
       [
         33.88913,
         136.09834
@@ -11418,6 +11670,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.09698
       ],
       [
+        33.88569,
+        136.09658000000002
+      ],
+      [
         33.88471,
         136.09618
       ],
@@ -11432,6 +11688,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.88144,
         136.09364
+      ],
+      [
+        33.880755,
+        136.09277500000002
       ],
       [
         33.88007,
@@ -11488,18 +11748,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.87645,
         136.08581
+      ],
+      [
+        33.87592,
+        136.08538
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-35_jr_kisei_kameyama_shingu-36",
+    "id": "jr_kisei_kameyama_shingu-35_jr_kisei_kameyama_shingu-36",
     "fromStationId": "jr_kisei_kameyama_shingu-35",
     "toStationId": "jr_kisei_kameyama_shingu-36",
     "coordinates": [
-      [
-        33.87645,
-        136.08581
-      ],
       [
         33.87592,
         136.08538
@@ -11527,6 +11787,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.8713,
         136.08179
+      ],
+      [
+        33.87039,
+        136.0811
       ],
       [
         33.86948,
@@ -11581,8 +11845,12 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.07166
       ],
       [
-        33.854775000000004,
-        136.070695
+        33.85535333333333,
+        136.07101666666668
+      ],
+      [
+        33.85419666666667,
+        136.07037333333332
       ],
       [
         33.85304,
@@ -11597,6 +11865,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.06866
       ],
       [
+        33.850229999999996,
+        136.06819000000002
+      ],
+      [
         33.84938,
         136.06772
       ],
@@ -11605,8 +11877,12 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.06687
       ],
       [
-        33.846140000000005,
-        136.06591500000002
+        33.84671,
+        136.06623333333334
+      ],
+      [
+        33.84557,
+        136.06559666666666
       ],
       [
         33.84443,
@@ -11629,6 +11905,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.06424
       ],
       [
+        33.8423,
+        136.06375500000001
+      ],
+      [
         33.84145,
         136.06327
       ],
@@ -11639,18 +11919,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.84039,
         136.0627
+      ],
+      [
+        33.83915,
+        136.062
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-36_jr_kisei_kameyama_shingu-37",
+    "id": "jr_kisei_kameyama_shingu-36_jr_kisei_kameyama_shingu-37",
     "fromStationId": "jr_kisei_kameyama_shingu-36",
     "toStationId": "jr_kisei_kameyama_shingu-37",
     "coordinates": [
-      [
-        33.84039,
-        136.0627
-      ],
       [
         33.83915,
         136.062
@@ -11692,24 +11972,28 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.05727
       ],
       [
+        33.83024,
+        136.05675
+      ],
+      [
         33.82938,
         136.05623
       ],
       [
         33.82833,
         136.05562
+      ],
+      [
+        33.82769,
+        136.05524
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-37_jr_kisei_kameyama_shingu-38",
+    "id": "jr_kisei_kameyama_shingu-37_jr_kisei_kameyama_shingu-38",
     "fromStationId": "jr_kisei_kameyama_shingu-37",
     "toStationId": "jr_kisei_kameyama_shingu-38",
     "coordinates": [
-      [
-        33.82833,
-        136.05562
-      ],
       [
         33.82769,
         136.05524
@@ -11829,18 +12113,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.80528,
         136.0428
+      ],
+      [
+        33.8042,
+        136.04202
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-38_jr_kisei_kameyama_shingu-39",
+    "id": "jr_kisei_kameyama_shingu-38_jr_kisei_kameyama_shingu-39",
     "fromStationId": "jr_kisei_kameyama_shingu-38",
     "toStationId": "jr_kisei_kameyama_shingu-39",
     "coordinates": [
-      [
-        33.80528,
-        136.0428
-      ],
       [
         33.8042,
         136.04202
@@ -11872,6 +12156,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.79939,
         136.03827
+      ],
+      [
+        33.79851,
+        136.037845
       ],
       [
         33.79763,
@@ -12106,24 +12394,28 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.02532
       ],
       [
+        33.76279,
+        136.024995
+      ],
+      [
         33.76187,
         136.02467
       ],
       [
         33.7603,
         136.02408
+      ],
+      [
+        33.75962,
+        136.02383
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-39_jr_kisei_kameyama_shingu-40",
+    "id": "jr_kisei_kameyama_shingu-39_jr_kisei_kameyama_shingu-40",
     "fromStationId": "jr_kisei_kameyama_shingu-39",
     "toStationId": "jr_kisei_kameyama_shingu-40",
     "coordinates": [
-      [
-        33.7603,
-        136.02408
-      ],
       [
         33.75962,
         136.02383
@@ -12143,6 +12435,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.75731,
         136.02327
+      ],
+      [
+        33.756405,
+        136.023185
       ],
       [
         33.7555,
@@ -12165,8 +12461,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.02254
       ],
       [
+        33.75231,
+        136.022285
+      ],
+      [
         33.75137,
         136.02203
+      ],
+      [
+        33.750465000000005,
+        136.02178
       ],
       [
         33.74956,
@@ -12225,6 +12529,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.02034
       ],
       [
+        33.74233,
+        136.02034
+      ],
+      [
         33.742,
         136.0203
       ],
@@ -12263,18 +12571,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.73707,
         136.01593
+      ],
+      [
+        33.73638,
+        136.0151
       ]
     ]
   },
   {
-    "segmentId": "jr_kisei_kameyama_shingu-40_jr_kisei_kameyama_shingu-41",
+    "id": "jr_kisei_kameyama_shingu-40_jr_kisei_kameyama_shingu-41",
     "fromStationId": "jr_kisei_kameyama_shingu-40",
     "toStationId": "jr_kisei_kameyama_shingu-41",
     "coordinates": [
-      [
-        33.73707,
-        136.01593
-      ],
       [
         33.73638,
         136.0151
@@ -12338,6 +12646,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.73632,
         136.00863
+      ],
+      [
+        33.736845,
+        136.00769000000003
       ],
       [
         33.73737,
@@ -12432,6 +12744,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         135.99679
       ],
       [
+        33.73595,
+        135.99617999999998
+      ],
+      [
         33.73495,
         135.99557
       ],
@@ -12488,8 +12804,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         135.99237
       ],
       [
-        33.72583,
-        135.99222
+        33.72612,
+        135.99312
+      ],
+      [
+        33.72572,
+        135.99338
+      ],
+      [
+        33.7251,
+        135.99384
       ]
     ]
   }

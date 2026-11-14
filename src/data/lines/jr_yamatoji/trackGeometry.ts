@@ -2,17 +2,17 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_yamatoji-01_jr_yamatoji-02",
+    "id": "jr_yamatoji-01_jr_yamatoji-02",
     "fromStationId": "jr_yamatoji-01",
     "toStationId": "jr_yamatoji-02",
     "coordinates": [
       [
-        34.7525,
-        135.87028
-      ],
-      [
         34.75203,
         135.86911
+      ],
+      [
+        34.75121,
+        135.86835000000002
       ],
       [
         34.75039,
@@ -35,8 +35,16 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.86653
       ],
       [
+        34.748115,
+        135.86608
+      ],
+      [
         34.74722,
         135.86563
+      ],
+      [
+        34.74638,
+        135.865225
       ],
       [
         34.74554,
@@ -323,6 +331,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.83224
       ],
       [
+        34.7421,
+        135.831115
+      ],
+      [
         34.74161,
         135.82999
       ],
@@ -385,25 +397,21 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.73686,
         135.8249
-      ],
-      [
-        34.73667,
-        135.82472
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-02_jr_yamatoji-03",
+    "id": "jr_yamatoji-02_jr_yamatoji-03",
     "fromStationId": "jr_yamatoji-02",
     "toStationId": "jr_yamatoji-03",
     "coordinates": [
       [
-        34.73667,
-        135.82472
+        34.73686,
+        135.8249
       ],
       [
-        34.7355,
-        135.824685
+        34.735595,
+        135.824775
       ],
       [
         34.73433,
@@ -592,18 +600,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.71104,
         135.81089
+      ],
+      [
+        34.71002,
+        135.80981
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-03_jr_yamatoji-04",
+    "id": "jr_yamatoji-03_jr_yamatoji-04",
     "fromStationId": "jr_yamatoji-03",
     "toStationId": "jr_yamatoji-04",
     "coordinates": [
-      [
-        34.71104,
-        135.81089
-      ],
       [
         34.71002,
         135.80981
@@ -839,21 +847,21 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.68162,
         135.81941
-      ],
-      [
-        34.68056,
-        135.81889
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-04_jr_yamatoji-05",
+    "id": "jr_yamatoji-04_jr_yamatoji-05",
     "fromStationId": "jr_yamatoji-04",
     "toStationId": "jr_yamatoji-05",
     "coordinates": [
       [
-        34.68056,
-        135.81889
+        34.68162,
+        135.81941
+      ],
+      [
+        34.680495,
+        135.81885
       ],
       [
         34.67937,
@@ -1110,18 +1118,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64888,
         135.79068
-      ],
-      [
-        34.64841,
-        135.79048
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-05_jr_yamatoji-06",
+    "id": "jr_yamatoji-05_jr_yamatoji-06",
     "fromStationId": "jr_yamatoji-05",
     "toStationId": "jr_yamatoji-06",
     "coordinates": [
+      [
+        34.64888,
+        135.79068
+      ],
       [
         34.64841,
         135.79048
@@ -1195,6 +1203,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.77924
       ],
       [
+        34.635095,
+        135.778235
+      ],
+      [
         34.63438,
         135.77723
       ],
@@ -1265,18 +1277,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62282,
         135.76401
-      ],
-      [
-        34.62157,
-        135.76289
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-06_jr_yamatoji-07",
+    "id": "jr_yamatoji-06_jr_yamatoji-07",
     "fromStationId": "jr_yamatoji-06",
     "toStationId": "jr_yamatoji-07",
     "coordinates": [
+      [
+        34.62282,
+        135.76401
+      ],
       [
         34.62157,
         135.76289
@@ -1418,8 +1430,12 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.74421
       ],
       [
-        34.603475,
-        135.742265
+        34.60384666666667,
+        135.74291333333335
+      ],
+      [
+        34.60310333333333,
+        135.74161666666666
       ],
       [
         34.60236,
@@ -1428,29 +1444,37 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.60206,
         135.73979
-      ],
-      [
-        34.60104,
-        135.73801
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-07_jr_yamatoji-08",
+    "id": "jr_yamatoji-07_jr_yamatoji-08",
     "fromStationId": "jr_yamatoji-07",
     "toStationId": "jr_yamatoji-08",
     "coordinates": [
       [
+        34.60206,
+        135.73979
+      ],
+      [
         34.60104,
         135.73801
+      ],
+      [
+        34.60046,
+        135.73703
       ],
       [
         34.59988,
         135.73605
       ],
       [
-        34.598645000000005,
-        135.733925
+        34.59905666666667,
+        135.73463333333333
+      ],
+      [
+        34.59823333333333,
+        135.73321666666666
       ],
       [
         34.59741,
@@ -1467,6 +1491,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.59648,
         135.73015
+      ],
+      [
+        34.595955000000004,
+        135.72925
       ],
       [
         34.59543,
@@ -1625,24 +1653,16 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.70502
       ],
       [
-        34.59778,
-        135.705
+        34.59744,
+        135.70445
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-08_jr_yamatoji-09",
+    "id": "jr_yamatoji-08_jr_yamatoji-09",
     "fromStationId": "jr_yamatoji-08",
     "toStationId": "jr_yamatoji-09",
     "coordinates": [
-      [
-        34.59778,
-        135.705
-      ],
-      [
-        34.59742,
-        135.70502
-      ],
       [
         34.59744,
         135.70445
@@ -1746,18 +1766,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.58905,
         135.68785
-      ],
-      [
-        34.58871,
-        135.6872
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-09_jr_yamatoji-10",
+    "id": "jr_yamatoji-09_jr_yamatoji-10",
     "fromStationId": "jr_yamatoji-09",
     "toStationId": "jr_yamatoji-10",
     "coordinates": [
+      [
+        34.58905,
+        135.68785
+      ],
       [
         34.58871,
         135.6872
@@ -1993,18 +2013,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.57498,
         135.66362
-      ],
-      [
-        34.57434,
-        135.66319
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-10_jr_yamatoji-11",
+    "id": "jr_yamatoji-10_jr_yamatoji-11",
     "fromStationId": "jr_yamatoji-10",
     "toStationId": "jr_yamatoji-11",
     "coordinates": [
+      [
+        34.57498,
+        135.66362
+      ],
       [
         34.57434,
         135.66319
@@ -2204,18 +2224,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.57137,
         135.6397
-      ],
-      [
-        34.57152,
-        135.63835
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-11_jr_yamatoji-12",
+    "id": "jr_yamatoji-11_jr_yamatoji-12",
     "fromStationId": "jr_yamatoji-11",
     "toStationId": "jr_yamatoji-12",
     "coordinates": [
+      [
+        34.57137,
+        135.6397
+      ],
       [
         34.57152,
         135.63835
@@ -2273,8 +2293,12 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.6308
       ],
       [
-        34.577685,
-        135.62982499999998
+        34.57705333333333,
+        135.63015
+      ],
+      [
+        34.578316666666666,
+        135.6295
       ],
       [
         34.57958,
@@ -2323,18 +2347,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.58684,
         135.62331
-      ],
-      [
-        34.58793,
-        135.62242
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-12_jr_yamatoji-13",
+    "id": "jr_yamatoji-12_jr_yamatoji-13",
     "fromStationId": "jr_yamatoji-12",
     "toStationId": "jr_yamatoji-13",
     "coordinates": [
+      [
+        34.58684,
+        135.62331
+      ],
       [
         34.58793,
         135.62242
@@ -2356,8 +2380,16 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.62172
       ],
       [
+        34.5901,
+        135.62132000000003
+      ],
+      [
         34.59102,
         135.62092
+      ],
+      [
+        34.59196,
+        135.620525
       ],
       [
         34.5929,
@@ -2414,21 +2446,25 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.59991,
         135.61621
-      ],
-      [
-        34.60075,
-        135.61561
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-13_jr_yamatoji-14",
+    "id": "jr_yamatoji-13_jr_yamatoji-14",
     "fromStationId": "jr_yamatoji-13",
     "toStationId": "jr_yamatoji-14",
     "coordinates": [
       [
+        34.59991,
+        135.61621
+      ],
+      [
         34.60075,
         135.61561
+      ],
+      [
+        34.60084,
+        135.61554
       ],
       [
         34.60099,
@@ -2499,6 +2535,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.60786
       ],
       [
+        34.6103,
+        135.60697
+      ],
+      [
         34.61099,
         135.60608
       ],
@@ -2553,18 +2593,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61692,
         135.59777
-      ],
-      [
-        34.61759,
-        135.59625
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-14_jr_yamatoji-15",
+    "id": "jr_yamatoji-14_jr_yamatoji-15",
     "fromStationId": "jr_yamatoji-14",
     "toStationId": "jr_yamatoji-15",
     "coordinates": [
+      [
+        34.61692,
+        135.59777
+      ],
       [
         34.61759,
         135.59625
@@ -2592,6 +2632,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61857,
         135.59349
+      ],
+      [
+        34.618939999999995,
+        135.59238
       ],
       [
         34.61931,
@@ -2632,21 +2676,17 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62208,
         135.58523
-      ],
-      [
-        34.6225,
-        135.58472
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-15_jr_yamatoji-16",
+    "id": "jr_yamatoji-15_jr_yamatoji-16",
     "fromStationId": "jr_yamatoji-15",
     "toStationId": "jr_yamatoji-16",
     "coordinates": [
       [
-        34.6225,
-        135.58472
+        34.62208,
+        135.58523
       ],
       [
         34.62259,
@@ -2739,18 +2779,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62674,
         135.56728
-      ],
-      [
-        34.62702,
-        135.56621
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-16_jr_yamatoji-17",
+    "id": "jr_yamatoji-16_jr_yamatoji-17",
     "fromStationId": "jr_yamatoji-16",
     "toStationId": "jr_yamatoji-17",
     "coordinates": [
+      [
+        34.62674,
+        135.56728
+      ],
       [
         34.62702,
         135.56621
@@ -2794,18 +2834,22 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.63059,
         135.55231
-      ],
-      [
-        34.63123,
-        135.54974
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-17_jr_yamatoji-18",
+    "id": "jr_yamatoji-17_jr_yamatoji-18",
     "fromStationId": "jr_yamatoji-17",
     "toStationId": "jr_yamatoji-18",
     "coordinates": [
+      [
+        34.63059,
+        135.55231
+      ],
+      [
+        34.63091,
+        135.551025
+      ],
       [
         34.63123,
         135.54974
@@ -2867,6 +2911,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.54461
       ],
       [
+        34.63326,
+        135.5446
+      ],
+      [
         34.63345,
         135.5443
       ],
@@ -2893,18 +2941,18 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.63767,
         135.53834
-      ],
-      [
-        34.63851,
-        135.53702
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-18_jr_yamatoji-19",
+    "id": "jr_yamatoji-18_jr_yamatoji-19",
     "fromStationId": "jr_yamatoji-18",
     "toStationId": "jr_yamatoji-19",
     "coordinates": [
+      [
+        34.63767,
+        135.53834
+      ],
       [
         34.63851,
         135.53702
@@ -2964,6 +3012,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64091,
         135.53063
+      ],
+      [
+        34.641395,
+        135.529445
       ],
       [
         34.64188,
@@ -3030,39 +3082,63 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.51899
       ],
       [
-        34.64596,
-        135.51773
+        34.64582,
+        135.51851
       ],
       [
-        34.64646,
-        135.51599
+        34.64599,
+        135.51819
       ],
       [
-        34.64667,
-        135.51516
+        34.64612,
+        135.51792
       ],
       [
-        34.64722,
-        135.51389
+        34.64615,
+        135.51782
+      ],
+      [
+        34.64621,
+        135.51764
+      ],
+      [
+        34.64653,
+        135.5164
+      ],
+      [
+        34.64665,
+        135.51602
+      ],
+      [
+        34.64685,
+        135.51522
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-19_jr_yamatoji-20",
+    "id": "jr_yamatoji-19_jr_yamatoji-20",
     "fromStationId": "jr_yamatoji-19",
     "toStationId": "jr_yamatoji-20",
     "coordinates": [
       [
-        34.64722,
-        135.51389
+        34.64685,
+        135.51522
       ],
       [
-        34.64723,
-        135.51293
+        34.647135,
+        135.51407999999998
+      ],
+      [
+        34.64742,
+        135.51294
       ],
       [
         34.64744,
         135.51208
+      ],
+      [
+        34.647745,
+        135.510795
       ],
       [
         34.64805,
@@ -3091,18 +3167,22 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64962,
         135.50292
-      ],
-      [
-        34.65019,
-        135.50066
       ]
     ]
   },
   {
-    "segmentId": "jr_yamatoji-20_jr_yamatoji-21",
+    "id": "jr_yamatoji-20_jr_yamatoji-21",
     "fromStationId": "jr_yamatoji-20",
     "toStationId": "jr_yamatoji-21",
     "coordinates": [
+      [
+        34.64962,
+        135.50292
+      ],
+      [
+        34.649905000000004,
+        135.50179
+      ],
       [
         34.65019,
         135.50066
@@ -3138,6 +3218,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65119,
         135.49677
+      ],
+      [
+        34.6512,
+        135.49676
       ],
       [
         34.65126,
@@ -3214,22 +3298,22 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65394,
         135.49271
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_yamatoji-21_jr_yamatoji-22",
-    "fromStationId": "jr_yamatoji-21",
-    "toStationId": "jr_yamatoji-22",
-    "coordinates": [
-      [
-        34.65394,
-        135.49271
       ],
       [
         34.65458,
         135.49239
       ],
+      [
+        34.65467,
+        135.49235
+      ]
+    ]
+  },
+  {
+    "id": "jr_yamatoji-21_jr_yamatoji-22",
+    "fromStationId": "jr_yamatoji-21",
+    "toStationId": "jr_yamatoji-22",
+    "coordinates": [
       [
         34.65467,
         135.49235
@@ -3279,16 +3363,32 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.4936
       ],
       [
+        34.66131,
+        135.49389
+      ],
+      [
         34.66218,
         135.49418
+      ],
+      [
+        34.66318,
+        135.49444
       ],
       [
         34.66418,
         135.4947
       ],
       [
+        34.66537,
+        135.495
+      ],
+      [
         34.66558,
         135.49506
+      ],
+      [
+        34.66715,
+        135.49552
       ]
     ]
   }

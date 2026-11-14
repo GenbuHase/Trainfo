@@ -2,7 +2,7 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_taketoyo-01_jr_taketoyo-02",
+    "id": "jr_taketoyo-01_jr_taketoyo-02",
     "fromStationId": "jr_taketoyo-01",
     "toStationId": "jr_taketoyo-02",
     "coordinates": [
@@ -63,6 +63,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.96684
       ],
       [
+        34.999355,
+        136.967425
+      ],
+      [
         34.99839,
         136.96801
       ],
@@ -85,18 +89,18 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.99433,
         136.97028
-      ],
-      [
-        34.99393,
-        136.97045
       ]
     ]
   },
   {
-    "segmentId": "jr_taketoyo-02_jr_taketoyo-03",
+    "id": "jr_taketoyo-02_jr_taketoyo-03",
     "fromStationId": "jr_taketoyo-02",
     "toStationId": "jr_taketoyo-03",
     "coordinates": [
+      [
+        34.99433,
+        136.97028
+      ],
       [
         34.99393,
         136.97045
@@ -134,6 +138,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.97144
       ],
       [
+        34.986540000000005,
+        136.97153
+      ],
+      [
         34.98548,
         136.97162
       ],
@@ -142,9 +150,24 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.97173
       ],
       [
+        34.98294,
+        136.97179
+      ],
+      [
         34.98202,
         136.97185
       ],
+      [
+        34.98197,
+        136.97186
+      ]
+    ]
+  },
+  {
+    "id": "jr_taketoyo-03_jr_taketoyo-04",
+    "fromStationId": "jr_taketoyo-03",
+    "toStationId": "jr_taketoyo-04",
+    "coordinates": [
       [
         34.98197,
         136.97186
@@ -152,20 +175,13 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9808,
         136.97194
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_taketoyo-03_jr_taketoyo-04",
-    "fromStationId": "jr_taketoyo-03",
-    "toStationId": "jr_taketoyo-04",
-    "coordinates": [
+      ],
       [
-        34.9808,
+        34.98074,
         136.97194
       ],
       [
-        34.979625,
+        34.979595,
         136.97203
       ],
       [
@@ -177,12 +193,20 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.97228
       ],
       [
+        34.975695,
+        136.97234500000002
+      ],
+      [
         34.97473,
         136.97241
       ],
       [
         34.97355,
         136.9725
+      ],
+      [
+        34.972570000000005,
+        136.972575
       ],
       [
         34.97159,
@@ -195,18 +219,18 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.96826,
         136.97288
-      ],
-      [
-        34.96747,
-        136.97293
       ]
     ]
   },
   {
-    "segmentId": "jr_taketoyo-04_jr_taketoyo-05",
+    "id": "jr_taketoyo-04_jr_taketoyo-05",
     "fromStationId": "jr_taketoyo-04",
     "toStationId": "jr_taketoyo-05",
     "coordinates": [
+      [
+        34.96826,
+        136.97288
+      ],
       [
         34.96747,
         136.97293
@@ -292,9 +316,24 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.9727
       ],
       [
-        34.95219,
-        136.971865
+        34.95281333333333,
+        136.97214333333335
       ],
+      [
+        34.951566666666665,
+        136.97158666666667
+      ],
+      [
+        34.95032,
+        136.97103
+      ]
+    ]
+  },
+  {
+    "id": "jr_taketoyo-05_jr_taketoyo-06",
+    "fromStationId": "jr_taketoyo-05",
+    "toStationId": "jr_taketoyo-06",
+    "coordinates": [
       [
         34.95032,
         136.97103
@@ -302,21 +341,18 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.94887,
         136.97037
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_taketoyo-05_jr_taketoyo-06",
-    "fromStationId": "jr_taketoyo-05",
-    "toStationId": "jr_taketoyo-06",
-    "coordinates": [
+      ],
       [
-        34.94887,
-        136.97037
+        34.947935,
+        136.969945
       ],
       [
         34.947,
         136.96952
+      ],
+      [
+        34.9461,
+        136.96909499999998
       ],
       [
         34.9452,
@@ -333,6 +369,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.94158,
         136.96704
+      ],
+      [
+        34.94073,
+        136.966655
       ],
       [
         34.93988,
@@ -367,6 +407,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.96403
       ],
       [
+        34.93306,
+        136.963845
+      ],
+      [
         34.93214,
         136.96366
       ],
@@ -379,8 +423,12 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.96299
       ],
       [
-        34.926865,
-        136.96265499999998
+        34.927463333333336,
+        136.96276666666665
+      ],
+      [
+        34.92626666666666,
+        136.96254333333334
       ],
       [
         34.92507,
@@ -417,18 +465,18 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.91944,
         136.96119
-      ],
-      [
-        34.91858,
-        136.96102
       ]
     ]
   },
   {
-    "segmentId": "jr_taketoyo-06_jr_taketoyo-07",
+    "id": "jr_taketoyo-06_jr_taketoyo-07",
     "fromStationId": "jr_taketoyo-06",
     "toStationId": "jr_taketoyo-07",
     "coordinates": [
+      [
+        34.91944,
+        136.96119
+      ],
       [
         34.91858,
         136.96102
@@ -466,6 +514,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.95837
       ],
       [
+        34.912525,
+        136.95764
+      ],
+      [
         34.91174,
         136.95691
       ],
@@ -474,12 +526,20 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.95601
       ],
       [
+        34.910065,
+        136.955285
+      ],
+      [
         34.9093,
         136.95456
       ],
       [
         34.90903,
         136.9543
+      ],
+      [
+        34.90816,
+        136.953465
       ],
       [
         34.90729,
@@ -526,24 +586,28 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.94554
       ],
       [
+        34.903855,
+        136.94446
+      ],
+      [
         34.90366,
         136.94338
       ],
       [
         34.90348,
         136.94223
-      ],
-      [
-        34.90342,
-        136.94196
       ]
     ]
   },
   {
-    "segmentId": "jr_taketoyo-07_jr_taketoyo-08",
+    "id": "jr_taketoyo-07_jr_taketoyo-08",
     "fromStationId": "jr_taketoyo-07",
     "toStationId": "jr_taketoyo-08",
     "coordinates": [
+      [
+        34.90348,
+        136.94223
+      ],
       [
         34.90342,
         136.94196
@@ -639,21 +703,25 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.89475,
         136.93054
-      ],
-      [
-        34.89347,
-        136.93032
       ]
     ]
   },
   {
-    "segmentId": "jr_taketoyo-08_jr_taketoyo-09",
+    "id": "jr_taketoyo-08_jr_taketoyo-09",
     "fromStationId": "jr_taketoyo-08",
     "toStationId": "jr_taketoyo-09",
     "coordinates": [
       [
+        34.89475,
+        136.93054
+      ],
+      [
         34.89347,
         136.93032
+      ],
+      [
+        34.89339,
+        136.9303
       ],
       [
         34.89314,
@@ -678,6 +746,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.88965,
         136.9308
+      ],
+      [
+        34.888735,
+        136.93099999999998
       ],
       [
         34.88782,
@@ -774,18 +846,18 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.87473,
         136.9238
-      ],
-      [
-        34.87432,
-        136.92351
       ]
     ]
   },
   {
-    "segmentId": "jr_taketoyo-09_jr_taketoyo-10",
+    "id": "jr_taketoyo-09_jr_taketoyo-10",
     "fromStationId": "jr_taketoyo-09",
     "toStationId": "jr_taketoyo-10",
     "coordinates": [
+      [
+        34.87473,
+        136.9238
+      ],
       [
         34.87432,
         136.92351
@@ -893,10 +965,6 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.85379,
         136.9212
-      ],
-      [
-        34.85275,
-        136.92097
       ]
     ]
   }

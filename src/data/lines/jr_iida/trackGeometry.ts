@@ -2,13 +2,21 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_iida-01_jr_iida-02",
+    "id": "jr_iida-01_jr_iida-02",
     "fromStationId": "jr_iida-01",
     "toStationId": "jr_iida-02",
     "coordinates": [
       [
+        34.76105,
+        137.38333
+      ],
+      [
         34.76166,
         137.38294
+      ],
+      [
+        34.76258,
+        137.382345
       ],
       [
         34.7635,
@@ -59,6 +67,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.37803
       ],
       [
+        34.770579999999995,
+        137.37742500000002
+      ],
+      [
         34.77151,
         137.37682
       ],
@@ -77,18 +89,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.77515,
         137.37444
-      ],
-      [
-        34.77632,
-        137.37369
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-02_jr_iida-03",
+    "id": "jr_iida-02_jr_iida-03",
     "fromStationId": "jr_iida-02",
     "toStationId": "jr_iida-03",
     "coordinates": [
+      [
+        34.77515,
+        137.37444
+      ],
       [
         34.77632,
         137.37369
@@ -128,6 +140,17 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.7806,
         137.37086
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-03_jr_iida-04",
+    "fromStationId": "jr_iida-03",
+    "toStationId": "jr_iida-04",
+    "coordinates": [
+      [
+        34.7806,
+        137.37086
       ],
       [
         34.7809,
@@ -136,17 +159,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.78113,
         137.37054
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-03_jr_iida-04",
-    "fromStationId": "jr_iida-03",
-    "toStationId": "jr_iida-04",
-    "coordinates": [
+      ],
       [
-        34.78113,
-        137.37054
+        34.7813,
+        137.37042
       ],
       [
         34.78189,
@@ -303,22 +319,22 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.79711,
         137.36261
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-04_jr_iida-05",
+    "fromStationId": "jr_iida-04",
+    "toStationId": "jr_iida-05",
+    "coordinates": [
+      [
+        34.79711,
+        137.36261
       ],
       [
         34.79721,
         137.3627
       ],
-      [
-        34.79762,
-        137.36311
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-04_jr_iida-05",
-    "fromStationId": "jr_iida-04",
-    "toStationId": "jr_iida-05",
-    "coordinates": [
       [
         34.79762,
         137.36311
@@ -462,18 +478,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.80826,
         137.38117
+      ],
+      [
+        34.80888,
+        137.38226
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-05_jr_iida-06",
+    "id": "jr_iida-05_jr_iida-06",
     "fromStationId": "jr_iida-05",
     "toStationId": "jr_iida-06",
     "coordinates": [
-      [
-        34.80826,
-        137.38117
-      ],
       [
         34.80888,
         137.38226
@@ -539,6 +555,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.3913
       ],
       [
+        34.817115,
+        137.39225
+      ],
+      [
         34.81773,
         137.3932
       ],
@@ -601,22 +621,22 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.82244,
         137.39709
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-06_jr_iida-07",
-    "fromStationId": "jr_iida-06",
-    "toStationId": "jr_iida-07",
-    "coordinates": [
-      [
-        34.82244,
-        137.39709
       ],
       [
         34.82263,
         137.3973
       ],
+      [
+        34.82305,
+        137.39779
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-06_jr_iida-07",
+    "fromStationId": "jr_iida-06",
+    "toStationId": "jr_iida-07",
+    "coordinates": [
       [
         34.82305,
         137.39779
@@ -756,18 +776,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.84798,
         137.41463
+      ],
+      [
+        34.84828,
+        137.41485
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-07_jr_iida-08",
+    "id": "jr_iida-07_jr_iida-08",
     "fromStationId": "jr_iida-07",
     "toStationId": "jr_iida-08",
     "coordinates": [
-      [
-        34.84798,
-        137.41463
-      ],
       [
         34.84828,
         137.41485
@@ -857,20 +877,13 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.4284
       ],
       [
-        34.86336,
-        137.429755
+        34.8633,
+        137.429665
       ],
       [
-        34.86427,
-        137.43111
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-08_jr_iida-09",
-    "fromStationId": "jr_iida-08",
-    "toStationId": "jr_iida-09",
-    "coordinates": [
+        34.86415,
+        137.43093
+      ],
       [
         34.86427,
         137.43111
@@ -879,6 +892,17 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         34.86448,
         137.43149
       ],
+      [
+        34.86469,
+        137.43188
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-08_jr_iida-09",
+    "fromStationId": "jr_iida-08",
+    "toStationId": "jr_iida-09",
+    "coordinates": [
       [
         34.86469,
         137.43188
@@ -942,22 +966,22 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.86777,
         137.44131
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-09_jr_iida-10",
-    "fromStationId": "jr_iida-09",
-    "toStationId": "jr_iida-10",
-    "coordinates": [
-      [
-        34.86777,
-        137.44131
       ],
       [
         34.86795,
         137.44185
       ],
+      [
+        34.86803,
+        137.44205
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-09_jr_iida-10",
+    "fromStationId": "jr_iida-09",
+    "toStationId": "jr_iida-10",
+    "coordinates": [
       [
         34.86803,
         137.44205
@@ -1031,6 +1055,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.45015
       ],
       [
+        34.874635,
+        137.45112
+      ],
+      [
         34.87507,
         137.45209
       ],
@@ -1049,18 +1077,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.87621,
         137.45572
+      ],
+      [
+        34.87625,
+        137.45604
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-10_jr_iida-11",
+    "id": "jr_iida-10_jr_iida-11",
     "fromStationId": "jr_iida-10",
     "toStationId": "jr_iida-11",
     "coordinates": [
-      [
-        34.87621,
-        137.45572
-      ],
       [
         34.87625,
         137.45604
@@ -1206,6 +1234,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.47054
       ],
       [
+        34.882135000000005,
+        137.471215
+      ],
+      [
         34.88288,
         137.47189
       ],
@@ -1254,20 +1286,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.47642
       ],
       [
-        34.88886,
-        137.47723
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-11_jr_iida-12",
-    "fromStationId": "jr_iida-11",
-    "toStationId": "jr_iida-12",
-    "coordinates": [
+        34.88883,
+        137.47719
+      ],
       [
         34.88886,
         137.47723
       ],
+      [
+        34.88973,
+        137.47855
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-11_jr_iida-12",
+    "fromStationId": "jr_iida-11",
+    "toStationId": "jr_iida-12",
+    "coordinates": [
       [
         34.88973,
         137.47855
@@ -1301,8 +1337,12 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.4827
       ],
       [
-        34.894665,
-        137.48416
+        34.8942,
+        137.48367333333334
+      ],
+      [
+        34.89513,
+        137.48464666666666
       ],
       [
         34.89606,
@@ -1337,20 +1377,28 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.49022
       ],
       [
-        34.9006,
-        137.49221
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-12_jr_iida-13",
-    "fromStationId": "jr_iida-12",
-    "toStationId": "jr_iida-13",
-    "coordinates": [
+        34.899965,
+        137.49114
+      ],
+      [
+        34.90052,
+        137.49206
+      ],
       [
         34.9006,
         137.49221
       ],
+      [
+        34.90154,
+        137.49379
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-12_jr_iida-13",
+    "fromStationId": "jr_iida-12",
+    "toStationId": "jr_iida-13",
+    "coordinates": [
       [
         34.90154,
         137.49379
@@ -1388,20 +1436,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.50155
       ],
       [
-        34.90606,
-        137.50284
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-13_jr_iida-14",
-    "fromStationId": "jr_iida-13",
-    "toStationId": "jr_iida-14",
-    "coordinates": [
+        34.90599,
+        137.50263
+      ],
       [
         34.90606,
         137.50284
       ],
+      [
+        34.9063,
+        137.50346
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-13_jr_iida-14",
+    "fromStationId": "jr_iida-13",
+    "toStationId": "jr_iida-14",
+    "coordinates": [
       [
         34.9063,
         137.50346
@@ -1441,18 +1493,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.91019,
         137.51393
+      ],
+      [
+        34.91052,
+        137.51494
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-14_jr_iida-15",
+    "id": "jr_iida-14_jr_iida-15",
     "fromStationId": "jr_iida-14",
     "toStationId": "jr_iida-15",
     "coordinates": [
-      [
-        34.91019,
-        137.51393
-      ],
       [
         34.91052,
         137.51494
@@ -1524,18 +1576,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9122,
         137.52682
+      ],
+      [
+        34.91228,
+        137.52781
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-15_jr_iida-16",
+    "id": "jr_iida-15_jr_iida-16",
     "fromStationId": "jr_iida-15",
     "toStationId": "jr_iida-16",
     "coordinates": [
-      [
-        34.9122,
-        137.52682
-      ],
       [
         34.91228,
         137.52781
@@ -1739,18 +1791,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.93018,
         137.54845
-      ],
-      [
-        34.93013,
-        137.54957
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-16_jr_iida-17",
+    "id": "jr_iida-16_jr_iida-17",
     "fromStationId": "jr_iida-16",
     "toStationId": "jr_iida-17",
     "coordinates": [
+      [
+        34.93018,
+        137.54845
+      ],
       [
         34.93013,
         137.54957
@@ -1922,21 +1974,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.92112,
         137.55106
-      ],
-      [
-        34.9206,
-        137.55187
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-17_jr_iida-18",
+    "id": "jr_iida-17_jr_iida-18",
     "fromStationId": "jr_iida-17",
     "toStationId": "jr_iida-18",
     "coordinates": [
       [
+        34.92112,
+        137.55106
+      ],
+      [
         34.9206,
         137.55187
+      ],
+      [
+        34.92054,
+        137.55196
       ],
       [
         34.92015,
@@ -2113,21 +2169,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9257,
         137.56436
-      ],
-      [
-        34.92618,
-        137.56565
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-18_jr_iida-19",
+    "id": "jr_iida-18_jr_iida-19",
     "fromStationId": "jr_iida-18",
     "toStationId": "jr_iida-19",
     "coordinates": [
       [
+        34.9257,
+        137.56436
+      ],
+      [
         34.92618,
         137.56565
+      ],
+      [
+        34.92626,
+        137.56582
       ],
       [
         34.92665,
@@ -2244,6 +2304,17 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9325,
         137.57592
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-19_jr_iida-20",
+    "fromStationId": "jr_iida-19",
+    "toStationId": "jr_iida-20",
+    "coordinates": [
+      [
+        34.9325,
+        137.57592
       ],
       [
         34.93252,
@@ -2256,17 +2327,14 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.93271,
         137.57711
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-19_jr_iida-20",
-    "fromStationId": "jr_iida-19",
-    "toStationId": "jr_iida-20",
-    "coordinates": [
+      ],
       [
-        34.93271,
-        137.57711
+        34.93274,
+        137.57726
+      ],
+      [
+        34.93277,
+        137.57737
       ],
       [
         34.93278,
@@ -2587,18 +2655,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.95152,
         137.60284
-      ],
-      [
-        34.95244,
-        137.60316
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-20_jr_iida-21",
+    "id": "jr_iida-20_jr_iida-21",
     "fromStationId": "jr_iida-20",
     "toStationId": "jr_iida-21",
     "coordinates": [
+      [
+        34.95152,
+        137.60284
+      ],
       [
         34.95244,
         137.60316
@@ -2866,18 +2934,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.97015,
         137.61288
-      ],
-      [
-        34.97041,
-        137.61299
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-21_jr_iida-22",
+    "id": "jr_iida-21_jr_iida-22",
     "fromStationId": "jr_iida-21",
     "toStationId": "jr_iida-22",
     "coordinates": [
+      [
+        34.97015,
+        137.61288
+      ],
       [
         34.97041,
         137.61299
@@ -3105,18 +3173,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.98858,
         137.62013
-      ],
-      [
-        34.98852,
-        137.62168
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-22_jr_iida-23",
+    "id": "jr_iida-22_jr_iida-23",
     "fromStationId": "jr_iida-22",
     "toStationId": "jr_iida-23",
     "coordinates": [
+      [
+        34.98858,
+        137.62013
+      ],
       [
         34.98852,
         137.62168
@@ -3404,18 +3472,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9905,
         137.64397
+      ],
+      [
+        34.99069,
+        137.64439
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-23_jr_iida-24",
+    "id": "jr_iida-23_jr_iida-24",
     "fromStationId": "jr_iida-23",
     "toStationId": "jr_iida-24",
     "coordinates": [
-      [
-        34.9905,
-        137.64397
-      ],
       [
         34.99069,
         137.64439
@@ -3719,22 +3787,22 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.00128,
         137.66369
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-24_jr_iida-25",
-    "fromStationId": "jr_iida-24",
-    "toStationId": "jr_iida-25",
-    "coordinates": [
-      [
-        35.00128,
-        137.66369
       ],
       [
         35.00221,
         137.66433
       ],
+      [
+        35.00233,
+        137.6644
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-24_jr_iida-25",
+    "fromStationId": "jr_iida-24",
+    "toStationId": "jr_iida-25",
+    "coordinates": [
       [
         35.00233,
         137.6644
@@ -4220,6 +4288,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.69443
       ],
       [
+        35.02024,
+        137.69541
+      ],
+      [
         35.02065,
         137.69639
       ],
@@ -4256,16 +4328,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.70342
       ],
       [
-        35.02431,
-        137.70387
+        35.02418,
+        137.70367
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-25_jr_iida-26",
+    "id": "jr_iida-25_jr_iida-26",
     "fromStationId": "jr_iida-25",
     "toStationId": "jr_iida-26",
     "coordinates": [
+      [
+        35.02418,
+        137.70367
+      ],
+      [
+        35.0242,
+        137.70369
+      ],
       [
         35.02431,
         137.70387
@@ -4345,18 +4425,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.0289,
         137.7134
-      ],
-      [
-        35.02904,
-        137.71431
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-26_jr_iida-27",
+    "id": "jr_iida-26_jr_iida-27",
     "fromStationId": "jr_iida-26",
     "toStationId": "jr_iida-27",
     "coordinates": [
+      [
+        35.0289,
+        137.7134
+      ],
       [
         35.02904,
         137.71431
@@ -4832,18 +4912,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.04919,
         137.7439
-      ],
-      [
-        35.0495,
-        137.7446
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-27_jr_iida-28",
+    "id": "jr_iida-27_jr_iida-28",
     "fromStationId": "jr_iida-27",
     "toStationId": "jr_iida-28",
     "coordinates": [
+      [
+        35.04919,
+        137.7439
+      ],
       [
         35.0495,
         137.7446
@@ -4923,18 +5003,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.05002,
         137.75206
-      ],
-      [
-        35.05037,
-        137.75277
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-28_jr_iida-29",
+    "id": "jr_iida-28_jr_iida-29",
     "fromStationId": "jr_iida-28",
     "toStationId": "jr_iida-29",
     "coordinates": [
+      [
+        35.05002,
+        137.75206
+      ],
       [
         35.05037,
         137.75277
@@ -5050,21 +5130,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.05614,
         137.76327
-      ],
-      [
-        35.05654,
-        137.76387
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-29_jr_iida-30",
+    "id": "jr_iida-29_jr_iida-30",
     "fromStationId": "jr_iida-29",
     "toStationId": "jr_iida-30",
     "coordinates": [
       [
+        35.05614,
+        137.76327
+      ],
+      [
         35.05654,
         137.76387
+      ],
+      [
+        35.05665,
+        137.76403
       ],
       [
         35.05722,
@@ -5169,21 +5253,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.06036,
         137.7748
-      ],
-      [
-        35.06079,
-        137.77538
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-30_jr_iida-31",
+    "id": "jr_iida-30_jr_iida-31",
     "fromStationId": "jr_iida-30",
     "toStationId": "jr_iida-31",
     "coordinates": [
       [
+        35.06036,
+        137.7748
+      ],
+      [
         35.06079,
         137.77538
+      ],
+      [
+        35.06087,
+        137.77549
       ],
       [
         35.06121,
@@ -5276,18 +5364,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.06911,
         137.78606
-      ],
-      [
-        35.06955,
-        137.78672
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-31_jr_iida-32",
+    "id": "jr_iida-31_jr_iida-32",
     "fromStationId": "jr_iida-31",
     "toStationId": "jr_iida-32",
     "coordinates": [
+      [
+        35.06911,
+        137.78606
+      ],
       [
         35.06955,
         137.78672
@@ -5399,6 +5487,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.07488,
         137.79716
+      ],
+      [
+        35.075325,
+        137.798185
       ],
       [
         35.07577,
@@ -5539,18 +5631,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.08498,
         137.80277
-      ],
-      [
-        35.08565,
-        137.80294
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-32_jr_iida-33",
+    "id": "jr_iida-32_jr_iida-33",
     "fromStationId": "jr_iida-32",
     "toStationId": "jr_iida-33",
     "coordinates": [
+      [
+        35.08498,
+        137.80277
+      ],
       [
         35.08565,
         137.80294
@@ -5658,21 +5750,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.09181,
         137.8093
-      ],
-      [
-        35.09193,
-        137.81015
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-33_jr_iida-34",
+    "id": "jr_iida-33_jr_iida-34",
     "fromStationId": "jr_iida-33",
     "toStationId": "jr_iida-34",
     "coordinates": [
       [
+        35.09181,
+        137.8093
+      ],
+      [
         35.09193,
         137.81015
+      ],
+      [
+        35.09196,
+        137.81035
       ],
       [
         35.092,
@@ -5789,6 +5885,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.09834,
         137.81618
+      ],
+      [
+        35.09835,
+        137.81619
       ],
       [
         35.09837,
@@ -5951,6 +6051,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.84886
       ],
       [
+        35.111239999999995,
+        137.849885
+      ],
+      [
         35.11163,
         137.85091
       ],
@@ -6013,21 +6117,29 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.11459,
         137.85431
-      ],
-      [
-        35.11523,
-        137.85441
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-34_jr_iida-35",
+    "id": "jr_iida-34_jr_iida-35",
     "fromStationId": "jr_iida-34",
     "toStationId": "jr_iida-35",
     "coordinates": [
       [
+        35.11459,
+        137.85431
+      ],
+      [
         35.11523,
         137.85441
+      ],
+      [
+        35.11533,
+        137.85443
+      ],
+      [
+        35.11544,
+        137.85445
       ],
       [
         35.1157,
@@ -6216,21 +6328,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.13128,
         137.86178
-      ],
-      [
-        35.13189,
-        137.86227
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-35_jr_iida-36",
+    "id": "jr_iida-35_jr_iida-36",
     "fromStationId": "jr_iida-35",
     "toStationId": "jr_iida-36",
     "coordinates": [
       [
+        35.13128,
+        137.86178
+      ],
+      [
         35.13189,
         137.86227
+      ],
+      [
+        35.13208,
+        137.86237
       ],
       [
         35.13221,
@@ -6531,20 +6647,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.15373,
         137.86939
-      ],
-      [
-        35.1544,
-        137.86952
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-36_jr_iida-37",
+    "id": "jr_iida-36_jr_iida-37",
     "fromStationId": "jr_iida-36",
     "toStationId": "jr_iida-37",
     "coordinates": [
       [
+        35.15373,
+        137.86939
+      ],
+      [
         35.1544,
+        137.86952
+      ],
+      [
+        35.15455,
         137.86952
       ],
       [
@@ -6638,18 +6758,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.16293,
         137.87044
-      ],
-      [
-        35.16374,
-        137.87056
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-37_jr_iida-38",
+    "id": "jr_iida-37_jr_iida-38",
     "fromStationId": "jr_iida-37",
     "toStationId": "jr_iida-38",
     "coordinates": [
+      [
+        35.16293,
+        137.87044
+      ],
       [
         35.16374,
         137.87056
@@ -7079,6 +7199,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.82612
       ],
       [
+        35.18631,
+        137.82482
+      ],
+      [
         35.18667,
         137.82352
       ],
@@ -7155,20 +7279,28 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.81856
       ],
       [
+        35.18997,
+        137.81852
+      ],
+      [
+        35.19,
+        137.81852
+      ],
+      [
         35.19011,
+        137.81852
+      ],
+      [
+        35.19081,
         137.81852
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-38_jr_iida-39",
+    "id": "jr_iida-38_jr_iida-39",
     "fromStationId": "jr_iida-38",
     "toStationId": "jr_iida-39",
     "coordinates": [
-      [
-        35.19011,
-        137.81852
-      ],
       [
         35.19081,
         137.81852
@@ -7594,16 +7726,9 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.83535
       ],
       [
-        35.20984,
-        137.83583
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-39_jr_iida-40",
-    "fromStationId": "jr_iida-39",
-    "toStationId": "jr_iida-40",
-    "coordinates": [
+        35.20975,
+        137.83558
+      ],
       [
         35.20984,
         137.83583
@@ -7612,6 +7737,17 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         35.20996,
         137.83616
       ],
+      [
+        35.21005,
+        137.83641
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-39_jr_iida-40",
+    "fromStationId": "jr_iida-39",
+    "toStationId": "jr_iida-40",
+    "coordinates": [
       [
         35.21005,
         137.83641
@@ -7726,6 +7862,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         35.21575,
+        137.8407
+      ],
+      [
+        35.21576,
         137.8407
       ],
       [
@@ -7937,6 +8077,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.82904
       ],
       [
+        35.22405,
+        137.82903
+      ],
+      [
         35.2243,
         137.82883
       ],
@@ -8023,6 +8167,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.22961,
         137.82671
+      ],
+      [
+        35.22962,
+        137.82672
       ],
       [
         35.22971,
@@ -8149,20 +8297,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.83427
       ],
       [
-        35.23572,
-        137.83454
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-40_jr_iida-41",
-    "fromStationId": "jr_iida-40",
-    "toStationId": "jr_iida-41",
-    "coordinates": [
+        35.23569,
+        137.83449
+      ],
       [
         35.23572,
         137.83454
       ],
+      [
+        35.23612,
+        137.83533
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-40_jr_iida-41",
+    "fromStationId": "jr_iida-40",
+    "toStationId": "jr_iida-41",
+    "coordinates": [
       [
         35.23612,
         137.83533
@@ -8246,6 +8398,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.23843,
         137.83732
+      ],
+      [
+        35.23937,
+        137.83696
       ],
       [
         35.24031,
@@ -8380,6 +8536,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.83799
       ],
       [
+        35.25049,
+        137.838
+      ],
+      [
         35.25058,
         137.83801
       ],
@@ -8462,18 +8622,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.2539,
         137.83507
+      ],
+      [
+        35.25429,
+        137.83443
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-41_jr_iida-42",
+    "id": "jr_iida-41_jr_iida-42",
     "fromStationId": "jr_iida-41",
     "toStationId": "jr_iida-42",
     "coordinates": [
-      [
-        35.2539,
-        137.83507
-      ],
       [
         35.25429,
         137.83443
@@ -8513,6 +8673,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.25741,
         137.83192
+      ],
+      [
+        35.25742,
+        137.83191
       ],
       [
         35.25791,
@@ -8649,17 +8813,21 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.2676,
         137.83282
+      ],
+      [
+        35.26763,
+        137.83285
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-42_jr_iida-43",
+    "id": "jr_iida-42_jr_iida-43",
     "fromStationId": "jr_iida-42",
     "toStationId": "jr_iida-43",
     "coordinates": [
       [
-        35.2676,
-        137.83282
+        35.26763,
+        137.83285
       ],
       [
         35.26781,
@@ -8814,6 +8982,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.84996
       ],
       [
+        35.27165,
+        137.84997
+      ],
+      [
         35.27166,
         137.85007
       ],
@@ -8880,18 +9052,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.27362,
         137.85365
+      ],
+      [
+        35.27396,
+        137.85404
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-43_jr_iida-44",
+    "id": "jr_iida-43_jr_iida-44",
     "fromStationId": "jr_iida-43",
     "toStationId": "jr_iida-44",
     "coordinates": [
-      [
-        35.27362,
-        137.85365
-      ],
       [
         35.27396,
         137.85404
@@ -9661,20 +9833,28 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.84871
       ],
       [
-        35.31175,
-        137.84859
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-44_jr_iida-45",
-    "fromStationId": "jr_iida-44",
-    "toStationId": "jr_iida-45",
-    "coordinates": [
+        35.31165,
+        137.84863
+      ],
       [
         35.31175,
         137.84859
       ],
+      [
+        35.31191,
+        137.84852
+      ],
+      [
+        35.31207,
+        137.84843
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-44_jr_iida-45",
+    "fromStationId": "jr_iida-44",
+    "toStationId": "jr_iida-45",
+    "coordinates": [
       [
         35.31207,
         137.84843
@@ -10152,6 +10332,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.83867
       ],
       [
+        35.33202,
+        137.83868
+      ],
+      [
         35.33215,
         137.83875
       ],
@@ -10218,21 +10402,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.3359,
         137.84106
-      ],
-      [
-        35.33657,
-        137.84161
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-45_jr_iida-46",
+    "id": "jr_iida-45_jr_iida-46",
     "fromStationId": "jr_iida-45",
     "toStationId": "jr_iida-46",
     "coordinates": [
       [
+        35.3359,
+        137.84106
+      ],
+      [
         35.33657,
         137.84161
+      ],
+      [
+        35.33664,
+        137.84167
       ],
       [
         35.33698,
@@ -10537,21 +10725,17 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.34883,
         137.83819
-      ],
-      [
-        35.34895,
-        137.8379
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-46_jr_iida-47",
+    "id": "jr_iida-46_jr_iida-47",
     "fromStationId": "jr_iida-46",
     "toStationId": "jr_iida-47",
     "coordinates": [
       [
-        35.34895,
-        137.8379
+        35.34883,
+        137.83819
       ],
       [
         35.34911,
@@ -11092,18 +11276,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.37509,
         137.81443
-      ],
-      [
-        35.37562,
-        137.81371
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-47_jr_iida-48",
+    "id": "jr_iida-47_jr_iida-48",
     "fromStationId": "jr_iida-47",
     "toStationId": "jr_iida-48",
     "coordinates": [
+      [
+        35.37509,
+        137.81443
+      ],
       [
         35.37562,
         137.81371
@@ -11655,21 +11839,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.40209,
         137.80991
-      ],
-      [
-        35.40256,
-        137.81051
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-48_jr_iida-49",
+    "id": "jr_iida-48_jr_iida-49",
     "fromStationId": "jr_iida-48",
     "toStationId": "jr_iida-49",
     "coordinates": [
       [
+        35.40209,
+        137.80991
+      ],
+      [
         35.40256,
         137.81051
+      ],
+      [
+        35.40266,
+        137.81062
       ],
       [
         35.40306,
@@ -11960,6 +12148,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.81783
       ],
       [
+        35.4143,
+        137.81782
+      ],
+      [
         35.4145,
         137.81766
       ],
@@ -12062,18 +12254,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.41886,
         137.81697
-      ],
-      [
-        35.41944,
-        137.81738
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-49_jr_iida-50",
+    "id": "jr_iida-49_jr_iida-50",
     "fromStationId": "jr_iida-49",
     "toStationId": "jr_iida-50",
     "coordinates": [
+      [
+        35.41886,
+        137.81697
+      ],
       [
         35.41944,
         137.81738
@@ -12189,18 +12381,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.42889,
         137.81683
-      ],
-      [
-        35.42953,
-        137.81673
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-50_jr_iida-51",
+    "id": "jr_iida-50_jr_iida-51",
     "fromStationId": "jr_iida-50",
     "toStationId": "jr_iida-51",
     "coordinates": [
+      [
+        35.42889,
+        137.81683
+      ],
       [
         35.42953,
         137.81673
@@ -12268,18 +12460,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.44082,
         137.81746
-      ],
-      [
-        35.44138,
-        137.81722
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-51_jr_iida-52",
+    "id": "jr_iida-51_jr_iida-52",
     "fromStationId": "jr_iida-51",
     "toStationId": "jr_iida-52",
     "coordinates": [
+      [
+        35.44082,
+        137.81746
+      ],
       [
         35.44138,
         137.81722
@@ -12327,18 +12519,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.45282,
         137.81567
-      ],
-      [
-        35.45342,
-        137.81583
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-52_jr_iida-53",
+    "id": "jr_iida-52_jr_iida-53",
     "fromStationId": "jr_iida-52",
     "toStationId": "jr_iida-53",
     "coordinates": [
+      [
+        35.45282,
+        137.81567
+      ],
       [
         35.45342,
         137.81583
@@ -12426,18 +12618,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.46367,
         137.82768
-      ],
-      [
-        35.46441,
-        137.82783
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-53_jr_iida-54",
+    "id": "jr_iida-53_jr_iida-54",
     "fromStationId": "jr_iida-53",
     "toStationId": "jr_iida-54",
     "coordinates": [
+      [
+        35.46367,
+        137.82768
+      ],
       [
         35.46441,
         137.82783
@@ -12483,8 +12675,12 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.83216
       ],
       [
-        35.471990000000005,
-        137.834275
+        35.4718,
+        137.83356999999998
+      ],
+      [
+        35.47218,
+        137.83498
       ],
       [
         35.47256,
@@ -12507,20 +12703,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.83862
       ],
       [
-        35.47528,
-        137.83964
+        35.474475,
+        137.83913
       ],
       [
-        35.47585,
-        137.83999
+        35.47528,
+        137.83964
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-54_jr_iida-55",
+    "id": "jr_iida-54_jr_iida-55",
     "fromStationId": "jr_iida-54",
     "toStationId": "jr_iida-55",
     "coordinates": [
+      [
+        35.47528,
+        137.83964
+      ],
       [
         35.47585,
         137.83999
@@ -12592,18 +12792,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.48713,
         137.83926
-      ],
-      [
-        35.48775,
-        137.83951
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-55_jr_iida-56",
+    "id": "jr_iida-55_jr_iida-56",
     "fromStationId": "jr_iida-55",
     "toStationId": "jr_iida-56",
     "coordinates": [
+      [
+        35.48713,
+        137.83926
+      ],
       [
         35.48775,
         137.83951
@@ -12651,18 +12851,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.49633,
         137.84117
-      ],
-      [
-        35.49717,
-        137.84192
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-56_jr_iida-57",
+    "id": "jr_iida-56_jr_iida-57",
     "fromStationId": "jr_iida-56",
     "toStationId": "jr_iida-57",
     "coordinates": [
+      [
+        35.49633,
+        137.84117
+      ],
       [
         35.49717,
         137.84192
@@ -12696,6 +12896,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.84325
       ],
       [
+        35.502224999999996,
+        137.84275000000002
+      ],
+      [
         35.50313,
         137.84225
       ],
@@ -12718,21 +12922,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.50411,
         137.8401
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-57_jr_iida-58",
-    "fromStationId": "jr_iida-57",
-    "toStationId": "jr_iida-58",
-    "coordinates": [
-      [
-        35.50411,
-        137.8401
       ],
       [
         35.5043,
         137.83938
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-57_jr_iida-58",
+    "fromStationId": "jr_iida-57",
+    "toStationId": "jr_iida-58",
+    "coordinates": [
+      [
+        35.5043,
+        137.83938
+      ],
+      [
+        35.504625000000004,
+        137.838125
       ],
       [
         35.50495,
@@ -12764,19 +12972,23 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       ],
       [
         35.50676,
-        137.82878
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-58_jr_iida-59",
-    "fromStationId": "jr_iida-58",
-    "toStationId": "jr_iida-59",
-    "coordinates": [
+        137.82879
+      ],
       [
         35.50676,
         137.82878
       ],
+      [
+        35.50665,
+        137.82794
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-58_jr_iida-59",
+    "fromStationId": "jr_iida-58",
+    "toStationId": "jr_iida-59",
+    "coordinates": [
       [
         35.50665,
         137.82794
@@ -12860,18 +13072,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.51211,
         137.80909
+      ],
+      [
+        35.51269,
+        137.8092
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-59_jr_iida-60",
+    "id": "jr_iida-59_jr_iida-60",
     "fromStationId": "jr_iida-59",
     "toStationId": "jr_iida-60",
     "coordinates": [
-      [
-        35.51211,
-        137.80909
-      ],
       [
         35.51269,
         137.8092
@@ -12995,21 +13207,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.51948,
         137.82087
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-60_jr_iida-61",
-    "fromStationId": "jr_iida-60",
-    "toStationId": "jr_iida-61",
-    "coordinates": [
-      [
-        35.51948,
-        137.82087
       ],
       [
         35.51996,
         137.82166
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-60_jr_iida-61",
+    "fromStationId": "jr_iida-60",
+    "toStationId": "jr_iida-61",
+    "coordinates": [
+      [
+        35.51996,
+        137.82166
+      ],
+      [
+        35.52051,
+        137.82254
       ],
       [
         35.52106,
@@ -13058,18 +13274,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.52214,
         137.82936
+      ],
+      [
+        35.52222,
+        137.83016
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-61_jr_iida-62",
+    "id": "jr_iida-61_jr_iida-62",
     "fromStationId": "jr_iida-61",
     "toStationId": "jr_iida-62",
     "coordinates": [
-      [
-        35.52214,
-        137.82936
-      ],
       [
         35.52222,
         137.83016
@@ -13125,18 +13341,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.52026,
         137.83865
+      ],
+      [
+        35.52009,
+        137.83941
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-62_jr_iida-63",
+    "id": "jr_iida-62_jr_iida-63",
     "fromStationId": "jr_iida-62",
     "toStationId": "jr_iida-63",
     "coordinates": [
-      [
-        35.52026,
-        137.83865
-      ],
       [
         35.52009,
         137.83941
@@ -13204,6 +13420,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.52307,
         137.84591
+      ],
+      [
+        35.524005,
+        137.846545
       ],
       [
         35.52494,
@@ -13316,18 +13536,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.53371,
         137.86105
+      ],
+      [
+        35.534,
+        137.8618
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-63_jr_iida-64",
+    "id": "jr_iida-63_jr_iida-64",
     "fromStationId": "jr_iida-63",
     "toStationId": "jr_iida-64",
     "coordinates": [
-      [
-        35.53371,
-        137.86105
-      ],
       [
         35.534,
         137.8618
@@ -13347,6 +13567,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.5355,
         137.86548
+      ],
+      [
+        35.53593,
+        137.86649
       ],
       [
         35.53636,
@@ -13409,20 +13633,24 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.87593
       ],
       [
-        35.54412,
-        137.87626
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-64_jr_iida-65",
-    "fromStationId": "jr_iida-64",
-    "toStationId": "jr_iida-65",
-    "coordinates": [
+        35.54402,
+        137.87604
+      ],
       [
         35.54412,
         137.87626
       ],
+      [
+        35.54433,
+        137.87672
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-64_jr_iida-65",
+    "fromStationId": "jr_iida-64",
+    "toStationId": "jr_iida-65",
+    "coordinates": [
       [
         35.54433,
         137.87672
@@ -13490,18 +13718,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.54896,
         137.88653
+      ],
+      [
+        35.54974,
+        137.88663
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-65_jr_iida-66",
+    "id": "jr_iida-65_jr_iida-66",
     "fromStationId": "jr_iida-65",
     "toStationId": "jr_iida-66",
     "coordinates": [
-      [
-        35.54896,
-        137.88653
-      ],
       [
         35.54974,
         137.88663
@@ -13591,6 +13819,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.89151
       ],
       [
+        35.566784999999996,
+        137.89197000000001
+      ],
+      [
         35.56766,
         137.89243
       ],
@@ -13645,18 +13877,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.5723,
         137.89577
+      ],
+      [
+        35.57287,
+        137.89605
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-66_jr_iida-67",
+    "id": "jr_iida-66_jr_iida-67",
     "fromStationId": "jr_iida-66",
     "toStationId": "jr_iida-67",
     "coordinates": [
-      [
-        35.5723,
-        137.89577
-      ],
       [
         35.57287,
         137.89605
@@ -13716,18 +13948,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.57767,
         137.90294
+      ],
+      [
+        35.57788,
+        137.90375
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-67_jr_iida-68",
+    "id": "jr_iida-67_jr_iida-68",
     "fromStationId": "jr_iida-67",
     "toStationId": "jr_iida-68",
     "coordinates": [
-      [
-        35.57767,
-        137.90294
-      ],
       [
         35.57788,
         137.90375
@@ -13983,18 +14215,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.5953,
         137.91295
-      ],
-      [
-        35.5961,
-        137.91348
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-68_jr_iida-69",
+    "id": "jr_iida-68_jr_iida-69",
     "fromStationId": "jr_iida-68",
     "toStationId": "jr_iida-69",
     "coordinates": [
+      [
+        35.5953,
+        137.91295
+      ],
       [
         35.5961,
         137.91348
@@ -14278,21 +14510,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.61708,
         137.90418
-      ],
-      [
-        35.61792,
-        137.90396
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-69_jr_iida-70",
+    "id": "jr_iida-69_jr_iida-70",
     "fromStationId": "jr_iida-69",
     "toStationId": "jr_iida-70",
     "coordinates": [
       [
+        35.61708,
+        137.90418
+      ],
+      [
         35.61792,
         137.90396
+      ],
+      [
+        35.61814,
+        137.90392
       ],
       [
         35.61861,
@@ -14385,18 +14621,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.62713,
         137.9104
-      ],
-      [
-        35.62776,
-        137.91008
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-70_jr_iida-71",
+    "id": "jr_iida-70_jr_iida-71",
     "fromStationId": "jr_iida-70",
     "toStationId": "jr_iida-71",
     "coordinates": [
+      [
+        35.62713,
+        137.9104
+      ],
       [
         35.62776,
         137.91008
@@ -14600,18 +14836,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.64432,
         137.90055
-      ],
-      [
-        35.64494,
-        137.90054
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-71_jr_iida-72",
+    "id": "jr_iida-71_jr_iida-72",
     "fromStationId": "jr_iida-71",
     "toStationId": "jr_iida-72",
     "coordinates": [
+      [
+        35.64432,
+        137.90055
+      ],
       [
         35.64494,
         137.90054
@@ -14707,18 +14943,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.6544,
         137.91113
-      ],
-      [
-        35.65496,
-        137.91162
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-72_jr_iida-73",
+    "id": "jr_iida-72_jr_iida-73",
     "fromStationId": "jr_iida-72",
     "toStationId": "jr_iida-73",
     "coordinates": [
+      [
+        35.6544,
+        137.91113
+      ],
       [
         35.65496,
         137.91162
@@ -14910,18 +15146,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.66508,
         137.9325
-      ],
-      [
-        35.66571,
-        137.93248
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-73_jr_iida-74",
+    "id": "jr_iida-73_jr_iida-74",
     "fromStationId": "jr_iida-73",
     "toStationId": "jr_iida-74",
     "coordinates": [
+      [
+        35.66508,
+        137.9325
+      ],
       [
         35.66571,
         137.93248
@@ -15189,18 +15425,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.67718,
         137.9291
-      ],
-      [
-        35.678,
-        137.92889
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-74_jr_iida-75",
+    "id": "jr_iida-74_jr_iida-75",
     "fromStationId": "jr_iida-74",
     "toStationId": "jr_iida-75",
     "coordinates": [
+      [
+        35.67718,
+        137.9291
+      ],
       [
         35.678,
         137.92889
@@ -15428,6 +15664,17 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.69518,
         137.93291
+      ]
+    ]
+  },
+  {
+    "id": "jr_iida-75_jr_iida-76",
+    "fromStationId": "jr_iida-75",
+    "toStationId": "jr_iida-76",
+    "coordinates": [
+      [
+        35.69518,
+        137.93291
       ],
       [
         35.69558,
@@ -15436,16 +15683,9 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.6958,
         137.93313
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_iida-75_jr_iida-76",
-    "fromStationId": "jr_iida-75",
-    "toStationId": "jr_iida-76",
-    "coordinates": [
+      ],
       [
-        35.6958,
+        35.69598,
         137.93313
       ],
       [
@@ -15687,18 +15927,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.71178,
         137.93403
-      ],
-      [
-        35.71268,
-        137.9339
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-76_jr_iida-77",
+    "id": "jr_iida-76_jr_iida-77",
     "fromStationId": "jr_iida-76",
     "toStationId": "jr_iida-77",
     "coordinates": [
+      [
+        35.71178,
+        137.93403
+      ],
       [
         35.71268,
         137.9339
@@ -15732,6 +15972,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.93414
       ],
       [
+        35.71936,
+        137.934255
+      ],
+      [
         35.72028,
         137.93437
       ],
@@ -15754,18 +15998,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.72645,
         137.93513
-      ],
-      [
-        35.7271,
-        137.93519
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-77_jr_iida-78",
+    "id": "jr_iida-77_jr_iida-78",
     "fromStationId": "jr_iida-77",
     "toStationId": "jr_iida-78",
     "coordinates": [
+      [
+        35.72645,
+        137.93513
+      ],
       [
         35.7271,
         137.93519
@@ -15817,18 +16061,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.73592,
         137.93672
-      ],
-      [
-        35.73664,
-        137.93699
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-78_jr_iida-79",
+    "id": "jr_iida-78_jr_iida-79",
     "fromStationId": "jr_iida-78",
     "toStationId": "jr_iida-79",
     "coordinates": [
+      [
+        35.73592,
+        137.93672
+      ],
       [
         35.73664,
         137.93699
@@ -15928,21 +16172,33 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.74788,
         137.94034
-      ],
-      [
-        35.74832,
-        137.94
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-79_jr_iida-80",
+    "id": "jr_iida-79_jr_iida-80",
     "fromStationId": "jr_iida-79",
     "toStationId": "jr_iida-80",
     "coordinates": [
       [
+        35.74788,
+        137.94034
+      ],
+      [
+        35.74814,
+        137.94014
+      ],
+      [
         35.74832,
         137.94
+      ],
+      [
+        35.74845,
+        137.93993
+      ],
+      [
+        35.74851,
+        137.93991
       ],
       [
         35.74895,
@@ -16031,18 +16287,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.76693,
         137.93886
+      ],
+      [
+        35.76761,
+        137.93889
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-80_jr_iida-81",
+    "id": "jr_iida-80_jr_iida-81",
     "fromStationId": "jr_iida-80",
     "toStationId": "jr_iida-81",
     "coordinates": [
-      [
-        35.76693,
-        137.93886
-      ],
       [
         35.76761,
         137.93889
@@ -16102,18 +16358,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.77763,
         137.94375
+      ],
+      [
+        35.77823,
+        137.94416
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-81_jr_iida-82",
+    "id": "jr_iida-81_jr_iida-82",
     "fromStationId": "jr_iida-81",
     "toStationId": "jr_iida-82",
     "coordinates": [
-      [
-        35.77763,
-        137.94375
-      ],
       [
         35.77823,
         137.94416
@@ -16253,18 +16509,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.80335,
         137.94405
+      ],
+      [
+        35.80409,
+        137.944
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-82_jr_iida-83",
+    "id": "jr_iida-82_jr_iida-83",
     "fromStationId": "jr_iida-82",
     "toStationId": "jr_iida-83",
     "coordinates": [
-      [
-        35.80335,
-        137.94405
-      ],
       [
         35.80409,
         137.944
@@ -16348,18 +16604,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.81285,
         137.94008
+      ],
+      [
+        35.81351,
+        137.94021
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-83_jr_iida-84",
+    "id": "jr_iida-83_jr_iida-84",
     "fromStationId": "jr_iida-83",
     "toStationId": "jr_iida-84",
     "coordinates": [
-      [
-        35.81285,
-        137.94008
-      ],
       [
         35.81351,
         137.94021
@@ -16531,18 +16787,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.83822,
         137.95886
-      ],
-      [
-        35.83867,
-        137.95965
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-84_jr_iida-85",
+    "id": "jr_iida-84_jr_iida-85",
     "fromStationId": "jr_iida-84",
     "toStationId": "jr_iida-85",
     "coordinates": [
+      [
+        35.83822,
+        137.95886
+      ],
       [
         35.83867,
         137.95965
@@ -16586,18 +16842,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.84487,
         137.96408
-      ],
-      [
-        35.8456,
-        137.96462
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-85_jr_iida-86",
+    "id": "jr_iida-85_jr_iida-86",
     "fromStationId": "jr_iida-85",
     "toStationId": "jr_iida-86",
     "coordinates": [
+      [
+        35.84487,
+        137.96408
+      ],
       [
         35.8456,
         137.96462
@@ -16669,21 +16925,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.86057,
         137.97756
-      ],
-      [
-        35.86103,
-        137.97811
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-86_jr_iida-87",
+    "id": "jr_iida-86_jr_iida-87",
     "fromStationId": "jr_iida-86",
     "toStationId": "jr_iida-87",
     "coordinates": [
       [
+        35.86057,
+        137.97756
+      ],
+      [
         35.86103,
         137.97811
+      ],
+      [
+        35.8612,
+        137.97825
       ],
       [
         35.86141,
@@ -16784,18 +17044,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.87911,
         137.9841
-      ],
-      [
-        35.87991,
-        137.98403
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-87_jr_iida-88",
+    "id": "jr_iida-87_jr_iida-88",
     "fromStationId": "jr_iida-87",
     "toStationId": "jr_iida-88",
     "coordinates": [
+      [
+        35.87911,
+        137.9841
+      ],
       [
         35.87991,
         137.98403
@@ -16807,6 +17067,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.88215,
         137.9838
+      ],
+      [
+        35.8831,
+        137.98372
       ],
       [
         35.88405,
@@ -16891,18 +17155,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.90051,
         137.98797
-      ],
-      [
-        35.90115,
-        137.98804
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-88_jr_iida-89",
+    "id": "jr_iida-88_jr_iida-89",
     "fromStationId": "jr_iida-88",
     "toStationId": "jr_iida-89",
     "coordinates": [
+      [
+        35.90051,
+        137.98797
+      ],
       [
         35.90115,
         137.98804
@@ -16978,21 +17242,25 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.91344,
         137.98851
-      ],
-      [
-        35.91425,
-        137.98882
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-89_jr_iida-90",
+    "id": "jr_iida-89_jr_iida-90",
     "fromStationId": "jr_iida-89",
     "toStationId": "jr_iida-90",
     "coordinates": [
       [
+        35.91344,
+        137.98851
+      ],
+      [
         35.91425,
         137.98882
+      ],
+      [
+        35.91446,
+        137.98889
       ],
       [
         35.91498,
@@ -17137,18 +17405,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.93599,
         137.98535
-      ],
-      [
-        35.93665,
-        137.98557
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-90_jr_iida-91",
+    "id": "jr_iida-90_jr_iida-91",
     "fromStationId": "jr_iida-90",
     "toStationId": "jr_iida-91",
     "coordinates": [
+      [
+        35.93599,
+        137.98535
+      ],
       [
         35.93665,
         137.98557
@@ -17216,18 +17484,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.95272,
         137.98522
-      ],
-      [
-        35.95341,
-        137.98509
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-91_jr_iida-92",
+    "id": "jr_iida-91_jr_iida-92",
     "fromStationId": "jr_iida-91",
     "toStationId": "jr_iida-92",
     "coordinates": [
+      [
+        35.95272,
+        137.98522
+      ],
       [
         35.95341,
         137.98509
@@ -17355,18 +17623,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.96837,
         137.98364
-      ],
-      [
-        35.9692,
-        137.98447
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-92_jr_iida-93",
+    "id": "jr_iida-92_jr_iida-93",
     "fromStationId": "jr_iida-92",
     "toStationId": "jr_iida-93",
     "coordinates": [
+      [
+        35.96837,
+        137.98364
+      ],
       [
         35.9692,
         137.98447
@@ -17422,18 +17690,18 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.97594,
         137.99034
-      ],
-      [
-        35.97658,
-        137.99066
       ]
     ]
   },
   {
-    "segmentId": "jr_iida-93_jr_iida-94",
+    "id": "jr_iida-93_jr_iida-94",
     "fromStationId": "jr_iida-93",
     "toStationId": "jr_iida-94",
     "coordinates": [
+      [
+        35.97594,
+        137.99034
+      ],
       [
         35.97658,
         137.99066
@@ -17509,14 +17777,6 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.98394,
         137.99601
-      ],
-      [
-        35.98438,
-        137.99692
-      ],
-      [
-        35.98472,
-        137.99806
       ]
     ]
   }

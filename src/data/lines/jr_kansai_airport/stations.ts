@@ -9,8 +9,8 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "name": "日根野",
     "nameKana": "ひねの",
     "nameEn": "Hineno",
-    "lat": 34.39111,
-    "lng": 135.33417,
+    "lat": 34.39149,
+    "lng": 135.3317,
     "transfers": [
       "ＪＲ阪和線"
     ],
@@ -41,8 +41,8 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "name": "りんくうタウン",
     "nameKana": "りんくうたうん",
     "nameEn": "Rinku-Town",
-    "lat": 34.41083,
-    "lng": 135.29778,
+    "lat": 34.41143,
+    "lng": 135.29887,
     "transfers": [
       "南海空港線"
     ],
@@ -73,8 +73,8 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "name": "関西空港",
     "nameKana": "かんさいくうこう",
     "nameEn": "Kansai-Airport",
-    "lat": 34.43528,
-    "lng": 135.24361,
+    "lat": 34.43439,
+    "lng": 135.24057,
     "transfers": [
       "南海空港線"
     ],

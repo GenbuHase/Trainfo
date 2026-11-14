@@ -2,13 +2,17 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_sangu-01_jr_sangu-02",
+    "id": "jr_sangu-01_jr_sangu-02",
     "fromStationId": "jr_sangu-01",
     "toStationId": "jr_sangu-02",
     "coordinates": [
       [
-        34.51528,
-        136.57444
+        34.51706,
+        136.57264
+      ],
+      [
+        34.515905000000004,
+        136.57310999999999
       ],
       [
         34.51475,
@@ -173,18 +177,18 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49767,
         136.59627
+      ],
+      [
+        34.49766,
+        136.59705
       ]
     ]
   },
   {
-    "segmentId": "jr_sangu-02_jr_sangu-03",
+    "id": "jr_sangu-02_jr_sangu-03",
     "fromStationId": "jr_sangu-02",
     "toStationId": "jr_sangu-03",
     "coordinates": [
-      [
-        34.49767,
-        136.59627
-      ],
       [
         34.49766,
         136.59705
@@ -212,6 +216,10 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49738,
         136.60468
+      ],
+      [
+        34.497335,
+        136.60588
       ],
       [
         34.49729,
@@ -352,18 +360,18 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.48847,
         136.63363
+      ],
+      [
+        34.48843,
+        136.63438
       ]
     ]
   },
   {
-    "segmentId": "jr_sangu-03_jr_sangu-04",
+    "id": "jr_sangu-03_jr_sangu-04",
     "fromStationId": "jr_sangu-03",
     "toStationId": "jr_sangu-04",
     "coordinates": [
-      [
-        34.48847,
-        136.63363
-      ],
       [
         34.48843,
         136.63438
@@ -391,6 +399,10 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.48798,
         136.64115
+      ],
+      [
+        34.487905,
+        136.642255
       ],
       [
         34.48783,
@@ -525,6 +537,10 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.66661
       ],
       [
+        34.500465000000005,
+        136.66746
+      ],
+      [
         34.5011,
         136.66831
       ],
@@ -559,18 +575,18 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.50307,
         136.67183
+      ],
+      [
+        34.50314,
+        136.67236
       ]
     ]
   },
   {
-    "segmentId": "jr_sangu-04_jr_sangu-05",
+    "id": "jr_sangu-04_jr_sangu-05",
     "fromStationId": "jr_sangu-04",
     "toStationId": "jr_sangu-05",
     "coordinates": [
-      [
-        34.50307,
-        136.67183
-      ],
       [
         34.50314,
         136.67236
@@ -718,22 +734,22 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49581,
         136.69442
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_sangu-05_jr_sangu-06",
-    "fromStationId": "jr_sangu-05",
-    "toStationId": "jr_sangu-06",
-    "coordinates": [
-      [
-        34.49581,
-        136.69442
       ],
       [
         34.49583,
         136.69479
       ],
+      [
+        34.49593,
+        136.69529
+      ]
+    ]
+  },
+  {
+    "id": "jr_sangu-05_jr_sangu-06",
+    "fromStationId": "jr_sangu-05",
+    "toStationId": "jr_sangu-06",
+    "coordinates": [
       [
         34.49593,
         136.69529
@@ -873,18 +889,22 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49197,
         136.70888
+      ],
+      [
+        34.491330000000005,
+        136.70965999999999
+      ],
+      [
+        34.49069,
+        136.71044
       ]
     ]
   },
   {
-    "segmentId": "jr_sangu-06_jr_sangu-07",
+    "id": "jr_sangu-06_jr_sangu-07",
     "fromStationId": "jr_sangu-06",
     "toStationId": "jr_sangu-07",
     "coordinates": [
-      [
-        34.49197,
-        136.70888
-      ],
       [
         34.49069,
         136.71044
@@ -1002,20 +1022,24 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.73734
       ],
       [
-        34.49581,
-        136.73947
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_sangu-07_jr_sangu-08",
-    "fromStationId": "jr_sangu-07",
-    "toStationId": "jr_sangu-08",
-    "coordinates": [
+        34.49579,
+        136.73936
+      ],
       [
         34.49581,
         136.73947
       ],
+      [
+        34.49595,
+        136.74021
+      ]
+    ]
+  },
+  {
+    "id": "jr_sangu-07_jr_sangu-08",
+    "fromStationId": "jr_sangu-07",
+    "toStationId": "jr_sangu-08",
+    "coordinates": [
       [
         34.49595,
         136.74021
@@ -1171,17 +1195,6 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.50374,
         136.77744
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_sangu-08_jr_sangu-09",
-    "fromStationId": "jr_sangu-08",
-    "toStationId": "jr_sangu-09",
-    "coordinates": [
-      [
-        34.50374,
-        136.77744
       ],
       [
         34.50371,
@@ -1191,6 +1204,17 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
         34.5036,
         136.77842
       ],
+      [
+        34.50347,
+        136.7791
+      ]
+    ]
+  },
+  {
+    "id": "jr_sangu-08_jr_sangu-09",
+    "fromStationId": "jr_sangu-08",
+    "toStationId": "jr_sangu-09",
+    "coordinates": [
       [
         34.50347,
         136.7791
@@ -1336,24 +1360,28 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.79593
       ],
       [
+        34.4978,
+        136.79683
+      ],
+      [
         34.49717,
         136.79773
       ],
       [
         34.49635,
         136.79895
+      ],
+      [
+        34.49595,
+        136.79953
       ]
     ]
   },
   {
-    "segmentId": "jr_sangu-09_jr_sangu-10",
+    "id": "jr_sangu-09_jr_sangu-10",
     "fromStationId": "jr_sangu-09",
     "toStationId": "jr_sangu-10",
     "coordinates": [
-      [
-        34.49635,
-        136.79895
-      ],
       [
         34.49595,
         136.79953
@@ -1813,14 +1841,6 @@ export const JR_SANGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.48692,
         136.84183
-      ],
-      [
-        34.48675,
-        136.84268
-      ],
-      [
-        34.48694,
-        136.84306
       ]
     ]
   }

@@ -9,8 +9,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "名古屋",
     "nameKana": "なごや",
     "nameEn": "Nagoya",
-    "lat": 35.17208,
-    "lng": 136.88033,
+    "lat": 35.16994,
+    "lng": 136.8824,
     "transfers": [
       "ＪＲ東海道新幹線",
       "ＪＲ東海道本線",
@@ -46,8 +46,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "金山",
     "nameKana": "かなやま",
     "nameEn": "Kanayama",
-    "lat": 35.14265,
-    "lng": 136.90122,
+    "lat": 35.14362,
+    "lng": 136.8998,
     "transfers": [
       "ＪＲ東海道本線",
       "名鉄名古屋本線",
@@ -83,8 +83,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "鶴舞",
     "nameKana": "つるまい",
     "nameEn": "Tsurumai",
-    "lat": 35.15785,
-    "lng": 136.91896,
+    "lat": 35.15614,
+    "lng": 136.91739,
     "transfers": [
       "名古屋市営地下鉄鶴舞線"
     ],
@@ -115,8 +115,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "千種",
     "nameKana": "ちくさ",
     "nameEn": "Chikusa",
-    "lat": 35.17003,
-    "lng": 136.93025,
+    "lat": 35.17182,
+    "lng": 136.93194,
     "transfers": [
       "名古屋市営地下鉄東山線"
     ],
@@ -147,7 +147,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "大曽根",
     "nameKana": "おおぞね",
     "nameEn": "Ozone",
-    "lat": 35.18809,
+    "lat": 35.19085,
     "lng": 136.93718,
     "transfers": [
       "名鉄瀬戸線",
@@ -181,8 +181,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "新守山",
     "nameKana": "しんもりやま",
     "nameEn": "Shin-Moriyama",
-    "lat": 35.20592,
-    "lng": 136.95017,
+    "lat": 35.20522,
+    "lng": 136.94973,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -211,8 +211,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "勝川",
     "nameKana": "かちがわ",
     "nameEn": "Kachigawa",
-    "lat": 35.22912,
-    "lng": 136.95533,
+    "lat": 35.23068,
+    "lng": 136.95759,
     "transfers": [
       "ＪＲ東海交通事業城北線"
     ],
@@ -243,8 +243,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "春日井",
     "nameKana": "かすがい",
     "nameEn": "Kasugai",
-    "lat": 35.24258,
-    "lng": 136.98416,
+    "lat": 35.24372,
+    "lng": 136.9865,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -273,8 +273,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "神領",
     "nameKana": "じんりょう",
     "nameEn": "Jinryo",
-    "lat": 35.25601,
-    "lng": 137.00939,
+    "lat": 35.25718,
+    "lng": 137.01154,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -303,8 +303,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "高蔵寺",
     "nameKana": "こうぞうじ",
     "nameEn": "Kozoji",
-    "lat": 35.26436,
-    "lng": 137.04168,
+    "lat": 35.26444,
+    "lng": 137.04483,
     "transfers": [
       "愛知環状鉄道"
     ],
@@ -335,8 +335,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "定光寺",
     "nameKana": "じょうこうじ",
     "nameEn": "Jokoji",
-    "lat": 35.27722,
-    "lng": 137.08073,
+    "lat": 35.27872,
+    "lng": 137.08116,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -365,8 +365,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "古虎渓",
     "nameKana": "ここけい",
     "nameEn": "Kokokei",
-    "lat": 35.30373,
-    "lng": 137.10175,
+    "lat": 35.30482,
+    "lng": 137.10236,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -395,8 +395,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "多治見",
     "nameKana": "たじみ",
     "nameEn": "Tajimi",
-    "lat": 35.33472,
-    "lng": 137.12111,
+    "lat": 35.33454,
+    "lng": 137.11974,
     "transfers": [
       "ＪＲ太多線"
     ],
@@ -427,8 +427,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "土岐市",
     "nameKana": "ときし",
     "nameEn": "Tokishi",
-    "lat": 35.3597,
-    "lng": 137.18206,
+    "lat": 35.35889,
+    "lng": 137.18072,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -457,8 +457,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "瑞浪",
     "nameKana": "みずなみ",
     "nameEn": "Mizunami",
-    "lat": 35.3688,
-    "lng": 137.25345,
+    "lat": 35.36943,
+    "lng": 137.25038,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -487,8 +487,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "釜戸",
     "nameKana": "かまど",
     "nameEn": "Kamado",
-    "lat": 35.41203,
-    "lng": 137.30613,
+    "lat": 35.41044,
+    "lng": 137.30433,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -517,8 +517,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "武並",
     "nameKana": "たけなみ",
     "nameEn": "Takenami",
-    "lat": 35.43825,
-    "lng": 137.3545,
+    "lat": 35.43761,
+    "lng": 137.35373,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -547,8 +547,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "恵那",
     "nameKana": "えな",
     "nameEn": "Ena",
-    "lat": 35.45447,
-    "lng": 137.40665,
+    "lat": 35.45571,
+    "lng": 137.40894,
     "transfers": [
       "明知鉄道"
     ],
@@ -579,8 +579,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "美乃坂本",
     "nameKana": "みのさかもと",
     "nameEn": "Mino-Sakamoto",
-    "lat": 35.4794,
-    "lng": 137.44932,
+    "lat": 35.47911,
+    "lng": 137.45139,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -609,8 +609,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "中津川",
     "nameKana": "なかつがわ",
     "nameEn": "Nakatsugawa",
-    "lat": 35.50015,
-    "lng": 137.50281,
+    "lat": 35.50123,
+    "lng": 137.50329,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -638,8 +638,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "落合川",
     "nameKana": "おちあいがわ",
     "nameEn": "Ochiaigawa",
-    "lat": 35.52565,
-    "lng": 137.53019,
+    "lat": 35.52476,
+    "lng": 137.52983,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -667,8 +667,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "坂下",
     "nameKana": "さかした",
     "nameEn": "Sakashita",
-    "lat": 35.57523,
-    "lng": 137.53131,
+    "lat": 35.57302,
+    "lng": 137.53087,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -696,8 +696,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "田立",
     "nameKana": "ただち",
     "nameEn": "Tadachi",
-    "lat": 35.58823,
-    "lng": 137.54904,
+    "lat": 35.58829,
+    "lng": 137.54995,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -725,8 +725,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "南木曽",
     "nameKana": "なぎそ",
     "nameEn": "Nagiso",
-    "lat": 35.59895,
-    "lng": 137.60867,
+    "lat": 35.60031,
+    "lng": 137.60898,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -754,8 +754,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "十二兼",
     "nameKana": "じゅうにかね",
     "nameEn": "Junikane",
-    "lat": 35.64519,
-    "lng": 137.61758,
+    "lat": 35.64619,
+    "lng": 137.61775,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -783,8 +783,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "野尻",
     "nameKana": "のじり",
     "nameEn": "Nojiri",
-    "lat": 35.6738,
-    "lng": 137.63719,
+    "lat": 35.67228,
+    "lng": 137.63512,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -812,8 +812,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "大桑",
     "nameKana": "おおくわ",
     "nameEn": "Okuwa",
-    "lat": 35.68438,
-    "lng": 137.66406,
+    "lat": 35.68416,
+    "lng": 137.66325,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -841,8 +841,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "須原",
     "nameKana": "すはら",
     "nameEn": "Suhara",
-    "lat": 35.69889,
-    "lng": 137.69578,
+    "lat": 35.69681,
+    "lng": 137.6941,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -870,8 +870,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "倉本",
     "nameKana": "くらもと",
     "nameEn": "Kuramoto",
-    "lat": 35.73341,
-    "lng": 137.71485,
+    "lat": 35.73247,
+    "lng": 137.7138,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -899,8 +899,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "上松",
     "nameKana": "あげまつ",
     "nameEn": "Agematsu",
-    "lat": 35.7853,
-    "lng": 137.69345,
+    "lat": 35.78285,
+    "lng": 137.69309,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -928,8 +928,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "木曽福島",
     "nameKana": "きそふくしま",
     "nameEn": "Kiso-Fukushima",
-    "lat": 35.84275,
-    "lng": 137.6927,
+    "lat": 35.8447,
+    "lng": 137.6941,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -957,8 +957,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "原野",
     "nameKana": "はらの",
     "nameEn": "Harano",
-    "lat": 35.871,
-    "lng": 137.7407,
+    "lat": 35.87153,
+    "lng": 137.74236,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -986,8 +986,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "宮ノ越",
     "nameKana": "みやのこし",
     "nameEn": "Miyanokoshi",
-    "lat": 35.88856,
-    "lng": 137.76401,
+    "lat": 35.88757,
+    "lng": 137.76349,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1015,8 +1015,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "藪原",
     "nameKana": "やぶはら",
     "nameEn": "Yabuhara",
-    "lat": 35.9294,
-    "lng": 137.78409,
+    "lat": 35.93134,
+    "lng": 137.7848,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1044,8 +1044,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "奈良井",
     "nameKana": "ならい",
     "nameEn": "Narai",
-    "lat": 35.96891,
-    "lng": 137.8157,
+    "lat": 35.97003,
+    "lng": 137.81672,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1073,8 +1073,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "木曽平沢",
     "nameKana": "きそひらさわ",
     "nameEn": "Kiso-Hirasawa",
-    "lat": 35.97885,
-    "lng": 137.83215,
+    "lat": 35.97999,
+    "lng": 137.83346,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1102,8 +1102,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "贄川",
     "nameKana": "にえかわ",
     "nameEn": "Niekawa",
-    "lat": 36.01463,
-    "lng": 137.86126,
+    "lat": 36.01334,
+    "lng": 137.86063,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1131,8 +1131,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "日出塩",
     "nameKana": "ひでしお",
     "nameEn": "Hideshio",
-    "lat": 36.04952,
-    "lng": 137.89527,
+    "lat": 36.0486,
+    "lng": 137.89444,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1160,8 +1160,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "洗馬",
     "nameKana": "せば",
     "nameEn": "Seba",
-    "lat": 36.08773,
-    "lng": 137.91731,
+    "lat": 36.08653,
+    "lng": 137.91632,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -1189,8 +1189,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "name": "塩尻",
     "nameKana": "しおじり",
     "nameEn": "Shiojiri",
-    "lat": 36.11448,
-    "lng": 137.947599,
+    "lat": 36.1139,
+    "lng": 137.94783,
     "transfers": [
       "ＪＲ篠ノ井線"
     ],

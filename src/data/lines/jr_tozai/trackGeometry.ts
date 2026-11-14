@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_tozai-01_jr_tozai-02",
+    "id": "jr_tozai-01_jr_tozai-02",
     "fromStationId": "jr_tozai-01",
     "toStationId": "jr_tozai-02",
     "coordinates": [
-      [
-        34.69694,
-        135.53389
-      ],
       [
         34.696019,
         135.534105
@@ -83,24 +79,16 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
         135.5259
       ],
       [
-        34.69428,
-        135.52558
+        34.69504,
+        135.52479
       ]
     ]
   },
   {
-    "segmentId": "jr_tozai-02_jr_tozai-03",
+    "id": "jr_tozai-02_jr_tozai-03",
     "fromStationId": "jr_tozai-02",
     "toStationId": "jr_tozai-03",
     "coordinates": [
-      [
-        34.69428,
-        135.52558
-      ],
-      [
-        34.69464,
-        135.52518
-      ],
       [
         34.69504,
         135.52479
@@ -188,18 +176,18 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69734,
         135.51437
+      ],
+      [
+        34.69749,
+        135.51232
       ]
     ]
   },
   {
-    "segmentId": "jr_tozai-03_jr_tozai-04",
+    "id": "jr_tozai-03_jr_tozai-04",
     "fromStationId": "jr_tozai-03",
     "toStationId": "jr_tozai-04",
     "coordinates": [
-      [
-        34.69734,
-        135.51437
-      ],
       [
         34.69749,
         135.51232
@@ -221,12 +209,20 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
         135.50844
       ],
       [
-        34.697885,
-        135.505955
+        34.69783666666667,
+        135.50678333333335
+      ],
+      [
+        34.69793333333334,
+        135.50512666666665
       ],
       [
         34.69803,
         135.50347
+      ],
+      [
+        34.698095,
+        135.502275
       ],
       [
         34.69816,
@@ -243,18 +239,18 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69837,
         135.49719
+      ],
+      [
+        34.69843,
+        135.49584
       ]
     ]
   },
   {
-    "segmentId": "jr_tozai-04_jr_tozai-05",
+    "id": "jr_tozai-04_jr_tozai-05",
     "fromStationId": "jr_tozai-04",
     "toStationId": "jr_tozai-05",
     "coordinates": [
-      [
-        34.69837,
-        135.49719
-      ],
       [
         34.69843,
         135.49584
@@ -276,6 +272,10 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
         135.49401
       ],
       [
+        34.697689999999994,
+        135.49297
+      ],
+      [
         34.69728,
         135.49193
       ],
@@ -294,18 +294,18 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69522,
         135.48647
+      ],
+      [
+        34.69454,
+        135.48464
       ]
     ]
   },
   {
-    "segmentId": "jr_tozai-05_jr_tozai-06",
+    "id": "jr_tozai-05_jr_tozai-06",
     "fromStationId": "jr_tozai-05",
     "toStationId": "jr_tozai-06",
     "coordinates": [
-      [
-        34.69522,
-        135.48647
-      ],
       [
         34.69454,
         135.48464
@@ -329,6 +329,10 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69382,
         135.48021
+      ],
+      [
+        34.69388,
+        135.479005
       ],
       [
         34.69394,
@@ -365,18 +369,18 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69516,
         135.47354
+      ],
+      [
+        34.69613,
+        135.4724
       ]
     ]
   },
   {
-    "segmentId": "jr_tozai-06_jr_tozai-07",
+    "id": "jr_tozai-06_jr_tozai-07",
     "fromStationId": "jr_tozai-06",
     "toStationId": "jr_tozai-07",
     "coordinates": [
-      [
-        34.69516,
-        135.47354
-      ],
       [
         34.69613,
         135.4724
@@ -476,33 +480,49 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.71169,
         135.45562
+      ],
+      [
+        34.712695,
+        135.45561
+      ],
+      [
+        34.7137,
+        135.4556
       ]
     ]
   },
   {
-    "segmentId": "jr_tozai-07_jr_tozai-08",
+    "id": "jr_tozai-07_jr_tozai-08",
     "fromStationId": "jr_tozai-07",
     "toStationId": "jr_tozai-08",
     "coordinates": [
-      [
-        34.71169,
-        135.45562
-      ],
       [
         34.7137,
         135.4556
       ],
       [
-        34.71574,
-        135.45558
+        34.71506,
+        135.45558666666668
+      ],
+      [
+        34.71642,
+        135.45557333333332
       ],
       [
         34.71778,
         135.45556
       ],
       [
+        34.718864999999994,
+        135.455575
+      ],
+      [
         34.71995,
         135.45559
+      ],
+      [
+        34.72095,
+        135.45562
       ],
       [
         34.72195,
@@ -563,22 +583,22 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.72769,
         135.45385
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_tozai-08_jr_tozai-09",
-    "fromStationId": "jr_tozai-08",
-    "toStationId": "jr_tozai-09",
-    "coordinates": [
-      [
-        34.72769,
-        135.45385
       ],
       [
         34.72786,
         135.45338
       ],
+      [
+        34.72806,
+        135.45272
+      ]
+    ]
+  },
+  {
+    "id": "jr_tozai-08_jr_tozai-09",
+    "fromStationId": "jr_tozai-08",
+    "toStationId": "jr_tozai-09",
+    "coordinates": [
       [
         34.72806,
         135.45272
@@ -648,28 +668,12 @@ export const JR_TOZAI_TRACK_SEGMENTS: TrackSegment[] = [
         135.4351
       ],
       [
-        34.72929,
-        135.43457333333333
+        34.73137,
+        135.43454
       ],
       [
-        34.72732,
-        135.43404666666666
-      ],
-      [
-        34.72535,
-        135.43352
-      ],
-      [
-        34.72338,
-        135.43299333333334
-      ],
-      [
-        34.72141,
-        135.43246666666667
-      ],
-      [
-        34.71944,
-        135.43194
+        34.73167,
+        135.4329
       ]
     ]
   }

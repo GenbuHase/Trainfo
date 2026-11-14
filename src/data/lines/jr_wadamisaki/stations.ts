@@ -35,8 +35,8 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "name": "和田岬",
     "nameKana": "わだみさき",
     "nameEn": "Wadamisaki",
-    "lat": 34.65778,
-    "lng": 135.17309,
+    "lat": 34.65722,
+    "lng": 135.17442,
     "transfers": [],
     "address": "",
     "platforms": {

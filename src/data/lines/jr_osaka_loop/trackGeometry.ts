@@ -2,14 +2,10 @@ import type { TrackSegment } from '../../../types';
 
 export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "segmentId": "jr_osaka_loop-01_jr_osaka_loop-02",
+    "id": "jr_osaka_loop-01_jr_osaka_loop-02",
     "fromStationId": "jr_osaka_loop-01",
     "toStationId": "jr_osaka_loop-02",
     "coordinates": [
-      [
-        34.64722,
-        135.51389
-      ],
       [
         34.64685,
         135.51522
@@ -77,18 +73,18 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64755,
         135.52319
+      ],
+      [
+        34.64833,
+        135.52401
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-02_jr_osaka_loop-03",
+    "id": "jr_osaka_loop-02_jr_osaka_loop-03",
     "fromStationId": "jr_osaka_loop-02",
     "toStationId": "jr_osaka_loop-03",
     "coordinates": [
-      [
-        34.64755,
-        135.52319
-      ],
       [
         34.64833,
         135.52401
@@ -134,6 +130,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.52571
       ],
       [
+        34.652460000000005,
+        135.526015
+      ],
+      [
         34.65339,
         135.52632
       ],
@@ -150,24 +150,28 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.52693
       ],
       [
+        34.656185,
+        135.527235
+      ],
+      [
         34.65712,
         135.52754
       ],
       [
         34.65781,
         135.52777
+      ],
+      [
+        34.65925,
+        135.52823
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-03_jr_osaka_loop-04",
+    "id": "jr_osaka_loop-03_jr_osaka_loop-04",
     "fromStationId": "jr_osaka_loop-03",
     "toStationId": "jr_osaka_loop-04",
     "coordinates": [
-      [
-        34.65781,
-        135.52777
-      ],
       [
         34.65925,
         135.52823
@@ -177,8 +181,16 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.52878
       ],
       [
+        34.661815000000004,
+        135.529085
+      ],
+      [
         34.66275,
         135.52939
+      ],
+      [
+        34.66373,
+        135.529715
       ],
       [
         34.66471,
@@ -187,22 +199,22 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.66503,
         135.53014
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-04_jr_osaka_loop-05",
-    "fromStationId": "jr_osaka_loop-04",
-    "toStationId": "jr_osaka_loop-05",
-    "coordinates": [
-      [
-        34.66503,
-        135.53014
       ],
       [
         34.66532,
         135.53023
       ],
+      [
+        34.66679,
+        135.5307
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-04_jr_osaka_loop-05",
+    "fromStationId": "jr_osaka_loop-04",
+    "toStationId": "jr_osaka_loop-05",
+    "coordinates": [
       [
         34.66679,
         135.5307
@@ -246,18 +258,18 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.67273,
         135.53271
-      ],
-      [
-        34.67431,
-        135.53304
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-05_jr_osaka_loop-06",
+    "id": "jr_osaka_loop-05_jr_osaka_loop-06",
     "fromStationId": "jr_osaka_loop-05",
     "toStationId": "jr_osaka_loop-06",
     "coordinates": [
+      [
+        34.67273,
+        135.53271
+      ],
       [
         34.67431,
         135.53304
@@ -281,6 +293,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.67607,
         135.53358
+      ],
+      [
+        34.67608,
+        135.53359
       ],
       [
         34.67691,
@@ -313,18 +329,18 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.67983,
         135.53408
-      ],
-      [
-        34.68108,
-        135.53397
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-06_jr_osaka_loop-07",
+    "id": "jr_osaka_loop-06_jr_osaka_loop-07",
     "fromStationId": "jr_osaka_loop-06",
     "toStationId": "jr_osaka_loop-07",
     "coordinates": [
+      [
+        34.67983,
+        135.53408
+      ],
       [
         34.68108,
         135.53397
@@ -384,22 +400,22 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.68688,
         135.53427
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-07_jr_osaka_loop-08",
+    "fromStationId": "jr_osaka_loop-07",
+    "toStationId": "jr_osaka_loop-08",
+    "coordinates": [
+      [
+        34.68688,
+        135.53427
       ],
       [
         34.68772,
         135.53436
       ],
-      [
-        34.68826,
-        135.53444
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-07_jr_osaka_loop-08",
-    "fromStationId": "jr_osaka_loop-07",
-    "toStationId": "jr_osaka_loop-08",
-    "coordinates": [
       [
         34.68826,
         135.53444
@@ -483,21 +499,17 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69617,
         135.53422
-      ],
-      [
-        34.69694,
-        135.53389
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-08_jr_osaka_loop-09",
+    "id": "jr_osaka_loop-08_jr_osaka_loop-09",
     "fromStationId": "jr_osaka_loop-08",
     "toStationId": "jr_osaka_loop-09",
     "coordinates": [
       [
-        34.69694,
-        135.53389
+        34.69617,
+        135.53422
       ],
       [
         34.69761,
@@ -702,22 +714,22 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.7052,
         135.52163
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-09_jr_osaka_loop-10",
+    "fromStationId": "jr_osaka_loop-09",
+    "toStationId": "jr_osaka_loop-10",
+    "coordinates": [
+      [
+        34.7052,
+        135.52163
       ],
       [
         34.70517,
         135.52143
       ],
-      [
-        34.70509,
-        135.52109
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-09_jr_osaka_loop-10",
-    "fromStationId": "jr_osaka_loop-09",
-    "toStationId": "jr_osaka_loop-10",
-    "coordinates": [
       [
         34.70509,
         135.52109
@@ -821,18 +833,18 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.70443,
         135.51317
-      ],
-      [
-        34.70545,
-        135.51157
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-10_jr_osaka_loop-11",
+    "id": "jr_osaka_loop-10_jr_osaka_loop-11",
     "fromStationId": "jr_osaka_loop-10",
     "toStationId": "jr_osaka_loop-11",
     "coordinates": [
+      [
+        34.70443,
+        135.51317
+      ],
       [
         34.70545,
         135.51157
@@ -968,21 +980,21 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.70281,
         135.49705
-      ],
-      [
-        34.702485,
-        135.495951
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-11_jr_osaka_loop-12",
+    "id": "jr_osaka_loop-11_jr_osaka_loop-12",
     "fromStationId": "jr_osaka_loop-11",
     "toStationId": "jr_osaka_loop-12",
     "coordinates": [
       [
-        34.702485,
-        135.495951
+        34.70281,
+        135.49705
+      ],
+      [
+        34.702124999999995,
+        135.49580500000002
       ],
       [
         34.70144,
@@ -1013,9 +1025,24 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.48938
       ],
       [
+        34.69812,
+        135.488405
+      ],
+      [
         34.69759,
         135.48743
       ],
+      [
+        34.69757,
+        135.48736
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-12_jr_osaka_loop-13",
+    "fromStationId": "jr_osaka_loop-12",
+    "toStationId": "jr_osaka_loop-13",
+    "coordinates": [
       [
         34.69757,
         135.48736
@@ -1023,17 +1050,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.69679,
         135.4858
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-12_jr_osaka_loop-13",
-    "fromStationId": "jr_osaka_loop-12",
-    "toStationId": "jr_osaka_loop-13",
-    "coordinates": [
+      ],
       [
-        34.69679,
-        135.4858
+        34.69672,
+        135.48566
       ],
       [
         34.69592,
@@ -1080,9 +1100,24 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.47766
       ],
       [
+        34.69028,
+        135.47668499999997
+      ],
+      [
         34.68953,
         135.47571
       ],
+      [
+        34.6895,
+        135.47567
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-13_jr_osaka_loop-14",
+    "fromStationId": "jr_osaka_loop-13",
+    "toStationId": "jr_osaka_loop-14",
+    "coordinates": [
       [
         34.6895,
         135.47567
@@ -1090,17 +1125,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.68837,
         135.47419
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-13_jr_osaka_loop-14",
-    "fromStationId": "jr_osaka_loop-13",
-    "toStationId": "jr_osaka_loop-14",
-    "coordinates": [
+      ],
       [
-        34.68837,
-        135.47419
+        34.68834,
+        135.47414
       ],
       [
         34.68797,
@@ -1139,19 +1167,19 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.46765
       ],
       [
-        34.68278,
-        135.46667
+        34.68275,
+        135.4669
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-14_jr_osaka_loop-15",
+    "id": "jr_osaka_loop-14_jr_osaka_loop-15",
     "fromStationId": "jr_osaka_loop-14",
     "toStationId": "jr_osaka_loop-15",
     "coordinates": [
       [
-        34.68278,
-        135.46667
+        34.68275,
+        135.4669
       ],
       [
         34.68215,
@@ -1160,6 +1188,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.68212,
         135.46622
+      ],
+      [
+        34.68142,
+        135.46549
       ],
       [
         34.68072,
@@ -1248,22 +1280,22 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.67076,
         135.46157
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-15_jr_osaka_loop-16",
+    "fromStationId": "jr_osaka_loop-15",
+    "toStationId": "jr_osaka_loop-16",
+    "coordinates": [
+      [
+        34.67076,
+        135.46157
       ],
       [
         34.67031,
         135.46182
       ],
-      [
-        34.66992,
-        135.46204
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-15_jr_osaka_loop-16",
-    "fromStationId": "jr_osaka_loop-15",
-    "toStationId": "jr_osaka_loop-16",
-    "coordinates": [
       [
         34.66992,
         135.46204
@@ -1417,6 +1449,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.47159
       ],
       [
+        34.66768,
+        135.4716
+      ],
+      [
         34.66777,
         135.47197
       ],
@@ -1487,18 +1523,18 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.66587,
         135.47903
-      ],
-      [
-        34.66516,
-        135.48096
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-16_jr_osaka_loop-17",
+    "id": "jr_osaka_loop-16_jr_osaka_loop-17",
     "fromStationId": "jr_osaka_loop-16",
     "toStationId": "jr_osaka_loop-17",
     "coordinates": [
+      [
+        34.66587,
+        135.47903
+      ],
       [
         34.66516,
         135.48096
@@ -1552,6 +1588,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.48597
       ],
       [
+        34.66277,
+        135.48597
+      ],
+      [
         34.66257,
         135.48613
       ],
@@ -1588,20 +1628,24 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.48853
       ],
       [
-        34.65901,
-        135.48874
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-17_jr_osaka_loop-18",
-    "fromStationId": "jr_osaka_loop-17",
-    "toStationId": "jr_osaka_loop-18",
-    "coordinates": [
+        34.65903,
+        135.48872
+      ],
       [
         34.65901,
         135.48874
       ],
+      [
+        34.65814,
+        135.48964
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-17_jr_osaka_loop-18",
+    "fromStationId": "jr_osaka_loop-17",
+    "toStationId": "jr_osaka_loop-18",
+    "coordinates": [
       [
         34.65814,
         135.48964
@@ -1657,22 +1701,22 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65467,
         135.49235
+      ]
+    ]
+  },
+  {
+    "id": "jr_osaka_loop-18_jr_osaka_loop-19",
+    "fromStationId": "jr_osaka_loop-18",
+    "toStationId": "jr_osaka_loop-19",
+    "coordinates": [
+      [
+        34.65467,
+        135.49235
       ],
       [
         34.65458,
         135.49239
       ],
-      [
-        34.65394,
-        135.49271
-      ]
-    ]
-  },
-  {
-    "segmentId": "jr_osaka_loop-18_jr_osaka_loop-19",
-    "fromStationId": "jr_osaka_loop-18",
-    "toStationId": "jr_osaka_loop-19",
-    "coordinates": [
       [
         34.65394,
         135.49271
@@ -1754,6 +1798,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.49676
       ],
       [
+        34.65119,
+        135.49677
+      ],
+      [
         34.65114,
         135.49702
       ],
@@ -1784,18 +1832,22 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65019,
         135.50066
+      ],
+      [
+        34.649905000000004,
+        135.50179
+      ],
+      [
+        34.64962,
+        135.50292
       ]
     ]
   },
   {
-    "segmentId": "jr_osaka_loop-19_jr_osaka_loop-01",
+    "id": "jr_osaka_loop-19_jr_osaka_loop-01",
     "fromStationId": "jr_osaka_loop-19",
     "toStationId": "jr_osaka_loop-01",
     "coordinates": [
-      [
-        34.65019,
-        135.50066
-      ],
       [
         34.64962,
         135.50292
@@ -1825,6 +1877,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.50951
       ],
       [
+        34.647745,
+        135.510795
+      ],
+      [
         34.64744,
         135.51208
       ],
@@ -1833,8 +1889,12 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.51294
       ],
       [
-        34.64722,
-        135.51389
+        34.647135,
+        135.51407999999998
+      ],
+      [
+        34.64685,
+        135.51522
       ]
     ]
   }

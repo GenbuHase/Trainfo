@@ -8,8 +8,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "多気",
     "nameKana": "たき",
     "nameEn": "Taki",
-    "lat": 34.51528,
-    "lng": 136.57444,
+    "lat": 34.51706,
+    "lng": 136.57264,
     "transfers": [
       "ＪＲ紀勢本線"
     ],
@@ -39,8 +39,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "外城田",
     "nameKana": "ときだ",
     "nameEn": "Tokida",
-    "lat": 34.49767,
-    "lng": 136.59627,
+    "lat": 34.49766,
+    "lng": 136.59705,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -68,8 +68,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "田丸",
     "nameKana": "たまる",
     "nameEn": "Tamaru",
-    "lat": 34.48847,
-    "lng": 136.63363,
+    "lat": 34.48843,
+    "lng": 136.63438,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -97,8 +97,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "宮川",
     "nameKana": "みやがわ",
     "nameEn": "Miyagawa",
-    "lat": 34.50307,
-    "lng": 136.67183,
+    "lat": 34.50314,
+    "lng": 136.67236,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -126,8 +126,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "山田上口",
     "nameKana": "やまだかみぐち",
     "nameEn": "Yamada-Kamiguchi",
-    "lat": 34.49581,
-    "lng": 136.69442,
+    "lat": 34.49593,
+    "lng": 136.69529,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -155,8 +155,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "伊勢市",
     "nameKana": "いせし",
     "nameEn": "Iseshi",
-    "lat": 34.49197,
-    "lng": 136.70888,
+    "lat": 34.49069,
+    "lng": 136.71044,
     "transfers": [
       "近鉄山田線"
     ],
@@ -186,8 +186,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "五十鈴ケ丘",
     "nameKana": "いすずがおか",
     "nameEn": "Isuzugaoka",
-    "lat": 34.49581,
-    "lng": 136.73947,
+    "lat": 34.49595,
+    "lng": 136.74021,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -215,8 +215,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "二見浦",
     "nameKana": "ふたみのうら",
     "nameEn": "Futaminoura",
-    "lat": 34.50374,
-    "lng": 136.77744,
+    "lat": 34.50347,
+    "lng": 136.7791,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -244,8 +244,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "松下",
     "nameKana": "まつした",
     "nameEn": "Matsushita",
-    "lat": 34.49635,
-    "lng": 136.79895,
+    "lat": 34.49595,
+    "lng": 136.79953,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -273,8 +273,8 @@ export const JR_SANGU_STATIONS: Station[] = [
     "name": "鳥羽",
     "nameKana": "とば",
     "nameEn": "Toba",
-    "lat": 34.48694,
-    "lng": 136.84306,
+    "lat": 34.48692,
+    "lng": 136.84183,
     "transfers": [
       "近鉄鳥羽線",
       "近鉄志摩線"
