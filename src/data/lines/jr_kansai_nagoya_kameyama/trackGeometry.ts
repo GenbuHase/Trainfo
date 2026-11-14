@@ -649,6 +649,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.79719
       ],
       [
+        35.142300000000006,
+        136.79583
+      ],
+      [
         35.14211,
         136.79447
       ],
@@ -778,6 +782,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.1396,
         136.78336
+      ],
+      [
+        35.139155,
+        136.78159499999998
       ],
       [
         35.13871,
@@ -1167,12 +1175,20 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.74089
       ],
       [
+        35.119995,
+        136.73957000000001
+      ],
+      [
         35.11949,
         136.73825
       ],
       [
         35.11861,
         136.73595
+      ],
+      [
+        35.117835,
+        136.73392
       ],
       [
         35.11706,
@@ -1278,6 +1294,14 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.71255
       ],
       [
+        35.105803333333334,
+        136.71092333333334
+      ],
+      [
+        35.10485666666666,
+        136.70929666666666
+      ],
+      [
         35.10391,
         136.70767
       ],
@@ -1381,8 +1405,20 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.68915
       ],
       [
+        35.093805,
+        136.68726500000002
+      ],
+      [
         35.09253,
         136.68538
+      ],
+      [
+        35.09147,
+        136.68381
+      ],
+      [
+        35.09041,
+        136.68224
       ],
       [
         35.08935,
@@ -1560,6 +1596,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.68395
       ],
       [
+        35.06667,
+        136.68374
+      ],
+      [
         35.06538,
         136.68353
       ],
@@ -1626,6 +1666,14 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.05932,
         136.67953
+      ],
+      [
+        35.057716666666664,
+        136.67881
+      ],
+      [
+        35.056113333333336,
+        136.67809
       ],
       [
         35.05451,
@@ -2301,6 +2349,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.64673
       ],
       [
+        34.989140000000006,
+        136.646055
+      ],
+      [
         34.9879,
         136.64538
       ],
@@ -2319,6 +2371,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.98772,
         136.6453
+      ],
+      [
+        34.986255,
+        136.6445
       ],
       [
         34.98479,
@@ -2680,6 +2736,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.6169
       ],
       [
+        34.947554999999994,
+        136.61588
+      ],
+      [
         34.94656,
         136.61486
       ],
@@ -2690,6 +2750,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.94481,
         136.61307
+      ],
+      [
+        34.94394,
+        136.61216000000002
       ],
       [
         34.94307,
@@ -2859,6 +2923,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.60106
       ],
       [
+        34.91274,
+        136.600315
+      ],
+      [
         34.91167,
         136.59957
       ]
@@ -2946,6 +3014,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.59145
       ],
       [
+        34.90333,
+        136.58977
+      ],
+      [
         34.90345,
         136.58809
       ],
@@ -2978,6 +3050,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.58381
       ],
       [
+        34.902475,
+        136.58242
+      ],
+      [
         34.90194,
         136.58103
       ],
@@ -2990,12 +3066,20 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.57874
       ],
       [
+        34.90063,
+        136.577385
+      ],
+      [
         34.90015,
         136.57603
       ],
       [
         34.89982,
         136.57491
+      ],
+      [
+        34.899435,
+        136.573555
       ],
       [
         34.89905,
@@ -3149,6 +3233,10 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.54079
       ],
       [
+        34.8922,
+        136.539285
+      ],
+      [
         34.8918,
         136.53778
       ],
@@ -3248,8 +3336,16 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         136.51761
       ],
       [
+        34.88256,
+        136.51636
+      ],
+      [
         34.8819,
         136.51511
+      ],
+      [
+        34.881275,
+        136.513895
       ],
       [
         34.88065,

@@ -9,8 +9,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "大阪",
     "nameKana": "おおさか",
     "nameEn": "Osaka",
-    "lat": 34.702485,
-    "lng": 135.495951,
+    "lat": 34.70306,
+    "lng": 135.4969,
     "transfers": [
       "ＪＲ東海道新幹線",
       "ＪＲ山陽新幹線",
@@ -45,8 +45,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "新大阪",
     "nameKana": "しんおおさか",
     "nameEn": "Shin-Osaka",
-    "lat": 34.73348,
-    "lng": 135.5001,
+    "lat": 34.73378,
+    "lng": 135.50137,
     "transfers": [
       "ＪＲ東海道新幹線",
       "ＪＲ山陽新幹線",
@@ -81,8 +81,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "南吹田",
     "nameKana": "みなみすいた",
     "nameEn": "Minami-Suita",
-    "lat": 34.749479,
-    "lng": 135.511752,
+    "lat": 34.74948,
+    "lng": 135.51175,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -111,8 +111,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "JR淡路",
     "nameKana": "じぇいあーるあわじ",
     "nameEn": "JR-Awaji",
-    "lat": 34.740218,
-    "lng": 135.520316,
+    "lat": 34.74022,
+    "lng": 135.52032,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -141,8 +141,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "城北公園通",
     "nameKana": "しろきたこうえんどおり",
     "nameEn": "Shirokitakoendori",
-    "lat": 34.723049,
-    "lng": 135.530962,
+    "lat": 34.72305,
+    "lng": 135.53096,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -171,8 +171,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "JR野江",
     "nameKana": "じぇいあーるのえ",
     "nameEn": "JR-Noe",
-    "lat": 34.706111,
-    "lng": 135.541353,
+    "lat": 34.70611,
+    "lng": 135.54135,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -201,8 +201,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "鴫野",
     "nameKana": "しぎの",
     "nameEn": "Shigino",
-    "lat": 34.6925,
-    "lng": 135.54583,
+    "lat": 34.6922,
+    "lng": 135.5459,
     "transfers": [
       "ＪＲ学研都市線",
       "OsakaMetro今里筋線"
@@ -234,8 +234,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "放出",
     "nameKana": "はなてん",
     "nameEn": "Hanaten",
-    "lat": 34.68806,
-    "lng": 135.56389,
+    "lat": 34.68798,
+    "lng": 135.564,
     "transfers": [
       "ＪＲ学研都市線"
     ],
@@ -266,8 +266,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "高井田中央",
     "nameKana": "たかいだちゅうおう",
     "nameEn": "Takaidachuo",
-    "lat": 34.677906,
-    "lng": 135.572238,
+    "lat": 34.67791,
+    "lng": 135.57224,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -386,8 +386,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "衣摺加美北",
     "nameKana": "きずりかみきた",
     "nameEn": "Kizuri-Kamikita",
-    "lat": 34.639083,
-    "lng": 135.567305,
+    "lat": 34.63908,
+    "lng": 135.5673,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -446,8 +446,8 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "name": "久宝寺",
     "nameKana": "きゅうほうじ",
     "nameEn": "Kyuhoji",
-    "lat": 34.6225,
-    "lng": 135.58472,
+    "lat": 34.62208,
+    "lng": 135.58523,
     "transfers": [
       "ＪＲ大和路線"
     ],

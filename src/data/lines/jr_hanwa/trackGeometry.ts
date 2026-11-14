@@ -883,6 +883,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.46223
       ],
       [
+        34.534955,
+        135.4614
+      ],
+      [
         34.53395,
         135.46057
       ],
@@ -1092,6 +1096,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.4394
       ],
       [
+        34.50703,
+        135.43856499999998
+      ],
+      [
         34.50598,
         135.43773
       ],
@@ -1157,6 +1165,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.49314,
         135.42758
+      ],
+      [
+        34.492014999999995,
+        135.42676
       ],
       [
         34.49089,
@@ -1317,6 +1329,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.4023
       ],
       [
+        34.461690000000004,
+        135.401365
+      ],
+      [
         34.4608,
         135.40043
       ],
@@ -1376,12 +1392,20 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.39324
       ],
       [
+        34.45348,
+        135.39216499999998
+      ],
+      [
         34.45276,
         135.39109
       ],
       [
         34.45242,
         135.39054
+      ],
+      [
+        34.45171499999999,
+        135.38947
       ],
       [
         34.45101,
@@ -1490,6 +1514,14 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.37034
       ],
       [
+        34.43707333333334,
+        135.36895666666666
+      ],
+      [
+        34.436056666666666,
+        135.36757333333333
+      ],
+      [
         34.43504,
         135.36619
       ],
@@ -1569,6 +1601,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.35854
       ],
       [
+        34.425425000000004,
+        135.357505
+      ],
+      [
         34.42393,
         135.35647
       ],
@@ -1628,6 +1664,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.34966
       ],
       [
+        34.41507,
+        135.348685
+      ],
+      [
         34.41395,
         135.34771
       ],
@@ -1644,8 +1684,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.34681
       ],
       [
+        34.411775,
+        135.345855
+      ],
+      [
         34.41065,
         135.3449
+      ],
+      [
+        34.40972,
+        135.344115
       ],
       [
         34.40879,
@@ -1695,6 +1743,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.33887
       ],
       [
+        34.402280000000005,
+        135.337915
+      ],
+      [
         34.40112,
         135.33696
       ],
@@ -1729,6 +1781,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.3947,
         135.33338
+      ],
+      [
+        34.39358,
+        135.33279
       ],
       [
         34.39246,
@@ -1776,6 +1832,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.38674,
         135.32741
+      ],
+      [
+        34.38575,
+        135.32590499999998
       ],
       [
         34.38476,
@@ -1936,8 +1996,16 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.29524
       ],
       [
+        34.36914,
+        135.293575
+      ],
+      [
         34.36817,
         135.29191
+      ],
+      [
+        34.367495,
+        135.29073499999998
       ],
       [
         34.36682,
@@ -2027,6 +2095,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.27302
       ],
       [
+        34.35125,
+        135.271735
+      ],
+      [
         34.35008,
         135.27045
       ],
@@ -2041,6 +2113,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.34925,
         135.26957
+      ],
+      [
+        34.348079999999996,
+        135.268285
       ],
       [
         34.34691,
@@ -2196,6 +2272,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.33358,
         135.26782
+      ],
+      [
+        34.332475,
+        135.26858
       ],
       [
         34.33137,
@@ -2365,6 +2445,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.26965
       ],
       [
+        34.31003,
+        135.26953
+      ],
+      [
         34.3088,
         135.26941
       ],
@@ -2417,6 +2501,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.2695
       ],
       [
+        34.301065,
+        135.269855
+      ],
+      [
         34.29967,
         135.27021
       ],
@@ -2439,6 +2527,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.29162,
         135.27224
+      ],
+      [
+        34.29029,
+        135.272585
       ],
       [
         34.28896,
@@ -3215,6 +3307,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
         135.19973
       ],
       [
+        34.24657,
+        135.197905
+      ],
+      [
         34.24594,
         135.19608
       ],
@@ -3316,6 +3412,10 @@ export const JR_HANWA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.23714,
         135.1905
+      ],
+      [
+        34.235665,
+        135.190765
       ],
       [
         34.23419,

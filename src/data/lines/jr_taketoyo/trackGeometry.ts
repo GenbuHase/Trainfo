@@ -165,6 +165,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.97194
       ],
       [
+        34.979625,
+        136.97203
+      ],
+      [
         34.97845,
         136.97212
       ],
@@ -208,8 +212,16 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.97293
       ],
       [
+        34.96631,
+        136.97302
+      ],
+      [
         34.96515,
         136.97311
+      ],
+      [
+        34.964005,
+        136.97319499999998
       ],
       [
         34.96286,
@@ -280,6 +292,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.9727
       ],
       [
+        34.95219,
+        136.971865
+      ],
+      [
         34.95032,
         136.97103
       ],
@@ -305,6 +321,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9452,
         136.96867
+      ],
+      [
+        34.94358,
+        136.96794
       ],
       [
         34.94196,
@@ -351,8 +371,16 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
         136.96366
       ],
       [
+        34.9304,
+        136.963325
+      ],
+      [
         34.92866,
         136.96299
+      ],
+      [
+        34.926865,
+        136.96265499999998
       ],
       [
         34.92507,
@@ -365,6 +393,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.92356,
         136.962
+      ],
+      [
+        34.922395,
+        136.961775
       ],
       [
         34.92123,
@@ -519,6 +551,10 @@ export const JR_TAKETOYO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.90317,
         136.94046
+      ],
+      [
+        34.90293,
+        136.93909000000002
       ],
       [
         34.90269,

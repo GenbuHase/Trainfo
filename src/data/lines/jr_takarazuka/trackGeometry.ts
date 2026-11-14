@@ -11,6 +11,26 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.43194
       ],
       [
+        34.72147833333333,
+        135.4321
+      ],
+      [
+        34.72351666666667,
+        135.43225999999999
+      ],
+      [
+        34.725555,
+        135.43241999999998
+      ],
+      [
+        34.72759333333333,
+        135.43258
+      ],
+      [
+        34.72963166666667,
+        135.43274
+      ],
+      [
         34.73167,
         135.4329
       ],
@@ -79,6 +99,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.42596
       ],
       [
+        34.738929999999996,
+        135.42629
+      ],
+      [
         34.74054,
         135.42662
       ],
@@ -107,8 +131,16 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.42621
       ],
       [
+        34.746075000000005,
+        135.425995
+      ],
+      [
         34.74725,
         135.42578
+      ],
+      [
+        34.74859,
+        135.425525
       ],
       [
         34.74993,
@@ -1373,6 +1405,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.36724
       ],
       [
+        34.815470000000005,
+        135.36597
+      ],
+      [
         34.81501,
         135.3647
       ],
@@ -1407,6 +1443,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.81334,
         135.36081
+      ],
+      [
+        34.81265,
+        135.35949499999998
       ],
       [
         34.81196,
@@ -1475,6 +1515,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.80976,
         135.35029
+      ],
+      [
+        34.809934999999996,
+        135.348655
       ],
       [
         34.81011,
@@ -1998,6 +2042,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.3087
       ],
       [
+        34.834694999999996,
+        135.30865999999997
+      ],
+      [
         34.83583,
         135.30862
       ],
@@ -2291,6 +2339,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.86275,
         135.28736
+      ],
+      [
+        34.86291,
+        135.285775
       ],
       [
         34.86307,
@@ -2912,6 +2964,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.2312
       ],
       [
+        34.88869,
+        135.229915
+      ],
+      [
         34.88909,
         135.22863
       ]
@@ -3081,6 +3137,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.90137,
         135.21325
+      ],
+      [
+        34.902699999999996,
+        135.21255
       ],
       [
         34.90403,
@@ -3449,8 +3509,16 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.18577
       ],
       [
+        34.93528,
+        135.184325
+      ],
+      [
         34.93557,
         135.18288
+      ],
+      [
+        34.936045,
+        135.18060000000003
       ],
       [
         34.93652,
@@ -3489,8 +3557,16 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.17103
       ],
       [
+        34.93998,
+        135.16953999999998
+      ],
+      [
         34.94072,
         135.16805
+      ],
+      [
+        34.941365000000005,
+        135.16682500000002
       ],
       [
         34.94201,
@@ -3515,6 +3591,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.9432,
         135.1638
+      ],
+      [
+        34.944315,
+        135.162665
       ],
       [
         34.94543,
@@ -3710,6 +3790,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.96682,
         135.14761
+      ],
+      [
+        34.967915,
+        135.149275
       ],
       [
         34.96901,
@@ -3962,6 +4046,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.15261
       ],
       [
+        35.002065,
+        135.15268500000002
+      ],
+      [
         35.00322,
         135.15276
       ],
@@ -3984,6 +4072,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.00813,
         135.15259
+      ],
+      [
+        35.009555000000006,
+        135.152425
       ],
       [
         35.01098,
@@ -4149,6 +4241,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.15723
       ],
       [
+        35.02428,
+        135.15873499999998
+      ],
+      [
         35.02466,
         135.16024
       ],
@@ -4173,8 +4269,16 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.16474
       ],
       [
+        35.028310000000005,
+        135.16618499999998
+      ],
+      [
         35.02931,
         135.16763
+      ],
+      [
+        35.030685000000005,
+        135.16961500000002
       ],
       [
         35.03206,
@@ -4213,6 +4317,10 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.17363
       ],
       [
+        35.035889999999995,
+        135.174115
+      ],
+      [
         35.03715,
         135.1746
       ]
@@ -4244,12 +4352,20 @@ export const JR_TAKARAZUKA_TRACK_SEGMENTS: TrackSegment[] = [
         135.17719
       ],
       [
+        35.044745,
+        135.17813999999998
+      ],
+      [
         35.04651,
         135.17909
       ],
       [
         35.04673,
         135.17921
+      ],
+      [
+        35.04776,
+        135.17977000000002
       ],
       [
         35.04879,

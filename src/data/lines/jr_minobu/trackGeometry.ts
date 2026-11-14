@@ -217,6 +217,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.65147
       ],
       [
+        35.17391,
+        138.652625
+      ],
+      [
         35.17463,
         138.65378
       ],
@@ -275,6 +279,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.18037,
         138.65441
+      ],
+      [
+        35.181520000000006,
+        138.65360500000003
       ],
       [
         35.18267,
@@ -644,6 +652,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.21473,
         138.62585
+      ],
+      [
+        35.215125,
+        138.62387
       ],
       [
         35.21552,
@@ -8417,6 +8429,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.52736
       ],
       [
+        35.59818,
+        138.527555
+      ],
+      [
         35.59942,
         138.52775
       ],
@@ -8454,6 +8470,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.6069,
         138.52892
+      ],
+      [
+        35.608045000000004,
+        138.52910500000002
       ],
       [
         35.60919,
@@ -8539,8 +8559,16 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.53352
       ],
       [
+        35.618845,
+        138.53513
+      ],
+      [
         35.62029,
         138.53674
+      ],
+      [
+        35.621545,
+        138.53813000000002
       ],
       [
         35.6228,
@@ -8557,6 +8585,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.6253,
         138.54229
+      ],
+      [
+        35.626265000000004,
+        138.543375
       ],
       [
         35.62723,
@@ -8646,8 +8678,16 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.55655
       ],
       [
+        35.632515,
+        138.558225
+      ],
+      [
         35.63304,
         138.5599
+      ],
+      [
+        35.63355,
+        138.561505
       ],
       [
         35.63406,
@@ -8729,6 +8769,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
         138.57575
       ],
       [
+        35.642465,
+        138.57671
+      ],
+      [
         35.64331,
         138.57767
       ],
@@ -8750,6 +8794,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.64418,
         138.57869
+      ],
+      [
+        35.64527,
+        138.579945
       ],
       [
         35.64636,
@@ -8794,6 +8842,10 @@ export const JR_MINOBU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.65186,
         138.5866
+      ],
+      [
+        35.652874999999995,
+        138.58721500000001
       ],
       [
         35.65389,

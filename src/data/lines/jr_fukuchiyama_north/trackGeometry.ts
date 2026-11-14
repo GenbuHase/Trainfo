@@ -39,6 +39,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.17708
       ],
       [
+        35.063280000000006,
+        135.177225
+      ],
+      [
         35.06448,
         135.17737
       ],
@@ -282,6 +286,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.16111
       ],
       [
+        35.079045,
+        135.15959
+      ],
+      [
         35.07973,
         135.15807
       ],
@@ -358,6 +366,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.14902
       ],
       [
+        35.079575,
+        135.14696
+      ],
+      [
         35.07908,
         135.1449
       ],
@@ -372,6 +384,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.07889,
         135.14434
+      ],
+      [
+        35.07826,
+        135.1428
       ],
       [
         35.07763,
@@ -804,6 +820,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.08654,
         135.10041
+      ],
+      [
+        35.087064999999996,
+        135.09797
       ],
       [
         35.08759,
@@ -1328,6 +1348,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.05001
       ],
       [
+        35.092645,
+        135.05136499999998
+      ],
+      [
         35.0937,
         135.05272
       ],
@@ -1374,6 +1398,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.09816,
         135.05666
+      ],
+      [
+        35.09925,
+        135.05734999999999
       ],
       [
         35.10034,
@@ -1671,6 +1699,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.07829
       ],
       [
+        35.127195,
+        135.07712500000002
+      ],
+      [
         35.1279,
         135.07596
       ],
@@ -1699,8 +1731,16 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.07359
       ],
       [
+        35.131855,
+        135.07296
+      ],
+      [
         35.13293,
         135.07233
+      ],
+      [
+        35.134005,
+        135.07171499999998
       ],
       [
         35.13508,
@@ -1715,8 +1755,16 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.06987
       ],
       [
+        35.138315,
+        135.06923
+      ],
+      [
         35.13943,
         135.06859
+      ],
+      [
+        35.14054,
+        135.06795499999998
       ],
       [
         35.14165,
@@ -1725,6 +1773,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.1423,
         135.06696
+      ],
+      [
+        35.144189999999995,
+        135.06588499999998
       ],
       [
         35.14608,
@@ -1794,12 +1846,24 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.0635
       ],
       [
+        35.15275,
+        135.06375
+      ],
+      [
         35.15393,
         135.064
       ],
       [
+        35.155415000000005,
+        135.06434000000002
+      ],
+      [
         35.1569,
         135.06468
+      ],
+      [
+        35.158005,
+        135.06495
       ],
       [
         35.15911,
@@ -1902,8 +1966,16 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.07211
       ],
       [
+        35.168175,
+        135.07391
+      ],
+      [
         35.16862,
         135.07571
+      ],
+      [
+        35.169065,
+        135.077515
       ],
       [
         35.16951,
@@ -1946,6 +2018,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.08978
       ],
       [
+        35.169345,
+        135.09161999999998
+      ],
+      [
         35.16909,
         135.09346
       ],
@@ -1965,6 +2041,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.09555
       ],
       [
+        35.16852,
+        135.097325
+      ],
+      [
         35.16826,
         135.0991
       ],
@@ -1973,8 +2053,16 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.10117
       ],
       [
+        35.16767,
+        135.10298999999998
+      ],
+      [
         35.1674,
         135.10481
+      ],
+      [
+        35.167125,
+        135.10663
       ],
       [
         35.16685,
@@ -2045,8 +2133,20 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.11678
       ],
       [
+        35.171573333333335,
+        135.11721333333332
+      ],
+      [
+        35.173276666666666,
+        135.11764666666667
+      ],
+      [
         35.17498,
         135.11808
+      ],
+      [
+        35.17639,
+        135.118415
       ],
       [
         35.1778,
@@ -2057,8 +2157,16 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.11881
       ],
       [
+        35.179874999999996,
+        135.119235
+      ],
+      [
         35.18167,
         135.11966
+      ],
+      [
+        35.183539999999994,
+        135.12010500000002
       ],
       [
         35.18541,
@@ -2135,6 +2243,10 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.19471,
         135.11967
+      ],
+      [
+        35.196595,
+        135.120945
       ],
       [
         35.19848,
@@ -2468,8 +2580,16 @@ export const JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
         135.13116
       ],
       [
+        35.230185,
+        135.1311
+      ],
+      [
         35.2315,
         135.13104
+      ],
+      [
+        35.232645,
+        135.13099
       ],
       [
         35.23379,

@@ -119,6 +119,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.4574
       ],
       [
+        34.839515,
+        136.457365
+      ],
+      [
         34.83764,
         136.45733
       ],
@@ -1041,12 +1045,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.5033
       ],
       [
+        34.751819999999995,
+        136.504075
+      ],
+      [
         34.75038,
         136.50485
       ],
       [
         34.75026,
         136.50491
+      ],
+      [
+        34.749155,
+        136.50551000000002
       ],
       [
         34.74805,
@@ -1065,8 +1077,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50723
       ],
       [
+        34.74483,
+        136.50777
+      ],
+      [
         34.74378,
         136.50831
+      ],
+      [
+        34.742355,
+        136.509055
       ],
       [
         34.74093,
@@ -1531,6 +1551,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.51324
       ],
       [
+        34.66728,
+        136.51262
+      ],
+      [
         34.66625,
         136.512
       ]
@@ -1690,6 +1714,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.50446
       ],
       [
+        34.64,
+        136.50475
+      ],
+      [
         34.63884,
         136.50504
       ],
@@ -1772,6 +1800,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.62291,
         136.50714
+      ],
+      [
+        34.621624999999995,
+        136.50724
       ],
       [
         34.62034,
@@ -2607,6 +2639,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.57264
       ],
       [
+        34.51617,
+        136.57354
+      ],
+      [
         34.51528,
         136.57444
       ]
@@ -2768,6 +2804,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.5067,
         136.5496
+      ],
+      [
+        34.505735,
+        136.54863
       ],
       [
         34.50477,
@@ -3481,6 +3521,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.43853,
         136.50512
+      ],
+      [
+        34.4388,
+        136.50373000000002
       ],
       [
         34.43907,
@@ -6896,6 +6940,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.35558
       ],
       [
+        34.247365,
+        136.355455
+      ],
+      [
         34.24576,
         136.35533
       ],
@@ -6906,6 +6954,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.24345,
         136.35515
+      ],
+      [
+        34.24225,
+        136.355055
       ],
       [
         34.24105,
@@ -8418,6 +8470,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.25456
       ],
       [
+        34.148735,
+        136.25344
+      ],
+      [
         34.14806,
         136.25232
       ],
@@ -8428,6 +8484,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.14786,
         136.25199
+      ],
+      [
+        34.147065,
+        136.25068
       ],
       [
         34.14627,
@@ -8753,8 +8813,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.21829
       ],
       [
+        34.125305,
+        136.21903
+      ],
+      [
         34.1241,
         136.21977
+      ],
+      [
+        34.122924999999995,
+        136.22047500000002
       ],
       [
         34.12175,
@@ -8984,6 +9052,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.20288
       ],
       [
+        34.103505,
+        136.20139
+      ],
+      [
         34.10334,
         136.1999
       ],
@@ -9022,6 +9094,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.0994,
         136.19666
+      ],
+      [
+        34.09795,
+        136.196265
       ],
       [
         34.0965,
@@ -9918,6 +9994,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.2447
       ],
       [
+        34.030105,
+        136.244565
+      ],
+      [
         34.02896,
         136.24443
       ],
@@ -9934,8 +10014,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.24419
       ],
       [
+        34.025695,
+        136.24403999999998
+      ],
+      [
         34.02437,
         136.24389
+      ],
+      [
+        34.023185,
+        136.24376
       ],
       [
         34.022,
@@ -10085,12 +10173,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.22516
       ],
       [
+        34.007014999999996,
+        136.22355499999998
+      ],
+      [
         34.00646,
         136.22195
       ],
       [
         34.00615,
         136.22106
+      ],
+      [
+        34.005465,
+        136.219085
       ],
       [
         34.00478,
@@ -10292,8 +10388,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.19592
       ],
       [
+        33.995485,
+        136.19529
+      ],
+      [
         33.99422,
         136.19466
+      ],
+      [
+        33.99277,
+        136.19394499999999
       ],
       [
         33.99132,
@@ -10302,6 +10406,14 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.99083,
         136.19299
+      ],
+      [
+        33.98918666666667,
+        136.19217333333333
+      ],
+      [
+        33.987543333333335,
+        136.19135666666668
       ],
       [
         33.9859,
@@ -10314,6 +10426,14 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.98248,
         136.1888
+      ],
+      [
+        33.98064333333333,
+        136.18787
+      ],
+      [
+        33.97880666666667,
+        136.18694
       ],
       [
         33.97697,
@@ -10583,6 +10703,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.1905
       ],
       [
+        33.952265,
+        136.189745
+      ],
+      [
         33.95119,
         136.18899
       ],
@@ -10722,6 +10846,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.17133
       ],
       [
+        33.93716,
+        136.16984000000002
+      ],
+      [
         33.93705,
         136.16835
       ],
@@ -10734,12 +10862,24 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.16552
       ],
       [
+        33.936724999999996,
+        136.16379
+      ],
+      [
         33.93661,
         136.16206
       ],
       [
+        33.9365,
+        136.16062499999998
+      ],
+      [
         33.93639,
         136.15919
+      ],
+      [
+        33.93629,
+        136.15767
       ],
       [
         33.93619,
@@ -10748,6 +10888,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.93606,
         136.15435
+      ],
+      [
+        33.93595,
+        136.15281
       ],
       [
         33.93584,
@@ -11096,6 +11240,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.12494
       ],
       [
+        33.90447,
+        136.123545
+      ],
+      [
         33.90392,
         136.12215
       ],
@@ -11149,6 +11297,18 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.9002,
         136.11446
+      ],
+      [
+        33.8989725,
+        136.1127375
+      ],
+      [
+        33.897745,
+        136.111015
+      ],
+      [
+        33.8965175,
+        136.1092925
       ],
       [
         33.89529,
@@ -11266,6 +11426,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.09579
       ],
       [
+        33.88274,
+        136.094715
+      ],
+      [
         33.88144,
         136.09364
       ],
@@ -11345,6 +11509,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.0852
       ],
       [
+        33.87422,
+        136.08407
+      ],
+      [
         33.87275,
         136.08294
       ],
@@ -11369,6 +11537,14 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.07971
       ],
       [
+        33.86725,
+        136.07869
+      ],
+      [
+        33.86594,
+        136.07767
+      ],
+      [
         33.86463,
         136.07665
       ],
@@ -11385,8 +11561,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.07505
       ],
       [
+        33.861055,
+        136.074195
+      ],
+      [
         33.85959,
         136.07334
+      ],
+      [
+        33.85827,
+        136.07262
       ],
       [
         33.85695,
@@ -11395,6 +11579,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.85651,
         136.07166
+      ],
+      [
+        33.854775000000004,
+        136.070695
       ],
       [
         33.85304,
@@ -11415,6 +11603,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.84785,
         136.06687
+      ],
+      [
+        33.846140000000005,
+        136.06591500000002
       ],
       [
         33.84443,
@@ -11603,6 +11795,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.04769
       ],
       [
+        33.812110000000004,
+        136.046985
+      ],
+      [
         33.81098,
         136.04628
       ],
@@ -11613,6 +11809,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.80965,
         136.04543
+      ],
+      [
+        33.808575,
+        136.04478
       ],
       [
         33.8075,
@@ -11798,6 +11998,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.03399
       ],
       [
+        33.78113999999999,
+        136.033175
+      ],
+      [
         33.78019,
         136.03236
       ],
@@ -11854,12 +12058,20 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
         136.02872
       ],
       [
+        33.772005,
+        136.02830999999998
+      ],
+      [
         33.77083,
         136.0279
       ],
       [
         33.77002,
         136.0276
+      ],
+      [
+        33.768555000000006,
+        136.02705500000002
       ],
       [
         33.76709,
@@ -12222,6 +12434,10 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS: TrackSegment[] = [
       [
         33.73495,
         135.99557
+      ],
+      [
+        33.733504999999994,
+        135.99467499999997
       ],
       [
         33.73206,

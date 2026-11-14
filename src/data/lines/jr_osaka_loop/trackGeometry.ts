@@ -1072,6 +1072,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.48083
       ],
       [
+        34.692229999999995,
+        135.479245
+      ],
+      [
         34.69103,
         135.47766
       ],
@@ -1101,6 +1105,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.68797,
         135.47367
+      ],
+      [
+        34.68712,
+        135.472545
       ],
       [
         34.68627,
@@ -1473,6 +1481,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
         135.47582
       ],
       [
+        34.66646,
+        135.47742499999998
+      ],
+      [
         34.66587,
         135.47903
       ],
@@ -1803,6 +1815,10 @@ export const JR_OSAKA_LOOP_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64871,
         135.50677
+      ],
+      [
+        34.64838,
+        135.50814
       ],
       [
         34.64805,

@@ -95,8 +95,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.28934
       ],
       [
+        35.33167,
+        136.28898500000003
+      ],
+      [
         35.3329,
         136.28863
+      ],
+      [
+        35.334355,
+        136.28820000000002
       ],
       [
         35.33581,
@@ -365,6 +373,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.26563
       ],
       [
+        35.378605,
+        136.26499
+      ],
+      [
         35.37962,
         136.26435
       ]
@@ -432,6 +444,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.26308
       ],
       [
+        35.39049,
+        136.26296000000002
+      ],
+      [
         35.39187,
         136.26284
       ],
@@ -446,6 +462,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.39646,
         136.26242
+      ],
+      [
+        35.397949999999994,
+        136.262295
       ],
       [
         35.39944,
@@ -866,12 +886,20 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.24182
       ],
       [
+        35.463245,
+        136.241015
+      ],
+      [
         35.46501,
         136.24021
       ],
       [
         35.46512,
         136.24017
+      ],
+      [
+        35.466325,
+        136.23961
       ],
       [
         35.46753,
@@ -907,6 +935,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.47156,
         136.23724
+      ],
+      [
+        35.472705,
+        136.23673000000002
       ],
       [
         35.47385,
@@ -1093,6 +1125,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.22213
       ],
       [
+        35.50618,
+        136.221585
+      ],
+      [
         35.50739,
         136.22104
       ]
@@ -1106,6 +1142,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.50739,
         136.22104
+      ],
+      [
+        35.50864,
+        136.22046999999998
       ],
       [
         35.50989,
@@ -1271,8 +1311,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.19933
       ],
       [
+        35.533855,
+        136.197675
+      ],
+      [
         35.53377,
         136.19602
+      ],
+      [
+        35.53363,
+        136.19421
       ],
       [
         35.53349,
@@ -1495,6 +1543,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.15185
       ],
       [
+        35.53971,
+        136.151385
+      ],
+      [
         35.54105,
         136.15092
       ],
@@ -1658,12 +1710,20 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.1387
       ],
       [
+        35.55775,
+        136.1377
+      ],
+      [
         35.55874,
         136.1367
       ],
       [
         35.55914,
         136.1363
+      ],
+      [
+        35.56012,
+        136.1353
       ],
       [
         35.5611,
@@ -1678,6 +1738,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.13123
       ],
       [
+        35.565129999999996,
+        136.13025
+      ],
+      [
         35.56611,
         136.12927
       ],
@@ -1686,12 +1750,20 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.12916
       ],
       [
+        35.56715,
+        136.128205
+      ],
+      [
         35.56808,
         136.12725
       ],
       [
         35.56887,
         136.12644
+      ],
+      [
+        35.569919999999996,
+        136.12538
       ],
       [
         35.57097,
@@ -1706,6 +1778,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.12212
       ],
       [
+        35.5739,
+        136.121185
+      ],
+      [
         35.5748,
         136.12025
       ],
@@ -1718,12 +1794,20 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.11854
       ],
       [
+        35.577575,
+        136.11745
+      ],
+      [
         35.57865,
         136.11636
       ],
       [
         35.58009,
         136.11488
+      ],
+      [
+        35.58101,
+        136.113945
       ],
       [
         35.58193,
@@ -1734,6 +1818,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.11262
       ],
       [
+        35.58354,
+        136.11136
+      ],
+      [
         35.58476,
         136.1101
       ],
@@ -1742,8 +1830,16 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.10837
       ],
       [
+        35.587500000000006,
+        136.107345
+      ],
+      [
         35.5885,
         136.10632
+      ],
+      [
+        35.589725,
+        136.10506
       ],
       [
         35.59095,
@@ -1788,6 +1884,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.59538,
         136.10019
+      ],
+      [
+        35.597274999999996,
+        136.09976
       ],
       [
         35.59917,
@@ -1902,6 +2002,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.083
       ],
       [
+        35.61466,
+        136.082565
+      ],
+      [
         35.61591,
         136.08213
       ],
@@ -1944,6 +2048,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.61879,
         136.08117
+      ],
+      [
+        35.620149999999995,
+        136.080695
       ],
       [
         35.62151,
@@ -2006,6 +2114,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.07623
       ],
       [
+        35.628095,
+        136.07584500000002
+      ],
+      [
         35.62952,
         136.07546
       ],
@@ -2064,6 +2176,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.63968,
         136.07334
+      ],
+      [
+        35.64091,
+        136.07385
       ],
       [
         35.64214,
@@ -2154,6 +2270,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.07436
       ],
       [
+        35.64091,
+        136.07385
+      ],
+      [
         35.63968,
         136.07334
       ],
@@ -2212,6 +2332,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.62952,
         136.07546
+      ],
+      [
+        35.628095,
+        136.07584500000002
       ],
       [
         35.62667,
@@ -2274,6 +2398,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
         136.08022
       ],
       [
+        35.620149999999995,
+        136.080695
+      ],
+      [
         35.61879,
         136.08117
       ],
@@ -2288,6 +2416,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.61591,
         136.08213
+      ],
+      [
+        35.61466,
+        136.082565
       ],
       [
         35.61341,
@@ -2400,6 +2532,10 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.59917,
         136.09933
+      ],
+      [
+        35.597274999999996,
+        136.09976
       ],
       [
         35.59538,

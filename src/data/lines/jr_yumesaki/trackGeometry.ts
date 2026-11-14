@@ -115,6 +115,10 @@ export const JR_YUMESAKI_TRACK_SEGMENTS: TrackSegment[] = [
         135.45502
       ],
       [
+        34.67912,
+        135.453635
+      ],
+      [
         34.67847,
         135.45225
       ],

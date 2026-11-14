@@ -402,6 +402,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.82472
       ],
       [
+        34.7355,
+        135.824685
+      ],
+      [
         34.73433,
         135.82465
       ],
@@ -1255,6 +1259,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.76581
       ],
       [
+        34.623795,
+        135.76491
+      ],
+      [
         34.62282,
         135.76401
       ],
@@ -1292,6 +1300,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61757,
         135.75925
+      ],
+      [
+        34.616659999999996,
+        135.758405
       ],
       [
         34.61575,
@@ -1406,6 +1418,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.74421
       ],
       [
+        34.603475,
+        135.742265
+      ],
+      [
         34.60236,
         135.74032
       ],
@@ -1431,6 +1447,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.59988,
         135.73605
+      ],
+      [
+        34.598645000000005,
+        135.733925
       ],
       [
         34.59741,
@@ -1712,8 +1732,16 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.69297
       ],
       [
+        34.591075000000004,
+        135.6918
+      ],
+      [
         34.59047,
         135.69063
+      ],
+      [
+        34.58976,
+        135.68923999999998
       ],
       [
         34.58905,
@@ -2245,6 +2273,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.6308
       ],
       [
+        34.577685,
+        135.62982499999998
+      ],
+      [
         34.57958,
         135.62885
       ],
@@ -2259,6 +2291,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.58086,
         135.62808
+      ],
+      [
+        34.58231,
+        135.62690500000002
       ],
       [
         34.58376,
@@ -2487,6 +2523,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.60286
       ],
       [
+        34.614270000000005,
+        135.60183999999998
+      ],
+      [
         34.61506,
         135.60082
       ],
@@ -2568,6 +2608,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61962,
         135.59049
+      ],
+      [
+        34.62032,
+        135.589085
       ],
       [
         34.62102,
@@ -2716,12 +2760,20 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.56415
       ],
       [
+        34.62802000000001,
+        135.56240000000003
+      ],
+      [
         34.62848,
         135.56065
       ],
       [
         34.62867,
         135.55993
+      ],
+      [
+        34.62901,
+        135.55857
       ],
       [
         34.62935,
@@ -2831,6 +2883,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
         135.54093
       ],
       [
+        34.63657,
+        135.539885
+      ],
+      [
         34.63731,
         135.53884
       ],
@@ -2916,6 +2972,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64194,
         135.52811
+      ],
+      [
+        34.64259,
+        135.5265
       ],
       [
         34.64324,
@@ -3007,6 +3067,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64805,
         135.50951
+      ],
+      [
+        34.64838,
+        135.50814
       ],
       [
         34.64871,
@@ -3205,6 +3269,10 @@ export const JR_YAMATOJI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65774,
         135.49262
+      ],
+      [
+        34.65909,
+        135.49311
       ],
       [
         34.66044,

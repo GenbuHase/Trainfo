@@ -544,6 +544,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.93025
       ],
       [
+        35.170925,
+        136.931095
+      ],
+      [
         35.17182,
         136.93194
       ],
@@ -604,8 +608,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.93711
       ],
       [
+        35.18193,
+        136.93713
+      ],
+      [
         35.18343,
         136.93715
+      ],
+      [
+        35.18469,
+        136.93716
       ],
       [
         35.18595,
@@ -636,6 +648,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
     "coordinates": [
       [
         35.18809,
+        136.93718
+      ],
+      [
+        35.18947,
         136.93718
       ],
       [
@@ -902,6 +918,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.95268
       ],
       [
+        35.220415,
+        136.95224
+      ],
+      [
         35.22236,
         136.9518
       ],
@@ -981,8 +1001,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.95533
       ],
       [
+        35.2299,
+        136.95646
+      ],
+      [
         35.23068,
         136.95759
+      ],
+      [
+        35.231790000000004,
+        136.959115
       ],
       [
         35.2329,
@@ -1013,6 +1041,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.96647
       ],
       [
+        35.236824999999996,
+        136.96893
+      ],
+      [
         35.23777,
         136.97139
       ],
@@ -1029,8 +1061,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.97244
       ],
       [
+        35.23908,
+        136.97486500000002
+      ],
+      [
         35.23999,
         136.97729
+      ],
+      [
+        35.2405,
+        136.97866
       ],
       [
         35.24101,
@@ -1080,12 +1120,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.98722
       ],
       [
+        35.244815,
+        136.98851000000002
+      ],
+      [
         35.24552,
         136.9898
       ],
       [
         35.24667,
         136.9919
+      ],
+      [
+        35.24736,
+        136.99316
       ],
       [
         35.24805,
@@ -1104,8 +1152,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         136.99704
       ],
       [
+        35.2504,
+        136.99881
+      ],
+      [
         35.25131,
         137.00058
+      ],
+      [
+        35.252264999999994,
+        137.002385
       ],
       [
         35.25322,
@@ -1149,6 +1205,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.25767,
         137.01243
+      ],
+      [
+        35.258709999999994,
+        137.014345
       ],
       [
         35.25975,
@@ -1203,6 +1263,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.03243
       ],
       [
+        35.264089999999996,
+        137.03477
+      ],
+      [
         35.26416,
         137.03711
       ],
@@ -1238,8 +1302,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.04168
       ],
       [
+        35.2644,
+        137.043255
+      ],
+      [
         35.26444,
         137.04483
+      ],
+      [
+        35.264465,
+        137.04626
       ],
       [
         35.26449,
@@ -1306,12 +1378,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.05991
       ],
       [
+        35.266995,
+        137.06152500000002
+      ],
+      [
         35.267,
         137.06314
       ],
       [
         35.267,
         137.06353
+      ],
+      [
+        35.26701,
+        137.06502999999998
       ],
       [
         35.26702,
@@ -1784,6 +1864,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.11159
       ],
       [
+        35.331050000000005,
+        137.11317
+      ],
+      [
         35.33189,
         137.11475
       ],
@@ -2053,6 +2137,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.35099,
         137.13345
+      ],
+      [
+        35.351,
+        137.135175
       ],
       [
         35.35101,
@@ -2992,6 +3080,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.36943,
         137.25038
+      ],
+      [
+        35.369115,
+        137.251915
       ],
       [
         35.3688,
@@ -4299,12 +4391,24 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.37199
       ],
       [
+        35.44439,
+        137.373525
+      ],
+      [
         35.44499,
         137.37506
       ],
       [
+        35.445485,
+        137.37634500000001
+      ],
+      [
         35.44598,
         137.37763
+      ],
+      [
+        35.446595,
+        137.379185
       ],
       [
         35.44721,
@@ -4514,6 +4618,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.4123
       ],
       [
+        35.462115,
+        137.41219999999998
+      ],
+      [
         35.46343,
         137.4121
       ],
@@ -4686,6 +4794,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.44219
       ],
       [
+        35.477215,
+        137.443655
+      ],
+      [
         35.47808,
         137.44512
       ],
@@ -4729,12 +4841,24 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.45139
       ],
       [
+        35.478894999999994,
+        137.45292
+      ],
+      [
         35.47868,
         137.45445
       ],
       [
+        35.47843,
+        137.45624500000002
+      ],
+      [
         35.47818,
         137.45804
+      ],
+      [
+        35.477914999999996,
+        137.45989
       ],
       [
         35.47765,
@@ -6180,6 +6304,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.60973
       ],
       [
+        35.606525,
+        137.609955
+      ],
+      [
         35.60805,
         137.61018
       ],
@@ -6665,6 +6793,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.67228,
         137.63512
+      ],
+      [
+        35.67304,
+        137.636155
       ],
       [
         35.6738,
@@ -7283,6 +7415,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.69681,
         137.6941
+      ],
+      [
+        35.69785,
+        137.69494
       ],
       [
         35.69889,
@@ -8531,6 +8667,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.69309
       ],
       [
+        35.784075,
+        137.69327
+      ],
+      [
         35.7853,
         137.69345
       ]
@@ -9082,8 +9222,20 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.68519
       ],
       [
+        35.830526666666664,
+        137.68594000000002
+      ],
+      [
+        35.832053333333334,
+        137.68669
+      ],
+      [
         35.83358,
         137.68744
+      ],
+      [
+        35.835044999999994,
+        137.688185
       ],
       [
         35.83651,
@@ -9139,6 +9291,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.84275,
         137.6927
+      ],
+      [
+        35.843725000000006,
+        137.6934
       ],
       [
         35.8447,
@@ -9221,6 +9377,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.70458
       ],
       [
+        35.85137,
+        137.70623
+      ],
+      [
         35.85171,
         137.70788
       ],
@@ -9277,6 +9437,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.72008
       ],
       [
+        35.859615,
+        137.721285
+      ],
+      [
         35.86064,
         137.72249
       ],
@@ -9307,6 +9471,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.8657,
         137.72861
+      ],
+      [
+        35.86674,
+        137.729725
       ],
       [
         35.86778,
@@ -11040,6 +11208,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.85319
       ],
       [
+        36.00416,
+        137.85397
+      ],
+      [
         36.00516,
         137.85475
       ],
@@ -11185,6 +11357,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.02211,
         137.86791
+      ],
+      [
+        36.022800000000004,
+        137.869135
       ],
       [
         36.02349,
@@ -11574,8 +11750,16 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
         137.90415
       ],
       [
+        36.072855000000004,
+        137.90481
+      ],
+      [
         36.07388,
         137.90547
+      ],
+      [
+        36.074975,
+        137.90618
       ],
       [
         36.07607,
@@ -11584,6 +11768,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.07627,
         137.90701
+      ],
+      [
+        36.07736,
+        137.907695
       ],
       [
         36.07845,
@@ -11751,6 +11939,10 @@ export const JR_CHUO_WEST_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.10469,
         137.93778
+      ],
+      [
+        36.106025,
+        137.93943000000002
       ],
       [
         36.10736,

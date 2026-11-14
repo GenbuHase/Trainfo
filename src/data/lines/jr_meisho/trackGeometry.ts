@@ -318,6 +318,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.4959
       ],
       [
+        34.601034999999996,
+        136.4948
+      ],
+      [
         34.60186,
         136.4937
       ],
@@ -362,6 +366,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.48715
       ],
       [
+        34.60852,
+        136.48659
+      ],
+      [
         34.60964,
         136.48603
       ],
@@ -370,12 +378,24 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.48586
       ],
       [
+        34.611270000000005,
+        136.48524500000002
+      ],
+      [
         34.61255,
         136.48463
       ],
       [
+        34.613839999999996,
+        136.48401
+      ],
+      [
         34.61513,
         136.48339
+      ],
+      [
+        34.61629,
+        136.482825
       ],
       [
         34.61745,
@@ -399,6 +419,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.61929,
         136.48138
+      ],
+      [
+        34.62059,
+        136.48077
       ],
       [
         34.62189,
@@ -505,6 +529,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.46442
       ],
       [
+        34.638369999999995,
+        136.46218499999998
+      ],
+      [
         34.63937,
         136.45995
       ],
@@ -545,6 +573,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.4502
       ],
       [
+        34.64562,
+        136.44902000000002
+      ],
+      [
         34.64663,
         136.44784
       ],
@@ -570,6 +602,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64865,
         136.44548
+      ],
+      [
+        34.64962,
+        136.444325
       ],
       [
         34.65059,
@@ -667,6 +703,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.42914
       ],
       [
+        34.65188499999999,
+        136.42765
+      ],
+      [
         34.65118,
         136.42616
       ],
@@ -689,6 +729,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.65017,
         136.42471
+      ],
+      [
+        34.648995,
+        136.42360000000002
       ],
       [
         34.64782,
@@ -854,8 +898,16 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.39521
       ],
       [
+        34.644375,
+        136.39341
+      ],
+      [
         34.64561,
         136.39161
+      ],
+      [
+        34.64696,
+        136.38963999999999
       ],
       [
         34.64831,
@@ -915,6 +967,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.6519,
         136.37927
+      ],
+      [
+        34.652069999999995,
+        136.377585
       ],
       [
         34.65224,
@@ -981,6 +1037,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
         136.36615
       ],
       [
+        34.650130000000004,
+        136.36472500000002
+      ],
+      [
         34.64996,
         136.3633
       ],
@@ -1030,6 +1090,10 @@ export const JR_MEISHO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.64624,
         136.35243
+      ],
+      [
+        34.645735,
+        136.351085
       ],
       [
         34.64523,

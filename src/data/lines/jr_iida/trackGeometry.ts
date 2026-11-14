@@ -416,6 +416,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.37335
       ],
       [
+        34.805195,
+        137.37487499999997
+      ],
+      [
         34.80578,
         137.3764
       ],
@@ -702,6 +706,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.40842
       ],
       [
+        34.839465000000004,
+        137.409205
+      ],
+      [
         34.84079,
         137.40999
       ],
@@ -777,6 +785,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.41685
       ],
       [
+        34.85222,
+        137.41791
+      ],
+      [
         34.85354,
         137.41897
       ],
@@ -845,6 +857,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.4284
       ],
       [
+        34.86336,
+        137.429755
+      ],
+      [
         34.86427,
         137.43111
       ]
@@ -874,6 +890,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.86541,
         137.43327
+      ],
+      [
+        34.86608,
+        137.43459000000001
       ],
       [
         34.86675,
@@ -1281,6 +1301,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.4827
       ],
       [
+        34.894665,
+        137.48416
+      ],
+      [
         34.89606,
         137.48562
       ],
@@ -1336,6 +1360,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.49401
       ],
       [
+        34.902555,
+        137.495505
+      ],
+      [
         34.90343,
         137.497
       ],
@@ -1385,6 +1413,14 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.90699,
         137.50529
+      ],
+      [
+        34.90761,
+        137.50696666666667
+      ],
+      [
+        34.90823,
+        137.50864333333334
       ],
       [
         34.90885,
@@ -5903,6 +5939,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.84418
       ],
       [
+        35.109629999999996,
+        137.84562499999998
+      ],
+      [
         35.11018,
         137.84707
       ],
@@ -7025,6 +7065,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.18491,
         137.82974
+      ],
+      [
+        35.18529,
+        137.82842
       ],
       [
         35.18567,
@@ -12206,6 +12250,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.818
       ],
       [
+        35.437884999999994,
+        137.81789500000002
+      ],
+      [
         35.4394,
         137.81779
       ],
@@ -12247,6 +12295,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.44447,
         137.81619
+      ],
+      [
+        35.445765,
+        137.815955
       ],
       [
         35.44706,
@@ -12391,6 +12443,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.82783
       ],
       [
+        35.465545,
+        137.82809
+      ],
+      [
         35.46668,
         137.82835
       ],
@@ -12407,6 +12463,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.82892
       ],
       [
+        35.469625,
+        137.8298
+      ],
+      [
         35.47063,
         137.83068
       ],
@@ -12421,6 +12481,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.47142,
         137.83216
+      ],
+      [
+        35.471990000000005,
+        137.834275
       ],
       [
         35.47256,
@@ -12486,6 +12550,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.84008
       ],
       [
+        35.47916,
+        137.83929999999998
+      ],
+      [
         35.4805,
         137.83852
       ],
@@ -12516,6 +12584,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.48397,
         137.83805
+      ],
+      [
+        35.48555,
+        137.83865500000002
       ],
       [
         35.48713,
@@ -12551,6 +12623,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.49093,
         137.83992
+      ],
+      [
+        35.49213,
+        137.83982
       ],
       [
         35.49333,
@@ -16535,6 +16611,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
         137.96555
       ],
       [
+        35.847985,
+        137.966405
+      ],
+      [
         35.84913,
         137.96726
       ],
@@ -16581,6 +16661,10 @@ export const JR_IIDA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.8586,
         137.9754
+      ],
+      [
+        35.859585,
+        137.97648
       ],
       [
         35.86057,

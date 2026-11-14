@@ -393,6 +393,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.79178
       ],
       [
+        34.763705,
+        135.79164
+      ],
+      [
         34.76487,
         135.7915
       ],
@@ -1299,6 +1303,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.71859
       ],
       [
+        34.82737,
+        135.71716
+      ],
+      [
         34.82703,
         135.71573
       ],
@@ -1469,6 +1477,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.69986
       ],
       [
+        34.805885,
+        135.699435
+      ],
+      [
         34.80477,
         135.69901
       ],
@@ -1520,6 +1532,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.6974
       ],
       [
+        34.79555,
+        135.69722
+      ],
+      [
         34.79401,
         135.69704
       ],
@@ -1560,6 +1576,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.69464
       ],
       [
+        34.786315,
+        135.69396
+      ],
+      [
         34.78532,
         135.69328
       ],
@@ -1578,6 +1598,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.78415,
         135.69251
+      ],
+      [
+        34.78292,
+        135.69168000000002
       ],
       [
         34.78169,
@@ -1639,6 +1663,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.68428
       ],
       [
+        34.77569,
+        135.68275
+      ],
+      [
         34.77503,
         135.68122
       ],
@@ -1649,6 +1677,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.77482,
         135.68072
+      ],
+      [
+        34.774195,
+        135.679315
       ],
       [
         34.77357,
@@ -1679,8 +1711,16 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
         135.67169
       ],
       [
+        34.76999,
+        135.6696
+      ],
+      [
         34.76909,
         135.66751
+      ],
+      [
+        34.768370000000004,
+        135.66582499999998
       ],
       [
         34.76765,
@@ -1740,6 +1780,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.76399,
         135.65869
+      ],
+      [
+        34.76312,
+        135.65769
       ],
       [
         34.76225,
@@ -1883,6 +1927,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.74912,
         135.64858
+      ],
+      [
+        34.74811,
+        135.64757500000002
       ],
       [
         34.7471,
@@ -2463,6 +2511,10 @@ export const JR_GAKKEN_TOSHI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.70354,
         135.61013
+      ],
+      [
+        34.702569999999994,
+        135.608275
       ],
       [
         34.7016,
