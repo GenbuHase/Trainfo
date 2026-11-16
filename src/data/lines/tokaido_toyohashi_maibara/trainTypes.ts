@@ -21,6 +21,16 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_TRAIN_TYPES: Record<string, TrainTypeConf
     bgColor: '#22ac38',
     borderColor: '#1b8a2c',
   },
+  section_rapid: {
+    key: 'section_rapid',
+    name: '区間快速',
+    nameEn: 'Section Rapid',
+    shortName: '区快',
+    color: '#22ac38',
+    textColor: '#ffffff',
+    bgColor: '#22ac38',
+    borderColor: '#1b8a2c',
+  },
   rapid: {
     key: 'rapid',
     name: '快速',

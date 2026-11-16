@@ -3,6 +3,16 @@ import type { TrainTypeConfig } from '../../../types';
 import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const OITO_EAST_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+  local: {
+    key: 'local',
+    name: '普通',
+    nameEn: 'Local',
+    shortName: '普通',
+    color: '#957490',
+    textColor: '#ffffff',
+    bgColor: '#957490',
+    borderColor: '#734185',
+  },
   regular: {
     key: 'regular',
     name: '普通',

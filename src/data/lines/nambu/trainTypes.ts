@@ -1,4 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const NAMBU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   "local": {
@@ -20,5 +21,6 @@ export const NAMBU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "borderColor": "#f39800",
     "nameEn": "Rapid",
     "color": "#f39800"
-  }
+  },
+  "limitedExp": LIMITED_EXP_PRESETS.STANDARD
 };
