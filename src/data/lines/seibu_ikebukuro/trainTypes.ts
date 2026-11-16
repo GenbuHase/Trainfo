@@ -23,8 +23,8 @@ export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#00cc99',
     borderColor: '#00cc99',
   },
-  commuter_semi: {
-    key: 'commuter_semi',
+  commuter_semi_exp: {
+    key: 'commuter_semi_exp',
     name: '通勤準急',
     nameEn: 'Commuter Semi Express',
     shortName: '通準',

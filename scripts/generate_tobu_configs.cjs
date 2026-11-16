@@ -102,7 +102,7 @@ const LINE_METAS = {
 const COMMON_TRAIN_TYPE_MAP = {
   '普通': 'local',
   '各駅停車': 'local',
-  '区間準急': 'section_semi',
+  '区間準急': 'section_semi_exp',
   '準急': 'semi_exp',
   '区間急行': 'section_exp',
   '急行': 'express',

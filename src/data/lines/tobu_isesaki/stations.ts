@@ -26,7 +26,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "semi_exp",
       "section_exp",
       "express",
@@ -61,7 +61,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "semi_exp",
       "section_exp",
       "express"
@@ -96,7 +96,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "semi_exp",
       "section_exp",
       "express",

@@ -70,7 +70,7 @@ module.exports = {
     '各駅停車': 'local',
     '普通': 'local',
     '準急': 'semi_exp',
-    '通勤準急': 'commuter_semi',
+    '通勤準急': 'commuter_semi_exp',
     '急行': 'express',
     '通勤急行': 'commuter_exp',
     '快速急行': 'rapid_exp',
@@ -88,7 +88,7 @@ module.exports = {
     'ふじさん': 'limited_exp',
   },
   // 区間急行・快速急行・急行の種別を保持
-  preserveAllStopsTypes: ['express', 'commuter_exp', 'rapid_exp', 'semi_exp', 'commuter_semi', 'limited_exp'],
+  preserveAllStopsTypes: ['express', 'commuter_exp', 'rapid_exp', 'semi_exp', 'commuter_semi_exp', 'limited_exp'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 120, // 新宿 -> 南新宿

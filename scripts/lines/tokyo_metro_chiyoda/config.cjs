@@ -43,7 +43,7 @@ module.exports = {
     '普通': 'local',
     '各停': 'local',
     '準急': 'semi_exp',
-    '通勤準急': 'commuter_semi',
+    '通勤準急': 'commuter_semi_exp',
     '急行': 'express',
     '通勤急行': 'commuter_exp',
     '特急': 'limited_exp',

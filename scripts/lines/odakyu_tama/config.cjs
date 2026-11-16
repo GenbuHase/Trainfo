@@ -25,7 +25,7 @@ module.exports = {
     '各駅停車': 'local',
     '普通': 'local',
     '準急': 'semi_exp',
-    '通勤準急': 'commuter_semi',
+    '通勤準急': 'commuter_semi_exp',
     '急行': 'express',
     '通勤急行': 'commuter_exp',
     '快速急行': 'rapid_exp',

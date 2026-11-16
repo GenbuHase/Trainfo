@@ -185,9 +185,9 @@ export type LineId =
 export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
   | 'regular'                 // 普通（むさしの号・しもうさ号・中央本線・篠ノ井線・大糸線等）
-  | 'section_semi'            // 区間準急（東武線等）
+  | 'section_semi_exp'            // 区間準急（東武線等）
   | 'semi_exp'                 // 準急
-  | 'commuter_semi'           // 通勤準急（西武線等）
+  | 'commuter_semi_exp'           // 通勤準急（西武線等）
   | 'section_exp'             // 区間急行（東武線等）
   | 'express'                 // 急行（急行秩父路、東武線等）
   | 'commuter_exp'            // 通勤急行（副都心線、西武線等）

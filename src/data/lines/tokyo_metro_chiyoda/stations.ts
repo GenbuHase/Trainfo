@@ -27,7 +27,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp",
       "limited_exp"
     ],
@@ -62,7 +62,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -97,7 +97,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -132,7 +132,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp",
       "limited_exp"
     ],
@@ -165,7 +165,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -197,7 +197,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -233,7 +233,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -268,7 +268,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp",
       "limited_exp"
     ],
@@ -307,7 +307,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -342,7 +342,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -380,7 +380,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp",
       "limited_exp"
     ],
@@ -418,7 +418,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -450,7 +450,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -482,7 +482,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -514,7 +514,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -550,7 +550,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -585,7 +585,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -622,7 +622,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp",
       "limited_exp"
     ],
@@ -657,7 +657,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {
@@ -689,7 +689,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "local",
       "semi_exp",
       "express",
-      "commuter_semi",
+      "commuter_semi_exp",
       "commuter_exp"
     ],
     "platforms": {

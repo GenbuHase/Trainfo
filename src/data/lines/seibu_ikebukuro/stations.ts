@@ -34,7 +34,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "express",
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -183,7 +183,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "s_train",
       "rapid_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -333,7 +333,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     "stoppingTypes": [
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -366,7 +366,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "s_train",
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -431,7 +431,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "express",
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -532,7 +532,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "express",
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -569,7 +569,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "express",
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],
@@ -604,7 +604,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "express",
       "commuter_exp",
       "rapid",
-      "commuter_semi",
+      "commuter_semi_exp",
       "semi_exp",
       "local"
     ],

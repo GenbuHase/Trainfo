@@ -22,8 +22,8 @@ export const JOBAN_LOCAL_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#3cb371',
     borderColor: '#2e8b57',
   },
-  commuter_semi: {
-    key: 'commuter_semi',
+  commuter_semi_exp: {
+    key: 'commuter_semi_exp',
     name: '通勤準急',
     nameEn: 'Commuter Semi Express',
     shortName: '通準',

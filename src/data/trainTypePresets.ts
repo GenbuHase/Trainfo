@@ -504,8 +504,8 @@ export const TOBU_PRESETS = {
   } satisfies TrainTypeConfig,
 
   /** 区間準急 */
-  SECTION_SEMI: {
-    key: 'section_semi',
+  SECTION_SEMI_EXP: {
+    key: 'section_semi_exp',
     name: '区間準急',
     nameEn: 'Section Semi Express',
     shortName: '区準',
@@ -743,8 +743,8 @@ export const ODAKYU_PRESETS = {
   } satisfies TrainTypeConfig,
 
   /** 通勤準急 */
-  COMMUTER_SEMI: {
-    key: 'commuter_semi',
+  COMMUTER_SEMI_EXP: {
+    key: 'commuter_semi_exp',
     name: '通勤準急',
     nameEn: 'Commuter Semi Express',
     shortName: '通準',
