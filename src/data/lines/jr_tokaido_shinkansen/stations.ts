@@ -153,13 +153,14 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "name": "熱海",
     "nameKana": "あたみ",
     "nameEn": "Atami",
-    "lat": 35.1039035,
-    "lng": 139.0780587,
+    "lat": 35.104081,
+    "lng": 139.0779086,
     "transfers": [
       "JR東海道線",
-      "JR伊東線"
+      "JR伊東線",
+      "JR東海道本線（熱海～豊橋）"
     ],
-    "address": "",
+    "address": "静岡県熱海市田原本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

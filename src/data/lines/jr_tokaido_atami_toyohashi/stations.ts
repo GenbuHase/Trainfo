@@ -13,9 +13,10 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "lng": 139.0780587,
     "transfers": [
       "JR東海道線",
-      "JR伊東線"
+      "JR伊東線",
+      "東海道新幹線"
     ],
-    "address": "",
+    "address": "静岡県熱海市田原本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
