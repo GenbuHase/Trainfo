@@ -24,5 +24,5 @@ export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0073bc',
     borderColor: '#0073bc',
   },
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

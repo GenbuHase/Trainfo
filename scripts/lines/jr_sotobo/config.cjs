@@ -204,9 +204,9 @@ module.exports = {
     "各駅停車": "local",
     "快速": "rapid",
     "通勤快速": "rapid",
-    "特急": "limitedExp",
-    "わかしお": "limitedExp",
-    "新宿わかしお": "limitedExp"
+    "特急": "limited_exp",
+    "わかしお": "limited_exp",
+    "新宿わかしお": "limited_exp"
   },
   "defaultCars": 8,
   "baseSectionSeconds": {

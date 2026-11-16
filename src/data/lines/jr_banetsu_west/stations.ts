@@ -25,7 +25,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -136,7 +136,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -273,7 +273,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -413,7 +413,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -577,7 +577,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -688,7 +688,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -853,7 +853,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1047,7 +1047,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1160,7 +1160,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

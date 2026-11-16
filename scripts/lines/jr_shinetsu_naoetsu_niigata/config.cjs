@@ -306,11 +306,11 @@ module.exports = {
     "各駅停車": "local",
     "普通": "local",
     "快速": "rapid",
-    "特急": "limitedExp",
-    "特急しらゆき": "limitedExp",
-    "しらゆき": "limitedExp",
-    "特急いなほ": "limitedExp",
-    "いなほ": "limitedExp"
+    "特急": "limited_exp",
+    "特急しらゆき": "limited_exp",
+    "しらゆき": "limited_exp",
+    "特急いなほ": "limited_exp",
+    "いなほ": "limited_exp"
   },
   "defaultCars": 4,
   "baseSectionSeconds": {

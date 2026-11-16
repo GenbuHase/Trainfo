@@ -37,5 +37,5 @@ export const FUKUTOSHIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#ba3873',
   },
   // S-TRAIN: #99cc00 (ライムグリーン)
-  strain: LINER_PRESETS.STRAIN,
+  s_train: LINER_PRESETS.STRAIN,
 };

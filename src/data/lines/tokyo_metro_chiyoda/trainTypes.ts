@@ -12,8 +12,8 @@ export const CHIYODA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#00bb85',
     borderColor: '#009a6d',
   },
-  semiExp: {
-    key: 'semiExp',
+  semi_exp: {
+    key: 'semi_exp',
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',
@@ -52,8 +52,8 @@ export const CHIYODA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#d63031',
     borderColor: '#b71540',
   },
-  limitedExp: {
-    key: 'limitedExp',
+  limited_exp: {
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

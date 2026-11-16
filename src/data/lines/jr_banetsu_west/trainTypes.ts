@@ -21,8 +21,8 @@ export const BANETSU_WEST_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#c53030',
     borderColor: '#9b2c2c',
   },
-  limitedExp: {
-    key: 'limitedExp',
+  limited_exp: {
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

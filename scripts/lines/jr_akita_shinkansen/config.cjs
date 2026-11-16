@@ -59,7 +59,7 @@ module.exports = {
   "preserveAllStopsTypes": [
     "komachi",
     "hayabusa",
-    "limitedExp"
+    "limited_exp"
   ],
   "defaultCars": 7
 };

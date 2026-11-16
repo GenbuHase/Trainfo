@@ -31,11 +31,11 @@ module.exports = {
     '各停': 'local',
     '普通': 'local',
     '快速': 'rapid',
-    '通勤快速': 'commuter',
-    '特急': 'limitedExp',
+    '通勤快速': 'commuter_rapid',
+    '特急': 'limited_exp',
   },
   // 直通快速の種別を保持
-  preserveAllStopsTypes: ['rapid', 'commuter', 'limitedExp'],
+  preserveAllStopsTypes: ['rapid', 'commuter_rapid', 'limited_exp'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 960, // 羽沢横浜国大 -> 武蔵小杉 (16分)

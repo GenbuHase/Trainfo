@@ -100,9 +100,9 @@ module.exports = {
     '各駅停車': 'local',
     '普通': 'local',
     '快速': 'rapid',
-    '特急いなほ': 'limitedExp',
-    'いなほ': 'limitedExp',
-    '特急': 'limitedExp',
+    '特急いなほ': 'limited_exp',
+    'いなほ': 'limited_exp',
+    '特急': 'limited_exp',
   },
   defaultCars: 4,
   baseSectionSeconds: {

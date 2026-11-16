@@ -38,7 +38,7 @@ export const KEIYO_STATIONS: Station[] = [
       "local",
       "rapid",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JE-01",
     "isMajor": true
@@ -412,7 +412,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JE-14",
     "isMajor": true
@@ -532,7 +532,7 @@ export const KEIYO_STATIONS: Station[] = [
       "local",
       "rapid",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JE-18",
     "isMajor": true

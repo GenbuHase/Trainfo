@@ -33,7 +33,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "rapid",
       "commuter_rapid",
-      "limitedExp",
+      "limited_exp",
       "local"
     ],
     "isMajor": true,
@@ -136,7 +136,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "rapid",
       "commuter_rapid",
-      "limitedExp",
+      "limited_exp",
       "local"
     ],
     "isMajor": true,
@@ -236,7 +236,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "rapid",
       "commuter_rapid",
-      "limitedExp",
+      "limited_exp",
       "local"
     ],
     "isMajor": true,
@@ -341,7 +341,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "rapid",
       "commuter_rapid",
-      "limitedExp",
+      "limited_exp",
       "local"
     ],
     "isMajor": true,

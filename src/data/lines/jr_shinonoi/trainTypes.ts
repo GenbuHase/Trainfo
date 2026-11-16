@@ -17,5 +17,5 @@ export const SHINONOI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 快速 (みすず号等): オレンジ
   rapid: CHUO_PRESETS.RAPID,
   // 特急 (しなの、あずさ、信州): クリムゾンレッド
-  limitedExp: LIMITED_EXP_PRESETS.CHUO,
+  limited_exp: LIMITED_EXP_PRESETS.CHUO,
 };

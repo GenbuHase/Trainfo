@@ -31,7 +31,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -71,7 +71,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -111,7 +111,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -145,7 +145,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -174,7 +174,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -212,7 +212,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -241,7 +241,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -273,7 +273,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -304,7 +304,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -336,7 +336,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -367,7 +367,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -400,7 +400,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki",
       "tanigawa",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

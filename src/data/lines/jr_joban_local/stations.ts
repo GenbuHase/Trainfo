@@ -25,7 +25,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -57,7 +57,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -91,7 +91,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -126,7 +126,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -158,7 +158,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -192,7 +192,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -227,7 +227,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -259,7 +259,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -291,7 +291,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -326,7 +326,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -358,7 +358,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -393,7 +393,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -427,7 +427,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -462,7 +462,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"

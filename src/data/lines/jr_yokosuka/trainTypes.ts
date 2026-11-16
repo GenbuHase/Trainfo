@@ -22,5 +22,5 @@ export const YOKOSUKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0074be',
     borderColor: '#0074be',
   },
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

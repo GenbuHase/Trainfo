@@ -35,7 +35,7 @@ export const UENO_TOKYO_STATIONS: Station[] = [
       "rapid",
       "special_rapid",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -79,7 +79,7 @@ export const UENO_TOKYO_STATIONS: Station[] = [
       "rapid",
       "special_rapid",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

@@ -29,7 +29,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -61,7 +61,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -93,7 +93,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -125,7 +125,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -157,7 +157,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -191,7 +191,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -223,7 +223,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -258,7 +258,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -290,7 +290,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -322,7 +322,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -354,7 +354,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -386,7 +386,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -418,7 +418,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -452,7 +452,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -484,7 +484,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -516,7 +516,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -548,7 +548,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -582,7 +582,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid",
       "rapid_mie",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

@@ -23,7 +23,7 @@ export const JOBAN_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#00966b',
   },
   special_rapid: JR_RAPID_PRESETS.JOBAN_SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.JOBAN,
+  limited_exp: LIMITED_EXP_PRESETS.JOBAN,
   // 既存コード・ダイヤデータ互換用
   limited_express: LIMITED_EXP_PRESETS.JOBAN,
 };

@@ -21,8 +21,8 @@ export const OU_AKITA_AOMORI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0073bc",
     "borderColor": "#0073bc"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

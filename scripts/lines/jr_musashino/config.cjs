@@ -53,7 +53,7 @@ module.exports = {
     'むさしの号': 'regular',
     'しもうさ号': 'regular',
     '快速': 'local',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   junctionPassingRules: [
     // 大宮(JU-07) <-> 南浦和(JM-25) の短絡線は 武蔵浦和(JM-26) を通過駅として経由

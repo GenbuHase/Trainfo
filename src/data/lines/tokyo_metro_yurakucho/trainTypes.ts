@@ -15,5 +15,5 @@ export const YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#a38450',
   },
   // S-TRAIN: #99cc00 (ライムグリーン)
-  strain: LINER_PRESETS.STRAIN,
+  s_train: LINER_PRESETS.STRAIN,
 };

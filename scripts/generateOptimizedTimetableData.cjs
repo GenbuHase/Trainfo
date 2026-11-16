@@ -59,21 +59,21 @@ NAME_TO_STATION_ID.set('鶴ケ島', 'TJ-24');
 function doesTrainStopAt(type, stNum) {
   if (type === 'local') return true;
   // 準急: 池袋(1)、上板橋(7)、成増(10)以北各駅停車
-  if (type === 'semiExp') return stNum === 1 || stNum === 7 || stNum >= 10;
+  if (type === 'semi_exp') return stNum === 1 || stNum === 7 || stNum >= 10;
   // 急行: 池袋(1)、成増(10)、和光市(11)、朝霞(12)、朝霞台(13)、志木(14)、ふじみ野(18)、川越(21)、川越市(22)以北各駅停車
   if (type === 'express') {
     return stNum === 1 || stNum === 10 || stNum === 11 || stNum === 12 || stNum === 13 || stNum === 14 || stNum === 18 || stNum >= 21;
   }
   // 快速急行: 池袋(1)、和光市(11)、朝霞台(13)、川越(21)、川越市(22)以北各駅停車
-  if (type === 'rapidExp') {
+  if (type === 'rapid_exp') {
     return stNum === 1 || stNum === 11 || stNum === 13 || stNum >= 21;
   }
   // 川越特急: 池袋(1)、朝霞台(13)、川越(21)、川越市(22)、坂戸(26)、東松山(29)以北各駅停車
-  if (type === 'kawagoeExp') {
+  if (type === 'kawagoe_exp') {
     return stNum === 1 || stNum === 13 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
   }
   // TJライナー: 池袋(1)、ふじみ野(18)、川越(21)、川越市(22)、坂戸(26)、東松山(29)以北各駅停車
-  if (type === 'tjLiner') {
+  if (type === 'tj_liner') {
     return stNum === 1 || stNum === 18 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
   }
   return true;

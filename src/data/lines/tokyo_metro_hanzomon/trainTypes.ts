@@ -12,8 +12,8 @@ export const HANZOMON_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#9b7cb6',
     borderColor: '#785694',
   },
-  semiExp: {
-    key: 'semiExp',
+  semi_exp: {
+    key: 'semi_exp',
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',

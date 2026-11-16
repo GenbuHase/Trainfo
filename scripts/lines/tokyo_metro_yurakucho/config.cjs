@@ -49,9 +49,9 @@ module.exports = {
     '普通': 'local',
     '各駅停車': 'local',
     '各停': 'local',
-    'Ｓ−ＴＲＡＩＮ': 'strain',
-    'S-TRAIN': 'strain',
-    'Ｓ－ＴＲＡＩＮ': 'strain',
+    'Ｓ−ＴＲＡＩＮ': 's_train',
+    'S-TRAIN': 's_train',
+    'Ｓ－ＴＲＡＩＮ': 's_train',
   },
   defaultCars: 10,
   baseSectionSeconds: {

@@ -151,14 +151,14 @@ module.exports = {
     "快速アクティー": "rapid_acty",
     "快速ラビット": "rapid_rabbit",
     "快速アーバン": "rapid_urban",
-    "特急": "limitedExp",
-    "成田エクスプレス": "limitedExp",
-    "踊り子": "limitedExp",
-    "サフィール踊り子": "limitedExp",
-    "湘南": "limitedExp",
-    "草津・四万": "limitedExp",
-    "あかぎ": "limitedExp",
-    "しおさい": "limitedExp"
+    "特急": "limited_exp",
+    "成田エクスプレス": "limited_exp",
+    "踊り子": "limited_exp",
+    "サフィール踊り子": "limited_exp",
+    "湘南": "limited_exp",
+    "草津・四万": "limited_exp",
+    "あかぎ": "limited_exp",
+    "しおさい": "limited_exp"
   },
   "defaultCars": 15,
   "baseSectionSeconds": {

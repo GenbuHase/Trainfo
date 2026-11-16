@@ -29,7 +29,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -188,7 +188,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -349,7 +349,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -411,7 +411,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -533,7 +533,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -597,7 +597,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -780,7 +780,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -850,7 +850,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -973,7 +973,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1039,7 +1039,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1141,7 +1141,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1206,7 +1206,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1338,7 +1338,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

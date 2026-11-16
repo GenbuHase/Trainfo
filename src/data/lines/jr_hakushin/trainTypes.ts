@@ -22,5 +22,5 @@ export const HAKUSHIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#c2185b',
     borderColor: '#880e4f',
   },
-  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
+  limited_exp: LIMITED_EXP_PRESETS.NIIGATA,
 };

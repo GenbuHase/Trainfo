@@ -29,7 +29,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -63,7 +63,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "platforms": {
       "inbound": "3番線",
@@ -101,7 +101,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -142,7 +142,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -180,7 +180,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -212,7 +212,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -241,7 +241,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -275,7 +275,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -443,7 +443,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -594,8 +594,8 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {

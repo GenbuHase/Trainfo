@@ -25,11 +25,11 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi",
       "express",
       "commuter_exp",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -58,7 +58,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi"
     ],
     "platforms": {
@@ -87,11 +87,11 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi",
       "express",
       "commuter_exp",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -120,7 +120,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi"
     ],
     "platforms": {
@@ -149,7 +149,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi"
     ],
     "platforms": {
@@ -180,11 +180,11 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi",
       "express",
       "commuter_exp",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -216,11 +216,11 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi",
       "express",
       "commuter_exp",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -249,11 +249,11 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "commuter_semi",
       "express",
       "commuter_exp",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1-3番線",

@@ -41,8 +41,8 @@ export const IGR_IWATE_GINGA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#e65100',
     borderColor: '#e65100',
   },
-  limitedExp: {
-    key: 'limitedExp',
+  limited_exp: {
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

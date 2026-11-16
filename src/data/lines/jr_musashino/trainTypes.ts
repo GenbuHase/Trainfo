@@ -26,5 +26,5 @@ export const MUSASHINO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#f97316',
   },
   // 特急（臨時特急など）: #d32f2f (JR特急レッド)
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

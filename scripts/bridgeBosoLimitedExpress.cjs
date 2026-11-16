@@ -320,7 +320,7 @@ function bridgeBosoLimitedExpress() {
           lineId: seg.lineId,
           trainId: chain.trainId,
           trainNumber: chain.trainNumber,
-          trainType: 'limitedExp',
+          trainType: 'limited_exp',
           trainName: chain.trainName,
           direction: chain.direction,
           originStationId: seg.originStationId,

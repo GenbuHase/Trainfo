@@ -22,5 +22,5 @@ export const NAMBU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "nameEn": "Rapid",
     "color": "#f39800"
   },
-  "limitedExp": LIMITED_EXP_PRESETS.STANDARD
+  "limited_exp": LIMITED_EXP_PRESETS.STANDARD
 };

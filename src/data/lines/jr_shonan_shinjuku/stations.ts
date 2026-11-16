@@ -34,7 +34,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -70,7 +70,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -107,7 +107,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -147,7 +147,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -189,7 +189,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -231,7 +231,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -340,7 +340,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -383,7 +383,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -455,7 +455,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

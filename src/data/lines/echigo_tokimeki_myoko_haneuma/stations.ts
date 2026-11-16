@@ -22,7 +22,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -110,7 +110,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -170,7 +170,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -227,7 +227,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -289,7 +289,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

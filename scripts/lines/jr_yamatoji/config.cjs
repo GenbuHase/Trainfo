@@ -175,7 +175,7 @@ module.exports = {
     '紀州路快速': 'kishuji_rapid',
     '丹波路快速': 'tambaji_rapid',
     '新快速': 'new_rapid',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   defaultCars: 8,
 };

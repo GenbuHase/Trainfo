@@ -124,9 +124,9 @@ module.exports = {
   "trainTypeMap": {
     "普通": "local",
     "各駅停車": "local",
-    "特急": "limitedExp",
-    "踊り子": "limitedExp",
-    "サフィール踊り子": "limitedExp"
+    "特急": "limited_exp",
+    "踊り子": "limited_exp",
+    "サフィール踊り子": "limited_exp"
   },
   "defaultCars": 7
 };

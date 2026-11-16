@@ -16,5 +16,5 @@ export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   rapid_urban: JR_RAPID_PRESETS.URBAN,
   commuter_rapid: JR_RAPID_PRESETS.COMMUTER_RAPID,
   special_rapid: JR_RAPID_PRESETS.JOBAN_SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

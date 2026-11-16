@@ -356,7 +356,7 @@ async function runAllLinesIntegrationTests() {
   check('中部・甲信越: 特急しなの号 (名古屋 jr_chuo_west -> jr_shinonoi 長野) 連続追尾', () => {
     const cw = getLine('jr_chuo_west')!;
     const shinano = cw.globalTimetable.find(
-      (t) => !t.isHoliday && t.trainType === 'limitedExp' && t.throughLineId === 'jr_shinonoi'
+      (t) => !t.isHoliday && t.trainType === 'limited_exp' && t.throughLineId === 'jr_shinonoi'
     )!;
     assert.ok(shinano && shinano.trainName?.includes('しなの'));
     const res = traceTrip(shinano, ['jr_chuo_west', 'jr_shinonoi'], ['jr_chuo_west', 'jr_shinonoi']);

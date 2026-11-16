@@ -43,10 +43,10 @@ module.exports = {
     '普通': 'regular',
     '各駅停車': 'regular',
     '快速': 'rapid',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   // 快速みすず等、区間全駅停車となる快速列車の種別を保持
-  preserveAllStopsTypes: ['rapid', 'limitedExp'],
+  preserveAllStopsTypes: ['rapid', 'limited_exp'],
   defaultCars: 6,
   // 駅間基準秒数 (通過駅補間用)
   baseSectionSeconds: {

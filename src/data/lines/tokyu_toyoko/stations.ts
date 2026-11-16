@@ -33,9 +33,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -94,9 +94,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -211,9 +211,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "5・6番線",
@@ -342,9 +342,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -407,7 +407,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp"
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -495,8 +495,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp"
+      "commuter_limited_exp",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "5・6番線",
@@ -645,9 +645,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "1番線",

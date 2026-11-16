@@ -19,7 +19,7 @@ export const ITSUKAICHI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 快速: オレンジバーミリオン
   rapid: CHUO_PRESETS.RAPID,
   // 通勤快速: パープル
-  commuter: CHUO_PRESETS.COMMUTER,
+  commuter_rapid: CHUO_PRESETS.COMMUTER,
   // 特別快速（ホリデー快速あきがわ等）: スカイブルー
   special_rapid: CHUO_PRESETS.SPECIAL_RAPID,
   // 青梅特快: グリーン
@@ -27,5 +27,5 @@ export const ITSUKAICHI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 通勤特快: レッド
   commuter_special_rapid: CHUO_PRESETS.COMMUTER_SPECIAL_RAPID,
   // 特急: ワインレッド
-  limitedExp: CHUO_PRESETS.LIMITED_EXP,
+  limited_exp: CHUO_PRESETS.LIMITED_EXP,
 };

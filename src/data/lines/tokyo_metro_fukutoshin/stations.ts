@@ -285,7 +285,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
       "local",
       "commuter_exp",
       "express",
-      "strain"
+      "s_train"
     ],
     "isMajor": true,
     "platforms": {
@@ -407,7 +407,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
       "local",
       "commuter_exp",
       "express",
-      "strain"
+      "s_train"
     ],
     "isMajor": true,
     "platforms": {
@@ -507,7 +507,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
       "local",
       "commuter_exp",
       "express",
-      "strain"
+      "s_train"
     ],
     "isMajor": true,
     "platforms": {

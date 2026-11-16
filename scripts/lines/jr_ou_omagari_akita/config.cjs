@@ -94,14 +94,14 @@ module.exports = {
     "各駅停車": "regular",
     "普通": "regular",
     "快速": "rapid",
-    "特急": "limitedExp",
-    "つがる": "limitedExp",
-    "リゾートしらかみ": "limitedExp"
+    "特急": "limited_exp",
+    "つがる": "limited_exp",
+    "リゾートしらかみ": "limited_exp"
   },
   "preserveAllStopsTypes": [
     "regular",
     "rapid",
-    "limitedExp",
+    "limited_exp",
     "special_rapid"
   ],
   "defaultTrainType": "regular",

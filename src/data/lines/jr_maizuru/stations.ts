@@ -26,7 +26,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -54,7 +54,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -82,7 +82,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -110,7 +110,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -138,7 +138,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -166,7 +166,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   }
 ];

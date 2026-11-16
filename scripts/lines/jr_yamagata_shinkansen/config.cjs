@@ -94,7 +94,7 @@ module.exports = {
   "preserveAllStopsTypes": [
     "tsubasa",
     "yamabiko",
-    "limitedExp"
+    "limited_exp"
   ],
   "defaultCars": 7
 };

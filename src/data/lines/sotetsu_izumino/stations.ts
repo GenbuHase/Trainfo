@@ -26,8 +26,8 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
       "local",
       "rapid",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -148,8 +148,8 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
       "local",
       "rapid",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -245,8 +245,8 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
       "local",
       "rapid",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",

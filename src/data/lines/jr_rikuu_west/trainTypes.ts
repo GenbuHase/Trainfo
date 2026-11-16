@@ -24,5 +24,5 @@ export const RIKUU_WEST_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

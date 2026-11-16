@@ -94,7 +94,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -206,7 +206,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -316,7 +316,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -372,7 +372,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -511,7 +511,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -567,7 +567,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -595,7 +595,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -649,7 +649,7 @@ export const SOTOBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -702,7 +702,7 @@ export const SOTOBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -757,7 +757,7 @@ export const SOTOBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   }

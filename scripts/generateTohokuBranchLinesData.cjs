@@ -795,7 +795,7 @@ export const ${spec.exportPrefix}_TRAIN_TYPES: Record<string, TrainTypeConfig> =
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 ${busBlock}};
 `;
   fs.writeFileSync(path.join(outDir, 'trainTypes.ts'), trainTypesContent, 'utf8');
@@ -862,8 +862,8 @@ export const ${spec.exportLineVar}: LineDefinition = {
   }
 
   const preserveTypes = spec.hasSubstitutionBus
-    ? `['regular', 'rapid', 'special_rapid', 'limitedExp', 'substitution_bus']`
-    : `['regular', 'rapid', 'special_rapid', 'limitedExp']`;
+    ? `['regular', 'rapid', 'special_rapid', 'limited_exp', 'substitution_bus']`
+    : `['regular', 'rapid', 'special_rapid', 'limited_exp']`;
 
   const configContent = `// ${spec.name} Yahoo! 路線情報スクレイパー設定
 module.exports = {
@@ -891,7 +891,7 @@ module.exports = {
     '最上川': 'rapid',
     '快速': 'rapid',
     '代行バス': 'substitution_bus',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   preserveAllStopsTypes: ${preserveTypes},
   defaultTrainType: 'regular',

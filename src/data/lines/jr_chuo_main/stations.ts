@@ -27,12 +27,12 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -62,7 +62,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
@@ -95,7 +95,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
@@ -128,12 +128,12 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -163,7 +163,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
@@ -196,7 +196,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
@@ -229,7 +229,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
@@ -262,7 +262,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
@@ -297,12 +297,12 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -412,7 +412,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "platforms": {
@@ -440,7 +440,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -496,7 +496,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -552,7 +552,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -610,7 +610,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp",
+      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -640,7 +640,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -695,7 +695,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -834,7 +834,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -890,7 +890,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -972,7 +972,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -1001,7 +1001,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -1030,7 +1030,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1061,7 +1061,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -1120,7 +1120,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {

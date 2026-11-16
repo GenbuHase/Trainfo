@@ -34,7 +34,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -118,7 +118,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -176,7 +176,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -259,7 +259,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -317,7 +317,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -371,7 +371,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -424,7 +424,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -478,7 +478,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -506,7 +506,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -615,7 +615,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   }

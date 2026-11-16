@@ -30,11 +30,11 @@ module.exports = {
     '普通': 'local',
     '各駅停車': 'local',
     '快速': 'rapid',
-    '通勤快速': 'commuter',
-    '特急': 'limitedExp',
+    '通勤快速': 'commuter_rapid',
+    '特急': 'limited_exp',
   },
   // 埼京線直通の快速・通勤快速の案内種別を保持
-  preserveAllStopsTypes: ['rapid', 'commuter', 'limitedExp'],
+  preserveAllStopsTypes: ['rapid', 'commuter_rapid', 'limited_exp'],
   defaultCars: 10,
   resolveCars: (trip) => {
     // 川越以西（川越〜高麗川）の列車（origin/destがJA-31〜JA-36）は4両、大宮方面は10両

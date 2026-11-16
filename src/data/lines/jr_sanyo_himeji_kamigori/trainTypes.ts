@@ -21,11 +21,11 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRAIN_TYPES: Record<string, TrainTypeConfi
     "bgColor": "#0072bc",
     "borderColor": "#0072bc"
   },
-  "limitedExp": {
+  "limited_exp": {
     "name": "特急",
     "shortName": "特急",
     "color": "#e60012",
-    "key": "limitedExp",
+    "key": "limited_exp",
     "nameEn": "Limited Express",
     "textColor": "#ffffff",
     "bgColor": "#e60012",

@@ -476,7 +476,7 @@ function calcStationDistanceKm(lat1: number, lng1: number, lat2: number, lng2: n
 function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolean {
   if (tripA.isHoliday !== tripB.isHoliday) return false;
   if (tripA.lineId === tripB.lineId) return false;
-  if ((tripA.trainType === 'limitedExp') !== (tripB.trainType === 'limitedExp')) return false;
+  if ((tripA.trainType === 'limited_exp') !== (tripB.trainType === 'limited_exp')) return false;
 
   // 新幹線と在来線の誤接続を防止（新幹線同士のみ直通可）
   const isShinkansenA = tripA.lineId.endsWith('_shinkansen');

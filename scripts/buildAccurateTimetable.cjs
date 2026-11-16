@@ -33,11 +33,11 @@ const STATION_NUMBERS = {
 
 function doesTrainStopAt(type, stNum) {
   if (type === 'local') return true;
-  if (type === 'semiExp') return stNum === 1 || stNum === 7 || stNum >= 10;
+  if (type === 'semi_exp') return stNum === 1 || stNum === 7 || stNum >= 10;
   if (type === 'express') return stNum === 1 || stNum === 10 || stNum === 13 || stNum === 14 || stNum === 18 || stNum >= 21;
-  if (type === 'rapidExp') return stNum === 1 || stNum === 11 || stNum === 14 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
-  if (type === 'kawagoeExp') return stNum === 1 || stNum === 13 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
-  if (type === 'tjLiner') return stNum === 1 || stNum === 18 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
+  if (type === 'rapid_exp') return stNum === 1 || stNum === 11 || stNum === 14 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
+  if (type === 'kawagoe_exp') return stNum === 1 || stNum === 13 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
+  if (type === 'tj_liner') return stNum === 1 || stNum === 18 || stNum === 21 || stNum === 22 || stNum === 26 || stNum >= 29;
   return true;
 }
 

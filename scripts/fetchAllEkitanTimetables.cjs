@@ -48,11 +48,11 @@ function sleep(ms) {
 
 function mapTrainType(rawType) {
   if (!rawType) return 'local';
-  if (rawType.includes('TJ') || rawType.includes('ＴＪ')) return 'tjLiner';
-  if (rawType.includes('川越特急') || rawType.includes('川特')) return 'kawagoeExp';
-  if (rawType.includes('快速急行') || rawType.includes('快急')) return 'rapidExp';
+  if (rawType.includes('TJ') || rawType.includes('ＴＪ')) return 'tj_liner';
+  if (rawType.includes('川越特急') || rawType.includes('川特')) return 'kawagoe_exp';
+  if (rawType.includes('快速急行') || rawType.includes('快急')) return 'rapid_exp';
   if (rawType.includes('急行')) return 'express';
-  if (rawType.includes('準急')) return 'semiExp';
+  if (rawType.includes('準急')) return 'semi_exp';
   return 'local';
 }
 

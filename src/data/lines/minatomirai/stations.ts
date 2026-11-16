@@ -35,9 +35,9 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -94,9 +94,9 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -126,9 +126,9 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -158,9 +158,9 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -190,9 +190,9 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_ltd_exp",
-      "ltd_exp",
-      "strain"
+      "commuter_limited_exp",
+      "limited_exp",
+      "s_train"
     ],
     "platforms": {
       "inbound": "1・2番線",

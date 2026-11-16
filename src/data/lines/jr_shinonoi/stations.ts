@@ -20,7 +20,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.1144795,
@@ -163,7 +163,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.230739,
@@ -220,7 +220,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.3543382,
@@ -305,7 +305,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.4550568,
@@ -420,7 +420,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.5774379,
@@ -535,7 +535,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.643211,

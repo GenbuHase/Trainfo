@@ -508,7 +508,7 @@ function connectStations(nodeMap, adj, stops) {
 function stoppingTypes(meta, section) {
   const types = ['regular'];
   if (meta.rapid && section.lineId !== 'jr_ou_omagari_akita') types.push('rapid');
-  if (meta.ltd && section.lineId === 'jr_ou_akita_aomori') types.push('limitedExp');
+  if (meta.ltd && section.lineId === 'jr_ou_akita_aomori') types.push('limited_exp');
   return types;
 }
 
@@ -586,8 +586,8 @@ function writeTrainTypes(section) {
     },
   };
   if (section.lineId === 'jr_ou_akita_aomori') {
-    types.limitedExp = {
-      key: 'limitedExp',
+    types.limited_exp = {
+      key: 'limited_exp',
       name: '特急',
       nameEn: 'Limited Express',
       shortName: '特急',
@@ -684,11 +684,11 @@ function writeConfig(section, placed) {
       各駅停車: 'regular',
       普通: 'regular',
       快速: 'rapid',
-      特急: 'limitedExp',
-      つがる: 'limitedExp',
-      リゾートしらかみ: 'limitedExp',
+      特急: 'limited_exp',
+      つがる: 'limited_exp',
+      リゾートしらかみ: 'limited_exp',
     },
-    preserveAllStopsTypes: ['regular', 'rapid', 'limitedExp', 'special_rapid'],
+    preserveAllStopsTypes: ['regular', 'rapid', 'limited_exp', 'special_rapid'],
     defaultTrainType: 'regular',
     defaultCars: section.defaultCars,
     keepAllLineSegments: section.keepAllLineSegments,

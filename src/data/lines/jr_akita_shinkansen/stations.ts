@@ -22,7 +22,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -49,7 +49,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -76,7 +76,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -105,7 +105,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -136,7 +136,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -168,7 +168,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

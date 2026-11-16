@@ -28,7 +28,7 @@ export const NARITA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -87,7 +87,7 @@ export const NARITA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -221,7 +221,7 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -495,7 +495,7 @@ export const NARITA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JO-36",
     "isMajor": true
@@ -528,7 +528,7 @@ export const NARITA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JO-37",
     "isMajor": true

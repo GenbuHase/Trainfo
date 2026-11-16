@@ -34,7 +34,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -103,7 +103,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -140,7 +140,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -217,7 +217,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -279,7 +279,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -341,7 +341,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -403,7 +403,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -526,7 +526,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -591,7 +591,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -656,7 +656,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -794,7 +794,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid",
       "rapid_urban",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

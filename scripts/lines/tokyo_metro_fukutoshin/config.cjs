@@ -46,9 +46,9 @@ module.exports = {
     '通勤急行': 'commuter_exp',
     'Ｆライナー': 'express',
     'Fライナー': 'express',
-    'Ｓ−ＴＲＡＩＮ': 'strain',
-    'S-TRAIN': 'strain',
-    'Ｓ－ＴＲＡＩＮ': 'strain',
+    'Ｓ−ＴＲＡＩＮ': 's_train',
+    'S-TRAIN': 's_train',
+    'Ｓ－ＴＲＡＩＮ': 's_train',
   },
   defaultCars: 10,
   baseSectionSeconds: {

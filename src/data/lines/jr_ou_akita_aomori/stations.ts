@@ -24,7 +24,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -136,7 +136,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": false,
@@ -245,7 +245,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -326,7 +326,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": false,
@@ -382,7 +382,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -463,7 +463,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": false,
@@ -519,7 +519,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -629,7 +629,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -738,7 +738,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": false,
@@ -795,7 +795,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -853,7 +853,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -911,7 +911,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": false,
@@ -966,7 +966,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": false,
@@ -1078,7 +1078,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1110,7 +1110,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

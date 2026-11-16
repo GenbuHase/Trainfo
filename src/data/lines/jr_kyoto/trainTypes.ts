@@ -31,8 +31,8 @@ export const JR_KYOTO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0072bc',
     borderColor: '#005a96',
   },
-  limitedExp: {
-    key: 'limitedExp',
+  limited_exp: {
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

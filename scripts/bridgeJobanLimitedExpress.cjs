@@ -58,8 +58,8 @@ function bridgeJobanLimitedExpress() {
     if (!match) continue;
 
     bridgedCount++;
-    if (r.trainType === 'limitedExp') r.trainType = 'limited_express';
-    if (match.trainType === 'limitedExp') match.trainType = 'limited_express';
+    if (r.trainType === 'limited_exp') r.trainType = 'limited_express';
+    if (match.trainType === 'limited_exp') match.trainType = 'limited_express';
 
     if (r.direction === 'outbound') {
       const lastRStop = r.stops[r.stops.length - 1];

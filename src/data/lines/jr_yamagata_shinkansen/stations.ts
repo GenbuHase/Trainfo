@@ -21,7 +21,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -51,7 +51,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -80,7 +80,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -110,7 +110,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -139,7 +139,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -170,7 +170,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -199,7 +199,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -228,7 +228,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -257,7 +257,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -286,7 +286,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -318,7 +318,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

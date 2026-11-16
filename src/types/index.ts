@@ -186,7 +186,7 @@ export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
   | 'regular'                 // 普通（むさしの号・しもうさ号・中央本線・篠ノ井線・大糸線等）
   | 'section_semi'            // 区間準急（東武線等）
-  | 'semiExp'                 // 準急
+  | 'semi_exp'                 // 準急
   | 'commuter_semi'           // 通勤準急（西武線等）
   | 'section_exp'             // 区間急行（東武線等）
   | 'express'                 // 急行（急行秩父路、東武線等）
@@ -195,21 +195,19 @@ export type TrainTypeKey =
   | 'rapid_acty'              // 快速アクティー（東海道線）
   | 'rapid_rabbit'            // 快速ラビット（宇都宮線）
   | 'rapid_urban'             // 快速アーバン（高崎線）
-  | 'commuter'                // 通勤快速（埼京線、中央線等）
+  | 'commuter_rapid'          // 通勤快速（埼京線、中央線、つくばエクスプレス等）
   | 'semi_rapid'              // 区間快速（つくばエクスプレス、東武線等）
-  | 'commuter_rapid'          // 通勤快速（つくばエクスプレス等）
   | 'special_rapid'           // 特別快速（中央線等）
   | 'chuo_special_rapid'      // 中央特快（中央線）
   | 'ome_special_rapid'       // 青梅特快（中央線）
   | 'commuter_special_rapid'  // 通勤特快（中央線）
-  | 'limitedExp'              // 特急（あずさ・かいじ・スペーシア・リバティ・りょうもう・きぬ・けごん等）
-  | 'commuter_ltd_exp'        // 通勤特急（東急東横線・みなとみらい線等）
-  | 'ltd_exp'                 // 特急（東急東横線・みなとみらい線等）
-  | 'rapidExp'                // 快速急行
-  | 'kawagoeExp'              // 川越特急
-  | 'tjLiner'                 // TJライナー
+  | 'limited_exp'             // 特急（あずさ・かいじ・スペーシア・リバティ・りょうもう・きぬ・けごん・東急特急等）
+  | 'commuter_limited_exp'    // 通勤特急（東急東横線・みなとみらい線等）
+  | 'rapid_exp'               // 快速急行
+  | 'kawagoe_exp'              // 川越特急
+  | 'tj_liner'                 // TJライナー
   | 'th_liner'                // THライナー（日比谷線・東武スカイツリーライン直通）
-  | 'strain'                  // S-TRAIN（西武・メトロ・東急直通）
+  | 's_train'                  // S-TRAIN（西武・メトロ・東急直通）
   | 'sl'                      // SL（パレオエクスプレス）
   | 'sl_taiju'                // SL大樹（東武鬼怒川線・日光線）
   | 'aizu_ozatoro'            // お座トロ展望列車（会津鉄道）
@@ -316,7 +314,7 @@ export interface TrainNumberSection {
   trainNumber: string;    // その区間での公式列車番号 (例: '9028M', '9731M', 'E151K')
   fromStationId: string;  // 適用開始駅ID (例: 'ueno', 'TJ-11')
   toStationId?: string;   // 適用終了駅ID（省略時は次セクションまで、または終着駅）
-  trainType?: TrainTypeKey; // 区間内で種別も変化する場合に指定 (例: 'rapidExp' -> 'express')
+  trainType?: TrainTypeKey; // 区間内で種別も変化する場合に指定 (例: 'rapid_exp' -> 'express')
   reason?: 'DIRECTION_REVERSAL' | 'THROUGH_LINE' | 'OPERATOR_BOUNDARY';
 }
 

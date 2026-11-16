@@ -32,5 +32,5 @@ export const SOBU_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#d32f2f',
     borderColor: '#d32f2f',
   },
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

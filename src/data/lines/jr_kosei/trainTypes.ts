@@ -31,11 +31,11 @@ export const JR_KOSEI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0072bc",
     "borderColor": "#0072bc"
   },
-  "limitedExp": {
+  "limited_exp": {
     "name": "特急",
     "shortName": "特急",
     "color": "#e60012",
-    "key": "limitedExp",
+    "key": "limited_exp",
     "nameEn": "Limited Express",
     "textColor": "#ffffff",
     "bgColor": "#e60012",

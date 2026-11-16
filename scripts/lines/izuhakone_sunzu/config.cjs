@@ -103,7 +103,7 @@ module.exports = {
   "trainTypeMap": {
     "各駅停車": "local",
     "普通": "local",
-    "特急": "limitedExp"
+    "特急": "limited_exp"
   },
   "defaultCars": 3,
   "baseSectionSeconds": {

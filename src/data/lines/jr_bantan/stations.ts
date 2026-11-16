@@ -26,7 +26,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -54,7 +54,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -82,7 +82,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -110,7 +110,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -138,7 +138,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -166,7 +166,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -194,7 +194,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -222,7 +222,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -250,7 +250,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -278,7 +278,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -306,7 +306,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -334,7 +334,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -362,7 +362,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -390,7 +390,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -418,7 +418,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -446,7 +446,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -474,7 +474,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -502,7 +502,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   }
 ];

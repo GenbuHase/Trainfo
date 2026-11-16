@@ -344,7 +344,7 @@ function buildLine(spec, osm) {
       : spec.hasSubstitutionBus
         ? ['regular', 'rapid', 'substitution_bus']
         : spec.hasResortShirakami
-          ? ['regular', 'rapid', 'limitedExp']
+          ? ['regular', 'rapid', 'limited_exp']
           : ['regular', 'rapid'];
 
     return {
@@ -524,7 +524,7 @@ export const ${spec.exportPrefix}_TRAIN_TYPES: Record<string, TrainTypeConfig> =
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 ${busBlock}};
 `;
   fs.writeFileSync(path.join(outDir, 'trainTypes.ts'), trainTypesContent, 'utf8');
@@ -608,12 +608,12 @@ export const ${spec.exportLineVar}: LineDefinition = {
   const preserveTypes = spec.isBrt
     ? `['brt', 'rapid', 'regular']`
     : spec.hasSubstitutionBus
-      ? `['regular', 'rapid', 'limitedExp', 'substitution_bus']`
-      : `['regular', 'rapid', 'limitedExp']`;
+      ? `['regular', 'rapid', 'limited_exp', 'substitution_bus']`
+      : `['regular', 'rapid', 'limited_exp']`;
 
   const trainTypeMapBlock = spec.isBrt
     ? `    'ＢＲＴ快速': 'rapid',\n    'BRT快速': 'rapid',\n    'ＢＲＴ': 'brt',\n    'BRT': 'brt',\n`
-    : `    '普通': 'regular',\n    '各駅停車': 'regular',\n${spec.hasResortShirakami ? `    'リゾートしらかみ': 'limitedExp',\n` : ''}    '特別快速': 'special_rapid',\n    '快速はまゆり': 'rapid',\n    '快速ひなび': 'rapid',\n    '快速しもきた': 'rapid',\n    '快速リゾートしらかみ': '${spec.hasResortShirakami ? 'limitedExp' : 'rapid'}',\n    '快速': 'rapid',\n${spec.hasSubstitutionBus ? `    '代行バス': 'substitution_bus',\n` : ''}    '特急': 'limitedExp',\n`;
+    : `    '普通': 'regular',\n    '各駅停車': 'regular',\n${spec.hasResortShirakami ? `    'リゾートしらかみ': 'limited_exp',\n` : ''}    '特別快速': 'special_rapid',\n    '快速はまゆり': 'rapid',\n    '快速ひなび': 'rapid',\n    '快速しもきた': 'rapid',\n    '快速リゾートしらかみ': '${spec.hasResortShirakami ? 'limited_exp' : 'rapid'}',\n    '快速': 'rapid',\n${spec.hasSubstitutionBus ? `    '代行バス': 'substitution_bus',\n` : ''}    '特急': 'limited_exp',\n`;
 
   const configContent = `// ${spec.name} Yahoo! 路線情報スクレイパー設定
 module.exports = {

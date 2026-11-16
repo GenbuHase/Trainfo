@@ -29,7 +29,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -60,7 +60,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -91,7 +91,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -122,7 +122,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -153,7 +153,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -184,7 +184,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -215,7 +215,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -246,7 +246,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -277,7 +277,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -308,7 +308,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -339,7 +339,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -370,7 +370,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -401,7 +401,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -432,7 +432,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -463,7 +463,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -494,7 +494,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -525,7 +525,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -556,7 +556,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -587,7 +587,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -618,7 +618,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -649,7 +649,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   }
 ];

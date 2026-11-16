@@ -121,8 +121,8 @@ function main() {
   // S-TRAIN の全12列車番号
   const strainNums = new Set(['77814', '77815', '77816', '77817', '77818', '144439', '144440', '172007', '105731', '105730', '144626', '172006']);
 
-  // 既存の strain トリップおよび同一列車番号トリップを除外（上書きクリーン更新）
-  const isStrainTrip = t => t.trainType === 'strain' || (t.trainNumber && strainNums.has(t.trainNumber));
+  // 既存の s_train トリップおよび同一列車番号トリップを除外（上書きクリーン更新）
+  const isStrainTrip = t => t.trainType === 's_train' || (t.trainNumber && strainNums.has(t.trainNumber));
   yTrips = yTrips.filter(t => !isStrainTrip(t));
   fTrips = fTrips.filter(t => !isStrainTrip(t));
   syTrips = syTrips.filter(t => !isStrainTrip(t));
@@ -156,7 +156,7 @@ function main() {
       lineId: 'tokyo_metro_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'Y-22',
@@ -180,7 +180,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-37',
@@ -208,7 +208,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-06',
@@ -250,7 +250,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'SI-17',
@@ -274,7 +274,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'SI-06',
@@ -300,7 +300,7 @@ function main() {
       lineId: 'tokyo_metro_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'Y-06',
@@ -343,7 +343,7 @@ function main() {
       lineId: 'tokyo_metro_fukutoshin',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'F-16',
@@ -367,7 +367,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-37',
@@ -397,7 +397,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-06',
@@ -444,7 +444,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: s.origId,
@@ -468,7 +468,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'SI-06',
@@ -494,7 +494,7 @@ function main() {
       lineId: 'tokyo_metro_fukutoshin',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
-      trainType: 'strain',
+      trainType: 's_train',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'F-06',
@@ -531,8 +531,8 @@ function main() {
   const syST = JSON.parse(fs.readFileSync(sySTPath, 'utf8'));
   const siST = JSON.parse(fs.readFileSync(siSTPath, 'utf8'));
 
-  // 全駅の既存 strain エントリ（および strain 列車番号の誤種別エントリ）を完全消去（西武池袋 SI-01 などの誤登録を含む）
-  const isStrainEntry = e => e.t === 'strain' || (e.no && strainNums.has(e.no));
+  // 全駅の既存 s_train エントリ（および s_train 列車番号の誤種別エントリ）を完全消去（西武池袋 SI-01 などの誤登録を含む）
+  const isStrainEntry = e => e.t === 's_train' || (e.no && strainNums.has(e.no));
   for (const stStore of [yST, fST, syST, siST]) {
     for (const day of ['weekday', 'holiday']) {
       for (const stId of Object.keys(stStore[day] || {})) {
@@ -542,9 +542,9 @@ function main() {
     }
   }
 
-  // globalTimetable の全 strain トリップから、実際の停車駅（isPassing !== true かつ 非終着駅）の発車便を注入
+  // globalTimetable の全 s_train トリップから、実際の停車駅（isPassing !== true かつ 非終着駅）の発車便を注入
   function injectStrainDepartures(trips, stStore) {
-    const strainTrips = trips.filter(t => t.trainType === 'strain');
+    const strainTrips = trips.filter(t => t.trainType === 's_train');
     for (const trip of strainTrips) {
       const day = trip.isHoliday ? 'holiday' : 'weekday';
       const dir = trip.direction;
@@ -561,7 +561,7 @@ function main() {
           h,
           m,
           time: String(m).padStart(2, '0'),
-          t: 'strain',
+          t: 's_train',
           d: destName,
           no: trip.trainNumber,
           sec,

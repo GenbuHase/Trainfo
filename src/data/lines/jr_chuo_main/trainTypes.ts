@@ -19,7 +19,7 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 快速: オレンジバーミリオン
   rapid: CHUO_PRESETS.RAPID,
   // 通勤快速: パープル
-  commuter: CHUO_PRESETS.COMMUTER,
+  commuter_rapid: CHUO_PRESETS.COMMUTER,
   // 特別快速（ホリデー快速等）: スカイブルー
   special_rapid: CHUO_PRESETS.SPECIAL_RAPID,
   // 中央特快: スカイブルー
@@ -29,5 +29,5 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 通勤特快: レッド
   commuter_special_rapid: CHUO_PRESETS.COMMUTER_SPECIAL_RAPID,
   // 特急（あずさ、かいじ、富士回遊等）: ボルドー
-  limitedExp: LIMITED_EXP_PRESETS.CHUO,
+  limited_exp: LIMITED_EXP_PRESETS.CHUO,
 };

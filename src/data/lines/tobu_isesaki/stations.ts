@@ -27,10 +27,10 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "section_semi",
-      "semiExp",
+      "semi_exp",
       "section_exp",
       "express",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -62,7 +62,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "section_semi",
-      "semiExp",
+      "semi_exp",
       "section_exp",
       "express"
     ],
@@ -97,10 +97,10 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "section_semi",
-      "semiExp",
+      "semi_exp",
       "section_exp",
       "express",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -194,7 +194,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "section_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -258,7 +258,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "section_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -354,7 +354,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "section_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -505,7 +505,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -598,7 +598,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -659,7 +659,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -720,7 +720,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -781,7 +781,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -813,7 +813,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {

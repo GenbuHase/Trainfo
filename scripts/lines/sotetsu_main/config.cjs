@@ -42,12 +42,12 @@ module.exports = {
     '急行': 'express',
     '通勤急行': 'commuter_exp',
     '通急': 'commuter_exp',
-    '特急': 'limitedExp',
-    '通勤特急': 'commuter_ltd_exp',
-    '通特': 'commuter_ltd_exp',
+    '特急': 'limited_exp',
+    '通勤特急': 'commuter_limited_exp',
+    '通特': 'commuter_limited_exp',
   },
   // 区間便（二俣川〜西谷間等）でも正規種別を保持
-  preserveAllStopsTypes: ['commuter_ltd_exp', 'limitedExp', 'commuter_exp', 'rapid', 'express'],
+  preserveAllStopsTypes: ['commuter_limited_exp', 'limited_exp', 'commuter_exp', 'rapid', 'express'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 90, 2: 90, 3: 90, 4: 90, 5: 90, 6: 90, 7: 120, 8: 120, 9: 150,

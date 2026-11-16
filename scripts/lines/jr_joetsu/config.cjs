@@ -50,11 +50,11 @@ module.exports = {
     "普通": "local",
     "快速": "rapid",
     "超快速": "rapid",
-    "特急": "limitedExp",
-    "特急草津・四万": "limitedExp",
-    "草津・四万": "limitedExp",
-    "草津": "limitedExp",
-    "水上": "limitedExp"
+    "特急": "limited_exp",
+    "特急草津・四万": "limited_exp",
+    "草津・四万": "limited_exp",
+    "草津": "limited_exp",
+    "水上": "limited_exp"
   },
   "defaultCars": 4,
   "baseSectionSeconds": {

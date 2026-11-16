@@ -33,5 +33,5 @@ export const OITO_EAST_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#00ac9a',
     borderColor: '#007a6d',
   },
-  limitedExp: LIMITED_EXP_PRESETS.CHUO,
+  limited_exp: LIMITED_EXP_PRESETS.CHUO,
 };

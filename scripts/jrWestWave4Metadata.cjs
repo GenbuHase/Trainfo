@@ -32,7 +32,7 @@ module.exports = [
     defaultTrainTypes: [
       { id: 'local', name: '普通', shortName: '普通', color: '#00a7db' },
       { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' },
-      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+      { id: 'limited_exp', name: '特急', shortName: '特急', color: '#e60012' }
     ]
   },
   {
@@ -89,7 +89,7 @@ module.exports = [
     defaultTrainTypes: [
       { id: 'local', name: '普通', shortName: '普通', color: '#0072bc' },
       { id: 'special_rapid', name: '新快速', shortName: '新快', color: '#0072bc' },
-      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+      { id: 'limited_exp', name: '特急', shortName: '特急', color: '#e60012' }
     ]
   },
   {
@@ -191,7 +191,7 @@ module.exports = [
     },
     defaultTrainTypes: [
       { id: 'local', name: '普通', shortName: '普通', color: '#a22041' },
-      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+      { id: 'limited_exp', name: '特急', shortName: '特急', color: '#e60012' }
     ]
   },
   {
@@ -216,7 +216,7 @@ module.exports = [
     },
     defaultTrainTypes: [
       { id: 'local', name: '普通', shortName: '普通', color: '#008080' },
-      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+      { id: 'limited_exp', name: '特急', shortName: '特急', color: '#e60012' }
     ]
   },
   {

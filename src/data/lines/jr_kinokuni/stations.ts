@@ -27,7 +27,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -56,7 +56,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -85,7 +85,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -114,7 +114,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -143,7 +143,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -172,7 +172,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -201,7 +201,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -230,7 +230,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -259,7 +259,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -288,7 +288,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -317,7 +317,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -346,7 +346,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -375,7 +375,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -404,7 +404,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -433,7 +433,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -462,7 +462,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -491,7 +491,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -520,7 +520,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -549,7 +549,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -578,7 +578,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -607,7 +607,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -636,7 +636,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -665,7 +665,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -694,7 +694,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -723,7 +723,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -752,7 +752,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -781,7 +781,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -810,7 +810,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -839,7 +839,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -868,7 +868,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -897,7 +897,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -926,7 +926,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -955,7 +955,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -984,7 +984,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1013,7 +1013,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1042,7 +1042,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1071,7 +1071,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1100,7 +1100,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1129,7 +1129,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1158,7 +1158,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1214,7 +1214,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1243,7 +1243,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1272,7 +1272,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1301,7 +1301,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1330,7 +1330,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1359,7 +1359,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1388,7 +1388,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1417,7 +1417,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1446,7 +1446,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1475,7 +1475,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1504,7 +1504,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1533,7 +1533,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -1562,7 +1562,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   }
 ];

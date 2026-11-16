@@ -29,7 +29,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -62,7 +62,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -95,7 +95,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -130,7 +130,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -160,7 +160,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": false,
@@ -193,7 +193,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -226,7 +226,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -261,7 +261,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -294,7 +294,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -327,7 +327,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": false,
@@ -359,7 +359,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -391,7 +391,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": false,
@@ -424,7 +424,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -458,7 +458,7 @@ export const HANZOMON_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,

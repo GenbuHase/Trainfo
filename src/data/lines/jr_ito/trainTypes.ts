@@ -13,5 +13,5 @@ export const ITO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#378640',
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

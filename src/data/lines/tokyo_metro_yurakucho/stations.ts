@@ -394,7 +394,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "strain"
+      "s_train"
     ],
     "isMajor": true,
     "platforms": {
@@ -547,7 +547,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "strain"
+      "s_train"
     ],
     "isMajor": true,
     "platforms": {
@@ -668,7 +668,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "strain"
+      "s_train"
     ],
     "isMajor": true,
     "platforms": {

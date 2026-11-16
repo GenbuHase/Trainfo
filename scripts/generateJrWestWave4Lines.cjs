@@ -473,7 +473,7 @@ export const ${exportVarName}: LineDefinition = {
     '快速': 'rapid',
     '区間快速': 'semi_rapid',
     '新快速': 'special_rapid',
-    '特急': 'limitedExp'
+    '特急': 'limited_exp'
   };
 
   const configCjsContent = `// scripts/lines/${lineKey}/config.cjs

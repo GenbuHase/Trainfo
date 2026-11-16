@@ -28,7 +28,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "rapid",
       "special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -125,7 +125,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "rapid",
       "special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -222,7 +222,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "rapid",
       "special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

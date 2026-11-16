@@ -11,8 +11,8 @@ export const CHUO_SOBU_LOCAL_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "nameEn": "Local",
     "color": "#ffd400"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "shortName": "特急",
     "bgColor": "#c9252d",

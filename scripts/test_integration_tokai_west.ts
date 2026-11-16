@@ -246,7 +246,7 @@ async function runIntegrationTests() {
   check('シナリオ1: 特急しなの号 (名古屋 -> 塩尻越境 -> 篠ノ井線 長野) シームレス追尾＆固有名称保持', () => {
     const jr_chuo = getLine('jr_chuo_west')!;
     const shinano = jr_chuo.globalTimetable.find(
-      (t) => !t.isHoliday && t.trainType === 'limitedExp' && t.throughLineId === 'jr_shinonoi'
+      (t) => !t.isHoliday && t.trainType === 'limited_exp' && t.throughLineId === 'jr_shinonoi'
     )!;
     assert.ok(shinano && shinano.trainName, 'しなの号トリップが見つかりません');
     const res = traceThroughTrip('jr_chuo_west', shinano, ['jr_chuo_west', 'jr_shinonoi'], 'jr_shinonoi');

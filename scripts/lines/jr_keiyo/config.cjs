@@ -141,9 +141,9 @@ module.exports = {
     "普通": "local",
     "快速": "rapid",
     "通勤快速": "commuter_rapid",
-    "特急": "limitedExp",
-    "わかしお": "limitedExp",
-    "さざなみ": "limitedExp"
+    "特急": "limited_exp",
+    "わかしお": "limited_exp",
+    "さざなみ": "limited_exp"
   },
   "defaultCars": 10,
   "baseSectionSeconds": {

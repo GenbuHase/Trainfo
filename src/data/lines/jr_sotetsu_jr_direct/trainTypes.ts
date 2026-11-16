@@ -17,8 +17,8 @@ export const SOTETSU_JR_DIRECT_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 快速: ブルー
   rapid: SOTETSU_PRESETS.RAPID,
   // 通勤快速: レッド
-  commuter: {
-    key: 'commuter',
+  commuter_rapid: {
+    key: 'commuter_rapid',
     name: '通勤快速',
     nameEn: 'Commuter Rapid',
     shortName: '通快',
@@ -28,5 +28,5 @@ export const SOTETSU_JR_DIRECT_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#b8000e',
   },
   // 特急 (相鉄線内特急): オレンジ
-  limitedExp: SOTETSU_PRESETS.LIMITED_EXP,
+  limited_exp: SOTETSU_PRESETS.LIMITED_EXP,
 };

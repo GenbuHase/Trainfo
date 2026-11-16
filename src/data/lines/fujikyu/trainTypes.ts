@@ -21,8 +21,8 @@ export const FUJIKYU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#39b54a",
     "borderColor": "#39b54a"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

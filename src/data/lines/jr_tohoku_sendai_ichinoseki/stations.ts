@@ -31,7 +31,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
       "regular",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -286,7 +286,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -314,7 +314,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -346,7 +346,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -374,7 +374,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -402,7 +402,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -430,7 +430,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -458,7 +458,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -486,7 +486,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

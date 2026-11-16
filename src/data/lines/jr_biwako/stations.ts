@@ -24,7 +24,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -57,7 +57,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -295,7 +295,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -326,7 +326,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -388,7 +388,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -419,7 +419,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -481,7 +481,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -543,7 +543,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -578,7 +578,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -614,7 +614,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

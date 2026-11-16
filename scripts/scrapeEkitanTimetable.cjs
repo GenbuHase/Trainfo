@@ -52,11 +52,11 @@ function parseTimetableHtml(html) {
 
       // 種別マッピング
       let trainType = 'local';
-      if (rawType.includes('TJ') || rawType.includes('ＴＪ')) trainType = 'tjLiner';
-      else if (rawType.includes('川越特急') || rawType.includes('川特')) trainType = 'kawagoeExp';
-      else if (rawType.includes('快速急行') || rawType.includes('快急')) trainType = 'rapidExp';
+      if (rawType.includes('TJ') || rawType.includes('ＴＪ')) trainType = 'tj_liner';
+      else if (rawType.includes('川越特急') || rawType.includes('川特')) trainType = 'kawagoe_exp';
+      else if (rawType.includes('快速急行') || rawType.includes('快急')) trainType = 'rapid_exp';
       else if (rawType.includes('急行')) trainType = 'express';
-      else if (rawType.includes('準急')) trainType = 'semiExp';
+      else if (rawType.includes('準急')) trainType = 'semi_exp';
       else trainType = 'local';
 
       departures.push({

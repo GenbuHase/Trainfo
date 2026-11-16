@@ -308,9 +308,9 @@ module.exports = {
     "快速": "rapid",
     "快速あいづ": "rapid",
     "あいづ": "rapid",
-    "特急": "limitedExp",
-    "特急あかべこ号": "limitedExp",
-    "あかべこ号": "limitedExp",
+    "特急": "limited_exp",
+    "特急あかべこ号": "limited_exp",
+    "あかべこ号": "limited_exp",
     "ＳＬばんえつ物語": "rapid",
     "SLばんえつ物語": "rapid"
   },

@@ -23,12 +23,12 @@ const TRAIN_TYPES_MAP = {
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#cf1225', textColor: '#ffffff', borderColor: '#cf1225' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
     { key: 'commuter_rapid', name: '通勤快速', shortName: '通快', bgColor: '#e05a00', textColor: '#ffffff', borderColor: '#e05a00' },
-    { key: 'limitedExp', name: '特急', shortName: '特急', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
+    { key: 'limited_exp', name: '特急', shortName: '特急', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
   ],
   jr_sotobo: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#e60012', textColor: '#ffffff', borderColor: '#e60012' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
-    { key: 'limitedExp', name: '特急わかしお', shortName: 'わかしお', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
+    { key: 'limited_exp', name: '特急わかしお', shortName: 'わかしお', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
   ],
   jr_togane: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#f39800', textColor: '#ffffff', borderColor: '#f39800' },
@@ -37,12 +37,12 @@ const TRAIN_TYPES_MAP = {
   jr_sobu_main: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#ffc20e', textColor: '#000000', borderColor: '#ffc20e' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
-    { key: 'limitedExp', name: '特急しおさい', shortName: 'しおさい', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
+    { key: 'limited_exp', name: '特急しおさい', shortName: 'しおさい', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
   ],
   jr_narita: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#00b261', textColor: '#ffffff', borderColor: '#00b261' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
-    { key: 'limitedExp', name: '特急成田エクスプレス', shortName: 'N\'EX', bgColor: '#e60012', textColor: '#ffffff', borderColor: '#e60012' },
+    { key: 'limited_exp', name: '特急成田エクスプレス', shortName: 'N\'EX', bgColor: '#e60012', textColor: '#ffffff', borderColor: '#e60012' },
   ],
   jr_kururi: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#00958a', textColor: '#ffffff', borderColor: '#00958a' },
@@ -69,7 +69,7 @@ const TRAIN_TYPES_MAP = {
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
     { key: 'commuter_rapid', name: '通勤快速', shortName: '通快', bgColor: '#e05a00', textColor: '#ffffff', borderColor: '#e05a00' },
-    { key: 'limitedExp', name: '特急さざなみ', shortName: 'さざなみ', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
+    { key: 'limited_exp', name: '特急さざなみ', shortName: 'さざなみ', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
   ],
 };
 
@@ -328,7 +328,7 @@ function processLine(lineDef) {
     regular: 'Local',
     rapid: 'Rapid',
     commuter_rapid: 'Commuter Rapid',
-    limitedExp: 'Limited Express'
+    limited_exp: 'Limited Express'
   };
   for (const t of rawTrainTypes) {
     trainTypesRecord[t.key] = {

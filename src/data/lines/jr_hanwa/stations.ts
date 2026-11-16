@@ -30,7 +30,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -64,7 +64,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -98,7 +98,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -132,7 +132,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -166,7 +166,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -200,7 +200,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -234,7 +234,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -268,7 +268,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -302,7 +302,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -338,7 +338,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -372,7 +372,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -406,7 +406,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -440,7 +440,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -474,7 +474,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -508,7 +508,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -542,7 +542,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -576,7 +576,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -610,7 +610,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -644,7 +644,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -678,7 +678,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -712,7 +712,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -746,7 +746,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -780,7 +780,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -814,7 +814,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -848,7 +848,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -884,7 +884,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -918,7 +918,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -952,7 +952,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -986,7 +986,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1020,7 +1020,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1054,7 +1054,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1088,7 +1088,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1122,7 +1122,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1156,7 +1156,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1195,7 +1195,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

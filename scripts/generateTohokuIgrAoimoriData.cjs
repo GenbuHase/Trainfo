@@ -828,7 +828,7 @@ for (const spec of LINE_SPECS) {
         inbound: '上りホーム',
         outbound: '下りホーム',
       },
-      stoppingTypes: ['regular', 'local', 'rapid', 'special_rapid', 'limitedExp'],
+      stoppingTypes: ['regular', 'local', 'rapid', 'special_rapid', 'limited_exp'],
       isMajor: MAJOR_STATIONS.has(nm),
       facilities: {
         elevator: MAJOR_STATIONS.has(nm),
@@ -1005,8 +1005,8 @@ export const ${spec.exportPrefix}_TRAIN_TYPES: Record<string, TrainTypeConfig> =
     bgColor: '${specialRapidColor}',
     borderColor: '${specialRapidColor}',
   }`},
-  limitedExp: ${isJR ? 'LIMITED_EXP_PRESETS.STANDARD' : `{
-    key: 'limitedExp',
+  limited_exp: ${isJR ? 'LIMITED_EXP_PRESETS.STANDARD' : `{
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

@@ -153,9 +153,9 @@ module.exports = {
     '快速リゾートしらかみ': 'rapid',
     '快速': 'rapid',
     '代行バス': 'substitution_bus',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
-  preserveAllStopsTypes: ['regular', 'rapid', 'limitedExp', 'substitution_bus'],
+  preserveAllStopsTypes: ['regular', 'rapid', 'limited_exp', 'substitution_bus'],
   defaultTrainType: 'regular',
   defaultCars: 2,
   baseSectionSeconds: {

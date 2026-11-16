@@ -34,7 +34,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "rapid",
       "rapid_rabbit",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -103,7 +103,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "rapid",
       "rapid_rabbit",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -140,7 +140,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "rapid",
       "rapid_rabbit",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -217,7 +217,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "rapid",
       "rapid_rabbit",
       "commuter_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

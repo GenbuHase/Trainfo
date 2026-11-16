@@ -22,5 +22,5 @@ export const MYOKO_HANEUMA_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> = 
     bgColor: '#008000',
     borderColor: '#006600',
   },
-  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
+  limited_exp: LIMITED_EXP_PRESETS.NIIGATA,
 } as Record<TrainTypeKey, TrainTypeConfig>;

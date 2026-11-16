@@ -31,8 +31,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_TRAIN_TYPES: Record<string, TrainTypeConfig
     bgColor: '#e51721',
     borderColor: '#b30f16',
   },
-  limitedExp: {
-    key: 'limitedExp',
+  limited_exp: {
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

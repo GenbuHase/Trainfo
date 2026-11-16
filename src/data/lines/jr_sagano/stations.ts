@@ -28,7 +28,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -58,7 +58,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -88,7 +88,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -118,7 +118,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -148,7 +148,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -178,7 +178,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -208,7 +208,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -238,7 +238,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -268,7 +268,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -298,7 +298,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -328,7 +328,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -358,7 +358,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -388,7 +388,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -418,7 +418,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -448,7 +448,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -478,7 +478,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   }
 ];

@@ -228,9 +228,9 @@ module.exports = {
     "各駅停車": "local",
     "快速": "rapid",
     "通勤快速": "commuter_rapid",
-    "特急": "limitedExp",
-    "特急さざなみ": "limitedExp",
-    "特急新宿さざなみ": "limitedExp"
+    "特急": "limited_exp",
+    "特急さざなみ": "limited_exp",
+    "特急新宿さざなみ": "limited_exp"
   },
   "defaultCars": 8,
   "baseSectionSeconds": {

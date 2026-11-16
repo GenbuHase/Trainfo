@@ -297,14 +297,14 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         c =>
           c.direction === 'outbound' &&
           c.isHoliday === fujiCM.isHoliday &&
-          c.trainType === 'limitedExp' &&
+          c.trainType === 'limited_exp' &&
           c.stops[c.stops.length - 1]?.stationId === boundarySt &&
           Math.abs(rawTimeToSec(c.stops[c.stops.length - 1]?.arrivalTime) - fujiSec) <= 180
       );
 
       candidates.sort((a, b) => {
-        const expA = a.trainType === 'limitedExp' ? 1 : 0;
-        const expB = b.trainType === 'limitedExp' ? 1 : 0;
+        const expA = a.trainType === 'limited_exp' ? 1 : 0;
+        const expB = b.trainType === 'limited_exp' ? 1 : 0;
         if (expA !== expB) return expB - expA;
         const diffA = Math.abs(rawTimeToSec(a.stops[a.stops.length - 1]?.arrivalTime) - fujiSec);
         const diffB = Math.abs(rawTimeToSec(b.stops[b.stops.length - 1]?.arrivalTime) - fujiSec);
@@ -391,14 +391,14 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         c =>
           c.direction === 'inbound' &&
           c.isHoliday === fujiCM.isHoliday &&
-          c.trainType === 'limitedExp' &&
+          c.trainType === 'limited_exp' &&
           c.stops[0]?.stationId === boundarySt &&
           Math.abs(rawTimeToSec(c.stops[0]?.departureTime) - fujiSec) <= 180
       );
 
       candidates.sort((a, b) => {
-        const expA = a.trainType === 'limitedExp' ? 1 : 0;
-        const expB = b.trainType === 'limitedExp' ? 1 : 0;
+        const expA = a.trainType === 'limited_exp' ? 1 : 0;
+        const expB = b.trainType === 'limited_exp' ? 1 : 0;
         if (expA !== expB) return expB - expA;
         const diffA = Math.abs(rawTimeToSec(a.stops[0]?.departureTime) - fujiSec);
         const diffB = Math.abs(rawTimeToSec(b.stops[0]?.departureTime) - fujiSec);
@@ -485,7 +485,7 @@ function coupleChuoFujiKaiyu() {
       const dirTrips = cmTrips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
         t =>
-          (t.trainType === 'limitedExp' || t.trainType === 'regular') &&
+          (t.trainType === 'limited_exp' || t.trainType === 'regular') &&
           t.stops.some(s => s.stationId === splitSt)
       );
 
@@ -558,7 +558,7 @@ function coupleChuoFujiKaiyu() {
       const dirTrips = chuoTrips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
         t =>
-          (t.trainType === 'limitedExp' || t.trainType === 'regular') &&
+          (t.trainType === 'limited_exp' || t.trainType === 'regular') &&
           t.stops.some(s => s.stationId === boundarySt)
       );
 
@@ -666,7 +666,7 @@ function coupleTokaidoOdoriko() {
       const dirTrips = trips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
         t =>
-          (t.trainType === 'limitedExp' || (t.trainNumber && t.trainNumber.includes(rule.keyword))) &&
+          (t.trainType === 'limited_exp' || (t.trainNumber && t.trainNumber.includes(rule.keyword))) &&
           t.stops.some(s => s.stationId === rule.splitStationId)
       );
 
@@ -758,7 +758,7 @@ function coupleOdakyuRomancecar() {
     for (const dir of ['outbound', 'inbound']) {
       const dirTrips = trips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
-        t => t.trainType === 'limitedExp' && t.stops.some(s => s.stationId === rule.splitStationId)
+        t => t.trainType === 'limited_exp' && t.stops.some(s => s.stationId === rule.splitStationId)
       );
 
       for (let i = 0; i < ltdExps.length; i++) {

@@ -31,5 +31,5 @@ export const UETSU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#1b5e20',
     borderColor: '#003300',
   },
-  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
+  limited_exp: LIMITED_EXP_PRESETS.NIIGATA,
 };

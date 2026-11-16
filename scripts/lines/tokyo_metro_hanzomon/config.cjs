@@ -131,7 +131,7 @@ module.exports = {
     "各駅停車": "local",
     "普通": "local",
     "各停": "local",
-    "準急": "semiExp",
+    "準急": "semi_exp",
     "急行": "express"
   },
   "defaultCars": 10,

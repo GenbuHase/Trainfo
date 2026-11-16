@@ -16,5 +16,5 @@ export const TOKAIDO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   rapid_acty: JR_RAPID_PRESETS.ACTY,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
   commuter_rapid: JR_RAPID_PRESETS.COMMUTER_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

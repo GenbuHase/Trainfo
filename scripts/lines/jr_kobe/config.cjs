@@ -133,12 +133,12 @@ module.exports = {
     "快速": "rapid",
     "普通": "local",
     "各駅停車": "local",
-    "特急": "limitedExp",
-    "スーパーはくと": "limitedExp",
-    "はまかぜ": "limitedExp",
-    "らくラクはりま": "limitedExp",
-    "サンライズ瀬戸": "limitedExp",
-    "サンライズ出雲": "limitedExp"
+    "特急": "limited_exp",
+    "スーパーはくと": "limited_exp",
+    "はまかぜ": "limited_exp",
+    "らくラクはりま": "limited_exp",
+    "サンライズ瀬戸": "limited_exp",
+    "サンライズ出雲": "limited_exp"
   },
   defaultCars: 8,
   baseSectionSeconds: {

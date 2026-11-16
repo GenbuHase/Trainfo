@@ -363,7 +363,7 @@ function enrichAzusaTimetable() {
       trainId,
       trainNumber: '38M',
       trainName: 'あずさ38号',
-      trainType: 'limitedExp',
+      trainType: 'limited_exp',
       direction: 'inbound',
       originStationId: 'SN-06',
       destinationStationId: 'SN-01',
@@ -391,7 +391,7 @@ function enrichAzusaTimetable() {
         m: 50,
         time: '50',
         sec: 14 * 3600 + 50 * 60,
-        t: 'limitedExp',
+        t: 'limited_exp',
         d: '新宿',
         no: '38M',
         trainId,
@@ -411,7 +411,7 @@ function enrichAzusaTimetable() {
         trainId,
         trainNumber: '38M',
         trainName: 'あずさ38号',
-        trainType: 'limitedExp',
+        trainType: 'limited_exp',
         direction: 'inbound',
         originStationId: 'CO-61',
         destinationStationId: 'JC-24',
@@ -480,7 +480,7 @@ function enrichAzusaTimetable() {
       trainId,
       trainNumber,
       trainName,
-      trainType: 'limitedExp',
+      trainType: 'limited_exp',
       direction: 'outbound',
       originStationId: 'SN-01',
       destinationStationId: 'SN-06',
@@ -507,7 +507,7 @@ function enrichAzusaTimetable() {
       const trips = lineData[lineKey] || [];
       for (const trip of trips) {
         if (rule.isHoliday !== undefined && trip.isHoliday !== rule.isHoliday) continue;
-        if (rule.onlyNonLimitedExp && trip.trainType === 'limitedExp') continue;
+        if (rule.onlyNonLimitedExp && trip.trainType === 'limited_exp') continue;
         if (!rule.trainIds.some((id) => matchesTrainId(trip, id))) continue;
 
         if (rule.deleteTrainName) delete trip.trainName;
@@ -540,7 +540,7 @@ function enrichAzusaTimetable() {
   console.log('\n--- 3. 全上りあずさ号の始発駅 (customOrigin) 整備 ---');
   let cmUpdatedCount = 0;
   for (const trip of lineData.chuo_main) {
-    if (trip.trainType === 'limitedExp' && trip.direction === 'inbound' && trip.originStationId === 'CO-61' && !trip.customOrigin) {
+    if (trip.trainType === 'limited_exp' && trip.direction === 'inbound' && trip.originStationId === 'CO-61' && !trip.customOrigin) {
       trip.customOrigin = '松本';
       cmUpdatedCount++;
     }
@@ -549,7 +549,7 @@ function enrichAzusaTimetable() {
 
   let chUpdatedCount = 0;
   for (const trip of lineData.chuo) {
-    if (trip.trainType === 'limitedExp' && trip.direction === 'inbound' && trip.customOrigin === '塩尻') {
+    if (trip.trainType === 'limited_exp' && trip.direction === 'inbound' && trip.customOrigin === '塩尻') {
       trip.customOrigin = '松本';
       chUpdatedCount++;
     }
@@ -560,7 +560,7 @@ function enrichAzusaTimetable() {
   let snOutUpdated = 0;
 
   for (const snTrip of lineData.shinonoi) {
-    if (snTrip.trainType !== 'limitedExp' && !(snTrip.trainName && snTrip.trainName.includes('あずさ'))) continue;
+    if (snTrip.trainType !== 'limited_exp' && !(snTrip.trainName && snTrip.trainName.includes('あずさ'))) continue;
     const isHoliday = snTrip.isHoliday;
     const yId = snTrip.trainId || (snTrip.tripId ? snTrip.tripId.split('_').pop() : '');
     if (!yId) continue;
@@ -701,7 +701,7 @@ function enrichAzusaTimetable() {
         trainId: chain.cslFujiId,
         trainNumber: '2103M',
         trainName: '富士回遊3号',
-        trainType: 'limitedExp',
+        trainType: 'limited_exp',
         originStationId: 'JB-39',
         destinationStationId: 'JB-10',
         customOrigin: '千葉',

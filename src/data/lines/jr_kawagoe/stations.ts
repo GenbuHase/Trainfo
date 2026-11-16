@@ -33,8 +33,8 @@ export const KAWAGOE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -63,8 +63,8 @@ export const KAWAGOE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -92,8 +92,8 @@ export const KAWAGOE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -121,8 +121,8 @@ export const KAWAGOE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -150,8 +150,8 @@ export const KAWAGOE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -183,8 +183,8 @@ export const KAWAGOE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "limitedExp"
+      "commuter_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {

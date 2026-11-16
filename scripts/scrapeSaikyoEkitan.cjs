@@ -34,7 +34,7 @@ function sleep(ms) {
 
 function mapTrainType(rawType) {
   if (!rawType) return 'local';
-  if (rawType.includes('通勤快速') || rawType.includes('通快')) return 'commuter';
+  if (rawType.includes('通勤快速') || rawType.includes('通快')) return 'commuter_rapid';
   if (rawType.includes('快速')) return 'rapid';
   return 'local';
 }

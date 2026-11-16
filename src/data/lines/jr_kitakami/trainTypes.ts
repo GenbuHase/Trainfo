@@ -24,7 +24,7 @@ export const KITAKAMI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
   substitution_bus: {
     key: 'substitution_bus',
     name: '代行バス',

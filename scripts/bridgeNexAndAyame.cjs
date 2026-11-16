@@ -80,7 +80,7 @@ const AYAME_85_CONFIG = {
   trainId: '10521',
   trainNumber: '9085M',
   trainName: '特急 あやめ85号',
-  trainType: 'limitedExp',
+  trainType: 'limited_exp',
   direction: 'outbound',
   customOrigin: '新宿',
   customDestination: '佐原',
@@ -170,7 +170,7 @@ function bridgeNexAndAyame() {
     let removedDup = 0;
     let restoredLocal = 0;
     for (const t of list) {
-      if (/^\d+F$/.test(t.trainNumber || '') && (t.trainType === 'limitedExp' || (t.trainName && (t.trainName.includes('成田エクスプレス') || t.trainName.includes('しおさい'))))) {
+      if (/^\d+F$/.test(t.trainNumber || '') && (t.trainType === 'limited_exp' || (t.trainName && (t.trainName.includes('成田エクスプレス') || t.trainName.includes('しおさい'))))) {
         const sig = `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.stops?.[0]?.departureTime || ''}`;
         const passingCount = (t.stops || []).filter((s) => s.isPassing).length;
         const isAllPassNexClone = (t.stops?.length || 0) >= 5 && passingCount >= t.stops.length - 2;
@@ -307,7 +307,7 @@ function bridgeNexAndAyame() {
             lineId: 'jr_sobu_rapid',
             trainId: nrtTrip.trainId || trainNum,
             trainNumber: trainNum,
-            trainType: 'limitedExp',
+            trainType: 'limited_exp',
             trainName,
             direction: 'outbound',
             originStationId: 'JO-19',
@@ -343,7 +343,7 @@ function bridgeNexAndAyame() {
           lineId: 'jr_sobu_main',
           trainId: nrtTrip.trainId || trainNum,
           trainNumber: trainNum,
-          trainType: 'limitedExp',
+          trainType: 'limited_exp',
           trainName,
           direction: 'outbound',
           originStationId: 'SM-01',
@@ -358,7 +358,7 @@ function bridgeNexAndAyame() {
       } else {
         smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
-        smTrip.trainType = 'limitedExp';
+        smTrip.trainType = 'limited_exp';
         smTrip.customOrigin = originName;
         smTrip.customDestination = '成田空港';
         smTrip.stops = smStops;
@@ -389,7 +389,7 @@ function bridgeNexAndAyame() {
       nrtTrip.customOrigin = originName;
       nrtTrip.customDestination = '成田空港';
       nrtTrip.trainName = trainName;
-      nrtTrip.trainType = 'limitedExp';
+      nrtTrip.trainType = 'limited_exp';
 
       if (ykTrip) {
         linkThroughTrips(ykTrip, 'jr_yokosuka', srTrip, 'jr_sobu_rapid', {
@@ -503,7 +503,7 @@ function bridgeNexAndAyame() {
             lineId: 'jr_sobu_rapid',
             trainId: nrtTrip.trainId || trainNum,
             trainNumber: trainNum,
-            trainType: 'limitedExp',
+            trainType: 'limited_exp',
             trainName,
             direction: 'inbound',
             originStationId: 'JO-28',
@@ -562,7 +562,7 @@ function bridgeNexAndAyame() {
           lineId: 'jr_sobu_main',
           trainId: nrtTrip.trainId || trainNum,
           trainNumber: trainNum,
-          trainType: 'limitedExp',
+          trainType: 'limited_exp',
           trainName,
           direction: 'inbound',
           originStationId: 'SM-06',
@@ -577,7 +577,7 @@ function bridgeNexAndAyame() {
       } else {
         smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
-        smTrip.trainType = 'limitedExp';
+        smTrip.trainType = 'limited_exp';
         smTrip.customOrigin = '成田空港';
         smTrip.customDestination = finalDest;
         smTrip.stops = smStops;

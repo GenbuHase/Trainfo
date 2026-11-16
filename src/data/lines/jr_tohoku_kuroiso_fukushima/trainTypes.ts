@@ -24,5 +24,5 @@ export const TOHOKU_KUROISO_FUKUSHIMA_TRAIN_TYPES: Record<string, TrainTypeConfi
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

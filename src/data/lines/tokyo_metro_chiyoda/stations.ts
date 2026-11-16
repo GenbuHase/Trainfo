@@ -25,11 +25,11 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -60,7 +60,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -95,7 +95,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -130,11 +130,11 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -163,7 +163,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -195,7 +195,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -231,7 +231,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -266,11 +266,11 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -305,7 +305,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -340,7 +340,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -378,11 +378,11 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -416,7 +416,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -448,7 +448,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -480,7 +480,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -512,7 +512,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -548,7 +548,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -583,7 +583,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -620,11 +620,11 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -655,7 +655,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"
@@ -687,7 +687,7 @@ export const CHIYODA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express",
       "commuter_semi",
       "commuter_exp"

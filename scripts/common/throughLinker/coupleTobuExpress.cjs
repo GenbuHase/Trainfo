@@ -134,7 +134,7 @@ function coupleTobuExpress() {
   const fixedCounts = { tobu_skytree: 0, tobu_nikko: 0, tobu_kinugawa: 0, yagan: 0, aizu: 0 };
 
   for (const t of lineTrips.tobu_skytree) {
-    if (t.trainType === 'limitedExp') {
+    if (t.trainType === 'limited_exp') {
       if (t.coupling) {
         t.cars = 3;
       } else if (isLibertyTrip(t)) {
@@ -148,14 +148,14 @@ function coupleTobuExpress() {
   }
 
   for (const t of lineTrips.tobu_nikko) {
-    if (t.trainType === 'limitedExp' && !t.coupling && isLibertyTrip(t)) {
+    if (t.trainType === 'limited_exp' && !t.coupling && isLibertyTrip(t)) {
       t.cars = 3;
       fixedCounts.tobu_nikko++;
     }
   }
 
   for (const t of lineTrips.tobu_kinugawa) {
-    if (t.trainType === 'limitedExp' && isLibertyTrip(t)) {
+    if (t.trainType === 'limited_exp' && isLibertyTrip(t)) {
       t.cars = 3;
       fixedCounts.tobu_kinugawa++;
     }
@@ -163,7 +163,7 @@ function coupleTobuExpress() {
 
   for (const lineId of ['yagan', 'aizu']) {
     for (const t of lineTrips[lineId]) {
-      if (t.trainType === 'limitedExp' || isLibertyTrip(t)) {
+      if (t.trainType === 'limited_exp' || isLibertyTrip(t)) {
         t.cars = 3;
         fixedCounts[lineId]++;
       }

@@ -26,8 +26,8 @@ export const SAIKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#38bdf8',
   },
   // 通勤快速: #e60012 (JRレッド)
-  commuter: {
-    key: 'commuter',
+  commuter_rapid: {
+    key: 'commuter_rapid',
     name: '通勤快速',
     nameEn: 'Commuter Rapid',
     shortName: '通快',
@@ -37,5 +37,5 @@ export const SAIKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#f87171',
   },
   // 特急（臨時特急など）: #d32f2f (JR特急レッド)
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

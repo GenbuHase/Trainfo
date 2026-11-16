@@ -49,7 +49,7 @@ const stationMetadata = [
     address: '東京都立川市曙町二丁目1-1',
     platforms: { inbound: '1・2番線', outbound: '1・2番線' },
     isMajor: true,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid', 'limited_exp'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
   },
   {
@@ -59,7 +59,7 @@ const stationMetadata = [
     address: '東京都立川市富士見町一丁目36-1',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -69,7 +69,7 @@ const stationMetadata = [
     address: '東京都昭島市玉川町一丁目1-1',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -79,7 +79,7 @@ const stationMetadata = [
     address: '東京都昭島市朝日町一丁目11-1',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -89,7 +89,7 @@ const stationMetadata = [
     address: '東京都昭島市田中町562-8',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -99,7 +99,7 @@ const stationMetadata = [
     address: '東京都昭島市松原町四丁目14-4',
     platforms: { inbound: '2・3番線', outbound: '1・2番線' },
     isMajor: true,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid', 'limited_exp'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
   },
   {
@@ -109,7 +109,7 @@ const stationMetadata = [
     address: '東京都福生市牛浜125',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -119,7 +119,7 @@ const stationMetadata = [
     address: '東京都福生市大字福生768',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: true,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -129,7 +129,7 @@ const stationMetadata = [
     address: '東京都羽村市羽東一丁目12-1',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -139,7 +139,7 @@ const stationMetadata = [
     address: '東京都羽村市小作台五丁目1-1',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -149,7 +149,7 @@ const stationMetadata = [
     address: '東京都青梅市河辺町十丁目1-1',
     platforms: { inbound: '1・2番線', outbound: '2・3番線' },
     isMajor: true,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -159,7 +159,7 @@ const stationMetadata = [
     address: '東京都青梅市東青梅一丁目2-1',
     platforms: { inbound: '1番線', outbound: '2番線' },
     isMajor: false,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
   },
   {
@@ -169,7 +169,7 @@ const stationMetadata = [
     address: '東京都青梅市本町130',
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
     isMajor: true,
-    stoppingTypes: ['local', 'rapid', 'commuter', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'special_rapid', 'limited_exp'],
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
   },
   {

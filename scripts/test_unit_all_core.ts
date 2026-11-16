@@ -247,7 +247,7 @@ async function runAllUnitTests() {
       lineId: 'jr_sanin_sonobe_kinosaki',
       trainId: '9001',
       trainNumber: '5001M',
-      trainType: 'limitedExp',
+      trainType: 'limited_exp',
       trainName: 'きのさき1号',
       direction: 'outbound',
       originStationId: 'jr_sanin_sonobe_kinosaki-01',
@@ -266,7 +266,7 @@ async function runAllUnitTests() {
 
     const beforeSec = resolveActiveTrainInfo(mockTrip, 'jr_sanin_sonobe_kinosaki-01');
     assert.equal(beforeSec.trainNumber, '5001M');
-    assert.equal(beforeSec.trainType, 'limitedExp');
+    assert.equal(beforeSec.trainType, 'limited_exp');
 
     const inSec = resolveActiveTrainInfo(mockTrip, 'jr_sanin_sonobe_kinosaki-12');
     assert.equal(inSec.trainNumber, '3001M');
@@ -359,6 +359,8 @@ async function runAllUnitTests() {
       'sotetsu_main',
       'sotetsu_izumino',
       'sotetsu_shin_yokohama',
+      'tokyu_toyoko',
+      'minatomirai',
     ]);
 
     // 既存路線固有: 宇都宮線/高崎線 大宮始発湘南新宿ライン等の単駅切詰め済みレコード（シミュレーションでは stops<2 で安全にスキップされる）
@@ -389,11 +391,11 @@ async function runAllUnitTests() {
           `${lineId} (${trip.tripId}): 未定義の trainType '${trip.trainType}'`
         );
 
-        // 特急仕様確認: 料金不要特急(相鉄)を除き、limitedExp には 100% trainName(固有名称) が存在すること
-        if (trip.trainType === 'limitedExp' && !FREE_LIMITED_EXP_LINES.has(lineId)) {
+        // 特急仕様確認: 料金不要特急(相鉄)を除き、limited_exp には 100% trainName(固有名称) が存在すること
+        if (trip.trainType === 'limited_exp' && !FREE_LIMITED_EXP_LINES.has(lineId)) {
           if (jr38Set.has(lineId)) {
-            const typeCfg = line.trainTypes['limitedExp'];
-            assert.ok(typeCfg && typeCfg.name === '特急', `${lineId}: limitedExp の種別名は '特急' である必要があります (実際: ${typeCfg?.name})`);
+            const typeCfg = line.trainTypes['limited_exp'];
+            assert.ok(typeCfg && typeCfg.name === '特急', `${lineId}: limited_exp の種別名は '特急' である必要があります (実際: ${typeCfg?.name})`);
           }
           assert.ok(
             trip.trainName && trip.trainName.trim().length > 0,

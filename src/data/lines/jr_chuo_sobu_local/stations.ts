@@ -304,7 +304,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JB-10",
     "isMajor": true
@@ -671,7 +671,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JB-22",
     "isMajor": true
@@ -937,7 +937,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JB-31",
     "isMajor": true
@@ -1177,7 +1177,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "stationNumber": "JB-39",
     "isMajor": true

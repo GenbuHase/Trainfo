@@ -26,12 +26,12 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -61,7 +61,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
@@ -95,7 +95,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -128,7 +128,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -161,7 +161,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -198,12 +198,12 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -233,7 +233,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -266,7 +266,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
@@ -300,7 +300,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -333,7 +333,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -366,7 +366,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -399,7 +399,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid"
@@ -432,12 +432,12 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
+      "commuter_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
       "special_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

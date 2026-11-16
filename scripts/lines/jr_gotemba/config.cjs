@@ -146,8 +146,8 @@ module.exports = {
     "普通": "local",
     "各駅停車": "local",
     "快速": "rapid",
-    "特急": "limitedExp",
-    "ふじさん": "limitedExp"
+    "特急": "limited_exp",
+    "ふじさん": "limited_exp"
   },
   "defaultCars": 3
 };

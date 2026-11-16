@@ -199,7 +199,7 @@ function buildSotetsuShinYokohama() {
       transfers: ['JR東海道新幹線', 'JR横浜線', '東急新横浜線', '横浜市営地下鉄ブルーライン'],
       address: '神奈川県横浜市港北区新横浜三丁目',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'express', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'express', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '3・4番線' },
       isMajor: true,
     },
@@ -210,7 +210,7 @@ function buildSotetsuShinYokohama() {
       transfers: ['JR埼京線(相鉄・JR直通線)'],
       address: '神奈川県横浜市神奈川区羽沢南二丁目44',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-      stoppingTypes: ['local', 'express', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'express', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1番線', outbound: '2番線' },
       isMajor: true,
     },
@@ -221,7 +221,7 @@ function buildSotetsuShinYokohama() {
       transfers: ['相鉄本線'],
       address: '神奈川県横浜市保土ケ谷区西谷町1101',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-      stoppingTypes: ['local', 'express', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'express', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '3・4番線' },
       isMajor: true,
     },
@@ -280,7 +280,7 @@ function buildSotetsuMain() {
       transfers: ['JR東海道線', 'JR京浜東北線', 'JR横須賀線', 'JR湘南新宿ライン', '東急東横線', '京急本線', 'みなとみらい線', '横浜市営地下鉄ブルーライン'],
       address: '神奈川県横浜市西区南幸一丁目1-1',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2・3番線', outbound: '1・2・3番線' }, isMajor: true,
     },
     {
@@ -336,7 +336,7 @@ function buildSotetsuMain() {
       lat: 35.4780622, lng: 139.5654649, transfers: ['相鉄新横浜線'],
       address: '神奈川県横浜市保土ケ谷区西谷町1101',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '3・4番線' }, isMajor: true,
     },
     {
@@ -344,7 +344,7 @@ function buildSotetsuMain() {
       lat: 35.4750458, lng: 139.5496591, transfers: [],
       address: '神奈川県横浜市旭区鶴ヶ峰二丁目22-1',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1番線', outbound: '2番線' }, isMajor: false,
     },
     {
@@ -352,7 +352,7 @@ function buildSotetsuMain() {
       lat: 35.4633846, lng: 139.5322757, transfers: ['相鉄いずみ野線'],
       address: '神奈川県横浜市旭区二俣川二丁目91-7',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'express', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '3・4番線' }, isMajor: true,
     },
     {
@@ -384,7 +384,7 @@ function buildSotetsuMain() {
       lat: 35.4700147, lng: 139.4614084, transfers: ['小田急江ノ島線'],
       address: '神奈川県大和市大和南一丁目1-1',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'express', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'express', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1番線', outbound: '2番線' }, isMajor: true,
     },
     {
@@ -416,7 +416,7 @@ function buildSotetsuMain() {
       lat: 35.4530251, lng: 139.3917889, transfers: ['小田急小田原線', 'JR相模線'],
       address: '神奈川県海老名市めぐみ町1-1',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'express', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'express', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '1・2番線' }, isMajor: true,
     },
   ];
@@ -485,7 +485,7 @@ function buildSotetsuIzumino() {
       lat: 35.4633846, lng: 139.5322757, transfers: ['相鉄本線'],
       address: '神奈川県横浜市旭区二俣川二丁目91-7',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '3・4番線' }, isMajor: true,
     },
     {
@@ -517,7 +517,7 @@ function buildSotetsuIzumino() {
       lat: 35.4295908, lng: 139.495126, transfers: [],
       address: '神奈川県横浜市泉区和泉町6214-1',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '3・4番線' }, isMajor: true,
     },
     {
@@ -541,7 +541,7 @@ function buildSotetsuIzumino() {
       lat: 35.3962433, lng: 139.4664505, transfers: ['小田急江ノ島線', '横浜市営地下鉄ブルーライン'],
       address: '神奈川県藤沢市湘南台二丁目15',
       facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-      stoppingTypes: ['local', 'rapid', 'commuter_exp', 'limitedExp', 'commuter_ltd_exp'],
+      stoppingTypes: ['local', 'rapid', 'commuter_exp', 'limited_exp', 'commuter_limited_exp'],
       platforms: { inbound: '1・2番線', outbound: '1・2番線' }, isMajor: true,
     },
   ];

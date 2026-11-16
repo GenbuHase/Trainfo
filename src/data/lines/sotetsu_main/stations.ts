@@ -34,8 +34,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "rapid",
       "express",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2・3番線",
@@ -244,8 +244,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "rapid",
       "express",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -277,7 +277,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "rapid",
       "express",
       "commuter_exp",
-      "commuter_ltd_exp"
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -311,8 +311,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "rapid",
       "express",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -435,8 +435,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "local",
       "rapid",
       "express",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -560,8 +560,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "local",
       "rapid",
       "express",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",

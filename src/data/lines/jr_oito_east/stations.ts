@@ -24,7 +24,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": true,
@@ -249,7 +249,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": true,
@@ -306,7 +306,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": true,
@@ -555,7 +555,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": true,
@@ -803,7 +803,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": true,
@@ -916,7 +916,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "facilities": {
       "elevator": true,

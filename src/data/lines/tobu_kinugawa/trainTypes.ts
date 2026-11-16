@@ -12,6 +12,6 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     nameEn: 'Section Rapid',
     shortName: '区快',
   },
-  limitedExp: TOBU_PRESETS.LIMITED_EXP,
+  limited_exp: TOBU_PRESETS.LIMITED_EXP,
   sl_taiju: TOBU_PRESETS.SL_TAIJU,
 };

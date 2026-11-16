@@ -50,10 +50,10 @@ module.exports = {
   // 種別マッピング（最長一致スキャン対応）
   trainTypeMap: {
     '快速リゾートビューふるさと': 'rapid',
-    '特急あずさ': 'limitedExp',
-    '特急アルプス': 'limitedExp',
-    '特急はくば': 'limitedExp',
-    '特急': 'limitedExp',
+    '特急あずさ': 'limited_exp',
+    '特急アルプス': 'limited_exp',
+    '特急はくば': 'limited_exp',
+    '特急': 'limited_exp',
     '快速': 'rapid',
     '普通': 'regular',
     '各駅停車': 'local',

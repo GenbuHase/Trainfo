@@ -21,7 +21,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -50,7 +50,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -79,7 +79,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -108,7 +108,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -137,7 +137,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -166,7 +166,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -195,7 +195,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -224,7 +224,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -253,7 +253,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -282,7 +282,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -311,7 +311,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -340,7 +340,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -369,7 +369,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -398,7 +398,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -427,7 +427,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -456,7 +456,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -485,7 +485,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -514,7 +514,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -543,7 +543,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -572,7 +572,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -601,7 +601,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -630,7 +630,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -659,7 +659,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -688,7 +688,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -717,7 +717,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -746,7 +746,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -775,7 +775,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -804,7 +804,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -833,7 +833,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -862,7 +862,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -891,7 +891,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -920,7 +920,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -949,7 +949,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -978,7 +978,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1007,7 +1007,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1036,7 +1036,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1067,7 +1067,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1096,7 +1096,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1125,7 +1125,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1154,7 +1154,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -1183,7 +1183,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1212,7 +1212,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1243,7 +1243,7 @@ export const GONO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

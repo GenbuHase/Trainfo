@@ -31,8 +31,8 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_TRAIN_TYPES: Record<string, TrainTypeCo
     "bgColor": "#0072bc",
     "borderColor": "#005080"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

@@ -188,9 +188,9 @@ module.exports = {
     "各駅停車": "local",
     "快速": "rapid",
     "通勤快速": "rapid",
-    "特急": "limitedExp",
-    "しおさい": "limitedExp",
-    "成田エクスプレス": "limitedExp"
+    "特急": "limited_exp",
+    "しおさい": "limited_exp",
+    "成田エクスプレス": "limited_exp"
   },
   "defaultCars": 8,
   "baseSectionSeconds": {

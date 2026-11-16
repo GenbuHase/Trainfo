@@ -29,7 +29,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -114,7 +114,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -143,7 +143,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -254,7 +254,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -283,7 +283,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -366,7 +366,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -446,7 +446,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -474,7 +474,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -501,7 +501,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -528,7 +528,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -555,7 +555,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ]
   },
   {
@@ -608,7 +608,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },
@@ -662,7 +662,7 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true
   },

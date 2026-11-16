@@ -22,5 +22,5 @@ export const SHINETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#007ac1',
     borderColor: '#005f99',
   },
-  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
+  limited_exp: LIMITED_EXP_PRESETS.NIIGATA,
 };
