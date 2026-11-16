@@ -40,5 +40,15 @@ export const JR_NARA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "textColor": "#ffffff",
     "bgColor": "#884898",
     "borderColor": "#884898"
+  },
+  "limitedExp": {
+    "key": "limitedExp",
+    "name": "特急",
+    "nameEn": "Limited Express",
+    "shortName": "特急",
+    "color": "#d32f2f",
+    "textColor": "#ffffff",
+    "bgColor": "#d32f2f",
+    "borderColor": "#b71c1c"
   }
 };

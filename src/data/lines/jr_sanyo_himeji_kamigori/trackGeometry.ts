@@ -75,8 +75,19 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
         134.67205
       ],
       [
-        34.82314,
-        134.67088
+        34.82330003793035,
+        134.67137274836452
+      ]
+    ]
+  },
+  {
+    "id": "jr_sanyo_himeji_kamigori-02_jr_sanyo_himeji_kamigori-03",
+    "fromStationId": "jr_sanyo_himeji_kamigori-02",
+    "toStationId": "jr_sanyo_himeji_kamigori-03",
+    "coordinates": [
+      [
+        34.82330003793035,
+        134.67137274836452
       ],
       [
         34.82276,
@@ -157,9 +168,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-02_jr_sanyo_himeji_kamigori-03",
-    "fromStationId": "jr_sanyo_himeji_kamigori-02",
-    "toStationId": "jr_sanyo_himeji_kamigori-03",
+    "id": "jr_sanyo_himeji_kamigori-03_jr_sanyo_himeji_kamigori-04",
+    "fromStationId": "jr_sanyo_himeji_kamigori-03",
+    "toStationId": "jr_sanyo_himeji_kamigori-04",
     "coordinates": [
       [
         34.81393,
@@ -272,9 +283,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-03_jr_sanyo_himeji_kamigori-04",
-    "fromStationId": "jr_sanyo_himeji_kamigori-03",
-    "toStationId": "jr_sanyo_himeji_kamigori-04",
+    "id": "jr_sanyo_himeji_kamigori-04_jr_sanyo_himeji_kamigori-05",
+    "fromStationId": "jr_sanyo_himeji_kamigori-04",
+    "toStationId": "jr_sanyo_himeji_kamigori-05",
     "coordinates": [
       [
         34.81019,
@@ -379,9 +390,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-04_jr_sanyo_himeji_kamigori-05",
-    "fromStationId": "jr_sanyo_himeji_kamigori-04",
-    "toStationId": "jr_sanyo_himeji_kamigori-05",
+    "id": "jr_sanyo_himeji_kamigori-05_jr_sanyo_himeji_kamigori-06",
+    "fromStationId": "jr_sanyo_himeji_kamigori-05",
+    "toStationId": "jr_sanyo_himeji_kamigori-06",
     "coordinates": [
       [
         34.81396,
@@ -582,9 +593,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-05_jr_sanyo_himeji_kamigori-06",
-    "fromStationId": "jr_sanyo_himeji_kamigori-05",
-    "toStationId": "jr_sanyo_himeji_kamigori-06",
+    "id": "jr_sanyo_himeji_kamigori-06_jr_sanyo_himeji_kamigori-07",
+    "fromStationId": "jr_sanyo_himeji_kamigori-06",
+    "toStationId": "jr_sanyo_himeji_kamigori-07",
     "coordinates": [
       [
         34.82555,
@@ -813,9 +824,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-06_jr_sanyo_himeji_kamigori-07",
-    "fromStationId": "jr_sanyo_himeji_kamigori-06",
-    "toStationId": "jr_sanyo_himeji_kamigori-07",
+    "id": "jr_sanyo_himeji_kamigori-07_jr_sanyo_himeji_kamigori-08",
+    "fromStationId": "jr_sanyo_himeji_kamigori-07",
+    "toStationId": "jr_sanyo_himeji_kamigori-08",
     "coordinates": [
       [
         34.81797,
@@ -1376,9 +1387,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-07_jr_sanyo_himeji_kamigori-08",
-    "fromStationId": "jr_sanyo_himeji_kamigori-07",
-    "toStationId": "jr_sanyo_himeji_kamigori-08",
+    "id": "jr_sanyo_himeji_kamigori-08_jr_sanyo_himeji_kamigori-09",
+    "fromStationId": "jr_sanyo_himeji_kamigori-08",
+    "toStationId": "jr_sanyo_himeji_kamigori-09",
     "coordinates": [
       [
         34.82944,

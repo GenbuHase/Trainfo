@@ -11,6 +11,26 @@ export const JR_OSAKA_LOOP_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#e72227",
     "borderColor": "#e72227"
   },
+  "semi_rapid": {
+    "key": "semi_rapid",
+    "name": "区間快速",
+    "nameEn": "Regional Rapid",
+    "shortName": "区快",
+    "color": "#22ac38",
+    "textColor": "#ffffff",
+    "bgColor": "#22ac38",
+    "borderColor": "#198754"
+  },
+  "rapid": {
+    "key": "rapid",
+    "name": "快速",
+    "nameEn": "Rapid",
+    "shortName": "快速",
+    "color": "#ff7322",
+    "textColor": "#ffffff",
+    "bgColor": "#ff7322",
+    "borderColor": "#cc5200"
+  },
   "direct_rapid": {
     "key": "direct_rapid",
     "name": "直通快速",
@@ -50,5 +70,15 @@ export const JR_OSAKA_LOOP_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "textColor": "#ffffff",
     "bgColor": "#f39800",
     "borderColor": "#b87200"
+  },
+  "limitedExp": {
+    "key": "limitedExp",
+    "name": "特急",
+    "nameEn": "Limited Express",
+    "shortName": "特急",
+    "color": "#d32f2f",
+    "textColor": "#ffffff",
+    "bgColor": "#d32f2f",
+    "borderColor": "#b71c1c"
   }
 };

@@ -8566,8 +8566,7 @@
     "direction": "inbound",
     "originStationId": "jr_sanin_sonobe_kinosaki-26",
     "destinationStationId": "jr_sanin_sonobe_kinosaki-14",
-    "customOrigin": "城崎温泉",
-    "customDestination": "大阪",
+    "customDestination": "新大阪",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -8616,7 +8615,7 @@
       {
         "stationId": "jr_sanin_sonobe_kinosaki-19",
         "arrivalTime": "16:11:00",
-        "departureTime": "16:36:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       },
       {
@@ -8649,9 +8648,7 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_jr_bantan-18_1636_37869",
-    "throughLineId": "jr_bantan"
+    ]
   },
   {
     "tripId": "WD_INB_jr_sanin_sonobe_kinosaki-26_1536_24693",
@@ -9214,7 +9211,9 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_bantan-18_1636_37869",
+    "throughLineId": "jr_bantan"
   },
   {
     "tripId": "WD_OUT_jr_sanin_sonobe_kinosaki-24_1607_19450",
@@ -21775,8 +21774,7 @@
     "direction": "inbound",
     "originStationId": "jr_sanin_sonobe_kinosaki-26",
     "destinationStationId": "jr_sanin_sonobe_kinosaki-14",
-    "customOrigin": "城崎温泉",
-    "customDestination": "大阪",
+    "customDestination": "新大阪",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -21825,7 +21823,7 @@
       {
         "stationId": "jr_sanin_sonobe_kinosaki-19",
         "arrivalTime": "16:11:00",
-        "departureTime": "16:36:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       },
       {
@@ -21858,9 +21856,7 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_INB_jr_bantan-18_1636_37869",
-    "throughLineId": "jr_bantan"
+    ]
   },
   {
     "tripId": "HD_INB_jr_sanin_sonobe_kinosaki-26_1536_24692",
@@ -22423,7 +22419,9 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_bantan-18_1636_37869",
+    "throughLineId": "jr_bantan"
   },
   {
     "tripId": "HD_OUT_jr_sanin_sonobe_kinosaki-24_1607_19449",

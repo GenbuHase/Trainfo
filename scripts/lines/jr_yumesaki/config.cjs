@@ -13,7 +13,7 @@ module.exports = {
         "name": "西九条",
         "yahooStationId": "26104",
         "inGroupId": null,
-        "outGroupId": "4240"
+        "outGroupId": null
     },
     {
         "id": "jr_yumesaki-02",

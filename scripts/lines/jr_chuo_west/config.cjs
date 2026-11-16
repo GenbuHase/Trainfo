@@ -19,7 +19,7 @@ module.exports = {
         "id": "jr_chuo_west-02",
         "name": "金山",
         "yahooStationId": "24877",
-        "inGroupId": "5401",
+        "inGroupId": null,
         "outGroupId": "1351"
     },
     {

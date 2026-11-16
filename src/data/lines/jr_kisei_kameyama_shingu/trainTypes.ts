@@ -11,6 +11,16 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRAIN_TYPES: Record<string, TrainTypeConfi
     "bgColor": "#ff7322",
     "borderColor": "#ff7322"
   },
+  "rapid": {
+    "key": "rapid",
+    "name": "快速",
+    "nameEn": "Rapid",
+    "shortName": "快速",
+    "color": "#ff7322",
+    "textColor": "#ffffff",
+    "bgColor": "#ff7322",
+    "borderColor": "#cc5200"
+  },
   "rapid_mie": {
     "key": "rapid_mie",
     "name": "快速みえ",

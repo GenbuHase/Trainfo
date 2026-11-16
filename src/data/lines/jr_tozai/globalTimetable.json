@@ -67,7 +67,9 @@
         "departureTime": "00:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0029_37125",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0512_22289",
@@ -139,7 +141,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0538_22289",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0453_22289",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0513_22329",
@@ -210,6 +214,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0533_22329",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0451_22329",
     "prevLineId": "jr_takarazuka"
   },
@@ -283,7 +289,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0551_22285",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0508_22285",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0532_23768",
@@ -294,7 +302,8 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
-    "customDestination": "木津(京都府)",
+    "customOrigin": "尼崎",
+    "customDestination": "木津",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -352,7 +361,9 @@
         "departureTime": "05:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0552_23768",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0540_22271",
@@ -424,7 +435,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0605_22271",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0500_22271",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0550_22415",
@@ -495,6 +508,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0611_22415",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0503_22415",
     "prevLineId": "jr_takarazuka"
   },
@@ -566,7 +581,9 @@
         "departureTime": "06:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0534_35158",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0603_23760",
@@ -577,6 +594,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "四条畷",
     "cars": 7,
     "isHoliday": false,
@@ -635,7 +653,9 @@
         "departureTime": "06:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0624_23760",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0606_22278",
@@ -707,7 +727,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0635_22278",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-10_0529_22278",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0612_23761",
@@ -718,6 +740,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "四条畷",
     "cars": 7,
     "isHoliday": false,
@@ -776,7 +799,9 @@
         "departureTime": "06:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0633_23761",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0618_35084",
@@ -846,7 +871,9 @@
         "departureTime": "06:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0532_35084",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0621_22379",
@@ -917,6 +944,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0642_22379",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_0613_22379",
     "prevLineId": "jr_takarazuka"
   },
@@ -990,7 +1019,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0655_22279",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0603_22279",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0631_23765",
@@ -1001,6 +1032,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "松井山手",
     "cars": 7,
     "isHoliday": false,
@@ -1059,7 +1091,9 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0652_23765",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0632_35080",
@@ -1070,7 +1104,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "木津(京都府)",
+    "customOrigin": "木津",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": false,
@@ -1129,7 +1163,9 @@
         "departureTime": "06:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0531_35080",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0638_22308",
@@ -1200,6 +1236,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0659_22308",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0618_22308",
     "prevLineId": "jr_takarazuka"
   },
@@ -1271,7 +1309,9 @@
         "departureTime": "07:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0703_37163",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0642_22274",
@@ -1343,7 +1383,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0702_22274",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0602_22274",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0647_22401",
@@ -1414,6 +1456,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0708_22401",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0556_22401",
     "prevLineId": "jr_takarazuka"
   },
@@ -1485,7 +1529,9 @@
         "departureTime": "07:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0548_35284",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0652_37222",
@@ -1555,7 +1601,9 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0713_37222",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0655_22280",
@@ -1627,7 +1675,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0716_22280",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0629_22280",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0656_22383",
@@ -1698,6 +1748,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0717_22383",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0617_22383",
     "prevLineId": "jr_takarazuka"
   },
@@ -1770,6 +1822,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0721_22402",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0603_22402",
     "prevLineId": "jr_takarazuka"
   },
@@ -1843,7 +1897,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0726_35342",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0559_35342",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0703_22412",
@@ -1914,6 +1970,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0724_22412",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0611_22412",
     "prevLineId": "jr_takarazuka"
   },
@@ -1927,6 +1985,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "松井山手",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1984,7 +2043,9 @@
         "departureTime": "07:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0621_38847",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0709_22380",
@@ -2055,6 +2116,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0731_22380",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_0704_22380",
     "prevLineId": "jr_takarazuka"
   },
@@ -2128,7 +2191,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0730_22268",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0631_22268",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0714_22337",
@@ -2199,6 +2264,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0736_22337",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-21_0605_22337",
     "prevLineId": "jr_takarazuka"
   },
@@ -2270,7 +2337,9 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0631_35085",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0719_37165",
@@ -2340,7 +2409,9 @@
         "departureTime": "07:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0740_37165",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0720_22281",
@@ -2412,7 +2483,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0742_22281",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0656_22281",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0724_22414",
@@ -2483,6 +2556,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0748_22414",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0633_22414",
     "prevLineId": "jr_takarazuka"
   },
@@ -2556,7 +2631,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0745_22198",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0619_22198",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0727_38848",
@@ -2568,6 +2645,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "松井山手",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2625,7 +2703,9 @@
         "departureTime": "07:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0642_38848",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0729_22338",
@@ -2696,6 +2776,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0753_22338",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-21_0622_22338",
     "prevLineId": "jr_takarazuka"
   },
@@ -2769,7 +2851,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0753_22269",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0653_22269",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0736_23762",
@@ -2780,6 +2864,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "四条畷",
     "cars": 7,
     "isHoliday": false,
@@ -2838,7 +2923,9 @@
         "departureTime": "07:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0757_23762",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0738_22261",
@@ -2910,7 +2997,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0759_22261",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0651_22261",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0740_22376",
@@ -2981,6 +3070,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0801_22376",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_0732_22376",
     "prevLineId": "jr_takarazuka"
   },
@@ -3054,7 +3145,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0805_22288",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0718_22288",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0744_37127",
@@ -3124,7 +3217,9 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0806_37127",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0747_22188",
@@ -3196,7 +3291,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0811_22188",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0640_22188",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0749_37167",
@@ -3266,7 +3363,9 @@
         "departureTime": "08:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0810_37167",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0751_22275",
@@ -3338,7 +3437,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0814_22275",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0704_22275",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0755_22339",
@@ -3409,6 +3510,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0816_22339",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-21_0648_22339",
     "prevLineId": "jr_takarazuka"
   },
@@ -3480,7 +3583,9 @@
         "departureTime": "08:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0708_35086",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0759_38850",
@@ -3492,6 +3597,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "四条畷",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -3549,7 +3655,9 @@
         "departureTime": "08:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0734_38850",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0801_22377",
@@ -3620,6 +3728,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0823_22377",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_0751_22377",
     "prevLineId": "jr_takarazuka"
   },
@@ -3693,7 +3803,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0828_22189",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0703_22189",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0806_22403",
@@ -3764,6 +3876,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0828_22403",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0709_22403",
     "prevLineId": "jr_takarazuka"
   },
@@ -3837,7 +3951,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0829_22276",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0721_22276",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0809_38846",
@@ -3849,6 +3965,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "松井山手",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -3906,7 +4023,9 @@
         "departureTime": "08:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0731_38846",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0812_22409",
@@ -3977,6 +4096,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0834_22409",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0721_22409",
     "prevLineId": "jr_takarazuka"
   },
@@ -4048,7 +4169,9 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0748_35162",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0816_22333",
@@ -4119,6 +4242,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0838_22333",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-21_0706_22333",
     "prevLineId": "jr_takarazuka"
   },
@@ -4132,6 +4257,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "京田辺",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -4189,7 +4315,9 @@
         "departureTime": "08:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0731_38845",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0819_22374",
@@ -4260,6 +4388,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0841_22374",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_0813_22374",
     "prevLineId": "jr_takarazuka"
   },
@@ -4331,7 +4461,9 @@
         "departureTime": "08:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0755_35163",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0823_37122",
@@ -4401,7 +4533,9 @@
         "departureTime": "08:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0844_37122",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0824_22199",
@@ -4473,7 +4607,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0847_22199",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0721_22199",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0827_22410",
@@ -4544,6 +4680,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0848_22410",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0728_22410",
     "prevLineId": "jr_takarazuka"
   },
@@ -4617,7 +4755,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0851_22273",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0743_22273",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0829_22340",
@@ -4688,6 +4828,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0851_22340",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-21_0722_22340",
     "prevLineId": "jr_takarazuka"
   },
@@ -4761,7 +4903,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0857_22270",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0754_22270",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0834_37130",
@@ -4831,7 +4975,9 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0855_37130",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0837_22282",
@@ -4903,7 +5049,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0900_22282",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0811_22282",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0840_23766",
@@ -4914,6 +5062,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "松井山手",
     "cars": 7,
     "isHoliday": false,
@@ -4972,7 +5121,9 @@
         "departureTime": "09:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0902_23766",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0841_22262",
@@ -5044,7 +5195,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0903_22262",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0754_22262",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0847_22381",
@@ -5115,6 +5268,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0908_22381",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0808_22381",
     "prevLineId": "jr_takarazuka"
   },
@@ -5188,7 +5343,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0908_22190",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0742_22190",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0851_22277",
@@ -5260,7 +5417,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0912_22277",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0807_22277",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0852_22399",
@@ -5331,6 +5490,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0913_22399",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0751_22399",
     "prevLineId": "jr_takarazuka"
   },
@@ -5402,7 +5563,9 @@
         "departureTime": "09:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0916_37170",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0855_22263",
@@ -5474,7 +5637,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0919_22263",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0809_22263",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0859_37123",
@@ -5544,7 +5709,9 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0920_37123",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0902_22180",
@@ -5616,7 +5783,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0924_22180",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0803_22180",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0903_22312",
@@ -5687,6 +5856,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0924_22312",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0841_22312",
     "prevLineId": "jr_takarazuka"
   },
@@ -5760,7 +5931,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0929_22272",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0824_22272",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0911_22404",
@@ -5831,6 +6004,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0932_22404",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0818_22404",
     "prevLineId": "jr_takarazuka"
   },
@@ -5904,7 +6079,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0934_22264",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0827_22264",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0915_37124",
@@ -5974,7 +6151,9 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0936_37124",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0917_35166",
@@ -6044,7 +6223,9 @@
         "departureTime": "09:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0857_35166",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0919_22397",
@@ -6115,6 +6296,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0940_22397",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_0841_22397",
     "prevLineId": "jr_takarazuka"
   },
@@ -6188,7 +6371,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0945_22182",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0824_22182",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0926_37132",
@@ -6258,7 +6443,9 @@
         "departureTime": "09:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0947_37132",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0932_35088",
@@ -6328,7 +6515,9 @@
         "departureTime": "09:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-07_0848_35088",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0933_22326",
@@ -6399,6 +6588,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0954_22326",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0911_22326",
     "prevLineId": "jr_takarazuka"
   },
@@ -6472,7 +6663,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0956_22283",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_0910_22283",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0938_23763",
@@ -6483,6 +6676,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "四条畷",
     "cars": 7,
     "isHoliday": false,
@@ -6541,7 +6735,9 @@
         "departureTime": "09:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0959_23763",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0939_22183",
@@ -6613,7 +6809,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1001_22183",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0841_22183",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0946_35095",
@@ -6683,7 +6881,9 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0908_35095",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_0948_22323",
@@ -6754,6 +6954,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1008_22323",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0927_22323",
     "prevLineId": "jr_takarazuka"
   },
@@ -6825,7 +7027,9 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1016_37135",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_0954_22185",
@@ -6897,7 +7101,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1013_22185",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0859_22185",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1000_35154",
@@ -6908,7 +7114,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "長尾(大阪府)",
+    "customOrigin": "長尾",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": false,
@@ -6967,7 +7173,9 @@
         "departureTime": "10:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-10_0919_35154",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1002_22327",
@@ -7038,6 +7246,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1023_22327",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0941_22327",
     "prevLineId": "jr_takarazuka"
   },
@@ -7111,7 +7321,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1027_22220",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_0927_22220",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1009_37138",
@@ -7181,7 +7393,9 @@
         "departureTime": "10:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1030_37138",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1015_35155",
@@ -7192,7 +7406,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "長尾(大阪府)",
+    "customOrigin": "長尾",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": false,
@@ -7251,7 +7465,9 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-10_0933_35155",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1017_22324",
@@ -7322,6 +7538,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1038_22324",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_0949_22324",
     "prevLineId": "jr_takarazuka"
   },
@@ -7395,7 +7613,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1042_22266",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_0947_22266",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1024_37139",
@@ -7465,7 +7685,9 @@
         "departureTime": "10:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1045_37139",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1030_35169",
@@ -7535,7 +7757,9 @@
         "departureTime": "10:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1011_35169",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1032_22359",
@@ -7606,6 +7830,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1053_22359",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1023_22359",
     "prevLineId": "jr_takarazuka"
   },
@@ -7679,7 +7905,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1057_22207",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0929_22207",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1039_37141",
@@ -7749,7 +7977,9 @@
         "departureTime": "11:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1100_37141",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1045_35171",
@@ -7819,7 +8049,9 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1026_35171",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1047_22325",
@@ -7890,6 +8122,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1108_22325",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1026_22325",
     "prevLineId": "jr_takarazuka"
   },
@@ -7963,7 +8197,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1112_22248",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_0956_22248",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1054_37142",
@@ -8033,7 +8269,9 @@
         "departureTime": "11:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1115_37142",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1100_35172",
@@ -8103,7 +8341,9 @@
         "departureTime": "11:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1041_35172",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1102_22370",
@@ -8174,6 +8414,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1123_22370",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1053_22370",
     "prevLineId": "jr_takarazuka"
   },
@@ -8247,7 +8489,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1127_22208",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_0959_22208",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1109_37144",
@@ -8317,7 +8561,9 @@
         "departureTime": "11:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1130_37144",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1115_35174",
@@ -8387,7 +8633,9 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1056_35174",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1117_22360",
@@ -8458,6 +8706,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1138_22360",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1108_22360",
     "prevLineId": "jr_takarazuka"
   },
@@ -8531,7 +8781,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1142_22249",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1031_22249",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1124_37145",
@@ -8601,7 +8853,9 @@
         "departureTime": "11:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1145_37145",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1130_35175",
@@ -8671,7 +8925,9 @@
         "departureTime": "11:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1111_35175",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1132_22361",
@@ -8742,6 +8998,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1153_22361",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1123_22361",
     "prevLineId": "jr_takarazuka"
   },
@@ -8815,7 +9073,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1157_22209",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1029_22209",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1139_37148",
@@ -8885,7 +9145,9 @@
         "departureTime": "12:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1200_37148",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1145_35177",
@@ -8955,7 +9217,9 @@
         "departureTime": "12:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1126_35177",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1147_22362",
@@ -9026,6 +9290,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1208_22362",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1138_22362",
     "prevLineId": "jr_takarazuka"
   },
@@ -9099,7 +9365,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1212_22250",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1103_22250",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1154_37149",
@@ -9169,7 +9437,9 @@
         "departureTime": "12:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1215_37149",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1200_35178",
@@ -9239,7 +9509,9 @@
         "departureTime": "12:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1141_35178",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1202_22371",
@@ -9310,6 +9582,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1223_22371",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1153_22371",
     "prevLineId": "jr_takarazuka"
   },
@@ -9383,7 +9657,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1227_22210",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1059_22210",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1209_37151",
@@ -9453,7 +9729,9 @@
         "departureTime": "12:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1230_37151",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1215_35179",
@@ -9523,7 +9801,9 @@
         "departureTime": "12:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1156_35179",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1217_22363",
@@ -9594,6 +9874,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1238_22363",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1208_22363",
     "prevLineId": "jr_takarazuka"
   },
@@ -9667,7 +9949,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1242_22251",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1133_22251",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1224_37152",
@@ -9737,7 +10021,9 @@
         "departureTime": "12:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1245_37152",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1230_35180",
@@ -9807,7 +10093,9 @@
         "departureTime": "12:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1211_35180",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1232_22364",
@@ -9878,6 +10166,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1253_22364",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1223_22364",
     "prevLineId": "jr_takarazuka"
   },
@@ -9951,7 +10241,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1257_22252",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1148_22252",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1239_37153",
@@ -10021,7 +10313,9 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1300_37153",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1245_35181",
@@ -10091,7 +10385,9 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1226_35181",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1247_22365",
@@ -10162,6 +10458,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1308_22365",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1238_22365",
     "prevLineId": "jr_takarazuka"
   },
@@ -10235,7 +10533,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1312_22253",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1203_22253",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1254_37154",
@@ -10305,7 +10605,9 @@
         "departureTime": "13:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1315_37154",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1300_35182",
@@ -10375,7 +10677,9 @@
         "departureTime": "13:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1241_35182",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1302_22372",
@@ -10446,6 +10750,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1323_22372",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1253_22372",
     "prevLineId": "jr_takarazuka"
   },
@@ -10519,7 +10825,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1327_22211",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1159_22211",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1309_37155",
@@ -10589,7 +10897,9 @@
         "departureTime": "13:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1330_37155",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1315_35183",
@@ -10659,7 +10969,9 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1256_35183",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1317_22366",
@@ -10730,6 +11042,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1338_22366",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1308_22366",
     "prevLineId": "jr_takarazuka"
   },
@@ -10803,7 +11117,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1342_22254",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1233_22254",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1324_37156",
@@ -10873,7 +11189,9 @@
         "departureTime": "13:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1345_37156",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1330_35184",
@@ -10943,7 +11261,9 @@
         "departureTime": "13:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1311_35184",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1332_22367",
@@ -11014,6 +11334,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1353_22367",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1323_22367",
     "prevLineId": "jr_takarazuka"
   },
@@ -11087,7 +11409,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1357_22255",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1248_22255",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1339_37157",
@@ -11157,7 +11481,9 @@
         "departureTime": "14:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1400_37157",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1345_35185",
@@ -11227,7 +11553,9 @@
         "departureTime": "14:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1326_35185",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1347_22368",
@@ -11298,6 +11626,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1408_22368",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1338_22368",
     "prevLineId": "jr_takarazuka"
   },
@@ -11371,7 +11701,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1412_22256",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1303_22256",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1354_37158",
@@ -11441,7 +11773,9 @@
         "departureTime": "14:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1415_37158",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1400_35186",
@@ -11511,7 +11845,9 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1341_35186",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1402_22373",
@@ -11582,6 +11918,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1423_22373",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1353_22373",
     "prevLineId": "jr_takarazuka"
   },
@@ -11655,7 +11993,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1427_22212",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1259_22212",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1409_37159",
@@ -11725,7 +12065,9 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1430_37159",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1415_35187",
@@ -11795,7 +12137,9 @@
         "departureTime": "14:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1356_35187",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1417_22369",
@@ -11866,6 +12210,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1437_22369",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1408_22369",
     "prevLineId": "jr_takarazuka"
   },
@@ -11939,7 +12285,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1444_22257",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1333_22257",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1424_37161",
@@ -11951,7 +12299,7 @@
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
     "customOrigin": "西明石",
-    "customDestination": "長尾(大阪府)",
+    "customDestination": "長尾",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -12009,7 +12357,9 @@
         "departureTime": "14:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1445_37161",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1430_35189",
@@ -12079,7 +12429,9 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1411_35189",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1432_22352",
@@ -12150,6 +12502,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1452_22352",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1423_22352",
     "prevLineId": "jr_takarazuka"
   },
@@ -12223,7 +12577,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1459_22258",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1348_22258",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1439_37174",
@@ -12293,7 +12649,9 @@
         "departureTime": "15:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1500_37174",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1445_35191",
@@ -12363,7 +12721,9 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1426_35191",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1447_22344",
@@ -12434,6 +12794,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1507_22344",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1438_22344",
     "prevLineId": "jr_takarazuka"
   },
@@ -12507,7 +12869,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1514_22259",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1403_22259",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1454_37175",
@@ -12577,7 +12941,9 @@
         "departureTime": "15:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1515_37175",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1500_35193",
@@ -12647,7 +13013,9 @@
         "departureTime": "15:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1441_35193",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1502_22354",
@@ -12718,6 +13086,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1522_22354",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1453_22354",
     "prevLineId": "jr_takarazuka"
   },
@@ -12791,7 +13161,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1529_22213",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1359_22213",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1509_37176",
@@ -12861,7 +13233,9 @@
         "departureTime": "15:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1530_37176",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1515_35195",
@@ -12931,7 +13305,9 @@
         "departureTime": "15:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1456_35195",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1517_22345",
@@ -13002,6 +13378,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1537_22345",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1508_22345",
     "prevLineId": "jr_takarazuka"
   },
@@ -13075,7 +13453,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1544_22260",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1433_22260",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1524_37177",
@@ -13145,7 +13525,9 @@
         "departureTime": "15:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1545_37177",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1530_35197",
@@ -13215,7 +13597,9 @@
         "departureTime": "15:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_1511_35197",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1532_22355",
@@ -13286,6 +13670,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1552_22355",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1523_22355",
     "prevLineId": "jr_takarazuka"
   },
@@ -13359,7 +13745,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1558_22226",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1448_22226",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1539_37178",
@@ -13429,7 +13817,9 @@
         "departureTime": "16:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1600_37178",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1545_35103",
@@ -13499,7 +13889,9 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1501_35103",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1547_22346",
@@ -13570,6 +13962,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1607_22346",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1538_22346",
     "prevLineId": "jr_takarazuka"
   },
@@ -13643,7 +14037,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1617_22170",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1459_22170",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1554_37180",
@@ -13713,7 +14109,9 @@
         "departureTime": "16:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1615_37180",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1600_35083",
@@ -13783,7 +14181,9 @@
         "departureTime": "16:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1500_35083",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1601_22356",
@@ -13854,6 +14254,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1621_22356",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1553_22356",
     "prevLineId": "jr_takarazuka"
   },
@@ -13927,7 +14329,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1628_22233",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1528_22233",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1609_37182",
@@ -13997,7 +14401,9 @@
         "departureTime": "16:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1631_37182",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1615_35157",
@@ -14008,7 +14414,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "長尾(大阪府)",
+    "customOrigin": "長尾",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": false,
@@ -14067,7 +14473,9 @@
         "departureTime": "16:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-10_1534_35157",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1616_22347",
@@ -14138,6 +14546,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1636_22347",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1607_22347",
     "prevLineId": "jr_takarazuka"
   },
@@ -14211,7 +14621,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1643_22186",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1529_22186",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1624_37184",
@@ -14281,7 +14693,9 @@
         "departureTime": "16:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1646_37184",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1631_22313",
@@ -14352,6 +14766,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1651_22313",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1611_22313",
     "prevLineId": "jr_takarazuka"
   },
@@ -14423,7 +14839,9 @@
         "departureTime": "16:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1547_35105",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1638_22234",
@@ -14495,7 +14913,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1658_22234",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1558_22234",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1639_37186",
@@ -14565,7 +14985,9 @@
         "departureTime": "17:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1701_37186",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1646_22349",
@@ -14636,6 +15058,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1706_22349",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_1637_22349",
     "prevLineId": "jr_takarazuka"
   },
@@ -14707,7 +15131,9 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1602_35107",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1653_22191",
@@ -14779,7 +15205,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1713_22191",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1559_22191",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1654_37188",
@@ -14849,7 +15277,9 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1716_37188",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1701_22315",
@@ -14920,6 +15350,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1721_22315",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1641_22315",
     "prevLineId": "jr_takarazuka"
   },
@@ -14991,7 +15423,9 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1617_35109",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1708_22235",
@@ -15063,7 +15497,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1728_22235",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1628_22235",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1709_37190",
@@ -15133,7 +15569,9 @@
         "departureTime": "17:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1731_37190",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1716_22295",
@@ -15204,6 +15642,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1736_22295",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1653_22295",
     "prevLineId": "jr_takarazuka"
   },
@@ -15275,7 +15715,9 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1632_35111",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1723_22201",
@@ -15347,7 +15789,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1743_22201",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1629_22201",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1724_37191",
@@ -15417,7 +15861,9 @@
         "departureTime": "17:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1746_37191",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1731_22316",
@@ -15488,6 +15934,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1751_22316",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1711_22316",
     "prevLineId": "jr_takarazuka"
   },
@@ -15559,7 +16007,9 @@
         "departureTime": "17:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1647_35113",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1736_23757",
@@ -15570,6 +16020,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "京田辺",
     "cars": 7,
     "isHoliday": false,
@@ -15628,7 +16079,9 @@
         "departureTime": "17:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1758_23757",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1738_22236",
@@ -15700,7 +16153,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1758_22236",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1658_22236",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1739_37194",
@@ -15770,7 +16225,9 @@
         "departureTime": "18:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1801_37194",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1746_22297",
@@ -15841,6 +16298,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1806_22297",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1726_22297",
     "prevLineId": "jr_takarazuka"
   },
@@ -15912,7 +16371,9 @@
         "departureTime": "18:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1702_35115",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1753_22192",
@@ -15984,7 +16445,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1813_22192",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1659_22192",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1754_37196",
@@ -16054,7 +16517,9 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1816_37196",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1801_22386",
@@ -16125,6 +16590,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1821_22386",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_1723_22386",
     "prevLineId": "jr_takarazuka"
   },
@@ -16196,7 +16663,9 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1717_35117",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1806_23758",
@@ -16207,6 +16676,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "京田辺",
     "cars": 7,
     "isHoliday": false,
@@ -16265,7 +16735,9 @@
         "departureTime": "18:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1828_23758",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1808_22237",
@@ -16337,7 +16809,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1828_22237",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1728_22237",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1809_37198",
@@ -16407,7 +16881,9 @@
         "departureTime": "18:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1831_37198",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1816_22299",
@@ -16478,6 +16954,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1836_22299",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1753_22299",
     "prevLineId": "jr_takarazuka"
   },
@@ -16549,7 +17027,9 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1732_35119",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1823_22202",
@@ -16621,7 +17101,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1843_22202",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1729_22202",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1824_37200",
@@ -16691,7 +17173,9 @@
         "departureTime": "18:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1846_37200",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1831_22388",
@@ -16762,6 +17246,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1851_22388",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_1753_22388",
     "prevLineId": "jr_takarazuka"
   },
@@ -16833,7 +17319,9 @@
         "departureTime": "18:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1747_35121",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1836_23759",
@@ -16844,6 +17332,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "京田辺",
     "cars": 7,
     "isHoliday": false,
@@ -16902,7 +17391,9 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1858_23759",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1838_22238",
@@ -16974,7 +17465,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1858_22238",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1758_22238",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1839_37202",
@@ -17044,7 +17537,9 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1901_37202",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1846_22301",
@@ -17115,6 +17610,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1906_22301",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1826_22301",
     "prevLineId": "jr_takarazuka"
   },
@@ -17186,7 +17683,9 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1802_35123",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1853_22193",
@@ -17258,7 +17757,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1913_22193",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1759_22193",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1854_37204",
@@ -17328,7 +17829,9 @@
         "departureTime": "19:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1916_37204",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1901_22391",
@@ -17399,6 +17902,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1921_22391",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_1823_22391",
     "prevLineId": "jr_takarazuka"
   },
@@ -17470,7 +17975,9 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1817_35125",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1908_22239",
@@ -17542,7 +18049,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1928_22239",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1826_22239",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1909_37206",
@@ -17612,7 +18121,9 @@
         "departureTime": "19:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1931_37206",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1916_22303",
@@ -17683,6 +18194,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1936_22303",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1853_22303",
     "prevLineId": "jr_takarazuka"
   },
@@ -17754,7 +18267,9 @@
         "departureTime": "19:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1832_35127",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1923_22203",
@@ -17826,7 +18341,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1943_22203",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1829_22203",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1924_37208",
@@ -17896,7 +18413,9 @@
         "departureTime": "19:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1946_37208",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1931_22393",
@@ -17967,6 +18486,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_1951_22393",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_1852_22393",
     "prevLineId": "jr_takarazuka"
   },
@@ -18038,7 +18559,9 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1847_35129",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1938_22241",
@@ -18110,7 +18633,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_1958_22241",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1853_22241",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1939_37210",
@@ -18180,7 +18705,9 @@
         "departureTime": "20:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2001_37210",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1946_22304",
@@ -18251,6 +18778,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2006_22304",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1923_22304",
     "prevLineId": "jr_takarazuka"
   },
@@ -18322,7 +18851,9 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1902_35131",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_1953_22194",
@@ -18394,7 +18925,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2013_22194",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1859_22194",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_1954_37212",
@@ -18464,7 +18997,9 @@
         "departureTime": "20:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2016_37212",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2001_22394",
@@ -18535,6 +19070,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2021_22394",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_1923_22394",
     "prevLineId": "jr_takarazuka"
   },
@@ -18606,7 +19143,9 @@
         "departureTime": "20:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1917_35133",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2008_22243",
@@ -18678,7 +19217,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2028_22243",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1923_22243",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2009_37213",
@@ -18748,7 +19289,9 @@
         "departureTime": "20:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2031_37213",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2016_22306",
@@ -18819,6 +19362,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2036_22306",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_1953_22306",
     "prevLineId": "jr_takarazuka"
   },
@@ -18890,7 +19435,9 @@
         "departureTime": "20:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1932_35135",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2023_22205",
@@ -18962,7 +19509,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2047_22205",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1929_22205",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2024_37215",
@@ -19032,7 +19581,9 @@
         "departureTime": "20:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2046_37215",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2031_22396",
@@ -19103,6 +19654,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2051_22396",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_1952_22396",
     "prevLineId": "jr_takarazuka"
   },
@@ -19174,7 +19727,9 @@
         "departureTime": "20:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_1947_35137",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2038_22245",
@@ -19246,7 +19801,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2058_22245",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_1953_22245",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2039_37217",
@@ -19316,7 +19873,9 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2101_37217",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2046_22336",
@@ -19387,6 +19946,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2106_22336",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-21_1944_22336",
     "prevLineId": "jr_takarazuka"
   },
@@ -19458,7 +20019,9 @@
         "departureTime": "21:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2002_35139",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2053_22196",
@@ -19530,7 +20093,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2113_22196",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_1959_22196",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2054_37218",
@@ -19600,7 +20165,9 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2114_37218",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2101_22319",
@@ -19671,6 +20238,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2121_22319",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_2041_22319",
     "prevLineId": "jr_takarazuka"
   },
@@ -19742,7 +20311,9 @@
         "departureTime": "21:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2017_35140",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2108_22228",
@@ -19814,7 +20385,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2128_22228",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_2027_22228",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2109_37224",
@@ -19884,7 +20457,9 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2129_37224",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2112_38851",
@@ -19896,6 +20471,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "四条畷",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -19953,7 +20529,9 @@
         "departureTime": "21:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_2048_38851",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2116_22307",
@@ -20024,6 +20602,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2136_22307",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_2054_22307",
     "prevLineId": "jr_takarazuka"
   },
@@ -20095,7 +20675,9 @@
         "departureTime": "21:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2032_35142",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2123_22197",
@@ -20167,7 +20749,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2143_22197",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_2029_22197",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2124_37220",
@@ -20237,7 +20821,9 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2144_37220",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2127_22284",
@@ -20309,7 +20895,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2147_22284",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_2103_22284",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2131_35283",
@@ -20380,6 +20968,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2151_35283",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_2051_35283",
     "prevLineId": "jr_takarazuka"
   },
@@ -20451,7 +21041,9 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2047_35144",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2138_38843",
@@ -20463,6 +21055,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "同志社前",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -20520,7 +21113,9 @@
         "departureTime": "21:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_2057_38843",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2139_37221",
@@ -20590,7 +21185,9 @@
         "departureTime": "22:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2201_37221",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2145_35198",
@@ -20660,7 +21257,9 @@
         "departureTime": "22:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_2118_35198",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2146_22357",
@@ -20731,6 +21330,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2207_22357",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_2140_22357",
     "prevLineId": "jr_takarazuka"
   },
@@ -20802,7 +21403,9 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2216_37160",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2155_22175",
@@ -20874,7 +21477,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2220_22175",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_2059_22175",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2203_22398",
@@ -20945,6 +21550,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2224_22398",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_2125_22398",
     "prevLineId": "jr_takarazuka"
   },
@@ -21016,7 +21623,9 @@
         "departureTime": "22:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2117_35147",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2214_40540",
@@ -21086,7 +21695,9 @@
         "departureTime": "22:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2234_40540",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2215_38844",
@@ -21098,6 +21709,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "同志社前",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -21155,7 +21767,9 @@
         "departureTime": "22:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_2126_38844",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2224_22375",
@@ -21226,6 +21840,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2244_22375",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_2213_22375",
     "prevLineId": "jr_takarazuka"
   },
@@ -21297,7 +21913,9 @@
         "departureTime": "22:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2137_35149",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2234_37120",
@@ -21309,7 +21927,7 @@
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
     "customOrigin": "西明石",
-    "customDestination": "木津(京都府)",
+    "customDestination": "木津",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -21367,7 +21985,9 @@
         "departureTime": "22:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2255_37120",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2235_22171",
@@ -21439,7 +22059,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2300_22171",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_2133_22171",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2244_23764",
@@ -21450,6 +22072,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "四条畷",
     "cars": 7,
     "isHoliday": false,
@@ -21508,7 +22131,9 @@
         "departureTime": "23:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2306_23764",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2245_35151",
@@ -21578,7 +22203,9 @@
         "departureTime": "23:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2157_35151",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2254_37118",
@@ -21648,7 +22275,9 @@
         "departureTime": "23:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2314_37118",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2255_22177",
@@ -21720,7 +22349,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2320_22177",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_2159_22177",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2304_22407",
@@ -21791,6 +22422,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2326_22407",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_2217_22407",
     "prevLineId": "jr_takarazuka"
   },
@@ -21804,6 +22437,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "松井山手",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -21861,7 +22495,9 @@
         "departureTime": "23:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2217_38849",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2314_22322",
@@ -21932,6 +22568,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2336_22322",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-08_2251_22322",
     "prevLineId": "jr_takarazuka"
   },
@@ -22005,7 +22643,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2341_22231",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-06_2226_22231",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_OUT_jr_tozai-01_2325_40542",
@@ -22075,7 +22715,9 @@
         "departureTime": "23:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_gakken_toshi-09_2237_40542",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2326_22408",
@@ -22146,6 +22788,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2346_22408",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_2237_22408",
     "prevLineId": "jr_takarazuka"
   },
@@ -22218,6 +22862,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_2354_22358",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-02_2325_22358",
     "prevLineId": "jr_takarazuka"
   },
@@ -22291,7 +22937,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_2359_22215",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-01_2233_22215",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "WD_INB_jr_tozai-09_2347_22400",
@@ -22362,6 +23010,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_jr_gakken_toshi-24_0007_22400",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "WD_INB_jr_takarazuka-14_2301_22400",
     "prevLineId": "jr_takarazuka"
   },
@@ -22435,7 +23085,9 @@
       }
     ],
     "throughTripId": "WD_OUT_jr_takarazuka-01_0014_22290",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "WD_OUT_jr_gakken_toshi-17_2322_22290",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0009_37125",
@@ -22505,7 +23157,9 @@
         "departureTime": "00:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0029_37125",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0512_22289",
@@ -22577,7 +23231,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0538_22289",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0453_22289",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0513_22330",
@@ -22648,6 +23304,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0533_22330",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0451_22330",
     "prevLineId": "jr_takarazuka"
   },
@@ -22721,7 +23379,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0551_22286",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0508_22286",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0539_23769",
@@ -22732,7 +23392,8 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
-    "customDestination": "木津(京都府)",
+    "customOrigin": "尼崎",
+    "customDestination": "木津",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -22790,7 +23451,9 @@
         "departureTime": "05:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0559_23769",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0540_40541",
@@ -22860,7 +23523,9 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0500_40541",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0550_22411",
@@ -22931,6 +23596,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0611_22411",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_0503_22411",
     "prevLineId": "jr_takarazuka"
   },
@@ -22944,6 +23611,7 @@
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
     "customOrigin": "放出",
+    "customDestination": "尼崎",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -23001,7 +23669,9 @@
         "departureTime": "06:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-22_0548_38852",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0605_23767",
@@ -23012,6 +23682,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "京田辺",
     "cars": 7,
     "isHoliday": true,
@@ -23070,7 +23741,9 @@
         "departureTime": "06:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0625_23767",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0606_35153",
@@ -23081,7 +23754,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "長尾(大阪府)",
+    "customOrigin": "長尾",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": true,
@@ -23140,7 +23813,9 @@
         "departureTime": "06:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-10_0529_35153",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0616_23770",
@@ -23151,7 +23826,8 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
-    "customDestination": "木津(京都府)",
+    "customOrigin": "尼崎",
+    "customDestination": "木津",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -23209,7 +23885,9 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0639_23770",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0619_35089",
@@ -23279,7 +23957,9 @@
         "departureTime": "06:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-07_0532_35089",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0631_37162",
@@ -23349,7 +24029,9 @@
         "departureTime": "06:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0654_37162",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0632_22214",
@@ -23421,7 +24103,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0654_22214",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0531_22214",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0637_23756",
@@ -23432,6 +24116,7 @@
     "direction": "inbound",
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
+    "customOrigin": "尼崎",
     "customDestination": "同志社前",
     "cars": 7,
     "isHoliday": true,
@@ -23490,7 +24175,9 @@
         "departureTime": "06:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0659_23756",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0639_22287",
@@ -23562,7 +24249,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0702_22287",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0613_22287",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0643_40545",
@@ -23632,7 +24321,9 @@
         "departureTime": "07:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0704_40545",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0646_35100",
@@ -23702,7 +24393,9 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0605_35100",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0650_22309",
@@ -23773,6 +24466,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0713_22309",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0627_22309",
     "prevLineId": "jr_takarazuka"
   },
@@ -23846,7 +24541,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0716_35344",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0548_35344",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0659_40544",
@@ -23916,7 +24613,9 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0719_40544",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0700_35159",
@@ -23986,7 +24685,9 @@
         "departureTime": "07:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0632_35159",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0707_22331",
@@ -24057,6 +24758,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0729_22331",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-21_0600_22331",
     "prevLineId": "jr_takarazuka"
   },
@@ -24130,7 +24833,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0728_35343",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0559_35343",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0714_37164",
@@ -24200,7 +24905,9 @@
         "departureTime": "07:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0738_37164",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0715_35090",
@@ -24270,7 +24977,9 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-07_0623_35090",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0722_22384",
@@ -24341,6 +25050,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0743_22384",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_0638_22384",
     "prevLineId": "jr_takarazuka"
   },
@@ -24414,7 +25125,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0742_22187",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0626_22187",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0728_37126",
@@ -24484,7 +25197,9 @@
         "departureTime": "07:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0749_37126",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0731_35091",
@@ -24554,7 +25269,9 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0654_35091",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0737_22332",
@@ -24625,6 +25342,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0758_22332",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-21_0624_22332",
     "prevLineId": "jr_takarazuka"
   },
@@ -24637,7 +25356,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "ＪＲ三山木",
+    "customOrigin": "JR三山木",
     "customDestination": "新三田",
     "cars": 7,
     "isHoliday": true,
@@ -24698,7 +25417,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0758_22217",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-05_0652_22217",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0743_37166",
@@ -24768,7 +25489,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0808_37166",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0746_35160",
@@ -24838,7 +25561,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0718_35160",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0752_22310",
@@ -24909,6 +25634,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0813_22310",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0731_22310",
     "prevLineId": "jr_takarazuka"
   },
@@ -24982,7 +25709,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0813_22178",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0652_22178",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0758_37128",
@@ -25052,7 +25781,9 @@
         "departureTime": "08:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0819_37128",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0801_35087",
@@ -25122,7 +25853,9 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-07_0717_35087",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0807_22291",
@@ -25193,6 +25926,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0828_22291",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0746_22291",
     "prevLineId": "jr_takarazuka"
   },
@@ -25266,7 +26001,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0828_22246",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_0723_22246",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0813_37168",
@@ -25336,7 +26073,9 @@
         "departureTime": "08:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0838_37168",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0816_35161",
@@ -25406,7 +26145,9 @@
         "departureTime": "08:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0748_35161",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0822_22311",
@@ -25477,6 +26218,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0843_22311",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0801_22311",
     "prevLineId": "jr_takarazuka"
   },
@@ -25550,7 +26293,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0843_22200",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0722_22200",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0828_37129",
@@ -25620,7 +26365,9 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0849_37129",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0831_35092",
@@ -25690,7 +26437,9 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0754_35092",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0837_22292",
@@ -25761,6 +26510,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0858_22292",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0810_22292",
     "prevLineId": "jr_takarazuka"
   },
@@ -25834,7 +26585,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0858_22247",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_0751_22247",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0843_37169",
@@ -25904,7 +26657,9 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0908_37169",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0846_35164",
@@ -25974,7 +26729,9 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0818_35164",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0852_22341",
@@ -26045,6 +26802,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0913_22341",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-21_0749_22341",
     "prevLineId": "jr_takarazuka"
   },
@@ -26118,7 +26877,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0913_22179",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0752_22179",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0858_37131",
@@ -26188,7 +26949,9 @@
         "departureTime": "09:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0919_37131",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0901_35093",
@@ -26258,7 +27021,9 @@
         "departureTime": "09:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0824_35093",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0907_22293",
@@ -26329,6 +27094,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0928_22293",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0846_22293",
     "prevLineId": "jr_takarazuka"
   },
@@ -26402,7 +27169,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0931_22232",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_0820_22232",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0913_37171",
@@ -26472,7 +27241,9 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0937_37171",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0916_35165",
@@ -26542,7 +27313,9 @@
         "departureTime": "09:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0848_35165",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0922_22385",
@@ -26613,6 +27386,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0943_22385",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_0841_22385",
     "prevLineId": "jr_takarazuka"
   },
@@ -26686,7 +27461,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0946_22181",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0820_22181",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0928_37133",
@@ -26756,7 +27533,9 @@
         "departureTime": "09:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0948_37133",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0931_35094",
@@ -26826,7 +27605,9 @@
         "departureTime": "09:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0854_35094",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0935_22382",
@@ -26897,6 +27678,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0957_22382",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_0854_22382",
     "prevLineId": "jr_takarazuka"
   },
@@ -26970,7 +27753,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1001_22218",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_0850_22218",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0939_37134",
@@ -27040,7 +27825,9 @@
         "departureTime": "10:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1000_37134",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_0946_35167",
@@ -27110,7 +27897,9 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0918_35167",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0947_22334",
@@ -27181,6 +27970,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1009_22334",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-21_0845_22334",
     "prevLineId": "jr_takarazuka"
   },
@@ -27254,7 +28045,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1013_22184",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0850_22184",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_0954_37136",
@@ -27324,7 +28117,9 @@
         "departureTime": "10:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1014_37136",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1000_35096",
@@ -27394,7 +28189,9 @@
         "departureTime": "10:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0924_35096",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1002_22350",
@@ -27465,6 +28262,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1023_22350",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_0955_22350",
     "prevLineId": "jr_takarazuka"
   },
@@ -27538,7 +28337,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1031_22219",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_0920_22219",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1009_37137",
@@ -27608,7 +28409,9 @@
         "departureTime": "10:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1029_37137",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1015_35168",
@@ -27678,7 +28481,9 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_0948_35168",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1017_22294",
@@ -27749,6 +28554,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1038_22294",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_0947_22294",
     "prevLineId": "jr_takarazuka"
   },
@@ -27822,7 +28629,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1044_22167",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0920_22167",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1024_37140",
@@ -27892,7 +28701,9 @@
         "departureTime": "10:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1044_37140",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1030_35097",
@@ -27962,7 +28773,9 @@
         "departureTime": "10:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_0954_35097",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1032_22342",
@@ -28033,6 +28846,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1054_22342",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1023_22342",
     "prevLineId": "jr_takarazuka"
   },
@@ -28106,7 +28921,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1059_22221",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_0950_22221",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1039_37172",
@@ -28176,7 +28993,9 @@
         "departureTime": "11:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1100_37172",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1045_35170",
@@ -28246,7 +29065,9 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1016_35170",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1047_22343",
@@ -28317,6 +29138,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1109_22343",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1040_22343",
     "prevLineId": "jr_takarazuka"
   },
@@ -28390,7 +29213,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1112_22168",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_0950_22168",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1054_37173",
@@ -28460,7 +29285,9 @@
         "departureTime": "11:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1115_37173",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1100_35098",
@@ -28530,7 +29357,9 @@
         "departureTime": "11:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1024_35098",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1102_22351",
@@ -28601,6 +29430,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1123_22351",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1053_22351",
     "prevLineId": "jr_takarazuka"
   },
@@ -28674,7 +29505,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1127_22222",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1018_22222",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1109_37143",
@@ -28744,7 +29577,9 @@
         "departureTime": "11:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1130_37143",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1115_35173",
@@ -28814,7 +29649,9 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1048_35173",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1117_22360",
@@ -28885,6 +29722,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1138_22360",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1108_22360",
     "prevLineId": "jr_takarazuka"
   },
@@ -28958,7 +29797,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1142_22169",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1025_22169",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1124_37146",
@@ -29028,7 +29869,9 @@
         "departureTime": "11:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1145_37146",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1130_35099",
@@ -29098,7 +29941,9 @@
         "departureTime": "11:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1054_35099",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1132_22361",
@@ -29169,6 +30014,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1153_22361",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1123_22361",
     "prevLineId": "jr_takarazuka"
   },
@@ -29242,7 +30089,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1157_22223",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1057_22223",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1139_37147",
@@ -29312,7 +30161,9 @@
         "departureTime": "12:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1200_37147",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1145_35176",
@@ -29382,7 +30233,9 @@
         "departureTime": "12:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1116_35176",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1147_22362",
@@ -29453,6 +30306,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1208_22362",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1138_22362",
     "prevLineId": "jr_takarazuka"
   },
@@ -29526,7 +30381,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1212_22265",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1120_22265",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1154_37150",
@@ -29596,7 +30453,9 @@
         "departureTime": "12:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1215_37150",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1200_35081",
@@ -29607,7 +30466,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "木津(京都府)",
+    "customOrigin": "木津",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": true,
@@ -29666,7 +30525,9 @@
         "departureTime": "12:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1059_35081",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1202_22371",
@@ -29737,6 +30598,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1223_22371",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1153_22371",
     "prevLineId": "jr_takarazuka"
   },
@@ -29810,7 +30673,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1227_22224",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1127_22224",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1209_37151",
@@ -29880,7 +30745,9 @@
         "departureTime": "12:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1230_37151",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1215_35179",
@@ -29950,7 +30817,9 @@
         "departureTime": "12:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1156_35179",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1217_22363",
@@ -30021,6 +30890,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1238_22363",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1208_22363",
     "prevLineId": "jr_takarazuka"
   },
@@ -30094,7 +30965,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1242_22225",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1142_22225",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1224_37152",
@@ -30164,7 +31037,9 @@
         "departureTime": "12:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1245_37152",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1230_35101",
@@ -30234,7 +31109,9 @@
         "departureTime": "12:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1143_35101",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1232_22364",
@@ -30305,6 +31182,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1253_22364",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1223_22364",
     "prevLineId": "jr_takarazuka"
   },
@@ -30378,7 +31257,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1257_22267",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1202_22267",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1239_37153",
@@ -30448,7 +31329,9 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1300_37153",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1245_35181",
@@ -30518,7 +31401,9 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1226_35181",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1247_22365",
@@ -30589,6 +31474,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1308_22365",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1238_22365",
     "prevLineId": "jr_takarazuka"
   },
@@ -30662,7 +31549,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1312_22253",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1203_22253",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1254_37154",
@@ -30732,7 +31621,9 @@
         "departureTime": "13:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1315_37154",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1300_35182",
@@ -30802,7 +31693,9 @@
         "departureTime": "13:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1241_35182",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1302_22372",
@@ -30873,6 +31766,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1323_22372",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1253_22372",
     "prevLineId": "jr_takarazuka"
   },
@@ -30946,7 +31841,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1327_22211",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1159_22211",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1309_37155",
@@ -31016,7 +31913,9 @@
         "departureTime": "13:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1330_37155",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1315_35183",
@@ -31086,7 +31985,9 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1256_35183",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1317_22366",
@@ -31157,6 +32058,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1338_22366",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1308_22366",
     "prevLineId": "jr_takarazuka"
   },
@@ -31230,7 +32133,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1342_22254",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1233_22254",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1324_37156",
@@ -31300,7 +32205,9 @@
         "departureTime": "13:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1345_37156",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1330_35184",
@@ -31370,7 +32277,9 @@
         "departureTime": "13:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1311_35184",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1332_22367",
@@ -31441,6 +32350,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1353_22367",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1323_22367",
     "prevLineId": "jr_takarazuka"
   },
@@ -31514,7 +32425,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1357_22255",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1248_22255",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1339_37157",
@@ -31584,7 +32497,9 @@
         "departureTime": "14:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1400_37157",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1345_35185",
@@ -31654,7 +32569,9 @@
         "departureTime": "14:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1326_35185",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1347_22368",
@@ -31725,6 +32642,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1408_22368",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1338_22368",
     "prevLineId": "jr_takarazuka"
   },
@@ -31798,7 +32717,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1412_22256",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1303_22256",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1354_37158",
@@ -31868,7 +32789,9 @@
         "departureTime": "14:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1415_37158",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1400_35186",
@@ -31938,7 +32861,9 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1341_35186",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1402_22373",
@@ -32009,6 +32934,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1423_22373",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1353_22373",
     "prevLineId": "jr_takarazuka"
   },
@@ -32082,7 +33009,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1427_22212",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1259_22212",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1409_37159",
@@ -32152,7 +33081,9 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1430_37159",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1415_35188",
@@ -32222,7 +33153,9 @@
         "departureTime": "14:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1356_35188",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1417_22369",
@@ -32293,6 +33226,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1437_22369",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1408_22369",
     "prevLineId": "jr_takarazuka"
   },
@@ -32366,7 +33301,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1444_22257",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1333_22257",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1424_37161",
@@ -32378,7 +33315,7 @@
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
     "customOrigin": "西明石",
-    "customDestination": "長尾(大阪府)",
+    "customDestination": "長尾",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -32436,7 +33373,9 @@
         "departureTime": "14:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1445_37161",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1430_35190",
@@ -32506,7 +33445,9 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1411_35190",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1432_22353",
@@ -32577,6 +33518,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1452_22353",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1423_22353",
     "prevLineId": "jr_takarazuka"
   },
@@ -32650,7 +33593,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1459_22258",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1348_22258",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1439_37174",
@@ -32720,7 +33665,9 @@
         "departureTime": "15:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1500_37174",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1445_35191",
@@ -32790,7 +33737,9 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1426_35191",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1447_22344",
@@ -32861,6 +33810,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1507_22344",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1438_22344",
     "prevLineId": "jr_takarazuka"
   },
@@ -32934,7 +33885,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1514_22259",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1403_22259",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1454_37175",
@@ -33004,7 +33957,9 @@
         "departureTime": "15:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1515_37175",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1500_35192",
@@ -33074,7 +34029,9 @@
         "departureTime": "15:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1441_35192",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1502_22354",
@@ -33145,6 +34102,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1522_22354",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1453_22354",
     "prevLineId": "jr_takarazuka"
   },
@@ -33218,7 +34177,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1529_22213",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1359_22213",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1509_37176",
@@ -33288,7 +34249,9 @@
         "departureTime": "15:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1530_37176",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1515_35194",
@@ -33358,7 +34321,9 @@
         "departureTime": "15:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1456_35194",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1517_22345",
@@ -33429,6 +34394,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1537_22345",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1508_22345",
     "prevLineId": "jr_takarazuka"
   },
@@ -33502,7 +34469,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1544_22260",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1433_22260",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1524_37177",
@@ -33572,7 +34541,9 @@
         "departureTime": "15:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1545_37177",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1530_35196",
@@ -33642,7 +34613,9 @@
         "departureTime": "15:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_1511_35196",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1532_22355",
@@ -33713,6 +34686,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1552_22355",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1523_22355",
     "prevLineId": "jr_takarazuka"
   },
@@ -33786,7 +34761,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1558_22226",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1448_22226",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1539_37178",
@@ -33856,7 +34833,9 @@
         "departureTime": "16:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1600_37178",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1545_35102",
@@ -33926,7 +34905,9 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1501_35102",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1547_22346",
@@ -33997,6 +34978,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1607_22346",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1538_22346",
     "prevLineId": "jr_takarazuka"
   },
@@ -34070,7 +35053,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1617_22170",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1459_22170",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1554_37179",
@@ -34140,7 +35125,9 @@
         "departureTime": "16:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1615_37179",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1600_35082",
@@ -34210,7 +35197,9 @@
         "departureTime": "16:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1500_35082",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1601_22356",
@@ -34281,6 +35270,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1621_22356",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1553_22356",
     "prevLineId": "jr_takarazuka"
   },
@@ -34354,7 +35345,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1628_22233",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1528_22233",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1609_37181",
@@ -34424,7 +35417,9 @@
         "departureTime": "16:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1630_37181",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1615_35156",
@@ -34435,7 +35430,7 @@
     "direction": "outbound",
     "originStationId": "jr_tozai-01",
     "destinationStationId": "jr_tozai-09",
-    "customOrigin": "長尾(大阪府)",
+    "customOrigin": "長尾",
     "customDestination": "西明石",
     "cars": 7,
     "isHoliday": true,
@@ -34494,7 +35489,9 @@
         "departureTime": "16:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-10_1534_35156",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1616_22347",
@@ -34565,6 +35562,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1636_22347",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1607_22347",
     "prevLineId": "jr_takarazuka"
   },
@@ -34638,7 +35637,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1643_22186",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1529_22186",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1624_37183",
@@ -34708,7 +35709,9 @@
         "departureTime": "16:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1645_37183",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1630_35104",
@@ -34778,7 +35781,9 @@
         "departureTime": "16:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1547_35104",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1631_22314",
@@ -34849,6 +35854,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1651_22314",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1611_22314",
     "prevLineId": "jr_takarazuka"
   },
@@ -34922,7 +35929,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1658_22234",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1558_22234",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1639_37185",
@@ -34992,7 +36001,9 @@
         "departureTime": "17:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1700_37185",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1645_35106",
@@ -35062,7 +36073,9 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1602_35106",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1646_22348",
@@ -35133,6 +36146,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1706_22348",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_1637_22348",
     "prevLineId": "jr_takarazuka"
   },
@@ -35206,7 +36221,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1713_22191",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1559_22191",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1654_37187",
@@ -35276,7 +36293,9 @@
         "departureTime": "17:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1715_37187",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1700_35108",
@@ -35346,7 +36365,9 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1617_35108",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1701_22315",
@@ -35417,6 +36438,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1721_22315",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1641_22315",
     "prevLineId": "jr_takarazuka"
   },
@@ -35490,7 +36513,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1728_22235",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1628_22235",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1709_37189",
@@ -35560,7 +36585,9 @@
         "departureTime": "17:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1730_37189",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1715_35110",
@@ -35630,7 +36657,9 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1632_35110",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1716_22295",
@@ -35701,6 +36730,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1736_22295",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1653_22295",
     "prevLineId": "jr_takarazuka"
   },
@@ -35774,7 +36805,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1743_22201",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1629_22201",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1724_37192",
@@ -35844,7 +36877,9 @@
         "departureTime": "17:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1745_37192",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1730_35112",
@@ -35914,7 +36949,9 @@
         "departureTime": "17:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1647_35112",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1731_22317",
@@ -35985,6 +37022,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1751_22317",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1711_22317",
     "prevLineId": "jr_takarazuka"
   },
@@ -36058,7 +37097,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1758_22236",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1658_22236",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1739_37193",
@@ -36128,7 +37169,9 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1800_37193",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1745_35114",
@@ -36198,7 +37241,9 @@
         "departureTime": "18:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1702_35114",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1746_22296",
@@ -36269,6 +37314,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1806_22296",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1726_22296",
     "prevLineId": "jr_takarazuka"
   },
@@ -36342,7 +37389,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1813_22192",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1659_22192",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1754_37195",
@@ -36412,7 +37461,9 @@
         "departureTime": "18:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1815_37195",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1800_35116",
@@ -36482,7 +37533,9 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1717_35116",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1801_22387",
@@ -36553,6 +37606,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1821_22387",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_1723_22387",
     "prevLineId": "jr_takarazuka"
   },
@@ -36626,7 +37681,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1828_22237",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1728_22237",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1809_37197",
@@ -36696,7 +37753,9 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1830_37197",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1815_35118",
@@ -36766,7 +37825,9 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1732_35118",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1816_22298",
@@ -36837,6 +37898,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1836_22298",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1753_22298",
     "prevLineId": "jr_takarazuka"
   },
@@ -36910,7 +37973,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1843_22202",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1729_22202",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1824_37199",
@@ -36980,7 +38045,9 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1845_37199",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1830_35120",
@@ -37050,7 +38117,9 @@
         "departureTime": "18:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1747_35120",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1831_22389",
@@ -37121,6 +38190,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1851_22389",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_1753_22389",
     "prevLineId": "jr_takarazuka"
   },
@@ -37194,7 +38265,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1858_22238",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1758_22238",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1839_37201",
@@ -37264,7 +38337,9 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1900_37201",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1845_35122",
@@ -37334,7 +38409,9 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1802_35122",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1846_22300",
@@ -37405,6 +38482,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1906_22300",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1826_22300",
     "prevLineId": "jr_takarazuka"
   },
@@ -37478,7 +38557,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1913_22193",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1759_22193",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1854_37203",
@@ -37548,7 +38629,9 @@
         "departureTime": "19:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1915_37203",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1900_35124",
@@ -37618,7 +38701,9 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1817_35124",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1901_22390",
@@ -37689,6 +38774,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1921_22390",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_1823_22390",
     "prevLineId": "jr_takarazuka"
   },
@@ -37762,7 +38849,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1928_22240",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1828_22240",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1909_37205",
@@ -37832,7 +38921,9 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1930_37205",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1915_35126",
@@ -37902,7 +38993,9 @@
         "departureTime": "19:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1832_35126",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1916_22302",
@@ -37973,6 +39066,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1936_22302",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1853_22302",
     "prevLineId": "jr_takarazuka"
   },
@@ -38046,7 +39141,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1946_22204",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1829_22204",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1924_37207",
@@ -38116,7 +39213,9 @@
         "departureTime": "19:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1945_37207",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1930_35128",
@@ -38186,7 +39285,9 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1847_35128",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1931_22392",
@@ -38257,6 +39358,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_1951_22392",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_1852_22392",
     "prevLineId": "jr_takarazuka"
   },
@@ -38330,7 +39433,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_1958_22242",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1858_22242",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1939_37209",
@@ -38400,7 +39505,9 @@
         "departureTime": "20:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2000_37209",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_1945_35130",
@@ -38470,7 +39577,9 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1902_35130",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1946_22305",
@@ -38541,6 +39650,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2006_22305",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1923_22305",
     "prevLineId": "jr_takarazuka"
   },
@@ -38614,7 +39725,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2013_22195",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1859_22195",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_1954_37211",
@@ -38684,7 +39797,9 @@
         "departureTime": "20:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2015_37211",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2000_35132",
@@ -38754,7 +39869,9 @@
         "departureTime": "20:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1917_35132",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2001_35282",
@@ -38825,6 +39942,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2021_35282",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_1923_35282",
     "prevLineId": "jr_takarazuka"
   },
@@ -38898,7 +40017,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2028_22244",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1928_22244",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2009_37223",
@@ -38968,7 +40089,9 @@
         "departureTime": "20:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2030_37223",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2015_35134",
@@ -39038,7 +40161,9 @@
         "departureTime": "20:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1932_35134",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2016_22318",
@@ -39109,6 +40234,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2036_22318",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_1953_22318",
     "prevLineId": "jr_takarazuka"
   },
@@ -39182,7 +40309,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2043_22206",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1929_22206",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2024_37214",
@@ -39252,7 +40381,9 @@
         "departureTime": "20:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2045_37214",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2030_35136",
@@ -39322,7 +40453,9 @@
         "departureTime": "20:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_1947_35136",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2031_22395",
@@ -39393,6 +40526,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2051_22395",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_1952_22395",
     "prevLineId": "jr_takarazuka"
   },
@@ -39466,7 +40601,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2058_22227",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_1958_22227",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2039_37216",
@@ -39536,7 +40673,9 @@
         "departureTime": "21:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2100_37216",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2045_35138",
@@ -39606,7 +40745,9 @@
         "departureTime": "21:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2002_35138",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2046_22335",
@@ -39677,6 +40818,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2106_22335",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-21_1944_22335",
     "prevLineId": "jr_takarazuka"
   },
@@ -39748,7 +40891,9 @@
         "departureTime": "21:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2115_37219",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2055_22176",
@@ -39820,7 +40965,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2120_22176",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_1959_22176",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2103_22320",
@@ -39891,6 +41038,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2124_22320",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_2041_22320",
     "prevLineId": "jr_takarazuka"
   },
@@ -39962,7 +41111,9 @@
         "departureTime": "21:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2017_35141",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2114_37116",
@@ -40032,7 +41183,9 @@
         "departureTime": "21:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2138_37116",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2115_22230",
@@ -40104,7 +41257,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2140_22230",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_2026_22230",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2124_22413",
@@ -40175,6 +41330,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2145_22413",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_2031_22413",
     "prevLineId": "jr_takarazuka"
   },
@@ -40246,7 +41403,9 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2037_35143",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2132_22321",
@@ -40317,6 +41476,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2153_22321",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_2109_22321",
     "prevLineId": "jr_takarazuka"
   },
@@ -40390,7 +41551,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2156_22173",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_2033_22173",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2144_22378",
@@ -40461,6 +41624,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2205_22378",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_2138_22378",
     "prevLineId": "jr_takarazuka"
   },
@@ -40532,7 +41697,9 @@
         "departureTime": "22:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2057_35145",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2154_37117",
@@ -40602,7 +41769,9 @@
         "departureTime": "22:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2214_37117",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2155_22174",
@@ -40674,7 +41843,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2220_22174",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_2051_22174",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2204_22405",
@@ -40745,6 +41916,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2225_22405",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_2116_22405",
     "prevLineId": "jr_takarazuka"
   },
@@ -40816,7 +41989,9 @@
         "departureTime": "22:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2117_35146",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2214_35281",
@@ -40887,6 +42062,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2234_35281",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_2150_35281",
     "prevLineId": "jr_takarazuka"
   },
@@ -40960,7 +42137,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2241_22229",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_2127_22229",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2224_22406",
@@ -41031,6 +42210,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2244_22406",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_2127_22406",
     "prevLineId": "jr_takarazuka"
   },
@@ -41102,7 +42283,9 @@
         "departureTime": "22:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2137_35148",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2234_37121",
@@ -41114,7 +42297,7 @@
     "originStationId": "jr_tozai-09",
     "destinationStationId": "jr_tozai-01",
     "customOrigin": "西明石",
-    "customDestination": "木津(京都府)",
+    "customDestination": "木津",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -41172,7 +42355,9 @@
         "departureTime": "22:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2255_37121",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2235_22172",
@@ -41244,7 +42429,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2300_22172",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_2133_22172",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2244_22328",
@@ -41315,6 +42502,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2306_22328",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_2215_22328",
     "prevLineId": "jr_takarazuka"
   },
@@ -41386,7 +42575,9 @@
         "departureTime": "23:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2157_35150",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2254_37119",
@@ -41456,7 +42647,9 @@
         "departureTime": "23:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2314_37119",
+    "throughLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2255_22177",
@@ -41528,7 +42721,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2320_22177",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_2159_22177",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2304_22407",
@@ -41599,6 +42794,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2326_22407",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_2217_22407",
     "prevLineId": "jr_takarazuka"
   },
@@ -41670,7 +42867,9 @@
         "departureTime": "23:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2217_35152",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2314_22322",
@@ -41741,6 +42940,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2336_22322",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-08_2251_22322",
     "prevLineId": "jr_takarazuka"
   },
@@ -41814,7 +43015,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2341_22231",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-06_2226_22231",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_OUT_jr_tozai-01_2325_40543",
@@ -41884,7 +43087,9 @@
         "departureTime": "23:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_gakken_toshi-09_2237_40543",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2326_22408",
@@ -41955,6 +43160,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2346_22408",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_2237_22408",
     "prevLineId": "jr_takarazuka"
   },
@@ -42027,6 +43234,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_2354_22358",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-02_2325_22358",
     "prevLineId": "jr_takarazuka"
   },
@@ -42100,7 +43309,9 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_2359_22216",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-01_2233_22216",
+    "prevLineId": "jr_gakken_toshi"
   },
   {
     "tripId": "HD_INB_jr_tozai-09_2347_22400",
@@ -42171,6 +43382,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_jr_gakken_toshi-24_0007_22400",
+    "throughLineId": "jr_gakken_toshi",
     "prevTripId": "HD_INB_jr_takarazuka-14_2301_22400",
     "prevLineId": "jr_takarazuka"
   },
@@ -42244,6 +43457,8 @@
       }
     ],
     "throughTripId": "HD_OUT_jr_takarazuka-01_0014_22290",
-    "throughLineId": "jr_takarazuka"
+    "throughLineId": "jr_takarazuka",
+    "prevTripId": "HD_OUT_jr_gakken_toshi-17_2322_22290",
+    "prevLineId": "jr_gakken_toshi"
   }
 ]

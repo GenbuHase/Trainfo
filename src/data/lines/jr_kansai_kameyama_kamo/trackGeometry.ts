@@ -2354,6 +2354,17 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         34.82154,
         136.20743
+      ]
+    ]
+  },
+  {
+    "id": "jr_kansai_kameyama_kamo-05_jr_kansai_kameyama_kamo-06",
+    "fromStationId": "jr_kansai_kameyama_kamo-05",
+    "toStationId": "jr_kansai_kameyama_kamo-06",
+    "coordinates": [
+      [
+        34.82154,
+        136.20743
       ],
       [
         34.82053,
@@ -2682,9 +2693,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-05_jr_kansai_kameyama_kamo-06",
-    "fromStationId": "jr_kansai_kameyama_kamo-05",
-    "toStationId": "jr_kansai_kameyama_kamo-06",
+    "id": "jr_kansai_kameyama_kamo-06_jr_kansai_kameyama_kamo-07",
+    "fromStationId": "jr_kansai_kameyama_kamo-06",
+    "toStationId": "jr_kansai_kameyama_kamo-07",
     "coordinates": [
       [
         34.80374,
@@ -2989,9 +3000,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-06_jr_kansai_kameyama_kamo-07",
-    "fromStationId": "jr_kansai_kameyama_kamo-06",
-    "toStationId": "jr_kansai_kameyama_kamo-07",
+    "id": "jr_kansai_kameyama_kamo-07_jr_kansai_kameyama_kamo-08",
+    "fromStationId": "jr_kansai_kameyama_kamo-07",
+    "toStationId": "jr_kansai_kameyama_kamo-08",
     "coordinates": [
       [
         34.78906,
@@ -3664,9 +3675,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-07_jr_kansai_kameyama_kamo-08",
-    "fromStationId": "jr_kansai_kameyama_kamo-07",
-    "toStationId": "jr_kansai_kameyama_kamo-08",
+    "id": "jr_kansai_kameyama_kamo-08_jr_kansai_kameyama_kamo-09",
+    "fromStationId": "jr_kansai_kameyama_kamo-08",
+    "toStationId": "jr_kansai_kameyama_kamo-09",
     "coordinates": [
       [
         34.76692,
@@ -3979,9 +3990,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-08_jr_kansai_kameyama_kamo-09",
-    "fromStationId": "jr_kansai_kameyama_kamo-08",
-    "toStationId": "jr_kansai_kameyama_kamo-09",
+    "id": "jr_kansai_kameyama_kamo-09_jr_kansai_kameyama_kamo-10",
+    "fromStationId": "jr_kansai_kameyama_kamo-09",
+    "toStationId": "jr_kansai_kameyama_kamo-10",
     "coordinates": [
       [
         34.76285,
@@ -4346,9 +4357,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-09_jr_kansai_kameyama_kamo-10",
-    "fromStationId": "jr_kansai_kameyama_kamo-09",
-    "toStationId": "jr_kansai_kameyama_kamo-10",
+    "id": "jr_kansai_kameyama_kamo-10_jr_kansai_kameyama_kamo-11",
+    "fromStationId": "jr_kansai_kameyama_kamo-10",
+    "toStationId": "jr_kansai_kameyama_kamo-11",
     "coordinates": [
       [
         34.77207,
@@ -4837,9 +4848,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-10_jr_kansai_kameyama_kamo-11",
-    "fromStationId": "jr_kansai_kameyama_kamo-10",
-    "toStationId": "jr_kansai_kameyama_kamo-11",
+    "id": "jr_kansai_kameyama_kamo-11_jr_kansai_kameyama_kamo-12",
+    "fromStationId": "jr_kansai_kameyama_kamo-11",
+    "toStationId": "jr_kansai_kameyama_kamo-12",
     "coordinates": [
       [
         34.75897,

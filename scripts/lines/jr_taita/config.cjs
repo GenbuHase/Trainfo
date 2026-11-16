@@ -17,44 +17,51 @@ module.exports = {
     },
     {
         "id": "jr_taita-02",
+        "name": "小泉",
+        "yahooStationId": "24439",
+        "inGroupId": "1390",
+        "outGroupId": "1391"
+    },
+    {
+        "id": "jr_taita-03",
         "name": "根本",
         "yahooStationId": "24531",
         "inGroupId": "1390",
         "outGroupId": "1391"
     },
     {
-        "id": "jr_taita-03",
+        "id": "jr_taita-04",
         "name": "姫",
         "yahooStationId": "24557",
         "inGroupId": "1390",
         "outGroupId": "1391"
     },
     {
-        "id": "jr_taita-04",
+        "id": "jr_taita-05",
         "name": "下切",
         "yahooStationId": "24461",
         "inGroupId": "1390",
         "outGroupId": "1391"
     },
     {
-        "id": "jr_taita-05",
+        "id": "jr_taita-06",
         "name": "可児",
         "yahooStationId": "24403",
         "inGroupId": "1390",
         "outGroupId": "1391"
     },
     {
-        "id": "jr_taita-06",
+        "id": "jr_taita-07",
         "name": "美濃川合",
         "yahooStationId": "24587",
         "inGroupId": "1390",
         "outGroupId": "1391"
     },
     {
-        "id": "jr_taita-07",
+        "id": "jr_taita-08",
         "name": "美濃太田",
         "yahooStationId": "24586",
-        "inGroupId": "1450",
+        "inGroupId": "1390",
         "outGroupId": null
     }
 ],

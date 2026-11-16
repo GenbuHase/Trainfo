@@ -152,7 +152,7 @@ module.exports = {
         "id": "jr_nara-21",
         "name": "奈良",
         "yahooStationId": "26628",
-        "inGroupId": "3790",
+        "inGroupId": null,
         "outGroupId": null
     }
 ],

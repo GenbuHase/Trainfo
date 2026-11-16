@@ -11,16 +11,16 @@ module.exports = {
     {
         "id": "jr_osaka_higashi-01",
         "name": "大阪",
-        "yahooStationId": "25978",
+        "yahooStationId": "25853",
         "inGroupId": null,
-        "outGroupId": "4271"
+        "outGroupId": "1671"
     },
     {
         "id": "jr_osaka_higashi-02",
         "name": "新大阪",
         "yahooStationId": "25978",
         "inGroupId": "1670",
-        "outGroupId": "4271"
+        "outGroupId": "1671"
     },
     {
         "id": "jr_osaka_higashi-03",
@@ -55,14 +55,14 @@ module.exports = {
         "name": "鴫野",
         "yahooStationId": "25966",
         "inGroupId": "1670",
-        "outGroupId": "1691"
+        "outGroupId": "1671"
     },
     {
         "id": "jr_osaka_higashi-08",
         "name": "放出",
         "yahooStationId": "26130",
         "inGroupId": "1670",
-        "outGroupId": "1691"
+        "outGroupId": "1671"
     },
     {
         "id": "jr_osaka_higashi-09",

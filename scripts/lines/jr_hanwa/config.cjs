@@ -13,7 +13,7 @@ module.exports = {
         "name": "天王寺",
         "yahooStationId": "26062",
         "inGroupId": null,
-        "outGroupId": "4270"
+        "outGroupId": null
     },
     {
         "id": "jr_hanwa-02",

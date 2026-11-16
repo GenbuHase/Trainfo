@@ -2861,7 +2861,7 @@ module.exports = {
       "stationA": "jr_tozai-01",
       "stationB": "jr_gakken_toshi-24",
       "dirA": "inbound",
-      "dirB": "outbound",
+      "dirB": "inbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
@@ -2872,7 +2872,7 @@ module.exports = {
       "lineB": "jr_tozai",
       "stationA": "jr_gakken_toshi-24",
       "stationB": "jr_tozai-01",
-      "dirA": "inbound",
+      "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
@@ -2935,8 +2935,8 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR関西空港線 -> JR阪和線 (関西空港発 日根野経由 天王寺方面 関空快速/特急はるか)",
@@ -2947,8 +2947,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JRおおさか東線 -> JR大和路線 (大阪発 久宝寺経由 王寺・奈良方面 直通快速)",
@@ -2999,64 +2999,71 @@ module.exports = {
       "allowMidStationB": true
     },
     {
-      "name": "JR大阪環状線 -> JRゆめ咲線 (天王寺・大阪方面発 西九条経由 桜島行 直通普通)",
+      "name": "JR大阪環状線 -> JRゆめ咲線 (大阪・京橋方面発 西九条経由 桜島行 直通普通)",
       "lineA": "jr_osaka_loop",
       "lineB": "jr_yumesaki",
       "stationA": "jr_osaka_loop-14",
       "stationB": "jr_yumesaki-01",
-      "dirA": "outbound",
+      "dirA": "inbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
-      "name": "JRゆめ咲線 -> JR大阪環状線 (桜島発 西九条経由 大阪・天王寺方面 直通普通)",
+      "name": "JRゆめ咲線 -> JR大阪環状線 (桜島発 西九条経由 大阪・京橋・天王寺方面 直通普通)",
       "lineA": "jr_yumesaki",
       "lineB": "jr_osaka_loop",
       "stationA": "jr_yumesaki-01",
       "stationB": "jr_osaka_loop-14",
       "dirA": "inbound",
-      "dirB": "inbound",
+      "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
-      "name": "JR大阪環状線 -> JR大和路線 (天王寺・大阪発 新今宮経由 王寺・奈良・加茂方面 大和路快速/区間快速)",
+      "name": "JR大阪環状線 -> JR大和路線 (大阪・鶴橋方面発 天王寺経由 王寺・奈良・加茂方面 大和路快速/区間快速)",
       "lineA": "jr_osaka_loop",
       "lineB": "jr_yamatoji",
-      "stationA": "jr_osaka_loop-19",
-      "stationB": "jr_yamatoji-20",
-      "dirA": "outbound",
+      "stationA": "jr_osaka_loop-01",
+      "stationB": "jr_yamatoji-19",
+      "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": true,
+      "truncateBFromStation": true,
+      "allowedDestinations": ["加茂", "奈良", "王寺", "五条", "高田"],
+      "disallowedOrigins": ["JR難波"]
     },
     {
-      "name": "JR大和路線 -> JR大阪環状線 (加茂・奈良発 新今宮経由 大阪・天王寺方面 大和路快速/区間快速)",
+      "name": "JR大和路線 -> JR大阪環状線 (加茂・奈良発 天王寺経由 大阪・京橋・天王寺方面 大和路快速/区間快速)",
       "lineA": "jr_yamatoji",
       "lineB": "jr_osaka_loop",
-      "stationA": "jr_yamatoji-20",
-      "stationB": "jr_osaka_loop-19",
-      "dirA": "outbound",
-      "dirB": "inbound",
-      "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
-    },
-    {
-      "name": "JR大阪環状線 -> JR阪和線 (天王寺・大阪発 天王寺経由 日根野・和歌山方面 関空・紀州路快速/直通快速)",
-      "lineA": "jr_osaka_loop",
-      "lineB": "jr_hanwa",
-      "stationA": "jr_osaka_loop-01",
-      "stationB": "jr_hanwa-01",
+      "stationA": "jr_yamatoji-19",
+      "stationB": "jr_osaka_loop-01",
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationB": false,
+      "truncateAAtStation": true,
+      "disallowedDestinations": ["JR難波", "新今宮", "今宮"],
+      "disallowedDestinationsB": ["桜島", "ユニバーサルシティ", "和歌山", "関西空港", "日根野", "鳳", "紀伊田辺", "白浜"]
+    },
+    {
+      "name": "JR大阪環状線 -> JR阪和線 (京橋・大阪方面発 天王寺経由 日根野・和歌山方面 関空・紀州路快速/直通快速)",
+      "lineA": "jr_osaka_loop",
+      "lineB": "jr_hanwa",
+      "stationA": "jr_osaka_loop-01",
+      "stationB": "jr_hanwa-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": false,
+      "allowMidStationB": false,
+      "allowedDestinations": ["関西空港", "和歌山", "日根野", "鳳", "紀伊田辺", "白浜", "御坊", "海南", "東岸和田"]
     },
     {
       "name": "JR阪和線 -> JR大阪環状線 (和歌山・日根野発 天王寺経由 大阪方面 関空・紀州路快速/直通快速)",
@@ -3065,10 +3072,11 @@ module.exports = {
       "stationA": "jr_hanwa-01",
       "stationB": "jr_osaka_loop-01",
       "dirA": "inbound",
-      "dirB": "inbound",
+      "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false,
+      "disallowedDestinationsB": ["加茂", "奈良", "王寺", "五条", "高田", "桜島", "ユニバーサルシティ"]
     }
 ,
     {
@@ -3102,7 +3110,7 @@ module.exports = {
       "stationA": "jr_kusatsu-11",
       "stationB": "JR-A24",
       "dirA": "outbound",
-      "dirB": "inbound",
+      "dirB": "outbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
@@ -3113,7 +3121,7 @@ module.exports = {
       "lineB": "jr_kusatsu",
       "stationA": "JR-A24",
       "stationB": "jr_kusatsu-11",
-      "dirA": "outbound",
+      "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
@@ -3126,10 +3134,11 @@ module.exports = {
       "stationA": "jr_nara-19",
       "stationB": "jr_yamatoji-02",
       "dirA": "outbound",
-      "dirB": "inbound",
+      "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "requireIdMatch": true,
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR大和路線 -> JR奈良線 (奈良発 木津経由 京都方面 みやこ路快速/快速/普通)",
@@ -3137,11 +3146,14 @@ module.exports = {
       "lineB": "jr_nara",
       "stationA": "jr_yamatoji-02",
       "stationB": "jr_nara-19",
-      "dirA": "outbound",
+      "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
+      "requireIdMatch": true,
       "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationB": true,
+      "truncateAAtStation": true,
+      "truncateBFromStation": true
     },
     {
       "name": "JR大和路線 -> JR万葉まほろば線 (JR難波・王寺発 奈良経由 天理・桜井・高田方面 普通/快速)",
@@ -3200,8 +3212,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR和歌山線 -> JR大和路線 (和歌山・五条・高田発 王寺経由 天王寺・JR難波方面 快速/普通)",
@@ -3212,8 +3224,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR阪和線 -> JRきのくに線 (天王寺・大阪方面発 和歌山経由 御坊・紀伊田辺・白浜・新宮方面 紀州路快速/特急くろしお/普通)",
@@ -3243,7 +3255,7 @@ module.exports = {
       "name": "JR山陽本線（姫路～上郡） -> JR赤穂線 (姫路発 相生経由 播州赤穂・岡山方面 新快速/普通)",
       "lineA": "jr_sanyo_himeji_kamigori",
       "lineB": "jr_ako",
-      "stationA": "jr_sanyo_himeji_kamigori-06",
+      "stationA": "jr_sanyo_himeji_kamigori-07",
       "stationB": "jr_ako-01",
       "dirA": "outbound",
       "dirB": "outbound",
@@ -3256,7 +3268,7 @@ module.exports = {
       "lineA": "jr_ako",
       "lineB": "jr_sanyo_himeji_kamigori",
       "stationA": "jr_ako-01",
-      "stationB": "jr_sanyo_himeji_kamigori-06",
+      "stationB": "jr_sanyo_himeji_kamigori-07",
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
@@ -3320,8 +3332,8 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR山陰本線（園部～城崎温泉） -> JR播但線 (鳥取・城崎温泉発 和田山経由 姫路方面 特急はまかぜ/普通)",
@@ -3332,8 +3344,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR舞鶴線 -> JR小浜線 (綾部・西舞鶴発 東舞鶴経由 小浜・敦賀方面 普通)",
@@ -3363,10 +3375,10 @@ module.exports = {
       "name": "JR関西本線（亀山～加茂） -> JR大和路線 (亀山・伊賀上野発 加茂経由 奈良・JR難波方面 普通)",
       "lineA": "jr_kansai_kameyama_kamo",
       "lineB": "jr_yamatoji",
-      "stationA": "jr_kansai_kameyama_kamo-11",
+      "stationA": "jr_kansai_kameyama_kamo-12",
       "stationB": "jr_yamatoji-01",
-      "dirA": "inbound",
-      "dirB": "inbound",
+      "dirA": "outbound",
+      "dirB": "outbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
@@ -3376,9 +3388,9 @@ module.exports = {
       "lineA": "jr_yamatoji",
       "lineB": "jr_kansai_kameyama_kamo",
       "stationA": "jr_yamatoji-01",
-      "stationB": "jr_kansai_kameyama_kamo-11",
-      "dirA": "outbound",
-      "dirB": "outbound",
+      "stationB": "jr_kansai_kameyama_kamo-12",
+      "dirA": "inbound",
+      "dirB": "inbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
@@ -3389,7 +3401,7 @@ module.exports = {
       "lineB": "jr_kansai_nagoya_kameyama",
       "stationA": "jr_kansai_kameyama_kamo-01",
       "stationB": "jr_kansai_nagoya_kameyama-18",
-      "dirA": "outbound",
+      "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
@@ -3402,7 +3414,7 @@ module.exports = {
       "stationA": "jr_kansai_nagoya_kameyama-18",
       "stationB": "jr_kansai_kameyama_kamo-01",
       "dirA": "outbound",
-      "dirB": "inbound",
+      "dirB": "outbound",
       "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
@@ -3411,7 +3423,7 @@ module.exports = {
       "name": "JRきのくに線 -> JR紀勢本線（亀山～新宮） (和歌山・白浜発 新宮経由 熊野市・尾鷲・松阪方面 普通/特急南紀)",
       "lineA": "jr_kinokuni",
       "lineB": "jr_kisei_kameyama_shingu",
-      "stationA": "jr_kinokuni-53",
+      "stationA": "jr_kinokuni-54",
       "stationB": "jr_kisei_kameyama_shingu-41",
       "dirA": "outbound",
       "dirB": "inbound",
@@ -3424,10 +3436,82 @@ module.exports = {
       "lineA": "jr_kisei_kameyama_shingu",
       "lineB": "jr_kinokuni",
       "stationA": "jr_kisei_kameyama_shingu-41",
-      "stationB": "jr_kinokuni-53",
+      "stationB": "jr_kinokuni-54",
       "dirA": "outbound",
       "dirB": "inbound",
       "maxTimeDiff": 900,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR湖西線 -> JR琵琶湖線 (近江今津・堅田発 山科経由 京都方面 新快速/快速/普通)",
+      "lineA": "jr_kosei",
+      "lineB": "jr_biwako",
+      "stationA": "jr_kosei-01",
+      "stationB": "JR-A30",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR琵琶湖線 -> JR湖西線 (大阪・京都発 山科経由 近江舞子・近江今津・敦賀方面 新快速/快速/普通)",
+      "lineA": "jr_biwako",
+      "lineB": "jr_kosei",
+      "stationA": "JR-A30",
+      "stationB": "jr_kosei-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR湖西線 -> JR北陸本線（米原～敦賀） (京都・近江今津発 近江塩津経由 敦賀方面 新快速/普通/特急サンダーバード)",
+      "lineA": "jr_kosei",
+      "lineB": "jr_hokuriku_maibara_tsuruga",
+      "stationA": "jr_kosei-21",
+      "stationB": "jr_hokuriku_maibara_tsuruga-10",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": false,
+      "allowMidStationB": false
+    },
+    {
+      "name": "JR北陸本線（米原～敦賀） -> JR湖西線 (敦賀発 近江塩津経由 近江今津・京都方面 新快速/普通/特急サンダーバード)",
+      "lineA": "jr_hokuriku_maibara_tsuruga",
+      "lineB": "jr_kosei",
+      "stationA": "jr_hokuriku_maibara_tsuruga-10",
+      "stationB": "jr_kosei-21",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": false,
+      "allowMidStationB": false
+    },
+    {
+      "name": "JR琵琶湖線 -> JR北陸本線（米原～敦賀） (京都・草津発 米原経由 長浜・敦賀方面 新快速/普通)",
+      "lineA": "jr_biwako",
+      "lineB": "jr_hokuriku_maibara_tsuruga",
+      "stationA": "JR-A12",
+      "stationB": "jr_hokuriku_maibara_tsuruga-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR北陸本線（米原～敦賀） -> JR琵琶湖線 (敦賀・長浜発 米原経由 草津・京都方面 新快速/普通)",
+      "lineA": "jr_hokuriku_maibara_tsuruga",
+      "lineB": "jr_biwako",
+      "stationA": "jr_hokuriku_maibara_tsuruga-01",
+      "stationB": "JR-A12",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
     }

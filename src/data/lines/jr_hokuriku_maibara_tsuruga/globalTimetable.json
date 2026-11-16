@@ -94,6 +94,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "近江今津",
     "cars": 4,
     "isHoliday": false,
@@ -116,7 +117,9 @@
         "departureTime": "05:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_0544_24369",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_0531_39567",
@@ -127,6 +130,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -203,7 +207,9 @@
         "departureTime": "06:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_0626_39567",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_0541_26301",
@@ -288,6 +294,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -364,7 +371,9 @@
         "departureTime": "06:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_0646_39569",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_0557_38604",
@@ -375,6 +384,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -397,7 +407,9 @@
         "departureTime": "06:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_0614_38604",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_0611_26302",
@@ -532,6 +544,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -596,7 +609,9 @@
         "departureTime": "07:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_0729_39574",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_0652_26303",
@@ -761,6 +776,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -789,7 +805,9 @@
         "departureTime": "07:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_0715_39736",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_0711_42084",
@@ -892,6 +910,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "京都",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -919,7 +938,9 @@
         "departureTime": "07:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_0603_39734",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_0717_24370",
@@ -930,6 +951,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "近江今津",
     "cars": 4,
     "isHoliday": false,
@@ -952,7 +974,9 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_0734_24370",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-04_0728_39737",
@@ -963,6 +987,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -991,7 +1016,9 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_0745_39737",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_0728_29978",
@@ -1116,6 +1143,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "大阪",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1143,7 +1171,9 @@
         "departureTime": "07:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_0629_10532",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-04_0743_30644",
@@ -1365,6 +1395,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "網干",
     "cars": 4,
     "isHoliday": false,
@@ -1393,7 +1424,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_0808_39747",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-04_0758_26312",
@@ -1861,6 +1894,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1924,7 +1958,9 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_0752_39712",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_0902_20758",
@@ -2138,6 +2174,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -2160,7 +2197,9 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_0937_38593",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_0930_26308",
@@ -2258,6 +2297,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "網干",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2285,7 +2325,9 @@
         "departureTime": "09:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_0837_40823",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_0941_39725",
@@ -2297,6 +2339,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "網干",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2318,7 +2361,9 @@
         "departureTime": "09:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_0828_39725",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_0956_42075",
@@ -2420,6 +2465,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -2448,7 +2494,9 @@
         "departureTime": "10:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1020_39740",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1005_39724",
@@ -2460,6 +2508,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2523,7 +2572,9 @@
         "departureTime": "10:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_0845_39724",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1006_39575",
@@ -2534,6 +2585,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -2598,7 +2650,9 @@
         "departureTime": "10:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1050_39575",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1010_20743",
@@ -2696,6 +2750,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -2718,7 +2773,9 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1038_38594",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1056_42079",
@@ -2821,6 +2878,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "網干",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2884,7 +2942,9 @@
         "departureTime": "11:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1000_39709",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1101_31815",
@@ -2896,6 +2956,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2917,7 +2978,9 @@
         "departureTime": "11:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_0954_31815",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1106_39576",
@@ -2928,6 +2991,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -2992,7 +3056,9 @@
         "departureTime": "11:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1150_39576",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1110_42089",
@@ -3094,6 +3160,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -3116,7 +3183,9 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1137_38596",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1156_26297",
@@ -3215,6 +3284,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3278,7 +3348,9 @@
         "departureTime": "12:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1100_39713",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1201_31816",
@@ -3290,6 +3362,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3311,7 +3384,9 @@
         "departureTime": "12:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1050_31816",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1206_39578",
@@ -3322,6 +3397,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -3386,7 +3462,9 @@
         "departureTime": "12:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1250_39578",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1210_20744",
@@ -3484,6 +3562,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -3506,7 +3585,9 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1237_38597",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1256_42076",
@@ -3609,6 +3690,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3672,7 +3754,9 @@
         "departureTime": "13:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1200_39714",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1301_31817",
@@ -3684,6 +3768,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3705,7 +3790,9 @@
         "departureTime": "13:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1150_31817",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1306_39579",
@@ -3716,6 +3803,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -3780,7 +3868,9 @@
         "departureTime": "13:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1350_39579",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1310_42086",
@@ -3882,6 +3972,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -3904,7 +3995,9 @@
         "departureTime": "13:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1337_38598",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1356_26295",
@@ -4003,6 +4096,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4066,7 +4160,9 @@
         "departureTime": "14:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1300_39715",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1401_31818",
@@ -4078,6 +4174,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4099,7 +4196,9 @@
         "departureTime": "14:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1250_31818",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1406_39580",
@@ -4110,6 +4209,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -4174,7 +4274,9 @@
         "departureTime": "14:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1450_39580",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1410_20745",
@@ -4272,6 +4374,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -4294,7 +4397,9 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1437_38600",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1456_42081",
@@ -4397,6 +4502,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4460,7 +4566,9 @@
         "departureTime": "15:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1400_39716",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1501_31819",
@@ -4472,6 +4580,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4493,7 +4602,9 @@
         "departureTime": "15:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1350_31819",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1506_39584",
@@ -4504,6 +4615,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": false,
@@ -4568,7 +4680,9 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1547_39584",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1510_42087",
@@ -4670,6 +4784,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -4692,7 +4807,9 @@
         "departureTime": "15:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1537_38602",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1526_10520",
@@ -4704,6 +4821,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4731,7 +4849,9 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1430_10520",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1556_26296",
@@ -4829,6 +4949,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": false,
@@ -4857,7 +4978,9 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1617_39749",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1601_39717",
@@ -4869,6 +4992,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4932,7 +5056,9 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1500_39717",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1601_31820",
@@ -4944,6 +5070,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4965,7 +5092,9 @@
         "departureTime": "16:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1450_31820",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1603_20747",
@@ -5044,6 +5173,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -5108,7 +5238,9 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1647_39581",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1609_42090",
@@ -5210,6 +5342,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -5232,7 +5365,9 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1637_38603",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1627_10521",
@@ -5244,6 +5379,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5271,7 +5407,9 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1530_10521",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-04_1639_26310",
@@ -5429,6 +5567,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": false,
@@ -5457,7 +5596,9 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1717_39752",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1701_24371",
@@ -5468,6 +5609,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "近江今津",
     "cars": 4,
     "isHoliday": false,
@@ -5490,7 +5632,9 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1718_24371",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1701_39718",
@@ -5502,6 +5646,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5577,7 +5722,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1600_39718",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1706_39587",
@@ -5588,6 +5735,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": false,
@@ -5652,7 +5800,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1747_39587",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1708_31822",
@@ -5664,6 +5814,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5685,7 +5836,9 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1550_31822",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1710_20740",
@@ -5784,6 +5937,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5811,7 +5965,9 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1631_10523",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1729_20755",
@@ -5935,6 +6091,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -6011,7 +6168,9 @@
         "departureTime": "18:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1847_39571",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1756_26298",
@@ -6109,6 +6268,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": false,
@@ -6137,7 +6297,9 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1817_39754",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1802_39719",
@@ -6149,6 +6311,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6224,7 +6387,9 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1701_39719",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1808_42088",
@@ -6327,6 +6492,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6354,7 +6520,9 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1731_10525",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_1830_20756",
@@ -6489,6 +6657,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -6565,7 +6734,9 @@
         "departureTime": "19:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1947_39572",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1856_42077",
@@ -6667,6 +6838,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -6695,7 +6867,9 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_1918_39743",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1902_39721",
@@ -6707,6 +6881,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6782,7 +6957,9 @@
         "departureTime": "19:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1801_39721",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_1910_20741",
@@ -6880,6 +7057,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "京都",
     "cars": 4,
     "isHoliday": false,
@@ -6902,7 +7080,9 @@
         "departureTime": "19:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_kosei-21_1938_40807",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_1928_10527",
@@ -6914,6 +7094,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6941,7 +7122,9 @@
         "departureTime": "19:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1831_10527",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-04_1941_26311",
@@ -7181,6 +7364,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -7209,7 +7393,9 @@
         "departureTime": "20:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_2018_39744",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_1959_43239",
@@ -7221,6 +7407,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "近江今津",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7242,7 +7429,9 @@
         "departureTime": "20:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-17_1934_43239",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_2004_39723",
@@ -7254,6 +7443,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7329,7 +7519,9 @@
         "departureTime": "20:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1901_39723",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-10_2009_7027",
@@ -7341,6 +7533,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "大阪",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7362,7 +7555,9 @@
         "departureTime": "20:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_kosei-01_1857_7027",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_2015_42091",
@@ -7465,6 +7660,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "播州赤穂",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7492,7 +7688,9 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_1908_40829",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-10_2044_20757",
@@ -7651,6 +7849,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "播州赤穂",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7678,7 +7877,9 @@
         "departureTime": "21:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_2001_40827",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_2112_20748",
@@ -7825,6 +8026,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": false,
@@ -7853,7 +8055,9 @@
         "departureTime": "21:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JR-A12_2134_39746",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_2131_40824",
@@ -7865,6 +8069,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "網干",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7892,7 +8097,9 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_2031_40824",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_OUT_jr_hokuriku_maibara_tsuruga-01_2150_26300",
@@ -8029,6 +8236,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8056,7 +8264,9 @@
         "departureTime": "22:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JR-A31_2101_10530",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "WD_INB_jr_hokuriku_maibara_tsuruga-12_2201_20742",
@@ -8594,6 +8804,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "近江今津",
     "cars": 4,
     "isHoliday": true,
@@ -8616,7 +8827,9 @@
         "departureTime": "05:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_0544_24369",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_0534_39582",
@@ -8627,6 +8840,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -8703,7 +8917,9 @@
         "departureTime": "06:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_0629_39582",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0541_26301",
@@ -8788,6 +9004,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -8864,7 +9081,9 @@
         "departureTime": "06:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_0646_39568",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_0557_7724",
@@ -8875,6 +9094,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "大阪",
     "cars": 4,
     "isHoliday": true,
@@ -8897,7 +9117,9 @@
         "departureTime": "06:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_0614_7724",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0611_26302",
@@ -8994,6 +9216,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "加古川",
     "cars": 4,
     "isHoliday": true,
@@ -9058,7 +9281,9 @@
         "departureTime": "07:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_0728_39573",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0652_26303",
@@ -9314,6 +9539,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "近江今津",
     "cars": 4,
     "isHoliday": true,
@@ -9336,7 +9562,9 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_0734_24370",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0723_39735",
@@ -9348,6 +9576,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "京都",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -9375,7 +9604,9 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_0615_39735",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_0734_24400",
@@ -9461,6 +9692,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -9489,7 +9721,9 @@
         "departureTime": "08:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_0802_39738",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_0747_20751",
@@ -9674,6 +9908,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "大阪",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -9701,7 +9936,9 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_0633_10533",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-04_0802_39739",
@@ -9712,6 +9949,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -9740,7 +9978,9 @@
         "departureTime": "08:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_0818_39739",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-04_0802_26313",
@@ -10208,6 +10448,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "網干",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -10271,7 +10512,9 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_0800_39707",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_0902_20759",
@@ -10485,6 +10728,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "大阪",
     "cars": 4,
     "isHoliday": true,
@@ -10507,7 +10751,9 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_0937_7723",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0930_26307",
@@ -10605,6 +10851,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "網干",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -10626,7 +10873,9 @@
         "departureTime": "09:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_0821_39726",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0948_10531",
@@ -10638,6 +10887,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -10665,7 +10915,9 @@
         "departureTime": "09:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_0837_10531",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_0956_42075",
@@ -10767,6 +11019,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -10795,7 +11048,9 @@
         "departureTime": "10:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1020_39741",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1005_39711",
@@ -10807,6 +11062,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "上郡",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -10870,7 +11126,9 @@
         "departureTime": "10:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_0900_39711",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1006_39575",
@@ -10881,6 +11139,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -10945,7 +11204,9 @@
         "departureTime": "10:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1050_39575",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1010_20743",
@@ -11043,6 +11304,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -11065,7 +11327,9 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1038_38595",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1056_42079",
@@ -11168,6 +11432,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "網干",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -11231,7 +11496,9 @@
         "departureTime": "11:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1000_39708",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1101_31814",
@@ -11243,6 +11510,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -11264,7 +11532,9 @@
         "departureTime": "11:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_0951_31814",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1106_39577",
@@ -11275,6 +11545,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -11339,7 +11610,9 @@
         "departureTime": "11:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1150_39577",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1110_42089",
@@ -11441,6 +11714,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -11463,7 +11737,9 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1137_38596",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1156_26297",
@@ -11562,6 +11838,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "網干",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -11625,7 +11902,9 @@
         "departureTime": "12:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1100_39710",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1201_39727",
@@ -11637,6 +11916,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "網干",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -11658,7 +11938,9 @@
         "departureTime": "12:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1050_39727",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1206_39578",
@@ -11669,6 +11951,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -11733,7 +12016,9 @@
         "departureTime": "12:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1250_39578",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1210_20744",
@@ -11831,6 +12116,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -11853,7 +12139,9 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1237_38597",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1256_42076",
@@ -11956,6 +12244,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12019,7 +12308,9 @@
         "departureTime": "13:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1200_39714",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1301_39728",
@@ -12031,6 +12322,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "網干",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12052,7 +12344,9 @@
         "departureTime": "13:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1150_39728",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1306_39579",
@@ -12063,6 +12357,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -12127,7 +12422,9 @@
         "departureTime": "13:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1350_39579",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1310_42086",
@@ -12229,6 +12526,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -12251,7 +12549,9 @@
         "departureTime": "13:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1337_38599",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1356_26295",
@@ -12350,6 +12650,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12413,7 +12714,9 @@
         "departureTime": "14:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1300_39715",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1401_31818",
@@ -12425,6 +12728,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12446,7 +12750,9 @@
         "departureTime": "14:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1250_31818",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1406_39580",
@@ -12457,6 +12763,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -12521,7 +12828,9 @@
         "departureTime": "14:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1450_39580",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1410_20745",
@@ -12619,6 +12928,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "網干",
     "cars": 4,
     "isHoliday": true,
@@ -12641,7 +12951,9 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1437_38605",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1456_42081",
@@ -12744,6 +13056,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12807,7 +13120,9 @@
         "departureTime": "15:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1400_39716",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1501_31819",
@@ -12819,6 +13134,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12840,7 +13156,9 @@
         "departureTime": "15:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1350_31819",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1506_39583",
@@ -12851,6 +13169,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -12915,7 +13234,9 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1547_39583",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1510_42087",
@@ -13017,6 +13338,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -13039,7 +13361,9 @@
         "departureTime": "15:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1537_38601",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1526_10520",
@@ -13051,6 +13375,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13078,7 +13403,9 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1430_10520",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1556_26296",
@@ -13176,6 +13503,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -13204,7 +13532,9 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1617_39750",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1601_39717",
@@ -13216,6 +13546,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
     "customOrigin": "姫路",
+    "customDestination": "近江塩津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13279,7 +13610,9 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1500_39717",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1601_31821",
@@ -13291,6 +13624,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13312,7 +13646,9 @@
         "departureTime": "16:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1450_31821",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1603_20747",
@@ -13391,6 +13727,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -13455,7 +13792,9 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1647_39585",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1609_42090",
@@ -13557,6 +13896,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "網干",
     "cars": 4,
     "isHoliday": true,
@@ -13579,7 +13919,9 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1637_38606",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1627_10521",
@@ -13591,6 +13933,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13618,7 +13961,9 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1530_10521",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-04_1639_26310",
@@ -13776,6 +14121,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -13804,7 +14150,9 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1717_39751",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1701_24371",
@@ -13815,6 +14163,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "近江今津",
     "cars": 4,
     "isHoliday": true,
@@ -13837,7 +14186,9 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1718_24371",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1701_39718",
@@ -13849,6 +14200,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13924,7 +14276,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1600_39718",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1706_39586",
@@ -13935,6 +14289,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "近江塩津",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -13999,7 +14354,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1747_39586",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1708_31822",
@@ -14011,6 +14368,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14032,7 +14390,9 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1550_31822",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1710_20740",
@@ -14131,6 +14491,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14158,7 +14519,9 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1631_10522",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1729_20755",
@@ -14282,6 +14645,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -14358,7 +14722,9 @@
         "departureTime": "18:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1847_39570",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1756_26298",
@@ -14456,6 +14822,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "播州赤穂",
     "cars": 4,
     "isHoliday": true,
@@ -14484,7 +14851,9 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1817_39753",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1802_39719",
@@ -14496,6 +14865,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14571,7 +14941,9 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1701_39719",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1808_42088",
@@ -14674,6 +15046,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14701,7 +15074,9 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1731_10524",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_1830_20756",
@@ -14836,6 +15211,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "敦賀",
     "customDestination": "網干",
     "cars": 4,
     "isHoliday": true,
@@ -14912,7 +15288,9 @@
         "departureTime": "19:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1954_40840",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1856_42077",
@@ -15014,6 +15392,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -15042,7 +15421,9 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_1918_39742",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1902_39720",
@@ -15054,6 +15435,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15129,7 +15511,9 @@
         "departureTime": "19:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1801_39720",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_1910_20741",
@@ -15227,6 +15611,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-12",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-10",
+    "customOrigin": "敦賀",
     "customDestination": "京都",
     "cars": 4,
     "isHoliday": true,
@@ -15249,7 +15634,9 @@
         "departureTime": "19:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_kosei-21_1938_40806",
+    "throughLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_1928_10526",
@@ -15261,6 +15648,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15288,7 +15676,9 @@
         "departureTime": "19:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1831_10526",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-04_1941_26311",
@@ -15528,6 +15918,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "上郡",
     "cars": 4,
     "isHoliday": true,
@@ -15556,7 +15947,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_2014_39748",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_1959_43239",
@@ -15568,6 +15961,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "近江今津",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15589,7 +15983,9 @@
         "departureTime": "20:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-17_1934_43239",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_2004_39722",
@@ -15601,6 +15997,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "姫路",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15676,7 +16073,9 @@
         "departureTime": "20:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1901_39722",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-10_2009_38021",
@@ -15688,6 +16087,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-10",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-12",
     "customOrigin": "京都",
+    "customDestination": "敦賀",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15709,7 +16109,9 @@
         "departureTime": "20:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_kosei-01_1856_38021",
+    "prevLineId": "jr_kosei"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_2015_42091",
@@ -15812,6 +16214,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "播州赤穂",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15839,7 +16242,9 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_1908_40828",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-10_2044_20757",
@@ -15998,6 +16403,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "播州赤穂",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16025,7 +16431,9 @@
         "departureTime": "21:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_2001_40826",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_2112_20748",
@@ -16172,6 +16580,7 @@
     "direction": "inbound",
     "originStationId": "jr_hokuriku_maibara_tsuruga-04",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-01",
+    "customOrigin": "長浜",
     "customDestination": "姫路",
     "cars": 4,
     "isHoliday": true,
@@ -16200,7 +16609,9 @@
         "departureTime": "21:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_JR-A12_2134_39745",
+    "throughLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_2131_10528",
@@ -16212,6 +16623,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16239,7 +16651,9 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_2031_10528",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_OUT_jr_hokuriku_maibara_tsuruga-01_2150_26300",
@@ -16376,6 +16790,7 @@
     "originStationId": "jr_hokuriku_maibara_tsuruga-01",
     "destinationStationId": "jr_hokuriku_maibara_tsuruga-04",
     "customOrigin": "姫路",
+    "customDestination": "長浜",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16403,7 +16818,9 @@
         "departureTime": "22:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JR-A31_2101_10529",
+    "prevLineId": "jr_biwako"
   },
   {
     "tripId": "HD_INB_jr_hokuriku_maibara_tsuruga-12_2201_20742",

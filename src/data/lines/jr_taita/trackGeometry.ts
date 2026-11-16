@@ -181,6 +181,17 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.34885,
         137.10077
+      ]
+    ]
+  },
+  {
+    "id": "jr_taita-02_jr_taita-03",
+    "fromStationId": "jr_taita-02",
+    "toStationId": "jr_taita-03",
+    "coordinates": [
+      [
+        35.34885,
+        137.10077
       ],
       [
         35.34946,
@@ -253,9 +264,9 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_taita-02_jr_taita-03",
-    "fromStationId": "jr_taita-02",
-    "toStationId": "jr_taita-03",
+    "id": "jr_taita-03_jr_taita-04",
+    "fromStationId": "jr_taita-03",
+    "toStationId": "jr_taita-04",
     "coordinates": [
       [
         35.3612,
@@ -420,9 +431,9 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_taita-03_jr_taita-04",
-    "fromStationId": "jr_taita-03",
-    "toStationId": "jr_taita-04",
+    "id": "jr_taita-04_jr_taita-05",
+    "fromStationId": "jr_taita-04",
+    "toStationId": "jr_taita-05",
     "coordinates": [
       [
         35.38165,
@@ -523,9 +534,9 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_taita-04_jr_taita-05",
-    "fromStationId": "jr_taita-04",
-    "toStationId": "jr_taita-05",
+    "id": "jr_taita-05_jr_taita-06",
+    "fromStationId": "jr_taita-05",
+    "toStationId": "jr_taita-06",
     "coordinates": [
       [
         35.39339,
@@ -710,9 +721,9 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_taita-05_jr_taita-06",
-    "fromStationId": "jr_taita-05",
-    "toStationId": "jr_taita-06",
+    "id": "jr_taita-06_jr_taita-07",
+    "fromStationId": "jr_taita-06",
+    "toStationId": "jr_taita-07",
     "coordinates": [
       [
         35.42392,
@@ -873,9 +884,9 @@ export const JR_TAITA_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "jr_taita-06_jr_taita-07",
-    "fromStationId": "jr_taita-06",
-    "toStationId": "jr_taita-07",
+    "id": "jr_taita-07_jr_taita-08",
+    "fromStationId": "jr_taita-07",
+    "toStationId": "jr_taita-08",
     "coordinates": [
       [
         35.44439,

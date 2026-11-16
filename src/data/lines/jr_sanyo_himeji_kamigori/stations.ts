@@ -5,7 +5,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "id": "jr_sanyo_himeji_kamigori-01",
     "stationNumber": "JR-A85",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 85,
+    "number": 1,
     "name": "姫路",
     "nameKana": "ひめじ",
     "nameEn": "Himeji",
@@ -35,6 +35,36 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "id": "jr_sanyo_himeji_kamigori-02",
     "lineId": "jr_sanyo_himeji_kamigori",
     "number": 2,
+    "name": "手柄山平和公園",
+    "nameKana": "てがらやまへいわこうえん",
+    "nameEn": "Tegarayama-Heiwakoen",
+    "lat": 34.8233,
+    "lng": 134.67137,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limitedExp"
+    ]
+  },
+  {
+    "id": "jr_sanyo_himeji_kamigori-03",
+    "lineId": "jr_sanyo_himeji_kamigori",
+    "number": 3,
     "name": "英賀保",
     "nameKana": "あがほ",
     "nameEn": "Agaho",
@@ -61,9 +91,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-03",
+    "id": "jr_sanyo_himeji_kamigori-04",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 3,
+    "number": 4,
     "name": "はりま勝原",
     "nameKana": "はりまかつはら",
     "nameEn": "Harima-Katsuhara",
@@ -90,9 +120,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-04",
+    "id": "jr_sanyo_himeji_kamigori-05",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 4,
+    "number": 5,
     "name": "網干",
     "nameKana": "あぼし",
     "nameEn": "Aboshi",
@@ -119,9 +149,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-05",
+    "id": "jr_sanyo_himeji_kamigori-06",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 5,
+    "number": 6,
     "name": "竜野",
     "nameKana": "たつの",
     "nameEn": "Tatsuno",
@@ -148,9 +178,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-06",
+    "id": "jr_sanyo_himeji_kamigori-07",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 6,
+    "number": 7,
     "name": "相生",
     "nameKana": "あいおい",
     "nameEn": "Aioi",
@@ -177,9 +207,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-07",
+    "id": "jr_sanyo_himeji_kamigori-08",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 7,
+    "number": 8,
     "name": "有年",
     "nameKana": "うね",
     "nameEn": "Une",
@@ -206,9 +236,9 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_sanyo_himeji_kamigori-08",
+    "id": "jr_sanyo_himeji_kamigori-09",
     "lineId": "jr_sanyo_himeji_kamigori",
-    "number": 8,
+    "number": 9,
     "name": "上郡",
     "nameKana": "かみごおり",
     "nameEn": "Kamigori",

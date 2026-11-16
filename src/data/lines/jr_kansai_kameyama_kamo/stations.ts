@@ -113,6 +113,33 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "id": "jr_kansai_kameyama_kamo-05",
     "lineId": "jr_kansai_kameyama_kamo",
     "number": 5,
+    "name": "新堂",
+    "nameKana": "しんどう",
+    "nameEn": "Shindo",
+    "lat": 34.82154,
+    "lng": 136.20743,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "isMajor": false,
+    "facilities": {
+      "elevator": false,
+      "restroom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ]
+  },
+  {
+    "id": "jr_kansai_kameyama_kamo-06",
+    "lineId": "jr_kansai_kameyama_kamo",
+    "number": 6,
     "name": "佐那具",
     "nameKana": "さなぐ",
     "nameEn": "Sanagu",
@@ -137,9 +164,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-06",
+    "id": "jr_kansai_kameyama_kamo-07",
     "lineId": "jr_kansai_kameyama_kamo",
-    "number": 6,
+    "number": 7,
     "name": "伊賀上野",
     "nameKana": "いがうえの",
     "nameEn": "Iga-Ueno",
@@ -164,9 +191,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-07",
+    "id": "jr_kansai_kameyama_kamo-08",
     "lineId": "jr_kansai_kameyama_kamo",
-    "number": 7,
+    "number": 8,
     "name": "島ヶ原",
     "nameKana": "しまがはら",
     "nameEn": "Shimagahara",
@@ -191,9 +218,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-08",
+    "id": "jr_kansai_kameyama_kamo-09",
     "lineId": "jr_kansai_kameyama_kamo",
-    "number": 8,
+    "number": 9,
     "name": "月ヶ瀬口",
     "nameKana": "つきがせぐち",
     "nameEn": "Tsukigaseguchi",
@@ -218,9 +245,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-09",
+    "id": "jr_kansai_kameyama_kamo-10",
     "lineId": "jr_kansai_kameyama_kamo",
-    "number": 9,
+    "number": 10,
     "name": "大河原",
     "nameKana": "おおかわら",
     "nameEn": "Okawara",
@@ -245,9 +272,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-10",
+    "id": "jr_kansai_kameyama_kamo-11",
     "lineId": "jr_kansai_kameyama_kamo",
-    "number": 10,
+    "number": 11,
     "name": "笠置",
     "nameKana": "かさぎ",
     "nameEn": "Kasagi",
@@ -272,9 +299,9 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kansai_kameyama_kamo-11",
+    "id": "jr_kansai_kameyama_kamo-12",
     "lineId": "jr_kansai_kameyama_kamo",
-    "number": 11,
+    "number": 12,
     "name": "加茂",
     "nameKana": "かも",
     "nameEn": "Kamo",

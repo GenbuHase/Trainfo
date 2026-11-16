@@ -12,57 +12,64 @@ module.exports = {
         "id": "jr_sanyo_himeji_kamigori-01",
         "name": "姫路",
         "yahooStationId": "26524",
-        "inGroupId": "1461",
-        "outGroupId": "1460"
+        "inGroupId": null,
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-02",
-        "name": "英賀保",
-        "yahooStationId": "26252",
-        "inGroupId": "1981",
-        "outGroupId": "1980"
+        "name": "手柄山平和公園",
+        "yahooStationId": "30050",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-03",
-        "name": "はりま勝原",
-        "yahooStationId": "29609",
-        "inGroupId": "1981",
-        "outGroupId": "1980"
+        "name": "英賀保",
+        "yahooStationId": "26252",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-04",
-        "name": "網干",
-        "yahooStationId": "26258",
-        "inGroupId": "1981",
-        "outGroupId": "1980"
+        "name": "はりま勝原",
+        "yahooStationId": "29609",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-05",
-        "name": "竜野",
-        "yahooStationId": "26440",
-        "inGroupId": "1981",
-        "outGroupId": "1980"
+        "name": "網干",
+        "yahooStationId": "26258",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-06",
-        "name": "相生",
-        "yahooStationId": "26242",
-        "inGroupId": "1461",
-        "outGroupId": "1460"
+        "name": "竜野",
+        "yahooStationId": "26440",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-07",
-        "name": "有年",
-        "yahooStationId": "26290",
-        "inGroupId": "1981",
-        "outGroupId": "1980"
+        "name": "相生",
+        "yahooStationId": "26242",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
     },
     {
         "id": "jr_sanyo_himeji_kamigori-08",
+        "name": "有年",
+        "yahooStationId": "26290",
+        "inGroupId": "1980",
+        "outGroupId": "1981"
+    },
+    {
+        "id": "jr_sanyo_himeji_kamigori-09",
         "name": "上郡",
         "yahooStationId": "26320",
-        "inGroupId": "1981",
-        "outGroupId": "1980"
+        "inGroupId": "1980",
+        "outGroupId": null
     }
 ],
   stationNameAliases: {},

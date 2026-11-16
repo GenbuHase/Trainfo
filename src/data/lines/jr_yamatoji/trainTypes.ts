@@ -11,6 +11,16 @@ export const JR_YAMATOJI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#00a960",
     "borderColor": "#00a960"
   },
+  "semi_rapid": {
+    "key": "semi_rapid",
+    "name": "区間快速",
+    "nameEn": "Regional Rapid",
+    "shortName": "区快",
+    "color": "#22ac38",
+    "textColor": "#ffffff",
+    "bgColor": "#22ac38",
+    "borderColor": "#198754"
+  },
   "rapid": {
     "key": "rapid",
     "name": "快速",
@@ -40,5 +50,15 @@ export const JR_YAMATOJI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "textColor": "#ffffff",
     "bgColor": "#00a960",
     "borderColor": "#007040"
+  },
+  "limitedExp": {
+    "key": "limitedExp",
+    "name": "特急",
+    "nameEn": "Limited Express",
+    "shortName": "特急",
+    "color": "#d32f2f",
+    "textColor": "#ffffff",
+    "bgColor": "#d32f2f",
+    "borderColor": "#b71c1c"
   }
 };

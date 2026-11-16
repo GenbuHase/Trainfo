@@ -21,6 +21,16 @@ export const JR_KANSAI_AIRPORT_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0072bc",
     "borderColor": "#005080"
   },
+  "direct_rapid": {
+    "key": "direct_rapid",
+    "name": "直通快速",
+    "nameEn": "Direct Rapid",
+    "shortName": "直快",
+    "color": "#884898",
+    "textColor": "#ffffff",
+    "bgColor": "#884898",
+    "borderColor": "#602870"
+  },
   "limitedExp": {
     "key": "limitedExp",
     "name": "特急",

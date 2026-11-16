@@ -139,21 +139,21 @@ module.exports = {
         "name": "天王寺",
         "yahooStationId": "26062",
         "inGroupId": null,
-        "outGroupId": "4270"
+        "outGroupId": null
     },
     {
         "id": "jr_yamatoji-20",
         "name": "新今宮",
         "yahooStationId": "25977",
         "inGroupId": null,
-        "outGroupId": "3951"
+        "outGroupId": null
     },
     {
         "id": "jr_yamatoji-21",
         "name": "今宮",
-        "yahooStationId": "25977",
+        "yahooStationId": "25843",
         "inGroupId": null,
-        "outGroupId": "3951"
+        "outGroupId": null
     },
     {
         "id": "jr_yamatoji-22",

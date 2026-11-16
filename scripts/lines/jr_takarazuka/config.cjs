@@ -62,7 +62,7 @@ module.exports = {
         "name": "宝塚",
         "yahooStationId": "26427",
         "inGroupId": null,
-        "outGroupId": "4180"
+        "outGroupId": null
     },
     {
         "id": "jr_takarazuka-09",

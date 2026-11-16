@@ -13,14 +13,14 @@ module.exports = {
         "name": "日根野",
         "yahooStationId": "26151",
         "inGroupId": null,
-        "outGroupId": "1720"
+        "outGroupId": "1711"
     },
     {
         "id": "jr_kansai_airport-02",
         "name": "りんくうタウン",
         "yahooStationId": "26240",
-        "inGroupId": null,
-        "outGroupId": "4001"
+        "inGroupId": "1710",
+        "outGroupId": "1711"
     },
     {
         "id": "jr_kansai_airport-03",

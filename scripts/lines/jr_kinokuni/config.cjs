@@ -276,104 +276,111 @@ module.exports = {
     },
     {
         "id": "jr_kinokuni-39",
-        "name": "串本",
-        "yahooStationId": "26770",
-        "inGroupId": "1641",
-        "outGroupId": "1640"
-    },
-    {
-        "id": "jr_kinokuni-40",
         "name": "紀伊有田",
         "yahooStationId": "26741",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
+        "id": "jr_kinokuni-40",
+        "name": "串本",
+        "yahooStationId": "26770",
+        "inGroupId": "1641",
+        "outGroupId": "1640"
+    },
+    {
         "id": "jr_kinokuni-41",
+        "name": "紀伊姫",
+        "yahooStationId": "26758",
+        "inGroupId": "1641",
+        "outGroupId": "1640"
+    },
+    {
+        "id": "jr_kinokuni-42",
         "name": "古座",
         "yahooStationId": "26779",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-42",
+        "id": "jr_kinokuni-43",
         "name": "紀伊田原",
         "yahooStationId": "26752",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-43",
+        "id": "jr_kinokuni-44",
         "name": "紀伊浦神",
         "yahooStationId": "26743",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-44",
+        "id": "jr_kinokuni-45",
         "name": "下里",
         "yahooStationId": "26787",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-45",
+        "id": "jr_kinokuni-46",
         "name": "太地",
         "yahooStationId": "26798",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-46",
+        "id": "jr_kinokuni-47",
         "name": "湯川",
         "yahooStationId": "26837",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-47",
+        "id": "jr_kinokuni-48",
         "name": "紀伊勝浦",
         "yahooStationId": "26745",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-48",
-        "name": "那智",
-        "yahooStationId": "26810",
-        "inGroupId": "1641",
-        "outGroupId": "1640"
-    },
-    {
         "id": "jr_kinokuni-49",
-        "name": "宇久井",
-        "yahooStationId": "26724",
-        "inGroupId": "1641",
-        "outGroupId": "1640"
-    },
-    {
-        "id": "jr_kinokuni-50",
         "name": "紀伊天満",
         "yahooStationId": "26753",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
+        "id": "jr_kinokuni-50",
+        "name": "那智",
+        "yahooStationId": "26810",
+        "inGroupId": "1641",
+        "outGroupId": "1640"
+    },
+    {
         "id": "jr_kinokuni-51",
+        "name": "宇久井",
+        "yahooStationId": "26724",
+        "inGroupId": "1641",
+        "outGroupId": "1640"
+    },
+    {
+        "id": "jr_kinokuni-52",
         "name": "紀伊佐野",
         "yahooStationId": "26748",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-52",
+        "id": "jr_kinokuni-53",
         "name": "三輪崎",
         "yahooStationId": "26834",
         "inGroupId": "1641",
         "outGroupId": "1640"
     },
     {
-        "id": "jr_kinokuni-53",
+        "id": "jr_kinokuni-54",
         "name": "新宮",
         "yahooStationId": "26793",
         "inGroupId": "1641",

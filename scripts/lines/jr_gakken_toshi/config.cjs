@@ -173,7 +173,7 @@ module.exports = {
         "id": "jr_gakken_toshi-24",
         "name": "京橋",
         "yahooStationId": "25901",
-        "inGroupId": "7200",
+        "inGroupId": null,
         "outGroupId": null
     }
 ],

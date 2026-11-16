@@ -61,7 +61,7 @@ module.exports = {
         "id": "jr_kansai_nagoya_kameyama-08",
         "name": "桑名",
         "yahooStationId": "25348",
-        "inGroupId": "3721",
+        "inGroupId": null,
         "outGroupId": "1401"
     },
     {

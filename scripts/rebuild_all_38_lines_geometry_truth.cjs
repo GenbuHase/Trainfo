@@ -145,7 +145,43 @@ function buildLineGraph(features, snapThreshold = 60) {
     }
   }
 
-  return { adj, nodeCoords, getNodeId };
+  return { adj, nodeCoords, getNodeId, insertProjectedNode: (targetCoord) => {
+    let bestU = null, bestV = null, bestProj = null, minD = Infinity;
+    for (const [u, edges] of adj.entries()) {
+      const pu = nodeCoords.get(u);
+      for (const e of edges) {
+        const v = e.to;
+        if (u >= v) continue;
+        const pv = nodeCoords.get(v);
+        const dLat = pv[0] - pu[0];
+        const dLng = pv[1] - pu[1];
+        const lenSq = dLat * dLat + dLng * dLng;
+        const t = lenSq === 0 ? 0 : Math.max(0, Math.min(1, ((targetCoord[0] - pu[0]) * dLat + (targetCoord[1] - pu[1]) * dLng) / lenSq));
+        const proj = [pu[0] + t * dLat, pu[1] + t * dLng];
+        const d = distMeters(targetCoord, proj);
+        if (d < minD) {
+          minD = d;
+          bestU = u;
+          bestV = v;
+          bestProj = proj;
+        }
+      }
+    }
+    if (bestU !== null && bestProj !== null) {
+      const newId = nextNodeId++;
+      nodeCoords.set(newId, bestProj);
+      const dU = distMeters(nodeCoords.get(bestU), bestProj);
+      const dV = distMeters(bestProj, nodeCoords.get(bestV));
+      adj.set(newId, [
+        { to: bestU, dist: dU },
+        { to: bestV, dist: dV },
+      ]);
+      adj.get(bestU).push({ to: newId, dist: dU });
+      adj.get(bestV).push({ to: newId, dist: dV });
+      return bestProj;
+    }
+    return targetCoord;
+  }};
 }
 
 function calculateTurnAngle(p1, p2, p3) {
@@ -292,7 +328,7 @@ for (const spec of lineSpecs) {
 
   // 3. グラフ構築
   const snapThresh = (lineId === 'jr_osaka_higashi' || lineId === 'jr_tozai') ? 150 : 60;
-  const { adj, nodeCoords } = buildLineGraph(lineFeatures, snapThresh);
+  const { adj, nodeCoords, insertProjectedNode } = buildLineGraph(lineFeatures, snapThresh);
 
   // 4. 各駅の正式ホーム座標の決定（N02公式）
   const resolvedStationCoords = [];
@@ -324,7 +360,8 @@ for (const spec of lineSpecs) {
           const g = anySf.geometry;
           coord = g.type === 'LineString' ? [g.coordinates[0][1], g.coordinates[0][0]] : [g.coordinates[1], g.coordinates[0]];
         } else {
-          coord = [st.lat, st.lng];
+          // N02未登録駅（2026年開業の新駅等）は実線路グラフのエッジ上に垂直射影してノード挿入
+          coord = insertProjectedNode([st.lat, st.lng]);
         }
       }
     }

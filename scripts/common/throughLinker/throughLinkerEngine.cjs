@@ -246,7 +246,7 @@ function linkPair({
         if (orig && disallowedOrigins.some(o => orig.includes(o))) return false;
       }
       if (allowMidStationA) {
-        const idx = tA.stops.findIndex((s) => s.stationId === stationAId);
+        const idx = tA.stops.findLastIndex((s) => s.stationId === stationAId);
         return idx > 0;
       }
       const lastStop = tA.stops[tA.stops.length - 1];
@@ -254,10 +254,10 @@ function linkPair({
     })
     .sort((a, b) => {
       const stopA = allowMidStationA
-        ? a.stops.find((s) => s.stationId === stationAId)
+        ? a.stops.findLast((s) => s.stationId === stationAId)
         : a.stops[a.stops.length - 1];
       const stopB = allowMidStationA
-        ? b.stops.find((s) => s.stationId === stationAId)
+        ? b.stops.findLast((s) => s.stationId === stationAId)
         : b.stops[b.stops.length - 1];
       const aSec = timeToSec(stopA?.arrivalTime || stopA?.departureTime);
       const bSec = timeToSec(stopB?.arrivalTime || stopB?.departureTime);
@@ -296,9 +296,10 @@ function linkPair({
     });
 
   for (const tA of sortedTripsA) {
-    const stopA = allowMidStationA
-      ? tA.stops.find((s) => s.stationId === stationAId)
-      : tA.stops[tA.stops.length - 1];
+    const stopAIndex = allowMidStationA
+      ? tA.stops.findLastIndex((s) => s.stationId === stationAId)
+      : tA.stops.length - 1;
+    const stopA = stopAIndex >= 0 ? tA.stops[stopAIndex] : null;
     if (!stopA) continue;
 
     const tASec = timeToSec(stopA.arrivalTime || stopA.departureTime);
@@ -463,31 +464,39 @@ function linkPair({
         ? bestB.stops.find((s) => s.stationId === stationBId)
         : bestB.stops[0];
 
+      const isStopATerminalOrTruncated = truncateAAtStation || stopAIndex === tA.stops.length - 1;
       const syncArr = stopA.arrivalTime || stopA.departureTime;
-      stopA.departureTime = syncArr;
+      if (isStopATerminalOrTruncated) {
+        stopA.departureTime = syncArr;
+      }
       if (stopB) {
-        stopB.arrivalTime = syncArr;
-        const syncSec = timeToSec(syncArr);
+        const stopBIndex = bestB.stops.indexOf(stopB);
+        const isStopBOriginOrTruncated = truncateBFromStation || stopBIndex === 0;
+        if (isStopBOriginOrTruncated) {
+          stopB.arrivalTime = syncArr;
+        }
+        const syncSec = timeToSec(stopB.arrivalTime || syncArr);
         let bDepSec = timeToSec(stopB.departureTime);
         if (bDepSec !== null && bDepSec < syncSec && bDepSec + 86400 >= syncSec) {
           bDepSec += 86400;
         }
         if (bDepSec !== null && bDepSec < syncSec) {
-          stopB.departureTime = syncArr;
+          stopB.departureTime = stopB.arrivalTime || syncArr;
           bDepSec = syncSec;
         }
 
         const isPassingBoundary = stopA.isPassing || stopB.isPassing;
-        if (isPassingBoundary) {
-          stopA.departureTime = syncArr;
-          stopB.departureTime = syncArr;
-          bDepSec = syncSec;
-        } else if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
-          stopA.departureTime = stopB.departureTime;
+        if (isStopATerminalOrTruncated) {
+          if (isPassingBoundary) {
+            stopA.departureTime = syncArr;
+            stopB.departureTime = syncArr;
+            bDepSec = syncSec;
+          } else if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
+            stopA.departureTime = stopB.departureTime;
+          }
         }
 
         // 後続駅の時刻逆転防止
-        const stopBIndex = bestB.stops.indexOf(stopB);
         let curSec = bDepSec !== null ? bDepSec : timeToSec(stopB.departureTime);
         for (let k = stopBIndex + 1; k < bestB.stops.length; k++) {
           const s = bestB.stops[k];
@@ -515,9 +524,9 @@ function linkPair({
 
       // 境界駅以降・以前の不要区間切り詰め
       if (truncateAAtStation) {
-        const stopAIndex = tA.stops.findIndex((s) => s.stationId === stationAId);
-        if (stopAIndex !== -1 && stopAIndex < tA.stops.length - 1) {
-          tA.stops = tA.stops.slice(0, stopAIndex + 1);
+        const truncIdxA = tA.stops.findLastIndex((s) => s.stationId === stationAId);
+        if (truncIdxA !== -1 && truncIdxA < tA.stops.length - 1) {
+          tA.stops = tA.stops.slice(0, truncIdxA + 1);
           tA.destinationStationId = stationAId;
         }
       }

@@ -48,7 +48,7 @@ module.exports = {
         "name": "伊勢市",
         "yahooStationId": "25278",
         "inGroupId": null,
-        "outGroupId": "3750"
+        "outGroupId": null
     },
     {
         "id": "jr_sangu-07",
@@ -75,7 +75,7 @@ module.exports = {
         "id": "jr_sangu-10",
         "name": "鳥羽",
         "yahooStationId": "25400",
-        "inGroupId": "3760",
+        "inGroupId": null,
         "outGroupId": null
     }
 ],

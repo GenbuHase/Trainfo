@@ -12,74 +12,81 @@ module.exports = {
         "id": "jr_kansai_kameyama_kamo-01",
         "name": "亀山",
         "yahooStationId": "25325",
-        "inGroupId": "1400",
+        "inGroupId": null,
         "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-02",
         "name": "関",
         "yahooStationId": "25378",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-03",
         "name": "加太",
         "yahooStationId": "25321",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-04",
         "name": "柘植",
         "yahooStationId": "25393",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-05",
-        "name": "佐那具",
-        "yahooStationId": "25360",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "name": "新堂",
+        "yahooStationId": "25374",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-06",
-        "name": "伊賀上野",
-        "yahooStationId": "25261",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "name": "佐那具",
+        "yahooStationId": "25360",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-07",
-        "name": "島ヶ原",
-        "yahooStationId": "25364",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "name": "伊賀上野",
+        "yahooStationId": "25261",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-08",
-        "name": "月ヶ瀬口",
-        "yahooStationId": "25715",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "name": "島ヶ原",
+        "yahooStationId": "25364",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-09",
-        "name": "大河原",
-        "yahooStationId": "25613",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "name": "月ヶ瀬口",
+        "yahooStationId": "25715",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-10",
-        "name": "笠置",
-        "yahooStationId": "25622",
-        "inGroupId": "1491",
-        "outGroupId": "1490"
+        "name": "大河原",
+        "yahooStationId": "25613",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
     },
     {
         "id": "jr_kansai_kameyama_kamo-11",
+        "name": "笠置",
+        "yahooStationId": "25622",
+        "inGroupId": "1490",
+        "outGroupId": "1491"
+    },
+    {
+        "id": "jr_kansai_kameyama_kamo-12",
         "name": "加茂",
         "yahooStationId": "25632",
         "inGroupId": "1490",

@@ -1107,35 +1107,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "id": "jr_kinokuni-39",
     "lineId": "jr_kinokuni",
     "number": 39,
-    "name": "串本",
-    "nameKana": "くしもと",
-    "nameEn": "Kushimoto",
-    "lat": 33.47577,
-    "lng": 135.78186,
-    "transfers": [],
-    "address": "",
-    "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
-    },
-    "isMajor": true,
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
-    ]
-  },
-  {
-    "id": "jr_kinokuni-40",
-    "lineId": "jr_kinokuni",
-    "number": 40,
     "name": "紀伊有田",
     "nameKana": "きいありた",
     "nameEn": "Kii-Arita",
@@ -1162,9 +1133,65 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
+    "id": "jr_kinokuni-40",
+    "lineId": "jr_kinokuni",
+    "number": 40,
+    "name": "串本",
+    "nameKana": "くしもと",
+    "nameEn": "Kushimoto",
+    "lat": 33.47577,
+    "lng": 135.78186,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "limitedExp"
+    ]
+  },
+  {
     "id": "jr_kinokuni-41",
     "lineId": "jr_kinokuni",
     "number": 41,
+    "name": "紀伊姫",
+    "nameKana": "きいひめ",
+    "nameEn": "Kii-Hime",
+    "lat": 33.49756,
+    "lng": 135.79636,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "isMajor": false,
+    "facilities": {
+      "elevator": false,
+      "restroom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ]
+  },
+  {
+    "id": "jr_kinokuni-42",
+    "lineId": "jr_kinokuni",
+    "number": 42,
     "name": "古座",
     "nameKana": "こざ",
     "nameEn": "Koza",
@@ -1191,9 +1218,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-42",
+    "id": "jr_kinokuni-43",
     "lineId": "jr_kinokuni",
-    "number": 42,
+    "number": 43,
     "name": "紀伊田原",
     "nameKana": "きいたはら",
     "nameEn": "Kii-Tahara",
@@ -1220,9 +1247,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-43",
+    "id": "jr_kinokuni-44",
     "lineId": "jr_kinokuni",
-    "number": 43,
+    "number": 44,
     "name": "紀伊浦神",
     "nameKana": "きいうらがみ",
     "nameEn": "Kii-Uragami",
@@ -1249,9 +1276,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-44",
+    "id": "jr_kinokuni-45",
     "lineId": "jr_kinokuni",
-    "number": 44,
+    "number": 45,
     "name": "下里",
     "nameKana": "しもり",
     "nameEn": "Shimosato",
@@ -1278,9 +1305,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-45",
+    "id": "jr_kinokuni-46",
     "lineId": "jr_kinokuni",
-    "number": 45,
+    "number": 46,
     "name": "太地",
     "nameKana": "たいじ",
     "nameEn": "Taiji",
@@ -1307,9 +1334,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-46",
+    "id": "jr_kinokuni-47",
     "lineId": "jr_kinokuni",
-    "number": 46,
+    "number": 47,
     "name": "湯川",
     "nameKana": "ゆかわ",
     "nameEn": "Yukawa",
@@ -1336,9 +1363,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-47",
+    "id": "jr_kinokuni-48",
     "lineId": "jr_kinokuni",
-    "number": 47,
+    "number": 48,
     "name": "紀伊勝浦",
     "nameKana": "きいかつうら",
     "nameEn": "Kii-Katsuura",
@@ -1365,67 +1392,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-48",
-    "lineId": "jr_kinokuni",
-    "number": 48,
-    "name": "那智",
-    "nameKana": "なち",
-    "nameEn": "Nachi",
-    "lat": 33.64328,
-    "lng": 135.9362,
-    "transfers": [],
-    "address": "",
-    "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
-    },
-    "isMajor": false,
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": false
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
-    ]
-  },
-  {
     "id": "jr_kinokuni-49",
     "lineId": "jr_kinokuni",
     "number": 49,
-    "name": "宇久井",
-    "nameKana": "うくい",
-    "nameEn": "Ukui",
-    "lat": 33.66239,
-    "lng": 135.97199,
-    "transfers": [],
-    "address": "",
-    "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
-    },
-    "isMajor": false,
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": false
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
-    ]
-  },
-  {
-    "id": "jr_kinokuni-50",
-    "lineId": "jr_kinokuni",
-    "number": 50,
     "name": "紀伊天満",
     "nameKana": "きいてんま",
     "nameEn": "Kii-Temma",
@@ -1452,9 +1421,67 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
+    "id": "jr_kinokuni-50",
+    "lineId": "jr_kinokuni",
+    "number": 50,
+    "name": "那智",
+    "nameKana": "なち",
+    "nameEn": "Nachi",
+    "lat": 33.64328,
+    "lng": 135.9362,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "limitedExp"
+    ]
+  },
+  {
     "id": "jr_kinokuni-51",
     "lineId": "jr_kinokuni",
     "number": 51,
+    "name": "宇久井",
+    "nameKana": "うくい",
+    "nameEn": "Ukui",
+    "lat": 33.66239,
+    "lng": 135.97199,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "limitedExp"
+    ]
+  },
+  {
+    "id": "jr_kinokuni-52",
+    "lineId": "jr_kinokuni",
+    "number": 52,
     "name": "紀伊佐野",
     "nameKana": "きいさの",
     "nameEn": "Kii-Sano",
@@ -1481,9 +1508,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-52",
+    "id": "jr_kinokuni-53",
     "lineId": "jr_kinokuni",
-    "number": 52,
+    "number": 53,
     "name": "三輪崎",
     "nameKana": "みわさき",
     "nameEn": "Miwasaki",
@@ -1510,9 +1537,9 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     ]
   },
   {
-    "id": "jr_kinokuni-53",
+    "id": "jr_kinokuni-54",
     "lineId": "jr_kinokuni",
-    "number": 53,
+    "number": 54,
     "name": "新宮",
     "nameKana": "しんぐう",
     "nameEn": "Shingu",

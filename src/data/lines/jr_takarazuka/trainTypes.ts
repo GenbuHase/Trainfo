@@ -11,6 +11,16 @@ export const JR_TAKARAZUKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#fcc800",
     "borderColor": "#fcc800"
   },
+  "semi_rapid": {
+    "key": "semi_rapid",
+    "name": "区間快速",
+    "nameEn": "Regional Rapid",
+    "shortName": "区快",
+    "color": "#22ac38",
+    "textColor": "#ffffff",
+    "bgColor": "#22ac38",
+    "borderColor": "#198754"
+  },
   "rapid": {
     "key": "rapid",
     "name": "快速",

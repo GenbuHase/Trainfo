@@ -224,12 +224,20 @@ class YahooTimetableBuilder {
       return this.stByName.get(withoutSuffix);
     }
 
+    // 0.5 全角英数字を半角化（例: 'ＪＲ難波' -> 'JR難波', 'ＪＲ淡路' -> 'JR淡路'）
+    const normalizedAlnum = withoutSuffix.replace(/[Ａ-Ｚａ-ｚ０-９]/g, (s) =>
+      String.fromCharCode(s.charCodeAt(0) - 0xfee0)
+    );
+    if (this.stByName.has(normalizedAlnum)) {
+      return this.stByName.get(normalizedAlnum);
+    }
+
     // 2. 「ケ」と「ヶ」の正規化（例: '芦ケ久保' <-> '芦ヶ久保', '狭山ケ丘' <-> '狭山ヶ丘'）
-    const normalizedKe = withoutSuffix.replace(/ケ/g, 'ヶ');
+    const normalizedKe = normalizedAlnum.replace(/ケ/g, 'ヶ');
     if (this.stByName.has(normalizedKe)) {
       return this.stByName.get(normalizedKe);
     }
-    const normalizedBigKe = withoutSuffix.replace(/ヶ/g, 'ケ');
+    const normalizedBigKe = normalizedAlnum.replace(/ヶ/g, 'ケ');
     if (this.stByName.has(normalizedBigKe)) {
       return this.stByName.get(normalizedBigKe);
     }

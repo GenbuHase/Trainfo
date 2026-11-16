@@ -36,6 +36,34 @@ export const JR_TAITA_STATIONS: Station[] = [
     "stationNumber": "CI06",
     "lineId": "jr_taita",
     "number": 2,
+    "name": "小泉",
+    "nameKana": "こいずみ",
+    "nameEn": "Koizumi",
+    "lat": 35.34885,
+    "lng": 137.10077,
+    "transfers": [],
+    "address": "",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": false,
+      "restroom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": true,
+      "ticketOffice": false
+    }
+  },
+  {
+    "id": "jr_taita-03",
+    "stationNumber": "CI05",
+    "lineId": "jr_taita",
+    "number": 3,
     "name": "根本",
     "nameKana": "ねもと",
     "nameEn": "Nemoto",
@@ -60,10 +88,10 @@ export const JR_TAITA_STATIONS: Station[] = [
     }
   },
   {
-    "id": "jr_taita-03",
-    "stationNumber": "CI05",
+    "id": "jr_taita-04",
+    "stationNumber": "CI04",
     "lineId": "jr_taita",
-    "number": 3,
+    "number": 4,
     "name": "姫",
     "nameKana": "ひめ",
     "nameEn": "Hime",
@@ -88,10 +116,10 @@ export const JR_TAITA_STATIONS: Station[] = [
     }
   },
   {
-    "id": "jr_taita-04",
-    "stationNumber": "CI04",
+    "id": "jr_taita-05",
+    "stationNumber": "CI03",
     "lineId": "jr_taita",
-    "number": 4,
+    "number": 5,
     "name": "下切",
     "nameKana": "しもぎり",
     "nameEn": "Shimogiri",
@@ -116,10 +144,10 @@ export const JR_TAITA_STATIONS: Station[] = [
     }
   },
   {
-    "id": "jr_taita-05",
-    "stationNumber": "CI03",
+    "id": "jr_taita-06",
+    "stationNumber": "CI02",
     "lineId": "jr_taita",
-    "number": 5,
+    "number": 6,
     "name": "可児",
     "nameKana": "かに",
     "nameEn": "Kani",
@@ -144,10 +172,10 @@ export const JR_TAITA_STATIONS: Station[] = [
     }
   },
   {
-    "id": "jr_taita-06",
-    "stationNumber": "CI02",
+    "id": "jr_taita-07",
+    "stationNumber": "CI01",
     "lineId": "jr_taita",
-    "number": 6,
+    "number": 7,
     "name": "美濃川合",
     "nameKana": "みのかわい",
     "nameEn": "Mino-Kawai",
@@ -172,10 +200,10 @@ export const JR_TAITA_STATIONS: Station[] = [
     }
   },
   {
-    "id": "jr_taita-07",
+    "id": "jr_taita-08",
     "stationNumber": "CI00",
     "lineId": "jr_taita",
-    "number": 7,
+    "number": 8,
     "name": "美濃太田",
     "nameKana": "みのおおた",
     "nameEn": "Mino-Ota",
