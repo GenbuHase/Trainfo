@@ -736,11 +736,13 @@ export function getTrainTypeConfig(
   }
 
   if (!baseConfig) {
+    const safeType = typeof type === 'string' && type.length > 0 ? type : 'local';
+    const isMissingType = typeof type !== 'string' || type.length === 0;
     baseConfig = {
-      key: type,
-      name: type,
-      nameEn: type,
-      shortName: type.slice(0, 2),
+      key: safeType,
+      name: isMissingType ? '普通' : safeType,
+      nameEn: isMissingType ? 'Local' : safeType,
+      shortName: isMissingType ? '普通' : safeType.slice(0, 2),
       color: '#1e1c1c',
       textColor: '#ffffff',
       bgColor: '#1e1c1c',

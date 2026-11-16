@@ -2907,6 +2907,19 @@ module.exports = {
       "allowMidStationB": true
     },
     {
+      "name": "JR宝塚線 -> JR神戸線 (上り 尼崎経由 大阪行 丹波路快速/特急こうのとり/普通)",
+      "lineA": "jr_takarazuka",
+      "lineB": "jr_kobe",
+      "stationA": "jr_takarazuka-01",
+      "stationB": "JR-A49",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "requireIdMatch": true,
+      "allowMidStationA": false,
+      "allowMidStationB": false
+    },
+    {
       "name": "JR宝塚線 -> JR福知山線（篠山口～福知山） (大阪・宝塚発 篠山口経由 福知山方面 丹波路快速/特急こうのとり/普通)",
       "lineA": "jr_takarazuka",
       "lineB": "jr_fukuchiyama_north",

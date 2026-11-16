@@ -219,6 +219,7 @@ async function runAllLinesIntegrationTests() {
     ['tokaido_toyohashi_maibara', 'jr_hokuriku_maibara_tsuruga', '米原 (東海道線->北陸線 しらさぎ)'],
     ['jr_gakken_toshi', 'jr_tozai', '京橋 (学研都市線->JR東西線)'],
     ['jr_tozai', 'jr_takarazuka', '尼崎 (JR東西線->JR宝塚線)'],
+    ['jr_takarazuka', 'jr_kobe', '尼崎 (JR宝塚線->JR神戸線)'],
     ['jr_osaka_loop', 'jr_hanwa', '天王寺 (大阪環状線->阪和線)'],
     ['jr_hanwa', 'jr_kansai_airport', '日根野 (阪和線->関西空港線)'],
     ['jr_biwako', 'jr_kosei', '山科 (琵琶湖線->湖西線)'],
@@ -409,6 +410,62 @@ async function runAllLinesIntegrationTests() {
       assert.ok(cnt >= 10, `${lid} ${stName} の平日発車本数が不足しています (${cnt}本)`);
     });
   }
+
+  // -----------------------------------------------------------------------
+  // 5. 直通リンク双方向整合・併結統合・重複排除・新宿誤接続抑止のリグレッション検証
+  // -----------------------------------------------------------------------
+  console.log('\n--- [Integration 5] 今回改修項目の総合リグレッション検証 ---');
+
+  check('小田急3路線＆大糸・篠ノ井間の双方向ポインタ (throughTripId <-> prevTripId) 完全一致', () => {
+    const tripLookup = new Map(allLines.flatMap((l) => l.globalTimetable.map((t) => [t.tripId, t])));
+    for (const lid of ['oito_east', 'odakyu_odawara', 'odakyu_enoshima', 'odakyu_tama'] as LineId[]) {
+      const line = getLine(lid)!;
+      for (const t of line.globalTimetable) {
+        if (t.throughTripId) {
+          const next = tripLookup.get(t.throughTripId);
+          assert.ok(next, `${t.tripId} の throughTripId ${t.throughTripId} が存在しません`);
+          assert.equal(next.prevTripId, t.tripId, `片方向リンク残存: ${t.tripId} -> ${next.tripId} (prev=${next.prevTripId})`);
+        }
+      }
+    }
+  });
+
+  check('サンライズ出雲・瀬戸 (5031M/5032M): 東海道(熱海～豊橋)・JR神戸線で14両併結ピン1本化', () => {
+    const active0515 = calculateActiveTrains({
+      currentSec: 5 * 3600 + 15 * 60,
+      isHoliday: false,
+      globalDelayMinutes: 0,
+      randomDelays: {},
+      isPlaying: true,
+      speedMultiplier: 1,
+      selectedLineIds: ['tokaido_atami_toyohashi'],
+    });
+    const sunrise = active0515.filter((a) => a.trainNumber === '5032M');
+    assert.equal(sunrise.length, 1, `サンライズ5032Mが重複描画されています (${sunrise.length}本)`);
+    assert.equal(sunrise[0].isCoupledActive, true);
+    assert.equal(sunrise[0].totalCars, 14);
+  });
+
+  check('北陸新幹線 1007E / 中央本線 1M / 磐越・石巻・草津・北しなの重複スジ完全除去', () => {
+    const hks = getLine('hokuriku_shinkansen')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1007E');
+    assert.equal(hks.length, 1, `つるぎ7号 (1007E) の重複が残存 (${hks.length})`);
+    const cm1m = getLine('chuo_main')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1M');
+    assert.equal(cm1m.length, 1, `あずさ1号 (1M) の重複が残存 (${cm1m.length})`);
+    const ism = getLine('ishinomaki')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1632D');
+    assert.equal(ism.length, 1, `石巻線 1632D の部分重複が残存 (${ism.length})`);
+    const kst = getLine('jr_kusatsu')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '5355M');
+    assert.equal(kst.length, 1, `草津線 5355M の部分重複が残存 (${kst.length})`);
+    const srk = getLine('kita_shinano')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '329M');
+    assert.equal(srk.length, 1, `北しなの線 329M の部分重複が残存 (${srk.length})`);
+  });
+
+  check('相鉄JR直通・湘南新宿(265M/268M) -> 埼京線(1861K) 新宿折返し暗黙誤結合を禁止', () => {
+    const chain = getThroughChainTrips('HD_OUT_JA-11_1857_39266');
+    assert.ok(
+      !chain.some((c) => c.lineId === 'shonan_shinjuku' || c.lineId === 'sotetsu_jr_direct'),
+      `新宿折返しの別便へ誤結合しています: ${chain.map((c) => `${c.lineId}:${c.trainNumber}`).join(' -> ')}`
+    );
+  });
 
   console.log('\n================================================================');
   console.log(`  全路線横断総合結合試験サマリー: PASS=${passed}, FAIL=${failed}`);

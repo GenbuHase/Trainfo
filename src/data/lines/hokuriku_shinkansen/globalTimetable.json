@@ -2,6 +2,7 @@
   {
     "tripId": "WD_OUT_HKS-18_0600_41917",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41917",
     "trainNumber": "1E",
     "trainType": "tsurugi",
     "trainName": "つるぎ1号",
@@ -53,12 +54,12 @@
         "departureTime": "06:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41917"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0602_3186",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3186",
     "trainNumber": "600E",
     "trainType": "asama",
     "trainName": "あさま600号",
@@ -134,93 +135,12 @@
         "departureTime": "07:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3186"
-  },
-  {
-    "tripId": "WD_INB_HKS-11_0602_3187",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "600E",
-    "trainType": "asama",
-    "trainName": "あさま600号",
-    "direction": "inbound",
-    "originStationId": "HKS-11",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "06:02:00",
-        "departureTime": "06:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "06:13:00",
-        "departureTime": "06:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "06:24:00",
-        "departureTime": "06:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "06:33:00",
-        "departureTime": "06:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "06:42:11",
-        "departureTime": "06:42:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "06:49:00",
-        "departureTime": "06:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "06:56:58",
-        "departureTime": "06:56:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "07:03:56",
-        "departureTime": "07:03:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "07:14:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "07:35:00",
-        "departureTime": "07:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "07:40:00",
-        "departureTime": "07:40:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "3187"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0602_6364",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6364",
     "trainNumber": "3500E",
     "trainType": "kagayaki",
     "trainName": "かがやき500号",
@@ -338,135 +258,12 @@
         "departureTime": "08:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6364"
-  },
-  {
-    "tripId": "WD_INB_HKS-18_0602_6365",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "3500E",
-    "trainType": "kagayaki",
-    "trainName": "かがやき500号",
-    "direction": "inbound",
-    "originStationId": "HKS-18",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "06:02:00",
-        "departureTime": "06:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "06:13:46",
-        "departureTime": "06:13:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "06:21:00",
-        "departureTime": "06:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "06:30:54",
-        "departureTime": "06:30:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "06:40:33",
-        "departureTime": "06:40:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "06:50:12",
-        "departureTime": "06:50:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "06:59:50",
-        "departureTime": "06:59:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "07:08:00",
-        "departureTime": "07:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "07:17:15",
-        "departureTime": "07:17:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "07:23:10",
-        "departureTime": "07:23:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "07:29:06",
-        "departureTime": "07:29:06",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "07:37:00",
-        "departureTime": "07:37:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "07:43:35",
-        "departureTime": "07:43:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "07:49:31",
-        "departureTime": "07:49:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "07:55:26",
-        "departureTime": "07:55:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "08:04:00",
-        "departureTime": "08:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "08:24:00",
-        "departureTime": "08:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6365"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-11_0611_33838",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "33838",
     "trainNumber": "591E",
     "trainType": "hakutaka",
     "trainName": "はくたか591号",
@@ -524,12 +321,12 @@
         "departureTime": "07:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33838"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0612_6427",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6427",
     "trainNumber": "3502E",
     "trainType": "kagayaki",
     "trainName": "かがやき502号",
@@ -683,12 +480,12 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6427"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0616_6355",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6355",
     "trainNumber": "3501E",
     "trainType": "kagayaki",
     "trainName": "かがやき501号",
@@ -842,12 +639,12 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6355"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0616_6391",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6391",
     "trainNumber": "552E",
     "trainType": "hakutaka",
     "trainName": "はくたか552号",
@@ -965,12 +762,12 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6391"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0621_3180",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3180",
     "trainNumber": "602E",
     "trainType": "asama",
     "trainName": "あさま602号",
@@ -1046,12 +843,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3180"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0622_41883",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41883",
     "trainNumber": "1003E",
     "trainType": "tsurugi",
     "trainName": "つるぎ3号",
@@ -1115,12 +912,12 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41883"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0624_6330",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6330",
     "trainNumber": "8521E",
     "trainType": "kagayaki",
     "trainName": "かがやき521号",
@@ -1238,12 +1035,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6330"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0628_6314",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6314",
     "trainNumber": "551E",
     "trainType": "hakutaka",
     "trainName": "はくたか551号",
@@ -1361,12 +1158,12 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6314"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-13_0637_34093",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "34093",
     "trainNumber": "8596E",
     "trainType": "hakutaka",
     "trainName": "はくたか596号",
@@ -1394,12 +1191,12 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34093"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0637_41890",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41890",
     "trainNumber": "5E",
     "trainType": "tsurugi",
     "trainName": "つるぎ5号",
@@ -1463,12 +1260,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41890"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0644_6313",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6313",
     "trainNumber": "8661E",
     "trainType": "hakutaka",
     "trainName": "はくたか661号",
@@ -1586,12 +1383,12 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6313"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0644_3203",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3203",
     "trainNumber": "604E",
     "trainType": "asama",
     "trainName": "あさま604号",
@@ -1667,12 +1464,12 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3203"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0647_8765",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8765",
     "trainNumber": "62E",
     "trainType": "tsurugi",
     "trainName": "つるぎ62号",
@@ -1736,12 +1533,12 @@
         "departureTime": "08:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8765"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0651_8740",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8740",
     "trainNumber": "60E",
     "trainType": "tsurugi",
     "trainName": "つるぎ60号",
@@ -1769,12 +1566,12 @@
         "departureTime": "07:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8740"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0652_4463",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4463",
     "trainNumber": "601E",
     "trainType": "asama",
     "trainName": "あさま601号",
@@ -1850,12 +1647,12 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4463"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-08_0703_34092",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "34092",
     "trainNumber": "8699E",
     "trainType": "asama",
     "trainName": "あさま699号",
@@ -1889,12 +1686,12 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34092"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0711_6382",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6382",
     "trainNumber": "8580E",
     "trainType": "kagayaki",
     "trainName": "かがやき580号",
@@ -2012,12 +1809,12 @@
         "departureTime": "09:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6382"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0713_3195",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3195",
     "trainNumber": "606E",
     "trainType": "asama",
     "trainName": "あさま606号",
@@ -2093,12 +1890,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3195"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0719_6392",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6392",
     "trainNumber": "554E",
     "trainType": "hakutaka",
     "trainName": "はくたか554号",
@@ -2216,12 +2013,12 @@
         "departureTime": "10:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6392"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0720_6360",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6360",
     "trainNumber": "3503E",
     "trainType": "kagayaki",
     "trainName": "かがやき503号",
@@ -2375,12 +2172,12 @@
         "departureTime": "10:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6360"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0723_3207",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3207",
     "trainNumber": "608E",
     "trainType": "asama",
     "trainName": "あさま608号",
@@ -2456,12 +2253,12 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3207"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0724_4473",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4473",
     "trainNumber": "603E",
     "trainType": "asama",
     "trainName": "あさま603号",
@@ -2537,12 +2334,12 @@
         "departureTime": "09:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4473"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0724_41884",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41884",
     "trainNumber": "1007E",
     "trainType": "tsurugi",
     "trainName": "つるぎ7号",
@@ -2606,150 +2403,12 @@
         "departureTime": "08:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41884"
-  },
-  {
-    "tripId": "WD_OUT_HKS-16_0724_41886",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1007E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ7号",
-    "direction": "outbound",
-    "originStationId": "HKS-16",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "07:32:00",
-        "departureTime": "07:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "07:46:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "07:54:50",
-        "departureTime": "07:54:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "07:59:49",
-        "departureTime": "07:59:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:05:24",
-        "departureTime": "08:05:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "08:11:00",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "08:20:08",
-        "departureTime": "08:20:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41886"
-  },
-  {
-    "tripId": "WD_OUT_HKS-16_0724_41885",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1007E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ7号",
-    "direction": "outbound",
-    "originStationId": "HKS-16",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "07:32:00",
-        "departureTime": "07:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "07:46:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "07:54:50",
-        "departureTime": "07:54:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "07:59:49",
-        "departureTime": "07:59:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:05:24",
-        "departureTime": "08:05:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "08:11:00",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "08:20:08",
-        "departureTime": "08:20:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41885"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0727_6401",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6401",
     "trainNumber": "3504E",
     "trainType": "kagayaki",
     "trainName": "かがやき504号",
@@ -2903,12 +2562,12 @@
         "departureTime": "10:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6401"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0728_6331",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6331",
     "trainNumber": "8523E",
     "trainType": "kagayaki",
     "trainName": "かがやき523号",
@@ -3026,12 +2685,12 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6331"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0733_6402",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6402",
     "trainNumber": "5522E",
     "trainType": "kagayaki",
     "trainName": "かがやき522号",
@@ -3185,12 +2844,12 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6402"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0735_8760",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8760",
     "trainNumber": "64E",
     "trainType": "tsurugi",
     "trainName": "つるぎ64号",
@@ -3242,69 +2901,12 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8760"
-  },
-  {
-    "tripId": "WD_INB_HKS-24_0735_8759",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "64E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ64号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-18",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "07:35:00",
-        "departureTime": "07:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "07:47:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "07:56:00",
-        "departureTime": "07:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:05:00",
-        "departureTime": "08:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "08:13:00",
-        "departureTime": "08:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "08:21:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:33:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "8759"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0737_41891",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41891",
     "trainNumber": "9E",
     "trainType": "tsurugi",
     "trainName": "つるぎ9号",
@@ -3368,12 +2970,12 @@
         "departureTime": "08:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41891"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0752_6315",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6315",
     "trainNumber": "553E",
     "trainType": "hakutaka",
     "trainName": "はくたか553号",
@@ -3491,12 +3093,12 @@
         "departureTime": "11:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6315"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0759_3198",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3198",
     "trainNumber": "8634E",
     "trainType": "asama",
     "trainName": "あさま634号",
@@ -3572,12 +3174,12 @@
         "departureTime": "09:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3198"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0800_4480",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4480",
     "trainNumber": "9679E",
     "trainType": "asama",
     "trainName": "あさま679号",
@@ -3653,12 +3255,12 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4480"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0806_8750",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8750",
     "trainNumber": "1002E",
     "trainType": "tsurugi",
     "trainName": "つるぎ2号",
@@ -3722,12 +3324,12 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8750"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0811_6343",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6343",
     "trainNumber": "3505E",
     "trainType": "kagayaki",
     "trainName": "かがやき505号",
@@ -3881,12 +3483,12 @@
         "departureTime": "11:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6343"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0815_6367",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6367",
     "trainNumber": "8522E",
     "trainType": "kagayaki",
     "trainName": "かがやき522号",
@@ -4004,12 +3606,12 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6367"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0815_6415",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6415",
     "trainNumber": "3506E",
     "trainType": "kagayaki",
     "trainName": "かがやき506号",
@@ -4163,171 +3765,12 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6415"
-  },
-  {
-    "tripId": "WD_INB_HKS-24_0815_6416",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "3506E",
-    "trainType": "kagayaki",
-    "trainName": "かがやき506号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "08:15:00",
-        "departureTime": "08:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "08:23:21",
-        "departureTime": "08:23:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "08:31:00",
-        "departureTime": "08:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:40:00",
-        "departureTime": "08:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "08:49:00",
-        "departureTime": "08:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "08:55:44",
-        "departureTime": "08:55:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "09:05:00",
-        "departureTime": "09:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "09:18:09",
-        "departureTime": "09:18:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "09:25:00",
-        "departureTime": "09:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "09:34:54",
-        "departureTime": "09:34:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "09:44:33",
-        "departureTime": "09:44:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "09:54:12",
-        "departureTime": "09:54:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "10:03:50",
-        "departureTime": "10:03:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "10:12:00",
-        "departureTime": "10:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "10:21:39",
-        "departureTime": "10:21:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "10:27:54",
-        "departureTime": "10:27:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "10:34:10",
-        "departureTime": "10:34:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "10:42:30",
-        "departureTime": "10:42:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "10:49:27",
-        "departureTime": "10:49:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "10:55:42",
-        "departureTime": "10:55:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "11:01:58",
-        "departureTime": "11:01:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "11:11:00",
-        "departureTime": "11:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "11:31:00",
-        "departureTime": "11:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "11:36:00",
-        "departureTime": "11:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6416"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0816_41887",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41887",
     "trainNumber": "1011E",
     "trainType": "tsurugi",
     "trainName": "つるぎ11号",
@@ -4391,12 +3834,12 @@
         "departureTime": "09:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41887"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0818_6389",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6389",
     "trainNumber": "556E",
     "trainType": "hakutaka",
     "trainName": "はくたか556号",
@@ -4514,12 +3957,12 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6389"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-02_0821_6362",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6362",
     "trainNumber": "8663E",
     "trainType": "hakutaka",
     "trainName": "はくたか663号",
@@ -4631,12 +4074,12 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6362"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_0823_41907",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41907",
     "trainNumber": "8079E",
     "trainType": "tsurugi",
     "trainName": "つるぎ79号",
@@ -4688,12 +4131,12 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41907"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0825_3212",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3212",
     "trainNumber": "610E",
     "trainType": "asama",
     "trainName": "あさま610号",
@@ -4769,12 +4212,12 @@
         "departureTime": "10:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3212"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0828_6403",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6403",
     "trainNumber": "5524E",
     "trainType": "kagayaki",
     "trainName": "かがやき524号",
@@ -4928,12 +4371,12 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6403"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0830_4482",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4482",
     "trainNumber": "9653E",
     "trainType": "asama",
     "trainName": "あさま653号",
@@ -5009,12 +4452,12 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4482"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0831_8766",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8766",
     "trainNumber": "4E",
     "trainType": "tsurugi",
     "trainName": "つるぎ4号",
@@ -5078,12 +4521,12 @@
         "departureTime": "09:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8766"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0833_6332",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6332",
     "trainNumber": "8525E",
     "trainType": "kagayaki",
     "trainName": "かがやき525号",
@@ -5201,12 +4644,12 @@
         "departureTime": "11:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6332"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0833_6357",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6357",
     "trainNumber": "8581E",
     "trainType": "kagayaki",
     "trainName": "かがやき581号",
@@ -5324,12 +4767,12 @@
         "departureTime": "11:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6357"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0840_41892",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41892",
     "trainNumber": "13E",
     "trainType": "tsurugi",
     "trainName": "つるぎ13号",
@@ -5393,12 +4836,12 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41892"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0841_6316",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6316",
     "trainNumber": "555E",
     "trainType": "hakutaka",
     "trainName": "はくたか555号",
@@ -5516,12 +4959,12 @@
         "departureTime": "11:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6316"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0904_4483",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4483",
     "trainNumber": "605E",
     "trainType": "asama",
     "trainName": "あさま605号",
@@ -5597,12 +5040,12 @@
         "departureTime": "10:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4483"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0911_8753",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8753",
     "trainNumber": "1006E",
     "trainType": "tsurugi",
     "trainName": "つるぎ6号",
@@ -5666,150 +5109,12 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8753"
-  },
-  {
-    "tripId": "WD_INB_HKS-24_0911_8752",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1006E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ6号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-16",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "09:11:00",
-        "departureTime": "09:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "09:19:21",
-        "departureTime": "09:19:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "09:27:00",
-        "departureTime": "09:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "09:33:36",
-        "departureTime": "09:33:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "09:39:11",
-        "departureTime": "09:39:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "09:44:10",
-        "departureTime": "09:44:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "09:51:00",
-        "departureTime": "09:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "10:07:00",
-        "departureTime": "10:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "8752"
-  },
-  {
-    "tripId": "WD_INB_HKS-24_0911_8751",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1006E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ6号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-16",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "09:11:00",
-        "departureTime": "09:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "09:19:21",
-        "departureTime": "09:19:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "09:27:00",
-        "departureTime": "09:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "09:33:36",
-        "departureTime": "09:33:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "09:39:11",
-        "departureTime": "09:39:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "09:44:10",
-        "departureTime": "09:44:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "09:51:00",
-        "departureTime": "09:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "10:07:00",
-        "departureTime": "10:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "8751"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0914_6368",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6368",
     "trainNumber": "8524E",
     "trainType": "kagayaki",
     "trainName": "かがやき524号",
@@ -5927,12 +5232,12 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6368"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_0917_6393",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6393",
     "trainNumber": "558E",
     "trainType": "hakutaka",
     "trainName": "はくたか558号",
@@ -6050,12 +5355,12 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6393"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0920_6353",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6353",
     "trainNumber": "3507E",
     "trainType": "kagayaki",
     "trainName": "かがやき507号",
@@ -6209,12 +5514,12 @@
         "departureTime": "12:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6353"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0921_6405",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6405",
     "trainNumber": "3508E",
     "trainType": "kagayaki",
     "trainName": "かがやき508号",
@@ -6368,171 +5673,12 @@
         "departureTime": "12:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6405"
-  },
-  {
-    "tripId": "WD_INB_HKS-24_0921_6406",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "3508E",
-    "trainType": "kagayaki",
-    "trainName": "かがやき508号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "09:21:00",
-        "departureTime": "09:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "09:29:52",
-        "departureTime": "09:29:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "09:38:00",
-        "departureTime": "09:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "09:44:50",
-        "departureTime": "09:44:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "09:50:41",
-        "departureTime": "09:50:41",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "09:55:52",
-        "departureTime": "09:55:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "10:03:00",
-        "departureTime": "10:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "10:16:09",
-        "departureTime": "10:16:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "10:23:00",
-        "departureTime": "10:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "10:32:54",
-        "departureTime": "10:32:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "10:42:33",
-        "departureTime": "10:42:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "10:52:12",
-        "departureTime": "10:52:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "11:01:50",
-        "departureTime": "11:01:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "11:10:00",
-        "departureTime": "11:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "11:19:55",
-        "departureTime": "11:19:55",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "11:26:23",
-        "departureTime": "11:26:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "11:32:52",
-        "departureTime": "11:32:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "11:41:30",
-        "departureTime": "11:41:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "11:48:42",
-        "departureTime": "11:48:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "11:55:10",
-        "departureTime": "11:55:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "12:01:39",
-        "departureTime": "12:01:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "12:11:00",
-        "departureTime": "12:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "12:30:00",
-        "departureTime": "12:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "12:36:00",
-        "departureTime": "12:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6406"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_0930_3209",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3209",
     "trainNumber": "612E",
     "trainType": "asama",
     "trainName": "あさま612号",
@@ -6608,12 +5754,12 @@
         "departureTime": "11:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3209"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0931_6407",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6407",
     "trainNumber": "5526E",
     "trainType": "kagayaki",
     "trainName": "かがやき526号",
@@ -6767,12 +5913,12 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6407"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0932_6328",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6328",
     "trainNumber": "557E",
     "trainType": "hakutaka",
     "trainName": "はくたか557号",
@@ -6890,12 +6036,12 @@
         "departureTime": "12:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6328"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_0940_41893",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41893",
     "trainNumber": "17E",
     "trainType": "tsurugi",
     "trainName": "つるぎ17号",
@@ -6959,12 +6105,12 @@
         "departureTime": "11:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41893"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0944_4474",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4474",
     "trainNumber": "607E",
     "trainType": "asama",
     "trainName": "あさま607号",
@@ -7040,12 +6186,12 @@
         "departureTime": "11:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4474"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0946_8767",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8767",
     "trainNumber": "8E",
     "trainType": "tsurugi",
     "trainName": "つるぎ8号",
@@ -7109,12 +6255,12 @@
         "departureTime": "11:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8767"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_0955_41909",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41909",
     "trainNumber": "1015E",
     "trainType": "tsurugi",
     "trainName": "つるぎ15号",
@@ -7166,12 +6312,12 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41909"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0956_6333",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6333",
     "trainNumber": "8527E",
     "trainType": "kagayaki",
     "trainName": "かがやき527号",
@@ -7289,12 +6435,12 @@
         "departureTime": "12:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6333"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_0956_6344",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6344",
     "trainNumber": "5527E",
     "trainType": "kagayaki",
     "trainName": "かがやき527号",
@@ -7448,12 +6594,12 @@
         "departureTime": "13:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6344"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_0958_6422",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6422",
     "trainNumber": "560E",
     "trainType": "hakutaka",
     "trainName": "はくたか560号",
@@ -7607,12 +6753,12 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6422"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1007_4478",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4478",
     "trainNumber": "8635E",
     "trainType": "asama",
     "trainName": "あさま635号",
@@ -7688,12 +6834,12 @@
         "departureTime": "11:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4478"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1008_4479",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4479",
     "trainNumber": "8635E",
     "trainType": "asama",
     "trainName": "あさま635号",
@@ -7769,12 +6915,12 @@
         "departureTime": "11:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4479"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1017_6369",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6369",
     "trainNumber": "8526E",
     "trainType": "kagayaki",
     "trainName": "かがやき526号",
@@ -7892,12 +7038,12 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6369"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1018_8754",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8754",
     "trainNumber": "1010E",
     "trainType": "tsurugi",
     "trainName": "つるぎ10号",
@@ -7961,12 +7107,12 @@
         "departureTime": "11:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8754"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1022_6354",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6354",
     "trainNumber": "3509E",
     "trainType": "kagayaki",
     "trainName": "かがやき509号",
@@ -8120,12 +7266,12 @@
         "departureTime": "13:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6354"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1030_6430",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6430",
     "trainNumber": "9668E",
     "trainType": "hakutaka",
     "trainName": "はくたか668号",
@@ -8219,12 +7365,12 @@
         "departureTime": "12:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6430"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1033_6305",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6305",
     "trainNumber": "559E",
     "trainType": "hakutaka",
     "trainName": "はくたか559号",
@@ -8342,12 +7488,12 @@
         "departureTime": "13:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6305"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1033_6306",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6306",
     "trainNumber": "5559E",
     "trainType": "hakutaka",
     "trainName": "はくたか559号",
@@ -8501,12 +7647,12 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6306"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1043_8761",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8761",
     "trainNumber": "12E",
     "trainType": "tsurugi",
     "trainName": "つるぎ12号",
@@ -8558,12 +7704,12 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8761"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1048_6345",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6345",
     "trainNumber": "5529E",
     "trainType": "kagayaki",
     "trainName": "かがやき529号",
@@ -8717,12 +7863,12 @@
         "departureTime": "14:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6345"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1051_6370",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6370",
     "trainNumber": "8528E",
     "trainType": "kagayaki",
     "trainName": "かがやき528号",
@@ -8840,12 +7986,12 @@
         "departureTime": "13:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6370"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1058_6418",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6418",
     "trainNumber": "562E",
     "trainType": "hakutaka",
     "trainName": "はくたか562号",
@@ -8999,12 +8145,12 @@
         "departureTime": "14:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6418"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1104_4468",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4468",
     "trainNumber": "609E",
     "trainType": "asama",
     "trainName": "あさま609号",
@@ -9080,12 +8226,12 @@
         "departureTime": "12:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4468"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_1105_41918",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41918",
     "trainNumber": "19E",
     "trainType": "tsurugi",
     "trainName": "つるぎ19号",
@@ -9137,12 +8283,12 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41918"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1117_8755",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8755",
     "trainNumber": "8014E",
     "trainType": "tsurugi",
     "trainName": "つるぎ14号",
@@ -9206,12 +8352,12 @@
         "departureTime": "12:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8755"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1117_8741",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8741",
     "trainNumber": "1014E",
     "trainType": "tsurugi",
     "trainName": "つるぎ14号",
@@ -9263,12 +8409,12 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8741"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1124_6326",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6326",
     "trainNumber": "561E",
     "trainType": "hakutaka",
     "trainName": "はくたか561号",
@@ -9422,12 +8568,12 @@
         "departureTime": "15:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6326"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1128_3210",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3210",
     "trainNumber": "614E",
     "trainType": "asama",
     "trainName": "あさま614号",
@@ -9503,12 +8649,12 @@
         "departureTime": "13:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3210"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1132_4485",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4485",
     "trainNumber": "8637E",
     "trainType": "asama",
     "trainName": "あさま637号",
@@ -9584,12 +8730,12 @@
         "departureTime": "13:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4485"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1139_8768",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8768",
     "trainNumber": "16E",
     "trainType": "tsurugi",
     "trainName": "つるぎ16号",
@@ -9653,12 +8799,12 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8768"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1140_41894",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41894",
     "trainNumber": "21E",
     "trainType": "tsurugi",
     "trainName": "つるぎ21号",
@@ -9722,12 +8868,12 @@
         "departureTime": "13:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41894"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1148_6335",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6335",
     "trainNumber": "8531E",
     "trainType": "kagayaki",
     "trainName": "かがやき531号",
@@ -9845,12 +8991,12 @@
         "departureTime": "14:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6335"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1149_6371",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6371",
     "trainNumber": "8530E",
     "trainType": "kagayaki",
     "trainName": "かがやき530号",
@@ -9968,12 +9114,12 @@
         "departureTime": "14:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6371"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1158_6424",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6424",
     "trainNumber": "564E",
     "trainType": "hakutaka",
     "trainName": "はくたか564号",
@@ -10127,171 +9273,12 @@
         "departureTime": "15:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6424"
-  },
-  {
-    "tripId": "WD_INB_HKS-24_1158_6423",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "564E",
-    "trainType": "hakutaka",
-    "trainName": "はくたか564号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "11:58:00",
-        "departureTime": "11:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "12:10:00",
-        "departureTime": "12:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "12:19:00",
-        "departureTime": "12:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "12:28:00",
-        "departureTime": "12:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "12:36:00",
-        "departureTime": "12:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "12:44:00",
-        "departureTime": "12:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "12:56:00",
-        "departureTime": "12:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "13:11:00",
-        "departureTime": "13:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "13:20:00",
-        "departureTime": "13:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "13:33:00",
-        "departureTime": "13:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "13:47:00",
-        "departureTime": "13:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "14:00:00",
-        "departureTime": "14:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "14:13:00",
-        "departureTime": "14:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "14:24:00",
-        "departureTime": "14:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "14:33:46",
-        "departureTime": "14:33:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "14:40:07",
-        "departureTime": "14:40:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "14:46:28",
-        "departureTime": "14:46:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "14:54:56",
-        "departureTime": "14:54:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "15:02:00",
-        "departureTime": "15:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "15:09:58",
-        "departureTime": "15:09:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "15:16:56",
-        "departureTime": "15:16:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "15:27:00",
-        "departureTime": "15:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "15:46:00",
-        "departureTime": "15:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "15:52:00",
-        "departureTime": "15:52:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6423"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1204_4475",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4475",
     "trainNumber": "611E",
     "trainType": "asama",
     "trainName": "あさま611号",
@@ -10367,12 +9354,12 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4475"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1217_8742",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8742",
     "trainNumber": "1018E",
     "trainType": "tsurugi",
     "trainName": "つるぎ18号",
@@ -10424,12 +9411,12 @@
         "departureTime": "13:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8742"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1224_6324",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6324",
     "trainNumber": "563E",
     "trainType": "hakutaka",
     "trainName": "はくたか563号",
@@ -10583,12 +9570,12 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6324"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1229_3201",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3201",
     "trainNumber": "616E",
     "trainType": "asama",
     "trainName": "あさま616号",
@@ -10664,12 +9651,12 @@
         "departureTime": "14:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3201"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1232_6321",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6321",
     "trainNumber": "5639E",
     "trainType": "hakutaka",
     "trainName": "はくたか639号",
@@ -10823,12 +9810,12 @@
         "departureTime": "16:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6321"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1241_41895",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41895",
     "trainNumber": "23E",
     "trainType": "tsurugi",
     "trainName": "つるぎ23号",
@@ -10892,12 +9879,12 @@
         "departureTime": "14:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41895"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1242_8769",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8769",
     "trainNumber": "20E",
     "trainType": "tsurugi",
     "trainName": "つるぎ20号",
@@ -10961,12 +9948,12 @@
         "departureTime": "14:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8769"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1248_6336",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6336",
     "trainNumber": "8533E",
     "trainType": "kagayaki",
     "trainName": "かがやき533号",
@@ -11084,12 +10071,12 @@
         "departureTime": "15:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6336"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1251_6372",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6372",
     "trainNumber": "8532E",
     "trainType": "kagayaki",
     "trainName": "かがやき532号",
@@ -11207,12 +10194,12 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6372"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1258_6420",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6420",
     "trainNumber": "566E",
     "trainType": "hakutaka",
     "trainName": "はくたか566号",
@@ -11366,12 +10353,12 @@
         "departureTime": "16:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6420"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1303_3191",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3191",
     "trainNumber": "8640E",
     "trainType": "asama",
     "trainName": "あさま640号",
@@ -11447,12 +10434,12 @@
         "departureTime": "14:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3191"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1304_4469",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4469",
     "trainNumber": "613E",
     "trainType": "asama",
     "trainName": "あさま613号",
@@ -11528,12 +10515,12 @@
         "departureTime": "14:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4469"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1324_6327",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6327",
     "trainNumber": "565E",
     "trainType": "hakutaka",
     "trainName": "はくたか565号",
@@ -11687,12 +10674,12 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6327"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1326_3213",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3213",
     "trainNumber": "618E",
     "trainType": "asama",
     "trainName": "あさま618号",
@@ -11768,12 +10755,12 @@
         "departureTime": "15:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3213"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1340_41896",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41896",
     "trainNumber": "25E",
     "trainType": "tsurugi",
     "trainName": "つるぎ25号",
@@ -11837,12 +10824,12 @@
         "departureTime": "15:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41896"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1341_8771",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8771",
     "trainNumber": "22E",
     "trainType": "tsurugi",
     "trainName": "つるぎ22号",
@@ -11906,12 +10893,12 @@
         "departureTime": "15:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8771"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1348_6425",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6425",
     "trainNumber": "568E",
     "trainType": "hakutaka",
     "trainName": "はくたか568号",
@@ -12065,12 +11052,12 @@
         "departureTime": "17:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6425"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1350_6373",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6373",
     "trainNumber": "8534E",
     "trainType": "kagayaki",
     "trainName": "かがやき534号",
@@ -12188,12 +11175,12 @@
         "departureTime": "16:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6373"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1352_6337",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6337",
     "trainNumber": "8537E",
     "trainType": "kagayaki",
     "trainName": "かがやき537号",
@@ -12311,12 +11298,12 @@
         "departureTime": "16:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6337"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1403_3192",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3192",
     "trainNumber": "8642E",
     "trainType": "asama",
     "trainName": "あさま642号",
@@ -12392,12 +11379,12 @@
         "departureTime": "15:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3192"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1404_4476",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4476",
     "trainNumber": "615E",
     "trainType": "asama",
     "trainName": "あさま615号",
@@ -12473,12 +11460,12 @@
         "departureTime": "15:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4476"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1411_8763",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8763",
     "trainNumber": "24E",
     "trainType": "tsurugi",
     "trainName": "つるぎ24号",
@@ -12530,12 +11517,12 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8763"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1424_6325",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6325",
     "trainNumber": "567E",
     "trainType": "hakutaka",
     "trainName": "はくたか567号",
@@ -12689,12 +11676,12 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6325"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1429_3202",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3202",
     "trainNumber": "620E",
     "trainType": "asama",
     "trainName": "あさま620号",
@@ -12770,12 +11757,12 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3202"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1430_6387",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6387",
     "trainNumber": "8624E",
     "trainType": "hakutaka",
     "trainName": "はくたか624号",
@@ -12893,12 +11880,12 @@
         "departureTime": "17:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6387"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1439_41898",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41898",
     "trainNumber": "29E",
     "trainType": "tsurugi",
     "trainName": "つるぎ29号",
@@ -12962,12 +11949,12 @@
         "departureTime": "16:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41898"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1441_8772",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8772",
     "trainNumber": "26E",
     "trainType": "tsurugi",
     "trainName": "つるぎ26号",
@@ -13031,12 +12018,12 @@
         "departureTime": "16:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8772"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1452_6338",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6338",
     "trainNumber": "8539E",
     "trainType": "kagayaki",
     "trainName": "かがやき539号",
@@ -13154,12 +12141,12 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6338"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_1455_41912",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41912",
     "trainNumber": "1027E",
     "trainType": "tsurugi",
     "trainName": "つるぎ27号",
@@ -13211,69 +12198,12 @@
         "departureTime": "15:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41912"
-  },
-  {
-    "tripId": "WD_OUT_HKS-18_1455_41913",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1027E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ27号",
-    "direction": "outbound",
-    "originStationId": "HKS-18",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "14:55:00",
-        "departureTime": "14:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "15:01:50",
-        "departureTime": "15:01:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "15:06:49",
-        "departureTime": "15:06:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "15:12:24",
-        "departureTime": "15:12:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "15:18:00",
-        "departureTime": "15:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "15:27:08",
-        "departureTime": "15:27:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "15:36:00",
-        "departureTime": "15:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41913"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1503_3193",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3193",
     "trainNumber": "8644E",
     "trainType": "asama",
     "trainName": "あさま644号",
@@ -13349,12 +12279,12 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3193"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1504_4470",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4470",
     "trainNumber": "617E",
     "trainType": "asama",
     "trainName": "あさま617号",
@@ -13430,12 +12360,12 @@
         "departureTime": "16:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4470"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1504_6374",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6374",
     "trainNumber": "9536E",
     "trainType": "kagayaki",
     "trainName": "かがやき536号",
@@ -13553,12 +12483,12 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6374"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1504_6363",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6363",
     "trainNumber": "8536E",
     "trainType": "kagayaki",
     "trainName": "かがやき536号",
@@ -13670,12 +12600,12 @@
         "departureTime": "17:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6363"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1506_6417",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6417",
     "trainNumber": "3510E",
     "trainType": "kagayaki",
     "trainName": "かがやき510号",
@@ -13829,12 +12759,12 @@
         "departureTime": "18:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6417"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1524_6308",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6308",
     "trainNumber": "569E",
     "trainType": "hakutaka",
     "trainName": "はくたか569号",
@@ -13988,12 +12918,12 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6308"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1525_3214",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3214",
     "trainNumber": "622E",
     "trainType": "asama",
     "trainName": "あさま622号",
@@ -14069,12 +12999,12 @@
         "departureTime": "17:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3214"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1536_6386",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6386",
     "trainNumber": "9660E",
     "trainType": "hakutaka",
     "trainName": "はくたか660号",
@@ -14186,12 +13116,12 @@
         "departureTime": "18:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6386"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1540_41899",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41899",
     "trainNumber": "33E",
     "trainType": "tsurugi",
     "trainName": "つるぎ33号",
@@ -14255,12 +13185,12 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41899"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1541_8773",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8773",
     "trainNumber": "28E",
     "trainType": "tsurugi",
     "trainName": "つるぎ28号",
@@ -14324,12 +13254,12 @@
         "departureTime": "17:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8773"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1548_6339",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6339",
     "trainNumber": "8541E",
     "trainType": "kagayaki",
     "trainName": "かがやき541号",
@@ -14447,12 +13377,12 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6339"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1552_4477",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4477",
     "trainNumber": "619E",
     "trainType": "asama",
     "trainName": "あさま619号",
@@ -14528,12 +13458,12 @@
         "departureTime": "17:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4477"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1552_3194",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3194",
     "trainNumber": "624E",
     "trainType": "asama",
     "trainName": "あさま624号",
@@ -14609,12 +13539,12 @@
         "departureTime": "17:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3194"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_1554_41914",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41914",
     "trainNumber": "1031E",
     "trainType": "tsurugi",
     "trainName": "つるぎ31号",
@@ -14666,12 +13596,12 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41914"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1606_6408",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6408",
     "trainNumber": "3512E",
     "trainType": "kagayaki",
     "trainName": "かがやき512号",
@@ -14825,12 +13755,12 @@
         "departureTime": "19:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6408"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1607_6388",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6388",
     "trainNumber": "570E",
     "trainType": "hakutaka",
     "trainName": "はくたか570号",
@@ -14948,12 +13878,12 @@
         "departureTime": "19:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6388"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1611_8746",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8746",
     "trainNumber": "8090E",
     "trainType": "tsurugi",
     "trainName": "つるぎ90号",
@@ -15005,12 +13935,12 @@
         "departureTime": "16:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8746"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1624_6348",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6348",
     "trainNumber": "3511E",
     "trainType": "kagayaki",
     "trainName": "かがやき511号",
@@ -15164,12 +14094,12 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6348"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1625_3215",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3215",
     "trainNumber": "626E",
     "trainType": "asama",
     "trainName": "あさま626号",
@@ -15245,12 +14175,12 @@
         "departureTime": "18:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3215"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1626_6409",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6409",
     "trainNumber": "5538E",
     "trainType": "kagayaki",
     "trainName": "かがやき538号",
@@ -15404,12 +14334,12 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6409"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1632_6318",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6318",
     "trainNumber": "571E",
     "trainType": "hakutaka",
     "trainName": "はくたか571号",
@@ -15527,12 +14457,12 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6318"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1637_41900",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41900",
     "trainNumber": "37E",
     "trainType": "tsurugi",
     "trainName": "つるぎ37号",
@@ -15596,12 +14526,12 @@
         "departureTime": "17:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41900"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1639_8774",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8774",
     "trainNumber": "30E",
     "trainType": "tsurugi",
     "trainName": "つるぎ30号",
@@ -15665,12 +14595,12 @@
         "departureTime": "18:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8774"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1652_4471",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4471",
     "trainNumber": "621E",
     "trainType": "asama",
     "trainName": "あさま621号",
@@ -15746,12 +14676,12 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4471"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1653_6394",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6394",
     "trainNumber": "572E",
     "trainType": "hakutaka",
     "trainName": "はくたか572号",
@@ -15869,12 +14799,12 @@
         "departureTime": "20:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6394"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_1655_41916",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41916",
     "trainNumber": "1035E",
     "trainType": "tsurugi",
     "trainName": "つるぎ35号",
@@ -15926,12 +14856,12 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41916"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1704_6349",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6349",
     "trainNumber": "5543E",
     "trainType": "kagayaki",
     "trainName": "かがやき543号",
@@ -16085,12 +15015,12 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6349"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1708_8747",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8747",
     "trainNumber": "1032E",
     "trainType": "tsurugi",
     "trainName": "つるぎ32号",
@@ -16142,12 +15072,12 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8747"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1710_3204",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3204",
     "trainNumber": "628E",
     "trainType": "asama",
     "trainName": "あさま628号",
@@ -16223,12 +15153,12 @@
         "departureTime": "18:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3204"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1713_6399",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6399",
     "trainNumber": "3514E",
     "trainType": "kagayaki",
     "trainName": "かがやき514号",
@@ -16382,12 +15312,12 @@
         "departureTime": "20:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6399"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1724_6350",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6350",
     "trainNumber": "3513E",
     "trainType": "kagayaki",
     "trainName": "かがやき513号",
@@ -16541,12 +15471,12 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6350"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1729_3183",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3183",
     "trainNumber": "9676E",
     "trainType": "asama",
     "trainName": "あさま676号",
@@ -16616,12 +15546,12 @@
         "departureTime": "19:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3183"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1731_6377",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6377",
     "trainNumber": "9592E",
     "trainType": "kagayaki",
     "trainName": "かがやき592号",
@@ -16739,12 +15669,12 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6377"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1731_41888",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41888",
     "trainNumber": "1039E",
     "trainType": "tsurugi",
     "trainName": "つるぎ39号",
@@ -16808,12 +15738,12 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41888"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1738_8775",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8775",
     "trainNumber": "34E",
     "trainType": "tsurugi",
     "trainName": "つるぎ34号",
@@ -16877,12 +15807,12 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8775"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1740_4464",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4464",
     "trainNumber": "623E",
     "trainType": "asama",
     "trainName": "あさま623号",
@@ -16958,12 +15888,12 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4464"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1800_6414",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6414",
     "trainNumber": "5582E",
     "trainType": "kagayaki",
     "trainName": "かがやき582号",
@@ -17117,12 +16047,12 @@
         "departureTime": "21:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6414"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1804_6329",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6329",
     "trainNumber": "573E",
     "trainType": "hakutaka",
     "trainName": "はくたか573号",
@@ -17240,12 +16170,12 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6329"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-18_1805_41920",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41920",
     "trainNumber": "41E",
     "trainType": "tsurugi",
     "trainName": "つるぎ41号",
@@ -17297,12 +16227,12 @@
         "departureTime": "19:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41920"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1809_8756",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8756",
     "trainNumber": "1036E",
     "trainType": "tsurugi",
     "trainName": "つるぎ36号",
@@ -17366,12 +16296,12 @@
         "departureTime": "19:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8756"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1812_6395",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6395",
     "trainNumber": "574E",
     "trainType": "hakutaka",
     "trainName": "はくたか574号",
@@ -17489,12 +16419,12 @@
         "departureTime": "21:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6395"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1820_3184",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3184",
     "trainNumber": "9678E",
     "trainType": "asama",
     "trainName": "あさま678号",
@@ -17564,12 +16494,12 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3184"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1824_6351",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6351",
     "trainNumber": "3515E",
     "trainType": "kagayaki",
     "trainName": "かがやき515号",
@@ -17723,12 +16653,12 @@
         "departureTime": "21:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6351"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1825_41889",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41889",
     "trainNumber": "1043E",
     "trainType": "tsurugi",
     "trainName": "つるぎ43号",
@@ -17792,12 +16722,12 @@
         "departureTime": "19:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41889"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1836_6412",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6412",
     "trainNumber": "3516E",
     "trainType": "kagayaki",
     "trainName": "かがやき516号",
@@ -17951,12 +16881,12 @@
         "departureTime": "21:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6412"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1839_8764",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8764",
     "trainNumber": "38E",
     "trainType": "tsurugi",
     "trainName": "つるぎ38号",
@@ -18008,12 +16938,12 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8764"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1840_4465",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4465",
     "trainNumber": "625E",
     "trainType": "asama",
     "trainName": "あさま625号",
@@ -18089,12 +17019,12 @@
         "departureTime": "20:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4465"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1841_41901",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41901",
     "trainNumber": "45E",
     "trainType": "tsurugi",
     "trainName": "つるぎ45号",
@@ -18158,12 +17088,12 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41901"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1847_6378",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6378",
     "trainNumber": "8542E",
     "trainType": "kagayaki",
     "trainName": "かがやき542号",
@@ -18281,12 +17211,12 @@
         "departureTime": "21:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6378"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1850_3199",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3199",
     "trainNumber": "8646E",
     "trainType": "asama",
     "trainName": "あさま646号",
@@ -18362,12 +17292,12 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3199"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1904_6319",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6319",
     "trainNumber": "575E",
     "trainType": "hakutaka",
     "trainName": "はくたか575号",
@@ -18485,12 +17415,12 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6319"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1905_6396",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6396",
     "trainNumber": "576E",
     "trainType": "hakutaka",
     "trainName": "はくたか576号",
@@ -18608,12 +17538,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6396"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_1909_3211",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3211",
     "trainNumber": "630E",
     "trainType": "asama",
     "trainName": "あさま630号",
@@ -18689,12 +17619,12 @@
         "departureTime": "20:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3211"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1909_8757",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8757",
     "trainNumber": "1040E",
     "trainType": "tsurugi",
     "trainName": "つるぎ40号",
@@ -18758,12 +17688,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8757"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1924_6341",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6341",
     "trainNumber": "8547E",
     "trainType": "kagayaki",
     "trainName": "かがやき547号",
@@ -18881,12 +17811,12 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6341"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1924_6358",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6358",
     "trainNumber": "8585E",
     "trainType": "kagayaki",
     "trainName": "かがやき585号",
@@ -19004,12 +17934,12 @@
         "departureTime": "21:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6358"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_1932_4492",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4492",
     "trainNumber": "627E",
     "trainType": "asama",
     "trainName": "あさま627号",
@@ -19085,12 +18015,12 @@
         "departureTime": "21:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4492"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_1939_41903",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41903",
     "trainNumber": "47E",
     "trainType": "tsurugi",
     "trainName": "つるぎ47号",
@@ -19154,81 +18084,12 @@
         "departureTime": "21:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41903"
-  },
-  {
-    "tripId": "WD_OUT_HKS-16_1939_41902",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "47E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ47号",
-    "direction": "outbound",
-    "originStationId": "HKS-16",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "19:39:00",
-        "departureTime": "19:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "19:47:00",
-        "departureTime": "19:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "20:01:00",
-        "departureTime": "20:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "20:14:00",
-        "departureTime": "20:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "20:22:00",
-        "departureTime": "20:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "20:30:00",
-        "departureTime": "20:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "20:38:00",
-        "departureTime": "20:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "20:47:00",
-        "departureTime": "20:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "21:00:00",
-        "departureTime": "21:00:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41902"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_1939_8776",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8776",
     "trainNumber": "42E",
     "trainType": "tsurugi",
     "trainName": "つるぎ42号",
@@ -19292,12 +18153,12 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8776"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_1949_6379",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6379",
     "trainNumber": "8544E",
     "trainType": "kagayaki",
     "trainName": "かがやき544号",
@@ -19415,12 +18276,12 @@
         "departureTime": "22:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6379"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2000_6356",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6356",
     "trainNumber": "3517E",
     "trainType": "kagayaki",
     "trainName": "かがやき517号",
@@ -19574,12 +18435,12 @@
         "departureTime": "23:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6356"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_2011_6428",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6428",
     "trainNumber": "3518E",
     "trainType": "kagayaki",
     "trainName": "かがやき518号",
@@ -19733,12 +18594,12 @@
         "departureTime": "23:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6428"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2012_6320",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6320",
     "trainNumber": "577E",
     "trainType": "hakutaka",
     "trainName": "はくたか577号",
@@ -19856,12 +18717,12 @@
         "departureTime": "23:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6320"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2020_4491",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4491",
     "trainNumber": "9667E",
     "trainType": "asama",
     "trainName": "あさま667号",
@@ -19937,12 +18798,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4491"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_2020_6397",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6397",
     "trainNumber": "578E",
     "trainType": "hakutaka",
     "trainName": "はくたか578号",
@@ -20060,12 +18921,12 @@
         "departureTime": "23:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6397"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_2022_8749",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8749",
     "trainNumber": "1044E",
     "trainType": "tsurugi",
     "trainName": "つるぎ44号",
@@ -20117,12 +18978,12 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8749"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_2025_41904",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41904",
     "trainNumber": "49E",
     "trainType": "tsurugi",
     "trainName": "つるぎ49号",
@@ -20186,12 +19047,12 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41904"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2036_4493",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4493",
     "trainNumber": "629E",
     "trainType": "asama",
     "trainName": "あさま629号",
@@ -20267,12 +19128,12 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4493"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_2043_8777",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8777",
     "trainNumber": "46E",
     "trainType": "tsurugi",
     "trainName": "つるぎ46号",
@@ -20336,12 +19197,12 @@
         "departureTime": "22:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8777"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2104_6342",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6342",
     "trainNumber": "3519E",
     "trainType": "kagayaki",
     "trainName": "かがやき519号",
@@ -20459,12 +19320,12 @@
         "departureTime": "23:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6342"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_2107_41905",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41905",
     "trainNumber": "8091E",
     "trainType": "tsurugi",
     "trainName": "つるぎ91号",
@@ -20528,12 +19389,12 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41905"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-11_2117_3216",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3216",
     "trainNumber": "632E",
     "trainType": "asama",
     "trainName": "あさま632号",
@@ -20609,12 +19470,12 @@
         "departureTime": "23:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3216"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_2127_8758",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8758",
     "trainNumber": "8094E",
     "trainType": "tsurugi",
     "trainName": "つるぎ94号",
@@ -20678,12 +19539,12 @@
         "departureTime": "22:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8758"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2128_4466",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4466",
     "trainNumber": "631E",
     "trainType": "asama",
     "trainName": "あさま631号",
@@ -20759,12 +19620,12 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4466"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-18_2135_6429",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6429",
     "trainNumber": "590E",
     "trainType": "hakutaka",
     "trainName": "はくたか590号",
@@ -20822,12 +19683,12 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6429"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_2142_8778",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8778",
     "trainNumber": "48E",
     "trainType": "tsurugi",
     "trainName": "つるぎ48号",
@@ -20891,12 +19752,12 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8778"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-01_2208_4467",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4467",
     "trainNumber": "633E",
     "trainType": "asama",
     "trainName": "あさま633号",
@@ -20972,12 +19833,12 @@
         "departureTime": "23:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4467"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_2210_41906",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41906",
     "trainNumber": "61E",
     "trainType": "tsurugi",
     "trainName": "つるぎ61号",
@@ -21041,12 +19902,12 @@
         "departureTime": "23:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41906"
+    ]
   },
   {
     "tripId": "WD_INB_HKS-24_2228_8779",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8779",
     "trainNumber": "50E",
     "trainType": "tsurugi",
     "trainName": "つるぎ50号",
@@ -21110,12 +19971,12 @@
         "departureTime": "23:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8779"
+    ]
   },
   {
     "tripId": "WD_OUT_HKS-16_2333_41882",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41882",
     "trainNumber": "63E",
     "trainType": "tsurugi",
     "trainName": "つるぎ63号",
@@ -21143,12 +20004,12 @@
         "departureTime": "23:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41882"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_0600_41917",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41917",
     "trainNumber": "1E",
     "trainType": "tsurugi",
     "trainName": "つるぎ1号",
@@ -21200,12 +20061,12 @@
         "departureTime": "06:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41917"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0602_3186",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3186",
     "trainNumber": "600E",
     "trainType": "asama",
     "trainName": "あさま600号",
@@ -21281,93 +20142,12 @@
         "departureTime": "07:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3186"
-  },
-  {
-    "tripId": "HD_INB_HKS-11_0602_3187",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "600E",
-    "trainType": "asama",
-    "trainName": "あさま600号",
-    "direction": "inbound",
-    "originStationId": "HKS-11",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "06:02:00",
-        "departureTime": "06:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "06:13:00",
-        "departureTime": "06:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "06:24:00",
-        "departureTime": "06:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "06:33:00",
-        "departureTime": "06:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "06:42:11",
-        "departureTime": "06:42:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "06:49:00",
-        "departureTime": "06:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "06:56:58",
-        "departureTime": "06:56:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "07:03:56",
-        "departureTime": "07:03:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "07:14:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "07:35:00",
-        "departureTime": "07:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "07:40:00",
-        "departureTime": "07:40:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "3187"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0602_6364",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6364",
     "trainNumber": "3500E",
     "trainType": "kagayaki",
     "trainName": "かがやき500号",
@@ -21485,135 +20265,12 @@
         "departureTime": "08:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6364"
-  },
-  {
-    "tripId": "HD_INB_HKS-18_0602_6365",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "3500E",
-    "trainType": "kagayaki",
-    "trainName": "かがやき500号",
-    "direction": "inbound",
-    "originStationId": "HKS-18",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "06:02:00",
-        "departureTime": "06:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "06:13:46",
-        "departureTime": "06:13:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "06:21:00",
-        "departureTime": "06:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "06:30:54",
-        "departureTime": "06:30:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "06:40:33",
-        "departureTime": "06:40:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "06:50:12",
-        "departureTime": "06:50:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "06:59:50",
-        "departureTime": "06:59:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "07:08:00",
-        "departureTime": "07:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "07:17:15",
-        "departureTime": "07:17:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "07:23:10",
-        "departureTime": "07:23:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "07:29:06",
-        "departureTime": "07:29:06",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "07:37:00",
-        "departureTime": "07:37:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "07:43:35",
-        "departureTime": "07:43:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "07:49:31",
-        "departureTime": "07:49:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "07:55:26",
-        "departureTime": "07:55:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "08:04:00",
-        "departureTime": "08:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "08:24:00",
-        "departureTime": "08:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6365"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-11_0611_33838",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "33838",
     "trainNumber": "591E",
     "trainType": "hakutaka",
     "trainName": "はくたか591号",
@@ -21671,12 +20328,12 @@
         "departureTime": "07:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33838"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0612_6427",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6427",
     "trainNumber": "3502E",
     "trainType": "kagayaki",
     "trainName": "かがやき502号",
@@ -21830,12 +20487,12 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6427"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0616_6355",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6355",
     "trainNumber": "3501E",
     "trainType": "kagayaki",
     "trainName": "かがやき501号",
@@ -21989,12 +20646,12 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6355"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0616_6391",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6391",
     "trainNumber": "552E",
     "trainType": "hakutaka",
     "trainName": "はくたか552号",
@@ -22112,12 +20769,12 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6391"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0621_3180",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3180",
     "trainNumber": "602E",
     "trainType": "asama",
     "trainName": "あさま602号",
@@ -22193,12 +20850,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3180"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0622_41883",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41883",
     "trainNumber": "1003E",
     "trainType": "tsurugi",
     "trainName": "つるぎ3号",
@@ -22262,12 +20919,12 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41883"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0624_6330",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6330",
     "trainNumber": "8521E",
     "trainType": "kagayaki",
     "trainName": "かがやき521号",
@@ -22385,12 +21042,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6330"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0628_6314",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6314",
     "trainNumber": "551E",
     "trainType": "hakutaka",
     "trainName": "はくたか551号",
@@ -22508,12 +21165,12 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6314"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0637_41890",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41890",
     "trainNumber": "5E",
     "trainType": "tsurugi",
     "trainName": "つるぎ5号",
@@ -22577,12 +21234,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41890"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0644_6313",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6313",
     "trainNumber": "8661E",
     "trainType": "hakutaka",
     "trainName": "はくたか661号",
@@ -22700,12 +21357,12 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6313"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0644_3203",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3203",
     "trainNumber": "604E",
     "trainType": "asama",
     "trainName": "あさま604号",
@@ -22781,12 +21438,12 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3203"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0647_8765",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8765",
     "trainNumber": "62E",
     "trainType": "tsurugi",
     "trainName": "つるぎ62号",
@@ -22850,12 +21507,12 @@
         "departureTime": "08:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8765"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0651_8740",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8740",
     "trainNumber": "60E",
     "trainType": "tsurugi",
     "trainName": "つるぎ60号",
@@ -22883,12 +21540,12 @@
         "departureTime": "07:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8740"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0652_4463",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4463",
     "trainNumber": "601E",
     "trainType": "asama",
     "trainName": "あさま601号",
@@ -22964,12 +21621,12 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4463"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0711_6382",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6382",
     "trainNumber": "8580E",
     "trainType": "kagayaki",
     "trainName": "かがやき580号",
@@ -23087,12 +21744,12 @@
         "departureTime": "09:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6382"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0713_3195",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3195",
     "trainNumber": "606E",
     "trainType": "asama",
     "trainName": "あさま606号",
@@ -23168,12 +21825,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3195"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0719_6392",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6392",
     "trainNumber": "554E",
     "trainType": "hakutaka",
     "trainName": "はくたか554号",
@@ -23291,12 +21948,12 @@
         "departureTime": "10:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6392"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0720_6360",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6360",
     "trainNumber": "3503E",
     "trainType": "kagayaki",
     "trainName": "かがやき503号",
@@ -23450,12 +22107,12 @@
         "departureTime": "10:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6360"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0723_3207",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3207",
     "trainNumber": "608E",
     "trainType": "asama",
     "trainName": "あさま608号",
@@ -23531,12 +22188,12 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3207"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0724_4473",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4473",
     "trainNumber": "603E",
     "trainType": "asama",
     "trainName": "あさま603号",
@@ -23612,12 +22269,12 @@
         "departureTime": "09:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4473"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0724_41884",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41884",
     "trainNumber": "1007E",
     "trainType": "tsurugi",
     "trainName": "つるぎ7号",
@@ -23681,150 +22338,12 @@
         "departureTime": "08:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41884"
-  },
-  {
-    "tripId": "HD_OUT_HKS-16_0724_41886",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1007E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ7号",
-    "direction": "outbound",
-    "originStationId": "HKS-16",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "07:32:00",
-        "departureTime": "07:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "07:46:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "07:54:50",
-        "departureTime": "07:54:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "07:59:49",
-        "departureTime": "07:59:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:05:24",
-        "departureTime": "08:05:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "08:11:00",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "08:20:08",
-        "departureTime": "08:20:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41886"
-  },
-  {
-    "tripId": "HD_OUT_HKS-16_0724_41885",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1007E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ7号",
-    "direction": "outbound",
-    "originStationId": "HKS-16",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "07:32:00",
-        "departureTime": "07:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "07:46:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "07:54:50",
-        "departureTime": "07:54:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "07:59:49",
-        "departureTime": "07:59:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:05:24",
-        "departureTime": "08:05:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "08:11:00",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "08:20:08",
-        "departureTime": "08:20:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41885"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0727_6401",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6401",
     "trainNumber": "3504E",
     "trainType": "kagayaki",
     "trainName": "かがやき504号",
@@ -23978,12 +22497,12 @@
         "departureTime": "10:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6401"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0728_6331",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6331",
     "trainNumber": "8523E",
     "trainType": "kagayaki",
     "trainName": "かがやき523号",
@@ -24101,12 +22620,12 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6331"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0733_6402",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6402",
     "trainNumber": "5522E",
     "trainType": "kagayaki",
     "trainName": "かがやき522号",
@@ -24260,12 +22779,12 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6402"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0735_8760",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8760",
     "trainNumber": "64E",
     "trainType": "tsurugi",
     "trainName": "つるぎ64号",
@@ -24317,69 +22836,12 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8760"
-  },
-  {
-    "tripId": "HD_INB_HKS-24_0735_8759",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "64E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ64号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-18",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "07:35:00",
-        "departureTime": "07:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "07:47:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "07:56:00",
-        "departureTime": "07:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:05:00",
-        "departureTime": "08:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "08:13:00",
-        "departureTime": "08:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "08:21:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:33:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "8759"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0737_41891",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41891",
     "trainNumber": "9E",
     "trainType": "tsurugi",
     "trainName": "つるぎ9号",
@@ -24443,12 +22905,12 @@
         "departureTime": "08:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41891"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0752_6315",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6315",
     "trainNumber": "553E",
     "trainType": "hakutaka",
     "trainName": "はくたか553号",
@@ -24566,12 +23028,12 @@
         "departureTime": "11:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6315"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0759_3198",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3198",
     "trainNumber": "8634E",
     "trainType": "asama",
     "trainName": "あさま634号",
@@ -24647,12 +23109,12 @@
         "departureTime": "09:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3198"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0800_4480",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4480",
     "trainNumber": "9679E",
     "trainType": "asama",
     "trainName": "あさま679号",
@@ -24728,12 +23190,12 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4480"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0806_8750",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8750",
     "trainNumber": "1002E",
     "trainType": "tsurugi",
     "trainName": "つるぎ2号",
@@ -24797,12 +23259,12 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8750"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0811_6343",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6343",
     "trainNumber": "3505E",
     "trainType": "kagayaki",
     "trainName": "かがやき505号",
@@ -24956,12 +23418,12 @@
         "departureTime": "11:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6343"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0815_6367",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6367",
     "trainNumber": "8522E",
     "trainType": "kagayaki",
     "trainName": "かがやき522号",
@@ -25079,12 +23541,12 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6367"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0815_6415",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6415",
     "trainNumber": "3506E",
     "trainType": "kagayaki",
     "trainName": "かがやき506号",
@@ -25238,171 +23700,12 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6415"
-  },
-  {
-    "tripId": "HD_INB_HKS-24_0815_6416",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "3506E",
-    "trainType": "kagayaki",
-    "trainName": "かがやき506号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "08:15:00",
-        "departureTime": "08:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "08:23:21",
-        "departureTime": "08:23:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "08:31:00",
-        "departureTime": "08:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "08:40:00",
-        "departureTime": "08:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "08:49:00",
-        "departureTime": "08:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "08:55:44",
-        "departureTime": "08:55:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "09:05:00",
-        "departureTime": "09:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "09:18:09",
-        "departureTime": "09:18:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "09:25:00",
-        "departureTime": "09:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "09:34:54",
-        "departureTime": "09:34:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "09:44:33",
-        "departureTime": "09:44:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "09:54:12",
-        "departureTime": "09:54:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "10:03:50",
-        "departureTime": "10:03:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "10:12:00",
-        "departureTime": "10:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "10:21:39",
-        "departureTime": "10:21:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "10:27:54",
-        "departureTime": "10:27:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "10:34:10",
-        "departureTime": "10:34:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "10:42:30",
-        "departureTime": "10:42:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "10:49:27",
-        "departureTime": "10:49:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "10:55:42",
-        "departureTime": "10:55:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "11:01:58",
-        "departureTime": "11:01:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "11:11:00",
-        "departureTime": "11:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "11:31:00",
-        "departureTime": "11:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "11:36:00",
-        "departureTime": "11:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6416"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0816_41887",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41887",
     "trainNumber": "1011E",
     "trainType": "tsurugi",
     "trainName": "つるぎ11号",
@@ -25466,12 +23769,12 @@
         "departureTime": "09:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41887"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0818_6389",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6389",
     "trainNumber": "556E",
     "trainType": "hakutaka",
     "trainName": "はくたか556号",
@@ -25589,12 +23892,12 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6389"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-02_0821_6362",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6362",
     "trainNumber": "8663E",
     "trainType": "hakutaka",
     "trainName": "はくたか663号",
@@ -25706,12 +24009,12 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6362"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_0823_41907",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41907",
     "trainNumber": "8079E",
     "trainType": "tsurugi",
     "trainName": "つるぎ79号",
@@ -25763,12 +24066,12 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41907"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0825_3212",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3212",
     "trainNumber": "610E",
     "trainType": "asama",
     "trainName": "あさま610号",
@@ -25844,12 +24147,12 @@
         "departureTime": "10:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3212"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0828_6403",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6403",
     "trainNumber": "5524E",
     "trainType": "kagayaki",
     "trainName": "かがやき524号",
@@ -26003,12 +24306,12 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6403"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0830_4482",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4482",
     "trainNumber": "9653E",
     "trainType": "asama",
     "trainName": "あさま653号",
@@ -26084,12 +24387,12 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4482"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0831_8766",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8766",
     "trainNumber": "4E",
     "trainType": "tsurugi",
     "trainName": "つるぎ4号",
@@ -26153,12 +24456,12 @@
         "departureTime": "09:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8766"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0833_6332",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6332",
     "trainNumber": "8525E",
     "trainType": "kagayaki",
     "trainName": "かがやき525号",
@@ -26276,12 +24579,12 @@
         "departureTime": "11:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6332"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0833_6357",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6357",
     "trainNumber": "8581E",
     "trainType": "kagayaki",
     "trainName": "かがやき581号",
@@ -26399,12 +24702,12 @@
         "departureTime": "11:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6357"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0840_41892",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41892",
     "trainNumber": "13E",
     "trainType": "tsurugi",
     "trainName": "つるぎ13号",
@@ -26468,12 +24771,12 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41892"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0841_6316",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6316",
     "trainNumber": "555E",
     "trainType": "hakutaka",
     "trainName": "はくたか555号",
@@ -26591,12 +24894,12 @@
         "departureTime": "11:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6316"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0904_4483",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4483",
     "trainNumber": "605E",
     "trainType": "asama",
     "trainName": "あさま605号",
@@ -26672,12 +24975,12 @@
         "departureTime": "10:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4483"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0911_8753",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8753",
     "trainNumber": "1006E",
     "trainType": "tsurugi",
     "trainName": "つるぎ6号",
@@ -26741,150 +25044,12 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8753"
-  },
-  {
-    "tripId": "HD_INB_HKS-24_0911_8752",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1006E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ6号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-16",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "09:11:00",
-        "departureTime": "09:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "09:19:21",
-        "departureTime": "09:19:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "09:27:00",
-        "departureTime": "09:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "09:33:36",
-        "departureTime": "09:33:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "09:39:11",
-        "departureTime": "09:39:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "09:44:10",
-        "departureTime": "09:44:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "09:51:00",
-        "departureTime": "09:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "10:07:00",
-        "departureTime": "10:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "8752"
-  },
-  {
-    "tripId": "HD_INB_HKS-24_0911_8751",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1006E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ6号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-16",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "09:11:00",
-        "departureTime": "09:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "09:19:21",
-        "departureTime": "09:19:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "09:27:00",
-        "departureTime": "09:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "09:33:36",
-        "departureTime": "09:33:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "09:39:11",
-        "departureTime": "09:39:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "09:44:10",
-        "departureTime": "09:44:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "09:51:00",
-        "departureTime": "09:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "10:07:00",
-        "departureTime": "10:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "8751"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0914_6368",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6368",
     "trainNumber": "8524E",
     "trainType": "kagayaki",
     "trainName": "かがやき524号",
@@ -27002,12 +25167,12 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6368"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_0917_6393",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6393",
     "trainNumber": "558E",
     "trainType": "hakutaka",
     "trainName": "はくたか558号",
@@ -27125,12 +25290,12 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6393"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0920_6353",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6353",
     "trainNumber": "3507E",
     "trainType": "kagayaki",
     "trainName": "かがやき507号",
@@ -27284,12 +25449,12 @@
         "departureTime": "12:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6353"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0921_6405",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6405",
     "trainNumber": "3508E",
     "trainType": "kagayaki",
     "trainName": "かがやき508号",
@@ -27443,171 +25608,12 @@
         "departureTime": "12:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6405"
-  },
-  {
-    "tripId": "HD_INB_HKS-24_0921_6406",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "3508E",
-    "trainType": "kagayaki",
-    "trainName": "かがやき508号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "09:21:00",
-        "departureTime": "09:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "09:29:52",
-        "departureTime": "09:29:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "09:38:00",
-        "departureTime": "09:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "09:44:50",
-        "departureTime": "09:44:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "09:50:41",
-        "departureTime": "09:50:41",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "09:55:52",
-        "departureTime": "09:55:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "10:03:00",
-        "departureTime": "10:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "10:16:09",
-        "departureTime": "10:16:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "10:23:00",
-        "departureTime": "10:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "10:32:54",
-        "departureTime": "10:32:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "10:42:33",
-        "departureTime": "10:42:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "10:52:12",
-        "departureTime": "10:52:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "11:01:50",
-        "departureTime": "11:01:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "11:10:00",
-        "departureTime": "11:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "11:19:55",
-        "departureTime": "11:19:55",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "11:26:23",
-        "departureTime": "11:26:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "11:32:52",
-        "departureTime": "11:32:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "11:41:30",
-        "departureTime": "11:41:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "11:48:42",
-        "departureTime": "11:48:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "11:55:10",
-        "departureTime": "11:55:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "12:01:39",
-        "departureTime": "12:01:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "12:11:00",
-        "departureTime": "12:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "12:30:00",
-        "departureTime": "12:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "12:36:00",
-        "departureTime": "12:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6406"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_0930_3209",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3209",
     "trainNumber": "612E",
     "trainType": "asama",
     "trainName": "あさま612号",
@@ -27683,12 +25689,12 @@
         "departureTime": "11:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3209"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0931_6407",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6407",
     "trainNumber": "5526E",
     "trainType": "kagayaki",
     "trainName": "かがやき526号",
@@ -27842,12 +25848,12 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6407"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0932_6328",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6328",
     "trainNumber": "557E",
     "trainType": "hakutaka",
     "trainName": "はくたか557号",
@@ -27965,12 +25971,12 @@
         "departureTime": "12:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6328"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_0940_41893",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41893",
     "trainNumber": "17E",
     "trainType": "tsurugi",
     "trainName": "つるぎ17号",
@@ -28034,12 +26040,12 @@
         "departureTime": "11:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41893"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0944_4474",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4474",
     "trainNumber": "607E",
     "trainType": "asama",
     "trainName": "あさま607号",
@@ -28115,12 +26121,12 @@
         "departureTime": "11:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4474"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0946_8767",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8767",
     "trainNumber": "8E",
     "trainType": "tsurugi",
     "trainName": "つるぎ8号",
@@ -28184,12 +26190,12 @@
         "departureTime": "11:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8767"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_0955_41909",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41909",
     "trainNumber": "1015E",
     "trainType": "tsurugi",
     "trainName": "つるぎ15号",
@@ -28241,12 +26247,12 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41909"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0956_6333",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6333",
     "trainNumber": "8527E",
     "trainType": "kagayaki",
     "trainName": "かがやき527号",
@@ -28364,12 +26370,12 @@
         "departureTime": "12:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6333"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_0956_6344",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6344",
     "trainNumber": "5527E",
     "trainType": "kagayaki",
     "trainName": "かがやき527号",
@@ -28523,12 +26529,12 @@
         "departureTime": "13:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6344"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_0958_6422",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6422",
     "trainNumber": "560E",
     "trainType": "hakutaka",
     "trainName": "はくたか560号",
@@ -28682,12 +26688,12 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6422"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1007_4478",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4478",
     "trainNumber": "8635E",
     "trainType": "asama",
     "trainName": "あさま635号",
@@ -28763,12 +26769,12 @@
         "departureTime": "11:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4478"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1008_4479",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4479",
     "trainNumber": "8635E",
     "trainType": "asama",
     "trainName": "あさま635号",
@@ -28844,12 +26850,12 @@
         "departureTime": "11:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4479"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1017_6369",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6369",
     "trainNumber": "8526E",
     "trainType": "kagayaki",
     "trainName": "かがやき526号",
@@ -28967,12 +26973,12 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6369"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1018_8754",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8754",
     "trainNumber": "1010E",
     "trainType": "tsurugi",
     "trainName": "つるぎ10号",
@@ -29036,12 +27042,12 @@
         "departureTime": "11:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8754"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1022_6354",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6354",
     "trainNumber": "3509E",
     "trainType": "kagayaki",
     "trainName": "かがやき509号",
@@ -29195,12 +27201,12 @@
         "departureTime": "13:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6354"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1030_6430",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6430",
     "trainNumber": "9668E",
     "trainType": "hakutaka",
     "trainName": "はくたか668号",
@@ -29294,12 +27300,12 @@
         "departureTime": "12:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6430"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1033_6305",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6305",
     "trainNumber": "559E",
     "trainType": "hakutaka",
     "trainName": "はくたか559号",
@@ -29417,12 +27423,12 @@
         "departureTime": "13:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6305"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1033_6306",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6306",
     "trainNumber": "5559E",
     "trainType": "hakutaka",
     "trainName": "はくたか559号",
@@ -29576,12 +27582,12 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6306"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1043_8761",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8761",
     "trainNumber": "12E",
     "trainType": "tsurugi",
     "trainName": "つるぎ12号",
@@ -29633,12 +27639,12 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8761"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1048_6345",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6345",
     "trainNumber": "5529E",
     "trainType": "kagayaki",
     "trainName": "かがやき529号",
@@ -29792,12 +27798,12 @@
         "departureTime": "14:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6345"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1051_6370",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6370",
     "trainNumber": "8528E",
     "trainType": "kagayaki",
     "trainName": "かがやき528号",
@@ -29915,12 +27921,12 @@
         "departureTime": "13:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6370"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1058_6418",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6418",
     "trainNumber": "562E",
     "trainType": "hakutaka",
     "trainName": "はくたか562号",
@@ -30074,12 +28080,12 @@
         "departureTime": "14:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6418"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1104_4468",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4468",
     "trainNumber": "609E",
     "trainType": "asama",
     "trainName": "あさま609号",
@@ -30155,12 +28161,12 @@
         "departureTime": "12:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4468"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_1105_41918",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41918",
     "trainNumber": "19E",
     "trainType": "tsurugi",
     "trainName": "つるぎ19号",
@@ -30212,12 +28218,12 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41918"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1117_8755",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8755",
     "trainNumber": "8014E",
     "trainType": "tsurugi",
     "trainName": "つるぎ14号",
@@ -30281,12 +28287,12 @@
         "departureTime": "12:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8755"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1117_8741",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8741",
     "trainNumber": "1014E",
     "trainType": "tsurugi",
     "trainName": "つるぎ14号",
@@ -30338,12 +28344,12 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8741"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1124_6326",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6326",
     "trainNumber": "561E",
     "trainType": "hakutaka",
     "trainName": "はくたか561号",
@@ -30497,12 +28503,12 @@
         "departureTime": "15:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6326"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1128_3210",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3210",
     "trainNumber": "614E",
     "trainType": "asama",
     "trainName": "あさま614号",
@@ -30578,12 +28584,12 @@
         "departureTime": "13:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3210"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1132_4485",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4485",
     "trainNumber": "8637E",
     "trainType": "asama",
     "trainName": "あさま637号",
@@ -30659,12 +28665,12 @@
         "departureTime": "13:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4485"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1139_8768",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8768",
     "trainNumber": "16E",
     "trainType": "tsurugi",
     "trainName": "つるぎ16号",
@@ -30728,12 +28734,12 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8768"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1140_41894",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41894",
     "trainNumber": "21E",
     "trainType": "tsurugi",
     "trainName": "つるぎ21号",
@@ -30797,12 +28803,12 @@
         "departureTime": "13:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41894"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1148_6335",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6335",
     "trainNumber": "8531E",
     "trainType": "kagayaki",
     "trainName": "かがやき531号",
@@ -30920,12 +28926,12 @@
         "departureTime": "14:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6335"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1149_6371",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6371",
     "trainNumber": "8530E",
     "trainType": "kagayaki",
     "trainName": "かがやき530号",
@@ -31043,12 +29049,12 @@
         "departureTime": "14:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6371"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1158_6424",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6424",
     "trainNumber": "564E",
     "trainType": "hakutaka",
     "trainName": "はくたか564号",
@@ -31202,171 +29208,12 @@
         "departureTime": "15:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6424"
-  },
-  {
-    "tripId": "HD_INB_HKS-24_1158_6423",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "564E",
-    "trainType": "hakutaka",
-    "trainName": "はくたか564号",
-    "direction": "inbound",
-    "originStationId": "HKS-24",
-    "destinationStationId": "HKS-01",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "11:58:00",
-        "departureTime": "11:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "12:10:00",
-        "departureTime": "12:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "12:19:00",
-        "departureTime": "12:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "12:28:00",
-        "departureTime": "12:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "12:36:00",
-        "departureTime": "12:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "12:44:00",
-        "departureTime": "12:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "12:56:00",
-        "departureTime": "12:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "13:11:00",
-        "departureTime": "13:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "13:20:00",
-        "departureTime": "13:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-15",
-        "arrivalTime": "13:33:00",
-        "departureTime": "13:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-14",
-        "arrivalTime": "13:47:00",
-        "departureTime": "13:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-13",
-        "arrivalTime": "14:00:00",
-        "departureTime": "14:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-12",
-        "arrivalTime": "14:13:00",
-        "departureTime": "14:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-11",
-        "arrivalTime": "14:24:00",
-        "departureTime": "14:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-10",
-        "arrivalTime": "14:33:46",
-        "departureTime": "14:33:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-09",
-        "arrivalTime": "14:40:07",
-        "departureTime": "14:40:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-08",
-        "arrivalTime": "14:46:28",
-        "departureTime": "14:46:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-07",
-        "arrivalTime": "14:54:56",
-        "departureTime": "14:54:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-06",
-        "arrivalTime": "15:02:00",
-        "departureTime": "15:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-05",
-        "arrivalTime": "15:09:58",
-        "departureTime": "15:09:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-04",
-        "arrivalTime": "15:16:56",
-        "departureTime": "15:16:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-03",
-        "arrivalTime": "15:27:00",
-        "departureTime": "15:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-02",
-        "arrivalTime": "15:46:00",
-        "departureTime": "15:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-01",
-        "arrivalTime": "15:52:00",
-        "departureTime": "15:52:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "6423"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1204_4475",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4475",
     "trainNumber": "611E",
     "trainType": "asama",
     "trainName": "あさま611号",
@@ -31442,12 +29289,12 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4475"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1217_8742",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8742",
     "trainNumber": "1018E",
     "trainType": "tsurugi",
     "trainName": "つるぎ18号",
@@ -31499,12 +29346,12 @@
         "departureTime": "13:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8742"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1224_6324",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6324",
     "trainNumber": "563E",
     "trainType": "hakutaka",
     "trainName": "はくたか563号",
@@ -31658,12 +29505,12 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6324"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1229_3201",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3201",
     "trainNumber": "616E",
     "trainType": "asama",
     "trainName": "あさま616号",
@@ -31739,12 +29586,12 @@
         "departureTime": "14:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3201"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1232_6321",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6321",
     "trainNumber": "5639E",
     "trainType": "hakutaka",
     "trainName": "はくたか639号",
@@ -31898,12 +29745,12 @@
         "departureTime": "16:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6321"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1241_41895",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41895",
     "trainNumber": "23E",
     "trainType": "tsurugi",
     "trainName": "つるぎ23号",
@@ -31967,12 +29814,12 @@
         "departureTime": "14:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41895"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1242_8769",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8769",
     "trainNumber": "20E",
     "trainType": "tsurugi",
     "trainName": "つるぎ20号",
@@ -32036,12 +29883,12 @@
         "departureTime": "14:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8769"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1248_6336",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6336",
     "trainNumber": "8533E",
     "trainType": "kagayaki",
     "trainName": "かがやき533号",
@@ -32159,12 +30006,12 @@
         "departureTime": "15:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6336"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1251_6372",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6372",
     "trainNumber": "8532E",
     "trainType": "kagayaki",
     "trainName": "かがやき532号",
@@ -32282,12 +30129,12 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6372"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1258_6420",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6420",
     "trainNumber": "566E",
     "trainType": "hakutaka",
     "trainName": "はくたか566号",
@@ -32441,12 +30288,12 @@
         "departureTime": "16:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6420"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1303_3191",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3191",
     "trainNumber": "8640E",
     "trainType": "asama",
     "trainName": "あさま640号",
@@ -32522,12 +30369,12 @@
         "departureTime": "14:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3191"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1304_4469",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4469",
     "trainNumber": "613E",
     "trainType": "asama",
     "trainName": "あさま613号",
@@ -32603,12 +30450,12 @@
         "departureTime": "14:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4469"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1324_6327",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6327",
     "trainNumber": "565E",
     "trainType": "hakutaka",
     "trainName": "はくたか565号",
@@ -32762,12 +30609,12 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6327"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1326_3213",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3213",
     "trainNumber": "618E",
     "trainType": "asama",
     "trainName": "あさま618号",
@@ -32843,12 +30690,12 @@
         "departureTime": "15:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3213"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1340_41896",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41896",
     "trainNumber": "25E",
     "trainType": "tsurugi",
     "trainName": "つるぎ25号",
@@ -32912,12 +30759,12 @@
         "departureTime": "15:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41896"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1341_8771",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8771",
     "trainNumber": "22E",
     "trainType": "tsurugi",
     "trainName": "つるぎ22号",
@@ -32981,12 +30828,12 @@
         "departureTime": "15:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8771"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1348_6425",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6425",
     "trainNumber": "568E",
     "trainType": "hakutaka",
     "trainName": "はくたか568号",
@@ -33140,12 +30987,12 @@
         "departureTime": "17:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6425"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1350_6373",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6373",
     "trainNumber": "8534E",
     "trainType": "kagayaki",
     "trainName": "かがやき534号",
@@ -33263,12 +31110,12 @@
         "departureTime": "16:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6373"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1352_6337",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6337",
     "trainNumber": "8537E",
     "trainType": "kagayaki",
     "trainName": "かがやき537号",
@@ -33386,12 +31233,12 @@
         "departureTime": "16:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6337"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1403_3192",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3192",
     "trainNumber": "8642E",
     "trainType": "asama",
     "trainName": "あさま642号",
@@ -33467,12 +31314,12 @@
         "departureTime": "15:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3192"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1404_4476",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4476",
     "trainNumber": "615E",
     "trainType": "asama",
     "trainName": "あさま615号",
@@ -33548,12 +31395,12 @@
         "departureTime": "15:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4476"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1411_8763",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8763",
     "trainNumber": "24E",
     "trainType": "tsurugi",
     "trainName": "つるぎ24号",
@@ -33605,12 +31452,12 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8763"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1424_6325",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6325",
     "trainNumber": "567E",
     "trainType": "hakutaka",
     "trainName": "はくたか567号",
@@ -33764,12 +31611,12 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6325"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1429_3202",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3202",
     "trainNumber": "620E",
     "trainType": "asama",
     "trainName": "あさま620号",
@@ -33845,12 +31692,12 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3202"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1430_6387",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6387",
     "trainNumber": "8624E",
     "trainType": "hakutaka",
     "trainName": "はくたか624号",
@@ -33968,12 +31815,12 @@
         "departureTime": "17:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6387"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1439_41898",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41898",
     "trainNumber": "29E",
     "trainType": "tsurugi",
     "trainName": "つるぎ29号",
@@ -34037,12 +31884,12 @@
         "departureTime": "16:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41898"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1441_8772",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8772",
     "trainNumber": "26E",
     "trainType": "tsurugi",
     "trainName": "つるぎ26号",
@@ -34106,12 +31953,12 @@
         "departureTime": "16:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8772"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1452_6338",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6338",
     "trainNumber": "8539E",
     "trainType": "kagayaki",
     "trainName": "かがやき539号",
@@ -34229,12 +32076,12 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6338"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_1455_41912",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41912",
     "trainNumber": "1027E",
     "trainType": "tsurugi",
     "trainName": "つるぎ27号",
@@ -34286,69 +32133,12 @@
         "departureTime": "15:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41912"
-  },
-  {
-    "tripId": "HD_OUT_HKS-18_1455_41913",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "1027E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ27号",
-    "direction": "outbound",
-    "originStationId": "HKS-18",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "14:55:00",
-        "departureTime": "14:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "15:01:50",
-        "departureTime": "15:01:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "15:06:49",
-        "departureTime": "15:06:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "15:12:24",
-        "departureTime": "15:12:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "15:18:00",
-        "departureTime": "15:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "15:27:08",
-        "departureTime": "15:27:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "15:36:00",
-        "departureTime": "15:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41913"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1503_3193",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3193",
     "trainNumber": "8644E",
     "trainType": "asama",
     "trainName": "あさま644号",
@@ -34424,12 +32214,12 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3193"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1504_4470",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4470",
     "trainNumber": "617E",
     "trainType": "asama",
     "trainName": "あさま617号",
@@ -34505,12 +32295,12 @@
         "departureTime": "16:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4470"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1504_6374",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6374",
     "trainNumber": "9536E",
     "trainType": "kagayaki",
     "trainName": "かがやき536号",
@@ -34628,12 +32418,12 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6374"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1504_6363",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6363",
     "trainNumber": "8536E",
     "trainType": "kagayaki",
     "trainName": "かがやき536号",
@@ -34745,12 +32535,12 @@
         "departureTime": "17:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6363"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1506_6417",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6417",
     "trainNumber": "3510E",
     "trainType": "kagayaki",
     "trainName": "かがやき510号",
@@ -34904,12 +32694,12 @@
         "departureTime": "18:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6417"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1524_6308",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6308",
     "trainNumber": "569E",
     "trainType": "hakutaka",
     "trainName": "はくたか569号",
@@ -35063,12 +32853,12 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6308"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1525_3214",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3214",
     "trainNumber": "622E",
     "trainType": "asama",
     "trainName": "あさま622号",
@@ -35144,12 +32934,12 @@
         "departureTime": "17:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3214"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1536_6386",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6386",
     "trainNumber": "9660E",
     "trainType": "hakutaka",
     "trainName": "はくたか660号",
@@ -35261,12 +33051,12 @@
         "departureTime": "18:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6386"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1540_41899",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41899",
     "trainNumber": "33E",
     "trainType": "tsurugi",
     "trainName": "つるぎ33号",
@@ -35330,12 +33120,12 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41899"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1541_8773",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8773",
     "trainNumber": "28E",
     "trainType": "tsurugi",
     "trainName": "つるぎ28号",
@@ -35399,12 +33189,12 @@
         "departureTime": "17:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8773"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1548_6339",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6339",
     "trainNumber": "8541E",
     "trainType": "kagayaki",
     "trainName": "かがやき541号",
@@ -35522,12 +33312,12 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6339"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1552_4477",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4477",
     "trainNumber": "619E",
     "trainType": "asama",
     "trainName": "あさま619号",
@@ -35603,12 +33393,12 @@
         "departureTime": "17:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4477"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1552_3194",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3194",
     "trainNumber": "624E",
     "trainType": "asama",
     "trainName": "あさま624号",
@@ -35684,12 +33474,12 @@
         "departureTime": "17:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3194"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_1554_41914",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41914",
     "trainNumber": "1031E",
     "trainType": "tsurugi",
     "trainName": "つるぎ31号",
@@ -35741,12 +33531,12 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41914"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1606_6408",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6408",
     "trainNumber": "3512E",
     "trainType": "kagayaki",
     "trainName": "かがやき512号",
@@ -35900,12 +33690,12 @@
         "departureTime": "19:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6408"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1607_6388",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6388",
     "trainNumber": "570E",
     "trainType": "hakutaka",
     "trainName": "はくたか570号",
@@ -36023,12 +33813,12 @@
         "departureTime": "19:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6388"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1611_8746",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8746",
     "trainNumber": "8090E",
     "trainType": "tsurugi",
     "trainName": "つるぎ90号",
@@ -36080,12 +33870,12 @@
         "departureTime": "16:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8746"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1624_6348",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6348",
     "trainNumber": "3511E",
     "trainType": "kagayaki",
     "trainName": "かがやき511号",
@@ -36239,12 +34029,12 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6348"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1625_3215",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3215",
     "trainNumber": "626E",
     "trainType": "asama",
     "trainName": "あさま626号",
@@ -36320,12 +34110,12 @@
         "departureTime": "18:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3215"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1626_6409",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6409",
     "trainNumber": "5538E",
     "trainType": "kagayaki",
     "trainName": "かがやき538号",
@@ -36479,12 +34269,12 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6409"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1632_6318",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6318",
     "trainNumber": "571E",
     "trainType": "hakutaka",
     "trainName": "はくたか571号",
@@ -36602,12 +34392,12 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6318"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1637_41900",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41900",
     "trainNumber": "37E",
     "trainType": "tsurugi",
     "trainName": "つるぎ37号",
@@ -36671,12 +34461,12 @@
         "departureTime": "17:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41900"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1639_8774",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8774",
     "trainNumber": "30E",
     "trainType": "tsurugi",
     "trainName": "つるぎ30号",
@@ -36740,12 +34530,12 @@
         "departureTime": "18:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8774"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1652_4471",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4471",
     "trainNumber": "621E",
     "trainType": "asama",
     "trainName": "あさま621号",
@@ -36821,12 +34611,12 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4471"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1653_6394",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6394",
     "trainNumber": "572E",
     "trainType": "hakutaka",
     "trainName": "はくたか572号",
@@ -36944,12 +34734,12 @@
         "departureTime": "20:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6394"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_1655_41916",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41916",
     "trainNumber": "1035E",
     "trainType": "tsurugi",
     "trainName": "つるぎ35号",
@@ -37001,12 +34791,12 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41916"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1704_6349",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6349",
     "trainNumber": "5543E",
     "trainType": "kagayaki",
     "trainName": "かがやき543号",
@@ -37160,12 +34950,12 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6349"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1708_8747",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8747",
     "trainNumber": "1032E",
     "trainType": "tsurugi",
     "trainName": "つるぎ32号",
@@ -37217,12 +35007,12 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8747"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1710_3204",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3204",
     "trainNumber": "628E",
     "trainType": "asama",
     "trainName": "あさま628号",
@@ -37298,12 +35088,12 @@
         "departureTime": "18:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3204"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1713_6399",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6399",
     "trainNumber": "3514E",
     "trainType": "kagayaki",
     "trainName": "かがやき514号",
@@ -37457,12 +35247,12 @@
         "departureTime": "20:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6399"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1724_6350",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6350",
     "trainNumber": "3513E",
     "trainType": "kagayaki",
     "trainName": "かがやき513号",
@@ -37616,12 +35406,12 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6350"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1729_3183",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3183",
     "trainNumber": "9676E",
     "trainType": "asama",
     "trainName": "あさま676号",
@@ -37691,12 +35481,12 @@
         "departureTime": "19:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3183"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1731_6377",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6377",
     "trainNumber": "9592E",
     "trainType": "kagayaki",
     "trainName": "かがやき592号",
@@ -37814,12 +35604,12 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6377"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1731_41888",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41888",
     "trainNumber": "1039E",
     "trainType": "tsurugi",
     "trainName": "つるぎ39号",
@@ -37883,12 +35673,12 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41888"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1738_8775",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8775",
     "trainNumber": "34E",
     "trainType": "tsurugi",
     "trainName": "つるぎ34号",
@@ -37952,12 +35742,12 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8775"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1740_4464",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4464",
     "trainNumber": "623E",
     "trainType": "asama",
     "trainName": "あさま623号",
@@ -38033,12 +35823,12 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4464"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1800_6414",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6414",
     "trainNumber": "5582E",
     "trainType": "kagayaki",
     "trainName": "かがやき582号",
@@ -38192,12 +35982,12 @@
         "departureTime": "21:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6414"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1804_6329",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6329",
     "trainNumber": "573E",
     "trainType": "hakutaka",
     "trainName": "はくたか573号",
@@ -38315,12 +36105,12 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6329"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-18_1805_41920",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41920",
     "trainNumber": "41E",
     "trainType": "tsurugi",
     "trainName": "つるぎ41号",
@@ -38372,12 +36162,12 @@
         "departureTime": "19:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41920"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1809_8756",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8756",
     "trainNumber": "1036E",
     "trainType": "tsurugi",
     "trainName": "つるぎ36号",
@@ -38441,12 +36231,12 @@
         "departureTime": "19:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8756"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1812_6395",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6395",
     "trainNumber": "574E",
     "trainType": "hakutaka",
     "trainName": "はくたか574号",
@@ -38564,12 +36354,12 @@
         "departureTime": "21:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6395"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1820_3184",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3184",
     "trainNumber": "9678E",
     "trainType": "asama",
     "trainName": "あさま678号",
@@ -38639,12 +36429,12 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3184"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1824_6351",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6351",
     "trainNumber": "3515E",
     "trainType": "kagayaki",
     "trainName": "かがやき515号",
@@ -38798,12 +36588,12 @@
         "departureTime": "21:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6351"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1825_41889",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41889",
     "trainNumber": "1043E",
     "trainType": "tsurugi",
     "trainName": "つるぎ43号",
@@ -38867,12 +36657,12 @@
         "departureTime": "19:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41889"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1836_6412",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6412",
     "trainNumber": "3516E",
     "trainType": "kagayaki",
     "trainName": "かがやき516号",
@@ -39026,12 +36816,12 @@
         "departureTime": "21:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6412"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1839_8764",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8764",
     "trainNumber": "38E",
     "trainType": "tsurugi",
     "trainName": "つるぎ38号",
@@ -39083,12 +36873,12 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8764"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1840_4465",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4465",
     "trainNumber": "625E",
     "trainType": "asama",
     "trainName": "あさま625号",
@@ -39164,12 +36954,12 @@
         "departureTime": "20:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4465"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1841_41901",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41901",
     "trainNumber": "45E",
     "trainType": "tsurugi",
     "trainName": "つるぎ45号",
@@ -39233,12 +37023,12 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41901"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1847_6378",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6378",
     "trainNumber": "8542E",
     "trainType": "kagayaki",
     "trainName": "かがやき542号",
@@ -39356,12 +37146,12 @@
         "departureTime": "21:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6378"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1850_3199",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3199",
     "trainNumber": "8646E",
     "trainType": "asama",
     "trainName": "あさま646号",
@@ -39437,12 +37227,12 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3199"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1904_6319",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6319",
     "trainNumber": "575E",
     "trainType": "hakutaka",
     "trainName": "はくたか575号",
@@ -39560,12 +37350,12 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6319"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1905_6396",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6396",
     "trainNumber": "576E",
     "trainType": "hakutaka",
     "trainName": "はくたか576号",
@@ -39683,12 +37473,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6396"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_1909_3211",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3211",
     "trainNumber": "630E",
     "trainType": "asama",
     "trainName": "あさま630号",
@@ -39764,12 +37554,12 @@
         "departureTime": "20:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3211"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1909_8757",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8757",
     "trainNumber": "1040E",
     "trainType": "tsurugi",
     "trainName": "つるぎ40号",
@@ -39833,12 +37623,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8757"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1924_6341",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6341",
     "trainNumber": "8547E",
     "trainType": "kagayaki",
     "trainName": "かがやき547号",
@@ -39956,12 +37746,12 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6341"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1924_6358",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6358",
     "trainNumber": "8585E",
     "trainType": "kagayaki",
     "trainName": "かがやき585号",
@@ -40079,12 +37869,12 @@
         "departureTime": "21:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6358"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_1932_4492",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4492",
     "trainNumber": "627E",
     "trainType": "asama",
     "trainName": "あさま627号",
@@ -40160,12 +37950,12 @@
         "departureTime": "21:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4492"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_1939_41903",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41903",
     "trainNumber": "47E",
     "trainType": "tsurugi",
     "trainName": "つるぎ47号",
@@ -40229,81 +38019,12 @@
         "departureTime": "21:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41903"
-  },
-  {
-    "tripId": "HD_OUT_HKS-16_1939_41902",
-    "lineId": "hokuriku_shinkansen",
-    "trainNumber": "47E",
-    "trainType": "tsurugi",
-    "trainName": "つるぎ47号",
-    "direction": "outbound",
-    "originStationId": "HKS-16",
-    "destinationStationId": "HKS-24",
-    "cars": 12,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "HKS-16",
-        "arrivalTime": "19:39:00",
-        "departureTime": "19:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-17",
-        "arrivalTime": "19:47:00",
-        "departureTime": "19:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-18",
-        "arrivalTime": "20:01:00",
-        "departureTime": "20:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-19",
-        "arrivalTime": "20:14:00",
-        "departureTime": "20:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-20",
-        "arrivalTime": "20:22:00",
-        "departureTime": "20:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-21",
-        "arrivalTime": "20:30:00",
-        "departureTime": "20:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-22",
-        "arrivalTime": "20:38:00",
-        "departureTime": "20:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-23",
-        "arrivalTime": "20:47:00",
-        "departureTime": "20:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "HKS-24",
-        "arrivalTime": "21:00:00",
-        "departureTime": "21:00:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "41902"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_1939_8776",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8776",
     "trainNumber": "42E",
     "trainType": "tsurugi",
     "trainName": "つるぎ42号",
@@ -40367,12 +38088,12 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8776"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_1949_6379",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6379",
     "trainNumber": "8544E",
     "trainType": "kagayaki",
     "trainName": "かがやき544号",
@@ -40490,12 +38211,12 @@
         "departureTime": "22:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6379"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2000_6356",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6356",
     "trainNumber": "3517E",
     "trainType": "kagayaki",
     "trainName": "かがやき517号",
@@ -40649,12 +38370,12 @@
         "departureTime": "23:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6356"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_2011_6428",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6428",
     "trainNumber": "3518E",
     "trainType": "kagayaki",
     "trainName": "かがやき518号",
@@ -40808,12 +38529,12 @@
         "departureTime": "23:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6428"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2012_6320",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6320",
     "trainNumber": "577E",
     "trainType": "hakutaka",
     "trainName": "はくたか577号",
@@ -40931,12 +38652,12 @@
         "departureTime": "23:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6320"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2020_4491",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4491",
     "trainNumber": "9667E",
     "trainType": "asama",
     "trainName": "あさま667号",
@@ -41012,12 +38733,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4491"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_2020_6397",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6397",
     "trainNumber": "578E",
     "trainType": "hakutaka",
     "trainName": "はくたか578号",
@@ -41135,12 +38856,12 @@
         "departureTime": "23:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6397"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_2022_8749",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8749",
     "trainNumber": "1044E",
     "trainType": "tsurugi",
     "trainName": "つるぎ44号",
@@ -41192,12 +38913,12 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8749"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_2025_41904",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41904",
     "trainNumber": "49E",
     "trainType": "tsurugi",
     "trainName": "つるぎ49号",
@@ -41261,12 +38982,12 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41904"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2036_4493",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4493",
     "trainNumber": "629E",
     "trainType": "asama",
     "trainName": "あさま629号",
@@ -41342,12 +39063,12 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4493"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_2043_8777",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8777",
     "trainNumber": "46E",
     "trainType": "tsurugi",
     "trainName": "つるぎ46号",
@@ -41411,12 +39132,12 @@
         "departureTime": "22:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8777"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2104_6342",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6342",
     "trainNumber": "3519E",
     "trainType": "kagayaki",
     "trainName": "かがやき519号",
@@ -41534,12 +39255,12 @@
         "departureTime": "23:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6342"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_2107_41905",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41905",
     "trainNumber": "8091E",
     "trainType": "tsurugi",
     "trainName": "つるぎ91号",
@@ -41603,12 +39324,12 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41905"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-11_2117_3216",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "3216",
     "trainNumber": "632E",
     "trainType": "asama",
     "trainName": "あさま632号",
@@ -41684,12 +39405,12 @@
         "departureTime": "23:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "3216"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_2127_8758",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8758",
     "trainNumber": "8094E",
     "trainType": "tsurugi",
     "trainName": "つるぎ94号",
@@ -41753,12 +39474,12 @@
         "departureTime": "22:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8758"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2128_4466",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4466",
     "trainNumber": "631E",
     "trainType": "asama",
     "trainName": "あさま631号",
@@ -41834,12 +39555,12 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4466"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-18_2135_6429",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "6429",
     "trainNumber": "590E",
     "trainType": "hakutaka",
     "trainName": "はくたか590号",
@@ -41897,12 +39618,12 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "6429"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_2142_8778",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8778",
     "trainNumber": "48E",
     "trainType": "tsurugi",
     "trainName": "つるぎ48号",
@@ -41966,12 +39687,12 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8778"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-01_2208_4467",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "4467",
     "trainNumber": "633E",
     "trainType": "asama",
     "trainName": "あさま633号",
@@ -42047,12 +39768,12 @@
         "departureTime": "23:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "4467"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_2210_41906",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41906",
     "trainNumber": "61E",
     "trainType": "tsurugi",
     "trainName": "つるぎ61号",
@@ -42116,12 +39837,12 @@
         "departureTime": "23:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41906"
+    ]
   },
   {
     "tripId": "HD_INB_HKS-24_2228_8779",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "8779",
     "trainNumber": "50E",
     "trainType": "tsurugi",
     "trainName": "つるぎ50号",
@@ -42185,12 +39906,12 @@
         "departureTime": "23:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8779"
+    ]
   },
   {
     "tripId": "HD_OUT_HKS-16_2333_41882",
     "lineId": "hokuriku_shinkansen",
+    "trainId": "41882",
     "trainNumber": "63E",
     "trainType": "tsurugi",
     "trainName": "つるぎ63号",
@@ -42218,7 +39939,6 @@
         "departureTime": "23:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41882"
+    ]
   }
 ]

@@ -479,6 +479,8 @@ export const StationBadge: React.FC<{
     STATION_BADGE_COLORS[prefix] ||
     DEFAULT_BADGE_COLOR;
 
+  const titleLabel = id || stationNumber || '';
+
   return (
     <span
       className={`inline-flex items-center justify-center font-mono rounded border-2 shadow-xs tracking-wider ${sizeClasses}`}
@@ -487,7 +489,7 @@ export const StationBadge: React.FC<{
         backgroundColor: '#ffffff',
         color: badgeColor.numColor,
       }}
-      title={`駅ナンバリング: ${id}`}
+      title={titleLabel ? `駅ナンバリング: ${titleLabel}` : undefined}
     >
       <span
         className="mr-0.5 font-black"

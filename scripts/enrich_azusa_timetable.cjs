@@ -372,6 +372,8 @@ function enrichAzusaTimetable() {
       cars: 9,
       isHoliday,
       stops: JSON.parse(JSON.stringify(AZUSA_38_SHINONOI_STOPS)),
+      prevTripId: oitoTripId,
+      prevLineId: 'oito_east',
       throughTripId: chuoMainTripId,
       throughLineId: 'chuo_main',
     };
@@ -774,6 +776,23 @@ function enrichAzusaTimetable() {
         customDestination: '千葉',
       });
       console.log(`  ✓ あずさ50号 (${chuoTripId} -> ${srTripId}): 松本〜新宿〜千葉 直通リンクを確立`);
+    }
+  }
+
+  // 4.5. あずさ1号(1M)の重複ゴーストスジ (6843) を正規スジ (6842) へ一本化
+  for (const key of ['chuo_main', 'shinonoi']) {
+    const trips = lineData[key] || [];
+    const has6842ByHol = new Set(trips.filter((t) => t.trainId === '6842' && t.trainNumber === '1M').map((t) => Boolean(t.isHoliday)));
+    const before = trips.length;
+    lineData[key] = trips.filter((t) => {
+      if (t.trainId === '6843' && t.trainNumber === '1M' && has6842ByHol.has(Boolean(t.isHoliday))) {
+        return false;
+      }
+      return true;
+    });
+    const removed = before - lineData[key].length;
+    if (removed > 0) {
+      console.log(`  ✓ ${key}: 重複スジ 6843 (1M) を ${removed} 件除去`);
     }
   }
 

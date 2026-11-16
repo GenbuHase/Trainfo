@@ -508,13 +508,32 @@ function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolea
   );
   const maxWaitSec = sameOfficialNo ? 1800 : 900;
 
+  // 公式列車番号が異なり、先行便の終着表示が境界駅名そのままで、後続が異なる行先へ5分超で発車する折返し運用を除外
+  const isTurnaroundDifferentService = (
+    prev: TimetableTrip,
+    next: TimetableTrip,
+    boundaryName: string,
+    waitSec: number
+  ): boolean => {
+    if (sameOfficialNo || !prev.trainNumber || !next.trainNumber) return false;
+    const prevDest = prev.customDestination || STATION_MAP.get(prev.destinationStationId)?.name || '';
+    const nextDest = next.customDestination || STATION_MAP.get(next.destinationStationId)?.name || '';
+    return Boolean(
+      prevDest &&
+      nextDest &&
+      prevDest === boundaryName &&
+      nextDest !== boundaryName &&
+      waitSec > 300
+    );
+  };
+
   // A -> B の接続判定（すでに明示的な別ポインタがある側には割り込まない）
   if (!tripA.throughTripId && !tripB.prevTripId && stEndA && stStartB && stEndA.name === stStartB.name) {
     const dist = calcStationDistanceKm(stEndA.lat, stEndA.lng, stStartB.lat, stStartB.lng);
     if (dist <= 2.5) {
       let diffAtoB = startB - endA;
       if (diffAtoB < -43200) diffAtoB += 86400;
-      if (diffAtoB >= -300 && diffAtoB <= maxWaitSec) {
+      if (diffAtoB >= -300 && diffAtoB <= maxWaitSec && !isTurnaroundDifferentService(tripA, tripB, stEndA.name, diffAtoB)) {
         return true;
       }
     }
@@ -526,7 +545,7 @@ function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolea
     if (dist <= 2.5) {
       let diffBtoA = startA - endB;
       if (diffBtoA < -43200) diffBtoA += 86400;
-      if (diffBtoA >= -300 && diffBtoA <= maxWaitSec) {
+      if (diffBtoA >= -300 && diffBtoA <= maxWaitSec && !isTurnaroundDifferentService(tripB, tripA, stEndB.name, diffBtoA)) {
         return true;
       }
     }

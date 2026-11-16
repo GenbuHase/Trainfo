@@ -29,12 +29,12 @@ import {
   interpolateTrackPosition,
   getTrackDistanceKm,
 } from '../src/data/trackGeometry';
-import { resolveActiveTrainInfo } from '../src/services/trainSimulation';
+import { resolveActiveTrainInfo, calculateDynamicSpeed } from '../src/services/trainSimulation';
 import {
   areStationsConnectable,
   findConnectingStationPairs,
 } from '../src/services/testTrainService';
-import { getAllLines, getLine, getAlternateStations } from '../src/data/linesRegistry';
+import { getAllLines, getLine, getAlternateStations, getTrainTypeConfig } from '../src/data/linesRegistry';
 import { loadLinesTimetables } from '../src/data/timetableLoader';
 import { STATION_MAP } from '../src/data/stations';
 import type { LineId, TimetableTrip } from '../src/types';
@@ -479,6 +479,31 @@ async function runAllUnitTests() {
     assert.ok(alps, '特急アルプス (42781) が見つかりません');
     const chainEast = getThroughChainTrips(alps.tripId);
     assert.equal(chainEast.length, 4, `特急アルプス4線チェーン長不正 (${chainEast.length})`);
+  });
+
+  test('calculateDynamicSpeed & getTrainTypeConfig: 異常値防御と長距離駅間加減速抑制', () => {
+    // 1. getTrainTypeConfig の未定義/空文字入力防御
+    const fallbackUndefined = getTrainTypeConfig(undefined as any);
+    assert.equal(fallbackUndefined.name, '普通');
+    assert.equal(fallbackUndefined.shortName, '普通');
+
+    // 2. 長距離駅間（480秒, 平均280km/h）で過度な巡航速度インフレが起きないこと
+    const longCruise = calculateDynamicSpeed({
+      progress: 0.5,
+      avgSpeedKmh: 280,
+      isDepPassing: false,
+      isArrPassing: false,
+      durationSec: 480,
+    });
+    assert.ok(longCruise > 280 && longCruise <= 310, `長距離新幹線巡航速度の過大算出 (${longCruise}km/h)`);
+
+    // 3. 短距離駅間（90秒）では発車直後に緩やかに加速し 5km/h 以上であること
+    const shortStart = calculateDynamicSpeed({
+      progress: 0.05,
+      avgSpeedKmh: 60,
+      durationSec: 90,
+    });
+    assert.ok(shortStart >= 5 && shortStart < 40, `短距離発車直後速度異常 (${shortStart}km/h)`);
   });
 
   console.log('\n================================================================');
