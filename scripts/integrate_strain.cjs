@@ -153,7 +153,7 @@ function main() {
     });
     yTrips.push({
       tripId: yTripId,
-      lineId: 'yurakucho',
+      lineId: 'tokyo_metro_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
       trainType: 'strain',
@@ -282,7 +282,7 @@ function main() {
       customOrigin: '所沢',
       customDestination: '豊洲',
       throughTripId: yTripId,
-      throughLineId: 'yurakucho',
+      throughLineId: 'tokyo_metro_yurakucho',
       cars: 10,
       isHoliday: false,
       stops: syStops,
@@ -297,7 +297,7 @@ function main() {
     });
     yTrips.push({
       tripId: yTripId,
-      lineId: 'yurakucho',
+      lineId: 'tokyo_metro_yurakucho',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
       trainType: 'strain',
@@ -340,7 +340,7 @@ function main() {
     });
     fTrips.push({
       tripId: fTripId,
-      lineId: 'fukutoshin',
+      lineId: 'tokyo_metro_fukutoshin',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
       trainType: 'strain',
@@ -476,7 +476,7 @@ function main() {
       customOrigin: s.origName,
       customDestination: '元町・中華街',
       throughTripId: fTripId,
-      throughLineId: 'fukutoshin',
+      throughLineId: 'tokyo_metro_fukutoshin',
       cars: 10,
       isHoliday: true,
       stops: syStops,
@@ -491,7 +491,7 @@ function main() {
     });
     fTrips.push({
       tripId: fTripId,
-      lineId: 'fukutoshin',
+      lineId: 'tokyo_metro_fukutoshin',
       trainId: s.num,
       trainNumber: s.trainNo || s.num,
       trainType: 'strain',

@@ -73,7 +73,7 @@ const baseSimState: SimulationState = {
   isHoliday: false,
   globalDelayMinutes: 0,
   randomDelays: {},
-  selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin', 'tokyu_toyoko', 'minatomirai'],
+  selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin', 'tokyu_toyoko', 'minatomirai'],
 };
 
 // 小手指9:40発 準急元町・中華街行
@@ -108,7 +108,7 @@ const state1030 = { ...baseSimState, currentSec: timeStringToSeconds('10:30:00')
 const active1030 = calculateActiveTrains(state1030);
 const selected1030 = resolveSelectedTrain(mmTripId, active1030);
 assert.ok(selected1030, '10:30時点で巻き戻し先列車が選択されること');
-assert.strictEqual(selected1030.lineId, 'fukutoshin', '10:30時点では副都心線トリップに巻き戻されること');
+assert.strictEqual(selected1030.lineId, 'tokyo_metro_fukutoshin', '10:30時点では副都心線トリップに巻き戻されること');
 console.log('✅ テスト4: 10:30へ巻き戻し時、副都心線の同一列車を正確に特定:', selected1030.tripId);
 
 // 5. さらに巻き戻す: 09:50 (西武池袋線走行中)

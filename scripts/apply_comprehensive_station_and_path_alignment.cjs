@@ -31,7 +31,7 @@ const RULES = [
   // 1. 和光市 (TJ-11)
   {
     name: '和光市 (東武東上線)',
-    lineId: 'tojo',
+    lineId: 'tobu_tojo',
     stationId: 'TJ-11',
     targetCoord: [35.7883529, 139.6128678],
     segments: [
@@ -84,7 +84,7 @@ const RULES = [
   // 3. 小竹向原 (F-06: 副都心線)
   {
     name: '小竹向原 (副都心線)',
-    lineId: 'fukutoshin',
+    lineId: 'tokyo_metro_fukutoshin',
     stationId: 'F-06',
     targetCoord: [35.7429781, 139.6807045],
     segments: [
@@ -224,7 +224,7 @@ const RULES = [
   // 9. 長野 (SRK-01: 北しなの線)
   {
     name: '長野 (北しなの線)',
-    lineId: 'kita_shinano',
+    lineId: 'shinano_kita_shinano',
     stationId: 'SRK-01',
     targetCoord: [36.643211, 138.1884854],
     segments: [
@@ -325,7 +325,7 @@ const RULES = [
   // 14. 直江津 (ETM-10: 妙高はねうま, ETH-13: 日本海ひすい)
   {
     name: '直江津 (妙高はねうま)',
-    lineId: 'myoko_haneuma',
+    lineId: 'echigo_tokimeki_myoko_haneuma',
     stationId: 'ETM-10',
     targetCoord: [37.170251, 138.242265],
     segments: [
@@ -342,7 +342,7 @@ const RULES = [
   },
   {
     name: '直江津 (日本海ひすい)',
-    lineId: 'nihonkai_hisui',
+    lineId: 'echigo_tokimeki_nihonkai_hisui',
     stationId: 'ETH-13',
     targetCoord: [37.170251, 138.242265],
     segments: [

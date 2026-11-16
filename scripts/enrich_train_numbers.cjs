@@ -2097,16 +2097,16 @@ function enrichOgose() {
 // 実行エントリーポイント
 const target = process.argv[2] || 'all';
 
-if (target === 'tojo' || target === 'all') {
+if (target === 'tobu_tojo' || target === 'all') {
   enrichTojo();
 }
-if (target === 'ogose' || target === 'all') {
+if (target === 'tobu_ogose' || target === 'all') {
   enrichOgose();
 }
-if (target === 'yurakucho' || target === 'all') {
+if (target === 'tokyo_metro_yurakucho' || target === 'all') {
   enrichYurakucho();
 }
-if (target === 'fukutoshin' || target === 'all') {
+if (target === 'tokyo_metro_fukutoshin' || target === 'all') {
   enrichFukutoshin();
 }
 if (target === 'seibu_yurakucho' || target === 'all') {
@@ -2154,26 +2154,26 @@ if (target === 'oito' || target === 'jr' || target === 'all') {
 if (target === 'chichibu' || target === 'all') {
   enrichChichibu();
 }
-if (target === 'chiyoda' || target === 'all') {
+if (target === 'tokyo_metro_chiyoda' || target === 'all') {
   enrichChiyoda();
 }
-if (target === 'hibiya' || target === 'metro' || target === 'all') {
-  enrichMetroLine('hibiya', '東京メトロ日比谷線');
+if (target === 'tokyo_metro_hibiya' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_hibiya', '東京メトロ日比谷線');
 }
-if (target === 'marunouchi' || target === 'metro' || target === 'all') {
-  enrichMetroLine('marunouchi', '東京メトロ丸ノ内線');
+if (target === 'tokyo_metro_marunouchi' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_marunouchi', '東京メトロ丸ノ内線');
 }
-if (target === 'hanzomon' || target === 'metro' || target === 'all') {
-  enrichMetroLine('hanzomon', '東京メトロ半蔵門線');
+if (target === 'tokyo_metro_hanzomon' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_hanzomon', '東京メトロ半蔵門線');
 }
-if (target === 'ginza' || target === 'metro' || target === 'all') {
-  enrichMetroLine('ginza', '東京メトロ銀座線');
+if (target === 'tokyo_metro_ginza' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_ginza', '東京メトロ銀座線');
 }
-if (target === 'namboku' || target === 'metro' || target === 'all') {
-  enrichMetroLine('namboku', '東京メトロ南北線');
+if (target === 'tokyo_metro_namboku' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_namboku', '東京メトロ南北線');
 }
-if (target === 'tozai' || target === 'metro' || target === 'all') {
-  enrichMetroLine('tozai', '東京メトロ東西線');
+if (target === 'tokyo_metro_tozai' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_tozai', '東京メトロ東西線');
 }
 if (target === 'joban' || target === 'jr_joban_local' || target === 'jr' || target === 'all') {
   enrichJobanLocal();
@@ -2247,17 +2247,17 @@ if (target === 'jr_banetsu_east' || target === 'jr' || target === 'all') {
 if (target === 'jr_hokuriku_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
   enrichGenericLine('jr_hokuriku_shinkansen', 'JR北陸新幹線');
 }
-if (target === 'myoko_haneuma' || target === 'echigo' || target === 'all') {
-  enrichGenericLine('myoko_haneuma', 'えちごトキめき鉄道妙高はねうまライン');
+if (target === 'echigo_tokimeki_myoko_haneuma' || target === 'echigo' || target === 'all') {
+  enrichGenericLine('echigo_tokimeki_myoko_haneuma', 'えちごトキめき鉄道妙高はねうまライン');
 }
-if (target === 'nihonkai_hisui' || target === 'echigo' || target === 'all') {
-  enrichGenericLine('nihonkai_hisui', 'えちごトキめき鉄道日本海ひすいライン');
+if (target === 'echigo_tokimeki_nihonkai_hisui' || target === 'echigo' || target === 'all') {
+  enrichGenericLine('echigo_tokimeki_nihonkai_hisui', 'えちごトキめき鉄道日本海ひすいライン');
 }
 if (target === 'hokuhoku' || target === 'all') {
   enrichGenericLine('hokuhoku', '北越急行ほくほく線');
 }
-if (target === 'kita_shinano' || target === 'shinano' || target === 'all') {
-  enrichGenericLine('kita_shinano', 'しなの鉄道北しなの線');
+if (target === 'shinano_kita_shinano' || target === 'shinano' || target === 'all') {
+  enrichGenericLine('shinano_kita_shinano', 'しなの鉄道北しなの線');
 }
 if (target === 'tobu_skytree' || target === 'tobu' || target === 'all') {
   enrichGenericLine('tobu_skytree', '東武スカイツリーライン');
@@ -4088,7 +4088,7 @@ function enrichMetroLine(lineId, lineName) {
   let fallbackCount = 0;
   const trainIdToOfficialNo = new Map();
 
-  const isReversed = (lineId === 'marunouchi' || lineId === 'namboku');
+  const isReversed = (lineId === 'tokyo_metro_marunouchi' || lineId === 'tokyo_metro_namboku');
 
   for (const trip of trips) {
     const originalId = trip.trainId || trip.trainNumber;

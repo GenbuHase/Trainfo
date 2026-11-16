@@ -59,7 +59,7 @@ console.log(`Max point-to-point distance: ${maxDist.toFixed(1)}m at index ${maxI
 const stationDefs = [
   {
     id: 'TJ-26',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 26,
     name: '坂戸',
     nameKana: 'さかど',
@@ -74,7 +74,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-41',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 41,
     name: '一本松',
     nameKana: 'いっぽんまつ',
@@ -89,7 +89,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-42',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 42,
     name: '西大家',
     nameKana: 'にしおおや',
@@ -104,7 +104,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-43',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 43,
     name: '川角',
     nameKana: 'かわかど',
@@ -119,7 +119,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-44',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 44,
     name: '武州長瀬',
     nameKana: 'ぶしゅうながせ',
@@ -134,7 +134,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-45',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 45,
     name: '東毛呂',
     nameKana: 'ひがしもろ',
@@ -149,7 +149,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-46',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 46,
     name: '武州唐沢',
     nameKana: 'ぶしゅうからさわ',
@@ -164,7 +164,7 @@ const stationDefs = [
   },
   {
     id: 'TJ-47',
-    lineId: 'ogose',
+    lineId: 'tobu_ogose',
     number: 47,
     name: '越生',
     nameKana: 'おごせ',

@@ -1,6 +1,6 @@
 import type { LineDefinition, LineId, RegionArea, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore, CustomTrainTypeConfig } from '../types';
-import { tojoLine } from './lines/tojo';
-import { ogoseLine } from './lines/ogose';
+import { tojoLine } from './lines/tobu_tojo';
+import { ogoseLine } from './lines/tobu_ogose';
 import { saikyoLine } from './lines/jr_saikyo';
 import { kawagoeLine } from './lines/jr_kawagoe';
 import { musashinoLine } from './lines/jr_musashino';
@@ -11,8 +11,8 @@ import { shinonoiLine } from './lines/jr_shinonoi';
 import { oitoEastLine } from './lines/jr_oito_east';
 import { oitoWestLine } from './lines/jr_oito_west';
 import { rinkaiLine } from './lines/rinkai';
-import { yurakuchoLine } from './lines/yurakucho';
-import { fukutoshinLine } from './lines/fukutoshin';
+import { yurakuchoLine } from './lines/tokyo_metro_yurakucho';
+import { fukutoshinLine } from './lines/tokyo_metro_fukutoshin';
 import { seibuIkebukuroLine } from './lines/seibu_ikebukuro';
 import { seibuYurakuchoLine } from './lines/seibu_yurakucho';
 import { hachikoLine } from './lines/jr_hachiko';
@@ -29,7 +29,7 @@ import { sotetsuShinYokohamaLine } from './lines/sotetsu_shin_yokohama';
 import { sotetsuMainLine } from './lines/sotetsu_main';
 import { sotetsuIzuminoLine } from './lines/sotetsu_izumino';
 import { sotetsuJrDirectLine } from './lines/jr_sotetsu_jr_direct';
-import { chiyodaLine } from './lines/chiyoda';
+import { chiyodaLine } from './lines/tokyo_metro_chiyoda';
 import { jobanLocalLine } from './lines/jr_joban_local';
 import { jobanRapidLine } from './lines/jr_joban_rapid';
 import { jobanTorideIwakiLine } from './lines/jr_joban_toride_iwaki';
@@ -53,9 +53,9 @@ import { uetsuMainLine } from './lines/jr_uetsu_main';
 import { tadamiLine } from './lines/jr_tadami';
 import { banetsuWestLine } from './lines/jr_banetsu_west';
 import { banetsuEastLine } from './lines/jr_banetsu_east';
-import { myokoHaneumaLine } from './lines/myoko_haneuma';
-import { kitaShinanoLine } from './lines/kita_shinano';
-import { nihonkaiHisuiLine } from './lines/nihonkai_hisui';
+import { myokoHaneumaLine } from './lines/echigo_tokimeki_myoko_haneuma';
+import { kitaShinanoLine } from './lines/shinano_kita_shinano';
+import { nihonkaiHisuiLine } from './lines/echigo_tokimeki_nihonkai_hisui';
 import { hokuhokuLine } from './lines/hokuhoku';
 import { hokurikuShinkansenLine } from './lines/jr_hokuriku_shinkansen';
 import { tobuSkytreeLine } from './lines/tobu_skytree';
@@ -81,12 +81,12 @@ import { fujikyuLine } from './lines/fujikyu';
 import { gotembaLine } from './lines/jr_gotemba';
 import { izukyuLine } from './lines/izukyu';
 import { izuhakoneSunzuLine } from './lines/izuhakone_sunzu';
-import { hibiyaLine } from './lines/hibiya';
-import { marunouchiLine } from './lines/marunouchi';
-import { hanzomonLine } from './lines/hanzomon';
-import { ginzaLine } from './lines/ginza';
-import { nambokuLine } from './lines/namboku';
-import { tozaiLine } from './lines/tozai';
+import { hibiyaLine } from './lines/tokyo_metro_hibiya';
+import { marunouchiLine } from './lines/tokyo_metro_marunouchi';
+import { hanzomonLine } from './lines/tokyo_metro_hanzomon';
+import { ginzaLine } from './lines/tokyo_metro_ginza';
+import { nambokuLine } from './lines/tokyo_metro_namboku';
+import { tozaiLine } from './lines/tokyo_metro_tozai';
 import { yamanoteLine } from './lines/jr_yamanote';
 import { keiyoLine } from './lines/jr_keiyo';
 import { sotoboLine } from './lines/jr_sotobo';
@@ -326,15 +326,15 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   jr_oito_west: oitoWestLine,
 
   // === 東京メトロ ===
-  ginza: ginzaLine,
-  marunouchi: marunouchiLine,
-  hibiya: hibiyaLine,
-  tozai: tozaiLine,
-  chiyoda: chiyodaLine,
-  yurakucho: yurakuchoLine,
-  hanzomon: hanzomonLine,
-  namboku: nambokuLine,
-  fukutoshin: fukutoshinLine,
+  tokyo_metro_ginza: ginzaLine,
+  tokyo_metro_marunouchi: marunouchiLine,
+  tokyo_metro_hibiya: hibiyaLine,
+  tokyo_metro_tozai: tozaiLine,
+  tokyo_metro_chiyoda: chiyodaLine,
+  tokyo_metro_yurakucho: yurakuchoLine,
+  tokyo_metro_hanzomon: hanzomonLine,
+  tokyo_metro_namboku: nambokuLine,
+  tokyo_metro_fukutoshin: fukutoshinLine,
 
   // === 東武鉄道 ===
   tobu_skytree: tobuSkytreeLine,
@@ -348,8 +348,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tobu_utsunomiya: tobuUtsunomiyaLine,
   tobu_kinugawa: tobuKinugawaLine,
   tobu_urban_park: tobuUrbanParkLine,
-  tojo: tojoLine,
-  ogose: ogoseLine,
+  tobu_tojo: tojoLine,
+  tobu_ogose: ogoseLine,
 
   // === 西武鉄道 ===
   seibu_ikebukuro: seibuIkebukuroLine,
@@ -400,11 +400,11 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   hokuhoku: hokuhokuLine,
 
   // === えちごトキめき鉄道 ===
-  myoko_haneuma: myokoHaneumaLine,
-  nihonkai_hisui: nihonkaiHisuiLine,
+  echigo_tokimeki_myoko_haneuma: myokoHaneumaLine,
+  echigo_tokimeki_nihonkai_hisui: nihonkaiHisuiLine,
 
   // === しなの鉄道 ===
-  kita_shinano: kitaShinanoLine,
+  shinano_kita_shinano: kitaShinanoLine,
 
   // === IGRいわて銀河鉄道 ===
   igr_iwate_ginga: igrIwateGingaLine,
@@ -619,15 +619,15 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   jr_kobe: 'kansai',
   jr_gotemba: 'tokai',
   jr_oito_west: 'koshinetsu',
-  ginza: 'kanto',
-  marunouchi: 'kanto',
-  hibiya: 'kanto',
-  tozai: 'kanto',
-  chiyoda: 'kanto',
-  yurakucho: 'kanto',
-  hanzomon: 'kanto',
-  namboku: 'kanto',
-  fukutoshin: 'kanto',
+  tokyo_metro_ginza: 'kanto',
+  tokyo_metro_marunouchi: 'kanto',
+  tokyo_metro_hibiya: 'kanto',
+  tokyo_metro_tozai: 'kanto',
+  tokyo_metro_chiyoda: 'kanto',
+  tokyo_metro_yurakucho: 'kanto',
+  tokyo_metro_hanzomon: 'kanto',
+  tokyo_metro_namboku: 'kanto',
+  tokyo_metro_fukutoshin: 'kanto',
   tobu_skytree: 'kanto',
   tobu_isesaki: 'kanto',
   tobu_kameido: 'kanto',
@@ -639,8 +639,8 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   tobu_utsunomiya: 'kanto',
   tobu_kinugawa: 'kanto',
   tobu_urban_park: 'kanto',
-  tojo: 'kanto',
-  ogose: 'kanto',
+  tobu_tojo: 'kanto',
+  tobu_ogose: 'kanto',
   seibu_ikebukuro: 'kanto',
   seibu_yurakucho: 'kanto',
   odakyu_odawara: 'kanto',
@@ -661,9 +661,9 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   yagan: 'tohoku',
   aizu: 'tohoku',
   hokuhoku: 'koshinetsu',
-  myoko_haneuma: 'koshinetsu',
-  nihonkai_hisui: 'koshinetsu',
-  kita_shinano: 'koshinetsu',
+  echigo_tokimeki_myoko_haneuma: 'koshinetsu',
+  echigo_tokimeki_nihonkai_hisui: 'koshinetsu',
+  shinano_kita_shinano: 'koshinetsu',
   igr_iwate_ginga: 'tohoku',
   aoimori: 'tohoku',
 };

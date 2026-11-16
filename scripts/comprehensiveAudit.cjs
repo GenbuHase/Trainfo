@@ -11,7 +11,7 @@ const LINES = [
     stationTtFile: 'src/data/lines/tsukuba_express/stationTimetables.json',
   },
   {
-    id: 'tojo',
+    id: 'tobu_tojo',
     name: '東武東上線',
     stationsFile: 'src/data/lines/tojo/stations.ts',
     trainTypesFile: 'src/data/lines/tojo/trainTypes.ts',

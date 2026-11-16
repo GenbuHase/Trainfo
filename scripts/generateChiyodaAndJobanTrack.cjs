@@ -447,7 +447,7 @@ const chiyodaStations = chiyodaStationDefs.map(s => {
   const node = cNodeMap.get(s.nodeId);
   return {
     id: s.id,
-    lineId: 'chiyoda',
+    lineId: 'tokyo_metro_chiyoda',
     number: s.number,
     name: s.name,
     nameKana: s.nameKana,

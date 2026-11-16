@@ -3,7 +3,7 @@ module.exports = {
   "connections": [
     {
       "name": "東京メトロ東西線 -> 中央・総武緩行線 (中野・三鷹方面直通)",
-      "lineA": "tozai",
+      "lineA": "tokyo_metro_tozai",
       "lineB": "jr_chuo_sobu_local",
       "stationA": "T-01",
       "stationB": "JB-07",
@@ -14,7 +14,7 @@ module.exports = {
     {
       "name": "中央・総武緩行線 -> 東京メトロ東西線 (中野・西船橋方面直通)",
       "lineA": "jr_chuo_sobu_local",
-      "lineB": "tozai",
+      "lineB": "tokyo_metro_tozai",
       "stationA": "JB-07",
       "stationB": "T-01",
       "dirA": "outbound",
@@ -23,7 +23,7 @@ module.exports = {
     },
     {
       "name": "東京メトロ東西線 -> 中央・総武緩行線 (西船橋・津田沼方面直通)",
-      "lineA": "tozai",
+      "lineA": "tokyo_metro_tozai",
       "lineB": "jr_chuo_sobu_local",
       "stationA": "T-23",
       "stationB": "JB-30",
@@ -34,7 +34,7 @@ module.exports = {
     {
       "name": "中央・総武緩行線 -> 東京メトロ東西線 (西船橋・中野方面直通)",
       "lineA": "jr_chuo_sobu_local",
-      "lineB": "tozai",
+      "lineB": "tokyo_metro_tozai",
       "stationA": "JB-30",
       "stationB": "T-23",
       "dirA": "inbound",
@@ -628,7 +628,7 @@ module.exports = {
     },
     {
       "name": "副都心線 -> 東横線 (下り)",
-      "lineA": "fukutoshin",
+      "lineA": "tokyo_metro_fukutoshin",
       "lineB": "tokyu_toyoko",
       "stationA": "F-16",
       "stationB": "TY-01",
@@ -639,7 +639,7 @@ module.exports = {
     {
       "name": "東横線 -> 副都心線 (上り)",
       "lineA": "tokyu_toyoko",
-      "lineB": "fukutoshin",
+      "lineB": "tokyo_metro_fukutoshin",
       "stationA": "TY-01",
       "stationB": "F-16",
       "dirA": "inbound",
@@ -708,8 +708,8 @@ module.exports = {
     },
     {
       "name": "副都心線 -> 東武東上線 (上り/下り直通)",
-      "lineA": "fukutoshin",
-      "lineB": "tojo",
+      "lineA": "tokyo_metro_fukutoshin",
+      "lineB": "tobu_tojo",
       "stationA": "F-01",
       "stationB": "TJ-11",
       "dirA": "inbound",
@@ -719,8 +719,8 @@ module.exports = {
     },
     {
       "name": "東武東上線 -> 副都心線 (上り/下り直通)",
-      "lineA": "tojo",
-      "lineB": "fukutoshin",
+      "lineA": "tobu_tojo",
+      "lineB": "tokyo_metro_fukutoshin",
       "stationA": "TJ-11",
       "stationB": "F-01",
       "dirA": "inbound",
@@ -730,8 +730,8 @@ module.exports = {
     },
     {
       "name": "有楽町線 -> 東武東上線 (上り/下り直通)",
-      "lineA": "yurakucho",
-      "lineB": "tojo",
+      "lineA": "tokyo_metro_yurakucho",
+      "lineB": "tobu_tojo",
       "stationA": "Y-01",
       "stationB": "TJ-11",
       "dirA": "inbound",
@@ -741,8 +741,8 @@ module.exports = {
     },
     {
       "name": "東武東上線 -> 有楽町線 (上り/下り直通)",
-      "lineA": "tojo",
-      "lineB": "yurakucho",
+      "lineA": "tobu_tojo",
+      "lineB": "tokyo_metro_yurakucho",
       "stationA": "TJ-11",
       "stationB": "Y-01",
       "dirA": "inbound",
@@ -752,7 +752,7 @@ module.exports = {
     },
     {
       "name": "有楽町線 -> 西武有楽町線 (下り)",
-      "lineA": "yurakucho",
+      "lineA": "tokyo_metro_yurakucho",
       "lineB": "seibu_yurakucho",
       "stationA": "Y-06",
       "stationB": "SI-37",
@@ -764,7 +764,7 @@ module.exports = {
     {
       "name": "西武有楽町線 -> 有楽町線 (上り)",
       "lineA": "seibu_yurakucho",
-      "lineB": "yurakucho",
+      "lineB": "tokyo_metro_yurakucho",
       "stationA": "SI-37",
       "stationB": "Y-06",
       "dirA": "inbound",
@@ -774,7 +774,7 @@ module.exports = {
     },
     {
       "name": "副都心線 -> 西武有楽町線 (下り)",
-      "lineA": "fukutoshin",
+      "lineA": "tokyo_metro_fukutoshin",
       "lineB": "seibu_yurakucho",
       "stationA": "F-06",
       "stationB": "SI-37",
@@ -786,7 +786,7 @@ module.exports = {
     {
       "name": "西武有楽町線 -> 副都心線 (上り)",
       "lineA": "seibu_yurakucho",
-      "lineB": "fukutoshin",
+      "lineB": "tokyo_metro_fukutoshin",
       "stationA": "SI-37",
       "stationB": "F-06",
       "dirA": "inbound",
@@ -900,7 +900,7 @@ module.exports = {
     {
       "name": "小田急小田原線 -> 千代田線 (上り/我孫子方面直通)",
       "lineA": "odakyu_odawara",
-      "lineB": "chiyoda",
+      "lineB": "tokyo_metro_chiyoda",
       "stationA": "OH-05",
       "stationB": "C-01",
       "dirA": "inbound",
@@ -909,7 +909,7 @@ module.exports = {
     },
     {
       "name": "千代田線 -> 小田急小田原線 (下り/本厚木・小田原方面直通)",
-      "lineA": "chiyoda",
+      "lineA": "tokyo_metro_chiyoda",
       "lineB": "odakyu_odawara",
       "stationA": "C-01",
       "stationB": "OH-05",
@@ -919,7 +919,7 @@ module.exports = {
     },
     {
       "name": "千代田線 -> JR常磐線各停 (下り/柏・我孫子・取手方面直通)",
-      "lineA": "chiyoda",
+      "lineA": "tokyo_metro_chiyoda",
       "lineB": "jr_joban_local",
       "stationA": "C-19",
       "stationB": "JL-19",
@@ -930,7 +930,7 @@ module.exports = {
     {
       "name": "JR常磐線各停 -> 千代田線 (上り/代々木上原方面直通)",
       "lineA": "jr_joban_local",
-      "lineB": "chiyoda",
+      "lineB": "tokyo_metro_chiyoda",
       "stationA": "JL-19",
       "stationB": "C-19",
       "dirA": "inbound",
@@ -1429,7 +1429,7 @@ module.exports = {
     {
       "name": "信越本線 -> 妙高はねうまライン (特急しらゆき 新潟発・直江津経由・新井・上越妙高方面直通)",
       "lineA": "jr_shinetsu_naoetsu_niigata",
-      "lineB": "myoko_haneuma",
+      "lineB": "echigo_tokimeki_myoko_haneuma",
       "stationA": "SE-01",
       "stationB": "ETM-10",
       "dirA": "inbound",
@@ -1438,7 +1438,7 @@ module.exports = {
     },
     {
       "name": "妙高はねうまライン -> 信越本線 (特急しらゆき 新井・上越妙高発・直江津経由・新潟方面直通)",
-      "lineA": "myoko_haneuma",
+      "lineA": "echigo_tokimeki_myoko_haneuma",
       "lineB": "jr_shinetsu_naoetsu_niigata",
       "stationA": "ETM-10",
       "stationB": "SE-01",
@@ -1448,8 +1448,8 @@ module.exports = {
     },
     {
       "name": "北しなの線 -> 妙高はねうまライン (妙高高原経由直通)",
-      "lineA": "kita_shinano",
-      "lineB": "myoko_haneuma",
+      "lineA": "shinano_kita_shinano",
+      "lineB": "echigo_tokimeki_myoko_haneuma",
       "stationA": "SRK-08",
       "stationB": "ETM-01",
       "dirA": "outbound",
@@ -1459,8 +1459,8 @@ module.exports = {
     },
     {
       "name": "妙高はねうまライン -> 北しなの線 (妙高高原経由直通)",
-      "lineA": "myoko_haneuma",
-      "lineB": "kita_shinano",
+      "lineA": "echigo_tokimeki_myoko_haneuma",
+      "lineB": "shinano_kita_shinano",
       "stationA": "ETM-01",
       "stationB": "SRK-08",
       "dirA": "inbound",
@@ -1892,7 +1892,7 @@ module.exports = {
     },
     {
       "name": "日比谷線 -> スカイツリーライン (下り 北千住経由 東武動物公園・南栗橋・久喜方面直通)",
-      "lineA": "hibiya",
+      "lineA": "tokyo_metro_hibiya",
       "lineB": "tobu_skytree",
       "stationA": "H-22",
       "stationB": "TSK-09",
@@ -1903,7 +1903,7 @@ module.exports = {
     {
       "name": "スカイツリーライン -> 日比谷線 (上り 北千住経由 上野・銀座・中目黒方面直通)",
       "lineA": "tobu_skytree",
-      "lineB": "hibiya",
+      "lineB": "tokyo_metro_hibiya",
       "stationA": "TSK-09",
       "stationB": "H-22",
       "dirA": "inbound",
@@ -1912,7 +1912,7 @@ module.exports = {
     },
     {
       "name": "半蔵門線 -> スカイツリーライン (下り 押上経由 東武動物公園・久喜・南栗橋方面直通)",
-      "lineA": "hanzomon",
+      "lineA": "tokyo_metro_hanzomon",
       "lineB": "tobu_skytree",
       "stationA": "Z-14",
       "stationB": "TSK-03",
@@ -1923,7 +1923,7 @@ module.exports = {
     {
       "name": "スカイツリーライン -> 半蔵門線 (上り 押上経由 渋谷・中央林間方面直通)",
       "lineA": "tobu_skytree",
-      "lineB": "hanzomon",
+      "lineB": "tokyo_metro_hanzomon",
       "stationA": "TSK-03",
       "stationB": "Z-14",
       "dirA": "inbound",
@@ -3557,7 +3557,7 @@ module.exports = {
     "sotetsu_"
   ],
   "lineDestinationExclusions": {
-    "yurakucho": {
+    "tokyo_metro_yurakucho": {
       "exact": [
         "元町・中華街",
         "渋谷",
@@ -3571,7 +3571,7 @@ module.exports = {
         "自由が丘"
       ]
     },
-    "fukutoshin": {
+    "tokyo_metro_fukutoshin": {
       "exact": [
         "新木場",
         "豊洲",

@@ -14,7 +14,7 @@ const joban = JSON.parse(fs.readFileSync(jobanPath, 'utf8'));
 console.log(`総便数: 小田急=${odakyu.length}, 千代田=${chiyoda.length}, 常磐=${joban.length}\n`);
 
 // 1. 小田急 -> 千代田 直通便
-const odakyuToChiyoda = odakyu.filter(t => t.throughLineId === 'chiyoda');
+const odakyuToChiyoda = odakyu.filter(t => t.throughLineId === 'tokyo_metro_chiyoda');
 console.log(`1. 小田急 -> 千代田 直通リンク便数: ${odakyuToChiyoda.length}`);
 if (odakyuToChiyoda.length > 0) {
   const sample = odakyuToChiyoda[0];
@@ -34,7 +34,7 @@ if (chiyodaToJoban.length > 0) {
 }
 
 // 3. 常磐 -> 千代田 直通便
-const jobanToChiyoda = joban.filter(t => t.throughLineId === 'chiyoda');
+const jobanToChiyoda = joban.filter(t => t.throughLineId === 'tokyo_metro_chiyoda');
 console.log(`\n3. 常磐 -> 千代田 直通リンク便数: ${jobanToChiyoda.length}`);
 if (jobanToChiyoda.length > 0) {
   const sample = jobanToChiyoda[0];

@@ -135,7 +135,7 @@ async function runAllUnitTests() {
     // 00:30 は鉄道運行日(4:00起点)では 24:30 = 88200秒、または正規化仕様確認
     const sec0030 = hhmmToSeconds('00:30');
     assert.ok(sec0030 === 24 * 3600 + 1800 || sec0030 === 1800, `Unexpected hhmmToSeconds('00:30')=${sec0030}`);
-    assert.ok(getRealCurrentSeconds() >= 0 && getRealCurrentSeconds() < 86400);
+    assert.ok(getRealCurrentSeconds() >= 4 * 3600 && getRealCurrentSeconds() < 28 * 3600);
   });
 
   test('timeStringToSeconds: 時刻パース (04:00〜27:59対応)', () => {

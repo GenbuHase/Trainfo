@@ -202,7 +202,7 @@ async function runAllLinesIntegrationTests() {
     ['sendai_airport', 'jr_tohoku_fukushima_sendai', '名取 (仙台空港線->東北本線)'],
     ['jr_senseki_tohoku', 'jr_senseki', '高城町 (仙石東北ライン->仙石線)'],
     // 関東・首都圏私鉄/JR
-    ['yurakucho', 'seibu_yurakucho', '小竹向原 (有楽町線->西武有楽町線)'],
+    ['tokyo_metro_yurakucho', 'seibu_yurakucho', '小竹向原 (有楽町線->西武有楽町線)'],
     ['seibu_yurakucho', 'seibu_ikebukuro', '練馬 (西武有楽町線->西武池袋線)'],
     ['tokyu_toyoko', 'minatomirai', '横浜 (東急東横線->みなとみらい線)'],
     ['sotetsu_main', 'sotetsu_shin_yokohama', '西谷 (相鉄本線->相鉄新横浜線)'],
@@ -295,7 +295,7 @@ async function runAllLinesIntegrationTests() {
   }
 
   check('首都圏: 西武池袋線 -> 西武有楽町線 -> 副都心線 -> 東急東横線 -> みなとみらい線 5線直通', () => {
-    const fuk = getLine('fukutoshin')!;
+    const fuk = getLine('tokyo_metro_fukutoshin')!;
     const seibuYu = getLine('seibu_yurakucho')!;
     const toyoko = getLine('tokyu_toyoko')!;
     const seibuIke = getLine('seibu_ikebukuro')!;
@@ -306,7 +306,7 @@ async function runAllLinesIntegrationTests() {
     const fiveLineTrip = seibuIke.globalTimetable.find((t) => {
       if (t.isHoliday || t.throughLineId !== 'seibu_yurakucho' || !t.throughTripId) return false;
       const t2 = seibuYuMap.get(t.throughTripId);
-      if (!t2 || t2.throughLineId !== 'fukutoshin' || !t2.throughTripId) return false;
+      if (!t2 || t2.throughLineId !== 'tokyo_metro_fukutoshin' || !t2.throughTripId) return false;
       const t3 = fukMap.get(t2.throughTripId);
       if (!t3 || t3.throughLineId !== 'tokyu_toyoko' || !t3.throughTripId) return false;
       const t4 = toyokoMap.get(t3.throughTripId);
@@ -315,8 +315,8 @@ async function runAllLinesIntegrationTests() {
     assert.ok(fiveLineTrip, '西武〜副都心〜東急〜MM線 5線直通便が見つかりません');
     const res = traceTrip(
       fiveLineTrip,
-      ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin', 'tokyu_toyoko', 'minatomirai'],
-      ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin', 'tokyu_toyoko', 'minatomirai']
+      ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin', 'tokyu_toyoko', 'minatomirai'],
+      ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin', 'tokyu_toyoko', 'minatomirai']
     );
     console.log(`       5線直通成功: ${res.seenLines.join(' -> ')}, 最大30s移動=${res.maxJumpKm.toFixed(2)}km`);
   });
@@ -455,7 +455,7 @@ async function runAllLinesIntegrationTests() {
     assert.equal(ism.length, 1, `石巻線 1632D の部分重複が残存 (${ism.length})`);
     const kst = getLine('jr_kusatsu')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '5355M');
     assert.equal(kst.length, 1, `草津線 5355M の部分重複が残存 (${kst.length})`);
-    const srk = getLine('kita_shinano')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '329M');
+    const srk = getLine('shinano_kita_shinano')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '329M');
     assert.equal(srk.length, 1, `北しなの線 329M の部分重複が残存 (${srk.length})`);
   });
 

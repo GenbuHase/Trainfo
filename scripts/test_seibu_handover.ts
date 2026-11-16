@@ -61,7 +61,7 @@ function resolveSelectedTrain(
 async function main() {
   console.log('=== 西武鉄道 ↔ 東京メトロ 3路線相互直通 & S-TRAIN ハンドオーバーテスト ===\n');
 
-  await loadLinesTimetables(['yurakucho', 'fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro']);
+  await loadLinesTimetables(['tokyo_metro_yurakucho', 'tokyo_metro_fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro']);
 
   // 1. 下り3路線直通のサンプル探索 (有楽町線 -> 西武有楽町線 -> 西武池袋線)
   console.log('--- 探索: 有楽町線 -> 西武有楽町線 -> 西武池袋線 3路線貫通列車 ---');
@@ -114,7 +114,7 @@ if (test1Y && test1SY && test1SI) {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['yurakucho', 'seibu_yurakucho', 'seibu_ikebukuro'],
+      selectedLineIds: ['tokyo_metro_yurakucho', 'seibu_yurakucho', 'seibu_ikebukuro'],
     });
 
     if (!tracked) {
@@ -188,7 +188,7 @@ if (test2SI && test2SY && test2F) {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin'],
+      selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin'],
     });
 
     if (!tracked) {
@@ -201,7 +201,7 @@ if (test2SI && test2SY && test2F) {
     console.log(`[時刻 ${timeStr}] 追尾ID: ${tracked?.tripId} | 路線: ${tracked?.lineId} | 種別: ${tracked?.trainType} | 行先: ${tracked?.customDestination} | 駅: ${tracked?.currentStationId} -> ${tracked?.nextStationId}`);
   }
 
-  if (tracked && tracked.lineId === 'fukutoshin' && tracked.tripId === test2F.tripId) {
+  if (tracked && tracked.lineId === 'tokyo_metro_fukutoshin' && tracked.tripId === test2F.tripId) {
     console.log('✅ テスト2 成功: 西武池袋線 -> 西武有楽町線 -> 副都心線 3路線完全貫通追尾成功！\n');
   } else {
     console.error('❌ テスト2 失敗: 副都心線へのハンドオーバーが行われませんでした。\n');
@@ -249,7 +249,7 @@ for (const timeStr of sTrainTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'yurakucho'],
+    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_yurakucho'],
   });
 
   if (!trackedS) {
@@ -266,7 +266,7 @@ for (const timeStr of sTrainTimes) {
   }
 }
 
-if (trackedS && trackedS.lineId === 'yurakucho' && trackedS.trainType === 'strain') {
+if (trackedS && trackedS.lineId === 'tokyo_metro_yurakucho' && trackedS.trainType === 'strain') {
   if (trackedS.trainName !== 'S-TRAIN 102号') {
     console.error(`❌ テスト3 失敗: trainName が '${trackedS.trainName}' です（期待値: 'S-TRAIN 102号'）`);
     process.exit(1);
@@ -316,7 +316,7 @@ for (const timeStr of sTrain1Times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro'],
+    selectedLineIds: ['tokyo_metro_fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro'],
   });
 
   if (!trackedS1) {
@@ -382,7 +382,7 @@ for (const timeStr of sTrain2Times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin'],
+    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin'],
   });
 
   if (!trackedS2) {
@@ -399,7 +399,7 @@ for (const timeStr of sTrain2Times) {
   }
 }
 
-if (trackedS2 && trackedS2.lineId === 'fukutoshin' && trackedS2.trainType === 'strain') {
+if (trackedS2 && trackedS2.lineId === 'tokyo_metro_fukutoshin' && trackedS2.trainType === 'strain') {
   if (trackedS2.trainName !== 'S-TRAIN 2号') {
     console.error(`❌ テスト5 失敗: trainName が '${trackedS2.trainName}' です（期待値: 'S-TRAIN 2号'）`);
     process.exit(1);

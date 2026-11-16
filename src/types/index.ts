@@ -1,8 +1,8 @@
 // Trainfo 共通型定義ファイル
 
 export type LineId =
-  | 'tojo'
-  | 'ogose'
+  | 'tobu_tojo'
+  | 'tobu_ogose'
   | 'jr_saikyo'
   | 'jr_kawagoe'
   | 'rinkai'
@@ -15,14 +15,14 @@ export type LineId =
   | 'jr_shinonoi'
   | 'jr_oito_east'
   | 'jr_oito_west'
-  | 'yurakucho'
-  | 'fukutoshin'
-  | 'hibiya'
-  | 'marunouchi'
-  | 'hanzomon'
-  | 'ginza'
-  | 'namboku'
-  | 'tozai'
+  | 'tokyo_metro_yurakucho'
+  | 'tokyo_metro_fukutoshin'
+  | 'tokyo_metro_hibiya'
+  | 'tokyo_metro_marunouchi'
+  | 'tokyo_metro_hanzomon'
+  | 'tokyo_metro_ginza'
+  | 'tokyo_metro_namboku'
+  | 'tokyo_metro_tozai'
   | 'seibu_ikebukuro'
   | 'seibu_yurakucho'
   | 'jr_ome'
@@ -37,7 +37,7 @@ export type LineId =
   | 'sotetsu_main'
   | 'sotetsu_izumino'
   | 'jr_sotetsu_jr_direct'
-  | 'chiyoda'
+  | 'tokyo_metro_chiyoda'
   | 'jr_joban_local'
   | 'jr_joban_rapid'
   | 'jr_joban_toride_iwaki'
@@ -61,9 +61,9 @@ export type LineId =
   | 'jr_tadami'
   | 'jr_banetsu_west'
   | 'jr_banetsu_east'
-  | 'myoko_haneuma'
-  | 'kita_shinano'
-  | 'nihonkai_hisui'
+  | 'echigo_tokimeki_myoko_haneuma'
+  | 'shinano_kita_shinano'
+  | 'echigo_tokimeki_nihonkai_hisui'
   | 'hokuhoku'
   | 'jr_hokuriku_shinkansen'
   | 'tobu_skytree'
@@ -276,7 +276,7 @@ export interface StationFacilities {
 export interface Station {
   id: string;          // 例: 'TJ-01', 'JA-12'
   stationNumber?: string; // 公式・表示用駅ナンバリング (例: 'JU-01', 'TJ-01')。ナンバリングなし駅は未定義
-  lineId: LineId;      // 所属路線 ('tojo', 'jr_saikyo' 等)
+  lineId: LineId;      // 所属路線 ('tobu_tojo', 'jr_saikyo' 等)
   number: number;      // ナンバリング番号または駅順
   name: string;        // '池袋'
   nameKana: string;    // 'いけぶくろ'

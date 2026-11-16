@@ -70,7 +70,7 @@ for (const t of times1) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['tojo', 'yurakucho'],
+    selectedLineIds: ['tobu_tojo', 'tokyo_metro_yurakucho'],
   });
 
   if (!tracked1) {
@@ -83,7 +83,7 @@ for (const t of times1) {
   console.log(`[時刻 ${t.time}] 追尾中ID: ${tracked1?.tripId} | 路線: ${tracked1?.lineId} | 種別: ${tracked1?.trainType} | 行先: ${tracked1?.customDestination} | 現在駅: ${tracked1?.currentStationId} -> 次: ${tracked1?.nextStationId} (${t.desc})`);
 }
 
-if (tracked1 && tracked1.tripId === yTrip1 && tracked1.lineId === 'yurakucho') {
+if (tracked1 && tracked1.tripId === yTrip1 && tracked1.lineId === 'tokyo_metro_yurakucho') {
   console.log('✅ テスト1 成功: 東上線から有楽町線へ正常に越境ハンドオーバーされました！\n');
 } else {
   console.error('❌ テスト1 失敗: 有楽町線へのハンドオーバーが行われませんでした。\n');
@@ -118,7 +118,7 @@ for (const t of times2) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['tojo', 'fukutoshin'],
+    selectedLineIds: ['tobu_tojo', 'tokyo_metro_fukutoshin'],
   });
 
   if (!tracked2) {
@@ -131,7 +131,7 @@ for (const t of times2) {
   console.log(`[時刻 ${t.time}] 追尾中ID: ${tracked2?.tripId} | 路線: ${tracked2?.lineId} | 種別: ${tracked2?.trainType} | 行先: ${tracked2?.customDestination} | 現在駅: ${tracked2?.currentStationId} -> 次: ${tracked2?.nextStationId} (${t.desc})`);
 }
 
-if (tracked2 && tracked2.tripId === fTrip2 && tracked2.lineId === 'fukutoshin') {
+if (tracked2 && tracked2.tripId === fTrip2 && tracked2.lineId === 'tokyo_metro_fukutoshin') {
   console.log('✅ テスト2 成功: 東上線から副都心線へ正常に越境ハンドオーバーされました！\n');
 } else {
   console.error('❌ テスト2 失敗: 副都心線へのハンドオーバーが行われませんでした。\n');
@@ -154,7 +154,7 @@ for (const tm of times3) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['yurakucho'],
+    selectedLineIds: ['tokyo_metro_yurakucho'],
   });
   tracked3 = resolveSelectedTrain(active, tracked3?.tripId || null, lastSelected3);
   if (tracked3) lastSelected3 = tracked3;
@@ -170,7 +170,7 @@ if (tracked3 === null) {
 
 // テスト4: throughLineId による自動路線追加判定
 console.log('--- テスト4: throughLineId による直通先路線の自動追加判定 ---');
-let selectedLineIds = ['tojo'];
+let selectedLineIds = ['tobu_tojo'];
 const currentTrain = calculateActiveTrains({
   currentSec: timeStringToSeconds('05:55:00'),
   isHoliday: false,
@@ -178,7 +178,7 @@ const currentTrain = calculateActiveTrains({
   randomDelays: {},
   isPlaying: true,
   speedMultiplier: 1,
-  selectedLineIds: ['tojo'],
+  selectedLineIds: ['tobu_tojo'],
 }).find(t => t.tripId === tjTrip1);
 
 if (currentTrain?.throughLineId && !selectedLineIds.includes(currentTrain.throughLineId)) {
@@ -186,7 +186,7 @@ if (currentTrain?.throughLineId && !selectedLineIds.includes(currentTrain.throug
   console.log(`[自動追加] 追尾中列車の throughLineId: '${currentTrain.throughLineId}' を検知し路線追加 -> selectedLineIds:`, selectedLineIds);
 }
 
-if (selectedLineIds.includes('yurakucho')) {
+if (selectedLineIds.includes('tokyo_metro_yurakucho')) {
   console.log('✅ テスト4 成功: throughLineId により yurakucho が汎用ロジックで自動追加されました！\n');
 } else {
   console.error('❌ テスト4 失敗: yurakucho が自動追加されませんでした。\n');
