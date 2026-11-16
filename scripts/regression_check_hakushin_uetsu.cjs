@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const LINES = ['hakushin', 'uetsu_main', 'shinetsu_naoetsu_niigata', 'banetsu_west'];
+const LINES = ['jr_hakushin', 'jr_uetsu_main', 'jr_shinetsu_naoetsu_niigata', 'jr_banetsu_west'];
 const issues = [];
 const tripIdIndex = new Map(); // tripId -> {line, dup}
 
@@ -35,7 +35,7 @@ const toSec = (t) => {
   return h * 3600 + m * 60 + s;
 };
 
-for (const lid of ['hakushin', 'uetsu_main']) {
+for (const lid of ['jr_hakushin', 'jr_uetsu_main']) {
   const trips = TABLES[lid];
   const valid = idsOf[lid];
   console.log(`\n===== ${lid}: ${trips.length} trips =====`);
@@ -85,13 +85,13 @@ for (const lid of ['hakushin', 'uetsu_main']) {
 }
 
 // 停駅表の整合
-const KEY = { hakushin: 'HS', uetsu_main: 'UE' };
-for (const lid of ['hakushin', 'uetsu_main']) {
+const KEY = { jr_hakushin: 'HS', jr_uetsu_main: 'UE' };
+for (const lid of ['jr_hakushin', 'jr_uetsu_main']) {
   const st = JSON.parse(fs.readFileSync(path.resolve(`src/data/lines/${lid}/stationTimetables.json`), 'utf8'));
   for (const day of ['weekday', 'holiday']) {
     const stations = Object.keys(st[day] || {});
-    if (lid === 'uetsu_main' && stations.length !== 60) issues.push(`[ST-COUNT] ${lid} ${day}: ${stations.length} != 60`);
-    if (lid === 'hakushin' && stations.length !== 10) issues.push(`[ST-COUNT] ${lid} ${day}: ${stations.length} != 10`);
+    if (lid === 'jr_uetsu_main' && stations.length !== 60) issues.push(`[ST-COUNT] ${lid} ${day}: ${stations.length} != 60`);
+    if (lid === 'jr_hakushin' && stations.length !== 10) issues.push(`[ST-COUNT] ${lid} ${day}: ${stations.length} != 10`);
     // 残留ID検査
     const stale = stations.filter(id => !idsOf[lid].has(id));
     if (stale.length) issues.push(`[ST-STALE] ${lid} ${day}: ${stale.join(',')}`);

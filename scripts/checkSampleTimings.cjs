@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const d = JSON.parse(fs.readFileSync('src/data/lines/musashino/globalTimetable.json', 'utf8'));
+const d = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/globalTimetable.json', 'utf8'));
 
 console.log('--- Sample Trips Timing Check ---');
 

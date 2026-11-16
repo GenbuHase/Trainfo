@@ -1,9 +1,9 @@
 const fs = require('fs');
 
-const shinonoiGlobal = JSON.parse(fs.readFileSync('src/data/lines/shinonoi/globalTimetable.json', 'utf8'));
-const shinonoiStations = JSON.parse(fs.readFileSync('src/data/lines/shinonoi/stations.ts', 'utf8')
+const shinonoiGlobal = JSON.parse(fs.readFileSync('src/data/lines/jr_shinonoi/globalTimetable.json', 'utf8'));
+const shinonoiStations = JSON.parse(fs.readFileSync('src/data/lines/jr_shinonoi/stations.ts', 'utf8')
   .match(/export const SHINONOI_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
-const shinonoiSegments = JSON.parse(fs.readFileSync('src/data/lines/shinonoi/trackGeometry.ts', 'utf8')
+const shinonoiSegments = JSON.parse(fs.readFileSync('src/data/lines/jr_shinonoi/trackGeometry.ts', 'utf8')
   .match(/export const SHINONOI_TRACK_SEGMENTS: TrackSegment\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
 
 console.log('=== Testing Shinonoi Simulation ===');

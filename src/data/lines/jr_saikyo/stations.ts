@@ -1,0 +1,610 @@
+import type { Station } from '../../../types';
+
+// JR埼京線 (大崎 〜 大宮 全19駅)
+export const SAIKYO_STATIONS: Station[] = [
+  {
+    "id": "JA-08",
+    "stationNumber": "JA-08",
+    "lineId": "jr_saikyo",
+    "number": 8,
+    "name": "大崎",
+    "nameKana": "おおさき",
+    "nameEn": "Osaki",
+    "lat": 35.619283,
+    "lng": 139.728263,
+    "transfers": [
+      "JR山手線",
+      "JR湘南新宿ライン",
+      "東京臨海高速鉄道りんかい線",
+      "相鉄線直通列車"
+    ],
+    "address": "東京都品川区大崎一丁目21-4",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "5〜8番線",
+      "outbound": "5〜8番線"
+    }
+  },
+  {
+    "id": "JA-09",
+    "stationNumber": "JA-09",
+    "lineId": "jr_saikyo",
+    "number": 9,
+    "name": "恵比寿",
+    "nameKana": "えびす",
+    "nameEn": "Ebisu",
+    "lat": 35.646447,
+    "lng": 139.710224,
+    "transfers": [
+      "JR山手線",
+      "JR湘南新宿ライン",
+      "東京メトロ日比谷線"
+    ],
+    "address": "東京都渋谷区恵比寿南一丁目5-5",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "platforms": {
+      "inbound": "3番線",
+      "outbound": "4番線"
+    }
+  },
+  {
+    "id": "JA-10",
+    "stationNumber": "JA-10",
+    "lineId": "jr_saikyo",
+    "number": 10,
+    "name": "渋谷",
+    "nameKana": "しぶや",
+    "nameEn": "Shibuya",
+    "lat": 35.658085,
+    "lng": 139.701778,
+    "transfers": [
+      "JR山手線",
+      "JR湘南新宿ライン",
+      "東急東横線",
+      "東急田園都市線",
+      "京王井の頭線",
+      "東京メトロ銀座線",
+      "東京メトロ半蔵門線",
+      "東京メトロ副都心線"
+    ],
+    "address": "東京都渋谷区道玄坂一丁目1-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "3番線",
+      "outbound": "4番線"
+    }
+  },
+  {
+    "id": "JA-11",
+    "stationNumber": "JA-11",
+    "lineId": "jr_saikyo",
+    "number": 11,
+    "name": "新宿",
+    "nameKana": "しんじゅく",
+    "nameEn": "Shinjuku",
+    "lat": 35.690361,
+    "lng": 139.700935,
+    "transfers": [
+      "JR山手線",
+      "JR中央線快速",
+      "JR中央・総武線各駅停車",
+      "JR湘南新宿ライン",
+      "小田急小田原線",
+      "京王線",
+      "京王新線",
+      "東京メトロ丸ノ内線",
+      "都営新宿線",
+      "都営大江戸線"
+    ],
+    "address": "東京都新宿区新宿三丁目38-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "1〜4番線",
+      "outbound": "1〜4番線"
+    }
+  },
+  {
+    "id": "JA-12",
+    "stationNumber": "JA-12",
+    "lineId": "jr_saikyo",
+    "number": 12,
+    "name": "池袋",
+    "nameKana": "いけぶくろ",
+    "nameEn": "Ikebukuro",
+    "lat": 35.730178,
+    "lng": 139.711172,
+    "transfers": [
+      "JR山手線",
+      "JR湘南新宿ライン",
+      "東武東上線",
+      "西武池袋線",
+      "東京メトロ丸ノ内線",
+      "東京メトロ有楽町線",
+      "東京メトロ副都心線"
+    ],
+    "address": "東京都豊島区南池袋一丁目28-2",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "1・2番線",
+      "outbound": "3・4番線"
+    }
+  },
+  {
+    "id": "JA-13",
+    "stationNumber": "JA-13",
+    "lineId": "jr_saikyo",
+    "number": 13,
+    "name": "板橋",
+    "nameKana": "いたばし",
+    "nameEn": "Itabashi",
+    "lat": 35.745297,
+    "lng": 139.719371,
+    "transfers": [
+      "都営三田線(新板橋駅)"
+    ],
+    "address": "東京都板橋区板橋一丁目15-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-14",
+    "stationNumber": "JA-14",
+    "lineId": "jr_saikyo",
+    "number": 14,
+    "name": "十条",
+    "nameKana": "じゅうじょう",
+    "nameEn": "Jujo",
+    "lat": 35.760008,
+    "lng": 139.722281,
+    "transfers": [],
+    "address": "東京都北区上十条一丁目11-7",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-15",
+    "stationNumber": "JA-15",
+    "lineId": "jr_saikyo",
+    "number": 15,
+    "name": "赤羽",
+    "nameKana": "あかばね",
+    "nameEn": "Akabane",
+    "lat": 35.777953,
+    "lng": 139.720392,
+    "transfers": [
+      "JR宇都宮線",
+      "JR高崎線",
+      "JR京浜東北線",
+      "JR湘南新宿ライン"
+    ],
+    "address": "東京都北区赤羽一丁目1-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "7番線",
+      "outbound": "8番線"
+    }
+  },
+  {
+    "id": "JA-16",
+    "stationNumber": "JA-16",
+    "lineId": "jr_saikyo",
+    "number": 16,
+    "name": "北赤羽",
+    "nameKana": "きたあかばね",
+    "nameEn": "Kita-Akabane",
+    "lat": 35.786723,
+    "lng": 139.705983,
+    "transfers": [],
+    "address": "東京都北区赤羽北二丁目32-11",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-17",
+    "stationNumber": "JA-17",
+    "lineId": "jr_saikyo",
+    "number": 17,
+    "name": "浮間舟渡",
+    "nameKana": "うきまふなど",
+    "nameEn": "Ukima-Funado",
+    "lat": 35.791126,
+    "lng": 139.6915,
+    "transfers": [],
+    "address": "東京都北区浮間四丁目32-20",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-18",
+    "stationNumber": "JA-18",
+    "lineId": "jr_saikyo",
+    "number": 18,
+    "name": "戸田公園",
+    "nameKana": "とだこうえん",
+    "nameEn": "Toda-Koen",
+    "lat": 35.807894,
+    "lng": 139.678135,
+    "transfers": [],
+    "address": "埼玉県戸田市本町四丁目15-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-19",
+    "stationNumber": "JA-19",
+    "lineId": "jr_saikyo",
+    "number": 19,
+    "name": "戸田",
+    "nameKana": "とだ",
+    "nameEn": "Toda",
+    "lat": 35.817676,
+    "lng": 139.669531,
+    "transfers": [],
+    "address": "埼玉県戸田市大字新曽662",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-20",
+    "stationNumber": "JA-20",
+    "lineId": "jr_saikyo",
+    "number": 20,
+    "name": "北戸田",
+    "nameKana": "きたとだ",
+    "nameEn": "Kita-Toda",
+    "lat": 35.827588,
+    "lng": 139.660108,
+    "transfers": [],
+    "address": "埼玉県戸田市大字新曽字芦原2225",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-21",
+    "stationNumber": "JA-21",
+    "lineId": "jr_saikyo",
+    "number": 21,
+    "name": "武蔵浦和",
+    "nameKana": "むさしうらわ",
+    "nameEn": "Musashi-Urawa",
+    "lat": 35.845573,
+    "lng": 139.646617,
+    "transfers": [
+      "JR武蔵野線"
+    ],
+    "address": "埼玉県さいたま市南区別所七丁目12-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "1・2番線",
+      "outbound": "3・4番線"
+    }
+  },
+  {
+    "id": "JA-22",
+    "stationNumber": "JA-22",
+    "lineId": "jr_saikyo",
+    "number": 22,
+    "name": "中浦和",
+    "nameKana": "なかうらわ",
+    "nameEn": "Naka-Urawa",
+    "lat": 35.853524,
+    "lng": 139.637635,
+    "transfers": [],
+    "address": "埼玉県さいたま市南区鹿手袋一丁目1-45",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-23",
+    "stationNumber": "JA-23",
+    "lineId": "jr_saikyo",
+    "number": 23,
+    "name": "南与野",
+    "nameKana": "みなみよの",
+    "nameEn": "Minami-Yono",
+    "lat": 35.867867,
+    "lng": 139.630927,
+    "transfers": [],
+    "address": "埼玉県さいたま市中央区鈴谷二丁目548-2",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-24",
+    "stationNumber": "JA-24",
+    "lineId": "jr_saikyo",
+    "number": 24,
+    "name": "与野本町",
+    "nameKana": "よのほんまち",
+    "nameEn": "Yono-Hommachi",
+    "lat": 35.88119,
+    "lng": 139.62595,
+    "transfers": [],
+    "address": "埼玉県さいたま市中央区本町東二丁目3-24",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-25",
+    "stationNumber": "JA-25",
+    "lineId": "jr_saikyo",
+    "number": 25,
+    "name": "北与野",
+    "nameKana": "きたよの",
+    "nameEn": "Kita-Yono",
+    "lat": 35.89071,
+    "lng": 139.628548,
+    "transfers": [],
+    "address": "埼玉県さいたま市中央区上落合二丁目3-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-26",
+    "stationNumber": "JA-26",
+    "lineId": "jr_saikyo",
+    "number": 26,
+    "name": "大宮",
+    "nameKana": "おおみや",
+    "nameEn": "Omiya",
+    "lat": 35.906126,
+    "lng": 139.623148,
+    "transfers": [
+      "JR川越線",
+      "JR新幹線各線",
+      "JR宇都宮線",
+      "JR高崎線",
+      "JR京浜東北線",
+      "JR湘南新宿ライン",
+      "東武アーバンパークライン",
+      "埼玉新都市交通ニューシャトル"
+    ],
+    "address": "埼玉県さいたま市大宮区錦町630",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "limitedExp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "19〜22番線",
+      "outbound": "19〜22番線"
+    }
+  }
+];
+
+export const SAIKYO_STATION_MAP = new Map<string, Station>(
+  SAIKYO_STATIONS.map((s) => [s.id, s])
+);

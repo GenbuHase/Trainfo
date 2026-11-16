@@ -110,7 +110,7 @@ import type { Station } from '../../../types';
 export const HACHIKO_STATIONS: Station[] = [
 ${stationDefs.map(s => `  {
     id: '${s.id}',
-    lineId: 'hachiko',
+    lineId: 'jr_hachiko',
     number: ${s.number},
     name: '${s.name}',
     nameKana: '${s.nameKana}',
@@ -133,7 +133,7 @@ ${stationDefs.map(s => `  {
 ];
 `;
 
-const stationsPath = path.resolve('src/data/lines/hachiko/stations.ts');
+const stationsPath = path.resolve('src/data/lines/jr_hachiko/stations.ts');
 fs.mkdirSync(path.dirname(stationsPath), { recursive: true });
 fs.writeFileSync(stationsPath, stationsOut, 'utf8');
 console.log(`Saved stations to ${stationsPath}`);
@@ -164,6 +164,6 @@ import type { TrackSegment } from '../../../types';
 export const HACHIKO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
 
-const trackPath = path.resolve('src/data/lines/hachiko/trackGeometry.ts');
+const trackPath = path.resolve('src/data/lines/jr_hachiko/trackGeometry.ts');
 fs.writeFileSync(trackPath, trackOut, 'utf8');
 console.log(`Saved trackGeometry to ${trackPath}`);

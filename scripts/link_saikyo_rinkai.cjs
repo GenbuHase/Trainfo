@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const saikyoPath = path.resolve('src/data/lines/saikyo/globalTimetable.json');
+const saikyoPath = path.resolve('src/data/lines/jr_saikyo/globalTimetable.json');
 const rinkaiPath = path.resolve('src/data/lines/rinkai/globalTimetable.json');
 
 const saikyoTrips = JSON.parse(fs.readFileSync(saikyoPath, 'utf8'));
@@ -12,7 +12,7 @@ function loadStations(filePath) {
   const match = content.match(/export const [A-Z0-9_]+: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
   return eval(match[1]);
 }
-const saikyoStations = loadStations('src/data/lines/saikyo/stations.ts');
+const saikyoStations = loadStations('src/data/lines/jr_saikyo/stations.ts');
 const rinkaiStations = loadStations('src/data/lines/rinkai/stations.ts');
 
 const skStMap = new Map(saikyoStations.map(s => [s.id, s]));
@@ -44,7 +44,7 @@ for (const sk of skInbToOsaki) {
 }
 
 // 2. 下り直通列車 (りんかい線 新木場方面 -> 大崎 -> 埼京線 大宮/川越方面)
-// りんかい線走行中: 次の直通先は埼京線 (throughTripId: sk.tripId, throughLineId: 'saikyo')
+// りんかい線走行中: 次の直通先は埼京線 (throughTripId: sk.tripId, throughLineId: 'jr_saikyo')
 // 埼京線側は次の直通先（川越線）を持っていればそれを維持、なければ大崎始発として customOrigin を設定
 const rkOutToOsaki = rinkaiTrips.filter(t => t.direction === 'outbound' && t.destinationStationId === 'R-08');
 const skOutFromOsaki = saikyoTrips.filter(t => t.direction === 'outbound' && t.originStationId === 'JA-08');
@@ -54,7 +54,7 @@ for (const rk of rkOutToOsaki) {
   if (sk) {
     // りんかい線側: 次の直通先は埼京線！
     rk.throughTripId = sk.tripId;
-    rk.throughLineId = 'saikyo';
+    rk.throughLineId = 'jr_saikyo';
     const skDest = skStMap.get(sk.destinationStationId);
     rk.customDestination = sk.customDestination || skDest?.name || '大宮';
 

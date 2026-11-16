@@ -64,7 +64,7 @@ for (const timeStr of times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['saikyo', 'kawagoe'],
+    selectedLineIds: ['jr_saikyo', 'jr_kawagoe'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -107,7 +107,7 @@ for (const timeStr of inbTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['saikyo', 'kawagoe'],
+    selectedLineIds: ['jr_saikyo', 'jr_kawagoe'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -148,7 +148,7 @@ for (const timeStr of termTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['saikyo', 'kawagoe'],
+    selectedLineIds: ['jr_saikyo', 'jr_kawagoe'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -171,7 +171,7 @@ if (trackedId === null) {
 
 // テスト4: throughLineId による直通先路線の自動追加判定テスト
 console.log('--- テスト4: throughLineId による直通先路線の自動追加判定 ---');
-let lineSelection = ['saikyo'];
+let lineSelection = ['jr_saikyo'];
 const trainAtOmiya = calculateActiveTrains({
   currentSec: timeStringToSeconds('05:34:00'),
   isHoliday: false,
@@ -187,8 +187,8 @@ if (trainAtOmiya && trainAtOmiya.throughLineId && !lineSelection.includes(trainA
   console.log(`[自動追加] 追尾中列車の throughLineId: '${trainAtOmiya.throughLineId}' を検知し路線追加 -> selectedLineIds:`, lineSelection);
 }
 
-if (lineSelection.includes('kawagoe')) {
-  console.log('✅ テスト4 成功: throughLineId により kawagoe が汎用ロジックで自動追加されました！\n');
+if (lineSelection.includes('jr_kawagoe')) {
+  console.log('✅ テスト4 成功: throughLineId により jr_kawagoe が汎用ロジックで自動追加されました！\n');
 } else {
   console.error('❌ テスト4 失敗: 直通先路線が自動追加されませんでした\n');
   process.exit(1);

@@ -16,7 +16,7 @@ function getDistanceKm(lat1, lon1, lat2, lon2) {
 }
 
 const LINE_SPECS = {
-  tokaido: {
+  jr_tokaido: {
     name: 'JR東海道線',
     defaultCars: 15,
     getGroupIds: (name, isFirst, isLast) => ({
@@ -24,7 +24,7 @@ const LINE_SPECS = {
       outGroupId: isLast ? null : '1171',
     }),
   },
-  ito: {
+  jr_ito: {
     name: 'JR伊東線',
     defaultCars: 6,
     getGroupIds: (name, isFirst, isLast) => ({
@@ -32,7 +32,7 @@ const LINE_SPECS = {
       outGroupId: isLast ? null : '1291',
     }),
   },
-  yokosuka: {
+  jr_yokosuka: {
     name: 'JR横須賀線',
     defaultCars: 15,
     getGroupIds: (name, isFirst, isLast) => ({
@@ -40,7 +40,7 @@ const LINE_SPECS = {
       outGroupId: isLast ? null : '1161',
     }),
   },
-  sobu_rapid: {
+  jr_sobu_rapid: {
     name: 'JR総武快速線',
     defaultCars: 15,
     getGroupIds: (name, isFirst, isLast) => ({
@@ -48,7 +48,7 @@ const LINE_SPECS = {
       outGroupId: isLast ? null : '941',
     }),
   },
-  utsunomiya: {
+  jr_utsunomiya: {
     name: 'JR宇都宮線',
     defaultCars: 15,
     getGroupIds: (name, isFirst, isLast) => {
@@ -60,7 +60,7 @@ const LINE_SPECS = {
       };
     },
   },
-  takasaki: {
+  jr_takasaki: {
     name: 'JR高崎線',
     defaultCars: 15,
     getGroupIds: (name, isFirst, isLast) => {
@@ -75,7 +75,7 @@ const LINE_SPECS = {
       };
     },
   },
-  shonan_shinjuku: {
+  jr_shonan_shinjuku: {
     name: 'JR湘南新宿ライン',
     defaultCars: 15,
     getGroupIds: (name, isFirst, isLast) => ({
@@ -83,7 +83,7 @@ const LINE_SPECS = {
       outGroupId: isLast ? null : '1050',
     }),
   },
-  ueno_tokyo: {
+  jr_ueno_tokyo: {
     name: 'JR上野東京ライン',
     defaultCars: 15,
     getGroupIds: (name) => {

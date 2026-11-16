@@ -2,7 +2,7 @@
 module.exports = [
   // 1. JR山手線
   {
-    lineId: 'yamanote',
+    lineId: 'jr_yamanote',
     name: 'JR山手線',
     shortName: '山手線',
     operator: 'JR東日本',
@@ -58,7 +58,7 @@ module.exports = [
 
   // 2. JR京葉線
   {
-    lineId: 'keiyo',
+    lineId: 'jr_keiyo',
     name: 'JR京葉線',
     shortName: '京葉線',
     operator: 'JR東日本',
@@ -102,7 +102,7 @@ module.exports = [
 
   // 3. JR外房線
   {
-    lineId: 'sotobo',
+    lineId: 'jr_sotobo',
     name: 'JR外房線',
     shortName: '外房線',
     operator: 'JR東日本',
@@ -154,7 +154,7 @@ module.exports = [
 
   // 4. JR東金線
   {
-    lineId: 'togane',
+    lineId: 'jr_togane',
     name: 'JR東金線',
     shortName: '東金線',
     operator: 'JR東日本',
@@ -184,7 +184,7 @@ module.exports = [
 
   // 5. JR総武本線
   {
-    lineId: 'sobu_main',
+    lineId: 'jr_sobu_main',
     name: 'JR総武本線',
     shortName: '総武本線',
     operator: 'JR東日本',
@@ -231,7 +231,7 @@ module.exports = [
 
   // 6. JR成田線
   {
-    lineId: 'narita',
+    lineId: 'jr_narita',
     name: 'JR成田線',
     shortName: '成田線',
     operator: 'JR東日本',
@@ -287,7 +287,7 @@ module.exports = [
 
   // 7. JR久留里線
   {
-    lineId: 'kururi',
+    lineId: 'jr_kururi',
     name: 'JR久留里線',
     shortName: '久留里線',
     operator: 'JR東日本',
@@ -326,7 +326,7 @@ module.exports = [
 
   // 8. JR中央・総武線各駅停車
   {
-    lineId: 'chuo_sobu_local',
+    lineId: 'jr_chuo_sobu_local',
     name: 'JR中央・総武線各駅停車',
     shortName: '中央・総武各駅停車',
     operator: 'JR東日本',
@@ -391,7 +391,7 @@ module.exports = [
 
   // 9. JR京浜東北線・根岸線
   {
-    lineId: 'keihin_tohoku_negishi',
+    lineId: 'jr_keihin_tohoku_negishi',
     name: 'JR京浜東北線・根岸線',
     shortName: '京浜東北・根岸線',
     operator: 'JR東日本',
@@ -464,7 +464,7 @@ module.exports = [
 
   // 10. JR横浜線
   {
-    lineId: 'yokohama',
+    lineId: 'jr_yokohama',
     name: 'JR横浜線',
     shortName: '横浜線',
     operator: 'JR東日本',
@@ -510,7 +510,7 @@ module.exports = [
 
   // 11. JR南武線
   {
-    lineId: 'nambu',
+    lineId: 'jr_nambu',
     name: 'JR南武線',
     shortName: '南武線',
     operator: 'JR東日本',
@@ -567,7 +567,7 @@ module.exports = [
 
   // 12. JR鶴見線
   {
-    lineId: 'tsurumi',
+    lineId: 'jr_tsurumi',
     name: 'JR鶴見線',
     shortName: '鶴見線',
     operator: 'JR東日本',
@@ -607,7 +607,7 @@ module.exports = [
 
   // 13. JR内房線
   {
-    lineId: 'uchibo',
+    lineId: 'jr_uchibo',
     name: 'JR内房線',
     shortName: '内房線',
     operator: 'JR東日本',

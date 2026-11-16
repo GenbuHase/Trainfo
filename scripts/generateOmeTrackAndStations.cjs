@@ -312,7 +312,7 @@ const stations = stationMetadata.map(st => {
   const snappedCoord = nodeMap.get(continuousNodeIds[bestIdx]);
   return {
     id: st.id,
-    lineId: 'ome',
+    lineId: 'jr_ome',
     number: st.number,
     name: st.name,
     nameKana: st.nameKana,
@@ -349,21 +349,21 @@ for (let i = 0; i < stations.length - 1; i++) {
 console.log(`Generated ${stations.length} stations and ${trackSegments.length} track segments.`);
 
 // ファイル出力
-// 1. src/data/lines/ome/stations.ts
+// 1. src/data/lines/jr_ome/stations.ts
 const stationsTs = `// JR青梅線 駅定義 (立川 〜 奥多摩 全25駅)
 import type { Station } from '../../../types';
 
 export const OME_STATIONS: Station[] = ${JSON.stringify(stations.map(({ snappedIdx, ...s }) => s), null, 2)};
 `;
 
-// 2. src/data/lines/ome/trackGeometry.ts
+// 2. src/data/lines/jr_ome/trackGeometry.ts
 const trackGeometryTs = `// JR青梅線 線路幾何データ
 import type { TrackSegment } from '../../../types';
 
 export const OME_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
 
-const omeDir = path.resolve(__dirname, '../src/data/lines/ome');
+const omeDir = path.resolve(__dirname, '../src/data/lines/jr_ome');
 if (!fs.existsSync(omeDir)) {
   fs.mkdirSync(omeDir, { recursive: true });
 }

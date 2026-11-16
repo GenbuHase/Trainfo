@@ -8,13 +8,13 @@ const {
 } = require('./common/timetableUtils.cjs');
 
 const LINE_PATHS = {
-  oito_east: path.resolve('src/data/lines/oito_east/globalTimetable.json'),
-  shinonoi: path.resolve('src/data/lines/shinonoi/globalTimetable.json'),
-  shinonoiSt: path.resolve('src/data/lines/shinonoi/stationTimetables.json'),
-  chuo_main: path.resolve('src/data/lines/chuo_main/globalTimetable.json'),
-  chuo: path.resolve('src/data/lines/chuo/globalTimetable.json'),
-  chuo_sobu_local: path.resolve('src/data/lines/chuo_sobu_local/globalTimetable.json'),
-  sobu_rapid: path.resolve('src/data/lines/sobu_rapid/globalTimetable.json'),
+  jr_oito_east: path.resolve('src/data/lines/jr_oito_east/globalTimetable.json'),
+  jr_shinonoi: path.resolve('src/data/lines/jr_shinonoi/globalTimetable.json'),
+  shinonoiSt: path.resolve('src/data/lines/jr_shinonoi/stationTimetables.json'),
+  jr_chuo_main: path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json'),
+  jr_chuo: path.resolve('src/data/lines/jr_chuo/globalTimetable.json'),
+  jr_chuo_sobu_local: path.resolve('src/data/lines/jr_chuo_sobu_local/globalTimetable.json'),
+  jr_sobu_rapid: path.resolve('src/data/lines/jr_sobu_rapid/globalTimetable.json'),
   fujikyu: path.resolve('src/data/lines/fujikyu/globalTimetable.json'),
 };
 
@@ -84,27 +84,27 @@ const OUTBOUND_NONSTOP_SHIOJIRI_DEFS = [
 const TRIP_METADATA_OVERRIDES = [
   // (A) あずさ1号 (6843): 富士回遊併結の名残による行先誤りを '松本' に補正
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6843'],
     metadata: { customOrigin: '新宿', customDestination: '松本' },
   },
   // (B) あずさ8号 休日 (6897): 東京行に補正
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6897'],
     isHoliday: true,
     metadata: { customOrigin: '松本', customDestination: '東京' },
   },
   // (C) あずさ44号 平日 (6926)
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6926'],
     isHoliday: false,
     metadata: { trainName: 'あずさ44号', customOrigin: '松本', customDestination: '新宿' },
   },
   // (D-1) あずさ78号 休日 (6925): 高尾・西八王子通過時刻および公式列車番号補正
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6925'],
     isHoliday: true,
     metadata: { trainName: 'あずさ78号', trainNumber: '9078M', customOrigin: '松本', customDestination: '新宿' },
@@ -115,7 +115,7 @@ const TRIP_METADATA_OVERRIDES = [
   },
   // (D-2) 富士回遊78号 休日 (39448): あずさ78号と高尾・西八王子通過時刻を完全一致
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['39448'],
     isHoliday: true,
     metadata: { trainName: '富士回遊78号', trainNumber: '9178M', customOrigin: '河口湖', customDestination: '新宿' },
@@ -126,7 +126,7 @@ const TRIP_METADATA_OVERRIDES = [
   },
   // (D-3) あずさ44号 休日 (6927)
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6927'],
     isHoliday: true,
     metadata: { trainName: 'あずさ44号', trainNumber: '44M', customOrigin: '松本', customDestination: '新宿' },
@@ -136,7 +136,7 @@ const TRIP_METADATA_OVERRIDES = [
   },
   // (D-4) 富士回遊44号 (39450 / 39449)
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['39450', '39449'],
     metadata: { trainName: '富士回遊44号', trainNumber: '2144M', customOrigin: '河口湖', customDestination: '新宿' },
     stopOverrides: {
@@ -145,7 +145,7 @@ const TRIP_METADATA_OVERRIDES = [
   },
   // (E-1) あずさ88号 (6918)
   {
-    lines: ['chuo_main'],
+    lines: ['jr_chuo_main'],
     trainIds: ['6918'],
     metadata: { trainName: 'あずさ88号' },
     stopOverrides: {
@@ -154,13 +154,13 @@ const TRIP_METADATA_OVERRIDES = [
   },
   // (E-2) かいじ58号 (33564 / 33563)
   {
-    lines: ['chuo_main'],
+    lines: ['jr_chuo_main'],
     trainIds: ['33564', '33563'],
     metadata: { trainName: 'かいじ58号' },
   },
   // (E-3) あずさ60号 (6909 / 6908)
   {
-    lines: ['chuo_main'],
+    lines: ['jr_chuo_main'],
     trainIds: ['6909', '6908'],
     metadata: { trainName: 'あずさ60号' },
     stopOverrides: {
@@ -169,95 +169,95 @@ const TRIP_METADATA_OVERRIDES = [
   },
   // (F) 普通列車445M (6891 / 6892) の誤愛称クリーンアップ
   {
-    lines: ['chuo_main', 'shinonoi'],
+    lines: ['jr_chuo_main', 'jr_shinonoi'],
     trainIds: ['6891', '6892'],
     onlyNonLimitedExp: true,
     deleteTrainName: true,
   },
   // (G) あずさ1号・あずさ75号の列車番号および愛称の整合
   {
-    lines: ['chuo', 'chuo_main'],
+    lines: ['jr_chuo', 'jr_chuo_main'],
     trainIds: ['6842'],
     metadata: { trainName: 'あずさ1号', trainNumber: '1M' },
   },
   {
-    lines: ['chuo', 'chuo_main'],
+    lines: ['jr_chuo', 'jr_chuo_main'],
     trainIds: ['6848'],
     metadata: { trainName: 'あずさ75号', trainNumber: '8075M' },
   },
   // (H) かいじ・富士回遊の愛称および公式列車番号の正常化（あずさ誤感染の完全解消）
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['33552', '33570'],
     metadata: { trainName: 'かいじ32号', trainNumber: '3132M', customOrigin: '甲府', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['39443', '39442'],
     metadata: { trainName: '富士回遊32号', trainNumber: '2132M', customOrigin: '河口湖', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['33553', '33571'],
     metadata: { trainName: 'かいじ36号', trainNumber: '3136M', customOrigin: '甲府', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['39444', '39445'],
     metadata: { trainName: '富士回遊36号', trainNumber: '2136M', customOrigin: '河口湖', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['33572', '33573'],
     metadata: { trainName: 'かいじ40号', trainNumber: '3140M', customOrigin: '甲府', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['33557', '33574'],
     metadata: { trainName: 'かいじ48号', trainNumber: '3148M', customOrigin: '甲府', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['39451', '39453'],
     metadata: { trainName: '富士回遊48号', trainNumber: '2148M', customOrigin: '河口湖', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6912', '6913'],
     metadata: { trainName: 'あずさ34号', trainNumber: '34M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6923'],
     metadata: { trainName: 'あずさ74号', trainNumber: '8074M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6917'],
     metadata: { trainName: 'あずさ76号', trainNumber: '9076M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6904', '6905'],
     metadata: { trainName: 'あずさ42号', trainNumber: '42M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6928'],
     metadata: { trainName: 'あずさ84号', trainNumber: '9084M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6916'],
     metadata: { trainName: 'あずさ86号', trainNumber: '9086M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6918'],
     metadata: { trainName: 'あずさ88号', trainNumber: '9088M', customOrigin: '松本', customDestination: '新宿' },
   },
   {
-    lines: ['chuo_main', 'chuo'],
+    lines: ['jr_chuo_main', 'jr_chuo'],
     trainIds: ['6908', '6909'],
     metadata: { trainName: 'あずさ60号', trainNumber: '60M', customOrigin: '松本', customDestination: '新宿' },
   },
@@ -265,7 +265,7 @@ const TRIP_METADATA_OVERRIDES = [
 
 // トリップ間 stops 完全同期ルール（併結相方の正常な stops をコピー）
 const TRIP_STOPS_SYNC_RULES = [
-  { line: 'chuo', isHoliday: true, sourceTrainId: '39448', targetTrainId: '6925' },
+  { line: 'jr_chuo', isHoliday: true, sourceTrainId: '39448', targetTrainId: '6925' },
 ];
 
 // ============================================================================
@@ -325,12 +325,12 @@ function matchesTrainId(trip, trainId) {
 
 function enrichAzusaTimetable() {
   const lineData = {
-    oito_east: safeReadJson(LINE_PATHS.oito_east),
-    shinonoi: safeReadJson(LINE_PATHS.shinonoi),
-    chuo_main: safeReadJson(LINE_PATHS.chuo_main),
-    chuo: safeReadJson(LINE_PATHS.chuo),
-    chuo_sobu_local: safeReadJson(LINE_PATHS.chuo_sobu_local),
-    sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
+    jr_oito_east: safeReadJson(LINE_PATHS.oito_east),
+    jr_shinonoi: safeReadJson(LINE_PATHS.shinonoi),
+    jr_chuo_main: safeReadJson(LINE_PATHS.chuo_main),
+    jr_chuo: safeReadJson(LINE_PATHS.chuo),
+    jr_chuo_sobu_local: safeReadJson(LINE_PATHS.chuo_sobu_local),
+    jr_sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
     fujikyu: safeReadJson(LINE_PATHS.fujikyu),
   };
   const shinonoiSt = safeReadJson(LINE_PATHS.shinonoiSt, {});
@@ -353,13 +353,13 @@ function enrichAzusaTimetable() {
       oitoTrip.customOrigin = '白馬';
       oitoTrip.customDestination = '新宿';
       oitoTrip.throughTripId = shinonoiTripId;
-      oitoTrip.throughLineId = 'shinonoi';
-      console.log(`  ✓ oito_east ${oitoTripId} を更新 (through -> ${shinonoiTripId})`);
+      oitoTrip.throughLineId = 'jr_shinonoi';
+      console.log(`  ✓ jr_oito_east ${oitoTripId} を更新 (through -> ${shinonoiTripId})`);
     }
 
     const snTripData = {
       tripId: shinonoiTripId,
-      lineId: 'shinonoi',
+      lineId: 'jr_shinonoi',
       trainId,
       trainNumber: '38M',
       trainName: 'あずさ38号',
@@ -373,14 +373,14 @@ function enrichAzusaTimetable() {
       isHoliday,
       stops: JSON.parse(JSON.stringify(AZUSA_38_SHINONOI_STOPS)),
       prevTripId: oitoTripId,
-      prevLineId: 'oito_east',
+      prevLineId: 'jr_oito_east',
       throughTripId: chuoMainTripId,
-      throughLineId: 'chuo_main',
+      throughLineId: 'jr_chuo_main',
     };
     const snExistingIdx = lineData.shinonoi.findIndex((t) => t.tripId === shinonoiTripId || t.trainId === trainId);
     if (snExistingIdx !== -1) lineData.shinonoi[snExistingIdx] = snTripData;
     else lineData.shinonoi.push(snTripData);
-    console.log(`  ✓ shinonoi ${shinonoiTripId} を新設/更新`);
+    console.log(`  ✓ jr_shinonoi ${shinonoiTripId} を新設/更新`);
 
     const dayKey = isHoliday ? 'holiday' : 'weekday';
     const matsumoto = shinonoiSt[dayKey]?.['SN-06'];
@@ -421,9 +421,9 @@ function enrichAzusaTimetable() {
         isHoliday,
         stops: [...JSON.parse(JSON.stringify(AZUSA_38_CHUO_MAIN_PREFIX_STOPS)), ...suwaAndAfter],
         throughTripId: chuoTripId,
-        throughLineId: 'chuo',
+        throughLineId: 'jr_chuo',
       };
-      console.log(`  ✓ chuo_main ${chuoMainTripId} を更新 (塩尻〜下諏訪を追加)`);
+      console.log(`  ✓ jr_chuo_main ${chuoMainTripId} を更新 (塩尻〜下諏訪を追加)`);
     }
 
     const chuoTrip = lineData.chuo.find((t) => t.tripId === chuoTripId || t.trainId === trainId);
@@ -434,8 +434,8 @@ function enrichAzusaTimetable() {
       delete chuoTrip.throughTripId;
       delete chuoTrip.throughLineId;
       chuoTrip.prevTripId = chuoMainTripId;
-      chuoTrip.prevLineId = 'chuo_main';
-      console.log(`  ✓ chuo ${chuoTripId} を更新 (customOrigin: 白馬, prev -> ${chuoMainTripId})`);
+      chuoTrip.prevLineId = 'jr_chuo_main';
+      console.log(`  ✓ jr_chuo ${chuoTripId} を更新 (customOrigin: 白馬, prev -> ${chuoMainTripId})`);
     }
   }
 
@@ -452,7 +452,7 @@ function enrichAzusaTimetable() {
       cmTrip.customDestination = '松本';
       cmTrip.trainName = trainName;
       cmTrip.throughTripId = snTripId;
-      cmTrip.throughLineId = 'shinonoi';
+      cmTrip.throughLineId = 'jr_shinonoi';
 
       const stops = cmTrip.stops.filter((s) => !['CO-58', 'CO-59', 'CO-60', 'CO-61'].includes(s.stationId));
       stops.push(
@@ -462,7 +462,7 @@ function enrichAzusaTimetable() {
         { stationId: 'CO-61', arrivalTime: times.shiojiri, departureTime: times.shiojiri, isPassing: true }
       );
       cmTrip.stops = stops;
-      console.log(`  ✓ chuo_main ${cmTripId} を塩尻まで延伸 (through -> ${snTripId})`);
+      console.log(`  ✓ jr_chuo_main ${cmTripId} を塩尻まで延伸 (through -> ${snTripId})`);
     }
 
     const snStops = [
@@ -476,7 +476,7 @@ function enrichAzusaTimetable() {
 
     const snTripData = {
       tripId: snTripId,
-      lineId: 'shinonoi',
+      lineId: 'jr_shinonoi',
       trainId,
       trainNumber,
       trainName,
@@ -490,12 +490,12 @@ function enrichAzusaTimetable() {
       isHoliday,
       stops: snStops,
       prevTripId: cmTripId,
-      prevLineId: 'chuo_main',
+      prevLineId: 'jr_chuo_main',
     };
     const snExistingIdx = lineData.shinonoi.findIndex((t) => t.tripId === snTripId || t.trainId === trainId);
     if (snExistingIdx !== -1) lineData.shinonoi[snExistingIdx] = snTripData;
     else lineData.shinonoi.push(snTripData);
-    console.log(`  ✓ shinonoi ${snTripId} を新設/更新 (松本着 ${times.matsumotoArr})`);
+    console.log(`  ✓ jr_shinonoi ${snTripId} を新設/更新 (松本着 ${times.matsumotoArr})`);
   }
 
   // --------------------------------------------------------------------------
@@ -545,7 +545,7 @@ function enrichAzusaTimetable() {
       cmUpdatedCount++;
     }
   }
-  console.log(`  ✓ chuo_main: ${cmUpdatedCount} 便の上りあずさに customOrigin: '松本' を設定`);
+  console.log(`  ✓ jr_chuo_main: ${cmUpdatedCount} 便の上りあずさに customOrigin: '松本' を設定`);
 
   let chUpdatedCount = 0;
   for (const trip of lineData.chuo) {
@@ -554,7 +554,7 @@ function enrichAzusaTimetable() {
       chUpdatedCount++;
     }
   }
-  console.log(`  ✓ chuo: ${chUpdatedCount} 便の上りあずさの customOrigin を '塩尻' から '松本' に更新`);
+  console.log(`  ✓ jr_chuo: ${chUpdatedCount} 便の上りあずさの customOrigin を '塩尻' から '松本' に更新`);
 
   let snInbUpdated = 0;
   let snOutUpdated = 0;
@@ -578,7 +578,7 @@ function enrichAzusaTimetable() {
       if (!snTrip.customOrigin && snTrip.originStationId === 'SN-06') {
         snTrip.customOrigin = '松本';
       }
-      linkThroughTrips(snTrip, 'shinonoi', matchedCm, 'chuo_main', {
+      linkThroughTrips(snTrip, 'jr_shinonoi', matchedCm, 'jr_chuo_main', {
         trainName: sharedName,
         customOrigin: snTrip.customOrigin || '松本',
         customDestination: matchedCm.customDestination || '新宿',
@@ -595,7 +595,7 @@ function enrichAzusaTimetable() {
       }
       snInbUpdated++;
     } else if (snTrip.direction === 'outbound') {
-      linkThroughTrips(matchedCm, 'chuo_main', snTrip, 'shinonoi', {
+      linkThroughTrips(matchedCm, 'jr_chuo_main', snTrip, 'jr_shinonoi', {
         trainName: sharedName,
         customOrigin: matchedCm.customOrigin || '新宿',
         customDestination: '松本',
@@ -613,7 +613,7 @@ function enrichAzusaTimetable() {
       snOutUpdated++;
     }
   }
-  console.log(`  ✓ shinonoi ↔ chuo_main: 上り ${snInbUpdated} 便、下り ${snOutUpdated} 便を相互直通リンク & 時刻同期`);
+  console.log(`  ✓ jr_shinonoi ↔ jr_chuo_main: 上り ${snInbUpdated} 便、下り ${snOutUpdated} 便を相互直通リンク & 時刻同期`);
 
   // --------------------------------------------------------------------------
   // 4. 千葉発着あずさ号・富士回遊号（あずさ3号・富士回遊3号・あずさ50号）の直通リンク・併結整備
@@ -646,7 +646,7 @@ function enrichAzusaTimetable() {
       lastStop.departureTime = '07:30:00';
     }
 
-    linkThroughTrips(cslAzusa, 'chuo_sobu_local', chuoAzusa, 'chuo', {
+    linkThroughTrips(cslAzusa, 'jr_chuo_sobu_local', chuoAzusa, 'jr_chuo', {
       trainName: 'あずさ3号',
       trainNumber: '5003M',
       customOrigin: '千葉',
@@ -664,7 +664,7 @@ function enrichAzusaTimetable() {
     }
 
     if (cmAzusa) {
-      linkThroughTrips(chuoAzusa, 'chuo', cmAzusa, 'chuo_main', {
+      linkThroughTrips(chuoAzusa, 'jr_chuo', cmAzusa, 'jr_chuo_main', {
         trainName: 'あずさ3号',
         trainNumber: '5003M',
         customOrigin: '千葉',
@@ -682,7 +682,7 @@ function enrichAzusaTimetable() {
       }
 
       if (snAzusa) {
-        linkThroughTrips(cmAzusa, 'chuo_main', snAzusa, 'shinonoi', {
+        linkThroughTrips(cmAzusa, 'jr_chuo_main', snAzusa, 'jr_shinonoi', {
           trainName: 'あずさ3号',
           trainNumber: '5003M',
           customOrigin: '千葉',
@@ -708,7 +708,7 @@ function enrichAzusaTimetable() {
         customDestination: '河口湖',
         cars: 3,
         throughTripId: chuoFuji ? chuoFuji.tripId : chain.chuoFujiTripId,
-        throughLineId: 'chuo',
+        throughLineId: 'jr_chuo',
       };
       lineData.chuo_sobu_local.push(cslFuji);
     } else {
@@ -718,7 +718,7 @@ function enrichAzusaTimetable() {
       cslFuji.customDestination = '河口湖';
       cslFuji.cars = 3;
       cslFuji.throughTripId = chuoFuji ? chuoFuji.tripId : chain.chuoFujiTripId;
-      cslFuji.throughLineId = 'chuo';
+      cslFuji.throughLineId = 'jr_chuo';
     }
 
     applySymmetricCoupling(cslAzusa, cslFuji, {
@@ -734,7 +734,7 @@ function enrichAzusaTimetable() {
       chuoFuji.trainNumber = '2103M';
       chuoFuji.trainName = '富士回遊3号';
       chuoFuji.prevTripId = chain.cslFujiTripId;
-      chuoFuji.prevLineId = 'chuo_sobu_local';
+      chuoFuji.prevLineId = 'jr_chuo_sobu_local';
       chuoFuji.customOrigin = '千葉';
       chuoFuji.customDestination = '河口湖';
       chuoFuji.cars = 3;
@@ -771,7 +771,7 @@ function enrichAzusaTimetable() {
     const chuoTrip = lineData.chuo.find((t) => t.tripId === chuoTripId);
     const srTrip = lineData.sobu_rapid.find((t) => t.tripId === srTripId);
     if (chuoTrip && srTrip) {
-      linkThroughTrips(chuoTrip, 'chuo', srTrip, 'sobu_rapid', {
+      linkThroughTrips(chuoTrip, 'jr_chuo', srTrip, 'jr_sobu_rapid', {
         customOrigin: '松本',
         customDestination: '千葉',
       });
@@ -780,7 +780,7 @@ function enrichAzusaTimetable() {
   }
 
   // 4.5. あずさ1号(1M)の重複ゴーストスジ (6843) を正規スジ (6842) へ一本化
-  for (const key of ['chuo_main', 'shinonoi']) {
+  for (const key of ['jr_chuo_main', 'jr_shinonoi']) {
     const trips = lineData[key] || [];
     const has6842ByHol = new Set(trips.filter((t) => t.trainId === '6842' && t.trainNumber === '1M').map((t) => Boolean(t.isHoliday)));
     const before = trips.length;

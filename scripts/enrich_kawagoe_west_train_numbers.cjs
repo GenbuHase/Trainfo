@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const globalPath = path.resolve('src/data/lines/kawagoe/globalTimetable.json');
-const stationPath = path.resolve('src/data/lines/kawagoe/stationTimetables.json');
+const globalPath = path.resolve('src/data/lines/jr_kawagoe/globalTimetable.json');
+const stationPath = path.resolve('src/data/lines/jr_kawagoe/stationTimetables.json');
 
 const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
 const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));

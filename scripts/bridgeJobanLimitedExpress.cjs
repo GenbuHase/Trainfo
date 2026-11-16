@@ -11,8 +11,8 @@ const {
 
 // 宣言的設定: 常磐快速線 (JJ-01..JJ-10) と常磐線取手〜いわき (JTI-01..JTI-17) の駅間標準所要秒数重み
 const JOBAN_BRIDGE_CONFIG = {
-  rapidPath: path.resolve(process.cwd(), 'src/data/lines/joban_rapid/globalTimetable.json'),
-  northPath: path.resolve(process.cwd(), 'src/data/lines/joban_toride_iwaki/globalTimetable.json'),
+  rapidPath: path.resolve(process.cwd(), 'src/data/lines/jr_joban_rapid/globalTimetable.json'),
+  northPath: path.resolve(process.cwd(), 'src/data/lines/jr_joban_toride_iwaki/globalTimetable.json'),
   rapidPrefix: 'JJ-',
   northPrefix: 'JTI-',
   rapidBoundaryIndex: 10, // JJ-10 (取手)

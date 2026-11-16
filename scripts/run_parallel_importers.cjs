@@ -3,11 +3,11 @@ const path = require('path');
 
 const workerGroups = [
   // Worker 1: 千葉方面
-  ['keiyo', 'sobu_main', 'sotobo'],
+  ['jr_keiyo', 'jr_sobu_main', 'jr_sotobo'],
   // Worker 2: 神奈川・成田
-  ['narita', 'yokohama', 'nambu'],
+  ['jr_narita', 'jr_yokohama', 'jr_nambu'],
   // Worker 3: 都心環状・主要幹線
-  ['yamanote', 'chuo_sobu_local', 'keihin_tohoku_negishi'],
+  ['jr_yamanote', 'jr_chuo_sobu_local', 'jr_keihin_tohoku_negishi'],
 ];
 
 async function runWorker(group, workerId) {

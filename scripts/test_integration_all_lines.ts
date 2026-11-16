@@ -132,11 +132,11 @@ async function runAllLinesIntegrationTests() {
 
     // 全チェーン境界距離 & 系統混入検査
     const allowedExplicitJumpPairs = new Set([
-      'shonan_shinjuku->yokosuka',
-      'yokosuka->shonan_shinjuku',
-      'takasaki->ryomo',
-      'ryomo->takasaki',
-      'chuo->sobu_rapid',
+      'jr_shonan_shinjuku->jr_yokosuka',
+      'jr_yokosuka->jr_shonan_shinjuku',
+      'jr_takasaki->jr_ryomo',
+      'jr_ryomo->jr_takasaki',
+      'jr_chuo->jr_sobu_rapid',
     ]);
     const seenSigs = new Set<string>();
     const unexpectedJumps: string[] = [];
@@ -147,9 +147,9 @@ async function runAllLinesIntegrationTests() {
       seenSigs.add(sig);
 
       const lineIds = chain.map((c) => c.lineId);
-      if (lineIds.includes('izukyu') || lineIds.includes('ito')) {
+      if (lineIds.includes('izukyu') || lineIds.includes('jr_ito')) {
         assert.ok(
-          !lineIds.includes('chuo') && !lineIds.includes('chuo_main'),
+          !lineIds.includes('jr_chuo') && !lineIds.includes('jr_chuo_main'),
           `伊豆急・伊東線チェーンに中央線系統が混入しています: ${sig}`
         );
       }
@@ -179,12 +179,12 @@ async function runAllLinesIntegrationTests() {
 
   check('あずさ5号 (42780) & あずさ38号 (42025): 多線直通チェーン整列順・非循環検証', () => {
     const azusa5 = getThroughChainTrips('WD_OUT_JC-05_0800_42780').map((t) => t.lineId);
-    assert.deepEqual(azusa5, ['chuo', 'chuo_main', 'shinonoi', 'oito_east']);
+    assert.deepEqual(azusa5, ['jr_chuo', 'jr_chuo_main', 'jr_shinonoi', 'jr_oito_east']);
 
     const azusa38 = getThroughChainTrips('WD_INB_OIE-29_1343_42025');
     assert.deepEqual(
       azusa38.map((t) => t.lineId),
-      ['oito_east', 'shinonoi', 'chuo_main', 'chuo']
+      ['jr_oito_east', 'jr_shinonoi', 'jr_chuo_main', 'jr_chuo']
     );
     assert.equal(azusa38[azusa38.length - 1].throughTripId, undefined);
   });
@@ -195,28 +195,28 @@ async function runAllLinesIntegrationTests() {
   console.log('\n--- [Integration 2] 全国主要エリア 境界直通リンク成立検証 ---');
   const nationalPairs: Array<[LineId, LineId, string]> = [
     // 東北・新幹線
-    ['tohoku_shinkansen', 'yamagata_shinkansen', '福島 (東北新幹線->山形新幹線 つばさ)'],
-    ['tohoku_shinkansen', 'akita_shinkansen', '盛岡 (東北新幹線->秋田新幹線 こまち)'],
-    ['tohoku_ichinoseki_morioka', 'igr_iwate_ginga', '盛岡 (東北本線->IGRいわて銀河鉄道)'],
+    ['jr_tohoku_shinkansen', 'jr_yamagata_shinkansen', '福島 (東北新幹線->山形新幹線 つばさ)'],
+    ['jr_tohoku_shinkansen', 'jr_akita_shinkansen', '盛岡 (東北新幹線->秋田新幹線 こまち)'],
+    ['jr_tohoku_ichinoseki_morioka', 'igr_iwate_ginga', '盛岡 (東北本線->IGRいわて銀河鉄道)'],
     ['igr_iwate_ginga', 'aoimori', '目時 (IGRいわて銀河鉄道->青い森鉄道)'],
-    ['sendai_airport', 'tohoku_fukushima_sendai', '名取 (仙台空港線->東北本線)'],
-    ['senseki_tohoku', 'senseki', '高城町 (仙石東北ライン->仙石線)'],
+    ['sendai_airport', 'jr_tohoku_fukushima_sendai', '名取 (仙台空港線->東北本線)'],
+    ['jr_senseki_tohoku', 'jr_senseki', '高城町 (仙石東北ライン->仙石線)'],
     // 関東・首都圏私鉄/JR
     ['yurakucho', 'seibu_yurakucho', '小竹向原 (有楽町線->西武有楽町線)'],
     ['seibu_yurakucho', 'seibu_ikebukuro', '練馬 (西武有楽町線->西武池袋線)'],
     ['tokyu_toyoko', 'minatomirai', '横浜 (東急東横線->みなとみらい線)'],
     ['sotetsu_main', 'sotetsu_shin_yokohama', '西谷 (相鉄本線->相鉄新横浜線)'],
-    ['sotetsu_shin_yokohama', 'sotetsu_jr_direct', '羽沢横浜国大 (相鉄新横浜線->相鉄JR直通線)'],
-    ['sotetsu_jr_direct', 'saikyo', '新宿方面 (相鉄JR直通線->埼京線)'],
-    ['chuo', 'chuo_main', '高尾 (中央線快速->中央本線)'],
-    ['chuo_main', 'shinonoi', '塩尻 (中央本線->篠ノ井線)'],
-    ['tokaido', 'ito', '熱海 (東海道線->伊東線)'],
-    ['ito', 'izukyu', '伊東 (伊東線->伊豆急行線)'],
-    ['odakyu_odawara', 'gotemba', '松田/新松田 (小田急小田原線->御殿場線 ふじさん)'],
+    ['sotetsu_shin_yokohama', 'jr_sotetsu_jr_direct', '羽沢横浜国大 (相鉄新横浜線->相鉄JR直通線)'],
+    ['jr_sotetsu_jr_direct', 'jr_saikyo', '新宿方面 (相鉄JR直通線->埼京線)'],
+    ['jr_chuo', 'jr_chuo_main', '高尾 (中央線快速->中央本線)'],
+    ['jr_chuo_main', 'jr_shinonoi', '塩尻 (中央本線->篠ノ井線)'],
+    ['jr_tokaido', 'jr_ito', '熱海 (東海道線->伊東線)'],
+    ['jr_ito', 'izukyu', '伊東 (伊東線->伊豆急行線)'],
+    ['odakyu_odawara', 'jr_gotemba', '松田/新松田 (小田急小田原線->御殿場線 ふじさん)'],
     // 東海・近畿・山陰
-    ['jr_chuo_west', 'shinonoi', '塩尻 (中央西線->篠ノ井線 しなの)'],
-    ['tokaido_toyohashi_maibara', 'jr_takayama', '岐阜 (東海道線->高山線 ひだ)'],
-    ['tokaido_toyohashi_maibara', 'jr_hokuriku_maibara_tsuruga', '米原 (東海道線->北陸線 しらさぎ)'],
+    ['jr_chuo_west', 'jr_shinonoi', '塩尻 (中央西線->篠ノ井線 しなの)'],
+    ['jr_tokaido_toyohashi_maibara', 'jr_takayama', '岐阜 (東海道線->高山線 ひだ)'],
+    ['jr_tokaido_toyohashi_maibara', 'jr_hokuriku_maibara_tsuruga', '米原 (東海道線->北陸線 しらさぎ)'],
     ['jr_gakken_toshi', 'jr_tozai', '京橋 (学研都市線->JR東西線)'],
     ['jr_tozai', 'jr_takarazuka', '尼崎 (JR東西線->JR宝塚線)'],
     ['jr_takarazuka', 'jr_kobe', '尼崎 (JR宝塚線->JR神戸線)'],
@@ -321,9 +321,9 @@ async function runAllLinesIntegrationTests() {
     console.log(`       5線直通成功: ${res.seenLines.join(' -> ')}, 最大30s移動=${res.maxJumpKm.toFixed(2)}km`);
   });
 
-  check('甲信越: 特急アルプス 4線貫通追尾 (新宿 chuo -> chuo_main -> shinonoi -> 白馬 oito_east)', () => {
-    const chuo = getLine('chuo')!;
-    const alps = chuo.globalTimetable.find((t) => !t.isHoliday && t.trainId === '42781')!;
+  check('甲信越: 特急アルプス 4線貫通追尾 (新宿 jr_chuo -> jr_chuo_main -> jr_shinonoi -> 白馬 jr_oito_east)', () => {
+    const jr_chuo = getLine('jr_chuo')!;
+    const alps = jr_chuo.globalTimetable.find((t) => !t.isHoliday && t.trainId === '42781')!;
     assert.ok(alps, '特急アルプス (42781) が見つかりません');
     assert.equal(alps.customDestination, '白馬');
     const chain = getThroughChainTrips(alps.tripId);
@@ -332,34 +332,34 @@ async function runAllLinesIntegrationTests() {
   });
 
   check('東北: 石巻線 -> 仙石線 -> 仙石東北ライン -> 東北本線 4線直通追尾', () => {
-    const ishinomaki = getLine('ishinomaki')!;
-    const senseki = getLine('senseki')!;
-    const sensekiTohoku = getLine('senseki_tohoku')!;
-    const sMap = new Map(senseki.globalTimetable.map((t) => [t.tripId, t]));
+    const jr_ishinomaki = getLine('jr_ishinomaki')!;
+    const jr_senseki = getLine('jr_senseki')!;
+    const sensekiTohoku = getLine('jr_senseki_tohoku')!;
+    const sMap = new Map(jr_senseki.globalTimetable.map((t) => [t.tripId, t]));
     const stMap = new Map(sensekiTohoku.globalTimetable.map((t) => [t.tripId, t]));
-    const fourLine = ishinomaki.globalTimetable.find((t) => {
-      if (t.isHoliday || t.throughLineId !== 'senseki' || !t.throughTripId) return false;
+    const fourLine = jr_ishinomaki.globalTimetable.find((t) => {
+      if (t.isHoliday || t.throughLineId !== 'jr_senseki' || !t.throughTripId) return false;
       const t2 = sMap.get(t.throughTripId);
-      if (!t2 || t2.throughLineId !== 'senseki_tohoku' || !t2.throughTripId) return false;
+      if (!t2 || t2.throughLineId !== 'jr_senseki_tohoku' || !t2.throughTripId) return false;
       const t3 = stMap.get(t2.throughTripId);
-      return Boolean(t3 && t3.throughLineId === 'tohoku_sendai_ichinoseki' && t3.throughTripId);
+      return Boolean(t3 && t3.throughLineId === 'jr_tohoku_sendai_ichinoseki' && t3.throughTripId);
     })!;
     assert.ok(fourLine, '石巻線->仙石線->仙石東北ライン->東北本線 4線直通便が見つかりません');
     const res = traceTrip(
       fourLine,
-      ['ishinomaki', 'senseki', 'senseki_tohoku', 'tohoku_sendai_ichinoseki'],
-      ['ishinomaki', 'senseki', 'senseki_tohoku', 'tohoku_sendai_ichinoseki']
+      ['jr_ishinomaki', 'jr_senseki', 'jr_senseki_tohoku', 'jr_tohoku_sendai_ichinoseki'],
+      ['jr_ishinomaki', 'jr_senseki', 'jr_senseki_tohoku', 'jr_tohoku_sendai_ichinoseki']
     );
     console.log(`       4線直通成功: ${res.seenLines.join(' -> ')}, 最大30s移動=${res.maxJumpKm.toFixed(2)}km`);
   });
 
-  check('中部・甲信越: 特急しなの号 (名古屋 jr_chuo_west -> shinonoi 長野) 連続追尾', () => {
+  check('中部・甲信越: 特急しなの号 (名古屋 jr_chuo_west -> jr_shinonoi 長野) 連続追尾', () => {
     const cw = getLine('jr_chuo_west')!;
     const shinano = cw.globalTimetable.find(
-      (t) => !t.isHoliday && t.trainType === 'limitedExp' && t.throughLineId === 'shinonoi'
+      (t) => !t.isHoliday && t.trainType === 'limitedExp' && t.throughLineId === 'jr_shinonoi'
     )!;
     assert.ok(shinano && shinano.trainName?.includes('しなの'));
-    const res = traceTrip(shinano, ['jr_chuo_west', 'shinonoi'], ['jr_chuo_west', 'shinonoi']);
+    const res = traceTrip(shinano, ['jr_chuo_west', 'jr_shinonoi'], ['jr_chuo_west', 'jr_shinonoi']);
     console.log(`       越境追尾成功: ${res.seenLines.join(' -> ')}, 最大30s移動=${res.maxJumpKm.toFixed(2)}km`);
   });
 
@@ -385,11 +385,11 @@ async function runAllLinesIntegrationTests() {
   // -----------------------------------------------------------------------
   console.log('\n--- [Integration 4] 全国主要ハブ・修復新設駅 発車標結合検証 ---');
   const hubStations: Array<[LineId, string]> = [
-    ['yamanote', '東京'],
-    ['chuo', '新宿'],
-    ['utsunomiya', '大宮'],
-    ['tohoku_fukushima_sendai', '仙台'],
-    ['tokaido_toyohashi_maibara', '名古屋'],
+    ['jr_yamanote', '東京'],
+    ['jr_chuo', '新宿'],
+    ['jr_utsunomiya', '大宮'],
+    ['jr_tohoku_fukushima_sendai', '仙台'],
+    ['jr_tokaido_toyohashi_maibara', '名古屋'],
     ['jr_biwako', '京都'],
     ['jr_osaka_loop', '大阪'],
     ['jr_hanwa', '天王寺'],
@@ -418,7 +418,7 @@ async function runAllLinesIntegrationTests() {
 
   check('小田急3路線＆大糸・篠ノ井間の双方向ポインタ (throughTripId <-> prevTripId) 完全一致', () => {
     const tripLookup = new Map(allLines.flatMap((l) => l.globalTimetable.map((t) => [t.tripId, t])));
-    for (const lid of ['oito_east', 'odakyu_odawara', 'odakyu_enoshima', 'odakyu_tama'] as LineId[]) {
+    for (const lid of ['jr_oito_east', 'odakyu_odawara', 'odakyu_enoshima', 'odakyu_tama'] as LineId[]) {
       const line = getLine(lid)!;
       for (const t of line.globalTimetable) {
         if (t.throughTripId) {
@@ -438,7 +438,7 @@ async function runAllLinesIntegrationTests() {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['tokaido_atami_toyohashi'],
+      selectedLineIds: ['jr_tokaido_atami_toyohashi'],
     });
     const sunrise = active0515.filter((a) => a.trainNumber === '5032M');
     assert.equal(sunrise.length, 1, `サンライズ5032Mが重複描画されています (${sunrise.length}本)`);
@@ -447,11 +447,11 @@ async function runAllLinesIntegrationTests() {
   });
 
   check('北陸新幹線 1007E / 中央本線 1M / 磐越・石巻・草津・北しなの重複スジ完全除去', () => {
-    const hks = getLine('hokuriku_shinkansen')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1007E');
+    const hks = getLine('jr_hokuriku_shinkansen')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1007E');
     assert.equal(hks.length, 1, `つるぎ7号 (1007E) の重複が残存 (${hks.length})`);
-    const cm1m = getLine('chuo_main')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1M');
+    const cm1m = getLine('jr_chuo_main')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1M');
     assert.equal(cm1m.length, 1, `あずさ1号 (1M) の重複が残存 (${cm1m.length})`);
-    const ism = getLine('ishinomaki')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1632D');
+    const ism = getLine('jr_ishinomaki')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '1632D');
     assert.equal(ism.length, 1, `石巻線 1632D の部分重複が残存 (${ism.length})`);
     const kst = getLine('jr_kusatsu')!.globalTimetable.filter((t) => !t.isHoliday && t.trainNumber === '5355M');
     assert.equal(kst.length, 1, `草津線 5355M の部分重複が残存 (${kst.length})`);
@@ -462,7 +462,7 @@ async function runAllLinesIntegrationTests() {
   check('相鉄JR直通・湘南新宿(265M/268M) -> 埼京線(1861K) 新宿折返し暗黙誤結合を禁止', () => {
     const chain = getThroughChainTrips('HD_OUT_JA-11_1857_39266');
     assert.ok(
-      !chain.some((c) => c.lineId === 'shonan_shinjuku' || c.lineId === 'sotetsu_jr_direct'),
+      !chain.some((c) => c.lineId === 'jr_shonan_shinjuku' || c.lineId === 'jr_sotetsu_jr_direct'),
       `新宿折返しの別便へ誤結合しています: ${chain.map((c) => `${c.lineId}:${c.trainNumber}`).join(' -> ')}`
     );
   });

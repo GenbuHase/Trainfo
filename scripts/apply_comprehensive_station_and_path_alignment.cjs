@@ -112,7 +112,7 @@ const RULES = [
   // 4. 東京 (JO-19: 横須賀線総武地下ホーム)
   {
     name: '東京(総武地下) (横須賀線)',
-    lineId: 'yokosuka',
+    lineId: 'jr_yokosuka',
     stationId: 'JO-19',
     targetCoord: [35.6818223, 139.7655658],
     segments: [
@@ -133,7 +133,7 @@ const RULES = [
   // 5. 松本 (OIE-01: 大糸東線)
   {
     name: '松本 (大糸東線)',
-    lineId: 'oito_east',
+    lineId: 'jr_oito_east',
     stationId: 'OIE-01',
     targetCoord: [36.230739, 137.9643862],
     segments: [
@@ -154,7 +154,7 @@ const RULES = [
   // 6. 拝島 (HA-04: 八高線)
   {
     name: '拝島 (八高線)',
-    lineId: 'hachiko',
+    lineId: 'jr_hachiko',
     stationId: 'HA-04',
     targetCoord: [35.7211908, 139.3434833],
     segments: [
@@ -185,7 +185,7 @@ const RULES = [
   // 7. 拝島 (JC-55: 五日市線)
   {
     name: '拝島 (五日市線)',
-    lineId: 'itsukaichi',
+    lineId: 'jr_itsukaichi',
     stationId: 'JC-55',
     targetCoord: [35.7211908, 139.3434833],
     segments: [
@@ -204,7 +204,7 @@ const RULES = [
   // 8. 立川 (JC-19: 青梅線)
   {
     name: '立川 (青梅線)',
-    lineId: 'ome',
+    lineId: 'jr_ome',
     stationId: 'JC-19',
     targetCoord: [35.697771, 139.413715],
     segments: [
@@ -244,7 +244,7 @@ const RULES = [
   // 10. 高崎 (HA-24: 八高線)
   {
     name: '高崎 (八高線)',
-    lineId: 'hachiko',
+    lineId: 'jr_hachiko',
     stationId: 'HA-24',
     targetCoord: [36.3223687, 139.0126097],
     segments: [
@@ -303,7 +303,7 @@ const RULES = [
   // 13. 小出 (TD-36: 只見線)
   {
     name: '小出 (只見線)',
-    lineId: 'tadami',
+    lineId: 'jr_tadami',
     stationId: 'TD-36',
     targetCoord: [37.2335257, 138.9534583],
     segments: [
@@ -361,7 +361,7 @@ const RULES = [
   // 15. 塩尻 (CO-61: 中央本線)
   {
     name: '塩尻 (中央本線)',
-    lineId: 'chuo_main',
+    lineId: 'jr_chuo_main',
     stationId: 'CO-61',
     targetCoord: [36.1144795, 137.9475995],
     segments: [
@@ -496,7 +496,7 @@ const RULES = [
   // 21. 上野 (JU-02: 宇都宮線)
   {
     name: '上野 (宇都宮線)',
-    lineId: 'utsunomiya',
+    lineId: 'jr_utsunomiya',
     stationId: 'JU-02',
     targetCoord: [35.7134394, 139.7764768],
     segments: [
@@ -517,7 +517,7 @@ const RULES = [
   // 22. 尾久 (JU-03: 宇都宮線)
   {
     name: '尾久 (宇都宮線)',
-    lineId: 'utsunomiya',
+    lineId: 'jr_utsunomiya',
     stationId: 'JU-03',
     targetCoord: [35.7469489, 139.7536899],
     segments: [
@@ -545,7 +545,7 @@ const RULES = [
   // 23. 赤羽 (JU-04: 宇都宮線)
   {
     name: '赤羽 (宇都宮線)',
-    lineId: 'utsunomiya',
+    lineId: 'jr_utsunomiya',
     stationId: 'JU-04',
     targetCoord: [35.7780922, 139.7206948],
     segments: [
@@ -573,7 +573,7 @@ const RULES = [
   // 24. 浦和 (JS-23: 湘南新宿ライン)
   {
     name: '浦和 (湘南新宿ライン)',
-    lineId: 'shonan_shinjuku',
+    lineId: 'jr_shonan_shinjuku',
     stationId: 'JS-23',
     targetCoord: [35.8589661, 139.6571243],
     segments: [
@@ -601,7 +601,7 @@ const RULES = [
   // 25. 大宮 (JU-07: 宇都宮線, JS-24: 湘南新宿ライン)
   {
     name: '大宮 (宇都宮線)',
-    lineId: 'utsunomiya',
+    lineId: 'jr_utsunomiya',
     stationId: 'JU-07',
     targetCoord: [35.9063522, 139.6242153],
     segments: [
@@ -627,7 +627,7 @@ const RULES = [
   },
   {
     name: '大宮 (湘南新宿ライン)',
-    lineId: 'shonan_shinjuku',
+    lineId: 'jr_shonan_shinjuku',
     stationId: 'JS-24',
     targetCoord: [35.9063522, 139.6242153],
     segments: [
@@ -646,7 +646,7 @@ const RULES = [
   // 26. 横浜 (JS-08: 湘南新宿ライン)
   {
     name: '横浜 (湘南新宿ライン)',
-    lineId: 'shonan_shinjuku',
+    lineId: 'jr_shonan_shinjuku',
     stationId: 'JS-08',
     targetCoord: [35.4657932, 139.6222892],
     segments: [
@@ -674,7 +674,7 @@ const RULES = [
   // 27. 戸塚 (JS-03: 湘南新宿ライン)
   {
     name: '戸塚 (湘南新宿ライン)',
-    lineId: 'shonan_shinjuku',
+    lineId: 'jr_shonan_shinjuku',
     stationId: 'JS-03',
     targetCoord: [35.400582, 139.5342993],
     segments: [
@@ -702,7 +702,7 @@ const RULES = [
   // 28. 大船 (JS-01: 湘南新宿ライン)
   {
     name: '大船 (湘南新宿ライン)',
-    lineId: 'shonan_shinjuku',
+    lineId: 'jr_shonan_shinjuku',
     stationId: 'JS-01',
     targetCoord: [35.3543387, 139.5313165],
     segments: [
@@ -725,7 +725,7 @@ const RULES = [
   // 29. 常磐緩行線 松戸 (JL-22)
   {
     name: '松戸 (常磐緩行線)',
-    lineId: 'joban_local',
+    lineId: 'jr_joban_local',
     stationId: 'JL-22',
     targetCoord: [35.7845283, 139.9004334],
     segments: [
@@ -753,7 +753,7 @@ const RULES = [
   // 30. 常磐緩行線 柏 (JL-28)
   {
     name: '柏 (常磐緩行線)',
-    lineId: 'joban_local',
+    lineId: 'jr_joban_local',
     stationId: 'JL-28',
     targetCoord: [35.8623843, 139.9709425],
     segments: [
@@ -781,7 +781,7 @@ const RULES = [
   // 31. 常磐緩行線 我孫子 (JL-30)
   {
     name: '我孫子 (常磐緩行線)',
-    lineId: 'joban_local',
+    lineId: 'jr_joban_local',
     stationId: 'JL-30',
     targetCoord: [35.8729998, 140.0107446],
     segments: [
@@ -810,7 +810,7 @@ const RULES = [
   // 32. 常磐緩行線 取手 (JL-32)
   {
     name: '取手 (常磐緩行線)',
-    lineId: 'joban_local',
+    lineId: 'jr_joban_local',
     stationId: 'JL-32',
     targetCoord: [35.8956226, 140.0627766],
     segments: [

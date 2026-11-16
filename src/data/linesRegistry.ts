@@ -1,23 +1,23 @@
 import type { LineDefinition, LineId, RegionArea, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore, CustomTrainTypeConfig } from '../types';
 import { tojoLine } from './lines/tojo';
 import { ogoseLine } from './lines/ogose';
-import { saikyoLine } from './lines/saikyo';
-import { kawagoeLine } from './lines/kawagoe';
-import { musashinoLine } from './lines/musashino';
+import { saikyoLine } from './lines/jr_saikyo';
+import { kawagoeLine } from './lines/jr_kawagoe';
+import { musashinoLine } from './lines/jr_musashino';
 import { tsukubaExpressLine } from './lines/tsukuba_express';
-import { chuoLine } from './lines/chuo';
-import { chuoMainLine } from './lines/chuo_main';
-import { shinonoiLine } from './lines/shinonoi';
-import { oitoEastLine } from './lines/oito_east';
-import { oitoWestLine } from './lines/oito_west';
+import { chuoLine } from './lines/jr_chuo';
+import { chuoMainLine } from './lines/jr_chuo_main';
+import { shinonoiLine } from './lines/jr_shinonoi';
+import { oitoEastLine } from './lines/jr_oito_east';
+import { oitoWestLine } from './lines/jr_oito_west';
 import { rinkaiLine } from './lines/rinkai';
 import { yurakuchoLine } from './lines/yurakucho';
 import { fukutoshinLine } from './lines/fukutoshin';
 import { seibuIkebukuroLine } from './lines/seibu_ikebukuro';
 import { seibuYurakuchoLine } from './lines/seibu_yurakucho';
-import { hachikoLine } from './lines/hachiko';
-import { itsukaichiLine } from './lines/itsukaichi';
-import { omeLine } from './lines/ome';
+import { hachikoLine } from './lines/jr_hachiko';
+import { itsukaichiLine } from './lines/jr_itsukaichi';
+import { omeLine } from './lines/jr_ome';
 import { chichibuLine } from './lines/chichibu';
 import { odakyuOdawaraLine } from './lines/odakyu_odawara';
 import { odakyuEnoshimaLine } from './lines/odakyu_enoshima';
@@ -28,36 +28,36 @@ import { tokyuShinYokohamaLine } from './lines/tokyu_shin_yokohama';
 import { sotetsuShinYokohamaLine } from './lines/sotetsu_shin_yokohama';
 import { sotetsuMainLine } from './lines/sotetsu_main';
 import { sotetsuIzuminoLine } from './lines/sotetsu_izumino';
-import { sotetsuJrDirectLine } from './lines/sotetsu_jr_direct';
+import { sotetsuJrDirectLine } from './lines/jr_sotetsu_jr_direct';
 import { chiyodaLine } from './lines/chiyoda';
-import { jobanLocalLine } from './lines/joban_local';
-import { jobanRapidLine } from './lines/joban_rapid';
-import { jobanTorideIwakiLine } from './lines/joban_toride_iwaki';
-import { jobanIwakiSendaiLine } from './lines/joban_iwaki_sendai';
-import { tohokuShinkansenLine } from './lines/tohoku_shinkansen';
-import { joetsuShinkansenLine } from './lines/joetsu_shinkansen';
-import { tokaidoLine } from './lines/tokaido';
-import { itoLine } from './lines/ito';
-import { yokosukaLine } from './lines/yokosuka';
-import { sobuRapidLine } from './lines/sobu_rapid';
-import { utsunomiyaLine } from './lines/utsunomiya';
-import { takasakiLine } from './lines/takasaki';
-import { shonanShinjukuLine } from './lines/shonan_shinjuku';
-import { uenoTokyoLine } from './lines/ueno_tokyo';
-import { ryomoLine } from './lines/ryomo';
-import { joetsuLine } from './lines/joetsu';
-import { shinetsuNaoetsuNiigataLine } from './lines/shinetsu_naoetsu_niigata';
-import { shinetsuTakasakiYokokawaLine } from './lines/shinetsu_takasaki_yokokawa';
-import { hakushinLine } from './lines/hakushin';
-import { uetsuMainLine } from './lines/uetsu_main';
-import { tadamiLine } from './lines/tadami';
-import { banetsuWestLine } from './lines/banetsu_west';
-import { banetsuEastLine } from './lines/banetsu_east';
+import { jobanLocalLine } from './lines/jr_joban_local';
+import { jobanRapidLine } from './lines/jr_joban_rapid';
+import { jobanTorideIwakiLine } from './lines/jr_joban_toride_iwaki';
+import { jobanIwakiSendaiLine } from './lines/jr_joban_iwaki_sendai';
+import { tohokuShinkansenLine } from './lines/jr_tohoku_shinkansen';
+import { joetsuShinkansenLine } from './lines/jr_joetsu_shinkansen';
+import { tokaidoLine } from './lines/jr_tokaido';
+import { itoLine } from './lines/jr_ito';
+import { yokosukaLine } from './lines/jr_yokosuka';
+import { sobuRapidLine } from './lines/jr_sobu_rapid';
+import { utsunomiyaLine } from './lines/jr_utsunomiya';
+import { takasakiLine } from './lines/jr_takasaki';
+import { shonanShinjukuLine } from './lines/jr_shonan_shinjuku';
+import { uenoTokyoLine } from './lines/jr_ueno_tokyo';
+import { ryomoLine } from './lines/jr_ryomo';
+import { joetsuLine } from './lines/jr_joetsu';
+import { shinetsuNaoetsuNiigataLine } from './lines/jr_shinetsu_naoetsu_niigata';
+import { shinetsuTakasakiYokokawaLine } from './lines/jr_shinetsu_takasaki_yokokawa';
+import { hakushinLine } from './lines/jr_hakushin';
+import { uetsuMainLine } from './lines/jr_uetsu_main';
+import { tadamiLine } from './lines/jr_tadami';
+import { banetsuWestLine } from './lines/jr_banetsu_west';
+import { banetsuEastLine } from './lines/jr_banetsu_east';
 import { myokoHaneumaLine } from './lines/myoko_haneuma';
 import { kitaShinanoLine } from './lines/kita_shinano';
 import { nihonkaiHisuiLine } from './lines/nihonkai_hisui';
 import { hokuhokuLine } from './lines/hokuhoku';
-import { hokurikuShinkansenLine } from './lines/hokuriku_shinkansen';
+import { hokurikuShinkansenLine } from './lines/jr_hokuriku_shinkansen';
 import { tobuSkytreeLine } from './lines/tobu_skytree';
 import { tobuIsesakiLine } from './lines/tobu_isesaki';
 import { tobuKameidoLine } from './lines/tobu_kameido';
@@ -71,14 +71,14 @@ import { tobuKinugawaLine } from './lines/tobu_kinugawa';
 import { tobuUrbanParkLine } from './lines/tobu_urban_park';
 import { yaganLine } from './lines/yagan';
 import { aizuLine } from './lines/aizu';
-import { yamagataShinkansenLine } from './lines/yamagata_shinkansen';
-import { akitaShinkansenLine } from './lines/akita_shinkansen';
-import { ouFukushimaShinjoLine } from './lines/ou_fukushima_shinjo';
-import { ouShinjoOmagariLine } from './lines/ou_shinjo_omagari';
-import { ouOmagariAkitaLine } from './lines/ou_omagari_akita';
-import { ouAkitaAomoriLine } from './lines/ou_akita_aomori';
+import { yamagataShinkansenLine } from './lines/jr_yamagata_shinkansen';
+import { akitaShinkansenLine } from './lines/jr_akita_shinkansen';
+import { ouFukushimaShinjoLine } from './lines/jr_ou_fukushima_shinjo';
+import { ouShinjoOmagariLine } from './lines/jr_ou_shinjo_omagari';
+import { ouOmagariAkitaLine } from './lines/jr_ou_omagari_akita';
+import { ouAkitaAomoriLine } from './lines/jr_ou_akita_aomori';
 import { fujikyuLine } from './lines/fujikyu';
-import { gotembaLine } from './lines/gotemba';
+import { gotembaLine } from './lines/jr_gotemba';
 import { izukyuLine } from './lines/izukyu';
 import { izuhakoneSunzuLine } from './lines/izuhakone_sunzu';
 import { hibiyaLine } from './lines/hibiya';
@@ -87,54 +87,54 @@ import { hanzomonLine } from './lines/hanzomon';
 import { ginzaLine } from './lines/ginza';
 import { nambokuLine } from './lines/namboku';
 import { tozaiLine } from './lines/tozai';
-import { yamanoteLine } from './lines/yamanote';
-import { keiyoLine } from './lines/keiyo';
-import { sotoboLine } from './lines/sotobo';
-import { sobuMainLine } from './lines/sobu_main';
-import { naritaLine } from './lines/narita';
-import { toganeLine } from './lines/togane';
-import { kururiLine } from './lines/kururi';
-import { chuoSobuLocalLine } from './lines/chuo_sobu_local';
-import { keihinTohokuNegishiLine } from './lines/keihin_tohoku_negishi';
-import { yokohamaLine } from './lines/yokohama';
-import { nambuLine } from './lines/nambu';
-import { tsurumiLine } from './lines/tsurumi';
-import { uchiboLine } from './lines/uchibo';
-import { tokaidoShinkansenLine } from './lines/tokaido_shinkansen';
-import { sanyoShinkansenLine } from './lines/sanyo_shinkansen';
-import { tokaidoAtamiToyohashiLine } from './lines/tokaido_atami_toyohashi';
-import { tokaidoToyohashiMaibaraLine } from './lines/tokaido_toyohashi_maibara';
-import { tokaidoMinoakasakaLine } from './lines/tokaido_minoakasaka';
+import { yamanoteLine } from './lines/jr_yamanote';
+import { keiyoLine } from './lines/jr_keiyo';
+import { sotoboLine } from './lines/jr_sotobo';
+import { sobuMainLine } from './lines/jr_sobu_main';
+import { naritaLine } from './lines/jr_narita';
+import { toganeLine } from './lines/jr_togane';
+import { kururiLine } from './lines/jr_kururi';
+import { chuoSobuLocalLine } from './lines/jr_chuo_sobu_local';
+import { keihinTohokuNegishiLine } from './lines/jr_keihin_tohoku_negishi';
+import { yokohamaLine } from './lines/jr_yokohama';
+import { nambuLine } from './lines/jr_nambu';
+import { tsurumiLine } from './lines/jr_tsurumi';
+import { uchiboLine } from './lines/jr_uchibo';
+import { tokaidoShinkansenLine } from './lines/jr_tokaido_shinkansen';
+import { sanyoShinkansenLine } from './lines/jr_sanyo_shinkansen';
+import { tokaidoAtamiToyohashiLine } from './lines/jr_tokaido_atami_toyohashi';
+import { tokaidoToyohashiMaibaraLine } from './lines/jr_tokaido_toyohashi_maibara';
+import { tokaidoMinoakasakaLine } from './lines/jr_tokaido_minoakasaka';
 import { jrBiwakoLine } from './lines/jr_biwako';
 import { jrKyotoLine } from './lines/jr_kyoto';
 import { jrKobeLine } from './lines/jr_kobe';
-import { tohokuKuroisoFukushimaLine } from './lines/tohoku_kuroiso_fukushima';
-import { tohokuFukushimaSendaiLine } from './lines/tohoku_fukushima_sendai';
-import { tohokuSendaiIchinosekiLine } from './lines/tohoku_sendai_ichinoseki';
-import { tohokuRifuLine } from './lines/tohoku_rifu';
-import { tohokuIchinosekiMoriokaLine } from './lines/tohoku_ichinoseki_morioka';
+import { tohokuKuroisoFukushimaLine } from './lines/jr_tohoku_kuroiso_fukushima';
+import { tohokuFukushimaSendaiLine } from './lines/jr_tohoku_fukushima_sendai';
+import { tohokuSendaiIchinosekiLine } from './lines/jr_tohoku_sendai_ichinoseki';
+import { tohokuRifuLine } from './lines/jr_tohoku_rifu';
+import { tohokuIchinosekiMoriokaLine } from './lines/jr_tohoku_ichinoseki_morioka';
 import { igrIwateGingaLine } from './lines/igr_iwate_ginga';
 import { aoimoriLine } from './lines/aoimori';
-import { sensekiLine } from './lines/senseki';
-import { sensekiTohokuLine } from './lines/senseki_tohoku';
-import { ishinomakiLine } from './lines/ishinomaki';
-import { rikuuEastLine } from './lines/rikuu_east';
-import { rikuuWestLine } from './lines/rikuu_west';
-import { senzanLine } from './lines/senzan';
+import { sensekiLine } from './lines/jr_senseki';
+import { sensekiTohokuLine } from './lines/jr_senseki_tohoku';
+import { ishinomakiLine } from './lines/jr_ishinomaki';
+import { rikuuEastLine } from './lines/jr_rikuu_east';
+import { rikuuWestLine } from './lines/jr_rikuu_west';
+import { senzanLine } from './lines/jr_senzan';
 import { sendaiAirportLine } from './lines/sendai_airport';
-import { kitakamiLine } from './lines/kitakami';
-import { ofunatoLine } from './lines/ofunato';
-import { ofunatoBrtLine } from './lines/ofunato_brt';
-import { kesennumaLine } from './lines/kesennuma';
-import { kesennumaBrtLine } from './lines/kesennuma_brt';
-import { kamaishiLine } from './lines/kamaishi';
-import { tazawakoLine } from './lines/tazawako';
-import { yamadaLine } from './lines/yamada';
-import { hachinoheLine } from './lines/hachinohe';
-import { ominatoLine } from './lines/ominato';
-import { tsugaruLine } from './lines/tsugaru';
-import { gonoLine } from './lines/gono';
-import { ogaLine } from './lines/oga';
+import { kitakamiLine } from './lines/jr_kitakami';
+import { ofunatoLine } from './lines/jr_ofunato';
+import { ofunatoBrtLine } from './lines/jr_ofunato_brt';
+import { kesennumaLine } from './lines/jr_kesennuma';
+import { kesennumaBrtLine } from './lines/jr_kesennuma_brt';
+import { kamaishiLine } from './lines/jr_kamaishi';
+import { tazawakoLine } from './lines/jr_tazawako';
+import { yamadaLine } from './lines/jr_yamada';
+import { hachinoheLine } from './lines/jr_hachinohe';
+import { ominatoLine } from './lines/jr_ominato';
+import { tsugaruLine } from './lines/jr_tsugaru';
+import { gonoLine } from './lines/jr_gono';
+import { ogaLine } from './lines/jr_oga';
 import { jrChuoWestLine } from './lines/jr_chuo_west';
 import { jrTakayamaLine } from './lines/jr_takayama';
 import { jrKansaiNagoyaKameyamaLine } from './lines/jr_kansai_nagoya_kameyama';
@@ -178,106 +178,106 @@ import { jrWadamisakiLine } from './lines/jr_wadamisaki';
 // 登録路線マップ（新幹線・主要幹線・都市圏路線・ローカル線の自然な順序）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
   // === 新幹線 ===
-  tokaido_shinkansen: tokaidoShinkansenLine,
-  sanyo_shinkansen: sanyoShinkansenLine,
-  tohoku_shinkansen: tohokuShinkansenLine,
-  joetsu_shinkansen: joetsuShinkansenLine,
-  hokuriku_shinkansen: hokurikuShinkansenLine,
-  yamagata_shinkansen: yamagataShinkansenLine,
-  akita_shinkansen: akitaShinkansenLine,
+  jr_tokaido_shinkansen: tokaidoShinkansenLine,
+  jr_sanyo_shinkansen: sanyoShinkansenLine,
+  jr_tohoku_shinkansen: tohokuShinkansenLine,
+  jr_joetsu_shinkansen: joetsuShinkansenLine,
+  jr_hokuriku_shinkansen: hokurikuShinkansenLine,
+  jr_yamagata_shinkansen: yamagataShinkansenLine,
+  jr_akita_shinkansen: akitaShinkansenLine,
 
   // === JR東日本（首都圏主要幹線・電車特定区間） ===
-  yamanote: yamanoteLine,
-  keihin_tohoku_negishi: keihinTohokuNegishiLine,
-  ueno_tokyo: uenoTokyoLine,
-  shonan_shinjuku: shonanShinjukuLine,
-  tokaido: tokaidoLine,
-  yokosuka: yokosukaLine,
-  chuo: chuoLine,
-  chuo_sobu_local: chuoSobuLocalLine,
-  sobu_rapid: sobuRapidLine,
-  utsunomiya: utsunomiyaLine,
-  takasaki: takasakiLine,
-  joban_rapid: jobanRapidLine,
-  joban_local: jobanLocalLine,
-  saikyo: saikyoLine,
-  musashino: musashinoLine,
-  keiyo: keiyoLine,
+  jr_yamanote: yamanoteLine,
+  jr_keihin_tohoku_negishi: keihinTohokuNegishiLine,
+  jr_ueno_tokyo: uenoTokyoLine,
+  jr_shonan_shinjuku: shonanShinjukuLine,
+  jr_tokaido: tokaidoLine,
+  jr_yokosuka: yokosukaLine,
+  jr_chuo: chuoLine,
+  jr_chuo_sobu_local: chuoSobuLocalLine,
+  jr_sobu_rapid: sobuRapidLine,
+  jr_utsunomiya: utsunomiyaLine,
+  jr_takasaki: takasakiLine,
+  jr_joban_rapid: jobanRapidLine,
+  jr_joban_local: jobanLocalLine,
+  jr_saikyo: saikyoLine,
+  jr_musashino: musashinoLine,
+  jr_keiyo: keiyoLine,
 
   // === JR東日本（首都圏近郊・周辺線区・直通線） ===
-  yokohama: yokohamaLine,
-  nambu: nambuLine,
-  tsurumi: tsurumiLine,
-  sotetsu_jr_direct: sotetsuJrDirectLine,
-  kawagoe: kawagoeLine,
-  hachiko: hachikoLine,
-  ome: omeLine,
-  itsukaichi: itsukaichiLine,
+  jr_yokohama: yokohamaLine,
+  jr_nambu: nambuLine,
+  jr_tsurumi: tsurumiLine,
+  jr_sotetsu_jr_direct: sotetsuJrDirectLine,
+  jr_kawagoe: kawagoeLine,
+  jr_hachiko: hachikoLine,
+  jr_ome: omeLine,
+  jr_itsukaichi: itsukaichiLine,
 
   // === JR東日本（房総・北関東線区） ===
-  sobu_main: sobuMainLine,
-  narita: naritaLine,
-  sotobo: sotoboLine,
-  uchibo: uchiboLine,
-  togane: toganeLine,
-  kururi: kururiLine,
-  ryomo: ryomoLine,
-  ito: itoLine,
+  jr_sobu_main: sobuMainLine,
+  jr_narita: naritaLine,
+  jr_sotobo: sotoboLine,
+  jr_uchibo: uchiboLine,
+  jr_togane: toganeLine,
+  jr_kururi: kururiLine,
+  jr_ryomo: ryomoLine,
+  jr_ito: itoLine,
 
   // === JR東日本（甲信越・信越・新潟線区） ===
-  chuo_main: chuoMainLine,
-  shinonoi: shinonoiLine,
-  oito_east: oitoEastLine,
-  joetsu: joetsuLine,
-  shinetsu_takasaki_yokokawa: shinetsuTakasakiYokokawaLine,
-  shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
-  hakushin: hakushinLine,
-  uetsu_main: uetsuMainLine,
+  jr_chuo_main: chuoMainLine,
+  jr_shinonoi: shinonoiLine,
+  jr_oito_east: oitoEastLine,
+  jr_joetsu: joetsuLine,
+  jr_shinetsu_takasaki_yokokawa: shinetsuTakasakiYokokawaLine,
+  jr_shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
+  jr_hakushin: hakushinLine,
+  jr_uetsu_main: uetsuMainLine,
 
   // === JR東日本（常磐北部・東北幹線・仙台近郊） ===
-  joban_toride_iwaki: jobanTorideIwakiLine,
-  joban_iwaki_sendai: jobanIwakiSendaiLine,
-  tohoku_kuroiso_fukushima: tohokuKuroisoFukushimaLine,
-  tohoku_fukushima_sendai: tohokuFukushimaSendaiLine,
-  tohoku_sendai_ichinoseki: tohokuSendaiIchinosekiLine,
-  tohoku_rifu: tohokuRifuLine,
-  tohoku_ichinoseki_morioka: tohokuIchinosekiMoriokaLine,
-  senzan: senzanLine,
-  senseki: sensekiLine,
-  senseki_tohoku: sensekiTohokuLine,
-  ishinomaki: ishinomakiLine,
+  jr_joban_toride_iwaki: jobanTorideIwakiLine,
+  jr_joban_iwaki_sendai: jobanIwakiSendaiLine,
+  jr_tohoku_kuroiso_fukushima: tohokuKuroisoFukushimaLine,
+  jr_tohoku_fukushima_sendai: tohokuFukushimaSendaiLine,
+  jr_tohoku_sendai_ichinoseki: tohokuSendaiIchinosekiLine,
+  jr_tohoku_rifu: tohokuRifuLine,
+  jr_tohoku_ichinoseki_morioka: tohokuIchinosekiMoriokaLine,
+  jr_senzan: senzanLine,
+  jr_senseki: sensekiLine,
+  jr_senseki_tohoku: sensekiTohokuLine,
+  jr_ishinomaki: ishinomakiLine,
 
   // === JR東日本（山形・秋田・青森・北東北線区） ===
-  ou_fukushima_shinjo: ouFukushimaShinjoLine,
-  ou_shinjo_omagari: ouShinjoOmagariLine,
-  ou_omagari_akita: ouOmagariAkitaLine,
-  ou_akita_aomori: ouAkitaAomoriLine,
-  tazawako: tazawakoLine,
-  kitakami: kitakamiLine,
-  kamaishi: kamaishiLine,
-  yamada: yamadaLine,
-  hachinohe: hachinoheLine,
-  ominato: ominatoLine,
-  tsugaru: tsugaruLine,
-  gono: gonoLine,
-  oga: ogaLine,
+  jr_ou_fukushima_shinjo: ouFukushimaShinjoLine,
+  jr_ou_shinjo_omagari: ouShinjoOmagariLine,
+  jr_ou_omagari_akita: ouOmagariAkitaLine,
+  jr_ou_akita_aomori: ouAkitaAomoriLine,
+  jr_tazawako: tazawakoLine,
+  jr_kitakami: kitakamiLine,
+  jr_kamaishi: kamaishiLine,
+  jr_yamada: yamadaLine,
+  jr_hachinohe: hachinoheLine,
+  jr_ominato: ominatoLine,
+  jr_tsugaru: tsugaruLine,
+  jr_gono: gonoLine,
+  jr_oga: ogaLine,
 
   // === JR東日本（南東北ローカル・BRT線区） ===
-  banetsu_east: banetsuEastLine,
-  banetsu_west: banetsuWestLine,
-  tadami: tadamiLine,
-  rikuu_east: rikuuEastLine,
-  rikuu_west: rikuuWestLine,
-  kesennuma: kesennumaLine,
-  kesennuma_brt: kesennumaBrtLine,
-  ofunato: ofunatoLine,
-  ofunato_brt: ofunatoBrtLine,
+  jr_banetsu_east: banetsuEastLine,
+  jr_banetsu_west: banetsuWestLine,
+  jr_tadami: tadamiLine,
+  jr_rikuu_east: rikuuEastLine,
+  jr_rikuu_west: rikuuWestLine,
+  jr_kesennuma: kesennumaLine,
+  jr_kesennuma_brt: kesennumaBrtLine,
+  jr_ofunato: ofunatoLine,
+  jr_ofunato_brt: ofunatoBrtLine,
 
   // === JR東海 ===
-  tokaido_atami_toyohashi: tokaidoAtamiToyohashiLine,
-  tokaido_toyohashi_maibara: tokaidoToyohashiMaibaraLine,
-  tokaido_minoakasaka: tokaidoMinoakasakaLine,
-  gotemba: gotembaLine,
+  jr_tokaido_atami_toyohashi: tokaidoAtamiToyohashiLine,
+  jr_tokaido_toyohashi_maibara: tokaidoToyohashiMaibaraLine,
+  jr_tokaido_minoakasaka: tokaidoMinoakasakaLine,
+  jr_gotemba: gotembaLine,
   jr_minobu: jrMinobuLine,
   jr_iida: jrIidaLine,
   jr_chuo_west: jrChuoWestLine,
@@ -323,7 +323,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   jr_kishin: jrKishinLine,
   jr_wadamisaki: jrWadamisakiLine,
   jr_kansai_kameyama_kamo: jrKansaiKameyamaKamoLine,
-  oito_west: oitoWestLine,
+  jr_oito_west: oitoWestLine,
 
   // === 東京メトロ ===
   ginza: ginzaLine,
@@ -492,88 +492,88 @@ export function getLinesGroupedByOperator(): OperatorLinesGroup[] {
 
 // エリアマッピング
 export const LINE_AREA_MAP: Record<string, RegionArea> = {
-  tohoku_shinkansen: 'tohoku',
-  joetsu_shinkansen: 'koshinetsu',
-  yamagata_shinkansen: 'tohoku',
-  akita_shinkansen: 'tohoku',
-  hokuriku_shinkansen: 'koshinetsu',
-  yamanote: 'kanto',
-  keihin_tohoku_negishi: 'kanto',
-  chuo: 'kanto',
-  chuo_sobu_local: 'kanto',
-  saikyo: 'kanto',
-  musashino: 'kanto',
-  keiyo: 'kanto',
-  ueno_tokyo: 'kanto',
-  shonan_shinjuku: 'kanto',
-  tokaido: 'kanto',
-  yokosuka: 'kanto',
-  sobu_rapid: 'kanto',
-  utsunomiya: 'kanto',
-  tohoku_kuroiso_fukushima: 'tohoku',
-  tohoku_fukushima_sendai: 'tohoku',
-  tohoku_sendai_ichinoseki: 'tohoku',
-  tohoku_rifu: 'tohoku',
-  tohoku_ichinoseki_morioka: 'tohoku',
-  senseki: 'tohoku',
-  senseki_tohoku: 'tohoku',
-  ishinomaki: 'tohoku',
-  rikuu_east: 'tohoku',
-  rikuu_west: 'tohoku',
-  senzan: 'tohoku',
+  jr_tohoku_shinkansen: 'tohoku',
+  jr_joetsu_shinkansen: 'koshinetsu',
+  jr_yamagata_shinkansen: 'tohoku',
+  jr_akita_shinkansen: 'tohoku',
+  jr_hokuriku_shinkansen: 'koshinetsu',
+  jr_yamanote: 'kanto',
+  jr_keihin_tohoku_negishi: 'kanto',
+  jr_chuo: 'kanto',
+  jr_chuo_sobu_local: 'kanto',
+  jr_saikyo: 'kanto',
+  jr_musashino: 'kanto',
+  jr_keiyo: 'kanto',
+  jr_ueno_tokyo: 'kanto',
+  jr_shonan_shinjuku: 'kanto',
+  jr_tokaido: 'kanto',
+  jr_yokosuka: 'kanto',
+  jr_sobu_rapid: 'kanto',
+  jr_utsunomiya: 'kanto',
+  jr_tohoku_kuroiso_fukushima: 'tohoku',
+  jr_tohoku_fukushima_sendai: 'tohoku',
+  jr_tohoku_sendai_ichinoseki: 'tohoku',
+  jr_tohoku_rifu: 'tohoku',
+  jr_tohoku_ichinoseki_morioka: 'tohoku',
+  jr_senseki: 'tohoku',
+  jr_senseki_tohoku: 'tohoku',
+  jr_ishinomaki: 'tohoku',
+  jr_rikuu_east: 'tohoku',
+  jr_rikuu_west: 'tohoku',
+  jr_senzan: 'tohoku',
   sendai_airport: 'tohoku',
-  kitakami: 'tohoku',
-  ofunato: 'tohoku',
-  ofunato_brt: 'tohoku',
-  kesennuma: 'tohoku',
-  kesennuma_brt: 'tohoku',
-  kamaishi: 'tohoku',
-  tazawako: 'tohoku',
-  yamada: 'tohoku',
-  hachinohe: 'tohoku',
-  ominato: 'tohoku',
-  tsugaru: 'tohoku',
-  gono: 'tohoku',
-  oga: 'tohoku',
-  takasaki: 'kanto',
-  ito: 'tokai',
-  joban_rapid: 'kanto',
-  joban_local: 'kanto',
-  joban_toride_iwaki: 'tohoku',
-  joban_iwaki_sendai: 'tohoku',
-  yokohama: 'kanto',
-  nambu: 'kanto',
-  tsurumi: 'kanto',
-  sotetsu_jr_direct: 'kanto',
-  kawagoe: 'kanto',
-  hachiko: 'kanto',
-  ome: 'kanto',
-  itsukaichi: 'kanto',
-  sobu_main: 'kanto',
-  narita: 'kanto',
-  sotobo: 'kanto',
-  uchibo: 'kanto',
-  togane: 'kanto',
-  kururi: 'kanto',
-  ryomo: 'kanto',
-  joetsu: 'koshinetsu',
-  chuo_main: 'koshinetsu',
-  shinonoi: 'koshinetsu',
-  oito_east: 'koshinetsu',
-  shinetsu_takasaki_yokokawa: 'koshinetsu',
-  shinetsu_naoetsu_niigata: 'koshinetsu',
-  hakushin: 'koshinetsu',
-  uetsu_main: 'koshinetsu',
-  ou_fukushima_shinjo: 'tohoku',
-  ou_shinjo_omagari: 'tohoku',
-  ou_omagari_akita: 'tohoku',
-  ou_akita_aomori: 'tohoku',
-  tadami: 'tohoku',
-  banetsu_west: 'tohoku',
-  banetsu_east: 'tohoku',
-  tokaido_atami_toyohashi: 'tokai',
-  tokaido_toyohashi_maibara: 'tokai',
-  tokaido_minoakasaka: 'tokai',
+  jr_kitakami: 'tohoku',
+  jr_ofunato: 'tohoku',
+  jr_ofunato_brt: 'tohoku',
+  jr_kesennuma: 'tohoku',
+  jr_kesennuma_brt: 'tohoku',
+  jr_kamaishi: 'tohoku',
+  jr_tazawako: 'tohoku',
+  jr_yamada: 'tohoku',
+  jr_hachinohe: 'tohoku',
+  jr_ominato: 'tohoku',
+  jr_tsugaru: 'tohoku',
+  jr_gono: 'tohoku',
+  jr_oga: 'tohoku',
+  jr_takasaki: 'kanto',
+  jr_ito: 'tokai',
+  jr_joban_rapid: 'kanto',
+  jr_joban_local: 'kanto',
+  jr_joban_toride_iwaki: 'tohoku',
+  jr_joban_iwaki_sendai: 'tohoku',
+  jr_yokohama: 'kanto',
+  jr_nambu: 'kanto',
+  jr_tsurumi: 'kanto',
+  jr_sotetsu_jr_direct: 'kanto',
+  jr_kawagoe: 'kanto',
+  jr_hachiko: 'kanto',
+  jr_ome: 'kanto',
+  jr_itsukaichi: 'kanto',
+  jr_sobu_main: 'kanto',
+  jr_narita: 'kanto',
+  jr_sotobo: 'kanto',
+  jr_uchibo: 'kanto',
+  jr_togane: 'kanto',
+  jr_kururi: 'kanto',
+  jr_ryomo: 'kanto',
+  jr_joetsu: 'koshinetsu',
+  jr_chuo_main: 'koshinetsu',
+  jr_shinonoi: 'koshinetsu',
+  jr_oito_east: 'koshinetsu',
+  jr_shinetsu_takasaki_yokokawa: 'koshinetsu',
+  jr_shinetsu_naoetsu_niigata: 'koshinetsu',
+  jr_hakushin: 'koshinetsu',
+  jr_uetsu_main: 'koshinetsu',
+  jr_ou_fukushima_shinjo: 'tohoku',
+  jr_ou_shinjo_omagari: 'tohoku',
+  jr_ou_omagari_akita: 'tohoku',
+  jr_ou_akita_aomori: 'tohoku',
+  jr_tadami: 'tohoku',
+  jr_banetsu_west: 'tohoku',
+  jr_banetsu_east: 'tohoku',
+  jr_tokaido_atami_toyohashi: 'tokai',
+  jr_tokaido_toyohashi_maibara: 'tokai',
+  jr_tokaido_minoakasaka: 'tokai',
   jr_chuo_west: 'tokai',
   jr_takayama: 'tokai',
   jr_kansai_nagoya_kameyama: 'tokai',
@@ -612,13 +612,13 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   jr_maizuru: 'kansai',
   jr_obama: 'kansai',
   jr_wadamisaki: 'kansai',
-  tokaido_shinkansen: 'tokai',
-  sanyo_shinkansen: 'kansai',
+  jr_tokaido_shinkansen: 'tokai',
+  jr_sanyo_shinkansen: 'kansai',
   jr_biwako: 'kansai',
   jr_kyoto: 'kansai',
   jr_kobe: 'kansai',
-  gotemba: 'tokai',
-  oito_west: 'koshinetsu',
+  jr_gotemba: 'tokai',
+  jr_oito_west: 'koshinetsu',
   ginza: 'kanto',
   marunouchi: 'kanto',
   hibiya: 'kanto',

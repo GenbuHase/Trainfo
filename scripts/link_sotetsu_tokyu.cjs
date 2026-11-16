@@ -124,7 +124,7 @@ function run() {
   const ssPath = path.resolve('src/data/lines/sotetsu_shin_yokohama/globalTimetable.json');
   const smPath = path.resolve('src/data/lines/sotetsu_main/globalTimetable.json');
   const siPath = path.resolve('src/data/lines/sotetsu_izumino/globalTimetable.json');
-  const jrPath = path.resolve('src/data/lines/sotetsu_jr_direct/globalTimetable.json');
+  const jrPath = path.resolve('src/data/lines/jr_sotetsu_jr_direct/globalTimetable.json');
 
   const tyTrips = fs.existsSync(tyPath) ? JSON.parse(fs.readFileSync(tyPath, 'utf8')) : [];
   const shTrips = fs.existsSync(shPath) ? JSON.parse(fs.readFileSync(shPath, 'utf8')) : [];
@@ -134,7 +134,7 @@ function run() {
   const jrTrips = fs.existsSync(jrPath) ? JSON.parse(fs.readFileSync(jrPath, 'utf8')) : [];
 
   // 相鉄・新横浜線関連のリンクのみを安全にリセット
-  const sLines = new Set(['tokyu_shin_yokohama', 'sotetsu_shin_yokohama', 'sotetsu_main', 'sotetsu_izumino', 'sotetsu_jr_direct']);
+  const sLines = new Set(['tokyu_shin_yokohama', 'sotetsu_shin_yokohama', 'sotetsu_main', 'sotetsu_izumino', 'jr_sotetsu_jr_direct']);
   
   for (const t of tyTrips) {
     if (sLines.has(t.throughLineId)) {
@@ -268,7 +268,7 @@ function run() {
   console.log('\n5. 相鉄新横浜線 ↔ 相鉄・JR直通線 (羽沢横浜国大)');
   // 新宿 -> 羽沢横浜国大 -> 西谷方面 (下り)
   linkLinePair({
-    lineAId: 'sotetsu_jr_direct',
+    lineAId: 'jr_sotetsu_jr_direct',
     lineBId: 'sotetsu_shin_yokohama',
     tripsA: jrTrips,
     tripsB: ssTrips,
@@ -282,7 +282,7 @@ function run() {
   // 西谷方面 -> 羽沢横浜国大 -> 新宿方面 (上り)
   linkLinePair({
     lineAId: 'sotetsu_shin_yokohama',
-    lineBId: 'sotetsu_jr_direct',
+    lineBId: 'jr_sotetsu_jr_direct',
     tripsA: ssTrips,
     tripsB: jrTrips,
     stationAId: 'SO-51',

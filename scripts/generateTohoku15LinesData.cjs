@@ -271,7 +271,7 @@ function buildLine(spec, osm) {
   if (spec.useTsugaruNorthWays) {
     for (const wid of tsugaruNorthWays) unionWayIds.add(wid);
   }
-  if (spec.lineId === 'ofunato_brt') {
+  if (spec.lineId === 'jr_ofunato_brt') {
     for (const wid of kamishishioriRoadWays) unionWayIds.add(wid);
   }
 
@@ -593,7 +593,7 @@ export const ${spec.exportLineVar}: LineDefinition = {
   }
 
   // 大船渡線BRT向け分岐方向解決
-  if (spec.lineId === 'ofunato_brt') {
+  if (spec.lineId === 'jr_ofunato_brt') {
     extraFilterLines += `  resolveDirection: (firstSt, lastSt) => {\n`;
     extraFilterLines += `    const a = firstSt.stationId;\n`;
     extraFilterLines += `    const b = lastSt.stationId;\n`;

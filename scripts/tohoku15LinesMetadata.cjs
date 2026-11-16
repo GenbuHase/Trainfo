@@ -359,7 +359,7 @@ const TRANSFERS_MAP = {
 // 15路線仕様定義
 const LINE_SPECS = [
   {
-    lineId: 'senzan',
+    lineId: 'jr_senzan',
     name: 'JR仙山線',
     shortName: '仙山線',
     operator: 'JR東日本',
@@ -421,7 +421,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'kitakami',
+    lineId: 'jr_kitakami',
     name: 'JR北上線',
     shortName: '北上線',
     operator: 'JR東日本',
@@ -454,7 +454,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'ofunato',
+    lineId: 'jr_ofunato',
     name: 'JR大船渡線',
     shortName: '大船渡線',
     operator: 'JR東日本',
@@ -487,7 +487,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'ofunato_brt',
+    lineId: 'jr_ofunato_brt',
     name: 'JR大船渡線BRT',
     shortName: '大船渡線BRT',
     operator: 'JR東日本',
@@ -564,7 +564,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'kesennuma',
+    lineId: 'jr_kesennuma',
     name: 'JR気仙沼線',
     shortName: '気仙沼線',
     operator: 'JR東日本',
@@ -594,7 +594,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'kesennuma_brt',
+    lineId: 'jr_kesennuma_brt',
     name: 'JR気仙沼線BRT',
     shortName: '気仙沼線BRT',
     operator: 'JR東日本',
@@ -650,7 +650,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'kamaishi',
+    lineId: 'jr_kamaishi',
     name: 'JR釜石線',
     shortName: '釜石線',
     operator: 'JR東日本',
@@ -685,7 +685,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'tazawako',
+    lineId: 'jr_tazawako',
     name: 'JR田沢湖線',
     shortName: '田沢湖線',
     operator: 'JR東日本',
@@ -719,7 +719,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'yamada',
+    lineId: 'jr_yamada',
     name: 'JR山田線',
     shortName: '山田線',
     operator: 'JR東日本',
@@ -752,7 +752,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'hachinohe',
+    lineId: 'jr_hachinohe',
     name: 'JR八戸線',
     shortName: '八戸線',
     operator: 'JR東日本',
@@ -787,7 +787,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'ominato',
+    lineId: 'jr_ominato',
     name: 'JR大湊線',
     shortName: '大湊線',
     operator: 'JR東日本',
@@ -818,7 +818,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'tsugaru',
+    lineId: 'jr_tsugaru',
     name: 'JR津軽線',
     shortName: '津軽線',
     operator: 'JR東日本',
@@ -853,7 +853,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'gono',
+    lineId: 'jr_gono',
     name: 'JR五能線',
     shortName: '五能線',
     operator: 'JR東日本',
@@ -896,7 +896,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'oga',
+    lineId: 'jr_oga',
     name: 'JR男鹿線',
     shortName: '男鹿線',
     operator: 'JR東日本',

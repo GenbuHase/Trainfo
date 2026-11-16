@@ -128,9 +128,9 @@ console.log('✅ テスト6: 始発発車前 (09:00) に無関係な別列車を
 
 // 単一路線便 (中央線快速 東京発 高尾行: WD_OUT_JC-01_1000_1025T)
 // 直通なし。終点到着後の巻き戻しや終了時の挙動確認
-const chuoTrip = allTrips.find((t) => t.lineId === 'chuo' && t.originStationId === 'JC-01' && !t.throughTripId);
+const chuoTrip = allTrips.find((t) => t.lineId === 'jr_chuo' && t.originStationId === 'JC-01' && !t.throughTripId);
 if (chuoTrip) {
-  const chuoState = { ...baseSimState, selectedLineIds: ['chuo'] };
+  const chuoState = { ...baseSimState, selectedLineIds: ['jr_chuo'] };
   const firstTime = timeStringToSeconds(chuoTrip.stops[0].departureTime);
   const lastTime = timeStringToSeconds(chuoTrip.stops[chuoTrip.stops.length - 1].arrivalTime);
 

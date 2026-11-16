@@ -2,19 +2,19 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const config = require('./lines/kawagoe/config.cjs');
+const config = require('./lines/jr_kawagoe/config.cjs');
 const YahooTimetableBuilder = require('./common/yahoo/YahooTimetableBuilder.cjs');
 
 console.log('=== 川越線 タイムテーブル統合開始 ===');
 
 // 1. Gitのコミット済みデータ（大宮〜川越の埼京線連携データ 280本）をロード
-const gitGlobalRaw = execSync('git show HEAD~1:src/data/lines/kawagoe/globalTimetable.json', {
+const gitGlobalRaw = execSync('git show HEAD~1:src/data/lines/jr_kawagoe/globalTimetable.json', {
   maxBuffer: 50 * 1024 * 1024,
   encoding: 'utf8'
 });
 const bakTrips = JSON.parse(gitGlobalRaw);
 
-const gitStationRaw = execSync('git show HEAD~1:src/data/lines/kawagoe/stationTimetables.json', {
+const gitStationRaw = execSync('git show HEAD~1:src/data/lines/jr_kawagoe/stationTimetables.json', {
   maxBuffer: 50 * 1024 * 1024,
   encoding: 'utf8'
 });
@@ -69,7 +69,7 @@ mergedTrips.sort((a, b) => {
 console.log(`統合後 全トリップ数: ${mergedTrips.length} 本 (既存大宮側: ${validBakTrips.length} + 新規高麗川側: ${westAndCrossTrips.length})`);
 
 // 3. 駅時刻表の統合
-const currentStations = JSON.parse(fs.readFileSync('src/data/lines/kawagoe/stationTimetables.json', 'utf8'));
+const currentStations = JSON.parse(fs.readFileSync('src/data/lines/jr_kawagoe/stationTimetables.json', 'utf8'));
 const mergedStationTimetables = { weekday: {}, holiday: {} };
 
 for (const day of ['weekday', 'holiday']) {
@@ -100,6 +100,6 @@ for (const day of ['weekday', 'holiday']) {
 }
 
 // ファイル書き出し
-fs.writeFileSync('src/data/lines/kawagoe/globalTimetable.json', JSON.stringify(mergedTrips, null, 2), 'utf8');
-fs.writeFileSync('src/data/lines/kawagoe/stationTimetables.json', JSON.stringify(mergedStationTimetables, null, 2), 'utf8');
+fs.writeFileSync('src/data/lines/jr_kawagoe/globalTimetable.json', JSON.stringify(mergedTrips, null, 2), 'utf8');
+fs.writeFileSync('src/data/lines/jr_kawagoe/stationTimetables.json', JSON.stringify(mergedStationTimetables, null, 2), 'utf8');
 console.log('✅ 川越線の globalTimetable.json および stationTimetables.json を正常に統合・更新しました！\n');

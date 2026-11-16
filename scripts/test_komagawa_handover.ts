@@ -63,7 +63,7 @@ for (const timeStr of times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['hachiko', 'kawagoe'],
+    selectedLineIds: ['jr_hachiko', 'jr_kawagoe'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -107,7 +107,7 @@ for (const timeStr of inbTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['hachiko', 'kawagoe'],
+    selectedLineIds: ['jr_hachiko', 'jr_kawagoe'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -128,7 +128,7 @@ if (trackedId === hcUpTripId) {
 
 // テスト3: throughLineId による直通先路線の自動追加判定テスト
 console.log('--- テスト3: throughLineId による直通先路線の自動追加判定 ---');
-let lineSelection = ['hachiko'];
+let lineSelection = ['jr_hachiko'];
 const trainAtKomagawa = calculateActiveTrains({
   currentSec: timeStringToSeconds('05:22:00'),
   isHoliday: false,
@@ -144,8 +144,8 @@ if (trainAtKomagawa && trainAtKomagawa.throughLineId && !lineSelection.includes(
   console.log(`[自動追加] 追尾中列車の throughLineId: '${trainAtKomagawa.throughLineId}' を検知し路線追加 -> selectedLineIds:`, lineSelection);
 }
 
-if (lineSelection.includes('kawagoe')) {
-  console.log('✅ テスト3 成功: throughLineId により kawagoe が自動追加されました！\n');
+if (lineSelection.includes('jr_kawagoe')) {
+  console.log('✅ テスト3 成功: throughLineId により jr_kawagoe が自動追加されました！\n');
 } else {
   console.error('❌ テスト3 失敗: 直通先路線が自動追加されませんでした\n');
   process.exit(1);
@@ -172,7 +172,7 @@ for (const timeStr of stopTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['kawagoe', 'hachiko'],
+    selectedLineIds: ['jr_kawagoe', 'jr_hachiko'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);

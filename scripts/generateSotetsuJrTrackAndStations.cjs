@@ -23,7 +23,7 @@ function dist(p1, p2) {
 const STATIONS = [
   {
     id: 'SO-51',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 1,
     name: '羽沢横浜国大',
     nameKana: 'はざわよこはまこくだい',
@@ -41,7 +41,7 @@ const STATIONS = [
   },
   {
     id: 'JS-15',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 2,
     name: '武蔵小杉',
     nameKana: 'むさしこすぎ',
@@ -59,7 +59,7 @@ const STATIONS = [
   },
   {
     id: 'JS-16',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 3,
     name: '西大井',
     nameKana: 'にしおおい',
@@ -77,7 +77,7 @@ const STATIONS = [
   },
   {
     id: 'JS-17',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 4,
     name: '大崎',
     nameKana: 'おおさき',
@@ -95,7 +95,7 @@ const STATIONS = [
   },
   {
     id: 'JS-18',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 5,
     name: '恵比寿',
     nameKana: 'えびす',
@@ -113,7 +113,7 @@ const STATIONS = [
   },
   {
     id: 'JS-19',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 6,
     name: '渋谷',
     nameKana: 'しぶや',
@@ -136,7 +136,7 @@ const STATIONS = [
   },
   {
     id: 'JS-20',
-    lineId: 'sotetsu_jr_direct',
+    lineId: 'jr_sotetsu_jr_direct',
     number: 7,
     name: '新宿',
     nameKana: 'しんじゅく',
@@ -256,7 +256,7 @@ for (let i = 0; i < STATIONS.length - 1; i++) {
 }
 
 // ディレクトリ作成
-const outDir = path.resolve(__dirname, '../src/data/lines/sotetsu_jr_direct');
+const outDir = path.resolve(__dirname, '../src/data/lines/jr_sotetsu_jr_direct');
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
 // stations.ts 保存

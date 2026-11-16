@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const { MUSASHINO_TRACK_SEGMENTS } = require('./buildMusashinoUltraCleanTrack.cjs');
 // trackGeometry.ts から読み込み
-const content = fs.readFileSync('src/data/lines/musashino/trackGeometry.ts', 'utf8');
+const content = fs.readFileSync('src/data/lines/jr_musashino/trackGeometry.ts', 'utf8');
 const segments = JSON.parse(content.match(/export const MUSASHINO_TRACK_SEGMENTS: TrackSegment\[\] = ([\s\S]*?);\s*$/)[1]);
 
 function bearing(p1, p2) {

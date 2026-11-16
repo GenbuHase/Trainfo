@@ -8,14 +8,14 @@ const stationData = JSON.parse(fs.readFileSync(path.resolve('scripts/cache/N02-2
 
 // 境界駅の完全確定座標（既存路線から完全共有・Playbook Phase 6 準拠）
 const FIXED_BOUNDARY_STATIONS = {
-  '大月': [35.613106, 138.942176],       // chuo_main JC-32
-  '国府津': [35.2812092, 139.2142253],   // tokaido JT-14
-  '伊東': [34.9755861, 139.0922222],     // ito JT-26
+  '大月': [35.613106, 138.942176],       // jr_chuo_main JC-32
+  '国府津': [35.2812092, 139.2142253],   // jr_tokaido JT-14
+  '伊東': [34.9755861, 139.0922222],     // jr_ito JT-26
   '三島': [35.1264, 138.9109],           // tokaido_shizuoka CA-02
   '沼津': [35.1031271, 138.8593352],     // tokaido_shizuoka CA-03
   '松田': [35.3447025, 139.1395994],     // odakyu_odawara OH-41 (新松田)
-  '福島': [37.7544085, 140.4586226],     // tohoku_shinkansen TS-09
-  '盛岡': [39.7014809, 141.136534],      // tohoku_shinkansen TS-18
+  '福島': [37.7544085, 140.4586226],     // jr_tohoku_shinkansen TS-09
+  '盛岡': [39.7014809, 141.136534],      // jr_tohoku_shinkansen TS-18
 };
 
 function getNodeKey(coord) {
@@ -266,7 +266,7 @@ const LINES_DEFINITIONS = [
 
   // 3. JR御殿場線
   {
-    lineId: 'gotemba',
+    lineId: 'jr_gotemba',
     name: 'JR御殿場線',
     operator: 'JR東海',
     n02Op: '東海旅客鉄道',
@@ -330,7 +330,7 @@ const LINES_DEFINITIONS = [
 
   // 5. 山形新幹線
   {
-    lineId: 'yamagata_shinkansen',
+    lineId: 'jr_yamagata_shinkansen',
     name: '山形新幹線',
     operator: 'JR東日本',
     n02Op: '東日本旅客鉄道',
@@ -353,7 +353,7 @@ const LINES_DEFINITIONS = [
 
   // 6. 秋田新幹線 (大曲スイッチバック考慮)
   {
-    lineId: 'akita_shinkansen',
+    lineId: 'jr_akita_shinkansen',
     name: '秋田新幹線',
     operator: 'JR東日本',
     n02Op: '東日本旅客鉄道',

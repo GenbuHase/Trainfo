@@ -119,7 +119,7 @@ async function main() {
 
     stations.push({
       id: def.id,
-      lineId: 'joetsu',
+      lineId: 'jr_joetsu',
       number: i + 1,
       name: def.name,
       nameKana: meta.nameKana || '',
@@ -206,7 +206,7 @@ async function main() {
   }
 
   // ファイル出力
-  const outDir = path.resolve(__dirname, '../src/data/lines/joetsu');
+  const outDir = path.resolve(__dirname, '../src/data/lines/jr_joetsu');
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }

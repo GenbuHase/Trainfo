@@ -226,7 +226,7 @@ for (const dayKey of ['weekday', 'holiday']) {
       cars: 10,
       isHoliday,
       stops,
-      lineId: 'saikyo',
+      lineId: 'jr_saikyo',
     });
   }
 
@@ -329,7 +329,7 @@ for (const dayKey of ['weekday', 'holiday']) {
       cars: 10,
       isHoliday,
       stops,
-      lineId: 'saikyo',
+      lineId: 'jr_saikyo',
     });
   }
 }
@@ -341,8 +341,8 @@ console.log(`  Weekday trips: ${weekdayTrips.length} (Outbound: ${weekdayTrips.f
 console.log(`  Holiday trips: ${holidayTrips.length} (Outbound: ${holidayTrips.filter(t => t.direction === 'outbound').length}, Inbound: ${holidayTrips.filter(t => t.direction === 'inbound').length})`);
 
 // 保存
-fs.writeFileSync(path.resolve(__dirname, '../src/data/lines/saikyo/stationTimetables.json'), JSON.stringify(stationTimetables), 'utf8');
-console.log('Saved src/data/lines/saikyo/stationTimetables.json');
+fs.writeFileSync(path.resolve(__dirname, '../src/data/lines/jr_saikyo/stationTimetables.json'), JSON.stringify(stationTimetables), 'utf8');
+console.log('Saved src/data/lines/jr_saikyo/stationTimetables.json');
 
-fs.writeFileSync(path.resolve(__dirname, '../src/data/lines/saikyo/globalTimetable.json'), JSON.stringify(allTrips), 'utf8');
-console.log('Saved src/data/lines/saikyo/globalTimetable.json');
+fs.writeFileSync(path.resolve(__dirname, '../src/data/lines/jr_saikyo/globalTimetable.json'), JSON.stringify(allTrips), 'utf8');
+console.log('Saved src/data/lines/jr_saikyo/globalTimetable.json');

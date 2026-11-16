@@ -12,7 +12,7 @@ function getDistanceMeters(lat1, lon1, lat2, lon2) {
   return R * c;
 }
 
-const trackFile = fs.readFileSync('src/data/lines/tohoku_shinkansen/trackGeometry.ts', 'utf8');
+const trackFile = fs.readFileSync('src/data/lines/jr_tohoku_shinkansen/trackGeometry.ts', 'utf8');
 const eqIdx = trackFile.indexOf('=');
 const semiIdx = trackFile.lastIndexOf(';');
 const jsonStr = trackFile.slice(eqIdx + 1, semiIdx).trim();

@@ -3,13 +3,13 @@ const { runYahooPipeline } = require('./common/yahoo/index.cjs');
 
 // 対象7路線
 const targetLines = [
-  'yokosuka',
-  'sobu_rapid',
-  'tokaido',
-  'shonan_shinjuku',
-  'takasaki',
-  'utsunomiya',
-  'ueno_tokyo',
+  'jr_yokosuka',
+  'jr_sobu_rapid',
+  'jr_tokaido',
+  'jr_shonan_shinjuku',
+  'jr_takasaki',
+  'jr_utsunomiya',
+  'jr_ueno_tokyo',
 ];
 
 async function main() {

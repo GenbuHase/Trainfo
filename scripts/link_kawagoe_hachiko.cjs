@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const kawagoePath = path.resolve('src/data/lines/kawagoe/globalTimetable.json');
-const hachikoPath = path.resolve('src/data/lines/hachiko/globalTimetable.json');
+const kawagoePath = path.resolve('src/data/lines/jr_kawagoe/globalTimetable.json');
+const hachikoPath = path.resolve('src/data/lines/jr_hachiko/globalTimetable.json');
 
 const kawagoeTrips = JSON.parse(fs.readFileSync(kawagoePath, 'utf8'));
 const hachikoTrips = JSON.parse(fs.readFileSync(hachikoPath, 'utf8'));
@@ -13,8 +13,8 @@ function loadStations(filePath) {
   const match = content.match(/export const [A-Z0-9_]+: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
   return eval(match[1]);
 }
-const kawagoeStations = loadStations('src/data/lines/kawagoe/stations.ts');
-const hachikoStations = loadStations('src/data/lines/hachiko/stations.ts');
+const kawagoeStations = loadStations('src/data/lines/jr_kawagoe/stations.ts');
+const hachikoStations = loadStations('src/data/lines/jr_hachiko/stations.ts');
 
 const kwStMap = new Map(kawagoeStations.map(s => [s.id, s]));
 const hcStMap = new Map(hachikoStations.map(s => [s.id, s]));
@@ -27,7 +27,7 @@ function extractYahooTrainId(trip) {
 
 // 0. 既存の高麗川境界メタデータをリセット（誤リンクの残留を完全防止）
 for (const kw of kawagoeTrips) {
-  if (kw.throughLineId === 'hachiko') {
+  if (kw.throughLineId === 'jr_hachiko') {
     delete kw.throughTripId;
     delete kw.throughLineId;
     if (kw.destinationStationId === 'JA-36') {
@@ -36,7 +36,7 @@ for (const kw of kawagoeTrips) {
   }
 }
 for (const hc of hachikoTrips) {
-  if (hc.throughLineId === 'kawagoe') {
+  if (hc.throughLineId === 'jr_kawagoe') {
     delete hc.throughTripId;
     delete hc.throughLineId;
     if (hc.destinationStationId === 'HA-09') {
@@ -52,7 +52,7 @@ let hcToKwLinked = 0;
 let kwToHcLinked = 0;
 
 // 1. 八王子 -> 高麗川 -> 川越 系統
-// 八高線走行中: 次の直通先は川越線 (throughTripId: kw.tripId, throughLineId: 'kawagoe')
+// 八高線走行中: 次の直通先は川越線 (throughTripId: kw.tripId, throughLineId: 'jr_kawagoe')
 // 八高線側: destinationStationId === 'HA-09', direction === 'outbound'
 // 川越線側: originStationId === 'JA-36', direction === 'inbound'
 // 【重要】Yahoo!路線情報において真の直通列車は trainId が完全に同一。時刻による曖昧リンクは接続列車を誤爆するため行わない。
@@ -66,7 +66,7 @@ for (const hc of hcOutToKomagawa) {
   if (kw) {
     // 八高線側: 次の直通先は川越線！
     hc.throughTripId = kw.tripId;
-    hc.throughLineId = 'kawagoe';
+    hc.throughLineId = 'jr_kawagoe';
     const kwDest = kwStMap.get(kw.destinationStationId);
     hc.customDestination = kw.customDestination || kwDest?.name || '川越';
 
@@ -79,7 +79,7 @@ for (const hc of hcOutToKomagawa) {
 }
 
 // 2. 川越/南古谷 -> 高麗川 -> 八王子/拝島 系統
-// 川越線走行中: 次の直通先は八高線 (throughTripId: hc.tripId, throughLineId: 'hachiko')
+// 川越線走行中: 次の直通先は八高線 (throughTripId: hc.tripId, throughLineId: 'jr_hachiko')
 // 川越線側: destinationStationId === 'JA-36', direction === 'outbound'
 // 八高線側: originStationId === 'HA-09', direction === 'inbound'
 // 【重要】Yahoo!路線情報において真の直通列車は trainId が完全に同一。接続列車の誤マッチを排除するため完全一致のみ採用。
@@ -93,7 +93,7 @@ for (const kw of kwOutToKomagawa) {
   if (hc) {
     // 川越線側: 次の直通先は八高線！
     kw.throughTripId = hc.tripId;
-    kw.throughLineId = 'hachiko';
+    kw.throughLineId = 'jr_hachiko';
     const hcDest = hcStMap.get(hc.destinationStationId);
     kw.customDestination = hc.customDestination || hcDest?.name || '八王子';
 

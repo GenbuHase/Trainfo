@@ -404,7 +404,7 @@ import type { Station } from '../../../types';
 
 export const CHUO_STATIONS: Station[] = ${JSON.stringify(STATION_DEFS.map(s => ({
   id: s.id,
-  lineId: 'chuo',
+  lineId: 'jr_chuo',
   number: s.number,
   name: s.name,
   nameKana: s.nameKana,
@@ -425,8 +425,8 @@ export const CHUO_STATIONS: Station[] = ${JSON.stringify(STATION_DEFS.map(s => (
 })), null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/chuo/stations.ts', stationsTsContent, 'utf8');
-console.log('Saved src/data/lines/chuo/stations.ts');
+fs.writeFileSync('src/data/lines/jr_chuo/stations.ts', stationsTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_chuo/stations.ts');
 
 // trackGeometry.ts の出力
 const trackGeometryTsContent = `// JR中央線快速 線路軌道ジオメトリ（全23区間）
@@ -435,5 +435,5 @@ import type { TrackSegment } from '../../../types';
 export const CHUO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(segments, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/chuo/trackGeometry.ts', trackGeometryTsContent, 'utf8');
-console.log('Saved src/data/lines/chuo/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_chuo/trackGeometry.ts', trackGeometryTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_chuo/trackGeometry.ts');

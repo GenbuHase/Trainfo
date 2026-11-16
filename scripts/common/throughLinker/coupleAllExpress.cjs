@@ -277,9 +277,9 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
     );
     if (existingSolo) {
       existingSolo.throughTripId = fujiCM.tripId;
-      existingSolo.throughLineId = 'chuo_main';
+      existingSolo.throughLineId = 'jr_chuo_main';
       fujiCM.prevTripId = existingSolo.tripId;
-      fujiCM.prevLineId = 'chuo';
+      fujiCM.prevLineId = 'jr_chuo';
       continue;
     }
 
@@ -341,7 +341,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
           customDestination: rule.branchDestName,
           cars: rule.secondaryCars,
           throughTripId: fujiCM.tripId,
-          throughLineId: 'chuo_main',
+          throughLineId: 'jr_chuo_main',
         };
         const lastStop = newTrip.stops[newTrip.stops.length - 1];
         if (lastStop) {
@@ -352,7 +352,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         chuoTrips.push(newTrip);
         existingIds.add(fujiTripId);
         fujiCM.prevTripId = fujiTripId;
-        fujiCM.prevLineId = 'chuo';
+        fujiCM.prevLineId = 'jr_chuo';
         addedOut++;
       }
     }
@@ -434,7 +434,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
           customDestination: rule.defaultInboundDestName,
           cars: rule.secondaryCars,
           prevTripId: fujiCM.tripId,
-          prevLineId: 'chuo_main',
+          prevLineId: 'jr_chuo_main',
         };
         const firstStop = newTrip.stops[0];
         if (firstStop) {
@@ -445,7 +445,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         chuoTrips.push(newTrip);
         existingIds.add(fujiTripId);
         fujiCM.throughTripId = fujiTripId;
-        fujiCM.throughLineId = 'chuo';
+        fujiCM.throughLineId = 'jr_chuo';
         addedIn++;
       }
     }
@@ -461,8 +461,8 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
 function coupleChuoFujiKaiyu() {
   console.log('\n=== 🏔️ 中央線・中央本線（あずさ/かいじ + 富士回遊）カップリング ===');
   const rule = couplingConfig.chuoFujiKaiyu;
-  const cmPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
-  const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
+  const cmPath = path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json');
+  const chuoPath = path.resolve('src/data/lines/jr_chuo/globalTimetable.json');
   if (!fs.existsSync(cmPath) || !fs.existsSync(chuoPath)) return;
 
   const cmTrips = safeReadJson(cmPath, []);

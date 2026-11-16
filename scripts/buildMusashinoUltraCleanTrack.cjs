@@ -224,7 +224,7 @@ for (let i = 0; i < tokyoIndices.length - 1; i++) {
 }
 
 // E. 支線データ
-const oldGeometry = JSON.parse(fs.readFileSync('src/data/lines/musashino/trackGeometry.ts', 'utf8').match(/export const MUSASHINO_TRACK_SEGMENTS: TrackSegment\[\] = ([\s\S]*?);\s*$/)[1]);
+const oldGeometry = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/trackGeometry.ts', 'utf8').match(/export const MUSASHINO_TRACK_SEGMENTS: TrackSegment\[\] = ([\s\S]*?);\s*$/)[1]);
 function getOldSeg(fromName, toName) {
   return oldGeometry.find(s => s.fromName === fromName && s.toName === toName);
 }
@@ -324,18 +324,18 @@ segments.push({
   coordinates: toyodaHachiojiPts.map(p => [Math.round(p[0] * 1000000) / 1000000, Math.round(p[1] * 1000000) / 1000000])
 });
 
-console.log(`\nWriting to src/data/lines/musashino/trackGeometry.ts...`);
+console.log(`\nWriting to src/data/lines/jr_musashino/trackGeometry.ts...`);
 const trackContent = `import type { TrackSegment } from '../../../types';
 
 // JR武蔵野線および直通区間 高精度実軌道ジオメトリ（OSM準拠・側線逆走完全排除済み）
 export const MUSASHINO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(segments, null, 2)};
 `;
-fs.writeFileSync('src/data/lines/musashino/trackGeometry.ts', trackContent, 'utf8');
+fs.writeFileSync('src/data/lines/jr_musashino/trackGeometry.ts', trackContent, 'utf8');
 console.log('Saved trackGeometry.ts successfully!');
 
 // stations.ts の更新
-console.log(`Updating src/data/lines/musashino/stations.ts...`);
-let stationsContent = fs.readFileSync('src/data/lines/musashino/stations.ts', 'utf8');
+console.log(`Updating src/data/lines/jr_musashino/stations.ts...`);
+let stationsContent = fs.readFileSync('src/data/lines/jr_musashino/stations.ts', 'utf8');
 
 // 各駅の lat / lng を finalStationCoords で置換
 Object.entries(finalStationCoords).forEach(([name, coord]) => {
@@ -351,5 +351,5 @@ Object.entries(finalStationCoords).forEach(([name, coord]) => {
   }
 });
 
-fs.writeFileSync('src/data/lines/musashino/stations.ts', stationsContent, 'utf8');
+fs.writeFileSync('src/data/lines/jr_musashino/stations.ts', stationsContent, 'utf8');
 console.log('Saved stations.ts successfully!');

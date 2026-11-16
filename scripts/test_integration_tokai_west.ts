@@ -56,8 +56,8 @@ function resolveSelectedTrain(
 
 const TARGET_LINES: LineId[] = [
   // 接続元の既存路線
-  'tokaido_toyohashi_maibara',
-  'shinonoi',
+  'jr_tokaido_toyohashi_maibara',
+  'jr_shinonoi',
   'jr_biwako',
   'jr_kyoto',
   'jr_kobe',
@@ -132,15 +132,15 @@ async function runIntegrationTests() {
   // -----------------------------------------------------------------------
   console.log('--- [Integration 1] 主要直通境界の双方向リンク成立・時刻検証 ---');
   const requiredThroughPairs: Array<[LineId, LineId, string]> = [
-    ['jr_chuo_west', 'shinonoi', '塩尻 (中央西線->篠ノ井線)'],
-    ['tokaido_toyohashi_maibara', 'jr_takayama', '岐阜 (東海道線->高山線 特急ひだ)'],
-    ['jr_takayama', 'tokaido_toyohashi_maibara', '岐阜 (高山線->東海道線 特急ひだ)'],
+    ['jr_chuo_west', 'jr_shinonoi', '塩尻 (中央西線->篠ノ井線)'],
+    ['jr_tokaido_toyohashi_maibara', 'jr_takayama', '岐阜 (東海道線->高山線 特急ひだ)'],
+    ['jr_takayama', 'jr_tokaido_toyohashi_maibara', '岐阜 (高山線->東海道線 特急ひだ)'],
     ['jr_kisei_kameyama_shingu', 'jr_sangu', '多気 (紀勢線->参宮線 快速みえ)'],
     ['jr_sangu', 'jr_kisei_kameyama_shingu', '多気 (参宮線->紀勢線 快速みえ)'],
-    ['tokaido_toyohashi_maibara', 'jr_taketoyo', '大府 (東海道線->武豊線)'],
-    ['jr_taketoyo', 'tokaido_toyohashi_maibara', '大府 (武豊線->東海道線)'],
-    ['tokaido_toyohashi_maibara', 'jr_hokuriku_maibara_tsuruga', '米原 (東海道線->北陸線 しらさぎ)'],
-    ['jr_hokuriku_maibara_tsuruga', 'tokaido_toyohashi_maibara', '米原 (北陸線->東海道線 しらさぎ)'],
+    ['jr_tokaido_toyohashi_maibara', 'jr_taketoyo', '大府 (東海道線->武豊線)'],
+    ['jr_taketoyo', 'jr_tokaido_toyohashi_maibara', '大府 (武豊線->東海道線)'],
+    ['jr_tokaido_toyohashi_maibara', 'jr_hokuriku_maibara_tsuruga', '米原 (東海道線->北陸線 しらさぎ)'],
+    ['jr_hokuriku_maibara_tsuruga', 'jr_tokaido_toyohashi_maibara', '米原 (北陸線->東海道線 しらさぎ)'],
     ['jr_tozai', 'jr_gakken_toshi', '京橋 (JR東西線->学研都市線)'],
     ['jr_gakken_toshi', 'jr_tozai', '京橋 (学研都市線->JR東西線)'],
     ['jr_tozai', 'jr_takarazuka', '尼崎 (JR東西線->JR宝塚線)'],
@@ -244,12 +244,12 @@ async function runIntegrationTests() {
   }
 
   check('シナリオ1: 特急しなの号 (名古屋 -> 塩尻越境 -> 篠ノ井線 長野) シームレス追尾＆固有名称保持', () => {
-    const chuo = getLine('jr_chuo_west')!;
-    const shinano = chuo.globalTimetable.find(
-      (t) => !t.isHoliday && t.trainType === 'limitedExp' && t.throughLineId === 'shinonoi'
+    const jr_chuo = getLine('jr_chuo_west')!;
+    const shinano = jr_chuo.globalTimetable.find(
+      (t) => !t.isHoliday && t.trainType === 'limitedExp' && t.throughLineId === 'jr_shinonoi'
     )!;
     assert.ok(shinano && shinano.trainName, 'しなの号トリップが見つかりません');
-    const res = traceThroughTrip('jr_chuo_west', shinano, ['jr_chuo_west', 'shinonoi'], 'shinonoi');
+    const res = traceThroughTrip('jr_chuo_west', shinano, ['jr_chuo_west', 'jr_shinonoi'], 'jr_shinonoi');
     assert.ok(shinano.trainName.includes('しなの'), `列車愛称不正: ${shinano.trainName}`);
     console.log(`       通過路線: ${res.seenLines.join(' -> ')}, 最大30s移動=${res.maxJumpKm.toFixed(2)}km (${shinano.trainName})`);
   });

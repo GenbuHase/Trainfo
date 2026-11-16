@@ -180,7 +180,7 @@ function interpolateSegment(coords, ratio) {
 // 既知の実在スイッチバック駅（地形・配線上正規の折り返し）
 const KNOWN_SWITCHBACKS = [
   { lineId: 'myoko_haneuma', stationId: 'ETM-03', name: '二本木駅（スイッチバック）' },
-  { lineId: 'shinonoi', stationId: 'SN-13', name: '姨捨駅（スイッチバック）' }
+  { lineId: 'jr_shinonoi', stationId: 'SN-13', name: '姨捨駅（スイッチバック）' }
 ];
 
 function isKnownSwitchback(lineId, coord) {
@@ -188,7 +188,7 @@ function isKnownSwitchback(lineId, coord) {
     // 二本木スイッチバック本線合流点
     if (Math.abs(coord[0] - 36.9867) < 0.002 && Math.abs(coord[1] - 138.2320) < 0.002) return true;
   }
-  if (lineId === 'shinonoi') {
+  if (lineId === 'jr_shinonoi') {
     // 姨捨スイッチバック引上線折り返し点
     if (Math.abs(coord[0] - 36.4977) < 0.002 && Math.abs(coord[1] - 138.0992) < 0.002) return true;
   }

@@ -15,17 +15,17 @@ function angleDeg(p1, p2, p3) {
 }
 
 const targetLines = [
-  'joetsu',
-  'ryomo',
-  'tokaido',
+  'jr_joetsu',
+  'jr_ryomo',
+  'jr_tokaido',
   'tokaido_shizuoka',
-  'takasaki',
-  'utsunomiya',
-  'ueno_tokyo',
-  'shonan_shinjuku',
-  'yokosuka',
-  'sobu_rapid',
-  'ito',
+  'jr_takasaki',
+  'jr_utsunomiya',
+  'jr_ueno_tokyo',
+  'jr_shonan_shinjuku',
+  'jr_yokosuka',
+  'jr_sobu_rapid',
+  'jr_ito',
 ];
 
 const linesDir = path.resolve(__dirname, '../src/data/lines');

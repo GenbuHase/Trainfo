@@ -10,7 +10,7 @@ for (let i = 0; i <= 23; i++) {
 }
 
 // 2. 中央本線 (JC-24 〜 CO-42)
-const chuoMainTs = fs.readFileSync(path.resolve('src/data/lines/chuo_main/stations.ts'), 'utf8');
+const chuoMainTs = fs.readFileSync(path.resolve('src/data/lines/jr_chuo_main/stations.ts'), 'utf8');
 const cmMatches = [...chuoMainTs.matchAll(/"id":\s*"([^"]+)",[\s\S]*?"name":\s*"([^"]+)"/g)];
 const STATIONS_CHUO_MAIN = cmMatches.map((m, idx) => ({ id: m[1], name: m[2], code: `9-${idx + 5}` }));
 
@@ -120,7 +120,7 @@ async function fetchEkitanPage(url) {
 }
 
 function judgeDirection(tabName, lineType, st) {
-  if (lineType === 'chuo') {
+  if (lineType === 'jr_chuo') {
     // 中央線快速
     if (tabName.includes('高尾') || tabName.includes('八王子') || tabName.includes('立川') || tabName.includes('青梅') || tabName.includes('豊田')) {
       return 'outbound';
@@ -128,7 +128,7 @@ function judgeDirection(tabName, lineType, st) {
     if (tabName.includes('東京') || tabName.includes('新宿') || tabName.includes('御茶ノ水')) {
       return 'inbound';
     }
-  } else if (lineType === 'chuo_main') {
+  } else if (lineType === 'jr_chuo_main') {
     // 中央本線: 下りはすべて「松本方面」、上りはすべて「新宿・高尾方面」
     if (tabName.includes('松本')) {
       return 'outbound';
@@ -136,7 +136,7 @@ function judgeDirection(tabName, lineType, st) {
     if (tabName.includes('新宿') || tabName.includes('高尾')) {
       return 'inbound';
     }
-  } else if (lineType === 'shinonoi') {
+  } else if (lineType === 'jr_shinonoi') {
     // 篠ノ井線:
     // SN-01〜SN-15 (塩尻〜篠ノ井): 下り=篠ノ井方面, 上り=塩尻方面
     // SN-16〜SN-19 (今井〜長野): 下り=長野方面, 上り=篠ノ井方面
@@ -220,14 +220,14 @@ async function scrapeLine(stations, outFileName, lineName, lineType) {
 async function main() {
   const lineArg = process.argv[2] || 'all';
 
-  if (lineArg === 'chuo' || lineArg === 'all') {
-    await scrapeLine(STATIONS_CHUO, 'ekitan_chuo_timetables.json', 'JR中央線快速', 'chuo');
+  if (lineArg === 'jr_chuo' || lineArg === 'all') {
+    await scrapeLine(STATIONS_CHUO, 'ekitan_chuo_timetables.json', 'JR中央線快速', 'jr_chuo');
   }
-  if (lineArg === 'chuo_main' || lineArg === 'all') {
-    await scrapeLine(STATIONS_CHUO_MAIN, 'ekitan_chuo_main_timetables.json', 'JR中央本線', 'chuo_main');
+  if (lineArg === 'jr_chuo_main' || lineArg === 'all') {
+    await scrapeLine(STATIONS_CHUO_MAIN, 'ekitan_chuo_main_timetables.json', 'JR中央本線', 'jr_chuo_main');
   }
-  if (lineArg === 'shinonoi' || lineArg === 'all') {
-    await scrapeLine(STATIONS_SHINONOI, 'ekitan_shinonoi_timetables.json', 'JR篠ノ井線', 'shinonoi');
+  if (lineArg === 'jr_shinonoi' || lineArg === 'all') {
+    await scrapeLine(STATIONS_SHINONOI, 'ekitan_shinonoi_timetables.json', 'JR篠ノ井線', 'jr_shinonoi');
   }
   if (lineArg === 'oito' || lineArg === 'all') {
     await scrapeLine(STATIONS_OITO, 'ekitan_oito_timetables.json', 'JR大糸線', 'oito');

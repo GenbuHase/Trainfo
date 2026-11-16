@@ -450,7 +450,7 @@ export const SHINONOI_STATIONS: Station[] = ${JSON.stringify(
     address: s.address,
     platforms: s.platforms,
     stoppingTypes: s.stoppingTypes,
-    lineId: 'shinonoi',
+    lineId: 'jr_shinonoi',
     lat: s.lat,
     lng: s.lng,
     isMajor: s.isMajor || false,
@@ -467,9 +467,9 @@ export const SHINONOI_STATIONS: Station[] = ${JSON.stringify(
 )};
 `;
 
-fs.mkdirSync('src/data/lines/shinonoi', { recursive: true });
-fs.writeFileSync('src/data/lines/shinonoi/stations.ts', stationsCode);
-console.log('Saved src/data/lines/shinonoi/stations.ts');
+fs.mkdirSync('src/data/lines/jr_shinonoi', { recursive: true });
+fs.writeFileSync('src/data/lines/jr_shinonoi/stations.ts', stationsCode);
+console.log('Saved src/data/lines/jr_shinonoi/stations.ts');
 
 // 8.2 trackGeometry.ts
 const geometryCode = `// JR篠ノ井線 軌道ジオメトリデータ (OSM Relation 1926390 / 1983032 高精度スナップ連結)
@@ -477,5 +477,5 @@ import type { TrackSegment } from '../../../types';
 
 export const SHINONOI_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
-fs.writeFileSync('src/data/lines/shinonoi/trackGeometry.ts', geometryCode);
-console.log('Saved src/data/lines/shinonoi/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_shinonoi/trackGeometry.ts', geometryCode);
+console.log('Saved src/data/lines/jr_shinonoi/trackGeometry.ts');

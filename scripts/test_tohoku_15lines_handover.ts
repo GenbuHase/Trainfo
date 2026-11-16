@@ -9,27 +9,27 @@ import type { LineId, TimetableTrip } from '../src/types';
 console.log('=== 🚆 東北13鉄道線＋BRT2路線（計15路線）直通・代行バス・BRT分岐 総合検証テスト ===\n');
 
 const TARGET_LINES: LineId[] = [
-  'senzan',
+  'jr_senzan',
   'sendai_airport',
-  'kitakami',
-  'ofunato',
-  'ofunato_brt',
-  'kesennuma',
-  'kesennuma_brt',
-  'kamaishi',
-  'tazawako',
-  'yamada',
-  'hachinohe',
-  'ominato',
-  'tsugaru',
-  'gono',
-  'oga',
-  'tohoku_fukushima_sendai',
-  'ou_fukushima_shinjo',
-  'ishinomaki',
-  'tohoku_ichinoseki_morioka',
+  'jr_kitakami',
+  'jr_ofunato',
+  'jr_ofunato_brt',
+  'jr_kesennuma',
+  'jr_kesennuma_brt',
+  'jr_kamaishi',
+  'jr_tazawako',
+  'jr_yamada',
+  'jr_hachinohe',
+  'jr_ominato',
+  'jr_tsugaru',
+  'jr_gono',
+  'jr_oga',
+  'jr_tohoku_fukushima_sendai',
+  'jr_ou_fukushima_shinjo',
+  'jr_ishinomaki',
+  'jr_tohoku_ichinoseki_morioka',
   'aoimori',
-  'ou_akita_aomori',
+  'jr_ou_akita_aomori',
 ];
 
 function loadRawTrips(lineId: LineId): TimetableTrip[] {
@@ -41,22 +41,22 @@ const rawMap = new Map<LineId, TimetableTrip[]>(TARGET_LINES.map((id) => [id, lo
 
 // 1. 全境界直通リンク整合性・双方向対称性・時刻同期チェック
 const boundaryPairs: Array<[LineId, LineId, string, number]> = [
-  ['tohoku_fukushima_sendai', 'sendai_airport', '名取 (仙台->空港)', 88],
-  ['sendai_airport', 'tohoku_fukushima_sendai', '名取 (空港->仙台)', 88],
-  ['senzan', 'ou_fukushima_shinjo', '羽前千歳 (仙台->山形)', 36],
-  ['ou_fukushima_shinjo', 'senzan', '羽前千歳 (山形->仙台)', 36],
-  ['ishinomaki', 'kesennuma', '前谷地 (小牛田->柳津)', 6],
-  ['kesennuma', 'ishinomaki', '前谷地 (柳津->小牛田)', 8],
-  ['ofunato_brt', 'kesennuma_brt', '気仙沼 (大船渡BRT->気仙沼BRT)', 1],
-  ['tohoku_ichinoseki_morioka', 'kamaishi', '花巻 (盛岡->釜石)', 11],
-  ['kamaishi', 'tohoku_ichinoseki_morioka', '花巻 (釜石->盛岡)', 13],
-  ['aoimori', 'ominato', '野辺地 (八戸->大湊)', 6],
-  ['ominato', 'aoimori', '野辺地 (大湊->八戸)', 6],
-  ['ou_akita_aomori', 'gono', '東能代/川部 (奥羽->五能)', 34],
-  ['gono', 'ou_akita_aomori', '東能代/川部 (五能->奥羽)', 30],
-  ['ou_akita_aomori', 'oga', '追分 (秋田->男鹿)', 29],
-  ['oga', 'ou_akita_aomori', '追分 (男鹿->秋田)', 30],
-  ['tsugaru', 'ou_akita_aomori', '青森 (津軽->津軽新城)', 2],
+  ['jr_tohoku_fukushima_sendai', 'sendai_airport', '名取 (仙台->空港)', 88],
+  ['sendai_airport', 'jr_tohoku_fukushima_sendai', '名取 (空港->仙台)', 88],
+  ['jr_senzan', 'jr_ou_fukushima_shinjo', '羽前千歳 (仙台->山形)', 36],
+  ['jr_ou_fukushima_shinjo', 'jr_senzan', '羽前千歳 (山形->仙台)', 36],
+  ['jr_ishinomaki', 'jr_kesennuma', '前谷地 (小牛田->柳津)', 6],
+  ['jr_kesennuma', 'jr_ishinomaki', '前谷地 (柳津->小牛田)', 8],
+  ['jr_ofunato_brt', 'jr_kesennuma_brt', '気仙沼 (大船渡BRT->気仙沼BRT)', 1],
+  ['jr_tohoku_ichinoseki_morioka', 'jr_kamaishi', '花巻 (盛岡->釜石)', 11],
+  ['jr_kamaishi', 'jr_tohoku_ichinoseki_morioka', '花巻 (釜石->盛岡)', 13],
+  ['aoimori', 'jr_ominato', '野辺地 (八戸->大湊)', 6],
+  ['jr_ominato', 'aoimori', '野辺地 (大湊->八戸)', 6],
+  ['jr_ou_akita_aomori', 'jr_gono', '東能代/川部 (奥羽->五能)', 34],
+  ['jr_gono', 'jr_ou_akita_aomori', '東能代/川部 (五能->奥羽)', 30],
+  ['jr_ou_akita_aomori', 'jr_oga', '追分 (秋田->男鹿)', 29],
+  ['jr_oga', 'jr_ou_akita_aomori', '追分 (男鹿->秋田)', 30],
+  ['jr_tsugaru', 'jr_ou_akita_aomori', '青森 (津軽->津軽新城)', 2],
 ];
 
 console.log('--- 1. 境界リンク整合性・時刻同期検証 ---');
@@ -81,7 +81,7 @@ for (const [lineA, lineB, label, expectedCount] of boundaryPairs) {
 await loadLinesTimetables(TARGET_LINES);
 
 const rs1Start = rawMap
-  .get('ou_akita_aomori')!
+  .get('jr_ou_akita_aomori')!
   .find((t) => !t.isHoliday && (t.trainName || '').includes('リゾートしらかみ1号') && t.originStationId === 'OAA-01');
 assert.ok(rs1Start, '平日 リゾートしらかみ1号 (秋田発) が見つかりません');
 
@@ -89,18 +89,18 @@ const rs1Chain = getThroughChainTrips(rs1Start.tripId);
 const rs1Lines = rs1Chain.map((t) => t.lineId);
 assert.deepEqual(
   rs1Lines,
-  ['ou_akita_aomori', 'gono', 'ou_akita_aomori'],
+  ['jr_ou_akita_aomori', 'jr_gono', 'jr_ou_akita_aomori'],
   `リゾートしらかみ1号の3線リレー構成が不正: ${JSON.stringify(rs1Lines)}`
 );
 console.log(`\n  ✅ リゾートしらかみ1号 3線貫通チェーン: ${rs1Lines.join(' -> ')}`);
 
-// 3. 代行バス（kitakami / yamada / tsugaru）実運行検証
+// 3. 代行バス（kitakami / jr_yamada / tsugaru）実運行検証
 console.log('\n--- 2. 代行バス・BRT多系統実運行検証 ---');
 
 const busTests: Array<{ line: LineId; time: string; desc: string }> = [
-  { line: 'yamada', time: '09:30:00', desc: '山田線 (盛岡～宮古 代行バス)' },
-  { line: 'tsugaru', time: '10:30:00', desc: '津軽線 (蟹田～三厩 代行バス)' },
-  { line: 'kitakami', time: '09:50:00', desc: '北上線 (ほっとゆだ～横手 代行バス)' },
+  { line: 'jr_yamada', time: '09:30:00', desc: '山田線 (盛岡～宮古 代行バス)' },
+  { line: 'jr_tsugaru', time: '10:30:00', desc: '津軽線 (蟹田～三厩 代行バス)' },
+  { line: 'jr_kitakami', time: '09:50:00', desc: '北上線 (ほっとゆだ～横手 代行バス)' },
 ];
 
 for (const bt of busTests) {
@@ -124,7 +124,7 @@ for (const bt of busTests) {
 }
 
 // 4. BRT多系統分岐（気仙沼線BRT 市立病院経由 / 大船渡線BRT 上鹿折・陸前矢作・快速）検証
-const kBrtTrips = rawMap.get('kesennuma_brt')!;
+const kBrtTrips = rawMap.get('jr_kesennuma_brt')!;
 const kHospTrips = kBrtTrips.filter((t) => t.stops.some((s) => s.stationId === 'KBRT-51'));
 const kAkaiwaTrips = kBrtTrips.filter((t) => t.stops.some((s) => s.stationId === 'KBRT-21'));
 assert.ok(kHospTrips.length >= 2, '気仙沼線BRT 気仙沼市立病院経由便が不足');
@@ -137,7 +137,7 @@ for (const tr of kBrtTrips) {
 }
 console.log(`  ✅ 気仙沼線BRT 分岐分離: 赤岩港経由=${kAkaiwaTrips.length}便 / 市立病院経由=${kHospTrips.length}便 (混在ゼロ)`);
 
-const oBrtTrips = rawMap.get('ofunato_brt')!;
+const oBrtTrips = rawMap.get('jr_ofunato_brt')!;
 const oKamiTrips = oBrtTrips.filter((t) => t.stops.some((s) => s.stationId === 'OBRT-51'));
 const oYahaTrips = oBrtTrips.filter((t) => t.stops.some((s) => s.stationId === 'OBRT-63'));
 const oRapidTrips = oBrtTrips.filter((t) => t.trainType === 'rapid');
@@ -154,12 +154,12 @@ const senzanActive = calculateActiveTrains({
   randomDelays: {},
   isPlaying: true,
   speedMultiplier: 1,
-  selectedLineIds: ['senzan', 'sendai_airport', 'kesennuma_brt', 'ofunato_brt'],
+  selectedLineIds: ['jr_senzan', 'sendai_airport', 'jr_kesennuma_brt', 'jr_ofunato_brt'],
 });
-assert.ok(senzanActive.some((t) => t.lineId === 'senzan'), '08:15時点で仙山線列車が稼働していること');
+assert.ok(senzanActive.some((t) => t.lineId === 'jr_senzan'), '08:15時点で仙山線列車が稼働していること');
 assert.ok(senzanActive.some((t) => t.lineId === 'sendai_airport'), '08:15時点で仙台空港アクセス線が稼働していること');
-assert.ok(senzanActive.some((t) => t.lineId === 'kesennuma_brt'), '08:15時点で気仙沼線BRTが稼働していること');
-assert.ok(senzanActive.some((t) => t.lineId === 'ofunato_brt'), '08:15時点で大船渡線BRTが稼働していること');
+assert.ok(senzanActive.some((t) => t.lineId === 'jr_kesennuma_brt'), '08:15時点で気仙沼線BRTが稼働していること');
+assert.ok(senzanActive.some((t) => t.lineId === 'jr_ofunato_brt'), '08:15時点で大船渡線BRTが稼働していること');
 console.log(`  ✅ 08:15:00 同時シミュレーション稼働本数 (仙山・仙台空港・両BRT): ${senzanActive.length} 本`);
 
 console.log('\n🎉 東北15路線の全検証テストに合格しました！');

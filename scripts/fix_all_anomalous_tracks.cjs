@@ -15,10 +15,10 @@ async function main() {
   // 1. 高崎線の修正 (TK-03_TK-04, TK-05_TK-06, TK-06_TK-07)
   // ==========================================
   console.log('--- 1. Fixing Takasaki Line (TK) ---');
-  const utsunomiyaTrack = JSON.parse(fs.readFileSync('src/data/lines/utsunomiya/trackGeometry.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
-  const takasakiTrackPath = 'src/data/lines/takasaki/trackGeometry.ts';
+  const utsunomiyaTrack = JSON.parse(fs.readFileSync('src/data/lines/jr_utsunomiya/trackGeometry.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
+  const takasakiTrackPath = 'src/data/lines/jr_takasaki/trackGeometry.ts';
   const takasakiTrack = JSON.parse(fs.readFileSync(takasakiTrackPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
-  const takasakiStations = JSON.parse(fs.readFileSync('src/data/lines/takasaki/stations.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
+  const takasakiStations = JSON.parse(fs.readFileSync('src/data/lines/jr_takasaki/stations.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
   const tkStMap = new Map(takasakiStations.map(s => [s.id, s]));
 
   const ju0304 = utsunomiyaTrack.find(s => s.segmentId === 'JU-03_JU-04');
@@ -100,9 +100,9 @@ async function main() {
     return best;
   }
 
-  const yokosukaTrackPath = 'src/data/lines/yokosuka/trackGeometry.ts';
+  const yokosukaTrackPath = 'src/data/lines/jr_yokosuka/trackGeometry.ts';
   const yokosukaTrack = JSON.parse(fs.readFileSync(yokosukaTrackPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
-  const yStations = JSON.parse(fs.readFileSync('src/data/lines/yokosuka/stations.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
+  const yStations = JSON.parse(fs.readFileSync('src/data/lines/jr_yokosuka/stations.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
   const yStMap = new Map(yStations.map(s => [s.id, s]));
 
   // 品川 -> 西大井 (JO-17_JO-16)
@@ -115,7 +115,7 @@ async function main() {
 
   // 新川崎 -> 横浜 (JO-14_JO-13)
   const shinkawasaki = yStMap.get('JO-14');
-  const yokohama = yStMap.get('JO-13');
+  const jr_yokohama = yStMap.get('JO-13');
   const nShinkawasaki = findNodeNear(shinkawasaki.lat, shinkawasaki.lng);
   const nYokohama = findNodeNear(yokohama.lat, yokohama.lng);
   const pathShinkawasakiYokohama = dijkstraPath(adjY, nodeMapY, nShinkawasaki.id, nYokohama.id);
@@ -180,8 +180,8 @@ async function main() {
   // 3. 上越線の修正 (土合駅・浦佐駅の座標スナップ、端点ギャップ解消)
   // ==========================================
   console.log('\n--- 3. Fixing Joetsu Line (JOE) ---');
-  const joetsuStationsPath = 'src/data/lines/joetsu/stations.ts';
-  const joetsuTrackPath = 'src/data/lines/joetsu/trackGeometry.ts';
+  const joetsuStationsPath = 'src/data/lines/jr_joetsu/stations.ts';
+  const joetsuTrackPath = 'src/data/lines/jr_joetsu/trackGeometry.ts';
   const joetsuStations = JSON.parse(fs.readFileSync(joetsuStationsPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
   const joetsuTrack = JSON.parse(fs.readFileSync(joetsuTrackPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
 
@@ -275,9 +275,9 @@ async function main() {
   // 4. 東海道線の修正 (大船駅行き過ぎ・Uターン・藤沢駅行き過ぎの解消)
   // ==========================================
   console.log('\n--- 4. Fixing Tokaido Line (JT) ---');
-  const tokaidoTrackPath = 'src/data/lines/tokaido/trackGeometry.ts';
+  const tokaidoTrackPath = 'src/data/lines/jr_tokaido/trackGeometry.ts';
   const tokaidoTrack = JSON.parse(fs.readFileSync(tokaidoTrackPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
-  const tokaidoStations = JSON.parse(fs.readFileSync('src/data/lines/tokaido/stations.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
+  const tokaidoStations = JSON.parse(fs.readFileSync('src/data/lines/jr_tokaido/stations.ts', 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
   const tStMap = new Map(tokaidoStations.map(s => [s.id, s]));
 
   for (let i = 0; i < tokaidoTrack.length; i++) {
@@ -315,7 +315,7 @@ async function main() {
   // 5. 両毛線の国定〜伊勢崎のシャープターン解消 (RY-13_RY-14)
   // ==========================================
   console.log('\n--- 5. Fixing Ryomo Line (RY) ---');
-  const ryomoTrackPath = 'src/data/lines/ryomo/trackGeometry.ts';
+  const ryomoTrackPath = 'src/data/lines/jr_ryomo/trackGeometry.ts';
   const ryomoTrack = JSON.parse(fs.readFileSync(ryomoTrackPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
 
   for (const seg of ryomoTrack) {

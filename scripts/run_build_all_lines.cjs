@@ -175,7 +175,7 @@ const uenoTokyoStations = [
 async function main() {
   // 1. 東海道線
   buildLineData({
-    lineId: 'tokaido',
+    lineId: 'jr_tokaido',
     osmFiles: [
       'scripts/cache/osm_rel_12200093_ueno_tokyo_down.json',
       'scripts/cache/osm_rel_4673470_shonan_shinjuku_down.json',
@@ -184,24 +184,24 @@ async function main() {
     ],
     stationsConfig: tokaidoStations,
     stationPrefix: 'JT',
-    outputDir: 'src/data/lines/tokaido',
+    outputDir: 'src/data/lines/jr_tokaido',
   });
 
   // 2. 伊東線
   buildLineData({
-    lineId: 'ito',
+    lineId: 'jr_ito',
     osmFiles: [
       'scripts/cache/osm_rel_1943302_odoriko_tokyo_ito.json',
       'scripts/cache/osm_rel_1943299_ito_line.json',
     ],
     stationsConfig: itoStations,
     stationPrefix: 'JT',
-    outputDir: 'src/data/lines/ito',
+    outputDir: 'src/data/lines/jr_ito',
   });
 
   // 3. 横須賀線
   buildLineData({
-    lineId: 'yokosuka',
+    lineId: 'jr_yokosuka',
     osmFiles: [
       'scripts/cache/osm_rel_9477155_yokosuka_down.json',
       'scripts/cache/osm_rel_4673470_shonan_shinjuku_down.json',
@@ -209,34 +209,34 @@ async function main() {
     ],
     stationsConfig: yokosukaStations,
     stationPrefix: 'JO',
-    outputDir: 'src/data/lines/yokosuka',
+    outputDir: 'src/data/lines/jr_yokosuka',
   });
 
   // 4. 総武快速線
   buildLineData({
-    lineId: 'sobu_rapid',
+    lineId: 'jr_sobu_rapid',
     osmFiles: [
       'scripts/cache/osm_rel_9475339_sobu_rapid_down.json',
     ],
     stationsConfig: sobuRapidStations,
     stationPrefix: 'JO',
-    outputDir: 'src/data/lines/sobu_rapid',
+    outputDir: 'src/data/lines/jr_sobu_rapid',
   });
 
   // 5. 宇都宮線
   buildLineData({
-    lineId: 'utsunomiya',
+    lineId: 'jr_utsunomiya',
     osmFiles: [
       'scripts/cache/osm_rel_12210362_utsunomiya_down.json',
     ],
     stationsConfig: utsunomiyaStations,
     stationPrefix: 'JU',
-    outputDir: 'src/data/lines/utsunomiya',
+    outputDir: 'src/data/lines/jr_utsunomiya',
   });
 
   // 6. 高崎線
   buildLineData({
-    lineId: 'takasaki',
+    lineId: 'jr_takasaki',
     osmFiles: [
       'scripts/cache/osm_rel_5430810_takasaki_down.json',
       'scripts/cache/osm_rel_4673470_shonan_shinjuku_down.json',
@@ -245,29 +245,29 @@ async function main() {
     ],
     stationsConfig: takasakiStations,
     stationPrefix: 'TK',
-    outputDir: 'src/data/lines/takasaki',
+    outputDir: 'src/data/lines/jr_takasaki',
   });
 
   // 7. 湘南新宿ライン
   buildLineData({
-    lineId: 'shonan_shinjuku',
+    lineId: 'jr_shonan_shinjuku',
     osmFiles: [
       'scripts/cache/osm_rel_4673470_shonan_shinjuku_down.json',
     ],
     stationsConfig: shonanShinjukuStations,
     stationPrefix: 'JS',
-    outputDir: 'src/data/lines/shonan_shinjuku',
+    outputDir: 'src/data/lines/jr_shonan_shinjuku',
   });
 
   // 8. 上野東京ライン
   buildLineData({
-    lineId: 'ueno_tokyo',
+    lineId: 'jr_ueno_tokyo',
     osmFiles: [
       'scripts/cache/osm_rel_12200093_ueno_tokyo_down.json',
     ],
     stationsConfig: uenoTokyoStations,
     stationPrefix: 'UT',
-    outputDir: 'src/data/lines/ueno_tokyo',
+    outputDir: 'src/data/lines/jr_ueno_tokyo',
   });
 
   console.log('\n🎉 ALL 8 LINES GEOMETRY & STATIONS BUILT SUCCESSFULLY!');

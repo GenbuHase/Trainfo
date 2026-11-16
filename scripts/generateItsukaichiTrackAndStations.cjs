@@ -132,7 +132,7 @@ const stations = stationMetadata.map(st => {
   const snappedCoord = nodeMap.get(continuousNodeIds[bestIdx]);
   return {
     id: st.id,
-    lineId: 'itsukaichi',
+    lineId: 'jr_itsukaichi',
     number: st.number,
     name: st.name,
     nameKana: st.nameKana,
@@ -169,21 +169,21 @@ for (let i = 0; i < stations.length - 1; i++) {
 console.log(`Generated ${stations.length} stations and ${trackSegments.length} track segments.`);
 
 // ファイル出力
-// 1. src/data/lines/itsukaichi/stations.ts
+// 1. src/data/lines/jr_itsukaichi/stations.ts
 const stationsTs = `// JR五日市線 駅定義 (拝島 〜 武蔵五日市 全7駅)
 import type { Station } from '../../../types';
 
 export const ITSUKAICHI_STATIONS: Station[] = ${JSON.stringify(stations.map(({ snappedIdx, ...s }) => s), null, 2)};
 `;
 
-// 2. src/data/lines/itsukaichi/trackGeometry.ts
+// 2. src/data/lines/jr_itsukaichi/trackGeometry.ts
 const trackGeometryTs = `// JR五日市線 線路幾何データ
 import type { TrackSegment } from '../../../types';
 
 export const ITSUKAICHI_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
 
-const targetDir = path.resolve(__dirname, '../src/data/lines/itsukaichi');
+const targetDir = path.resolve(__dirname, '../src/data/lines/jr_itsukaichi');
 if (!fs.existsSync(targetDir)) {
   fs.mkdirSync(targetDir, { recursive: true });
 }

@@ -6,11 +6,11 @@ const { execSync } = require('child_process');
 const YahooTimetableBuilder = require('./common/yahoo/YahooTimetableBuilder.cjs');
 
 const SHINKANSEN_LINES = [
-  'tohoku_shinkansen',
-  'joetsu_shinkansen',
-  'hokuriku_shinkansen',
-  'yamagata_shinkansen',
-  'akita_shinkansen',
+  'jr_tohoku_shinkansen',
+  'jr_joetsu_shinkansen',
+  'jr_hokuriku_shinkansen',
+  'jr_yamagata_shinkansen',
+  'jr_akita_shinkansen',
 ];
 
 console.log('====================================================');
@@ -61,7 +61,7 @@ for (const lineId of SHINKANSEN_LINES) {
   const inbounds = gt.filter(t => t.direction === 'inbound');
 
   // 東北・山形・秋田新幹線の上り（inbound）で、東京行きなのに仙台・新庄・秋田・新函館北斗になっている誤りを検知
-  if (lineId === 'tohoku_shinkansen') {
+  if (lineId === 'jr_tohoku_shinkansen') {
     const invalidInbounds = inbounds.filter(t => {
       // 盛岡(TS-18)や新青森(TS-23)発で仙台(TS-11)止まりの区間便（こまち96号等）は仙台行きで正常
       if (t.destinationStationId === 'TS-11' && t.originStationId !== 'TS-11') {
@@ -87,7 +87,7 @@ for (const lineId of SHINKANSEN_LINES) {
     }
   }
 
-  if (lineId === 'yamagata_shinkansen') {
+  if (lineId === 'jr_yamagata_shinkansen') {
     const invalidInbounds = inbounds.filter(t => t.customDestination === '新庄');
     if (invalidInbounds.length > 0) {
       console.error(`❌ [Anomaly] 山形新幹線上りに新庄行きが ${invalidInbounds.length} 件存在します！`);
@@ -95,7 +95,7 @@ for (const lineId of SHINKANSEN_LINES) {
     }
   }
 
-  if (lineId === 'akita_shinkansen') {
+  if (lineId === 'jr_akita_shinkansen') {
     const invalidInbounds = inbounds.filter(t => t.customDestination === '秋田');
     if (invalidInbounds.length > 0) {
       console.error(`❌ [Anomaly] 秋田新幹線上りに秋田行きが ${invalidInbounds.length} 件存在します！`);
@@ -127,7 +127,7 @@ for (const lineId of SHINKANSEN_LINES) {
   // 駅時刻表の監査
   if (fs.existsSync(stPath)) {
     const st = JSON.parse(fs.readFileSync(stPath, 'utf8'));
-    if (lineId === 'tohoku_shinkansen') {
+    if (lineId === 'jr_tohoku_shinkansen') {
       const sendaiIn = st.weekday?.['TS-11']?.inbound || [];
       const sendaiSendai = sendaiIn.filter(x => x.d === '仙台');
       if (sendaiSendai.length > 0) {
@@ -135,7 +135,7 @@ for (const lineId of SHINKANSEN_LINES) {
         hasAnomaly = true;
       }
     }
-    if (lineId === 'yamagata_shinkansen') {
+    if (lineId === 'jr_yamagata_shinkansen') {
       const shinjoIn = st.weekday?.['YS-11']?.inbound || [];
       const shinjoShinjo = shinjoIn.filter(x => x.d === '新庄');
       if (shinjoShinjo.length > 0) {
@@ -143,7 +143,7 @@ for (const lineId of SHINKANSEN_LINES) {
         hasAnomaly = true;
       }
     }
-    if (lineId === 'akita_shinkansen') {
+    if (lineId === 'jr_akita_shinkansen') {
       const akitaIn = st.weekday?.['AS-06']?.inbound || [];
       const akitaAkita = akitaIn.filter(x => x.d === '秋田');
       if (akitaAkita.length > 0) {

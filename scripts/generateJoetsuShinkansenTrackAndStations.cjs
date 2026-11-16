@@ -413,7 +413,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = ${JSON.stringify(
     const { osmNodeId, ...rest } = s;
     return {
       id: rest.id,
-      lineId: 'joetsu_shinkansen',
+      lineId: 'jr_joetsu_shinkansen',
       number: rest.number,
       name: rest.name,
       nameKana: rest.nameKana,
@@ -439,8 +439,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = ${JSON.stringify(
 )};
 `;
 
-fs.writeFileSync('src/data/lines/joetsu_shinkansen/stations.ts', stationsTsContent, 'utf8');
-console.log('✅ src/data/lines/joetsu_shinkansen/stations.ts updated!');
+fs.writeFileSync('src/data/lines/jr_joetsu_shinkansen/stations.ts', stationsTsContent, 'utf8');
+console.log('✅ src/data/lines/jr_joetsu_shinkansen/stations.ts updated!');
 
 // 2. trackGeometry.ts の生成
 const trackGeometryTsContent = `import type { TrackSegment } from '../../../types';
@@ -452,5 +452,5 @@ export const JOETSU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify
 )};
 `;
 
-fs.writeFileSync('src/data/lines/joetsu_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
-console.log('✅ src/data/lines/joetsu_shinkansen/trackGeometry.ts updated!');
+fs.writeFileSync('src/data/lines/jr_joetsu_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
+console.log('✅ src/data/lines/jr_joetsu_shinkansen/trackGeometry.ts updated!');

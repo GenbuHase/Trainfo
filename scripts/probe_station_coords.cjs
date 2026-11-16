@@ -68,7 +68,7 @@ async function probeStation(stationName) {
 }
 
 async function run() {
-  for (const lineId of ['hakushin', 'uetsu_main']) {
+  for (const lineId of ['jr_hakushin', 'jr_uetsu_main']) {
     const stations = loadStations(lineId);
     const out = {};
     let fail = 0;

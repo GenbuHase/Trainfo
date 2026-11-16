@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // 1. 武蔵野線の stations.ts の中央線駅座標を中央線本線と同期
-const chuoStationsPath = 'src/data/lines/chuo/stations.ts';
-const musaStationsPath = 'src/data/lines/musashino/stations.ts';
+const chuoStationsPath = 'src/data/lines/jr_chuo/stations.ts';
+const musaStationsPath = 'src/data/lines/jr_musashino/stations.ts';
 
 const chuoStText = fs.readFileSync(chuoStationsPath, 'utf8');
 const chuoSt = JSON.parse(chuoStText.substring(chuoStText.indexOf('= [') + 2, chuoStText.lastIndexOf(']') + 1));
@@ -23,11 +23,11 @@ for (const st of musaSt) {
 }
 
 fs.writeFileSync(musaStationsPath, musaStText.substring(0, eqBracket + 2) + JSON.stringify(musaSt, null, 2) + ';\n', 'utf8');
-console.log('Updated musashino stations.ts coordinates for JC-18 ~ JC-22');
+console.log('Updated jr_musashino stations.ts coordinates for JC-18 ~ JC-22');
 
 // 2. 武蔵野線の trackGeometry.ts の中央線区間セグメントを同期
-const chuoGeomPath = 'src/data/lines/chuo/trackGeometry.ts';
-const musaGeomPath = 'src/data/lines/musashino/trackGeometry.ts';
+const chuoGeomPath = 'src/data/lines/jr_chuo/trackGeometry.ts';
+const musaGeomPath = 'src/data/lines/jr_musashino/trackGeometry.ts';
 
 const chuoGeomText = fs.readFileSync(chuoGeomPath, 'utf8');
 const chuoSegs = JSON.parse(chuoGeomText.substring(chuoGeomText.indexOf('= [') + 2, chuoGeomText.lastIndexOf(']') + 1));
@@ -58,4 +58,4 @@ for (const pair of ['JC-18_JC-19', 'JC-19_JC-20', 'JC-20_JC-21', 'JC-21_JC-22'])
 }
 
 fs.writeFileSync(musaGeomPath, musaGeomText.substring(0, eqGeomBracket + 2) + JSON.stringify(musaSegs, null, 2) + ';\n', 'utf8');
-console.log('Updated musashino trackGeometry.ts Chuo segments');
+console.log('Updated jr_musashino trackGeometry.ts Chuo segments');

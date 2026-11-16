@@ -105,7 +105,7 @@ if (libertyKegon) {
 }
 
 // 2. 東北新幹線（やまびこ + つばさ）
-const tohokuTt = JSON.parse(fs.readFileSync('src/data/lines/tohoku_shinkansen/globalTimetable.json', 'utf8'));
+const tohokuTt = JSON.parse(fs.readFileSync('src/data/lines/jr_tohoku_shinkansen/globalTimetable.json', 'utf8'));
 const yamabiko = tohokuTt.find(t => t.coupling && t.coupling.role === 'PRIMARY' && t.direction === 'outbound' && !t.isHoliday);
 if (yamabiko) {
   console.log(`\n【東北新幹線 やまびこ (仙台行) + つばさ (山形行) 下り】(解結駅: 福島 TS-09)`);
@@ -125,7 +125,7 @@ if (yamabiko) {
 }
 
 // 3. 中央本線（かいじ + 富士回遊）
-const chuoTt = JSON.parse(fs.readFileSync('src/data/lines/chuo_main/globalTimetable.json', 'utf8'));
+const chuoTt = JSON.parse(fs.readFileSync('src/data/lines/jr_chuo_main/globalTimetable.json', 'utf8'));
 const kaiji = chuoTt.find(t => t.coupling && t.coupling.role === 'PRIMARY' && t.direction === 'outbound' && !t.isHoliday);
 if (kaiji) {
   console.log(`\n【中央本線 かいじ (甲府行) + 富士回遊 (河口湖行) 下り】(解結駅: 大月 JC-32)`);
@@ -145,7 +145,7 @@ if (kaiji) {
 }
 
 // 4. 東海道線（踊り子 下田行 + 修善寺行）
-const tokaidoTt = JSON.parse(fs.readFileSync('src/data/lines/tokaido/globalTimetable.json', 'utf8'));
+const tokaidoTt = JSON.parse(fs.readFileSync('src/data/lines/jr_tokaido/globalTimetable.json', 'utf8'));
 const odoriko = tokaidoTt.find(t => t.coupling && t.coupling.role === 'PRIMARY' && t.direction === 'outbound' && !t.isHoliday);
 if (odoriko) {
   console.log(`\n【東海道線 踊り子 (伊豆急下田行) + 踊り子 (修善寺行) 下り】(解結駅: 熱海 JT-21)`);

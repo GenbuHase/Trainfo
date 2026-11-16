@@ -9,14 +9,14 @@ import type { ActiveTrain, LineId, TimetableTrip } from '../src/types';
 console.log('=== 🚆 JR東北本線・IGRいわて銀河鉄道・青い森鉄道 直通ハンドオーバー & 重複排除テスト ===\n');
 
 const TARGET_LINES: LineId[] = [
-  'tohoku_kuroiso_fukushima',
-  'tohoku_fukushima_sendai',
-  'tohoku_sendai_ichinoseki',
-  'tohoku_rifu',
-  'tohoku_ichinoseki_morioka',
+  'jr_tohoku_kuroiso_fukushima',
+  'jr_tohoku_fukushima_sendai',
+  'jr_tohoku_sendai_ichinoseki',
+  'jr_tohoku_rifu',
+  'jr_tohoku_ichinoseki_morioka',
   'igr_iwate_ginga',
   'aoimori',
-  'joban_iwaki_sendai',
+  'jr_joban_iwaki_sendai',
 ];
 
 function loadRawTrips(lineId: LineId): TimetableTrip[] {
@@ -28,16 +28,16 @@ function loadRawTrips(lineId: LineId): TimetableTrip[] {
 const rawMap = new Map<LineId, TimetableTrip[]>(TARGET_LINES.map((id) => [id, loadRawTrips(id)]));
 
 const boundaryPairs: Array<[LineId, LineId, string]> = [
-  ['tohoku_kuroiso_fukushima', 'tohoku_fukushima_sendai', '福島 (下り)'],
-  ['tohoku_fukushima_sendai', 'tohoku_kuroiso_fukushima', '福島 (上り)'],
-  ['tohoku_fukushima_sendai', 'tohoku_sendai_ichinoseki', '仙台 (下り)'],
-  ['tohoku_sendai_ichinoseki', 'tohoku_fukushima_sendai', '仙台 (上り)'],
-  ['tohoku_sendai_ichinoseki', 'tohoku_rifu', '岩切 (下り分岐)'],
-  ['tohoku_rifu', 'tohoku_sendai_ichinoseki', '岩切 (上り合流)'],
-  ['tohoku_sendai_ichinoseki', 'tohoku_ichinoseki_morioka', '一ノ関 (下り)'],
-  ['tohoku_ichinoseki_morioka', 'tohoku_sendai_ichinoseki', '一ノ関 (上り)'],
-  ['tohoku_ichinoseki_morioka', 'igr_iwate_ginga', '盛岡 (下り)'],
-  ['igr_iwate_ginga', 'tohoku_ichinoseki_morioka', '盛岡 (上り)'],
+  ['jr_tohoku_kuroiso_fukushima', 'jr_tohoku_fukushima_sendai', '福島 (下り)'],
+  ['jr_tohoku_fukushima_sendai', 'jr_tohoku_kuroiso_fukushima', '福島 (上り)'],
+  ['jr_tohoku_fukushima_sendai', 'jr_tohoku_sendai_ichinoseki', '仙台 (下り)'],
+  ['jr_tohoku_sendai_ichinoseki', 'jr_tohoku_fukushima_sendai', '仙台 (上り)'],
+  ['jr_tohoku_sendai_ichinoseki', 'jr_tohoku_rifu', '岩切 (下り分岐)'],
+  ['jr_tohoku_rifu', 'jr_tohoku_sendai_ichinoseki', '岩切 (上り合流)'],
+  ['jr_tohoku_sendai_ichinoseki', 'jr_tohoku_ichinoseki_morioka', '一ノ関 (下り)'],
+  ['jr_tohoku_ichinoseki_morioka', 'jr_tohoku_sendai_ichinoseki', '一ノ関 (上り)'],
+  ['jr_tohoku_ichinoseki_morioka', 'igr_iwate_ginga', '盛岡 (下り)'],
+  ['igr_iwate_ginga', 'jr_tohoku_ichinoseki_morioka', '盛岡 (上り)'],
   ['igr_iwate_ginga', 'aoimori', '目時 (下り)'],
   ['aoimori', 'igr_iwate_ginga', '目時 (上り)'],
 ];
@@ -75,14 +75,14 @@ for (const [lineA, lineB, label] of boundaryPairs) {
 }
 
 // 2. 3路線連続直通 (岩沼 -> 仙台 -> 岩切 -> 利府) の確認
-const rfsTrips = rawMap.get('tohoku_fukushima_sendai')!;
-const tsiMap = new Map(rawMap.get('tohoku_sendai_ichinoseki')!.map((t) => [t.tripId, t]));
-const trfMap = new Map(rawMap.get('tohoku_rifu')!.map((t) => [t.tripId, t]));
+const rfsTrips = rawMap.get('jr_tohoku_fukushima_sendai')!;
+const tsiMap = new Map(rawMap.get('jr_tohoku_sendai_ichinoseki')!.map((t) => [t.tripId, t]));
+const trfMap = new Map(rawMap.get('jr_tohoku_rifu')!.map((t) => [t.tripId, t]));
 
 const threeLineChains = rfsTrips.filter((t1) => {
-  if (t1.throughLineId !== 'tohoku_sendai_ichinoseki' || !t1.throughTripId) return false;
+  if (t1.throughLineId !== 'jr_tohoku_sendai_ichinoseki' || !t1.throughTripId) return false;
   const t2 = tsiMap.get(t1.throughTripId);
-  return Boolean(t2 && t2.throughLineId === 'tohoku_rifu' && t2.throughTripId && trfMap.has(t2.throughTripId));
+  return Boolean(t2 && t2.throughLineId === 'jr_tohoku_rifu' && t2.throughTripId && trfMap.has(t2.throughTripId));
 });
 assert.ok(threeLineChains.length >= 1, '福島～仙台 -> 仙台～一ノ関 -> 利府支線 の3線連続直通が見つかりません');
 console.log(`\n  ✅ 3線貫通チェーン (岩沼方面 -> 仙台 -> 岩切 -> 利府): ${threeLineChains.length} 便検出`);
@@ -105,34 +105,34 @@ const handoverChecks: Array<{
 }> = [
   {
     name: '福島境界下り 1123M (郡山->藤田)',
-    lines: ['tohoku_kuroiso_fukushima', 'tohoku_fukushima_sendai'],
-    before: { sec: '07:10:00', tripId: 'WD_OUT_TKF-14_0628_7115', expectedLine: 'tohoku_kuroiso_fukushima' },
+    lines: ['jr_tohoku_kuroiso_fukushima', 'jr_tohoku_fukushima_sendai'],
+    before: { sec: '07:10:00', tripId: 'WD_OUT_TKF-14_0628_7115', expectedLine: 'jr_tohoku_kuroiso_fukushima' },
     boundaryDwell: {
       sec: '07:16:30',
       expectedUniqueTrips: ['WD_OUT_TKF-14_0628_7115', 'WD_OUT_TFS-01_0718_7115'],
     },
-    after: { sec: '07:20:00', tripId: 'WD_OUT_TFS-01_0718_7115', expectedLine: 'tohoku_fukushima_sendai' },
+    after: { sec: '07:20:00', tripId: 'WD_OUT_TFS-01_0718_7115', expectedLine: 'jr_tohoku_fukushima_sendai' },
   },
   {
     name: '福島境界上り 570M->1124M (仙台->郡山)',
-    lines: ['tohoku_kuroiso_fukushima', 'tohoku_fukushima_sendai'],
-    before: { sec: '07:20:00', tripId: 'WD_INB_TFS-20_0600_9945', expectedLine: 'tohoku_fukushima_sendai' },
+    lines: ['jr_tohoku_kuroiso_fukushima', 'jr_tohoku_fukushima_sendai'],
+    before: { sec: '07:20:00', tripId: 'WD_INB_TFS-20_0600_9945', expectedLine: 'jr_tohoku_fukushima_sendai' },
     boundaryDwell: {
       sec: '07:28:00',
       expectedUniqueTrips: ['WD_INB_TFS-20_0600_9945', 'WD_INB_TKF-24_0735_9945'],
     },
-    after: { sec: '07:38:00', tripId: 'WD_INB_TKF-24_0735_9945', expectedLine: 'tohoku_kuroiso_fukushima' },
+    after: { sec: '07:38:00', tripId: 'WD_INB_TKF-24_0735_9945', expectedLine: 'jr_tohoku_kuroiso_fukushima' },
   },
   {
     name: '岩切境界下り 4421M (仙台->利府)',
-    lines: ['tohoku_sendai_ichinoseki', 'tohoku_rifu'],
-    before: { sec: '06:22:00', tripId: 'WD_OUT_TSI-01_0615_11930', expectedLine: 'tohoku_sendai_ichinoseki' },
-    after: { sec: '06:28:00', tripId: 'WD_OUT_TRF-01_0625_11930', expectedLine: 'tohoku_rifu' },
+    lines: ['jr_tohoku_sendai_ichinoseki', 'jr_tohoku_rifu'],
+    before: { sec: '06:22:00', tripId: 'WD_OUT_TSI-01_0615_11930', expectedLine: 'jr_tohoku_sendai_ichinoseki' },
+    after: { sec: '06:28:00', tripId: 'WD_OUT_TRF-01_0625_11930', expectedLine: 'jr_tohoku_rifu' },
   },
   {
     name: '盛岡境界下り 2573M->3491M (日詰->滝沢)',
-    lines: ['tohoku_ichinoseki_morioka', 'igr_iwate_ginga'],
-    before: { sec: '07:20:00', tripId: 'WD_OUT_TIM-14_0656_24458', expectedLine: 'tohoku_ichinoseki_morioka' },
+    lines: ['jr_tohoku_ichinoseki_morioka', 'igr_iwate_ginga'],
+    before: { sec: '07:20:00', tripId: 'WD_OUT_TIM-14_0656_24458', expectedLine: 'jr_tohoku_ichinoseki_morioka' },
     boundaryDwell: {
       sec: '07:24:00',
       expectedUniqueTrips: ['WD_OUT_TIM-14_0656_24458', 'WD_OUT_IGR-01_0726_24458'],
@@ -213,7 +213,7 @@ for (const timeStr of checkTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['joban_iwaki_sendai', 'tohoku_fukushima_sendai'],
+    selectedLineIds: ['jr_joban_iwaki_sendai', 'jr_tohoku_fukushima_sendai'],
   });
 
   // 同一列車番号かつ同方向が2線に同時存在しないこと
@@ -227,8 +227,8 @@ for (const timeStr of checkTimes) {
     }
     seenTrainNumbers.set(key, tr);
   }
-  const jobanCount = activeBoth.filter((t) => t.lineId === 'joban_iwaki_sendai').length;
-  const tohokuCount = activeBoth.filter((t) => t.lineId === 'tohoku_fukushima_sendai').length;
+  const jobanCount = activeBoth.filter((t) => t.lineId === 'jr_joban_iwaki_sendai').length;
+  const tohokuCount = activeBoth.filter((t) => t.lineId === 'jr_tohoku_fukushima_sendai').length;
   console.log(`  ✅ ${timeStr}: 常磐=${jobanCount}本 / 東北=${tohokuCount}本 (重複 0 本)`);
 }
 

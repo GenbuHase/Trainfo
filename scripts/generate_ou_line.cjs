@@ -35,7 +35,7 @@ const LTD_COLOR = '#e60012';
 
 const SECTIONS = [
   {
-    lineId: 'ou_fukushima_shinjo',
+    lineId: 'jr_ou_fukushima_shinjo',
     name: 'JR奥羽本線（福島～新庄）',
     shortName: '奥羽本線（福島～新庄）',
     exportPrefix: 'OU_FUKUSHIMA_SHINJO',
@@ -60,7 +60,7 @@ const SECTIONS = [
     ],
   },
   {
-    lineId: 'ou_shinjo_omagari',
+    lineId: 'jr_ou_shinjo_omagari',
     name: 'JR奥羽本線（新庄～大曲）',
     shortName: '奥羽本線（新庄～大曲）',
     exportPrefix: 'OU_SHINJO_OMAGARI',
@@ -83,7 +83,7 @@ const SECTIONS = [
     ],
   },
   {
-    lineId: 'ou_omagari_akita',
+    lineId: 'jr_ou_omagari_akita',
     name: 'JR奥羽本線（大曲～秋田）',
     shortName: '奥羽本線（大曲～秋田）',
     exportPrefix: 'OU_OMAGARI_AKITA',
@@ -103,7 +103,7 @@ const SECTIONS = [
     stations: ['大曲', '神宮寺', '刈和野', '峰吉川', '羽後境', '大張野', '和田', '四ツ小屋', '秋田'],
   },
   {
-    lineId: 'ou_akita_aomori',
+    lineId: 'jr_ou_akita_aomori',
     name: 'JR奥羽本線（秋田～青森）',
     shortName: '奥羽本線（秋田～青森）',
     exportPrefix: 'OU_AKITA_AOMORI',
@@ -234,16 +234,16 @@ const META = {
 };
 
 const EXTRA_TRANSFERS = {
-  ou_fukushima_shinjo: { 新庄: ['JR奥羽本線（新庄～大曲）'] },
-  ou_shinjo_omagari: {
+  jr_ou_fukushima_shinjo: { 新庄: ['JR奥羽本線（新庄～大曲）'] },
+  jr_ou_shinjo_omagari: {
     新庄: ['JR奥羽本線（福島～新庄）'],
     大曲: ['JR奥羽本線（大曲～秋田）'],
   },
-  ou_omagari_akita: {
+  jr_ou_omagari_akita: {
     大曲: ['JR奥羽本線（新庄～大曲）'],
     秋田: ['JR奥羽本線（秋田～青森）'],
   },
-  ou_akita_aomori: { 秋田: ['JR奥羽本線（大曲～秋田）'] },
+  jr_ou_akita_aomori: { 秋田: ['JR奥羽本線（大曲～秋田）'] },
 };
 
 const NAME_ALIASES = {
@@ -507,8 +507,8 @@ function connectStations(nodeMap, adj, stops) {
 
 function stoppingTypes(meta, section) {
   const types = ['regular'];
-  if (meta.rapid && section.lineId !== 'ou_omagari_akita') types.push('rapid');
-  if (meta.ltd && section.lineId === 'ou_akita_aomori') types.push('limitedExp');
+  if (meta.rapid && section.lineId !== 'jr_ou_omagari_akita') types.push('rapid');
+  if (meta.ltd && section.lineId === 'jr_ou_akita_aomori') types.push('limitedExp');
   return types;
 }
 
@@ -585,7 +585,7 @@ function writeTrainTypes(section) {
       borderColor: RAPID_COLOR,
     },
   };
-  if (section.lineId === 'ou_akita_aomori') {
+  if (section.lineId === 'jr_ou_akita_aomori') {
     types.limitedExp = {
       key: 'limitedExp',
       name: '特急',

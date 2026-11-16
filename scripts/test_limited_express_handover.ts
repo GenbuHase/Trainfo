@@ -14,9 +14,9 @@ for (const t of azusaChain) {
 }
 
 assert.strictEqual(azusaChain.length, 3, 'あずさ4号は篠ノ井線・中央本線・中央線快速の3路線がチェーンに含まれること');
-assert.strictEqual(azusaChain[0].lineId, 'shinonoi', '第1区間は篠ノ井線であること');
-assert.strictEqual(azusaChain[1].lineId, 'chuo_main', '第2区間は中央本線であること');
-assert.strictEqual(azusaChain[2].lineId, 'chuo', '第3区間は中央線快速であること');
+assert.strictEqual(azusaChain[0].lineId, 'jr_shinonoi', '第1区間は篠ノ井線であること');
+assert.strictEqual(azusaChain[1].lineId, 'jr_chuo_main', '第2区間は中央本線であること');
+assert.strictEqual(azusaChain[2].lineId, 'jr_chuo', '第3区間は中央線快速であること');
 
 const azusaChainIds = getThroughChainTripIds('WD_INB_JC-22_0835_6919');
 assert.ok(azusaChainIds.has('WD_INB_SN-06_0630_6919'), '篠ノ井線便がチェーンIDに含まれること');
@@ -94,9 +94,9 @@ console.log('\n特急あずさ9号 (下り塩尻通過) のチェーン:');
 for (const t of azusa9Chain) {
   console.log(`  [${t.lineId}] ${t.tripId} (${t.trainNumber}): ${t.stops[0]?.stationId}@${t.stops[0]?.departureTime} -> ${t.stops[t.stops.length - 1]?.stationId}@${t.stops[t.stops.length - 1]?.arrivalTime}`);
 }
-assert.ok(azusa9Chain.some(t => t.lineId === 'chuo_main'), '中央本線便が含まれること');
-assert.ok(azusa9Chain.some(t => t.lineId === 'shinonoi'), '篠ノ井線便が含まれること');
-const azusa9Sn = azusa9Chain.find(t => t.lineId === 'shinonoi')!;
+assert.ok(azusa9Chain.some(t => t.lineId === 'jr_chuo_main'), '中央本線便が含まれること');
+assert.ok(azusa9Chain.some(t => t.lineId === 'jr_shinonoi'), '篠ノ井線便が含まれること');
+const azusa9Sn = azusa9Chain.find(t => t.lineId === 'jr_shinonoi')!;
 assert.strictEqual(azusa9Sn.stops[azusa9Sn.stops.length - 1].stationId, 'SN-06', '松本駅(SN-06)まで直通運行すること');
 console.log('✅ テスト6: 特急あずさ9号 松本〜上諏訪間(塩尻通過) 直通チェーン検証成功！');
 

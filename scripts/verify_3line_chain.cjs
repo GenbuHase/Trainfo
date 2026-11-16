@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 const fujikyu = JSON.parse(fs.readFileSync('src/data/lines/fujikyu/globalTimetable.json', 'utf8'));
-const cm = JSON.parse(fs.readFileSync('src/data/lines/chuo_main/globalTimetable.json', 'utf8'));
-const chuo = JSON.parse(fs.readFileSync('src/data/lines/chuo/globalTimetable.json', 'utf8'));
+const cm = JSON.parse(fs.readFileSync('src/data/lines/jr_chuo_main/globalTimetable.json', 'utf8'));
+const jr_chuo = JSON.parse(fs.readFileSync('src/data/lines/jr_chuo/globalTimetable.json', 'utf8'));
 
 const cmMap = new Map();
 cm.forEach(t => cmMap.set(t.tripId, t));

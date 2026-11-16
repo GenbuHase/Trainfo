@@ -552,7 +552,7 @@ const stationsTsContent = `import type { Station } from '../../../types';
 export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
 ${resolvedStations.map(s => `  {
     id: '${s.id}',
-    lineId: 'tohoku_shinkansen',
+    lineId: 'jr_tohoku_shinkansen',
     number: ${s.number},
     name: '${s.name}',
     nameKana: '${s.nameKana}',
@@ -575,8 +575,8 @@ ${resolvedStations.map(s => `  {
 ];
 `;
 
-fs.writeFileSync('src/data/lines/tohoku_shinkansen/stations.ts', stationsTsContent, 'utf8');
-console.log('Saved src/data/lines/tohoku_shinkansen/stations.ts');
+fs.writeFileSync('src/data/lines/jr_tohoku_shinkansen/stations.ts', stationsTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_tohoku_shinkansen/stations.ts');
 
 // Generate trackGeometry.ts content
 const trackGeometryTsContent = `import type { TrackSegment } from '../../../types';
@@ -584,5 +584,5 @@ const trackGeometryTsContent = `import type { TrackSegment } from '../../../type
 export const TOHOKU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/tohoku_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
-console.log('Saved src/data/lines/tohoku_shinkansen/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_tohoku_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_tohoku_shinkansen/trackGeometry.ts');

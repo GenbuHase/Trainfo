@@ -2,6 +2,95 @@ import React, { createContext, useContext, useState, useMemo, useCallback } from
 import type { Station, ActiveTrain, LineId } from '../types';
 import { getAllLines } from '../data/linesRegistry';
 
+
+const OLD_TO_NEW_JR_LINE_IDS: Record<string, LineId> = {
+  "tokaido_shinkansen": "jr_tokaido_shinkansen",
+  "sanyo_shinkansen": "jr_sanyo_shinkansen",
+  "tohoku_shinkansen": "jr_tohoku_shinkansen",
+  "joetsu_shinkansen": "jr_joetsu_shinkansen",
+  "hokuriku_shinkansen": "jr_hokuriku_shinkansen",
+  "yamagata_shinkansen": "jr_yamagata_shinkansen",
+  "akita_shinkansen": "jr_akita_shinkansen",
+  "yamanote": "jr_yamanote",
+  "keihin_tohoku_negishi": "jr_keihin_tohoku_negishi",
+  "ueno_tokyo": "jr_ueno_tokyo",
+  "shonan_shinjuku": "jr_shonan_shinjuku",
+  "tokaido": "jr_tokaido",
+  "yokosuka": "jr_yokosuka",
+  "chuo": "jr_chuo",
+  "chuo_sobu_local": "jr_chuo_sobu_local",
+  "sobu_rapid": "jr_sobu_rapid",
+  "utsunomiya": "jr_utsunomiya",
+  "takasaki": "jr_takasaki",
+  "joban_rapid": "jr_joban_rapid",
+  "joban_local": "jr_joban_local",
+  "saikyo": "jr_saikyo",
+  "musashino": "jr_musashino",
+  "keiyo": "jr_keiyo",
+  "yokohama": "jr_yokohama",
+  "nambu": "jr_nambu",
+  "tsurumi": "jr_tsurumi",
+  "sotetsu_jr_direct": "jr_sotetsu_jr_direct",
+  "kawagoe": "jr_kawagoe",
+  "hachiko": "jr_hachiko",
+  "ome": "jr_ome",
+  "itsukaichi": "jr_itsukaichi",
+  "sobu_main": "jr_sobu_main",
+  "narita": "jr_narita",
+  "sotobo": "jr_sotobo",
+  "uchibo": "jr_uchibo",
+  "togane": "jr_togane",
+  "kururi": "jr_kururi",
+  "ryomo": "jr_ryomo",
+  "ito": "jr_ito",
+  "chuo_main": "jr_chuo_main",
+  "shinonoi": "jr_shinonoi",
+  "oito_east": "jr_oito_east",
+  "joetsu": "jr_joetsu",
+  "shinetsu_takasaki_yokokawa": "jr_shinetsu_takasaki_yokokawa",
+  "shinetsu_naoetsu_niigata": "jr_shinetsu_naoetsu_niigata",
+  "hakushin": "jr_hakushin",
+  "uetsu_main": "jr_uetsu_main",
+  "joban_toride_iwaki": "jr_joban_toride_iwaki",
+  "joban_iwaki_sendai": "jr_joban_iwaki_sendai",
+  "tohoku_kuroiso_fukushima": "jr_tohoku_kuroiso_fukushima",
+  "tohoku_fukushima_sendai": "jr_tohoku_fukushima_sendai",
+  "tohoku_sendai_ichinoseki": "jr_tohoku_sendai_ichinoseki",
+  "tohoku_rifu": "jr_tohoku_rifu",
+  "tohoku_ichinoseki_morioka": "jr_tohoku_ichinoseki_morioka",
+  "senzan": "jr_senzan",
+  "senseki": "jr_senseki",
+  "senseki_tohoku": "jr_senseki_tohoku",
+  "ishinomaki": "jr_ishinomaki",
+  "ou_fukushima_shinjo": "jr_ou_fukushima_shinjo",
+  "ou_shinjo_omagari": "jr_ou_shinjo_omagari",
+  "ou_omagari_akita": "jr_ou_omagari_akita",
+  "ou_akita_aomori": "jr_ou_akita_aomori",
+  "tazawako": "jr_tazawako",
+  "kitakami": "jr_kitakami",
+  "kamaishi": "jr_kamaishi",
+  "yamada": "jr_yamada",
+  "hachinohe": "jr_hachinohe",
+  "ominato": "jr_ominato",
+  "tsugaru": "jr_tsugaru",
+  "gono": "jr_gono",
+  "oga": "jr_oga",
+  "banetsu_east": "jr_banetsu_east",
+  "banetsu_west": "jr_banetsu_west",
+  "tadami": "jr_tadami",
+  "rikuu_east": "jr_rikuu_east",
+  "rikuu_west": "jr_rikuu_west",
+  "kesennuma": "jr_kesennuma",
+  "kesennuma_brt": "jr_kesennuma_brt",
+  "ofunato": "jr_ofunato",
+  "ofunato_brt": "jr_ofunato_brt",
+  "tokaido_atami_toyohashi": "jr_tokaido_atami_toyohashi",
+  "tokaido_toyohashi_maibara": "jr_tokaido_toyohashi_maibara",
+  "tokaido_minoakasaka": "jr_tokaido_minoakasaka",
+  "gotemba": "jr_gotemba",
+  "oito_west": "jr_oito_west"
+};
+
 const STORAGE_KEY_SELECTED_LINES = 'trainfo_selected_lines';
 const STORAGE_KEY_HIDE_OTHER_TRAINS_TRACKING = 'trainfo_hide_other_trains_tracking';
 
@@ -33,7 +122,7 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) {
           const validIds = new Set(getAllLines().map((l) => l.id));
-          return parsed.filter((id) => validIds.has(id));
+          return parsed.map((id: string) => OLD_TO_NEW_JR_LINE_IDS[id] || id).filter((id) => validIds.has(id));
         }
       }
     } catch {

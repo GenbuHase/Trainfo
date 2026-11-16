@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 // linesRegistry からデータを読み込んでシミュレーションを再現
-const musashinoGlobal = JSON.parse(fs.readFileSync('src/data/lines/musashino/globalTimetable.json', 'utf8'));
-const musashinoStations = JSON.parse(fs.readFileSync('src/data/lines/musashino/stations.ts', 'utf8')
+const musashinoGlobal = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/globalTimetable.json', 'utf8'));
+const musashinoStations = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/stations.ts', 'utf8')
   .match(/export const MUSASHINO_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
-const musashinoSegments = JSON.parse(fs.readFileSync('src/data/lines/musashino/trackGeometry.ts', 'utf8')
+const musashinoSegments = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/trackGeometry.ts', 'utf8')
   .match(/export const MUSASHINO_TRACK_SEGMENTS: TrackSegment\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
 
 const stationMap = new Map(musashinoStations.map(s => [s.id, s]));

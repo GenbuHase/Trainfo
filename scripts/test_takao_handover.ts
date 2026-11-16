@@ -64,7 +64,7 @@ for (const timeStr of times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo', 'chuo_main'],
+    selectedLineIds: ['jr_chuo', 'jr_chuo_main'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -107,7 +107,7 @@ for (const timeStr of tkTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo', 'chuo_main'],
+    selectedLineIds: ['jr_chuo', 'jr_chuo_main'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -148,7 +148,7 @@ for (const timeStr of termTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo', 'chuo_main'],
+    selectedLineIds: ['jr_chuo', 'jr_chuo_main'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -193,7 +193,7 @@ for (const timeStr of inbTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo', 'chuo_main'],
+    selectedLineIds: ['jr_chuo', 'jr_chuo_main'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -214,7 +214,7 @@ if (trackedId === chuoInbId) {
 
 // テスト5: throughLineId による直通先路線の自動追加判定テスト
 console.log('--- テスト5: throughLineId による直通先路線の自動追加判定 ---');
-let lineSelection = ['chuo'];
+let lineSelection = ['jr_chuo'];
 const trainAtTakao = calculateActiveTrains({
   currentSec: timeStringToSeconds('05:14:00'),
   isHoliday: false,
@@ -230,8 +230,8 @@ if (trainAtTakao && trainAtTakao.throughLineId && !lineSelection.includes(trainA
   console.log(`[自動追加] 追尾中列車の throughLineId: '${trainAtTakao.throughLineId}' を検知し路線追加 -> selectedLineIds:`, lineSelection);
 }
 
-if (lineSelection.includes('chuo_main')) {
-  console.log('✅ テスト5 成功: throughLineId により chuo_main が汎用ロジックで自動追加されました！\n');
+if (lineSelection.includes('jr_chuo_main')) {
+  console.log('✅ テスト5 成功: throughLineId により jr_chuo_main が汎用ロジックで自動追加されました！\n');
 } else {
   console.error('❌ テスト5 失敗: 直通先路線が自動追加されませんでした\n');
   process.exit(1);

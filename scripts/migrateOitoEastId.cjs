@@ -1,14 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log('Migrating oito_east station IDs from OE- to OIE-...');
+console.log('Migrating jr_oito_east station IDs from OE- to OIE-...');
 
 const filesToMigrate = [
-  'src/data/lines/oito_east/stations.ts',
-  'src/data/lines/oito_east/trackGeometry.ts',
-  'src/data/lines/oito_east/stationTimetables.json',
-  'src/data/lines/oito_east/globalTimetable.json',
-  'src/data/lines/shinonoi/globalTimetable.json',
+  'src/data/lines/jr_oito_east/stations.ts',
+  'src/data/lines/jr_oito_east/trackGeometry.ts',
+  'src/data/lines/jr_oito_east/stationTimetables.json',
+  'src/data/lines/jr_oito_east/globalTimetable.json',
+  'src/data/lines/jr_shinonoi/globalTimetable.json',
 ];
 
 for (const relPath of filesToMigrate) {

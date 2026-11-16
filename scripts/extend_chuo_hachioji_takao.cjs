@@ -12,8 +12,8 @@ const {
 
 // 宣言的設定: 中央線快速↔中央本線の特急延伸・同期ルール
 const CHUO_EXTENSION_CONFIG = {
-  chuoPath: path.resolve('src/data/lines/chuo/globalTimetable.json'),
-  chuoMainPath: path.resolve('src/data/lines/chuo_main/globalTimetable.json'),
+  chuoPath: path.resolve('src/data/lines/jr_chuo/globalTimetable.json'),
+  chuoMainPath: path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json'),
   limitedExpressKeywords: ['あずさ', 'かいじ', '富士回遊', 'はちおうじ', 'おうめ'],
   priorityTrainNameKeyword: 'あずさ',
   maxChuoNonPassingStops: 8,
@@ -151,7 +151,7 @@ function extendChuoHachiojiTakao() {
         takaoStop.isPassing = true;
       }
 
-      linkThroughTrips(trip, 'chuo', cm, 'chuo_main', {
+      linkThroughTrips(trip, 'jr_chuo', cm, 'jr_chuo_main', {
         customOrigin: trip.customOrigin || (trip.originStationId === tokyoStationId ? '東京' : '新宿'),
         customDestination: cm.customDestination || '松本',
       });
@@ -176,7 +176,7 @@ function extendChuoHachiojiTakao() {
         takaoStop.isPassing = true;
       }
 
-      linkThroughTrips(cm, 'chuo_main', trip, 'chuo', {
+      linkThroughTrips(cm, 'jr_chuo_main', trip, 'jr_chuo', {
         customOrigin: cm.customOrigin || '松本',
         customDestination: trip.customDestination || (trip.destinationStationId === tokyoStationId ? '東京' : '新宿'),
       });
@@ -186,7 +186,7 @@ function extendChuoHachiojiTakao() {
 
   safeWriteJson(chuoPath, chuoTrips);
   safeWriteJson(chuoMainPath, chuoMainTrips);
-  console.log(`  ✓ chuo ↔ chuo_main 特急相互直通リンク完了: 下り ${linkedOutbound} 便, 上り ${linkedInbound} 便\n`);
+  console.log(`  ✓ jr_chuo ↔ jr_chuo_main 特急相互直通リンク完了: 下り ${linkedOutbound} 便, 上り ${linkedInbound} 便\n`);
 }
 
 module.exports = { extendChuoHachiojiTakao };
