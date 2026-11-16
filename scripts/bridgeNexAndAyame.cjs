@@ -155,6 +155,77 @@ function bridgeNexAndAyame() {
   };
 
   // =========================================================================
+  // 0. 過去の誤リンクで「xxxxF（一般快速）」に N'EX/しおさい属性が混入した便のクリーンアップ
+  //    & N'EX リンクの安全初期化（1対1・二重リンク防止）
+  // =========================================================================
+  const fContamCleanup = (lineKey) => {
+    const list = lineData[lineKey];
+    const validNexTimes = new Set(
+      list
+        .filter((t) => /^\d+M$/.test(t.trainNumber || '') && t.trainName && t.trainName.includes('成田エクスプレス'))
+        .map((t) => `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.stops?.[0]?.departureTime || ''}`)
+    );
+
+    const cleaned = [];
+    let removedDup = 0;
+    let restoredLocal = 0;
+    for (const t of list) {
+      if (/^\d+F$/.test(t.trainNumber || '') && (t.trainType === 'limitedExp' || (t.trainName && (t.trainName.includes('成田エクスプレス') || t.trainName.includes('しおさい'))))) {
+        const sig = `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.stops?.[0]?.departureTime || ''}`;
+        const passingCount = (t.stops || []).filter((s) => s.isPassing).length;
+        const isAllPassNexClone = (t.stops?.length || 0) >= 5 && passingCount >= t.stops.length - 2;
+        if (t.trainName?.includes('成田エクスプレス') && (validNexTimes.has(sig) || isAllPassNexClone)) {
+          // 既に正規の 20xxM/22xxM と重複、または区間丸ごとN'EX化されていた F 番号複製を除去
+          removedDup++;
+          continue;
+        }
+        // 一般快速（3604F, 3778F 等）の列車種別・リンクを正常状態へ復元
+        t.trainType = t.stops && passingCount > 0 ? 'rapid' : 'local';
+        delete t.trainName;
+        delete t.throughTripId;
+        delete t.throughLineId;
+        delete t.prevTripId;
+        delete t.prevLineId;
+        delete t.through;
+        delete t.previousTrip;
+        // customOrigin/customDestination が他線終点に汚染されていた場合も本線端点に戻す
+        if (t.stops?.length > 0) {
+          delete t.customOrigin;
+          delete t.customDestination;
+        }
+        restoredLocal++;
+      }
+      cleaned.push(t);
+    }
+    if (removedDup > 0 || restoredLocal > 0) {
+      console.log(`  🧹 ${lineKey}: 重複偽N'EX ${removedDup}本除去 / 一般快速 ${restoredLocal}本復元`);
+    }
+    lineData[lineKey] = cleaned;
+  };
+  for (const k of ['sobu_rapid', 'sobu_main', 'narita']) {
+    fContamCleanup(k);
+  }
+
+  // N'EX 全便の既存直通ポインタを一旦クリアして多重リンクを防止
+  const nexLinesSet = new Set(['yokosuka', 'sobu_rapid', 'sobu_main', 'narita']);
+  for (const list of Object.values(lineData)) {
+    for (const t of list) {
+      if (t.trainName && t.trainName.includes('成田エクスプレス')) {
+        if (nexLinesSet.has(t.throughLineId)) {
+          delete t.throughTripId;
+          delete t.throughLineId;
+          delete t.through;
+        }
+        if (nexLinesSet.has(t.prevLineId)) {
+          delete t.prevTripId;
+          delete t.prevLineId;
+          delete t.previousTrip;
+        }
+      }
+    }
+  }
+
+  // =========================================================================
   // 1. 成田エクスプレス（N'EX） 下り (大船/品川/新宿 -> 東京 -> 千葉 -> 佐倉 -> 成田空港)
   // =========================================================================
   console.log('--- 1. 成田エクスプレス 下り直通リンク ---');
@@ -163,19 +234,19 @@ function bridgeNexAndAyame() {
     const prefix = isHoliday ? 'HD' : 'WD';
 
     const nrtNexDownList = lineData.narita.filter(
-      (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス')
+      (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
     const srNexDownList = lineData.sobu_rapid.filter(
-      (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス')
+      (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
     const ykNexDownList = lineData.yokosuka.filter(
-      (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス')
+      (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
 
     for (const nrtTrip of nrtNexDownList) {
       const trainNum = nrtTrip.trainNumber;
       const trainName = nrtTrip.trainName;
-      const { isOfuna, terminalName: originName } = resolveNexTerminalName(trainNum);
+      const { isOfuna, isShinjuku, terminalName: originName } = resolveNexTerminalName(trainNum);
 
       const nr36Stop = nrtTrip.stops.find((s) => s.stationId === 'NR-36');
       const nr37Stop = nrtTrip.stops.find((s) => s.stationId === 'NR-37');
@@ -183,11 +254,18 @@ function bridgeNexAndAyame() {
       const nr36DepSec = nr36Stop ? timeToSec(nr36Stop.departureTime || nr36Stop.arrivalTime) : nr36ArrSec + 60;
       const nr37ArrSec = nr37Stop ? timeToSec(nr37Stop.arrivalTime) : nr36DepSec + 120;
 
-      let ykTrip = ykNexDownList.find((t) => t.trainNumber === trainNum);
+      // 同じ系統番号（大船20xxM / 新宿22xxM）に厳密限定して横須賀線区間を取得
+      let ykTrip = ykNexDownList.find((t) => !t.throughTripId && t.trainNumber === trainNum);
       if (!ykTrip) {
         const matchName = trainName.match(/成田エクスプレス(\d+)号/);
         if (matchName) {
-          ykTrip = ykNexDownList.find((t) => t.trainName && t.trainName.includes(`成田エクスプレス${matchName[1]}号`));
+          ykTrip = ykNexDownList.find(
+            (t) =>
+              !t.throughTripId &&
+              t.trainName &&
+              t.trainName.includes(`成田エクスプレス${matchName[1]}号`) &&
+              (isOfuna ? t.trainNumber.startsWith('20') || t.trainNumber.startsWith('37') : isShinjuku ? t.trainNumber.startsWith('22') : false)
+          );
         }
       }
 
@@ -345,19 +423,19 @@ function bridgeNexAndAyame() {
     const prefix = isHoliday ? 'HD' : 'WD';
 
     const nrtNexUpList = lineData.narita.filter(
-      (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス')
+      (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
     const srNexUpList = lineData.sobu_rapid.filter(
-      (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス')
+      (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
     const ykNexUpList = lineData.yokosuka.filter(
-      (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス')
+      (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
 
     for (const nrtTrip of nrtNexUpList) {
       const trainNum = nrtTrip.trainNumber;
       const trainName = nrtTrip.trainName;
-      const { isOfuna, terminalName: finalDest } = resolveNexTerminalName(trainNum);
+      const { isOfuna, isShinjuku, terminalName: finalDest } = resolveNexTerminalName(trainNum);
 
       const nrtDepStop = nrtTrip.stops[0];
       const nrtDepSec = timeToSec(nrtDepStop.departureTime);
@@ -366,11 +444,17 @@ function bridgeNexAndAyame() {
       const nr36ArrSec = nr36Stop ? timeToSec(nr36Stop.arrivalTime) : nrtDepSec + 120;
       const nr36DepSec = nr36Stop ? timeToSec(nr36Stop.departureTime || nr36Stop.arrivalTime) : nr36ArrSec + 60;
 
-      let ykTrip = ykNexUpList.find((t) => t.trainNumber === trainNum);
+      let ykTrip = ykNexUpList.find((t) => !t.prevTripId && t.trainNumber === trainNum);
       if (!ykTrip) {
         const matchName = trainName.match(/成田エクスプレス(\d+)号/);
         if (matchName) {
-          ykTrip = ykNexUpList.find((t) => t.trainName && t.trainName.includes(`成田エクスプレス${matchName[1]}号`));
+          ykTrip = ykNexUpList.find(
+            (t) =>
+              !t.prevTripId &&
+              t.trainName &&
+              t.trainName.includes(`成田エクスプレス${matchName[1]}号`) &&
+              (isOfuna ? t.trainNumber.startsWith('20') || t.trainNumber.startsWith('37') : isShinjuku ? t.trainNumber.startsWith('22') : false)
+          );
         }
       }
 
@@ -587,13 +671,17 @@ function bridgeNexAndAyame() {
     );
 
     for (const sr of srDownShiosai) {
+      if (sr.throughTripId) continue;
       const chibaStop = sr.stops.find((s) => s.stationId === 'JO-28');
       if (!chibaStop) continue;
       const tChiba = chibaStop.departureTime || chibaStop.arrivalTime;
-      const sm = smDownShiosai.find((m) => {
-        const mStop = m.stops.find((s) => s.stationId === 'SM-01');
-        return mStop && Math.abs(timeToSec(mStop.departureTime || mStop.arrivalTime) - timeToSec(tChiba)) <= 300;
-      });
+      const sm =
+        smDownShiosai.find((m) => !m.prevTripId && sr.trainNumber && m.trainNumber === sr.trainNumber) ||
+        smDownShiosai.find((m) => {
+          if (m.prevTripId) return false;
+          const mStop = m.stops.find((s) => s.stationId === 'SM-01');
+          return mStop && Math.abs(timeToSec(mStop.departureTime || mStop.arrivalTime) - timeToSec(tChiba)) <= 300;
+        });
       if (sm) {
         linkThroughTrips(sr, 'sobu_rapid', sm, 'sobu_main', {
           withLegacyObjects: true,
@@ -613,13 +701,17 @@ function bridgeNexAndAyame() {
     );
 
     for (const sm of smUpShiosai) {
+      if (sm.throughTripId) continue;
       const chibaStop = sm.stops.find((s) => s.stationId === 'SM-01');
       if (!chibaStop) continue;
       const tChiba = chibaStop.departureTime || chibaStop.arrivalTime;
-      const sr = srUpShiosai.find((r) => {
-        const rStop = r.stops.find((s) => s.stationId === 'JO-28');
-        return rStop && Math.abs(timeToSec(rStop.departureTime || rStop.arrivalTime) - timeToSec(tChiba)) <= 300;
-      });
+      const sr =
+        srUpShiosai.find((r) => !r.prevTripId && sm.trainNumber && r.trainNumber === sm.trainNumber) ||
+        srUpShiosai.find((r) => {
+          if (r.prevTripId) return false;
+          const rStop = r.stops.find((s) => s.stationId === 'JO-28');
+          return rStop && Math.abs(timeToSec(rStop.departureTime || rStop.arrivalTime) - timeToSec(tChiba)) <= 300;
+        });
       if (sr) {
         linkThroughTrips(sm, 'sobu_main', sr, 'sobu_rapid', {
           withLegacyObjects: true,

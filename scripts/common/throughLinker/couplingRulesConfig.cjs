@@ -142,4 +142,13 @@ module.exports = {
     secondaryTrainKeyword: 'えのしま',
     maxTimeDiffSec: 60,
   },
+
+  // 6. 寝台特急サンライズ出雲・瀬戸（東京〜高松・出雲市）併結設定
+  sunriseExpress: {
+    lineIds: ['tokaido_atami_toyohashi', 'jr_kobe'],
+    trainNumbers: ['5031M', '5032M'],
+    redundantTripIdSuffixes: ['_37927'],
+    primaryCars: 7,
+    secondaryCars: 7,
+  },
 };

@@ -204,20 +204,26 @@ export function calculateDynamicSpeed({
   avgSpeedKmh,
   isDepPassing = false,
   isArrPassing = false,
+  durationSec,
 }: {
   progress: number;
   avgSpeedKmh: number;
   isDepPassing?: boolean;
   isArrPassing?: boolean;
+  durationSec?: number;
 }): number {
   // ゼロ除算・非有限数（Infinity / NaN）・負値の防止ガード
   if (!Number.isFinite(avgSpeedKmh) || avgSpeedKmh <= 0) {
     return 0;
   }
 
-  // 加速・減速区間の進捗割合（駅間の25%を使用）
-  const pAccel = isDepPassing ? 0 : 0.25;
-  const pDecel = isArrPassing ? 0 : 0.25;
+  // 加減速区間の進捗割合（短距離は最大25%、長距離駅間は加減速時間上限35秒に基づき比率を抑制）
+  const maxPhaseRatio =
+    durationSec !== undefined && Number.isFinite(durationSec) && durationSec > 0
+      ? Math.min(0.25, 35 / durationSec)
+      : 0.25;
+  const pAccel = isDepPassing ? 0 : maxPhaseRatio;
+  const pDecel = isArrPassing ? 0 : maxPhaseRatio;
 
   // 平均速度係数: 加減速中の平均係数は 0.5（smoothstepの積分特性）
   const avgFactor = 1 - 0.5 * pAccel - 0.5 * pDecel;
@@ -442,6 +448,7 @@ export function calculateActiveTrains(
             avgSpeedKmh,
             isDepPassing: Boolean(curStop.isPassing),
             isArrPassing: Boolean(nextStop.isPassing),
+            durationSec: totalDuration,
           });
 
 
@@ -567,9 +574,10 @@ export function calculateActiveTrains(
     }
   }
 
-  // 3. 同一運行（路線・進行方向・同一列車ID・行先）の重複表示を安全に排除
+  // 3. 同一運行（路線・進行方向・同一列車ID・行先）および同一区間重複スジの排除
   const uniqueTrains: ActiveTrain[] = [];
   const seenTrainKeys = new Set<string>();
+  const seenExactSegmentKeys = new Set<string>();
 
   for (const train of candidateTrains) {
     // 試運転・臨時列車は個別のtripIdを優先して複数本同時運行を許容
@@ -582,7 +590,34 @@ export function calculateActiveTrains(
     if (seenTrainKeys.has(key)) {
       continue;
     }
+
+    // 異なるtrainIdで元データ等に同一スジが多重登録されている場合の物理区間重複防御
+    // （併結運転・別種別・別愛称・試運転は除外対象外として保護）
+    let exactSegKey: string | null = null;
+    if (!train.isTestTrain && !train.coupling && !train.isCoupledActive && train.trainNumber) {
+      const formattedNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
+      const firstStop = train.stops[0];
+      const lastStop = train.stops[train.stops.length - 1];
+      exactSegKey = [
+        train.lineId,
+        train.direction,
+        formattedNo,
+        train.trainType,
+        train.trainName || '',
+        firstStop?.stationId || '',
+        firstStop?.departureTime || firstStop?.arrivalTime || '',
+        lastStop?.stationId || '',
+        lastStop?.arrivalTime || lastStop?.departureTime || '',
+      ].join('_');
+      if (seenExactSegmentKeys.has(exactSegKey)) {
+        continue;
+      }
+    }
+
     seenTrainKeys.add(key);
+    if (exactSegKey) {
+      seenExactSegmentKeys.add(exactSegKey);
+    }
     uniqueTrains.push(train);
   }
 

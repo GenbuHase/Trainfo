@@ -53,7 +53,7 @@
     "destinationStationId": "CA-00",
     "customOrigin": "出雲市",
     "customDestination": "東京",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": false,
     "stops": [
       {
@@ -166,7 +166,16 @@
       }
     ],
     "throughTripId": "WD_INB_JT-21_0545_37874",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "coupling": {
+      "role": "PRIMARY",
+      "coupledTripId": "WD_INB_CA-17_0440_37928",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "CA-17",
+      "toStationId": "CA-00"
+    }
   },
   {
     "tripId": "WD_INB_CA-17_0440_37928",
@@ -180,7 +189,7 @@
     "destinationStationId": "CA-00",
     "customOrigin": "高松(香川県)",
     "customDestination": "東京",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": false,
     "stops": [
       {
@@ -291,7 +300,16 @@
         "departureTime": "05:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "coupling": {
+      "role": "SECONDARY",
+      "coupledTripId": "WD_INB_CA-17_0440_37377",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "CA-17",
+      "toStationId": "CA-00"
+    }
   },
   {
     "tripId": "WD_OUT_CA-03_0455_11641",
@@ -45799,7 +45817,7 @@
     "destinationStationId": "CA-34",
     "customOrigin": "東京",
     "customDestination": "出雲市",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": false,
     "stops": [
       {
@@ -46014,7 +46032,16 @@
       }
     ],
     "prevTripId": "WD_OUT_JT-01_2126_37351",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "coupling": {
+      "role": "PRIMARY",
+      "coupledTripId": "WD_OUT_CA-00_2257_37926",
+      "coupledTrainNumber": "5031M",
+      "coupledCars": 7,
+      "coupledDestination": "高松",
+      "fromStationId": "CA-00",
+      "toStationId": "CA-34"
+    }
   },
   {
     "tripId": "WD_OUT_CA-00_2257_37926",
@@ -46028,7 +46055,7 @@
     "destinationStationId": "CA-34",
     "customOrigin": "東京",
     "customDestination": "高松(香川県)",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": false,
     "stops": [
       {
@@ -46241,314 +46268,16 @@
         "departureTime": "00:54:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "WD_OUT_CA-00_2257_37927",
-    "lineId": "tokaido_atami_toyohashi",
-    "trainId": "37927",
-    "trainNumber": "5031M",
-    "trainType": "limitedExp",
-    "trainName": "サンライズ瀬戸",
-    "direction": "outbound",
-    "originStationId": "CA-00",
-    "destinationStationId": "CA-34",
-    "customOrigin": "東京",
-    "customDestination": "琴平",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "CA-00",
-        "arrivalTime": "22:55:00",
-        "departureTime": "22:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-01",
-        "arrivalTime": "23:02:18",
-        "departureTime": "23:02:18",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-02",
-        "arrivalTime": "23:08:39",
-        "departureTime": "23:08:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-03",
-        "arrivalTime": "23:15:00",
-        "departureTime": "23:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-04",
-        "arrivalTime": "23:19:00",
-        "departureTime": "23:19:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-05",
-        "arrivalTime": "23:22:00",
-        "departureTime": "23:22:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-06",
-        "arrivalTime": "23:25:00",
-        "departureTime": "23:25:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-07",
-        "arrivalTime": "23:28:00",
-        "departureTime": "23:28:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-08",
-        "arrivalTime": "23:31:00",
-        "departureTime": "23:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-09",
-        "arrivalTime": "23:34:47",
-        "departureTime": "23:34:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-10",
-        "arrivalTime": "23:37:33",
-        "departureTime": "23:37:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-11",
-        "arrivalTime": "23:40:20",
-        "departureTime": "23:40:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-12",
-        "arrivalTime": "23:43:07",
-        "departureTime": "23:43:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-13",
-        "arrivalTime": "23:45:53",
-        "departureTime": "23:45:53",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-14",
-        "arrivalTime": "23:48:40",
-        "departureTime": "23:48:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-15",
-        "arrivalTime": "23:51:27",
-        "departureTime": "23:51:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-16",
-        "arrivalTime": "23:54:13",
-        "departureTime": "23:54:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-17",
-        "arrivalTime": "23:57:00",
-        "departureTime": "23:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-18",
-        "arrivalTime": "00:02:11",
-        "departureTime": "00:02:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-19",
-        "arrivalTime": "00:05:21",
-        "departureTime": "00:05:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-20",
-        "arrivalTime": "00:08:32",
-        "departureTime": "00:08:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-21",
-        "arrivalTime": "00:11:42",
-        "departureTime": "00:11:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-22",
-        "arrivalTime": "00:14:53",
-        "departureTime": "00:14:53",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-23",
-        "arrivalTime": "00:18:04",
-        "departureTime": "00:18:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-24",
-        "arrivalTime": "00:21:14",
-        "departureTime": "00:21:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-25",
-        "arrivalTime": "00:24:25",
-        "departureTime": "00:24:25",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-26",
-        "arrivalTime": "00:27:35",
-        "departureTime": "00:27:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-27",
-        "arrivalTime": "00:30:46",
-        "departureTime": "00:30:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-28",
-        "arrivalTime": "00:33:56",
-        "departureTime": "00:33:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-29",
-        "arrivalTime": "00:37:07",
-        "departureTime": "00:37:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-30",
-        "arrivalTime": "00:40:18",
-        "departureTime": "00:40:18",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-31",
-        "arrivalTime": "00:43:28",
-        "departureTime": "00:43:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-32",
-        "arrivalTime": "00:46:39",
-        "departureTime": "00:46:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-33",
-        "arrivalTime": "00:49:49",
-        "departureTime": "00:49:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-34",
-        "arrivalTime": "00:53:00",
-        "departureTime": "00:54:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_INB_CA-34_2300_1936",
-    "lineId": "tokaido_atami_toyohashi",
-    "trainId": "1936",
-    "trainNumber": "834M",
-    "trainType": "local",
-    "direction": "inbound",
-    "originStationId": "CA-34",
-    "destinationStationId": "CA-24",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "CA-34",
-        "arrivalTime": "23:00:00",
-        "departureTime": "23:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-33",
-        "arrivalTime": "23:04:00",
-        "departureTime": "23:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-32",
-        "arrivalTime": "23:08:00",
-        "departureTime": "23:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-31",
-        "arrivalTime": "23:11:00",
-        "departureTime": "23:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-30",
-        "arrivalTime": "23:14:00",
-        "departureTime": "23:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-29",
-        "arrivalTime": "23:18:00",
-        "departureTime": "23:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-28",
-        "arrivalTime": "23:21:00",
-        "departureTime": "23:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-27",
-        "arrivalTime": "23:25:00",
-        "departureTime": "23:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-26",
-        "arrivalTime": "23:31:00",
-        "departureTime": "23:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-25",
-        "arrivalTime": "23:40:00",
-        "departureTime": "23:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-24",
-        "arrivalTime": "23:44:00",
-        "departureTime": "23:44:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "coupling": {
+      "role": "SECONDARY",
+      "coupledTripId": "WD_OUT_CA-00_2257_37381",
+      "coupledTrainNumber": "5031M",
+      "coupledCars": 7,
+      "coupledDestination": "出雲市",
+      "fromStationId": "CA-00",
+      "toStationId": "CA-34"
+    }
   },
   {
     "tripId": "WD_INB_CA-34_2300_1952",
@@ -47864,7 +47593,7 @@
     "destinationStationId": "CA-00",
     "customOrigin": "出雲市",
     "customDestination": "東京",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": true,
     "stops": [
       {
@@ -47977,7 +47706,16 @@
       }
     ],
     "throughTripId": "HD_INB_JT-21_0545_37874",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "coupling": {
+      "role": "PRIMARY",
+      "coupledTripId": "HD_INB_CA-17_0440_37928",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "CA-17",
+      "toStationId": "CA-00"
+    }
   },
   {
     "tripId": "HD_INB_CA-17_0440_37928",
@@ -47991,7 +47729,7 @@
     "destinationStationId": "CA-00",
     "customOrigin": "高松(香川県)",
     "customDestination": "東京",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": true,
     "stops": [
       {
@@ -48102,7 +47840,16 @@
         "departureTime": "05:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "coupling": {
+      "role": "SECONDARY",
+      "coupledTripId": "HD_INB_CA-17_0440_37377",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "CA-17",
+      "toStationId": "CA-00"
+    }
   },
   {
     "tripId": "HD_OUT_CA-03_0455_11641",
@@ -91533,7 +91280,7 @@
     "destinationStationId": "CA-34",
     "customOrigin": "東京",
     "customDestination": "出雲市",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": true,
     "stops": [
       {
@@ -91748,7 +91495,16 @@
       }
     ],
     "prevTripId": "HD_OUT_JT-01_2126_37351",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "coupling": {
+      "role": "PRIMARY",
+      "coupledTripId": "HD_OUT_CA-00_2257_37926",
+      "coupledTrainNumber": "5031M",
+      "coupledCars": 7,
+      "coupledDestination": "高松",
+      "fromStationId": "CA-00",
+      "toStationId": "CA-34"
+    }
   },
   {
     "tripId": "HD_OUT_CA-00_2257_37926",
@@ -91762,7 +91518,7 @@
     "destinationStationId": "CA-34",
     "customOrigin": "東京",
     "customDestination": "高松(香川県)",
-    "cars": 3,
+    "cars": 7,
     "isHoliday": true,
     "stops": [
       {
@@ -91975,314 +91731,16 @@
         "departureTime": "00:54:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "HD_OUT_CA-00_2257_37927",
-    "lineId": "tokaido_atami_toyohashi",
-    "trainId": "37927",
-    "trainNumber": "5031M",
-    "trainType": "limitedExp",
-    "trainName": "サンライズ瀬戸",
-    "direction": "outbound",
-    "originStationId": "CA-00",
-    "destinationStationId": "CA-34",
-    "customOrigin": "東京",
-    "customDestination": "琴平",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "CA-00",
-        "arrivalTime": "22:55:00",
-        "departureTime": "22:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-01",
-        "arrivalTime": "23:02:18",
-        "departureTime": "23:02:18",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-02",
-        "arrivalTime": "23:08:39",
-        "departureTime": "23:08:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-03",
-        "arrivalTime": "23:15:00",
-        "departureTime": "23:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-04",
-        "arrivalTime": "23:19:00",
-        "departureTime": "23:19:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-05",
-        "arrivalTime": "23:22:00",
-        "departureTime": "23:22:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-06",
-        "arrivalTime": "23:25:00",
-        "departureTime": "23:25:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-07",
-        "arrivalTime": "23:28:00",
-        "departureTime": "23:28:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-08",
-        "arrivalTime": "23:31:00",
-        "departureTime": "23:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-09",
-        "arrivalTime": "23:34:47",
-        "departureTime": "23:34:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-10",
-        "arrivalTime": "23:37:33",
-        "departureTime": "23:37:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-11",
-        "arrivalTime": "23:40:20",
-        "departureTime": "23:40:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-12",
-        "arrivalTime": "23:43:07",
-        "departureTime": "23:43:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-13",
-        "arrivalTime": "23:45:53",
-        "departureTime": "23:45:53",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-14",
-        "arrivalTime": "23:48:40",
-        "departureTime": "23:48:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-15",
-        "arrivalTime": "23:51:27",
-        "departureTime": "23:51:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-16",
-        "arrivalTime": "23:54:13",
-        "departureTime": "23:54:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-17",
-        "arrivalTime": "23:57:00",
-        "departureTime": "23:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-18",
-        "arrivalTime": "00:02:11",
-        "departureTime": "00:02:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-19",
-        "arrivalTime": "00:05:21",
-        "departureTime": "00:05:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-20",
-        "arrivalTime": "00:08:32",
-        "departureTime": "00:08:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-21",
-        "arrivalTime": "00:11:42",
-        "departureTime": "00:11:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-22",
-        "arrivalTime": "00:14:53",
-        "departureTime": "00:14:53",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-23",
-        "arrivalTime": "00:18:04",
-        "departureTime": "00:18:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-24",
-        "arrivalTime": "00:21:14",
-        "departureTime": "00:21:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-25",
-        "arrivalTime": "00:24:25",
-        "departureTime": "00:24:25",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-26",
-        "arrivalTime": "00:27:35",
-        "departureTime": "00:27:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-27",
-        "arrivalTime": "00:30:46",
-        "departureTime": "00:30:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-28",
-        "arrivalTime": "00:33:56",
-        "departureTime": "00:33:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-29",
-        "arrivalTime": "00:37:07",
-        "departureTime": "00:37:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-30",
-        "arrivalTime": "00:40:18",
-        "departureTime": "00:40:18",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-31",
-        "arrivalTime": "00:43:28",
-        "departureTime": "00:43:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-32",
-        "arrivalTime": "00:46:39",
-        "departureTime": "00:46:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-33",
-        "arrivalTime": "00:49:49",
-        "departureTime": "00:49:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "CA-34",
-        "arrivalTime": "00:53:00",
-        "departureTime": "00:54:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_INB_CA-34_2300_1936",
-    "lineId": "tokaido_atami_toyohashi",
-    "trainId": "1936",
-    "trainNumber": "834M",
-    "trainType": "local",
-    "direction": "inbound",
-    "originStationId": "CA-34",
-    "destinationStationId": "CA-24",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "CA-34",
-        "arrivalTime": "23:00:00",
-        "departureTime": "23:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-33",
-        "arrivalTime": "23:04:00",
-        "departureTime": "23:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-32",
-        "arrivalTime": "23:08:00",
-        "departureTime": "23:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-31",
-        "arrivalTime": "23:11:00",
-        "departureTime": "23:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-30",
-        "arrivalTime": "23:14:00",
-        "departureTime": "23:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-29",
-        "arrivalTime": "23:18:00",
-        "departureTime": "23:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-28",
-        "arrivalTime": "23:21:00",
-        "departureTime": "23:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-27",
-        "arrivalTime": "23:25:00",
-        "departureTime": "23:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-26",
-        "arrivalTime": "23:31:00",
-        "departureTime": "23:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-25",
-        "arrivalTime": "23:40:00",
-        "departureTime": "23:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "CA-24",
-        "arrivalTime": "23:44:00",
-        "departureTime": "23:44:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "coupling": {
+      "role": "SECONDARY",
+      "coupledTripId": "HD_OUT_CA-00_2257_37381",
+      "coupledTrainNumber": "5031M",
+      "coupledCars": 7,
+      "coupledDestination": "出雲市",
+      "fromStationId": "CA-00",
+      "toStationId": "CA-34"
+    }
   },
   {
     "tripId": "HD_INB_CA-34_2300_1952",

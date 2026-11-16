@@ -807,6 +807,80 @@ function coupleOdakyuRomancecar() {
 }
 
 /**
+ * 5. 寝台特急サンライズ出雲・瀬戸（5031M / 5032M）の併結設定および臨時延長重複整理
+ */
+function coupleSunrise() {
+  console.log('\n=== 🚆 寝台特急サンライズ出雲・瀬戸 カップリング ===');
+  const rule = couplingConfig.sunriseExpress;
+  if (!rule) return;
+
+  for (const lineId of rule.lineIds) {
+    const filePath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
+    if (!fs.existsSync(filePath)) continue;
+
+    let trips = safeReadJson(filePath, []);
+    // 多客期延長重複スジ（高松行と同一時刻の琴平延長スジ等）を定期スジ側へ統合整理
+    if (Array.isArray(rule.redundantTripIdSuffixes) && rule.redundantTripIdSuffixes.length > 0) {
+      trips = trips.filter(
+        (t) =>
+          !(
+            rule.trainNumbers.includes(t.trainNumber) &&
+            !t.throughTripId &&
+            !t.prevTripId &&
+            rule.redundantTripIdSuffixes.some((suffix) => t.tripId.endsWith(suffix))
+          )
+      );
+    }
+
+    for (const t of trips) {
+      if (rule.trainNumbers.includes(t.trainNumber)) {
+        delete t.coupling;
+      }
+    }
+
+    let count = 0;
+    for (const isHoliday of [false, true]) {
+      for (const dir of ['outbound', 'inbound']) {
+        for (const trainNo of rule.trainNumbers) {
+          const matched = trips.filter(
+            (t) => t.isHoliday === isHoliday && t.direction === dir && t.trainNumber === trainNo
+          );
+          if (matched.length !== 2) continue;
+
+          // 直通リンク（throughTripId / prevTripId）を保持する側を優先して PRIMARY にする
+          const sorted = [...matched].sort((a, b) => {
+            const aLink = (a.throughTripId || a.prevTripId ? 2 : 0) + (a.trainName?.includes('出雲') ? 1 : 0);
+            const bLink = (b.throughTripId || b.prevTripId ? 2 : 0) + (b.trainName?.includes('出雲') ? 1 : 0);
+            return bLink - aLink;
+          });
+          const pri = sorted[0];
+          const sec = sorted[1];
+          if (!pri.stops || pri.stops.length < 2) continue;
+
+          const fromStationId = pri.stops[0].stationId;
+          const toStationId = pri.stops[pri.stops.length - 1].stationId;
+          const priDest = pri.customDestination || (pri.trainName?.includes('出雲') ? '出雲市' : '高松');
+          const secDest = (sec.customDestination || (sec.trainName?.includes('瀬戸') ? '高松' : '出雲市')).replace(/\(.*\)/, '');
+
+          applySymmetricCoupling(pri, sec, {
+            fromStationId,
+            toStationId,
+            primaryCars: rule.primaryCars,
+            secondaryCars: rule.secondaryCars,
+            primaryDest: priDest,
+            secondaryDest: secDest,
+          });
+          count += 2;
+        }
+      }
+    }
+
+    safeWriteJson(filePath, trips);
+    console.log(`  -> ${lineId}: ${count} 件のサンライズ併結トリップを設定完了`);
+  }
+}
+
+/**
  * 統合カップリング実行
  */
 function runAllCoupling() {
@@ -819,6 +893,7 @@ function runAllCoupling() {
   coupleChuoFujiKaiyu();
   coupleTokaidoOdoriko();
   coupleOdakyuRomancecar();
+  coupleSunrise();
 
   console.log(`\n============================================================`);
   console.log(`✨ 全路線の併結（Coupling）設定が完了しました！`);
@@ -836,4 +911,5 @@ module.exports = {
   coupleChuoFujiKaiyu,
   coupleTokaidoOdoriko,
   coupleOdakyuRomancecar,
+  coupleSunrise,
 };

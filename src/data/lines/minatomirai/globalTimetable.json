@@ -69,7 +69,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:50:00",
+        "arrivalTime": "00:05:00",
         "departureTime": "00:06:00",
         "isPassing": false
       },
@@ -104,7 +104,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2301_105747",
+    "prevTripId": "WD_OUT_TY-01_2316_105749",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -224,14 +224,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "所沢",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:57:00",
+        "arrivalTime": "00:15:00",
         "departureTime": "00:15:00",
         "isPassing": false
       },
@@ -266,7 +266,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2310_75512",
+    "prevTripId": "WD_OUT_TY-01_2330_145157",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -332,14 +332,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "00:05:00",
+        "arrivalTime": "00:27:00",
         "departureTime": "00:28:00",
         "isPassing": false
       },
@@ -374,7 +374,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2316_105749",
+    "prevTripId": "WD_OUT_TY-01_2345_145124",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -2882,60 +2882,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_0710_106450",
-    "lineId": "minatomirai",
-    "trainId": "106450",
-    "trainNumber": "819-072レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "07:10:00",
-        "departureTime": "07:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "07:12:00",
-        "departureTime": "07:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "07:13:00",
-        "departureTime": "07:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "07:15:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "07:16:30",
-        "departureTime": "07:16:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "07:18:00",
-        "departureTime": "07:19:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_0719_106450",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_INB_MM-06_0712_106368",
     "lineId": "minatomirai",
     "trainId": "711-072レ",
@@ -4004,60 +3950,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_0740_106451",
-    "lineId": "minatomirai",
-    "trainId": "106451",
-    "trainNumber": "063-072レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "07:40:00",
-        "departureTime": "07:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "07:41:00",
-        "departureTime": "07:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "07:43:00",
-        "departureTime": "07:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "07:44:00",
-        "departureTime": "07:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "07:46:00",
-        "departureTime": "07:46:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "07:47:00",
-        "departureTime": "07:49:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_0749_106451",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_INB_MM-06_0742_105941",
     "lineId": "minatomirai",
     "trainId": "701-072レ",
@@ -5069,60 +4961,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_0809_106074",
-    "lineId": "minatomirai",
-    "trainId": "106074",
-    "trainNumber": "056-082レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "所沢",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "08:09:00",
-        "departureTime": "08:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "08:10:00",
-        "departureTime": "08:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "08:12:00",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "08:13:00",
-        "departureTime": "08:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "08:15:30",
-        "departureTime": "08:15:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "08:17:00",
-        "departureTime": "08:19:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_0819_106074",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_OUT_MM-01_0810_75451",
     "lineId": "minatomirai",
     "trainId": "75451",
@@ -5331,9 +5169,7 @@
         "departureTime": "08:27:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_OUT_TY-01_0741_75399",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "WD_OUT_MM-01_0820_75394",
@@ -5654,60 +5490,6 @@
       }
     ],
     "throughTripId": "WD_INB_TY-21_0837_106114",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "WD_INB_MM-06_0827_106453",
-    "lineId": "minatomirai",
-    "trainId": "106453",
-    "trainNumber": "745-082レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "志木",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "08:27:00",
-        "departureTime": "08:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "08:28:00",
-        "departureTime": "08:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "08:30:00",
-        "departureTime": "08:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "08:31:00",
-        "departureTime": "08:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:33:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "08:34:00",
-        "departureTime": "08:37:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_0837_106453",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -6674,60 +6456,6 @@
       }
     ],
     "throughTripId": "WD_INB_TY-21_0909_105742",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "WD_INB_MM-06_0857_106079",
-    "lineId": "minatomirai",
-    "trainId": "106079",
-    "trainNumber": "787-082レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "08:57:00",
-        "departureTime": "08:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "08:59:00",
-        "departureTime": "08:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "09:01:00",
-        "departureTime": "09:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "09:02:00",
-        "departureTime": "09:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "09:03:30",
-        "departureTime": "09:03:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "09:05:00",
-        "departureTime": "09:09:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_0909_106079",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -8339,60 +8067,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_0955_106455",
-    "lineId": "minatomirai",
-    "trainId": "106455",
-    "trainNumber": "052-092レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "川越市",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "09:55:00",
-        "departureTime": "09:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "09:57:00",
-        "departureTime": "09:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "09:58:00",
-        "departureTime": "09:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "10:00:00",
-        "departureTime": "10:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "10:01:30",
-        "departureTime": "10:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "10:03:00",
-        "departureTime": "10:03:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1003_106455",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_OUT_MM-01_0957_105671",
     "lineId": "minatomirai",
     "trainId": "008-091レ",
@@ -8606,60 +8280,6 @@
       }
     ],
     "throughTripId": "WD_INB_TY-21_1012_106081",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "WD_INB_MM-06_1003_106420",
-    "lineId": "minatomirai",
-    "trainId": "106420",
-    "trainNumber": "789-102レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "10:03:00",
-        "departureTime": "10:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "10:04:30",
-        "departureTime": "10:04:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "10:05:15",
-        "departureTime": "10:05:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "10:06:00",
-        "departureTime": "10:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "10:08:00",
-        "departureTime": "10:08:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "10:09:00",
-        "departureTime": "10:12:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1012_106420",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -11132,60 +10752,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_1133_106428",
-    "lineId": "minatomirai",
-    "trainId": "106428",
-    "trainNumber": "819-112レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "11:33:00",
-        "departureTime": "11:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "11:34:30",
-        "departureTime": "11:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "11:35:15",
-        "departureTime": "11:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "11:36:00",
-        "departureTime": "11:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "11:38:00",
-        "departureTime": "11:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "11:39:00",
-        "departureTime": "11:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1142_106428",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_OUT_MM-01_1135_75467",
     "lineId": "minatomirai",
     "trainId": "013-101レ",
@@ -11996,60 +11562,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_1203_106092",
-    "lineId": "minatomirai",
-    "trainId": "106092",
-    "trainNumber": "063-122レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "12:03:00",
-        "departureTime": "12:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "12:04:30",
-        "departureTime": "12:04:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "12:05:15",
-        "departureTime": "12:05:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "12:06:00",
-        "departureTime": "12:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "12:08:00",
-        "departureTime": "12:08:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "12:09:00",
-        "departureTime": "12:12:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1212_106092",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_OUT_MM-01_1205_75469",
     "lineId": "minatomirai",
     "trainId": "012-111レ",
@@ -12851,60 +12363,6 @@
       }
     ],
     "throughTripId": "WD_INB_TY-21_1242_106433",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "WD_INB_MM-06_1233_106094",
-    "lineId": "minatomirai",
-    "trainId": "106094",
-    "trainNumber": "747-122レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "12:33:00",
-        "departureTime": "12:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "12:34:30",
-        "departureTime": "12:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "12:35:15",
-        "departureTime": "12:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "12:36:00",
-        "departureTime": "12:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "12:38:00",
-        "departureTime": "12:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "12:39:00",
-        "departureTime": "12:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1242_106094",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -13766,60 +13224,6 @@
       }
     ],
     "throughTripId": "WD_INB_TY-21_1312_106435",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "WD_INB_MM-06_1303_106095",
-    "lineId": "minatomirai",
-    "trainId": "106095",
-    "trainNumber": "729-132レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "13:03:00",
-        "departureTime": "13:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "13:04:30",
-        "departureTime": "13:04:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "13:05:15",
-        "departureTime": "13:05:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "13:06:00",
-        "departureTime": "13:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "13:08:00",
-        "departureTime": "13:08:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "13:09:00",
-        "departureTime": "13:12:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1312_106095",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -17963,60 +17367,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_1533_106106",
-    "lineId": "minatomirai",
-    "trainId": "106106",
-    "trainNumber": "819-152レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "15:33:00",
-        "departureTime": "15:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "15:34:30",
-        "departureTime": "15:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "15:35:15",
-        "departureTime": "15:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "15:36:00",
-        "departureTime": "15:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "15:38:00",
-        "departureTime": "15:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "15:39:00",
-        "departureTime": "15:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1542_106106",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_INB_MM-06_1535_105974",
     "lineId": "minatomirai",
     "trainId": "702-152レ",
@@ -18079,14 +17429,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:30:00",
+        "arrivalTime": "15:37:00",
         "departureTime": "15:38:00",
         "isPassing": false
       },
@@ -18121,7 +17471,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1459_75538",
+    "prevTripId": "WD_OUT_TY-01_1509_145177",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -18187,14 +17537,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:37:00",
+        "arrivalTime": "15:41:00",
         "departureTime": "15:42:00",
         "isPassing": false
       },
@@ -18229,7 +17579,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1509_145177",
+    "prevTripId": "WD_OUT_TY-01_1455_105698",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -18341,60 +17691,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_1548_106042",
-    "lineId": "minatomirai",
-    "trainId": "106042",
-    "trainNumber": "122-152レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "15:48:00",
-        "departureTime": "15:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "15:49:30",
-        "departureTime": "15:49:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "15:50:15",
-        "departureTime": "15:50:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "15:51:00",
-        "departureTime": "15:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "15:53:00",
-        "departureTime": "15:53:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "15:54:00",
-        "departureTime": "15:57:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1557_106042",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_OUT_MM-01_1550_145108",
     "lineId": "minatomirai",
     "trainId": "029-141レ",
@@ -18403,14 +17699,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:41:00",
+        "arrivalTime": "15:50:00",
         "departureTime": "15:50:00",
         "isPassing": false
       },
@@ -18445,7 +17741,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1455_105698",
+    "prevTripId": "WD_OUT_TY-01_1504_145108",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -18619,14 +17915,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:50:00",
+        "arrivalTime": "15:56:00",
         "departureTime": "15:57:00",
         "isPassing": false
       },
@@ -18661,7 +17957,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1504_145108",
+    "prevTripId": "WD_OUT_TY-01_1513_75487",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -18768,9 +18064,7 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_OUT_TY-01_1513_75487",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "WD_INB_MM-06_1603_105845",
@@ -19166,7 +18460,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:00:00",
+        "arrivalTime": "16:14:00",
         "departureTime": "16:15:00",
         "isPassing": false
       },
@@ -19201,7 +18495,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1529_75540",
+    "prevTripId": "WD_OUT_TY-01_1542_75542",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -19537,14 +18831,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:14:00",
+        "arrivalTime": "16:30:00",
         "departureTime": "16:31:00",
         "isPassing": false
       },
@@ -19579,7 +18873,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1542_75542",
+    "prevTripId": "WD_OUT_TY-01_1559_75381",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -19807,7 +19101,7 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
@@ -19849,7 +19143,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1559_75381",
+    "prevTripId": "WD_OUT_TY-01_1559_75543",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -19969,14 +19263,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:30:00",
+        "arrivalTime": "16:43:00",
         "departureTime": "16:45:00",
         "isPassing": false
       },
@@ -20011,7 +19305,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1559_75543",
+    "prevTripId": "WD_OUT_TY-01_1614_145181",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -20401,14 +19695,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:43:00",
+        "arrivalTime": "16:57:00",
         "departureTime": "17:00:00",
         "isPassing": false
       },
@@ -20443,7 +19737,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1614_145181",
+    "prevTripId": "WD_OUT_TY-01_1629_115338",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -20725,14 +20019,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:57:00",
+        "arrivalTime": "17:12:00",
         "departureTime": "17:15:00",
         "isPassing": false
       },
@@ -20767,7 +20061,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1629_115338",
+    "prevTripId": "WD_OUT_TY-01_1645_145182",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -21036,9 +20330,7 @@
         "departureTime": "17:31:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_OUT_TY-01_1645_145182",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "WD_INB_MM-06_1729_105981",
@@ -21326,7 +20618,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:21:00",
+        "arrivalTime": "17:38:00",
         "departureTime": "17:39:00",
         "isPassing": false
       },
@@ -21361,7 +20653,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1650_75547",
+    "prevTripId": "WD_OUT_TY-01_1702_75387",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -21589,14 +20881,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:38:00",
+        "arrivalTime": "17:45:00",
         "departureTime": "17:47:00",
         "isPassing": false
       },
@@ -21631,7 +20923,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1702_75387",
+    "prevTripId": "WD_OUT_TY-01_1715_145188",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -21805,14 +21097,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "志木",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:38:00",
+        "arrivalTime": "17:53:00",
         "departureTime": "17:55:00",
         "isPassing": false
       },
@@ -21847,7 +21139,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1702_75549",
+    "prevTripId": "WD_OUT_TY-01_1720_115286",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22021,14 +21313,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:45:00",
+        "arrivalTime": "18:00:00",
         "departureTime": "18:02:00",
         "isPassing": false
       },
@@ -22063,7 +21355,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1715_145188",
+    "prevTripId": "WD_OUT_TY-01_1730_115331",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22237,14 +21529,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "志木",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:53:00",
+        "arrivalTime": "18:08:00",
         "departureTime": "18:09:00",
         "isPassing": false
       },
@@ -22279,7 +21571,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1720_115286",
+    "prevTripId": "WD_OUT_TY-01_1734_75551",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22406,7 +21698,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:00:00",
+        "arrivalTime": "18:15:00",
         "departureTime": "18:17:00",
         "isPassing": false
       },
@@ -22441,7 +21733,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1730_115331",
+    "prevTripId": "WD_OUT_TY-01_1745_145200",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22561,14 +21853,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "保谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:08:00",
+        "arrivalTime": "18:23:00",
         "departureTime": "18:25:00",
         "isPassing": false
       },
@@ -22603,7 +21895,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1734_75551",
+    "prevTripId": "WD_OUT_TY-01_1750_75390",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22723,14 +22015,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:15:00",
+        "arrivalTime": "18:30:00",
         "departureTime": "18:32:00",
         "isPassing": false
       },
@@ -22765,7 +22057,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1745_145200",
+    "prevTripId": "WD_OUT_TY-01_1800_115332",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22831,14 +22123,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "保谷",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:23:00",
+        "arrivalTime": "18:35:00",
         "departureTime": "18:36:00",
         "isPassing": false
       },
@@ -22873,7 +22165,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1750_75390",
+    "prevTripId": "WD_OUT_TY-01_1746_145134",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -22993,14 +22285,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:35:00",
+        "arrivalTime": "18:43:00",
         "departureTime": "18:44:00",
         "isPassing": false
       },
@@ -23035,7 +22327,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1746_145134",
+    "prevTripId": "WD_OUT_TY-01_1756_105717",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -23101,14 +22393,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "志木",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:30:00",
+        "arrivalTime": "18:46:00",
         "departureTime": "18:47:00",
         "isPassing": false
       },
@@ -23143,7 +22435,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1800_115332",
+    "prevTripId": "WD_OUT_TY-01_1815_75428",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -23304,9 +22596,7 @@
         "departureTime": "19:03:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_OUT_TY-01_1815_75428",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "WD_INB_MM-06_1858_106072",
@@ -23371,14 +22661,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:43:00",
+        "arrivalTime": "18:58:00",
         "departureTime": "18:59:00",
         "isPassing": false
       },
@@ -23413,7 +22703,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1756_105717",
+    "prevTripId": "WD_OUT_TY-01_1809_115281",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -23533,14 +22823,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:58:00",
+        "arrivalTime": "19:05:00",
         "departureTime": "19:06:00",
         "isPassing": false
       },
@@ -23575,7 +22865,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1809_115281",
+    "prevTripId": "WD_OUT_TY-01_1816_145117",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -23594,7 +22884,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:53:00",
+        "arrivalTime": "19:07:00",
         "departureTime": "19:08:00",
         "isPassing": false
       },
@@ -23629,7 +22919,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1819_75554",
+    "prevTripId": "WD_OUT_TY-01_1835_105775",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -23749,14 +23039,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:05:00",
+        "arrivalTime": "19:13:00",
         "departureTime": "19:14:00",
         "isPassing": false
       },
@@ -23791,7 +23081,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1816_145117",
+    "prevTripId": "WD_OUT_TY-01_1826_75403",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -23965,14 +23255,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:13:00",
+        "arrivalTime": "19:21:00",
         "departureTime": "19:22:00",
         "isPassing": false
       },
@@ -24007,7 +23297,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1826_75403",
+    "prevTripId": "WD_OUT_TY-01_1831_105719",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -24114,9 +23404,7 @@
         "departureTime": "19:33:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_OUT_TY-01_1835_105775",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "WD_INB_MM-06_1928_105741",
@@ -24173,60 +23461,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "WD_INB_MM-06_1928_106078",
-    "lineId": "minatomirai",
-    "trainId": "106078",
-    "trainNumber": "753-192レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "飯能",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "19:28:00",
-        "departureTime": "19:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "19:29:00",
-        "departureTime": "19:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "19:31:00",
-        "departureTime": "19:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "19:32:00",
-        "departureTime": "19:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "19:34:30",
-        "departureTime": "19:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "19:36:00",
-        "departureTime": "19:38:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_1938_106078",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "WD_OUT_MM-01_1929_145118",
     "lineId": "minatomirai",
     "trainId": "030-181レ",
@@ -24235,14 +23469,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:21:00",
+        "arrivalTime": "19:28:00",
         "departureTime": "19:29:00",
         "isPassing": false
       },
@@ -24277,7 +23511,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1831_105719",
+    "prevTripId": "WD_OUT_TY-01_1841_145118",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -24613,14 +23847,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:28:00",
+        "arrivalTime": "19:43:00",
         "departureTime": "19:44:00",
         "isPassing": false
       },
@@ -24655,7 +23889,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1841_145118",
+    "prevTripId": "WD_OUT_TY-01_1856_105722",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -24728,7 +23962,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:23:00",
+        "arrivalTime": "19:45:00",
         "departureTime": "19:47:00",
         "isPassing": false
       },
@@ -24763,7 +23997,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1850_75555",
+    "prevTripId": "WD_OUT_TY-01_1915_75400",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -24937,14 +24171,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "清瀬",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:45:00",
+        "arrivalTime": "19:53:00",
         "departureTime": "19:55:00",
         "isPassing": false
       },
@@ -24979,7 +24213,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1915_75400",
+    "prevTripId": "WD_OUT_TY-01_1920_145153",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -25160,7 +24394,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:45:00",
+        "arrivalTime": "20:00:00",
         "departureTime": "20:02:00",
         "isPassing": false
       },
@@ -25195,7 +24429,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1915_75562",
+    "prevTripId": "WD_OUT_TY-01_1930_75430",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -25207,14 +24441,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:43:00",
+        "arrivalTime": "20:05:00",
         "departureTime": "20:06:00",
         "isPassing": false
       },
@@ -25249,7 +24483,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1856_105722",
+    "prevTripId": "WD_OUT_TY-01_1916_105723",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -25477,14 +24711,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "清瀬",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:53:00",
+        "arrivalTime": "20:15:00",
         "departureTime": "20:17:00",
         "isPassing": false
       },
@@ -25519,7 +24753,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1920_145153",
+    "prevTripId": "WD_OUT_TY-01_1945_115294",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -25639,14 +24873,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "保谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:00:00",
+        "arrivalTime": "20:23:00",
         "departureTime": "20:25:00",
         "isPassing": false
       },
@@ -25681,7 +24915,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1930_75430",
+    "prevTripId": "WD_OUT_TY-01_1950_145139",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -25747,14 +24981,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:05:00",
+        "arrivalTime": "20:28:00",
         "departureTime": "20:29:00",
         "isPassing": false
       },
@@ -25789,7 +25023,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1916_105723",
+    "prevTripId": "WD_OUT_TY-01_1940_115282",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -25855,14 +25089,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "川越市",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:15:00",
+        "arrivalTime": "20:30:00",
         "departureTime": "20:32:00",
         "isPassing": false
       },
@@ -25897,7 +25131,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1945_115294",
+    "prevTripId": "WD_OUT_TY-01_2000_75431",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -26071,14 +25305,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "保谷",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:23:00",
+        "arrivalTime": "20:38:00",
         "departureTime": "20:39:00",
         "isPassing": false
       },
@@ -26113,7 +25347,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1950_145139",
+    "prevTripId": "WD_OUT_TY-01_2005_105779",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -26233,14 +25467,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:28:00",
+        "arrivalTime": "20:45:00",
         "departureTime": "20:47:00",
         "isPassing": false
       },
@@ -26275,7 +25509,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_1940_115282",
+    "prevTripId": "WD_OUT_TY-01_2015_115295",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -26395,14 +25629,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "保谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:30:00",
+        "arrivalTime": "20:53:00",
         "departureTime": "20:55:00",
         "isPassing": false
       },
@@ -26437,7 +25671,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2000_75431",
+    "prevTripId": "WD_OUT_TY-01_2020_145140",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -26492,60 +25726,6 @@
       }
     ],
     "throughTripId": "WD_INB_TY-21_2108_106110",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "WD_INB_MM-06_2058_106449",
-    "lineId": "minatomirai",
-    "trainId": "106449",
-    "trainNumber": "791-202レ",
-    "trainType": "commuter_ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "川越市",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "20:58:00",
-        "departureTime": "20:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "20:59:00",
-        "departureTime": "20:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "21:01:00",
-        "departureTime": "21:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "21:02:00",
-        "departureTime": "21:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "21:04:00",
-        "departureTime": "21:04:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "21:05:00",
-        "departureTime": "21:08:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_TY-21_2108_106449",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -26665,14 +25845,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "保谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:38:00",
+        "arrivalTime": "21:00:00",
         "departureTime": "21:02:00",
         "isPassing": false
       },
@@ -26707,7 +25887,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2005_105779",
+    "prevTripId": "WD_OUT_TY-01_2030_145131",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -26773,14 +25953,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "川越市",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:45:00",
+        "arrivalTime": "21:05:00",
         "departureTime": "21:06:00",
         "isPassing": false
       },
@@ -26815,7 +25995,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2015_115295",
+    "prevTripId": "WD_OUT_TY-01_2016_105730",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -27043,14 +26223,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "保谷",
+    "customOrigin": "志木",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:53:00",
+        "arrivalTime": "21:15:00",
         "departureTime": "21:17:00",
         "isPassing": false
       },
@@ -27085,7 +26265,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2020_145140",
+    "prevTripId": "WD_OUT_TY-01_2045_145144",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -27205,14 +26385,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "保谷",
+    "customOrigin": "清瀬",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:00:00",
+        "arrivalTime": "21:23:00",
         "departureTime": "21:25:00",
         "isPassing": false
       },
@@ -27247,7 +26427,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2030_145131",
+    "prevTripId": "WD_OUT_TY-01_2050_145129",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -27313,14 +26493,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:05:00",
+        "arrivalTime": "21:28:00",
         "departureTime": "21:29:00",
         "isPassing": false
       },
@@ -27355,7 +26535,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2016_105730",
+    "prevTripId": "WD_OUT_TY-01_2040_115284",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -27691,14 +26871,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "清瀬",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:23:00",
+        "arrivalTime": "21:45:00",
         "departureTime": "21:47:00",
         "isPassing": false
       },
@@ -27733,7 +26913,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2050_145129",
+    "prevTripId": "WD_OUT_TY-01_2115_145145",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -27853,14 +27033,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:28:00",
+        "arrivalTime": "21:53:00",
         "departureTime": "21:55:00",
         "isPassing": false
       },
@@ -27895,7 +27075,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2040_115284",
+    "prevTripId": "WD_OUT_TY-01_2120_75558",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -27961,14 +27141,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:45:00",
+        "arrivalTime": "21:58:00",
         "departureTime": "21:59:00",
         "isPassing": false
       },
@@ -28003,7 +27183,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2115_145145",
+    "prevTripId": "WD_OUT_TY-01_2110_145123",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -28231,14 +27411,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:53:00",
+        "arrivalTime": "22:08:00",
         "departureTime": "22:09:00",
         "isPassing": false
       },
@@ -28273,7 +27453,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2120_75558",
+    "prevTripId": "WD_OUT_TY-01_2135_105783",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -28393,14 +27573,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:58:00",
+        "arrivalTime": "22:15:00",
         "departureTime": "22:18:00",
         "isPassing": false
       },
@@ -28435,7 +27615,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2110_145123",
+    "prevTripId": "WD_OUT_TY-01_2145_75433",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -28717,14 +27897,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:08:00",
+        "arrivalTime": "22:34:00",
         "departureTime": "22:35:00",
         "isPassing": false
       },
@@ -28759,7 +27939,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2135_105783",
+    "prevTripId": "WD_OUT_TY-01_2146_75505",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -28832,7 +28012,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:15:00",
+        "arrivalTime": "22:37:00",
         "departureTime": "22:39:00",
         "isPassing": false
       },
@@ -28867,7 +28047,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2145_75433",
+    "prevTripId": "WD_OUT_TY-01_2205_105784",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -28879,14 +28059,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "新宿三丁目",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:34:00",
+        "arrivalTime": "22:42:00",
         "departureTime": "22:43:00",
         "isPassing": false
       },
@@ -28921,7 +28101,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2146_75505",
+    "prevTripId": "WD_OUT_TY-01_2155_145149",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -29082,9 +28262,7 @@
         "departureTime": "22:54:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_OUT_TY-01_2205_105784",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "WD_INB_MM-06_2246_106354",
@@ -29149,14 +28327,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "清瀬",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:42:00",
+        "arrivalTime": "22:50:00",
         "departureTime": "22:50:00",
         "isPassing": false
       },
@@ -29191,7 +28369,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2155_145149",
+    "prevTripId": "WD_OUT_TY-01_2206_75506",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -29365,14 +28543,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "清瀬",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:50:00",
+        "arrivalTime": "22:58:00",
         "departureTime": "22:59:00",
         "isPassing": false
       },
@@ -29407,7 +28585,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2206_75506",
+    "prevTripId": "WD_OUT_TY-01_2211_75508",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -29480,7 +28658,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:44:00",
+        "arrivalTime": "22:53:00",
         "departureTime": "23:01:00",
         "isPassing": false
       },
@@ -29515,7 +28693,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2215_75563",
+    "prevTripId": "WD_OUT_TY-01_2221_105785",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -29750,7 +28928,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:53:00",
+        "arrivalTime": "23:19:00",
         "departureTime": "23:20:00",
         "isPassing": false
       },
@@ -29785,7 +28963,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2221_105785",
+    "prevTripId": "WD_OUT_TY-01_2230_75509",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -30067,14 +29245,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "清瀬",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:19:00",
+        "arrivalTime": "23:35:00",
         "departureTime": "23:36:00",
         "isPassing": false
       },
@@ -30109,7 +29287,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2230_75509",
+    "prevTripId": "WD_OUT_TY-01_2246_145151",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -30175,14 +29353,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "清瀬",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:35:00",
+        "arrivalTime": "23:42:00",
         "departureTime": "23:42:00",
         "isPassing": false
       },
@@ -30217,7 +29395,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2246_145151",
+    "prevTripId": "WD_OUT_TY-01_2255_75511",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -30445,14 +29623,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:42:00",
+        "arrivalTime": "23:50:00",
         "departureTime": "23:50:00",
         "isPassing": false
       },
@@ -30487,7 +29665,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2255_75511",
+    "prevTripId": "WD_OUT_TY-01_2301_105747",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -30560,7 +29738,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:44:00",
+        "arrivalTime": "23:57:00",
         "departureTime": "23:58:00",
         "isPassing": false
       },
@@ -30595,7 +29773,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TY-01_2315_75564",
+    "prevTripId": "WD_OUT_TY-01_2310_75512",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -31513,60 +30691,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "HD_INB_MM-06_0605_106054",
-    "lineId": "minatomirai",
-    "trainId": "106054",
-    "trainNumber": "058-062レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "飯能",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "06:05:00",
-        "departureTime": "06:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "06:06:30",
-        "departureTime": "06:06:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "06:07:15",
-        "departureTime": "06:07:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "06:08:00",
-        "departureTime": "06:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "06:10:30",
-        "departureTime": "06:10:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "06:12:00",
-        "departureTime": "06:13:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_0613_106054",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "HD_INB_MM-06_0609_106256",
     "lineId": "minatomirai",
     "trainId": "106256",
@@ -32320,60 +31444,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_0712_105718",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_0705_106046",
-    "lineId": "minatomirai",
-    "trainId": "106046",
-    "trainNumber": "106-072レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "清瀬",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "07:05:00",
-        "departureTime": "07:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "07:06:30",
-        "departureTime": "07:06:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "07:07:15",
-        "departureTime": "07:07:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "07:08:00",
-        "departureTime": "07:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "07:09:30",
-        "departureTime": "07:09:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "07:11:00",
-        "departureTime": "07:12:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_0712_106046",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -33242,60 +32312,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "HD_INB_MM-06_0752_106100",
-    "lineId": "minatomirai",
-    "trainId": "110-082レ",
-    "trainNumber": "791-072レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "07:52:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "07:54:00",
-        "departureTime": "07:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "07:55:00",
-        "departureTime": "07:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "07:57:00",
-        "departureTime": "07:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "07:58:30",
-        "departureTime": "07:58:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "08:00:00",
-        "departureTime": "08:01:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_0801_106100",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "HD_OUT_MM-01_0753_115339",
     "lineId": "minatomirai",
     "trainId": "805-071レ",
@@ -33890,60 +32906,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "HD_INB_MM-06_0818_106017",
-    "lineId": "minatomirai",
-    "trainId": "106017",
-    "trainNumber": "110-082レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "08:18:00",
-        "departureTime": "08:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "08:19:30",
-        "departureTime": "08:19:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "08:20:15",
-        "departureTime": "08:20:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "08:21:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:23:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "08:24:00",
-        "departureTime": "08:27:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_0827_106017",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "HD_INB_MM-06_0820_106266",
     "lineId": "minatomirai",
     "trainId": "106266",
@@ -34319,60 +33281,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_0842_106423",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_0833_106084",
-    "lineId": "minatomirai",
-    "trainId": "106084",
-    "trainNumber": "755-082レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "08:34:30",
-        "departureTime": "08:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "08:35:15",
-        "departureTime": "08:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "08:36:00",
-        "departureTime": "08:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "08:38:00",
-        "departureTime": "08:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "08:39:00",
-        "departureTime": "08:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_0842_106084",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -35507,60 +34415,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_0927_105716",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_0918_106043",
-    "lineId": "minatomirai",
-    "trainId": "106043",
-    "trainNumber": "053-092レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "飯能",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "09:18:00",
-        "departureTime": "09:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "09:19:30",
-        "departureTime": "09:19:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "09:20:15",
-        "departureTime": "09:20:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "09:21:00",
-        "departureTime": "09:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "09:23:00",
-        "departureTime": "09:23:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "09:24:00",
-        "departureTime": "09:27:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_0927_106043",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -37505,60 +36359,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "HD_INB_MM-06_1033_106085",
-    "lineId": "minatomirai",
-    "trainId": "106085",
-    "trainNumber": "723-102レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "10:33:00",
-        "departureTime": "10:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "10:34:30",
-        "departureTime": "10:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "10:35:15",
-        "departureTime": "10:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "10:36:00",
-        "departureTime": "10:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "10:38:00",
-        "departureTime": "10:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "10:39:00",
-        "departureTime": "10:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1042_106085",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "HD_OUT_MM-01_1035_105675",
     "lineId": "minatomirai",
     "trainId": "011-091レ",
@@ -39073,60 +37873,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "HD_INB_MM-06_1133_106089",
-    "lineId": "minatomirai",
-    "trainId": "106089",
-    "trainNumber": "761-112レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "11:33:00",
-        "departureTime": "11:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "11:34:30",
-        "departureTime": "11:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "11:35:15",
-        "departureTime": "11:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "11:36:00",
-        "departureTime": "11:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "11:38:00",
-        "departureTime": "11:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "11:39:00",
-        "departureTime": "11:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1142_106089",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "HD_OUT_MM-01_1135_75366",
     "lineId": "minatomirai",
     "trainId": "012-101レ",
@@ -40053,14 +38799,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "飯能",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:00:00",
+        "arrivalTime": "12:07:00",
         "departureTime": "12:08:00",
         "isPassing": false
       },
@@ -40095,7 +38841,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1129_75525",
+    "prevTripId": "HD_OUT_TY-01_1139_145222",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -40215,14 +38961,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "飯能",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:07:00",
+        "arrivalTime": "12:14:00",
         "departureTime": "12:15:00",
         "isPassing": false
       },
@@ -40257,7 +39003,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1139_145222",
+    "prevTripId": "HD_OUT_TY-01_1142_105755",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -40312,60 +39058,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1227_105699",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1218_106027",
-    "lineId": "minatomirai",
-    "trainId": "106027",
-    "trainNumber": "725-122レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "12:18:00",
-        "departureTime": "12:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "12:19:30",
-        "departureTime": "12:19:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "12:20:15",
-        "departureTime": "12:20:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "12:21:00",
-        "departureTime": "12:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "12:23:00",
-        "departureTime": "12:23:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "12:24:00",
-        "departureTime": "12:27:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1227_106027",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -40485,14 +39177,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:14:00",
+        "arrivalTime": "12:21:00",
         "departureTime": "12:23:00",
         "isPassing": false
       },
@@ -40527,7 +39219,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1142_105755",
+    "prevTripId": "HD_OUT_TY-01_1154_115302",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -40701,14 +39393,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:21:00",
+        "arrivalTime": "12:30:00",
         "departureTime": "12:30:00",
         "isPassing": false
       },
@@ -40743,7 +39435,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1154_115302",
+    "prevTripId": "HD_OUT_TY-01_1159_75365",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -40796,9 +39488,7 @@
         "departureTime": "12:39:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1159_75365",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1233_106432",
@@ -40917,14 +39607,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "飯能",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:30:00",
+        "arrivalTime": "12:37:00",
         "departureTime": "12:38:00",
         "isPassing": false
       },
@@ -40959,7 +39649,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1159_75527",
+    "prevTripId": "HD_OUT_TY-01_1209_145225",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -41079,14 +39769,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "飯能",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:37:00",
+        "arrivalTime": "12:44:00",
         "departureTime": "12:45:00",
         "isPassing": false
       },
@@ -41121,7 +39811,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1209_145225",
+    "prevTripId": "HD_OUT_TY-01_1212_105757",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -41295,14 +39985,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:44:00",
+        "arrivalTime": "12:51:00",
         "departureTime": "12:53:00",
         "isPassing": false
       },
@@ -41337,7 +40027,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1212_105757",
+    "prevTripId": "HD_OUT_TY-01_1224_115305",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -41511,14 +40201,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "12:51:00",
+        "arrivalTime": "13:00:00",
         "departureTime": "13:00:00",
         "isPassing": false
       },
@@ -41553,7 +40243,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1224_115305",
+    "prevTripId": "HD_OUT_TY-01_1229_75367",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -41606,9 +40296,7 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1229_75367",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1303_106434",
@@ -41662,60 +40350,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1312_106434",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1303_106096",
-    "lineId": "minatomirai",
-    "trainId": "106096",
-    "trainNumber": "743-132レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "13:03:00",
-        "departureTime": "13:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "13:04:30",
-        "departureTime": "13:04:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "13:05:15",
-        "departureTime": "13:05:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "13:06:00",
-        "departureTime": "13:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "13:08:00",
-        "departureTime": "13:08:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "13:09:00",
-        "departureTime": "13:12:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1312_106096",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -41835,14 +40469,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "飯能",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:00:00",
+        "arrivalTime": "13:07:00",
         "departureTime": "13:08:00",
         "isPassing": false
       },
@@ -41877,7 +40511,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1229_75529",
+    "prevTripId": "HD_OUT_TY-01_1239_145227",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -41997,14 +40631,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "飯能",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:07:00",
+        "arrivalTime": "13:14:00",
         "departureTime": "13:15:00",
         "isPassing": false
       },
@@ -42039,7 +40673,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1239_145227",
+    "prevTripId": "HD_OUT_TY-01_1242_105760",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -42213,14 +40847,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:14:00",
+        "arrivalTime": "13:21:00",
         "departureTime": "13:23:00",
         "isPassing": false
       },
@@ -42255,7 +40889,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1242_105760",
+    "prevTripId": "HD_OUT_TY-01_1254_115306",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -42429,14 +41063,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:21:00",
+        "arrivalTime": "13:30:00",
         "departureTime": "13:30:00",
         "isPassing": false
       },
@@ -42471,7 +41105,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1254_115306",
+    "prevTripId": "HD_OUT_TY-01_1259_75531",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -42591,14 +41225,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:30:00",
+        "arrivalTime": "13:37:00",
         "departureTime": "13:38:00",
         "isPassing": false
       },
@@ -42633,7 +41267,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1259_75531",
+    "prevTripId": "HD_OUT_TY-01_1309_145168",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -42807,14 +41441,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:37:00",
+        "arrivalTime": "13:44:00",
         "departureTime": "13:45:00",
         "isPassing": false
       },
@@ -42849,7 +41483,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1309_145168",
+    "prevTripId": "HD_OUT_TY-01_1312_105762",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -43023,14 +41657,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:44:00",
+        "arrivalTime": "13:51:00",
         "departureTime": "13:53:00",
         "isPassing": false
       },
@@ -43065,7 +41699,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1312_105762",
+    "prevTripId": "HD_OUT_TY-01_1324_115308",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -43239,14 +41873,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "13:51:00",
+        "arrivalTime": "14:00:00",
         "departureTime": "14:00:00",
         "isPassing": false
       },
@@ -43281,7 +41915,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1324_115308",
+    "prevTripId": "HD_OUT_TY-01_1329_75533",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -43455,14 +42089,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "14:00:00",
+        "arrivalTime": "14:07:00",
         "departureTime": "14:08:00",
         "isPassing": false
       },
@@ -43497,7 +42131,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1329_75533",
+    "prevTripId": "HD_OUT_TY-01_1339_145170",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -43663,60 +42297,6 @@
     "throughLineId": "tokyu_toyoko"
   },
   {
-    "tripId": "HD_INB_MM-06_1418_106035",
-    "lineId": "minatomirai",
-    "trainId": "106035",
-    "trainNumber": "110-142レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "14:18:00",
-        "departureTime": "14:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "14:19:30",
-        "departureTime": "14:19:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "14:20:15",
-        "departureTime": "14:20:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "14:21:00",
-        "departureTime": "14:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "14:23:00",
-        "departureTime": "14:23:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "14:24:00",
-        "departureTime": "14:27:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1427_106035",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
     "tripId": "HD_OUT_MM-01_1420_145102",
     "lineId": "minatomirai",
     "trainId": "013-131レ",
@@ -43833,14 +42413,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "14:07:00",
+        "arrivalTime": "14:21:00",
         "departureTime": "14:23:00",
         "isPassing": false
       },
@@ -43875,7 +42455,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1339_145170",
+    "prevTripId": "HD_OUT_TY-01_1354_115310",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -44049,14 +42629,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "14:21:00",
+        "arrivalTime": "14:30:00",
         "departureTime": "14:30:00",
         "isPassing": false
       },
@@ -44091,7 +42671,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1354_115310",
+    "prevTripId": "HD_OUT_TY-01_1359_75535",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -44211,14 +42791,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "14:30:00",
+        "arrivalTime": "14:37:00",
         "departureTime": "14:38:00",
         "isPassing": false
       },
@@ -44253,7 +42833,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1359_75535",
+    "prevTripId": "HD_OUT_TY-01_1409_145172",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -44535,14 +43115,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "14:37:00",
+        "arrivalTime": "14:51:00",
         "departureTime": "14:53:00",
         "isPassing": false
       },
@@ -44577,7 +43157,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1409_145172",
+    "prevTripId": "HD_OUT_TY-01_1424_115312",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -44751,14 +43331,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "14:51:00",
+        "arrivalTime": "15:00:00",
         "departureTime": "15:00:00",
         "isPassing": false
       },
@@ -44793,7 +43373,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1424_115312",
+    "prevTripId": "HD_OUT_TY-01_1429_75537",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -44913,14 +43493,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:00:00",
+        "arrivalTime": "15:07:00",
         "departureTime": "15:08:00",
         "isPassing": false
       },
@@ -44955,7 +43535,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1429_75537",
+    "prevTripId": "HD_OUT_TY-01_1439_145174",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -45129,14 +43709,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:07:00",
+        "arrivalTime": "15:14:00",
         "departureTime": "15:15:00",
         "isPassing": false
       },
@@ -45171,7 +43751,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1439_145174",
+    "prevTripId": "HD_OUT_TY-01_1442_105767",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -45396,14 +43976,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:14:00",
+        "arrivalTime": "15:21:00",
         "departureTime": "15:23:00",
         "isPassing": false
       },
@@ -45438,7 +44018,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1442_105767",
+    "prevTripId": "HD_OUT_TY-01_1454_115314",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -45612,14 +44192,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:21:00",
+        "arrivalTime": "15:30:00",
         "departureTime": "15:30:00",
         "isPassing": false
       },
@@ -45654,7 +44234,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1454_115314",
+    "prevTripId": "HD_OUT_TY-01_1459_75377",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -45707,9 +44287,7 @@
         "departureTime": "15:39:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1459_75377",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1533_106444",
@@ -45763,60 +44341,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1542_106444",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1533_106105",
-    "lineId": "minatomirai",
-    "trainId": "106105",
-    "trainNumber": "761-152レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "15:33:00",
-        "departureTime": "15:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "15:34:30",
-        "departureTime": "15:34:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "15:35:15",
-        "departureTime": "15:35:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "15:36:00",
-        "departureTime": "15:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "15:38:00",
-        "departureTime": "15:38:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "15:39:00",
-        "departureTime": "15:42:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1542_106105",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -45936,14 +44460,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:30:00",
+        "arrivalTime": "15:37:00",
         "departureTime": "15:38:00",
         "isPassing": false
       },
@@ -45978,7 +44502,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1459_75539",
+    "prevTripId": "HD_OUT_TY-01_1509_145176",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -46098,14 +44622,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:37:00",
+        "arrivalTime": "15:44:00",
         "departureTime": "15:45:00",
         "isPassing": false
       },
@@ -46140,7 +44664,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1509_145176",
+    "prevTripId": "HD_OUT_TY-01_1512_105770",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -46195,60 +44719,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1557_105713",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1548_106041",
-    "lineId": "minatomirai",
-    "trainId": "106041",
-    "trainNumber": "053-152レ",
-    "trainType": "ltd_exp",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "15:48:00",
-        "departureTime": "15:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "15:49:30",
-        "departureTime": "15:49:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "15:50:15",
-        "departureTime": "15:50:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "15:51:00",
-        "departureTime": "15:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "15:53:00",
-        "departureTime": "15:53:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "15:54:00",
-        "departureTime": "15:57:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1557_106041",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -46368,14 +44838,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:44:00",
+        "arrivalTime": "15:51:00",
         "departureTime": "15:53:00",
         "isPassing": false
       },
@@ -46410,7 +44880,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1512_105770",
+    "prevTripId": "HD_OUT_TY-01_1524_115316",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -46584,14 +45054,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "15:51:00",
+        "arrivalTime": "16:00:00",
         "departureTime": "16:00:00",
         "isPassing": false
       },
@@ -46626,7 +45096,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1524_115316",
+    "prevTripId": "HD_OUT_TY-01_1529_75379",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -46679,9 +45149,7 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1529_75379",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1603_106416",
@@ -46800,14 +45268,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:00:00",
+        "arrivalTime": "16:07:00",
         "departureTime": "16:08:00",
         "isPassing": false
       },
@@ -46842,7 +45310,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1529_75541",
+    "prevTripId": "HD_OUT_TY-01_1539_145178",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -46908,14 +45376,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:07:00",
+        "arrivalTime": "16:11:00",
         "departureTime": "16:12:00",
         "isPassing": false
       },
@@ -46950,7 +45418,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1539_145178",
+    "prevTripId": "HD_OUT_TY-01_1525_105700",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -47070,14 +45538,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:11:00",
+        "arrivalTime": "16:19:00",
         "departureTime": "16:20:00",
         "isPassing": false
       },
@@ -47112,7 +45580,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1525_105700",
+    "prevTripId": "HD_OUT_TY-01_1534_145109",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -47286,14 +45754,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:19:00",
+        "arrivalTime": "16:27:00",
         "departureTime": "16:27:00",
         "isPassing": false
       },
@@ -47328,7 +45796,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1534_145109",
+    "prevTripId": "HD_OUT_TY-01_1543_75488",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -47401,7 +45869,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:27:00",
+        "arrivalTime": "16:30:00",
         "departureTime": "16:30:00",
         "isPassing": false
       },
@@ -47436,7 +45904,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1543_75488",
+    "prevTripId": "HD_OUT_TY-01_1559_75544",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -47556,14 +46024,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:30:00",
+        "arrivalTime": "16:37:00",
         "departureTime": "16:38:00",
         "isPassing": false
       },
@@ -47598,7 +46066,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1559_75544",
+    "prevTripId": "HD_OUT_TY-01_1609_145180",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -47772,14 +46240,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:37:00",
+        "arrivalTime": "16:44:00",
         "departureTime": "16:46:00",
         "isPassing": false
       },
@@ -47814,7 +46282,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1609_145180",
+    "prevTripId": "HD_OUT_TY-01_1612_105772",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -47988,14 +46456,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:44:00",
+        "arrivalTime": "16:51:00",
         "departureTime": "16:53:00",
         "isPassing": false
       },
@@ -48030,7 +46498,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1612_105772",
+    "prevTripId": "HD_OUT_TY-01_1624_115320",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -48205,14 +46673,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "16:51:00",
+        "arrivalTime": "17:00:00",
         "departureTime": "17:00:00",
         "isPassing": false
       },
@@ -48247,7 +46715,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1624_115320",
+    "prevTripId": "HD_OUT_TY-01_1629_75383",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -48300,9 +46768,7 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1629_75383",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1703_105846",
@@ -48421,14 +46887,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:00:00",
+        "arrivalTime": "17:07:00",
         "departureTime": "17:09:00",
         "isPassing": false
       },
@@ -48463,7 +46929,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1629_75545",
+    "prevTripId": "HD_OUT_TY-01_1639_145183",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -48583,14 +47049,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:07:00",
+        "arrivalTime": "17:15:00",
         "departureTime": "17:16:00",
         "isPassing": false
       },
@@ -48625,7 +47091,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1639_145183",
+    "prevTripId": "HD_OUT_TY-01_1644_75384",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -48678,9 +47144,7 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1644_75384",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1718_105721",
@@ -48853,14 +47317,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:15:00",
+        "arrivalTime": "17:22:00",
         "departureTime": "17:24:00",
         "isPassing": false
       },
@@ -48895,7 +47359,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1644_75546",
+    "prevTripId": "HD_OUT_TY-01_1654_115321",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -49015,14 +47479,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:22:00",
+        "arrivalTime": "17:30:00",
         "departureTime": "17:30:00",
         "isPassing": false
       },
@@ -49057,7 +47521,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1654_115321",
+    "prevTripId": "HD_OUT_TY-01_1659_75386",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -49110,9 +47574,7 @@
         "departureTime": "17:39:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1659_75386",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1734_105847",
@@ -49285,14 +47747,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:30:00",
+        "arrivalTime": "17:37:00",
         "departureTime": "17:38:00",
         "isPassing": false
       },
@@ -49327,7 +47789,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1659_75548",
+    "prevTripId": "HD_OUT_TY-01_1709_145184",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -49501,14 +47963,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:37:00",
+        "arrivalTime": "17:45:00",
         "departureTime": "17:45:00",
         "isPassing": false
       },
@@ -49543,7 +48005,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1709_145184",
+    "prevTripId": "HD_OUT_TY-01_1714_115300",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -49717,14 +48179,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "川越市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:45:00",
+        "arrivalTime": "17:52:00",
         "departureTime": "17:53:00",
         "isPassing": false
       },
@@ -49759,7 +48221,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1714_115300",
+    "prevTripId": "HD_OUT_TY-01_1724_115322",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -49933,14 +48395,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "17:52:00",
+        "arrivalTime": "18:00:00",
         "departureTime": "18:00:00",
         "isPassing": false
       },
@@ -49975,7 +48437,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1724_115322",
+    "prevTripId": "HD_OUT_TY-01_1729_75388",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -50028,9 +48490,7 @@
         "departureTime": "18:09:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1729_75388",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1803_105849",
@@ -50203,14 +48663,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:00:00",
+        "arrivalTime": "18:07:00",
         "departureTime": "18:09:00",
         "isPassing": false
       },
@@ -50245,7 +48705,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1729_75550",
+    "prevTripId": "HD_OUT_TY-01_1739_145185",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -50300,60 +48760,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1820_105750",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1810_106087",
-    "lineId": "minatomirai",
-    "trainId": "106087",
-    "trainNumber": "719-182レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "石神井公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "18:10:00",
-        "departureTime": "18:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "18:12:00",
-        "departureTime": "18:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "18:13:00",
-        "departureTime": "18:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "18:15:00",
-        "departureTime": "18:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "18:17:00",
-        "departureTime": "18:17:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "18:18:00",
-        "departureTime": "18:20:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1820_106087",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -50419,14 +48825,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:07:00",
+        "arrivalTime": "18:15:00",
         "departureTime": "18:15:00",
         "isPassing": false
       },
@@ -50461,7 +48867,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1739_145185",
+    "prevTripId": "HD_OUT_TY-01_1744_75552",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -50635,14 +49041,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:15:00",
+        "arrivalTime": "18:22:00",
         "departureTime": "18:23:00",
         "isPassing": false
       },
@@ -50677,7 +49083,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1744_75552",
+    "prevTripId": "HD_OUT_TY-01_1754_115323",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -50851,14 +49257,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:22:00",
+        "arrivalTime": "18:30:00",
         "departureTime": "18:30:00",
         "isPassing": false
       },
@@ -50893,7 +49299,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1754_115323",
+    "prevTripId": "HD_OUT_TY-01_1759_105773",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -51013,14 +49419,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:30:00",
+        "arrivalTime": "18:37:00",
         "departureTime": "18:38:00",
         "isPassing": false
       },
@@ -51055,7 +49461,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1759_105773",
+    "prevTripId": "HD_OUT_TY-01_1808_145089",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -51110,60 +49516,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1850_106118",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1841_106457",
-    "lineId": "minatomirai",
-    "trainId": "106457",
-    "trainNumber": "767-182レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "川越市",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "18:41:00",
-        "departureTime": "18:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "18:42:00",
-        "departureTime": "18:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "18:44:00",
-        "departureTime": "18:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "18:45:00",
-        "departureTime": "18:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "18:47:00",
-        "departureTime": "18:47:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "18:48:00",
-        "departureTime": "18:50:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1850_106457",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -51283,14 +49635,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:37:00",
+        "arrivalTime": "18:45:00",
         "departureTime": "18:45:00",
         "isPassing": false
       },
@@ -51325,7 +49677,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1808_145089",
+    "prevTripId": "HD_OUT_TY-01_1814_75553",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -51378,9 +49730,7 @@
         "departureTime": "18:54:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_OUT_TY-01_1814_75553",
-    "prevLineId": "tokyu_toyoko"
+    ]
   },
   {
     "tripId": "HD_INB_MM-06_1848_105851",
@@ -51553,14 +49903,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "森林公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:45:00",
+        "arrivalTime": "18:52:00",
         "departureTime": "18:53:00",
         "isPassing": false
       },
@@ -51595,7 +49945,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1814_75391",
+    "prevTripId": "HD_OUT_TY-01_1824_115324",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -51769,14 +50119,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "森林公園",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "18:52:00",
+        "arrivalTime": "19:00:00",
         "departureTime": "19:00:00",
         "isPassing": false
       },
@@ -51811,7 +50161,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1824_115324",
+    "prevTripId": "HD_OUT_TY-01_1829_145127",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -51931,14 +50281,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:00:00",
+        "arrivalTime": "19:07:00",
         "departureTime": "19:09:00",
         "isPassing": false
       },
@@ -51973,7 +50323,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1829_145127",
+    "prevTripId": "HD_OUT_TY-01_1839_145187",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -52028,60 +50378,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_1920_105765",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_1911_106102",
-    "lineId": "minatomirai",
-    "trainId": "106102",
-    "trainNumber": "112-192レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "小手指",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "19:11:00",
-        "departureTime": "19:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "19:12:00",
-        "departureTime": "19:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "19:14:00",
-        "departureTime": "19:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "19:15:00",
-        "departureTime": "19:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "19:17:00",
-        "departureTime": "19:17:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "19:18:00",
-        "departureTime": "19:20:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_1920_106102",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -52201,14 +50497,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:07:00",
+        "arrivalTime": "19:15:00",
         "departureTime": "19:16:00",
         "isPassing": false
       },
@@ -52243,7 +50539,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1839_145187",
+    "prevTripId": "HD_OUT_TY-01_1844_145128",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -52309,14 +50605,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:15:00",
+        "arrivalTime": "19:22:00",
         "departureTime": "19:24:00",
         "isPassing": false
       },
@@ -52351,7 +50647,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1844_145128",
+    "prevTripId": "HD_OUT_TY-01_1852_75420",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -52471,14 +50767,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "清瀬",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:22:00",
+        "arrivalTime": "19:29:00",
         "departureTime": "19:29:00",
         "isPassing": false
       },
@@ -52513,7 +50809,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1852_75420",
+    "prevTripId": "HD_OUT_TY-01_1841_145147",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -52633,14 +50929,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "清瀬",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:29:00",
+        "arrivalTime": "19:35:00",
         "departureTime": "19:37:00",
         "isPassing": false
       },
@@ -52675,7 +50971,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1841_145147",
+    "prevTripId": "HD_OUT_TY-01_1902_115301",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -52966,7 +51262,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:35:00",
+        "arrivalTime": "19:52:00",
         "departureTime": "19:53:00",
         "isPassing": false
       },
@@ -53001,7 +51297,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1902_115301",
+    "prevTripId": "HD_OUT_TY-01_1924_145090",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -53338,14 +51634,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "川越市",
+    "customOrigin": "石神井公園",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "19:52:00",
+        "arrivalTime": "20:11:00",
         "departureTime": "20:12:00",
         "isPassing": false
       },
@@ -53380,7 +51676,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1924_145090",
+    "prevTripId": "HD_OUT_TY-01_1927_145194",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -53435,60 +51731,6 @@
       }
     ],
     "throughTripId": "HD_INB_TY-21_2026_106119",
-    "throughLineId": "tokyu_toyoko"
-  },
-  {
-    "tripId": "HD_INB_MM-06_2017_106458",
-    "lineId": "minatomirai",
-    "trainId": "813-202レ",
-    "trainNumber": "059-202レ",
-    "trainType": "express",
-    "direction": "inbound",
-    "originStationId": "MM-06",
-    "destinationStationId": "MM-01",
-    "customOrigin": "元町・中華街",
-    "customDestination": "森林公園",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "MM-06",
-        "arrivalTime": "20:17:00",
-        "departureTime": "20:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-05",
-        "arrivalTime": "20:19:00",
-        "departureTime": "20:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-04",
-        "arrivalTime": "20:20:00",
-        "departureTime": "20:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-03",
-        "arrivalTime": "20:22:00",
-        "departureTime": "20:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "MM-02",
-        "arrivalTime": "20:23:30",
-        "departureTime": "20:23:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "MM-01",
-        "arrivalTime": "20:25:00",
-        "departureTime": "20:26:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_TY-21_2026_106458",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -53716,14 +51958,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "石神井公園",
+    "customOrigin": "池袋",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:11:00",
+        "arrivalTime": "20:27:00",
         "departureTime": "20:27:00",
         "isPassing": false
       },
@@ -53758,7 +52000,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1927_145194",
+    "prevTripId": "HD_OUT_TY-01_1941_145120",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -54040,14 +52282,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "池袋",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:27:00",
+        "arrivalTime": "20:46:00",
         "departureTime": "20:47:00",
         "isPassing": false
       },
@@ -54082,7 +52324,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_1941_145120",
+    "prevTripId": "HD_OUT_TY-01_2015_115288",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -54256,14 +52498,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:46:00",
+        "arrivalTime": "20:53:00",
         "departureTime": "20:54:00",
         "isPassing": false
       },
@@ -54298,7 +52540,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2015_115288",
+    "prevTripId": "HD_OUT_TY-01_2024_145199",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -54526,14 +52768,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "川越市",
+    "customOrigin": "飯能",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "20:53:00",
+        "arrivalTime": "21:05:00",
         "departureTime": "21:06:00",
         "isPassing": false
       },
@@ -54568,7 +52810,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2024_145199",
+    "prevTripId": "HD_OUT_TY-01_2034_75556",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -54742,14 +52984,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "飯能",
+    "customOrigin": "小手指",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:05:00",
+        "arrivalTime": "21:15:00",
         "departureTime": "21:16:00",
         "isPassing": false
       },
@@ -54784,7 +53026,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2034_75556",
+    "prevTripId": "HD_OUT_TY-01_2044_75415",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -54904,14 +53146,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "小手指",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:15:00",
+        "arrivalTime": "21:22:00",
         "departureTime": "21:24:00",
         "isPassing": false
       },
@@ -54946,7 +53188,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2044_75415",
+    "prevTripId": "HD_OUT_TY-01_2054_145130",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -55228,14 +53470,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "保谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:22:00",
+        "arrivalTime": "21:36:00",
         "departureTime": "21:37:00",
         "isPassing": false
       },
@@ -55270,7 +53512,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2054_145130",
+    "prevTripId": "HD_OUT_TY-01_2105_75557",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -55444,14 +53686,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "保谷",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:36:00",
+        "arrivalTime": "21:45:00",
         "departureTime": "21:46:00",
         "isPassing": false
       },
@@ -55486,7 +53728,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2105_75557",
+    "prevTripId": "HD_OUT_TY-01_2114_145232",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -55660,14 +53902,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "飯能",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:45:00",
+        "arrivalTime": "21:52:00",
         "departureTime": "21:55:00",
         "isPassing": false
       },
@@ -55702,7 +53944,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2114_145232",
+    "prevTripId": "HD_OUT_TY-01_2124_75421",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -55876,14 +54118,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "飯能",
+    "customOrigin": "清瀬",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "21:52:00",
+        "arrivalTime": "22:05:00",
         "departureTime": "22:06:00",
         "isPassing": false
       },
@@ -55918,7 +54160,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2124_75421",
+    "prevTripId": "HD_OUT_TY-01_2135_105782",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -56092,14 +54334,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "清瀬",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:05:00",
+        "arrivalTime": "22:17:00",
         "departureTime": "22:17:00",
         "isPassing": false
       },
@@ -56134,7 +54376,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2135_105782",
+    "prevTripId": "HD_OUT_TY-01_2136_145148",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -56200,14 +54442,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "飯能",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:17:00",
+        "arrivalTime": "22:20:00",
         "departureTime": "22:22:00",
         "isPassing": false
       },
@@ -56242,7 +54484,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2136_145148",
+    "prevTripId": "HD_OUT_TY-01_2154_145237",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -56362,14 +54604,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "飯能",
+    "customOrigin": "渋谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:20:00",
+        "arrivalTime": "22:31:00",
         "departureTime": "22:32:00",
         "isPassing": false
       },
@@ -56404,7 +54646,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2154_145237",
+    "prevTripId": "HD_OUT_TY-01_2149_105739",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -56686,14 +54928,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "渋谷",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:31:00",
+        "arrivalTime": "22:48:00",
         "departureTime": "22:49:00",
         "isPassing": false
       },
@@ -56728,7 +54970,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2149_105739",
+    "prevTripId": "HD_OUT_TY-01_2206_75507",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -57010,14 +55252,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "保谷",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "22:48:00",
+        "arrivalTime": "23:02:00",
         "departureTime": "23:03:00",
         "isPassing": false
       },
@@ -57052,7 +55294,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2206_75507",
+    "prevTripId": "HD_OUT_TY-01_2219_145135",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -57226,14 +55468,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "保谷",
+    "customOrigin": "和光市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:02:00",
+        "arrivalTime": "23:11:00",
         "departureTime": "23:13:00",
         "isPassing": false
       },
@@ -57268,7 +55510,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2219_145135",
+    "prevTripId": "HD_OUT_TY-01_2240_75559",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -57442,14 +55684,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "和光市",
+    "customOrigin": "川越市",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:11:00",
+        "arrivalTime": "23:21:00",
         "departureTime": "23:24:00",
         "isPassing": false
       },
@@ -57484,7 +55726,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2240_75559",
+    "prevTripId": "HD_OUT_TY-01_2254_115291",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -57712,14 +55954,14 @@
     "direction": "outbound",
     "originStationId": "MM-01",
     "destinationStationId": "MM-06",
-    "customOrigin": "川越市",
+    "customOrigin": "所沢",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:21:00",
+        "arrivalTime": "23:34:00",
         "departureTime": "23:35:00",
         "isPassing": false
       },
@@ -57754,7 +55996,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2254_115291",
+    "prevTripId": "HD_OUT_TY-01_2301_145159",
     "prevLineId": "tokyu_toyoko"
   },
   {
@@ -58043,7 +56285,7 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "23:34:00",
+        "arrivalTime": "23:41:00",
         "departureTime": "23:58:00",
         "isPassing": false
       },
@@ -58078,7 +56320,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TY-01_2301_145159",
+    "prevTripId": "HD_OUT_TY-01_2258_105746",
     "prevLineId": "tokyu_toyoko"
   }
 ]

@@ -2,13 +2,10 @@
 const fs = require('fs');
 const path = require('path');
 
+function linkOdakyuLines() {
 const odawaraGlobalPath = path.resolve('src/data/lines/odakyu_odawara/globalTimetable.json');
 const enoshimaGlobalPath = path.resolve('src/data/lines/odakyu_enoshima/globalTimetable.json');
 const tamaGlobalPath = path.resolve('src/data/lines/odakyu_tama/globalTimetable.json');
-
-const odawaraStationPath = path.resolve('src/data/lines/odakyu_odawara/stationTimetables.json');
-const enoshimaStationPath = path.resolve('src/data/lines/odakyu_enoshima/stationTimetables.json');
-const tamaStationPath = path.resolve('src/data/lines/odakyu_tama/stationTimetables.json');
 
 if (!fs.existsSync(odawaraGlobalPath) || !fs.existsSync(enoshimaGlobalPath) || !fs.existsSync(tamaGlobalPath)) {
   console.error('必要な路線ダイヤファイルが存在しません。全路線のインポート完了後に実行してください。');
@@ -50,175 +47,163 @@ function cleanTrainNo(no) {
 
 console.log('=== 小田急線 路線間直通リンク処理開始 ===');
 
+// 既存の小田急線間リンクのみを安全に初期化（他社線直通リンクは保持）
+const ODAKYU_LINES = new Set(['odakyu_odawara', 'odakyu_enoshima', 'odakyu_tama']);
+for (const trips of [odawaraTrips, enoshimaTrips, tamaTrips]) {
+  for (const t of trips) {
+    if (ODAKYU_LINES.has(t.throughLineId)) {
+      delete t.throughTripId;
+      delete t.throughLineId;
+    }
+    if (ODAKYU_LINES.has(t.prevLineId)) {
+      delete t.prevTripId;
+      delete t.prevLineId;
+    }
+  }
+}
+
+function linkOdakyuPair({
+  fromTrips,
+  toTrips,
+  fromLineId,
+  toLineId,
+  fromStationId,
+  toStationId,
+  fromDirection,
+  toDirection,
+  fromStMap,
+  toStMap,
+  defaultOrigin,
+  defaultDest,
+  syncTrainNoFrom = 'branch',
+}) {
+  let count = 0;
+  const usedFromIds = new Set();
+  const usedToIds = new Set();
+
+  const fromCandidates = fromTrips.filter(
+    (t) => t.direction === fromDirection && t.destinationStationId === fromStationId
+  );
+  const toCandidates = toTrips.filter(
+    (t) => t.direction === toDirection && t.originStationId === toStationId
+  );
+
+  // 支線側または本線側を軸に1対1マッチ
+  for (const fromT of fromCandidates) {
+    if (usedFromIds.has(fromT.tripId)) continue;
+    const fTrainId = extractYahooTrainId(fromT.tripId);
+    const fCleanNo = cleanTrainNo(fromT.trainNumber);
+
+    const toT = toCandidates.find((c) => {
+      if (usedToIds.has(c.tripId)) return false;
+      if (c.isHoliday !== fromT.isHoliday) return false;
+      const cTrainId = extractYahooTrainId(c.tripId);
+      if (fTrainId && cTrainId && fTrainId === cTrainId) return true;
+      const cCleanNo = cleanTrainNo(c.trainNumber);
+      if (fCleanNo && cCleanNo && fCleanNo === cCleanNo) return true;
+      return false;
+    });
+
+    if (!toT) continue;
+
+    usedFromIds.add(fromT.tripId);
+    usedToIds.add(toT.tripId);
+
+    fromT.throughTripId = toT.tripId;
+    fromT.throughLineId = toLineId;
+    toT.prevTripId = fromT.tripId;
+    toT.prevLineId = fromLineId;
+
+    const toDest = toStMap.get(toT.destinationStationId);
+    fromT.customDestination = toT.customDestination || toDest?.name || defaultDest;
+
+    const fromOrig = fromStMap.get(fromT.originStationId);
+    toT.customOrigin = fromT.customOrigin || fromOrig?.name || defaultOrigin;
+
+    const primary = syncTrainNoFrom === 'from' ? fromT : toT;
+    const secondary = syncTrainNoFrom === 'from' ? toT : fromT;
+    if (primary.trainNumber && (!secondary.trainNumber || secondary.trainNumber.includes('WD') || secondary.trainNumber.includes('HD'))) {
+      secondary.trainNumber = primary.trainNumber;
+    } else if (secondary.trainNumber && (!primary.trainNumber || primary.trainNumber.includes('WD') || primary.trainNumber.includes('HD'))) {
+      primary.trainNumber = secondary.trainNumber;
+    }
+
+    count++;
+  }
+  return count;
+}
+
 // ============================================================
 // 1. 小田原線 ↔ 江ノ島線 (接続駅: 相模大野 OH-28)
 // ============================================================
-let oeOutLinked = 0;
-let oeInLinked = 0;
+const oeOutLinked = linkOdakyuPair({
+  fromTrips: odawaraTrips,
+  toTrips: enoshimaTrips,
+  fromLineId: 'odakyu_odawara',
+  toLineId: 'odakyu_enoshima',
+  fromStationId: 'OH-28',
+  toStationId: 'OH-28',
+  fromDirection: 'outbound',
+  toDirection: 'outbound',
+  fromStMap: odawaraStMap,
+  toStMap: enoshimaStMap,
+  defaultOrigin: '新宿',
+  defaultDest: '片瀬江ノ島',
+  syncTrainNoFrom: 'from',
+});
 
-// 下り直通 (新宿・町田方面 -> 相模大野 -> 藤沢・片瀬江ノ島方面)
-// 小田原線: direction === 'outbound', destinationStationId === 'OH-28'
-// 江ノ島線: direction === 'outbound', originStationId === 'OH-28'
-const odawaraOutToOno = odawaraTrips.filter((t) => t.direction === 'outbound' && t.destinationStationId === 'OH-28');
-const enoshimaOutFromOno = enoshimaTrips.filter((t) => t.direction === 'outbound' && t.originStationId === 'OH-28');
-
-for (const enoshima of enoshimaOutFromOno) {
-  const eTrainId = extractYahooTrainId(enoshima.tripId);
-  const eCleanNo = cleanTrainNo(enoshima.trainNumber);
-
-  // 1) Yahoo trainId が一致
-  // 2) または 公式列車番号 (clean) が一致 (かつ同一運行日種別)
-  const odawara = odawaraOutToOno.find((o) => {
-    if (o.isHoliday !== enoshima.isHoliday) return false;
-    const oTrainId = extractYahooTrainId(o.tripId);
-    if (oTrainId && oTrainId === eTrainId) return true;
-    const oCleanNo = cleanTrainNo(o.trainNumber);
-    if (eCleanNo && oCleanNo && eCleanNo === oCleanNo) return true;
-    return false;
-  });
-
-  if (odawara) {
-    odawara.throughTripId = enoshima.tripId;
-    odawara.throughLineId = 'odakyu_enoshima';
-    const enoshimaDest = enoshimaStMap.get(enoshima.destinationStationId);
-    odawara.customDestination = enoshima.customDestination || enoshimaDest?.name || '片瀬江ノ島';
-
-    const odawaraOrig = odawaraStMap.get(odawara.originStationId);
-    enoshima.customOrigin = odawara.customOrigin || odawaraOrig?.name || '新宿';
-
-    // 列車番号の同期（より具体的な番号がある方を優先）
-    if (odawara.trainNumber && (!enoshima.trainNumber || enoshima.trainNumber.includes('WD') || enoshima.trainNumber.includes('HD'))) {
-      enoshima.trainNumber = odawara.trainNumber;
-    } else if (enoshima.trainNumber && (!odawara.trainNumber || odawara.trainNumber.includes('WD') || odawara.trainNumber.includes('HD'))) {
-      odawara.trainNumber = enoshima.trainNumber;
-    }
-
-    oeOutLinked++;
-  }
-}
-
-// 上り直通 (片瀬江ノ島・藤沢方面 -> 相模大野 -> 新宿方面)
-// 江ノ島線: direction === 'inbound', destinationStationId === 'OH-28'
-// 小田原線: direction === 'inbound', originStationId === 'OH-28'
-const enoshimaInToOno = enoshimaTrips.filter((t) => t.direction === 'inbound' && t.destinationStationId === 'OH-28');
-const odawaraInFromOno = odawaraTrips.filter((t) => t.direction === 'inbound' && t.originStationId === 'OH-28');
-
-for (const enoshima of enoshimaInToOno) {
-  const eTrainId = extractYahooTrainId(enoshima.tripId);
-  const eCleanNo = cleanTrainNo(enoshima.trainNumber);
-
-  const odawara = odawaraInFromOno.find((o) => {
-    if (o.isHoliday !== enoshima.isHoliday) return false;
-    const oTrainId = extractYahooTrainId(o.tripId);
-    if (oTrainId && oTrainId === eTrainId) return true;
-    const oCleanNo = cleanTrainNo(o.trainNumber);
-    if (eCleanNo && oCleanNo && eCleanNo === oCleanNo) return true;
-    return false;
-  });
-
-  if (odawara) {
-    enoshima.throughTripId = odawara.tripId;
-    enoshima.throughLineId = 'odakyu_odawara';
-    const odawaraDest = odawaraStMap.get(odawara.destinationStationId);
-    enoshima.customDestination = odawara.customDestination || odawaraDest?.name || '新宿';
-
-    const enoshimaOrig = enoshimaStMap.get(enoshima.originStationId);
-    odawara.customOrigin = enoshima.customOrigin || enoshimaOrig?.name || '片瀬江ノ島';
-
-    // 列車番号同期
-    if (enoshima.trainNumber && (!odawara.trainNumber || odawara.trainNumber.includes('WD') || odawara.trainNumber.includes('HD'))) {
-      odawara.trainNumber = enoshima.trainNumber;
-    } else if (odawara.trainNumber && (!enoshima.trainNumber || enoshima.trainNumber.includes('WD') || enoshima.trainNumber.includes('HD'))) {
-      enoshima.trainNumber = odawara.trainNumber;
-    }
-
-    oeInLinked++;
-  }
-}
+const oeInLinked = linkOdakyuPair({
+  fromTrips: enoshimaTrips,
+  toTrips: odawaraTrips,
+  fromLineId: 'odakyu_enoshima',
+  toLineId: 'odakyu_odawara',
+  fromStationId: 'OH-28',
+  toStationId: 'OH-28',
+  fromDirection: 'inbound',
+  toDirection: 'inbound',
+  fromStMap: enoshimaStMap,
+  toStMap: odawaraStMap,
+  defaultOrigin: '片瀬江ノ島',
+  defaultDest: '新宿',
+  syncTrainNoFrom: 'from',
+});
 
 console.log(`小田原線 ↔ 江ノ島線 (相模大野): 下り直通 ${oeOutLinked} 便, 上り直通 ${oeInLinked} 便 を接続`);
 
 // ============================================================
 // 2. 小田原線 ↔ 多摩線 (接続駅: 新百合ヶ丘 OH-23)
 // ============================================================
-let otOutLinked = 0;
-let otInLinked = 0;
+const otOutLinked = linkOdakyuPair({
+  fromTrips: odawaraTrips,
+  toTrips: tamaTrips,
+  fromLineId: 'odakyu_odawara',
+  toLineId: 'odakyu_tama',
+  fromStationId: 'OH-23',
+  toStationId: 'OH-23',
+  fromDirection: 'outbound',
+  toDirection: 'outbound',
+  fromStMap: odawaraStMap,
+  toStMap: tamaStMap,
+  defaultOrigin: '新宿',
+  defaultDest: '唐木田',
+  syncTrainNoFrom: 'from',
+});
 
-// 下り直通 (新宿・代々木上原方面 -> 新百合ヶ丘 -> 唐木田方面)
-// 小田原線: direction === 'outbound', destinationStationId === 'OH-23'
-// 多摩線: direction === 'outbound', originStationId === 'OH-23'
-const odawaraOutToShinyuri = odawaraTrips.filter((t) => t.direction === 'outbound' && t.destinationStationId === 'OH-23');
-const tamaOutFromShinyuri = tamaTrips.filter((t) => t.direction === 'outbound' && t.originStationId === 'OH-23');
-
-for (const tama of tamaOutFromShinyuri) {
-  const tTrainId = extractYahooTrainId(tama.tripId);
-  const tCleanNo = cleanTrainNo(tama.trainNumber);
-
-  const odawara = odawaraOutToShinyuri.find((o) => {
-    if (o.isHoliday !== tama.isHoliday) return false;
-    const oTrainId = extractYahooTrainId(o.tripId);
-    if (oTrainId && oTrainId === tTrainId) return true;
-    const oCleanNo = cleanTrainNo(o.trainNumber);
-    if (tCleanNo && oCleanNo && tCleanNo === oCleanNo) return true;
-    return false;
-  });
-
-  if (odawara) {
-    odawara.throughTripId = tama.tripId;
-    odawara.throughLineId = 'odakyu_tama';
-    const tamaDest = tamaStMap.get(tama.destinationStationId);
-    odawara.customDestination = tama.customDestination || tamaDest?.name || '唐木田';
-
-    const odawaraOrig = odawaraStMap.get(odawara.originStationId);
-    tama.customOrigin = odawara.customOrigin || odawaraOrig?.name || '新宿';
-
-    if (odawara.trainNumber && (!tama.trainNumber || tama.trainNumber.includes('WD') || tama.trainNumber.includes('HD'))) {
-      tama.trainNumber = odawara.trainNumber;
-    } else if (tama.trainNumber && (!odawara.trainNumber || odawara.trainNumber.includes('WD') || odawara.trainNumber.includes('HD'))) {
-      odawara.trainNumber = tama.trainNumber;
-    }
-
-    otOutLinked++;
-  }
-}
-
-// 上り直通 (唐木田方面 -> 新百合ヶ丘 -> 新宿・代々木上原方面)
-// 多摩線: direction === 'inbound', destinationStationId === 'OH-23'
-// 小田原線: direction === 'inbound', originStationId === 'OH-23'
-const tamaInToShinyuri = tamaTrips.filter((t) => t.direction === 'inbound' && t.destinationStationId === 'OH-23');
-const odawaraInFromShinyuri = odawaraTrips.filter((t) => t.direction === 'inbound' && t.originStationId === 'OH-23');
-
-for (const tama of tamaInToShinyuri) {
-  const tTrainId = extractYahooTrainId(tama.tripId);
-  const tCleanNo = cleanTrainNo(tama.trainNumber);
-
-  const odawara = odawaraInFromShinyuri.find((o) => {
-    if (o.isHoliday !== tama.isHoliday) return false;
-    const oTrainId = extractYahooTrainId(o.tripId);
-    if (oTrainId && oTrainId === tTrainId) return true;
-    const oCleanNo = cleanTrainNo(o.trainNumber);
-    if (tCleanNo && oCleanNo && tCleanNo === oCleanNo) return true;
-    return false;
-  });
-
-  if (odawara) {
-    tama.throughTripId = odawara.tripId;
-    tama.throughLineId = 'odakyu_odawara';
-    const odawaraDest = odawaraStMap.get(odawara.destinationStationId);
-    tama.customDestination = odawara.customDestination || odawaraDest?.name || '新宿';
-
-    const tamaOrig = tamaStMap.get(tama.originStationId);
-    odawara.customOrigin = tama.customOrigin || tamaOrig?.name || '唐木田';
-
-    if (tama.trainNumber && (!odawara.trainNumber || odawara.trainNumber.includes('WD') || odawara.trainNumber.includes('HD'))) {
-      odawara.trainNumber = tama.trainNumber;
-    } else if (odawara.trainNumber && (!tama.trainNumber || tama.trainNumber.includes('WD') || tama.trainNumber.includes('HD'))) {
-      tama.trainNumber = odawara.trainNumber;
-    }
-
-    otInLinked++;
-  }
-}
+const otInLinked = linkOdakyuPair({
+  fromTrips: tamaTrips,
+  toTrips: odawaraTrips,
+  fromLineId: 'odakyu_tama',
+  toLineId: 'odakyu_odawara',
+  fromStationId: 'OH-23',
+  toStationId: 'OH-23',
+  fromDirection: 'inbound',
+  toDirection: 'inbound',
+  fromStMap: tamaStMap,
+  toStMap: odawaraStMap,
+  defaultOrigin: '唐木田',
+  defaultDest: '新宿',
+  syncTrainNoFrom: 'from',
+});
 
 console.log(`小田原線 ↔ 多摩線 (新百合ヶ丘): 下り直通 ${otOutLinked} 便, 上り直通 ${otInLinked} 便 を接続`);
 
@@ -228,3 +213,10 @@ fs.writeFileSync(enoshimaGlobalPath, JSON.stringify(enoshimaTrips, null, 2), 'ut
 fs.writeFileSync(tamaGlobalPath, JSON.stringify(tamaTrips, null, 2), 'utf8');
 
 console.log('✅ 小田急3路線の直通運転メタデータを正常に保存しました！');
+}
+
+if (require.main === module) {
+  linkOdakyuLines();
+}
+
+module.exports = { linkOdakyuLines };

@@ -398,6 +398,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -516,7 +517,9 @@
         "departureTime": "07:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_0714_25619",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_0617_6944",
@@ -911,6 +914,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -951,7 +955,9 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_0651_40262",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_0636_7021",
@@ -1561,6 +1567,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "上松",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -1600,7 +1607,9 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-30_0600_40281",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_0701_25172",
@@ -2362,6 +2371,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -2402,7 +2412,9 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_0817_40263",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_0744_25231",
@@ -2414,6 +2426,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -2532,7 +2545,9 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_0849_25621",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_0748_28242",
@@ -2903,6 +2918,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -2942,7 +2958,9 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_0603_40271",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_0805_24976",
@@ -3631,6 +3649,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3670,7 +3689,9 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_0643_40272",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_0841_24982",
@@ -3878,6 +3899,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3995,7 +4017,9 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_0700_25471",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_0901_6874",
@@ -4061,6 +4085,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -4179,7 +4204,9 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1003_25612",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_0905_10079",
@@ -4802,61 +4829,6 @@
     "prevLineId": "chuo_main"
   },
   {
-    "tripId": "WD_OUT_SN-01_0933_6843",
-    "lineId": "shinonoi",
-    "trainId": "6843",
-    "trainNumber": "1M",
-    "trainType": "limitedExp",
-    "trainName": "あずさ1号",
-    "direction": "outbound",
-    "originStationId": "SN-01",
-    "destinationStationId": "SN-06",
-    "customOrigin": "新宿",
-    "customDestination": "松本",
-    "cars": 6,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "SN-01",
-        "arrivalTime": "09:31:00",
-        "departureTime": "09:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "SN-02",
-        "arrivalTime": "09:35:30",
-        "departureTime": "09:35:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-03",
-        "arrivalTime": "09:37:23",
-        "departureTime": "09:37:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-04",
-        "arrivalTime": "09:38:38",
-        "departureTime": "09:38:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-05",
-        "arrivalTime": "09:40:30",
-        "departureTime": "09:40:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-06",
-        "arrivalTime": "09:43:00",
-        "departureTime": "09:43:00",
-        "isPassing": false
-      }
-    ],
-    "prevTripId": "cm_WD_OUT_JC-05_0700_6843",
-    "prevLineId": "chuo_main"
-  },
-  {
     "tripId": "WD_OUT_SN-15_0939_25157",
     "lineId": "shinonoi",
     "trainId": "25157",
@@ -5011,6 +4983,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -5128,7 +5101,9 @@
         "departureTime": "11:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_0800_25464",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_1000_25195",
@@ -5140,6 +5115,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -5258,7 +5234,9 @@
         "departureTime": "11:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1102_25590",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1001_6888",
@@ -5567,6 +5545,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -5684,7 +5663,9 @@
         "departureTime": "11:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_0812_25478",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1020_40187",
@@ -5695,6 +5676,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -5735,7 +5717,9 @@
         "departureTime": "10:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1049_40264",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1021_25158",
@@ -5892,6 +5876,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -5998,6 +5983,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -6115,7 +6101,9 @@
         "departureTime": "11:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_0900_25480",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1056_25186",
@@ -6226,6 +6214,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -6344,7 +6333,9 @@
         "departureTime": "12:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1203_25592",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_1105_25004",
@@ -6926,6 +6917,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -7043,7 +7035,9 @@
         "departureTime": "12:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1000_25473",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1157_6876",
@@ -7109,6 +7103,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -7227,7 +7222,9 @@
         "departureTime": "13:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1303_25600",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1205_40197",
@@ -7239,6 +7236,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -7278,7 +7276,9 @@
         "departureTime": "12:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_1000_40274",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1210_6901",
@@ -7388,6 +7388,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -7428,7 +7429,9 @@
         "departureTime": "12:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1241_40265",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1217_25161",
@@ -7744,6 +7747,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -7861,7 +7865,9 @@
         "departureTime": "13:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1100_25481",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1256_32075",
@@ -7972,6 +7978,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -8090,7 +8097,9 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1406_25594",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1302_6851",
@@ -8566,6 +8575,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "木曽福島",
     "cars": 6,
     "isHoliday": false,
@@ -8606,7 +8616,9 @@
         "departureTime": "13:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1345_40260",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1327_6866",
@@ -8873,6 +8885,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -8990,7 +9003,9 @@
         "departureTime": "15:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1200_25484",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1358_40198",
@@ -9002,6 +9017,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -9041,7 +9057,9 @@
         "departureTime": "14:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_1200_40275",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1400_6860",
@@ -9108,6 +9126,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -9226,7 +9245,9 @@
         "departureTime": "15:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1503_25601",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1410_7017",
@@ -9721,6 +9742,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -9761,7 +9783,9 @@
         "departureTime": "15:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1506_40266",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1435_41393",
@@ -9823,6 +9847,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -9941,7 +9966,9 @@
         "departureTime": "15:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1556_25596",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1456_25064",
@@ -9954,6 +9981,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -10071,7 +10099,9 @@
         "departureTime": "16:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1300_25465",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1456_25165",
@@ -10128,6 +10158,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -10246,7 +10277,9 @@
         "departureTime": "16:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1603_25604",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1502_6881",
@@ -10811,6 +10844,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -10851,7 +10885,9 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1616_40267",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1535_41394",
@@ -11014,6 +11050,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -11131,7 +11168,9 @@
         "departureTime": "16:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1400_25485",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1555_6939",
@@ -11296,6 +11335,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -11414,7 +11454,9 @@
         "departureTime": "17:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1703_25606",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_1606_7010",
@@ -11557,6 +11599,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -11597,7 +11640,9 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1706_40268",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_1622_25009",
@@ -11809,6 +11854,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -11848,7 +11894,9 @@
         "departureTime": "16:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_1414_40277",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-06_1634_32633",
@@ -12212,6 +12260,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -12329,7 +12378,9 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1500_25475",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1700_6928",
@@ -12396,6 +12447,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -12514,7 +12566,9 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1803_25597",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1704_25188",
@@ -13096,6 +13150,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "上松",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -13135,7 +13190,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-30_1626_40282",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1733_25176",
@@ -13292,6 +13349,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -13409,7 +13467,9 @@
         "departureTime": "18:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1600_25488",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1756_25167",
@@ -13688,6 +13748,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -13806,7 +13867,9 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1919_25617",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1813_42024",
@@ -14005,6 +14068,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -14045,7 +14109,9 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1850_40269",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1825_10076",
@@ -14434,6 +14500,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -14473,7 +14540,9 @@
         "departureTime": "19:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_1656_40278",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_1857_6937",
@@ -14860,6 +14929,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "上松",
     "cars": 6,
     "isHoliday": false,
@@ -14900,7 +14970,9 @@
         "departureTime": "19:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_1945_40261",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_1923_24996",
@@ -15068,6 +15140,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -15185,7 +15258,9 @@
         "departureTime": "20:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1740_25494",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_1940_6891",
@@ -15251,6 +15326,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
@@ -15369,7 +15445,9 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_2043_25614",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-15_1945_25178",
@@ -15717,6 +15795,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -15756,7 +15835,9 @@
         "departureTime": "20:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_1756_40279",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-06_2010_6909",
@@ -15978,6 +16059,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -16095,7 +16177,9 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1840_25492",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_2038_10083",
@@ -16743,6 +16827,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": false,
@@ -16783,7 +16868,9 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_jr_chuo_west-40_2150_40270",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_2136_6837",
@@ -16896,6 +16983,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -17013,7 +17101,9 @@
         "departureTime": "22:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-01_1940_25490",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_OUT_SN-01_2142_41395",
@@ -17704,6 +17794,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -17743,7 +17834,9 @@
         "departureTime": "23:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_jr_chuo_west-20_2130_40280",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "WD_INB_SN-19_2320_24985",
@@ -18340,6 +18433,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -18458,7 +18552,9 @@
         "departureTime": "07:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_0714_25619",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_0617_6944",
@@ -18853,6 +18949,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -18893,7 +18990,9 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_0651_40262",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_0636_7021",
@@ -19374,6 +19473,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "上松",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -19413,7 +19513,9 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-30_0600_40281",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_0701_25172",
@@ -20130,6 +20232,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -20170,7 +20273,9 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_0817_40263",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_0744_25231",
@@ -20182,6 +20287,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -20300,7 +20406,9 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_0849_25621",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_0748_28242",
@@ -20671,6 +20779,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -20710,7 +20819,9 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_0603_40271",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_0805_25001",
@@ -21309,6 +21420,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -21348,7 +21460,9 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_0643_40272",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_0841_24982",
@@ -21556,6 +21670,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -21673,7 +21788,9 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_0700_25471",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_0901_6874",
@@ -21739,6 +21856,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -21857,7 +21975,9 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1003_25612",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_0905_10079",
@@ -22480,61 +22600,6 @@
     "prevLineId": "chuo_main"
   },
   {
-    "tripId": "HD_OUT_SN-01_0933_6843",
-    "lineId": "shinonoi",
-    "trainId": "6843",
-    "trainNumber": "1M",
-    "trainType": "limitedExp",
-    "trainName": "あずさ1号",
-    "direction": "outbound",
-    "originStationId": "SN-01",
-    "destinationStationId": "SN-06",
-    "customOrigin": "新宿",
-    "customDestination": "松本",
-    "cars": 6,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "SN-01",
-        "arrivalTime": "09:31:00",
-        "departureTime": "09:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "SN-02",
-        "arrivalTime": "09:35:30",
-        "departureTime": "09:35:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-03",
-        "arrivalTime": "09:37:23",
-        "departureTime": "09:37:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-04",
-        "arrivalTime": "09:38:38",
-        "departureTime": "09:38:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-05",
-        "arrivalTime": "09:40:30",
-        "departureTime": "09:40:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "SN-06",
-        "arrivalTime": "09:43:00",
-        "departureTime": "09:43:00",
-        "isPassing": false
-      }
-    ],
-    "prevTripId": "cm_HD_OUT_JC-05_0700_6843",
-    "prevLineId": "chuo_main"
-  },
-  {
     "tripId": "HD_OUT_SN-01_0935_43237",
     "lineId": "shinonoi",
     "trainId": "43237",
@@ -22743,6 +22808,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -22860,7 +22926,9 @@
         "departureTime": "11:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_0800_25464",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_1000_25195",
@@ -22872,6 +22940,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -22990,7 +23059,9 @@
         "departureTime": "11:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1102_25590",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1001_6890",
@@ -23454,6 +23525,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -23571,7 +23643,9 @@
         "departureTime": "11:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_0812_25478",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1020_40187",
@@ -23582,6 +23656,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -23622,7 +23697,9 @@
         "departureTime": "10:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1049_40264",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1021_25158",
@@ -23779,6 +23856,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -23885,6 +23963,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -24002,7 +24081,9 @@
         "departureTime": "11:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_0900_25480",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1056_25186",
@@ -24113,6 +24194,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -24231,7 +24313,9 @@
         "departureTime": "12:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1203_25592",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_1105_25004",
@@ -24868,6 +24952,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -24985,7 +25070,9 @@
         "departureTime": "12:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1000_25473",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1157_6876",
@@ -25051,6 +25138,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -25169,7 +25257,9 @@
         "departureTime": "13:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1303_25600",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1205_40197",
@@ -25181,6 +25271,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -25220,7 +25311,9 @@
         "departureTime": "12:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_1000_40274",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1210_6900",
@@ -25330,6 +25423,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -25370,7 +25464,9 @@
         "departureTime": "12:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1241_40265",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1217_25160",
@@ -25741,6 +25837,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -25858,7 +25955,9 @@
         "departureTime": "13:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1100_25481",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1256_32075",
@@ -25969,6 +26068,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -26087,7 +26187,9 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1406_25594",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1302_6851",
@@ -26563,6 +26665,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "木曽福島",
     "cars": 6,
     "isHoliday": true,
@@ -26603,7 +26706,9 @@
         "departureTime": "13:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1345_40260",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1327_6865",
@@ -26870,6 +26975,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -26987,7 +27093,9 @@
         "departureTime": "15:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1200_25484",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1358_40198",
@@ -26999,6 +27107,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -27038,7 +27147,9 @@
         "departureTime": "14:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_1200_40275",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1400_6860",
@@ -27105,6 +27216,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -27223,7 +27335,9 @@
         "departureTime": "15:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1503_25601",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1406_6923",
@@ -27773,6 +27887,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -27813,7 +27928,9 @@
         "departureTime": "15:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1506_40266",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1435_41393",
@@ -27875,6 +27992,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -27993,7 +28111,9 @@
         "departureTime": "15:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1556_25596",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1456_25064",
@@ -28006,6 +28126,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -28123,7 +28244,9 @@
         "departureTime": "16:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1300_25465",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1456_25165",
@@ -28180,6 +28303,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -28298,7 +28422,9 @@
         "departureTime": "16:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1603_25604",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1502_6881",
@@ -28918,6 +29044,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -28958,7 +29085,9 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1616_40267",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1535_41394",
@@ -29121,6 +29250,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -29238,7 +29368,9 @@
         "departureTime": "16:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1400_25485",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1555_6939",
@@ -29512,6 +29644,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -29630,7 +29763,9 @@
         "departureTime": "17:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1703_25606",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_1606_7010",
@@ -29873,6 +30008,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -29913,7 +30049,9 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1706_40268",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_1622_25009",
@@ -30125,6 +30263,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -30164,7 +30303,9 @@
         "departureTime": "16:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_1414_40277",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-06_1634_32633",
@@ -30528,6 +30669,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -30645,7 +30787,9 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1500_25475",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1700_6928",
@@ -30712,6 +30856,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -30830,7 +30975,9 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1803_25597",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1704_25188",
@@ -31412,6 +31559,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "上松",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -31451,7 +31599,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-30_1626_40282",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1733_25176",
@@ -31608,6 +31758,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -31725,7 +31876,9 @@
         "departureTime": "18:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1600_25488",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1756_25167",
@@ -31959,6 +32112,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -32077,7 +32231,9 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1919_25617",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1813_42024",
@@ -32276,6 +32432,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -32316,7 +32473,9 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1850_40269",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1825_10076",
@@ -32606,6 +32765,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -32645,7 +32805,9 @@
         "departureTime": "19:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_1656_40278",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_1857_6937",
@@ -33032,6 +33194,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "上松",
     "cars": 6,
     "isHoliday": true,
@@ -33072,7 +33235,9 @@
         "departureTime": "19:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_1945_40261",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_1923_24996",
@@ -33240,6 +33405,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -33357,7 +33523,9 @@
         "departureTime": "20:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1740_25494",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_1940_6892",
@@ -33423,6 +33591,7 @@
     "direction": "inbound",
     "originStationId": "SN-19",
     "destinationStationId": "SN-01",
+    "customOrigin": "長野",
     "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
@@ -33541,7 +33710,9 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_2043_25614",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-15_1945_25178",
@@ -33889,6 +34060,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -33928,7 +34100,9 @@
         "departureTime": "20:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_1756_40279",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-06_2010_6908",
@@ -34150,6 +34324,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -34267,7 +34442,9 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1840_25492",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_2038_10083",
@@ -34783,6 +34960,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "中津川",
     "cars": 6,
     "isHoliday": true,
@@ -34823,7 +35001,9 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_jr_chuo_west-40_2150_40270",
+    "throughLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_2136_6836",
@@ -34936,6 +35116,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
     "customOrigin": "名古屋",
+    "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -35053,7 +35234,9 @@
         "departureTime": "22:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-01_1940_25490",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_OUT_SN-01_2142_41395",
@@ -35744,6 +35927,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "中津川",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -35783,7 +35967,9 @@
         "departureTime": "23:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_jr_chuo_west-20_2130_40280",
+    "prevLineId": "jr_chuo_west"
   },
   {
     "tripId": "HD_INB_SN-19_2320_24985",
@@ -36037,7 +36223,9 @@
       }
     ],
     "throughTripId": "cm_WD_INB_CO-61_1458_42025",
-    "throughLineId": "chuo_main"
+    "throughLineId": "chuo_main",
+    "prevTripId": "WD_INB_OIE-29_1343_42025",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "sn_HD_INB_SN-06_1450_42026",
@@ -36092,7 +36280,9 @@
       }
     ],
     "throughTripId": "cm_HD_INB_CO-61_1458_42026",
-    "throughLineId": "chuo_main"
+    "throughLineId": "chuo_main",
+    "prevTripId": "HD_INB_OIE-29_1343_42026",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "sn_WD_OUT_SN-01_1130_6862",
@@ -36325,7 +36515,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "新宿",
-    "customDestination": "松本",
+    "customDestination": "白馬",
     "cars": 9,
     "isHoliday": false,
     "stops": [
@@ -36382,7 +36572,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "新宿",
-    "customDestination": "松本",
+    "customDestination": "白馬",
     "cars": 9,
     "isHoliday": true,
     "stops": [

@@ -1,0 +1,5227 @@
+[
+  {
+    "tripId": "WD_OUT_jr_maizuru-05_0525_40555",
+    "lineId": "jr_maizuru",
+    "trainId": "40555",
+    "trainNumber": "923M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-05",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "西舞鶴",
+    "customDestination": "敦賀",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "05:25:00",
+        "departureTime": "05:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "05:32:00",
+        "departureTime": "05:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_obama-24_0534_40555",
+    "throughLineId": "jr_obama"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0540_15359",
+    "lineId": "jr_maizuru",
+    "trainId": "15359",
+    "trainNumber": "320M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "05:40:00",
+        "departureTime": "05:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "05:47:00",
+        "departureTime": "05:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "05:52:00",
+        "departureTime": "05:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_0551_15347",
+    "lineId": "jr_maizuru",
+    "trainId": "15347",
+    "trainNumber": "321M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "06:12:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "06:20:00",
+        "departureTime": "06:20:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0639_16588",
+    "lineId": "jr_maizuru",
+    "trainId": "16588",
+    "trainNumber": "3042M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる2号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "06:50:15",
+        "departureTime": "06:50:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "06:54:30",
+        "departureTime": "06:54:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "06:58:45",
+        "departureTime": "06:58:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:03:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_0712_16588",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0647_15360",
+    "lineId": "jr_maizuru",
+    "trainId": "15360",
+    "trainNumber": "322M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "06:47:00",
+        "departureTime": "06:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "06:54:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:17:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-05_0706_24411",
+    "lineId": "jr_maizuru",
+    "trainId": "24411",
+    "trainNumber": "323M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-05",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:13:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_0718_15348",
+    "lineId": "jr_maizuru",
+    "trainId": "15348",
+    "trainNumber": "325M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:23:00",
+        "departureTime": "07:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0722_15361",
+    "lineId": "jr_maizuru",
+    "trainId": "15361",
+    "trainNumber": "324M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:22:00",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:28:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:41:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0732_15362",
+    "lineId": "jr_maizuru",
+    "trainId": "15362",
+    "trainNumber": "326M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:32:00",
+        "departureTime": "07:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:02:00",
+        "departureTime": "08:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0759_15363",
+    "lineId": "jr_maizuru",
+    "trainId": "15363",
+    "trainNumber": "328M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "08:19:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_0809_15349",
+    "lineId": "jr_maizuru",
+    "trainId": "15349",
+    "trainNumber": "327M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:08:00",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "08:19:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "08:39:00",
+        "departureTime": "08:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0825_16582",
+    "lineId": "jr_maizuru",
+    "trainId": "16582",
+    "trainNumber": "3044M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる4号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_0856_16582",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_0851_15350",
+    "lineId": "jr_maizuru",
+    "trainId": "15350",
+    "trainNumber": "329M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "09:13:00",
+        "departureTime": "09:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "09:20:00",
+        "departureTime": "09:20:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0856_15364",
+    "lineId": "jr_maizuru",
+    "trainId": "15364",
+    "trainNumber": "330M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "09:24:00",
+        "departureTime": "09:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_0945_15365",
+    "lineId": "jr_maizuru",
+    "trainId": "15365",
+    "trainNumber": "332M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "09:45:00",
+        "departureTime": "09:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:57:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_0947_29900",
+    "lineId": "jr_maizuru",
+    "trainId": "29900",
+    "trainNumber": "3041M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる1号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "09:42:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "09:51:00",
+        "departureTime": "09:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:59:00",
+        "departureTime": "09:59:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_0907_29900",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1027_16583",
+    "lineId": "jr_maizuru",
+    "trainId": "16583",
+    "trainNumber": "3046D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる6号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "10:27:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "10:33:00",
+        "departureTime": "10:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "10:39:15",
+        "departureTime": "10:39:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "10:43:30",
+        "departureTime": "10:43:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "10:47:45",
+        "departureTime": "10:47:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "10:52:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_1100_16583",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1033_15351",
+    "lineId": "jr_maizuru",
+    "trainId": "15351",
+    "trainNumber": "331M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "10:51:00",
+        "departureTime": "10:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "10:56:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "11:04:00",
+        "departureTime": "11:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1123_15366",
+    "lineId": "jr_maizuru",
+    "trainId": "15366",
+    "trainNumber": "334M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "11:42:00",
+        "departureTime": "11:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "11:53:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1137_29901",
+    "lineId": "jr_maizuru",
+    "trainId": "29901",
+    "trainNumber": "3043M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる3号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "11:41:15",
+        "departureTime": "11:41:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "11:45:30",
+        "departureTime": "11:45:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "11:49:45",
+        "departureTime": "11:49:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "11:54:00",
+        "departureTime": "11:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "12:01:00",
+        "departureTime": "12:01:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_1055_29901",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1229_16584",
+    "lineId": "jr_maizuru",
+    "trainId": "16584",
+    "trainNumber": "3048M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる8号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "12:29:00",
+        "departureTime": "12:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "12:35:00",
+        "departureTime": "12:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "12:41:00",
+        "departureTime": "12:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "12:46:00",
+        "departureTime": "12:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "12:51:00",
+        "departureTime": "12:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "12:56:00",
+        "departureTime": "13:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_1300_16584",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1234_15352",
+    "lineId": "jr_maizuru",
+    "trainId": "15352",
+    "trainNumber": "333M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "12:43:00",
+        "departureTime": "12:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "12:53:00",
+        "departureTime": "12:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "12:58:00",
+        "departureTime": "12:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "13:05:00",
+        "departureTime": "13:05:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1319_15353",
+    "lineId": "jr_maizuru",
+    "trainId": "15353",
+    "trainNumber": "335M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "13:18:00",
+        "departureTime": "13:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "13:24:00",
+        "departureTime": "13:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "13:27:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "13:47:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1323_15367",
+    "lineId": "jr_maizuru",
+    "trainId": "15367",
+    "trainNumber": "336M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "13:23:00",
+        "departureTime": "13:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "13:29:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "13:54:00",
+        "departureTime": "13:59:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1337_29902",
+    "lineId": "jr_maizuru",
+    "trainId": "29902",
+    "trainNumber": "3045D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる5号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "13:41:15",
+        "departureTime": "13:41:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "13:45:30",
+        "departureTime": "13:45:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "13:49:45",
+        "departureTime": "13:49:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "13:54:00",
+        "departureTime": "13:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "14:02:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_1255_29902",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1403_24413",
+    "lineId": "jr_maizuru",
+    "trainId": "24413",
+    "trainNumber": "338M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "14:09:00",
+        "departureTime": "14:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1428_16585",
+    "lineId": "jr_maizuru",
+    "trainId": "16585",
+    "trainNumber": "3050M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる10号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "14:28:00",
+        "departureTime": "14:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "14:35:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "14:41:00",
+        "departureTime": "14:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "14:46:00",
+        "departureTime": "14:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "14:51:00",
+        "departureTime": "14:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "14:56:00",
+        "departureTime": "15:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_1500_16585",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1433_15354",
+    "lineId": "jr_maizuru",
+    "trainId": "15354",
+    "trainNumber": "337M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "14:38:00",
+        "departureTime": "14:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "14:42:00",
+        "departureTime": "14:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "14:57:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:11:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1521_24419",
+    "lineId": "jr_maizuru",
+    "trainId": "24419",
+    "trainNumber": "340M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "15:21:00",
+        "departureTime": "15:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "15:34:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "15:53:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-05_1529_24412",
+    "lineId": "jr_maizuru",
+    "trainId": "24412",
+    "trainNumber": "339M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-05",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "15:29:00",
+        "departureTime": "15:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1537_29903",
+    "lineId": "jr_maizuru",
+    "trainId": "29903",
+    "trainNumber": "3047M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる7号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "15:49:00",
+        "departureTime": "15:49:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "15:53:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:01:00",
+        "departureTime": "16:01:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_1455_29903",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1610_24407",
+    "lineId": "jr_maizuru",
+    "trainId": "24407",
+    "trainNumber": "341M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "16:31:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:40:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1613_24420",
+    "lineId": "jr_maizuru",
+    "trainId": "24420",
+    "trainNumber": "342M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1626_16586",
+    "lineId": "jr_maizuru",
+    "trainId": "16586",
+    "trainNumber": "3052M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる12号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "16:46:00",
+        "departureTime": "16:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "16:56:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_1700_16586",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1701_15368",
+    "lineId": "jr_maizuru",
+    "trainId": "15368",
+    "trainNumber": "344M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1710_24408",
+    "lineId": "jr_maizuru",
+    "trainId": "24408",
+    "trainNumber": "343M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:26:00",
+        "departureTime": "17:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:31:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "17:38:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1737_29904",
+    "lineId": "jr_maizuru",
+    "trainId": "29904",
+    "trainNumber": "3049M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる9号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "17:41:00",
+        "departureTime": "17:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:49:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:53:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_1655_29904",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1748_15369",
+    "lineId": "jr_maizuru",
+    "trainId": "15369",
+    "trainNumber": "346M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:59:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:06:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:10:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1756_15355",
+    "lineId": "jr_maizuru",
+    "trainId": "15355",
+    "trainNumber": "345M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:52:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:01:00",
+        "departureTime": "18:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "18:18:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:26:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1836_16587",
+    "lineId": "jr_maizuru",
+    "trainId": "16587",
+    "trainNumber": "3054D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる14号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "18:47:45",
+        "departureTime": "18:47:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:52:30",
+        "departureTime": "18:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:57:15",
+        "departureTime": "18:57:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_sanin_sonobe_kinosaki-11_1910_16587",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1845_15356",
+    "lineId": "jr_maizuru",
+    "trainId": "15356",
+    "trainNumber": "347M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:54:00",
+        "departureTime": "18:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "19:08:00",
+        "departureTime": "19:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "19:15:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1850_24421",
+    "lineId": "jr_maizuru",
+    "trainId": "24421",
+    "trainNumber": "348M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "18:57:00",
+        "departureTime": "18:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "19:09:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:19:00",
+        "departureTime": "19:19:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1935_24409",
+    "lineId": "jr_maizuru",
+    "trainId": "24409",
+    "trainNumber": "349M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "19:44:00",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "19:57:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_1940_24422",
+    "lineId": "jr_maizuru",
+    "trainId": "24422",
+    "trainNumber": "350M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "19:59:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "20:03:00",
+        "departureTime": "20:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "20:09:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_1952_29907",
+    "lineId": "jr_maizuru",
+    "trainId": "29907",
+    "trainNumber": "3051M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる11号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:44:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "19:56:45",
+        "departureTime": "19:56:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "20:01:30",
+        "departureTime": "20:01:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "20:06:15",
+        "departureTime": "20:06:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "20:11:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "20:18:00",
+        "departureTime": "20:18:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_1905_29907",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_2032_24410",
+    "lineId": "jr_maizuru",
+    "trainId": "24410",
+    "trainNumber": "351M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "20:32:00",
+        "departureTime": "20:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_2050_15370",
+    "lineId": "jr_maizuru",
+    "trainId": "15370",
+    "trainNumber": "352M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "21:11:00",
+        "departureTime": "21:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "21:21:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_2051_29905",
+    "lineId": "jr_maizuru",
+    "trainId": "29905",
+    "trainNumber": "3053M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる13号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "20:55:15",
+        "departureTime": "20:55:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "20:59:30",
+        "departureTime": "20:59:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:03:45",
+        "departureTime": "21:03:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "21:08:00",
+        "departureTime": "21:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_2001_29905",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_2125_15357",
+    "lineId": "jr_maizuru",
+    "trainId": "15357",
+    "trainNumber": "353M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:55:00",
+        "departureTime": "21:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_2139_15371",
+    "lineId": "jr_maizuru",
+    "trainId": "15371",
+    "trainNumber": "354M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "22:00:00",
+        "departureTime": "22:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "22:06:00",
+        "departureTime": "22:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_2152_29906",
+    "lineId": "jr_maizuru",
+    "trainId": "29906",
+    "trainNumber": "3055D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる15号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "21:43:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "21:56:45",
+        "departureTime": "21:56:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "22:01:30",
+        "departureTime": "22:01:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "22:06:15",
+        "departureTime": "22:06:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "22:11:00",
+        "departureTime": "22:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "22:21:00",
+        "departureTime": "22:21:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_sanin_sonobe_kinosaki-01_2107_29906",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "WD_INB_jr_maizuru-06_2222_42183",
+    "lineId": "jr_maizuru",
+    "trainId": "42183",
+    "trainNumber": "946M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-05",
+    "customOrigin": "敦賀",
+    "customDestination": "西舞鶴",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "22:18:00",
+        "departureTime": "22:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "22:28:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_obama-01_2011_42183",
+    "prevLineId": "jr_obama"
+  },
+  {
+    "tripId": "WD_OUT_jr_maizuru-01_2306_15358",
+    "lineId": "jr_maizuru",
+    "trainId": "15358",
+    "trainNumber": "355M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "23:02:00",
+        "departureTime": "23:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "23:11:00",
+        "departureTime": "23:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "23:14:00",
+        "departureTime": "23:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "23:22:00",
+        "departureTime": "23:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "23:27:00",
+        "departureTime": "23:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "23:35:00",
+        "departureTime": "23:35:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-05_0525_40555",
+    "lineId": "jr_maizuru",
+    "trainId": "40555",
+    "trainNumber": "923M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-05",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "西舞鶴",
+    "customDestination": "敦賀",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "05:25:00",
+        "departureTime": "05:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "05:32:00",
+        "departureTime": "05:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_obama-24_0534_40555",
+    "throughLineId": "jr_obama"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0540_15359",
+    "lineId": "jr_maizuru",
+    "trainId": "15359",
+    "trainNumber": "320M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "05:40:00",
+        "departureTime": "05:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "05:47:00",
+        "departureTime": "05:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "05:52:00",
+        "departureTime": "05:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_0551_15347",
+    "lineId": "jr_maizuru",
+    "trainId": "15347",
+    "trainNumber": "321M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "06:12:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "06:20:00",
+        "departureTime": "06:20:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0639_16588",
+    "lineId": "jr_maizuru",
+    "trainId": "16588",
+    "trainNumber": "3042M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる2号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "06:50:15",
+        "departureTime": "06:50:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "06:54:30",
+        "departureTime": "06:54:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "06:58:45",
+        "departureTime": "06:58:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:03:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_0712_16588",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0647_15360",
+    "lineId": "jr_maizuru",
+    "trainId": "15360",
+    "trainNumber": "322M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "06:47:00",
+        "departureTime": "06:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "06:54:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:17:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-05_0706_24411",
+    "lineId": "jr_maizuru",
+    "trainId": "24411",
+    "trainNumber": "323M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-05",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:13:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_0718_15348",
+    "lineId": "jr_maizuru",
+    "trainId": "15348",
+    "trainNumber": "325M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:23:00",
+        "departureTime": "07:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0722_15361",
+    "lineId": "jr_maizuru",
+    "trainId": "15361",
+    "trainNumber": "324M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:22:00",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "07:28:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "07:41:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0759_15363",
+    "lineId": "jr_maizuru",
+    "trainId": "15363",
+    "trainNumber": "328M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "08:19:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_0809_15349",
+    "lineId": "jr_maizuru",
+    "trainId": "15349",
+    "trainNumber": "327M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:08:00",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "08:19:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "08:39:00",
+        "departureTime": "08:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0825_16582",
+    "lineId": "jr_maizuru",
+    "trainId": "16582",
+    "trainNumber": "3044M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる4号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_0856_16582",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_0851_15350",
+    "lineId": "jr_maizuru",
+    "trainId": "15350",
+    "trainNumber": "329M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "09:13:00",
+        "departureTime": "09:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "09:20:00",
+        "departureTime": "09:20:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0856_15364",
+    "lineId": "jr_maizuru",
+    "trainId": "15364",
+    "trainNumber": "330M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "09:24:00",
+        "departureTime": "09:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_0945_15365",
+    "lineId": "jr_maizuru",
+    "trainId": "15365",
+    "trainNumber": "332M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "09:45:00",
+        "departureTime": "09:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:57:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_0947_29900",
+    "lineId": "jr_maizuru",
+    "trainId": "29900",
+    "trainNumber": "3041M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる1号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "09:42:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "09:51:00",
+        "departureTime": "09:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "09:59:00",
+        "departureTime": "09:59:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_0907_29900",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1027_16583",
+    "lineId": "jr_maizuru",
+    "trainId": "16583",
+    "trainNumber": "3046D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる6号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "10:27:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "10:33:00",
+        "departureTime": "10:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "10:39:15",
+        "departureTime": "10:39:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "10:43:30",
+        "departureTime": "10:43:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "10:47:45",
+        "departureTime": "10:47:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "10:52:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_1100_16583",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1033_15351",
+    "lineId": "jr_maizuru",
+    "trainId": "15351",
+    "trainNumber": "331M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "10:51:00",
+        "departureTime": "10:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "10:56:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "11:04:00",
+        "departureTime": "11:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1123_15366",
+    "lineId": "jr_maizuru",
+    "trainId": "15366",
+    "trainNumber": "334M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "11:42:00",
+        "departureTime": "11:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "11:53:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1137_29901",
+    "lineId": "jr_maizuru",
+    "trainId": "29901",
+    "trainNumber": "3043M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる3号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "11:41:15",
+        "departureTime": "11:41:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "11:45:30",
+        "departureTime": "11:45:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "11:49:45",
+        "departureTime": "11:49:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "11:54:00",
+        "departureTime": "11:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "12:01:00",
+        "departureTime": "12:01:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_1055_29901",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1229_16584",
+    "lineId": "jr_maizuru",
+    "trainId": "16584",
+    "trainNumber": "3048M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる8号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "12:29:00",
+        "departureTime": "12:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "12:35:00",
+        "departureTime": "12:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "12:41:00",
+        "departureTime": "12:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "12:46:00",
+        "departureTime": "12:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "12:51:00",
+        "departureTime": "12:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "12:56:00",
+        "departureTime": "13:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_1300_16584",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1234_15352",
+    "lineId": "jr_maizuru",
+    "trainId": "15352",
+    "trainNumber": "333M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "12:43:00",
+        "departureTime": "12:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "12:53:00",
+        "departureTime": "12:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "12:58:00",
+        "departureTime": "12:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "13:05:00",
+        "departureTime": "13:05:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1319_15353",
+    "lineId": "jr_maizuru",
+    "trainId": "15353",
+    "trainNumber": "335M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "13:18:00",
+        "departureTime": "13:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "13:24:00",
+        "departureTime": "13:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "13:27:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "13:47:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1323_15367",
+    "lineId": "jr_maizuru",
+    "trainId": "15367",
+    "trainNumber": "336M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "13:23:00",
+        "departureTime": "13:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "13:29:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "13:54:00",
+        "departureTime": "13:59:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1337_29902",
+    "lineId": "jr_maizuru",
+    "trainId": "29902",
+    "trainNumber": "3045D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる5号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "13:41:15",
+        "departureTime": "13:41:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "13:45:30",
+        "departureTime": "13:45:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "13:49:45",
+        "departureTime": "13:49:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "13:54:00",
+        "departureTime": "13:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "14:02:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_1255_29902",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1403_24413",
+    "lineId": "jr_maizuru",
+    "trainId": "24413",
+    "trainNumber": "338M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "14:09:00",
+        "departureTime": "14:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1428_16585",
+    "lineId": "jr_maizuru",
+    "trainId": "16585",
+    "trainNumber": "3050M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる10号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "14:28:00",
+        "departureTime": "14:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "14:35:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "14:41:00",
+        "departureTime": "14:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "14:46:00",
+        "departureTime": "14:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "14:51:00",
+        "departureTime": "14:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "14:56:00",
+        "departureTime": "15:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_1500_16585",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1433_15354",
+    "lineId": "jr_maizuru",
+    "trainId": "15354",
+    "trainNumber": "337M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "14:38:00",
+        "departureTime": "14:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "14:42:00",
+        "departureTime": "14:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "14:57:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:11:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1521_24419",
+    "lineId": "jr_maizuru",
+    "trainId": "24419",
+    "trainNumber": "340M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "15:21:00",
+        "departureTime": "15:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "15:34:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "15:53:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-05_1529_24412",
+    "lineId": "jr_maizuru",
+    "trainId": "24412",
+    "trainNumber": "339M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-05",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "15:29:00",
+        "departureTime": "15:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1537_29903",
+    "lineId": "jr_maizuru",
+    "trainId": "29903",
+    "trainNumber": "3047M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる7号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "15:49:00",
+        "departureTime": "15:49:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "15:53:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:01:00",
+        "departureTime": "16:01:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_1455_29903",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1610_24407",
+    "lineId": "jr_maizuru",
+    "trainId": "24407",
+    "trainNumber": "341M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "16:31:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:40:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1613_24420",
+    "lineId": "jr_maizuru",
+    "trainId": "24420",
+    "trainNumber": "342M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1626_16586",
+    "lineId": "jr_maizuru",
+    "trainId": "16586",
+    "trainNumber": "3052M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる12号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "16:46:00",
+        "departureTime": "16:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "16:56:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_1700_16586",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1701_15368",
+    "lineId": "jr_maizuru",
+    "trainId": "15368",
+    "trainNumber": "344M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1710_24408",
+    "lineId": "jr_maizuru",
+    "trainId": "24408",
+    "trainNumber": "343M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:26:00",
+        "departureTime": "17:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:31:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "17:38:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1737_29904",
+    "lineId": "jr_maizuru",
+    "trainId": "29904",
+    "trainNumber": "3049M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる9号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "17:41:00",
+        "departureTime": "17:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:49:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:53:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_1655_29904",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1748_15369",
+    "lineId": "jr_maizuru",
+    "trainId": "15369",
+    "trainNumber": "346M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "17:59:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:06:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:10:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1756_15355",
+    "lineId": "jr_maizuru",
+    "trainId": "15355",
+    "trainNumber": "345M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "17:52:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:01:00",
+        "departureTime": "18:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "18:18:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:26:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1836_16587",
+    "lineId": "jr_maizuru",
+    "trainId": "16587",
+    "trainNumber": "3054D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる14号",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customOrigin": "東舞鶴",
+    "customDestination": "京都",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "18:47:45",
+        "departureTime": "18:47:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:52:30",
+        "departureTime": "18:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:57:15",
+        "departureTime": "18:57:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_sanin_sonobe_kinosaki-11_1910_16587",
+    "throughLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1845_15356",
+    "lineId": "jr_maizuru",
+    "trainId": "15356",
+    "trainNumber": "347M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "18:54:00",
+        "departureTime": "18:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "19:08:00",
+        "departureTime": "19:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "19:15:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1850_24421",
+    "lineId": "jr_maizuru",
+    "trainId": "24421",
+    "trainNumber": "348M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "18:57:00",
+        "departureTime": "18:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "19:09:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:19:00",
+        "departureTime": "19:19:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1935_24409",
+    "lineId": "jr_maizuru",
+    "trainId": "24409",
+    "trainNumber": "349M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "19:44:00",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "19:57:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_1940_24422",
+    "lineId": "jr_maizuru",
+    "trainId": "24422",
+    "trainNumber": "350M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "19:59:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "20:03:00",
+        "departureTime": "20:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "20:09:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_1952_29907",
+    "lineId": "jr_maizuru",
+    "trainId": "29907",
+    "trainNumber": "3051M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる11号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "19:44:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "19:56:45",
+        "departureTime": "19:56:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "20:01:30",
+        "departureTime": "20:01:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "20:06:15",
+        "departureTime": "20:06:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "20:11:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "20:18:00",
+        "departureTime": "20:18:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_1905_29907",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_2032_24410",
+    "lineId": "jr_maizuru",
+    "trainId": "24410",
+    "trainNumber": "351M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "20:32:00",
+        "departureTime": "20:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_2050_15370",
+    "lineId": "jr_maizuru",
+    "trainId": "15370",
+    "trainNumber": "352M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "21:11:00",
+        "departureTime": "21:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "21:21:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_2051_29905",
+    "lineId": "jr_maizuru",
+    "trainId": "29905",
+    "trainNumber": "3053M",
+    "trainType": "limitedExp",
+    "trainName": "まいづる13号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "20:55:15",
+        "departureTime": "20:55:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "20:59:30",
+        "departureTime": "20:59:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:03:45",
+        "departureTime": "21:03:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "21:08:00",
+        "departureTime": "21:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_2001_29905",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_2125_15357",
+    "lineId": "jr_maizuru",
+    "trainId": "15357",
+    "trainNumber": "353M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:55:00",
+        "departureTime": "21:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_2139_15371",
+    "lineId": "jr_maizuru",
+    "trainId": "15371",
+    "trainNumber": "354M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-01",
+    "customDestination": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "22:00:00",
+        "departureTime": "22:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "22:06:00",
+        "departureTime": "22:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_2152_29906",
+    "lineId": "jr_maizuru",
+    "trainId": "29906",
+    "trainNumber": "3055D",
+    "trainType": "limitedExp",
+    "trainName": "まいづる15号",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "京都",
+    "customDestination": "東舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "21:43:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "21:56:45",
+        "departureTime": "21:56:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "22:01:30",
+        "departureTime": "22:01:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "22:06:15",
+        "departureTime": "22:06:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "22:11:00",
+        "departureTime": "22:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "22:21:00",
+        "departureTime": "22:21:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_sanin_sonobe_kinosaki-01_2107_29906",
+    "prevLineId": "jr_sanin_sonobe_kinosaki"
+  },
+  {
+    "tripId": "HD_INB_jr_maizuru-06_2222_42183",
+    "lineId": "jr_maizuru",
+    "trainId": "42183",
+    "trainNumber": "946M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "jr_maizuru-06",
+    "destinationStationId": "jr_maizuru-05",
+    "customOrigin": "敦賀",
+    "customDestination": "西舞鶴",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "22:18:00",
+        "departureTime": "22:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "22:28:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_obama-01_2011_42183",
+    "prevLineId": "jr_obama"
+  },
+  {
+    "tripId": "HD_OUT_jr_maizuru-01_2306_15358",
+    "lineId": "jr_maizuru",
+    "trainId": "15358",
+    "trainNumber": "355M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "jr_maizuru-01",
+    "destinationStationId": "jr_maizuru-06",
+    "customOrigin": "福知山",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "jr_maizuru-01",
+        "arrivalTime": "23:02:00",
+        "departureTime": "23:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-02",
+        "arrivalTime": "23:11:00",
+        "departureTime": "23:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-03",
+        "arrivalTime": "23:14:00",
+        "departureTime": "23:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-04",
+        "arrivalTime": "23:22:00",
+        "departureTime": "23:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-05",
+        "arrivalTime": "23:27:00",
+        "departureTime": "23:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "jr_maizuru-06",
+        "arrivalTime": "23:35:00",
+        "departureTime": "23:35:00",
+        "isPassing": false
+      }
+    ]
+  }
+]

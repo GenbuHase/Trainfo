@@ -62,6 +62,7 @@ function deduplicateLineTrips(trips) {
   }
 
   const cleaned = [];
+  const replacedIds = new Map();
   let dupCount = 0;
   for (const list of grouped.values()) {
     if (list.length === 1) {
@@ -74,16 +75,17 @@ function deduplicateLineTrips(trips) {
     for (const t of list) {
       let trainKey = t.tripId;
       const yId = extractTrainId(t.tripId);
+      const normalizedDest = t.customDestination ? cleanStationName(t.customDestination) : '';
       if (t.coupling) {
-        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}_${yId || ''}`;
+        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${normalizedDest}_${yId || ''}`;
       } else if (isClonedBranchTrip(t)) {
-        trainKey = `${t.trainNumber || ''}_branch_${t.customDestination || ''}_${yId || ''}`;
-      } else if ((isLimitedExpress(t.trainType) || isExpressType(t.trainType)) && yId) {
+        trainKey = `${t.trainNumber || ''}_branch_${normalizedDest}_${yId || ''}`;
+      } else if ((isLimitedExpress(t.trainType) || isExpressType(t.trainType)) && !isOfficialTrainNumber(t.trainNumber) && yId) {
         trainKey = `${t.trainNumber || ''}_${yId}`;
-      } else if (t.trainNumber && t.customDestination) {
-        trainKey = `${t.trainNumber}_${t.customDestination}`;
+      } else if (t.trainNumber && normalizedDest) {
+        trainKey = `${t.trainNumber}_${t.trainName || ''}_${normalizedDest}`;
       } else if (t.trainNumber) {
-        trainKey = t.trainNumber;
+        trainKey = `${t.trainNumber}_${t.trainName || ''}`;
       } else if (yId) {
         trainKey = yId;
       }
@@ -102,7 +104,11 @@ function deduplicateLineTrips(trips) {
         } else {
           dupCount += (subList.length - 1);
           subList.sort(sortDuplicates);
-          cleaned.push(subList[0]);
+          const winner = subList[0];
+          cleaned.push(winner);
+          for (let i = 1; i < subList.length; i++) {
+            replacedIds.set(subList[i].tripId, winner.tripId);
+          }
         }
       }
       continue;
@@ -110,9 +116,76 @@ function deduplicateLineTrips(trips) {
 
     dupCount += (list.length - 1);
     list.sort(sortDuplicates);
-    cleaned.push(list[0]);
+    const winner = list[0];
+    cleaned.push(winner);
+    for (let i = 1; i < list.length; i++) {
+      replacedIds.set(list[i].tripId, winner.tripId);
+    }
   }
-  return { cleaned, dupCount };
+
+  // 2-b. 同一公式列車番号・同一列車愛称・同一曜日・同一方向で、孤立した短縮重複スジ（全停車駅時刻が他方の連続部分列と完全一致）を長い全区間スジへ統合
+  const byNoGroup = new Map();
+  for (const t of cleaned) {
+    if (!t.trainNumber || !isOfficialTrainNumber(t.trainNumber) || t.coupling || isClonedBranchTrip(t) || !t.stops || t.stops.length < 2) {
+      continue;
+    }
+    const gKey = `${t.isHoliday ? 'H' : 'W'}|${t.direction}|${t.trainNumber}|${t.trainName || ''}`;
+    if (!byNoGroup.has(gKey)) byNoGroup.set(gKey, []);
+    byNoGroup.get(gKey).push(t);
+  }
+
+  const subsetRemovedIds = new Map();
+  for (const group of byNoGroup.values()) {
+    if (group.length < 2) continue;
+    group.sort((a, b) => {
+      const lenDiff = b.stops.length - a.stops.length;
+      if (lenDiff !== 0) return lenDiff;
+      return sortDuplicates(a, b);
+    });
+    for (let i = 0; i < group.length; i++) {
+      const big = group[i];
+      if (subsetRemovedIds.has(big.tripId)) continue;
+      for (let j = i + 1; j < group.length; j++) {
+        const small = group[j];
+        if (subsetRemovedIds.has(small.tripId)) continue;
+        if (small.throughTripId || small.prevTripId) continue;
+        if (small.stops.length >= big.stops.length) continue;
+
+        const firstId = small.stops[0].stationId;
+        const idx = big.stops.findIndex((s) => s.stationId === firstId);
+        if (idx === -1 || idx + small.stops.length > big.stops.length) continue;
+
+        let isStrictSubset = true;
+        for (let k = 0; k < small.stops.length; k++) {
+          const bs = big.stops[idx + k];
+          const ss = small.stops[k];
+          if (bs.stationId !== ss.stationId) {
+            isStrictSubset = false;
+            break;
+          }
+          if (k > 0 && bs.arrivalTime !== ss.arrivalTime) {
+            isStrictSubset = false;
+            break;
+          }
+          if (k < small.stops.length - 1 && bs.departureTime !== ss.departureTime) {
+            isStrictSubset = false;
+            break;
+          }
+        }
+        if (isStrictSubset) {
+          subsetRemovedIds.set(small.tripId, big.tripId);
+          replacedIds.set(small.tripId, big.tripId);
+          dupCount++;
+        }
+      }
+    }
+  }
+
+  const finalCleaned = subsetRemovedIds.size > 0
+    ? cleaned.filter((t) => !subsetRemovedIds.has(t.tripId))
+    : cleaned;
+
+  return { cleaned: finalCleaned, dupCount, replacedIds };
 }
 
 /**
@@ -122,7 +195,12 @@ function areDestinationsCompatible(destA, destB) {
   if (!destA || !destB) return true;
   const cleanA = cleanStationName(destA);
   const cleanB = cleanStationName(destB);
-  if (cleanA === cleanB || cleanA.includes(cleanB) || cleanB.includes(cleanA)) return true;
+  if (cleanA === cleanB) return true;
+
+  // 併結行先（「河口湖・松本」等）の部分駅一致のみ許可（「新栃木」と「栃木」の部分文字列誤認を防止）
+  const partsA = cleanA.split(/[・\/]/).filter(Boolean);
+  const partsB = cleanB.split(/[・\/]/).filter(Boolean);
+  if (partsA.some((pa) => partsB.includes(pa))) return true;
 
   const groups = config.destinationCompatibilityGroups || [];
   for (const group of groups) {
@@ -246,7 +324,7 @@ function linkPair({
         if (orig && disallowedOrigins.some(o => orig.includes(o))) return false;
       }
       if (allowMidStationA) {
-        const idx = tA.stops.findIndex((s) => s.stationId === stationAId);
+        const idx = tA.stops.findLastIndex((s) => s.stationId === stationAId);
         return idx > 0;
       }
       const lastStop = tA.stops[tA.stops.length - 1];
@@ -254,10 +332,10 @@ function linkPair({
     })
     .sort((a, b) => {
       const stopA = allowMidStationA
-        ? a.stops.find((s) => s.stationId === stationAId)
+        ? a.stops.findLast((s) => s.stationId === stationAId)
         : a.stops[a.stops.length - 1];
       const stopB = allowMidStationA
-        ? b.stops.find((s) => s.stationId === stationAId)
+        ? b.stops.findLast((s) => s.stationId === stationAId)
         : b.stops[b.stops.length - 1];
       const aSec = timeToSec(stopA?.arrivalTime || stopA?.departureTime);
       const bSec = timeToSec(stopB?.arrivalTime || stopB?.departureTime);
@@ -296,9 +374,10 @@ function linkPair({
     });
 
   for (const tA of sortedTripsA) {
-    const stopA = allowMidStationA
-      ? tA.stops.find((s) => s.stationId === stationAId)
-      : tA.stops[tA.stops.length - 1];
+    const stopAIndex = allowMidStationA
+      ? tA.stops.findLastIndex((s) => s.stationId === stationAId)
+      : tA.stops.length - 1;
+    const stopA = stopAIndex >= 0 ? tA.stops[stopAIndex] : null;
     if (!stopA) continue;
 
     const tASec = timeToSec(stopA.arrivalTime || stopA.departureTime);
@@ -380,9 +459,11 @@ function linkPair({
         }
       }
 
-      // 1. 完全一致 (trainId または 公式列車番号)
-      const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
-      if (isIdMatch && waitSec >= -300 && waitSec <= 7200) {
+      // 1. 完全一致 (公式列車番号一致、または待機30分以内の同一 trainId)
+      const isNoMatch = Boolean(noA && noB && noA === noB);
+      const isYIdMatch = Boolean(yIdA && yIdB && yIdA === yIdB);
+      const maxIdWaitSec = isNoMatch ? 2700 : 1800;
+      if ((isNoMatch || isYIdMatch) && waitSec >= -300 && waitSec <= maxIdWaitSec) {
         if (destA && destB && !areDestinationsCompatible(destA, destB)) {
           // 行先が非互換の場合は別系統のためスキップ
         } else {
@@ -463,31 +544,39 @@ function linkPair({
         ? bestB.stops.find((s) => s.stationId === stationBId)
         : bestB.stops[0];
 
+      const isStopATerminalOrTruncated = truncateAAtStation || stopAIndex === tA.stops.length - 1;
       const syncArr = stopA.arrivalTime || stopA.departureTime;
-      stopA.departureTime = syncArr;
+      if (isStopATerminalOrTruncated) {
+        stopA.departureTime = syncArr;
+      }
       if (stopB) {
-        stopB.arrivalTime = syncArr;
-        const syncSec = timeToSec(syncArr);
+        const stopBIndex = bestB.stops.indexOf(stopB);
+        const isStopBOriginOrTruncated = truncateBFromStation || stopBIndex === 0;
+        if (isStopBOriginOrTruncated) {
+          stopB.arrivalTime = syncArr;
+        }
+        const syncSec = timeToSec(stopB.arrivalTime || syncArr);
         let bDepSec = timeToSec(stopB.departureTime);
         if (bDepSec !== null && bDepSec < syncSec && bDepSec + 86400 >= syncSec) {
           bDepSec += 86400;
         }
         if (bDepSec !== null && bDepSec < syncSec) {
-          stopB.departureTime = syncArr;
+          stopB.departureTime = stopB.arrivalTime || syncArr;
           bDepSec = syncSec;
         }
 
         const isPassingBoundary = stopA.isPassing || stopB.isPassing;
-        if (isPassingBoundary) {
-          stopA.departureTime = syncArr;
-          stopB.departureTime = syncArr;
-          bDepSec = syncSec;
-        } else if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
-          stopA.departureTime = stopB.departureTime;
+        if (isStopATerminalOrTruncated) {
+          if (isPassingBoundary) {
+            stopA.departureTime = syncArr;
+            stopB.departureTime = syncArr;
+            bDepSec = syncSec;
+          } else if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
+            stopA.departureTime = stopB.departureTime;
+          }
         }
 
         // 後続駅の時刻逆転防止
-        const stopBIndex = bestB.stops.indexOf(stopB);
         let curSec = bDepSec !== null ? bDepSec : timeToSec(stopB.departureTime);
         for (let k = stopBIndex + 1; k < bestB.stops.length; k++) {
           const s = bestB.stops[k];
@@ -515,9 +604,9 @@ function linkPair({
 
       // 境界駅以降・以前の不要区間切り詰め
       if (truncateAAtStation) {
-        const stopAIndex = tA.stops.findIndex((s) => s.stationId === stationAId);
-        if (stopAIndex !== -1 && stopAIndex < tA.stops.length - 1) {
-          tA.stops = tA.stops.slice(0, stopAIndex + 1);
+        const truncIdxA = tA.stops.findLastIndex((s) => s.stationId === stationAId);
+        if (truncIdxA !== -1 && truncIdxA < tA.stops.length - 1) {
+          tA.stops = tA.stops.slice(0, truncIdxA + 1);
           tA.destinationStationId = stationAId;
         }
       }
@@ -630,14 +719,24 @@ function executeUniversalThroughLinker() {
   const stationMap = buildUniversalStationMap();
   console.log(`[Universal Station Map] 全 ${stationMap.size} 駅の名称マスタを自動ロード完了`);
 
-  const targetLineIds = new Set();
+  const linkedLineIds = new Set();
   for (const conn of config.connections) {
-    targetLineIds.add(conn.lineA);
-    targetLineIds.add(conn.lineB);
+    linkedLineIds.add(conn.lineA);
+    linkedLineIds.add(conn.lineB);
+  }
+
+  const linesRoot = path.resolve('src/data/lines');
+  const allLineIds = new Set(linkedLineIds);
+  if (fs.existsSync(linesRoot)) {
+    for (const entry of fs.readdirSync(linesRoot, { withFileTypes: true })) {
+      if (entry.isDirectory()) {
+        allLineIds.add(entry.name);
+      }
+    }
   }
 
   const lineTrips = new Map();
-  for (const lineId of targetLineIds) {
+  for (const lineId of allLineIds) {
     const filePath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
     if (fs.existsSync(filePath)) {
       try {
@@ -648,7 +747,7 @@ function executeUniversalThroughLinker() {
     }
   }
 
-  // 既存の直通リンクを安全に初期化
+  // 既存の直通リンクを安全に初期化（config.connections 管理対象路線間のリンクのみリセット）
   const allTripsMapForReset = new Map();
   for (const trips of lineTrips.values()) {
     for (const t of trips) {
@@ -656,15 +755,17 @@ function executeUniversalThroughLinker() {
     }
   }
 
-  for (const trips of lineTrips.values()) {
+  for (const lineId of linkedLineIds) {
+    const trips = lineTrips.get(lineId);
+    if (!trips) continue;
     for (const t of trips) {
-      if (targetLineIds.has(t.throughLineId)) {
+      if (linkedLineIds.has(t.throughLineId)) {
         delete t.throughTripId;
         delete t.throughLineId;
       }
       if (t.prevTripId) {
         const prevTrip = allTripsMapForReset.get(t.prevTripId);
-        if (targetLineIds.has(t.prevLineId) || (prevTrip && targetLineIds.has(prevTrip.lineId))) {
+        if (linkedLineIds.has(t.prevLineId) || (prevTrip && linkedLineIds.has(prevTrip.lineId))) {
           delete t.prevTripId;
           delete t.prevLineId;
         }
@@ -672,12 +773,36 @@ function executeUniversalThroughLinker() {
     }
   }
 
-  // 重複ゴーストトリップのクリーンアップ
+  // 全路線に対する重複ゴーストトリップのクリーンアップ（置換されたID参照は安全に引き継ぎ）
+  const globalReplacedIds = new Map();
+  const modifiedNonLinkedLines = new Set();
   for (const [lineId, trips] of lineTrips.entries()) {
-    const { cleaned, dupCount } = deduplicateLineTrips(trips);
+    const { cleaned, dupCount, replacedIds } = deduplicateLineTrips(trips);
     if (dupCount > 0) {
       console.log(`[Deduplication] ${lineId}: ${dupCount} 件の重複便を除去 (${trips.length} -> ${cleaned.length})`);
       lineTrips.set(lineId, cleaned);
+      if (!linkedLineIds.has(lineId)) modifiedNonLinkedLines.add(lineId);
+      for (const [oldId, newId] of replacedIds.entries()) {
+        globalReplacedIds.set(oldId, newId);
+      }
+    }
+  }
+  if (globalReplacedIds.size > 0) {
+    for (const [lineId, trips] of lineTrips.entries()) {
+      let touched = false;
+      for (const t of trips) {
+        if (t.throughTripId && globalReplacedIds.has(t.throughTripId)) {
+          t.throughTripId = globalReplacedIds.get(t.throughTripId);
+          touched = true;
+        }
+        if (t.prevTripId && globalReplacedIds.has(t.prevTripId)) {
+          t.prevTripId = globalReplacedIds.get(t.prevTripId);
+          touched = true;
+        }
+      }
+      if (touched && !linkedLineIds.has(lineId)) {
+        modifiedNonLinkedLines.add(lineId);
+      }
     }
   }
 
@@ -765,9 +890,10 @@ function executeUniversalThroughLinker() {
     console.log(`🔗 併結相手の公式列車番号（coupledTrainNumber）を ${updatedCoupledNoCount} 件同期更新しました`);
   }
 
-  // 全路線の globalTimetable.json を安全に書き出し
+  // 全路線の globalTimetable.json を安全に書き出し（変更のあった全路線を保存）
   console.log('\n--- globalTimetable.json 保存 ---');
   for (const [lineId, trips] of lineTrips.entries()) {
+    if (!linkedLineIds.has(lineId) && !modifiedNonLinkedLines.has(lineId)) continue;
     const filePath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
     safeWriteJson(filePath, trips);
   }

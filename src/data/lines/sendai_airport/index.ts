@@ -5,8 +5,8 @@ import { SENDAI_AIRPORT_TRAIN_TYPES } from './trainTypes';
 
 export const sendaiAirportLine: LineDefinition = {
   id: 'sendai_airport',
-  name: '仙台空港アクセス線（仙台空港線）',
-  shortName: '仙台空港線',
+  name: '仙台空港アクセス線',
+  shortName: '仙台空港アクセス線',
   operator: '仙台空港鉄道',
   lineColor: '#0950a2',
   accentColor: '#063975',

@@ -364,6 +364,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -385,7 +386,9 @@
         "departureTime": "00:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_2320_30066",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A61_0011_37377",
@@ -399,7 +402,7 @@
     "destinationStationId": "JR-A47",
     "customOrigin": "出雲市",
     "customDestination": "東京",
-    "cars": 8,
+    "cars": 7,
     "isHoliday": false,
     "stops": [
       {
@@ -492,7 +495,16 @@
         "departureTime": "00:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "coupling": {
+      "role": "PRIMARY",
+      "coupledTripId": "WD_INB_JR-A61_0011_37928",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "JR-A61",
+      "toStationId": "JR-A47"
+    }
   },
   {
     "tripId": "WD_INB_JR-A61_0011_37928",
@@ -506,7 +518,7 @@
     "destinationStationId": "JR-A47",
     "customOrigin": "高松(香川県)",
     "customDestination": "東京",
-    "cars": 8,
+    "cars": 7,
     "isHoliday": false,
     "stops": [
       {
@@ -599,7 +611,16 @@
         "departureTime": "00:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "coupling": {
+      "role": "SECONDARY",
+      "coupledTripId": "WD_INB_JR-A61_0011_37377",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "JR-A61",
+      "toStationId": "JR-A47"
+    }
   },
   {
     "tripId": "WD_INB_JR-A63_0458_23803",
@@ -1227,7 +1248,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0546_17982",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0454_17982",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0537_18166",
@@ -2095,7 +2118,9 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-08_0537_17981",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0601_22890",
@@ -2712,6 +2737,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2733,7 +2759,9 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0505_30038",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A49_0615_35158",
@@ -3470,7 +3498,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0635_17983",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0543_17983",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0627_22796",
@@ -3720,6 +3750,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -3741,7 +3772,9 @@
         "departureTime": "06:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0526_29992",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0632_4276",
@@ -4752,6 +4785,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4773,7 +4807,9 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0543_29994",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0650_23774",
@@ -6829,7 +6865,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
-    "customDestination": "草津(滋賀県)",
+    "customDestination": "草津",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6851,7 +6887,9 @@
         "departureTime": "07:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0624_40839",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0716_39725",
@@ -7341,6 +7379,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -7362,7 +7401,9 @@
         "departureTime": "07:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0612_29996",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A49_0721_23814",
@@ -8265,7 +8306,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0737_29939",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_0632_29939",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0729_23788",
@@ -8553,6 +8596,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -8574,7 +8618,9 @@
         "departureTime": "07:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0653_30039",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0734_40823",
@@ -9423,7 +9469,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0752_17986",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0642_17986",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0743_37122",
@@ -9781,6 +9829,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -9802,7 +9851,9 @@
         "departureTime": "07:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0636_31804",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0746_42073",
@@ -10441,6 +10492,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10462,7 +10514,9 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0705_30040",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0749_22804",
@@ -10616,7 +10670,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0801_17988",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0656_17988",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0752_37130",
@@ -11485,6 +11541,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11506,7 +11563,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0718_30041",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0802_18287",
@@ -12115,6 +12174,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12136,7 +12196,9 @@
         "departureTime": "08:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0658_31806",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0808_38836",
@@ -13454,6 +13516,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13475,7 +13538,9 @@
         "departureTime": "08:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0715_31808",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0822_18288",
@@ -14300,7 +14365,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0840_17990",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0735_17990",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0831_18179",
@@ -14613,7 +14680,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_0844_29942",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_0738_29942",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0835_4280",
@@ -15110,6 +15179,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15131,7 +15201,9 @@
         "departureTime": "08:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0729_29998",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0839_3946",
@@ -15381,6 +15453,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15402,7 +15475,9 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0743_30061",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0844_37132",
@@ -16416,6 +16491,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -16437,7 +16513,9 @@
         "departureTime": "09:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0803_30062",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A49_0858_23816",
@@ -17069,6 +17147,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17090,7 +17169,9 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0801_31810",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0905_4327",
@@ -17616,6 +17697,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17637,7 +17719,9 @@
         "departureTime": "09:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-08_0851_29991",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0915_3908",
@@ -18273,43 +18357,8 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_JR-A47_0928_29938",
-    "throughLineId": "jr_kyoto"
-  },
-  {
-    "tripId": "WD_INB_JR-A49_0920_29938",
-    "lineId": "jr_kobe",
-    "trainId": "29938",
-    "trainNumber": "7006M",
-    "trainType": "limitedExp",
-    "trainName": "こうのとり6号",
-    "direction": "inbound",
-    "originStationId": "JR-A49",
-    "destinationStationId": "JR-A47",
-    "customOrigin": "福知山",
-    "customDestination": "新大阪",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JR-A49",
-        "arrivalTime": "09:19:00",
-        "departureTime": "09:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JR-A48",
-        "arrivalTime": "09:23:00",
-        "departureTime": "09:23:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JR-A47",
-        "arrivalTime": "09:26:00",
-        "departureTime": "09:28:00",
-        "isPassing": false
-      }
-    ]
+    "prevTripId": "WD_INB_jr_takarazuka-21_0828_29937",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A49_0923_23811",
@@ -18751,6 +18800,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18772,7 +18822,9 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0834_30063",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0929_37138",
@@ -20001,6 +20053,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20022,7 +20075,9 @@
         "departureTime": "09:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0832_30001",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_0943_37139",
@@ -20140,6 +20195,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20161,7 +20217,9 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_0854_30064",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0945_3948",
@@ -20557,7 +20615,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1002_17995",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0906_17995",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_0952_3910",
@@ -21523,7 +21583,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1017_17997",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0919_17997",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1007_39747",
@@ -22128,7 +22190,9 @@
         "departureTime": "10:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0927_29936",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1015_3950",
@@ -22260,6 +22324,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22281,7 +22346,9 @@
         "departureTime": "10:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0913_30003",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1018_10425",
@@ -22557,7 +22624,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1032_17999",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0932_17999",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1022_3912",
@@ -23139,6 +23208,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -23160,7 +23230,9 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-08_1011_29984",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1030_43240",
@@ -23556,7 +23628,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1047_18000",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_0948_18000",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1037_10307",
@@ -24032,6 +24106,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -24053,7 +24128,9 @@
         "departureTime": "10:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_0941_30004",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1043_37145",
@@ -24555,7 +24632,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1102_18001",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1000_18001",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1052_3913",
@@ -25243,6 +25322,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -25264,7 +25344,9 @@
         "departureTime": "11:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-08_1041_29986",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1100_4004",
@@ -25769,7 +25851,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1117_18003",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1018_18003",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1107_10344",
@@ -26353,6 +26437,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -26374,7 +26459,9 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1013_30007",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1115_3952",
@@ -26529,7 +26616,9 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1031_29931",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1118_4271",
@@ -26805,7 +26894,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1132_18004",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1033_18004",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1122_3914",
@@ -27389,6 +27480,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -27410,7 +27502,9 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-08_1111_29987",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1130_38593",
@@ -27806,7 +27900,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1147_18006",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1048_18006",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1137_10310",
@@ -28390,6 +28486,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -28411,7 +28508,9 @@
         "departureTime": "11:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-08_1126_29988",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1145_39740",
@@ -28807,7 +28906,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1202_18007",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1103_18007",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1152_3915",
@@ -29391,6 +29492,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -29412,7 +29514,9 @@
         "departureTime": "12:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1055_30031",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1200_3981",
@@ -29808,7 +29912,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1217_17964",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1138_17964",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1207_10345",
@@ -30392,6 +30498,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -30413,7 +30520,9 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1135_30045",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1215_39575",
@@ -30570,7 +30679,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1225_29943",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1131_29943",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1218_10426",
@@ -30846,7 +30957,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1232_17965",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1153_17965",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1222_3917",
@@ -31548,6 +31661,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -31569,7 +31683,9 @@
         "departureTime": "12:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1119_30032",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1230_38594",
@@ -31965,7 +32081,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1247_17966",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1208_17966",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1237_10346",
@@ -32549,6 +32667,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -32570,7 +32689,9 @@
         "departureTime": "12:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1205_30046",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1245_3982",
@@ -32966,7 +33087,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1302_17967",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1223_17967",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1252_3918",
@@ -33656,6 +33779,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -33677,7 +33801,9 @@
         "departureTime": "13:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1220_30048",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1300_4007",
@@ -34179,7 +34305,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1317_17968",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1238_17968",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1307_10349",
@@ -34763,6 +34891,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -34784,7 +34913,9 @@
         "departureTime": "13:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1209_30033",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1315_39576",
@@ -35180,7 +35311,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1332_17969",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1253_17969",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1322_3919",
@@ -35764,6 +35897,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -35785,7 +35919,9 @@
         "departureTime": "13:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1250_30050",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1330_38596",
@@ -36181,7 +36317,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1347_17970",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1308_17970",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1337_10350",
@@ -36763,6 +36901,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -36784,7 +36923,9 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1239_30034",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1345_3984",
@@ -37180,7 +37321,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1402_17971",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1323_17971",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1352_3920",
@@ -37762,6 +37905,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -37783,7 +37927,9 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1320_30051",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1400_4008",
@@ -38179,7 +38325,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1417_17972",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1338_17972",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1407_10353",
@@ -38761,6 +38909,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -38782,7 +38931,9 @@
         "departureTime": "14:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1335_30053",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1415_39578",
@@ -38939,7 +39090,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1425_29944",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1331_29944",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1418_10429",
@@ -39215,7 +39368,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1432_17973",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1353_17973",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1422_3921",
@@ -39797,6 +39952,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -39818,7 +39974,9 @@
         "departureTime": "14:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1319_30036",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A61_1430_41844",
@@ -40320,7 +40478,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1447_17974",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1408_17974",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1437_10354",
@@ -40902,6 +41062,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -40923,7 +41084,9 @@
         "departureTime": "14:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1405_30054",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1445_3987",
@@ -41319,7 +41482,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1502_17975",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1423_17975",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1452_10312",
@@ -42007,6 +42172,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -42028,7 +42194,9 @@
         "departureTime": "15:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1420_30055",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1500_4009",
@@ -42424,7 +42592,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1517_17976",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1438_17976",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1507_10356",
@@ -43006,6 +43176,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -43027,7 +43198,9 @@
         "departureTime": "15:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1435_30056",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1515_39579",
@@ -43184,44 +43357,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1525_29932",
-    "throughLineId": "jr_kyoto"
-  },
-  {
-    "tripId": "WD_INB_JR-A49_1517_29933",
-    "lineId": "jr_kobe",
-    "trainId": "29933",
-    "trainNumber": "7016M",
-    "trainType": "limitedExp",
-    "trainName": "こうのとり16号",
-    "direction": "inbound",
-    "originStationId": "JR-A49",
-    "destinationStationId": "JR-A47",
-    "customOrigin": "福知山",
-    "customDestination": "新大阪",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JR-A49",
-        "arrivalTime": "15:16:00",
-        "departureTime": "15:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JR-A48",
-        "arrivalTime": "15:20:00",
-        "departureTime": "15:20:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JR-A47",
-        "arrivalTime": "15:23:00",
-        "departureTime": "15:25:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_JR-A47_1525_29933",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1431_29932",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1518_10430",
@@ -43497,7 +43635,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1532_17977",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1453_17977",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1522_10314",
@@ -44079,6 +44219,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -44100,7 +44241,9 @@
         "departureTime": "15:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1419_30037",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1530_38598",
@@ -44496,7 +44639,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1547_17978",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1508_17978",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1537_10357",
@@ -45078,6 +45223,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -45099,7 +45245,9 @@
         "departureTime": "15:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1505_30057",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1545_3989",
@@ -45495,7 +45643,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1602_17979",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1523_17979",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1552_10315",
@@ -46077,6 +46227,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -46098,7 +46249,9 @@
         "departureTime": "16:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-14_1520_30058",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1600_10389",
@@ -46494,7 +46647,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1617_17980",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-08_1538_17980",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1607_10359",
@@ -46968,6 +47123,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -46989,7 +47145,9 @@
         "departureTime": "16:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1512_30011",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1613_37188",
@@ -47252,7 +47410,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1624_29949",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1530_29949",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1617_10433",
@@ -47528,7 +47688,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1632_18011",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1531_18011",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1622_10317",
@@ -48598,7 +48760,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1647_18012",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1547_18012",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1637_10361",
@@ -49299,6 +49463,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -49320,7 +49485,9 @@
         "departureTime": "16:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1543_30013",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1645_10391",
@@ -49716,7 +49883,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1702_18013",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1602_18013",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1652_10319",
@@ -50786,7 +50955,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1717_18014",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1617_18014",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1707_3958",
@@ -51260,6 +51431,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -51281,7 +51453,9 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1608_30015",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1713_37196",
@@ -51423,43 +51597,8 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_JR-A47_1723_3779",
-    "throughLineId": "jr_kyoto"
-  },
-  {
-    "tripId": "WD_INB_JR-A49_1715_3779",
-    "lineId": "jr_kobe",
-    "trainId": "3779",
-    "trainNumber": "3020M",
-    "trainType": "limitedExp",
-    "trainName": "こうのとり20号",
-    "direction": "inbound",
-    "originStationId": "JR-A49",
-    "destinationStationId": "JR-A47",
-    "customOrigin": "天橋立",
-    "customDestination": "新大阪",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JR-A49",
-        "arrivalTime": "17:15:00",
-        "departureTime": "17:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JR-A48",
-        "arrivalTime": "17:18:00",
-        "departureTime": "17:18:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JR-A47",
-        "arrivalTime": "17:21:00",
-        "departureTime": "17:23:00",
-        "isPassing": false
-      }
-    ]
+    "prevTripId": "WD_INB_jr_takarazuka-21_1625_29934",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1715_39584",
@@ -51855,7 +51994,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1732_18015",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1627_18015",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1722_10320",
@@ -52925,7 +53066,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1747_18016",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1647_18016",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1737_10363",
@@ -53399,6 +53542,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -53420,7 +53564,9 @@
         "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1640_30017",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1743_37200",
@@ -53922,7 +54068,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1802_18017",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1659_18017",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1752_10321",
@@ -55121,7 +55269,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1817_18018",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1717_18018",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1807_10364",
@@ -55712,6 +55862,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -55733,7 +55884,9 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1708_30018",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1813_37204",
@@ -55876,7 +56029,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1824_29945",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1726_29945",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1815_39581",
@@ -56272,7 +56427,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1832_18019",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1727_18019",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1822_10323",
@@ -57471,7 +57628,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1847_18020",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1747_18020",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1837_23776",
@@ -58062,6 +58221,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -58083,7 +58243,9 @@
         "departureTime": "18:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1741_30020",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1843_37208",
@@ -58585,7 +58747,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1902_18021",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1800_18021",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1852_10324",
@@ -59788,7 +59952,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1917_18022",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1817_18022",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1907_3961",
@@ -60477,6 +60643,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -60498,7 +60665,9 @@
         "departureTime": "19:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1814_31812",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1915_39587",
@@ -60894,7 +61063,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1932_18023",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1829_18023",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1922_10325",
@@ -61619,7 +61790,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1939_29935",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1841_29935",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_1932_40824",
@@ -61895,7 +62068,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_1947_18024",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1846_18024",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1937_10368",
@@ -62593,6 +62768,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -62614,7 +62790,9 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1844_30022",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1945_39754",
@@ -63010,7 +63188,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2002_18025",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1859_18025",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_1952_10327",
@@ -64095,7 +64275,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2017_18026",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1916_18026",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2007_10370",
@@ -64675,6 +64857,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -64696,7 +64879,9 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_1914_31813",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2015_39571",
@@ -65092,7 +65277,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2032_18027",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1929_18027",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2022_3933",
@@ -65817,7 +66004,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2039_29946",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_1941_29946",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_2033_4278",
@@ -66211,7 +66400,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2047_18028",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_1946_18028",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2037_10328",
@@ -67284,7 +67475,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2102_18029",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2001_18029",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2052_10386",
@@ -68248,7 +68441,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2117_18030",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2016_18030",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2107_10332",
@@ -68948,6 +69143,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -68969,7 +69165,9 @@
         "departureTime": "21:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_2015_30024",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_2118_10406",
@@ -69245,7 +69443,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2132_18032",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2031_18032",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2122_10329",
@@ -69850,7 +70050,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2139_29948",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-21_2042_29948",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2130_3999",
@@ -70126,7 +70328,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2147_18033",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2045_18033",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_2137_4322",
@@ -70839,6 +71043,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -70860,7 +71065,9 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_2045_30026",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_2149_37120",
@@ -71002,7 +71209,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2202_18035",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2101_18035",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2152_3923",
@@ -72192,7 +72401,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2222_18036",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2118_18036",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2212_22862",
@@ -72562,6 +72773,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -72583,7 +72795,9 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_2119_30027",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_2220_18258",
@@ -73445,7 +73659,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2242_18037",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2137_18037",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2232_22864",
@@ -74055,6 +74271,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -74076,7 +74293,9 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_2144_30029",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_INB_JR-A63_2250_18200",
@@ -74458,7 +74677,9 @@
       }
     ],
     "throughTripId": "WD_INB_JR-A47_2302_18039",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "WD_INB_jr_takarazuka-14_2157_18039",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "WD_OUT_JR-A47_2252_22865",
@@ -76540,6 +76761,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -76561,7 +76783,9 @@
         "departureTime": "00:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takarazuka-21_2252_30030",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_0000_3970",
@@ -76928,6 +77152,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -76949,7 +77174,9 @@
         "departureTime": "00:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_2320_30066",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A61_0011_37377",
@@ -76963,7 +77190,7 @@
     "destinationStationId": "JR-A47",
     "customOrigin": "出雲市",
     "customDestination": "東京",
-    "cars": 8,
+    "cars": 7,
     "isHoliday": true,
     "stops": [
       {
@@ -77056,7 +77283,16 @@
         "departureTime": "00:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "coupling": {
+      "role": "PRIMARY",
+      "coupledTripId": "HD_INB_JR-A61_0011_37928",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "JR-A61",
+      "toStationId": "JR-A47"
+    }
   },
   {
     "tripId": "HD_INB_JR-A61_0011_37928",
@@ -77070,7 +77306,7 @@
     "destinationStationId": "JR-A47",
     "customOrigin": "高松(香川県)",
     "customDestination": "東京",
-    "cars": 8,
+    "cars": 7,
     "isHoliday": true,
     "stops": [
       {
@@ -77163,7 +77399,16 @@
         "departureTime": "00:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "coupling": {
+      "role": "SECONDARY",
+      "coupledTripId": "HD_INB_JR-A61_0011_37377",
+      "coupledTrainNumber": "5032M",
+      "coupledCars": 7,
+      "coupledDestination": "東京",
+      "fromStationId": "JR-A61",
+      "toStationId": "JR-A47"
+    }
   },
   {
     "tripId": "HD_INB_JR-A63_0458_23803",
@@ -77789,7 +78034,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0546_17982",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0454_17982",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0539_18167",
@@ -78810,6 +79057,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -78831,7 +79079,9 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0505_30038",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0615_18210",
@@ -79542,6 +79792,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -79563,7 +79814,9 @@
         "departureTime": "06:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0527_29993",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0634_4285",
@@ -79695,6 +79948,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -79716,7 +79970,9 @@
         "departureTime": "06:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0546_30059",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A51_0636_40545",
@@ -80660,6 +80916,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -80681,7 +80938,9 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0548_29995",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_0654_22800",
@@ -80835,7 +81094,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0711_17984",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0603_17984",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0657_18215",
@@ -81657,6 +81918,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -81678,7 +81940,9 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0617_30060",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0712_18216",
@@ -82084,6 +82348,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -82105,7 +82370,9 @@
         "departureTime": "07:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0615_29997",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0720_37128",
@@ -82593,7 +82860,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0741_17985",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0632_17985",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0727_18172",
@@ -82750,7 +83019,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0742_29940",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_0634_29940",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0731_4325",
@@ -83587,7 +83858,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0756_17987",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0646_17987",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0742_18174",
@@ -83959,6 +84232,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -83980,7 +84254,9 @@
         "departureTime": "07:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0645_31805",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0747_10476",
@@ -84821,7 +85097,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0811_17989",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0704_17989",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0757_18175",
@@ -85193,6 +85471,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -85214,7 +85493,9 @@
         "departureTime": "08:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0701_31807",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0803_4287",
@@ -85818,7 +86099,9 @@
         "departureTime": "08:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0719_18041",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0812_18176",
@@ -86190,6 +86473,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -86211,7 +86495,9 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0716_31809",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0817_10477",
@@ -86932,7 +87218,9 @@
         "departureTime": "08:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0734_18042",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0827_18178",
@@ -87449,7 +87737,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0842_29941",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_0738_29941",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0836_37171",
@@ -87933,7 +88223,9 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0746_18043",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A49_0842_29999",
@@ -87945,6 +88237,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -87966,7 +88259,9 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0729_29999",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0842_18180",
@@ -88930,7 +89225,9 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0807_18044",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0858_37134",
@@ -89277,6 +89574,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -89298,7 +89596,9 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0801_31811",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0902_39708",
@@ -90038,7 +90338,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0925_17991",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0819_17991",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0913_37136",
@@ -90540,43 +90842,8 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_JR-A47_0928_29938",
-    "throughLineId": "jr_kyoto"
-  },
-  {
-    "tripId": "HD_INB_JR-A49_0920_29938",
-    "lineId": "jr_kobe",
-    "trainId": "29938",
-    "trainNumber": "7006M",
-    "trainType": "limitedExp",
-    "trainName": "こうのとり6号",
-    "direction": "inbound",
-    "originStationId": "JR-A49",
-    "destinationStationId": "JR-A47",
-    "customOrigin": "福知山",
-    "customDestination": "新大阪",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JR-A49",
-        "arrivalTime": "09:19:00",
-        "departureTime": "09:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JR-A48",
-        "arrivalTime": "09:23:00",
-        "departureTime": "09:23:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JR-A47",
-        "arrivalTime": "09:26:00",
-        "departureTime": "09:28:00",
-        "isPassing": false
-      }
-    ]
+    "prevTripId": "HD_INB_jr_takarazuka-21_0828_29937",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_0922_39573",
@@ -91185,7 +91452,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0940_17992",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0834_17992",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0929_37137",
@@ -91808,7 +92077,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_0947_17993",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0849_17993",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_0937_10342",
@@ -92402,6 +92673,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -92423,7 +92695,9 @@
         "departureTime": "09:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0832_30000",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_0944_37140",
@@ -92925,7 +93199,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1002_17994",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0903_17994",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_0952_3909",
@@ -93627,6 +93903,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -93648,7 +93925,9 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0925_30042",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1003_39710",
@@ -93924,7 +94203,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1017_17996",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0918_17996",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1007_10343",
@@ -94400,6 +94681,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -94421,7 +94703,9 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0912_30002",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1014_37173",
@@ -94562,7 +94846,9 @@
         "departureTime": "10:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0927_29936",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1015_3949",
@@ -94694,6 +94980,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -94715,7 +95002,9 @@
         "departureTime": "10:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-08_0958_29983",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1018_4270",
@@ -94991,7 +95280,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1032_17998",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0930_17998",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1022_3911",
@@ -95573,6 +95864,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -95594,7 +95886,9 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_0954_30043",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1030_4003",
@@ -95990,7 +96284,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1047_18000",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_0948_18000",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1037_10306",
@@ -96466,6 +96762,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -96487,7 +96784,9 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-08_1017_29985",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1044_37146",
@@ -96725,6 +97024,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -96746,7 +97046,9 @@
         "departureTime": "10:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_0945_30005",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1048_39728",
@@ -97022,7 +97324,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1102_18002",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1003_18002",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1052_3954",
@@ -97710,6 +98014,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -97731,7 +98036,9 @@
         "departureTime": "11:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-08_1041_29986",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1100_4004",
@@ -98236,7 +98543,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1117_18003",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1018_18003",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1107_10308",
@@ -98714,6 +99023,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -98735,7 +99045,9 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1030_30044",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1114_37150",
@@ -98853,6 +99165,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -98874,7 +99187,9 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1013_30006",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1115_3952",
@@ -99029,7 +99344,9 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1031_29931",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1118_4273",
@@ -99305,7 +99622,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1132_18004",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1033_18004",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1122_3955",
@@ -99889,6 +100208,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -99910,7 +100230,9 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-08_1111_29987",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1130_4005",
@@ -100306,7 +100628,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1147_18005",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1048_18005",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1137_10309",
@@ -100890,6 +101214,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -100911,7 +101236,9 @@
         "departureTime": "11:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1043_30008",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1145_39741",
@@ -101307,7 +101634,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1202_18007",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1103_18007",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1152_3916",
@@ -101891,6 +102220,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -101912,7 +102242,9 @@
         "departureTime": "12:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-08_1141_29989",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1200_4006",
@@ -102308,7 +102640,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1217_18008",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1118_18008",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1207_10345",
@@ -102892,6 +103226,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -102913,7 +103248,9 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1114_30009",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1215_39575",
@@ -103070,7 +103407,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1225_29943",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1131_29943",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1218_10426",
@@ -103346,7 +103685,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1232_18009",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1133_18009",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1222_3917",
@@ -104048,6 +104389,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "宝塚",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -104069,7 +104411,9 @@
         "departureTime": "12:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-08_1211_29990",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1230_38595",
@@ -104465,7 +104809,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1247_18010",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1148_18010",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1237_10347",
@@ -105049,6 +105395,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -105070,7 +105417,9 @@
         "departureTime": "12:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1205_30047",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1245_3983",
@@ -105466,7 +105815,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1302_17967",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1223_17967",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1252_3918",
@@ -106156,6 +106507,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -106177,7 +106529,9 @@
         "departureTime": "13:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1220_30049",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1300_4007",
@@ -106679,7 +107033,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1317_17968",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1238_17968",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1307_10348",
@@ -107263,6 +107619,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -107284,7 +107641,9 @@
         "departureTime": "13:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1209_30033",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1315_39577",
@@ -107680,7 +108039,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1332_17969",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1253_17969",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1322_3919",
@@ -108264,6 +108625,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -108285,7 +108647,9 @@
         "departureTime": "13:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1250_30050",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1330_38596",
@@ -108681,7 +109045,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1347_17970",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1308_17970",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1337_10351",
@@ -109263,6 +109629,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -109284,7 +109651,9 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1239_30035",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1345_3985",
@@ -109680,7 +110049,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1402_17971",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1323_17971",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1352_3920",
@@ -110262,6 +110633,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -110283,7 +110655,9 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1320_30052",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1400_4008",
@@ -110679,7 +111053,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1417_17972",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1338_17972",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1407_10352",
@@ -111261,6 +111637,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -111282,7 +111659,9 @@
         "departureTime": "14:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1335_30053",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1415_39578",
@@ -111439,7 +111818,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1425_29944",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1331_29944",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1418_10428",
@@ -111715,7 +112096,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1432_17973",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1353_17973",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1422_3921",
@@ -112297,6 +112680,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -112318,7 +112702,9 @@
         "departureTime": "14:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1319_30036",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A61_1430_41844",
@@ -112820,7 +113206,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1447_17974",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1408_17974",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1437_10354",
@@ -113402,6 +113790,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -113423,7 +113812,9 @@
         "departureTime": "14:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1405_30054",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1445_3988",
@@ -113819,7 +114210,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1502_17975",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1423_17975",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1452_10311",
@@ -114507,6 +114900,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -114528,7 +114922,9 @@
         "departureTime": "15:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1420_30055",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1500_4009",
@@ -114924,7 +115320,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1517_17976",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1438_17976",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1507_10355",
@@ -115506,6 +115904,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -115527,7 +115926,9 @@
         "departureTime": "15:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1435_30056",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1515_39579",
@@ -115684,44 +116085,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1525_29932",
-    "throughLineId": "jr_kyoto"
-  },
-  {
-    "tripId": "HD_INB_JR-A49_1517_29933",
-    "lineId": "jr_kobe",
-    "trainId": "29933",
-    "trainNumber": "7016M",
-    "trainType": "limitedExp",
-    "trainName": "こうのとり16号",
-    "direction": "inbound",
-    "originStationId": "JR-A49",
-    "destinationStationId": "JR-A47",
-    "customOrigin": "福知山",
-    "customDestination": "新大阪",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JR-A49",
-        "arrivalTime": "15:16:00",
-        "departureTime": "15:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JR-A48",
-        "arrivalTime": "15:20:00",
-        "departureTime": "15:20:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JR-A47",
-        "arrivalTime": "15:23:00",
-        "departureTime": "15:25:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "HD_INB_JR-A47_1525_29933",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1431_29932",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1518_10430",
@@ -115997,7 +116363,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1532_17977",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1453_17977",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1522_10313",
@@ -116579,6 +116947,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -116600,7 +116969,9 @@
         "departureTime": "15:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1419_30037",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1530_38599",
@@ -116996,7 +117367,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1547_17978",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1508_17978",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1537_10358",
@@ -117578,6 +117951,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -117599,7 +117973,9 @@
         "departureTime": "15:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1505_30057",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1545_3990",
@@ -117995,7 +118371,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1602_17979",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1523_17979",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1552_3927",
@@ -118577,6 +118955,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -118598,7 +118977,9 @@
         "departureTime": "16:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_1520_30058",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1600_10388",
@@ -118994,7 +119375,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1617_17980",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-08_1538_17980",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1607_3956",
@@ -119468,6 +119851,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -119489,7 +119873,9 @@
         "departureTime": "16:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1512_30010",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1613_37187",
@@ -119752,7 +120138,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1624_29949",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1530_29949",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1617_10418",
@@ -120028,7 +120416,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1632_18011",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1531_18011",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1622_10316",
@@ -121098,7 +121488,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1647_18012",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1547_18012",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1637_10360",
@@ -121799,6 +122191,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -121820,7 +122213,9 @@
         "departureTime": "16:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1543_30012",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1645_10390",
@@ -122216,7 +122611,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1702_18013",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1602_18013",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1652_10318",
@@ -123286,7 +123683,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1717_18014",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1617_18014",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1707_3957",
@@ -123760,6 +124159,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -123781,7 +124181,9 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1608_30014",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1713_37195",
@@ -123923,43 +124325,8 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_JR-A47_1723_3779",
-    "throughLineId": "jr_kyoto"
-  },
-  {
-    "tripId": "HD_INB_JR-A49_1715_3779",
-    "lineId": "jr_kobe",
-    "trainId": "3779",
-    "trainNumber": "3020M",
-    "trainType": "limitedExp",
-    "trainName": "こうのとり20号",
-    "direction": "inbound",
-    "originStationId": "JR-A49",
-    "destinationStationId": "JR-A47",
-    "customOrigin": "天橋立",
-    "customDestination": "新大阪",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JR-A49",
-        "arrivalTime": "17:15:00",
-        "departureTime": "17:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JR-A48",
-        "arrivalTime": "17:18:00",
-        "departureTime": "17:18:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JR-A47",
-        "arrivalTime": "17:21:00",
-        "departureTime": "17:23:00",
-        "isPassing": false
-      }
-    ]
+    "prevTripId": "HD_INB_jr_takarazuka-21_1625_29934",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1715_39583",
@@ -124355,7 +124722,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1732_18015",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1627_18015",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1722_3928",
@@ -125425,7 +125794,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1747_18016",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1647_18016",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1737_10362",
@@ -125899,6 +126270,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -125920,7 +126292,9 @@
         "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1640_30016",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1743_37199",
@@ -126422,7 +126796,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1802_18017",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1659_18017",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1752_3929",
@@ -127504,7 +127880,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1817_18018",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1717_18018",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1807_3959",
@@ -127978,6 +128356,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -127999,7 +128378,9 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1708_30019",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1813_37203",
@@ -128142,7 +128523,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1824_29945",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1726_29945",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1815_39585",
@@ -128538,7 +128921,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1832_18019",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1727_18019",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1822_10322",
@@ -129620,7 +130005,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1847_18020",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1747_18020",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1837_10365",
@@ -130094,6 +130481,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -130115,7 +130503,9 @@
         "departureTime": "18:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1741_30021",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1843_37207",
@@ -130617,7 +131007,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1902_18021",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1800_18021",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1852_3930",
@@ -131699,7 +132091,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1917_18022",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1817_18022",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1907_10366",
@@ -132388,6 +132782,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -132409,7 +132804,9 @@
         "departureTime": "19:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1814_31812",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1915_39586",
@@ -132805,7 +133202,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1932_18023",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1829_18023",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1922_3931",
@@ -133530,7 +133929,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1939_29935",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1841_29935",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_1933_10528",
@@ -133806,7 +134207,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_1947_18024",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1846_18024",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1937_10367",
@@ -134504,6 +134907,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -134525,7 +134929,9 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1844_30023",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1945_39753",
@@ -134921,7 +135327,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2002_18025",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1859_18025",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_1952_10326",
@@ -135885,7 +136293,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2017_18026",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1916_18026",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2007_10369",
@@ -136465,6 +136875,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "福知山",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -136486,7 +136897,9 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_1914_31813",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2015_39570",
@@ -136882,7 +137295,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2032_18027",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1929_18027",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2022_3932",
@@ -137607,7 +138022,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2039_29946",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_1941_29946",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2033_10446",
@@ -137881,7 +138298,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2047_18028",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_1946_18028",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2037_10471",
@@ -138848,7 +139267,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2102_18029",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_2001_18029",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2052_10387",
@@ -140038,7 +140459,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2122_18031",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_2016_18031",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2112_22857",
@@ -140288,6 +140711,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -140309,7 +140733,9 @@
         "departureTime": "21:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_2015_30025",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2117_4304",
@@ -140824,7 +141250,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2138_29947",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-21_2042_29947",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2130_10330",
@@ -141299,6 +141727,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "新三田",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -141320,7 +141749,9 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-14_2046_30065",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2137_10495",
@@ -141690,6 +142121,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -141711,7 +142143,9 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_2045_30026",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2149_37121",
@@ -142079,7 +142513,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2202_18034",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_2101_18034",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2152_22859",
@@ -143377,6 +143813,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -143398,7 +143835,9 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_2119_30027",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2220_18259",
@@ -144260,7 +144699,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2242_18038",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_2137_18038",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2232_22863",
@@ -144870,6 +145311,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -144891,7 +145333,9 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_2143_30028",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_INB_JR-A63_2250_18201",
@@ -145273,7 +145717,9 @@
       }
     ],
     "throughTripId": "HD_INB_JR-A47_2302_18040",
-    "throughLineId": "jr_kyoto"
+    "throughLineId": "jr_kyoto",
+    "prevTripId": "HD_INB_jr_takarazuka-14_2157_18040",
+    "prevLineId": "jr_takarazuka"
   },
   {
     "tripId": "HD_OUT_JR-A47_2252_22866",
@@ -147067,6 +147513,7 @@
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
     "customOrigin": "篠山口",
+    "customDestination": "大阪",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -147088,6 +147535,8 @@
         "departureTime": "00:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takarazuka-21_2252_30030",
+    "prevLineId": "jr_takarazuka"
   }
 ]

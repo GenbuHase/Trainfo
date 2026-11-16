@@ -8,6 +8,7 @@ const { bridgeOdakyuGotemba } = require('./bridge_odakyu_gotemba.cjs');
 const { extendChuoHachiojiTakao } = require('./extend_chuo_hachioji_takao.cjs');
 const { bridgeBosoLimitedExpress } = require('./bridgeBosoLimitedExpress.cjs');
 const { bridgeNexAndAyame } = require('./bridgeNexAndAyame.cjs');
+const { linkOdakyuLines } = require('./link_odakyu_lines.cjs');
 const { runAllCoupling } = require('./common/throughLinker/coupleAllExpress.cjs');
 const { rebuildAllStationTimetables } = require('./rebuildAllStationTimetables.cjs');
 
@@ -26,11 +27,13 @@ runAllCoupling();
 // 3. 全路線直通リンカーを実行
 executeUniversalThroughLinker();
 
-// 3-2. 中央特急・房総特急・成田エクスプレス・特急あやめ（あずさ・かいじ・富士回遊・新宿さざなみ・新宿わかしお・さざなみ・わかしお・しおさい・N'EX・あやめ85号）の直通リンクを確定上書き
+// 3-2. 中央特急・房総特急・成田エクスプレス・特急あやめ・小田急線内支線直通リンクを確定上書き
 enrichAzusaTimetable();
+extendAlpsTimetable();
 extendChuoHachiojiTakao();
 bridgeBosoLimitedExpress();
 bridgeNexAndAyame();
+linkOdakyuLines();
 
 // 4. 直通リンク・時刻同期・End-to-End行先反映後の駅時刻表 (stationTimetables.json) を一括再集約
 rebuildAllStationTimetables();

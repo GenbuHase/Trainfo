@@ -12454,7 +12454,7 @@
     "direction": "outbound",
     "originStationId": "TJ-11",
     "destinationStationId": "TJ-22",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "西谷",
     "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
@@ -74102,48 +74102,6 @@
         "isPassing": false
       }
     ]
-  },
-  {
-    "tripId": "WD_INB_TJ-14_1715_114940",
-    "lineId": "tojo",
-    "trainId": "114940",
-    "trainNumber": "3356レ",
-    "trainType": "local",
-    "direction": "inbound",
-    "originStationId": "TJ-14",
-    "destinationStationId": "TJ-11",
-    "customOrigin": "志木",
-    "customDestination": "元町・中華街",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "TJ-14",
-        "arrivalTime": "17:15:00",
-        "departureTime": "17:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TJ-13",
-        "arrivalTime": "17:17:00",
-        "departureTime": "17:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TJ-12",
-        "arrivalTime": "17:20:00",
-        "departureTime": "17:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TJ-11",
-        "arrivalTime": "17:22:00",
-        "departureTime": "17:23:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_OUT_F-01_1723_114940",
-    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1715_114871",

@@ -1,7 +1,7 @@
-// 仙台空港アクセス線（仙台空港線） Yahoo! 路線情報スクレイパー設定
+// 仙台空港アクセス線 Yahoo! 路線情報スクレイパー設定
 module.exports = {
   lineId: 'sendai_airport',
-  name: '仙台空港アクセス線（仙台空港線）',
+  name: '仙台空港アクセス線',
   stationsFilePath: 'src/data/lines/sendai_airport/stations.ts',
   outputPaths: {
     stationTimetables: 'src/data/lines/sendai_airport/stationTimetables.json',

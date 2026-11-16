@@ -393,8 +393,8 @@ const LINE_SPECS = [
   },
   {
     lineId: 'sendai_airport',
-    name: '仙台空港アクセス線（仙台空港線）',
-    shortName: '仙台空港線',
+    name: '仙台空港アクセス線',
+    shortName: '仙台空港アクセス線',
     operator: '仙台空港鉄道',
     prefix: 'SA',
     exportPrefix: 'SENDAI_AIRPORT',

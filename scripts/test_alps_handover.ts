@@ -71,7 +71,9 @@ const testPoints = [
   { time: '02:41:00', desc: '甲府通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
   { time: '03:30:00', desc: '小淵沢通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
   { time: '04:31:00', desc: '塩尻通過・篠ノ井線進入 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
-  { time: '04:47:00', desc: '松本駅停車中 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
+  { time: '04:45:30', desc: '松本到着直前 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
+  // 境界駅停車中は後続トリップ（発車側路線）を優先描画する仕様のため oito_east を期待する
+  { time: '04:47:00', desc: '松本駅停車中 (oito_eastへ引継済)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
   { time: '04:50:00', desc: '松本駅発車直後 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
   { time: '05:23:30', desc: '信濃大町停車中 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
   { time: '05:48:00', desc: '白馬駅接近 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },

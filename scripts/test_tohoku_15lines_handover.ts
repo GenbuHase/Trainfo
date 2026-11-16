@@ -157,7 +157,7 @@ const senzanActive = calculateActiveTrains({
   selectedLineIds: ['senzan', 'sendai_airport', 'kesennuma_brt', 'ofunato_brt'],
 });
 assert.ok(senzanActive.some((t) => t.lineId === 'senzan'), '08:15時点で仙山線列車が稼働していること');
-assert.ok(senzanActive.some((t) => t.lineId === 'sendai_airport'), '08:15時点で仙台空港線が稼働していること');
+assert.ok(senzanActive.some((t) => t.lineId === 'sendai_airport'), '08:15時点で仙台空港アクセス線が稼働していること');
 assert.ok(senzanActive.some((t) => t.lineId === 'kesennuma_brt'), '08:15時点で気仙沼線BRTが稼働していること');
 assert.ok(senzanActive.some((t) => t.lineId === 'ofunato_brt'), '08:15時点で大船渡線BRTが稼働していること');
 console.log(`  ✅ 08:15:00 同時シミュレーション稼働本数 (仙山・仙台空港・両BRT): ${senzanActive.length} 本`);

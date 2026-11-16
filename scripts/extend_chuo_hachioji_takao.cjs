@@ -69,11 +69,16 @@ function extendChuoHachiojiTakao() {
     }
   }
 
-  // 非特急から誤生成された富士回遊ゴースト(_fuji)および異常なゴーストを除去
+  // 非特急や非富士回遊から誤生成された富士回遊ゴースト(_fuji)および異常なゴーストを除去
   const chuoLenBefore = chuoTrips.length;
   for (let i = chuoTrips.length - 1; i >= 0; i--) {
     const t = chuoTrips[i];
-    if (t.tripId.includes('_fuji') && (t.trainType !== 'limitedExp' || t.tripId.includes('10030'))) {
+    if (
+      t.tripId.includes('_fuji') &&
+      (t.trainType !== 'limitedExp' ||
+        t.tripId.includes('10030') ||
+        (!t.throughTripId && !t.prevTripId && (!t.trainName || !t.trainName.includes('富士回遊'))))
+    ) {
       chuoTrips.splice(i, 1);
     }
   }
