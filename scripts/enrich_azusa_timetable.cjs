@@ -428,9 +428,12 @@ function enrichAzusaTimetable() {
     if (chuoTrip) {
       chuoTrip.customOrigin = '白馬';
       chuoTrip.customDestination = '新宿';
-      chuoTrip.throughTripId = chuoMainTripId;
-      chuoTrip.throughLineId = 'chuo_main';
-      console.log(`  ✓ chuo ${chuoTripId} を更新 (customOrigin: 白馬, through -> ${chuoMainTripId})`);
+      // 上り（塩尻→高尾→新宿）の最終区間のため、throughTripId ではなく prevTripId を設定する
+      delete chuoTrip.throughTripId;
+      delete chuoTrip.throughLineId;
+      chuoTrip.prevTripId = chuoMainTripId;
+      chuoTrip.prevLineId = 'chuo_main';
+      console.log(`  ✓ chuo ${chuoTripId} を更新 (customOrigin: 白馬, prev -> ${chuoMainTripId})`);
     }
   }
 

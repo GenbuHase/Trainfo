@@ -1574,138 +1574,6 @@
     "prevLineId": "jr_osaka_loop"
   },
   {
-    "tripId": "WD_INB_jr_yamatoji-21_0638_6344",
-    "lineId": "jr_yamatoji",
-    "trainId": "6344",
-    "trainNumber": "302Y",
-    "trainType": "semi_rapid",
-    "direction": "inbound",
-    "originStationId": "jr_yamatoji-19",
-    "destinationStationId": "jr_yamatoji-01",
-    "customOrigin": "天王寺",
-    "customDestination": "加茂",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "jr_yamatoji-19",
-        "arrivalTime": "06:42:00",
-        "departureTime": "06:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-18",
-        "arrivalTime": "06:46:30",
-        "departureTime": "06:46:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-17",
-        "arrivalTime": "06:48:00",
-        "departureTime": "06:48:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-16",
-        "arrivalTime": "06:49:30",
-        "departureTime": "06:49:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-15",
-        "arrivalTime": "06:51:00",
-        "departureTime": "06:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-14",
-        "arrivalTime": "06:52:43",
-        "departureTime": "06:52:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-13",
-        "arrivalTime": "06:54:26",
-        "departureTime": "06:54:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-12",
-        "arrivalTime": "06:56:09",
-        "departureTime": "06:56:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-11",
-        "arrivalTime": "06:57:51",
-        "departureTime": "06:57:51",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-10",
-        "arrivalTime": "06:59:34",
-        "departureTime": "06:59:34",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-09",
-        "arrivalTime": "07:01:17",
-        "departureTime": "07:01:17",
-        "isPassing": true
-      },
-      {
-        "stationId": "jr_yamatoji-08",
-        "arrivalTime": "07:03:00",
-        "departureTime": "07:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-07",
-        "arrivalTime": "07:07:00",
-        "departureTime": "07:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-06",
-        "arrivalTime": "07:10:00",
-        "departureTime": "07:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-05",
-        "arrivalTime": "07:14:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-04",
-        "arrivalTime": "07:19:00",
-        "departureTime": "07:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-03",
-        "arrivalTime": "07:33:00",
-        "departureTime": "07:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-02",
-        "arrivalTime": "07:36:00",
-        "departureTime": "07:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "jr_yamatoji-01",
-        "arrivalTime": "07:43:00",
-        "departureTime": "07:43:00",
-        "isPassing": false
-      }
-    ],
-    "prevTripId": "WD_INB_jr_osaka_loop-01_0559_6347",
-    "prevLineId": "jr_osaka_loop"
-  },
-  {
     "tripId": "WD_INB_jr_yamatoji-22_0640_27686",
     "lineId": "jr_yamatoji",
     "trainId": "27686",
@@ -32554,19 +32422,13 @@
     "trainNumber": "3346K",
     "trainType": "yamatoji_rapid",
     "direction": "inbound",
-    "originStationId": "jr_yamatoji-20",
+    "originStationId": "jr_yamatoji-19",
     "destinationStationId": "jr_yamatoji-04",
-    "customOrigin": "大阪",
+    "customOrigin": "天王寺",
     "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "jr_yamatoji-20",
-        "arrivalTime": "10:56:00",
-        "departureTime": "10:57:00",
-        "isPassing": false
-      },
       {
         "stationId": "jr_yamatoji-19",
         "arrivalTime": "10:58:00",
@@ -32664,8 +32526,8 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_jr_osaka_higashi-01_1014_11914",
-    "prevLineId": "jr_osaka_higashi"
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1020_6366",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-22_1100_23922",
@@ -33813,7 +33675,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "10:58:00",
+        "arrivalTime": "11:58:00",
         "departureTime": "12:00:00",
         "isPassing": false
       },
@@ -33908,7 +33770,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1020_6366",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1120_6369",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -34835,7 +34697,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "11:58:00",
+        "arrivalTime": "12:58:00",
         "departureTime": "13:00:00",
         "isPassing": false
       },
@@ -34930,7 +34792,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1120_6369",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1220_6372",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -35857,7 +35719,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "12:58:00",
+        "arrivalTime": "13:58:00",
         "departureTime": "14:00:00",
         "isPassing": false
       },
@@ -35952,7 +35814,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1220_6372",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1320_6375",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -36879,7 +36741,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "13:58:00",
+        "arrivalTime": "14:58:00",
         "departureTime": "15:00:00",
         "isPassing": false
       },
@@ -36974,7 +36836,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1320_6375",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1420_6378",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -39812,19 +39674,13 @@
     "trainNumber": "3398K",
     "trainType": "yamatoji_rapid",
     "direction": "inbound",
-    "originStationId": "jr_yamatoji-20",
+    "originStationId": "jr_yamatoji-19",
     "destinationStationId": "jr_yamatoji-04",
-    "customOrigin": "大阪",
+    "customOrigin": "天王寺",
     "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "jr_yamatoji-20",
-        "arrivalTime": "17:27:00",
-        "departureTime": "17:27:00",
-        "isPassing": false
-      },
       {
         "stationId": "jr_yamatoji-19",
         "arrivalTime": "17:29:00",
@@ -39922,8 +39778,8 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_jr_osaka_higashi-01_1705_11916",
-    "prevLineId": "jr_osaka_higashi"
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1648_6382",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-22_1731_23954",
@@ -41210,19 +41066,13 @@
     "trainNumber": "3406K",
     "trainType": "yamatoji_rapid",
     "direction": "inbound",
-    "originStationId": "jr_yamatoji-20",
+    "originStationId": "jr_yamatoji-19",
     "destinationStationId": "jr_yamatoji-04",
-    "customOrigin": "大阪",
+    "customOrigin": "天王寺",
     "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "jr_yamatoji-20",
-        "arrivalTime": "18:27:00",
-        "departureTime": "18:27:00",
-        "isPassing": false
-      },
       {
         "stationId": "jr_yamatoji-19",
         "arrivalTime": "18:29:00",
@@ -41320,8 +41170,8 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_jr_osaka_higashi-01_1805_11918",
-    "prevLineId": "jr_osaka_higashi"
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1748_6384",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-22_1831_23962",
@@ -41901,7 +41751,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "17:29:00",
+        "arrivalTime": "18:59:00",
         "departureTime": "19:02:00",
         "isPassing": false
       },
@@ -41996,7 +41846,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1648_6382",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1818_6385",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -43085,7 +42935,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "18:29:00",
+        "arrivalTime": "19:59:00",
         "departureTime": "20:02:00",
         "isPassing": false
       },
@@ -43180,7 +43030,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1748_6384",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1918_6387",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -43685,7 +43535,7 @@
     "stops": [
       {
         "stationId": "jr_yamatoji-19",
-        "arrivalTime": "18:59:00",
+        "arrivalTime": "20:29:00",
         "departureTime": "20:32:00",
         "isPassing": false
       },
@@ -43780,7 +43630,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_1818_6385",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_1948_6388",
     "prevLineId": "jr_osaka_loop"
   },
   {

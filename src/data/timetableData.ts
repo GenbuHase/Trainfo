@@ -454,10 +454,34 @@ export function getGlobalTripMap(): Map<string, TimetableTrip> {
 
 
 /**
- * 2つのトリップが同一運行チェーン（直通・スイッチバック）として接続可能か汎用判定
+ * 2点間の直線距離 (km) を計算する軽量ヘルパー（循環参照回避のためローカル定義）
+ */
+function calcStationDistanceKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLng = ((lng2 - lng1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLng / 2) *
+      Math.sin(dLng / 2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+/**
+ * 2つのトリップが同一運行チェーン（明示的リンクがない区間でのスイッチバック等）として接続可能か厳格判定
+ * ※ Yahoo trainId は他路線間で偶然重複するため、物理座標・時間差・種別整合を厳しく要求する
  */
 function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolean {
   if (tripA.isHoliday !== tripB.isHoliday) return false;
+  if (tripA.lineId === tripB.lineId) return false;
+  if ((tripA.trainType === 'limitedExp') !== (tripB.trainType === 'limitedExp')) return false;
+
+  // 新幹線と在来線の誤接続を防止（新幹線同士のみ直通可）
+  const isShinkansenA = tripA.lineId.endsWith('_shinkansen');
+  const isShinkansenB = tripB.lineId.endsWith('_shinkansen');
+  if (isShinkansenA !== isShinkansenB) return false;
 
   const firstA = tripA.stops[0];
   const lastA = tripA.stops[tripA.stops.length - 1];
@@ -471,29 +495,42 @@ function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolea
   const startB = timeStringToSeconds(firstB.departureTime || firstB.arrivalTime);
   const endB = timeStringToSeconds(lastB.arrivalTime || lastB.departureTime);
 
-  // A -> B の順序の場合
-  const nameEndA = STATION_MAP.get(lastA.stationId)?.name;
-  const nameStartB = STATION_MAP.get(firstB.stationId)?.name;
-  const isSameStationAtoB = nameEndA && nameStartB && nameEndA === nameStartB;
-  const diffAtoB = startB - endA;
+  const stEndA = STATION_MAP.get(lastA.stationId);
+  const stStartB = STATION_MAP.get(firstB.stationId);
+  const stEndB = STATION_MAP.get(lastB.stationId);
+  const stStartA = STATION_MAP.get(firstA.stationId);
 
-  // B -> A の順序の場合
-  const nameEndB = STATION_MAP.get(lastB.stationId)?.name;
-  const nameStartA = STATION_MAP.get(firstA.stationId)?.name;
-  const isSameStationBtoA = nameEndB && nameStartA && nameEndB === nameStartA;
-  const diffBtoA = startA - endB;
+  const sameOfficialNo = Boolean(
+    tripA.trainNumber &&
+    tripB.trainNumber &&
+    formatTrainNumber(tripA.trainNumber, tripA.trainId, tripA.tripId) ===
+      formatTrainNumber(tripB.trainNumber, tripB.trainId, tripB.tripId)
+  );
+  const maxWaitSec = sameOfficialNo ? 1800 : 900;
 
-  // 1) 同一接続駅（スイッチバック・長時間停車等）の場合: -15分〜120分以内の接続を許容
-  if (isSameStationAtoB && diffAtoB >= -900 && diffAtoB <= 7200) return true;
-  if (isSameStationBtoA && diffBtoA >= -900 && diffBtoA <= 7200) return true;
+  // A -> B の接続判定（すでに明示的な別ポインタがある側には割り込まない）
+  if (!tripA.throughTripId && !tripB.prevTripId && stEndA && stStartB && stEndA.name === stStartB.name) {
+    const dist = calcStationDistanceKm(stEndA.lat, stEndA.lng, stStartB.lat, stStartB.lng);
+    if (dist <= 2.5) {
+      let diffAtoB = startB - endA;
+      if (diffAtoB < -43200) diffAtoB += 86400;
+      if (diffAtoB >= -300 && diffAtoB <= maxWaitSec) {
+        return true;
+      }
+    }
+  }
 
-  // 2) 同一駅名が直接一致しない場合でも時間的に連続している場合（-10分〜45分以内）
-  if (diffAtoB >= -600 && diffAtoB <= 2700) return true;
-  if (diffBtoA >= -600 && diffBtoA <= 2700) return true;
-
-  // 3) 運転区間が重なっている場合（部分重複登録）
-  const overlap = Math.min(endA, endB) - Math.max(startA, startB);
-  if (overlap > 0 && Math.abs(startA - startB) <= 3600) return true;
+  // B -> A の接続判定
+  if (!tripB.throughTripId && !tripA.prevTripId && stEndB && stStartA && stEndB.name === stStartA.name) {
+    const dist = calcStationDistanceKm(stEndB.lat, stEndB.lng, stStartA.lat, stStartA.lng);
+    if (dist <= 2.5) {
+      let diffBtoA = startA - endB;
+      if (diffBtoA < -43200) diffBtoA += 86400;
+      if (diffBtoA >= -300 && diffBtoA <= maxWaitSec) {
+        return true;
+      }
+    }
+  }
 
   return false;
 }
@@ -520,8 +557,8 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     const cur = queue.shift()!;
     chain.push(cur);
 
-    // トリップ候補がチェーン内の既存トリップと同一路線で2駅以上重複（区間重複）していないか判定
-    const isHeavyOverlap = (candidate: TimetableTrip) => {
+    // 同一路線内での区間重複チェック（全ステップ共通）
+    const isSameLineOverlap = (candidate: TimetableTrip) => {
       const candidateStationIds = new Set(candidate.stops.map((s) => s.stationId));
       return chain.some((existing) => {
         if (existing.lineId !== candidate.lineId) return false;
@@ -530,12 +567,54 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
       });
     };
 
-    // 1. 同一 trainId のトリップを収集 (汎用接続判定により、スイッチバックや路線間上下反転も正しく統合)
+    // 暗黙リンク収集用: 他路線名での別視点重複レコード（例: 相鉄JR直通と湘南新宿ライン大崎〜新宿）も除外
+    const isImplicitCrossLineOverlap = (candidate: TimetableTrip) => {
+      if (isSameLineOverlap(candidate)) return true;
+      const cNames = new Set(candidate.stops.map((s) => STATION_MAP.get(s.stationId)?.name).filter(Boolean));
+      const cFirst = candidate.stops[0];
+      const cLast = candidate.stops[candidate.stops.length - 1];
+      if (!cFirst || !cLast) return false;
+      const cStart = timeStringToSeconds(cFirst.departureTime || cFirst.arrivalTime);
+      const cEnd = timeStringToSeconds(cLast.arrivalTime || cLast.departureTime);
+
+      return [...chain, ...queue].some((existing) => {
+        const nameOverlap = existing.stops.filter((s) => {
+          const n = STATION_MAP.get(s.stationId)?.name;
+          return Boolean(n && cNames.has(n));
+        }).length;
+        if (nameOverlap <= 1) return false;
+        const eFirst = existing.stops[0];
+        const eLast = existing.stops[existing.stops.length - 1];
+        if (!eFirst || !eLast) return false;
+        const eStart = timeStringToSeconds(eFirst.departureTime || eFirst.arrivalTime);
+        const eEnd = timeStringToSeconds(eLast.arrivalTime || eLast.departureTime);
+        return Math.min(cEnd, eEnd) - Math.max(cStart, eStart) > 0;
+      });
+    };
+
+    // 1. 明示ポインタ prevTripId を優先して遡る
+    if (cur.prevTripId && !visitedTripIds.has(cur.prevTripId)) {
+      const prev = map.get(cur.prevTripId);
+      if (prev && !isSameLineOverlap(prev)) {
+        visitedTripIds.add(prev.tripId);
+        queue.push(prev);
+      }
+    }
+
+    // 2. 明示ポインタ throughTripId を優先して辿る
+    if (cur.throughTripId && !visitedTripIds.has(cur.throughTripId)) {
+      const next = map.get(cur.throughTripId);
+      if (next && !isSameLineOverlap(next)) {
+        visitedTripIds.add(next.tripId);
+        queue.push(next);
+      }
+    }
+
+    // 3. 明示ポインタが欠落している境界（スイッチバック等）のみ、同一 trainId の他路線トリップを補完収集
     if (cur.trainId) {
       const sameTrainIdTrips = trainIdMap.get(cur.trainId) || [];
       for (const st of sameTrainIdTrips) {
         if (!visitedTripIds.has(st.tripId) && areTripsConnectable(cur, st)) {
-          // すでに cur.prevTripId が明示されている場合、st が先行トリップ（st -> cur）なら誤接続を防ぐためスキップ
           const firstCur = cur.stops[0];
           const lastSt = st.stops[st.stops.length - 1];
           const isStBeforeCur = Boolean(
@@ -548,7 +627,6 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
             continue;
           }
 
-          // すでに cur.throughTripId が明示されている場合、st が後続トリップ（cur -> st）なら誤接続を防ぐためスキップ
           const lastCur = cur.stops[cur.stops.length - 1];
           const firstSt = st.stops[0];
           const isStAfterCur = Boolean(
@@ -561,32 +639,13 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
             continue;
           }
 
-                    // すでに収集済みのトリップ群と区間駅が大幅に重複しているトリップは別系統の重複とみなしスキップ
-          if (isHeavyOverlap(st)) {
+          if (isImplicitCrossLineOverlap(st)) {
             continue;
           }
 
           visitedTripIds.add(st.tripId);
           queue.push(st);
         }
-      }
-    }
-
-    // 2. prevTripId を遡る
-    if (cur.prevTripId && !visitedTripIds.has(cur.prevTripId)) {
-      const prev = map.get(cur.prevTripId);
-      if (prev && !isHeavyOverlap(prev)) {
-        visitedTripIds.add(prev.tripId);
-        queue.push(prev);
-      }
-    }
-
-    // 3. throughTripId を辿る
-    if (cur.throughTripId && !visitedTripIds.has(cur.throughTripId)) {
-      const next = map.get(cur.throughTripId);
-      if (next && !isHeavyOverlap(next)) {
-        visitedTripIds.add(next.tripId);
-        queue.push(next);
       }
     }
   }
@@ -626,22 +685,50 @@ function sortThroughChainTrips(chain: TimetableTrip[]): TimetableTrip[] {
     }
   }
 
+  // 3. 明示ポインタが欠落している暗黙接続 (例: 篠ノ井線->大糸線 松本駅) にも有向辺を追加し、並び順逆転を防止
+  for (const a of chain) {
+    if (a.throughTripId && chainSet.has(a.throughTripId)) continue;
+    const lastA = a.stops[a.stops.length - 1];
+    const stEndA = lastA ? STATION_MAP.get(lastA.stationId) : undefined;
+    if (!lastA || !stEndA) continue;
+    const endASec = timeStringToSeconds(lastA.arrivalTime || lastA.departureTime);
+
+    for (const b of chain) {
+      if (a.tripId === b.tripId || (b.prevTripId && chainSet.has(b.prevTripId))) continue;
+      const firstB = b.stops[0];
+      const stStartB = firstB ? STATION_MAP.get(firstB.stationId) : undefined;
+      if (!firstB || !stStartB || stEndA.name !== stStartB.name) continue;
+      if (calcStationDistanceKm(stEndA.lat, stEndA.lng, stStartB.lat, stStartB.lng) > 2.5) continue;
+
+      const startBSec = timeStringToSeconds(firstB.departureTime || firstB.arrivalTime);
+      let diff = startBSec - endASec;
+      if (diff < -43200) diff += 86400;
+      if (diff >= -300 && diff <= 1800 && !nextMap.get(b.tripId)?.has(a.tripId)) {
+        nextMap.get(a.tripId)!.add(b.tripId);
+        prevMap.get(b.tripId)!.add(a.tripId);
+      }
+    }
+  }
+
   for (const [id, prevs] of prevMap.entries()) {
     inDegree.set(id, prevs.size);
   }
 
-  // 入次数0（最上流・始発路線）のノードをキューに追加
-  const queue = chain.filter((t) => (inDegree.get(t.tripId) || 0) === 0);
-  queue.sort((a, b) => {
+  const compareByDeparture = (a: TimetableTrip, b: TimetableTrip) => {
     const depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
     const depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
     return depA - depB;
-  });
+  };
+
+  // 入次数0（最上流・始発路線）のノードをキューに追加
+  const queue = chain.filter((t) => (inDegree.get(t.tripId) || 0) === 0);
+  queue.sort(compareByDeparture);
 
   const sorted: TimetableTrip[] = [];
   const visited = new Set<string>();
 
   while (queue.length > 0) {
+    queue.sort(compareByDeparture);
     const cur = queue.shift()!;
     if (visited.has(cur.tripId)) continue;
     visited.add(cur.tripId);

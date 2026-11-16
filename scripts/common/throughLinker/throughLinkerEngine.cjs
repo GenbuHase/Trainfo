@@ -78,12 +78,12 @@ function deduplicateLineTrips(trips) {
         trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}_${yId || ''}`;
       } else if (isClonedBranchTrip(t)) {
         trainKey = `${t.trainNumber || ''}_branch_${t.customDestination || ''}_${yId || ''}`;
-      } else if ((isLimitedExpress(t.trainType) || isExpressType(t.trainType)) && yId) {
+      } else if ((isLimitedExpress(t.trainType) || isExpressType(t.trainType)) && !isOfficialTrainNumber(t.trainNumber) && yId) {
         trainKey = `${t.trainNumber || ''}_${yId}`;
       } else if (t.trainNumber && t.customDestination) {
-        trainKey = `${t.trainNumber}_${t.customDestination}`;
+        trainKey = `${t.trainNumber}_${t.trainName || ''}_${t.customDestination}`;
       } else if (t.trainNumber) {
-        trainKey = t.trainNumber;
+        trainKey = `${t.trainNumber}_${t.trainName || ''}`;
       } else if (yId) {
         trainKey = yId;
       }
@@ -122,7 +122,12 @@ function areDestinationsCompatible(destA, destB) {
   if (!destA || !destB) return true;
   const cleanA = cleanStationName(destA);
   const cleanB = cleanStationName(destB);
-  if (cleanA === cleanB || cleanA.includes(cleanB) || cleanB.includes(cleanA)) return true;
+  if (cleanA === cleanB) return true;
+
+  // 併結行先（「河口湖・松本」等）の部分駅一致のみ許可（「新栃木」と「栃木」の部分文字列誤認を防止）
+  const partsA = cleanA.split(/[・\/]/).filter(Boolean);
+  const partsB = cleanB.split(/[・\/]/).filter(Boolean);
+  if (partsA.some((pa) => partsB.includes(pa))) return true;
 
   const groups = config.destinationCompatibilityGroups || [];
   for (const group of groups) {
@@ -381,9 +386,11 @@ function linkPair({
         }
       }
 
-      // 1. 完全一致 (trainId または 公式列車番号)
-      const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
-      if (isIdMatch && waitSec >= -300 && waitSec <= 7200) {
+      // 1. 完全一致 (公式列車番号一致、または待機30分以内の同一 trainId)
+      const isNoMatch = Boolean(noA && noB && noA === noB);
+      const isYIdMatch = Boolean(yIdA && yIdB && yIdA === yIdB);
+      const maxIdWaitSec = isNoMatch ? 2700 : 1800;
+      if ((isNoMatch || isYIdMatch) && waitSec >= -300 && waitSec <= maxIdWaitSec) {
         if (destA && destB && !areDestinationsCompatible(destA, destB)) {
           // 行先が非互換の場合は別系統のためスキップ
         } else {

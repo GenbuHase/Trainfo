@@ -1366,7 +1366,8 @@ module.exports = {
       "dirB": "outbound",
       "maxTimeDiff": 1800,
       "allowMidStationB": true,
-      "requireIdMatch": true
+      "requireIdMatch": true,
+      "disallowedOrigins": ["直江津", "柏崎", "宮内", "上越妙高"]
     },
     {
       "name": "信越本線 -> 上越線 (新潟発・長岡経由・越後湯沢・水上方面直通)",
@@ -1378,7 +1379,8 @@ module.exports = {
       "dirB": "inbound",
       "maxTimeDiff": 1800,
       "allowMidStationA": true,
-      "requireIdMatch": true
+      "requireIdMatch": true,
+      "disallowedOrigins": ["新潟"]
     },
     {
       "name": "上越線 -> ほくほく線 (越後湯沢発・六日町経由・犀潟方面直通)",
@@ -1601,7 +1603,8 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 900,
-      "allowMidStationA": true
+      "allowMidStationA": true,
+      "requireIdMatch": true
     },
     {
       "name": "宇都宮線 -> 日光線 (上り 新栃木経由 南栗橋方面直通)",
@@ -1612,7 +1615,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 900,
-      "allowMidStationB": true
+      "allowMidStationB": true,
+      "requireIdMatch": true
     },
     {
       "name": "日光線 -> 鬼怒川線 (下り 下今市経由 鬼怒川温泉・新藤原方面直通)",
@@ -2959,8 +2963,9 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "requireIdMatch": true,
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "JR大和路線 -> JRおおさか東線 (奈良・王寺発 久宝寺経由 大阪方面 直通快速)",
@@ -2971,8 +2976,9 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "inbound",
       "maxTimeDiff": 600,
-      "allowMidStationA": true,
-      "allowMidStationB": true
+      "requireIdMatch": true,
+      "allowMidStationA": false,
+      "allowMidStationB": false
     },
     {
       "name": "東海道本線（豊橋～米原） -> JR北陸本線（米原～敦賀） (名古屋発 米原経由 敦賀行 特急しらさぎ)",

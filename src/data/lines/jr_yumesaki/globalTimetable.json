@@ -1969,7 +1969,7 @@
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "08:46:00",
+        "arrivalTime": "08:49:00",
         "departureTime": "08:50:00",
         "isPassing": false
       },
@@ -1991,7 +1991,9 @@
         "departureTime": "08:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_osaka_loop-01_0731_17590",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "WD_INB_jr_yumesaki-04_0851_12249",
@@ -2237,6 +2239,7 @@
     "originStationId": "jr_yumesaki-01",
     "destinationStationId": "jr_yumesaki-04",
     "customOrigin": "天王寺",
+    "customDestination": "桜島",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2264,7 +2267,9 @@
         "departureTime": "09:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_osaka_loop-01_0755_17592",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "WD_INB_jr_yumesaki-04_0917_12253",
@@ -2362,7 +2367,7 @@
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "08:49:00",
+        "arrivalTime": "09:20:00",
         "departureTime": "09:22:00",
         "isPassing": false
       },
@@ -2385,7 +2390,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_jr_osaka_loop-01_0731_17590",
+    "prevTripId": "WD_INB_jr_osaka_loop-01_0805_17593",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -2684,7 +2689,7 @@
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "09:14:00",
+        "arrivalTime": "09:52:00",
         "departureTime": "09:54:00",
         "isPassing": false
       },
@@ -2707,7 +2712,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_jr_osaka_loop-01_0755_17592",
+    "prevTripId": "WD_INB_jr_osaka_loop-01_0830_17595",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -2748,9 +2753,7 @@
         "departureTime": "10:11:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_INB_jr_osaka_loop-01_0830_17595",
-    "prevLineId": "jr_osaka_loop"
+    ]
   },
   {
     "tripId": "WD_INB_jr_yumesaki-04_1003_12259",
@@ -2806,7 +2809,7 @@
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "09:20:00",
+        "arrivalTime": "10:06:00",
         "departureTime": "10:09:00",
         "isPassing": false
       },
@@ -2829,7 +2832,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_jr_osaka_loop-01_0805_17593",
+    "prevTripId": "WD_INB_jr_osaka_loop-01_0848_17596",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -2870,9 +2873,7 @@
         "departureTime": "10:27:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_INB_jr_osaka_loop-01_0848_17596",
-    "prevLineId": "jr_osaka_loop"
+    ]
   },
   {
     "tripId": "WD_INB_jr_yumesaki-04_1022_12261",
@@ -9403,14 +9404,14 @@
     "direction": "outbound",
     "originStationId": "jr_yumesaki-01",
     "destinationStationId": "jr_yumesaki-04",
-    "customOrigin": "京橋",
+    "customOrigin": "天王寺",
     "customDestination": "桜島",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "06:52:00",
+        "arrivalTime": "06:59:00",
         "departureTime": "07:00:00",
         "isPassing": false
       },
@@ -9432,7 +9433,9 @@
         "departureTime": "07:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_osaka_loop-01_0543_17586",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "HD_INB_jr_yumesaki-04_0706_12227",
@@ -10240,6 +10243,7 @@
     "originStationId": "jr_yumesaki-01",
     "destinationStationId": "jr_yumesaki-04",
     "customOrigin": "天王寺",
+    "customDestination": "桜島",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -10267,7 +10271,9 @@
         "departureTime": "08:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_osaka_loop-01_0702_17588",
+    "prevLineId": "jr_osaka_loop"
   },
   {
     "tripId": "HD_INB_jr_yumesaki-04_0828_40814",
@@ -10403,7 +10409,7 @@
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "06:59:00",
+        "arrivalTime": "08:36:00",
         "departureTime": "08:38:00",
         "isPassing": false
       },
@@ -10426,7 +10432,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_0543_17586",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_0720_17589",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -10505,9 +10511,7 @@
         "departureTime": "08:57:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_0720_17589",
-    "prevLineId": "jr_osaka_loop"
+    ]
   },
   {
     "tripId": "HD_INB_jr_yumesaki-04_0852_12018",
@@ -10567,7 +10571,7 @@
     "stops": [
       {
         "stationId": "jr_yumesaki-01",
-        "arrivalTime": "08:22:00",
+        "arrivalTime": "08:52:00",
         "departureTime": "08:53:00",
         "isPassing": false
       },
@@ -10590,7 +10594,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_0702_17588",
+    "prevTripId": "HD_INB_jr_osaka_loop-01_0736_17591",
     "prevLineId": "jr_osaka_loop"
   },
   {
@@ -10669,9 +10673,7 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_INB_jr_osaka_loop-01_0736_17591",
-    "prevLineId": "jr_osaka_loop"
+    ]
   },
   {
     "tripId": "HD_INB_jr_yumesaki-04_0906_12020",

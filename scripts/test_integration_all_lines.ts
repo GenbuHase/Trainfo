@@ -17,6 +17,7 @@ import {
 } from '../src/data/timetableData';
 import { calculateDistanceKm } from '../src/data/trackGeometry';
 import { getAllLines, getLine } from '../src/data/linesRegistry';
+import { STATION_MAP } from '../src/data/stations';
 import { loadLinesTimetables } from '../src/data/timetableLoader';
 import type { ActiveTrain, LineId, TimetableTrip } from '../src/types';
 
@@ -102,6 +103,90 @@ async function runAllLinesIntegrationTests() {
     assert.equal(brokenPrev, 0, `参照先不在の prevTripId が ${brokenPrev} 件あります`);
     assert.equal(brokenCoupling, 0, `参照先不在の coupledTripId が ${brokenCoupling} 件あります`);
     console.log(`       総トリップ数=${globalMap.size}: 破損リンク 0件 確認`);
+  });
+
+  check('全174路線: 直通時間逆転ゼロ & 暗黙チェーン境界ジャンプゼロ (伊豆急->中央本線, 新幹線->在来線等防止)', () => {
+    const globalMap = new Map<string, TimetableTrip>();
+    for (const line of allLines) {
+      for (const trip of line.globalTimetable) {
+        globalMap.set(trip.tripId, trip);
+      }
+    }
+
+    // 明示リンクの時刻逆転検査（4時日跨ぎ補正あり）
+    let timeReversalCount = 0;
+    for (const trip of globalMap.values()) {
+      if (!trip.throughTripId) continue;
+      const next = globalMap.get(trip.throughTripId);
+      if (!next) continue;
+      const endStop = trip.stops[trip.stops.length - 1];
+      const startStop = next.stops[0];
+      if (!endStop || !startStop) continue;
+      const eSec = timeStringToSeconds(endStop.arrivalTime || endStop.departureTime);
+      const sSec = timeStringToSeconds(startStop.departureTime || startStop.arrivalTime);
+      let diff = sSec - eSec;
+      if (diff < -18 * 3600) diff += 86400;
+      if (diff < -60) timeReversalCount++;
+    }
+    assert.equal(timeReversalCount, 0, `明示直通リンクの時間逆転が ${timeReversalCount} 件あります`);
+
+    // 全チェーン境界距離 & 系統混入検査
+    const allowedExplicitJumpPairs = new Set([
+      'shonan_shinjuku->yokosuka',
+      'yokosuka->shonan_shinjuku',
+      'takasaki->ryomo',
+      'ryomo->takasaki',
+      'chuo->sobu_rapid',
+    ]);
+    const seenSigs = new Set<string>();
+    const unexpectedJumps: string[] = [];
+    for (const tripId of globalMap.keys()) {
+      const chain = getThroughChainTrips(tripId);
+      const sig = chain.map((c) => c.tripId).join('>');
+      if (seenSigs.has(sig)) continue;
+      seenSigs.add(sig);
+
+      const lineIds = chain.map((c) => c.lineId);
+      if (lineIds.includes('izukyu') || lineIds.includes('ito')) {
+        assert.ok(
+          !lineIds.includes('chuo') && !lineIds.includes('chuo_main'),
+          `伊豆急・伊東線チェーンに中央線系統が混入しています: ${sig}`
+        );
+      }
+      if (lineIds.some((l) => l.endsWith('_shinkansen'))) {
+        assert.ok(
+          lineIds.every((l) => l.endsWith('_shinkansen')),
+          `新幹線チェーンに在来線が混入しています: ${sig}`
+        );
+      }
+
+      for (let i = 0; i < chain.length - 1; i++) {
+        const a = chain[i];
+        const b = chain[i + 1];
+        const stA = STATION_MAP.get(a.stops[a.stops.length - 1]?.stationId);
+        const stB = STATION_MAP.get(b.stops[0]?.stationId);
+        if (!stA || !stB) continue;
+        const dist = calculateDistanceKm(stA.lat, stA.lng, stB.lat, stB.lng);
+        const isExplicit = a.throughTripId === b.tripId || b.prevTripId === a.tripId;
+        const pairKey = `${a.lineId}->${b.lineId}`;
+        if (dist > 2.5 && (!isExplicit || !allowedExplicitJumpPairs.has(pairKey))) {
+          unexpectedJumps.push(`${pairKey} (${stA.name}->${stB.name}, ${dist.toFixed(2)}km)`);
+        }
+      }
+    }
+    assert.equal(unexpectedJumps.length, 0, `不正チェーン境界ジャンプ検出: ${unexpectedJumps.slice(0, 5).join(', ')}`);
+  });
+
+  check('あずさ5号 (42780) & あずさ38号 (42025): 多線直通チェーン整列順・非循環検証', () => {
+    const azusa5 = getThroughChainTrips('WD_OUT_JC-05_0800_42780').map((t) => t.lineId);
+    assert.deepEqual(azusa5, ['chuo', 'chuo_main', 'shinonoi', 'oito_east']);
+
+    const azusa38 = getThroughChainTrips('WD_INB_OIE-29_1343_42025');
+    assert.deepEqual(
+      azusa38.map((t) => t.lineId),
+      ['oito_east', 'shinonoi', 'chuo_main', 'chuo']
+    );
+    assert.equal(azusa38[azusa38.length - 1].throughTripId, undefined);
   });
 
   // -----------------------------------------------------------------------
