@@ -175,56 +175,36 @@ import { jrObamaLine } from './lines/jr_obama';
 import { jrWadamisakiLine } from './lines/jr_wadamisaki';
 
 
-// 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
+// 登録路線マップ（新幹線・主要幹線・都市圏路線・ローカル線の自然な順序）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
+  // === 新幹線 ===
+  tokaido_shinkansen: tokaidoShinkansenLine,
+  sanyo_shinkansen: sanyoShinkansenLine,
   tohoku_shinkansen: tohokuShinkansenLine,
   joetsu_shinkansen: joetsuShinkansenLine,
+  hokuriku_shinkansen: hokurikuShinkansenLine,
   yamagata_shinkansen: yamagataShinkansenLine,
   akita_shinkansen: akitaShinkansenLine,
-  hokuriku_shinkansen: hokurikuShinkansenLine,
+
+  // === JR東日本（首都圏主要幹線・電車特定区間） ===
   yamanote: yamanoteLine,
   keihin_tohoku_negishi: keihinTohokuNegishiLine,
-  chuo: chuoLine,
-  chuo_sobu_local: chuoSobuLocalLine,
-  saikyo: saikyoLine,
-  musashino: musashinoLine,
-  keiyo: keiyoLine,
   ueno_tokyo: uenoTokyoLine,
   shonan_shinjuku: shonanShinjukuLine,
   tokaido: tokaidoLine,
   yokosuka: yokosukaLine,
+  chuo: chuoLine,
+  chuo_sobu_local: chuoSobuLocalLine,
   sobu_rapid: sobuRapidLine,
   utsunomiya: utsunomiyaLine,
-  tohoku_kuroiso_fukushima: tohokuKuroisoFukushimaLine,
-  tohoku_fukushima_sendai: tohokuFukushimaSendaiLine,
-  tohoku_sendai_ichinoseki: tohokuSendaiIchinosekiLine,
-  tohoku_rifu: tohokuRifuLine,
-  tohoku_ichinoseki_morioka: tohokuIchinosekiMoriokaLine,
-  senseki: sensekiLine,
-  senseki_tohoku: sensekiTohokuLine,
-  ishinomaki: ishinomakiLine,
-  rikuu_east: rikuuEastLine,
-  rikuu_west: rikuuWestLine,
-  senzan: senzanLine,
-  kitakami: kitakamiLine,
-  ofunato: ofunatoLine,
-  ofunato_brt: ofunatoBrtLine,
-  kesennuma: kesennumaLine,
-  kesennuma_brt: kesennumaBrtLine,
-  kamaishi: kamaishiLine,
-  tazawako: tazawakoLine,
-  yamada: yamadaLine,
-  hachinohe: hachinoheLine,
-  ominato: ominatoLine,
-  tsugaru: tsugaruLine,
-  gono: gonoLine,
-  oga: ogaLine,
   takasaki: takasakiLine,
-  ito: itoLine,
   joban_rapid: jobanRapidLine,
   joban_local: jobanLocalLine,
-  joban_toride_iwaki: jobanTorideIwakiLine,
-  joban_iwaki_sendai: jobanIwakiSendaiLine,
+  saikyo: saikyoLine,
+  musashino: musashinoLine,
+  keiyo: keiyoLine,
+
+  // === JR東日本（首都圏近郊・周辺線区・直通線） ===
   yokohama: yokohamaLine,
   nambu: nambuLine,
   tsurumi: tsurumiLine,
@@ -233,6 +213,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   hachiko: hachikoLine,
   ome: omeLine,
   itsukaichi: itsukaichiLine,
+
+  // === JR東日本（房総・北関東線区） ===
   sobu_main: sobuMainLine,
   narita: naritaLine,
   sotobo: sotoboLine,
@@ -240,69 +222,110 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   togane: toganeLine,
   kururi: kururiLine,
   ryomo: ryomoLine,
-  joetsu: joetsuLine,
+  ito: itoLine,
+
+  // === JR東日本（甲信越・信越・新潟線区） ===
   chuo_main: chuoMainLine,
   shinonoi: shinonoiLine,
   oito_east: oitoEastLine,
+  joetsu: joetsuLine,
   shinetsu_takasaki_yokokawa: shinetsuTakasakiYokokawaLine,
   shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
   hakushin: hakushinLine,
   uetsu_main: uetsuMainLine,
+
+  // === JR東日本（常磐北部・東北幹線・仙台近郊） ===
+  joban_toride_iwaki: jobanTorideIwakiLine,
+  joban_iwaki_sendai: jobanIwakiSendaiLine,
+  tohoku_kuroiso_fukushima: tohokuKuroisoFukushimaLine,
+  tohoku_fukushima_sendai: tohokuFukushimaSendaiLine,
+  tohoku_sendai_ichinoseki: tohokuSendaiIchinosekiLine,
+  tohoku_rifu: tohokuRifuLine,
+  tohoku_ichinoseki_morioka: tohokuIchinosekiMoriokaLine,
+  senzan: senzanLine,
+  senseki: sensekiLine,
+  senseki_tohoku: sensekiTohokuLine,
+  ishinomaki: ishinomakiLine,
+
+  // === JR東日本（山形・秋田・青森・北東北線区） ===
   ou_fukushima_shinjo: ouFukushimaShinjoLine,
   ou_shinjo_omagari: ouShinjoOmagariLine,
   ou_omagari_akita: ouOmagariAkitaLine,
   ou_akita_aomori: ouAkitaAomoriLine,
-  tadami: tadamiLine,
-  banetsu_west: banetsuWestLine,
+  tazawako: tazawakoLine,
+  kitakami: kitakamiLine,
+  kamaishi: kamaishiLine,
+  yamada: yamadaLine,
+  hachinohe: hachinoheLine,
+  ominato: ominatoLine,
+  tsugaru: tsugaruLine,
+  gono: gonoLine,
+  oga: ogaLine,
+
+  // === JR東日本（南東北ローカル・BRT線区） ===
   banetsu_east: banetsuEastLine,
+  banetsu_west: banetsuWestLine,
+  tadami: tadamiLine,
+  rikuu_east: rikuuEastLine,
+  rikuu_west: rikuuWestLine,
+  kesennuma: kesennumaLine,
+  kesennuma_brt: kesennumaBrtLine,
+  ofunato: ofunatoLine,
+  ofunato_brt: ofunatoBrtLine,
+
+  // === JR東海 ===
   tokaido_atami_toyohashi: tokaidoAtamiToyohashiLine,
   tokaido_toyohashi_maibara: tokaidoToyohashiMaibaraLine,
   tokaido_minoakasaka: tokaidoMinoakasakaLine,
+  gotemba: gotembaLine,
+  jr_minobu: jrMinobuLine,
+  jr_iida: jrIidaLine,
   jr_chuo_west: jrChuoWestLine,
+  jr_taita: jrTaitaLine,
   jr_takayama: jrTakayamaLine,
   jr_kansai_nagoya_kameyama: jrKansaiNagoyaKameyamaLine,
-  jr_kisei_kameyama_shingu: jrKiseiKameyamaShinguLine,
-  jr_iida: jrIidaLine,
-  jr_minobu: jrMinobuLine,
   jr_taketoyo: jrTaketoyoLine,
-  jr_taita: jrTaitaLine,
+  jr_kisei_kameyama_shingu: jrKiseiKameyamaShinguLine,
   jr_meisho: jrMeishoLine,
   jr_sangu: jrSanguLine,
+
+  // === JR西日本（近畿アーバンネットワーク・主要幹線） ===
+  jr_biwako: jrBiwakoLine,
+  jr_kyoto: jrKyotoLine,
+  jr_kobe: jrKobeLine,
+  jr_sanyo_himeji_kamigori: jrSanyoHimejiKamigoriLine,
+  jr_ako: jrAkoLine,
   jr_osaka_loop: jrOsakaLoopLine,
   jr_yumesaki: jrYumesakiLine,
   jr_tozai: jrTozaiLine,
   jr_gakken_toshi: jrGakkenToshiLine,
   jr_takarazuka: jrTakarazukaLine,
   jr_fukuchiyama_north: jrFukuchiyamaNorthLine,
-  jr_yamatoji: jrYamatojiLine,
   jr_osaka_higashi: jrOsakaHigashiLine,
-  jr_hanwa: jrHanwaLine,
-  jr_kansai_airport: jrKansaiAirportLine,
-  jr_hokuriku_maibara_tsuruga: jrHokurikuMaibaraTsurugaLine,
-  jr_sagano: jrSaganoLine,
-  jr_sanin_sonobe_kinosaki: jrSaninSonobeKinosakiLine,
-  jr_kosei: jrKoseiLine,
-  jr_kusatsu: jrKusatsuLine,
+  jr_yamatoji: jrYamatojiLine,
   jr_nara: jrNaraLine,
   jr_sakurai: jrSakuraiLine,
   jr_wakayama: jrWakayamaLine,
+  jr_hanwa: jrHanwaLine,
+  jr_kansai_airport: jrKansaiAirportLine,
   jr_kinokuni: jrKinokuniLine,
-  jr_kansai_kameyama_kamo: jrKansaiKameyamaKamoLine,
-  jr_sanyo_himeji_kamigori: jrSanyoHimejiKamigoriLine,
-  jr_ako: jrAkoLine,
-  jr_kakogawa: jrKakogawaLine,
-  jr_kishin: jrKishinLine,
-  jr_bantan: jrBantanLine,
+  jr_kosei: jrKoseiLine,
+  jr_kusatsu: jrKusatsuLine,
+  jr_hokuriku_maibara_tsuruga: jrHokurikuMaibaraTsurugaLine,
+  jr_sagano: jrSaganoLine,
+  jr_sanin_sonobe_kinosaki: jrSaninSonobeKinosakiLine,
+
+  // === JR西日本（北近畿・兵庫・山陽ローカル・支線・甲信越） ===
   jr_maizuru: jrMaizuruLine,
   jr_obama: jrObamaLine,
+  jr_kakogawa: jrKakogawaLine,
+  jr_bantan: jrBantanLine,
+  jr_kishin: jrKishinLine,
   jr_wadamisaki: jrWadamisakiLine,
-  tokaido_shinkansen: tokaidoShinkansenLine,
-  sanyo_shinkansen: sanyoShinkansenLine,
-  jr_biwako: jrBiwakoLine,
-  jr_kyoto: jrKyotoLine,
-  jr_kobe: jrKobeLine,
-  gotemba: gotembaLine,
+  jr_kansai_kameyama_kamo: jrKansaiKameyamaKamoLine,
   oito_west: oitoWestLine,
+
+  // === 東京メトロ ===
   ginza: ginzaLine,
   marunouchi: marunouchiLine,
   hibiya: hibiyaLine,
@@ -312,6 +335,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   hanzomon: hanzomonLine,
   namboku: nambokuLine,
   fukutoshin: fukutoshinLine,
+
+  // === 東武鉄道 ===
   tobu_skytree: tobuSkytreeLine,
   tobu_isesaki: tobuIsesakiLine,
   tobu_kameido: tobuKameidoLine,
@@ -325,31 +350,69 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tobu_urban_park: tobuUrbanParkLine,
   tojo: tojoLine,
   ogose: ogoseLine,
+
+  // === 西武鉄道 ===
   seibu_ikebukuro: seibuIkebukuroLine,
   seibu_yurakucho: seibuYurakuchoLine,
+
+  // === 小田急電鉄 ===
   odakyu_odawara: odakyuOdawaraLine,
   odakyu_enoshima: odakyuEnoshimaLine,
   odakyu_tama: odakyuTamaLine,
+
+  // === 東急電鉄 ===
   tokyu_toyoko: tokyuToyokoLine,
   tokyu_shin_yokohama: tokyuShinYokohamaLine,
+
+  // === 横浜高速鉄道 ===
   minatomirai: minatomiraiLine,
+
+  // === 相模鉄道 ===
   sotetsu_shin_yokohama: sotetsuShinYokohamaLine,
   sotetsu_main: sotetsuMainLine,
   sotetsu_izumino: sotetsuIzuminoLine,
+
+  // === 首都圏新都市鉄道 ===
   tsukuba_express: tsukubaExpressLine,
+
+  // === 東京臨海高速鉄道 ===
   rinkai: rinkaiLine,
+
+  // === 秩父鉄道 ===
   chichibu: chichibuLine,
+
+  // === 富士山麓電気鉄道 ===
   fujikyu: fujikyuLine,
+
+  // === 伊豆急行 ===
   izukyu: izukyuLine,
+
+  // === 伊豆箱根鉄道 ===
   izuhakone_sunzu: izuhakoneSunzuLine,
+
+  // === 野岩鉄道 ===
   yagan: yaganLine,
+
+  // === 会津鉄道 ===
   aizu: aizuLine,
+
+  // === 北越急行 ===
   hokuhoku: hokuhokuLine,
+
+  // === えちごトキめき鉄道 ===
   myoko_haneuma: myokoHaneumaLine,
   nihonkai_hisui: nihonkaiHisuiLine,
+
+  // === しなの鉄道 ===
   kita_shinano: kitaShinanoLine,
+
+  // === IGRいわて銀河鉄道 ===
   igr_iwate_ginga: igrIwateGingaLine,
+
+  // === 青い森鉄道 ===
   aoimori: aoimoriLine,
+
+  // === 仙台空港鉄道 ===
   sendai_airport: sendaiAirportLine,
 };
 
@@ -606,11 +669,11 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
 };
 
 export const AREA_INFO: Record<RegionArea, { name: string; icon: string }> = {
-  kanto: { name: '関東（首都圏・北関東）', icon: '' },
-  koshinetsu: { name: '甲信越（新潟・長野・山梨）', icon: '' },
-  tohoku: { name: '東北（福島・宮城・山形・岩手・秋田・青森）', icon: '' },
-  tokai: { name: '東海（静岡・中京方面）', icon: '' },
-  kansai: { name: '近畿・関西（滋賀・京都・大阪・兵庫・山陽方面）', icon: '' },
+  kanto: { name: '関東', icon: '' },
+  koshinetsu: { name: '甲信越', icon: '' },
+  tohoku: { name: '東北', icon: '' },
+  tokai: { name: '東海', icon: '' },
+  kansai: { name: '近畿・関西', icon: '' },
 };
 
 export const AREA_DISPLAY_ORDER: RegionArea[] = ['kanto', 'koshinetsu', 'tohoku', 'tokai', 'kansai'];
@@ -621,6 +684,48 @@ export interface AreaLinesGroup {
   icon: string;
   lines: LineDefinition[];
 }
+
+// エリア内での運行会社の標準優先順序
+export const AREA_OPERATOR_ORDER: Record<RegionArea, string[]> = {
+  kanto: [
+    'JR東日本',
+    '東京メトロ',
+    '東武鉄道',
+    '西武鉄道',
+    '小田急電鉄',
+    '東急電鉄',
+    '横浜高速鉄道',
+    '相模鉄道',
+    '首都圏新都市鉄道',
+    '東京臨海高速鉄道',
+    '秩父鉄道',
+  ],
+  koshinetsu: [
+    'JR東日本',
+    'JR西日本',
+    '富士山麓電気鉄道',
+    '北越急行',
+    'えちごトキめき鉄道',
+    'しなの鉄道',
+  ],
+  tohoku: [
+    'JR東日本',
+    '仙台空港鉄道',
+    'IGRいわて銀河鉄道',
+    '青い森鉄道',
+    '野岩鉄道',
+    '会津鉄道',
+  ],
+  tokai: [
+    'JR東海',
+    'JR東日本',
+    '伊豆急行',
+    '伊豆箱根鉄道',
+  ],
+  kansai: [
+    'JR西日本',
+  ],
+};
 
 // 運行エリアごとにグループ化した路線リストを取得
 export function getLinesGroupedByArea(): AreaLinesGroup[] {
@@ -640,12 +745,29 @@ export function getLinesGroupedByArea(): AreaLinesGroup[] {
     }
   }
 
-  return AREA_DISPLAY_ORDER.map((area) => ({
-    area,
-    title: AREA_INFO[area].name,
-    icon: AREA_INFO[area].icon,
-    lines: map.get(area) || [],
-  }));
+  return AREA_DISPLAY_ORDER.map((area) => {
+    const rawLines = map.get(area) || [];
+    const opOrder = AREA_OPERATOR_ORDER[area] || [];
+    // 会社間の優先度でソート（同一会社内は LINES_REGISTRY の定義順序を維持）
+    const sortedLines = [...rawLines].sort((a, b) => {
+      const opA = a.operator || '';
+      const opB = b.operator || '';
+      if (opA === opB) return 0;
+      const idxA = opOrder.indexOf(opA);
+      const idxB = opOrder.indexOf(opB);
+      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+      if (idxA !== -1) return -1;
+      if (idxB !== -1) return 1;
+      return 0;
+    });
+
+    return {
+      area,
+      title: AREA_INFO[area].name,
+      icon: AREA_INFO[area].icon,
+      lines: sortedLines,
+    };
+  });
 }
 
 
