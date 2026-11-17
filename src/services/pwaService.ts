@@ -44,6 +44,16 @@ export function isIosSafari(): boolean {
  */
 export function registerServiceWorker() {
   if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+    // 開発環境では Vite の内部通信・HMR を阻害しないよう登録をスキップし、既存の Service Worker を自動解除
+    if (import.meta.env.DEV) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (const registration of registrations) {
+          registration.unregister();
+        }
+      });
+      return;
+    }
+
     window.addEventListener('load', () => {
       // 相対パス './sw.js' で GitHub Pages でもローカルでも正しく登録
       navigator.serviceWorker
