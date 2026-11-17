@@ -7,45 +7,68 @@ export interface LineTimetableData {
   stationTimetables: StationTimetableStore;
 }
 
-// Vite 環境では import.meta.glob により各路線のダイヤ JSON が個別の chunk へ Code Splitting される
-let globalTimetableGlob: Record<string, () => Promise<{ default: TimetableTrip[] }>> | null = null;
-let stationTimetableGlob: Record<string, () => Promise<{ default: StationTimetableStore }>> | null = null;
+// 各路線の JSON アセット URL をオンデマンドで取得する辞書（JSON 全文の JS トランスパイルを完全回避）
+let globalTimetableUrls: Record<string, () => Promise<string>> | null = null;
+let stationTimetableUrls: Record<string, () => Promise<string>> | null = null;
 
 try {
-  globalTimetableGlob = import.meta.glob<{ default: TimetableTrip[] }>('./lines/*/globalTimetable.json');
-  stationTimetableGlob = import.meta.glob<{ default: StationTimetableStore }>('./lines/*/stationTimetables.json');
+  globalTimetableUrls = import.meta.glob<string>('./lines/*/globalTimetable.json', {
+    query: '?url',
+    import: 'default',
+  });
+  stationTimetableUrls = import.meta.glob<string>('./lines/*/stationTimetables.json', {
+    query: '?url',
+    import: 'default',
+  });
 } catch {
-  // Node.js (tsx) スクリプト実行環境など import.meta.glob が未定義の場合は動的 import にフォールバック
+  // Node.js (tsx) スクリプト実行環境など import.meta.glob が未定義の場合は fs にフォールバック
 }
 
 /**
  * 指定された路線IDの時刻表 JSON をオンデマンドで読み込む
  */
 async function loadLineTimetableData(lineId: LineId): Promise<LineTimetableData> {
-  const globalPath = `./lines/${lineId}/globalTimetable.json`;
-  const stationPath = `./lines/${lineId}/stationTimetables.json`;
+  const gKey = `./lines/${lineId}/globalTimetable.json`;
+  const sKey = `./lines/${lineId}/stationTimetables.json`;
 
-  if (globalTimetableGlob && stationTimetableGlob) {
-    const loadGlobal = globalTimetableGlob[globalPath];
-    const loadStation = stationTimetableGlob[stationPath];
-    if (!loadGlobal || !loadStation) {
-      throw new Error(`Timetable JSON not found for line: ${lineId}`);
+  if (globalTimetableUrls && stationTimetableUrls && globalTimetableUrls[gKey] && stationTimetableUrls[sKey]) {
+    const [gUrl, sUrl] = await Promise.all([
+      globalTimetableUrls[gKey](),
+      stationTimetableUrls[sKey](),
+    ]);
+
+    const [gRes, sRes] = await Promise.all([
+      fetch(gUrl),
+      fetch(sUrl),
+    ]);
+
+    if (!gRes.ok || !sRes.ok) {
+      throw new Error(`Failed to fetch timetable JSON for line ${lineId}: ${gRes.status} / ${sRes.status}`);
     }
-    const [g, s] = await Promise.all([loadGlobal(), loadStation()]);
-    return {
-      globalTimetable: g.default as unknown as TimetableTrip[],
-      stationTimetables: s.default as unknown as StationTimetableStore,
-    };
+
+    const [globalTimetable, stationTimetables] = await Promise.all([
+      gRes.json() as Promise<TimetableTrip[]>,
+      sRes.json() as Promise<StationTimetableStore>,
+    ]);
+
+    return { globalTimetable, stationTimetables };
   }
 
-  // Node.js (tsx) 環境向けフォールバック
-  const [g, s] = await Promise.all([
-    import(/* @vite-ignore */ globalPath),
-    import(/* @vite-ignore */ stationPath),
+  // Node.js (tsx) 環境向けフォールバック: fs で直接読み込む
+  const dynamicFs = 'fs/promises';
+  const dynamicPath = 'path';
+  const fs: any = await import(/* @vite-ignore */ dynamicFs);
+  const path: any = await import(/* @vite-ignore */ dynamicPath);
+  const proc = (globalThis as unknown as { process?: { cwd: () => string } }).process;
+  const cwd = proc ? proc.cwd() : '.';
+  const dir = path.resolve(cwd, `src/data/lines/${lineId}`);
+  const [gRaw, sRaw] = await Promise.all([
+    fs.readFile(path.join(dir, 'globalTimetable.json'), 'utf-8'),
+    fs.readFile(path.join(dir, 'stationTimetables.json'), 'utf-8'),
   ]);
   return {
-    globalTimetable: (g.default ?? g) as unknown as TimetableTrip[],
-    stationTimetables: (s.default ?? s) as unknown as StationTimetableStore,
+    globalTimetable: JSON.parse(gRaw),
+    stationTimetables: JSON.parse(sRaw),
   };
 }
 
@@ -112,22 +135,22 @@ export async function loadLinesTimetables(lineIds: LineId[]): Promise<void> {
 }
 
 /**
- * 特定の路線がロード済みか確認
+ * 指定路線がすでにロード済みかどうか
  */
 export function isLineLoaded(lineId: LineId): boolean {
   return loadedLinesSet.has(lineId);
 }
 
 /**
- * 指定した路線群がすべてロード済みか確認
+ * 指定路線群がすべてロード済みかどうか
  */
 export function areAllLinesLoaded(lineIds: LineId[]): boolean {
   return lineIds.every((id) => loadedLinesSet.has(id));
 }
 
 /**
- * ロード済みの路線ID配列を取得
+ * 現在ロード済みの全路線ID配列
  */
-export function getLoadedLineIds(): string[] {
-  return Array.from(loadedLinesSet);
+export function getLoadedLineIds(): LineId[] {
+  return Array.from(loadedLinesSet) as LineId[];
 }
