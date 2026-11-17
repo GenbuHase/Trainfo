@@ -1,413 +1,245 @@
-# Trainfo 路線追加完全プレイブック（標準手順書 & チェックリスト）
+# Trainfo 路線追加プレイブック（標準手順書とチェックリスト）
 
-本ドキュメントは、Trainfo に新しい路線を追加する際の標準ワークフロー、データ構造、実装手順、およびハマりどころの防止策をまとめた完全マニュアルです。  
-これまでの首都圏・北関東・甲信越・東北・東海・近畿・山陽エリアにまたがる**21事業者・全109路線（ユニーク1,809駅 / 延べ2,197駅）**（JR東日本 54路線、JR東海 5路線、JR西日本 5路線、東京メトロ 全9路線、東武鉄道 13路線、西武鉄道 2路線、小田急電鉄 3路線、東急電鉄 2路線、横浜高速鉄道 1路線、相模鉄道 3路線、首都圏新都市鉄道 1路線、東京臨海高速鉄道 1路線、秩父鉄道 1路線、富士山麓電気鉄道 1路線、伊豆急行 1路線、伊豆箱根鉄道 1路線、野岩鉄道 1路線、会津鉄道 1路線、北越急行 1路線、えちごトキめき鉄道 2路線、しなの鉄道 1路線）の実装、および**Yahoo! 乗換案内データソース共通基盤**・**駅探公式列車番号突合基盤**・**汎用直通リンカー基盤（167接続ペア）**・**多層併結運転リンカー基盤**・**オンデマンド動的時刻表ローダー**で培われた知見を集約しています。
+本ドキュメントは Trainfo に新しい路線を追加する際の標準ワークフロー、データ構造、実装手順、不具合防止策をまとめたマニュアルです。
+首都圏・北関東・甲信越・東北・東海・近畿・山陽エリアにまたがる24事業者・全174路線（ユニーク2,970駅 / 駅ID 3,467駅 / 延べ3,505駅）（JR東日本78路線、JR東海15路線、JR西日本33路線、東京メトロ9路線、東武鉄道13路線、西武鉄道2路線、小田急電鉄3路線、東急電鉄2路線、横浜高速鉄道1路線、相模鉄道3路線、首都圏新都市鉄道1路線、東京臨海高速鉄道1路線、秩父鉄道1路線、富士山麓電気鉄道1路線、伊豆急行1路線、伊豆箱根鉄道1路線、野岩鉄道1路線、会津鉄道1路線、北越急行1路線、えちごトキめき鉄道2路線、しなの鉄道1路線、IGRいわて銀河鉄道1路線、青い森鉄道1路線、仙台空港鉄道1路線）の実装と、Yahoo! 乗換案内データソース共通基盤・駅探公式列車番号突合基盤・汎用直通リンカー基盤（294接続ペア）・併結運転リンカー基盤・オンデマンド動的時刻表ローダーで得られた知見を集約しています。
 
 ---
 
 ## 1. 路線拡張アーキテクチャ概要
 
-Trainfo は、複数事業者の路線が同一マップ・同一シミュレーション基盤上で協調動作するマルチライン構造を採用しています。  
-各路線は `src/data/lines/<lineId>/` 配下に自己完結したモジュールとして実装され、`src/data/linesRegistry.ts` およびオンデマンド動的ローダー `src/data/timetableLoader.ts` に登録することで統合されます。  
-また、時刻表・ダイヤ生成パイプラインは `scripts/common/yahoo/` の汎用基盤により、路線ごとの設定ファイル（`scripts/lines/<lineId>/config.cjs`）のみで完結し、相互直通運転は `scripts/common/throughLinker/` により自動照合・結合されます。
+Trainfo は複数事業者の路線が同一地図・同一シミュレーション基盤上で協調動作する構造を備えています。各路線は `src/data/lines/<lineId>/` 配下に自己完結したモジュールとして実装し、`src/data/linesRegistry.ts` に登録することでオンデマンド動的ローダー `src/data/timetableLoader.ts` を通じて統合される設計です。時刻表・ダイヤ生成パイプラインは `scripts/common/yahoo/` の汎用基盤により、路線ごとの設定ファイル（`scripts/lines/<lineId>/config.cjs`）を中心に完結し、相互直通運転は `scripts/common/throughLinker/` で照合・結合します。
 
 ```text
 Trainfo/
 ├── docs/
-│   ├── MAINTENANCE_GUIDE.md                   # 人力運用・日常保守ガイド（コマンドリファレンス）
-│   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書（路線拡張詳細プレイブック）
-│   ├── PASSING_STOP_INTERPOLATION_SPEC.md     # 通過駅時刻補間・境界駅シームレス同期技術仕様書
-│   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称・方向別軌道ルーティング設計指針
-│   ├── SHARED_SECTION_SYSTEM_ROUTING_GUIDE.md # 共用区間・運転系統ベース路線定義（方式1→方式2）移行ガイドライン
+│   ├── MAINTENANCE_GUIDE.md                   # 日常保守ガイド（コマンドリファレンス）
+│   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書（路線拡張プレイブック）
+│   ├── PASSING_STOP_INTERPOLATION_SPEC.md     # 通過駅時刻補間・境界駅同期仕様書
+│   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称・方向別軌道設計指針
+│   ├── SHARED_SECTION_SYSTEM_ROUTING_GUIDE.md # 共用区間・運転系統ベース路線定義移行ガイド
 │   ├── LINE_COLORS_GUIDELINES.md              # ラインカラー策定ガイドライン
-│   └── ODPT_INTEGRATION_KNOWLEDGE.md          # 将来設計ナレッジ
+│   └── ODPT_INTEGRATION_KNOWLEDGE.md          # ODPT連携ナレッジ・将来設計ガイド
 ├── scripts/
-│   ├── runYahooImporter.cjs            # Yahoo! 乗換案内 共通インポーター CLI
-│   ├── runThroughLinker.cjs            # 汎用直通リンカー CLI（全接続ペア自動結合）
-│   ├── enrich_train_numbers.cjs        # 駅探ハイブリッド突合・公式列車番号エンリッチメント
+│   ├── runYahooImporter.cjs                   # Yahoo! 乗換案内 共通インポーター CLI
+│   ├── runThroughLinker.cjs                   # 汎用直通リンカー CLI（全接続ペア結合）
+│   ├── enrich_train_numbers.cjs               # 駅探ハイブリッド突合・公式列車番号補完
 │   ├── common/
-│   │   ├── yahoo/                      # 共通データ生成基盤
-│   │   │   ├── YahooClient.cjs         # HTTPクライアント & キャッシュ制御
+│   │   ├── yahoo/                             # 共通データ生成基盤
+│   │   │   ├── YahooClient.cjs                # HTTPクライアントとキャッシュ制御
 │   │   │   ├── YahooStationTimetableScraper.cjs # 駅時刻表スクレイパー
-│   │   │   ├── YahooTrainDetailScraper.cjs     # 列車詳細（着発時刻）スクレイパー
-│   │   │   └── YahooTimetableBuilder.cjs       # ダイヤ合成 & 汎用通過・秒補間
-│   │   └── throughLinker/              # 汎用直通リンカー基盤
-│   │       ├── connectionsConfig.cjs   # 全路線の直通ペア宣言的設定
-│   │       └── throughLinkerEngine.cjs # 直通トリップ探索・時刻補正エンジン
+│   │   │   ├── YahooTrainDetailScraper.cjs    # 列車詳細（着発時刻）スクレイパー
+│   │   │   └── YahooTimetableBuilder.cjs      # ダイヤ合成と通過・秒補間
+│   │   └── throughLinker/                     # 汎用直通リンカー基盤
+│   │       ├── connectionsConfig.cjs          # 全路線の直通ペア設定（294接続ペア）
+│   │       └── throughLinkerEngine.cjs        # 直通トリップ探索・時刻補正エンジン
 │   ├── lines/
 │   │   └── <lineId>/
-│   │       └── config.cjs              # 路線固有のスクレイパー・ダイヤ設定
-│   └── test_<boundary>_handover.ts     # 境界駅・追尾ハンドオーバー検証テスト
+│   │       └── config.cjs                     # 路線固有のスクレイパー・ダイヤ設定
+│   └── test_<boundary>_handover.ts            # 境界駅・追尾ハンドオーバー検証テスト
 ├── src/
-│   ├── types/index.ts                  # LineId, TrainTypeKey などの型定義
+│   ├── types/index.ts                         # LineId, TrainTypeKey などの型定義
 │   ├── utils/
-│   │   └── timeUtils.ts                # 鉄道運行日基準（04:00起点）時刻変換共通ユーティリティ
-│   ├── contexts/                       # グローバル状態管理（Simulation, Selection, Filter, UI）
+│   │   └── timeUtils.ts                       # 鉄道運行日基準（04:00起点）時刻変換ユーティリティ
+│   ├── contexts/                              # グローバル状態管理（Simulation, Selection, Filter, UI）
 │   ├── hooks/
-│   │   └── useTrainTracker.ts          # 直通列車自動追従・耐障害ハンドオーバーフック
+│   │   └── useTrainTracker.ts                 # 直通列車自動追従フック
 │   ├── data/
-│   │   ├── linesRegistry.ts            # 全路線の集約レジストリ・事業者表示順序・getAlternateStations
-│   │   ├── timetableLoader.ts          # オンデマンド動的時刻表ローダー（import.meta.glob による自動チャンク分割）
-│   │   ├── timetableData.ts            # 時刻表・駅発車標解決ユーティリティ（resolveStationTimetableData）
+│   │   ├── linesRegistry.ts                   # 全路線の集約レジストリ・事業者表示順序・getAlternateStations
+│   │   ├── timetableLoader.ts                 # オンデマンド動的時刻表ローダー（import.meta.glob による自動分割）
+│   │   ├── timetableData.ts                   # 時刻表・駅発車標解決ユーティリティ
 │   │   └── lines/
-│   │       └── <lineId>/               # 各路線のデータモジュール
-│   │           ├── index.ts            # LineDefinition（路線メタデータ統合）
-│   │           ├── stations.ts         # 駅メタデータ（Station[]）
-│   │           ├── trackGeometry.ts    # 線路幾何データ（TrackSegment[]）
-│   │           ├── trainTypes.ts       # 列車種別設定（TrainTypeConfig）
-│   │           ├── stationTimetables.json # 各駅時刻表（動的ロード対象）
-│   │           └── globalTimetable.json   # 全列車ダイヤ（動的ロード対象）
+│   │       └── <lineId>/                      # 各路線のデータモジュール
+│   │           ├── index.ts                   # LineDefinition（路線メタデータ統合）
+│   │           ├── stations.ts                # 駅メタデータ（Station[]）
+│   │           ├── trackGeometry.ts           # 線路幾何データ（TrackSegment[]）
+│   │           ├── trainTypes.ts              # 列車種別設定（TrainTypeConfig）
+│   │           ├── stationTimetables.json     # 各駅時刻表（動的ロード対象）
+│   │           └── globalTimetable.json       # 全列車ダイヤ（動的ロード対象）
 │   ├── components/
-│   │   ├── Common/Badges.tsx           # 駅ナンバリング・種別バッジ
-│   │   ├── Debug/DebugLinesPage.tsx    # 路線・種別デバッグ一覧ページ
-│   │   ├── Header/Header.tsx           # ヘッダー・事業者別路線ドロワー
-│   │   ├── Map/                        # Leaflet 地図描画・DisplayFilterDock・TrackingBar
-│   │   │   └── hooks/                  # モジュラーカスタムフック群（Leaflet, マーカー, カメラ等）
-│   │   ├── Modals/                     # 各種モーダル & TestRunModal/（試運転・臨時列車サブコンポーネント群）
-│   │   └── Sidebar/StationDetail.tsx   # 駅詳細・同名駅/乗換路線切り替え
+│   │   ├── Common/Badges.tsx                  # 駅ナンバリング・種別バッジ
+│   │   ├── Debug/DebugLinesPage.tsx           # 路線・種別デバッグ一覧ページ
+│   │   ├── Header/Header.tsx                  # ヘッダー・検索バー・ステータス表示
+│   │   ├── Map/                               # Leaflet 地図描画・DisplayFilterDock・TrackingBar
+│   │   │   └── hooks/                         # モジュラーカスタムフック群
+│   │   ├── Modals/                            # 各種モーダルと TestRunModal/（試運転・臨時列車サブコンポーネント群）
+│   │   └── Sidebar/StationDetail.tsx          # 駅詳細・同名駅/乗換路線切り替え
 │   └── services/
-│       ├── testTrainService.ts         # 試運転・臨時列車プラン作成・直通計算・プリセット管理
-│       └── trainSimulation.ts          # シミュレーション計算・直通追尾・重なり除外
+│       ├── testTrainService.ts                # 試運転・臨時列車プラン作成・直通計算・プリセット管理
+│       └── trainSimulation.ts                 # シミュレーション計算・直通追尾・重複除外
 ```
 
 ---
 
-## 2. 路線追加の全9フェーズ・完全ワークフロー
+## 2. 路線追加の全9フェーズ手順
 
 ```mermaid
 flowchart TD
     P1["Phase 1: 仕様策定 & 定数・型定義<br/>(LineId, 駅リスト, ナンバリング, 種別)"] --> P2["Phase 2: 線路ジオメトリ & 駅座標構築<br/>(OSM Overpass API & トポロジカル/BFS)"]
     P2 --> P3["Phase 3: Yahoo! データ連携 & ダイヤ生成<br/>(config.cjs 作成 & インポーター実行)"]
-    P3 --> P4["Phase 4: 公式列車番号エンリッチメント<br/>(駅探ハイブリッド突合 & trainId/trainNumber分離)"]
+    P3 --> P4["Phase 4: 公式列車番号補完<br/>(駅探ハイブリッド突合 & trainId/trainNumber分離)"]
     P4 --> P5["Phase 5: レジストリ登録 & 動的ローダー統合<br/>(linesRegistry.ts, timetableLoader.ts)"]
-    P5 --> P6{"直通運転路線か？"}
+    P5 --> P6{"直通運転路線か"}
     P6 -- "Yes" --> P6_1["Phase 6: 直通運転・ハンドオーバー構築<br/>(connectionsConfig.cjs 登録 & runThroughLinker)"]
     P6 -- "No" --> P7["Phase 7: UI & コンポーネント最適化<br/>(Badges.tsx, isMajor, 同名駅リンク)"]
     P6_1 --> P7
     P7 --> P8["Phase 8: 包括的シミュレーション検証 & テスト<br/>(点間距離監査, 追尾テスト, モバイル動作確認)"]
-    P8 --> P9["Phase 9: ドキュメント更新 & 完了<br/>(README.md, 路線数・駅数・エリア統計, 監査ドキュメント)"]
+    P8 --> P9["Phase 9: ドキュメント更新 & 完了<br/>(README.md, 路線数・駅数・エリア統計, 各種ガイド)"]
 ```
 
 ---
 
-### Phase 1: 路線・駅の基本仕様策定 & 定数・型定義
+### Phase 1: 路線・駅の基本仕様策定と定数・型定義
 
-1. **基本メタデータの決定**:
-   * `lineId`: 英小文字のスネークケース（例: `tokyu_toyoko`, `sotetsu_main`, `odakyu_odawara`, `tsukuba_express`）
-   * `name`: 正式路線名称（例: `東急東横線`、`相鉄本線`、`小田急小田原線`、`JR八高線`、`JR信越本線（高崎～横川）`）
-     * **【重要】物理的・歴史的分断路線の命名規則**:
-       * 新幹線延伸による並行在来線三セク化（信越本線など）や、系統分離（常磐線、東海道線、大糸線など）により物理的・運行系統的に分断されている線区では、**`name` および `shortName` の双方に必ず区間名を含めてください**（例: `name: 'JR信越本線（高崎～横川）'`, `shortName: '信越本線（高崎～横川）'` / `name: 'JR信越本線（直江津～新潟）'`, `shortName: '信越本線（直江津～新潟）'`）。
-       * 表示路線ピッカーやドロワーでは `line.name` が表示され、単独選択バッジでは `line.shortName` が表示されます。区間名を省いて単に `'JR信越本線'` とすると、UI上で全く同名の路線が複数並び、ユーザーが区別不能になります。
-       * **`lineId` も区間を含めた一意のID**（例: `shinetsu_takasaki_yokokawa`, `shinetsu_naoetsu_niigata`, `oito_east`, `oito_west`, `tokaido_atami_toyohashi`, `tokaido_toyohashi_maibara`）としてください。
-   * `shortName`: 略称（例: `東横線`、`本線`、`小田原線`、`八高線`、`信越本線（高崎～横川）`）
-   * `operator`: 運行事業者名（例: `東急電鉄`、`相模鉄道`、`小田急電鉄`、`JR東日本`）
-   * `lineColor`: 公式ラインカラー（HEX値、例: `#da0442`, `#041452`, `#2288cc`, `#73c11d`）
-     * **【注意】分断路線のラインカラー安易流用の禁止**:
-       * 同一線名であっても、管轄支社や運行エリアによってラインカラーが全く異なる場合があります（例: 信越本線新潟地区は水色 `#00acd1` だが、高崎地区は黄緑 `#73c11d`）。既存の別区間設定から安易にコピーせず、当該線区の公式案内色を必ず個別に調査・適用してください。
-     * **情報源の優先順位**:
-       1. **優先①**: [ニコニコ大百科「鉄道路線のラインカラー一覧」](https://dic.nicovideo.jp/a/%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)
-       2. **優先②**: [Wikipedia「日本の鉄道路線ラインカラー一覧」](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E9%89%84%E9%81%93%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)
-       3. **①・②どちらにも存在しない場合**: 独立ラインカラー未制定と判定し、事業者のコーポレートカラー、代表車両帯色、直通先案内色から選定して理由を記録・報告すること。
-   * `accentColor`: アクセント/副象徴カラー（HEX値）
-     * 看板速達種別（特快・急行など）、直通相手路線のシンボルカラー、車両帯のツートンカラー等から選定。
-     * 詳細は [`docs/LINE_COLORS_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/LINE_COLORS_GUIDELINES.md) を参照。
-   * `defaultBounds`: 初期表示バウンディングボックス（南西 `[lat, lng]`, 北東 `[lat, lng]`）
-   * `directionNames`: 上り/下りの方向名（正式名称・短縮名称）
-     * `inbound`: 例: `{ name: '上り 渋谷・副都心線方面', shortName: '渋谷方面' }`
-     * `outbound`: 例: `{ name: '下り 横浜・みなとみらい線方面', shortName: '横浜方面' }`
-   * **駅ナンバリング仕様の確認（`stationNumber` vs `id`）**:
-     * **公式制定状況の事前確認**: 鉄道事業者が公式にサインシステム等で駅ナンバリング（アルファベット＋数字）を導入しているかを必ず確認します（例: JR東日本では首都圏エリアのみ導入。信越本線・只見線・磐越西線・磐越東線・上越線・八高線・篠ノ井線など地方線区には公式ナンバリングは存在しない）。
-     * **`stationNumber?: string`（表示用・公式ナンバリング）**: 公式ナンバリングが存在する路線・駅のみ設定（例: `'JU-01'`, `'TJ-01'`）。**公式ナンバリングが存在しない線区・駅では必ず未定義（undefined）** とします。独自の架空ナンバリングを捏造・新設することは固く禁止します。
-     * **`id: string`（内部管理用一意ID）**: システム内部で駅を一意に識別するための内部キー（例: `'SE-01'`, `'TD-01'`, `'JOE-01'`, `'CO-33'`）。これは線路ジオメトリや時刻表突合用の内部識別子であり、公式駅ナンバリングではありません。
+1. 基本メタデータの決定
+   - `lineId`: 英小文字のスネークケース（例: `tokyu_toyoko`, `sotetsu_main`, `odakyu_odawara`, `tsukuba_express`, `jr_saikyo`）を使用します。
+   - `name`: 正式路線名称（例: `東急東横線`、`相鉄本線`、`小田急小田原線`、`JR八高線`、`JR信越本線（高崎～横川）`）を指定します。新幹線延伸による並行在来線三セク化（信越本線など）や系統分離（常磐線、東海道線、大糸線など）により物理的・運行系統的に分断されている線区では、`name` および `shortName` の双方に必ず区間名を含めてください（例: `name: 'JR信越本線（高崎～横川）'`, `shortName: '信越本線（高崎～横川）'`）。区間名を省くと表示路線ピッカー上で同名の路線が並び区別できなくなります。`lineId` も区間を含めた一意のID（`jr_shinetsu_takasaki_yokokawa`, `jr_shinetsu_naoetsu_niigata`, `jr_oito_east`, `jr_oito_west`, `jr_tokaido_atami_toyohashi`, `jr_tokaido_toyohashi_maibara`）とします。
+   - `shortName`: 略称（例: `東横線`、`本線`、`小田原線`、`八高線`、`信越本線（高崎～横川）`）を指定します。
+   - `operator`: 運行事業者名（例: `東急電鉄`、`相模鉄道`、`小田急電鉄`、`JR東日本`）を指定します。
+   - `lineColor`: 公式ラインカラー（HEX値、例: `#da0442`, `#041452`, `#2288cc`, `#73c11d`）を指定します。同一線名でも管轄支社や運行エリアによってラインカラーが異なる場合があるため、既存の別区間設定からコピーせず当該線区の公式案内色を必ず個別に調査して適用してください。情報源は優先1位を [ニコニコ大百科「鉄道路線のラインカラー一覧」](https://dic.nicovideo.jp/a/%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)、優先2位を [Wikipedia「日本の鉄道路線ラインカラー一覧」](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E9%89%84%E9%81%93%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7) とし、どちらにも存在しない場合は事業者のコーポレートカラー・代表車両帯色・直通先案内色から選定して理由を記録します。
+   - `accentColor`: 看板速達種別、直通相手路線のシンボルカラー、車両帯のツートンカラー等から選定します（詳細は [docs/LINE_COLORS_GUIDELINES.md](./LINE_COLORS_GUIDELINES.md) を参照）。
+   - `defaultBounds`: 初期表示バウンディングボックス（南西 `[lat, lng]`, 北東 `[lat, lng]`）を設定します。
+   - `directionNames`: 上り・下りの方向名（正式名称・短縮名称）を設定します（例: `inbound: '渋谷方面'`, `outbound: '横浜方面'`）。
+   - 駅ナンバリング仕様（`stationNumber` と `id`）: 鉄道事業者が公式に駅ナンバリングを導入しているか事前に確認します。`stationNumber?: string` は公式ナンバリングが存在する路線・駅のみ設定し（例: `'JU-01'`, `'TJ-01'`）、公式ナンバリングが存在しない線区・駅では必ず未定義（undefined）とします。`id: string` はシステム内部で駅を一意に識別する内部キー（例: `'SE-01'`, `'TD-01'`, `'JOE-01'`, `'CO-33'`）であり、公式駅ナンバリングではありません。
 
-2. **型定義の拡張 ([`src/types/index.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/types/index.ts))**:
-   * `LineId` 共用体に新しい路線IDを追加：
-     ```typescript
-     export type LineId =
-       | 'tojo'
-       | 'ogose'
-       | 'saikyo'
-       | 'kawagoe'
-       | 'rinkai'
-       | 'hachiko'
-       | 'musashino'
-       | 'tsukuba_express'
-       | 'chuo'
-       | 'chuo_main'
-       | 'ome'
-       | 'itsukaichi'
-       | 'chichibu'
-       | 'shinonoi'
-       | 'oito_east'
-       | 'oito_west'
-       | 'yurakucho'
-       | 'fukutoshin'
-       | 'seibu_ikebukuro'
-       | 'seibu_yurakucho'
-       | 'odakyu_odawara'
-       | 'odakyu_enoshima'
-       | 'odakyu_tama'
-       | 'tokyu_toyoko'
-       | 'tokyu_shin_yokohama'
-       | 'minatomirai'
-       | 'sotetsu_main'
-       | 'sotetsu_izumino'
-       | 'sotetsu_shin_yokohama'
-       | 'sotetsu_jr_direct'
-       | (string & {});
-     ```
-   * 新路線固有の種別キーが必要な場合は `TrainTypeKey` に追加（例: `strain`, `commuter_semi_exp`, `f_liner` 等）。
+2. 型定義の拡張（`src/types/index.ts`）
+   `LineId` 共用体に新しい路線IDを追加し、新路線固有の種別キーが必要な場合は `TrainTypeKey` に追加します。
+   ```typescript
+   export type LineId =
+     | 'tobu_tojo'
+     | 'tobu_ogose'
+     | 'jr_saikyo'
+     | 'jr_kawagoe'
+     | 'rinkai'
+     // ...
+     | 'jr_wadamisaki'
+     | (string & {});
+   ```
 
-3. **種別定義の作成 ([`src/data/lines/<lineId>/trainTypes.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/rinkai/trainTypes.ts))**:
-   * 各種別の表示名、短縮名、背景色（`bgColor`）、文字色（`textColor`）、枠線色（`borderColor`）を定義。
-   * **種別カラーリングの適用原則**:
-     * **各駅停車（`local`）**: 原則として当該路線の `lineColor` と同色を流用・同期（※東武東上線・越生線のように実車表示を忠実に再現する黒ベース `#1e1c1c` の意図的例外を除く）。
-     * **優等種別（快速・特急等）**: 各事業者の公式種別案内色（情報源①・②の種別カラー表）を適用。
-     * **JR東日本など全社共通色がない線区**: 駅発車標（LED/LCD）や車両行先表示器で定着している実車案内色（特快スカイブルー、青梅特快グリーン、快速ブルー、特急レッド/ボルドー等）を採用。
-     * **相互直通種別**: S-TRAIN（`#99cc00`）のように直通先各路線で公式案内色を完全統一。
-     * 詳細は [`docs/LINE_COLORS_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/LINE_COLORS_GUIDELINES.md) を参照。
+3. 種別定義の作成（`src/data/lines/<lineId>/trainTypes.ts`）
+   各種別の表示名、短縮名、背景色（`bgColor`）、文字色（`textColor`）、枠線色（`borderColor`）を定義します。基本方針として、各駅停車（`local`）は当該路線の `lineColor` と同色にするか、東武鉄道など公式停車駅案内図で専用色がある場合は公式色に合わせます。優等種別や直通種別は [docs/LINE_COLORS_GUIDELINES.md](./LINE_COLORS_GUIDELINES.md) および `src/data/trainTypePresets.ts` に従って統一します。
 
 ---
 
-### Phase 2: 線路ジオメトリ & 駅座標の構築 (`trackGeometry.ts`, `stations.ts`)
+### Phase 2: 線路ジオメトリと駅座標の構築
 
-列車が地図上を滑らかに走行するためのポリラインと、駅座標を構築します。  
-**山間部・単線・地下トンネル・複線のいずれにおいても、OSMのノード接続トポロジーに基づく連続線復元（トポロジカル/BFS探索）を標準手順とします。**
+列車が地図上を滑らかに走行するためのポリラインと駅座標を構築します。山間部・単線・地下トンネル・複線のいずれにおいても、OSM のノード接続関係に基づく連続線復元（トポロジカル / BFS 探索）を標準手順とします。
 
-1. **OSM Overpass API による線路データ取得**:
-   * 対象路線のルートリレーション（Relation）またはウェイ（Way）を取得してキャッシュ保存（`scripts/cache/osm_<lineId>.json`）。
-   * Overpass Turbo クエリ例:
-     ```overpassql
-     [out:json][timeout:60];
-     relation["route"="train"]["name"~"りんかい線"];
-     (._;>>;);
-     out body;
-     ```
-2. **トポロジカル・ノード接続探索による完全連続線の抽出**:
-   * リレーション内のウェイから端点ノードの隣接グラフを構築し、起点駅から終点駅までを順番に走査（`scripts/generate<LineId>TrackAndStations.cjs` 参照）。
-   * 飛び越え・逆戻り（ヒゲ状トゲ）・側線への迷い込みを排除した1本の完全な本線座標配列（`continuousNodes`）を生成。
-   * **【厳格禁止】駅間2点（直線）や等間隔直線補間（線形補間）による手抜き・捏造**:
-     * AIモデルが「OSMのウェイ接続が端点から取れなかった」等の理由で、駅間を始点と終点の2点（直線）で結んだり、等間隔に4〜5分割した直線補間座標でお茶を濁す行為は**絶対に禁止**します。
-     * これを行うと、列車シミュレータ上で列車が山や市街地を直線で突っ切って走行してしまい、Trainfoのシミュレータとしての品質基準を根底から損ないます。
-     * 駅構内や高架区間で接続が切れる場合は、構内分岐ウェイ、高架橋ウェイ（`bridge=viaduct`）、橋梁ウェイのIDを明示的に探索・連結し、**必ず実線路に沿った滑らかなポリライン**を生成してください。
+1. OSM Overpass API による線路データ取得
+   対象路線のルートリレーションまたはウェイを取得して `scripts/cache/osm_<lineId>.json` に保存します。
+   ```overpassql
+   [out:json][timeout:60];
+   relation["route"="train"]["name"~"りんかい線"];
+   (._;>>;);
+   out body;
+   ```
 
-3. **駅座標の配置 & 線路ポリラインへの正確なスナップ ([`stations.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/rinkai/stations.ts))**:
-   * **【最重要】駅座標（`stations.ts`）と線路端点（`trackGeometry.ts`）の完全一致（距離誤差 0.0m）**:
-     * 各路線の `stations.ts` の駅座標（`lat`, `lng`）は、**必ずその路線の線路セグメント（`TrackSegment`）の接続端点ノード（`coordinates[0]` または `coordinates[coordinates.length - 1]`）と100%一致（距離誤差 0.0m）** させてください。
-     * Wikipedia等の駅代表点（駅前広場や駅舎中心）の座標をそのまま放置すると、線路ポリラインから 10m〜50m 離れた場所に駅マーカーが浮いて表示されてしまいます。線路上に駅を配置することを徹底してください。
-   * **【最重要】乗換案内（`transfers`）における自路線名混入の禁止**:
-     * `stations.ts` の `transfers` 配列には、乗り換え可能な他社線・他路線名のみを記載してください。**自路線の名称（例: 信越本線の駅に `'JR信越本線'`）を含めることは固く禁止**します（自路線の駅詳細で自路線への乗換案内が表示されてしまうため）。
-   * **【最重要】路線による駅位置の差異と自線軌道上配置ルール**:
-     * ターミナル駅や地下鉄・JRの乗換駅（例: 大手町、新宿、永田町、飯田橋、国会議事堂前、霞ケ関、神田、日比谷、池袋、浅草、四ツ谷、御茶ノ水、東京、渋谷、高崎など）では、**同一駅名であっても路線ごとに地下ホーム位置や地上階層が数十〜数百メートル大幅に異なります**。
-     * **禁止事項**: 既知の他社線・JRの代表点や駅前広場ノードへ安易にスナップ・上書きしてはなりません。これを行うと、駅マーカーが自路線の線路（`trackGeometry`）から大きく外れてマップ上で線路外に浮いてしまいます。
-   * **【要注意】駅名検索時の完全一致原則**:
-     * OSMデータから駅ノードを抽出する際、`n.startsWith(s.name)` のような前方一致を用いてはなりません。例えば「上野」を検索した際に隣接駅「上野広小路」のノードが誤マッチし、駅座標が重なってセグメント長が1点（距離0m）に退化する重大な不具合が生じます。必ず完全一致（`n === s.name` または `n === `${s.name}駅``）で判定してください。
-   * 隣接駅間の座標配列をスライス・分割して `TrackSegment` を生成（`trackGeometry.ts`）。
-   * （直通運転を行う路線の境界駅）: 押上駅（半蔵門線 ↔ 東武線）や北千住駅（日比谷線 ↔ 東武線）などの共同使用駅・直通境界駅では、先行路線の終点と後続路線の始点を完全同一座標（ギャップ 0m）で直結させてください。
-   * **【最重要】駅メタデータの `stoppingTypes` 設定**:
-     ```typescript
-     export interface Station {
-       id: string;             // 例: 'R-01'
-       lineId: LineId;         // 路線ID（必須）
-       number: number;         // 1-based 連番
-       name: string;           // 駅名
-       nameKana: string;
-       nameEn: string;
-       lat: number;            // 自路線の線路セグメント端点と完全一致
-       lng: number;            // 自路線の線路セグメント端点と完全一致
-       transfers: string[];    // 乗換路線
-       address: string;
-       platforms: { inbound: string; outbound: string };
-       stoppingTypes: TrainTypeKey[]; // ←【重要】停車する種別の配列
-       isMajor?: boolean;      // 広域ズーム表示駅
-       facilities?: StationFacilities;
-     }
-     ```
-     > `stoppingTypes` はダイヤ合成時の通過駅判定における **Single Source of Truth** となります。
+2. トポロジカル・ノード接続探索による完全連続線の抽出
+   リレーション内のウェイから端点ノードの隣接グラフを構築し、起点駅から終点駅までを順番に走査して1本の連続本線座標配列を生成します。駅間を始点と終点の2点だけで結んだり、等間隔に4〜5分割した直線補間座標で代替したりする実装は禁止します。駅構内や高架区間で接続が切れる場合は構内分岐ウェイや高架橋・橋梁ウェイのIDを明示的に連結し、必ず実線路に沿ったポリラインを生成してください。
 
-4. **【最重要】上下線別線区間・上下非対称路線の設計基準と実装手順**:
-   * **事前調査（路線追加時の必須チェックリスト）**:
-     新路線を追加する際は、通常の複線・単線だけでなく、**「上りと下りで経路・トンネル・経由駅が物理的に分離している区間が存在しないか」** を必ず事前調査してください。
-     * **山岳ループ線・長大トンネル分離**: 例: 上越線（水上〜越後湯沢: 下り新清水トンネル vs 上り清水トンネル・湯檜曽/松川ループ線）、北陸本線（敦賀〜新疋田: 下り鳩原ループ線）
-     * **勾配緩和別線（貨物・特急迂回線）**: 例: 東海道本線（大垣〜関ケ原: 下り新垂井線 vs 上り本線）、函館本線（七飯〜大沼: 下り藤城線）
-     * **別線複線化（新旧線分離・山側新トンネル vs 海岸旧線）**: 例: 羽越本線（村上〜間島: 下り新下山トンネル山側新線 vs 上り海岸線旧線）
-     * **操車場計画跡・車両基地用地による分離**: 例: 常磐線（友部〜内原: 内原電留線を挟んだ上下線約120m分離）
-     * **地上ホーム／地下ホームの物理分離駅**: 例: 土合駅・湯檜曽駅（上り地上ホーム vs 下り地下ホーム）
-   * **データ構造と実装ルール (`trackGeometry.ts`, `stations.ts`)**:
-     * **方向別セグメントの分離定義**:
-       上下線が別ルートを通る駅間では、単一の双方向セグメントではなく、**下り専用セグメント（`direction: 'outbound'`）** と **上り専用セグメント（`direction: 'inbound'`）** を個別に定義してください。
-       ```typescript
-       // 例: 羽越本線 村上〜間島
-       {
-         segmentId: 'UE-15_UE-16',
-         fromStationId: 'UE-15',
-         toStationId: 'UE-16',
-         direction: 'outbound', // 下り線（山側新線ルート）
-         coordinates: [ /* 109点 */ ],
-       },
-       {
-         segmentId: 'UE-16_UE-15_UP',
-         fromStationId: 'UE-16',
-         toStationId: 'UE-15',
-         direction: 'inbound',  // 上り線（海岸線旧線ルート）
-         coordinates: [ /* 139点 */ ],
-       }
-       ```
-     * **ホーム分離駅の `platformCoordinates` 定義 (`stations.ts`)**:
-       土合駅や湯檜曽駅のように上下線でホームが物理的に離れている場合は、駅代表点（`lat`, `lng`）に加えて `platformCoordinates` を定義します。
-       ```typescript
-       {
-         id: 'JOE-16',
-         name: '土合',
-         lat: 36.8310, lng: 138.9675, // 代表点（上り地上駅舎）
-         platformCoordinates: {
-           inbound:  { lat: 36.831086, lng: 138.967484 }, // 上り地上ホーム
-           outbound: { lat: 36.832963, lng: 138.966456 }, // 下り地下ホーム（新清水トンネル内）
-         },
-         // ...
-       }
-       ```
-     * **UI表示仕様（ハイブリッド連動）**:
-       Trainfo の地図エンジンは、`platformCoordinates` が設定された駅に対して以下のハイブリッド表示を自動で行います：
-       1. **通常広域表示**: 代表点マーカー（単一アイコン）を表示
-       2. **高ズーム時（Zoom ≥ 14）または駅フォーカス時**: 上りホーム「駅名 (上り)」と下りホーム「駅名 (下り)」へ自動展開し、両ホーム間を破線の連絡通路で結ぶ
-     * **OSM軌道探索時の重大な注意点（トゲ・Uターンの防止）**:
-       * 地上ホームノードと地下ホームノードを単一グラフで安易に探索すると、駅構内や坑口へ向かって 1km 以上逆走・Uターンする異常パス（折れ角 170° 以上のトゲ）が生成されます。
-       * 必ず「下り線用ノードペア（下り本線同士）」と「上り線用ノードペア（上り本線同士）」を個別に特定し、それぞれ独立して探索・抽出してください。
-     * 詳細は [`docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md) を参照してください。
+3. 駅座標の配置と線路ポリラインへのスナップ（`stations.ts`）
+   - 各路線の `stations.ts` の駅座標（`lat`, `lng`）は必ずその路線の線路セグメント（`TrackSegment`）の接続端点ノード（`coordinates[0]` または `coordinates[coordinates.length - 1]`）と一致（距離誤差 0.0m）させます。
+   - `transfers` 配列には乗り換え可能な他社線・他路線名のみを記載し、自路線の名称を含めないでください。
+   - ターミナル駅や乗換駅では同一駅名であっても路線ごとにホーム位置が数十〜数百メートル異なるため、他社線・JRの代表点や駅前広場ノードへ上書きせず、自路線の軌道ノード上に配置してください。
+   - OSMデータから駅ノードを抽出する際は `n.startsWith(s.name)` のような前方一致を使わず（例えば「上野」検索時に「上野広小路」が誤マッチしてセグメント長が0mに退化します）、完全一致（`n === s.name` または `n === `${s.name}駅``）で判定してください。
+   - 直通運転を行う共同使用駅・境界駅（押上駅、北千住駅、渋谷駅など）では、先行路線の終点と後続路線の始点を同一座標（ギャップ 0m）で直結させます。
+   - 各駅に `stoppingTypes` 配列を設定します。この配列がダイヤ合成時の通過駅判定における唯一の参照元となります。
+   ```typescript
+   export interface Station {
+     id: string;             // 例: 'R-01'
+     lineId: LineId;         // 路線ID（必須）
+     number: number;         // 1-based 連番
+     name: string;           // 駅名
+     nameKana: string;
+     nameEn: string;
+     lat: number;            // 自路線の線路セグメント端点と一致
+     lng: number;            // 自路線の線路セグメント端点と一致
+     transfers: string[];    // 乗換路線
+     address: string;
+     platforms: { inbound: string; outbound: string };
+     stoppingTypes: TrainTypeKey[]; // 停車する種別の配列
+     isMajor?: boolean;      // 広域ズーム表示駅
+     facilities?: StationFacilities;
+   }
+   ```
+
+4. 上下線別線区間・上下非対称路線の設計基準と実装手順
+   新路線を追加する際は、上りと下りで経路・トンネル・経由駅が物理的に分離している区間（山岳ループ線・長大トンネル分離、勾配緩和別線、別線複線化、車両基地用地分離、地上／地下分離ホーム）が存在しないか必ず事前に調べます。該当区間では `direction: 'outbound'` と `direction: 'inbound'` にセグメントを分離し、土合駅や湯檜曽駅のように上下ホームが大きく離れる駅は `platformCoordinates` を定義します。地上ホームノードと地下ホームノードを単一グラフで探索して 170度以上の往復トゲが出ないよう、下り線用と上り線用で別々にノード探索・抽出してください。詳細は [docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md](./ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md) を参照してください。
 
 ---
 
-### Phase 3: Yahoo! 路線情報データ連携 & ダイヤ生成 (`scripts/common/yahoo/`)
+### Phase 3: Yahoo! 路線情報データ連携とダイヤ生成
 
-Trainfo では、高精度な「**Yahoo! 乗換案内（路線情報）データソース共通基盤**」を標準採用しています。  
-途中駅待避・緩急接続での着発差分、および終着駅の到着時刻を完全な実データとして取得可能です。
+Trainfo では `scripts/common/yahoo/` のデータソース共通基盤を採用し、途中駅待避・緩急接続での着発差分および終着駅の到着時刻を取得します。
 
-#### 1. 路線設定ファイルの作成 (`scripts/lines/<lineId>/config.cjs`)
-```javascript
-// scripts/lines/<lineId>/config.cjs
-module.exports = {
-  lineId: 'rinkai',
-  name: '東京臨海高速鉄道りんかい線',
-  stationsFilePath: 'src/data/lines/rinkai/stations.ts',
-  outputPaths: {
-    stationTimetables: 'src/data/lines/rinkai/stationTimetables.json',
-    globalTimetable: 'src/data/lines/rinkai/globalTimetable.json',
-  },
-  // Yahoo! 路線情報の駅IDとグループID
-  stations: [
-    { id: 'R-01', name: '新木場', yahooStationId: '22830', inGroupId: '1081', outGroupId: null },
-    { id: 'R-02', name: '東雲', yahooStationId: '22748', inGroupId: '1081', outGroupId: '1080' },
-    // ...
-    // 境界駅（大崎）: 上り（新木場方面）のみ保持、下りは直通先（埼京線）に委ねる
-    { id: 'R-08', name: '大崎', yahooStationId: '22559', inGroupId: null, outGroupId: '1080' },
-  ],
-  stationNameAliases: {
-    // Yahoo! 特有の駅名表記ゆれの正規化
-  },
-  trainTypeMap: {
-    '各駅停車': 'local',
-    '普通': 'local',
-    '快速': 'rapid',
-    '通勤快速': 'commuter',
-  },
-  defaultCars: 10,
-  baseSectionSeconds: {
-    1: 150, // R-01 -> R-02
-    2: 120, // R-02 -> R-03
-    // ...
-  },
-};
-```
+1. 路線設定ファイルの作成（`scripts/lines/<lineId>/config.cjs`）
+   ```javascript
+   module.exports = {
+     lineId: 'rinkai',
+     name: '東京臨海高速鉄道りんかい線',
+     stationsFilePath: 'src/data/lines/rinkai/stations.ts',
+     outputPaths: {
+       stationTimetables: 'src/data/lines/rinkai/stationTimetables.json',
+       globalTimetable: 'src/data/lines/rinkai/globalTimetable.json',
+     },
+     stations: [
+       { id: 'R-01', name: '新木場', yahooStationId: '22830', inGroupId: '1081', outGroupId: null },
+       { id: 'R-02', name: '東雲', yahooStationId: '22748', inGroupId: '1081', outGroupId: '1080' },
+       // 境界駅（大崎）: 上り（新木場方面）のみ保持、下りは直通先（埼京線）に委ねる
+       { id: 'R-08', name: '大崎', yahooStationId: '22559', inGroupId: null, outGroupId: '1080' },
+     ],
+     stationNameAliases: {},
+     trainTypeMap: {
+       '各駅停車': 'local',
+       '普通': 'local',
+       '快速': 'rapid',
+       '通勤快速': 'commuter',
+     },
+     defaultCars: 10,
+     baseSectionSeconds: {
+       1: 150, // R-01 -> R-02
+       2: 120, // R-02 -> R-03
+     },
+   };
+   ```
+   Yahoo! ID は `https://transit.yahoo.co.jp/timetable/` で対象路線の駅時刻表ページを開き、URL（例: `https://transit.yahoo.co.jp/timetable/22559/1080?kind=1`）から `22559` を `yahooStationId`、`1080` を進行方向のグループID、逆方向ページの `1081` を反対方向のグループIDとして確認します。
 
-> **Yahoo! IDの調べ方**:
-> 1. `https://transit.yahoo.co.jp/timetable/` で対象路線の駅時刻表ページを開く。
-> 2. URL 例: `https://transit.yahoo.co.jp/timetable/22559/1080?kind=1`
->    - `22559` が `yahooStationId`
->    - `1080` が その方向のグループID（`outGroupId` / `inGroupId`）
->    - 逆方向ページの `1081` が反対方向のグループID
-
-#### 2. インポーター CLI の実行
-```bash
-node scripts/runYahooImporter.cjs --line <lineId>
-```
-* **Step 1: 駅時刻表スクレイピング**: 全駅の平日（`kind=1`）・土休日（`kind=4`）発車標を収集し `stationTimetables.json` を出力。
-* **Step 2: 列車詳細スクレイピング**: ユニーク列車（`${dayKey}_${trainId}`）の全停車駅**着時刻・発時刻・終着駅着時刻**を完全収集。
-* **Step 3: ダイヤ合成 & 汎用通過・秒補間**: `stations.ts` の `stoppingTypes` を参照して通過駅を自動特定し、`globalTimetable.json` を生成。
+2. インポーター CLI の実行
+   ```bash
+   node scripts/runYahooImporter.cjs --line <lineId>
+   ```
+   全駅の平日（`kind=1`）・土休日（`kind=4`）発車標から `stationTimetables.json` を出力し、ユニーク列車（`${dayKey}_${trainId}`）の全停車駅着発時刻を収集したうえで、`stations.ts` の `stoppingTypes` を参照して通過駅を特定し `globalTimetable.json` を生成します。
 
 ---
 
-### Phase 4: 公式列車番号エンリッチメント（自動注入 & 駅探ハイブリッド突合）
+### Phase 4: 公式列車番号補完（自動注入と駅探ハイブリッド突合）
 
-鉄道本来の公式列車番号（例: `1001レ`, `2425T`, `1349M`, `002051`, `057051`, `A504S`, `9011M`, `B1853M`）を保持し、ドメインモデルとして `trainId`（直通判定用システム内部ID）と `trainNumber`（表示用公式列車番号）を分離・注入します。
+公式列車番号（例: `1001レ`, `2425T`, `1349M`, `B1853M`）を保持するため、`trainId`（直通判定用内部ID）と `trainNumber`（表示用公式列車番号）を分離して注入します。`YahooTimetableBuilder.cjs` は駅時刻表キャッシュ（`scripts/cache/yahoo/<lineId>/stations/`）の `vendorTrainId` を自動的に読み込んで公式列車番号を初期注入するため、主要路線では Phase 3 の実行時点で突合率 100.0% が達成されます。
 
-> [!TIP]
-> **【自動注入アーキテクチャ】Phase 3 での完全自動注入**:  
-> `YahooTimetableBuilder.cjs` は、Phase 3 で保存された駅時刻表キャッシュ（`scripts/cache/yahoo/<lineId>/stations/`）の `timetableItem.hourTimeTable[].minTimeTable[].vendorTrainId` を自動的に読み込み、トリップ構築時に正規化された公式列車番号を最初から注入します。  
-> そのため、JR東日本各線や主要地下鉄・私鉄では、**個別スクリプトの作成不要で Phase 3 のインポーター実行時点で突合率 100.0% が自動達成**されます。  
-> 今後タイムテーブルを再生成（rebuild）しても、列車番号が生IDで上書きされて外れることはありません。
+キャッシュに `vendorTrainId` がない事業者（つくばエクスプレス等）や一部特別列車では、駅探との突合パイプラインを実行します。
 
-#### 1. キャッシュに `vendorTrainId` がない路線の駅探ハイブリッド突合
-駅キャッシュに公式列車番号が存在しない事業者（つくばエクスプレス等）や、特定列車（Yahoo発車標のvendorTrainIdが空欄の座席指定列車等）に限り、駅探データとの突合パイプラインを実行します。
-* 駅探の時刻表URL体系: `https://ekitan.com/timetable/railway/line-station/<lineCode>-<stationIndex>/<direction>?dw=<dw>`
-  * **曜日コード (`dw`) の厳密な仕様**:
-    * `dw=0`: **平日ダイヤ**
-    * `dw=1`: **土曜ダイヤ**
-    * `dw=2`: **休日ダイヤ**（日曜・祝日）
-    > [!WARNING]
-    > **【重大注意】`dw=1` は「平日」ではなく「土曜ダイヤ」**:  
-    > `dw=1` を「平日」と誤認してスクレイピングすると、平日に土曜ダイヤが取得・保存されてしまいます。  
-    > この場合、平日のみ走る列車（例: 東横線の通勤特急）が土曜の同時刻帯の便（急行等）と1分差で誤突合され、誤った列車番号（例: 本来 `775-201レ` のはずが土曜急行の `749-201レ`）が割り当てられる原因となります。  
-    > 土曜・休日ダイヤが共通の私鉄各線であっても、**平日は必ず `dw=0`、休日は `dw=2`** を指定して取得してください。
-  * **方向パラメータ (`<direction>`)**:
-    * **終端駅（始発・終着駅）**: 存在する進行方向が常に `d1` となります（存在しない反対方向の `d2` は HTTP 404 になります）。
-    * **途中駅**: `d1` = 上り方面、`d2` = 下り方面。
-* プローブスクリプトを作成し、主要駅・全駅のインデックスと駅名の一致を実証（例: 東急東横線 `216-0`〜`216-20`、みなとみらい線 `291-0`〜`291-5`、中央線快速 `180-0`〜`180-23` 等）。
+1. 駅探の時刻表URL体系とパラメータ規定
+   URL は `https://ekitan.com/timetable/railway/line-station/<lineCode>-<stationIndex>/<direction>?dw=<dw>` です。曜日コード `dw` は `dw=0` が平日ダイヤ、`dw=1` が土曜ダイヤ、`dw=2` が休日ダイヤ（日曜・祝日）を表します。土曜・休日ダイヤが共通の私鉄各線であっても、平日は必ず `dw=0`、休日は `dw=2` を指定してください（`dw=1` を平日として取得すると平日専用列車と土曜ダイヤ便が誤突合されます）。方向パラメータは、終端駅では存在する方向が常に `d1`（反対方向の `d2` は HTTP 404）、途中駅では `d1` が上り方面、`d2` が下り方面です。
 
-#### 2. 駅探スクレイピングスクリプトの作成 & 実行 (`scripts/fetch<Line>Ekitan.cjs`)
-* **列車リンクからの公式列車番号の抽出**:
-  * 各列車の要素（`<li class="ek-train-tooltip"><a href="...">`）の `href` 属性に含まれる `tx` クエリパラメータ（例: `tx=1360100-9780-002051`）のハイフン区切り第3セグメント等から、公式列車番号（例: `002051`, `057051`, `703051`, `811241` 等）を正確に抽出できます。
-* **1リクエストで上下線両テーブル取得（高速化 & 整合性保証）**:
-  * 駅探のHTMLには、1ページ内に上下線双方の時刻表テーブル（`<table class="search-result-data ek-search-result">`）が順にレンダリングされています。
-  * 方面タブ（`<li class="ek-direction_tab" data-ek-direction_name="...">`）の配列とテーブル配列が **インデックスで1対1に対応** するため、`d1` を1回取得するだけでその駅の全方面テーブルを取得可能です。
-* **方面判定の鉄則**:
-  * 「大崎」などの部分一致は駅名自体（「大崎駅」）に誤マッチするため、必ず「○○方面」単位で判定する。
-  * 同一路線でも途中駅で上り/下りの方面表記が変化するため、全駅のタブ名を事前にリストアップして判定ルールを設計する。
+2. 駅探スクレイピングスクリプトの設計（`scripts/fetch<Line>Ekitan.cjs`）
+   各列車リンクの `tx` クエリパラメータから公式列車番号を抽出します。駅探の HTML には1ページ内に上下線双方の時刻表テーブル（`<table class="search-result-data ek-search-result">`）と方面タブ（`<li class="ek-direction_tab" data-ek-direction_name="...">`）がインデックス1対1で含まれるため、`d1` を1回取得するだけで全方面のテーブルを取得できます。方面判定では駅名自体への誤マッチを防ぐため、必ず「○○方面」単位で判定します。
 
-#### 3. 列車番号エンリッチメントの実装 & 実行 (`scripts/enrich_train_numbers.cjs`)
-1. **内部IDの退避とドメイン分離**:
-   * `trip.trainId = trip.trainId || trip.trainNumber;`（旧生IDを `trainId` に退避）
-   * **重要**: `trainId` は直通運転において会社境界を跨いでも同一の値が維持されるため、境界駅での直通ペア判定や追尾引き継ぎに不可欠な識別子となります。
-2. **公式列車番号の正規化（`normalizeTrainNumber`）**:
-   * 末尾アルファベット（`xxxT`, `xxxH`, `xxxM`, `xxxK`, `xxxE`, `xxxD`）や「レ」付き $\rightarrow$ そのまま採用。
-   * 純数字（私鉄・相鉄・東急・TX・地下鉄・JR短数字等） $\rightarrow$ 6桁公式番号（東急・みなとみらい線・東急新横浜線・相鉄直通等）は `XXX-XXXレ` にハイフン整形して「レ」を付与（`022-241レ`、`532-101レ`）。その他の純数字（相鉄4桁、JR短数字、秩父鉄道等）も末尾に「レ」を付与して統一（`2099レ`、`546レ`、`105レ`）。
-3. **全停車駅による着発時刻突合（ファジー許容 & パリティ検証の導入）**:
-   * 始発駅および主要停車駅の発車時刻 `${dayKey}:${stationId}:${direction}:${h}:${m}` をキーとして駅探データを検索。
-   * **平日・休日のバケット振り分け厳守**: 駅探キャッシュのバケット判定は必ず `const isHoli = row.dayKey ? row.dayKey === 'holiday' : row.dw !== 0;` のように記述し、平日（`dw=0`）と休日（`dw=2`）を正しく分離する（`row.dw !== 1` と書くと平日が空になってマッチ不能に陥るため厳禁）。
-   * **±1〜2分（60〜180秒）の近接突合**: Yahoo! 路線情報と駅探の間で、秒数の四捨五入処理（15秒・30秒等）やダイヤ改正の反映タイミングの差により発車時刻が 1〜2分 前後する場合があります。完全一致に加えて許容誤差（180秒以内）の近接マッチを行うことで 100% の突合率を達成します。
-   * **上下線パリティ検証**: 東急・相鉄等では下り奇数末尾・上り偶数末尾のルールがあるため、突合候補が進行方向と一致しているかを必ず検証して逆方向誤マッチを防止。
-   * **直通ペア間完全同期**: 東横線 $\leftrightarrow$ みなとみらい線など同一ダイヤで直通する路線間では、直通ペア（`throughTripId`）を通じて確定した公式列車番号を相互同期し、直通ペア間一致率 100% を保証。
-4. **特急・臨時列車の特別指定マッピング（`SPECIAL_*`）**:
-   * 臨時特急（アルプス `9011M`、臨時あずさ `9071M`〜`9088M`、富士回遊 `2103M`〜`2115M`、鎌倉号 `8066M`/`8068M` 等）は、Yahoo!の `displayName` や `guideComment` を活用して辞書定義し、100%突合を達成。
-5. **駅発車標（`stationTimetables.json`）の完全同期**:
-   * 全駅の全発車標アイテムに対し、`dep.trainId = lookupId; dep.no = officialNo;` を更新。
-6. **スクリプトの実行**:
+3. 列車番号補完スクリプトの実行（`scripts/enrich_train_numbers.cjs`）
+   - `trip.trainId = trip.trainId || trip.trainNumber;` で旧生IDを `trainId` に退避し、直通判定の識別子を維持します。
+   - `normalizeTrainNumber` により末尾アルファベット付きや「レ」付きはそのままとし、6桁純数字（東急・みなとみらい線・東急新横浜線・相鉄直通等）は `XXX-XXXレ`、その他の純数字は末尾に「レ」を付与します。
+   - 平日/休日のバケット振り分けは `const isHoli = row.dayKey ? row.dayKey === 'holiday' : row.dw !== 0;` とし、`dw=0` と `dw=2` を分離します。
+   - Yahoo! と駅探の秒丸め等による1〜2分差を吸収するため許容誤差180秒の近接マッチを併用し、東急・相鉄等では上下線パリティ検証（下り奇数・上り偶数）も実施します。臨時特急は辞書マッピング（`SPECIAL_*`）で補完します。
+   - 全駅の発車標アイテム（`dep.trainId` と `dep.no`）も同時に同期します。
    ```bash
    node scripts/enrich_train_numbers.cjs <lineId>
    ```
 
-> [!NOTE]
-> **【恒久耐障害性】ダイヤ再生成時の列車番号保護**:  
-> `YahooTimetableBuilder.cjs` および `enrich_train_numbers.cjs` に全路線汎用の自動注入機構が組み込まれているため、駅の追加や秒補間調整、新路線追加に伴う全路線再生成（`node scripts/rebuildAllTimetablesFromCache.cjs`）を実行しても、公式列車番号が消失することはありません。  
-> 必要に応じて `node scripts/audit_all_lines_status.cjs` を実行すれば、全路線の公式列車番号反映率（100.0%）をいつでも検証・監査できます。
-
 ---
 
-### Phase 5: レジストリ登録 & 動的ローダー統合
+### Phase 5: レジストリ登録と動的ローダー統合
 
-初期バンドルサイズを肥大化させないため（66MB→1.4MBへの最適化）、時刻表JSON（`stationTimetables.json` / `globalTimetable.json`）は路線モジュール内で直接静的 `import` せず、オンデマンド動的ローダー（[`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts)）に登録してオンデマンド読み込みを行います。
+初期バンドルサイズを抑えるため、時刻表JSONは路線モジュール内で静的インポートせず `src/data/timetableLoader.ts` でオンデマンド読み込みを行います。
 
-1. **モジュール定義ファイルの作成 ([`src/data/lines/<lineId>/index.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/tokyu_toyoko/index.ts))**:
+1. モジュール定義ファイルの作成（`src/data/lines/<lineId>/index.ts`）
    ```typescript
    import type { LineDefinition } from '../../../types';
    import { TOKYU_TOYOKO_STATIONS } from './stations';
@@ -437,57 +269,40 @@ node scripts/runYahooImporter.cjs --line <lineId>
      stations: TOKYU_TOYOKO_STATIONS,
      trackSegments: TOKYU_TOYOKO_TRACK_SEGMENTS,
      trainTypes: TOKYU_TOYOKO_TRAIN_TYPES,
-     // 時刻表データは初期状態では空とし、timetableLoader.ts により動的ロード
      stationTimetables: { weekday: {}, holiday: {} },
      globalTimetable: [],
    };
    ```
 
-2. **集約レジストリへの追加 ([`src/data/linesRegistry.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/linesRegistry.ts))**:
-   * 作成した路線オブジェクトをインポートし、`LINES_REGISTRY` オブジェクトに登録。
-   * 新しい運行事業者の場合は `OPERATOR_DISPLAY_ORDER` 配列に事業者名を追加（サイドバーやセレクターの表示順序を制御）。
-   * **エリア分類マップ（`LINE_AREA_MAP`）への追加**: 表示路線セレクターの「エリア別」タブ（`kanto`: 関東 / `koshinetsu`: 甲信越 / `tohoku`: 東北 / `tokai`: 東海）で正しく分類されるよう、`LINE_AREA_MAP` に対象路線IDと所属エリアキーを必ず登録してください。
+2. 集約レジストリへの追加（`src/data/linesRegistry.ts`）
+   作成した路線オブジェクトを `LINES_REGISTRY` に登録し、表示路線セレクターのエリア別分類（`kanto` / `koshinetsu` / `tohoku` / `tokai` / `kansai`）として `LINE_AREA_MAP` に追加します。新規事業者の場合は `OPERATOR_DISPLAY_ORDER` および `AREA_OPERATOR_ORDER` にも追加します。
 
-3. **オンデマンド動的ローダーによる自動チャンク分割 ([`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts))**:
-   * `timetableLoader.ts` では Vite の `import.meta.glob('./lines/*/globalTimetable.json')` および `import.meta.glob('./lines/*/stationTimetables.json')`（Node.js `tsx` 実行時は動的 `import()` フォールバック）を使用しています。
-   * そのため、`src/data/lines/<lineId>/` 配下に `globalTimetable.json` と `stationTimetables.json` を配置し、`LINES_REGISTRY` に登録するだけで自動的に路線別チャンクとして分割・遅延ロードされます（手動での `timetableLoader.ts` 編集は不要です）。
-   * これにより、ユーザーがその路線を選択・表示した瞬間にのみブラウザが非同期にJSONチャンクをダウンロードし、初期描画の圧倒的な軽快性が保たれます。
+3. オンデマンド動的ローダーの確認（`src/data/timetableLoader.ts`）
+   `timetableLoader.ts` は Vite の `import.meta.glob('./lines/*/globalTimetable.json')` と `import.meta.glob('./lines/*/stationTimetables.json')`（Node.js `tsx` 実行時は動的 `import()` フォールバック）を使用しているため、`src/data/lines/<lineId>/` 配下に JSON を配置して `LINES_REGISTRY` に登録するだけで自動的に路線別チャンクへ分割・遅延ロードされます。
 
 ---
 
-### Phase 6: 直通運転・境界駅ハンドオーバー設定（※直通路線のみ）
+### Phase 6: 直通運転・境界駅ハンドオーバー設定（直通路線のみ）
 
-新路線が他路線と相互直通運転を行う場合、以下の設定を実施します。  
-（※単独完結路線の場合はスキップして Phase 7 へ進みます）
-
-> [!CAUTION]
-> **【最重要】直通運転における2大頻出不具合と防止原則**:  
-> 1. **境界駅での列車消失**: 先行路線の終着時刻と後続路線の始発時刻にギャップ（1〜3分）があると、シミュレーション上で列車が完全に消失します。必ず**シームレス時刻同期**を行ってください。  
-> 2. **路線を跨ぐたびに行先が変わる**: 直近の次路線終点駅名（新横浜、西谷、日吉等）を行先にしてはいけません。必ず直通チェーン全体の最先端を探索する **End-to-End 行先解決** を行ってください。
+単独完結路線の場合はスキップして Phase 7 へ進みます。直通路線では境界駅での時刻ギャップ（列車消失）と路線跨ぎ時の行先変化を防ぐため、シームレス時刻同期と End-to-End 行先解決を行います。
 
 ```mermaid
 flowchart LR
-    subgraph Chain ["直通運転チェーン (例: 東横線 ↔ 新横浜線 ↔ 相鉄線)"]
+    subgraph Chain ["直通運転チェーン (例: 東横線 - 新横浜線 - 相鉄線)"]
         direction LR
-        T1["東横線トリップ<br/>(渋谷 → 日吉)<br/><b>customDest: 海老名</b>"] -->|throughTripId| T2["東急新横浜線トリップ<br/>(日吉 → 新横浜)<br/><b>customDest: 海老名</b>"]
-        T2 -->|throughTripId| T3["相鉄新横浜線トリップ<br/>(新横浜 → 西谷)<br/><b>customDest: 海老名</b>"]
-        T3 -->|throughTripId| T4["相鉄本線トリップ<br/>(西谷 → 海老名)<br/><b>customDest: 海老名</b>"]
+        T1["東横線トリップ<br/>(渋谷 → 日吉)<br/>customDest: 海老名"] -->|throughTripId| T2["東急新横浜線トリップ<br/>(日吉 → 新横浜)<br/>customDest: 海老名"]
+        T2 -->|throughTripId| T3["相鉄新横浜線トリップ<br/>(新横浜 → 西谷)<br/>customDest: 海老名"]
+        T3 -->|throughTripId| T4["相鉄本線トリップ<br/>(西谷 → 海老名)<br/>customDest: 海老名"]
     end
     Sync["境界駅時刻シームレス同期<br/>(先行着 = 後続発車待ち開始)"] -.-> Chain
 ```
 
-#### 1. 境界駅の発車標データの住み分け
-* 境界駅（例: 大崎駅、日吉駅、新横浜駅）で両路線の発車標が重複しないよう、一方の路線には上り発車標のみ、他方の路線には下り発車標のみを持たせる（`inGroupId: null` または `outGroupId: null`）。
-* `getCombinedStationTimetables` により、両路線選択時に自動的に上下線発車標が時刻順に美しく統合されます。
+1. 境界駅の発車標データの住み分け
+   境界駅（例: 大崎駅、日吉駅、新横浜駅）で両路線の発車標が重複しないよう、一方の路線には上り発車標のみ、他方の路線には下り発車標のみを持たせます（`inGroupId: null` または `outGroupId: null`）。`getCombinedStationTimetables` により、両路線選択時は上下線発車標が時刻順に統合されます。
 
-#### 2. 汎用直通リンカー基盤への新路線ペア登録 & 実行
-Trainfo では、全路線の駅名マスタの自動走査・シームレス時刻同期・End-to-End行先解決を一括自動処理する **汎用直通リンカー基盤 (`scripts/common/throughLinker/`)** を提供しています。  
-個別スクリプトを手書きする必要はなく、以下の2ステップのみで完了します：
-
-1. **接続ペア設定の登録 ([`scripts/common/throughLinker/connectionsConfig.cjs`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/scripts/common/throughLinker/connectionsConfig.cjs))**:
-   新路線と接続路線の境界駅・進行方向のペアを `connections` 配列に追加します。
+2. 汎用直通リンカー基盤への接続ペア登録と実行
+   `scripts/common/throughLinker/connectionsConfig.cjs` の `connections` 配列に上り・下りの接続ペアを追加し、`node scripts/runThroughLinker.cjs` を実行します。
    ```javascript
-   // 例: 新路線（lineA）と既存路線（lineB）の接続ペア
    {
      name: '新路線 -> 接続路線 (下り)',
      lineA: 'new_line',
@@ -509,538 +324,327 @@ Trainfo では、全路線の駅名マスタの自動走査・シームレス時
      maxTimeDiff: 300,
    },
    ```
+   `runThroughLinker.cjs` を実行すると、全174路線の `stations.ts` からの駅名マスタ収集、併結・分割運転リンク（`coupleAllExpress.cjs`）の構築、境界駅での時刻一致処理、直通チェーン最先端までの探索による `customDestination` と `customOrigin` の一括統一が自動処理されます。
 
-2. **汎用直通リンカーの実行**:
-   ```bash
-   node scripts/runThroughLinker.cjs
-   ```
-   * **自動処理される内容**:
-     * 全路線の `stations.ts` から駅名マスタ（全1,809ユニーク駅 / 延べ2,197駅）を自動収集（駅名のハードコード不要）。
-     * **多層併結・分割運転リンク（`coupleAllExpress.cjs`）の自動実行**: 東北新幹線（はやぶさ＋こまち、やまびこ＋つばさ）、中央線・富士急行線（あずさ/かいじ＋富士回遊）、東海道線・伊豆急・伊豆箱根（踊り子下田＋修善寺）、東武（リバティけごん＋会津/きぬ）、小田急（はこね＋えのしま）の併結編成リンク（`coupledWith`）も `runThroughLinker.cjs` 内で一括構築。
-     * 対象路線の既存リンクを安全に初期化（冪等性の保証）。
-     * Yahoo! `trainId` 最優先マッチ & 公式列車番号マッチ。
-      * **境界駅でのシームレス時刻同期**: 先行路線の到着時刻と後続路線の停車開始時刻を秒単位で完全一致させ、空白時間（消失時間）をゼロに解消。
-      * **全路線の有向グラフ探索による End-to-End 行先自動解決**: 3路線以上の長大直通系統であっても、チェーンの最先端（最終終着駅）を特定し、全トリップの `customDestination` を同一の最終行先で一括統一。
-      * **全区間始発駅（`customOrigin`）の先頭探索・同期**: 直通チェーンを逆方向に遡り、本来の始発駅名を特定して下流トリップへ伝播（例: 海老名発の列車が副都心線内でも「海老名発」と表示される）。
-
-#### 3. 異なる駅コードを持つ境界接続駅の物理同一性対応
-* 路線ごとに駅IDが異なる場合（例: 東横線 `TY-13` ↔ 新横浜線 `SH-03`、新横浜線 `SH-01` ↔ 相鉄 `SO-52`、渋谷 `TY-01` ↔ `F-16`、横浜 `TY-21` ↔ `MM-01`）：
-* [`src/services/trainSimulation.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/services/trainSimulation.ts) の `isSamePhysicalStation` により自動的に同一物理駅（駅名一致または距離500m以内）として認識され、境界駅停車中の先行トリップから後続トリップへのスムーズな描画移行が行われます。
-
-#### 4. 乗換路線案内（`transfers`）の相互リンク
-* 境界駅の `stations.ts` において、`transfers` 配列に相互の路線名を追加。
-
+3. 異なる駅コードを持つ境界接続駅の物理同一性対応と乗換案内
+   路線ごとに駅IDが異なる境界駅でも、`src/services/trainSimulation.ts` の `isSamePhysicalStation` が駅名一致または距離 500m 以内を同一物理駅として判定し、境界停車中の引き継ぎを行います。境界駅の `stations.ts` の `transfers` 配列には相互の路線名を追加してください。
 
 ---
 
-### Phase 7: UI & コンポーネント最適化
+### Phase 7: UI・コンポーネント最適化
 
-1. **駅ナンバリングバッジの配色設定 ([`src/components/Common/Badges.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Common/Badges.tsx))**:
-   * **【厳格ルール】公式制定路線のみ登録・非公式プレフィックスの登録厳禁**:
-     * `STATION_BADGE_COLORS` に登録できるのは、**各鉄道事業者が公式にサインシステム等で制定した駅ナンバリング記号（プレフィックス）および配色のみ** です（例: `TY`, `SH`, `MM`, `SO`, `OH`, `OE`, `OT`, `R`, `TX`, `JU`, `JT`, `JC`, `JA`, `JK`, `JY`, `JB` 等）。
-     * **公式未制定路線（JR東日本新潟支社・東北本部管内など）の内部管理用駅IDプレフィックス（`SE`, `TD`, `BW`, `BE`, `JOE`, `SN` 等）を誤って登録することは固く禁止します。**
-     * 公式ナンバリングが存在しない線区の路線を追加する場合は、**`Badges.tsx` への駅ナンバリングバッジ追加作業は完全にスキップ（登録不要）** してください。
-     * 運行系統上の重複・直通区間（例: 高崎線の上野〜大宮は宇都宮線 `JU` と共通、大宮以北は公式ナンバリングなし）は公式仕様を厳守してください。
-     ```typescript
-     TY: {
-       borderColor: '#da0442',
-       prefixColor: '#da0442',
-       numColor: '#da0442',
-     },
-     SO: {
-       borderColor: '#041452',
-       prefixColor: '#041452',
-       numColor: '#041452',
-     },
-     ```
-2. **主要駅ハイライト設定 ([`src/data/lines/<lineId>/stations.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/tokyu_toyoko/stations.ts))**:
-   * ズームアウト時にも常時表示させたいターミナル駅・乗換駅・主要駅は、`stations.ts` の定義に `isMajor: true` を付与。
-3. **他路線との同名駅切替リンク ([`src/data/linesRegistry.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/linesRegistry.ts) / [`src/components/Sidebar/StationDetail.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Sidebar/StationDetail.tsx))**:
-   * `getAlternateStations(station)` ヘルパーにより、駅名（`station.name`）が一致する他路線の乗換駅が検索され、`StationDetail.tsx` および `TimetableModal.tsx` で自動的に相互切り替えボタンが表示されます。
-   * 表記揺れ（例: 「新横浜」「日吉」「横浜」「大宮」等）がないことを確認。
-4. **モジュラーカスタムフック & パフォーマンスガイドラインの遵守 ([`src/components/Map/hooks/`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Map/hooks/))**:
-   * 地図描画・マーカー生成は単一責務カスタムフック群（`useLeafletMap`, `useStationMarkers`, `useTrainMarkers`, `useMapCamera`, `useGeolocation`, `useTrackPolylines`）に分離されています。
-   * 新路線のマーカー表示にあたっては、インライン `filter: drop-shadow` などの重い GPU レイヤーの付与を避け、CSS `shadow-md` や CSS クラスの差分更新を徹底してください。
+1. 駅ナンバリングバッジの配色設定（`src/components/Common/Badges.tsx`）
+   `STATION_BADGE_COLORS` に登録できるのは、各鉄道事業者が公式に制定した駅ナンバリング記号および配色のみです。JR東日本新潟支社・東北本部管内や新幹線などの公式未制定路線では内部管理用駅IDのプレフィックスを登録せず、`stations.ts` の `stationNumber` も未定義のままにしてください。
+   ```typescript
+   TY: {
+     borderColor: '#da0442',
+     prefixColor: '#da0442',
+     numColor: '#da0442',
+   },
+   SO: {
+     borderColor: '#041452',
+     prefixColor: '#041452',
+     numColor: '#041452',
+   },
+   ```
+
+2. 主要駅ハイライト・同名駅切替リンク・描画負荷対策
+   - ズームアウト時にも常時表示させたいターミナル駅・乗換駅には、`stations.ts` で `isMajor: true` を付与します。
+   - `getAlternateStations`（`src/data/linesRegistry.ts`）により同名駅の相互切り替えが動作するため、乗換駅の駅名表記に揺れがないことを確認します。
+   - `src/components/Map/hooks/` 配下の各フックではインライン `filter: drop-shadow` や非選択マーカーでの常時アニメーションを避けて GPU 負荷を抑えています。
 
 ---
 
-### Phase 8: 包括的シミュレーション検証 & テスト
+### Phase 8: 包括的シミュレーション検証とテスト
 
-新設路線の品質を多角的に検証します。
+1. 型チェックとビルド検証（`npm run build`）および静的解析（`npm run lint`）を実行し、エラーがゼロであることを確認します。
+2. `npm run audit:stations`、`npm run audit:paths`、`npm run audit:couplings`、`node scripts/audit_all_lines_status.cjs` を実行し、全駅座標の線路端点との距離誤差 `0.0m`、直線手抜きセグメントの不在、300m 以上の不自然な大ジャンプ不在、列車番号反映率を定量的に確認します。
+3. 直通路線では `scripts/test_<boundary>_handover.ts` を作成・実行し、境界越境時の `resolveSelectedTrain` による追尾引き継ぎと自動路線追加が成功することを検証します。
+4. ブラウザ上で早送り再生（10x / 30x）し、列車の逆走や瞬間移動、種別フィルター、駅発車標モーダル、列車詳細サイドバーの表示を確認します。
 
-1. **型チェック & ビルド検証**:
-   ```bash
-   npm run build
-   ```
-   型エラー、インポート漏れ、JSONパースエラーが一切ないことを確認。
+---
 
-2. **軌道ジオメトリ & 駅スナップの自動監査**:
-   * 標準監査コマンド（`npm run audit:stations`, `npm run audit:paths`, `npm run audit:couplings`, `node scripts/audit_all_lines_status.cjs`）により以下の項目を定量的に監査すること：
-     * **全駅座標の線路スナップ検証（必須: 差分 0.0m）**: `stations.ts` の全駅の `lat`, `lng` が、`trackGeometry.ts` のセグメント端点座標（`coordinates[0]` または `coordinates[coordinates.length - 1]`）と **100%完全一致（差分 0.0m）** していることを確認。1m以上のズレがある場合は駅が線路から浮いてしまうため、必ず線路端点座標で上書きスナップすること。
-     * **直線手抜きセグメントの検出**: セグメントの点数が2点のみ、あるいは等間隔の直線補間（4〜5点）になっている手抜き区間がないかチェック。存在する場合はOSMから実線路ウェイを再取得・連結すること。
-     * **異常な大ジャンプの検出**: 連続するノード間で300m以上の急激な飛び（カーブのショートカットや不自然な長距離直線飛び）がないか確認（※郊外の純粋な直線区間でのOSM間引きを除く）。
+### Phase 9: ドキュメント更新と完了
 
-3. **直通ハンドオーバー自動テストの実行（直通路線）**:
-   * `scripts/test_<boundary>_handover.ts` を作成・実行。
-   * 境界駅越境時の `resolveSelectedTrain` による追尾引き継ぎ、および自動路線追加が100%成功するか検証。
-
-4. **ブラウザ実画面での動作検証**:
-   * 列車シミュレータを起動し、早送り（10x / 30x）で以下の挙動を目視確認：
-     * 列車の瞬間移動・不自然なジャンプ・駅間での逆戻りUターンがないか。
-     * 始発駅での出現、終着駅での消滅がスムーズか。
-     * 種別フィルター（「全種別」「優等」「普通/各停」）が意図通り動作するか。
-     * 駅発車標モーダル（TimetableModal）の表示順・行先・種別が正確か。
-     * 列車詳細サイドバー（TrainDetail）の着発時刻2段組表示が正確か。
+統計スクリプトで最新の事業者数・総路線数・延べ駅数・ユニーク駅数・エリア別路線数を算出し、`README.md`、`docs/LINE_COLORS_GUIDELINES.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md` の各数値と路線一覧を同期したうえで、`git status` と `git diff` で意図しない変更が含まれていないことを確認します。
 
 ---
 
 ## 3. 直通運転・境界駅ハンドオーバー設計標準
 
-複数路線を跨ぐ直通系統において、シミュレーション・追尾・駅発車標案内を破綻なく調和させるための設計マトリクスと標準仕様です。
-
-### 1. 直通パターンの分類マトリクス
+複数路線を跨ぐ直通系統を扱う際のパターン別設計マトリクスです。
 
 | 直通パターン | 代表例 | 境界駅 | 発車標データ設計 | 直通メタデータ設計 | 備考 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **パターンA: 2路線直通** | 中央線 ↔ 中央本線<br/>中央線 ↔ 青梅線<br/>埼京線 ↔ 川越線 | 高尾 (JC-24)<br/>立川 (JC-19)<br/>大宮 (JA-26) | 一方に上り、他方に下りのみ設定し、`getCombinedStationTimetables` で重複ゼロ統合 | 境界でトリップ分割。<br/>`throughTripId`<br/>`throughLineId`<br/>`customDestination`<br/>`customOrigin` を相互付与 | 境界越境時に相手路線を未選択でも自動選択して追尾継続 |
-| **パターンB: 3路線以上の全線貫通直通** | 川越線 ↔ 埼京線 ↔ りんかい線<br/>メトロ(有楽町/副都心) ↔ 西武有楽町線 ↔ 西武池袋線 | 大宮 (JA-26)<br/>大崎 (JA-08 / R-08)<br/>小竹向原 (Y-06/F-06 / SI-37)<br/>練馬 (SI-06) | 大宮・大崎、小竹向原・練馬で各路線の発車標グループIDを上下片側のみに分離 | **進行方向前方指向連鎖（Forward-Pointing Chain）**を採用。<br/>中間路線（埼京線、西武有楽町線）は進行先の次路線のみを指向 | 双方向照合 `(prev.throughTripId === t.tripId \|\| t.throughTripId === prev.tripId)` により全線追尾 |
-| **パターンC: 接続・乗換境界（直通なし）** | 大糸線 (東日本) ↔ 大糸線 (西日本)<br/>中央本線 ↔ 篠ノ井線 | 南小谷 (OE-33 / OW-01)<br/>塩尻 (CO-61 / 篠ノ井線起点) | 各自の終着方向を `null` 設定し、線内完結発車標として案内 | 直通メタデータは不要。<br/>駅の `transfers` および同名駅切替リンクのみ提供 | 事業者・電化方式・運行系統が完全に独立 |
-| **パターンD: 異経路・別ホーム直通** | 武蔵野線 ↔ 川越線（臨時特急絶景赤コキア川越号等） | 大宮 (JU-07地上 / JA-26地下) | 各路線の発車標に自線ホーム発着分をそのまま掲載 | ホーム・駅ID・方向が異なるため、`throughTripId` / `throughLineId` を明示付与して強制接続 | 列車番号・方向による自動フォールバックが効かないため明示リンクが必須 |
-| **パターンE: 乗降制限・通過駅のみの直通特急** | S-TRAIN（平日豊洲↔所沢/小手指、土休日元町・中華街↔西武秩父） | 小竹向原 (Y-06/F-06 / SI-37)<br/>練馬 (SI-06) | 旅客乗降駅（乗車専用・降車専用含む）のみ発車標に掲載。運転停車駅は未掲載 | 中間路線（西武有楽町線等）で旅客停車が1駅以下の場合、通常のスクレイパー抽出では除外されるため、**専用の全線貫通トリップ合成スクリプト（`integrate_strain.cjs`）**により各線に通過補間トリップを注入して前方指向連鎖を構築 | 小竹向原（運転停車・旅客通過）や練馬（通過・降車不可）を跨いで3路線を完全シームレス追尾 |
+| パターンA: 2路線直通 | 中央線と中央本線、中央線と青梅線、埼京線と川越線 | 高尾 (`JC-24`)、立川 (`JC-19`)、大宮 (`JA-26`) | 一方に上り、他方に下りのみ設定して重複ゼロで統合 | 境界でトリップ分割し `throughTripId`, `throughLineId`, `customDestination`, `customOrigin` を相互付与 | 境界越境時に相手路線を未選択でも自動追加して追尾継続 |
+| パターンB: 3路線以上の貫通直通 | 川越線・埼京線・りんかい線、メトロ有楽町/副都心線・西武有楽町線・西武池袋線 | 大宮 (`JA-26`)、大崎 (`JA-08` / `R-08`)、小竹向原 (`Y-06`/`F-06` / `SI-37`)、練馬 (`SI-06`) | 各境界で発車標グループIDを上下片側のみに分離 | 進行方向前方指向連鎖（Forward-Pointing Chain）を採用し、中間路線は進行先の次路線のみを指向 | 双方向照合 `(prev.throughTripId === t.tripId \|\| t.throughTripId === prev.tripId)` により全線追尾 |
+| パターンC: 接続・乗換境界（直通なし） | 大糸線 (JR東日本) と大糸線 (JR西日本)、中央本線と篠ノ井線 | 南小谷 (`OE-33` / `OW-01`)、塩尻 (`CO-61` / 篠ノ井線起点) | 各自の終着方向を `null` 設定し線内完結発車標として案内 | 直通メタデータは不要。`transfers` と同名駅切替リンクのみ提供 | 事業者・電化方式・運行系統が独立 |
+| パターンD: 異経路・別ホーム直通 | 武蔵野線と川越線（臨時特急等） | 大宮 (`JU-07`地上 / `JA-26`地下) | 各路線の発車標に自線ホーム発着分をそのまま掲載 | ホーム・駅ID・方向が異なるため `throughTripId` / `throughLineId` を明示付与して接続 | 列車番号・方向による自動フォールバックが効かないため明示リンクが必要 |
+| パターンE: 乗降制限・通過駅のみの直通特急 | S-TRAIN（平日豊洲〜小手指、土休日元町・中華街〜西武秩父） | 小竹向原、練馬 | 旅客乗降駅のみ発車標に掲載（運転停車駅は未掲載） | 専用の貫通トリップ合成スクリプト（`integrate_strain.cjs`）により各線に通過補間トリップを注入して前方指向連鎖を構築 | 中間路線で旅客停車が0〜1駅でも全区間を連続追尾 |
 
----
-
-### 2. 進行方向前方指向（Forward-Pointing Chain）の仕様
-
-3路線以上が直通する場合、中間路線の列車は進行方向の前方（次に進む路線）のみを `throughTripId` に保持します。
+3路線以上が直通する場合の中間路線は、進行方向の前方（次に進む路線）のみを `throughTripId` に保持します。
 
 ```mermaid
 flowchart LR
-    subgraph 下り列車 ["【下り列車】新木場 → 川越"]
-        RK_DN["りんかい線 トリップ<br/>throughLineId: 'saikyo'<br/>throughTripId: SK_DN"] -->|大崎駅| SK_DN["埼京線 トリップ<br/>throughLineId: 'kawagoe'<br/>throughTripId: KW_DN"]
+    subgraph 下り列車 ["【下り列車】新木場 -> 川越"]
+        RK_DN["りんかい線 トリップ<br/>throughLineId: 'jr_saikyo'<br/>throughTripId: SK_DN"] -->|大崎駅| SK_DN["埼京線 トリップ<br/>throughLineId: 'jr_kawagoe'<br/>throughTripId: KW_DN"]
         SK_DN -->|大宮駅| KW_DN["川越線 トリップ<br/>throughLineId: null"]
     end
 ```
 
 ```mermaid
 flowchart LR
-    subgraph 上り列車 ["【上り列車】川越 → 新木場"]
-        KW_UP["川越線 トリップ<br/>throughLineId: 'saikyo'<br/>throughTripId: SK_UP"] -->|大宮駅| SK_UP["埼京線 トリップ<br/>throughLineId: 'rinkai'<br/>throughTripId: RK_UP"]
+    subgraph 上り列車 ["【上り列車】川越 -> 新木場"]
+        KW_UP["川越線 トリップ<br/>throughLineId: 'jr_saikyo'<br/>throughTripId: SK_UP"] -->|大宮駅| SK_UP["埼京線 トリップ<br/>throughLineId: 'rinkai'<br/>throughTripId: RK_UP"]
         SK_UP -->|大崎駅| RK_UP["りんかい線 トリップ<br/>throughLineId: null"]
     end
 ```
 
-#### 双方向照合によるシームレス引き継ぎ
-シミュレーションの `resolveSelectedTrain` では、以下の条件で後継列車を判定します：
-```typescript
-if (
-  (prev.throughTripId && t.tripId === prev.throughTripId) ||
-  (t.throughTripId && t.throughTripId === prev.tripId)
-) {
-  return true;
-}
-```
-* **前方リンクの解決**: 直前トリップが次のトリップを指している場合（`prev.throughTripId === t.tripId`）、即座に後継として選択。
-* **後方からの解決**: 逆引き照合（`t.throughTripId === prev.tripId`）もカバーしているため、どちら側から遷移しても追尾が途切れません。
-
 ---
 
-## 4. 高精度線路ジオメトリ生成技術（トポロジカル・BFSによる復元）
+## 4. 高精度線路ジオメトリ生成技術
 
-### 1. ウェイ連結の課題と解決策
-OSMのルートリレーションに含まれるウェイ（Way）は、必ずしも起点から終点に向かって順番に並んでいるとは限りません。  
-特に複線区間、待避線・側線、地下トンネル、橋梁が混在する場合、配列順序通りにノードを連結すると以下の問題が発生します：
-1. **ヒゲ状逆戻り（往復トゲ）**: 駅ホームまで進んだ後に数百m手前にワープして戻る。
-2. **飛び越え（大ステップ）**: トンネルや橋梁の短いウェイがスキップされ、線路が直線ワープする。
-3. **待避線トラップ**: 駅の手前で副本線（待避線）に吸い寄せられ、本線が途切れる。
-
-### 2. トポロジカルグラフ & 最短経路探索（BFS/Dijkstra）アルゴリズム
-この問題を根本解決するため、**OSMノード接続関係に基づくトポロジカル探索**を採用します。
+OSMのルートリレーションに含まれるウェイは必ずしも起点から終点に向かって順番に並んでいるとは限らず、配列順序通りに連結すると往復トゲ（ヒゲ状逆戻り）、トンネルや橋梁の飛び越え、待避線への迷い込みが発生します。これを防ぐため、OSMノード隣接グラフを構築して起点駅ノードから終点駅ノードへの最短経路探索（BFS / Dijkstra）を行い、1本の連続した本線ノード配列を復元します。
 
 ```text
 [Overpass API データ]
-       ↓
+       |
+       v
 [ノード隣接グラフの構築 (Adjacency Graph)]
-       ↓
+       |
+       v
 [起点駅ノードから終点駅ノードへの最短経路探索 (BFS)]
-       ↓
-[完全な1本の連続ノード配列 (continuousNodes)]
-       ↓
+       |
+       v
+[1本の連続本線ノード配列 (continuousNodes)]
+       |
+       v
 [各駅旅客ホーム座標のスナップ (snapStation)]
-       ↓
+       |
+       v
 [駅間 TrackSegment の生成 (trackGeometry.ts)]
 ```
 
-* **接続ノードの厳密走査**: ウェイの端点（`nodes[0]` と `nodes[nodes.length - 1]`）が一致するウェイのみを連続して辿る。
-* **点間距離監査**: 生成されたセグメントの全点間距離を走査し、300m以上の異常なジャンプや急激な方位反転（>150度）がないかをスクリプトで自動検査する。
+ウェイの端点（`nodes[0]` と `nodes[nodes.length - 1]`）が一致するウェイのみを連続して辿り、生成された全セグメントの点間距離を走査して 300m 以上の不自然なジャンプや 150度超の方位反転がないかを自動監査します。
 
 ---
 
-## 5. 重要教訓・ハマりどころ防止策 36箇条（設計標準）
+## 5. 設計標準と不具合防止策 36箇条
 
-> [!IMPORTANT]
-> 過去の実装およびYahoo!データ移行で解決された以下の知見を必ず遵守してください。
+これまでの路線実装とダイヤデータ移行で確立した、遵守すべき設計標準です。
 
-### 1. ダイヤ補間における stoppingTypes 駆動（Single Source of Truth）
-* **事象**: 速達列車（快速や急行）の補間ロジック内に駅番号や停車ルールを個別ハードコードすると、路線拡張時やダイヤ改正時に不整合・保守不能が発生する。
-* **防止策**: 停車/通過判定は必ず `stations.ts` の `station.stoppingTypes.includes(trainType)` のみで行う。
+### 1. ダイヤ補間における `stoppingTypes` 駆動
 
-### 2. Yahoo! 路線情報における平日/休日列車ID衝突の回避
-* **事象**: Yahoo! の内部データにおいて、平日（`kind=1`）と土休日（`kind=4`）で同一の `trainId`（例: `44618`）が再利用される場合がある。
-* **防止策**: ユニーク列車キーおよびキャッシュファイル名は必ず **`${dayKey}_${trainId}`**（複合キー）で管理する。
+停車・通過判定に駅番号や固有ルールをコード側へハードコードすると、路線拡張時やダイヤ改正時に不整合が生じます。停車・通過判定は必ず `stations.ts` の `station.stoppingTypes.includes(trainType)` のみで行います。
 
-### 3. 種別解決の最長一致スキャン（Longest-Match Scan）
-* **事象**: 「普通 むさしの号」を単純な部分一致で判定すると、「普通」に誤判定されて「むさしの号」固有の設定が失われる。
-* **防止策**: 種別名のマッチングはキー文字列の長さが長い順（降順）に走査し、より具体的な種別名を優先して解決する。
+### 2. Yahoo! 路線情報における平日・休日列車ID衝突の回避
+
+Yahoo! の内部データでは、平日（`kind=1`）と土休日（`kind=4`）で同一の `trainId`（例: `44618`）が再利用される場合があります。ユニーク列車キーおよびキャッシュファイル名は必ず `${dayKey}_${trainId}` の複合キーで管理します。
+
+### 3. 種別解決の最長一致スキャン
+
+「普通 むさしの号」を部分一致で判定すると「普通」に誤判定され、固有の設定が失われます。種別名のマッチングはキー文字列の長さが長い順（降順）に走査し、具体的な種別名を優先して解決します。
 
 ### 4. 直通先種別の自社線内フォールバック
-* **事象**: 東武東上線に乗り入れる地下鉄直通列車（副都心線内「通勤急行」等）が、東上線内の各駅停車区間で「通過」と誤認される。
-* **防止策**: 路線定義に存在しない他社線種別が渡された場合、あるいは自社線内で全駅停車となる区間では、安全に自社線内の標準種別（`local` 等）へフォールバックさせる。
 
-### 5. 短絡線・特急・臨時列車の通過駅補間 (`junctionPassingRules` / `directStops` / `singleStopRescueRules`)
-* **事象**: 武蔵野線の大宮支線（大宮 ↔ 武蔵浦和/南浦和）や貨物線経由の特急（鎌倉号、川越号等）、常磐線特急（ひたち・ときわ）で、中間の信号場や通過駅が飛び越えられ、列車がワープしたりトリップが破棄される。
-* **防止策**: 
-  * 停車駅リストに存在しないが物理的に経由する駅（例: 大宮から南浦和へ向かう際の武蔵浦和）を `junctionPassingRules` で通過駅（`isPassing: true`）として中間補間する。
-  * 自社線内に1駅しか停車しない直通特急は `singleStopRescueRules` で境界通過駅を補完する。
-  * 詳しい重み付け線形補間の計算式や境界駅1秒同期仕様は、[docs/PASSING_STOP_INTERPOLATION_SPEC.md](PASSING_STOP_INTERPOLATION_SPEC.md) を参照。
-  * 特殊直通路線では `directStops: true` を指定し、実停車駅シーケンスから線路追従トリップを組み立てる。
+東武東上線に乗り入れる地下鉄直通列車（副都心線内「通勤急行」等）が東上線内の各駅停車区間で通過と誤認されるのを防ぐため、路線定義に存在しない他社線種別が渡された場合や自社線内で全駅停車となる区間では自社線内の標準種別（`local` 等）へフォールバックさせます。
 
-### 6. 発着番線と駅ナンバリングの実態整合（大宮駅問題）
-* **事象**: 同一駅名であっても発着ホームが異なる場合（大宮駅地上ホーム発着のむさしの号・しもうさ号に対して埼京線地下ホーム `JA-26` を流用したケース）、ナンバリングや案内が実態と乖離する。
-* **防止策**: 列車が実際に発着するホームの所属路線ナンバリング（大宮地上ホームなら `JU-07`）を採用する。
+### 5. 短絡線・特急・臨時列車の通過駅補間
 
-### 7. 直通列車の路線間重複防止と駅案内・シミュレーションの調和（むさしの号・直通列車問題）
-* **事象**: 複数路線を跨ぐ直通系統において、駅発車標のために両路線でデータを収集すると、両路線選択時に同一線路上に2台の同一列車マーカーが重なって描画・走行してしまう。
-* **防止策（ベストプラクティス）**:
-  * **データ層**: 各路線の駅発車標（時刻表モーダル）で正常に案内できるよう、双方の時刻表データには残す。
-  * **シミュレーション層 (`trainSimulation.ts`)**: `calculateActiveTrains` において、「同一列車番号 かつ 共通の駅IDを含む」アクティブ列車を自動検出し、停車駅数が多い方（全線通し運行トリップ）を優先採用して部分運行トリップを自動重複除外する。
+武蔵野線の大宮支線（大宮〜武蔵浦和/南浦和）や貨物線経由の特急（鎌倉号、川越号等）、常磐線特急（ひたち・ときわ）で中間の通過駅が飛び越えられて列車がワープまたは除外されるのを防ぐため、`junctionPassingRules`、`singleStopRescueRules`、`directStops: true` を組み合わせて全経由駅を補間します。重み付け線形補間の計算式や境界駅1秒同期仕様は [docs/PASSING_STOP_INTERPOLATION_SPEC.md](PASSING_STOP_INTERPOLATION_SPEC.md) を参照してください。
 
-### 8. 長大路線のパフォーマンス最適化と系統分離（中央線と中央本線の表示路線分離）
-* **事象**: 東京近郊過密区間（JC-01〜JC-24）から山梨・長野中距離区間（JC-25〜JC-32, CO-33〜CO-61）のように、境界駅（高尾）を境に運行頻度や編成両数が大きく異なる長大路線を単一モジュールで読み込むと、常時60駅超・1,600本以上のダイヤ計算が発生しパフォーマンスが低下する。
-* **防止策**:
-  * JR東日本の公式案内区分に準拠し、「JR中央線（`chuo`）」と「JR中央本線（`chuo_main`）」の2つの独立モジュールとして分離。
-  * 境界駅（高尾駅）で直通列車に `throughTripId` / `throughLineId` を付与し、シームレスに追尾を引き継ぐ。
+### 6. 発着番線と駅ナンバリングの実態整合
 
-### 9. 「普通」と「各駅停車」の種別分離とフィルタリング設計（regular vs local問題）
-* **事象**: 中距離電車を走らせる路線では案内上の正式種別が「普通」である。内部キーとして `regular`（普通）と `local`（各駅停車）を区分した場合、全駅停車時の種別保護ロジックや地図上の種別フィルターで考慮されていないと、「普通」が各停に上書きされたり、種別フィルターで「優等」に誤分類される。
-* **防止策**:
-  * `trainTypeMap` で `'普通': 'regular'`, `'各駅停車': 'local'` を明確に分離する。
-  * ダイヤビルダーで `trainType !== 'regular'` ガードを施し各停化を防ぐ。
-  * 地図の種別絞り込みで `train.trainType === 'regular'` を各停系グループに含める。
+同一駅名でも発着ホームが異なる場合（大宮駅地上ホーム発着のむさしの号・しもうさ号に対する埼京線地下ホーム `JA-26` 等）、列車が実際に発着するホームの所属路線ナンバリング（大宮地上ホームなら `JU-07`）を採用します。
 
-### 10. OSMリレーションのウェイ順序狂いによる「往復トゲ」の検出と解消
-* **事象**: OSMリレーション内のウェイ登録順序が乱れていると、駅ホームまで進んだ後に手前へワープして戻る「V字型のトゲ」が発生する。
-* **防止策**: 点間距離監査スクリプトで不自然な大ジャンプを検出し、リレーション順序に依存しないトポロジカル探索（BFS）でウェイを連結する。
+### 7. 直通列車の路線間重複防止と駅案内
 
-### 11. 旧スイッチバック線・側線・駅舎と現行本線ホームの座標乖離（初狩駅問題）
-* **事象**: 代表座標が旧駅舎や引き込み線に置かれていると、本線セグメントが駅手前で不自然に分断され、駅ピンも線路から外れてしまう。
-* **防止策**: 駅座標（`stations.ts`）は必ず現行の「旅客本線ホーム」のノード座標を採用し、全駅で軌道端点との距離乖離（数十m以内）を自動検証する。
+複数路線を跨ぐ直通系統では、各路線の駅発車標で正しく案内できるよう双方の時刻表データには列車を残しつつ、シミュレーション層（`trainSimulation.ts`）の `calculateActiveTrains` で「同一列車番号かつ共通の駅IDを含む」アクティブ列車を検出し、停車駅数が多い全線通し運行トリップを優先して重複描画を除外します。
 
-### 12. 長大路線の終着駅・他社線直通境界の決定基準（塩尻駅・篠ノ井線問題）
-* **事象**: 特急（あずさ・しなの）等が他社線へ直通する長大路線における境界決定。
-* **防止策**: 正式な線路名称および支社管轄（中央東線は塩尻まで、塩尻〜松本は篠ノ井線）に準拠し、終着駅で下りグループIDを `outGroupId: null` として単一モジュールとしての整合性を保つ。
+### 8. 長大路線の負荷軽減と系統分離
 
-### 13. 他路線直通・全線通し運行区間の統合と優等列車リレーション活用（篠ノ井線・信越本線区間）
-* **事象**: 正式区間（篠ノ井線: 塩尻〜篠ノ井）と実際の運行体系（ほぼ全列車が信越本線に直通して長野駅まで運行）が乖離している場合。
-* **防止策**: 運行実態に合わせて長野駅まで（全19駅）を1モジュールとして定義。全線を走る特急「しなの」（Relation `1983032`）のリレーションを活用して通し軌道を一括抽出する。
+東京近郊過密区間（`JC-01`〜`JC-24`）と山梨・長野中距離区間（`JC-25`〜`JC-32`, `CO-33`〜`CO-61`）のように境界駅（高尾）を境に運行頻度や両数が大きく変わる路線を単一モジュールで扱うと、常時多数の列車計算が発生して負荷が高まります。JR東日本の案内区分に合わせて「JR中央線（`jr_chuo`）」と「JR中央本線（`jr_chuo_main`）」に分離し、境界駅で `throughTripId` / `throughLineId` を付与して追尾を引き継ぎます。
 
-### 14. 運行事業者境界（JR東日本/JR西日本）による路線モジュールの系統分離（大糸線問題）
-* **事象**: 同一名称の路線でも電化方式・運行会社・車両運用・ダイヤ構造が南小谷駅で完全に独立・分断されている。
-* **防止策**: `oito_east`（JR東日本、直流電化）と `oito_west`（JR西日本、非電化単行気動車）の2系統に分離。南小谷駅を境界駅として同名駅リンクを提供する。
+### 9. 「普通」と「各駅停車」の種別分離とフィルタリング
 
-### 15. トポロジカル経路探索（BFS/Dijkstra）による単線・山間部線路の完全チェーン
-* **事象**: 単線・山間部において端点間距離の最近傍探索のみで連結すると、短い橋梁がスキップされたり待避線ノードに吸い寄せられる。
-* **防止策**: OSMノード隣接グラフを構築し、起点駅から終点駅への最短パス探索（BFS）により完全無欠の1本の本線軌道を復元する。
+中距離電車が走る路線では案内上の正式種別が「普通」であるため、`trainTypeMap` で `'普通': 'regular'`、`'各駅停車': 'local'` を分離します。ビルダーでは `regular` が `local` に上書きされないよう保護し、地図の種別絞り込みでは `regular` を各停系グループに含めます。
 
-### 16. 直通運転路線の系統分離と越境自動ハンドオーバー（JR埼京線とJR川越線）
-* **事象**: 運行上一体化して直通運転が行われている路線において、単一モジュールとして管理すると単独での閲覧・シミュレーションができない。
-* **防止策**: 2系統モジュールに分離し、境界駅（大宮駅）で上り/下り発車標を住み分け、直通列車に `throughTripId` / `throughLineId` を付与して越境時の自動路線追加と追尾引き継ぎを実現する。
+### 10. 往復トゲの検出と解消
 
-### 17. 3路線直通における進行方向前方指向のハンドオーバー連鎖（川越線 ↔ 埼京線 ↔ りんかい線）
-* **事象**: 3つ以上の独立モジュールを跨いで直通運転が行われる場合、中間路線（埼京線）の直通関係の定義方法。
-* **防止策**: 進行方向前方指向（Forward-Pointing Chain）を採用し、下りは埼京線→川越線、上りは埼京線→りんかい線を指向させる。双方向照合により3路線全線をシームレスに貫通追尾する。
+OSM リレーション内のウェイ登録順序が乱れていると駅ホームの先から手前へ戻るV字型のトゲが発生するため、点間距離監査スクリプトで大ジャンプを検出し、トポロジカル探索（BFS）でウェイを連結します。
 
-### 18. 第三セクター・私鉄相互直通における列車番号保持とカスタム行先・始発の透過性（りんかい線直通の実践）
-* **事象**: JR線と相互直通する私鉄・第三セクター路線（りんかい線など）において、境界駅（大崎）を跨ぐ直通列車が線内表示の行先（例: 大崎行）になってしまい、本来の最終目的地（川越・新木場）や本来の始発駅が駅発車標や列車詳細で失われる。
-* **防止策**:
-  * Yahoo! 路線情報では直通列車の列車番号（例: `26782`, `23081`）が社境を越えて同一で維持される特性を活用し、自動リンクスクリプトで高精度にペアリング。
-  * `customDestination` および `customOrigin` を相互注入し、境界手前の走行中であっても「新木場」「川越」などの最終目的地を透過的に案内する。
+### 11. 旧スイッチバック線・側線と現行本線ホームの座標乖離防止
 
-### 19. 共用複々線区間を持つ2系統のダイヤ分離と列車番号完全一致ハンドオーバー（有楽町線・副都心線・東武東上線）
-* **事象**: 東京メトロ有楽町線と副都心線のように、起点から途中駅まで（和光市〜小竹向原）同一線路（複々線）を共用し、Yahoo! 路線情報上も同一グループID（`3341` / `3340`）で発車標が提供されている場合、以下の2つの深刻な不具合が発生する：
-  1. **相手路線の重複収集・走行**: 和光市〜小竹向原の発車標から全列車を収集すると、副都心線に新木場行きが混入し、有楽町線に元町・中華街行きが混入し、池袋周辺や共用区間で同一列車が2本重なって複製走行する。
-  2. **時刻曖昧リンクによる誤マッチ・多重直通**: 直通リンク時に時間幅（±180秒）で曖昧マッチを行うと、和光市止まりの列車が他路線の東上線直通列車を奪ってマッチし、本来の直通列車と重複して東上線下り列車に多重リンクされてしまう。
-* **防止策（ベストプラクティス）**:
-  * **固有駅リストによる系統分離フィルター（`shouldExcludeTrip`）の実装**:
-    * 有楽町線固有駅（`東池袋`〜`新木場`）と副都心線固有駅（`雑司が谷`〜`渋谷`、東急東横線・みなとみらい線、相鉄線）を定義。
-    * `yurakucho` インポーターでは副都心線固有駅を含む列車を完全除外、`fukutoshin` インポーターでは有楽町線固有駅を含む列車を完全除外。
-    * これにより、全1,834本の全列車が有楽町線（841本）と副都心線（993本）へ衝突ゼロ（0本）・漏れゼロ（0本）で100%綺麗に二分される。
-  * **トリップからの駅時刻表（`stationTimetables`）自動再集約**:
-    * `config.buildStationTimetablesFromTrips: true` を設定し、フィルタリング後の正規トリップのみから駅時刻表を再生成することで、駅発車標からも相手路線の列車が完全に消去され、1対1で整合する。
-  * **列車番号（`trainNumber`）完全一致による直通ハンドオーバー**:
-    * 東上線と地下鉄直通列車（上り178本、下り178本）は、Yahoo! 路線情報において社境を跨いでも列車番号（`trainId`）が完全に共通である。
-    * 時刻照合に頼らず、`tj.trainNumber === metroTrip.trainNumber && tj.isHoliday === metroTrip.isHoliday` の完全一致のみでリンクを行う。
-    * これにより、東上線下り和光市発178本（平日97本、休日81本）に対して、有楽町線93本・副都心線85本が1本のズレも多重マッチもなく100.0%の完全一致で1対1リンクされる。
-  * **同名駅相互リンクの多重調和**:
-    * 和光市駅（`TJ-11` / `Y-01` / `F-01`）において、3路線の駅名が一致するため、サイドバーで3路線の相互切り替えボタンが自動的に並び、どの路線からでも即座に他路線へジャンプ可能。さらに、新木場駅（`Y-24` ↔ `R-01` りんかい線）、渋谷駅（`F-16` ↔ `JA-10` 埼京線）、池袋駅（`Y-09` / `F-09` ↔ `TJ-01` / `JA-12`）でも同名駅リンクが自動成立。
+駅代表座標に旧駅舎や引き込み線を置くと本線セグメントが駅手前で分断され、駅ピンも線路から外れます。駅座標は必ず現行の旅客本線ホームのノード座標を採用し、全駅で軌道端点との距離乖離がないかを検証します。
 
-### 20. 旅客通過駅・運転停車を含む有料座席指定列車の全線貫通トリップ合成と前方指向連鎖（S-TRAIN問題）
-* **事象**: S-TRAIN（西武池袋線・西武秩父線 ↔ 西武有楽町線 ↔ 東京メトロ副都心線・有楽町線）のように、乗降取扱駅が極めて限定され、中間路線（西武有楽町線: 全3駅）で旅客停車が0〜1駅しか存在しない有料座席指定列車の場合、以下の2つの問題が発生する：
-  1. **中間路線の欠損・ワープ**: 旅客発車標ベースの通常のスクレイパーでは、中間路線で旅客停車駅が1駅以下の場合に有効な駅間トリップが抽出されず、小竹向原や練馬で列車が消滅・ワープする。
-  2. **案内とシミュレーションの乖離**: 旅客発車標には降車専用駅・乗車専用駅・運転停車駅（乗降不可）をむやみに掲載できないが、シミュレーション上は全駅の線路ポリラインを通過時刻補間して滑らかに走行させなければならない。
-* **防止策（ベストプラクティス）**:
-  * **専用の全線貫通トリップ合成スクリプト（`integrate_strain.cjs`）の実装**:
-    * S-TRAIN全12便（平日7便、土休日5便）の公式着発時刻（運転停車含む）をマスタ定義。
-    * メトロ線（有楽町線/副都心線）、西武有楽町線、西武池袋線の全中間通過駅に対して、既知の着発時刻から区間距離比率に基づく通過秒補間（`interpolateStops`）を実施。
-    * これにより、停車駅の少ない速達列車でも、線路セグメントを1駅もスキップすることなく正確な物理速度で完全走行する。
-  * **進行方向前方指向連鎖（Forward-Pointing Chain）と旅客発車標の住み分け**:
-    * メトロ ↔ 西武有楽町線 ↔ 西武池袋線の3路線間で、下りは「メトロ → 西武有楽町線 → 西武池袋線」、上りは「西武池袋線 → 西武有楽町線 → メトロ」の順に `throughTripId` / `throughLineId` を付与。
-    * 駅発車標（`stationTimetables`）には正規の旅客乗降可能駅のみを登録し、不要な通過駅への混入を防止。
-    * 追尾エンジン（`resolveSelectedTrain`）の双方向照合により、地下鉄線内から西武秩父まで全区間を1クリックでシームレスに追尾継続可能。
+### 12. 終着駅・他社線直通境界の決定基準
 
-### 21. 公式列車番号（`trainNumber`）と内部列車ID（`trainId`）のドメインモデル分離と正規化ルール
-* **事象**: Yahoo! 路線情報から抽出される列車番号は内部的な生数字ID（例: `113841`, `28422`）であり、鉄道本来の公式列車番号（例: `1001レ`, `2425T`, `1349M`）ではない。これをそのままUIに表示すると利用者が列車を特定できず、逆に生IDを上書きすると同一列車番号（例: 平日と休日の同一番号便）のユニーク追尾が破綻する。
-* **防止策（ベストプラクティス）**:
-  * **ドメインモデル分離**:
-    * `trip.trainId`: シミュレータ内のユニーク追尾・内部参照キー（Yahoo! 生数字IDまたは一意識別子）。
-    * `trip.trainNumber`: UI表示用の公式列車番号（鉄道ファンや利用者が時刻表で目にする番号）。
-  * **列車番号正規化ルール（`normalizeTrainNumber`）**:
-    * 末尾アルファベット付き（`xxxT`, `xxxH`, `xxxM`, `xxxK`, `xxxE`, `xxxD` 等）や「レ」付きはそのまま保持。
-    * 純数字（私鉄・TX・地下鉄等）は日本の鉄道慣例に従い末尾に「レ」を付与（例: `1001` → `1001レ`、`5201` → `5201レ`）。
-    * 非電化区間の気動車（大糸線西部のキハ120形等）は `D` 運用（例: `420D`）。
-  * **駅発車標（`stationTimetables`）との完全同期**:
-    * 全駅の発車標アイテム（`dep`）の `dep.no` に公式列車番号、`dep.trainId` に内部IDを格納し、発車標・列車詳細サイドバー・マップ追尾で100%の表示整合性を保証。
+特急（あずさ・しなの）等が他社線へ直通する路線では、正式な線路名称および支社管轄（中央本線は塩尻まで、塩尻〜松本は篠ノ井線）に準拠し、終着駅で下りグループIDを `outGroupId: null` としてモジュールとしての整合性を保ちます。
 
-### 22. 駅探スクレイピングにおける1ページ内多重テーブル構造と方面タブ完全調和
-* **事象**: 駅探の路線時刻表ページ（`line-station/<lineCode>/d1`）をスクレイピングする際、方面パラメータ（`d1`/`d2`）を個別リクエストすると通信負荷が倍増する上、方面判定が不完全だと上り・下りのデータが逆転する。さらに「大崎」「甲府」などの駅名部分一致で判定すると、駅名自身（「大崎駅」）に誤マッチして逆方向判定を起こす。
-* **防止策（ベストプラクティス）**:
-  * **1リクエスト多重テーブル取得**:
-    * 駅探のHTML（`d1`）には、1ページ内に上下線双方の時刻表テーブル（`<table class="search-result-data ek-search-result">`）が順にレンダリングされている。
-    * 方面タブ（`<li class="ek-direction_tab">`）とテーブルがインデックスで1対1に対応するため、`d1` を1回取得するだけでその駅の全方面データを一括抽出可能（リクエスト数半減）。
-  * **方面タブの事前プローブ調査と完全判定**:
-    * 路線内の全駅の方面タブ文字列を事前に調査し、途中駅で方面名が切り替わる路線（例: 中央本線の甲府以東「高尾・新宿方面」/ 甲府以西「松本・長野方面」）に対応した多段階判定ロジックを設計。
-    * 部分一致バグを防ぐため、必ず「○○方面」の文脈で上り/下りを判定する。
-  * **特急・臨時列車の辞書マッピング（`SPECIAL_*`）**:
-    * 定期ダイヤと列車番号体系が異なる臨時列車（アルプス `9011M`、臨時あずさ `9071M`〜`9088M`、富士回遊 `2103M`〜`2115M`、ホリデー快速、鎌倉号等）は、Yahoo! の `displayName` や `guideComment` を利用した辞書マッピングを定義することで突合成功率100%を達成する。
+### 13. 運行実態に合わせた区間定義と優等列車リレーション活用
 
-### 23. ダイヤ再生成（YahooImporter）による列車番号上書きの検知と再エンリッチメント必須化
-* **事象**: ダイヤ修正、駅追加、通過秒数調整、欠落トリップ修正などで `runYahooImporter.cjs` を再実行すると、`globalTimetable.json` と `stationTimetables.json` がYahoo!の数字生IDで上書きされ、エンリッチメントした公式列車番号が消滅・退行する。
-* **防止策（ベストプラクティス）**:
-  * **運用ルールの確立**: インポーター再実行後は、必ずセットで `node scripts/enrich_train_numbers.cjs <lineId>` を再実行するワークフローを徹底する。
-  * **スクリプトの冪等性（Idempotency）保証**:
-    * `trip.trainId = trip.trainId || trip.trainNumber;` のように既存IDを安全に退避・保持し、何度エンリッチメントスクリプトを実行してもデータが破損しない冪等な設計とする。
+篠ノ井線（塩尻〜篠ノ井）のようにほぼ全列車が信越本線に直通して長野駅まで運行する路線は、運行実態に合わせて長野駅まで（全19駅）を1モジュールとして定義し、全線を走る特急しなのリレーション（Relation `1983032`）等を活用して通し軌道を抽出します。
 
-### 24. 路線・駅固有処理のハードコード排除と共通化設計（デフォルト両数と汎用判定）
-* **事象**: 「各停/普通判定」や「始発駅・終着駅判定」「編成両数のデフォルト値」などをUIコンポーネントやシミュレータ内で特定路線ID（`tojo` や `chuo` 等）や特定駅番号（`number === 39` 等）で条件分岐（ハードコード）していると、新路線追加のたびに修正漏れや不具合が発生する。
-* **防止策（ベストプラクティス）**:
-  * **デフォルト両数メタデータ（`defaultCars`）**: `LineDefinition`（`src/types/index.ts`）に `defaultCars?: number` を定義し、各路線モジュール（`index.ts`）で規定の編成両数（例: 中央線 10両、中央本線 6両、八高線 4両、大糸線西日本 1両等）を設定。未指定の列車は自動的にこの標準両数を参照する。
-  * **始発駅・終着駅の汎用判定**: `station.number === 39` などの特定駅番号固定ではなく、`line.stations[0]?.id === station.id` や `line.stations[line.stations.length - 1]?.id === station.id` のように路線定義の先頭・末尾要素を参照して汎用的に判定する。
-  * **各駅停車系種別の共通判定関数（`isLocalTrainType`）**: 地図上の種別フィルター（`TrainMap.tsx`）やダイヤ共通処理等で、`local`, `regular`, `semiExp` などの各停系種別判定を共通関数 `isLocalTrainType`（`src/data/trainTypes.ts`）に集約し、個別コンポーネントでの多重定義を防ぐ。
+### 14. 運行事業者境界による路線モジュールの系統分離
 
-### 25. 境界駅におけるシームレス時刻同期と発着ギャップゼロ保証（列車の一時消失防止）
-* **事象**: 先行路線の終着駅到着時刻（例: 07:08）と後続路線の始発駅発車時刻（例: 07:11）の間に時刻同期が行われていないと、後続路線の始発駅 `arrivalTime` は発車時刻（07:11）のままとなる。その結果、シミュレーション時刻が 07:08〜07:11 の間（約1〜3分間）、先行トリップは既に運行終了、後続トリップはまだ運行開始前となり、**列車ピンがマップ上から一時的に完全に消滅する**。
-* **防止策（ベストプラクティス）**:
-  * 直通リンカースクリプト（`link_<lineA>_<lineB>.cjs`）において、先行トリップの終着時刻と後続トリップの始発停車開始時刻を秒単位で完全一致させる：
-    ```javascript
-    const syncTime = lastStop.arrivalTime || lastStop.departureTime;
-    lastStop.departureTime = syncTime;        // 先行路線は到着完了
-    bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着した瞬間から停車・発車待ち開始
-    ```
-  * これにより、先行列車が境界駅に到着した瞬間から後続列車が `STOPPING` 状態としてマップ上に引き継がれ、秒単位の空白時間（消失時間）がゼロになる。
+大糸線のように同一名称でも電化方式・運行会社・車両運用が南小谷駅で独立している場合は、`jr_oito_east`（JR東日本）と `jr_oito_west`（JR西日本）の2系統に分離し、南小谷駅で同名駅リンクを提供します。
 
-### 26. 直通チェーン全体の End-to-End 行先自動解決（路線跨ぎでの行先切り替わり・不整合防止）
-* **事象**: 3路線以上が直通する長大系統（例: 東横線 ↔ 新横浜線 ↔ 相鉄本線・いずみ野線）において、次路線の直近の終点駅（例: 新横浜、西谷、日吉等）を行先として単純に設定すると、海老名発川越市行き直通列車なのに「相鉄本線内: 新横浜行き」→「相鉄新横浜線内: 日吉行き」→「東急新横浜線内: 渋谷行き」→「東横線内: 川越市行き」のように**路線境界を越えるたびに行先表示が目まぐるしく変化してしまう**。
-* **防止策（ベストプラクティス）**:
-  * **直近駅のハードコード禁止**: `customDestination = '新横浜'` や `(tB.destinationStationId === 'SO-08' ? '西谷' : '海老名')` のような安易な区間終点の設定を行わない。
-  * **End-to-End 行先解決アルゴリズムの適用**:
-    * 直通リンカースクリプト内で、各列車の `throughTripId` を前方に末尾（最長到達トリップ）まで探索し、チェーン全体の最終終着駅（例: 海老名、湘南台、川越市、和光市、浦和美園、新宿等）を特定する。
-    * その直通チェーンに属するすべてのトリップ（先行・中間・後続）の `customDestination` をその同一の最終行先で上書き・同期する。
-  * これにより、どの路線のどの駅で列車を見ても、常に本来の最終目的地（実車の行先表示器と同じ表示）が一貫して案内される。
+### 15. トポロジカル経路探索による単線・山間部線路の連結
 
-### 27. 境界接続駅における路線別駅ID差異と物理駅同一性判定（境界ハンドオーバー失敗防止）
-* **事象**: 路線ごとに駅ID体系が異なる境界駅（日吉: 東横線 `TY-13` ↔ 新横浜線 `SH-03`、新横浜: 新横浜線 `SH-01` ↔ 相鉄 `SO-52`、渋谷: 東横線 `TY-01` ↔ 副都心線 `F-16`、横浜: 東横線 `TY-21` ↔ みなとみらい線 `MM-01`）において、シミュレーションエンジンが単純な `train.currentStationId === other.currentStationId` で直通引き継ぎを判定していると、ID不一致によりハンドオーバー判定が失敗し、境界駅で列車が多重描画されたり意図せず消去される。
-* **防止策（ベストプラクティス）**:
-  * シミュレーションエンジン（[`src/services/trainSimulation.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/services/trainSimulation.ts)）に物理駅同一性判定（`isSamePhysicalStation`）を導入：
-    ```typescript
-    function isSamePhysicalStation(idA?: string, idB?: string): boolean {
-      if (!idA || !idB) return false;
-      if (idA === idB) return true;
-      const stA = STATION_MAP.get(idA);
-      const stB = STATION_MAP.get(idB);
-      if (!stA || !stB) return false;
-      if (stA.name === stB.name) return true;
-      return calculateDistanceKm(stA.lat, stA.lng, stB.lat, stB.lng) <= 0.5;
-    }
-    ```
-  * 直通ペアが境界駅に停車中の場合、終着トリップから出発待ち後続トリップへのスムーズな優先表示切り替えが確実に作動する。
+単線・山間部では端点間距離の最近傍探索のみで連結すると短い橋梁のスキップや待避線への迷い込みが起きるため、OSMノード隣接グラフを構築して起点駅から終点駅への最短経路探索（BFS）で1本の本線軌道を復元します。
 
-### 28. モバイル GPU レイヤー枯渇とマーカー CSS 最適化（White Screen of Death防止）
-* **事象**: 画面上に350〜400個の列車マーカーが存在する際、各マーカーにインライン `filter: drop-shadow(...)` を指定したり、非選択の列車マーカーに非表示状態（`hidden`）のまま `animate-ping`（無限拡縮CSSアニメーション）を持たせると、モバイルブラウザ（特に iOS Safari / WebKit）の GPU レイヤー VRAM が枯渇し、GPU コンポジタがクラッシュして画面全体が真っ白（WebProcess Context Loss）になる。
-* **防止策（ベストプラクティス）**:
-  * **重いフィルターの廃止**: `filter: drop-shadow(...)` を廃止し、標準の軽量な CSS `shadow-md` や `border` に置き換える。
-  * **非選択マーカーでのアニメーション全廃**: `animate-ping` を持つパルス要素（`.train-pulse`）は `isSelected` の時のみ DOM に生成し、非選択時は要素自体を DOM から完全に除外する（約390個の GPU 常時アニメーションスレッドを全廃）。
-  * **CSS Containment**: マーカー要素（`.train-div-icon`, `.station-div-icon`）に `contain: layout style; will-change: transform;` を指定し、マーカー位置更新時のリフローを親コンテナから隔離する。
+### 16. 直通運転路線の系統分離と越境自動ハンドオーバー
 
-### 29. Leaflet タイル白抜けと ResizeObserver デバウンス（タイル描画スタック防止）
-* **事象**: Leaflet 標準の `fadeAnimation: true` は、タイルの切り替え時に不透明度を 0 からフェードインさせるため、モバイルでのズーム・パンや負荷時にタイルが白抜け（透明化）して画面がチラつく。また、モバイルのアドレスバー出入り等で `ResizeObserver` がミリ秒単位で連続発火し、`map.invalidateSize()` が暴走してタイル描画パイプラインがスタック・フリーズする。
-* **防止策（ベストプラクティス）**:
-  * **白抜け防止**: Leaflet の地図生成オプションで `fadeAnimation: false` を指定し、タイルの透過白フラッシュを遮断する。また `preferCanvas: true` を指定してベクター描画ノードを節約する。
-  * **リサイズ監視のデバウンス**: `ResizeObserver` に 150ms のデバウンスを導入し、アニメーション中の連続 `map.invalidateSize()` 呼び出しを防止する。
-  * **コンテナ背景色**: `.leaflet-container` に背景色（`#f1f5f9`）を指定し、タイルロード中の白飛び感を抑制する。
+埼京線と川越線のように直通運転を行う路線も、単独閲覧ができるよう2系統モジュールに分離します。境界駅（大宮駅）で上り/下り発車標を住み分け、直通列車に `throughTripId` / `throughLineId` を付与して越境時の自動路線追加と追尾引き継ぎを有効にします。
 
-### 30. 大規模駅マーカー（500駅超）のインスタンスキャッシュ＆差分更新（メインスレッドブロック防止）
-* **事象**: 全567駅のマーカーを表示している際、駅を選択するたびに `stationLayerRef.current.clearLayers()` で全駅マーカーを破棄・再生成していると、567個の Leaflet インスタンスと DOM ノードが一斉に再構築され、メインスレッドが数フレームにわたり完全に固まる。
-* **防止策（ベストプラクティス）**:
-  * 駅マーカーインスタンスを `Map<string, L.Marker>` でキャッシュし、駅選択（`selectedStation`）時は全破棄せず、選択された駅要素の CSS クラス（`ring-4`, `scale-125`, `opacity-100` 等）の差分切り替えのみに最適化する。
+### 17. 3路線直通における進行方向前方指向連鎖
 
-### 31. 動的時刻表ローディングと初期バンドル分割（66MB→1.4MB軽量化）
-* **事象**: 全路線の `stationTimetables.json`（各数MB）および `globalTimetable.json`（各数MB）を路線モジュール（`index.ts`）で直接静的 `import` すると、初期バンドルサイズが数十MB超に膨れ上がり、初回ロードが著しく重くなる。
-* **防止策（ベストプラクティス）**:
-  * 各路線の `index.ts` では空の `stationTimetables: { weekday: {}, holiday: {} }` / `globalTimetable: []` を初期値とし、[`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts) の `import.meta.glob` によって Vite の動的チャンク分割を自動適用する。
-  * ユーザーが選択した路線および直通接続先路線のみを非同期にオンデマンド読み込みし、初期バンドルを 1.4MB（gzip 411KB）に抑える。
-  * さらに [`src/contexts/SimulationContext.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/contexts/SimulationContext.tsx) では、全選択路線のダイヤ結合配列（`effectiveTimetable`）を毎秒60フレームの `currentSec` 更新から分離してメモ化し、路線選択・ダイヤロード・試験列車変更時のみ再構築することでフレームレート低下を防ぐ。
+川越線・埼京線・りんかい線のように3つ以上のモジュールを跨ぐ直通では、中間路線（埼京線）が進行方向の前方（下りは川越線、上りはりんかい線）のみを `throughTripId` に保持します。追尾時の双方向照合により全線を連続して追尾できます。
 
-### 32. 駅探スクレイピングにおける曜日パラメータ（`dw`）の定義と平日/土曜誤突合防止
-* **事象**: 駅探のURLパラメータ `dw=1` を「平日」、`dw=2` を「休日」と誤認してスクレイピングを行うと、平日のキャッシュファイルに**土曜ダイヤ**が保存されてしまう（駅探の仕様は `dw=0`: 平日、`dw=1`: 土曜、`dw=2`: 休日）。  
-  この状態でエンリッチメントを実行すると、土曜ダイヤに存在しない「通勤特急」等の平日専用列車に対し、土曜ダイヤの同時刻帯（1〜2分差）に走る「急行」等の別便が誤マッチしてしまい、**誤った列車番号（例: 渋谷20:45発 通勤特急 元町・中華街行が、本来 `775-201レ` なのに土曜急行の `749-201レ` になる）が注入される**重大な不整合が発生する。
-* **防止策（ベストプラクティス）**:
-  * **クエリパラメータの厳守**: 駅探スクレイピングスクリプト（`fetch<Line>Ekitan.cjs`）では、必ず **平日 `dw=0`、休日 `dw=2`** を指定して取得する（土曜 `dw=1` は土曜・休日共通路線の場合はスキップ可）。
-  * **バケット判定の厳守**: `enrich_train_numbers.cjs` 内で平日/休日の判定を行う際は、`const isHoli = row.dayKey ? row.dayKey === 'holiday' : row.dw !== 0;` と記述する。`dw !== 1` と書くと平日データ（`dw=0`）が全て休日扱いになり、平日バケットが空になるため厳禁とする。
+### 18. 第三セクター・私鉄相互直通における列車番号保持と行先表示
 
-### 33. 公式駅ナンバリングと内部管理用駅ID（`id`）の混同防止（公式未制定線区での非公式ナンバリング全面禁止）
-* **事象**: 
-  システム内部での駅の一意性確保のために採番した内部駅ID（例: 信越本線 `SE-01`、只見線 `TD-01`、磐越西線 `BW-01`、磐越東線 `BE-01`、上越線 `JOE-01`、篠ノ井線 `SN-01`、中央本線大月以西 `CO-33` 等）を、開発者が「駅ナンバリング」であると誤認し、`src/components/Common/Badges.tsx` の `STATION_BADGE_COLORS` に非公式なプレフィックスを登録したり、`stations.ts` の `stationNumber` プロパティに設定してしまう。
-  その結果、JR各社が駅ナンバリングを導入していない地方線区において、利用者が目にしたことのない架空・非公式のナンバリングバッジが地図上や駅詳細UIに表示されてしまい、情報の信頼性を著しく損なう。
-* **防止策（ベストプラクティス）**:
-  * **公式制定状況の厳格な事前調査**:
-    * JR東日本においてアルファベット2文字＋数字の駅ナンバリングが公式導入されているのは、**首都圏エリア（電車特定区間・近郊区間・成田空港アクセス線等）のみ** である。
-    * 新潟支社・長野支社・東北本部（仙台支社・福島支店）管内の路線（信越本線、只見線、磐越西線、磐越東線、上越線水上以北、八高線寄居以北、篠ノ井線、大糸線、常磐線取手以北等）には、公式駅ナンバリングは一切導入されていない。
-  * **`stationNumber` プロパティの厳格な未定義化**:
-    * 公式ナンバリング未制定路線の `stations.ts` では、`stationNumber` プロパティは **必ず設定せず未定義（undefined）** とする（`number: 1` などの駅順序番号のみ保持）。
-    * UIコンポーネント（ヘッダー、駅ピン、駅詳細、時刻表モーダル）はすべて `station.stationNumber` の有無を判定してバッジを描画するため、`stationNumber` が未定義であれば非公式バッジが表示されることはない。
-  * **内部管理用 `id` のプレフィックスを `Badges.tsx` に登録しない**:
-    * `STATION_BADGE_COLORS` には各社公式の記号のみを登録し、内部管理用IDのプレフィックス（`SE`, `TD`, `BW`, `BE` 等）を追加しない。公式未制定路線の追加時は `Badges.tsx` への駅バッジ追加ステップをスキップする。
+りんかい線など社境を越えて直通する路線では、Yahoo! の `trainId` が社境を越えて維持される特性を使ってペアリングし、`customDestination` と `customOrigin` を相互注入することで境界手前から最終目的地を表示できます。
 
-### 34. 同名駅における路線別駅位置の差異と自線軌道上への正確な配置（駅座標の自線ジオメトリ・スナップ原則 & 前方一致誤認防止）
-* **事象**:
-  * 複数路線が乗り入れるターミナル駅や乗換駅（例: 大手町、新宿、永田町、飯田橋、国会議事堂前、霞ケ関、神田、日比谷、池袋、浅草、四ツ谷、御茶ノ水、東京、渋谷等）において、「同名駅だから」と他社線やJRの代表座標、あるいは駅前広場・駅舎ノードを安易に流用・上書きスナップしてしまう。
-  * その結果、地下鉄や各路線の実ホーム位置（線路ポリライン）から駅マーカーが **数十m〜最大350m以上（大手町351m、新宿294m、永田町273m、飯田橋214m等）も離脱** し、地図上で駅ピンが線路外に大きく浮いてしまう。
-  * さらに、駅ノード抽出時に `n.startsWith(s.name)` のような前方一致を用いると、「上野」を探索した際に隣接駅「上野広小路」がマッチしてしまい、上野広小路と上野が同一点に重なり、次区間のセグメントが退化（距離0m・coords=1）する重大なバグが発生する。
-* **防止策（ベストプラクティス）**:
-  * **自線軌道端点との誤差 0m スナップ**:
-    各路線の `stations.ts` の駅座標（`lat`, `lng`）は、**必ず接続する線路セグメント（`TrackSegment`）の端点ノード（`coordinates[0]` または `coordinates[last]`）と完全一致** させる。これにより、駅マーカーは100%確実にその路線の線路上に沿って配置される。
-  * **完全一致による駅ノード照合**:
-    OSMノード検索時は前方一致（`startsWith`）を厳禁とし、完全一致（`n === s.name`、`n === `${s.name}駅``）のみを候補とする。
-  * **セグメント退化・同一線内重複自動監査の実施**:
-    路線追加時に、全セグメントの点数が2以上であること、および同一路線内に同一座標の駅が存在しないことをスクリプトで自動検証する。
+### 19. 共用複々線区間を持つ2系統のダイヤ分離と列車番号完全一致リンク
 
-### 35. 直通境界駅における構内線路ギャップゼロ保証とシームレス直結（押上駅・北千住駅問題）
-* **事象**:
-  * 相互直通運転を行う共同使用駅（例: 半蔵門線 ↔ 東武スカイツリーラインの押上駅、日比谷線 ↔ 東武スカイツリーラインの北千住駅等）において、先行路線の終点セグメントがホーム南端で終了し、後続路線の始点セグメントがホーム北端から開始していたため、**共同使用駅のホーム構内（約76m〜133m）で線路ポリラインが途切れ、地図上で線路に隙間（ギャップ）が生じていた**。
-* **防止策（ベストプラクティス）**:
-  * **境界駅構内渡り線の完全直結**:
-    先行路線の終点セグメント（`fromStation -> 境界駅`）に、駅構内を貫通して後続路線の始点ノードに接続する渡り線ノード群を追加し、**後続路線の始点座標と完全同一点（距離誤差 0.0000m）で直結** させる。
-  * **境界駅の物理座標の完全一致**:
-    境界駅の駅座標（`lat`, `lng`）は、直通する双方の路線（例: `Z-14` と `TSK-03`、`H-22` と `TSK-09`、`F-16` と `TY-01`）で完全に同一の座標を持たせる。これにより、地図上での線路・駅ピンが寸分の狂いもなく直結し、直通列車が途切れずスムーズに直通走行する。
+東京メトロ有楽町線と副都心線のように起点から途中駅（和光市〜小竹向原）まで線路を共用し同一グループIDで発車標が提供される場合は、`shouldExcludeTrip` に固有駅リストを定義して相手路線の列車を除外したうえで `buildStationTimetablesFromTrips: true` により正規トリップのみから駅時刻表を再生成する設計です。さらに東武東上線との直通リンクは時刻幅での曖昧一致を使わず `trainNumber` と `isHoliday` の完全一致のみで1対1接続します。なお、和光市駅・新木場駅・渋谷駅・池袋駅では同名駅リンクも成立する仕組みです。
 
-### 36. 路線追加・ダイヤ改訂完了時のドキュメント完全同期（README.md・関連ガイドラインの更新義務）
-* **事象**:
-  新路線を追加・統合（あるいは路線の廃止・統廃合・区間変更）したにもかかわらず、`README.md` や関連ドキュメントの路線数（「全102路線」等）・延べ駅数・事業者一覧・エリア分類・カラー一覧が古いまま放置され、コードベースとドキュメントの間で深刻な乖離が発生する。
-* **防止策（ベストプラクティス）**:
-  路線追加・変更作業の最終工程として「ドキュメント更新（Phase 9）」を必須ステップとし、統計スクリプトを実行して正確な数値（事業者数・総路線数・延べ駅数・ユニーク駅数・エリア別路線数）を算出して `README.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/LINE_COLORS_GUIDELINES.md` に即時反映する。
+### 20. 旅客通過駅・運転停車を含む有料座席指定列車の貫通トリップ合成
+
+S-TRAIN のように中間路線（西武有楽町線: 全3駅）で旅客停車が0〜1駅の列車は、通常のスクレイパーでは中間路線が欠落するため、専用スクリプト（`integrate_strain.cjs`）で運転停車を含む全停車時刻をマスタ定義し、全中間通過駅の時刻を区間距離比率で補間してメトロ・西武有楽町線・西武池袋線間の前方指向連鎖を構築します。駅発車標には旅客乗降可能駅のみを登録します。
+
+### 21. 公式列車番号（`trainNumber`）と内部列車ID（`trainId`）の分離と正規化
+
+Yahoo! の生数字IDを `trip.trainId`（内部参照・直通追尾キー）、表示用の公式番号を `trip.trainNumber` に分離します。`normalizeTrainNumber` では末尾アルファベット付きや「レ」付きを保持し、純数字には「レ」を付与します（非電化気動車は `D` 運用）。駅発車標アイテムにも `dep.no` と `dep.trainId` を同期します。
+
+### 22. 駅探スクレイピングにおける1ページ多重テーブルと方面タブ判定
+
+駅探の時刻表 HTML（`d1`）には1ページ内に上下双方のテーブル（`<table class="search-result-data ek-search-result">`）と方面タブ（`<li class="ek-direction_tab">`）が1対1で含まれるため、`d1` の1回の取得で全方面を抽出します。方面判定では駅名部分一致による誤判定を防ぐため必ず「○○方面」単位で判定し、臨時列車は `SPECIAL_*` 辞書で補完します。
+
+### 23. ダイヤ再生成時の列車番号保護と冪等性
+
+`runYahooImporter.cjs` や `rebuildAllTimetablesFromCache.cjs` を再実行しても公式列車番号が失われないよう、`YahooTimetableBuilder.cjs` と `enrich_train_numbers.cjs` で自動注入と既存ID退避（`trip.trainId = trip.trainId || trip.trainNumber;`）の冪等性を維持します。
+
+### 24. 路線・駅固有処理のハードコード排除
+
+UIコンポーネントやシミュレータ内に特定路線IDや特定駅番号の条件分岐を書かず、`LineDefinition.defaultCars`（標準編成両数）、先頭・末尾配列要素による始終着駅判定、`isLocalTrainType`（`src/data/trainTypes.ts`）による各停系種別判定など汎用メタデータで制御します。
+
+### 25. 境界駅における時刻同期と発着ギャップゼロ保証
+
+先行路線の終着駅到着時刻と後続路線の始発駅発車時刻の間に1〜3分の開きがあると、その間に列車ピンが地図上から消滅します。直通リンカーで先行トリップの終着時刻 `syncTime` と後続トリップの始発駅 `arrivalTime` を秒単位で一致させ、境界停車中の切れ目をなくします。
+
+### 26. 直通チェーン全体の End-to-End 行先解決
+
+3路線以上が直通する系統では直近路線の終点駅名を行先に設定せず、`throughTripId` を末尾まで探索してチェーン全体の最終終着駅を特定し、全区間のトリップの `customDestination` を統一します。
+
+### 27. 境界駅の路線別駅ID差異と物理駅同一性判定
+
+日吉（`TY-13` と `SH-03`）、新横浜（`SH-01` と `SO-52`）、渋谷（`TY-01` と `F-16`）、横浜（`TY-21` と `MM-01`）のように路線間で駅ID体系が異なる境界駅でも、`trainSimulation.ts` の `isSamePhysicalStation` が駅名一致または距離 0.5km 以内で同一物理駅と判定し、引き継ぎを保証します。
+
+### 28. モバイル GPU 負荷軽減とマーカー CSS 最適化
+
+数百個の列車マーカーが存在する状態でインライン `filter: drop-shadow(...)` や非表示要素の `animate-ping` を残すと、モバイルブラウザの GPU メモリが枯渇して画面が白く固まる原因となります。これを防ぐため `drop-shadow` を廃止して CSS `shadow-md` と `border` を用い、`.train-pulse` 要素は選択中の列車（`isSelected`）のみ DOM に生成し、`.train-div-icon` と `.station-div-icon` に `contain: layout style; will-change: transform;` を指定します。
+
+### 29. Leaflet タイル白抜け防止と ResizeObserver デバウンス
+
+Leaflet の `fadeAnimation: false` と `preferCanvas: true` を設定してタイル切替時の透過チラつきとベクターノード負荷を抑え、`ResizeObserver` には 150ms のデバウンスを入れて連続 `map.invalidateSize()` によるスタックを防ぎます。`.leaflet-container` には背景色 `#f1f5f9` を設定します。
+
+### 30. 大規模駅マーカーのインスタンスキャッシュと差分更新
+
+駅を選択するたびに全駅マーカーを破棄・再生成するとメインスレッドが固まるため、駅マーカーインスタンスを `Map` でキャッシュし、駅選択時は対象駅の CSS クラス（`ring-4`, `scale-125` 等）の差分更新のみを行います。
+
+### 31. 動的時刻表ローディングと統合時刻表メモ化
+
+全路線の `stationTimetables.json` と `globalTimetable.json` は `index.ts` で静的インポートせず `src/data/timetableLoader.ts` の `import.meta.glob` により動的チャンク分割し、選択路線と直通先路線のみオンデマンド読み込みします。`SimulationContext.tsx` でも統合時刻表配列をメモ化し、毎フレームの再結合を避けます。
+
+### 32. 駅探スクレイピングにおける曜日パラメータ `dw` の規定
+
+駅探の URL パラメータは `dw=0` が平日、`dw=1` が土曜、`dw=2` が休日です。`dw=1` を平日として取得すると平日専用列車と土曜ダイヤ便が誤突合されるため、スクレイパーでは必ず平日 `dw=0`・休日 `dw=2` を指定し、エンリッチメント側のバケット判定も `const isHoli = row.dayKey ? row.dayKey === 'holiday' : row.dw !== 0;` とします。
+
+### 33. 公式駅ナンバリングと内部管理用駅IDの混同防止
+
+システム内部の駅識別子（例: `SE-01`, `TD-01`, `BW-01`, `BE-01`, `JOE-01`, `SN-01`, `CO-33`）と公式駅ナンバリングを混同してはいけません。JR東日本新潟支社・東北本部管内や新幹線などの公式駅ナンバリング未制定路線では、`stations.ts` の `stationNumber` を未定義とし、`Badges.tsx` の `STATION_BADGE_COLORS` にも非公式プレフィックスを登録しないでください。
+
+### 34. 同名駅における自線軌道上配置と駅名完全一致原則
+
+ターミナル駅・乗換駅（大手町、新宿、永田町、飯田橋、渋谷、池袋等）では路線ごとに実際のホーム位置が数十〜350m以上離れるため、他社線の代表座標や駅前広場ノードを流用せず、必ず自路線の線路セグメント端点と一致（誤差 0.0m）させます。また OSM ノード照合時は前方一致（`startsWith`）を禁止して完全一致のみを採用し、「上野」に「上野広小路」が誤マッチしてセグメントが退化する不具合を防ぎます。
+
+### 35. 直通境界駅における構内線路ギャップゼロ保証
+
+相互直通運転を行う共同使用駅（押上駅、北千住駅、渋谷駅など）では、先行路線の終点セグメントに駅構内を通過して後続路線の始点ノードへ接続するノード群を含め、先行終点と後続始点および境界駅の `lat`, `lng` を距離誤差 `0.0000m` で一致させます。
+
+### 36. 路線追加・ダイヤ改訂完了時のドキュメント同期
+
+新路線の追加・統廃合やダイヤ改訂の完了時には統計スクリプトで最新の事業者数・総路線数・延べ駅数・ユニーク駅数・エリア別路線数を算出し、`README.md`、`docs/LINE_COLORS_GUIDELINES.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md` を同期します。
 
 ---
 
-## 6. 新路線追加 クイックチェックリスト（作業着手〜完了チェックシート）
+## 6. 新路線追加 クイックチェックリスト
 
-新規路線を追加する際は、以下のチェックリストを上から順に消化してください。
+### Phase 1: 基本仕様と型定義
 
-### Phase 1: 基本仕様 & 型定義
-- [ ] `lineId`, `name`, `operator`, `defaultCars` を決定
-- [ ] 対象路線の公式駅ナンバリング制定状況を確認（※公式未制定路線では `stations.ts` の `stationNumber` を未定義のままにし、架空ナンバリングを新設しないこと）
-- [ ] 情報源①（ニコニコ大百科優先）または②（Wikipedia補完）に基づき公式 `lineColor` を決定（※未掲載時は代替方針を策定・報告）
-- [ ] `docs/LINE_COLORS_GUIDELINES.md` に基づき `accentColor`（パターンA〜D）を決定
-- [ ] `src/types/index.ts` の `LineId` 共用体に新路線IDを追加
-- [ ] `src/data/lines/<lineId>/trainTypes.ts` を作成（各停のラインカラー同期、公式優等種別色、JR実車案内色、直通種別統一）
+- [ ] `lineId`, `name`, `operator`, `defaultCars` を決定する
+- [ ] 公式駅ナンバリング制定状況を確認する（未制定路線では `stationNumber` を未定義にする）
+- [ ] 公式 `lineColor` と `accentColor` を [docs/LINE_COLORS_GUIDELINES.md](./LINE_COLORS_GUIDELINES.md) に基づいて決定する
+- [ ] `src/types/index.ts` の `LineId` 共用体に新路線IDを追加する
+- [ ] `src/data/lines/<lineId>/trainTypes.ts` を作成する
 
-### Phase 2: 線路ジオメトリ & 駅座標構築
-- [ ] OSM Overpass API で路線のリレーション/ウェイを取得（`scripts/cache/` に保存）
-- [ ] トポロジカル探索（BFS）スクリプトで1本の完全本線ノード列を復元
-- [ ] **同名駅・乗換駅の自線軌道上配置確認**: 他社線や他路線の代表点を流用せず、自路線のホーム・軌道ノード上に駅座標が設定されているか確認
-- [ ] **自線セグメント端点との距離誤差 0m 確認**: 各駅の `lat`, `lng` が接続する `TrackSegment` の端点座標と完全一致していることを確認
-- [ ] **駅名完全一致確認**: 前方一致（`startsWith`）による隣接駅誤マッチ（例: 「上野」に「上野広小路」がマッチして重複・セグメント退化）がないことを確認
-- [ ] **（直通路線）直通境界駅のギャップゼロ直結確認**: 共同使用駅・直通境界駅（押上、北千住、渋谷等）で先行路線終点と後続路線始点が完全同一点（0m）で直結していることを確認
-- [ ] 駅座標（旅客本線ホーム）を特定し、駅定義 `src/data/lines/<lineId>/stations.ts` を作成（`lineId` プロパティ必須）
-- [ ] 駅メタデータに `stoppingTypes` を完全記述（ダイヤ補間の基礎）
-- [ ] 駅間スナップにより `src/data/lines/<lineId>/trackGeometry.ts` を出力
-- [ ] 軌道セグメントの点間距離監査（300m以上のジャンプや往復トゲ、点数1の退化セグメントがないこと）
+### Phase 2: 線路ジオメトリと駅座標構築
 
-### Phase 3: Yahoo! データ連携 & ダイヤ生成
-- [ ] Yahoo! 路線情報で全駅の `yahooStationId`, `inGroupId`, `outGroupId` を調査
-- [ ] `scripts/lines/<lineId>/config.cjs` を作成（駅定義、エイリアス、種別マップ、基準秒数）
-- [ ] `node scripts/runYahooImporter.cjs --line <lineId>` を実行
-- [ ] `stationTimetables.json` および `globalTimetable.json` が正常生成されたことを確認
+- [ ] OSM Overpass API で路線のリレーション・ウェイを取得し `scripts/cache/` に保存する
+- [ ] トポロジカル探索（BFS）スクリプトで連続した本線ノード列を復元する
+- [ ] 自線ホーム軌道上に駅座標を配置し、セグメント端点との距離誤差 0m（`0.0m`）を確認する
+- [ ] 駅名照合で前方一致（`startsWith`）による誤マッチがないことを確認する
+- [ ] 直通路線の場合は直通境界駅で先行路線終点と後続路線始点が `0.0000m`（0m）で直結していることを確認する
+- [ ] `src/data/lines/<lineId>/stations.ts`（`lineId` と `stoppingTypes` 必須）と `trackGeometry.ts` を出力する
+- [ ] 軌道セグメントの点間距離監査（300m以上のジャンプ、往復トゲ、退化セグメント不在）を通過する
 
-### Phase 4: 公式列車番号エンリッチメント（駅探ハイブリッド突合）
-- [ ] 駅探の路線コード（`lineCode`）および各駅インデックスを調査・プローブ確認
-- [ ] `scripts/fetch<Line>Ekitan.cjs` を作成・実行し、上下線時刻表データを一括収集（**平日 `dw=0`、休日 `dw=2`** の指定を厳守し、土曜ダイヤとの混同を防止）
-- [ ] `scripts/enrich_train_numbers.cjs` に対象路線の突合設定（特急・臨時列車マッピング、上下線パリティ検証含む）を追加
-- [ ] 突合処理における平日/休日バケット判定（`row.dayKey === 'holiday'` または `row.dw !== 0`）が正しく機能していることを確認
-- [ ] 6桁純数字（`XXX-XXXレ`）およびその他純数字（`XXXXレ`）の正規化（`normalizeTrainNumber`）を確認
-- [ ] `node scripts/enrich_train_numbers.cjs <lineId>` を実行し、全便の公式列車番号（`trainNumber`）と内部ID（`trainId`）を分離・同期（直通ペア間完全同期の検証含む）
-- [ ] `stationTimetables.json` の発車標（`no` / `trainId`）が同期されたことを確認
+### Phase 3: Yahoo! データ連携とダイヤ生成
 
-### Phase 5: レジストリ登録 & 動的ローダー統合
-- [ ] `src/data/lines/<lineId>/index.ts` を作成（`stationTimetables` / `globalTimetable` は空配列・空オブジェクトで初期化）
-- [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` に新路線を追加
-- [ ] 事業者が新規の場合、`OPERATOR_DISPLAY_ORDER` に追加
-- [ ] `src/data/lines/<lineId>/globalTimetable.json` と `stationTimetables.json` が配置され、`timetableLoader.ts`（`import.meta.glob`）から動的ロード可能であることを確認
+- [ ] Yahoo! 路線情報で全駅の `yahooStationId`, `inGroupId`, `outGroupId` を確認する
+- [ ] `scripts/lines/<lineId>/config.cjs` を作成する
+- [ ] `node scripts/runYahooImporter.cjs --line <lineId>` を実行し、`stationTimetables.json` と `globalTimetable.json` を生成する
 
-### Phase 6: 直通運転・ハンドオーバー構築（※直通路線のみ）
-- [ ] 境界駅の Yahoo! グループIDを片側のみ（上りのみ / 下りのみ）に設定
-- [ ] `scripts/common/throughLinker/connectionsConfig.cjs` に新路線の接続ペア（上り/下り）を追加
-- [ ] `node scripts/runThroughLinker.cjs` を実行
-- [ ] **【必須】境界駅のシームレス時刻同期**: 先行路線の到着時刻と後続路線の停車開始時刻が秒単位で一致し、空白時間（消失時間）がゼロであることを確認
-- [ ] **【必須】End-to-End 行先解決**: 直通チェーンを末尾まで探索し、チェーン全体の最終終着駅（例: 海老名、川越市、湘南台等）が全トリップの `customDestination` に統一されていることを確認（区間終点のハードコード禁止）
-- [ ] **【必須】全区間始発駅（customOrigin）同期**: 直通チェーンの最先頭を特定し、全トリップに本来の始発駅が伝播していることを確認
-- [ ] 境界駅の駅IDが路線間で異なる場合（例: `TY-13` ↔ `SH-03`）、`trainSimulation.ts` の `isSamePhysicalStation` で同一駅判定が有効であることを確認
-- [ ] 境界駅の `stations.ts` の `transfers` に相互路線名を追加
+### Phase 4: 公式列車番号補完（必要な路線のみ）
 
-### Phase 7: UI & コンポーネント最適化
-- [ ] 【公式制定路線のみ】`src/components/Common/Badges.tsx` の `STATION_BADGE_COLORS` に公式駅ナンバリングプレフィックスと配色を追加（※公式未制定路線では登録不要・内部管理IDプレフィックスの登録は厳禁）
-- [ ] `stations.ts` の主要駅・ターミナル駅に `isMajor: true` を設定
-- [ ] 乗換駅・接続駅の駅名表記が他路線と一致していることを確認（同名駅リンク機能）
-- [ ] マーカーのインライン `filter: drop-shadow` や非選択時の `animate-ping` を排除し、GPU 負荷を最小化
+- [ ] 駅探の `lineCode` と各駅インデックスを確認し、`scripts/fetch<Line>Ekitan.cjs` で平日 `dw=0`・休日 `dw=2` を厳守して取得する
+- [ ] `scripts/enrich_train_numbers.cjs` に対象路線の突合設定を追加し、`node scripts/enrich_train_numbers.cjs <lineId>` を実行して `trainNumber`・`trainId`・`stationTimetables.json` を同期する
 
-### Phase 8: 包括的検証 & テスト
-- [ ] `npm run build` を実行し、型エラー・構文エラーがゼロであることを確認
-- [ ] `oxlint` でリントエラーがゼロであることを確認
-- [ ] ブラウザで `/#debug` を開き、新路線のカード、ラインカラーバー、アクセントカラー、列車種別バッジ、駅ナンバリングバッジの配色・コントラストを目視確認
-- [ ] **【必須】境界駅での連続走行テスト**: シミュレーション時刻を進め、境界駅で列車ピンが消滅・点滅することなく、停車〜発車がシームレスに引き継がれることを確認
-- [ ] **【必須】行先一貫性テスト**: 直通列車が路線境界を跨いだ際に行先表示（`customDestination`）が途中で切り替わらず、終始一貫していることを確認
-- [ ] 直通路線の追尾ハンドオーバーテストを実行し、全テスト合格を確認
-- [ ] ブラウザでシミュレータを起動し、10x/30x早送りで逆走・瞬間移動・表示崩れがないことを目視確認
-- [ ] モバイル端末（または DevTools モバイルエミュレーション）において、ズームやアニメーション操作時に画面が白く固まらないことを確認
-- [ ] 駅発車標モーダルおよび列車詳細サイドバーで着発時刻・行先・公式列車番号が正常に表示されることを確認
+### Phase 5: レジストリ登録と動的ローダー統合
 
-### Phase 9: ドキュメント更新 & 完了
-- [ ] **【必須】README.md の更新**:
-  - [ ] 事業者別・エリア別の路線数、総路線数（全〇〇路線）、延べ駅数・ユニーク駅数を最新値に更新
-  - [ ] 事業者別路線一覧に新設路線（区間・駅数）を正しく追加
-  - [ ] 同名駅・ターミナル駅の例に新設路線の主要乗換駅を追記
-  - [ ] ディレクトリ構成やコマンド説明文中の路線数（例: 「全〇〇路線」）を最新化
-- [ ] **【必須】関連ドキュメントの同期**:
-  - [ ] `docs/LINE_COLORS_GUIDELINES.md` に新路線のラインカラー・種別カラー定義を追記
-  - [ ] `docs/MAINTENANCE_GUIDE.md` 等の路線数・エリア分類数を更新
-  - [ ] `docs/ROUTE_EXPANSION_PLAYBOOK.md` 冒頭および各チェック項目の総路線数・駅数表記を同期
-- [ ] **【必須】作業ツリーのクリーン度確認**:
-  - [ ] 意図しない他路線のデータファイル（改行コードや時刻補間による差分）がステージングされていないか `git status` / `git diff` で確認
+- [ ] `src/data/lines/<lineId>/index.ts` を作成する（時刻表フィールドは空で初期化）
+- [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` と `LINE_AREA_MAP`（新規事業者なら `OPERATOR_DISPLAY_ORDER` 等も）に追加する
+- [ ] `src/data/timetableLoader.ts` から動的ロードできることを確認する
+
+### Phase 6: 直通運転・ハンドオーバー構築（直通路線のみ）
+
+- [ ] 境界駅の Yahoo! グループIDを片側のみに設定する
+- [ ] `scripts/common/throughLinker/connectionsConfig.cjs` に上り・下りの接続ペアを追加し、`node scripts/runThroughLinker.cjs` を実行する
+- [ ] 境界駅の到着・停車開始時刻の秒単位一致と、直通チェーンの `customDestination`・`customOrigin` 統一を確認する
+- [ ] 境界駅の `stations.ts` の `transfers` に相互路線名を追加する
+
+### Phase 7: UIとコンポーネント最適化
+
+- [ ] 公式制定路線のみ `src/components/Common/Badges.tsx` の `STATION_BADGE_COLORS` に記号と配色を追加する
+- [ ] `stations.ts` の主要駅に `isMajor: true` を設定し、乗換駅の駅名表記が一致していることを確認する
+
+### Phase 8: 検証とテスト
+
+- [ ] `npm run build` および `npm run lint` でエラーがゼロであることを確認する
+- [ ] `npm run audit:stations`、`npm run audit:paths`、`npm run audit:couplings`、`node scripts/audit_all_lines_status.cjs` を実行する
+- [ ] ブラウザの `/#debug` 画面で配色・バッジを確認し、早送り（10x / 30x）とモバイル表示で境界駅連続走行・時刻表・列車詳細の動作を確認する
+
+### Phase 9: ドキュメント更新と完了
+
+- [ ] `README.md`、`docs/LINE_COLORS_GUIDELINES.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md` の総路線数（全174路線等）・駅数・路線一覧を更新する
+- [ ] `git status` と `git diff` で不要な差分がないことを確認する
 
 ---
 
-## 7. 設定ファイル & 自動化スクリプトテンプレート集
+## 7. 設定ファイルと自動化スクリプトテンプレート集
 
-### 1. Yahoo! インポーター設定テンプレート (`scripts/lines/<lineId>/config.cjs`)
+### 1. Yahoo! インポーター設定テンプレート（`scripts/lines/<lineId>/config.cjs`）
+
 ```javascript
 module.exports = {
   lineId: '<lineId>',
@@ -1073,7 +677,8 @@ module.exports = {
 };
 ```
 
-### 2. 直通メタデータ自動付与スクリプトテンプレート (`scripts/link_<lineA>_<lineB>.cjs`)
+### 2. 直通メタデータ自動付与スクリプトテンプレート（`scripts/link_<lineA>_<lineB>.cjs`）
+
 ```javascript
 const fs = require('fs');
 const path = require('path');
@@ -1114,10 +719,11 @@ for (const b of bInToBoundary) {
 
 fs.writeFileSync(lineAPath, JSON.stringify(lineATrips, null, 2), 'utf8');
 fs.writeFileSync(lineBPath, JSON.stringify(lineBTrips, null, 2), 'utf8');
-console.log('✅ 直通メタデータ付与完了');
+console.log('直通メタデータ付与完了');
 ```
 
-### 3. ハンドオーバー自動検証テストテンプレート (`scripts/test_<boundary>_handover.ts`)
+### 3. ハンドオーバー自動検証テストテンプレート（`scripts/test_<boundary>_handover.ts`）
+
 ```typescript
 import { calculateActiveTrains } from '../src/services/trainSimulation';
 import { formatTrainNumber, timeStringToSeconds } from '../src/data/timetableData';
@@ -1148,13 +754,9 @@ function resolveSelectedTrain(
   }
   return null;
 }
-
-// 検証シナリオの実行（時刻ごとの追尾ID推移チェック）
-// ...
 ```
 
-### 4. 駅探時刻表スクレイピングスクリプトテンプレート (`scripts/fetch<Line>Ekitan.cjs`)
-1リクエストで上下線双方のテーブルを取得し、方面タブ名に基づいて上り・下りを自動判定する高速かつ堅牢なスクレイパーの雛形です。
+### 4. 駅探時刻表スクレイピングスクリプトテンプレート（`scripts/fetch<Line>Ekitan.cjs`）
 
 ```javascript
 const fs = require('fs');
@@ -1162,7 +764,6 @@ const fs = require('fs');
 const STATIONS = [
   { id: '<PREFIX>-01', name: '<駅名1>', code: '<lineCode>-0' },
   { id: '<PREFIX>-02', name: '<駅名2>', code: '<lineCode>-1' },
-  // ...
 ];
 
 function sleep(ms) {
@@ -1194,8 +795,7 @@ function parseTableChunk(tableHtml) {
       let trainNo = '';
       const txMatch = href.match(/tx=([0-9a-zA-Z\-_]+)/i);
       if (txMatch) {
-        const rawCode = txMatch[1];
-        const parts = rawCode.split('-');
+        const parts = txMatch[1].split('-');
         trainNo = parts[parts.length - 1];
       } else {
         trainNo = `${hour}${minute}`;
@@ -1221,7 +821,6 @@ function parseTableChunk(tableHtml) {
 }
 
 function judgeDirection(tabName, st) {
-  // 方面タブ文字列に基づいて上り/下りを判定（駅名部分一致を避け、方面単位で判定）
   if (tabName.includes('<下り主要行先>方面')) return 'outbound';
   if (tabName.includes('<上り主要行先>方面')) return 'inbound';
   return null;
@@ -1230,7 +829,6 @@ function judgeDirection(tabName, st) {
 async function scrapeStation(st, dw) {
   let outbound = [];
   let inbound = [];
-
   const url = `https://ekitan.com/timetable/railway/line-station/${st.code}/d1?dw=${dw}`;
   try {
     const res = await fetch(url, {
@@ -1240,7 +838,6 @@ async function scrapeStation(st, dw) {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const html = await res.text();
-
     const tabs = [...html.matchAll(/class="[^"]*ek-direction_tab[^"]*"[^>]*data-ek-direction_name="([^"]+)"/gi)].map((m) => m[1]);
     const tables = [...html.matchAll(/<table[^>]*class="[^"]*ek-search-result[^"]*"[^>]*>([\s\S]*?)<\/table>/gi)].map((m) => m[1]);
 
@@ -1248,20 +845,17 @@ async function scrapeStation(st, dw) {
       const tabName = tabs[i] || '';
       const deps = parseTableChunk(tables[i]);
       const dir = judgeDirection(tabName, st);
-
       if (dir === 'outbound') outbound = deps;
       else if (dir === 'inbound') inbound = deps;
     }
   } catch (e) {
     console.error(`Error fetching ${st.id}: ${e.message}`);
   }
-
   return { outbound, inbound };
 }
 ```
 
-### 5. 公式列車番号エンリッチメントスクリプトテンプレート (`scripts/enrich_train_numbers.cjs`)
-Yahoo! 路線情報のダイヤに駅探の列車番号を突合し、`trainId` と `trainNumber` を分離・正規化して駅発車標と完全同期するテンプレートです。
+### 5. 公式列車番号エンリッチメントスクリプトテンプレート（`scripts/enrich_train_numbers.cjs`）
 
 ```javascript
 const fs = require('fs');
@@ -1273,11 +867,9 @@ function normalizeTrainNumber(rawNo) {
   if (trimmed.includes('+')) {
     return trimmed.split('+').map((p) => normalizeTrainNumber(p.trim())).join(' + ');
   }
-  // アルファベット末尾やレ付きはそのまま
   if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
     return trimmed;
   }
-  // 純数字はレを付与
   if (/^\d+$/.test(trimmed)) {
     return `${trimmed}レ`;
   }
@@ -1287,27 +879,18 @@ function normalizeTrainNumber(rawNo) {
 function enrichLine(lineId, ekitanDataPath) {
   const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
   const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
-
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
   const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
   const ekitanData = JSON.parse(fs.readFileSync(ekitanDataPath, 'utf8'));
-
   const trainIdToOfficialNo = new Map();
 
   for (const trip of trips) {
-    // 1. 内部IDの安全な退避（冪等性確保）
     const lookupId = trip.trainId || trip.trainNumber;
     trip.trainId = lookupId;
-
     const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
     const dayData = ekitanData[dayKey] || {};
-
     let officialNo = null;
 
-    // 2. 特急・臨時列車の辞書マッピング照合
-    // if (SPECIAL_MAP[lookupId]) { officialNo = SPECIAL_MAP[lookupId]; }
-
-    // 3. 始発駅・主要駅の発車時刻による突合
     if (!officialNo) {
       const originDeps = dayData[trip.originStationId]?.[trip.direction] || [];
       const originStop = trip.stops.find((s) => s.stationId === trip.originStationId);
@@ -1320,7 +903,6 @@ function enrichLine(lineId, ekitanDataPath) {
       }
     }
 
-    // 4. 途中停車駅によるフォールバック突合
     if (!officialNo) {
       for (const stop of trip.stops) {
         if (!stop.departureTime) continue;
@@ -1340,7 +922,6 @@ function enrichLine(lineId, ekitanDataPath) {
     }
   }
 
-  // 5. 駅発車標（stationTimetables.json）の完全同期
   for (const stId of Object.keys(stationTimetables)) {
     for (const dir of ['inbound', 'outbound']) {
       for (const day of ['weekdays', 'holidays']) {
@@ -1358,16 +939,14 @@ function enrichLine(lineId, ekitanDataPath) {
 
   fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
   fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
-  console.log(`✅ ${lineId} の公式列車番号エンリッチメント完了`);
+  console.log(`${lineId} の公式列車番号エンリッチメント完了`);
 }
 ```
 
-### 6. 統合直通リンカースクリプト標準テンプレート (`scripts/link_<lineA>_<lineB>.cjs`)
-直通運転を構成する路線ペアを接続する際の標準テンプレートです。**既存リンクの安全なリセット**、**Yahoo! `trainId` 優先マッチ**、**境界駅でのシームレス時刻同期（空白時間ゼロ保証）**、および**直通チェーン全体の End-to-End 行先自動解決（路線跨ぎでの行先切り替わり防止）**を完備しています。
+### 6. 統合直通リンカースクリプトテンプレート（`scripts/link_<lineA>_<lineB>.cjs`）
 
 ```javascript
 const fs = require('fs');
-const path = require('path');
 
 function timeToSec(t) {
   if (!t) return null;
@@ -1383,10 +962,7 @@ function extractYahooTrainId(tripId) {
   return parts[parts.length - 1];
 }
 
-// 境界駅・主要駅の駅名逆引きテーブル
-const STATION_NAMES = {
-  // 'ST-01': '駅名', ...
-};
+const STATION_NAMES = {};
 
 function linkLinePair({
   lineAId,
@@ -1430,17 +1006,14 @@ function linkLinePair({
       const yIdB = extractYahooTrainId(tB.tripId);
       const noB = tB.trainNumber;
 
-      // 1. Yahoo trainId 完全一致 (最優先)
       if (yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) {
         bestB = tB;
         break;
       }
-      // 2. 公式列車番号一致
       if (noA && noB && noA === noB && diff <= 180 && diff < minDiff) {
         minDiff = diff;
         bestB = tB;
       } else if (diff <= 120 && diff < minDiff) {
-        // 3. 時刻近接最小
         minDiff = diff;
         bestB = tB;
       }
@@ -1452,20 +1025,17 @@ function linkLinePair({
       bestB.prevTripId = tA.tripId;
       bestB.prevLineId = lineAId;
 
-      // 【重要】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
       const syncTime = lastStop.arrivalTime || lastStop.departureTime;
-      lastStop.departureTime = syncTime;        // 先行路線は到着完了
-      bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着した瞬間から発車待ち開始
-
+      lastStop.departureTime = syncTime;
+      bestB.stops[0].arrivalTime = syncTime;
       linkedCount++;
     }
   }
 
-  console.log(`  [${linkName}] 接続完了: ${linkedCount} 本`);
+  console.log(`[${linkName}] 接続完了: ${linkedCount} 本`);
   return linkedCount;
 }
 
-// 直通チェーン全体の End-to-End 最終行先同期
 function resolveAllChainDestinations(allTripsMap) {
   function resolveChainDestination(startTrip) {
     let curr = startTrip;
@@ -1488,7 +1058,6 @@ function resolveAllChainDestinations(allTripsMap) {
     if (resolvedChains.has(tripId)) continue;
     if (!trip.throughTripId && !trip.prevTripId) continue;
 
-    // 先頭まで遡る
     let head = trip;
     const visitedBack = new Set([head.tripId]);
     while (head.prevTripId && allTripsMap.has(head.prevTripId)) {
@@ -1498,7 +1067,6 @@ function resolveAllChainDestinations(allTripsMap) {
       head = p;
     }
 
-    // 先頭から末尾までリスト化
     const chain = [];
     let curr = head;
     const visitedFwd = new Set();
@@ -1520,4 +1088,3 @@ function resolveAllChainDestinations(allTripsMap) {
   }
 }
 ```
-
