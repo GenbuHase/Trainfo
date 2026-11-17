@@ -55,7 +55,7 @@ const outTimes = [
 
 let trackedId: string | null = muTripId;
 let lastSelected: ActiveTrain | null = null;
-let selectedLineIds = ['musashino', 'kawagoe'];
+let selectedLineIds = ['jr_musashino', 'jr_kawagoe'];
 
 for (const pt of outTimes) {
   const sec = timeStringToSeconds(pt.time);
@@ -107,7 +107,7 @@ const inTimes = [
 
 trackedId = kwInbTripId;
 lastSelected = null;
-selectedLineIds = ['kawagoe', 'musashino'];
+selectedLineIds = ['jr_kawagoe', 'jr_musashino'];
 
 for (const pt of inTimes) {
   const sec = timeStringToSeconds(pt.time);
@@ -138,9 +138,9 @@ if (trackedId === muOutTripId) {
   process.exit(1);
 }
 
-// テスト3: 武蔵野線のみ選択中の状態から throughLineId で kawagoe が自動追加されて追尾が継続するか
+// テスト3: 武蔵野線のみ選択中の状態から throughLineId で jr_kawagoe が自動追加されて追尾が継続するか
 console.log('--- テスト3: 武蔵野線単独選択時の throughLineId 自動路線追加検証 ---');
-let singleLineSelection = ['musashino'];
+let singleLineSelection = ['jr_musashino'];
 const trainAtOmiya = calculateActiveTrains({
   currentSec: timeStringToSeconds('17:47:30'),
   isHoliday: false,
@@ -156,10 +156,10 @@ if (trainAtOmiya && trainAtOmiya.throughLineId && !singleLineSelection.includes(
   console.log(`[自動追加] 追尾中列車の throughLineId: '${trainAtOmiya.throughLineId}' を検知し路線追加 -> selectedLineIds:`, singleLineSelection);
 }
 
-if (singleLineSelection.includes('kawagoe')) {
-  console.log('✅ テスト3 成功: throughLineId により kawagoe が自動追加されました！\n');
+if (singleLineSelection.includes('jr_kawagoe')) {
+  console.log('✅ テスト3 成功: throughLineId により jr_kawagoe が自動追加されました！\n');
 } else {
-  console.error('❌ テスト3 失敗: kawagoe が自動追加されませんでした\n');
+  console.error('❌ テスト3 失敗: jr_kawagoe が自動追加されませんでした\n');
   process.exit(1);
 }
 

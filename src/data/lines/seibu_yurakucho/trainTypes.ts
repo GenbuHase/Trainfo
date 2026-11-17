@@ -13,8 +13,8 @@ export const SEIBU_YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#ff6600',
     borderColor: '#ff6600',
   },
-  semiExp: {
-    key: 'semiExp',
+  semi_exp: {
+    key: 'semi_exp',
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',
@@ -43,8 +43,8 @@ export const SEIBU_YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#ff6600',
     borderColor: '#ff6600',
   },
-  rapidExp: {
-    key: 'rapidExp',
+  rapid_exp: {
+    key: 'rapid_exp',
     name: '快速急行',
     nameEn: 'Rapid Express',
     shortName: '快急',
@@ -53,5 +53,5 @@ export const SEIBU_YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#8b52a1',
     borderColor: '#8b52a1',
   },
-  strain: LINER_PRESETS.STRAIN,
+  s_train: LINER_PRESETS.STRAIN,
 };

@@ -26,8 +26,8 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapidExp",
-      "limitedExp"
+      "rapid_exp",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -86,7 +86,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -173,8 +173,8 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapidExp",
-      "limitedExp"
+      "rapid_exp",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -289,7 +289,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapidExp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -403,8 +403,8 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapidExp",
-      "limitedExp"
+      "rapid_exp",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -491,8 +491,8 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapidExp",
-      "limitedExp"
+      "rapid_exp",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1-3番線",

@@ -126,13 +126,13 @@ async function fetchEkitanPage(url) {
 }
 
 function judgeDirection(tabName, lineType, st) {
-  if (lineType === 'itsukaichi') {
+  if (lineType === 'jr_itsukaichi') {
     if (tabName.includes('武蔵五日市')) return 'outbound';
     if (tabName.includes('拝島') || tabName.includes('立川') || tabName.includes('東京')) return 'inbound';
-  } else if (lineType === 'ome') {
+  } else if (lineType === 'jr_ome') {
     if (tabName.includes('拝島') || tabName.includes('奥多摩') || tabName.includes('青梅')) return 'outbound';
     if (tabName.includes('立川') || tabName.includes('東京') || tabName.includes('新宿')) return 'inbound';
-  } else if (lineType === 'kawagoe') {
+  } else if (lineType === 'jr_kawagoe') {
     if (tabName.includes('高麗川')) return 'outbound';
     if (tabName.includes('大宮')) return 'inbound';
     if (tabName.includes('川越')) {
@@ -205,14 +205,14 @@ async function scrapeLine(stations, outFileName, lineName, lineType) {
 
 async function main() {
   const target = process.argv[2] || 'all';
-  if (target === 'itsukaichi' || target === 'all') {
-    await scrapeLine(STATIONS_ITSUKAICHI, 'ekitan_itsukaichi_timetables.json', 'JR五日市線', 'itsukaichi');
+  if (target === 'jr_itsukaichi' || target === 'all') {
+    await scrapeLine(STATIONS_ITSUKAICHI, 'ekitan_itsukaichi_timetables.json', 'JR五日市線', 'jr_itsukaichi');
   }
-  if (target === 'ome' || target === 'all') {
-    await scrapeLine(STATIONS_OME, 'ekitan_ome_timetables.json', 'JR青梅線', 'ome');
+  if (target === 'jr_ome' || target === 'all') {
+    await scrapeLine(STATIONS_OME, 'ekitan_ome_timetables.json', 'JR青梅線', 'jr_ome');
   }
-  if (target === 'kawagoe' || target === 'all') {
-    await scrapeLine(STATIONS_KAWAGOE, 'ekitan_kawagoe_all_timetables.json', 'JR川越線', 'kawagoe');
+  if (target === 'jr_kawagoe' || target === 'all') {
+    await scrapeLine(STATIONS_KAWAGOE, 'ekitan_kawagoe_all_timetables.json', 'JR川越線', 'jr_kawagoe');
   }
   console.log('\n🌟 全てのスクレイピング処理が完了しました！');
 }

@@ -835,8 +835,8 @@ function enrichTx() {
 function enrichSaikyo() {
   console.log('=== JR埼京線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/saikyo/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/saikyo/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_saikyo/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_saikyo/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_saikyo_raw_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -946,8 +946,8 @@ function enrichSaikyo() {
 function enrichKawagoe() {
   console.log('=== JR川越線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/kawagoe/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/kawagoe/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_kawagoe/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_kawagoe/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_kawagoe_all_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -977,7 +977,7 @@ function enrichKawagoe() {
   };
 
     // 八高線直通便の公式列車番号マップ作成
-  const hachikoPath = path.resolve('src/data/lines/hachiko/globalTimetable.json');
+  const hachikoPath = path.resolve('src/data/lines/jr_hachiko/globalTimetable.json');
   const hachikoMap = new Map();
   if (fs.existsSync(hachikoPath)) {
     try {
@@ -1096,8 +1096,8 @@ function enrichKawagoe() {
 function enrichMusashino() {
   console.log('=== JR武蔵野線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/musashino/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/musashino/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_musashino/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_musashino/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_musashino_raw_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -1318,8 +1318,8 @@ function enrichRinkai() {
 function enrichHachiko() {
   console.log('=== JR八高線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/hachiko/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/hachiko/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_hachiko/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_hachiko/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_hachiko_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -1455,8 +1455,8 @@ const SPECIAL_CHUO_LIMITED_EXP = {
 function enrichChuo() {
   console.log('=== JR中央線快速 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/chuo/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_chuo/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_chuo/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_chuo_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -1557,8 +1557,8 @@ function enrichChuo() {
 function enrichChuoMain() {
   console.log('=== JR中央本線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/chuo_main/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_chuo_main/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_chuo_main_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -1659,8 +1659,8 @@ function enrichChuoMain() {
 function enrichShinonoi() {
   console.log('=== JR篠ノ井線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/shinonoi/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/shinonoi/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_shinonoi/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_shinonoi/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_shinonoi_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
@@ -1780,8 +1780,8 @@ function enrichOito() {
     }
   }
 
-  for (const section of ['oito_east', 'oito_west']) {
-    const secName = section === 'oito_east' ? 'JR大糸線 (東区間・JR東日本)' : 'JR大糸線 (西区間・JR西日本)';
+  for (const section of ['jr_oito_east', 'jr_oito_west']) {
+    const secName = section === 'jr_oito_east' ? 'JR大糸線 (東区間・JR東日本)' : 'JR大糸線 (西区間・JR西日本)';
     console.log(`--- ${secName} 処理中 ---`);
 
     const globalPath = path.resolve(`src/data/lines/${section}/globalTimetable.json`);
@@ -2097,16 +2097,16 @@ function enrichOgose() {
 // 実行エントリーポイント
 const target = process.argv[2] || 'all';
 
-if (target === 'tojo' || target === 'all') {
+if (target === 'tobu_tojo' || target === 'all') {
   enrichTojo();
 }
-if (target === 'ogose' || target === 'all') {
+if (target === 'tobu_ogose' || target === 'all') {
   enrichOgose();
 }
-if (target === 'yurakucho' || target === 'all') {
+if (target === 'tokyo_metro_yurakucho' || target === 'all') {
   enrichYurakucho();
 }
-if (target === 'fukutoshin' || target === 'all') {
+if (target === 'tokyo_metro_fukutoshin' || target === 'all') {
   enrichFukutoshin();
 }
 if (target === 'seibu_yurakucho' || target === 'all') {
@@ -2118,34 +2118,34 @@ if (target === 'seibu_ikebukuro' || target === 'all') {
 if (target === 'tsukuba_express' || target === 'tx' || target === 'all') {
   enrichTx();
 }
-if (target === 'saikyo' || target === 'jr' || target === 'all') {
+if (target === 'jr_saikyo' || target === 'jr' || target === 'all') {
   enrichSaikyo();
 }
-if (target === 'hachiko' || target === 'jr' || target === 'all') {
+if (target === 'jr_hachiko' || target === 'jr' || target === 'all') {
   enrichHachiko();
 }
-if (target === 'kawagoe' || target === 'jr' || target === 'all') {
+if (target === 'jr_kawagoe' || target === 'jr' || target === 'all') {
   enrichKawagoe();
 }
-if (target === 'musashino' || target === 'jr' || target === 'all') {
+if (target === 'jr_musashino' || target === 'jr' || target === 'all') {
   enrichMusashino();
 }
 if (target === 'rinkai' || target === 'all') {
   enrichRinkai();
 }
-if (target === 'chuo' || target === 'jr' || target === 'all') {
+if (target === 'jr_chuo' || target === 'jr' || target === 'all') {
   enrichChuo();
 }
-if (target === 'ome' || target === 'jr' || target === 'all') {
+if (target === 'jr_ome' || target === 'jr' || target === 'all') {
   enrichOme();
 }
-if (target === 'itsukaichi' || target === 'jr' || target === 'all') {
+if (target === 'jr_itsukaichi' || target === 'jr' || target === 'all') {
   enrichItsukaichi();
 }
-if (target === 'chuo_main' || target === 'jr' || target === 'all') {
+if (target === 'jr_chuo_main' || target === 'jr' || target === 'all') {
   enrichChuoMain();
 }
-if (target === 'shinonoi' || target === 'jr' || target === 'all') {
+if (target === 'jr_shinonoi' || target === 'jr' || target === 'all') {
   enrichShinonoi();
 }
 if (target === 'oito' || target === 'jr' || target === 'all') {
@@ -2154,110 +2154,110 @@ if (target === 'oito' || target === 'jr' || target === 'all') {
 if (target === 'chichibu' || target === 'all') {
   enrichChichibu();
 }
-if (target === 'chiyoda' || target === 'all') {
+if (target === 'tokyo_metro_chiyoda' || target === 'all') {
   enrichChiyoda();
 }
-if (target === 'hibiya' || target === 'metro' || target === 'all') {
-  enrichMetroLine('hibiya', '東京メトロ日比谷線');
+if (target === 'tokyo_metro_hibiya' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_hibiya', '東京メトロ日比谷線');
 }
-if (target === 'marunouchi' || target === 'metro' || target === 'all') {
-  enrichMetroLine('marunouchi', '東京メトロ丸ノ内線');
+if (target === 'tokyo_metro_marunouchi' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_marunouchi', '東京メトロ丸ノ内線');
 }
-if (target === 'hanzomon' || target === 'metro' || target === 'all') {
-  enrichMetroLine('hanzomon', '東京メトロ半蔵門線');
+if (target === 'tokyo_metro_hanzomon' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_hanzomon', '東京メトロ半蔵門線');
 }
-if (target === 'ginza' || target === 'metro' || target === 'all') {
-  enrichMetroLine('ginza', '東京メトロ銀座線');
+if (target === 'tokyo_metro_ginza' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_ginza', '東京メトロ銀座線');
 }
-if (target === 'namboku' || target === 'metro' || target === 'all') {
-  enrichMetroLine('namboku', '東京メトロ南北線');
+if (target === 'tokyo_metro_namboku' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_namboku', '東京メトロ南北線');
 }
-if (target === 'tozai' || target === 'metro' || target === 'all') {
-  enrichMetroLine('tozai', '東京メトロ東西線');
+if (target === 'tokyo_metro_tozai' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tokyo_metro_tozai', '東京メトロ東西線');
 }
-if (target === 'joban' || target === 'joban_local' || target === 'jr' || target === 'all') {
+if (target === 'joban' || target === 'jr_joban_local' || target === 'jr' || target === 'all') {
   enrichJobanLocal();
 }
-if (target === 'joban_rapid' || target === 'jr' || target === 'all') {
+if (target === 'jr_joban_rapid' || target === 'jr' || target === 'all') {
   enrichJobanRapid();
 }
-if (target === 'joban_north' || target === 'joban_toride_iwaki' || target === 'jr' || target === 'all') {
+if (target === 'joban_north' || target === 'jr_joban_toride_iwaki' || target === 'jr' || target === 'all') {
   enrichJobanTorideIwaki();
 }
-if (target === 'joban_sendai' || target === 'joban_iwaki_sendai' || target === 'jr' || target === 'all') {
+if (target === 'joban_sendai' || target === 'jr_joban_iwaki_sendai' || target === 'jr' || target === 'all') {
   enrichJobanIwakiSendai();
 }
-if (target === 'tohoku_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
+if (target === 'jr_tohoku_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
   enrichTohokuShinkansen();
 }
-if (target === 'joetsu_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
+if (target === 'jr_joetsu_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
   enrichJoetsuShinkansen();
 }
-if (target === 'ueno_tokyo' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ueno_tokyo', 'JR上野東京ライン');
+if (target === 'jr_ueno_tokyo' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ueno_tokyo', 'JR上野東京ライン');
 }
-if (target === 'tokaido' || target === 'jr' || target === 'all') {
-  enrichGenericLine('tokaido', 'JR東海道線');
+if (target === 'jr_tokaido' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_tokaido', 'JR東海道線');
 }
-if (target === 'utsunomiya' || target === 'jr' || target === 'all') {
-  enrichGenericLine('utsunomiya', 'JR宇都宮線');
+if (target === 'jr_utsunomiya' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_utsunomiya', 'JR宇都宮線');
 }
-if (target === 'takasaki' || target === 'jr' || target === 'all') {
-  enrichGenericLine('takasaki', 'JR高崎線');
+if (target === 'jr_takasaki' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_takasaki', 'JR高崎線');
 }
-if (target === 'shonan_shinjuku' || target === 'jr' || target === 'all') {
-  enrichGenericLine('shonan_shinjuku', 'JR湘南新宿ライン');
+if (target === 'jr_shonan_shinjuku' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_shonan_shinjuku', 'JR湘南新宿ライン');
 }
-if (target === 'sobu_rapid' || target === 'jr' || target === 'all') {
-  enrichGenericLine('sobu_rapid', 'JR総武快速線');
+if (target === 'jr_sobu_rapid' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_sobu_rapid', 'JR総武快速線');
 }
-if (target === 'yokosuka' || target === 'jr' || target === 'all') {
-  enrichGenericLine('yokosuka', 'JR横須賀線');
+if (target === 'jr_yokosuka' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_yokosuka', 'JR横須賀線');
 }
-if (target === 'ito' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ito', 'JR伊東線');
+if (target === 'jr_ito' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ito', 'JR伊東線');
 }
-if (target === 'ryomo' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ryomo', 'JR両毛線');
+if (target === 'jr_ryomo' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ryomo', 'JR両毛線');
 }
-if (target === 'joetsu' || target === 'jr' || target === 'all') {
-  enrichGenericLine('joetsu', 'JR上越線');
+if (target === 'jr_joetsu' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_joetsu', 'JR上越線');
 }
 if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
   enrichGenericLine('tokaido_shizuoka', 'JR東海道本線（静岡地区）');
 }
-if (target === 'shinetsu_naoetsu_niigata' || target === 'jr' || target === 'all') {
-  enrichGenericLine('shinetsu_naoetsu_niigata', 'JR信越本線（直江津～新潟）');
+if (target === 'jr_shinetsu_naoetsu_niigata' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_shinetsu_naoetsu_niigata', 'JR信越本線（直江津～新潟）');
 }
-if (target === 'hakushin' || target === 'jr' || target === 'all') {
-  enrichGenericLine('hakushin', 'JR白新線', ['shinetsu_naoetsu_niigata', 'uetsu_main']);
+if (target === 'jr_hakushin' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_hakushin', 'JR白新線', ['jr_shinetsu_naoetsu_niigata', 'jr_uetsu_main']);
 }
-if (target === 'uetsu_main' || target === 'jr' || target === 'all') {
-  enrichGenericLine('uetsu_main', 'JR羽越本線', ['shinetsu_naoetsu_niigata', 'banetsu_west', 'hakushin']);
+if (target === 'jr_uetsu_main' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_uetsu_main', 'JR羽越本線', ['jr_shinetsu_naoetsu_niigata', 'jr_banetsu_west', 'jr_hakushin']);
 }
-if (target === 'tadami' || target === 'jr' || target === 'all') {
-  enrichGenericLine('tadami', 'JR只見線');
+if (target === 'jr_tadami' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_tadami', 'JR只見線');
 }
-if (target === 'banetsu_west' || target === 'jr' || target === 'all') {
-  enrichGenericLine('banetsu_west', 'JR磐越西線');
+if (target === 'jr_banetsu_west' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_banetsu_west', 'JR磐越西線');
 }
-if (target === 'banetsu_east' || target === 'jr' || target === 'all') {
-  enrichGenericLine('banetsu_east', 'JR磐越東線');
+if (target === 'jr_banetsu_east' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_banetsu_east', 'JR磐越東線');
 }
-if (target === 'hokuriku_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
-  enrichGenericLine('hokuriku_shinkansen', 'JR北陸新幹線');
+if (target === 'jr_hokuriku_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_hokuriku_shinkansen', 'JR北陸新幹線');
 }
-if (target === 'myoko_haneuma' || target === 'echigo' || target === 'all') {
-  enrichGenericLine('myoko_haneuma', 'えちごトキめき鉄道妙高はねうまライン');
+if (target === 'echigo_tokimeki_myoko_haneuma' || target === 'echigo' || target === 'all') {
+  enrichGenericLine('echigo_tokimeki_myoko_haneuma', 'えちごトキめき鉄道妙高はねうまライン');
 }
-if (target === 'nihonkai_hisui' || target === 'echigo' || target === 'all') {
-  enrichGenericLine('nihonkai_hisui', 'えちごトキめき鉄道日本海ひすいライン');
+if (target === 'echigo_tokimeki_nihonkai_hisui' || target === 'echigo' || target === 'all') {
+  enrichGenericLine('echigo_tokimeki_nihonkai_hisui', 'えちごトキめき鉄道日本海ひすいライン');
 }
 if (target === 'hokuhoku' || target === 'all') {
   enrichGenericLine('hokuhoku', '北越急行ほくほく線');
 }
-if (target === 'kita_shinano' || target === 'shinano' || target === 'all') {
-  enrichGenericLine('kita_shinano', 'しなの鉄道北しなの線');
+if (target === 'shinano_kita_shinano' || target === 'shinano' || target === 'all') {
+  enrichGenericLine('shinano_kita_shinano', 'しなの鉄道北しなの線');
 }
 if (target === 'tobu_skytree' || target === 'tobu' || target === 'all') {
   enrichGenericLine('tobu_skytree', '東武スカイツリーライン');
@@ -2298,17 +2298,17 @@ if (target === 'yagan' || target === 'tobu' || target === 'all') {
 if (target === 'aizu' || target === 'tobu' || target === 'all') {
   enrichGenericLine('aizu', '会津鉄道会津線');
 }
-if (target === 'ou_fukushima_shinjo' || target === 'ou' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ou_fukushima_shinjo', 'JR奥羽本線（福島～新庄）');
+if (target === 'jr_ou_fukushima_shinjo' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ou_fukushima_shinjo', 'JR奥羽本線（福島～新庄）');
 }
-if (target === 'ou_shinjo_omagari' || target === 'ou' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ou_shinjo_omagari', 'JR奥羽本線（新庄～大曲）');
+if (target === 'jr_ou_shinjo_omagari' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ou_shinjo_omagari', 'JR奥羽本線（新庄～大曲）');
 }
-if (target === 'ou_omagari_akita' || target === 'ou' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ou_omagari_akita', 'JR奥羽本線（大曲～秋田）');
+if (target === 'jr_ou_omagari_akita' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ou_omagari_akita', 'JR奥羽本線（大曲～秋田）');
 }
-if (target === 'ou_akita_aomori' || target === 'ou' || target === 'jr' || target === 'all') {
-  enrichGenericLine('ou_akita_aomori', 'JR奥羽本線（秋田～青森）');
+if (target === 'jr_ou_akita_aomori' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('jr_ou_akita_aomori', 'JR奥羽本線（秋田～青森）');
 }
 
 /**
@@ -2352,7 +2352,7 @@ function enrichGenericLine(lineId, lineName, neighborLinesOverride) {
       fallbackMap = new Map();
       const neighborLines = [
         'tobu_skytree', 'tobu_isesaki', 'tobu_nikko', 'tobu_kinugawa',
-        'yagan', 'aizu', 'tadami', 'ueno_tokyo', 'tokaido', 'utsunomiya', 'takasaki'
+        'yagan', 'aizu', 'jr_tadami', 'jr_ueno_tokyo', 'jr_tokaido', 'jr_utsunomiya', 'jr_takasaki'
       ];
       for (const nLine of neighborLines) {
         if (nLine === lineId) continue;
@@ -2984,14 +2984,14 @@ if (
 }
 
 function enrichSotetsuJrDirect() {
-  const globalPath = path.resolve('src/data/lines/sotetsu_jr_direct/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/sotetsu_jr_direct/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_sotetsu_jr_direct/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_sotetsu_jr_direct/stationTimetables.json');
   const ekitanCachePath = path.resolve('scripts/cache/ekitan_sotetsu_jr.json');
   const yahooCachePath = path.resolve('scripts/cache/yahoo/sotetsu_jr_direct/all_train_details.json');
 
   if (!fs.existsSync(globalPath)) return;
 
-  console.log('=== [sotetsu_jr_direct] 公式列車番号エンリッチメント開始 ===');
+  console.log('=== [jr_sotetsu_jr_direct] 公式列車番号エンリッチメント開始 ===');
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
 
   const yahooCache = fs.existsSync(yahooCachePath) ? JSON.parse(fs.readFileSync(yahooCachePath, 'utf8')) : [];
@@ -3080,7 +3080,7 @@ function enrichSotetsuJrDirect() {
   }
 
   safeWriteJson(globalPath, trips);
-  console.log(`✅ [sotetsu_jr_direct] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
+  console.log(`✅ [jr_sotetsu_jr_direct] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
 
   if (fs.existsSync(stationPath)) {
     const stationData = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
@@ -3125,12 +3125,12 @@ function enrichSotetsuJrDirect() {
       }
     }
     safeWriteJson(stationPath, stationData);
-    console.log(`✅ [sotetsu_jr_direct] stationTimetables: ${stDepUpdated} departures updated`);
+    console.log(`✅ [jr_sotetsu_jr_direct] stationTimetables: ${stDepUpdated} departures updated`);
   }
 }
 
 if (
-  target === 'sotetsu_jr_direct' ||
+  target === 'jr_sotetsu_jr_direct' ||
   target === 'sotetsu' ||
   target === 'all'
 ) {
@@ -3151,10 +3151,10 @@ if (
  */
 function enrichOme() {
   console.log('=== JR青梅線 公式列車番号エンリッチメント開始 ===');
-  const globalPath = path.resolve('src/data/lines/ome/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/ome/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_ome/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_ome/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_ome_timetables.json');
-  const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
+  const chuoPath = path.resolve('src/data/lines/jr_chuo/globalTimetable.json');
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath)) return;
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -3277,8 +3277,8 @@ function enrichOme() {
  */
 function enrichItsukaichi() {
   console.log('=== JR五日市線 公式列車番号エンリッチメント開始 ===');
-  const globalPath = path.resolve('src/data/lines/itsukaichi/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/itsukaichi/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_itsukaichi/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_itsukaichi/stationTimetables.json');
   const ekitanPath = path.resolve('scripts/ekitan_itsukaichi_timetables.json');
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath)) return;
 
@@ -3473,8 +3473,8 @@ function enrichChiyoda() {
 function enrichJobanLocal() {
   console.log('=== JR常磐線各駅停車 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban_local/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban_local/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_joban_local/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_joban_local/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/joban_local/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -3564,8 +3564,8 @@ function enrichJobanLocal() {
 function enrichJobanRapid() {
   console.log('=== JR常磐線快速 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban_rapid/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban_rapid/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_joban_rapid/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_joban_rapid/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/joban_rapid/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -3655,8 +3655,8 @@ function enrichJobanRapid() {
 function enrichJobanTorideIwaki() {
   console.log('=== JR常磐線（取手～いわき） 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban_toride_iwaki/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban_toride_iwaki/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_joban_toride_iwaki/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_joban_toride_iwaki/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/joban_toride_iwaki/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -3746,8 +3746,8 @@ function enrichJobanTorideIwaki() {
 function enrichJobanIwakiSendai() {
   console.log('=== JR常磐線（いわき～仙台） 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban_iwaki_sendai/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban_iwaki_sendai/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_joban_iwaki_sendai/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_joban_iwaki_sendai/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/joban_iwaki_sendai/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -3837,8 +3837,8 @@ function enrichJobanIwakiSendai() {
 function enrichTohokuShinkansen() {
   console.log('=== JR東北新幹線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/tohoku_shinkansen/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/tohoku_shinkansen/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_tohoku_shinkansen/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_tohoku_shinkansen/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/tohoku_shinkansen/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -3867,7 +3867,7 @@ function enrichTohokuShinkansen() {
 
   // all_train_details.json から displayName を収集（東北・山形・秋田）
   const detailsMap = new Map();
-  for (const subLine of ['tohoku_shinkansen', 'yamagata_shinkansen', 'akita_shinkansen']) {
+  for (const subLine of ['jr_tohoku_shinkansen', 'jr_yamagata_shinkansen', 'jr_akita_shinkansen']) {
     const dPath = path.resolve(`scripts/cache/yahoo/${subLine}/all_train_details.json`);
     if (fs.existsSync(dPath)) {
       const details = JSON.parse(fs.readFileSync(dPath, 'utf8'));
@@ -3980,8 +3980,8 @@ function enrichTohokuShinkansen() {
 function enrichJoetsuShinkansen() {
   console.log('=== JR上越新幹線 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joetsu_shinkansen/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joetsu_shinkansen/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_joetsu_shinkansen/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_joetsu_shinkansen/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/joetsu_shinkansen/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -4088,7 +4088,7 @@ function enrichMetroLine(lineId, lineName) {
   let fallbackCount = 0;
   const trainIdToOfficialNo = new Map();
 
-  const isReversed = (lineId === 'marunouchi' || lineId === 'namboku');
+  const isReversed = (lineId === 'tokyo_metro_marunouchi' || lineId === 'tokyo_metro_namboku');
 
   for (const trip of trips) {
     const originalId = trip.trainId || trip.trainNumber;
@@ -4178,8 +4178,8 @@ function enrichMetroLine(lineId, lineName) {
 function enrichShinetsuTakasaki() {
   console.log('=== JR信越本線（高崎～横川） 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/shinetsu_takasaki_yokokawa/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/shinetsu_takasaki_yokokawa/stationTimetables.json');
+  const globalPath = path.resolve('src/data/lines/jr_shinetsu_takasaki_yokokawa/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/jr_shinetsu_takasaki_yokokawa/stationTimetables.json');
   const cacheDir = path.resolve('scripts/cache/yahoo/shinetsu_takasaki_yokokawa/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
@@ -4294,7 +4294,7 @@ function enrichShinetsuTakasaki() {
   console.log('✅ JR信越本線（高崎～横川）の公式列車番号を正常に更新しました！\n');
 }
 
-if (target === 'shinetsu_takasaki_yokokawa' || target === 'all') {
+if (target === 'jr_shinetsu_takasaki_yokokawa' || target === 'all') {
   enrichShinetsuTakasaki();
 }
 

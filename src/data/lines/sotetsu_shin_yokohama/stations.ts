@@ -30,8 +30,8 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
       "local",
       "express",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -64,8 +64,8 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
       "local",
       "express",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -98,8 +98,8 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
       "local",
       "express",
       "commuter_exp",
-      "limitedExp",
-      "commuter_ltd_exp"
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",

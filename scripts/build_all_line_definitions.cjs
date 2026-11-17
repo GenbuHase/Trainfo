@@ -3,7 +3,7 @@ const path = require('path');
 
 const LINES = [
   {
-    id: 'tokaido',
+    id: 'jr_tokaido',
     varName: 'tokaidoLine',
     name: 'JR東海道線',
     shortName: '東海道線',
@@ -25,7 +25,7 @@ const LINES = [
     },
   },
   {
-    id: 'ito',
+    id: 'jr_ito',
     varName: 'itoLine',
     name: 'JR伊東線',
     shortName: '伊東線',
@@ -47,7 +47,7 @@ const LINES = [
     },
   },
   {
-    id: 'yokosuka',
+    id: 'jr_yokosuka',
     varName: 'yokosukaLine',
     name: 'JR横須賀線',
     shortName: '横須賀線',
@@ -69,7 +69,7 @@ const LINES = [
     },
   },
   {
-    id: 'sobu_rapid',
+    id: 'jr_sobu_rapid',
     varName: 'sobuRapidLine',
     name: 'JR総武快速線',
     shortName: '総武快速線',
@@ -91,7 +91,7 @@ const LINES = [
     },
   },
   {
-    id: 'utsunomiya',
+    id: 'jr_utsunomiya',
     varName: 'utsunomiyaLine',
     name: 'JR宇都宮線',
     shortName: '宇都宮線',
@@ -113,7 +113,7 @@ const LINES = [
     },
   },
   {
-    id: 'takasaki',
+    id: 'jr_takasaki',
     varName: 'takasakiLine',
     name: 'JR高崎線',
     shortName: '高崎線',
@@ -135,7 +135,7 @@ const LINES = [
     },
   },
   {
-    id: 'shonan_shinjuku',
+    id: 'jr_shonan_shinjuku',
     varName: 'shonanShinjukuLine',
     name: 'JR湘南新宿ライン',
     shortName: '湘南新宿ライン',
@@ -157,7 +157,7 @@ const LINES = [
     },
   },
   {
-    id: 'ueno_tokyo',
+    id: 'jr_ueno_tokyo',
     varName: 'uenoTokyoLine',
     name: 'JR上野東京ライン',
     shortName: '上野東京ライン',

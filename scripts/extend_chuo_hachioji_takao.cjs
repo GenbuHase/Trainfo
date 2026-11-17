@@ -12,9 +12,9 @@ const {
 
 // 宣言的設定: 中央線快速↔中央本線の特急延伸・同期ルール
 const CHUO_EXTENSION_CONFIG = {
-  chuoPath: path.resolve('src/data/lines/chuo/globalTimetable.json'),
-  chuoMainPath: path.resolve('src/data/lines/chuo_main/globalTimetable.json'),
-  limitedExpressKeywords: ['あずさ', 'かいじ', '富士回遊', 'はちおうじ', 'おうめ'],
+  chuoPath: path.resolve('src/data/lines/jr_chuo/globalTimetable.json'),
+  chuoMainPath: path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json'),
+  limited_expressKeywords: ['あずさ', 'かいじ', '富士回遊', 'はちおうじ', 'おうめ'],
   priorityTrainNameKeyword: 'あずさ',
   maxChuoNonPassingStops: 8,
   boundaryStationId: 'JC-24',      // 高尾
@@ -23,8 +23,8 @@ const CHUO_EXTENSION_CONFIG = {
 };
 
 function hasMisassignedLimitedExpName(trip) {
-  if (trip.trainType === 'limitedExp' || !trip.trainName) return false;
-  return CHUO_EXTENSION_CONFIG.limitedExpressKeywords.some((kw) => trip.trainName.includes(kw));
+  if (trip.trainType === 'limited_exp' || !trip.trainName) return false;
+  return CHUO_EXTENSION_CONFIG.limited_expressKeywords.some((kw) => trip.trainName.includes(kw));
 }
 
 function clearMisassignedMetadata(trip) {
@@ -49,7 +49,7 @@ function extendChuoHachiojiTakao() {
   // 1. 各駅停車・快速列車に誤って付与された特急愛称および改ざんされた時刻をクリーンアップ
   let cleanedMisassigned = 0;
   for (const trip of chuoTrips) {
-    if (trip.trainType !== 'limitedExp') {
+    if (trip.trainType !== 'limited_exp') {
       if (hasMisassignedLimitedExpName(trip)) {
         clearMisassignedMetadata(trip);
         cleanedMisassigned++;
@@ -75,7 +75,7 @@ function extendChuoHachiojiTakao() {
     const t = chuoTrips[i];
     if (
       t.tripId.includes('_fuji') &&
-      (t.trainType !== 'limitedExp' ||
+      (t.trainType !== 'limited_exp' ||
         t.tripId.includes('10030') ||
         (!t.throughTripId && !t.prevTripId && (!t.trainName || !t.trainName.includes('富士回遊'))))
     ) {
@@ -92,7 +92,7 @@ function extendChuoHachiojiTakao() {
   // 2. 中央本線のマッピングテーブル構築 (yId_dir_HD / yId_dir_WD)
   const cmMap = new Map();
   for (const t of chuoMainTrips) {
-    if (t.trainType !== 'limitedExp') continue;
+    if (t.trainType !== 'limited_exp') continue;
     if (!t.stops || !t.stops.some((s) => s.isPassing)) continue;
 
     const yId = extractTrainId(t);
@@ -106,7 +106,7 @@ function extendChuoHachiojiTakao() {
   let linkedInbound = 0;
 
   for (const trip of chuoTrips) {
-    if (trip.trainType !== 'limitedExp') continue;
+    if (trip.trainType !== 'limited_exp') continue;
     const nonPassingStops = trip.stops ? trip.stops.filter((s) => !s.isPassing) : [];
     if (nonPassingStops.length > CHUO_EXTENSION_CONFIG.maxChuoNonPassingStops) continue;
 
@@ -151,7 +151,7 @@ function extendChuoHachiojiTakao() {
         takaoStop.isPassing = true;
       }
 
-      linkThroughTrips(trip, 'chuo', cm, 'chuo_main', {
+      linkThroughTrips(trip, 'jr_chuo', cm, 'jr_chuo_main', {
         customOrigin: trip.customOrigin || (trip.originStationId === tokyoStationId ? '東京' : '新宿'),
         customDestination: cm.customDestination || '松本',
       });
@@ -176,7 +176,7 @@ function extendChuoHachiojiTakao() {
         takaoStop.isPassing = true;
       }
 
-      linkThroughTrips(cm, 'chuo_main', trip, 'chuo', {
+      linkThroughTrips(cm, 'jr_chuo_main', trip, 'jr_chuo', {
         customOrigin: cm.customOrigin || '松本',
         customDestination: trip.customDestination || (trip.destinationStationId === tokyoStationId ? '東京' : '新宿'),
       });
@@ -186,7 +186,7 @@ function extendChuoHachiojiTakao() {
 
   safeWriteJson(chuoPath, chuoTrips);
   safeWriteJson(chuoMainPath, chuoMainTrips);
-  console.log(`  ✓ chuo ↔ chuo_main 特急相互直通リンク完了: 下り ${linkedOutbound} 便, 上り ${linkedInbound} 便\n`);
+  console.log(`  ✓ jr_chuo ↔ jr_chuo_main 特急相互直通リンク完了: 下り ${linkedOutbound} 便, 上り ${linkedInbound} 便\n`);
 }
 
 module.exports = { extendChuoHachiojiTakao };

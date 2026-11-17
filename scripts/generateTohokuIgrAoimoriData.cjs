@@ -282,14 +282,14 @@ const MAJOR_STATIONS = new Set([
 ]);
 
 const TRANSFERS_BY_LINE_AND_STATION = {
-  tohoku_kuroiso_fukushima: {
+  jr_tohoku_kuroiso_fukushima: {
     '黒磯': ['JR宇都宮線'],
     '新白河': ['東北新幹線'],
     '安積永盛': ['JR水郡線'],
     '郡山': ['東北新幹線', '山形新幹線', 'JR磐越西線', 'JR磐越東線', 'JR水郡線'],
     '福島': ['JR東北本線（福島～仙台）', 'JR奥羽本線（福島～新庄）', '東北新幹線', '山形新幹線', '阿武隈急行線', '福島交通飯坂線'],
   },
-  tohoku_fukushima_sendai: {
+  jr_tohoku_fukushima_sendai: {
     '福島': ['JR東北本線（黒磯～福島）', 'JR奥羽本線（福島～新庄）', '東北新幹線', '山形新幹線', '阿武隈急行線', '福島交通飯坂線'],
     '槻木': ['阿武隈急行線'],
     '岩沼': ['JR常磐線（いわき～仙台）'],
@@ -300,17 +300,17 @@ const TRANSFERS_BY_LINE_AND_STATION = {
     '長町': ['JR常磐線（いわき～仙台）', '仙台市地下鉄南北線'],
     '仙台': ['JR東北本線（仙台～一ノ関）', 'JR常磐線（いわき～仙台）', 'JR仙山線', 'JR仙石線', 'JR仙石東北ライン', '仙台空港アクセス線', '東北新幹線', '秋田新幹線', '仙台市地下鉄南北線', '仙台市地下鉄東西線'],
   },
-  tohoku_sendai_ichinoseki: {
+  jr_tohoku_sendai_ichinoseki: {
     '仙台': ['JR東北本線（福島～仙台）', 'JR常磐線（いわき～仙台）', 'JR仙山線', 'JR仙石線', 'JR仙石東北ライン', '仙台空港アクセス線', '東北新幹線', '秋田新幹線', '仙台市地下鉄南北線', '仙台市地下鉄東西線'],
     '岩切': ['JR東北本線（利府支線）'],
     '塩釜': ['JR仙石東北ライン'],
     '小牛田': ['JR陸羽東線', 'JR石巻線'],
     '一ノ関': ['JR東北本線（一ノ関～盛岡）', '東北新幹線', 'JR大船渡線'],
   },
-  tohoku_rifu: {
+  jr_tohoku_rifu: {
     '岩切': ['JR東北本線（仙台～一ノ関）'],
   },
-  tohoku_ichinoseki_morioka: {
+  jr_tohoku_ichinoseki_morioka: {
     '一ノ関': ['JR東北本線（仙台～一ノ関）', '東北新幹線', 'JR大船渡線'],
     '北上': ['東北新幹線', 'JR北上線'],
     '花巻': ['JR釜石線'],
@@ -332,22 +332,22 @@ const TRANSFERS_BY_LINE_AND_STATION = {
 };
 
 function getPrefecture(lineId, name) {
-  if (lineId === 'tohoku_kuroiso_fukushima') {
+  if (lineId === 'jr_tohoku_kuroiso_fukushima') {
     if (['黒磯', '高久', '黒田原', '豊原'].includes(name)) return '栃木県';
     return '福島県';
   }
-  if (lineId === 'tohoku_fukushima_sendai') {
+  if (lineId === 'jr_tohoku_fukushima_sendai') {
     if (['福島', '東福島', '伊達', '桑折', '藤田', '貝田'].includes(name)) return '福島県';
     return '宮城県';
   }
-  if (lineId === 'tohoku_sendai_ichinoseki') {
+  if (lineId === 'jr_tohoku_sendai_ichinoseki') {
     if (['油島', '花泉', '清水原', '有壁', '一ノ関'].includes(name)) {
       return name === '有壁' ? '宮城県' : '岩手県';
     }
     return '宮城県';
   }
-  if (lineId === 'tohoku_rifu') return '宮城県';
-  if (lineId === 'tohoku_ichinoseki_morioka') return '岩手県';
+  if (lineId === 'jr_tohoku_rifu') return '宮城県';
+  if (lineId === 'jr_tohoku_ichinoseki_morioka') return '岩手県';
   if (lineId === 'igr_iwate_ginga') return name === '目時' ? '青森県' : '岩手県';
   if (lineId === 'aoimori') return '青森県';
   return '';
@@ -355,7 +355,7 @@ function getPrefecture(lineId, name) {
 
 const LINE_SPECS = [
   {
-    lineId: 'tohoku_kuroiso_fukushima',
+    lineId: 'jr_tohoku_kuroiso_fukushima',
     exportPrefix: 'TOHOKU_KUROISO_FUKUSHIMA',
     exportLineVar: 'tohokuKuroisoFukushimaLine',
     name: 'JR東北本線（黒磯～福島）',
@@ -381,7 +381,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'tohoku_fukushima_sendai',
+    lineId: 'jr_tohoku_fukushima_sendai',
     exportPrefix: 'TOHOKU_FUKUSHIMA_SENDAI',
     exportLineVar: 'tohokuFukushimaSendaiLine',
     name: 'JR東北本線（福島～仙台）',
@@ -406,7 +406,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'tohoku_sendai_ichinoseki',
+    lineId: 'jr_tohoku_sendai_ichinoseki',
     exportPrefix: 'TOHOKU_SENDAI_ICHINOSEKI',
     exportLineVar: 'tohokuSendaiIchinosekiLine',
     name: 'JR東北本線（仙台～一ノ関）',
@@ -432,7 +432,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'tohoku_rifu',
+    lineId: 'jr_tohoku_rifu',
     exportPrefix: 'TOHOKU_RIFU',
     exportLineVar: 'tohokuRifuLine',
     name: 'JR東北本線（利府支線）',
@@ -454,7 +454,7 @@ const LINE_SPECS = [
     stationNames: ['岩切', '新利府', '利府'],
   },
   {
-    lineId: 'tohoku_ichinoseki_morioka',
+    lineId: 'jr_tohoku_ichinoseki_morioka',
     exportPrefix: 'TOHOKU_ICHINOSEKI_MORIOKA',
     exportLineVar: 'tohokuIchinosekiMoriokaLine',
     name: 'JR東北本線（一ノ関～盛岡）',
@@ -780,7 +780,7 @@ for (const spec of LINE_SPECS) {
   const segments = [];
 
   let gDown, gUp, nodesMap, waySetD, waySetU, waysMap;
-  if (spec.lineId === 'tohoku_rifu') {
+  if (spec.lineId === 'jr_tohoku_rifu') {
     gDown = rifuGDown;
     gUp = rifuGUp;
     nodesMap = rifuNodes;
@@ -828,7 +828,7 @@ for (const spec of LINE_SPECS) {
         inbound: '上りホーム',
         outbound: '下りホーム',
       },
-      stoppingTypes: ['regular', 'local', 'rapid', 'special_rapid', 'limitedExp'],
+      stoppingTypes: ['regular', 'local', 'rapid', 'special_rapid', 'limited_exp'],
       isMajor: MAJOR_STATIONS.has(nm),
       facilities: {
         elevator: MAJOR_STATIONS.has(nm),
@@ -1005,8 +1005,8 @@ export const ${spec.exportPrefix}_TRAIN_TYPES: Record<string, TrainTypeConfig> =
     bgColor: '${specialRapidColor}',
     borderColor: '${specialRapidColor}',
   }`},
-  limitedExp: ${isJR ? 'LIMITED_EXP_PRESETS.STANDARD' : `{
-    key: 'limitedExp',
+  limited_exp: ${isJR ? 'LIMITED_EXP_PRESETS.STANDARD' : `{
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

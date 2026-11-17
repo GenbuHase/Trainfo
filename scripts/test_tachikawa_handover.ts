@@ -65,7 +65,7 @@ for (const timeStr of downTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo', 'ome'],
+    selectedLineIds: ['jr_chuo', 'jr_ome'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedDownId, lastSelectedDown);
@@ -114,7 +114,7 @@ for (const timeStr of upTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo', 'ome'],
+    selectedLineIds: ['jr_chuo', 'jr_ome'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedUpId, lastSelectedUp);
@@ -148,12 +148,12 @@ console.log('--- テスト3: 中央線のみ選択状態で下り列車追尾 ->
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['chuo'],
+    selectedLineIds: ['jr_chuo'],
   });
 
   const train = activeTrains.find((t) => t.tripId === chuoDownTripId);
-  if (train && train.throughLineId === 'ome') {
-    console.log(`✅ テスト3合格: 直通先路線ID 'ome' が正しく認識されています (throughTripId=${train.throughTripId})!\n`);
+  if (train && train.throughLineId === 'jr_ome') {
+    console.log(`✅ テスト3合格: 直通先路線ID 'jr_ome' が正しく認識されています (throughTripId=${train.throughTripId})!\n`);
   } else {
     console.error('❌ テスト3失敗: throughLineId の認識に失敗しました。');
     process.exit(1);

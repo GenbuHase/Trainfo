@@ -21,8 +21,8 @@ export const IZUHAKONE_SUNZU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#ff6600",
     "borderColor": "#ff6600"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

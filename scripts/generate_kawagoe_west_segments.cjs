@@ -19,7 +19,7 @@ rel.members.filter(m => m.type === 'way').forEach((m, i) => {
 });
 
 // stations.ts のロード
-const stationsFile = fs.readFileSync('src/data/lines/kawagoe/stations.ts', 'utf8');
+const stationsFile = fs.readFileSync('src/data/lines/jr_kawagoe/stations.ts', 'utf8');
 const match = stationsFile.match(/export const KAWAGOE_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
 const stations = eval(match[1]);
 const stMap = new Map(stations.map(s => [s.id, s]));
@@ -60,7 +60,7 @@ const newSegments = sections.map(sec => {
 });
 
 // 既存のセグメントを読み込み
-const trackFile = fs.readFileSync('src/data/lines/kawagoe/trackGeometry.ts', 'utf8');
+const trackFile = fs.readFileSync('src/data/lines/jr_kawagoe/trackGeometry.ts', 'utf8');
 const trackMatch = trackFile.match(/export const KAWAGOE_TRACK_SEGMENTS: TrackSegment\[] =\s*(\[[\s\S]*?\]);\s*$/m);
 const existingSegments = eval(trackMatch[1]);
 
@@ -84,5 +84,5 @@ const outputTs = `import type { TrackSegment } from '../../../types';
 export const KAWAGOE_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(allSegments, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/kawagoe/trackGeometry.ts', outputTs, 'utf8');
-console.log('Updated src/data/lines/kawagoe/trackGeometry.ts successfully!');
+fs.writeFileSync('src/data/lines/jr_kawagoe/trackGeometry.ts', outputTs, 'utf8');
+console.log('Updated src/data/lines/jr_kawagoe/trackGeometry.ts successfully!');

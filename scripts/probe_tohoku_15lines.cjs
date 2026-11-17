@@ -8,20 +8,20 @@ const client = new YahooClient({ cacheDir: CACHE_DIR, delayMs: 180 });
 
 // 路線ごとの起点・中間代表駅プローブ（{ gid, ysid, name }）
 const TARGET_PROBES = [
-  { key: 'senzan', label: 'JR仙山線', probes: [{ ysid: '21044', gid: '561', note: '仙台->愛子・山形' }, { ysid: '21298', gid: '560', note: '羽前千歳->仙台' }, { ysid: '21392', gid: '560', note: '山形->仙台' }] },
+  { key: 'jr_senzan', label: 'JR仙山線', probes: [{ ysid: '21044', gid: '561', note: '仙台->愛子・山形' }, { ysid: '21298', gid: '560', note: '羽前千歳->仙台' }, { ysid: '21392', gid: '560', note: '山形->仙台' }] },
   { key: 'sendai_airport', label: '仙台空港アクセス線', probes: [{ ysid: '21066', gid: '7041', note: '名取->仙台空港' }, { ysid: '21044', gid: '7041', note: '仙台->名取・仙台空港' }] },
-  { key: 'kitakami', label: 'JR北上線', probes: [{ ysid: '20844', gid: '461', note: '北上->横手' }, { ysid: '21269', gid: '460', note: '横手->北上' }] },
-  { key: 'ofunato', label: 'JR大船渡線', probes: [{ ysid: '20806', gid: '471', note: '一ノ関->気仙沼' }, { ysid: '21022', gid: '470', note: '気仙沼->一ノ関' }] },
-  { key: 'ofunato_brt', label: 'JR大船渡線BRT', probes: [{ ysid: '21022', gid: '7751', note: '気仙沼->盛/上鹿折' }, { ysid: '20861', gid: '7750', note: '盛->気仙沼/陸前矢作' }, { ysid: '20955', gid: '7770', note: '陸前高田->陸前矢作' }] },
-  { key: 'kesennuma', label: 'JR気仙沼線(鉄/BRT)', probes: [{ ysid: '21026', gid: '491', note: '小牛田->前谷地・柳津' }, { ysid: '21091', gid: '491', note: '前谷地->柳津・気仙沼' }, { ysid: '21106', gid: '491', note: '柳津->本吉・気仙沼' }, { ysid: '21103', gid: '491', note: '本吉->気仙沼' }, { ysid: '21022', gid: '490', note: '気仙沼->本吉・柳津・前谷地' }] },
-  { key: 'kamaishi', label: 'JR釜石線', probes: [{ ysid: '20906', gid: '441', note: '花巻->釜石' }] },
-  { key: 'tazawako', label: 'JR田沢湖線', probes: [{ ysid: '20940', gid: '411', note: '盛岡->大曲' }, { ysid: '21168', gid: '410', note: '大曲->盛岡' }] },
-  { key: 'yamada', label: 'JR山田線', probes: [{ ysid: '20940', gid: '421', note: '盛岡->宮古' }] },
-  { key: 'hachinohe', label: 'JR八戸線', probes: [{ ysid: '20750', gid: '331', note: '八戸->久慈' }] },
-  { key: 'ominato', label: 'JR大湊線', probes: [{ ysid: '20747', gid: '311', note: '野辺地->大湊' }] },
-  { key: 'tsugaru', label: 'JR津軽線', probes: [{ ysid: '20619', gid: '301', note: '青森->蟹田' }, { ysid: '20658', gid: '301', note: '蟹田->三厩' }, { ysid: '20633', gid: '301', note: '今別->三厩' }] },
-  { key: 'gono', label: 'JR五能線', probes: [{ ysid: '21244', gid: '291', note: '東能代->川部' }, { ysid: '20665', gid: '290', note: '川部->東能代' }] },
-  { key: 'oga', label: 'JR男鹿線', probes: [{ ysid: '21161', gid: '361', note: '追分->男鹿' }, { ysid: '21137', gid: '361', note: '秋田->男鹿' }] },
+  { key: 'jr_kitakami', label: 'JR北上線', probes: [{ ysid: '20844', gid: '461', note: '北上->横手' }, { ysid: '21269', gid: '460', note: '横手->北上' }] },
+  { key: 'jr_ofunato', label: 'JR大船渡線', probes: [{ ysid: '20806', gid: '471', note: '一ノ関->気仙沼' }, { ysid: '21022', gid: '470', note: '気仙沼->一ノ関' }] },
+  { key: 'jr_ofunato_brt', label: 'JR大船渡線BRT', probes: [{ ysid: '21022', gid: '7751', note: '気仙沼->盛/上鹿折' }, { ysid: '20861', gid: '7750', note: '盛->気仙沼/陸前矢作' }, { ysid: '20955', gid: '7770', note: '陸前高田->陸前矢作' }] },
+  { key: 'jr_kesennuma', label: 'JR気仙沼線(鉄/BRT)', probes: [{ ysid: '21026', gid: '491', note: '小牛田->前谷地・柳津' }, { ysid: '21091', gid: '491', note: '前谷地->柳津・気仙沼' }, { ysid: '21106', gid: '491', note: '柳津->本吉・気仙沼' }, { ysid: '21103', gid: '491', note: '本吉->気仙沼' }, { ysid: '21022', gid: '490', note: '気仙沼->本吉・柳津・前谷地' }] },
+  { key: 'jr_kamaishi', label: 'JR釜石線', probes: [{ ysid: '20906', gid: '441', note: '花巻->釜石' }] },
+  { key: 'jr_tazawako', label: 'JR田沢湖線', probes: [{ ysid: '20940', gid: '411', note: '盛岡->大曲' }, { ysid: '21168', gid: '410', note: '大曲->盛岡' }] },
+  { key: 'jr_yamada', label: 'JR山田線', probes: [{ ysid: '20940', gid: '421', note: '盛岡->宮古' }] },
+  { key: 'jr_hachinohe', label: 'JR八戸線', probes: [{ ysid: '20750', gid: '331', note: '八戸->久慈' }] },
+  { key: 'jr_ominato', label: 'JR大湊線', probes: [{ ysid: '20747', gid: '311', note: '野辺地->大湊' }] },
+  { key: 'jr_tsugaru', label: 'JR津軽線', probes: [{ ysid: '20619', gid: '301', note: '青森->蟹田' }, { ysid: '20658', gid: '301', note: '蟹田->三厩' }, { ysid: '20633', gid: '301', note: '今別->三厩' }] },
+  { key: 'jr_gono', label: 'JR五能線', probes: [{ ysid: '21244', gid: '291', note: '東能代->川部' }, { ysid: '20665', gid: '290', note: '川部->東能代' }] },
+  { key: 'jr_oga', label: 'JR男鹿線', probes: [{ ysid: '21161', gid: '361', note: '追分->男鹿' }, { ysid: '21137', gid: '361', note: '秋田->男鹿' }] },
 ];
 
 // 既設側チェック用ハブ駅一覧

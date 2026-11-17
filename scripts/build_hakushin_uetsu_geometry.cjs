@@ -439,7 +439,7 @@ function sliceIdxDegenerate(sliceCoords) {
 
 const CONFIGS = [
   {
-    lineId: 'hakushin',
+    lineId: 'jr_hakushin',
     cachePath: path.resolve('scripts/cache/osm_hakushin_raw.json'),
     // 羽越本線キャッシュ（新発田駅〜中条区間の軌道ウェイ）をマージして新発田側の欠落を補完
     extraCachePaths: [path.resolve('scripts/cache/osm_uetsu_main_raw.json')],
@@ -470,7 +470,7 @@ const CONFIGS = [
  */`,
   },
   {
-    lineId: 'uetsu_main',
+    lineId: 'jr_uetsu_main',
     cachePath: path.resolve('scripts/cache/osm_uetsu_main_raw.json'),
     stationCoordsPath: path.resolve('scripts/cache/station_coords_uetsu_main.json'),
     bridgeThreshold: 500,

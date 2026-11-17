@@ -2,10 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const lines = [
-  'ou_fukushima_shinjo',
-  'ou_shinjo_omagari',
-  'ou_omagari_akita',
-  'ou_akita_aomori',
+  'jr_ou_fukushima_shinjo',
+  'jr_ou_shinjo_omagari',
+  'jr_ou_omagari_akita',
+  'jr_ou_akita_aomori',
 ];
 
 function load(lineId) {
@@ -41,7 +41,7 @@ for (const lineId of lines) {
   if (samples.length) console.log('  named', samples.join(' | '));
 }
 
-const north = load('ou_akita_aomori');
+const north = load('jr_ou_akita_aomori');
 const named = new Map();
 for (const t of north.trips) {
   if (!t.trainName) continue;
@@ -55,15 +55,15 @@ for (const [k, list] of named) {
   console.log(`  ${k}: ${segs}`);
 }
 
-const yama = JSON.parse(fs.readFileSync('src/data/lines/yamagata_shinkansen/globalTimetable.json', 'utf8'));
+const yama = JSON.parse(fs.readFileSync('src/data/lines/jr_yamagata_shinkansen/globalTimetable.json', 'utf8'));
 const yNums = new Set(yama.map(t => t.trainNumber));
-const ou1 = load('ou_fukushima_shinjo').trips;
+const ou1 = load('jr_ou_fukushima_shinjo').trips;
 const overlap = ou1.filter(t => yNums.has(t.trainNumber));
 console.log(`\ntrainNumber overlap with yamagata shinkansen: ${overlap.length}`);
 if (overlap.length) console.log(overlap.slice(0, 5).map(t => t.trainNumber).join(', '));
 
-const akita = JSON.parse(fs.readFileSync('src/data/lines/akita_shinkansen/globalTimetable.json', 'utf8'));
+const akita = JSON.parse(fs.readFileSync('src/data/lines/jr_akita_shinkansen/globalTimetable.json', 'utf8'));
 const aNums = new Set(akita.map(t => t.trainNumber));
-const ou3 = load('ou_omagari_akita').trips;
+const ou3 = load('jr_ou_omagari_akita').trips;
 const overlapA = ou3.filter(t => aNums.has(t.trainNumber));
 console.log(`trainNumber overlap with akita shinkansen: ${overlapA.length}`);

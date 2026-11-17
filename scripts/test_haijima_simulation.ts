@@ -60,7 +60,7 @@ for (const timeStr of testTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['kawagoe', 'hachiko'],
+    selectedLineIds: ['jr_kawagoe', 'jr_hachiko'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);

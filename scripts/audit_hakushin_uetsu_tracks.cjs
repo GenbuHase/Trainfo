@@ -50,15 +50,15 @@ function auditInvocationOf(data) {
 }
 
 const persisted = {
-  hakushin: auditInvocationOf(loadExports(path.resolve('src/data/lines/hakushin/stations.ts'))),
-  uetsu_main: auditInvocationOf(loadExports(path.resolve('src/data/lines/uetsu_main/stations.ts'))),
+  jr_hakushin: auditInvocationOf(loadExports(path.resolve('src/data/lines/jr_hakushin/stations.ts'))),
+  jr_uetsu_main: auditInvocationOf(loadExports(path.resolve('src/data/lines/jr_uetsu_main/stations.ts'))),
 };
 const persistT = {
-  hakushin: Object.values(loadExports(path.resolve('src/data/lines/hakushin/trackGeometry.ts'))).find(v => Array.isArray(v)),
-  uetsu_main: Object.values(loadExports(path.resolve('src/data/lines/uetsu_main/trackGeometry.ts'))).find(v => Array.isArray(v)),
+  jr_hakushin: Object.values(loadExports(path.resolve('src/data/lines/jr_hakushin/trackGeometry.ts'))).find(v => Array.isArray(v)),
+  jr_uetsu_main: Object.values(loadExports(path.resolve('src/data/lines/jr_uetsu_main/trackGeometry.ts'))).find(v => Array.isArray(v)),
 };
-const f1 = audit('hakushin', 'JR白新線', persisted.hakushin, persistT.hakushin);
-const f2 = audit('uetsu_main', 'JR羽越本線', persisted.uetsu_main, persistT.uetsu_main);
+const f1 = audit('jr_hakushin', 'JR白新線', persisted.hakushin, persistT.hakushin);
+const f2 = audit('jr_uetsu_main', 'JR羽越本線', persisted.uetsu_main, persistT.uetsu_main);
 
 function audit(lineId, name, stations, segments) {
   console.log(`\n================ ${name} (${lineId}) 監査 ================`);
@@ -140,17 +140,17 @@ function audit(lineId, name, stations, segments) {
 // 6. 境界同名駅座標整合
 console.log('\n================ 境界同名駅座標整合 ================');
 const boundaryPairs = [
-  ['新潟', 'hakushin', 'shinetsu_naoetsu_niigata'],
-  ['新津', 'uetsu_main', 'banetsu_west'],
-  ['新発田', 'uetsu_main', 'hakushin'],
-  ['秋田', 'uetsu_main', 'akita_shinkansen'],
+  ['新潟', 'jr_hakushin', 'jr_shinetsu_naoetsu_niigata'],
+  ['新津', 'jr_uetsu_main', 'jr_banetsu_west'],
+  ['新発田', 'jr_uetsu_main', 'jr_hakushin'],
+  ['秋田', 'jr_uetsu_main', 'jr_akita_shinkansen'],
 ];
 const lineData = {
-  hakushin: loadExports(path.resolve('src/data/lines/hakushin/stations.ts')),
-  uetsu_main: loadExports(path.resolve('src/data/lines/uetsu_main/stations.ts')),
-  shinetsu_naoetsu_niigata: loadExports(path.resolve('src/data/lines/shinetsu_naoetsu_niigata/stations.ts')),
-  banetsu_west: loadExports(path.resolve('src/data/lines/banetsu_west/stations.ts')),
-  akita_shinkansen: loadExports(path.resolve('src/data/lines/akita_shinkansen/stations.ts')),
+  jr_hakushin: loadExports(path.resolve('src/data/lines/jr_hakushin/stations.ts')),
+  jr_uetsu_main: loadExports(path.resolve('src/data/lines/jr_uetsu_main/stations.ts')),
+  jr_shinetsu_naoetsu_niigata: loadExports(path.resolve('src/data/lines/jr_shinetsu_naoetsu_niigata/stations.ts')),
+  jr_banetsu_west: loadExports(path.resolve('src/data/lines/jr_banetsu_west/stations.ts')),
+  jr_akita_shinkansen: loadExports(path.resolve('src/data/lines/jr_akita_shinkansen/stations.ts')),
 };
 for (const [name, a, b] of boundaryPairs) {
   const fa = Object.values(lineData[a]).find(v => Array.isArray(v));

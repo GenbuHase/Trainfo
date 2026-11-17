@@ -83,26 +83,26 @@ function resolveSelectedTrain(
 
 console.log('=== 特急あずさ ハンドオーバー & 始発駅表示保持テスト ===\n');
 
-await loadLinesTimetables(['oito_east', 'shinonoi', 'chuo_main', 'chuo']);
+await loadLinesTimetables(['jr_oito_east', 'jr_shinonoi', 'jr_chuo_main', 'jr_chuo']);
 
 // ----------------------------------------------------------------------
 // テスト1: 白馬発あずさ38号（平日: 42025 / 休日: 42026）全区間追尾
 // 白馬 13:43 -> 松本 14:47着/14:50発 -> 塩尻 14:58通過 -> 上諏訪 15:11着/15:12発 -> 新宿 17:26着
 // ----------------------------------------------------------------------
 const azusa38Points = [
-  { time: '13:44:00', desc: '白馬発車直後 (oito_east)', expectedLine: 'oito_east', expectedOrigin: '白馬' },
-  { time: '14:10:00', desc: '信濃大町発車 (oito_east)', expectedLine: 'oito_east', expectedOrigin: '白馬' },
-  { time: '14:48:00', desc: '松本駅停車中 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: '白馬' },
-  { time: '14:51:00', desc: '松本発車直後・篠ノ井線走行 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: '白馬' },
-  { time: '14:55:00', desc: '村井〜広丘走行中 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: '白馬' },
-  { time: '14:59:00', desc: '塩尻通過直後・中央本線進入 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '白馬' },
-  { time: '15:05:00', desc: '岡谷通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '白馬' },
-  { time: '15:11:30', desc: '上諏訪停車中 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '白馬' },
-  { time: '15:53:30', desc: '甲府停車中 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '白馬' },
-  { time: '16:44:00', desc: '相模湖〜高尾走行中 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '白馬' },
-  { time: '16:47:00', desc: '高尾通過後・中央快速線進入 (chuo)', expectedLine: 'chuo', expectedOrigin: '白馬' },
-  { time: '16:50:00', desc: '八王子停車中 (chuo)', expectedLine: 'chuo', expectedOrigin: '白馬' },
-  { time: '17:15:00', desc: '三鷹〜中野走行中 (chuo)', expectedLine: 'chuo', expectedOrigin: '白馬' },
+  { time: '13:44:00', desc: '白馬発車直後 (oito_east)', expectedLine: 'jr_oito_east', expectedOrigin: '白馬' },
+  { time: '14:10:00', desc: '信濃大町発車 (oito_east)', expectedLine: 'jr_oito_east', expectedOrigin: '白馬' },
+  { time: '14:48:00', desc: '松本駅停車中 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: '白馬' },
+  { time: '14:51:00', desc: '松本発車直後・篠ノ井線走行 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: '白馬' },
+  { time: '14:55:00', desc: '村井〜広丘走行中 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: '白馬' },
+  { time: '14:59:00', desc: '塩尻通過直後・中央本線進入 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '白馬' },
+  { time: '15:05:00', desc: '岡谷通過 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '白馬' },
+  { time: '15:11:30', desc: '上諏訪停車中 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '白馬' },
+  { time: '15:53:30', desc: '甲府停車中 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '白馬' },
+  { time: '16:44:00', desc: '相模湖〜高尾走行中 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '白馬' },
+  { time: '16:47:00', desc: '高尾通過後・中央快速線進入 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: '白馬' },
+  { time: '16:50:00', desc: '八王子停車中 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: '白馬' },
+  { time: '17:15:00', desc: '三鷹〜中野走行中 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: '白馬' },
 ];
 
 for (const isHoliday of [false, true]) {
@@ -110,7 +110,7 @@ for (const isHoliday of [false, true]) {
   const initialTripId = isHoliday ? 'HD_INB_OIE-29_1343_42026' : 'WD_INB_OIE-29_1343_42025';
   let trackedId: string | null = initialTripId;
   let lastSelected: ActiveTrain | null = null;
-  const selectedLines = ['oito_east', 'shinonoi', 'chuo_main', 'chuo'];
+  const selectedLines = ['jr_oito_east', 'jr_shinonoi', 'jr_chuo_main', 'jr_chuo'];
 
   for (const pt of azusa38Points) {
     const sec = timeStringToSeconds(pt.time);
@@ -157,14 +157,14 @@ for (const isHoliday of [false, true]) {
 // 松本 06:30 -> 塩尻 06:38 -> 上諏訪 06:53 -> 甲府 07:39 -> 高尾 08:30 -> 東京 09:29
 // ----------------------------------------------------------------------
 const azusa4Points = [
-  { time: '06:31:00', desc: '松本発車直後 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: '松本' },
-  { time: '06:36:00', desc: '塩尻到着手前 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: '松本' },
-  { time: '06:38:30', desc: '塩尻駅停車中/発車直後 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '松本' },
-  { time: '06:42:00', desc: 'みどり湖〜岡谷走行中 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '松本' },
-  { time: '06:54:00', desc: '上諏訪発車 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '松本' },
-  { time: '07:40:00', desc: '甲府発車 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: '松本' },
-  { time: '08:32:00', desc: '高尾通過・中央快速線進入 (chuo)', expectedLine: 'chuo', expectedOrigin: '松本' },
-  { time: '09:00:00', desc: '三鷹〜中野走行中 (chuo)', expectedLine: 'chuo', expectedOrigin: '松本' },
+  { time: '06:31:00', desc: '松本発車直後 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: '松本' },
+  { time: '06:36:00', desc: '塩尻到着手前 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: '松本' },
+  { time: '06:38:30', desc: '塩尻駅停車中/発車直後 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '松本' },
+  { time: '06:42:00', desc: 'みどり湖〜岡谷走行中 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '松本' },
+  { time: '06:54:00', desc: '上諏訪発車 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '松本' },
+  { time: '07:40:00', desc: '甲府発車 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: '松本' },
+  { time: '08:32:00', desc: '高尾通過・中央快速線進入 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: '松本' },
+  { time: '09:00:00', desc: '三鷹〜中野走行中 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: '松本' },
 ];
 
 for (const isHoliday of [false, true]) {
@@ -172,7 +172,7 @@ for (const isHoliday of [false, true]) {
   const initialTripId = isHoliday ? 'HD_INB_SN-06_0630_6920' : 'WD_INB_SN-06_0630_6919';
   let trackedId: string | null = initialTripId;
   let lastSelected: ActiveTrain | null = null;
-  const selectedLines = ['shinonoi', 'chuo_main', 'chuo'];
+  const selectedLines = ['jr_shinonoi', 'jr_chuo_main', 'jr_chuo'];
 
   for (const pt of azusa4Points) {
     const sec = timeStringToSeconds(pt.time);
@@ -224,7 +224,7 @@ const singleTest = calculateActiveTrains({
   randomDelays: {},
   isPlaying: true,
   speedMultiplier: 1,
-  selectedLineIds: ['chuo_main'],
+  selectedLineIds: ['jr_chuo_main'],
 });
 const azusa4InChuoMain = singleTest.find((t) => t.trainId === '6919');
 if (!azusa4InChuoMain) {

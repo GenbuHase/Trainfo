@@ -26,7 +26,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -57,7 +57,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -88,7 +88,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -119,7 +119,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -150,7 +150,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -181,7 +181,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -212,7 +212,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -243,7 +243,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -274,7 +274,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -307,7 +307,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -338,7 +338,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -373,7 +373,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "local",
       "rapid",
       "new_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

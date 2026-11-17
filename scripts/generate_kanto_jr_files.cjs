@@ -16,60 +16,60 @@ const { distMeters } = require('./common/geometryBuilderUtils.cjs');
 
 // 各路線の列車種別マスター定義
 const TRAIN_TYPES_MAP = {
-  yamanote: [
+  jr_yamanote: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#80c241', textColor: '#ffffff', borderColor: '#80c241' },
   ],
-  keiyo: [
+  jr_keiyo: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#cf1225', textColor: '#ffffff', borderColor: '#cf1225' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
     { key: 'commuter_rapid', name: '通勤快速', shortName: '通快', bgColor: '#e05a00', textColor: '#ffffff', borderColor: '#e05a00' },
-    { key: 'limitedExp', name: '特急', shortName: '特急', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
+    { key: 'limited_exp', name: '特急', shortName: '特急', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
   ],
-  sotobo: [
+  jr_sotobo: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#e60012', textColor: '#ffffff', borderColor: '#e60012' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
-    { key: 'limitedExp', name: '特急わかしお', shortName: 'わかしお', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
+    { key: 'limited_exp', name: '特急わかしお', shortName: 'わかしお', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
   ],
-  togane: [
+  jr_togane: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#f39800', textColor: '#ffffff', borderColor: '#f39800' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
   ],
-  sobu_main: [
+  jr_sobu_main: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#ffc20e', textColor: '#000000', borderColor: '#ffc20e' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
-    { key: 'limitedExp', name: '特急しおさい', shortName: 'しおさい', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
+    { key: 'limited_exp', name: '特急しおさい', shortName: 'しおさい', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
   ],
-  narita: [
+  jr_narita: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#00b261', textColor: '#ffffff', borderColor: '#00b261' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
-    { key: 'limitedExp', name: '特急成田エクスプレス', shortName: 'N\'EX', bgColor: '#e60012', textColor: '#ffffff', borderColor: '#e60012' },
+    { key: 'limited_exp', name: '特急成田エクスプレス', shortName: 'N\'EX', bgColor: '#e60012', textColor: '#ffffff', borderColor: '#e60012' },
   ],
-  kururi: [
+  jr_kururi: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#00958a', textColor: '#ffffff', borderColor: '#00958a' },
   ],
-  chuo_sobu_local: [
+  jr_chuo_sobu_local: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#ffd400', textColor: '#000000', borderColor: '#ffd400' },
   ],
-  keihin_tohoku_negishi: [
+  jr_keihin_tohoku_negishi: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#00b2e5', textColor: '#ffffff', borderColor: '#00b2e5' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
   ],
-  yokohama: [
+  jr_yokohama: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#80c241', textColor: '#ffffff', borderColor: '#80c241' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#f39800', textColor: '#ffffff', borderColor: '#f39800' },
   ],
-  nambu: [
+  jr_nambu: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#ffd400', textColor: '#000000', borderColor: '#ffd400' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#f39800', textColor: '#ffffff', borderColor: '#f39800' },
   ],
-  tsurumi: [
+  jr_tsurumi: [
     { key: 'local', name: '各駅停車', shortName: '各停', bgColor: '#ffd400', textColor: '#000000', borderColor: '#ffd400' },
   ],
-  uchibo: [
+  jr_uchibo: [
     { key: 'local', name: '普通', shortName: '普通', bgColor: '#0074be', textColor: '#ffffff', borderColor: '#0074be' },
     { key: 'rapid', name: '快速', shortName: '快速', bgColor: '#007ac1', textColor: '#ffffff', borderColor: '#007ac1' },
     { key: 'commuter_rapid', name: '通勤快速', shortName: '通快', bgColor: '#e05a00', textColor: '#ffffff', borderColor: '#e05a00' },
-    { key: 'limitedExp', name: '特急さざなみ', shortName: 'さざなみ', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
+    { key: 'limited_exp', name: '特急さざなみ', shortName: 'さざなみ', bgColor: '#c9252d', textColor: '#ffffff', borderColor: '#c9252d' },
   ],
 };
 
@@ -99,28 +99,28 @@ function processLine(lineDef) {
 
     // 境界確定駅が定義されている場合は最優先で採用
     let fixedCoord = FIXED_BOUNDARY_STATIONS[st.name];
-    if (st.name === '東京' && lineDef.lineId === 'keiyo') {
+    if (st.name === '東京' && lineDef.lineId === 'jr_keiyo') {
       fixedCoord = [35.677755, 139.764631]; // 京葉線地下ホーム (武蔵野線設定準拠・違和感のない位置)
     }
-    if (st.name === '大宮' && lineDef.lineId === 'keihin_tohoku_negishi') {
+    if (st.name === '大宮' && lineDef.lineId === 'jr_keihin_tohoku_negishi') {
       fixedCoord = [35.90505, 139.62491]; // 京浜東北線東側ホーム (西側別線誤スナップ・赤羽32km大迂回防止)
     }
-    if (st.name === '上野' && (lineDef.lineId === 'yamanote' || lineDef.lineId === 'keihin_tohoku_negishi')) {
+    if (st.name === '上野' && (lineDef.lineId === 'jr_yamanote' || lineDef.lineId === 'jr_keihin_tohoku_negishi')) {
       fixedCoord = [35.7137, 139.7761]; // 山手線・京浜東北線高架ホーム (日暮里迂回Uターン防止)
     }
-    if (st.name === '新宿' && lineDef.lineId === 'chuo_sobu_local') {
+    if (st.name === '新宿' && lineDef.lineId === 'jr_chuo_sobu_local') {
       fixedCoord = [35.68931, 139.70055]; // 中央・総武緩行線ホーム (西側本線上の新宿駅)
     }
-    if (st.name === '中野' && lineDef.lineId === 'chuo_sobu_local') {
+    if (st.name === '中野' && lineDef.lineId === 'jr_chuo_sobu_local') {
       fixedCoord = [35.70598, 139.66686]; // 中央・総武緩行線本線ホーム (側線迂回・クランクジグザグ解消)
     }
-    if (st.name === '代々木' && lineDef.lineId === 'chuo_sobu_local') {
+    if (st.name === '代々木' && lineDef.lineId === 'jr_chuo_sobu_local') {
       fixedCoord = [35.68387, 139.70243]; // 中央・総武緩行線本線ホーム中心 (Uターン・急屈曲解消)
     }
-    if (st.name === '新宿' && lineDef.lineId === 'yamanote') {
+    if (st.name === '新宿' && lineDef.lineId === 'jr_yamanote') {
       fixedCoord = [35.68926, 139.70024]; // 山手線ホーム (西側本線上の新宿駅、構内逆走Uターン防止)
     }
-    if (st.name === '代々木' && lineDef.lineId === 'yamanote') {
+    if (st.name === '代々木' && lineDef.lineId === 'jr_yamanote') {
       fixedCoord = [35.6845, 139.70203]; // 山手線ホーム北端
     }
 
@@ -180,14 +180,14 @@ function processLine(lineDef) {
   // 4. セグメント生成
   // セグメント接続ペアの定義
   const segmentPairs = [];
-  if (lineDef.lineId === 'yamanote') {
+  if (lineDef.lineId === 'jr_yamanote') {
     // 環状線: 1->2, 2->3, ..., 29->30, 30->1
     for (let i = 0; i < stations.length; i++) {
       const fromSt = stations[i];
       const toSt = stations[(i + 1) % stations.length];
       segmentPairs.push([fromSt.id, toSt.id]);
     }
-  } else if (lineDef.lineId === 'narita') {
+  } else if (lineDef.lineId === 'jr_narita') {
     // 本線: 佐倉 (NR-01) -> 銚子 (NR-17)
     for (let i = 0; i < 16; i++) {
       segmentPairs.push([stations[i].id, stations[i + 1].id]);
@@ -205,7 +205,7 @@ function processLine(lineDef) {
     segmentPairs.push(['NR-26', 'NR-27']);
     segmentPairs.push(['NR-27', 'NR-28']);
     segmentPairs.push(['NR-28', 'NR-03']);
-  } else if (lineDef.lineId === 'nambu') {
+  } else if (lineDef.lineId === 'jr_nambu') {
     // 本線: 川崎 (JN-01) -> 立川 (JN-26)
     for (let i = 0; i < 25; i++) {
       segmentPairs.push([stations[i].id, stations[i + 1].id]);
@@ -215,7 +215,7 @@ function processLine(lineDef) {
     segmentPairs.push(['JN-51', 'JN-52']);
     segmentPairs.push(['JN-52', 'JN-53']);
     segmentPairs.push(['JN-53', 'JN-54']);
-  } else if (lineDef.lineId === 'tsurumi') {
+  } else if (lineDef.lineId === 'jr_tsurumi') {
     // 本線: 鶴見 (JI-01) -> 扇町 (JI-10)
     for (let i = 0; i < 9; i++) {
       segmentPairs.push([stations[i].id, stations[i + 1].id]);
@@ -328,7 +328,7 @@ function processLine(lineDef) {
     regular: 'Local',
     rapid: 'Rapid',
     commuter_rapid: 'Commuter Rapid',
-    limitedExp: 'Limited Express'
+    limited_exp: 'Limited Express'
   };
   for (const t of rawTrainTypes) {
     trainTypesRecord[t.key] = {

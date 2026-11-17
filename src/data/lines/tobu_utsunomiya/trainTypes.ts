@@ -4,5 +4,5 @@ import { TOBU_PRESETS } from '../../trainTypePresets';
 
 export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: TOBU_PRESETS.LOCAL,
-  limitedExp: TOBU_PRESETS.LIMITED_EXP,
+  limited_exp: TOBU_PRESETS.LIMITED_EXP,
 };

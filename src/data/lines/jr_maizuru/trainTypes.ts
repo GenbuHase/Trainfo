@@ -11,11 +11,11 @@ export const JR_MAIZURU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#008080",
     "borderColor": "#008080"
   },
-  "limitedExp": {
+  "limited_exp": {
     "name": "特急",
     "shortName": "特急",
     "color": "#e60012",
-    "key": "limitedExp",
+    "key": "limited_exp",
     "nameEn": "Limited Express",
     "textColor": "#ffffff",
     "bgColor": "#e60012",

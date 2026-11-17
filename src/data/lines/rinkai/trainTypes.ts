@@ -25,8 +25,8 @@ export const RINKAI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#38bdf8',
   },
   // 通勤快速 (埼京線直通): #e60012
-  commuter: {
-    key: 'commuter',
+  commuter_rapid: {
+    key: 'commuter_rapid',
     name: '通勤快速',
     nameEn: 'Commuter Rapid',
     shortName: '通快',

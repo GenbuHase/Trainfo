@@ -309,5 +309,5 @@ const trackTsContent = `import type { TrackSegment } from '../../../types';
 export const MUSASHINO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(results, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/musashino/trackGeometry.ts', trackTsContent, 'utf8');
-console.log('Saved to src/data/lines/musashino/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_musashino/trackGeometry.ts', trackTsContent, 'utf8');
+console.log('Saved to src/data/lines/jr_musashino/trackGeometry.ts');

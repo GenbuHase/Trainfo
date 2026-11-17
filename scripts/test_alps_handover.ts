@@ -60,30 +60,30 @@ function resolveSelectedTrain(
 
 console.log('=== 特急アルプス（42781便）全線ハンドオーバー & 始発駅保持テスト ===\n');
 
-await loadLinesTimetables(['chuo', 'chuo_main', 'shinonoi', 'oito_east']);
+await loadLinesTimetables(['jr_chuo', 'jr_chuo_main', 'jr_shinonoi', 'jr_oito_east']);
 
 const testPoints = [
-  { time: '23:58:30', desc: '新宿発車直後 (chuo)', expectedLine: 'chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
-  { time: '00:35:00', desc: '立川発車 (chuo)', expectedLine: 'chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
-  { time: '00:46:00', desc: '八王子発車 (chuo)', expectedLine: 'chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
-  { time: '00:53:00', desc: '高尾通過・中央本線進入 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
-  { time: '01:36:00', desc: '大月通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
-  { time: '02:41:00', desc: '甲府通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
-  { time: '03:30:00', desc: '小淵沢通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
-  { time: '04:31:00', desc: '塩尻通過・篠ノ井線進入 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
-  { time: '04:45:30', desc: '松本到着直前 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
-  // 境界駅停車中は後続トリップ（発車側路線）を優先描画する仕様のため oito_east を期待する
-  { time: '04:47:00', desc: '松本駅停車中 (oito_eastへ引継済)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
-  { time: '04:50:00', desc: '松本駅発車直後 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
-  { time: '05:23:30', desc: '信濃大町停車中 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
-  { time: '05:48:00', desc: '白馬駅接近 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
+  { time: '23:58:30', desc: '新宿発車直後 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
+  { time: '00:35:00', desc: '立川発車 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
+  { time: '00:46:00', desc: '八王子発車 (chuo)', expectedLine: 'jr_chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
+  { time: '00:53:00', desc: '高尾通過・中央本線進入 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
+  { time: '01:36:00', desc: '大月通過 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
+  { time: '02:41:00', desc: '甲府通過 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
+  { time: '03:30:00', desc: '小淵沢通過 (chuo_main)', expectedLine: 'jr_chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
+  { time: '04:31:00', desc: '塩尻通過・篠ノ井線進入 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
+  { time: '04:45:30', desc: '松本到着直前 (shinonoi)', expectedLine: 'jr_shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
+  // 境界駅停車中は後続トリップ（発車側路線）を優先描画する仕様のため jr_oito_east を期待する
+  { time: '04:47:00', desc: '松本駅停車中 (oito_eastへ引継済)', expectedLine: 'jr_oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
+  { time: '04:50:00', desc: '松本駅発車直後 (oito_east)', expectedLine: 'jr_oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
+  { time: '05:23:30', desc: '信濃大町停車中 (oito_east)', expectedLine: 'jr_oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
+  { time: '05:48:00', desc: '白馬駅接近 (oito_east)', expectedLine: 'jr_oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
 ];
 
 for (const isHoliday of [false, true]) {
   console.log(`\n================== 【${isHoliday ? '休日ダイヤ' : '平日ダイヤ'}】 ==================`);
   let trackedId: string | null = isHoliday ? 'HD_OUT_JC-05_2358_42781' : 'WD_OUT_JC-05_2358_42781';
   let lastSelected: ActiveTrain | null = null;
-  const selectedLines = ['chuo', 'chuo_main', 'shinonoi', 'oito_east'];
+  const selectedLines = ['jr_chuo', 'jr_chuo_main', 'jr_shinonoi', 'jr_oito_east'];
 
   for (const pt of testPoints) {
     const sec = timeStringToSeconds(pt.time);

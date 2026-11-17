@@ -25,7 +25,7 @@ export const AIZU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp",
+      "limited_exp",
       "aizu_ozatoro"
     ],
     "isMajor": true,
@@ -173,7 +173,7 @@ export const AIZU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limitedExp",
+      "limited_exp",
       "aizu_ozatoro"
     ],
     "isMajor": true,

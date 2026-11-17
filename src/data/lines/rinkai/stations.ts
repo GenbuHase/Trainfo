@@ -27,7 +27,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -57,7 +57,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -89,7 +89,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -121,7 +121,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -153,7 +153,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -183,7 +183,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -216,7 +216,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -251,7 +251,7 @@ export const RINKAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {

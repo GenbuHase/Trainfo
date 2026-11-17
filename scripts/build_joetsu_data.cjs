@@ -56,26 +56,26 @@ async function main() {
 
   // 駅名定義 (全35駅)
   const stationDefs = [
-    { id: 'JOE-01', name: '高崎', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-01', name: '高崎', isMajor: true, stoppingTypes: ['local', 'rapid', 'limited_exp'] },
     { id: 'JOE-02', name: '高崎問屋町', stoppingTypes: ['local'] },
     { id: 'JOE-03', name: '井野', stoppingTypes: ['local'] },
-    { id: 'JOE-04', name: '新前橋', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-04', name: '新前橋', isMajor: true, stoppingTypes: ['local', 'rapid', 'limited_exp'] },
     { id: 'JOE-05', name: '群馬総社', stoppingTypes: ['local'] },
     { id: 'JOE-06', name: '八木原', stoppingTypes: ['local'] },
-    { id: 'JOE-07', name: '渋川', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-07', name: '渋川', isMajor: true, stoppingTypes: ['local', 'rapid', 'limited_exp'] },
     { id: 'JOE-08', name: '敷島', stoppingTypes: ['local'] },
     { id: 'JOE-09', name: '津久田', stoppingTypes: ['local'] },
     { id: 'JOE-10', name: '岩本', stoppingTypes: ['local'] },
-    { id: 'JOE-11', name: '沼田', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-11', name: '沼田', isMajor: true, stoppingTypes: ['local', 'rapid', 'limited_exp'] },
     { id: 'JOE-12', name: '後閑', stoppingTypes: ['local'] },
     { id: 'JOE-13', name: '上牧', stoppingTypes: ['local'] },
-    { id: 'JOE-14', name: '水上', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-14', name: '水上', isMajor: true, stoppingTypes: ['local', 'rapid', 'limited_exp'] },
     { id: 'JOE-15', name: '湯檜曽', stoppingTypes: ['local'] },
     { id: 'JOE-16', name: '土合', stoppingTypes: ['local'] },
     { id: 'JOE-17', name: '土樽', stoppingTypes: ['local'] },
     { id: 'JOE-18', name: '越後中里', stoppingTypes: ['local'] },
     { id: 'JOE-19', name: '岩原スキー場前', stoppingTypes: ['local'] },
-    { id: 'JOE-20', name: '越後湯沢', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-20', name: '越後湯沢', isMajor: true, stoppingTypes: ['local', 'rapid', 'limited_exp'] },
     { id: 'JOE-21', name: '石打', stoppingTypes: ['local'] },
     { id: 'JOE-22', name: '大沢', stoppingTypes: ['local'] },
     { id: 'JOE-23', name: '上越国際スキー場前', stoppingTypes: ['local'] },
@@ -119,7 +119,7 @@ async function main() {
 
     stations.push({
       id: def.id,
-      lineId: 'joetsu',
+      lineId: 'jr_joetsu',
       number: i + 1,
       name: def.name,
       nameKana: meta.nameKana || '',
@@ -206,7 +206,7 @@ async function main() {
   }
 
   // ファイル出力
-  const outDir = path.resolve(__dirname, '../src/data/lines/joetsu');
+  const outDir = path.resolve(__dirname, '../src/data/lines/jr_joetsu');
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
   }

@@ -3,10 +3,10 @@ const { execSync } = require('child_process');
 const lines = [
   'izukyu',
   'izuhakone_sunzu',
-  'gotemba',
+  'jr_gotemba',
   'fujikyu',
-  'yamagata_shinkansen',
-  'akita_shinkansen',
+  'jr_yamagata_shinkansen',
+  'jr_akita_shinkansen',
 ];
 
 for (const lineId of lines) {

@@ -277,9 +277,9 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
     );
     if (existingSolo) {
       existingSolo.throughTripId = fujiCM.tripId;
-      existingSolo.throughLineId = 'chuo_main';
+      existingSolo.throughLineId = 'jr_chuo_main';
       fujiCM.prevTripId = existingSolo.tripId;
-      fujiCM.prevLineId = 'chuo';
+      fujiCM.prevLineId = 'jr_chuo';
       continue;
     }
 
@@ -297,14 +297,14 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         c =>
           c.direction === 'outbound' &&
           c.isHoliday === fujiCM.isHoliday &&
-          c.trainType === 'limitedExp' &&
+          c.trainType === 'limited_exp' &&
           c.stops[c.stops.length - 1]?.stationId === boundarySt &&
           Math.abs(rawTimeToSec(c.stops[c.stops.length - 1]?.arrivalTime) - fujiSec) <= 180
       );
 
       candidates.sort((a, b) => {
-        const expA = a.trainType === 'limitedExp' ? 1 : 0;
-        const expB = b.trainType === 'limitedExp' ? 1 : 0;
+        const expA = a.trainType === 'limited_exp' ? 1 : 0;
+        const expB = b.trainType === 'limited_exp' ? 1 : 0;
         if (expA !== expB) return expB - expA;
         const diffA = Math.abs(rawTimeToSec(a.stops[a.stops.length - 1]?.arrivalTime) - fujiSec);
         const diffB = Math.abs(rawTimeToSec(b.stops[b.stops.length - 1]?.arrivalTime) - fujiSec);
@@ -341,7 +341,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
           customDestination: rule.branchDestName,
           cars: rule.secondaryCars,
           throughTripId: fujiCM.tripId,
-          throughLineId: 'chuo_main',
+          throughLineId: 'jr_chuo_main',
         };
         const lastStop = newTrip.stops[newTrip.stops.length - 1];
         if (lastStop) {
@@ -352,7 +352,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         chuoTrips.push(newTrip);
         existingIds.add(fujiTripId);
         fujiCM.prevTripId = fujiTripId;
-        fujiCM.prevLineId = 'chuo';
+        fujiCM.prevLineId = 'jr_chuo';
         addedOut++;
       }
     }
@@ -391,14 +391,14 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         c =>
           c.direction === 'inbound' &&
           c.isHoliday === fujiCM.isHoliday &&
-          c.trainType === 'limitedExp' &&
+          c.trainType === 'limited_exp' &&
           c.stops[0]?.stationId === boundarySt &&
           Math.abs(rawTimeToSec(c.stops[0]?.departureTime) - fujiSec) <= 180
       );
 
       candidates.sort((a, b) => {
-        const expA = a.trainType === 'limitedExp' ? 1 : 0;
-        const expB = b.trainType === 'limitedExp' ? 1 : 0;
+        const expA = a.trainType === 'limited_exp' ? 1 : 0;
+        const expB = b.trainType === 'limited_exp' ? 1 : 0;
         if (expA !== expB) return expB - expA;
         const diffA = Math.abs(rawTimeToSec(a.stops[0]?.departureTime) - fujiSec);
         const diffB = Math.abs(rawTimeToSec(b.stops[0]?.departureTime) - fujiSec);
@@ -434,7 +434,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
           customDestination: rule.defaultInboundDestName,
           cars: rule.secondaryCars,
           prevTripId: fujiCM.tripId,
-          prevLineId: 'chuo_main',
+          prevLineId: 'jr_chuo_main',
         };
         const firstStop = newTrip.stops[0];
         if (firstStop) {
@@ -445,7 +445,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
         chuoTrips.push(newTrip);
         existingIds.add(fujiTripId);
         fujiCM.throughTripId = fujiTripId;
-        fujiCM.throughLineId = 'chuo';
+        fujiCM.throughLineId = 'jr_chuo';
         addedIn++;
       }
     }
@@ -461,8 +461,8 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
 function coupleChuoFujiKaiyu() {
   console.log('\n=== 🏔️ 中央線・中央本線（あずさ/かいじ + 富士回遊）カップリング ===');
   const rule = couplingConfig.chuoFujiKaiyu;
-  const cmPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
-  const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
+  const cmPath = path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json');
+  const chuoPath = path.resolve('src/data/lines/jr_chuo/globalTimetable.json');
   if (!fs.existsSync(cmPath) || !fs.existsSync(chuoPath)) return;
 
   const cmTrips = safeReadJson(cmPath, []);
@@ -485,7 +485,7 @@ function coupleChuoFujiKaiyu() {
       const dirTrips = cmTrips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
         t =>
-          (t.trainType === 'limitedExp' || t.trainType === 'regular') &&
+          (t.trainType === 'limited_exp' || t.trainType === 'regular') &&
           t.stops.some(s => s.stationId === splitSt)
       );
 
@@ -558,7 +558,7 @@ function coupleChuoFujiKaiyu() {
       const dirTrips = chuoTrips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
         t =>
-          (t.trainType === 'limitedExp' || t.trainType === 'regular') &&
+          (t.trainType === 'limited_exp' || t.trainType === 'regular') &&
           t.stops.some(s => s.stationId === boundarySt)
       );
 
@@ -666,7 +666,7 @@ function coupleTokaidoOdoriko() {
       const dirTrips = trips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
         t =>
-          (t.trainType === 'limitedExp' || (t.trainNumber && t.trainNumber.includes(rule.keyword))) &&
+          (t.trainType === 'limited_exp' || (t.trainNumber && t.trainNumber.includes(rule.keyword))) &&
           t.stops.some(s => s.stationId === rule.splitStationId)
       );
 
@@ -758,7 +758,7 @@ function coupleOdakyuRomancecar() {
     for (const dir of ['outbound', 'inbound']) {
       const dirTrips = trips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(
-        t => t.trainType === 'limitedExp' && t.stops.some(s => s.stationId === rule.splitStationId)
+        t => t.trainType === 'limited_exp' && t.stops.some(s => s.stationId === rule.splitStationId)
       );
 
       for (let i = 0; i < ltdExps.length; i++) {

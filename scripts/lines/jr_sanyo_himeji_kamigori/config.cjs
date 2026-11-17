@@ -79,7 +79,7 @@ module.exports = {
     "快速": "rapid",
     "区間快速": "semi_rapid",
     "新快速": "special_rapid",
-    "特急": "limitedExp"
+    "特急": "limited_exp"
 },
   interpolatePassingStations: true,
 };

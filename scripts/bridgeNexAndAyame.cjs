@@ -10,10 +10,10 @@ const {
 } = require('./common/timetableUtils.cjs');
 
 const LINE_PATHS = {
-  yokosuka: path.resolve('src/data/lines/yokosuka/globalTimetable.json'),
-  sobu_rapid: path.resolve('src/data/lines/sobu_rapid/globalTimetable.json'),
-  sobu_main: path.resolve('src/data/lines/sobu_main/globalTimetable.json'),
-  narita: path.resolve('src/data/lines/narita/globalTimetable.json'),
+  jr_yokosuka: path.resolve('src/data/lines/jr_yokosuka/globalTimetable.json'),
+  jr_sobu_rapid: path.resolve('src/data/lines/jr_sobu_rapid/globalTimetable.json'),
+  jr_sobu_main: path.resolve('src/data/lines/jr_sobu_main/globalTimetable.json'),
+  jr_narita: path.resolve('src/data/lines/jr_narita/globalTimetable.json'),
 };
 
 // 宣言的設定 1: 駅間距離定義 (km)
@@ -80,14 +80,14 @@ const AYAME_85_CONFIG = {
   trainId: '10521',
   trainNumber: '9085M',
   trainName: '特急 あやめ85号',
-  trainType: 'limitedExp',
+  trainType: 'limited_exp',
   direction: 'outbound',
   customOrigin: '新宿',
   customDestination: '佐原',
   cars: 5,
   segments: [
     {
-      lineId: 'sobu_rapid',
+      lineId: 'jr_sobu_rapid',
       tripIdSuffix: 'OUT_JO-22_0945_10521',
       originStationId: 'JO-22',
       destinationStationId: 'JO-28',
@@ -102,7 +102,7 @@ const AYAME_85_CONFIG = {
       ],
     },
     {
-      lineId: 'sobu_main',
+      lineId: 'jr_sobu_main',
       tripIdSuffix: 'OUT_SM-01_1012_10521',
       originStationId: 'SM-01',
       destinationStationId: 'SM-06',
@@ -116,7 +116,7 @@ const AYAME_85_CONFIG = {
       ],
     },
     {
-      lineId: 'narita',
+      lineId: 'jr_narita',
       tripIdSuffix: 'OUT_NR-01_1031_10521',
       originStationId: 'NR-01',
       destinationStationId: 'NR-08',
@@ -148,10 +148,10 @@ function bridgeNexAndAyame() {
   console.log('=== ✈️ 成田エクスプレス & 特急あやめ & 特急しおさい 直通・ダイヤ補完開始 ===');
 
   const lineData = {
-    yokosuka: safeReadJson(LINE_PATHS.yokosuka),
-    sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
-    sobu_main: safeReadJson(LINE_PATHS.sobu_main),
-    narita: safeReadJson(LINE_PATHS.narita),
+    jr_yokosuka: safeReadJson(LINE_PATHS.yokosuka),
+    jr_sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
+    jr_sobu_main: safeReadJson(LINE_PATHS.sobu_main),
+    jr_narita: safeReadJson(LINE_PATHS.narita),
   };
 
   // =========================================================================
@@ -170,7 +170,7 @@ function bridgeNexAndAyame() {
     let removedDup = 0;
     let restoredLocal = 0;
     for (const t of list) {
-      if (/^\d+F$/.test(t.trainNumber || '') && (t.trainType === 'limitedExp' || (t.trainName && (t.trainName.includes('成田エクスプレス') || t.trainName.includes('しおさい'))))) {
+      if (/^\d+F$/.test(t.trainNumber || '') && (t.trainType === 'limited_exp' || (t.trainName && (t.trainName.includes('成田エクスプレス') || t.trainName.includes('しおさい'))))) {
         const sig = `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.stops?.[0]?.departureTime || ''}`;
         const passingCount = (t.stops || []).filter((s) => s.isPassing).length;
         const isAllPassNexClone = (t.stops?.length || 0) >= 5 && passingCount >= t.stops.length - 2;
@@ -202,12 +202,12 @@ function bridgeNexAndAyame() {
     }
     lineData[lineKey] = cleaned;
   };
-  for (const k of ['sobu_rapid', 'sobu_main', 'narita']) {
+  for (const k of ['jr_sobu_rapid', 'jr_sobu_main', 'jr_narita']) {
     fContamCleanup(k);
   }
 
   // N'EX 全便の既存直通ポインタを一旦クリアして多重リンクを防止
-  const nexLinesSet = new Set(['yokosuka', 'sobu_rapid', 'sobu_main', 'narita']);
+  const nexLinesSet = new Set(['jr_yokosuka', 'jr_sobu_rapid', 'jr_sobu_main', 'jr_narita']);
   for (const list of Object.values(lineData)) {
     for (const t of list) {
       if (t.trainName && t.trainName.includes('成田エクスプレス')) {
@@ -304,10 +304,10 @@ function bridgeNexAndAyame() {
         if (!srTrip) {
           srTrip = {
             tripId: srTripId,
-            lineId: 'sobu_rapid',
+            lineId: 'jr_sobu_rapid',
             trainId: nrtTrip.trainId || trainNum,
             trainNumber: trainNum,
-            trainType: 'limitedExp',
+            trainType: 'limited_exp',
             trainName,
             direction: 'outbound',
             originStationId: 'JO-19',
@@ -340,10 +340,10 @@ function bridgeNexAndAyame() {
       if (!smTrip) {
         smTrip = {
           tripId: smTripId,
-          lineId: 'sobu_main',
+          lineId: 'jr_sobu_main',
           trainId: nrtTrip.trainId || trainNum,
           trainNumber: trainNum,
-          trainType: 'limitedExp',
+          trainType: 'limited_exp',
           trainName,
           direction: 'outbound',
           originStationId: 'SM-01',
@@ -358,7 +358,7 @@ function bridgeNexAndAyame() {
       } else {
         smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
-        smTrip.trainType = 'limitedExp';
+        smTrip.trainType = 'limited_exp';
         smTrip.customOrigin = originName;
         smTrip.customDestination = '成田空港';
         smTrip.stops = smStops;
@@ -389,23 +389,23 @@ function bridgeNexAndAyame() {
       nrtTrip.customOrigin = originName;
       nrtTrip.customDestination = '成田空港';
       nrtTrip.trainName = trainName;
-      nrtTrip.trainType = 'limitedExp';
+      nrtTrip.trainType = 'limited_exp';
 
       if (ykTrip) {
-        linkThroughTrips(ykTrip, 'yokosuka', srTrip, 'sobu_rapid', {
+        linkThroughTrips(ykTrip, 'jr_yokosuka', srTrip, 'jr_sobu_rapid', {
           withLegacyObjects: true,
           legacyTrainNumber: trainNum,
         });
         ykTrip.customDestination = '成田空港';
       }
 
-      linkThroughTrips(srTrip, 'sobu_rapid', smTrip, 'sobu_main', {
+      linkThroughTrips(srTrip, 'jr_sobu_rapid', smTrip, 'jr_sobu_main', {
         withLegacyObjects: true,
         legacyTrainNumber: trainNum,
       });
       srTrip.customDestination = '成田空港';
 
-      linkThroughTrips(smTrip, 'sobu_main', nrtTrip, 'narita', {
+      linkThroughTrips(smTrip, 'jr_sobu_main', nrtTrip, 'jr_narita', {
         withLegacyObjects: true,
         legacyTrainNumber: trainNum,
       });
@@ -500,10 +500,10 @@ function bridgeNexAndAyame() {
         if (!srTrip) {
           srTrip = {
             tripId: srTripId,
-            lineId: 'sobu_rapid',
+            lineId: 'jr_sobu_rapid',
             trainId: nrtTrip.trainId || trainNum,
             trainNumber: trainNum,
-            trainType: 'limitedExp',
+            trainType: 'limited_exp',
             trainName,
             direction: 'inbound',
             originStationId: 'JO-28',
@@ -559,10 +559,10 @@ function bridgeNexAndAyame() {
       if (!smTrip) {
         smTrip = {
           tripId: smTripId,
-          lineId: 'sobu_main',
+          lineId: 'jr_sobu_main',
           trainId: nrtTrip.trainId || trainNum,
           trainNumber: trainNum,
-          trainType: 'limitedExp',
+          trainType: 'limited_exp',
           trainName,
           direction: 'inbound',
           originStationId: 'SM-06',
@@ -577,17 +577,17 @@ function bridgeNexAndAyame() {
       } else {
         smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
-        smTrip.trainType = 'limitedExp';
+        smTrip.trainType = 'limited_exp';
         smTrip.customOrigin = '成田空港';
         smTrip.customDestination = finalDest;
         smTrip.stops = smStops;
       }
 
-      linkThroughTrips(nrtTrip, 'narita', smTrip, 'sobu_main', {
+      linkThroughTrips(nrtTrip, 'jr_narita', smTrip, 'jr_sobu_main', {
         withLegacyObjects: true,
         legacyTrainNumber: trainNum,
       });
-      linkThroughTrips(smTrip, 'sobu_main', srTrip, 'sobu_rapid', {
+      linkThroughTrips(smTrip, 'jr_sobu_main', srTrip, 'jr_sobu_rapid', {
         withLegacyObjects: true,
         legacyTrainNumber: trainNum,
       });
@@ -595,7 +595,7 @@ function bridgeNexAndAyame() {
       srTrip.customDestination = finalDest;
 
       if (ykTrip) {
-        linkThroughTrips(srTrip, 'sobu_rapid', ykTrip, 'yokosuka', {
+        linkThroughTrips(srTrip, 'jr_sobu_rapid', ykTrip, 'jr_yokosuka', {
           withLegacyObjects: true,
           legacyTrainNumber: trainNum,
         });
@@ -683,7 +683,7 @@ function bridgeNexAndAyame() {
           return mStop && Math.abs(timeToSec(mStop.departureTime || mStop.arrivalTime) - timeToSec(tChiba)) <= 300;
         });
       if (sm) {
-        linkThroughTrips(sr, 'sobu_rapid', sm, 'sobu_main', {
+        linkThroughTrips(sr, 'jr_sobu_rapid', sm, 'jr_sobu_main', {
           withLegacyObjects: true,
           legacyTrainNumber: sr.trainNumber,
         });
@@ -713,7 +713,7 @@ function bridgeNexAndAyame() {
           return rStop && Math.abs(timeToSec(rStop.departureTime || rStop.arrivalTime) - timeToSec(tChiba)) <= 300;
         });
       if (sr) {
-        linkThroughTrips(sm, 'sobu_main', sr, 'sobu_rapid', {
+        linkThroughTrips(sm, 'jr_sobu_main', sr, 'jr_sobu_rapid', {
           withLegacyObjects: true,
           legacyTrainNumber: sm.trainNumber,
         });

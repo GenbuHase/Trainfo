@@ -190,9 +190,9 @@ function enrichLine(lineId, displayName, customMapper = null) {
 }
 
 function run() {
-  enrichLine('yamagata_shinkansen', 'JR山形新幹線');
-  enrichLine('akita_shinkansen', 'JR秋田新幹線');
-  enrichLine('gotemba', 'JR御殿場線');
+  enrichLine('jr_yamagata_shinkansen', 'JR山形新幹線');
+  enrichLine('jr_akita_shinkansen', 'JR秋田新幹線');
+  enrichLine('jr_gotemba', 'JR御殿場線');
   enrichLine('izukyu', '伊豆急行線');
   enrichLine('izuhakone_sunzu', '伊豆箱根鉄道駿豆線');
   enrichLine('fujikyu', '富士急行線');

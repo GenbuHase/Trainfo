@@ -31,8 +31,8 @@ export const JR_CHUO_WEST_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0082ba",
     "borderColor": "#006591"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

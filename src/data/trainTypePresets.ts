@@ -243,7 +243,7 @@ export const TRAIN_TYPE_COLORS = {
 } as const satisfies Record<string, TrainTypeColorDef>;
 
 /**
- * 特急（limitedExp）設定の共通生成ヘルパー
+ * 特急（limited_exp）設定の共通生成ヘルパー
  */
 export function createLimitedExp(
   colorDef: TrainTypeColorDef | string,
@@ -254,7 +254,7 @@ export function createLimitedExp(
   const border = typeof colorDef === 'string' ? (borderColor || colorDef) : colorDef.borderColor;
 
   return {
-    key: 'limitedExp',
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',
@@ -266,7 +266,7 @@ export function createLimitedExp(
 }
 
 /**
- * 特急（limitedExp）の共通プリセット定義
+ * 特急（limited_exp）の共通プリセット定義
  */
 export const LIMITED_EXP_PRESETS = {
   /** JR東日本・首都圏標準特急（東海道線、高崎線、上越線、宇都宮線、横須賀線、総武快速線、埼京線、川越線、武蔵野線、伊東線、御殿場線等） */
@@ -413,7 +413,7 @@ export const CHUO_PRESETS = {
 
   /** 通勤快速（中央線、青梅線、五日市線） */
   COMMUTER: {
-    key: 'commuter',
+    key: 'commuter_rapid',
     name: '通勤快速',
     nameEn: 'Commuter Rapid',
     shortName: '通快',
@@ -493,7 +493,7 @@ export const TOBU_PRESETS = {
 
   /** 準急 */
   SEMI_EXP: {
-    key: 'semiExp',
+    key: 'semi_exp',
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',
@@ -504,8 +504,8 @@ export const TOBU_PRESETS = {
   } satisfies TrainTypeConfig,
 
   /** 区間準急 */
-  SECTION_SEMI: {
-    key: 'section_semi',
+  SECTION_SEMI_EXP: {
+    key: 'section_semi_exp',
     name: '区間準急',
     nameEn: 'Section Semi Express',
     shortName: '区準',
@@ -621,7 +621,7 @@ export const SOTETSU_PRESETS = {
 
   /** 通勤特急 */
   COMMUTER_LTD_EXP: {
-    key: 'commuter_ltd_exp',
+    key: 'commuter_limited_exp',
     name: '通勤特急',
     nameEn: 'Commuter Limited Express',
     shortName: '通特',
@@ -633,7 +633,7 @@ export const SOTETSU_PRESETS = {
 
   /** 特急 */
   LIMITED_EXP: {
-    key: 'limitedExp',
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',
@@ -662,7 +662,7 @@ export const TOKYU_PRESETS = {
 
   /** 通勤特急 */
   COMMUTER_LTD_EXP: {
-    key: 'commuter_ltd_exp',
+    key: 'commuter_limited_exp',
     name: '通勤特急',
     nameEn: 'Commuter Ltd. Exp.',
     shortName: '通特',
@@ -674,7 +674,7 @@ export const TOKYU_PRESETS = {
 
   /** 特急 */
   LTD_EXP: {
-    key: 'ltd_exp',
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',
@@ -691,7 +691,7 @@ export const TOKYU_PRESETS = {
 export const LINER_PRESETS = {
   /** S-TRAIN（西武池袋線、西武有楽町線、東京メトロ有楽町線、副都心線、東急東横線、みなとみらい線直通） */
   STRAIN: {
-    key: 'strain',
+    key: 's_train',
     name: 'S-TRAIN',
     nameEn: 'S-TRAIN',
     shortName: 'S',
@@ -732,7 +732,7 @@ export const ODAKYU_PRESETS = {
 
   /** 準急 */
   SEMI_EXP: {
-    key: 'semiExp',
+    key: 'semi_exp',
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',
@@ -743,8 +743,8 @@ export const ODAKYU_PRESETS = {
   } satisfies TrainTypeConfig,
 
   /** 通勤準急 */
-  COMMUTER_SEMI: {
-    key: 'commuter_semi',
+  COMMUTER_SEMI_EXP: {
+    key: 'commuter_semi_exp',
     name: '通勤準急',
     nameEn: 'Commuter Semi Express',
     shortName: '通準',
@@ -780,7 +780,7 @@ export const ODAKYU_PRESETS = {
 
   /** 快速急行 */
   RAPID_EXP: {
-    key: 'rapidExp',
+    key: 'rapid_exp',
     name: '快速急行',
     nameEn: 'Rapid Express',
     shortName: '快急',

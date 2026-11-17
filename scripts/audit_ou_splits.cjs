@@ -1,5 +1,5 @@
 const fs = require('fs');
-const trips = JSON.parse(fs.readFileSync('src/data/lines/ou_fukushima_shinjo/globalTimetable.json', 'utf8'));
+const trips = JSON.parse(fs.readFileSync('src/data/lines/jr_ou_fukushima_shinjo/globalTimetable.json', 'utf8'));
 const split = trips.filter(t => /_s\d+$/.test(t.tripId));
 console.log('split trips', split.length, 'of', trips.length);
 const byTrain = new Map();

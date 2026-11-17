@@ -12,7 +12,7 @@ const {
 // 宣言的設定: 特急ふじさん号 連絡線経由直通ペア定義
 const FUJISAN_BRIDGE_CONFIG = {
   odakyuPath: path.resolve('src/data/lines/odakyu_odawara/globalTimetable.json'),
-  gotembaPath: path.resolve('src/data/lines/gotemba/globalTimetable.json'),
+  gotembaPath: path.resolve('src/data/lines/jr_gotemba/globalTimetable.json'),
   hadanoStationId: 'OH-39',
   shibusawaStationId: 'OH-40',
   matsudaStationId: 'CB-04',
@@ -92,7 +92,7 @@ function bridgeOdakyuGotemba() {
       );
       odTrip.destinationStationId = matsudaStationId;
 
-      linkThroughTrips(odTrip, 'odakyu_odawara', gtTrip, 'gotemba', {
+      linkThroughTrips(odTrip, 'odakyu_odawara', gtTrip, 'jr_gotemba', {
         customOrigin: '新宿',
         customDestination: '御殿場',
       });
@@ -129,7 +129,7 @@ function bridgeOdakyuGotemba() {
       odTrip.stops.unshift({ stationId: matsudaStationId, arrivalTime: matsudaStop.arrivalTime, departureTime: matsudaStop.departureTime, isPassing: false });
       odTrip.originStationId = matsudaStationId;
 
-      linkThroughTrips(gtTrip, 'gotemba', odTrip, 'odakyu_odawara', {
+      linkThroughTrips(gtTrip, 'jr_gotemba', odTrip, 'odakyu_odawara', {
         customOrigin: '御殿場',
         customDestination: '新宿',
       });

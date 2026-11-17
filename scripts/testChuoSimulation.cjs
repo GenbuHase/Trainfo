@@ -1,9 +1,9 @@
 const fs = require('fs');
 
-const chuoGlobal = JSON.parse(fs.readFileSync('src/data/lines/chuo/globalTimetable.json', 'utf8'));
-const chuoStations = JSON.parse(fs.readFileSync('src/data/lines/chuo/stations.ts', 'utf8')
+const chuoGlobal = JSON.parse(fs.readFileSync('src/data/lines/jr_chuo/globalTimetable.json', 'utf8'));
+const chuoStations = JSON.parse(fs.readFileSync('src/data/lines/jr_chuo/stations.ts', 'utf8')
   .match(/export const CHUO_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
-const chuoSegments = JSON.parse(fs.readFileSync('src/data/lines/chuo/trackGeometry.ts', 'utf8')
+const chuoSegments = JSON.parse(fs.readFileSync('src/data/lines/jr_chuo/trackGeometry.ts', 'utf8')
   .match(/export const CHUO_TRACK_SEGMENTS: TrackSegment\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
 
 const stationMap = new Map(chuoStations.map(s => [s.id, s]));

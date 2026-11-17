@@ -2,9 +2,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
-const omePath = path.resolve('src/data/lines/ome/globalTimetable.json');
-const omeStationPath = path.resolve('src/data/lines/ome/stationTimetables.json');
+const chuoPath = path.resolve('src/data/lines/jr_chuo/globalTimetable.json');
+const omePath = path.resolve('src/data/lines/jr_ome/globalTimetable.json');
+const omeStationPath = path.resolve('src/data/lines/jr_ome/stationTimetables.json');
 
 const chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
 const omeTrips = JSON.parse(fs.readFileSync(omePath, 'utf8'));
@@ -15,8 +15,8 @@ function loadStations(filePath) {
   const match = content.match(/export const [A-Z0-9_]+: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
   return eval(match[1]);
 }
-const chuoStations = loadStations('src/data/lines/chuo/stations.ts');
-const omeStations = loadStations('src/data/lines/ome/stations.ts');
+const chuoStations = loadStations('src/data/lines/jr_chuo/stations.ts');
+const omeStations = loadStations('src/data/lines/jr_ome/stations.ts');
 
 const chuoStMap = new Map(chuoStations.map(s => [s.id, s]));
 const omeStMap = new Map(omeStations.map(s => [s.id, s]));
@@ -39,14 +39,14 @@ const omeTrainIdToOfficialNo = new Map();
 const chuoOutToTachikawa = chuoTrips.filter(t => t.direction === 'outbound' && t.destinationStationId === 'JC-19');
 const omeOutFromTachikawa = omeTrips.filter(t => t.direction === 'outbound' && t.originStationId === 'JC-19');
 
-for (const ome of omeOutFromTachikawa) {
+for (const jr_ome of omeOutFromTachikawa) {
   const oTrainId = extractYahooTrainId(ome.tripId);
-  const chuo = chuoOutToTachikawa.find(c => extractYahooTrainId(c.tripId) === oTrainId && c.isHoliday === ome.isHoliday);
+  const jr_chuo = chuoOutToTachikawa.find(c => extractYahooTrainId(c.tripId) === oTrainId && c.isHoliday === ome.isHoliday);
 
   if (chuo) {
     // 中央線側: 次の直通先は青梅線
     chuo.throughTripId = ome.tripId;
-    chuo.throughLineId = 'ome';
+    chuo.throughLineId = 'jr_ome';
     const omeDest = omeStMap.get(ome.destinationStationId);
     chuo.customDestination = ome.customDestination || omeDest?.name || '青梅';
 
@@ -74,14 +74,14 @@ for (const ome of omeOutFromTachikawa) {
 const omeInToTachikawa = omeTrips.filter(t => t.direction === 'inbound' && t.destinationStationId === 'JC-19');
 const chuoInFromTachikawa = chuoTrips.filter(t => t.direction === 'inbound' && t.originStationId === 'JC-19');
 
-for (const ome of omeInToTachikawa) {
+for (const jr_ome of omeInToTachikawa) {
   const oTrainId = extractYahooTrainId(ome.tripId);
-  const chuo = chuoInFromTachikawa.find(c => extractYahooTrainId(c.tripId) === oTrainId && c.isHoliday === ome.isHoliday);
+  const jr_chuo = chuoInFromTachikawa.find(c => extractYahooTrainId(c.tripId) === oTrainId && c.isHoliday === ome.isHoliday);
 
   if (chuo) {
     // 青梅線側: 次の直通先は中央線
     ome.throughTripId = chuo.tripId;
-    ome.throughLineId = 'chuo';
+    ome.throughLineId = 'jr_chuo';
     const chuoDest = chuoStMap.get(chuo.destinationStationId);
     ome.customDestination = chuo.customDestination || chuoDest?.name || '東京';
 
@@ -104,7 +104,7 @@ for (const ome of omeInToTachikawa) {
 }
 
 // 3. その他線内完結トリップにも trainId を確実に設定
-for (const ome of omeTrips) {
+for (const jr_ome of omeTrips) {
   if (!ome.trainId) {
     ome.trainId = extractYahooTrainId(ome.tripId) || ome.trainNumber;
   }

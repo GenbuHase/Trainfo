@@ -160,7 +160,7 @@ class YahooTimetableBuilder {
     }
 
     // 3. なければ各停車の時刻キーで突合（※特急種別は同時刻発車普通列車の番号誤爆を防止するため時刻のみの突合を行わない）
-    const isLtd = trainDetail.displayName?.includes('特急') || trainDetail.trainName || trainDetail.trainType === 'limitedExp';
+    const isLtd = trainDetail.displayName?.includes('特急') || trainDetail.trainName || trainDetail.trainType === 'limited_exp';
     if (!vendorNo && !isLtd && stops && stops.length > 0) {
       for (const stop of stops) {
         if (!stop.departureTime || stop.isPassing) continue;
@@ -966,7 +966,7 @@ class YahooTimetableBuilder {
       'toki', 'tanigawa', 'kagayaki', 'hakutaka', 'asama', 'tsurugi',
     ];
     const preserveTypes = new Set([
-      'limitedExp',
+      'limited_exp',
       'limited_express',
       'regular',
       ...SHINKANSEN_TYPES,

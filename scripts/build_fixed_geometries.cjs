@@ -27,7 +27,7 @@ function findStationNode(st, nodeMap, adj) {
 // 1. 東海道線（東京〜熱海）: JT-06_JT-07, JT-07_JT-08, JT-16_JT-17 を修正
 function buildTokaidoTokyoAtamiTrack() {
   console.log('\n=== 1. Fixing Tokaido Track Geometry (Tokyo -> Atami) ===');
-  const originalTrack = execSync('git show HEAD~1:src/data/lines/tokaido/trackGeometry.ts', { encoding: 'utf8' });
+  const originalTrack = execSync('git show HEAD~1:src/data/lines/jr_tokaido/trackGeometry.ts', { encoding: 'utf8' });
   const jsonMatch = originalTrack.match(/export const TOKAIDO_TRACK_SEGMENTS: TrackSegment\[\] = (\[[\s\S]*\]);/);
   const segments = JSON.parse(jsonMatch[1]).filter(s => !s.fromStationId.startsWith('CA') && !s.toStationId.startsWith('CA'));
 
@@ -82,7 +82,7 @@ function buildTokaidoTokyoAtamiTrack() {
     }
   }
 
-  const outPath = path.resolve('src/data/lines/tokaido/trackGeometry.ts');
+  const outPath = path.resolve('src/data/lines/jr_tokaido/trackGeometry.ts');
   const content = `import type { TrackSegment } from '../../../types';\n\nexport const TOKAIDO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(segments, null, 2)};\n`;
   fs.writeFileSync(outPath, content, 'utf8');
   console.log(`  Saved ${segments.length} segments to ${outPath}`);
@@ -267,7 +267,7 @@ function buildRyomoTrack() {
     });
   }
 
-  const outPath = path.resolve('src/data/lines/ryomo/trackGeometry.ts');
+  const outPath = path.resolve('src/data/lines/jr_ryomo/trackGeometry.ts');
   const content = `import type { TrackSegment } from '../../../types';\n\nexport const RYOMO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(segments, null, 2)};\n`;
   fs.writeFileSync(outPath, content, 'utf8');
   console.log(`  Saved ${segments.length} segments to ${outPath}`);

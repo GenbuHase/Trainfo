@@ -282,7 +282,7 @@ const yStations = yDefs.map(d => {
   const n = yNodeMap.get(d.nodeId);
   return {
     id: d.id,
-    lineId: 'yurakucho',
+    lineId: 'tokyo_metro_yurakucho',
     number: d.number,
     name: d.name,
     nameKana: d.nameKana,
@@ -480,7 +480,7 @@ const fStations = fDefs.map(d => {
   const n = fNodeMap.get(d.nodeId);
   return {
     id: d.id,
-    lineId: 'fukutoshin',
+    lineId: 'tokyo_metro_fukutoshin',
     number: d.number,
     name: d.name,
     nameKana: d.nameKana,

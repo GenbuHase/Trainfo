@@ -21,8 +21,8 @@ export const JR_OSAKA_HIGASHI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#884898",
     "borderColor": "#602870"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

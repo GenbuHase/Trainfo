@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // 駅リスト
-const rawTs = fs.readFileSync('src/data/lines/musashino/stations.ts', 'utf8');
+const rawTs = fs.readFileSync('src/data/lines/jr_musashino/stations.ts', 'utf8');
 const jsonMatch = rawTs.match(/export const MUSASHINO_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
 const stations = JSON.parse(jsonMatch ? jsonMatch[1] : '[]');
 
@@ -231,7 +231,7 @@ function generateDayTimetable(isHoliday) {
 
       addTrip({
         tripId: `${dayPrefix}_OUT_${trainNumber}`,
-        lineId: 'musashino',
+        lineId: 'jr_musashino',
         trainNumber,
         trainType: 'local',
         direction: 'outbound',
@@ -257,7 +257,7 @@ function generateDayTimetable(isHoliday) {
 
       addTrip({
         tripId: `${dayPrefix}_IN_TYO_${trainNumber}`,
-        lineId: 'musashino',
+        lineId: 'jr_musashino',
         trainNumber,
         trainType: 'local',
         direction: 'inbound',
@@ -282,7 +282,7 @@ function generateDayTimetable(isHoliday) {
 
       addTrip({
         tripId: `${dayPrefix}_IN_MAK_${trainNumber}`,
-        lineId: 'musashino',
+        lineId: 'jr_musashino',
         trainNumber,
         trainType: 'local',
         direction: 'inbound',
@@ -307,7 +307,7 @@ function generateDayTimetable(isHoliday) {
 
     addTrip({
       tripId: `${dayPrefix}_OUT_MUSASHINO_${trainNumber}`,
-      lineId: 'musashino',
+      lineId: 'jr_musashino',
       trainNumber,
       trainType: 'regular',
       direction: 'outbound',
@@ -331,7 +331,7 @@ function generateDayTimetable(isHoliday) {
 
     addTrip({
       tripId: `${dayPrefix}_IN_MUSASHINO_${trainNumber}`,
-      lineId: 'musashino',
+      lineId: 'jr_musashino',
       trainNumber,
       trainType: 'regular',
       direction: 'inbound',
@@ -355,7 +355,7 @@ function generateDayTimetable(isHoliday) {
 
     addTrip({
       tripId: `${dayPrefix}_OUT_SHIMOUSA_${trainNumber}`,
-      lineId: 'musashino',
+      lineId: 'jr_musashino',
       trainNumber,
       trainType: 'regular',
       direction: 'outbound',
@@ -379,7 +379,7 @@ function generateDayTimetable(isHoliday) {
 
     addTrip({
       tripId: `${dayPrefix}_IN_SHIMOUSA_${trainNumber}`,
-      lineId: 'musashino',
+      lineId: 'jr_musashino',
       trainNumber,
       trainType: 'regular',
       direction: 'inbound',
@@ -409,8 +409,8 @@ generateDayTimetable(true);
 
 console.log(`Generated total ${allTrips.length} trips.`);
 
-fs.writeFileSync('src/data/lines/musashino/globalTimetable.json', JSON.stringify(allTrips, null, 2), 'utf8');
-console.log('Saved src/data/lines/musashino/globalTimetable.json');
+fs.writeFileSync('src/data/lines/jr_musashino/globalTimetable.json', JSON.stringify(allTrips, null, 2), 'utf8');
+console.log('Saved src/data/lines/jr_musashino/globalTimetable.json');
 
-fs.writeFileSync('src/data/lines/musashino/stationTimetables.json', JSON.stringify(stationTimetables, null, 2), 'utf8');
-console.log('Saved src/data/lines/musashino/stationTimetables.json');
+fs.writeFileSync('src/data/lines/jr_musashino/stationTimetables.json', JSON.stringify(stationTimetables, null, 2), 'utf8');
+console.log('Saved src/data/lines/jr_musashino/stationTimetables.json');

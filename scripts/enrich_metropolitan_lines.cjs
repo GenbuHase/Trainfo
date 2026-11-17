@@ -129,17 +129,17 @@ function enrichLine(lineId, lineName) {
 }
 
 const targetLines = [
-  { id: 'ito', name: 'JR伊東線' },
-  { id: 'tokaido', name: 'JR東海道線' },
-  { id: 'yokosuka', name: 'JR横須賀線' },
-  { id: 'sobu_rapid', name: 'JR総武快速線' },
-  { id: 'utsunomiya', name: 'JR宇都宮線' },
-  { id: 'takasaki', name: 'JR高崎線' },
-  { id: 'shonan_shinjuku', name: 'JR湘南新宿ライン' },
-  { id: 'ueno_tokyo', name: 'JR上野東京ライン' },
+  { id: 'jr_ito', name: 'JR伊東線' },
+  { id: 'jr_tokaido', name: 'JR東海道線' },
+  { id: 'jr_yokosuka', name: 'JR横須賀線' },
+  { id: 'jr_sobu_rapid', name: 'JR総武快速線' },
+  { id: 'jr_utsunomiya', name: 'JR宇都宮線' },
+  { id: 'jr_takasaki', name: 'JR高崎線' },
+  { id: 'jr_shonan_shinjuku', name: 'JR湘南新宿ライン' },
+  { id: 'jr_ueno_tokyo', name: 'JR上野東京ライン' },
   { id: 'tokaido_shizuoka', name: 'JR東海道本線（静岡地区）' },
-  { id: 'ryomo', name: 'JR両毛線' },
-  { id: 'joetsu', name: 'JR上越線' },
+  { id: 'jr_ryomo', name: 'JR両毛線' },
+  { id: 'jr_joetsu', name: 'JR上越線' },
 ];
 
 function main() {

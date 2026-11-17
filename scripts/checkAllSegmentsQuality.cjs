@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const content = fs.readFileSync('src/data/lines/musashino/trackGeometry.ts', 'utf8');
+const content = fs.readFileSync('src/data/lines/jr_musashino/trackGeometry.ts', 'utf8');
 const jsonMatch = content.match(/export const MUSASHINO_TRACK_SEGMENTS: TrackSegment\[\] = ([\s\S]*?);\s*$/);
 const segments = JSON.parse(jsonMatch[1]);
 

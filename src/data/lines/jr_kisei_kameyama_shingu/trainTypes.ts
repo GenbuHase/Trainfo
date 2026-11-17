@@ -31,8 +31,8 @@ export const JR_KISEI_KAMEYAMA_SHINGU_TRAIN_TYPES: Record<string, TrainTypeConfi
     "bgColor": "#ff7322",
     "borderColor": "#cc5200"
   },
-  "limitedExp": {
-    "key": "limitedExp",
+  "limited_exp": {
+    "key": "limited_exp",
     "name": "特急",
     "nameEn": "Limited Express",
     "shortName": "特急",

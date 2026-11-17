@@ -18,8 +18,8 @@ for (const t of chain) {
 }
 
 assert.strictEqual(chain.length, 2, 'チェーンが2便（篠ノ井線＋大糸線）であること');
-assert.strictEqual(chain[0].lineId, 'shinonoi', '第1区間は篠ノ井線であること');
-assert.strictEqual(chain[1].lineId, 'oito_east', '第2区間は大糸線であること');
+assert.strictEqual(chain[0].lineId, 'jr_shinonoi', '第1区間は篠ノ井線であること');
+assert.strictEqual(chain[1].lineId, 'jr_oito_east', '第2区間は大糸線であること');
 
 console.log('✅ テスト1: 篠ノ井線〜大糸線のスイッチバック直通チェーン形成に成功！\n');
 
@@ -34,8 +34,8 @@ for (const t of returnChain) {
 }
 
 assert.strictEqual(returnChain.length, 2, '復路チェーンが2便であること');
-assert.strictEqual(returnChain[0].lineId, 'oito_east', '復路第1区間は大糸線であること');
-assert.strictEqual(returnChain[1].lineId, 'shinonoi', '復路第2区間は篠ノ井線であること');
+assert.strictEqual(returnChain[0].lineId, 'jr_oito_east', '復路第1区間は大糸線であること');
+assert.strictEqual(returnChain[1].lineId, 'jr_shinonoi', '復路第2区間は篠ノ井線であること');
 
 console.log('✅ テスト2: 復路の大糸線〜篠ノ井線直通チェーン形成に成功！\n');
 
@@ -50,7 +50,7 @@ const testTimes = [
   { label: '南小谷駅終点到着時', sec: timeStringToSeconds('13:40:00') },
 ];
 
-const selectedLines: LineId[] = ['shinonoi', 'oito_east'];
+const selectedLines: LineId[] = ['jr_shinonoi', 'jr_oito_east'];
 const chainTripIds = getThroughChainTripIds(naganoTripId);
 
 console.log('--- 時刻進行シミュレーション追尾検証 ---');

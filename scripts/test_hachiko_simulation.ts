@@ -1,6 +1,6 @@
 import { calculateActiveTrains } from '../src/services/trainSimulation';
 import { timeStringToSeconds } from '../src/data/timetableData';
-import { hachikoLine } from '../src/data/lines/hachiko';
+import { hachikoLine } from '../src/data/lines/jr_hachiko';
 
 console.log('=== JR八高線 シミュレーション包括検証テスト開始 ===\n');
 
@@ -78,7 +78,7 @@ for (const tStr of sampleTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['hachiko'],
+    selectedLineIds: ['jr_hachiko'],
   });
 
   console.log(`[時刻 ${tStr}] アクティブ列車数: ${activeTrains.length} 本`);

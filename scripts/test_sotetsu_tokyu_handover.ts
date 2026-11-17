@@ -7,7 +7,7 @@ import rawTokyuShinYokohama from '../src/data/lines/tokyu_shin_yokohama/globalTi
 import rawSotetsuShinYokohama from '../src/data/lines/sotetsu_shin_yokohama/globalTimetable.json';
 import rawSotetsuMain from '../src/data/lines/sotetsu_main/globalTimetable.json';
 import rawSotetsuIzumino from '../src/data/lines/sotetsu_izumino/globalTimetable.json';
-import rawSotetsuJr from '../src/data/lines/sotetsu_jr_direct/globalTimetable.json';
+import rawSotetsuJr from '../src/data/lines/jr_sotetsu_jr_direct/globalTimetable.json';
 
 const toyokoTrips = rawToyoko as unknown as TimetableTrip[];
 const tokyuShinYokohamaTrips = rawTokyuShinYokohama as unknown as TimetableTrip[];
@@ -276,7 +276,7 @@ if (t3JR && t3SSH && t3SM) {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['sotetsu_jr_direct', 'sotetsu_shin_yokohama', 'sotetsu_main'],
+      selectedLineIds: ['jr_sotetsu_jr_direct', 'sotetsu_shin_yokohama', 'sotetsu_main'],
     });
 
     if (!tracked) {

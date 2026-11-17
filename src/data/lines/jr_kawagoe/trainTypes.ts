@@ -1,0 +1,41 @@
+// JR川越線 列車種別定義（公式カラー準拠）
+import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
+
+export const KAWAGOE_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+  // 各駅停車: #00ac9a (埼京グリーン)
+  local: {
+    key: 'local',
+    name: '各駅停車',
+    nameEn: 'Local',
+    shortName: '各停',
+    color: '#00ac84',
+    textColor: '#ffffff',
+    bgColor: '#00ac84',
+    borderColor: '#00ac84',
+  },
+  // 快速: #007ac1 (JRブルー)
+  rapid: {
+    key: 'rapid',
+    name: '快速',
+    nameEn: 'Rapid',
+    shortName: '快速',
+    color: '#007ac1',
+    textColor: '#ffffff',
+    bgColor: '#007ac1',
+    borderColor: '#38bdf8',
+  },
+  // 通勤快速: #e60012 (JRレッド)
+  commuter_rapid: {
+    key: 'commuter_rapid',
+    name: '通勤快速',
+    nameEn: 'Commuter Rapid',
+    shortName: '通快',
+    color: '#e60012',
+    textColor: '#ffffff',
+    bgColor: '#e60012',
+    borderColor: '#f87171',
+  },
+  // 特急（臨時特急など）: #d32f2f (JR特急レッド)
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
+};

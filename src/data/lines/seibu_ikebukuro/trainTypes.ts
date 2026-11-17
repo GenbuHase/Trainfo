@@ -13,8 +13,8 @@ export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#ff6600',
     borderColor: '#ff6600',
   },
-  semiExp: {
-    key: 'semiExp',
+  semi_exp: {
+    key: 'semi_exp',
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',
@@ -23,8 +23,8 @@ export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#00cc99',
     borderColor: '#00cc99',
   },
-  commuter_semi: {
-    key: 'commuter_semi',
+  commuter_semi_exp: {
+    key: 'commuter_semi_exp',
     name: '通勤準急',
     nameEn: 'Commuter Semi Express',
     shortName: '通準',
@@ -63,8 +63,8 @@ export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#ffcc00',
     borderColor: '#ffcc00',
   },
-  rapidExp: {
-    key: 'rapidExp',
+  rapid_exp: {
+    key: 'rapid_exp',
     name: '快速急行',
     nameEn: 'Rapid Express',
     shortName: '快急',
@@ -73,9 +73,9 @@ export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#8b52a1',
     borderColor: '#8b52a1',
   },
-  strain: LINER_PRESETS.STRAIN,
-  limitedExp: {
-    key: 'limitedExp',
+  s_train: LINER_PRESETS.STRAIN,
+  limited_exp: {
+    key: 'limited_exp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',

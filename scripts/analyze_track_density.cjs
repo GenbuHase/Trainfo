@@ -43,10 +43,10 @@ function segDetails(seg) {
   };
 }
 
-analyzeTrack('src/data/lines/chuo/trackGeometry.ts');
-analyzeTrack('src/data/lines/sobu_rapid/trackGeometry.ts');
+analyzeTrack('src/data/lines/jr_chuo/trackGeometry.ts');
+analyzeTrack('src/data/lines/jr_sobu_rapid/trackGeometry.ts');
 analyzeTrack('src/data/lines/tojo/trackGeometry.ts');
-analyzeTrack('src/data/lines/saikyo/trackGeometry.ts');
-analyzeTrack('src/data/lines/yamanote/trackGeometry.ts');
-analyzeTrack('src/data/lines/keiyo/trackGeometry.ts');
-analyzeTrack('src/data/lines/uchibo/trackGeometry.ts');
+analyzeTrack('src/data/lines/jr_saikyo/trackGeometry.ts');
+analyzeTrack('src/data/lines/jr_yamanote/trackGeometry.ts');
+analyzeTrack('src/data/lines/jr_keiyo/trackGeometry.ts');
+analyzeTrack('src/data/lines/jr_uchibo/trackGeometry.ts');

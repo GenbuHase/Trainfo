@@ -8,11 +8,11 @@ const {
 } = require('./common/timetableUtils.cjs');
 
 const LINE_PATHS = {
-  chuo: path.resolve('src/data/lines/chuo/globalTimetable.json'),
-  chuo_main: path.resolve('src/data/lines/chuo_main/globalTimetable.json'),
-  shinonoi: path.resolve('src/data/lines/shinonoi/globalTimetable.json'),
-  shinonoiSt: path.resolve('src/data/lines/shinonoi/stationTimetables.json'),
-  oito_east: path.resolve('src/data/lines/oito_east/globalTimetable.json'),
+  jr_chuo: path.resolve('src/data/lines/jr_chuo/globalTimetable.json'),
+  jr_chuo_main: path.resolve('src/data/lines/jr_chuo_main/globalTimetable.json'),
+  jr_shinonoi: path.resolve('src/data/lines/jr_shinonoi/globalTimetable.json'),
+  shinonoiSt: path.resolve('src/data/lines/jr_shinonoi/stationTimetables.json'),
+  jr_oito_east: path.resolve('src/data/lines/jr_oito_east/globalTimetable.json'),
 };
 
 // 宣言的設定: 特急アルプス (42781 / 9011M) の運行パラメータ
@@ -20,7 +20,7 @@ const ALPS_CONFIG = {
   trainId: '42781',
   trainNumber: '9011M',
   trainName: 'アルプス',
-  trainType: 'limitedExp',
+  trainType: 'limited_exp',
   cars: 9,
   customOrigin: '新宿',
   customDestination: '白馬',
@@ -42,7 +42,7 @@ const ALPS_CONFIG = {
     m: 49,
     time: '49',
     sec: 4 * 3600 + 49 * 60,
-    t: 'limitedExp',
+    t: 'limited_exp',
     d: '白馬',
     no: '9011M',
     track: '1',
@@ -79,7 +79,7 @@ function extendAlpsTimetable() {
       trip.customDestination = ALPS_CONFIG.customDestination;
       trip.cars = ALPS_CONFIG.cars;
       trip.throughTripId = `cm_${prefix}_OUT_JC-05_2358_${ALPS_CONFIG.trainId}`;
-      trip.throughLineId = 'chuo_main';
+      trip.throughLineId = 'jr_chuo_main';
 
       const stops = trip.stops;
       let takaoStop = stops.find((s) => s.stationId === 'JC-24');
@@ -103,12 +103,12 @@ function extendAlpsTimetable() {
         takaoStop.departureTime = ALPS_CONFIG.takaoPassTime;
         takaoStop.isPassing = true;
       }
-      console.log(`  ✓ chuo ${trip.tripId} を高尾(00:53通過)まで整備・直通設定`);
+      console.log(`  ✓ jr_chuo ${trip.tripId} を高尾(00:53通過)まで整備・直通設定`);
     }
   }
 
   // 2. 中央本線 (chuo_main): 高尾 00:53通過 -> 塩尻 04:30通過 (区間標準所要秒数比で補間)
-  const cfg = require('./lines/chuo_main/config.cjs');
+  const cfg = require('./lines/jr_chuo_main/config.cjs');
   const stList = cfg.stations;
   const baseTable = cfg.baseSectionSeconds;
 
@@ -142,7 +142,7 @@ function extendAlpsTimetable() {
     const existingIdx = chuoMainTrips.findIndex((t) => t.tripId === tripId || (t.trainId === ALPS_CONFIG.trainId && t.isHoliday === isHoliday));
     const tripData = {
       tripId,
-      lineId: 'chuo_main',
+      lineId: 'jr_chuo_main',
       trainId: ALPS_CONFIG.trainId,
       trainNumber: ALPS_CONFIG.trainNumber,
       trainName: ALPS_CONFIG.trainName,
@@ -156,14 +156,14 @@ function extendAlpsTimetable() {
       isHoliday,
       stops: JSON.parse(JSON.stringify(chuoMainStops)),
       prevTripId: `${prefix}_OUT_JC-05_2358_${ALPS_CONFIG.trainId}`,
-      prevLineId: 'chuo',
+      prevLineId: 'jr_chuo',
       throughTripId: `sn_${prefix}_OUT_JC-05_2358_${ALPS_CONFIG.trainId}`,
-      throughLineId: 'shinonoi',
+      throughLineId: 'jr_shinonoi',
     };
 
     if (existingIdx !== -1) chuoMainTrips[existingIdx] = tripData;
     else chuoMainTrips.push(tripData);
-    console.log(`  ✓ chuo_main ${tripId} を全38駅(高尾00:53〜塩尻04:30)通過時刻補間・直通設定`);
+    console.log(`  ✓ jr_chuo_main ${tripId} を全38駅(高尾00:53〜塩尻04:30)通過時刻補間・直通設定`);
   }
 
   // 3. 篠ノ井線 (shinonoi): 塩尻 04:30通過 -> 松本 04:46着/04:49発
@@ -173,7 +173,7 @@ function extendAlpsTimetable() {
     const existingIdx = shinonoiTrips.findIndex((t) => t.tripId === tripId || (t.trainId === ALPS_CONFIG.trainId && t.isHoliday === isHoliday));
     const tripData = {
       tripId,
-      lineId: 'shinonoi',
+      lineId: 'jr_shinonoi',
       trainId: ALPS_CONFIG.trainId,
       trainNumber: ALPS_CONFIG.trainNumber,
       trainName: ALPS_CONFIG.trainName,
@@ -187,14 +187,14 @@ function extendAlpsTimetable() {
       isHoliday,
       stops: JSON.parse(JSON.stringify(ALPS_CONFIG.shinonoiStops)),
       prevTripId: `cm_${prefix}_OUT_JC-05_2358_${ALPS_CONFIG.trainId}`,
-      prevLineId: 'chuo_main',
+      prevLineId: 'jr_chuo_main',
       throughTripId: `${prefix}_OUT_OIE-01_0449_${ALPS_CONFIG.trainId}`,
-      throughLineId: 'oito_east',
+      throughLineId: 'jr_oito_east',
     };
 
     if (existingIdx !== -1) shinonoiTrips[existingIdx] = tripData;
     else shinonoiTrips.push(tripData);
-    console.log(`  ✓ shinonoi ${tripId} を新設(塩尻04:30通過〜松本04:46着/04:49発)・直通設定`);
+    console.log(`  ✓ jr_shinonoi ${tripId} を新設(塩尻04:30通過〜松本04:46着/04:49発)・直通設定`);
   }
 
   for (const day of ['weekday', 'holiday']) {
@@ -216,8 +216,8 @@ function extendAlpsTimetable() {
       trip.customDestination = ALPS_CONFIG.customDestination;
       trip.cars = ALPS_CONFIG.cars;
       trip.prevTripId = `sn_${prefix}_OUT_JC-05_2358_${ALPS_CONFIG.trainId}`;
-      trip.prevLineId = 'shinonoi';
-      console.log(`  ✓ oito_east ${trip.tripId} に先行リンク (shinonoi) を設定`);
+      trip.prevLineId = 'jr_shinonoi';
+      console.log(`  ✓ jr_oito_east ${trip.tripId} に先行リンク (shinonoi) を設定`);
     }
   }
 

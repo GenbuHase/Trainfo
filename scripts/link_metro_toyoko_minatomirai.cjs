@@ -193,7 +193,7 @@ function linkMetroToyokoMinatomirai() {
         f.throughTripId = matched.tripId;
         f.throughLineId = 'tokyu_toyoko';
         matched.prevTripId = f.tripId;
-        matched.prevLineId = 'fukutoshin';
+        matched.prevLineId = 'tokyo_metro_fukutoshin';
 
         // 境界駅での時刻シームレス同期
         const arrTime = f.stops[f.stops.length - 1].arrivalTime;
@@ -234,7 +234,7 @@ function linkMetroToyokoMinatomirai() {
       if (matched) {
         usedFIn.add(matched.tripId);
         ty.throughTripId = matched.tripId;
-        ty.throughLineId = 'fukutoshin';
+        ty.throughLineId = 'tokyo_metro_fukutoshin';
         matched.prevTripId = ty.tripId;
         matched.prevLineId = 'tokyu_toyoko';
 

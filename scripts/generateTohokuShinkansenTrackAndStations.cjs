@@ -155,7 +155,7 @@ const stationDefs = [
     address: '東京都千代田区丸の内一丁目',
     transfers: ['JR山手線', 'JR京浜東北線', 'JR東海道線', 'JR中央線', 'JR総武快速線', 'JR横須賀線', 'JR京葉線', 'JR上野東京ライン', '東海道新幹線', '東京メトロ丸ノ内線'],
     platforms: { inbound: '20-23番線', outbound: '20-23番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -170,7 +170,7 @@ const stationDefs = [
     address: '東京都台東区上野七丁目',
     transfers: ['JR山手線', 'JR京浜東北線', 'JR宇都宮線', 'JR高崎線', 'JR常磐線', 'JR上野東京ライン', '東京メトロ銀座線', '東京メトロ日比谷線', '京成本線'],
     platforms: { inbound: '20-22番線', outbound: '19-20番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -185,7 +185,7 @@ const stationDefs = [
     address: '埼玉県さいたま市大宮区錦町',
     transfers: ['JR埼京線', 'JR川越線', 'JR京浜東北線', 'JR宇都宮線', 'JR高崎線', 'JR湘南新宿ライン', '上越新幹線', '北陸新幹線', '東武野田線', 'ニューシャトル'],
     platforms: { inbound: '13-15番線', outbound: '16-18番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -200,7 +200,7 @@ const stationDefs = [
     address: '栃木県小山市城山町三丁目',
     transfers: ['JR宇都宮線', 'JR両毛線', 'JR水戸線'],
     platforms: { inbound: '4番線', outbound: '1・5番線' },
-    stoppingTypes: ['yamabiko', 'nasuno', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['yamabiko', 'nasuno', 'tsubasa', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -215,7 +215,7 @@ const stationDefs = [
     address: '栃木県宇都宮市川向町',
     transfers: ['JR宇都宮線', 'JR日光線', '宇都宮ライトレール'],
     platforms: { inbound: '1-4番線', outbound: '1-4番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'nasuno', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'nasuno', 'tsubasa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -230,7 +230,7 @@ const stationDefs = [
     address: '栃木県那須塩原市大原間',
     transfers: ['JR宇都宮線'],
     platforms: { inbound: '1-2番線', outbound: '5-6番線' },
-    stoppingTypes: ['yamabiko', 'nasuno', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['yamabiko', 'nasuno', 'tsubasa', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -245,7 +245,7 @@ const stationDefs = [
     address: '福島県西白河郡西郷村字道南東',
     transfers: ['JR東北本線'],
     platforms: { inbound: '1番線', outbound: '4番線' },
-    stoppingTypes: ['yamabiko', 'nasuno', 'limitedExp'],
+    stoppingTypes: ['yamabiko', 'nasuno', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -260,7 +260,7 @@ const stationDefs = [
     address: '福島県郡山市燧田',
     transfers: ['JR東北本線', 'JR磐越西線', 'JR磐越東線', 'JR水郡線'],
     platforms: { inbound: '11-12番線', outbound: '12-13番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'nasuno', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'nasuno', 'tsubasa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -275,7 +275,7 @@ const stationDefs = [
     address: '福島県福島市栄町',
     transfers: ['JR東北本線', 'JR奥羽本線（山形線）', '阿武隈急行線', '福島交通飯坂線'],
     platforms: { inbound: '11-12番線', outbound: '13-14番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'tsubasa', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'tsubasa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -290,7 +290,7 @@ const stationDefs = [
     address: '宮城県白石市大鷹沢三沢字桜坂',
     transfers: [],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['yamabiko', 'limitedExp'],
+    stoppingTypes: ['yamabiko', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -305,7 +305,7 @@ const stationDefs = [
     address: '宮城県仙台市青葉区中央一丁目',
     transfers: ['JR東北本線', 'JR常磐線', 'JR仙山線', 'JR仙石線', 'JR仙石東北ライン', '仙台市地下鉄南北線', '仙台市地下鉄東西線'],
     platforms: { inbound: '11-12番線', outbound: '13-14番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'komachi', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'komachi', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -320,7 +320,7 @@ const stationDefs = [
     address: '宮城県大崎市古川駅前大通一丁目',
     transfers: ['JR陸羽東線'],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -335,7 +335,7 @@ const stationDefs = [
     address: '宮城県栗原市志波姫新熊谷',
     transfers: [],
     platforms: { inbound: '11番線', outbound: '12番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -350,7 +350,7 @@ const stationDefs = [
     address: '岩手県一関市駅前',
     transfers: ['JR東北本線', 'JR大船渡線'],
     platforms: { inbound: '11-12番線', outbound: '12-13番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -365,7 +365,7 @@ const stationDefs = [
     address: '岩手県奥州市水沢羽田町駅前一丁目',
     transfers: [],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -380,7 +380,7 @@ const stationDefs = [
     address: '岩手県北上市大通り一丁目',
     transfers: ['JR東北本線', 'JR北上線'],
     platforms: { inbound: '11-12番線', outbound: '13番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -395,7 +395,7 @@ const stationDefs = [
     address: '岩手県花巻市矢沢第10地割',
     transfers: ['JR釜石線'],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['hayabusa', 'yamabiko', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'yamabiko', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -410,7 +410,7 @@ const stationDefs = [
     address: '岩手県盛岡市盛岡駅前通',
     transfers: ['JR東北本線', 'JR田沢湖線', 'JR山田線', 'IGRいわて銀河鉄道'],
     platforms: { inbound: '11-12番線', outbound: '13-14番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'komachi', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'yamabiko', 'komachi', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -425,7 +425,7 @@ const stationDefs = [
     address: '岩手県岩手郡岩手町大字江刈内第7地割',
     transfers: ['IGRいわて銀河鉄道'],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -440,7 +440,7 @@ const stationDefs = [
     address: '岩手県二戸市石切所字枋ノ木',
     transfers: ['IGRいわて銀河鉄道'],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -455,7 +455,7 @@ const stationDefs = [
     address: '青森県八戸市大字尻内町字館田',
     transfers: ['JR八戸線', '青い森鉄道'],
     platforms: { inbound: '11-12番線', outbound: '13-14番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -470,7 +470,7 @@ const stationDefs = [
     address: '青森県上北郡七戸町字荒熊内',
     transfers: [],
     platforms: { inbound: '1番線', outbound: '2番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -485,7 +485,7 @@ const stationDefs = [
     address: '青森県青森市大字石江字高間',
     transfers: ['JR奥羽本線', '北海道新幹線'],
     platforms: { inbound: '11-14番線', outbound: '11-14番線' },
-    stoppingTypes: ['hayabusa', 'hayate', 'limitedExp'],
+    stoppingTypes: ['hayabusa', 'hayate', 'limited_exp'],
     isMajor: true,
   },
 ];
@@ -552,7 +552,7 @@ const stationsTsContent = `import type { Station } from '../../../types';
 export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
 ${resolvedStations.map(s => `  {
     id: '${s.id}',
-    lineId: 'tohoku_shinkansen',
+    lineId: 'jr_tohoku_shinkansen',
     number: ${s.number},
     name: '${s.name}',
     nameKana: '${s.nameKana}',
@@ -575,8 +575,8 @@ ${resolvedStations.map(s => `  {
 ];
 `;
 
-fs.writeFileSync('src/data/lines/tohoku_shinkansen/stations.ts', stationsTsContent, 'utf8');
-console.log('Saved src/data/lines/tohoku_shinkansen/stations.ts');
+fs.writeFileSync('src/data/lines/jr_tohoku_shinkansen/stations.ts', stationsTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_tohoku_shinkansen/stations.ts');
 
 // Generate trackGeometry.ts content
 const trackGeometryTsContent = `import type { TrackSegment } from '../../../types';
@@ -584,5 +584,5 @@ const trackGeometryTsContent = `import type { TrackSegment } from '../../../type
 export const TOHOKU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/tohoku_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
-console.log('Saved src/data/lines/tohoku_shinkansen/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_tohoku_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_tohoku_shinkansen/trackGeometry.ts');

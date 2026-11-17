@@ -15,7 +15,7 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#008080',
   },
   rapid: TOBU_PRESETS.RAPID,
-  limitedExp: TOBU_PRESETS.LIMITED_EXP,
+  limited_exp: TOBU_PRESETS.LIMITED_EXP,
   aizu_ozatoro: {
     key: 'aizu_ozatoro',
     name: 'お座トロ展望列車',

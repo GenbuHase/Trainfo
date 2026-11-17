@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const YahooTimetableBuilder = require('./common/yahoo/YahooTimetableBuilder.cjs');
 
-const lineId = 'ou_fukushima_shinjo';
+const lineId = 'jr_ou_fukushima_shinjo';
 const config = require(`./lines/${lineId}/config.cjs`);
 const dir = path.resolve('src/data/lines', lineId);
 const trips = JSON.parse(fs.readFileSync(path.join(dir, 'globalTimetable.json'), 'utf8'));

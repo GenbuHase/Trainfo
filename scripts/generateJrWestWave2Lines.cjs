@@ -444,7 +444,7 @@ async function processLine(spec) {
       stoppingTypes.push('new_rapid'); // 新快速
     }
     if (['jr_takarazuka', 'jr_fukuchiyama_north', 'jr_osaka_higashi', 'jr_hanwa', 'jr_kansai_airport', 'jr_hokuriku_maibara_tsuruga'].includes(lineKey)) {
-      stoppingTypes.push('limitedExp'); // 特急（こうのとり、はるか、くろしお、サンダーバード、しらさぎ）
+      stoppingTypes.push('limited_exp'); // 特急（こうのとり、はるか、くろしお、サンダーバード、しらさぎ）
     }
 
     stationsOut.push({
@@ -496,7 +496,7 @@ async function processLine(spec) {
   const trackGeometryTsContent = `import type { TrackSegment } from '../../../types';\n\nexport const ${constNameUpper}_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};\n`;
   fs.writeFileSync(path.join(outDir, 'trackGeometry.ts'), trackGeometryTsContent, 'utf8');
 
-  // trainTypes.ts (特急は limitedExp 統一、固有名称で区別)
+  // trainTypes.ts (特急は limited_exp 統一、固有名称で区別)
   const trainTypesConfig = {
     local: {
       key: 'local',
@@ -604,9 +604,9 @@ async function processLine(spec) {
         borderColor: '#005080',
       }
     } : {}),
-    ...(stationsOut[0].stoppingTypes.includes('limitedExp') ? {
-      limitedExp: {
-        key: 'limitedExp',
+    ...(stationsOut[0].stoppingTypes.includes('limited_exp') ? {
+      limited_exp: {
+        key: 'limited_exp',
         name: '特急',
         nameEn: 'Limited Express',
         shortName: '特急',
@@ -729,7 +729,7 @@ module.exports = {
     '紀州路快速': 'kishuji_rapid',
     '丹波路快速': 'tambaji_rapid',
     '新快速': 'new_rapid',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   defaultCars: ${spec.defaultCars},
 };

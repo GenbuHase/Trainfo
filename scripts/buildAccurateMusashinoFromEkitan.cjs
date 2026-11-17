@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 const raw = JSON.parse(fs.readFileSync('scripts/ekitan_musashino_raw_timetables.json', 'utf8'));
-const stations = JSON.parse(fs.readFileSync('src/data/lines/musashino/stations.ts', 'utf8')
+const stations = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/stations.ts', 'utf8')
   .match(/export const MUSASHINO_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m)[1]);
 
 const stMap = new Map(stations.map(s => [s.id, s]));
@@ -330,7 +330,7 @@ const allTrips = [];
       if (stops) {
         allTrips.push({
           tripId: `${prefix}_OUT_MUSASHINO_${trainNo}`,
-          lineId: 'musashino',
+          lineId: 'jr_musashino',
           trainNumber: trainNo,
           trainType: 'regular',
           direction: 'outbound',
@@ -364,7 +364,7 @@ const allTrips = [];
       if (stops && stops.length >= 2) {
         allTrips.push({
           tripId: `${prefix}_OUT_SHIMOUSA_${trainNo}`,
-          lineId: 'musashino',
+          lineId: 'jr_musashino',
           trainNumber: trainNo,
           trainType: 'regular',
           direction: 'outbound',
@@ -416,7 +416,7 @@ const allTrips = [];
     if (stops && stops.length >= 2) {
       allTrips.push({
         tripId: `${prefix}_OUT_${trainNo}`,
-        lineId: 'musashino',
+        lineId: 'jr_musashino',
         trainNumber: trainNo,
         trainType: 'local',
         direction: 'outbound',
@@ -461,7 +461,7 @@ const allTrips = [];
       if (stops && stops.length >= 2) {
         allTrips.push({
           tripId: `${prefix}_IN_SHIMOUSA_${mNo}`,
-          lineId: 'musashino',
+          lineId: 'jr_musashino',
           trainNumber: `${mNo}`,
           trainType: 'regular',
           direction: 'inbound',
@@ -491,7 +491,7 @@ const allTrips = [];
       if (stops) {
         allTrips.push({
           tripId: `${prefix}_IN_MUSASHINO_${trainNo}`,
-          lineId: 'musashino',
+          lineId: 'jr_musashino',
           trainNumber: trainNo,
           trainType: 'regular',
           direction: 'inbound',
@@ -564,7 +564,7 @@ const allTrips = [];
     if (stops && stops.length >= 2) {
       allTrips.push({
         tripId: `${prefix}_IN_${trainNo}`,
-        lineId: 'musashino',
+        lineId: 'jr_musashino',
         trainNumber: trainNo,
         trainType: 'local',
         direction: 'inbound',
@@ -581,8 +581,8 @@ const allTrips = [];
 
 console.log(`Generated chained accurate timetable with ${allTrips.length} trips!`);
 
-fs.writeFileSync('src/data/lines/musashino/stationTimetables.json', JSON.stringify(stationTimetables, null, 2), 'utf8');
-console.log('Saved src/data/lines/musashino/stationTimetables.json');
+fs.writeFileSync('src/data/lines/jr_musashino/stationTimetables.json', JSON.stringify(stationTimetables, null, 2), 'utf8');
+console.log('Saved src/data/lines/jr_musashino/stationTimetables.json');
 
-fs.writeFileSync('src/data/lines/musashino/globalTimetable.json', JSON.stringify(allTrips, null, 2), 'utf8');
-console.log('Saved src/data/lines/musashino/globalTimetable.json');
+fs.writeFileSync('src/data/lines/jr_musashino/globalTimetable.json', JSON.stringify(allTrips, null, 2), 'utf8');
+console.log('Saved src/data/lines/jr_musashino/globalTimetable.json');

@@ -133,7 +133,7 @@ const STATION_DEFS = [
     transfers: ['JR中央本線', 'JR中央本線(辰野支線)'],
     address: '長野県塩尻市大門八番町',
     platforms: { inbound: '1・3・4番線', outbound: '1・3・4番線' },
-    stoppingTypes: ['regular', 'rapid', 'limitedExp'],
+    stoppingTypes: ['regular', 'rapid', 'limited_exp'],
     lat: 36.1144795,
     lng: 137.9475995,
     isMajor: true,
@@ -199,7 +199,7 @@ const STATION_DEFS = [
     transfers: ['JR大糸線', 'アルピコ交通上高地線'],
     address: '長野県松本市深志一丁目',
     platforms: { inbound: '1〜5番線', outbound: '1〜5番線' },
-    stoppingTypes: ['regular', 'rapid', 'limitedExp'],
+    stoppingTypes: ['regular', 'rapid', 'limited_exp'],
     lat: 36.230739,
     lng: 137.9643862,
     isMajor: true,
@@ -226,7 +226,7 @@ const STATION_DEFS = [
     transfers: [],
     address: '長野県安曇野市明科中川手',
     platforms: { inbound: '1番線', outbound: '2・3番線' },
-    stoppingTypes: ['regular', 'rapid', 'limitedExp'],
+    stoppingTypes: ['regular', 'rapid', 'limited_exp'],
     lat: 36.3543382,
     lng: 137.9304795,
     isMajor: true,
@@ -266,7 +266,7 @@ const STATION_DEFS = [
     transfers: [],
     address: '長野県東筑摩郡麻績村麻',
     platforms: { inbound: '1番線', outbound: '2・3番線' },
-    stoppingTypes: ['regular', 'rapid', 'limitedExp'],
+    stoppingTypes: ['regular', 'rapid', 'limited_exp'],
     lat: 36.4550568,
     lng: 138.0471691,
     isMajor: true,
@@ -320,7 +320,7 @@ const STATION_DEFS = [
     transfers: ['しなの鉄道線'],
     address: '長野県長野市篠ノ井布施高田',
     platforms: { inbound: '1・2・3番線', outbound: '1・2・3番線' },
-    stoppingTypes: ['regular', 'rapid', 'limitedExp'],
+    stoppingTypes: ['regular', 'rapid', 'limited_exp'],
     lat: 36.5774379,
     lng: 138.1380209,
     isMajor: true,
@@ -373,7 +373,7 @@ const STATION_DEFS = [
     transfers: ['JR北陸新幹線', 'しなの鉄道北しなの線', '長野電鉄長野線'],
     address: '長野県長野市大字栗田',
     platforms: { inbound: '2〜7番線', outbound: '2〜7番線' },
-    stoppingTypes: ['regular', 'rapid', 'limitedExp'],
+    stoppingTypes: ['regular', 'rapid', 'limited_exp'],
     lat: 36.643211,
     lng: 138.1884854,
     isMajor: true,
@@ -450,7 +450,7 @@ export const SHINONOI_STATIONS: Station[] = ${JSON.stringify(
     address: s.address,
     platforms: s.platforms,
     stoppingTypes: s.stoppingTypes,
-    lineId: 'shinonoi',
+    lineId: 'jr_shinonoi',
     lat: s.lat,
     lng: s.lng,
     isMajor: s.isMajor || false,
@@ -467,9 +467,9 @@ export const SHINONOI_STATIONS: Station[] = ${JSON.stringify(
 )};
 `;
 
-fs.mkdirSync('src/data/lines/shinonoi', { recursive: true });
-fs.writeFileSync('src/data/lines/shinonoi/stations.ts', stationsCode);
-console.log('Saved src/data/lines/shinonoi/stations.ts');
+fs.mkdirSync('src/data/lines/jr_shinonoi', { recursive: true });
+fs.writeFileSync('src/data/lines/jr_shinonoi/stations.ts', stationsCode);
+console.log('Saved src/data/lines/jr_shinonoi/stations.ts');
 
 // 8.2 trackGeometry.ts
 const geometryCode = `// JR篠ノ井線 軌道ジオメトリデータ (OSM Relation 1926390 / 1983032 高精度スナップ連結)
@@ -477,5 +477,5 @@ import type { TrackSegment } from '../../../types';
 
 export const SHINONOI_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};
 `;
-fs.writeFileSync('src/data/lines/shinonoi/trackGeometry.ts', geometryCode);
-console.log('Saved src/data/lines/shinonoi/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_shinonoi/trackGeometry.ts', geometryCode);
+console.log('Saved src/data/lines/jr_shinonoi/trackGeometry.ts');

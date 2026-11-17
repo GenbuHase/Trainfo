@@ -1,31 +1,31 @@
 // Trainfo 共通型定義ファイル
 
 export type LineId =
-  | 'tojo'
-  | 'ogose'
-  | 'saikyo'
-  | 'kawagoe'
+  | 'tobu_tojo'
+  | 'tobu_ogose'
+  | 'jr_saikyo'
+  | 'jr_kawagoe'
   | 'rinkai'
-  | 'hachiko'
-  | 'itsukaichi'
-  | 'musashino'
+  | 'jr_hachiko'
+  | 'jr_itsukaichi'
+  | 'jr_musashino'
   | 'tsukuba_express'
-  | 'chuo'
-  | 'chuo_main'
-  | 'shinonoi'
-  | 'oito_east'
-  | 'oito_west'
-  | 'yurakucho'
-  | 'fukutoshin'
-  | 'hibiya'
-  | 'marunouchi'
-  | 'hanzomon'
-  | 'ginza'
-  | 'namboku'
-  | 'tozai'
+  | 'jr_chuo'
+  | 'jr_chuo_main'
+  | 'jr_shinonoi'
+  | 'jr_oito_east'
+  | 'jr_oito_west'
+  | 'tokyo_metro_yurakucho'
+  | 'tokyo_metro_fukutoshin'
+  | 'tokyo_metro_hibiya'
+  | 'tokyo_metro_marunouchi'
+  | 'tokyo_metro_hanzomon'
+  | 'tokyo_metro_ginza'
+  | 'tokyo_metro_namboku'
+  | 'tokyo_metro_tozai'
   | 'seibu_ikebukuro'
   | 'seibu_yurakucho'
-  | 'ome'
+  | 'jr_ome'
   | 'chichibu'
   | 'odakyu_odawara'
   | 'odakyu_enoshima'
@@ -36,36 +36,36 @@ export type LineId =
   | 'sotetsu_shin_yokohama'
   | 'sotetsu_main'
   | 'sotetsu_izumino'
-  | 'sotetsu_jr_direct'
-  | 'chiyoda'
-  | 'joban_local'
-  | 'joban_rapid'
-  | 'joban_toride_iwaki'
-  | 'joban_iwaki_sendai'
-  | 'tohoku_shinkansen'
-  | 'joetsu_shinkansen'
-  | 'tokaido'
-  | 'takasaki'
-  | 'utsunomiya'
-  | 'ueno_tokyo'
-  | 'shonan_shinjuku'
-  | 'yokosuka'
-  | 'sobu_rapid'
-  | 'ito'
-  | 'ryomo'
-  | 'joetsu'
-  | 'shinetsu_naoetsu_niigata'
-  | 'shinetsu_takasaki_yokokawa'
-  | 'hakushin'
-  | 'uetsu_main'
-  | 'tadami'
-  | 'banetsu_west'
-  | 'banetsu_east'
-  | 'myoko_haneuma'
-  | 'kita_shinano'
-  | 'nihonkai_hisui'
+  | 'jr_sotetsu_jr_direct'
+  | 'tokyo_metro_chiyoda'
+  | 'jr_joban_local'
+  | 'jr_joban_rapid'
+  | 'jr_joban_toride_iwaki'
+  | 'jr_joban_iwaki_sendai'
+  | 'jr_tohoku_shinkansen'
+  | 'jr_joetsu_shinkansen'
+  | 'jr_tokaido'
+  | 'jr_takasaki'
+  | 'jr_utsunomiya'
+  | 'jr_ueno_tokyo'
+  | 'jr_shonan_shinjuku'
+  | 'jr_yokosuka'
+  | 'jr_sobu_rapid'
+  | 'jr_ito'
+  | 'jr_ryomo'
+  | 'jr_joetsu'
+  | 'jr_shinetsu_naoetsu_niigata'
+  | 'jr_shinetsu_takasaki_yokokawa'
+  | 'jr_hakushin'
+  | 'jr_uetsu_main'
+  | 'jr_tadami'
+  | 'jr_banetsu_west'
+  | 'jr_banetsu_east'
+  | 'echigo_tokimeki_myoko_haneuma'
+  | 'shinano_kita_shinano'
+  | 'echigo_tokimeki_nihonkai_hisui'
   | 'hokuhoku'
-  | 'hokuriku_shinkansen'
+  | 'jr_hokuriku_shinkansen'
   | 'tobu_skytree'
   | 'tobu_isesaki'
   | 'tobu_kameido'
@@ -79,64 +79,64 @@ export type LineId =
   | 'tobu_urban_park'
   | 'yagan'
   | 'aizu'
-  | 'yamagata_shinkansen'
-  | 'akita_shinkansen'
-  | 'ou_fukushima_shinjo'
-  | 'ou_shinjo_omagari'
-  | 'ou_omagari_akita'
-  | 'ou_akita_aomori'
+  | 'jr_yamagata_shinkansen'
+  | 'jr_akita_shinkansen'
+  | 'jr_ou_fukushima_shinjo'
+  | 'jr_ou_shinjo_omagari'
+  | 'jr_ou_omagari_akita'
+  | 'jr_ou_akita_aomori'
   | 'fujikyu'
-  | 'gotemba'
+  | 'jr_gotemba'
   | 'izukyu'
   | 'izuhakone_sunzu'
-  | 'yamanote'
-  | 'keiyo'
-  | 'sotobo'
-  | 'sobu_main'
-  | 'narita'
-  | 'togane'
-  | 'kururi'
-  | 'chuo_sobu_local'
-  | 'keihin_tohoku_negishi'
-  | 'yokohama'
-  | 'nambu'
-  | 'tsurumi'
-  | 'uchibo'
-  | 'tokaido_shinkansen'
-  | 'sanyo_shinkansen'
-  | 'tokaido_atami_toyohashi'
-  | 'tokaido_toyohashi_maibara'
-  | 'tokaido_minoakasaka'
+  | 'jr_yamanote'
+  | 'jr_keiyo'
+  | 'jr_sotobo'
+  | 'jr_sobu_main'
+  | 'jr_narita'
+  | 'jr_togane'
+  | 'jr_kururi'
+  | 'jr_chuo_sobu_local'
+  | 'jr_keihin_tohoku_negishi'
+  | 'jr_yokohama'
+  | 'jr_nambu'
+  | 'jr_tsurumi'
+  | 'jr_uchibo'
+  | 'jr_tokaido_shinkansen'
+  | 'jr_sanyo_shinkansen'
+  | 'jr_tokaido_atami_toyohashi'
+  | 'jr_tokaido_toyohashi_maibara'
+  | 'jr_tokaido_minoakasaka'
   | 'jr_biwako'
   | 'jr_kyoto'
   | 'jr_kobe'
-  | 'tohoku_kuroiso_fukushima'
-  | 'tohoku_fukushima_sendai'
-  | 'tohoku_sendai_ichinoseki'
-  | 'tohoku_rifu'
-  | 'tohoku_ichinoseki_morioka'
+  | 'jr_tohoku_kuroiso_fukushima'
+  | 'jr_tohoku_fukushima_sendai'
+  | 'jr_tohoku_sendai_ichinoseki'
+  | 'jr_tohoku_rifu'
+  | 'jr_tohoku_ichinoseki_morioka'
   | 'igr_iwate_ginga'
   | 'aoimori'
-  | 'senseki'
-  | 'senseki_tohoku'
-  | 'ishinomaki'
-  | 'rikuu_east'
-  | 'rikuu_west'
-  | 'senzan'
+  | 'jr_senseki'
+  | 'jr_senseki_tohoku'
+  | 'jr_ishinomaki'
+  | 'jr_rikuu_east'
+  | 'jr_rikuu_west'
+  | 'jr_senzan'
   | 'sendai_airport'
-  | 'kitakami'
-  | 'ofunato'
-  | 'ofunato_brt'
-  | 'kesennuma'
-  | 'kesennuma_brt'
-  | 'kamaishi'
-  | 'tazawako'
-  | 'yamada'
-  | 'hachinohe'
-  | 'ominato'
-  | 'tsugaru'
-  | 'gono'
-  | 'oga'
+  | 'jr_kitakami'
+  | 'jr_ofunato'
+  | 'jr_ofunato_brt'
+  | 'jr_kesennuma'
+  | 'jr_kesennuma_brt'
+  | 'jr_kamaishi'
+  | 'jr_tazawako'
+  | 'jr_yamada'
+  | 'jr_hachinohe'
+  | 'jr_ominato'
+  | 'jr_tsugaru'
+  | 'jr_gono'
+  | 'jr_oga'
   // JR東海（東海エリア）
   | 'jr_chuo_west'
   | 'jr_takayama'
@@ -185,9 +185,9 @@ export type LineId =
 export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
   | 'regular'                 // 普通（むさしの号・しもうさ号・中央本線・篠ノ井線・大糸線等）
-  | 'section_semi'            // 区間準急（東武線等）
-  | 'semiExp'                 // 準急
-  | 'commuter_semi'           // 通勤準急（西武線等）
+  | 'section_semi_exp'            // 区間準急（東武線等）
+  | 'semi_exp'                 // 準急
+  | 'commuter_semi_exp'           // 通勤準急（西武線等）
   | 'section_exp'             // 区間急行（東武線等）
   | 'express'                 // 急行（急行秩父路、東武線等）
   | 'commuter_exp'            // 通勤急行（副都心線、西武線等）
@@ -195,21 +195,19 @@ export type TrainTypeKey =
   | 'rapid_acty'              // 快速アクティー（東海道線）
   | 'rapid_rabbit'            // 快速ラビット（宇都宮線）
   | 'rapid_urban'             // 快速アーバン（高崎線）
-  | 'commuter'                // 通勤快速（埼京線、中央線等）
+  | 'commuter_rapid'          // 通勤快速（埼京線、中央線、つくばエクスプレス等）
   | 'semi_rapid'              // 区間快速（つくばエクスプレス、東武線等）
-  | 'commuter_rapid'          // 通勤快速（つくばエクスプレス等）
   | 'special_rapid'           // 特別快速（中央線等）
   | 'chuo_special_rapid'      // 中央特快（中央線）
   | 'ome_special_rapid'       // 青梅特快（中央線）
   | 'commuter_special_rapid'  // 通勤特快（中央線）
-  | 'limitedExp'              // 特急（あずさ・かいじ・スペーシア・リバティ・りょうもう・きぬ・けごん等）
-  | 'commuter_ltd_exp'        // 通勤特急（東急東横線・みなとみらい線等）
-  | 'ltd_exp'                 // 特急（東急東横線・みなとみらい線等）
-  | 'rapidExp'                // 快速急行
-  | 'kawagoeExp'              // 川越特急
-  | 'tjLiner'                 // TJライナー
+  | 'limited_exp'             // 特急（あずさ・かいじ・スペーシア・リバティ・りょうもう・きぬ・けごん・東急特急等）
+  | 'commuter_limited_exp'    // 通勤特急（東急東横線・みなとみらい線等）
+  | 'rapid_exp'               // 快速急行
+  | 'kawagoe_exp'              // 川越特急
+  | 'tj_liner'                 // TJライナー
   | 'th_liner'                // THライナー（日比谷線・東武スカイツリーライン直通）
-  | 'strain'                  // S-TRAIN（西武・メトロ・東急直通）
+  | 's_train'                  // S-TRAIN（西武・メトロ・東急直通）
   | 'sl'                      // SL（パレオエクスプレス）
   | 'sl_taiju'                // SL大樹（東武鬼怒川線・日光線）
   | 'aizu_ozatoro'            // お座トロ展望列車（会津鉄道）
@@ -276,7 +274,7 @@ export interface StationFacilities {
 export interface Station {
   id: string;          // 例: 'TJ-01', 'JA-12'
   stationNumber?: string; // 公式・表示用駅ナンバリング (例: 'JU-01', 'TJ-01')。ナンバリングなし駅は未定義
-  lineId: LineId;      // 所属路線 ('tojo', 'saikyo' 等)
+  lineId: LineId;      // 所属路線 ('tobu_tojo', 'jr_saikyo' 等)
   number: number;      // ナンバリング番号または駅順
   name: string;        // '池袋'
   nameKana: string;    // 'いけぶくろ'
@@ -316,7 +314,7 @@ export interface TrainNumberSection {
   trainNumber: string;    // その区間での公式列車番号 (例: '9028M', '9731M', 'E151K')
   fromStationId: string;  // 適用開始駅ID (例: 'ueno', 'TJ-11')
   toStationId?: string;   // 適用終了駅ID（省略時は次セクションまで、または終着駅）
-  trainType?: TrainTypeKey; // 区間内で種別も変化する場合に指定 (例: 'rapidExp' -> 'express')
+  trainType?: TrainTypeKey; // 区間内で種別も変化する場合に指定 (例: 'rapid_exp' -> 'express')
   reason?: 'DIRECTION_REVERSAL' | 'THROUGH_LINE' | 'OPERATOR_BOUNDARY';
 }
 

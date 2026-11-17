@@ -130,7 +130,7 @@ module.exports = {
     "新快速": "special_rapid",
     "みやこ路快速": "miyako_rapid",
     "丹波路快速": "tambaji_rapid",
-    "特急": "limitedExp"
+    "特急": "limited_exp"
 },
   interpolatePassingStations: true,
 };

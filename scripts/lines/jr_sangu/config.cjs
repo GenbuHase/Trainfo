@@ -86,7 +86,7 @@ module.exports = {
     '快速': 'rapid',
     '区間快速': 'semi_rapid',
     '快速みえ': 'rapid_mie',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   defaultCars: 2,
 };

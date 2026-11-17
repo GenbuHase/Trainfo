@@ -24,10 +24,10 @@ export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapidExp",
+      "rapid_exp",
       "express",
       "rapid",
-      "semiExp",
+      "semi_exp",
       "local"
     ],
     "isMajor": true,
@@ -88,11 +88,11 @@ export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "strain",
-      "rapidExp",
+      "s_train",
+      "rapid_exp",
       "express",
       "rapid",
-      "semiExp",
+      "semi_exp",
       "local"
     ],
     "isMajor": true,

@@ -8,12 +8,12 @@ const {
 } = require('./common/timetableUtils.cjs');
 
 const LINE_PATHS = {
-  chuo_sobu_local: path.resolve('src/data/lines/chuo_sobu_local/globalTimetable.json'),
-  sobu_rapid: path.resolve('src/data/lines/sobu_rapid/globalTimetable.json'),
-  uchibo: path.resolve('src/data/lines/uchibo/globalTimetable.json'),
-  sotobo: path.resolve('src/data/lines/sotobo/globalTimetable.json'),
-  keiyo: path.resolve('src/data/lines/keiyo/globalTimetable.json'),
-  sobu_main: path.resolve('src/data/lines/sobu_main/globalTimetable.json'),
+  jr_chuo_sobu_local: path.resolve('src/data/lines/jr_chuo_sobu_local/globalTimetable.json'),
+  jr_sobu_rapid: path.resolve('src/data/lines/jr_sobu_rapid/globalTimetable.json'),
+  jr_uchibo: path.resolve('src/data/lines/jr_uchibo/globalTimetable.json'),
+  jr_sotobo: path.resolve('src/data/lines/jr_sotobo/globalTimetable.json'),
+  jr_keiyo: path.resolve('src/data/lines/jr_keiyo/globalTimetable.json'),
+  jr_sobu_main: path.resolve('src/data/lines/jr_sobu_main/globalTimetable.json'),
 };
 
 const CSL_STATION_IDS = Array.from({ length: 39 }, (_, i) => `JB-${(i + 1).toString().padStart(2, '0')}`);
@@ -35,9 +35,9 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
     logLabel: '上り 新宿さざなみ2号 (HD) 3線相互直通リンク完了 (館山 -> 蘇我 -> 千葉 -> 新宿)',
     clearKeiyoFromTripId: 'HD_INB_UB-22_1507_14406',
     segments: [
-      { lineId: 'uchibo', tripId: 'HD_INB_UB-22_1507_14406', mustExist: true },
+      { lineId: 'jr_uchibo', tripId: 'HD_INB_UB-22_1507_14406', mustExist: true },
       {
-        lineId: 'sotobo',
+        lineId: 'jr_sotobo',
         tripId: 'HD_INB_SB-03_1625_14406',
         originStationId: 'SB-03',
         destinationStationId: 'SB-01',
@@ -48,7 +48,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
         ],
       },
       {
-        lineId: 'chuo_sobu_local',
+        lineId: 'jr_chuo_sobu_local',
         tripId: 'HD_INB_JB-39_1631_14406',
         originStationId: 'JB-39',
         destinationStationId: 'JB-10',
@@ -75,7 +75,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
     clearKeiyoFromTripId: 'HD_INB_UB-22_1602_14408',
      segments: [
       {
-        lineId: 'uchibo',
+        lineId: 'jr_uchibo',
         tripId: 'HD_INB_UB-22_1602_14408',
         mustExist: true,
         stopOverrides: {
@@ -87,7 +87,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
         },
       },
       {
-        lineId: 'sotobo',
+        lineId: 'jr_sotobo',
         tripId: 'HD_INB_SB-03_1719_14408',
         originStationId: 'SB-03',
         destinationStationId: 'SB-01',
@@ -98,7 +98,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
         ],
       },
       {
-        lineId: 'chuo_sobu_local',
+        lineId: 'jr_chuo_sobu_local',
         tripId: 'HD_INB_JB-39_1724_14408',
         originStationId: 'JB-39',
         destinationStationId: 'JB-10',
@@ -123,9 +123,9 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
     customDestination: '新宿',
     logLabel: '上り 新宿わかしお2号 (HD) 2線相互直通リンク完了 (安房鴨川 -> 千葉 -> 新宿)',
     segments: [
-      { lineId: 'sotobo', tripId: 'HD_INB_SB-27_1617_14419', mustExist: true },
+      { lineId: 'jr_sotobo', tripId: 'HD_INB_SB-27_1617_14419', mustExist: true },
       {
-        lineId: 'chuo_sobu_local',
+        lineId: 'jr_chuo_sobu_local',
         tripId: 'HD_INB_JB-39_1739_14419',
         originStationId: 'JB-39',
         destinationStationId: 'JB-10',
@@ -151,7 +151,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
     logLabel: '下り 新宿さざなみ1号 (HD) 3線相互直通リンク完了 (新宿 -> 千葉 -> 蘇我 -> 館山)',
     segments: [
       {
-        lineId: 'chuo_sobu_local',
+        lineId: 'jr_chuo_sobu_local',
         tripId: 'HD_OUT_JB-10_0752_14399',
         originStationId: 'JB-10',
         destinationStationId: 'JB-39',
@@ -163,7 +163,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
         ],
       },
       {
-        lineId: 'sotobo',
+        lineId: 'jr_sotobo',
         tripId: 'HD_OUT_SB-01_0837_14399',
         originStationId: 'SB-01',
         destinationStationId: 'SB-03',
@@ -173,7 +173,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
           { stationId: 'SB-03', arrivalTime: '08:43:00', departureTime: '08:45:00', isPassing: false },
         ],
       },
-      { lineId: 'uchibo', tripId: 'HD_OUT_UB-01_0845_14399', mustExist: true },
+      { lineId: 'jr_uchibo', tripId: 'HD_OUT_UB-01_0845_14399', mustExist: true },
     ],
   },
   // 5. 下り 新宿さざなみ3号 (14400) - 休日: 中央総武線(新宿〜千葉) -> 外房線(千葉〜蘇我) -> 内房線(蘇我〜館山)
@@ -189,7 +189,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
     logLabel: '下り 新宿さざなみ3号 (HD) 3線相互直通リンク完了 (新宿 -> 千葉 -> 蘇我 -> 館山)',
     segments: [
       {
-        lineId: 'chuo_sobu_local',
+        lineId: 'jr_chuo_sobu_local',
         tripId: 'HD_OUT_JB-10_0908_14400',
         originStationId: 'JB-10',
         destinationStationId: 'JB-39',
@@ -201,7 +201,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
         ],
       },
       {
-        lineId: 'sotobo',
+        lineId: 'jr_sotobo',
         tripId: 'HD_OUT_SB-01_0952_14400',
         originStationId: 'SB-01',
         destinationStationId: 'SB-03',
@@ -211,7 +211,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
           { stationId: 'SB-03', arrivalTime: '09:58:00', departureTime: '10:01:00', isPassing: false },
         ],
       },
-      { lineId: 'uchibo', tripId: 'HD_OUT_UB-01_1001_14400', mustExist: true },
+      { lineId: 'jr_uchibo', tripId: 'HD_OUT_UB-01_1001_14400', mustExist: true },
     ],
   },
   // 6. 下り 新宿わかしお1号 (14414) - 休日: 中央総武線(新宿〜千葉) -> 外房線(千葉〜安房鴨川)
@@ -227,7 +227,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
     logLabel: '下り 新宿わかしお1号 (HD) 2線相互直通リンク完了 (新宿 -> 千葉 -> 安房鴨川)',
     segments: [
       {
-        lineId: 'chuo_sobu_local',
+        lineId: 'jr_chuo_sobu_local',
         tripId: 'HD_OUT_JB-10_0721_14414',
         originStationId: 'JB-10',
         destinationStationId: 'JB-39',
@@ -238,7 +238,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
           { stationId: 'JB-39', arrivalTime: '08:06:00', departureTime: '08:10:00' },
         ],
       },
-      { lineId: 'sotobo', tripId: 'HD_OUT_SB-01_0810_14414', mustExist: true },
+      { lineId: 'jr_sotobo', tripId: 'HD_OUT_SB-01_0810_14414', mustExist: true },
     ],
   },
 ];
@@ -248,7 +248,7 @@ const SHINJUKU_BOSO_EXPRESS_CHAINS = [
 // ============================================================================
 const REGULAR_BOSO_METADATA_RULES = [
   {
-    lines: ['keiyo'],
+    lines: ['jr_keiyo'],
     includeKeywords: ['さざなみ', 'わかしお'],
     excludeKeywords: ['新宿'],
     outboundOrigin: '東京',
@@ -256,14 +256,14 @@ const REGULAR_BOSO_METADATA_RULES = [
     inboundDest: '東京',
   },
   {
-    lines: ['uchibo', 'sotobo'],
+    lines: ['jr_uchibo', 'jr_sotobo'],
     includeKeywords: ['さざなみ', 'わかしお'],
     excludeKeywords: ['新宿'],
     outboundOrigin: '東京',
     inboundDest: '東京',
   },
   {
-    lines: ['sobu_rapid', 'sobu_main'],
+    lines: ['jr_sobu_rapid', 'jr_sobu_main'],
     includeKeywords: ['しおさい'],
     excludeKeywords: [],
     outboundOrigin: '東京',
@@ -276,12 +276,12 @@ function bridgeBosoLimitedExpress() {
   console.log('=== 🏖️ 房総特急（新宿さざなみ・新宿わかしお・さざなみ・わかしお・しおさい）ダイヤ補完＆直通リンク開始 ===');
 
   const lineData = {
-    chuo_sobu_local: safeReadJson(LINE_PATHS.chuo_sobu_local),
-    sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
-    uchibo: safeReadJson(LINE_PATHS.uchibo),
-    sotobo: safeReadJson(LINE_PATHS.sotobo),
-    keiyo: safeReadJson(LINE_PATHS.keiyo),
-    sobu_main: safeReadJson(LINE_PATHS.sobu_main),
+    jr_chuo_sobu_local: safeReadJson(LINE_PATHS.chuo_sobu_local),
+    jr_sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
+    jr_uchibo: safeReadJson(LINE_PATHS.uchibo),
+    jr_sotobo: safeReadJson(LINE_PATHS.sotobo),
+    jr_keiyo: safeReadJson(LINE_PATHS.keiyo),
+    jr_sobu_main: safeReadJson(LINE_PATHS.sobu_main),
   };
 
   // 0-1. 総武快速線から新宿発着房総特急の不要・孤立トリップを除去
@@ -289,7 +289,7 @@ function bridgeBosoLimitedExpress() {
   lineData.sobu_rapid = lineData.sobu_rapid.filter((t) => !isShinjukuBoso(t));
 
   // 0-2. 新宿さざなみ・新宿わかしおは土休日運転のため、平日ダイヤから誤登録されたトリップを除去
-  for (const key of ['chuo_sobu_local', 'sotobo', 'uchibo']) {
+  for (const key of ['jr_chuo_sobu_local', 'jr_sotobo', 'jr_uchibo']) {
     lineData[key] = lineData[key].filter((t) => t.isHoliday || !isShinjukuBoso(t));
   }
 
@@ -320,7 +320,7 @@ function bridgeBosoLimitedExpress() {
           lineId: seg.lineId,
           trainId: chain.trainId,
           trainNumber: chain.trainNumber,
-          trainType: 'limitedExp',
+          trainType: 'limited_exp',
           trainName: chain.trainName,
           direction: chain.direction,
           originStationId: seg.originStationId,

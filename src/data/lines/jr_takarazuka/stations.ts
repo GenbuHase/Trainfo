@@ -25,7 +25,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -57,7 +57,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -89,7 +89,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -121,7 +121,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -153,7 +153,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -185,7 +185,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -217,7 +217,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -252,7 +252,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -284,7 +284,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -316,7 +316,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -348,7 +348,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -380,7 +380,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -414,7 +414,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -446,7 +446,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -478,7 +478,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -510,7 +510,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -542,7 +542,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -574,7 +574,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -606,7 +606,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -638,7 +638,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -672,7 +672,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

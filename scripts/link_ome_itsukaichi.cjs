@@ -2,9 +2,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const omePath = path.resolve('src/data/lines/ome/globalTimetable.json');
-const itsukaichiPath = path.resolve('src/data/lines/itsukaichi/globalTimetable.json');
-const itsukaichiStationPath = path.resolve('src/data/lines/itsukaichi/stationTimetables.json');
+const omePath = path.resolve('src/data/lines/jr_ome/globalTimetable.json');
+const itsukaichiPath = path.resolve('src/data/lines/jr_itsukaichi/globalTimetable.json');
+const itsukaichiStationPath = path.resolve('src/data/lines/jr_itsukaichi/stationTimetables.json');
 
 const omeTrips = JSON.parse(fs.readFileSync(omePath, 'utf8'));
 const itsukaichiTrips = JSON.parse(fs.readFileSync(itsukaichiPath, 'utf8'));
@@ -15,8 +15,8 @@ function loadStations(filePath) {
   const match = content.match(/export const [A-Z0-9_]+: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
   return eval(match[1]);
 }
-const omeStations = loadStations('src/data/lines/ome/stations.ts');
-const itsukaichiStations = loadStations('src/data/lines/itsukaichi/stations.ts');
+const omeStations = loadStations('src/data/lines/jr_ome/stations.ts');
+const itsukaichiStations = loadStations('src/data/lines/jr_itsukaichi/stations.ts');
 
 const omeStMap = new Map(omeStations.map(s => [s.id, s]));
 const itsukaichiStMap = new Map(itsukaichiStations.map(s => [s.id, s]));
@@ -37,14 +37,14 @@ const itsukaichiTrainIdToOfficialNo = new Map();
 const omeOutToHaijima = omeTrips.filter(t => t.direction === 'outbound' && t.destinationStationId === 'JC-55');
 const itsukaichiOutFromHaijima = itsukaichiTrips.filter(t => t.direction === 'outbound' && t.originStationId === 'JC-55');
 
-for (const itsukaichi of itsukaichiOutFromHaijima) {
+for (const jr_itsukaichi of itsukaichiOutFromHaijima) {
   const tId = extractYahooTrainId(itsukaichi.tripId);
-  const ome = omeOutToHaijima.find(o => extractYahooTrainId(o.tripId) === tId && o.isHoliday === itsukaichi.isHoliday);
+  const jr_ome = omeOutToHaijima.find(o => extractYahooTrainId(o.tripId) === tId && o.isHoliday === itsukaichi.isHoliday);
 
   if (ome) {
     // 青梅線側: 次の直通先は五日市線
     ome.throughTripId = itsukaichi.tripId;
-    ome.throughLineId = 'itsukaichi';
+    ome.throughLineId = 'jr_itsukaichi';
     const itsukaichiDest = itsukaichiStMap.get(itsukaichi.destinationStationId);
     ome.customDestination = itsukaichi.customDestination || itsukaichiDest?.name || '武蔵五日市';
 
@@ -71,14 +71,14 @@ for (const itsukaichi of itsukaichiOutFromHaijima) {
 const itsukaichiInToHaijima = itsukaichiTrips.filter(t => t.direction === 'inbound' && t.destinationStationId === 'JC-55');
 const omeInFromHaijima = omeTrips.filter(t => t.direction === 'inbound' && t.originStationId === 'JC-55');
 
-for (const itsukaichi of itsukaichiInToHaijima) {
+for (const jr_itsukaichi of itsukaichiInToHaijima) {
   const tId = extractYahooTrainId(itsukaichi.tripId);
-  const ome = omeInFromHaijima.find(o => extractYahooTrainId(o.tripId) === tId && o.isHoliday === itsukaichi.isHoliday);
+  const jr_ome = omeInFromHaijima.find(o => extractYahooTrainId(o.tripId) === tId && o.isHoliday === itsukaichi.isHoliday);
 
   if (ome) {
     // 五日市線側: 次の直通先は青梅線
     itsukaichi.throughTripId = ome.tripId;
-    itsukaichi.throughLineId = 'ome';
+    itsukaichi.throughLineId = 'jr_ome';
     const omeDest = omeStMap.get(ome.destinationStationId);
     itsukaichi.customDestination = ome.customDestination || omeDest?.name || '立川';
 
@@ -100,7 +100,7 @@ for (const itsukaichi of itsukaichiInToHaijima) {
 }
 
 // 3. その他線内完結トリップにも trainId を確実に設定
-for (const itsukaichi of itsukaichiTrips) {
+for (const jr_itsukaichi of itsukaichiTrips) {
   if (!itsukaichi.trainId) {
     itsukaichi.trainId = extractYahooTrainId(itsukaichi.tripId) || itsukaichi.trainNumber;
   }

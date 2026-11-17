@@ -101,7 +101,7 @@ async function fetchEkitanStation(stIdx, dw) {
 }
 
 async function run() {
-  console.log('=== Scraping Ekitan for line: sotetsu_jr_direct ===');
+  console.log('=== Scraping Ekitan for line: jr_sotetsu_jr_direct ===');
   const allRecords = [];
 
   for (const st of STATIONS) {
@@ -115,7 +115,7 @@ async function run() {
         for (const dir of ['inbound', 'outbound']) {
           for (const dep of res[dir]) {
             allRecords.push({
-              line: 'sotetsu_jr_direct',
+              line: 'jr_sotetsu_jr_direct',
               stationId: st.id,
               stationName: st.name,
               direction: dir,

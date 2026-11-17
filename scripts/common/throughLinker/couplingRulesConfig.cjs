@@ -39,16 +39,16 @@ module.exports = {
 
   // 2. 東北新幹線（やまびこ＋つばさ、はやぶさ＋こまち）設定
   tohokuShinkansen: {
-    lineId: 'tohoku_shinkansen',
+    lineId: 'jr_tohoku_shinkansen',
     branchRestorations: [
       {
-        branchLineId: 'yamagata_shinkansen',
+        branchLineId: 'jr_yamagata_shinkansen',
         keyword: 'つばさ',
         terminalName: '東京',
         trainNumberFormula: (num) => `${num >= 70 && num <= 99 ? 8000 + num : num}M`,
       },
       {
-        branchLineId: 'akita_shinkansen',
+        branchLineId: 'jr_akita_shinkansen',
         keyword: 'こまち',
         terminalName: '東京',
         trainNumberFormula: (num) => `${num >= 60 && num <= 99 ? 8000 + num : 3000 + num}M`,
@@ -106,7 +106,7 @@ module.exports = {
 
   // 4. 東海道線（特急踊り子 伊豆急下田行 ＋ 修善寺行）設定
   tokaidoOdoriko: {
-    lineId: 'tokaido',
+    lineId: 'jr_tokaido',
     branchLineId: 'izuhakone_sunzu',
     keyword: '踊り子',
     terminalName: '東京',
@@ -145,7 +145,7 @@ module.exports = {
 
   // 6. 寝台特急サンライズ出雲・瀬戸（東京〜高松・出雲市）併結設定
   sunriseExpress: {
-    lineIds: ['tokaido_atami_toyohashi', 'jr_kobe'],
+    lineIds: ['jr_tokaido_atami_toyohashi', 'jr_kobe'],
     trainNumbers: ['5031M', '5032M'],
     redundantTripIdSuffixes: ['_37927'],
     primaryCars: 7,

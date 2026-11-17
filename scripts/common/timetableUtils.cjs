@@ -215,7 +215,7 @@ function extractTrainId(tripOrId) {
  * 特急種別判定
  */
 function isLimitedExpress(type) {
-  return type === 'limitedExp' || type === 'limited_express';
+  return type === 'limited_exp' || type === 'limited_express';
 }
 
 /**

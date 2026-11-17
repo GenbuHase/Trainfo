@@ -12,7 +12,7 @@ export const SOTETSU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 通勤急行: 山吹/オレンジ
   commuter_exp: SOTETSU_PRESETS.COMMUTER_EXP,
   // 通勤特急: ピンク/マゼンタ
-  commuter_ltd_exp: SOTETSU_PRESETS.COMMUTER_LTD_EXP,
+  commuter_limited_exp: SOTETSU_PRESETS.COMMUTER_LTD_EXP,
   // 特急: オレンジ
-  limitedExp: SOTETSU_PRESETS.LIMITED_EXP,
+  limited_exp: SOTETSU_PRESETS.LIMITED_EXP,
 };

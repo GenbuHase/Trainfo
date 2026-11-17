@@ -3,7 +3,7 @@ import { calculateActiveTrains } from '../src/services/trainSimulation';
 import { LineId } from '../src/types';
 
 const initialTripId = 'WD_INB_SO-18_0630_39292';
-const selectedLines: LineId[] = ['sotetsu_main', 'sotetsu_shin_yokohama', 'sotetsu_jr_direct', 'saikyo', 'kawagoe'];
+const selectedLines: LineId[] = ['sotetsu_main', 'sotetsu_shin_yokohama', 'jr_sotetsu_jr_direct', 'jr_saikyo', 'jr_kawagoe'];
 
 console.log('=== 海老名6:30発 川越行 追跡シミュレーション ===\n');
 

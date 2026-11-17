@@ -40,7 +40,7 @@ import { STATION_MAP } from '../src/data/stations';
 import type { LineId, TimetableTrip } from '../src/types';
 
 // 既存路線の直通連絡・共用境界駅（STATION_MAP に実在する他線側駅ID）の許容リスト
-const ALLOWED_FOREIGN_STATIONS = new Set<string>(['joban_rapid:JL-26', 'odakyu_odawara:CB-04']);
+const ALLOWED_FOREIGN_STATIONS = new Set<string>(['jr_joban_rapid:JL-26', 'odakyu_odawara:CB-04']);
 
 let passed = 0;
 let failed = 0;
@@ -135,7 +135,7 @@ async function runAllUnitTests() {
     // 00:30 は鉄道運行日(4:00起点)では 24:30 = 88200秒、または正規化仕様確認
     const sec0030 = hhmmToSeconds('00:30');
     assert.ok(sec0030 === 24 * 3600 + 1800 || sec0030 === 1800, `Unexpected hhmmToSeconds('00:30')=${sec0030}`);
-    assert.ok(getRealCurrentSeconds() >= 0 && getRealCurrentSeconds() < 86400);
+    assert.ok(getRealCurrentSeconds() >= 4 * 3600 && getRealCurrentSeconds() < 28 * 3600);
   });
 
   test('timeStringToSeconds: 時刻パース (04:00〜27:59対応)', () => {
@@ -247,7 +247,7 @@ async function runAllUnitTests() {
       lineId: 'jr_sanin_sonobe_kinosaki',
       trainId: '9001',
       trainNumber: '5001M',
-      trainType: 'limitedExp',
+      trainType: 'limited_exp',
       trainName: 'きのさき1号',
       direction: 'outbound',
       originStationId: 'jr_sanin_sonobe_kinosaki-01',
@@ -266,7 +266,7 @@ async function runAllUnitTests() {
 
     const beforeSec = resolveActiveTrainInfo(mockTrip, 'jr_sanin_sonobe_kinosaki-01');
     assert.equal(beforeSec.trainNumber, '5001M');
-    assert.equal(beforeSec.trainType, 'limitedExp');
+    assert.equal(beforeSec.trainType, 'limited_exp');
 
     const inSec = resolveActiveTrainInfo(mockTrip, 'jr_sanin_sonobe_kinosaki-12');
     assert.equal(inSec.trainNumber, '3001M');
@@ -279,7 +279,7 @@ async function runAllUnitTests() {
   console.log('\n--- [Suite 4] 試運転・乗換駅判定・同名駅検索 ---');
   test('areStationsConnectable & findConnectingStationPairs: JR境界駅自動検出', () => {
     // 大府 (東海道線 CA-60 <-> 武豊線 jr_taketoyo-01)
-    const pairsObu = findConnectingStationPairs('tokaido_toyohashi_maibara', 'jr_taketoyo');
+    const pairsObu = findConnectingStationPairs('jr_tokaido_toyohashi_maibara', 'jr_taketoyo');
     assert.ok(pairsObu.length >= 1, '大府駅での接続候補が見つかりません');
     assert.equal(pairsObu[0].stationA.name, '大府');
     assert.equal(pairsObu[0].stationB.name, '大府');
@@ -328,7 +328,7 @@ async function runAllUnitTests() {
       }
     }
 
-    // Wave 1〜4 全38路線のプレフィックスと駅番号連番・自線名混入ゼロ完全チェック
+    // 全126路線のjr_プレフィックスと駅番号連番・自線名混入ゼロ完全チェック
     for (const jrId of JR_38_LINES) {
       assert.ok(jrId.startsWith('jr_'), `jr_ プレフィックス違反: ${jrId}`);
       const line = getLine(jrId);
@@ -350,8 +350,8 @@ async function runAllUnitTests() {
 
     // 既存他社線・BRT・連絡線支線等での仕様上の0通過駅例外
     const ALLOWED_ZERO_STOP_STATIONS = new Set<string>([
-      'musashino:JL-24', // 馬橋連絡線支線
-      'tsugaru:TSG-12', 'tsugaru:TSG-13', 'tsugaru:TSG-16', 'tsugaru:TSG-17', 'tsugaru:TSG-18', // 蟹田〜三厩代行/休止区間
+      'jr_musashino:JL-24', // 馬橋連絡線支線
+      'jr_tsugaru:TSG-12', 'jr_tsugaru:TSG-13', 'jr_tsugaru:TSG-16', 'jr_tsugaru:TSG-17', 'jr_tsugaru:TSG-18', // 蟹田〜三厩代行/休止区間
       'tobu_koizumi:TI-47', 'tobu_koizumi:TI-18', // 東武小泉線支線駅
     ]);
     // 料金不要特急（愛称なし）路線の例外
@@ -359,10 +359,12 @@ async function runAllUnitTests() {
       'sotetsu_main',
       'sotetsu_izumino',
       'sotetsu_shin_yokohama',
+      'tokyu_toyoko',
+      'minatomirai',
     ]);
 
     // 既存路線固有: 宇都宮線/高崎線 大宮始発湘南新宿ライン等の単駅切詰め済みレコード（シミュレーションでは stops<2 で安全にスキップされる）
-    const ALLOWED_SINGLE_STOP_LINES = new Set<string>(['takasaki', 'utsunomiya']);
+    const ALLOWED_SINGLE_STOP_LINES = new Set<string>(['jr_takasaki', 'jr_utsunomiya']);
 
     await loadLinesTimetables(allLineIds);
 
@@ -389,11 +391,11 @@ async function runAllUnitTests() {
           `${lineId} (${trip.tripId}): 未定義の trainType '${trip.trainType}'`
         );
 
-        // 特急仕様確認: 料金不要特急(相鉄)を除き、limitedExp には 100% trainName(固有名称) が存在すること
-        if (trip.trainType === 'limitedExp' && !FREE_LIMITED_EXP_LINES.has(lineId)) {
+        // 特急仕様確認: 料金不要特急(相鉄)を除き、limited_exp には 100% trainName(固有名称) が存在すること
+        if (trip.trainType === 'limited_exp' && !FREE_LIMITED_EXP_LINES.has(lineId)) {
           if (jr38Set.has(lineId)) {
-            const typeCfg = line.trainTypes['limitedExp'];
-            assert.ok(typeCfg && typeCfg.name === '特急', `${lineId}: limitedExp の種別名は '特急' である必要があります (実際: ${typeCfg?.name})`);
+            const typeCfg = line.trainTypes['limited_exp'];
+            assert.ok(typeCfg && typeCfg.name === '特急', `${lineId}: limited_exp の種別名は '特急' である必要があります (実際: ${typeCfg?.name})`);
           }
           assert.ok(
             trip.trainName && trip.trainName.trim().length > 0,
@@ -474,8 +476,8 @@ async function runAllUnitTests() {
     assert.ok(chainWest.length >= 3, `西日本3線チェーン長不足 (${chainWest.length})`);
 
     // 2. 特急アルプス 4線貫通チェーン (東日本)
-    const chuo = getLine('chuo')!;
-    const alps = chuo.globalTimetable.find((t) => !t.isHoliday && t.trainId === '42781')!;
+    const jr_chuo = getLine('jr_chuo')!;
+    const alps = jr_chuo.globalTimetable.find((t) => !t.isHoliday && t.trainId === '42781')!;
     assert.ok(alps, '特急アルプス (42781) が見つかりません');
     const chainEast = getThroughChainTrips(alps.tripId);
     assert.equal(chainEast.length, 4, `特急アルプス4線チェーン長不正 (${chainEast.length})`);

@@ -1,16 +1,16 @@
 const { execSync } = require('child_process');
 
 const lines = [
-  'tsurumi',
-  'keiyo',
-  'yokohama',
-  'sobu_main',
-  'sotobo',
-  'narita',
-  'nambu',
-  'yamanote',
-  'chuo_sobu_local',
-  'keihin_tohoku_negishi',
+  'jr_tsurumi',
+  'jr_keiyo',
+  'jr_yokohama',
+  'jr_sobu_main',
+  'jr_sotobo',
+  'jr_narita',
+  'jr_nambu',
+  'jr_yamanote',
+  'jr_chuo_sobu_local',
+  'jr_keihin_tohoku_negishi',
 ];
 
 for (const line of lines) {

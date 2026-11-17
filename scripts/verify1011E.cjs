@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const d = JSON.parse(fs.readFileSync('src/data/lines/musashino/globalTimetable.json', 'utf8'));
+const d = JSON.parse(fs.readFileSync('src/data/lines/jr_musashino/globalTimetable.json', 'utf8'));
 
 const trip = d.find(t => t.trainNumber === '1011E' && !t.isHoliday);
 console.log('Trip 1011E:', trip ? trip.tripId : 'Not found');

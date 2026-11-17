@@ -63,7 +63,7 @@ const STATION_DEFS = [
     ],
     address: '東京都千代田区丸の内一丁目',
     platforms: { inbound: '1・2番線', outbound: '1・2番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limited_exp'],
     osmNodeId: 3589537656
   },
   {
@@ -75,7 +75,7 @@ const STATION_DEFS = [
     transfers: ['JR山手線', 'JR京浜東北線', '東京メトロ銀座線'],
     address: '東京都千代田区鍛冶町二丁目',
     platforms: { inbound: '5番線', outbound: '6番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid'],
     osmNodeId: 1822906614
   },
   {
@@ -87,7 +87,7 @@ const STATION_DEFS = [
     transfers: ['JR総武線各駅停車', '東京メトロ丸ノ内線'],
     address: '東京都千代田区神田駿河台二丁目',
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid'],
     osmNodeId: 315863112
   },
   {
@@ -99,7 +99,7 @@ const STATION_DEFS = [
     transfers: ['JR総武線各駅停車', '東京メトロ丸ノ内線', '東京メトロ南北線'],
     address: '東京都新宿区四谷一丁目',
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid'],
     osmNodeId: 6070813704
   },
   {
@@ -115,7 +115,7 @@ const STATION_DEFS = [
     ],
     address: '東京都新宿区新宿三丁目',
     platforms: { inbound: '7・8番線', outbound: '9・10・11・12番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limited_exp'],
     osmNodeId: 3558156204
   },
   {
@@ -127,7 +127,7 @@ const STATION_DEFS = [
     transfers: ['JR総武線各駅停車', '東京メトロ東西線'],
     address: '東京都中野区中野五丁目',
     platforms: { inbound: '7・8番線', outbound: '5・6番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'limited_exp'],
     osmNodeId: 6018468417
   },
   {
@@ -163,7 +163,7 @@ const STATION_DEFS = [
     transfers: ['JR総武線各駅停車', '東京メトロ丸ノ内線'],
     address: '東京都杉並区上荻一丁目',
     platforms: { inbound: '4番線', outbound: '3番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'commuter_special_rapid'],
     osmNodeId: 1493243601
   },
   {
@@ -187,7 +187,7 @@ const STATION_DEFS = [
     transfers: ['JR総武線各駅停車', '京王井の頭線'],
     address: '東京都武蔵野市吉祥寺南町一丁目',
     platforms: { inbound: '4番線', outbound: '3番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'commuter_special_rapid'],
     osmNodeId: 6017578914
   },
   {
@@ -199,7 +199,7 @@ const STATION_DEFS = [
     transfers: ['JR総武線各駅停車', '東京メトロ東西線直通'],
     address: '東京都三鷹市下連雀三丁目',
     platforms: { inbound: '5・6番線', outbound: '3・4番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limited_exp'],
     osmNodeId: 1942371971
   },
   {
@@ -247,7 +247,7 @@ const STATION_DEFS = [
     transfers: ['西武国分寺線', '西武多摩湖線'],
     address: '東京都国分寺市本町二丁目',
     platforms: { inbound: '3・4番線', outbound: '1・2番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     osmNodeId: 2251745525
   },
   {
@@ -283,7 +283,7 @@ const STATION_DEFS = [
     transfers: ['JR青梅線', 'JR南武線', '多摩都市モノレール'],
     address: '東京都立川市曙町二丁目',
     platforms: { inbound: '3・4番線', outbound: '5・6番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limited_exp'],
     osmNodeId: 243890691
   },
   {
@@ -295,7 +295,7 @@ const STATION_DEFS = [
     transfers: [],
     address: '東京都日野市大坂上一丁目',
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     osmNodeId: 2558122562
   },
   {
@@ -307,7 +307,7 @@ const STATION_DEFS = [
     transfers: [],
     address: '東京都日野市豊田四丁目',
     platforms: { inbound: '3・4番線', outbound: '1・2番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     osmNodeId: 6017166835
   },
   {
@@ -319,7 +319,7 @@ const STATION_DEFS = [
     transfers: ['JR横浜線', 'JR八高線', '京王線（京王八王子駅）'],
     address: '東京都八王子市旭町',
     platforms: { inbound: '3・4番線', outbound: '1・2番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limited_exp'],
     osmNodeId: 6016890018
   },
   {
@@ -331,7 +331,7 @@ const STATION_DEFS = [
     transfers: [],
     address: '東京都八王子市千人町二丁目',
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
     osmNodeId: 6003230111
   },
   {
@@ -343,7 +343,7 @@ const STATION_DEFS = [
     transfers: ['JR中央本線（大月方面）', '京王高尾線'],
     address: '東京都八王子市高尾町',
     platforms: { inbound: '2・3・4番線', outbound: '1・2番線' },
-    stoppingTypes: ['local', 'rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limitedExp'],
+    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid', 'limited_exp'],
     osmNodeId: 6002844186
   }
 ];
@@ -404,7 +404,7 @@ import type { Station } from '../../../types';
 
 export const CHUO_STATIONS: Station[] = ${JSON.stringify(STATION_DEFS.map(s => ({
   id: s.id,
-  lineId: 'chuo',
+  lineId: 'jr_chuo',
   number: s.number,
   name: s.name,
   nameKana: s.nameKana,
@@ -425,8 +425,8 @@ export const CHUO_STATIONS: Station[] = ${JSON.stringify(STATION_DEFS.map(s => (
 })), null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/chuo/stations.ts', stationsTsContent, 'utf8');
-console.log('Saved src/data/lines/chuo/stations.ts');
+fs.writeFileSync('src/data/lines/jr_chuo/stations.ts', stationsTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_chuo/stations.ts');
 
 // trackGeometry.ts の出力
 const trackGeometryTsContent = `// JR中央線快速 線路軌道ジオメトリ（全23区間）
@@ -435,5 +435,5 @@ import type { TrackSegment } from '../../../types';
 export const CHUO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(segments, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/chuo/trackGeometry.ts', trackGeometryTsContent, 'utf8');
-console.log('Saved src/data/lines/chuo/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_chuo/trackGeometry.ts', trackGeometryTsContent, 'utf8');
+console.log('Saved src/data/lines/jr_chuo/trackGeometry.ts');

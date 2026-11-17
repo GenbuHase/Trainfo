@@ -1,0 +1,28 @@
+import type { LineDefinition } from '../../../types';
+import { UTSUNOMIYA_STATIONS } from './stations';
+import { UTSUNOMIYA_TRAIN_TYPES } from './trainTypes';
+import { UTSUNOMIYA_TRACK_SEGMENTS } from './trackGeometry';
+
+export const utsunomiyaLine: LineDefinition = {
+  id: 'jr_utsunomiya',
+  name: 'JR宇都宮線',
+  shortName: '宇都宮線',
+  operator: 'JR東日本',
+  lineColor: '#f68b1e',
+  accentColor: '#f68b1e',
+  defaultCars: 15,
+  defaultBounds: [[35.71, 139.77], [36.98, 140.06]],
+  directionNames: {
+    'inbound': '大宮・上野方面',
+    'outbound': '久喜・宇都宮・黒磯方面',
+    'inboundFull': '上り 大宮・上野方面',
+    'outboundFull': '下り 久喜・宇都宮・黒磯方面',
+    'inboundShort': '上野方面',
+    'outboundShort': '宇都宮方面'
+  },
+  stations: UTSUNOMIYA_STATIONS,
+  trackSegments: UTSUNOMIYA_TRACK_SEGMENTS,
+  trainTypes: UTSUNOMIYA_TRAIN_TYPES,
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
+};

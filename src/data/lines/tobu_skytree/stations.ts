@@ -26,9 +26,9 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "section_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -59,9 +59,9 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "section_exp",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -95,7 +95,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semiExp",
+      "semi_exp",
       "express"
     ],
     "isMajor": true,
@@ -128,11 +128,11 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -163,7 +163,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "section_exp"
     ],
     "isMajor": false,
@@ -195,7 +195,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "section_exp"
     ],
     "isMajor": false,
@@ -227,7 +227,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "section_exp"
     ],
     "isMajor": false,
@@ -260,7 +260,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
+      "section_semi_exp",
       "section_exp"
     ],
     "isMajor": true,
@@ -296,11 +296,11 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -422,8 +422,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express"
     ],
@@ -516,8 +516,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
       "th_liner"
@@ -642,8 +642,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
       "th_liner"
@@ -677,8 +677,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express"
     ],
@@ -711,8 +711,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp"
+      "section_semi_exp",
+      "semi_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -743,8 +743,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp"
+      "section_semi_exp",
+      "semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -775,12 +775,12 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
       "th_liner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -811,8 +811,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp"
+      "section_semi_exp",
+      "semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -843,8 +843,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp"
+      "section_semi_exp",
+      "semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -876,12 +876,12 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
       "th_liner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -912,8 +912,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp"
+      "section_semi_exp",
+      "semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -944,8 +944,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp"
+      "section_semi_exp",
+      "semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -978,12 +978,12 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi",
-      "semiExp",
+      "section_semi_exp",
+      "semi_exp",
       "section_exp",
       "express",
       "th_liner",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {

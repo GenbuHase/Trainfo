@@ -192,7 +192,7 @@ const rapidStationDefs = [
 
 const rapidStationsOut = rapidStationDefs.map(s => ({
   id: s.id,
-  lineId: 'joban_rapid',
+  lineId: 'jr_joban_rapid',
   number: s.number,
   name: s.name,
   nameKana: s.nameKana,
@@ -215,13 +215,13 @@ const rapidStationsOut = rapidStationDefs.map(s => ({
   platforms: s.platforms,
 }));
 
-fs.mkdirSync('src/data/lines/joban_rapid', { recursive: true });
+fs.mkdirSync('src/data/lines/jr_joban_rapid', { recursive: true });
 fs.writeFileSync(
-  'src/data/lines/joban_rapid/stations.ts',
+  'src/data/lines/jr_joban_rapid/stations.ts',
   `import type { Station } from '../../../types';\n\nexport const JOBAN_RAPID_STATIONS: Station[] = ${JSON.stringify(rapidStationsOut, null, 2)};\n`,
   'utf8'
 );
-console.log('Written src/data/lines/joban_rapid/stations.ts');
+console.log('Written src/data/lines/jr_joban_rapid/stations.ts');
 
 const rapidTrainTypesContent = `import type { TrainTypeConfig } from '../../../types';
 
@@ -268,8 +268,8 @@ export const JOBAN_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
 };
 `;
-fs.writeFileSync('src/data/lines/joban_rapid/trainTypes.ts', rapidTrainTypesContent, 'utf8');
-console.log('Written src/data/lines/joban_rapid/trainTypes.ts');
+fs.writeFileSync('src/data/lines/jr_joban_rapid/trainTypes.ts', rapidTrainTypesContent, 'utf8');
+console.log('Written src/data/lines/jr_joban_rapid/trainTypes.ts');
 
 const rapidTrackSegments = [];
 for (let i = 0; i < rapidStationDefs.length - 1; i++) {
@@ -309,11 +309,11 @@ for (let i = 0; i < rapidStationDefs.length - 1; i++) {
 }
 
 fs.writeFileSync(
-  'src/data/lines/joban_rapid/trackGeometry.ts',
+  'src/data/lines/jr_joban_rapid/trackGeometry.ts',
   `import type { TrackSegment } from '../../../types';\n\nexport const JOBAN_RAPID_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(rapidTrackSegments, null, 2)};\n`,
   'utf8'
 );
-console.log('Written src/data/lines/joban_rapid/trackGeometry.ts');
+console.log('Written src/data/lines/jr_joban_rapid/trackGeometry.ts');
 
 const rapidIndexContent = `import type { LineConfig } from '../../../types';
 import { JOBAN_RAPID_STATIONS } from './stations';
@@ -321,7 +321,7 @@ import { JOBAN_RAPID_TRAIN_TYPES } from './trainTypes';
 import { JOBAN_RAPID_TRACK_SEGMENTS } from './trackGeometry';
 
 export const JOBAN_RAPID_LINE_CONFIG: LineConfig = {
-  id: 'joban_rapid',
+  id: 'jr_joban_rapid',
   name: 'JR常磐線快速',
   nameEn: 'JR Joban Line Rapid Service',
   color: '#005aaa',
@@ -330,8 +330,8 @@ export const JOBAN_RAPID_LINE_CONFIG: LineConfig = {
   trackSegments: JOBAN_RAPID_TRACK_SEGMENTS,
 };
 `;
-fs.writeFileSync('src/data/lines/joban_rapid/index.ts', rapidIndexContent, 'utf8');
-console.log('Written src/data/lines/joban_rapid/index.ts');
+fs.writeFileSync('src/data/lines/jr_joban_rapid/index.ts', rapidIndexContent, 'utf8');
+console.log('Written src/data/lines/jr_joban_rapid/index.ts');
 
 
 // ==========================================

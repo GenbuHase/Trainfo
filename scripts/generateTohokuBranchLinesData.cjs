@@ -316,8 +316,8 @@ const STATION_READING_FALLBACK = {
 
 // 都道府県解決
 function getPrefecture(lineId, stationName) {
-  if (lineId === 'rikuu_west') return '山形県';
-  if (lineId === 'rikuu_east') {
+  if (lineId === 'jr_rikuu_west') return '山形県';
+  if (lineId === 'jr_rikuu_east') {
     const yamagata = new Set([
       '堺田', '赤倉温泉', '立小路', '最上', '大堀', '鵜杉',
       '瀬見温泉', '東長沢', '長沢', '南新庄', '新庄',
@@ -329,7 +329,7 @@ function getPrefecture(lineId, stationName) {
 
 // 乗換路線リスト定義
 const TRANSFERS_BY_LINE_AND_STATION = {
-  senseki: {
+  jr_senseki: {
     'あおば通': ['仙台市地下鉄南北線'],
     '仙台': [
       'JR東北本線（福島～仙台）', 'JR東北本線（仙台～一ノ関）', 'JR常磐線（いわき～仙台）',
@@ -339,21 +339,21 @@ const TRANSFERS_BY_LINE_AND_STATION = {
     '高城町': ['JR仙石東北ライン'],
     '石巻': ['JR石巻線', 'JR仙石東北ライン'],
   },
-  senseki_tohoku: {
+  jr_senseki_tohoku: {
     '塩釜': ['JR東北本線（仙台～一ノ関）'],
     '高城町': ['JR仙石線'],
   },
-  ishinomaki: {
+  jr_ishinomaki: {
     '小牛田': ['JR東北本線（仙台～一ノ関）', 'JR陸羽東線'],
     '前谷地': ['JR気仙沼線'],
     '石巻': ['JR仙石線', 'JR仙石東北ライン'],
   },
-  rikuu_east: {
+  jr_rikuu_east: {
     '小牛田': ['JR東北本線（仙台～一ノ関）', 'JR石巻線'],
     '古川': ['東北新幹線'],
     '新庄': ['JR山形新幹線', 'JR奥羽本線（福島～新庄）', 'JR奥羽本線（新庄～大曲）', 'JR陸羽西線'],
   },
-  rikuu_west: {
+  jr_rikuu_west: {
     '新庄': ['JR山形新幹線', 'JR奥羽本線（福島～新庄）', 'JR奥羽本線（新庄～大曲）', 'JR陸羽東線'],
     '余目': ['JR羽越本線'],
   },
@@ -361,7 +361,7 @@ const TRANSFERS_BY_LINE_AND_STATION = {
 
 const LINE_SPECS = [
   {
-    lineId: 'senseki',
+    lineId: 'jr_senseki',
     exportPrefix: 'SENSEKI',
     exportLineVar: 'sensekiLine',
     name: 'JR仙石線',
@@ -392,7 +392,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'senseki_tohoku',
+    lineId: 'jr_senseki_tohoku',
     exportPrefix: 'SENSEKI_TOHOKU',
     exportLineVar: 'sensekiTohokuLine',
     name: 'JR仙石東北ライン',
@@ -416,7 +416,7 @@ const LINE_SPECS = [
     stationNames: ['塩釜', '高城町'],
   },
   {
-    lineId: 'ishinomaki',
+    lineId: 'jr_ishinomaki',
     exportPrefix: 'ISHINOMAKI',
     exportLineVar: 'ishinomakiLine',
     name: 'JR石巻線',
@@ -444,7 +444,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'rikuu_east',
+    lineId: 'jr_rikuu_east',
     exportPrefix: 'RIKUU_EAST',
     exportLineVar: 'rikuuEastLine',
     name: 'JR陸羽東線',
@@ -475,7 +475,7 @@ const LINE_SPECS = [
     ],
   },
   {
-    lineId: 'rikuu_west',
+    lineId: 'jr_rikuu_west',
     exportPrefix: 'RIKUU_WEST',
     exportLineVar: 'rikuuWestLine',
     name: 'JR陸羽西線',
@@ -795,7 +795,7 @@ export const ${spec.exportPrefix}_TRAIN_TYPES: Record<string, TrainTypeConfig> =
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
+  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 ${busBlock}};
 `;
   fs.writeFileSync(path.join(outDir, 'trainTypes.ts'), trainTypesContent, 'utf8');
@@ -834,7 +834,7 @@ export const ${spec.exportLineVar}: LineDefinition = {
     if (!yInfo?.yahooStationId) {
       throw new Error(`Missing Yahoo ID for ${spec.lineId}: ${st.name}`);
     }
-    if (spec.lineId === 'senseki_tohoku') {
+    if (spec.lineId === 'jr_senseki_tohoku') {
       return {
         id: st.id,
         name: st.name,
@@ -862,8 +862,8 @@ export const ${spec.exportLineVar}: LineDefinition = {
   }
 
   const preserveTypes = spec.hasSubstitutionBus
-    ? `['regular', 'rapid', 'special_rapid', 'limitedExp', 'substitution_bus']`
-    : `['regular', 'rapid', 'special_rapid', 'limitedExp']`;
+    ? `['regular', 'rapid', 'special_rapid', 'limited_exp', 'substitution_bus']`
+    : `['regular', 'rapid', 'special_rapid', 'limited_exp']`;
 
   const configContent = `// ${spec.name} Yahoo! 路線情報スクレイパー設定
 module.exports = {
@@ -891,12 +891,12 @@ module.exports = {
     '最上川': 'rapid',
     '快速': 'rapid',
     '代行バス': 'substitution_bus',
-    '特急': 'limitedExp',
+    '特急': 'limited_exp',
   },
   preserveAllStopsTypes: ${preserveTypes},
   defaultTrainType: 'regular',
   defaultCars: ${spec.defaultCars},
-  ${spec.lineId === 'senseki_tohoku' ? 'buildStationTimetablesFromTrips: true,\n  ' : ''}baseSectionSeconds: ${JSON.stringify(baseSectionSeconds, null, 4)},
+  ${spec.lineId === 'jr_senseki_tohoku' ? 'buildStationTimetablesFromTrips: true,\n  ' : ''}baseSectionSeconds: ${JSON.stringify(baseSectionSeconds, null, 4)},
 };
 `;
 

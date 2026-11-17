@@ -60,7 +60,7 @@ for (const isHoliday of [false, true]) {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['chuo', 'chuo_main', 'shinonoi'],
+      selectedLineIds: ['jr_chuo', 'jr_chuo_main', 'jr_shinonoi'],
     });
 
     const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);

@@ -73,10 +73,10 @@ Trainfo では、地図上のポリライン・列車マーカー・タイムラ
      * **特急プリセット (`LIMITED_EXP_PRESETS`)**: `STANDARD`（首都圏標準レッド `#d32f2f`）、`CHUO`（中央線系統ワインレッド `#be123c`）、`NIIGATA`（新潟夕日柿色 `#c2410c`）、`JOBAN`（常磐線レッド `#e60012`）、`BOSO`（房総ブルー `#0074be`）、`CRIMSON`（内房・京葉クリムゾン `#c9252d`）、`TOBU`（東武レッド `#c8102e`）、`ODAKYU`（小田急バーミリオンオレンジ `#dd3c00`）
      * **JR首都圏快速プリセット (`JR_RAPID_PRESETS`)**: `STANDARD`（標準ブルー `#0073bc`）、`URBAN`（快速アーバン `#e65100`）、`RABBIT`（快速ラビット `#e65100`）、`ACTY`（快速アクティー `#e65100`）、`COMMUTER_RAPID`（通勤快速パープル `#7b1fa2`）、`SPECIAL_RAPID`（特別快速エメラルド `#00897b`）、`JOBAN_SPECIAL_RAPID`（常磐線特別快速ネイビー `#003366`）
      * **中央線特快・直通系統プリセット (`CHUO_PRESETS`)**: `LOCAL`（グレー `#475569`）、`RAPID`（公式オレンジバーミリオン `#eb5c01`）、`COMMUTER`（通快パープル `#9333ea`）、`SPECIAL_RAPID`（特快スカイブルー `#0284c7`）、`CHUO_SPECIAL_RAPID`（中央特快 `#0284c7`）、`OME_SPECIAL_RAPID`（青梅特快 `#16a34a`）、`COMMUTER_SPECIAL_RAPID`（通勤特快 `#dc2626`）、`LIMITED_EXP`
-     * **東武鉄道系統プリセット (`TOBU_PRESETS`)**: `LOCAL`（ブラック `#1e1c1c`）、`SEMI_EXP` / `SECTION_SEMI`（グリーン `#009966`）、`EXPRESS` / `SECTION_EXP`（レッド `#ed1a3d`）、`RAPID`（快速ブルー `#006699`）、`SL_TAIJU`（漆黒ゴールド `#2b2b2b` / `#d4af37`）、`LIMITED_EXP`
+     * **東武鉄道系統プリセット (`TOBU_PRESETS`)**: `LOCAL`（ブラック `#1e1c1c`）、`SEMI_EXP` / `SECTION_SEMI_EXP`（グリーン `#009966`）、`EXPRESS` / `SECTION_EXP`（レッド `#ed1a3d`）、`RAPID`（快速ブルー `#006699`）、`SL_TAIJU`（漆黒ゴールド `#2b2b2b` / `#d4af37`）、`LIMITED_EXP`
      * **相鉄線系統プリセット (`SOTETSU_PRESETS`)**: `LOCAL`（ヨコハマネイビーブルー `#041452`）、`RAPID`（ブルー `#0072bc`）、`EXPRESS`（レッド `#e60012`）、`COMMUTER_EXP`（山吹オレンジ `#e08a00`）、`COMMUTER_LTD_EXP`（ピンク `#e5007f`）、`LIMITED_EXP`（オレンジ `#f39800`）
      * **東急・みなとみらい線プリセット (`TOKYU_PRESETS`)**: `EXPRESS`（レッド `#da0442`）、`COMMUTER_LTD_EXP` / `LTD_EXP`（オレンジ `#ea5504`）
-     * **小田急電鉄系統プリセット (`ODAKYU_PRESETS`)**: `LOCAL`（ブルー `#2288cc`）、`SEMI_EXP` / `COMMUTER_SEMI`（グリーン `#009d6a`）、`EXPRESS` / `COMMUTER_EXP`（オレンジ `#ff5900`）、`RAPID_EXP`（アンバーオレンジ `#f3962c`）、`LIMITED_EXP`（ロマンスカー `#dd3c00`）
+     * **小田急電鉄系統プリセット (`ODAKYU_PRESETS`)**: `LOCAL`（ブルー `#2288cc`）、`SEMI_EXP` / `COMMUTER_SEMI_EXP`（グリーン `#009d6a`）、`EXPRESS` / `COMMUTER_EXP`（オレンジ `#ff5900`）、`RAPID_EXP`（アンバーオレンジ `#f3962c`）、`LIMITED_EXP`（ロマンスカー `#dd3c00`）
      * **直通ライナープリセット (`LINER_PRESETS`)**: `STRAIN`（ライムグリーン `#99cc00`）、`TH_LINER`（ディープレッド `#c8102e`）
 3. **JR・私鉄の一般特急**: 原則として格調高い**レッド／クリムゾン系**（`#d32f2f`, `#e60012`, `#be123c`, `#c8102e`）または列車固有色（ロマンスカーのバーミリオンオレンジ `#dd3c00`、千代田線内ロマンスカーのメトロブルー `#006cb7`、総武本線・外房線の房総ブルー `#0074be`、新潟・信越系統「いなほ」「しらゆき」の夕日柿色 `#c2410c`）を使用します。直通系統（例: 中央線〜篠ノ井線〜大糸線、信越本線〜妙高はねうまライン、高崎線〜上越線）では同一プリセット定数を指定してカラーを統一します。
 4. **S-TRAIN (`strain`)**: 西武・メトロ・東急・みなとみらい線すべてで共通の**ライムグリーン（`#99cc00`、枠線 `#7ca600`）**に統一します。
@@ -85,7 +85,7 @@ Trainfo では、地図上のポリライン・列車マーカー・タイムラ
    * **急行 (`express`)**: 赤系（東武・東急・相鉄・秩父）またはオレンジ系（メトロ半蔵門線・副都心線・千代田線・西武・小田急）など、各社の公式案内色を厳守します。
    * **快速急行 (`rapidExp`)**: 西武池袋線はパープル（`#8b52a1`）、東武東上線はブルー（`#006699`）、小田急線はオレンジ（`#f3962c`）と、事業者ごとの固有色を設定します。
    * **特別快速 (`special_rapid`)**: JR中央線はスカイブルー（`#0284c7`、青梅特快はグリーン `#16a34a`、通勤特快はレッド `#dc2626`）、上野東京ライン・湘南新宿ライン・東海道線はティールグリーン（`#00897b`）、常磐線はネイビー（`#003366`）を設定します。
-7. **準急・区間準急（`semiExp`, `commuter_semi`, `section_semi`）**:
+7. **準急・区間準急（`semiExp`, `commuter_semi_exp`, `section_semi_exp`）**:
    * 東武・西武・小田急・東京メトロ（千代田線・半蔵門線）・JR常磐緩行線のすべてにおいて、公式案内通り**グリーン／エメラルド系**（`#009966`, `#00cc99`, `#009d6a`, `#3cb371`）で統一されています。
 
 ---

@@ -4,14 +4,14 @@ const { distMeters, subdivideCoordinates } = require('./common/geometryBuilderUt
 
 // 固定境界駅座標（既存路線と 0.0m 完全一致・Playbook Phase 6 準拠）
 const FIXED_BOUNDARY_STATIONS = {
-  '大月': [35.613106, 138.942176],       // chuo_main JC-32
-  '国府津': [35.2812092, 139.2142253],   // tokaido JT-14
-  '伊東': [34.9755861, 139.0922222],     // ito JT-26
+  '大月': [35.613106, 138.942176],       // jr_chuo_main JC-32
+  '国府津': [35.2812092, 139.2142253],   // jr_tokaido JT-14
+  '伊東': [34.9755861, 139.0922222],     // jr_ito JT-26
   '三島': [35.1264, 138.9109],           // tokaido_shizuoka CA-02
   '沼津': [35.1031271, 138.8593352],     // tokaido_shizuoka CA-03
   '松田': [35.3447025, 139.1395994],     // odakyu_odawara OH-41 (新松田至近)
-  '福島': [37.7544085, 140.4586226],     // tohoku_shinkansen TS-09
-  '盛岡': [39.7014809, 141.136534],      // tohoku_shinkansen TS-18
+  '福島': [37.7544085, 140.4586226],     // jr_tohoku_shinkansen TS-09
+  '盛岡': [39.7014809, 141.136534],      // jr_tohoku_shinkansen TS-18
 };
 
 // 重み付き隣接グラフ構築（自動ギャップ架橋付き・物理距離重み）
@@ -304,9 +304,9 @@ const TARGET_LINES = [
   { lineId: 'izuhakone_sunzu', osmFile: 'scripts/cache/osm_izuhakone_sunzu.json', exportPrefix: 'IZUHAKONE_SUNZU' },
   { lineId: 'izukyu', osmFile: 'scripts/cache/osm_izukyu.json', exportPrefix: 'IZUKYU' },
   { lineId: 'fujikyu', osmFile: 'scripts/cache/osm_fujikyu.json', exportPrefix: 'FUJIKYU' },
-  { lineId: 'gotemba', osmFile: 'scripts/cache/osm_gotemba.json', exportPrefix: 'GOTEMBA' },
-  { lineId: 'yamagata_shinkansen', osmFile: 'scripts/cache/osm_yamagata_shinkansen.json', exportPrefix: 'YAMAGATA_SHINKANSEN' },
-  { lineId: 'akita_shinkansen', osmFile: 'scripts/cache/osm_akita_shinkansen.json', exportPrefix: 'AKITA_SHINKANSEN' },
+  { lineId: 'jr_gotemba', osmFile: 'scripts/cache/osm_gotemba.json', exportPrefix: 'GOTEMBA' },
+  { lineId: 'jr_yamagata_shinkansen', osmFile: 'scripts/cache/osm_yamagata_shinkansen.json', exportPrefix: 'YAMAGATA_SHINKANSEN' },
+  { lineId: 'jr_akita_shinkansen', osmFile: 'scripts/cache/osm_akita_shinkansen.json', exportPrefix: 'AKITA_SHINKANSEN' },
 ];
 
 for (const target of TARGET_LINES) {

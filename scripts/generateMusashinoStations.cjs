@@ -3,7 +3,7 @@ const fs = require('fs');
 const coords = JSON.parse(fs.readFileSync('scripts/resolved_musashino_stations.json', 'utf8'));
 
 // 既存の埼京線大宮の座標と一致させる
-const saikyoStations = fs.readFileSync('src/data/lines/saikyo/stations.ts', 'utf8');
+const saikyoStations = fs.readFileSync('src/data/lines/jr_saikyo/stations.ts', 'utf8');
 const omiyaMatch = saikyoStations.match(/name:\s*'大宮'[\s\S]*?lat:\s*([0-9.]+),\s*lng:\s*([0-9.]+)/);
 let omiyaLat = 35.906377;
 let omiyaLng = 139.624334;
@@ -78,7 +78,7 @@ const stations = STATION_DEFS.map(def => {
   }
   return {
     ...def,
-    lineId: 'musashino',
+    lineId: 'jr_musashino',
     lat: Math.round(lat * 1000000) / 1000000,
     lng: Math.round(lng * 1000000) / 1000000,
     facilities: {
@@ -96,5 +96,5 @@ const content = `import type { Station } from '../../../types';
 export const MUSASHINO_STATIONS: Station[] = ${JSON.stringify(stations, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/musashino/stations.ts', content, 'utf8');
-console.log(`Successfully generated src/data/lines/musashino/stations.ts with ${stations.length} stations!`);
+fs.writeFileSync('src/data/lines/jr_musashino/stations.ts', content, 'utf8');
+console.log(`Successfully generated src/data/lines/jr_musashino/stations.ts with ${stations.length} stations!`);

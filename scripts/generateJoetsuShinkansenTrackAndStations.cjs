@@ -211,7 +211,7 @@ const stationDefs = [
     address: '東京都千代田区丸の内一丁目',
     transfers: ['JR東北新幹線', 'JR山手線', 'JR京浜東北線', 'JR東海道線', 'JR中央線', 'JR総武快速線', 'JR横須賀線', 'JR京葉線', 'JR上野東京ライン', '東海道新幹線', '東京メトロ丸ノ内線'],
     platforms: { inbound: '20-23番線', outbound: '20-23番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -224,7 +224,7 @@ const stationDefs = [
     address: '東京都台東区上野七丁目',
     transfers: ['JR東北新幹線', 'JR山手線', 'JR京浜東北線', 'JR宇都宮線', 'JR高崎線', 'JR常磐線', 'JR上野東京ライン', '東京メトロ銀座線', '東京メトロ日比谷線', '京成本線'],
     platforms: { inbound: '19-22番線', outbound: '19-22番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -237,7 +237,7 @@ const stationDefs = [
     address: '埼玉県さいたま市大宮区錦町',
     transfers: ['JR東北新幹線', 'JR埼京線', 'JR川越線', 'JR京浜東北線', 'JR宇都宮線', 'JR高崎線', 'JR湘南新宿ライン', 'JR上野東京ライン', '東武野田線', '埼玉新都市交通伊奈線'],
     platforms: { inbound: '13-18番線', outbound: '13-18番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -250,7 +250,7 @@ const stationDefs = [
     address: '埼玉県熊谷市桜木町一丁目202-1',
     transfers: ['JR高崎線', 'JR湘南新宿ライン', 'JR上野東京ライン', '秩父鉄道秩父本線'],
     platforms: { inbound: '11・12番線', outbound: '11・12番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -263,7 +263,7 @@ const stationDefs = [
     address: '埼玉県本庄市早稲田の杜一丁目1-1',
     transfers: [],
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -276,7 +276,7 @@ const stationDefs = [
     address: '群馬県高崎市八島町222',
     transfers: ['JR北陸新幹線', 'JR高崎線', 'JR上越線', 'JR信越本線', 'JR八高線', 'JR両毛線', 'JR吾妻線', '上信電鉄上信線'],
     platforms: { inbound: '13・14番線', outbound: '11・12番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -289,7 +289,7 @@ const stationDefs = [
     address: '群馬県利根郡みなかみ町月夜野1756',
     transfers: [],
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -302,7 +302,7 @@ const stationDefs = [
     address: '新潟県南魚沼郡湯沢町大字湯沢主水2427-1',
     transfers: ['JR上越線', '北越急行ほくほく線'],
     platforms: { inbound: '13・14番線', outbound: '11・12番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -315,7 +315,7 @@ const stationDefs = [
     address: '新潟県南魚沼市浦佐719-2',
     transfers: ['JR上越線'],
     platforms: { inbound: '2番線', outbound: '1番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -328,7 +328,7 @@ const stationDefs = [
     address: '新潟県長岡市城内町二丁目794-4',
     transfers: ['JR信越本線', 'JR上越線'],
     platforms: { inbound: '12番線', outbound: '11番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
   {
@@ -341,7 +341,7 @@ const stationDefs = [
     address: '新潟県三条市下須頃497',
     transfers: ['JR弥彦線'],
     platforms: { inbound: '12番線', outbound: '11番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: false,
   },
   {
@@ -354,7 +354,7 @@ const stationDefs = [
     address: '新潟県新潟市中央区花園一丁目1-1',
     transfers: ['JR信越本線', 'JR白新線', 'JR越後線'],
     platforms: { inbound: '11-14番線', outbound: '11-14番線' },
-    stoppingTypes: ['toki', 'tanigawa', 'limitedExp'],
+    stoppingTypes: ['toki', 'tanigawa', 'limited_exp'],
     isMajor: true,
   },
 ];
@@ -413,7 +413,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = ${JSON.stringify(
     const { osmNodeId, ...rest } = s;
     return {
       id: rest.id,
-      lineId: 'joetsu_shinkansen',
+      lineId: 'jr_joetsu_shinkansen',
       number: rest.number,
       name: rest.name,
       nameKana: rest.nameKana,
@@ -439,8 +439,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = ${JSON.stringify(
 )};
 `;
 
-fs.writeFileSync('src/data/lines/joetsu_shinkansen/stations.ts', stationsTsContent, 'utf8');
-console.log('✅ src/data/lines/joetsu_shinkansen/stations.ts updated!');
+fs.writeFileSync('src/data/lines/jr_joetsu_shinkansen/stations.ts', stationsTsContent, 'utf8');
+console.log('✅ src/data/lines/jr_joetsu_shinkansen/stations.ts updated!');
 
 // 2. trackGeometry.ts の生成
 const trackGeometryTsContent = `import type { TrackSegment } from '../../../types';
@@ -452,5 +452,5 @@ export const JOETSU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify
 )};
 `;
 
-fs.writeFileSync('src/data/lines/joetsu_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
-console.log('✅ src/data/lines/joetsu_shinkansen/trackGeometry.ts updated!');
+fs.writeFileSync('src/data/lines/jr_joetsu_shinkansen/trackGeometry.ts', trackGeometryTsContent, 'utf8');
+console.log('✅ src/data/lines/jr_joetsu_shinkansen/trackGeometry.ts updated!');

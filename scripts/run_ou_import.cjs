@@ -2,10 +2,10 @@ const { spawn } = require('child_process');
 const path = require('path');
 
 const lines = [
-  'ou_fukushima_shinjo',
-  'ou_shinjo_omagari',
-  'ou_omagari_akita',
-  'ou_akita_aomori',
+  'jr_ou_fukushima_shinjo',
+  'jr_ou_shinjo_omagari',
+  'jr_ou_omagari_akita',
+  'jr_ou_akita_aomori',
 ];
 
 function run(args) {

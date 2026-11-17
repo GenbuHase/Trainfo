@@ -2,30 +2,30 @@
 const fs = require('fs');
 
 const STATIONS = [
-  { id: 'JA-08', code: '131-18', name: '大崎', line: 'saikyo', isOrigin: true },
-  { id: 'JA-09', code: '131-0', name: '恵比寿', line: 'saikyo' },
-  { id: 'JA-10', code: '131-1', name: '渋谷', line: 'saikyo' },
-  { id: 'JA-11', code: '131-2', name: '新宿', line: 'saikyo' },
-  { id: 'JA-12', code: '131-3', name: '池袋', line: 'saikyo' },
-  { id: 'JA-13', code: '131-4', name: '板橋', line: 'saikyo' },
-  { id: 'JA-14', code: '131-5', name: '十条', line: 'saikyo' },
-  { id: 'JA-15', code: '131-6', name: '赤羽', line: 'saikyo' },
-  { id: 'JA-16', code: '131-7', name: '北赤羽', line: 'saikyo' },
-  { id: 'JA-17', code: '131-8', name: '浮間舟渡', line: 'saikyo' },
-  { id: 'JA-18', code: '131-9', name: '戸田公園', line: 'saikyo' },
-  { id: 'JA-19', code: '131-10', name: '戸田', line: 'saikyo' },
-  { id: 'JA-20', code: '131-11', name: '北戸田', line: 'saikyo' },
-  { id: 'JA-21', code: '131-12', name: '武蔵浦和', line: 'saikyo' },
-  { id: 'JA-22', code: '131-13', name: '中浦和', line: 'saikyo' },
-  { id: 'JA-23', code: '131-14', name: '南与野', line: 'saikyo' },
-  { id: 'JA-24', code: '131-15', name: '与野本町', line: 'saikyo' },
-  { id: 'JA-25', code: '131-16', name: '北与野', line: 'saikyo' },
-  { id: 'JA-26', code: '131-17', name: '大宮', line: 'saikyo', isOmiya: true },
-  { id: 'JA-27', code: '65-1', name: '日進', line: 'kawagoe' },
-  { id: 'JA-28', code: '65-10', name: '西大宮', line: 'kawagoe' },
-  { id: 'JA-29', code: '65-2', name: '指扇', line: 'kawagoe' },
-  { id: 'JA-30', code: '65-3', name: '南古谷', line: 'kawagoe' },
-  { id: 'JA-31', code: '65-4', name: '川越', line: 'kawagoe', isKawagoe: true },
+  { id: 'JA-08', code: '131-18', name: '大崎', line: 'jr_saikyo', isOrigin: true },
+  { id: 'JA-09', code: '131-0', name: '恵比寿', line: 'jr_saikyo' },
+  { id: 'JA-10', code: '131-1', name: '渋谷', line: 'jr_saikyo' },
+  { id: 'JA-11', code: '131-2', name: '新宿', line: 'jr_saikyo' },
+  { id: 'JA-12', code: '131-3', name: '池袋', line: 'jr_saikyo' },
+  { id: 'JA-13', code: '131-4', name: '板橋', line: 'jr_saikyo' },
+  { id: 'JA-14', code: '131-5', name: '十条', line: 'jr_saikyo' },
+  { id: 'JA-15', code: '131-6', name: '赤羽', line: 'jr_saikyo' },
+  { id: 'JA-16', code: '131-7', name: '北赤羽', line: 'jr_saikyo' },
+  { id: 'JA-17', code: '131-8', name: '浮間舟渡', line: 'jr_saikyo' },
+  { id: 'JA-18', code: '131-9', name: '戸田公園', line: 'jr_saikyo' },
+  { id: 'JA-19', code: '131-10', name: '戸田', line: 'jr_saikyo' },
+  { id: 'JA-20', code: '131-11', name: '北戸田', line: 'jr_saikyo' },
+  { id: 'JA-21', code: '131-12', name: '武蔵浦和', line: 'jr_saikyo' },
+  { id: 'JA-22', code: '131-13', name: '中浦和', line: 'jr_saikyo' },
+  { id: 'JA-23', code: '131-14', name: '南与野', line: 'jr_saikyo' },
+  { id: 'JA-24', code: '131-15', name: '与野本町', line: 'jr_saikyo' },
+  { id: 'JA-25', code: '131-16', name: '北与野', line: 'jr_saikyo' },
+  { id: 'JA-26', code: '131-17', name: '大宮', line: 'jr_saikyo', isOmiya: true },
+  { id: 'JA-27', code: '65-1', name: '日進', line: 'jr_kawagoe' },
+  { id: 'JA-28', code: '65-10', name: '西大宮', line: 'jr_kawagoe' },
+  { id: 'JA-29', code: '65-2', name: '指扇', line: 'jr_kawagoe' },
+  { id: 'JA-30', code: '65-3', name: '南古谷', line: 'jr_kawagoe' },
+  { id: 'JA-31', code: '65-4', name: '川越', line: 'jr_kawagoe', isKawagoe: true },
 ];
 
 function sleep(ms) {
@@ -34,7 +34,7 @@ function sleep(ms) {
 
 function mapTrainType(rawType) {
   if (!rawType) return 'local';
-  if (rawType.includes('通勤快速') || rawType.includes('通快')) return 'commuter';
+  if (rawType.includes('通勤快速') || rawType.includes('通快')) return 'commuter_rapid';
   if (rawType.includes('快速')) return 'rapid';
   return 'local';
 }
@@ -125,7 +125,7 @@ async function fetchStationData(st, dw) {
   } else if (st.isKawagoe) {
     // 川越: parts[1] が大宮方面（上り/inbound）、parts[2] は高麗川方面
     inbound = parseTimetableChunk(parts[1] || '');
-  } else if (st.line === 'kawagoe') {
+  } else if (st.line === 'jr_kawagoe') {
     // 日進〜南古谷: parts[1] が大宮方面（上り/inbound）、parts[2] が川越方面（下り/outbound）
     inbound = parseTimetableChunk(parts[1] || '');
     outbound = parseTimetableChunk(parts[2] || '');

@@ -1,4 +1,4 @@
-// uetsu_main 駅リスト訂正スクリプト
+// jr_uetsu_main 駅リスト訂正スクリプト
 // 旧 stations.ts には奥羽本線の「土崎」駅が羽越本線の駅 (UE-54) として混入しており、
 // 実在順序も「羽後亀田 → 岩城みなと → … → 新屋 → 羽後牛島 → 秋田」と異なっていた。
 // Wikipedia 羽越本線路線図（羽後亀田 243.7 → 岩城みなと 250.2 → 道川 251.8 →
@@ -10,7 +10,7 @@ const ts = require('typescript');
 const vm = require('vm');
 
 function loadStations() {
-  const rawTs = fs.readFileSync(path.resolve('src/data/lines/uetsu_main/stations.ts'), 'utf8');
+  const rawTs = fs.readFileSync(path.resolve('src/data/lines/jr_uetsu_main/stations.ts'), 'utf8');
   const sanitized = rawTs.replace(/import\s+[\s\S]*?from\s+['"][^'"]+['"];?/g, '');
   const js = ts.transpileModule(sanitized, {
     compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 },
@@ -73,5 +73,5 @@ const header = `import type { Station } from '../../../types';
 export const UETSU_MAIN_STATIONS: Station[] = ${JSON.stringify(filtered, null, 2)};
 `;
 
-fs.writeFileSync(path.resolve('src/data/lines/uetsu_main/stations.ts'), header, 'utf8');
-console.log('✅ wrote src/data/lines/uetsu_main/stations.ts (60 stations, renumbered)');
+fs.writeFileSync(path.resolve('src/data/lines/jr_uetsu_main/stations.ts'), header, 'utf8');
+console.log('✅ wrote src/data/lines/jr_uetsu_main/stations.ts (60 stations, renumbered)');

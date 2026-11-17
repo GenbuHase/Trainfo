@@ -61,7 +61,7 @@ function resolveSelectedTrain(
 async function main() {
   console.log('=== 西武鉄道 ↔ 東京メトロ 3路線相互直通 & S-TRAIN ハンドオーバーテスト ===\n');
 
-  await loadLinesTimetables(['yurakucho', 'fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro']);
+  await loadLinesTimetables(['tokyo_metro_yurakucho', 'tokyo_metro_fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro']);
 
   // 1. 下り3路線直通のサンプル探索 (有楽町線 -> 西武有楽町線 -> 西武池袋線)
   console.log('--- 探索: 有楽町線 -> 西武有楽町線 -> 西武池袋線 3路線貫通列車 ---');
@@ -114,7 +114,7 @@ if (test1Y && test1SY && test1SI) {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['yurakucho', 'seibu_yurakucho', 'seibu_ikebukuro'],
+      selectedLineIds: ['tokyo_metro_yurakucho', 'seibu_yurakucho', 'seibu_ikebukuro'],
     });
 
     if (!tracked) {
@@ -188,7 +188,7 @@ if (test2SI && test2SY && test2F) {
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin'],
+      selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin'],
     });
 
     if (!tracked) {
@@ -201,7 +201,7 @@ if (test2SI && test2SY && test2F) {
     console.log(`[時刻 ${timeStr}] 追尾ID: ${tracked?.tripId} | 路線: ${tracked?.lineId} | 種別: ${tracked?.trainType} | 行先: ${tracked?.customDestination} | 駅: ${tracked?.currentStationId} -> ${tracked?.nextStationId}`);
   }
 
-  if (tracked && tracked.lineId === 'fukutoshin' && tracked.tripId === test2F.tripId) {
+  if (tracked && tracked.lineId === 'tokyo_metro_fukutoshin' && tracked.tripId === test2F.tripId) {
     console.log('✅ テスト2 成功: 西武池袋線 -> 西武有楽町線 -> 副都心線 3路線完全貫通追尾成功！\n');
   } else {
     console.error('❌ テスト2 失敗: 副都心線へのハンドオーバーが行われませんでした。\n');
@@ -214,7 +214,7 @@ if (test2SI && test2SY && test2F) {
 
 // 3. 平日 S-TRAIN 102号（所沢 -> 豊洲）の追尾テスト
 console.log('--- テスト3: 平日上り S-TRAIN 102号 (所沢 06:24発 -> 豊洲 07:24着) 追尾テスト ---');
-const sTrain102SI = seibuIkebukuroTrips.find(t => !t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound');
+const sTrain102SI = seibuIkebukuroTrips.find(t => !t.isHoliday && t.trainType === 's_train' && t.direction === 'inbound');
 if (!sTrain102SI) {
   console.error('❌ S-TRAIN 102号が西武池袋線に見つかりません。');
   process.exit(1);
@@ -249,7 +249,7 @@ for (const timeStr of sTrainTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'yurakucho'],
+    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_yurakucho'],
   });
 
   if (!trackedS) {
@@ -266,12 +266,12 @@ for (const timeStr of sTrainTimes) {
   }
 }
 
-if (trackedS && trackedS.lineId === 'yurakucho' && trackedS.trainType === 'strain') {
+if (trackedS && trackedS.lineId === 'tokyo_metro_yurakucho' && trackedS.trainType === 's_train') {
   if (trackedS.trainName !== 'S-TRAIN 102号') {
     console.error(`❌ テスト3 失敗: trainName が '${trackedS.trainName}' です（期待値: 'S-TRAIN 102号'）`);
     process.exit(1);
   }
-  console.log('✅ テスト3 成功: 平日 S-TRAIN 102号が始発駅「所沢」・列車名「S-TRAIN 102号」を維持したまま西武線からメトロ豊洲まで strain 種別で完全貫通追尾されました！\n');
+  console.log('✅ テスト3 成功: 平日 S-TRAIN 102号が始発駅「所沢」・列車名「S-TRAIN 102号」を維持したまま西武線からメトロ豊洲まで s_train 種別で完全貫通追尾されました！\n');
 } else {
   console.error('❌ テスト3 失敗: S-TRAIN の貫通追尾に失敗しました。\n');
   process.exit(1);
@@ -279,7 +279,7 @@ if (trackedS && trackedS.lineId === 'yurakucho' && trackedS.trainType === 'strai
 
 // 4. 土休日 S-TRAIN 1号（元町・中華街 -> 西武秩父）の追尾テスト
 console.log('--- テスト4: 土休日下り S-TRAIN 1号 (副都心線 -> 西武有楽町線 -> 西武秩父) 追尾テスト ---');
-const sTrain1F = fukutoshinTrips.find(t => t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound');
+const sTrain1F = fukutoshinTrips.find(t => t.isHoliday && t.trainType === 's_train' && t.direction === 'inbound');
 if (!sTrain1F) {
   console.error('❌ 土休日 S-TRAIN 1号が副都心線に見つかりません。');
   process.exit(1);
@@ -316,7 +316,7 @@ for (const timeStr of sTrain1Times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro'],
+    selectedLineIds: ['tokyo_metro_fukutoshin', 'seibu_yurakucho', 'seibu_ikebukuro'],
   });
 
   if (!trackedS1) {
@@ -333,12 +333,12 @@ for (const timeStr of sTrain1Times) {
   }
 }
 
-if (trackedS1 && trackedS1.lineId === 'seibu_ikebukuro' && trackedS1.trainType === 'strain') {
+if (trackedS1 && trackedS1.lineId === 'seibu_ikebukuro' && trackedS1.trainType === 's_train') {
   if (trackedS1.trainName !== 'S-TRAIN 1号') {
     console.error(`❌ テスト4 失敗: trainName が '${trackedS1.trainName}' です（期待値: 'S-TRAIN 1号'）`);
     process.exit(1);
   }
-  console.log('✅ テスト4 成功: 土休日 S-TRAIN 1号が始発駅「元町・中華街」・列車名「S-TRAIN 1号」を維持したまま副都心線から西武秩父線まで strain 種別で完全貫通追尾されました！\n');
+  console.log('✅ テスト4 成功: 土休日 S-TRAIN 1号が始発駅「元町・中華街」・列車名「S-TRAIN 1号」を維持したまま副都心線から西武秩父線まで s_train 種別で完全貫通追尾されました！\n');
 } else {
   console.error('❌ テスト4 失敗: 土休日 S-TRAIN の貫通追尾に失敗しました。\n');
   process.exit(1);
@@ -346,7 +346,7 @@ if (trackedS1 && trackedS1.lineId === 'seibu_ikebukuro' && trackedS1.trainType =
 
 // 5. 土休日上り S-TRAIN 2号（飯能 -> 元町・中華街）の追尾テスト
 console.log('--- テスト5: 土休日上り S-TRAIN 2号 (西武池袋線 -> 西武有楽町線 -> 副都心線) 追尾テスト ---');
-const sTrain2SI = seibuIkebukuroTrips.find(t => t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound' && (t.trainNumber === '402レ' || t.trainNumber === '144626' || t.trainId === '144626'));
+const sTrain2SI = seibuIkebukuroTrips.find(t => t.isHoliday && t.trainType === 's_train' && t.direction === 'inbound' && (t.trainNumber === '402レ' || t.trainNumber === '144626' || t.trainId === '144626'));
 if (!sTrain2SI) {
   console.error('❌ 土休日 S-TRAIN 2号が西武池袋線に見つかりません。');
   process.exit(1);
@@ -382,7 +382,7 @@ for (const timeStr of sTrain2Times) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin'],
+    selectedLineIds: ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin'],
   });
 
   if (!trackedS2) {
@@ -399,12 +399,12 @@ for (const timeStr of sTrain2Times) {
   }
 }
 
-if (trackedS2 && trackedS2.lineId === 'fukutoshin' && trackedS2.trainType === 'strain') {
+if (trackedS2 && trackedS2.lineId === 'tokyo_metro_fukutoshin' && trackedS2.trainType === 's_train') {
   if (trackedS2.trainName !== 'S-TRAIN 2号') {
     console.error(`❌ テスト5 失敗: trainName が '${trackedS2.trainName}' です（期待値: 'S-TRAIN 2号'）`);
     process.exit(1);
   }
-  console.log('✅ テスト5 成功: 土休日 S-TRAIN 2号が始発駅「飯能」・列車名「S-TRAIN 2号」を維持したまま副都心線渋谷まで strain 種別で完全貫通追尾されました！\n');
+  console.log('✅ テスト5 成功: 土休日 S-TRAIN 2号が始発駅「飯能」・列車名「S-TRAIN 2号」を維持したまま副都心線渋谷まで s_train 種別で完全貫通追尾されました！\n');
 } else {
   console.error('❌ テスト5 失敗: 土休日 S-TRAIN 2号の貫通追尾に失敗しました。\n');
   process.exit(1);

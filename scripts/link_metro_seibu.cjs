@@ -54,11 +54,11 @@ function linkMetroAndSeibu() {
 
     // B. Metro -> 西武有楽町線
     let metro = yTrips.find(t => t.direction === 'inbound' && t.trainNumber === sy.trainNumber && t.isHoliday === sy.isHoliday);
-    let metroLineId = 'yurakucho';
+    let metroLineId = 'tokyo_metro_yurakucho';
 
     if (!metro) {
       metro = fTrips.find(t => t.direction === 'inbound' && t.trainNumber === sy.trainNumber && t.isHoliday === sy.isHoliday);
-      metroLineId = 'fukutoshin';
+      metroLineId = 'tokyo_metro_fukutoshin';
     }
 
     if (metro) {
@@ -69,9 +69,9 @@ function linkMetroAndSeibu() {
       metro.customDestination = sy.customDestination || metro.customDestination;
 
       // 始発駅の伝播
-      const metroStMap = metroLineId === 'yurakucho' ? yStMap : fStMap;
+      const metroStMap = metroLineId === 'tokyo_metro_yurakucho' ? yStMap : fStMap;
       const metroOrig = metroStMap.get(metro.originStationId);
-      const origName = metro.customOrigin || metroOrig?.name || (metroLineId === 'yurakucho' ? '新木場' : '元町・中華街');
+      const origName = metro.customOrigin || metroOrig?.name || (metroLineId === 'tokyo_metro_yurakucho' ? '新木場' : '元町・中華街');
       sy.customOrigin = origName;
       if (si) {
         si.customOrigin = origName;
@@ -99,20 +99,20 @@ function linkMetroAndSeibu() {
 
     // B. 西武有楽町線 -> Metro
     let metro = yTrips.find(t => t.direction === 'outbound' && t.trainNumber === sy.trainNumber && t.isHoliday === sy.isHoliday);
-    let metroLineId = 'yurakucho';
+    let metroLineId = 'tokyo_metro_yurakucho';
 
     if (!metro) {
       metro = fTrips.find(t => t.direction === 'outbound' && t.trainNumber === sy.trainNumber && t.isHoliday === sy.isHoliday);
-      metroLineId = 'fukutoshin';
+      metroLineId = 'tokyo_metro_fukutoshin';
     }
 
     if (metro) {
       sy.throughTripId = metro.tripId;
       sy.throughLineId = metroLineId;
 
-      const metroStMap = metroLineId === 'yurakucho' ? yStMap : fStMap;
+      const metroStMap = metroLineId === 'tokyo_metro_yurakucho' ? yStMap : fStMap;
       const metroDest = metroStMap.get(metro.destinationStationId);
-      const destName = metro.customDestination || metroDest?.name || (metroLineId === 'yurakucho' ? '新木場' : '元町・中華街');
+      const destName = metro.customDestination || metroDest?.name || (metroLineId === 'tokyo_metro_yurakucho' ? '新木場' : '元町・中華街');
       sy.customDestination = destName;
       if (si) {
         si.customDestination = destName;

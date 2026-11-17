@@ -156,7 +156,7 @@ flowchart TD
        | 'sotetsu_jr_direct'
        | (string & {});
      ```
-   * 新路線固有の種別キーが必要な場合は `TrainTypeKey` に追加（例: `strain`, `commuter_semi`, `f_liner` 等）。
+   * 新路線固有の種別キーが必要な場合は `TrainTypeKey` に追加（例: `strain`, `commuter_semi_exp`, `f_liner` 等）。
 
 3. **種別定義の作成 ([`src/data/lines/<lineId>/trainTypes.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/rinkai/trainTypes.ts))**:
    * 各種別の表示名、短縮名、背景色（`bgColor`）、文字色（`textColor`）、枠線色（`borderColor`）を定義。

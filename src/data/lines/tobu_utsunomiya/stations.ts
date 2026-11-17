@@ -25,7 +25,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -116,7 +116,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -177,7 +177,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -268,7 +268,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -329,7 +329,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "platforms": {

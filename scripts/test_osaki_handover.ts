@@ -70,7 +70,7 @@ for (const pt of outTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['rinkai', 'saikyo', 'kawagoe'],
+    selectedLineIds: ['rinkai', 'jr_saikyo', 'jr_kawagoe'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -116,7 +116,7 @@ for (const pt of inbTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['saikyo', 'rinkai'],
+    selectedLineIds: ['jr_saikyo', 'rinkai'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -153,7 +153,7 @@ for (const timeStr of termTimes) {
     randomDelays: {},
     isPlaying: true,
     speedMultiplier: 1,
-    selectedLineIds: ['rinkai', 'saikyo'],
+    selectedLineIds: ['rinkai', 'jr_saikyo'],
   });
 
   const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
@@ -194,10 +194,10 @@ console.log('--- テスト4: throughLineId による直通先路線の自動追�
     console.log(`[自動追加] 追尾中列車の throughLineId: '${train.throughLineId}' を検知し路線追加 -> selectedLineIds:`, selectedLineIds);
   }
 
-  if (selectedLineIds.includes('saikyo')) {
-    console.log('✅ テスト4 成功: throughLineId により saikyo が汎用ロジックで自動追加されました！\n');
+  if (selectedLineIds.includes('jr_saikyo')) {
+    console.log('✅ テスト4 成功: throughLineId により jr_saikyo が汎用ロジックで自動追加されました！\n');
   } else {
-    console.error('❌ テスト4 失敗: saikyo が自動追加されませんでした\n');
+    console.error('❌ テスト4 失敗: jr_saikyo が自動追加されませんでした\n');
     process.exit(1);
   }
 }
@@ -229,7 +229,7 @@ console.log('--- テスト5: 【休日ダイヤ】 下り直通 26783便 (新木
       randomDelays: {},
       isPlaying: true,
       speedMultiplier: 1,
-      selectedLineIds: ['rinkai', 'saikyo', 'kawagoe'],
+      selectedLineIds: ['rinkai', 'jr_saikyo', 'jr_kawagoe'],
     });
 
     const selected = resolveSelectedTrain(activeTrains, hdTrackedId, hdLastSelected);

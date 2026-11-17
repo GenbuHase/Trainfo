@@ -26,7 +26,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -62,7 +62,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -92,7 +92,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -122,7 +122,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -152,7 +152,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -182,7 +182,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -215,7 +215,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -247,7 +247,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -277,7 +277,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -307,7 +307,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -337,7 +337,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -367,7 +367,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -397,7 +397,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -427,7 +427,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -459,7 +459,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

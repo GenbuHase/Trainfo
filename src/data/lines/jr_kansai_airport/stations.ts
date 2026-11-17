@@ -22,7 +22,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "kanku_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -54,7 +54,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "kanku_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -86,7 +86,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "kanku_rapid",
-      "limitedExp"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

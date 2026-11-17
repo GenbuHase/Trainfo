@@ -23,12 +23,12 @@ module.exports = {
     '急行': 'express',
     '通勤急行': 'commuter_exp',
     '通急': 'commuter_exp',
-    '特急': 'limitedExp',
-    '通勤特急': 'commuter_ltd_exp',
-    '通特': 'commuter_ltd_exp',
+    '特急': 'limited_exp',
+    '通勤特急': 'commuter_limited_exp',
+    '通特': 'commuter_limited_exp',
   },
   // 相鉄新横浜線内の通勤特急・各停以外の種別を保持
-  preserveAllStopsTypes: ['express', 'commuter_exp', 'commuter_ltd_exp', 'limitedExp'],
+  preserveAllStopsTypes: ['express', 'commuter_exp', 'commuter_limited_exp', 'limited_exp'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 240, // 新横浜 -> 羽沢横浜国大

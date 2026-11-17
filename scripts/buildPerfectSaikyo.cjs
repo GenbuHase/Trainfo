@@ -291,9 +291,9 @@ for (let i = 0; i < snappedStations.length - 1; i++) {
   });
 }
 
-// 9. src/data/lines/saikyo/stations.ts の更新
+// 9. src/data/lines/jr_saikyo/stations.ts の更新
 console.log('--- Step 2: Updating stations.ts ---');
-const currentStationsContent = fs.readFileSync('src/data/lines/saikyo/stations.ts', 'utf8');
+const currentStationsContent = fs.readFileSync('src/data/lines/jr_saikyo/stations.ts', 'utf8');
 
 // 各駅の lat / lng をスナップ後の値に置換
 let updatedStationsContent = currentStationsContent;
@@ -303,10 +303,10 @@ snappedStations.forEach(st => {
   updatedStationsContent = updatedStationsContent.replace(regex, `$1${st.lat}$3${st.lng}`);
 });
 
-fs.writeFileSync('src/data/lines/saikyo/stations.ts', updatedStationsContent, 'utf8');
-console.log('Updated src/data/lines/saikyo/stations.ts');
+fs.writeFileSync('src/data/lines/jr_saikyo/stations.ts', updatedStationsContent, 'utf8');
+console.log('Updated src/data/lines/jr_saikyo/stations.ts');
 
-// 10. src/data/lines/saikyo/trackGeometry.ts の更新
+// 10. src/data/lines/jr_saikyo/trackGeometry.ts の更新
 console.log('--- Step 3: Updating trackGeometry.ts ---');
 const trackContent = `import type { TrackSegment } from '../../../types';
 
@@ -315,7 +315,7 @@ const trackContent = `import type { TrackSegment } from '../../../types';
 export const SAIKYO_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(segments, null, 2)};
 `;
 
-fs.writeFileSync('src/data/lines/saikyo/trackGeometry.ts', trackContent, 'utf8');
-console.log('Updated src/data/lines/saikyo/trackGeometry.ts');
+fs.writeFileSync('src/data/lines/jr_saikyo/trackGeometry.ts', trackContent, 'utf8');
+console.log('Updated src/data/lines/jr_saikyo/trackGeometry.ts');
 
 console.log('--- All Done Successfully! ---');

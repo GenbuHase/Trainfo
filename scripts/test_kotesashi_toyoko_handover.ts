@@ -57,7 +57,7 @@ const timeline = [
 let tracked: ActiveTrain | null = null;
 let lastSelected: ActiveTrain | null = null;
 
-const lines = ['seibu_ikebukuro', 'seibu_yurakucho', 'fukutoshin', 'tokyu_toyoko', 'minatomirai'];
+const lines = ['seibu_ikebukuro', 'seibu_yurakucho', 'tokyo_metro_fukutoshin', 'tokyu_toyoko', 'minatomirai'];
 
 for (const step of timeline) {
   const sec = timeStringToSeconds(step.time);

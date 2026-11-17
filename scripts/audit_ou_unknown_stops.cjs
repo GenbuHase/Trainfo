@@ -9,10 +9,10 @@ function stationNames(file) {
 }
 
 const files = {
-  ou_fukushima_shinjo: 'src/data/lines/ou_fukushima_shinjo/stations.ts',
-  ou_shinjo_omagari: 'src/data/lines/ou_shinjo_omagari/stations.ts',
-  ou_omagari_akita: 'src/data/lines/ou_omagari_akita/stations.ts',
-  ou_akita_aomori: 'src/data/lines/ou_akita_aomori/stations.ts',
+  jr_ou_fukushima_shinjo: 'src/data/lines/jr_ou_fukushima_shinjo/stations.ts',
+  jr_ou_shinjo_omagari: 'src/data/lines/jr_ou_shinjo_omagari/stations.ts',
+  jr_ou_omagari_akita: 'src/data/lines/jr_ou_omagari_akita/stations.ts',
+  jr_ou_akita_aomori: 'src/data/lines/jr_ou_akita_aomori/stations.ts',
 };
 
 function norm(name) {

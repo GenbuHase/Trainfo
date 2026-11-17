@@ -40,25 +40,25 @@ function linkTojoAndMetro() {
   for (const tj of tojoInbToWakoshi) {
     // 列車番号と運行日（weekday/holiday）による完全一致
     let matchedMetro = yOutFromWakoshi.find(m => m.trainNumber === tj.trainNumber && m.isHoliday === tj.isHoliday);
-    let targetLineId = 'yurakucho';
+    let targetLineId = 'tokyo_metro_yurakucho';
 
     if (!matchedMetro) {
       matchedMetro = fOutFromWakoshi.find(m => m.trainNumber === tj.trainNumber && m.isHoliday === tj.isHoliday);
-      targetLineId = 'fukutoshin';
+      targetLineId = 'tokyo_metro_fukutoshin';
     }
 
     if (matchedMetro) {
       tj.throughTripId = matchedMetro.tripId;
       tj.throughLineId = targetLineId;
 
-      const metroDestMap = targetLineId === 'yurakucho' ? yStMap : fStMap;
+      const metroDestMap = targetLineId === 'tokyo_metro_yurakucho' ? yStMap : fStMap;
       const metroDest = metroDestMap.get(matchedMetro.destinationStationId);
       tj.customDestination = matchedMetro.customDestination || metroDest?.name || tj.customDestination;
 
       const tjOrig = tojoStMap.get(tj.originStationId);
       matchedMetro.customOrigin = tj.customOrigin || tjOrig?.name || '森林公園';
 
-      if (targetLineId === 'yurakucho') inbToY++;
+      if (targetLineId === 'tokyo_metro_yurakucho') inbToY++;
       else inbToF++;
     } else {
       console.warn(`[TJ->Metro] No match for Tojo trip ${tj.tripId} (trainNo: ${tj.trainNumber})`);
@@ -77,7 +77,7 @@ function linkTojoAndMetro() {
     const tj = tojoOutFromWakoshi.find(t => t.trainNumber === y.trainNumber && t.isHoliday === y.isHoliday);
     if (tj) {
       y.throughTripId = tj.tripId;
-      y.throughLineId = 'tojo';
+      y.throughLineId = 'tobu_tojo';
       const tjDest = tojoStMap.get(tj.destinationStationId);
       y.customDestination = tj.customDestination || tjDest?.name || y.customDestination;
 
@@ -93,7 +93,7 @@ function linkTojoAndMetro() {
     const tj = tojoOutFromWakoshi.find(t => t.trainNumber === f.trainNumber && t.isHoliday === f.isHoliday);
     if (tj) {
       f.throughTripId = tj.tripId;
-      f.throughLineId = 'tojo';
+      f.throughLineId = 'tobu_tojo';
       const tjDest = tojoStMap.get(tj.destinationStationId);
       f.customDestination = tj.customDestination || tjDest?.name || f.customDestination;
 
