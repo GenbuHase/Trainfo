@@ -49,7 +49,7 @@ export const TestRunModal: React.FC = () => {
 
   const [activeTab, setActiveTab] = useState<CreatorTab>('route');
   const [plan, setPlan] = useState<CustomTrainPlan>(() =>
-    createDefaultCustomTrainPlan(sim.currentSec, 'tojo')
+    createDefaultCustomTrainPlan(sim.currentSec)
   );
 
   // 路線追加・変更用の検索フィルター状態
@@ -941,6 +941,7 @@ export const TestRunModal: React.FC = () => {
               selectedOperator={selectedOperator}
               groupedByOperator={groupedByOperator}
               filteredLines={filteredLines}
+              selectedLineId={sel.selectedLineIds.length === 1 ? sel.selectedLineIds[0] : null}
               onSetEditingSegmentIdxForLine={setEditingSegmentIdxForLine}
               onSetAddingLineModalOpen={setAddingLineModalOpen}
               onSetLineSearchQuery={setLineSearchQuery}
@@ -1046,7 +1047,7 @@ export const TestRunModal: React.FC = () => {
             <button
               type="button"
               onClick={() =>
-                setPlan(createDefaultCustomTrainPlan(sim.currentSec, 'tojo'))
+                setPlan(createDefaultCustomTrainPlan(sim.currentSec))
               }
               className="px-3 py-2 rounded-xl text-xs font-bold text-slate-500 hover:text-slate-800 hover:bg-slate-100 transition-colors"
               title="初期設定にリセット"
@@ -1055,11 +1056,25 @@ export const TestRunModal: React.FC = () => {
             </button>
             <button
               type="button"
+              disabled={computedPlan.segments.length === 0}
               onClick={handleLaunch}
-              className="px-5 py-2.5 rounded-xl text-xs font-extrabold bg-sky-600 text-white shadow-md hover:bg-sky-500 active:scale-95 transition-all flex items-center gap-2 cursor-pointer"
+              className={`px-5 py-2.5 rounded-xl text-xs font-extrabold shadow-md transition-all flex items-center gap-2 ${
+                computedPlan.segments.length === 0
+                  ? 'bg-slate-200 text-slate-400 cursor-not-allowed shadow-none'
+                  : 'bg-sky-600 text-white hover:bg-sky-500 active:scale-95 cursor-pointer'
+              }`}
+              title={
+                computedPlan.segments.length === 0
+                  ? '路線を選択してください'
+                  : 'この設定で発車・追尾開始'
+              }
             >
-              <Play className="w-4 h-4 fill-white" />
-              <span>この設定で発車・追尾開始</span>
+              <Play className="w-4 h-4 fill-current" />
+              <span>
+                {computedPlan.segments.length === 0
+                  ? '路線を選択してください'
+                  : 'この設定で発車・追尾開始'}
+              </span>
             </button>
           </div>
         </div>

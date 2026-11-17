@@ -55,6 +55,22 @@ export const StopsTab: React.FC<StopsTabProps> = ({
   onManualDepartureTimeChange,
   onManualStopDurationChange,
 }) => {
+  if (computedPlan.segments.length === 0) {
+    return (
+      <div className="bg-white rounded-xl border border-slate-200/90 shadow-xs p-8 text-center space-y-3">
+        <div className="inline-flex p-3 rounded-full bg-slate-100 text-slate-500">
+          <Clock className="w-6 h-6" />
+        </div>
+        <h4 className="text-sm font-extrabold text-slate-800">
+          路線が選択されていません
+        </h4>
+        <p className="text-xs text-slate-500 max-w-sm mx-auto">
+          路線選択後に各駅の発着時刻や停車パターンの編集ができます
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-4">
       {/* 始発時刻・停車時間・一括停車設定コントロール */}

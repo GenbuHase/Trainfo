@@ -189,7 +189,7 @@ function resolveStationTimetableData(
   isHoliday: boolean,
   lineId?: LineId
 ): {
-  resolvedLineId: LineId;
+  resolvedLineId?: LineId;
   targetData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] };
 } {
   const dayKey = isHoliday ? 'holiday' : 'weekday';
@@ -222,13 +222,12 @@ function resolveStationTimetableData(
     stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
   }
 
-  const finalLineId = resolvedLineId || 'tojo';
   const baseData = stData || { inbound: [], outbound: [] };
 
-  // 4. 動的試運転・臨時列車の停車発車をマージ
-  const dynamicDeps = extractDynamicStationDepartures(stationId, isHoliday, finalLineId);
+  // 4. 動的試運転・臨時列車の停車発車をマージ（路線指定があれば絞り込み、なければ全試運転）
+  const dynamicDeps = extractDynamicStationDepartures(stationId, isHoliday, resolvedLineId);
   return {
-    resolvedLineId: finalLineId,
+    resolvedLineId,
     targetData: {
       inbound: [...baseData.inbound, ...dynamicDeps.inbound],
       outbound: [...baseData.outbound, ...dynamicDeps.outbound],
@@ -280,7 +279,7 @@ export function getStationDepartures(
       return secA - secB;
     });
 
-    const lineDef = getLine(finalLineId);
+    const lineDef = finalLineId ? getLine(finalLineId) : undefined;
     const lineOriginStationId = lineDef?.stations[0]?.id || '';
     const lineTerminusStationId = lineDef?.stations[lineDef.stations.length - 1]?.id || '';
     const defaultCars = lineDef?.defaultCars ?? 10;
@@ -298,7 +297,7 @@ export function getStationDepartures(
 
       return {
         tripId: d.tripId || `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
-        lineId: finalLineId,
+        lineId: finalLineId || mappedTrip?.lineId || ('' as LineId),
         trainNumber: d.no,
         trainType: d.t,
         customTrainType: d.customTrainType || mappedTrip?.customTrainType,

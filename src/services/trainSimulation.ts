@@ -265,7 +265,7 @@ export function calculateActiveTrains(
     if (trip.isHoliday !== isHoliday) continue;
     if (trip.stops.length < 2) continue;
 
-    const lineId: LineId = trip.lineId || 'tojo';
+    const lineId: LineId = trip.lineId;
     if (simState.selectedLineIds && !simState.selectedLineIds.includes(lineId)) {
       continue;
     }

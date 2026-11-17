@@ -355,12 +355,24 @@ export function recalculatePlanSchedule(
     plan.departureMode === 'scheduled' ? plan.scheduledStartSec : Math.floor(currentSimSec);
   const defaultStopSec = Math.max(0, plan.defaultStopSec ?? 20);
 
+  // 存在しない路線セグメントを除外
+  const validSegments = plan.segments.filter((seg) => Boolean(getLine(seg.lineId)));
+
+  if (validSegments.length === 0) {
+    return {
+      ...plan,
+      segments: [],
+    };
+  }
+
+  const validSegmentsSource = validSegments;
+
   let cursorSec = startSec;
 
   const updatedSegments: CustomTrainSegment[] = [];
 
-  for (let segIdx = 0; segIdx < plan.segments.length; segIdx++) {
-    const seg = plan.segments[segIdx];
+  for (let segIdx = 0; segIdx < validSegmentsSource.length; segIdx++) {
+    const seg = validSegmentsSource[segIdx];
     const speedKmh = seg.speedKmh || (seg.lineId.includes('shinkansen') ? 210 : 75);
     const stops: CustomTrainStopSetting[] = seg.stops.map((s) => ({ ...s }));
 
@@ -375,7 +387,7 @@ export function recalculatePlanSchedule(
       const cur = stops[i];
       const isFirstInSeg = i === 0;
       const isLastInSeg = i === stops.length - 1;
-      const isLastInPlan = segIdx === plan.segments.length - 1 && isLastInSeg;
+      const isLastInPlan = segIdx === validSegmentsSource.length - 1 && isLastInSeg;
 
       if (isFirstInSeg) {
         if (segIdx === 0) {
@@ -841,18 +853,29 @@ export function createCustomTrainTrips(
  */
 export function createDefaultCustomTrainPlan(
   currentSimSec: number,
-  initialLineId: LineId = 'tojo'
+  initialLineId?: LineId
 ): CustomTrainPlan {
-  const firstSeg = createRouteSegment(initialLineId, {
-    trainType: 'test_run',
-    defaultStopSec: 20,
-  });
+  const segments: CustomTrainSegment[] = [];
+  let defaultCars = 10;
+
+  if (initialLineId) {
+    const lineDef = getLine(initialLineId);
+    if (lineDef) {
+      defaultCars = lineDef.defaultCars || 10;
+      segments.push(
+        createRouteSegment(initialLineId, {
+          trainType: 'test_run',
+          defaultStopSec: 20,
+        })
+      );
+    }
+  }
 
   const basePlan: CustomTrainPlan = {
     id: `plan_${Date.now()}`,
     trainName: '',
     defaultTrainNumber: '試9001レ',
-    cars: getLine(initialLineId)?.defaultCars || 10,
+    cars: defaultCars,
     useCustomType: true,
     customTrainType: {
       name: '試運転',
@@ -864,7 +887,7 @@ export function createDefaultCustomTrainPlan(
     seekToStartOnLaunch: true,
     defaultStopSec: 20,
     speedMultiplier: 5,
-    segments: [firstSeg],
+    segments,
   };
 
   return recalculatePlanSchedule(basePlan, currentSimSec);

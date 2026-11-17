@@ -10,6 +10,7 @@ import {
   MapPin,
   Flag,
   Tag,
+  Train,
 } from 'lucide-react';
 import type { LineId, TrainTypeKey, LineDefinition } from '../../../types';
 import { getLine } from '../../../data/linesRegistry';
@@ -35,6 +36,7 @@ interface RouteTabProps {
   selectedOperator: string;
   groupedByOperator: { operator: string; lines: LineDefinition[] }[];
   filteredLines: LineDefinition[];
+  selectedLineId?: LineId | null;
   onSetEditingSegmentIdxForLine: (idx: number | null) => void;
   onSetAddingLineModalOpen: (open: boolean) => void;
   onSetLineSearchQuery: (query: string) => void;
@@ -61,6 +63,7 @@ export const RouteTab: React.FC<RouteTabProps> = ({
   selectedOperator,
   groupedByOperator,
   filteredLines,
+  selectedLineId,
   onSetEditingSegmentIdxForLine,
   onSetAddingLineModalOpen,
   onSetLineSearchQuery,
@@ -74,11 +77,107 @@ export const RouteTab: React.FC<RouteTabProps> = ({
   onAddConnectedLine,
   onReplaceSegmentLine,
 }) => {
+  const currentSelectedLine = selectedLineId ? getLine(selectedLineId) : null;
+
   return (
     <div className="space-y-4">
-      {/* 路線セグメント一覧 */}
-      <div className="space-y-3">
-        {computedPlan.segments.map((seg, segIdx) => {
+      {computedPlan.segments.length === 0 ? (
+        <div className="bg-white rounded-xl border border-slate-200/90 shadow-xs p-5 space-y-4">
+          <div className="text-center max-w-md mx-auto space-y-1">
+            <div className="inline-flex p-3 rounded-full bg-sky-50 text-sky-600 mb-1">
+              <Train className="w-6 h-6" />
+            </div>
+            <h3 className="text-sm font-extrabold text-slate-800">
+              路線を選択してください
+            </h3>
+            <p className="text-xs text-slate-500">
+              始発・終着駅や停車パターン、発着時刻をカスタマイズできます
+            </p>
+          </div>
+
+          {/* 選択中の路線がある場合のおすすめクイックボタン */}
+          {currentSelectedLine && (
+            <div className="bg-sky-50/80 border border-sky-200 rounded-xl p-3 flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2 min-w-0">
+                <span
+                  className="w-3 h-3 rounded-full shrink-0"
+                  style={{ backgroundColor: currentSelectedLine.lineColor }}
+                />
+                <div className="min-w-0">
+                  <span className="text-[10px] font-bold text-sky-700 block">
+                    現在表示中の路線
+                  </span>
+                  <span className="text-xs font-black text-slate-800 truncate block">
+                    {currentSelectedLine.name} ({currentSelectedLine.operator})
+                  </span>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => onAddConnectedLine(currentSelectedLine.id)}
+                className="px-3.5 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shrink-0 transition-colors shadow-xs cursor-pointer"
+              >
+                この路線で作成
+              </button>
+            </div>
+          )}
+
+          {/* 検索・絞り込みバー */}
+          <div className="flex gap-2">
+            <div className="relative flex-1">
+              <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+              <input
+                type="text"
+                placeholder="路線名や会社名で絞り込み..."
+                value={lineSearchQuery}
+                onChange={(e) => onSetLineSearchQuery(e.target.value)}
+                className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-sky-500 transition-colors"
+              />
+            </div>
+            <select
+              value={selectedOperator}
+              onChange={(e) => onSetSelectedOperator(e.target.value)}
+              className="border border-slate-200 rounded-lg px-2.5 py-2 text-xs bg-slate-50 focus:bg-white text-slate-700 font-medium"
+            >
+              <option value="all">全事業者</option>
+              {groupedByOperator.map((g) => (
+                <option key={g.operator} value={g.operator}>
+                  {g.operator}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* 路線カード一覧 */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-72 overflow-y-auto p-1">
+            {filteredLines.map((line) => (
+              <button
+                key={line.id}
+                type="button"
+                onClick={() => onAddConnectedLine(line.id)}
+                className="flex items-center gap-2 p-2.5 rounded-xl border border-slate-200 hover:border-sky-300 bg-white hover:bg-sky-50/60 text-left transition-all group shadow-2xs cursor-pointer"
+              >
+                <span
+                  className="w-3 h-3 rounded-full shrink-0"
+                  style={{ backgroundColor: line.lineColor }}
+                />
+                <div className="min-w-0 flex-1">
+                  <div className="text-xs font-bold text-slate-800 group-hover:text-sky-900 truncate">
+                    {line.shortName}
+                  </div>
+                  <div className="text-[10px] text-slate-400 truncate">
+                    {line.operator}
+                  </div>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <>
+          {/* 路線セグメント一覧 */}
+          <div className="space-y-3">
+            {computedPlan.segments.map((seg, segIdx) => {
           const line = getLine(seg.lineId);
           if (!line) return null;
 
@@ -139,16 +238,14 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                     >
                       路線を変更
                     </button>
-                    {computedPlan.segments.length > 1 && (
-                      <button
-                        type="button"
-                        onClick={() => onRemoveSegment(segIdx)}
-                        className="p-1 rounded-lg text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition-colors"
-                        title="この路線区間を削除"
-                      >
-                        <Trash2 className="w-4 h-4" />
-                      </button>
-                    )}
+                    <button
+                      type="button"
+                      onClick={() => onRemoveSegment(segIdx)}
+                      className="p-1 rounded-lg text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition-colors"
+                      title={computedPlan.segments.length === 1 ? 'この区間を削除して路線を選び直す' : 'この路線区間を削除'}
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
                   </div>
                 </div>
 
@@ -446,6 +543,8 @@ export const RouteTab: React.FC<RouteTabProps> = ({
           </div>
         )}
       </div>
+      </>
+      )}
 
       {/* 路線検索サブモーダル（路線追加・変更時） */}
       {addingLineModalOpen && (
