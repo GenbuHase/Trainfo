@@ -1,10 +1,10 @@
 module.exports = {
   lineId: 'echigo_tokimeki_nihonkai_hisui',
   name: 'えちごトキめき鉄道日本海ひすいライン',
-  stationsFilePath: 'src/data/lines/nihonkai_hisui/stations.ts',
+  stationsFilePath: 'src/data/lines/echigo_tokimeki_nihonkai_hisui/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/nihonkai_hisui/stationTimetables.json',
-    globalTimetable: 'src/data/lines/nihonkai_hisui/globalTimetable.json',
+    stationTimetables: 'src/data/lines/echigo_tokimeki_nihonkai_hisui/stationTimetables.json',
+    globalTimetable: 'src/data/lines/echigo_tokimeki_nihonkai_hisui/globalTimetable.json',
   },
   stations: [
     { id: 'ETH-01', name: '市振', yahooStationId: '23899', inGroupId: null, outGroupId: '7871' },

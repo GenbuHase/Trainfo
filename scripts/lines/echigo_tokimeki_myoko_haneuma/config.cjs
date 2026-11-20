@@ -1,10 +1,10 @@
 module.exports = {
   "lineId": "echigo_tokimeki_myoko_haneuma",
   "name": "えちごトキめき鉄道妙高はねうまライン",
-  "stationsFilePath": "src/data/lines/myoko_haneuma/stations.ts",
+  "stationsFilePath": "src/data/lines/echigo_tokimeki_myoko_haneuma/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/myoko_haneuma/stationTimetables.json",
-    "globalTimetable": "src/data/lines/myoko_haneuma/globalTimetable.json"
+    "stationTimetables": "src/data/lines/echigo_tokimeki_myoko_haneuma/stationTimetables.json",
+    "globalTimetable": "src/data/lines/echigo_tokimeki_myoko_haneuma/globalTimetable.json"
   },
   "stations": [
     {

@@ -2,10 +2,10 @@
 module.exports = {
   "lineId": "tokyo_metro_ginza",
   "name": "東京メトロ銀座線",
-  "stationsFilePath": "src/data/lines/ginza/stations.ts",
+  "stationsFilePath": "src/data/lines/tokyo_metro_ginza/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/ginza/stationTimetables.json",
-    "globalTimetable": "src/data/lines/ginza/globalTimetable.json"
+    "stationTimetables": "src/data/lines/tokyo_metro_ginza/stationTimetables.json",
+    "globalTimetable": "src/data/lines/tokyo_metro_ginza/globalTimetable.json"
   },
   "stations": [
     {

@@ -1,0 +1,3518 @@
+[
+  {
+    "tripId": "WD_OUT_KRS-01_0537_37692",
+    "lineId": "jr_karasuyama",
+    "trainId": "37692",
+    "trainNumber": "321M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "05:35:00",
+        "departureTime": "05:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "05:46:00",
+        "departureTime": "05:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "06:06:00",
+        "departureTime": "06:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_0523_37663",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_0540_37706",
+    "lineId": "jr_karasuyama",
+    "trainId": "37706",
+    "trainNumber": "322M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "05:40:00",
+        "departureTime": "05:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "05:44:00",
+        "departureTime": "05:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "05:49:00",
+        "departureTime": "05:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "06:06:00",
+        "departureTime": "06:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "06:14:00",
+        "departureTime": "06:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:21:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_0621_37677",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_0636_37693",
+    "lineId": "jr_karasuyama",
+    "trainId": "37693",
+    "trainNumber": "323M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "06:28:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_0614_37664",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_0637_37707",
+    "lineId": "jr_karasuyama",
+    "trainId": "37707",
+    "trainNumber": "324M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_0720_37678",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_0726_37694",
+    "lineId": "jr_karasuyama",
+    "trainId": "37694",
+    "trainNumber": "325M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "08:02:00",
+        "departureTime": "08:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_0711_37665",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_0731_37708",
+    "lineId": "jr_karasuyama",
+    "trainId": "37708",
+    "trainNumber": "326M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "07:44:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "08:03:00",
+        "departureTime": "08:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "08:08:00",
+        "departureTime": "08:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_0817_37679",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_0824_37695",
+    "lineId": "jr_karasuyama",
+    "trainId": "37695",
+    "trainNumber": "327M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "08:33:00",
+        "departureTime": "08:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "08:50:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_0810_37666",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_0826_37709",
+    "lineId": "jr_karasuyama",
+    "trainId": "37709",
+    "trainNumber": "328M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "08:40:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "08:58:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "09:03:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_0911_37680",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_0939_37710",
+    "lineId": "jr_karasuyama",
+    "trainId": "37710",
+    "trainNumber": "330M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "09:51:00",
+        "departureTime": "09:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "09:59:00",
+        "departureTime": "09:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_1014_37681",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1048_37696",
+    "lineId": "jr_karasuyama",
+    "trainId": "37696",
+    "trainNumber": "329M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "11:12:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "11:17:00",
+        "departureTime": "11:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "11:22:00",
+        "departureTime": "11:22:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_1033_37667",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_1139_37711",
+    "lineId": "jr_karasuyama",
+    "trainId": "37711",
+    "trainNumber": "332M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "11:51:00",
+        "departureTime": "11:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "11:59:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "12:07:00",
+        "departureTime": "12:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "12:13:00",
+        "departureTime": "12:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_1215_37682",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1248_37697",
+    "lineId": "jr_karasuyama",
+    "trainId": "37697",
+    "trainNumber": "331M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "12:46:00",
+        "departureTime": "12:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "12:53:00",
+        "departureTime": "12:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "12:57:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "13:01:00",
+        "departureTime": "13:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "13:08:00",
+        "departureTime": "13:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "13:12:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "13:17:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_1234_37668",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_1339_37712",
+    "lineId": "jr_karasuyama",
+    "trainId": "37712",
+    "trainNumber": "334M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "13:43:00",
+        "departureTime": "13:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "13:47:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "13:59:00",
+        "departureTime": "13:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "14:07:00",
+        "departureTime": "14:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_1414_37683",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1449_37698",
+    "lineId": "jr_karasuyama",
+    "trainId": "37698",
+    "trainNumber": "333M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "14:47:00",
+        "departureTime": "14:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "14:54:00",
+        "departureTime": "14:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "15:01:00",
+        "departureTime": "15:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "15:13:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "15:22:00",
+        "departureTime": "15:22:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_1434_37669",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_1538_37716",
+    "lineId": "jr_karasuyama",
+    "trainId": "37716",
+    "trainNumber": "336M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "16:09:00",
+        "departureTime": "16:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1538_37699",
+    "lineId": "jr_karasuyama",
+    "trainId": "37699",
+    "trainNumber": "335M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "15:57:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_1523_37670",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1701_37703",
+    "lineId": "jr_karasuyama",
+    "trainId": "37703",
+    "trainNumber": "337M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "17:25:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:34:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KRS-08_1702_37717",
+    "lineId": "jr_karasuyama",
+    "trainId": "37717",
+    "trainNumber": "338M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "17:33:00",
+        "departureTime": "17:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "17:36:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1811_37704",
+    "lineId": "jr_karasuyama",
+    "trainId": "37704",
+    "trainNumber": "339M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "18:24:00",
+        "departureTime": "18:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KRS-08_1813_37718",
+    "lineId": "jr_karasuyama",
+    "trainId": "37718",
+    "trainNumber": "340M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "18:17:00",
+        "departureTime": "18:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "18:21:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "18:26:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "18:53:00",
+        "departureTime": "18:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_1917_37705",
+    "lineId": "jr_karasuyama",
+    "trainId": "37705",
+    "trainNumber": "341M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "19:22:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "19:37:00",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "19:42:00",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KRS-08_1920_37713",
+    "lineId": "jr_karasuyama",
+    "trainId": "37713",
+    "trainNumber": "342M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "19:25:00",
+        "departureTime": "19:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "19:34:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "20:00:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_2003_37684",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_2014_37700",
+    "lineId": "jr_karasuyama",
+    "trainId": "37700",
+    "trainNumber": "343M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "20:19:00",
+        "departureTime": "20:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "20:38:00",
+        "departureTime": "20:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_1959_37671",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_2017_37714",
+    "lineId": "jr_karasuyama",
+    "trainId": "37714",
+    "trainNumber": "344M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "20:17:00",
+        "departureTime": "20:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "20:21:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "20:26:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "20:30:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "20:43:00",
+        "departureTime": "20:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_2058_37685",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_2132_37701",
+    "lineId": "jr_karasuyama",
+    "trainId": "37701",
+    "trainNumber": "345M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "21:37:00",
+        "departureTime": "21:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "21:51:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "21:56:00",
+        "departureTime": "21:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "22:00:00",
+        "departureTime": "22:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:05:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_2117_37672",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_INB_KRS-08_2135_37715",
+    "lineId": "jr_karasuyama",
+    "trainId": "37715",
+    "trainNumber": "346M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "21:35:00",
+        "departureTime": "21:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "21:43:00",
+        "departureTime": "21:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "22:01:00",
+        "departureTime": "22:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "22:08:00",
+        "departureTime": "22:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:16:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_JU-26_2216_37686",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "WD_OUT_KRS-01_2300_37702",
+    "lineId": "jr_karasuyama",
+    "trainId": "37702",
+    "trainNumber": "347M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "22:58:00",
+        "departureTime": "23:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "23:05:00",
+        "departureTime": "23:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "23:09:00",
+        "departureTime": "23:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "23:13:00",
+        "departureTime": "23:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "23:20:00",
+        "departureTime": "23:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "23:24:00",
+        "departureTime": "23:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "23:28:00",
+        "departureTime": "23:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "23:33:00",
+        "departureTime": "23:33:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_JU-24_2246_37673",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_0537_37692",
+    "lineId": "jr_karasuyama",
+    "trainId": "37692",
+    "trainNumber": "321M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "05:35:00",
+        "departureTime": "05:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "05:46:00",
+        "departureTime": "05:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "06:06:00",
+        "departureTime": "06:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_0523_37663",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_0540_37706",
+    "lineId": "jr_karasuyama",
+    "trainId": "37706",
+    "trainNumber": "322M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "05:40:00",
+        "departureTime": "05:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "05:44:00",
+        "departureTime": "05:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "05:49:00",
+        "departureTime": "05:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "06:06:00",
+        "departureTime": "06:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "06:14:00",
+        "departureTime": "06:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:21:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_0621_37677",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_0636_37693",
+    "lineId": "jr_karasuyama",
+    "trainId": "37693",
+    "trainNumber": "323M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "06:28:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_0614_37664",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_0637_37707",
+    "lineId": "jr_karasuyama",
+    "trainId": "37707",
+    "trainNumber": "324M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_0720_37678",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_0726_37694",
+    "lineId": "jr_karasuyama",
+    "trainId": "37694",
+    "trainNumber": "325M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "08:02:00",
+        "departureTime": "08:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_0711_37665",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_0731_37708",
+    "lineId": "jr_karasuyama",
+    "trainId": "37708",
+    "trainNumber": "326M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "07:44:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "08:03:00",
+        "departureTime": "08:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "08:08:00",
+        "departureTime": "08:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_0817_37679",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_0824_37695",
+    "lineId": "jr_karasuyama",
+    "trainId": "37695",
+    "trainNumber": "327M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "08:33:00",
+        "departureTime": "08:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "08:50:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_0810_37666",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_0826_37709",
+    "lineId": "jr_karasuyama",
+    "trainId": "37709",
+    "trainNumber": "328M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "08:40:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "08:58:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "09:03:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_0911_37680",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_0939_37710",
+    "lineId": "jr_karasuyama",
+    "trainId": "37710",
+    "trainNumber": "330M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "09:51:00",
+        "departureTime": "09:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "09:59:00",
+        "departureTime": "09:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_1014_37681",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1048_37696",
+    "lineId": "jr_karasuyama",
+    "trainId": "37696",
+    "trainNumber": "329M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "11:12:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "11:17:00",
+        "departureTime": "11:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "11:22:00",
+        "departureTime": "11:22:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_1033_37667",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_1139_37711",
+    "lineId": "jr_karasuyama",
+    "trainId": "37711",
+    "trainNumber": "332M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "11:51:00",
+        "departureTime": "11:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "11:59:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "12:07:00",
+        "departureTime": "12:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "12:13:00",
+        "departureTime": "12:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_1215_37682",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1248_37697",
+    "lineId": "jr_karasuyama",
+    "trainId": "37697",
+    "trainNumber": "331M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "12:46:00",
+        "departureTime": "12:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "12:53:00",
+        "departureTime": "12:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "12:57:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "13:01:00",
+        "departureTime": "13:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "13:08:00",
+        "departureTime": "13:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "13:12:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "13:17:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_1234_37668",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_1339_37712",
+    "lineId": "jr_karasuyama",
+    "trainId": "37712",
+    "trainNumber": "334M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "13:43:00",
+        "departureTime": "13:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "13:47:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "13:59:00",
+        "departureTime": "13:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "14:07:00",
+        "departureTime": "14:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_1414_37683",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1449_37698",
+    "lineId": "jr_karasuyama",
+    "trainId": "37698",
+    "trainNumber": "333M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "14:47:00",
+        "departureTime": "14:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "14:54:00",
+        "departureTime": "14:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "15:01:00",
+        "departureTime": "15:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "15:13:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "15:22:00",
+        "departureTime": "15:22:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_1434_37669",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_1538_37716",
+    "lineId": "jr_karasuyama",
+    "trainId": "37716",
+    "trainNumber": "336M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "16:09:00",
+        "departureTime": "16:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1538_37699",
+    "lineId": "jr_karasuyama",
+    "trainId": "37699",
+    "trainNumber": "335M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "15:57:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_1523_37670",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1701_37703",
+    "lineId": "jr_karasuyama",
+    "trainId": "37703",
+    "trainNumber": "337M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "17:25:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:34:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KRS-08_1702_37717",
+    "lineId": "jr_karasuyama",
+    "trainId": "37717",
+    "trainNumber": "338M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "17:33:00",
+        "departureTime": "17:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "17:36:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1811_37704",
+    "lineId": "jr_karasuyama",
+    "trainId": "37704",
+    "trainNumber": "339M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "18:24:00",
+        "departureTime": "18:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KRS-08_1813_37718",
+    "lineId": "jr_karasuyama",
+    "trainId": "37718",
+    "trainNumber": "340M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "18:17:00",
+        "departureTime": "18:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "18:21:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "18:26:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "18:53:00",
+        "departureTime": "18:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_1917_37705",
+    "lineId": "jr_karasuyama",
+    "trainId": "37705",
+    "trainNumber": "341M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "19:22:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "19:37:00",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "19:42:00",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KRS-08_1920_37713",
+    "lineId": "jr_karasuyama",
+    "trainId": "37713",
+    "trainNumber": "342M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "19:25:00",
+        "departureTime": "19:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "19:34:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "20:00:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_2003_37684",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_2014_37700",
+    "lineId": "jr_karasuyama",
+    "trainId": "37700",
+    "trainNumber": "343M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "20:19:00",
+        "departureTime": "20:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "20:38:00",
+        "departureTime": "20:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_1959_37671",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_2017_37714",
+    "lineId": "jr_karasuyama",
+    "trainId": "37714",
+    "trainNumber": "344M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "20:17:00",
+        "departureTime": "20:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "20:21:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "20:26:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "20:30:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "20:43:00",
+        "departureTime": "20:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_2058_37685",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_2132_37701",
+    "lineId": "jr_karasuyama",
+    "trainId": "37701",
+    "trainNumber": "345M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "21:37:00",
+        "departureTime": "21:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "21:51:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "21:56:00",
+        "departureTime": "21:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "22:00:00",
+        "departureTime": "22:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:05:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_2117_37672",
+    "prevLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_INB_KRS-08_2135_37715",
+    "lineId": "jr_karasuyama",
+    "trainId": "37715",
+    "trainNumber": "346M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KRS-08",
+    "destinationStationId": "KRS-01",
+    "customOrigin": "烏山",
+    "customDestination": "宇都宮",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "21:35:00",
+        "departureTime": "21:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "21:43:00",
+        "departureTime": "21:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "22:01:00",
+        "departureTime": "22:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "22:08:00",
+        "departureTime": "22:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:16:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_JU-26_2216_37686",
+    "throughLineId": "jr_utsunomiya"
+  },
+  {
+    "tripId": "HD_OUT_KRS-01_2300_37702",
+    "lineId": "jr_karasuyama",
+    "trainId": "37702",
+    "trainNumber": "347M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KRS-01",
+    "destinationStationId": "KRS-08",
+    "customOrigin": "宇都宮",
+    "customDestination": "烏山",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KRS-01",
+        "arrivalTime": "22:58:00",
+        "departureTime": "23:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-02",
+        "arrivalTime": "23:05:00",
+        "departureTime": "23:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-03",
+        "arrivalTime": "23:09:00",
+        "departureTime": "23:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-04",
+        "arrivalTime": "23:13:00",
+        "departureTime": "23:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-05",
+        "arrivalTime": "23:20:00",
+        "departureTime": "23:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-06",
+        "arrivalTime": "23:24:00",
+        "departureTime": "23:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-07",
+        "arrivalTime": "23:28:00",
+        "departureTime": "23:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KRS-08",
+        "arrivalTime": "23:33:00",
+        "departureTime": "23:33:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_JU-24_2246_37673",
+    "prevLineId": "jr_utsunomiya"
+  }
+]

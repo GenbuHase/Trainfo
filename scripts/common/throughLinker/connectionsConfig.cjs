@@ -3533,6 +3533,1044 @@ module.exports = {
       "maxTimeDiff": 600,
       "allowMidStationA": true,
       "allowMidStationB": true
+    },
+    // === 甲信越エリア（新規9路線追加） ===
+    {
+      "name": "しなの鉄道線 -> 北しなの線 (長野直通)",
+      "lineA": "shinano_shinano",
+      "lineB": "shinano_kita_shinano",
+      "stationA": "SR-23",
+      "stationB": "SRK-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 480
+    },
+    {
+      "name": "北しなの線 -> しなの鉄道線 (長野直通)",
+      "lineA": "shinano_kita_shinano",
+      "lineB": "shinano_shinano",
+      "stationA": "SRK-01",
+      "stationB": "SR-23",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 480
+    },
+    {
+      "name": "北しなの線 -> JR飯山線 (豊野直通)",
+      "lineA": "shinano_kita_shinano",
+      "lineB": "jr_iiyama",
+      "stationA": "SRK-04",
+      "stationB": "IY-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 480,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR飯山線 -> 北しなの線 (豊野直通 長野方面)",
+      "lineA": "jr_iiyama",
+      "lineB": "shinano_kita_shinano",
+      "stationA": "IY-01",
+      "stationB": "SRK-04",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 480,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR飯山線 -> JR上越線 (越後川口直通 長岡方面)",
+      "lineA": "jr_iiyama",
+      "lineB": "jr_joetsu",
+      "stationA": "IY-31",
+      "stationB": "JOE-32",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR上越線 -> JR飯山線 (越後川口直通 十日町方面)",
+      "lineA": "jr_joetsu",
+      "lineB": "jr_iiyama",
+      "stationA": "JOE-32",
+      "stationB": "IY-31",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR越後線 -> JR白新線 (新潟直通 新発田・村上方面)",
+      "lineA": "jr_echigo",
+      "lineB": "jr_hakushin",
+      "stationA": "EG-33",
+      "stationB": "HS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR白新線 -> JR越後線 (新潟直通 内野・吉田方面)",
+      "lineA": "jr_hakushin",
+      "lineB": "jr_echigo",
+      "stationA": "HS-01",
+      "stationB": "EG-33",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR越後線 -> JR信越本線（直江津～新潟） (新潟直通 新津・長岡方面)",
+      "lineA": "jr_echigo",
+      "lineB": "jr_shinetsu_naoetsu_niigata",
+      "stationA": "EG-33",
+      "stationB": "SE-42",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR信越本線（直江津～新潟） -> JR越後線 (新潟直通 内野・吉田方面)",
+      "lineA": "jr_shinetsu_naoetsu_niigata",
+      "lineB": "jr_echigo",
+      "stationA": "SE-42",
+      "stationB": "EG-33",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR弥彦線 -> JR越後線 (吉田直通 柏崎方面)",
+      "lineA": "jr_yahiko",
+      "lineB": "jr_echigo",
+      "stationA": "YH-03",
+      "stationB": "EG-18",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR越後線 -> JR弥彦線 (吉田直通 弥彦方面)",
+      "lineA": "jr_echigo",
+      "lineB": "jr_yahiko",
+      "stationA": "EG-18",
+      "stationB": "YH-03",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR弥彦線 -> JR越後線 (吉田直通 新潟方面)",
+      "lineA": "jr_yahiko",
+      "lineB": "jr_echigo",
+      "stationA": "YH-03",
+      "stationB": "EG-18",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR越後線 -> JR弥彦線 (吉田直通 東三条方面)",
+      "lineA": "jr_echigo",
+      "lineB": "jr_yahiko",
+      "stationA": "EG-18",
+      "stationB": "YH-03",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR弥彦線 -> JR信越本線（直江津～新潟） (東三条直通 新津・新潟方面)",
+      "lineA": "jr_yahiko",
+      "lineB": "jr_shinetsu_naoetsu_niigata",
+      "stationA": "YH-01",
+      "stationB": "SE-30",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR信越本線（直江津～新潟） -> JR弥彦線 (東三条直通 吉田・弥彦方面)",
+      "lineA": "jr_shinetsu_naoetsu_niigata",
+      "lineB": "jr_yahiko",
+      "stationA": "SE-30",
+      "stationB": "YH-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR中央本線 -> JR中央本線（辰野支線） (上諏訪方面発 岡谷直通 辰野・飯田方面)",
+      "lineA": "jr_chuo_main",
+      "lineB": "jr_chuo_tatsuno",
+      "stationA": "CO-59",
+      "stationB": "CT-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR中央本線 -> JR中央本線（辰野支線） (松本・塩尻方面発 岡谷直通 辰野・飯田方面)",
+      "lineA": "jr_chuo_main",
+      "lineB": "jr_chuo_tatsuno",
+      "stationA": "CO-59",
+      "stationB": "CT-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowedDestinations": ["飯田", "天竜峡", "駒ケ根", "伊那福岡", "辰野", "豊橋", "平岡"]
+    },
+    {
+      "name": "JR中央本線（辰野支線） -> JR中央本線 (岡谷直通 上諏訪・茅野・甲府方面)",
+      "lineA": "jr_chuo_tatsuno",
+      "lineB": "jr_chuo_main",
+      "stationA": "CT-01",
+      "stationB": "CO-59",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR中央本線（辰野支線） -> JR中央本線 (岡谷直通 松本・長野方面)",
+      "lineA": "jr_chuo_tatsuno",
+      "lineB": "jr_chuo_main",
+      "stationA": "CT-01",
+      "stationB": "CO-59",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true,
+      "allowedDestinations": ["松本", "長野", "塩尻"]
+    },
+    {
+      "name": "JR中央本線（辰野支線） -> JR飯田線 (辰野直通 飯田・豊橋方面)",
+      "lineA": "jr_chuo_tatsuno",
+      "lineB": "jr_iida",
+      "stationA": "CT-03",
+      "stationB": "jr_iida-94",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR飯田線 -> JR中央本線（辰野支線） (辰野直通 岡谷・松本・長野方面)",
+      "lineA": "jr_iida",
+      "lineB": "jr_chuo_tatsuno",
+      "stationA": "jr_iida-94",
+      "stationB": "CT-03",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR中央本線（辰野支線） -> JR篠ノ井線 (塩尻直通 松本・長野方面)",
+      "lineA": "jr_chuo_tatsuno",
+      "lineB": "jr_shinonoi",
+      "stationA": "CT-06",
+      "stationB": "SN-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR篠ノ井線 -> JR中央本線（辰野支線） (塩尻直通 辰野・岡谷方面)",
+      "lineA": "jr_shinonoi",
+      "lineB": "jr_chuo_tatsuno",
+      "stationA": "SN-01",
+      "stationB": "CT-06",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowedDestinations": ["辰野", "岡谷", "上諏訪", "飯田", "駒ケ根", "天竜峡"]
+    },
+    // === 関東エリア（JR各線） ===
+    {
+      "name": "JR吾妻線 -> JR上越線 (渋川直通 新前橋・高崎・上野方面)",
+      "lineA": "jr_agatsuma",
+      "lineB": "jr_joetsu",
+      "stationA": "AG-01",
+      "stationB": "JOE-07",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR上越線 -> JR吾妻線 (渋川直通 中之条・長野原草津口・大前方面)",
+      "lineA": "jr_joetsu",
+      "lineB": "jr_agatsuma",
+      "stationA": "JOE-07",
+      "stationB": "AG-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR烏山線 -> JR宇都宮線 (宝積寺直通 宇都宮方面)",
+      "lineA": "jr_karasuyama",
+      "lineB": "jr_utsunomiya",
+      "stationA": "KRS-01",
+      "stationB": "JU-26",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR宇都宮線 -> JR烏山線 (宝積寺直通 烏山方面)",
+      "lineA": "jr_utsunomiya",
+      "lineB": "jr_karasuyama",
+      "stationA": "JU-26",
+      "stationB": "KRS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR水戸線 -> JR常磐線（取手～いわき） (友部直通 水戸・勝田方面)",
+      "lineA": "jr_mito",
+      "lineB": "jr_joban_toride_iwaki",
+      "stationA": "MT-16",
+      "stationB": "JTI-13",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR常磐線（取手～いわき） -> JR水戸線 (友部直通 下館・小山方面)",
+      "lineA": "jr_joban_toride_iwaki",
+      "lineB": "jr_mito",
+      "stationA": "JTI-13",
+      "stationB": "MT-16",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR鹿島線 -> JR成田線 (香取直通 佐原・成田・大船方面)",
+      "lineA": "jr_kashima",
+      "lineB": "jr_narita",
+      "stationA": "KSJ-01",
+      "stationB": "NR-09",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR成田線 -> JR鹿島線 (香取直通 鹿島神宮方面)",
+      "lineA": "jr_narita",
+      "lineB": "jr_kashima",
+      "stationA": "NR-09",
+      "stationB": "KSJ-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    // === 関東エリア（地下鉄・私鉄直通網） ===
+    {
+      "name": "埼玉スタジアム線 -> 東京メトロ南北線 (赤羽岩淵直通 目黒・日吉方面)",
+      "lineA": "saitama_rapid",
+      "lineB": "tokyo_metro_namboku",
+      "stationA": "SRG-01",
+      "stationB": "N-19",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東京メトロ南北線 -> 埼玉スタジアム線 (赤羽岩淵直通 鳩ケ谷・浦和美園方面)",
+      "lineA": "tokyo_metro_namboku",
+      "lineB": "saitama_rapid",
+      "stationA": "N-19",
+      "stationB": "SRG-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東京メトロ南北線 -> 東急目黒線 (目黒直通 日吉・新横浜・相鉄線方面)",
+      "lineA": "tokyo_metro_namboku",
+      "lineB": "tokyu_meguro",
+      "stationA": "N-01",
+      "stationB": "MG-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 180,
+      "disallowedOrigins": ["西高島平", "高島平", "新高島平", "志村三丁目", "新板橋", "巣鴨", "春日", "水道橋", "大手町", "日比谷"]
+    },
+    {
+      "name": "東急目黒線 -> 東京メトロ南北線 (目黒直通 赤羽岩淵・浦和美園方面)",
+      "lineA": "tokyu_meguro",
+      "lineB": "tokyo_metro_namboku",
+      "stationA": "MG-01",
+      "stationB": "N-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 180,
+      "allowedDestinations": ["浦和美園", "鳩ケ谷", "鳩ヶ谷", "赤羽岩淵", "王子神谷", "駒込", "溜池山王", "麻布十番", "白金高輪", "志茂"]
+    },
+    {
+      "name": "都営三田線 -> 東急目黒線 (目黒直通 日吉・新横浜・相鉄線方面)",
+      "lineA": "toei_mita",
+      "lineB": "tokyu_meguro",
+      "stationA": "I-01",
+      "stationB": "MG-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 180,
+      "disallowedOrigins": ["浦和美園", "鳩ケ谷", "鳩ヶ谷", "赤羽岩淵", "王子神谷", "駒込", "溜池山王", "東大前"]
+    },
+    {
+      "name": "東急目黒線 -> 都営三田線 (目黒直通 大手町・巣鴨・西高島平方面)",
+      "lineA": "tokyu_meguro",
+      "lineB": "toei_mita",
+      "stationA": "MG-01",
+      "stationB": "I-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 180,
+      "allowedDestinations": ["西高島平", "高島平", "新高島平", "志村三丁目", "巣鴨", "白金高輪", "御成門"]
+    },
+    {
+      "name": "東急目黒線 -> 東急新横浜線 (日吉直通 新横浜・相鉄線方面)",
+      "lineA": "tokyu_meguro",
+      "lineB": "tokyu_shin_yokohama",
+      "stationA": "MG-13",
+      "stationB": "SH-03",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "exactAllowedOriginsB": [
+        "浦和美園", "東川口", "戸塚安行", "新井宿", "鳩ケ谷", "鳩ヶ谷", "南鳩ヶ谷", "川口元郷",
+        "赤羽岩淵", "志茂", "王子神谷", "王子", "西ヶ原", "駒込", "本駒込", "東大前", "後楽園",
+        "溜池山王", "六本木一丁目", "麻布十番", "白金高輪", "白金台",
+        "西高島平", "新高島平", "高島平", "西台", "蓮根", "志村三丁目", "志村坂上", "本蓮沼",
+        "板橋本町", "板橋区役所前", "新板橋", "西巣鴨", "巣鴨", "千石", "白山", "春日",
+        "水道橋", "神保町", "大手町", "日比谷", "内幸町", "御成門", "芝公園", "三田",
+        "目黒", "不動前", "武蔵小山", "西小山", "洗足", "大岡山", "奥沢", "田園調布", "多摩川", "新丸子", "武蔵小杉"
+      ]
+    },
+    {
+      "name": "東急新横浜線 -> 東急目黒線 (日吉直通 目黒・浦和美園・西高島平方面)",
+      "lineA": "tokyu_shin_yokohama",
+      "lineB": "tokyu_meguro",
+      "stationA": "SH-03",
+      "stationB": "MG-13",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "exactAllowedDestinations": [
+        "浦和美園", "東川口", "戸塚安行", "新井宿", "鳩ケ谷", "鳩ヶ谷", "南鳩ヶ谷", "川口元郷",
+        "赤羽岩淵", "志茂", "王子神谷", "王子", "西ヶ原", "駒込", "本駒込", "東大前", "後楽園",
+        "溜池山王", "六本木一丁目", "麻布十番", "白金高輪", "白金台",
+        "西高島平", "新高島平", "高島平", "西台", "蓮根", "志村三丁目", "志村坂上", "本蓮沼",
+        "板橋本町", "板橋区役所前", "新板橋", "西巣鴨", "巣鴨", "千石", "白山", "春日",
+        "水道橋", "神保町", "大手町", "日比谷", "内幸町", "御成門", "芝公園", "三田",
+        "目黒", "不動前", "武蔵小山", "西小山", "洗足", "大岡山", "奥沢", "田園調布", "多摩川", "新丸子", "武蔵小杉"
+      ]
+    },
+    {
+      "name": "東京メトロ半蔵門線 -> 東急田園都市線 (渋谷直通 長津田・中央林間方面)",
+      "lineA": "tokyo_metro_hanzomon",
+      "lineB": "tokyu_denentoshi",
+      "stationA": "Z-01",
+      "stationB": "DT-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東急田園都市線 -> 東京メトロ半蔵門線 (渋谷直通 押上・東武線方面)",
+      "lineA": "tokyu_denentoshi",
+      "lineB": "tokyo_metro_hanzomon",
+      "stationA": "DT-01",
+      "stationB": "Z-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東急大井町線 -> 東急田園都市線 (溝の口直通 鷺沼・長津田・中央林間方面)",
+      "lineA": "tokyu_oimachi",
+      "lineB": "tokyu_denentoshi",
+      "stationA": "TOM-18",
+      "stationB": "DT-13",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "東急田園都市線 -> 東急大井町線 (溝の口直通 大井町方面)",
+      "lineA": "tokyu_denentoshi",
+      "lineB": "tokyu_oimachi",
+      "stationA": "DT-13",
+      "stationB": "TOM-18",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true,
+      "allowedDestinations": ["大井町", "大岡山", "自由が丘", "二子玉川"]
+    },
+    {
+      "name": "東京メトロ東西線 -> 東葉高速線 (西船橋直通 東葉勝田台方面)",
+      "lineA": "tokyo_metro_tozai",
+      "lineB": "toyo_rapid",
+      "stationA": "T-23",
+      "stationB": "TR-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowedDestinations": ["東葉勝田台", "八千代緑が丘", "北習志野", "船橋日大前", "東海神"]
+    },
+    {
+      "name": "東葉高速線 -> 東京メトロ東西線 (西船橋直通 中野・三鷹方面)",
+      "lineA": "toyo_rapid",
+      "lineB": "tokyo_metro_tozai",
+      "stationA": "TR-01",
+      "stationB": "T-23",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "都営新宿線 -> 京王新線 (新宿直通 笹塚・橋本方面)",
+      "lineA": "toei_shinjuku",
+      "lineB": "keio_new",
+      "stationA": "S-01",
+      "stationB": "KON-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京王新線 -> 都営新宿線 (新宿直通 大島・本八幡方面)",
+      "lineA": "keio_new",
+      "lineB": "toei_shinjuku",
+      "stationA": "KON-01",
+      "stationB": "S-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京王新線 -> 京王線 (笹塚直通 調布・橋本・京王八王子方面)",
+      "lineA": "keio_new",
+      "lineB": "keio_line",
+      "stationA": "KON-04",
+      "stationB": "KO-02",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京王線 -> 京王新線 (笹塚直通 新線新宿・本八幡方面)",
+      "lineA": "keio_line",
+      "lineB": "keio_new",
+      "stationA": "KO-02",
+      "stationB": "KON-04",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true,
+      "allowedDestinations": ["本八幡", "大島", "瑞江", "岩本町", "新線新宿"]
+    },
+    {
+      "name": "京王線 -> 京王相模原線 (調布直通 京王多摩センター・橋本方面)",
+      "lineA": "keio_line",
+      "lineB": "keio_sagamihara",
+      "stationA": "KO-16",
+      "stationB": "KOS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "京王相模原線 -> 京王線 (調布直通 新宿・本八幡方面)",
+      "lineA": "keio_sagamihara",
+      "lineB": "keio_line",
+      "stationA": "KOS-01",
+      "stationB": "KO-16",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京王線 -> 京王高尾線 (北野直通 高尾山口方面)",
+      "lineA": "keio_line",
+      "lineB": "keio_takao",
+      "stationA": "KO-31",
+      "stationB": "KOT-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "京王高尾線 -> 京王線 (北野直通 新宿・本八幡方面)",
+      "lineA": "keio_takao",
+      "lineB": "keio_line",
+      "stationA": "KOT-01",
+      "stationB": "KO-31",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京王競馬場線 -> 京王線 (東府中直通 新宿方面)",
+      "lineA": "keio_keibajo",
+      "lineB": "keio_line",
+      "stationA": "KOK-01",
+      "stationB": "KO-21",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360,
+      "allowMidStationB": true,
+      "allowedDestinations": ["新宿"]
+    },
+    {
+      "name": "都営浅草線 -> 京急本線 (泉岳寺直通 羽田空港・横浜・三崎口方面)",
+      "lineA": "toei_asakusa",
+      "lineB": "keikyu_main",
+      "stationA": "A-07",
+      "stationB": "KK-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "京急本線 -> 都営浅草線 (泉岳寺直通 押上・京成線・北総線方面)",
+      "lineA": "keikyu_main",
+      "lineB": "toei_asakusa",
+      "stationA": "KK-01",
+      "stationB": "A-07",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京急本線 -> 京急空港線 (品川方面発 京急蒲田直通 羽田空港方面)",
+      "lineA": "keikyu_main",
+      "lineB": "keikyu_airport",
+      "stationA": "KK-12",
+      "stationB": "KKA-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京急本線 -> 京急空港線 (横浜方面発 京急蒲田直通 羽田空港方面)",
+      "lineA": "keikyu_main",
+      "lineB": "keikyu_airport",
+      "stationA": "KK-12",
+      "stationB": "KKA-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京急空港線 -> 京急本線 (京急蒲田直通 品川・泉岳寺・都営浅草線方面)",
+      "lineA": "keikyu_airport",
+      "lineB": "keikyu_main",
+      "stationA": "KKA-01",
+      "stationB": "KK-12",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京急空港線 -> 京急本線 (京急蒲田直通 横浜・逗子・葉山方面)",
+      "lineA": "keikyu_airport",
+      "lineB": "keikyu_main",
+      "stationA": "KKA-01",
+      "stationB": "KK-12",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京急本線 -> 京急逗子線 (金沢八景直通 逗子・葉山方面)",
+      "lineA": "keikyu_main",
+      "lineB": "keikyu_zushi",
+      "stationA": "KK-39",
+      "stationB": "KKZ-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京急逗子線 -> 京急本線 (金沢八景直通 横浜・羽田空港・品川方面)",
+      "lineA": "keikyu_zushi",
+      "lineB": "keikyu_main",
+      "stationA": "KKZ-01",
+      "stationB": "KK-39",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京急本線 -> 京急久里浜線 (堀ノ内直通 京急久里浜・三崎口方面)",
+      "lineA": "keikyu_main",
+      "lineB": "keikyu_kurihama",
+      "stationA": "KK-47",
+      "stationB": "KKK-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京急久里浜線 -> 京急本線 (堀ノ内直通 横浜・品川・押上方面)",
+      "lineA": "keikyu_kurihama",
+      "lineB": "keikyu_main",
+      "stationA": "KKK-01",
+      "stationB": "KK-47",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "都営浅草線 -> 京成押上線 (押上直通 青砥・高砂・成田空港方面)",
+      "lineA": "toei_asakusa",
+      "lineB": "keisei_oshiage",
+      "stationA": "A-20",
+      "stationB": "KSO-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成押上線 -> 都営浅草線 (押上直通 西馬込・羽田空港・三崎口方面)",
+      "lineA": "keisei_oshiage",
+      "lineB": "toei_asakusa",
+      "stationA": "KSO-01",
+      "stationB": "A-20",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成押上線 -> 京成本線 (青砥直通 京成高砂・京成佐倉・成田空港方面)",
+      "lineA": "keisei_oshiage",
+      "lineB": "keisei_main",
+      "stationA": "KSO-06",
+      "stationB": "KSM-09",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京成本線 -> 京成押上線 (青砥直通 押上・都営浅草線・京急線方面)",
+      "lineA": "keisei_main",
+      "lineB": "keisei_oshiage",
+      "stationA": "KSM-09",
+      "stationB": "KSO-06",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "京成本線 -> 京成成田スカイアクセス線 (京成高砂直通 スカイライナー・アクセス特急)",
+      "lineA": "keisei_main",
+      "lineB": "keisei_narita_sky_access",
+      "stationA": "KSM-10",
+      "stationB": "KSSA-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成成田スカイアクセス線 -> 京成本線 (京成高砂直通 上野・押上方面)",
+      "lineA": "keisei_narita_sky_access",
+      "lineB": "keisei_main",
+      "stationA": "KSSA-01",
+      "stationB": "KSM-10",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成本線 -> 北総鉄道北総線 (京成高砂直通 新鎌ヶ谷・印旛日本医大方面)",
+      "lineA": "keisei_main",
+      "lineB": "hokuso",
+      "stationA": "KSM-10",
+      "stationB": "HOK-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "disallowedDestinations": ["成田空港", "空港第2ビル", "成田湯川"]
+    },
+    {
+      "name": "北総鉄道北総線 -> 京成本線 (京成高砂直通 青砥・押上・京急線方面)",
+      "lineA": "hokuso",
+      "lineB": "keisei_main",
+      "stationA": "HOK-01",
+      "stationB": "KSM-10",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成本線 -> 京成千葉線 (京成津田沼直通 千葉中央・ちはら台方面)",
+      "lineA": "keisei_main",
+      "lineB": "keisei_chiba",
+      "stationA": "KSM-26",
+      "stationB": "KSC-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "京成千葉線 -> 京成本線 (京成津田沼直通 京成上野方面)",
+      "lineA": "keisei_chiba",
+      "lineB": "keisei_main",
+      "stationA": "KSC-01",
+      "stationB": "KSM-26",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "京成松戸線 -> 京成千葉線 (京成津田沼直通 千葉中央方面)",
+      "lineA": "keisei_matsudo",
+      "lineB": "keisei_chiba",
+      "stationA": "KMT-24",
+      "stationB": "KSC-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成千葉線 -> 京成松戸線 (京成津田沼直通 松戸方面)",
+      "lineA": "keisei_chiba",
+      "lineB": "keisei_matsudo",
+      "stationA": "KSC-01",
+      "stationB": "KMT-24",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成千葉線 -> 京成千原線 (千葉中央直通 ちはら台方面)",
+      "lineA": "keisei_chiba",
+      "lineB": "keisei_chihara",
+      "stationA": "KSC-10",
+      "stationB": "KSCH-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成千原線 -> 京成千葉線 (千葉中央直通 京成津田沼・京成上野方面)",
+      "lineA": "keisei_chihara",
+      "lineB": "keisei_chiba",
+      "stationA": "KSCH-01",
+      "stationB": "KSC-10",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成本線 -> 京成東成田線 (京成成田直通 東成田・芝山千代田方面)",
+      "lineA": "keisei_main",
+      "lineB": "keisei_higashi_narita",
+      "stationA": "KSM-40",
+      "stationB": "KSH-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成東成田線 -> 京成本線 (京成成田直通 京成上野・押上方面)",
+      "lineA": "keisei_higashi_narita",
+      "lineB": "keisei_main",
+      "stationA": "KSH-01",
+      "stationB": "KSM-40",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "京成東成田線 -> 芝山鉄道線 (東成田直通 芝山千代田方面)",
+      "lineA": "keisei_higashi_narita",
+      "lineB": "shibayama",
+      "stationA": "KSH-02",
+      "stationB": "SBY-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "芝山鉄道線 -> 京成東成田線 (東成田直通 京成成田・京成上野方面)",
+      "lineA": "shibayama",
+      "lineB": "keisei_higashi_narita",
+      "stationA": "SBY-01",
+      "stationB": "KSH-02",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "西武池袋線 -> 西武豊島線 (練馬直通 豊島園方面)",
+      "lineA": "seibu_ikebukuro",
+      "lineB": "seibu_toshima",
+      "stationA": "SI-06",
+      "stationB": "SIT-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "西武豊島線 -> 西武池袋線 (練馬直通 池袋方面)",
+      "lineA": "seibu_toshima",
+      "lineB": "seibu_ikebukuro",
+      "stationA": "SIT-01",
+      "stationB": "SI-06",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "西武池袋線 -> 西武狭山線 (西所沢直通 西武球場前方面)",
+      "lineA": "seibu_ikebukuro",
+      "lineB": "seibu_sayama",
+      "stationA": "SI-18",
+      "stationB": "SIS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "西武狭山線 -> 西武池袋線 (西所沢直通 池袋方面)",
+      "lineA": "seibu_sayama",
+      "lineB": "seibu_ikebukuro",
+      "stationA": "SIS-01",
+      "stationB": "SI-18",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "西武新宿線 -> 西武拝島線 (小平直通 玉川上水・拝島方面)",
+      "lineA": "seibu_shinjuku",
+      "lineB": "seibu_haijima",
+      "stationA": "SBS-19",
+      "stationB": "SSH-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "西武拝島線 -> 西武新宿線 (小平直通 西武新宿方面)",
+      "lineA": "seibu_haijima",
+      "lineB": "seibu_shinjuku",
+      "stationA": "SSH-01",
+      "stationB": "SBS-19",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
+    },
+    {
+      "name": "西武拝島線 -> 西武多摩湖線 (萩山直通 多摩湖方面)",
+      "lineA": "seibu_haijima",
+      "lineB": "seibu_tamako",
+      "stationA": "SSH-02",
+      "stationB": "SBT-04",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "西武多摩湖線 -> 西武拝島線 (萩山直通 小平・西武新宿方面)",
+      "lineA": "seibu_tamako",
+      "lineB": "seibu_haijima",
+      "stationA": "SBT-04",
+      "stationB": "SSH-02",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "小田急小田原線 -> 小田急箱根鉄道線 (小田原直通 箱根湯本方面)",
+      "lineA": "odakyu_odawara",
+      "lineB": "hakone_tozan",
+      "stationA": "OH-47",
+      "stationB": "OHH-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 480
+    },
+    {
+      "name": "小田急箱根鉄道線 -> 小田急小田原線 (小田原直通 新宿・東京メトロ千代田線方面)",
+      "lineA": "hakone_tozan",
+      "lineB": "odakyu_odawara",
+      "stationA": "OHH-01",
+      "stationB": "OH-47",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 480
+    },
+    {
+      "name": "千葉都市モノレール1号線 -> 2号線 (千葉直通 都賀・千城台方面)",
+      "lineA": "chiba_monorail_1",
+      "lineB": "chiba_monorail_2",
+      "stationA": "CM1-03",
+      "stationB": "CM2-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300,
+      "allowMidStationA": true
+    },
+    {
+      "name": "千葉都市モノレール2号線 -> 1号線 (千葉直通 千葉みなと方面)",
+      "lineA": "chiba_monorail_2",
+      "lineB": "chiba_monorail_1",
+      "stationA": "CM2-01",
+      "stationB": "CM1-03",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300,
+      "allowMidStationB": true
     }
   ],
   "destinationCompatibilityGroups": [
@@ -3551,6 +4589,30 @@ module.exports = {
     [
       "柳津",
       "柳津(宮城県)"
+    ],
+    [
+      "鳩ケ谷",
+      "鳩ヶ谷"
+    ],
+    [
+      "幡ケ谷",
+      "幡ヶ谷"
+    ],
+    [
+      "つつじケ丘",
+      "つつじヶ丘"
+    ],
+    [
+      "新鎌ケ谷",
+      "新鎌ヶ谷"
+    ],
+    [
+      "市ケ谷",
+      "市ヶ谷"
+    ],
+    [
+      "新線新宿",
+      "新宿"
     ]
   ],
   "freeLimitedExpressLinePrefixes": [

@@ -29055,6 +29055,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -29341,7 +29342,9 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_0909_98864",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-23_0737_95776",
@@ -35208,12 +35211,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-41",
     "customOrigin": "箱根湯本",
+    "customDestination": "新松田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "08:04:00",
+        "arrivalTime": "08:03:00",
         "departureTime": "08:05:00",
         "isPassing": false
       },
@@ -35253,7 +35257,9 @@
         "departureTime": "08:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_0751_98915",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_0807_94904",
@@ -36145,6 +36151,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -36431,7 +36438,9 @@
         "departureTime": "09:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_0939_98838",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-05_0812_34891",
@@ -40150,6 +40159,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -40436,7 +40446,9 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1001_98867",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-47_0831_94077",
@@ -48426,6 +48438,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -48712,7 +48725,9 @@
         "departureTime": "10:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1043_98863",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_0921_93629",
@@ -54199,12 +54214,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "09:46:00",
+        "arrivalTime": "09:40:00",
         "departureTime": "09:51:00",
         "isPassing": false
       },
@@ -54484,7 +54500,9 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_0932_98875",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_0953_95694",
@@ -55842,6 +55860,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -56128,7 +56147,9 @@
         "departureTime": "11:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1114_98850",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-34_1000_94277",
@@ -60073,12 +60094,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "10:26:00",
+        "arrivalTime": "10:18:00",
         "departureTime": "10:29:00",
         "isPassing": false
       },
@@ -60358,7 +60380,9 @@
         "departureTime": "11:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1010_98907",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1030_94918",
@@ -61273,7 +61297,9 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1136_98814",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1035_93452",
@@ -64325,12 +64351,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "10:49:00",
+        "arrivalTime": "10:42:00",
         "departureTime": "10:54:00",
         "isPassing": false
       },
@@ -64610,7 +64637,9 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1034_98878",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1055_93457",
@@ -65820,6 +65849,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -66106,7 +66136,9 @@
         "departureTime": "12:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1213_98853",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1101_93639",
@@ -68814,6 +68846,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -69100,7 +69133,9 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1240_98839",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1121_93640",
@@ -70135,12 +70170,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "11:27:00",
+        "arrivalTime": "11:21:00",
         "departureTime": "11:29:00",
         "isPassing": false
       },
@@ -70420,7 +70456,9 @@
         "departureTime": "12:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1113_98908",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1130_94924",
@@ -73605,12 +73643,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "11:49:00",
+        "arrivalTime": "11:43:00",
         "departureTime": "11:53:00",
         "isPassing": false
       },
@@ -73890,7 +73929,9 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1135_98879",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1155_93468",
@@ -75100,6 +75141,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -75386,7 +75428,9 @@
         "departureTime": "13:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1312_98854",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1201_93644",
@@ -78094,6 +78138,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -78380,7 +78425,9 @@
         "departureTime": "13:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1334_98840",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1221_93646",
@@ -82884,12 +82931,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "12:52:00",
+        "arrivalTime": "12:48:00",
         "departureTime": "12:54:00",
         "isPassing": false
       },
@@ -83169,7 +83217,9 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1240_98882",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1255_93478",
@@ -84379,6 +84429,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -84665,7 +84716,9 @@
         "departureTime": "14:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1417_98856",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1301_93650",
@@ -87373,6 +87426,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -87659,7 +87713,9 @@
         "departureTime": "14:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1442_98841",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1321_93652",
@@ -88741,12 +88797,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "13:25:00",
+        "arrivalTime": "13:20:00",
         "departureTime": "13:29:00",
         "isPassing": false
       },
@@ -89026,7 +89083,9 @@
         "departureTime": "14:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1312_98909",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1330_94937",
@@ -92429,12 +92488,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "13:47:00",
+        "arrivalTime": "13:43:00",
         "departureTime": "13:54:00",
         "isPassing": false
       },
@@ -92714,7 +92774,9 @@
         "departureTime": "15:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1335_98884",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1355_93488",
@@ -93924,6 +93986,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -94210,7 +94273,9 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1513_98859",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1401_93656",
@@ -95721,12 +95786,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "14:09:00",
+        "arrivalTime": "14:03:00",
         "departureTime": "14:12:00",
         "isPassing": false
       },
@@ -96006,7 +96072,9 @@
         "departureTime": "15:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1355_98911",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1415_93492",
@@ -99532,7 +99600,7 @@
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "14:31:00",
+        "arrivalTime": "14:26:00",
         "departureTime": "14:35:00",
         "isPassing": false
       },
@@ -99734,7 +99802,9 @@
         "departureTime": "15:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1418_98832",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-47_1438_94169",
@@ -103391,6 +103461,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -103677,7 +103748,9 @@
         "departureTime": "16:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1613_98860",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1501_93662",
@@ -105188,12 +105261,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "15:04:00",
+        "arrivalTime": "14:56:00",
         "departureTime": "15:14:00",
         "isPassing": false
       },
@@ -105473,7 +105547,9 @@
         "departureTime": "16:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1448_98887",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1515_93503",
@@ -107992,12 +108068,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "15:25:00",
+        "arrivalTime": "15:21:00",
         "departureTime": "15:29:00",
         "isPassing": false
       },
@@ -108277,7 +108354,9 @@
         "departureTime": "16:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1513_98910",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1530_94949",
@@ -113373,6 +113452,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -113659,7 +113739,9 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1724_98842",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-19_1600_39072",
@@ -115863,12 +115945,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "16:05:00",
+        "arrivalTime": "16:00:00",
         "departureTime": "16:13:00",
         "isPassing": false
       },
@@ -116148,7 +116231,9 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1552_98889",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1615_93513",
@@ -123783,6 +123868,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -124069,7 +124155,9 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1816_98843",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1701_93612",
@@ -125977,12 +126065,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "17:04:00",
+        "arrivalTime": "16:59:00",
         "departureTime": "17:10:00",
         "isPassing": false
       },
@@ -126262,7 +126351,9 @@
         "departureTime": "18:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1651_98891",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-28_1711_95490",
@@ -134637,6 +134728,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": false,
@@ -134923,7 +135015,9 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OHH-01_1928_98846",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_INB_OH-34_1800_94373",
@@ -136035,12 +136129,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "17:59:00",
+        "arrivalTime": "17:54:00",
         "departureTime": "18:03:00",
         "isPassing": false
       },
@@ -136320,7 +136415,9 @@
         "departureTime": "19:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1746_98893",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1804_93532",
@@ -145223,12 +145320,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "18:48:00",
+        "arrivalTime": "18:44:00",
         "departureTime": "18:51:00",
         "isPassing": false
       },
@@ -145508,7 +145606,9 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1836_98898",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_1853_95750",
@@ -159693,12 +159793,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "20:02:00",
+        "arrivalTime": "19:58:00",
         "departureTime": "20:07:00",
         "isPassing": false
       },
@@ -159978,7 +160079,9 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OHH-05_1950_98896",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "WD_OUT_OH-01_2010_94976",
@@ -205235,6 +205338,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -205521,7 +205625,9 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_0814_98847",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_0701_94994",
@@ -208470,6 +208576,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -208756,7 +208863,9 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_0833_98865",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-05_0720_94199",
@@ -214579,6 +214688,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -214865,7 +214975,9 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_0912_98848",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_0800_94257",
@@ -218211,6 +218323,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -218497,7 +218610,9 @@
         "departureTime": "09:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_0939_98866",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_0821_93624",
@@ -223054,12 +223169,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "08:46:00",
+        "arrivalTime": "08:42:00",
         "departureTime": "08:49:00",
         "isPassing": false
       },
@@ -223339,7 +223455,9 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_0834_98912",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_0851_95684",
@@ -224482,6 +224600,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -224768,7 +224887,9 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1003_98835",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-19_0900_94479",
@@ -227542,6 +227663,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -227828,7 +227950,9 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1038_98849",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-28_0920_95442",
@@ -228344,7 +228468,9 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1025_98816",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_0921_93628",
@@ -229578,12 +229704,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "09:24:00",
+        "arrivalTime": "09:20:00",
         "departureTime": "09:27:00",
         "isPassing": false
       },
@@ -229864,6 +229991,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_0912_98900",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1012_95558",
@@ -233217,12 +233346,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "09:46:00",
+        "arrivalTime": "09:41:00",
         "departureTime": "09:49:00",
         "isPassing": false
       },
@@ -233502,7 +233632,9 @@
         "departureTime": "11:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_0933_98876",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_0950_94275",
@@ -234754,6 +234886,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -235040,7 +235173,9 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1108_98836",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-28_1000_95446",
@@ -238202,6 +238337,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -238488,7 +238624,9 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1138_98868",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-28_1020_95449",
@@ -239201,12 +239339,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "10:17:00",
+        "arrivalTime": "10:11:00",
         "departureTime": "10:22:00",
         "isPassing": false
       },
@@ -239487,6 +239626,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_1003_98901",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1112_95559",
@@ -239787,6 +239928,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -240073,7 +240215,9 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1152_98851",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1026_93451",
@@ -242193,12 +242337,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "10:37:00",
+        "arrivalTime": "10:32:00",
         "departureTime": "10:40:00",
         "isPassing": false
       },
@@ -242478,7 +242623,9 @@
         "departureTime": "12:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1024_98877",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1041_93637",
@@ -245282,7 +245429,7 @@
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "10:57:00",
+        "arrivalTime": "10:53:00",
         "departureTime": "10:59:00",
         "isPassing": false
       },
@@ -245484,7 +245631,9 @@
         "departureTime": "12:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1045_98831",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1100_96009",
@@ -245496,6 +245645,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -245782,7 +245932,9 @@
         "departureTime": "12:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1212_98852",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-28_1100_95453",
@@ -248982,6 +249134,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -249268,7 +249421,9 @@
         "departureTime": "12:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1247_98869",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-28_1120_95455",
@@ -250080,7 +250235,9 @@
         "departureTime": "12:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1233_98817",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1122_94294",
@@ -251508,12 +251665,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "11:21:00",
+        "arrivalTime": "11:15:00",
         "departureTime": "11:30:00",
         "isPassing": false
       },
@@ -251793,7 +251951,9 @@
         "departureTime": "12:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1107_98913",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1132_95704",
@@ -254996,12 +255156,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "11:51:00",
+        "arrivalTime": "11:46:00",
         "departureTime": "11:53:00",
         "isPassing": false
       },
@@ -255281,7 +255442,9 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1138_98880",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1155_93467",
@@ -256133,6 +256296,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -256419,7 +256583,9 @@
         "departureTime": "13:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1315_98855",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1200_94302",
@@ -259681,6 +259847,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 4,
     "isHoliday": true,
@@ -259968,6 +260135,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_OHH-01_1335_98870",
+    "throughLineId": "hakone_tozan",
     "coupling": {
       "role": "SECONDARY",
       "coupledTripId": "HD_OUT_OH-01_1220_95006",
@@ -260441,12 +260610,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "12:12:00",
+        "arrivalTime": "12:07:00",
         "departureTime": "12:24:00",
         "isPassing": false
       },
@@ -260727,6 +260897,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_1159_98902",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1315_95560",
@@ -263015,6 +263187,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -263301,7 +263474,9 @@
         "departureTime": "13:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1355_98837",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1241_93649",
@@ -264304,12 +264479,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "12:47:00",
+        "arrivalTime": "12:41:00",
         "departureTime": "12:50:00",
         "isPassing": false
       },
@@ -264589,7 +264765,9 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1233_98881",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1251_94312",
@@ -266089,6 +266267,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -266375,7 +266554,9 @@
         "departureTime": "14:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1416_98857",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1301_93651",
@@ -269309,6 +269490,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -269595,7 +269777,9 @@
         "departureTime": "14:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1436_98871",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1320_94318",
@@ -271341,12 +271525,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "13:28:00",
+        "arrivalTime": "13:23:00",
         "departureTime": "13:31:00",
         "isPassing": false
       },
@@ -271626,7 +271811,9 @@
         "departureTime": "14:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1315_98883",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1332_95716",
@@ -274933,12 +275120,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "13:50:00",
+        "arrivalTime": "13:44:00",
         "departureTime": "13:53:00",
         "isPassing": false
       },
@@ -275218,7 +275406,9 @@
         "departureTime": "15:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1336_98885",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1355_93487",
@@ -276132,6 +276322,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -276418,7 +276609,9 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1513_98858",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-23_1400_95823",
@@ -277235,12 +277428,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "14:08:00",
+        "arrivalTime": "14:04:00",
         "departureTime": "14:09:00",
         "isPassing": false
       },
@@ -277521,6 +277715,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_1356_98903",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1455_95561",
@@ -279441,6 +279637,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 4,
     "isHoliday": true,
@@ -279728,6 +279925,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_OHH-01_1536_98872",
+    "throughLineId": "hakone_tozan",
     "coupling": {
       "role": "SECONDARY",
       "coupledTripId": "HD_OUT_OH-01_1420_95007",
@@ -281791,12 +281990,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "14:30:00",
+        "arrivalTime": "14:24:00",
         "departureTime": "14:34:00",
         "isPassing": false
       },
@@ -282076,7 +282276,9 @@
         "departureTime": "15:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1416_98897",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1435_93495",
@@ -284662,12 +284864,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "14:48:00",
+        "arrivalTime": "14:44:00",
         "departureTime": "14:52:00",
         "isPassing": false
       },
@@ -284947,7 +285150,9 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1436_98886",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-23_1453_42902",
@@ -286129,6 +286334,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -286415,7 +286621,9 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1616_98861",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1500_94338",
@@ -289489,6 +289697,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 4,
     "isHoliday": true,
@@ -289776,6 +289985,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_OHH-01_1636_98873",
+    "throughLineId": "hakone_tozan",
     "coupling": {
       "role": "SECONDARY",
       "coupledTripId": "HD_OUT_OH-01_1520_95008",
@@ -291005,12 +291216,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "15:26:00",
+        "arrivalTime": "15:22:00",
         "departureTime": "15:31:00",
         "isPassing": false
       },
@@ -291290,7 +291502,9 @@
         "departureTime": "16:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1514_98904",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1532_95728",
@@ -292790,6 +293004,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -293076,7 +293291,9 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1657_98862",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1541_93666",
@@ -294683,12 +294900,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "15:48:00",
+        "arrivalTime": "15:44:00",
         "departureTime": "15:52:00",
         "isPassing": false
       },
@@ -294968,7 +295186,9 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1536_98888",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-23_1553_42908",
@@ -297644,7 +297864,9 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1716_98815",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1610_94953",
@@ -298061,12 +298283,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "16:08:00",
+        "arrivalTime": "16:04:00",
         "departureTime": "16:10:00",
         "isPassing": false
       },
@@ -298347,6 +298570,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_1556_98905",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1655_95562",
@@ -299966,6 +300191,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -300252,7 +300478,9 @@
         "departureTime": "17:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1745_98874",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1621_93670",
@@ -301309,7 +301537,7 @@
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "16:28:00",
+        "arrivalTime": "16:24:00",
         "departureTime": "16:30:00",
         "isPassing": false
       },
@@ -301511,7 +301739,9 @@
         "departureTime": "17:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1616_98833",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1631_94356",
@@ -305095,12 +305325,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "16:48:00",
+        "arrivalTime": "16:44:00",
         "departureTime": "16:52:00",
         "isPassing": false
       },
@@ -305380,7 +305611,9 @@
         "departureTime": "18:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1636_98890",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1653_95738",
@@ -306596,6 +306829,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -306882,7 +307116,9 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1825_98844",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1701_93672",
@@ -308315,12 +308551,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "17:09:00",
+        "arrivalTime": "17:05:00",
         "departureTime": "17:10:00",
         "isPassing": false
       },
@@ -308601,6 +308838,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_1657_98906",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1755_95563",
@@ -312111,12 +312350,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "17:29:00",
+        "arrivalTime": "17:25:00",
         "departureTime": "17:33:00",
         "isPassing": false
       },
@@ -312396,7 +312636,9 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1717_98892",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1735_93527",
@@ -316681,6 +316923,7 @@
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
+    "customOrigin": "新宿",
     "customDestination": "箱根湯本",
     "cars": 10,
     "isHoliday": true,
@@ -316967,7 +317210,9 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OHH-01_1923_98845",
+    "throughLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_1801_93676",
@@ -318196,7 +318441,7 @@
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "17:59:00",
+        "arrivalTime": "17:53:00",
         "departureTime": "18:07:00",
         "isPassing": false
       },
@@ -318399,6 +318644,8 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_OHH-05_1745_98830",
+    "prevLineId": "hakone_tozan",
     "coupling": {
       "role": "PRIMARY",
       "coupledTripId": "HD_INB_OH-28_1851_95991",
@@ -322154,12 +322401,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "18:25:00",
+        "arrivalTime": "18:21:00",
         "departureTime": "18:33:00",
         "isPassing": false
       },
@@ -322439,7 +322687,9 @@
         "departureTime": "19:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1813_98894",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1834_94380",
@@ -326485,12 +326735,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "18:57:00",
+        "arrivalTime": "18:53:00",
         "departureTime": "18:58:00",
         "isPassing": false
       },
@@ -326770,7 +327021,9 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1845_98899",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_INB_OH-34_1859_94385",
@@ -338253,12 +338506,13 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "OH-47",
-        "arrivalTime": "20:04:00",
+        "arrivalTime": "20:00:00",
         "departureTime": "20:10:00",
         "isPassing": false
       },
@@ -338538,7 +338792,9 @@
         "departureTime": "21:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OHH-05_1952_98914",
+    "prevLineId": "hakone_tozan"
   },
   {
     "tripId": "HD_OUT_OH-01_2012_95757",

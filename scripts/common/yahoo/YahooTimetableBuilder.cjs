@@ -405,6 +405,13 @@ class YahooTimetableBuilder {
     let currentSegment = [];
 
     for (const rawStop of stopStation) {
+      if (this.config.shouldExcludeStopStation && this.config.shouldExcludeStopStation(rawStop, trainDetail)) {
+        if (currentSegment.length > 0) {
+          segments.push(currentSegment);
+          currentSegment = [];
+        }
+        continue;
+      }
       const st = this.resolveStation(rawStop.stationName);
       if (st) {
         const arrSec = this.parseTimeToSeconds(rawStop.arrivalTime);
@@ -513,8 +520,8 @@ class YahooTimetableBuilder {
         }
 
         // stopStation 全体における自社線内停車駅のインデックスを特定
-        const firstLineIdxInAll = stopStation.findIndex(s => s.stationName === firstLineStop.station.name);
-        const lastLineIdxInAll = stopStation.findIndex(s => s.stationName === lastLineStop.station.name);
+        const firstLineIdxInAll = stopStation.indexOf(firstLineStop.rawStop);
+        const lastLineIdxInAll = stopStation.indexOf(lastLineStop.rawStop);
 
         if (firstLineIdxInAll === -1 || lastLineIdxInAll === -1) continue;
 
@@ -528,7 +535,7 @@ class YahooTimetableBuilder {
             let boundarySec = null;
             if (lastDep !== null && nextThroughArr !== null && nextThroughArr > lastDep) {
               const nextStationName = nextThroughRaw.stationName;
-              let ratio = 0.3;
+              let ratio = rule.ratio !== undefined ? rule.ratio : 0.3;
               if (nextStationName === '板倉東洋大前' || nextStationName === '栃木') ratio = 0.23;
               else if (nextStationName === '久喜' || nextStationName === '加須') ratio = 0.5;
 
@@ -559,7 +566,7 @@ class YahooTimetableBuilder {
             let boundarySec = null;
             if (prevThroughDep !== null && firstArr !== null && firstArr > prevThroughDep) {
               const prevStationName = prevThroughRaw.stationName;
-              let ratio = 0.23;
+              let ratio = rule.ratio !== undefined ? rule.ratio : 0.23;
               if (prevStationName === '板倉東洋大前' || prevStationName === '栃木') ratio = 0.23;
               else if (prevStationName === '久喜' || prevStationName === '加須') ratio = 0.5;
 
@@ -590,7 +597,7 @@ class YahooTimetableBuilder {
             let boundarySec = null;
             if (prevThroughDep !== null && firstArr !== null && firstArr > prevThroughDep) {
               const prevStationName = prevThroughRaw.stationName;
-              let ratio = 0.23;
+              let ratio = rule.ratio !== undefined ? rule.ratio : 0.23;
               if (prevStationName === '春日部') {
                 if (firstLineStop.station.name === '板倉東洋大前' || firstLineStop.station.name === '栃木') ratio = 0.23;
                 else if (firstLineStop.station.name === '久喜') ratio = 0.5;
@@ -621,7 +628,7 @@ class YahooTimetableBuilder {
 
             let boundarySec = null;
             if (lastDep !== null && nextThroughArr !== null && nextThroughArr > lastDep) {
-              let ratio = 0.77;
+              let ratio = rule.ratio !== undefined ? rule.ratio : 0.77;
               if (lastLineStop.station.name === '久喜') ratio = 0.5;
               boundarySec = Math.round(lastDep + (nextThroughArr - lastDep) * ratio);
             } else if (lastDep !== null) {
@@ -670,7 +677,7 @@ class YahooTimetableBuilder {
           stationId: cur.station.id,
           arrivalTime: this.secondsToTimeString(arr),
           departureTime: this.secondsToTimeString(dep),
-          isPassing: false,
+          isPassing: Boolean(cur.isPassing),
         });
 
         // 次の停車駅との間に通過駅が存在する場合、通過駅（isPassing: true）を線形補間して挿入

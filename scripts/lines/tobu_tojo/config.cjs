@@ -7,10 +7,10 @@ const stations = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../cache
 module.exports = {
   lineId: 'tobu_tojo',
   name: '東武東上線',
-  stationsFilePath: 'src/data/lines/tojo/stations.ts',
+  stationsFilePath: 'src/data/lines/tobu_tojo/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/tojo/stationTimetables.json',
-    globalTimetable: 'src/data/lines/tojo/globalTimetable.json',
+    stationTimetables: 'src/data/lines/tobu_tojo/stationTimetables.json',
+    globalTimetable: 'src/data/lines/tobu_tojo/globalTimetable.json',
   },
   stations: stations.map(s => ({
     id: s.id,

@@ -586,6 +586,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -631,7 +632,9 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-13_0522_25186",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-32_0619_29340",
@@ -643,6 +646,7 @@
     "originStationId": "JOE-32",
     "destinationStationId": "JOE-36",
     "customOrigin": "十日町",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -676,7 +680,9 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_IY-26_0550_29304",
+    "prevLineId": "jr_iiyama"
   },
   {
     "tripId": "WD_OUT_JOE-01_0621_13875",
@@ -1397,6 +1403,7 @@
     "originStationId": "JOE-32",
     "destinationStationId": "JOE-36",
     "customOrigin": "森宮野原",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1430,7 +1437,9 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_IY-18_0537_29303",
+    "prevLineId": "jr_iiyama"
   },
   {
     "tripId": "WD_INB_JOE-36_0654_29341",
@@ -1441,6 +1450,7 @@
     "direction": "inbound",
     "originStationId": "JOE-36",
     "destinationStationId": "JOE-32",
+    "customOrigin": "長岡",
     "customDestination": "十日町",
     "cars": 4,
     "isHoliday": false,
@@ -1475,7 +1485,9 @@
         "departureTime": "07:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_IY-31_0720_29305",
+    "throughLineId": "jr_iiyama"
   },
   {
     "tripId": "WD_INB_JOE-14_0656_13904",
@@ -1782,6 +1794,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1827,7 +1840,9 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-13_0604_25187",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-01_0711_13876",
@@ -2018,6 +2033,7 @@
     "direction": "inbound",
     "originStationId": "JOE-36",
     "destinationStationId": "JOE-32",
+    "customOrigin": "長岡",
     "customDestination": "戸狩野沢温泉",
     "cars": 4,
     "isHoliday": false,
@@ -2052,7 +2068,9 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_IY-31_0756_29306",
+    "throughLineId": "jr_iiyama"
   },
   {
     "tripId": "WD_INB_JOE-14_0732_13905",
@@ -2640,6 +2658,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2685,7 +2704,9 @@
         "departureTime": "08:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-17_0648_25192",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-35_0808_19240",
@@ -3359,6 +3380,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "大前",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3404,7 +3426,9 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-18_0717_25198",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-01_0847_10066",
@@ -4208,6 +4232,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "大前",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4235,7 +4260,9 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-18_0832_25195",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_INB_JOE-04_1010_18877",
@@ -5045,6 +5072,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5090,7 +5118,9 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-13_1008_25188",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-35_1115_19229",
@@ -5576,6 +5606,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "大前",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5603,7 +5634,9 @@
         "departureTime": "12:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-18_1050_25196",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-35_1227_19230",
@@ -6481,7 +6514,9 @@
       }
     ],
     "throughTripId": "WD_INB_TK-25_1406_37207",
-    "throughLineId": "jr_takasaki"
+    "throughLineId": "jr_takasaki",
+    "prevTripId": "WD_INB_AG-13_1307_13735",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_INB_JOE-36_1350_11348",
@@ -6714,6 +6749,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6741,7 +6777,9 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-17_1247_25190",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_INB_JOE-14_1423_13908",
@@ -7710,6 +7748,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7755,7 +7794,9 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-13_1421_25189",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_INB_JOE-04_1537_18858",
@@ -8258,7 +8299,9 @@
       }
     ],
     "throughTripId": "WD_INB_TK-25_1646_37209",
-    "throughLineId": "jr_takasaki"
+    "throughLineId": "jr_takasaki",
+    "prevTripId": "WD_INB_AG-13_1543_13739",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-01_1634_13882",
@@ -8687,6 +8730,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8732,7 +8776,9 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-17_1524_25193",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_INB_JOE-04_1659_18859",
@@ -9201,6 +9247,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9246,7 +9293,9 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-17_1621_25194",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_INB_JOE-14_1745_13911",
@@ -10169,6 +10218,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "大前",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10196,7 +10246,9 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-18_1732_25197",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-01_1857_13885",
@@ -11410,6 +11462,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11437,7 +11490,9 @@
         "departureTime": "20:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-17_1859_25191",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-01_2028_13887",
@@ -12252,6 +12307,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "大前",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12297,7 +12353,9 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_AG-18_2011_25199",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "WD_OUT_JOE-01_2150_13888",
@@ -13460,6 +13518,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13505,7 +13564,9 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-13_0522_25186",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-32_0619_29340",
@@ -13517,6 +13578,7 @@
     "originStationId": "JOE-32",
     "destinationStationId": "JOE-36",
     "customOrigin": "十日町",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13550,7 +13612,9 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_IY-26_0550_29304",
+    "prevLineId": "jr_iiyama"
   },
   {
     "tripId": "HD_OUT_JOE-01_0621_13875",
@@ -14271,6 +14335,7 @@
     "originStationId": "JOE-32",
     "destinationStationId": "JOE-36",
     "customOrigin": "森宮野原",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14304,7 +14369,9 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_IY-18_0537_29303",
+    "prevLineId": "jr_iiyama"
   },
   {
     "tripId": "HD_INB_JOE-36_0654_29341",
@@ -14315,6 +14382,7 @@
     "direction": "inbound",
     "originStationId": "JOE-36",
     "destinationStationId": "JOE-32",
+    "customOrigin": "長岡",
     "customDestination": "十日町",
     "cars": 4,
     "isHoliday": true,
@@ -14349,7 +14417,9 @@
         "departureTime": "07:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_IY-31_0720_29305",
+    "throughLineId": "jr_iiyama"
   },
   {
     "tripId": "HD_INB_JOE-14_0656_13904",
@@ -14656,6 +14726,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14701,7 +14772,9 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-13_0604_25187",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-01_0711_13876",
@@ -14892,6 +14965,7 @@
     "direction": "inbound",
     "originStationId": "JOE-36",
     "destinationStationId": "JOE-32",
+    "customOrigin": "長岡",
     "customDestination": "戸狩野沢温泉",
     "cars": 4,
     "isHoliday": true,
@@ -14926,7 +15000,9 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_IY-31_0756_29306",
+    "throughLineId": "jr_iiyama"
   },
   {
     "tripId": "HD_INB_JOE-14_0732_13905",
@@ -15554,6 +15630,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15599,7 +15676,9 @@
         "departureTime": "08:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-17_0648_25192",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-35_0808_19240",
@@ -16425,6 +16504,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "大前",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16470,7 +16550,9 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-18_0717_25198",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-01_0847_10066",
@@ -17274,6 +17356,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "大前",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17301,7 +17384,9 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-18_0832_25195",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_INB_JOE-36_1004_11334",
@@ -18269,6 +18354,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18314,7 +18400,9 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-13_1008_25188",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-35_1115_19229",
@@ -19097,6 +19185,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "大前",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19124,7 +19213,9 @@
         "departureTime": "12:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-18_1050_25196",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-35_1227_19230",
@@ -19999,7 +20090,9 @@
       }
     ],
     "throughTripId": "HD_INB_TK-25_1406_37207",
-    "throughLineId": "jr_takasaki"
+    "throughLineId": "jr_takasaki",
+    "prevTripId": "HD_INB_AG-13_1307_13735",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_INB_JOE-36_1350_11348",
@@ -20286,6 +20379,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20313,7 +20407,9 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-17_1247_25190",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_INB_JOE-14_1423_13908",
@@ -20825,7 +20921,9 @@
       }
     ],
     "throughTripId": "HD_INB_TK-25_1513_37208",
-    "throughLineId": "jr_takasaki"
+    "throughLineId": "jr_takasaki",
+    "prevTripId": "HD_INB_AG-13_1406_13737",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-35_1509_19243",
@@ -21397,6 +21495,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "長野原草津口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21442,7 +21541,9 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-13_1421_25189",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_INB_JOE-04_1537_18858",
@@ -22053,7 +22154,9 @@
       }
     ],
     "throughTripId": "HD_INB_TK-25_1646_37209",
-    "throughLineId": "jr_takasaki"
+    "throughLineId": "jr_takasaki",
+    "prevTripId": "HD_INB_AG-13_1543_13739",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-01_1634_13882",
@@ -22482,6 +22585,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22527,7 +22631,9 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-17_1524_25193",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_INB_JOE-04_1659_18859",
@@ -22954,6 +23060,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22999,7 +23106,9 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-17_1621_25194",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_INB_JOE-14_1745_13911",
@@ -23922,6 +24031,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "大前",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23949,7 +24059,9 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-18_1732_25197",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-01_1857_13885",
@@ -25163,6 +25275,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-04",
     "customOrigin": "万座・鹿沢口",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25190,7 +25303,9 @@
         "departureTime": "20:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-17_1859_25191",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-01_2028_13887",
@@ -26005,6 +26120,7 @@
     "originStationId": "JOE-07",
     "destinationStationId": "JOE-01",
     "customOrigin": "大前",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26050,7 +26166,9 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_AG-18_2011_25199",
+    "prevLineId": "jr_agatsuma"
   },
   {
     "tripId": "HD_OUT_JOE-01_2150_13888",

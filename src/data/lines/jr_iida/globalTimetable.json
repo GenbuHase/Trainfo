@@ -1038,6 +1038,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "茅野",
     "cars": 3,
     "isHoliday": false,
@@ -1252,7 +1253,9 @@
         "departureTime": "07:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0716_43230",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-78_0512_31523",
@@ -1263,6 +1266,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -1369,7 +1373,9 @@
         "departureTime": "06:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0602_31527",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-51_0518_43216",
@@ -1380,6 +1386,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": false,
@@ -1648,7 +1655,9 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0822_43226",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-32_0521_11122",
@@ -2079,6 +2088,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -2185,7 +2195,9 @@
         "departureTime": "06:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0636_31524",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-60_0545_43233",
@@ -2197,6 +2209,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "長野",
     "cars": 3,
     "isHoliday": false,
@@ -2411,7 +2424,9 @@
         "departureTime": "07:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0747_43243",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-37_0547_11126",
@@ -4134,6 +4149,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "松本",
     "cars": 3,
     "isHoliday": false,
@@ -4402,7 +4418,9 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0855_43244",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-43_0617_11209",
@@ -5338,6 +5356,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -5605,7 +5624,9 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_0637_43236",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-12_0659_11099",
@@ -6403,6 +6424,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-76",
     "customOrigin": "上諏訪",
+    "customDestination": "伊那福岡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -6520,7 +6542,9 @@
         "departureTime": "08:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_0705_38170",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-19_0728_11112",
@@ -6837,6 +6861,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-68",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "伊那大島",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -7003,7 +7028,9 @@
         "departureTime": "09:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_0930_31523",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_0740_11145",
@@ -7065,6 +7092,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -7170,7 +7198,9 @@
         "departureTime": "08:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_0729_43231",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_0751_11072",
@@ -8110,6 +8140,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "長野",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -8323,7 +8354,9 @@
         "departureTime": "11:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_0844_28622",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_0908_11178",
@@ -8910,6 +8943,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": false,
@@ -9124,7 +9158,9 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1148_43228",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_0950_11205",
@@ -9936,6 +9972,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-01",
     "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -10503,7 +10540,9 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_0945_38172",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_1004_11067",
@@ -11075,6 +11114,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-89",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "伊那松島",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -11115,7 +11155,9 @@
         "departureTime": "10:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1054_31528",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_1034_11068",
@@ -11176,6 +11218,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-01",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "豊橋",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -11744,7 +11787,9 @@
         "departureTime": "17:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1722_31518",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_1048_11077",
@@ -11805,6 +11850,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -12073,7 +12119,9 @@
         "departureTime": "13:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1344_31519",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-94_1057_43227",
@@ -12085,6 +12133,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -12352,7 +12401,9 @@
         "departureTime": "13:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1042_43237",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1057_11151",
@@ -13235,6 +13286,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "茅野",
     "cars": 3,
     "isHoliday": false,
@@ -13503,7 +13555,9 @@
         "departureTime": "15:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1542_43227",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1238_11179",
@@ -13693,6 +13747,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -13960,7 +14015,9 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1230_43238",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-60_1305_11134",
@@ -15113,6 +15170,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "松本",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -15326,7 +15384,9 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1330_31552",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-78_1350_31521",
@@ -15337,6 +15397,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -15443,7 +15504,9 @@
         "departureTime": "14:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1447_31525",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-12_1408_11109",
@@ -15754,6 +15817,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-01",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "豊橋",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -16322,7 +16386,9 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_2126_31517",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_1449_11082",
@@ -16434,6 +16500,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -16701,7 +16768,9 @@
         "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1450_43239",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-12_1508_11102",
@@ -18120,6 +18189,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -18226,7 +18296,9 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1649_31526",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_1549_11084",
@@ -18287,6 +18359,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": false,
@@ -18501,7 +18574,9 @@
         "departureTime": "18:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1820_43229",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-60_1555_11132",
@@ -18938,6 +19013,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-01",
     "customOrigin": "岡谷",
+    "customDestination": "豊橋",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -19505,7 +19581,9 @@
         "departureTime": "21:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1546_43242",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-12_1608_11103",
@@ -19688,6 +19766,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -19956,7 +20035,9 @@
         "departureTime": "19:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1911_31520",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_1618_11085",
@@ -20067,6 +20148,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-01",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "豊橋",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": false,
@@ -20635,7 +20717,9 @@
         "departureTime": "22:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_2243_43225",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-60_1645_11137",
@@ -20899,6 +20983,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-01",
     "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -21466,7 +21551,9 @@
         "departureTime": "22:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1638_38171",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1657_11158",
@@ -21705,6 +21792,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -21973,7 +22061,9 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_1951_31521",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-94_1725_31547",
@@ -21986,6 +22076,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "松本",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -22199,7 +22290,9 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1709_31551",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-12_1726_11110",
@@ -22382,6 +22475,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": false,
@@ -22650,7 +22744,9 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-03_2048_31522",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1757_11197",
@@ -22898,6 +22994,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-43",
     "customOrigin": "茅野",
+    "customDestination": "平岡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -23213,7 +23310,9 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1752_38169",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1808_11159",
@@ -24370,6 +24469,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -24475,7 +24575,9 @@
         "departureTime": "19:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1843_43232",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1857_11161",
@@ -24883,6 +24985,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -25150,7 +25253,9 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1912_43240",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1927_11162",
@@ -25542,6 +25647,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -25647,7 +25753,9 @@
         "departureTime": "21:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_1933_43233",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_jr_iida-01_1957_11163",
@@ -26217,6 +26325,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -26484,7 +26593,9 @@
         "departureTime": "23:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_2036_43241",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-12_2054_11107",
@@ -27352,6 +27463,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "岡谷",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -27565,7 +27677,9 @@
         "departureTime": "23:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_2140_43235",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_2158_11095",
@@ -27995,6 +28109,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -28100,7 +28215,9 @@
         "departureTime": "23:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_2232_43234",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_jr_iida-06_2248_11096",
@@ -29413,6 +29530,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "茅野",
     "cars": 3,
     "isHoliday": true,
@@ -29627,7 +29745,9 @@
         "departureTime": "07:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0716_43230",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-78_0512_31523",
@@ -29638,6 +29758,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -29744,7 +29865,9 @@
         "departureTime": "06:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0602_31527",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-51_0518_43216",
@@ -29755,6 +29878,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": true,
@@ -30023,7 +30147,9 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0822_43226",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-32_0521_11122",
@@ -30454,6 +30580,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -30560,7 +30687,9 @@
         "departureTime": "06:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0636_31524",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-60_0545_43233",
@@ -30572,6 +30701,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "長野",
     "cars": 3,
     "isHoliday": true,
@@ -30786,7 +30916,9 @@
         "departureTime": "07:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0747_43243",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-37_0547_11126",
@@ -32509,6 +32641,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "松本",
     "cars": 3,
     "isHoliday": true,
@@ -32777,7 +32910,9 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0855_43244",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-43_0617_11209",
@@ -33713,6 +33848,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -33980,7 +34116,9 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_0637_43236",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-12_0659_11099",
@@ -34728,6 +34866,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-76",
     "customOrigin": "上諏訪",
+    "customDestination": "伊那福岡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -34845,7 +34984,9 @@
         "departureTime": "08:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_0705_38170",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-19_0728_11112",
@@ -35162,6 +35303,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-68",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "伊那大島",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -35328,7 +35470,9 @@
         "departureTime": "09:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_0930_31523",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_0740_11145",
@@ -35390,6 +35534,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -35495,7 +35640,9 @@
         "departureTime": "08:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_0729_43231",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_0754_11170",
@@ -36385,6 +36532,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "長野",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -36598,7 +36746,9 @@
         "departureTime": "11:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_0844_28622",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_0908_11178",
@@ -37185,6 +37335,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": true,
@@ -37399,7 +37550,9 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1148_43228",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_0950_11205",
@@ -38211,6 +38364,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-01",
     "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -38778,7 +38932,9 @@
         "departureTime": "16:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_0945_38172",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_1004_11067",
@@ -39350,6 +39506,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-89",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "伊那松島",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -39390,7 +39547,9 @@
         "departureTime": "10:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1054_31528",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_1034_11068",
@@ -39451,6 +39610,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-01",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "豊橋",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -40019,7 +40179,9 @@
         "departureTime": "17:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1722_31518",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_1048_11077",
@@ -40080,6 +40242,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -40348,7 +40511,9 @@
         "departureTime": "13:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1344_31519",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-94_1057_43227",
@@ -40360,6 +40525,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -40627,7 +40793,9 @@
         "departureTime": "13:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1042_43237",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1057_11151",
@@ -41510,6 +41678,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "茅野",
     "cars": 3,
     "isHoliday": true,
@@ -41778,7 +41947,9 @@
         "departureTime": "15:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1542_43227",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1238_11179",
@@ -41968,6 +42139,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -42235,7 +42407,9 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1230_43238",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-60_1305_11134",
@@ -43388,6 +43562,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "松本",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -43601,7 +43776,9 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1330_31552",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-78_1350_31521",
@@ -43612,6 +43789,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -43718,7 +43896,9 @@
         "departureTime": "14:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1447_31525",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-12_1408_11109",
@@ -44029,6 +44209,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-01",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "豊橋",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -44597,7 +44778,9 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_2126_31517",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_1449_11082",
@@ -44709,6 +44892,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -44976,7 +45160,9 @@
         "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1450_43239",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-12_1508_11102",
@@ -46395,6 +46581,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-78",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "駒ケ根",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -46501,7 +46688,9 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1649_31526",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_1549_11084",
@@ -46562,6 +46751,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-60",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "飯田",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": true,
@@ -46776,7 +46966,9 @@
         "departureTime": "18:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1820_43229",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-60_1555_11132",
@@ -47213,6 +47405,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-01",
     "customOrigin": "岡谷",
+    "customDestination": "豊橋",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -47780,7 +47973,9 @@
         "departureTime": "21:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1546_43242",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-12_1608_11103",
@@ -47963,6 +48158,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -48231,7 +48427,9 @@
         "departureTime": "19:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1911_31520",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_1618_11085",
@@ -48342,6 +48540,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-01",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "豊橋",
     "customDestination": "上諏訪",
     "cars": 3,
     "isHoliday": true,
@@ -48910,7 +49109,9 @@
         "departureTime": "22:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_2243_43225",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-60_1645_11137",
@@ -49174,6 +49375,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-01",
     "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -49741,7 +49943,9 @@
         "departureTime": "22:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1638_38171",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1657_11158",
@@ -49980,6 +50184,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -50248,7 +50453,9 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_1951_31521",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-94_1725_31547",
@@ -50261,6 +50468,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "松本",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -50474,7 +50682,9 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1709_31551",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-12_1726_11110",
@@ -50657,6 +50867,7 @@
     "direction": "outbound",
     "originStationId": "jr_iida-51",
     "destinationStationId": "jr_iida-94",
+    "customOrigin": "天竜峡",
     "customDestination": "岡谷",
     "cars": 3,
     "isHoliday": true,
@@ -50925,7 +51136,9 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-03_2048_31522",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1757_11197",
@@ -51173,6 +51386,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-43",
     "customOrigin": "茅野",
+    "customDestination": "平岡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -51488,7 +51702,9 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1752_38169",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1808_11159",
@@ -52645,6 +52861,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -52750,7 +52967,9 @@
         "departureTime": "19:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1843_43232",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1857_11161",
@@ -53158,6 +53377,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -53425,7 +53645,9 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1912_43240",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1927_11162",
@@ -53817,6 +54039,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -53922,7 +54145,9 @@
         "departureTime": "21:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_1933_43233",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_jr_iida-01_1957_11163",
@@ -54492,6 +54717,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-51",
     "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -54759,7 +54985,9 @@
         "departureTime": "23:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_2036_43241",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-12_2054_11107",
@@ -55627,6 +55855,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-60",
     "customOrigin": "岡谷",
+    "customDestination": "飯田",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -55840,7 +56069,9 @@
         "departureTime": "23:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_2140_43235",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_2158_11095",
@@ -56270,6 +56501,7 @@
     "originStationId": "jr_iida-94",
     "destinationStationId": "jr_iida-78",
     "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -56375,7 +56607,9 @@
         "departureTime": "23:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_2232_43234",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_jr_iida-06_2248_11096",

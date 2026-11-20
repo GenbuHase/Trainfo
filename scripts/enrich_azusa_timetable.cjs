@@ -325,12 +325,12 @@ function matchesTrainId(trip, trainId) {
 
 function enrichAzusaTimetable() {
   const lineData = {
-    jr_oito_east: safeReadJson(LINE_PATHS.oito_east),
-    jr_shinonoi: safeReadJson(LINE_PATHS.shinonoi),
-    jr_chuo_main: safeReadJson(LINE_PATHS.chuo_main),
-    jr_chuo: safeReadJson(LINE_PATHS.chuo),
-    jr_chuo_sobu_local: safeReadJson(LINE_PATHS.chuo_sobu_local),
-    jr_sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
+    jr_oito_east: safeReadJson(LINE_PATHS.jr_oito_east),
+    jr_shinonoi: safeReadJson(LINE_PATHS.jr_shinonoi),
+    jr_chuo_main: safeReadJson(LINE_PATHS.jr_chuo_main),
+    jr_chuo: safeReadJson(LINE_PATHS.jr_chuo),
+    jr_chuo_sobu_local: safeReadJson(LINE_PATHS.jr_chuo_sobu_local),
+    jr_sobu_rapid: safeReadJson(LINE_PATHS.jr_sobu_rapid),
     fujikyu: safeReadJson(LINE_PATHS.fujikyu),
   };
   const shinonoiSt = safeReadJson(LINE_PATHS.shinonoiSt, {});
@@ -347,7 +347,7 @@ function enrichAzusaTimetable() {
     const chuoMainTripId = `cm_${prefix}_INB_CO-61_1458_${trainId}`;
     const chuoTripId = `${prefix}_INB_CO-57_1512_${trainId}`;
 
-    const oitoTrip = lineData.oito_east.find((t) => t.tripId === oitoTripId || t.trainId === trainId);
+    const oitoTrip = lineData.jr_oito_east.find((t) => t.tripId === oitoTripId || t.trainId === trainId);
     if (oitoTrip) {
       oitoTrip.destinationStationId = 'OIE-01';
       oitoTrip.customOrigin = '白馬';
@@ -377,9 +377,9 @@ function enrichAzusaTimetable() {
       throughTripId: chuoMainTripId,
       throughLineId: 'jr_chuo_main',
     };
-    const snExistingIdx = lineData.shinonoi.findIndex((t) => t.tripId === shinonoiTripId || t.trainId === trainId);
-    if (snExistingIdx !== -1) lineData.shinonoi[snExistingIdx] = snTripData;
-    else lineData.shinonoi.push(snTripData);
+    const snExistingIdx = lineData.jr_shinonoi.findIndex((t) => t.tripId === shinonoiTripId || t.trainId === trainId);
+    if (snExistingIdx !== -1) lineData.jr_shinonoi[snExistingIdx] = snTripData;
+    else lineData.jr_shinonoi.push(snTripData);
     console.log(`  ✓ jr_shinonoi ${shinonoiTripId} を新設/更新`);
 
     const dayKey = isHoliday ? 'holiday' : 'weekday';
@@ -401,11 +401,11 @@ function enrichAzusaTimetable() {
     }
 
     const oldChuoMainId = `cm_${prefix}_INB_CO-57_1512_${trainId}`;
-    const cmIdx = lineData.chuo_main.findIndex((t) => t.tripId === oldChuoMainId || t.tripId === chuoMainTripId || t.trainId === trainId);
+    const cmIdx = lineData.jr_chuo_main.findIndex((t) => t.tripId === oldChuoMainId || t.tripId === chuoMainTripId || t.trainId === trainId);
     if (cmIdx !== -1) {
-      const existingTrip = lineData.chuo_main[cmIdx];
+      const existingTrip = lineData.jr_chuo_main[cmIdx];
       const suwaAndAfter = existingTrip.stops.filter((s) => !['CO-61', 'CO-60', 'CO-59', 'CO-58'].includes(s.stationId));
-      lineData.chuo_main[cmIdx] = {
+      lineData.jr_chuo_main[cmIdx] = {
         ...existingTrip,
         tripId: chuoMainTripId,
         trainId,
@@ -426,7 +426,7 @@ function enrichAzusaTimetable() {
       console.log(`  ✓ jr_chuo_main ${chuoMainTripId} を更新 (塩尻〜下諏訪を追加)`);
     }
 
-    const chuoTrip = lineData.chuo.find((t) => t.tripId === chuoTripId || t.trainId === trainId);
+    const chuoTrip = lineData.jr_chuo.find((t) => t.tripId === chuoTripId || t.trainId === trainId);
     if (chuoTrip) {
       chuoTrip.customOrigin = '白馬';
       chuoTrip.customDestination = '新宿';
@@ -445,7 +445,7 @@ function enrichAzusaTimetable() {
   console.log('\n--- 2. 下り塩尻通過特急あずさ9号・37号の延伸 ---');
   for (const def of OUTBOUND_NONSTOP_SHIOJIRI_DEFS) {
     const { trainId, isHoliday, trainNumber, trainName, cmTripId, snTripId, times } = def;
-    const cmTrip = lineData.chuo_main.find((t) => t.tripId === cmTripId || t.trainId === trainId);
+    const cmTrip = lineData.jr_chuo_main.find((t) => t.tripId === cmTripId || t.trainId === trainId);
     if (cmTrip) {
       cmTrip.destinationStationId = 'CO-61';
       cmTrip.customOrigin = '新宿';
@@ -492,9 +492,9 @@ function enrichAzusaTimetable() {
       prevTripId: cmTripId,
       prevLineId: 'jr_chuo_main',
     };
-    const snExistingIdx = lineData.shinonoi.findIndex((t) => t.tripId === snTripId || t.trainId === trainId);
-    if (snExistingIdx !== -1) lineData.shinonoi[snExistingIdx] = snTripData;
-    else lineData.shinonoi.push(snTripData);
+    const snExistingIdx = lineData.jr_shinonoi.findIndex((t) => t.tripId === snTripId || t.trainId === trainId);
+    if (snExistingIdx !== -1) lineData.jr_shinonoi[snExistingIdx] = snTripData;
+    else lineData.jr_shinonoi.push(snTripData);
     console.log(`  ✓ jr_shinonoi ${snTripId} を新設/更新 (松本着 ${times.matsumotoArr})`);
   }
 
@@ -539,7 +539,7 @@ function enrichAzusaTimetable() {
   // --------------------------------------------------------------------------
   console.log('\n--- 3. 全上りあずさ号の始発駅 (customOrigin) 整備 ---');
   let cmUpdatedCount = 0;
-  for (const trip of lineData.chuo_main) {
+  for (const trip of lineData.jr_chuo_main) {
     if (trip.trainType === 'limited_exp' && trip.direction === 'inbound' && trip.originStationId === 'CO-61' && !trip.customOrigin) {
       trip.customOrigin = '松本';
       cmUpdatedCount++;
@@ -548,7 +548,7 @@ function enrichAzusaTimetable() {
   console.log(`  ✓ jr_chuo_main: ${cmUpdatedCount} 便の上りあずさに customOrigin: '松本' を設定`);
 
   let chUpdatedCount = 0;
-  for (const trip of lineData.chuo) {
+  for (const trip of lineData.jr_chuo) {
     if (trip.trainType === 'limited_exp' && trip.direction === 'inbound' && trip.customOrigin === '塩尻') {
       trip.customOrigin = '松本';
       chUpdatedCount++;
@@ -559,13 +559,13 @@ function enrichAzusaTimetable() {
   let snInbUpdated = 0;
   let snOutUpdated = 0;
 
-  for (const snTrip of lineData.shinonoi) {
+  for (const snTrip of lineData.jr_shinonoi) {
     if (snTrip.trainType !== 'limited_exp' && !(snTrip.trainName && snTrip.trainName.includes('あずさ'))) continue;
     const isHoliday = snTrip.isHoliday;
     const yId = snTrip.trainId || (snTrip.tripId ? snTrip.tripId.split('_').pop() : '');
     if (!yId) continue;
 
-    const matchedCm = lineData.chuo_main.find(
+    const matchedCm = lineData.jr_chuo_main.find(
       (t) =>
         (t.trainId === yId || (t.tripId && t.tripId.endsWith(`_${yId}`))) &&
         t.direction === snTrip.direction &&
@@ -621,17 +621,17 @@ function enrichAzusaTimetable() {
   console.log('\n--- 4. 千葉発着あずさ号・富士回遊号（あずさ3号・富士回遊3号・あずさ50号）の直通リンク・併結整備 ---');
 
   for (const chain of CHIBA_AZUSA_FUJI_CHAINS) {
-    const cslAzusa = lineData.chuo_sobu_local.find((t) => t.tripId === chain.cslAzusaTripId || t.trainId === chain.cslAzusaId);
-    const chuoAzusa = lineData.chuo.find((t) => t.tripId === chain.chuoAzusaTripId || t.trainId === chain.chuoAzusaId);
-    const cmAzusa = lineData.chuo_main.find(
+    const cslAzusa = lineData.jr_chuo_sobu_local.find((t) => t.tripId === chain.cslAzusaTripId || t.trainId === chain.cslAzusaId);
+    const chuoAzusa = lineData.jr_chuo.find((t) => t.tripId === chain.chuoAzusaTripId || t.trainId === chain.chuoAzusaId);
+    const cmAzusa = lineData.jr_chuo_main.find(
       (t) => t.tripId === chain.cmAzusaTripId || (t.trainId === chain.chuoAzusaId && t.direction === 'outbound' && t.isHoliday === chain.isHoliday)
     );
-    const snAzusa = lineData.shinonoi.find(
+    const snAzusa = lineData.jr_shinonoi.find(
       (t) => t.tripId === chain.snAzusaTripId || (t.trainId === chain.chuoAzusaId && t.direction === 'outbound' && t.isHoliday === chain.isHoliday)
     );
 
-    const chuoFuji = lineData.chuo.find((t) => t.tripId === chain.chuoFujiTripId || t.trainId === chain.chuoFujiId);
-    const cmFuji = lineData.chuo_main.find(
+    const chuoFuji = lineData.jr_chuo.find((t) => t.tripId === chain.chuoFujiTripId || t.trainId === chain.chuoFujiId);
+    const cmFuji = lineData.jr_chuo_main.find(
       (t) => t.tripId === chain.cmFujiTripId || (t.trainId === chain.chuoFujiId && t.direction === 'outbound' && t.isHoliday === chain.isHoliday)
     );
     const fjFuji = lineData.fujikyu.find(
@@ -693,7 +693,7 @@ function enrichAzusaTimetable() {
     }
 
     // 2. 富士回遊3号 千葉〜新宿トリップの復元注入とカップリング
-    let cslFuji = lineData.chuo_sobu_local.find((t) => t.tripId === chain.cslFujiTripId);
+    let cslFuji = lineData.jr_chuo_sobu_local.find((t) => t.tripId === chain.cslFujiTripId);
     if (!cslFuji) {
       cslFuji = {
         ...JSON.parse(JSON.stringify(cslAzusa)),
@@ -710,7 +710,7 @@ function enrichAzusaTimetable() {
         throughTripId: chuoFuji ? chuoFuji.tripId : chain.chuoFujiTripId,
         throughLineId: 'jr_chuo',
       };
-      lineData.chuo_sobu_local.push(cslFuji);
+      lineData.jr_chuo_sobu_local.push(cslFuji);
     } else {
       cslFuji.trainName = '富士回遊3号';
       cslFuji.trainNumber = '2103M';
@@ -768,8 +768,8 @@ function enrichAzusaTimetable() {
   }
 
   for (const { chuoTripId, srTripId } of AZUSA_50_CHAINS) {
-    const chuoTrip = lineData.chuo.find((t) => t.tripId === chuoTripId);
-    const srTrip = lineData.sobu_rapid.find((t) => t.tripId === srTripId);
+    const chuoTrip = lineData.jr_chuo.find((t) => t.tripId === chuoTripId);
+    const srTrip = lineData.jr_sobu_rapid.find((t) => t.tripId === srTripId);
     if (chuoTrip && srTrip) {
       linkThroughTrips(chuoTrip, 'jr_chuo', srTrip, 'jr_sobu_rapid', {
         customOrigin: '松本',

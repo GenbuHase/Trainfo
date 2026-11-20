@@ -2868,9 +2868,7 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_JT-26_1305_31146",
-    "throughLineId": "jr_ito"
+    ]
   },
   {
     "tripId": "WD_INB_IZ-16_1140_29719",
@@ -3391,6 +3389,7 @@
     "direction": "inbound",
     "originStationId": "IZ-16",
     "destinationStationId": "IZ-01",
+    "customOrigin": "伊豆急下田",
     "customDestination": "東京",
     "cars": 7,
     "isHoliday": false,
@@ -3491,7 +3490,9 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JT-26_1305_31146",
+    "throughLineId": "jr_ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1213_29720",
@@ -11569,9 +11570,7 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_INB_JT-26_1305_31146",
-    "throughLineId": "jr_ito"
+    ]
   },
   {
     "tripId": "HD_INB_IZ-16_1140_29719",
@@ -12092,6 +12091,7 @@
     "direction": "inbound",
     "originStationId": "IZ-16",
     "destinationStationId": "IZ-01",
+    "customOrigin": "伊豆急下田",
     "customDestination": "東京",
     "cars": 7,
     "isHoliday": true,
@@ -12192,7 +12192,9 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JT-26_1305_31146",
+    "throughLineId": "jr_ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1213_29720",

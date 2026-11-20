@@ -148,10 +148,10 @@ function bridgeNexAndAyame() {
   console.log('=== ✈️ 成田エクスプレス & 特急あやめ & 特急しおさい 直通・ダイヤ補完開始 ===');
 
   const lineData = {
-    jr_yokosuka: safeReadJson(LINE_PATHS.yokosuka),
-    jr_sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
-    jr_sobu_main: safeReadJson(LINE_PATHS.sobu_main),
-    jr_narita: safeReadJson(LINE_PATHS.narita),
+    jr_yokosuka: safeReadJson(LINE_PATHS.jr_yokosuka),
+    jr_sobu_rapid: safeReadJson(LINE_PATHS.jr_sobu_rapid),
+    jr_sobu_main: safeReadJson(LINE_PATHS.jr_sobu_main),
+    jr_narita: safeReadJson(LINE_PATHS.jr_narita),
   };
 
   // =========================================================================
@@ -233,13 +233,13 @@ function bridgeNexAndAyame() {
   for (const isHoliday of [false, true]) {
     const prefix = isHoliday ? 'HD' : 'WD';
 
-    const nrtNexDownList = lineData.narita.filter(
+    const nrtNexDownList = lineData.jr_narita.filter(
       (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
-    const srNexDownList = lineData.sobu_rapid.filter(
+    const srNexDownList = lineData.jr_sobu_rapid.filter(
       (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
-    const ykNexDownList = lineData.yokosuka.filter(
+    const ykNexDownList = lineData.jr_yokosuka.filter(
       (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
 
@@ -298,7 +298,7 @@ function bridgeNexAndAyame() {
         }
 
         const srTripId = `${prefix}_OUT_JO-19_${secToTime(tTokyoDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
-        srTrip = lineData.sobu_rapid.find((t) => t.tripId === srTripId);
+        srTrip = lineData.jr_sobu_rapid.find((t) => t.tripId === srTripId);
         const srStops = buildPassingStopsWithDistances(SOBUR_DOWN_STATIONS, tTokyoDepSec, chibaDepSec, false, true);
 
         if (!srTrip) {
@@ -318,7 +318,7 @@ function bridgeNexAndAyame() {
             isHoliday,
             stops: srStops,
           };
-          lineData.sobu_rapid.push(srTrip);
+          lineData.jr_sobu_rapid.push(srTrip);
         } else {
           srTrip.stops = srStops;
         }
@@ -332,7 +332,7 @@ function bridgeNexAndAyame() {
       const sakuraPassSec = Math.round(chibaDepSec + chibaToNr36Dur * (16.1 / 36.5));
 
       const smTripId = `${prefix}_OUT_SM-01_${secToTime(chibaDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
-      let smTrip = lineData.sobu_main.find(
+      let smTrip = lineData.jr_sobu_main.find(
         (t) => t.tripId === smTripId || (t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainNumber === trainNum)
       );
       const smStops = buildPassingStopsWithDistances(SOBUM_DOWN_STATIONS, chibaDepSec, sakuraPassSec, true, true);
@@ -354,7 +354,7 @@ function bridgeNexAndAyame() {
           isHoliday,
           stops: smStops,
         };
-        lineData.sobu_main.push(smTrip);
+        lineData.jr_sobu_main.push(smTrip);
       } else {
         smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
@@ -422,13 +422,13 @@ function bridgeNexAndAyame() {
   for (const isHoliday of [false, true]) {
     const prefix = isHoliday ? 'HD' : 'WD';
 
-    const nrtNexUpList = lineData.narita.filter(
+    const nrtNexUpList = lineData.jr_narita.filter(
       (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
-    const srNexUpList = lineData.sobu_rapid.filter(
+    const srNexUpList = lineData.jr_sobu_rapid.filter(
       (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
-    const ykNexUpList = lineData.yokosuka.filter(
+    const ykNexUpList = lineData.jr_yokosuka.filter(
       (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('成田エクスプレス') && !/^\d+F$/.test(t.trainNumber || '')
     );
 
@@ -494,7 +494,7 @@ function bridgeNexAndAyame() {
         }
 
         const srTripId = `${prefix}_INB_JO-28_${secToTime(chibaDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
-        srTrip = lineData.sobu_rapid.find((t) => t.tripId === srTripId);
+        srTrip = lineData.jr_sobu_rapid.find((t) => t.tripId === srTripId);
         const srStops = buildPassingStopsWithDistances(SOBUR_UP_STATIONS, chibaDepSec, tTokyoArrSec, true, false);
 
         if (!srTrip) {
@@ -514,7 +514,7 @@ function bridgeNexAndAyame() {
             isHoliday,
             stops: srStops,
           };
-          lineData.sobu_rapid.push(srTrip);
+          lineData.jr_sobu_rapid.push(srTrip);
         } else {
           srTrip.stops = srStops;
         }
@@ -551,7 +551,7 @@ function bridgeNexAndAyame() {
       nrtTrip.customDestination = finalDest;
 
       const smTripId = `${prefix}_INB_SM-06_${secToTime(sakuraPassSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
-      let smTrip = lineData.sobu_main.find(
+      let smTrip = lineData.jr_sobu_main.find(
         (t) => t.tripId === smTripId || (t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainNumber === trainNum)
       );
       const smStops = buildPassingStopsWithDistances(SOBUM_UP_STATIONS, sakuraPassSec, chibaDepSec, true, srTrip ? srTrip.stops[0].isPassing : true);
@@ -573,7 +573,7 @@ function bridgeNexAndAyame() {
           isHoliday,
           stops: smStops,
         };
-        lineData.sobu_main.push(smTrip);
+        lineData.jr_sobu_main.push(smTrip);
       } else {
         smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
@@ -663,10 +663,10 @@ function bridgeNexAndAyame() {
   // =========================================================================
   console.log('\n--- 4. 特急しおさい 直通リンク補強 ---');
   for (const isHoliday of [false, true]) {
-    const srDownShiosai = lineData.sobu_rapid.filter(
+    const srDownShiosai = lineData.jr_sobu_rapid.filter(
       (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('しおさい')
     );
-    const smDownShiosai = lineData.sobu_main.filter(
+    const smDownShiosai = lineData.jr_sobu_main.filter(
       (t) => t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('しおさい')
     );
 
@@ -693,10 +693,10 @@ function bridgeNexAndAyame() {
       }
     }
 
-    const smUpShiosai = lineData.sobu_main.filter(
+    const smUpShiosai = lineData.jr_sobu_main.filter(
       (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('しおさい')
     );
-    const srUpShiosai = lineData.sobu_rapid.filter(
+    const srUpShiosai = lineData.jr_sobu_rapid.filter(
       (t) => t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainName && t.trainName.includes('しおさい')
     );
 
