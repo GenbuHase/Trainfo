@@ -9,8 +9,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "西馬込",
     "nameKana": "にしまごめ",
     "nameEn": "Nishimagome",
-    "lat": 35.58793,
-    "lng": 139.70679,
+    "lat": 35.5879391,
+    "lng": 139.7067721,
     "transfers": [],
     "address": "東京都西馬込駅",
     "facilities": {
@@ -39,8 +39,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "馬込",
     "nameKana": "まごめ",
     "nameEn": "Magome",
-    "lat": 35.59621,
-    "lng": 139.71181,
+    "lat": 35.5962033,
+    "lng": 139.7118599,
     "transfers": [],
     "address": "東京都馬込駅",
     "facilities": {
@@ -68,8 +68,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "中延",
     "nameKana": "なかのぶ",
     "nameEn": "Nakanobu",
-    "lat": 35.60593,
-    "lng": 139.71374,
+    "lat": 35.6059195,
+    "lng": 139.7138293,
     "transfers": [
       "東急大井町線"
     ],
@@ -100,8 +100,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "戸越",
     "nameKana": "とごし",
     "nameEn": "Togoshi",
-    "lat": 35.61511,
-    "lng": 139.71664,
+    "lat": 35.6151072,
+    "lng": 139.71665,
     "transfers": [],
     "address": "東京都戸越駅",
     "facilities": {
@@ -129,8 +129,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "五反田",
     "nameKana": "ごたんだ",
     "nameEn": "Gotanda",
-    "lat": 35.62752,
-    "lng": 139.7248,
+    "lat": 35.6274403,
+    "lng": 139.724878,
     "transfers": [
       "ＪＲ山手線外回り",
       "ＪＲ山手線内回り",
@@ -163,8 +163,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "高輪台",
     "nameKana": "たかなわだい",
     "nameEn": "Takanawadai",
-    "lat": 35.63152,
-    "lng": 139.73017,
+    "lat": 35.631498,
+    "lng": 139.7301927,
     "transfers": [],
     "address": "東京都高輪台駅",
     "facilities": {
@@ -192,8 +192,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "泉岳寺",
     "nameKana": "せんがくじ",
     "nameEn": "Sengakuji",
-    "lat": 35.6388,
-    "lng": 139.74008,
+    "lat": 35.6387951,
+    "lng": 139.7400941,
     "transfers": [
       "京急本線"
     ],
@@ -224,8 +224,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "三田",
     "nameKana": "みた",
     "nameEn": "Mita",
-    "lat": 35.64776,
-    "lng": 139.74914,
+    "lat": 35.6477575,
+    "lng": 139.7491418,
     "transfers": [
       "都営地下鉄三田線"
     ],
@@ -256,8 +256,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "大門",
     "nameKana": "だいもん",
     "nameEn": "Daimon",
-    "lat": 35.65678,
-    "lng": 139.75468,
+    "lat": 35.6567767,
+    "lng": 139.7547117,
     "transfers": [
       "都営地下鉄大江戸線"
     ],
@@ -288,8 +288,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "新橋",
     "nameKana": "しんばし",
     "nameEn": "Shimbashi",
-    "lat": 35.66514,
-    "lng": 139.7592,
+    "lat": 35.6651388,
+    "lng": 139.7592021,
     "transfers": [
       "ＪＲ山手線外回り",
       "ＪＲ山手線内回り",
@@ -326,8 +326,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "東銀座",
     "nameKana": "ひがしぎんざ",
     "nameEn": "Higashiginza",
-    "lat": 35.66979,
-    "lng": 139.76732,
+    "lat": 35.6697648,
+    "lng": 139.7673597,
     "transfers": [
       "東京メトロ日比谷線"
     ],
@@ -358,8 +358,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "宝町",
     "nameKana": "たからちょう",
     "nameEn": "Takarachou",
-    "lat": 35.67578,
-    "lng": 139.77215,
+    "lat": 35.6757899,
+    "lng": 139.7721257,
     "transfers": [],
     "address": "東京都宝町駅",
     "facilities": {
@@ -387,8 +387,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "日本橋",
     "nameKana": "にほんばし",
     "nameEn": "Nihombashi",
-    "lat": 35.68155,
-    "lng": 139.77574,
+    "lat": 35.6815753,
+    "lng": 139.7756769,
     "transfers": [
       "東京メトロ銀座線",
       "東京メトロ東西線"
@@ -420,8 +420,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "人形町",
     "nameKana": "にんぎょうちょう",
     "nameEn": "Ningyouchou",
-    "lat": 35.68611,
-    "lng": 139.78178,
+    "lat": 35.6860481,
+    "lng": 139.7818243,
     "transfers": [
       "東京メトロ日比谷線"
     ],
@@ -452,8 +452,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "東日本橋",
     "nameKana": "ひがしにほんばし",
     "nameEn": "Higashinihombashi",
-    "lat": 35.6913,
-    "lng": 139.78471,
+    "lat": 35.6912923,
+    "lng": 139.7847992,
     "transfers": [],
     "address": "東京都東日本橋駅",
     "facilities": {
@@ -481,8 +481,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "浅草橋",
     "nameKana": "あさくさばし",
     "nameEn": "Asakusabashi",
-    "lat": 35.69834,
-    "lng": 139.78693,
+    "lat": 35.6983153,
+    "lng": 139.7870001,
     "transfers": [
       "ＪＲ中央・総武線各駅停車"
     ],
@@ -513,8 +513,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "蔵前",
     "nameKana": "くらまえ",
     "nameEn": "Kuramae",
-    "lat": 35.70356,
-    "lng": 139.79135,
+    "lat": 35.7035435,
+    "lng": 139.7913704,
     "transfers": [
       "都営地下鉄大江戸線"
     ],
@@ -545,8 +545,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "浅草",
     "nameKana": "あさくさ",
     "nameEn": "Asakusa",
-    "lat": 35.70849,
-    "lng": 139.79594,
+    "lat": 35.7084863,
+    "lng": 139.7959449,
     "transfers": [
       "東武スカイツリーライン",
       "東京メトロ銀座線"
@@ -578,8 +578,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "本所吾妻橋",
     "nameKana": "ほんじょあづまばし",
     "nameEn": "Honjoazumabashi",
-    "lat": 35.70859,
-    "lng": 139.8043,
+    "lat": 35.7085396,
+    "lng": 139.8043035,
     "transfers": [],
     "address": "東京都本所吾妻橋駅",
     "facilities": {
@@ -607,8 +607,8 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "name": "押上",
     "nameKana": "おしあげ",
     "nameEn": "Oshiage",
-    "lat": 35.7106266,
-    "lng": 139.8131034,
+    "lat": 35.7107383,
+    "lng": 139.8130503,
     "transfers": [
       "東武スカイツリーライン",
       "京成押上線",

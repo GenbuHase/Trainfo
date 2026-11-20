@@ -10,7 +10,7 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "nameKana": "かなざわはっけい",
     "nameEn": "Kanazawahakkei",
     "lat": 35.33179,
-    "lng": 139.62011,
+    "lng": 139.6201172,
     "transfers": [
       "京急本線"
     ],
@@ -40,8 +40,8 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "name": "六浦",
     "nameKana": "むつうら",
     "nameEn": "Mutsuura",
-    "lat": 35.3229,
-    "lng": 139.61184,
+    "lat": 35.3228575,
+    "lng": 139.611871,
     "transfers": [],
     "address": "神奈川県六浦駅",
     "facilities": {
@@ -68,8 +68,8 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "name": "神武寺",
     "nameKana": "じんむじ",
     "nameEn": "Jimmuji",
-    "lat": 35.30655,
-    "lng": 139.59318,
+    "lat": 35.3065105,
+    "lng": 139.593234,
     "transfers": [],
     "address": "神奈川県神武寺駅",
     "facilities": {
@@ -96,8 +96,8 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "name": "逗子・葉山",
     "nameKana": "ずしはやま",
     "nameEn": "Zushihayama",
-    "lat": 35.29427,
-    "lng": 139.58051,
+    "lat": 35.2943039,
+    "lng": 139.5803593,
     "transfers": [],
     "address": "神奈川県逗子・葉山駅",
     "facilities": {

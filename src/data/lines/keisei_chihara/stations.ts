@@ -9,8 +9,8 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "name": "千葉中央",
     "nameKana": "ちばちゅうおう",
     "nameEn": "Chibachuuou",
-    "lat": 35.60674,
-    "lng": 140.11814,
+    "lat": 35.6067423,
+    "lng": 140.1181471,
     "transfers": [
       "京成千葉線"
     ],
@@ -39,8 +39,8 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "name": "千葉寺",
     "nameKana": "ちばでら",
     "nameEn": "Chibadera",
-    "lat": 35.59052,
-    "lng": 140.1316,
+    "lat": 35.590526,
+    "lng": 140.1316025,
     "transfers": [],
     "address": "千葉県千葉寺駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "name": "大森台",
     "nameKana": "おおもりだい",
     "nameEn": "Oomoridai",
-    "lat": 35.58427,
-    "lng": 140.14922,
+    "lat": 35.5842785,
+    "lng": 140.1492305,
     "transfers": [],
     "address": "千葉県大森台駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "name": "学園前",
     "nameKana": "がくえんまえ",
     "nameEn": "Gakuemmae",
-    "lat": 35.56072,
-    "lng": 140.15845,
+    "lat": 35.5607198,
+    "lng": 140.1584514,
     "transfers": [],
     "address": "千葉県学園前駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "name": "おゆみ野",
     "nameKana": "おゆみの",
     "nameEn": "Oyumino",
-    "lat": 35.55018,
-    "lng": 140.16589,
+    "lat": 35.5501806,
+    "lng": 140.1658903,
     "transfers": [],
     "address": "千葉県おゆみ野駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "name": "ちはら台",
     "nameKana": "ちはらだい",
     "nameEn": "Chiharadai",
-    "lat": 35.53441,
-    "lng": 140.17023,
+    "lat": 35.5343992,
+    "lng": 140.1703215,
     "transfers": [],
     "address": "千葉県ちはら台駅",
     "facilities": {

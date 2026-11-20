@@ -9,8 +9,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "京成高砂",
     "nameKana": "けいせいたかさご",
     "nameEn": "Keiseitakasago",
-    "lat": 35.75083,
-    "lng": 139.86572,
+    "lat": 35.7508287,
+    "lng": 139.8657204,
     "transfers": [
       "京成本線",
       "京成金町線",
@@ -44,8 +44,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "新柴又",
     "nameKana": "しんしばまた",
     "nameEn": "Shinshibamata",
-    "lat": 35.75097,
-    "lng": 139.87911,
+    "lat": 35.7509611,
+    "lng": 139.8791173,
     "transfers": [],
     "address": "東京都新柴又駅",
     "facilities": {
@@ -71,8 +71,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "矢切",
     "nameKana": "やぎり",
     "nameEn": "Yagiri",
-    "lat": 35.75726,
-    "lng": 139.89973,
+    "lat": 35.7572736,
+    "lng": 139.8997261,
     "transfers": [],
     "address": "千葉県矢切駅",
     "facilities": {
@@ -98,8 +98,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "北国分",
     "nameKana": "きたこくぶん",
     "nameEn": "Kitakokubun",
-    "lat": 35.7627,
-    "lng": 139.91331,
+    "lat": 35.7628348,
+    "lng": 139.9132665,
     "transfers": [],
     "address": "千葉県北国分駅",
     "facilities": {
@@ -125,8 +125,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "秋山",
     "nameKana": "あきやま",
     "nameEn": "Akiyama",
-    "lat": 35.76547,
-    "lng": 139.93164,
+    "lat": 35.7654385,
+    "lng": 139.9316462,
     "transfers": [],
     "address": "千葉県秋山駅",
     "facilities": {
@@ -152,8 +152,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "東松戸",
     "nameKana": "ひがしまつど",
     "nameEn": "Higashimatsudo",
-    "lat": 35.76955,
-    "lng": 139.94232,
+    "lat": 35.7695398,
+    "lng": 139.9423287,
     "transfers": [
       "ＪＲ武蔵野線",
       "京成成田スカイアクセス線"
@@ -185,8 +185,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "松飛台",
     "nameKana": "まつひだい",
     "nameEn": "Matsuhidai",
-    "lat": 35.77531,
-    "lng": 139.9572,
+    "lat": 35.7753237,
+    "lng": 139.9571969,
     "transfers": [],
     "address": "千葉県松飛台駅",
     "facilities": {
@@ -212,8 +212,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "大町",
     "nameKana": "おおまち",
     "nameEn": "Oomachi",
-    "lat": 35.77514,
-    "lng": 139.97318,
+    "lat": 35.7751589,
+    "lng": 139.9731792,
     "transfers": [],
     "address": "千葉県大町駅",
     "facilities": {
@@ -239,8 +239,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "新鎌ケ谷",
     "nameKana": "しんかまがや",
     "nameEn": "Shinkamagaya",
-    "lat": 35.77989,
-    "lng": 139.99932,
+    "lat": 35.7797903,
+    "lng": 139.9993664,
     "transfers": [
       "東武アーバンパークライン",
       "京成松戸線",
@@ -274,8 +274,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "西白井",
     "nameKana": "にししろい",
     "nameEn": "Nishishiroi",
-    "lat": 35.78446,
-    "lng": 140.03259,
+    "lat": 35.7844361,
+    "lng": 140.0325903,
     "transfers": [],
     "address": "千葉県西白井駅",
     "facilities": {
@@ -302,8 +302,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "白井",
     "nameKana": "しろい",
     "nameEn": "Shiroi",
-    "lat": 35.78476,
-    "lng": 140.05435,
+    "lat": 35.7847918,
+    "lng": 140.0543489,
     "transfers": [],
     "address": "千葉県白井駅",
     "facilities": {
@@ -330,8 +330,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "小室",
     "nameKana": "こむろ",
     "nameEn": "Komuro",
-    "lat": 35.78707,
-    "lng": 140.07642,
+    "lat": 35.7869998,
+    "lng": 140.0764343,
     "transfers": [],
     "address": "千葉県小室駅",
     "facilities": {
@@ -358,8 +358,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "千葉ニュータウン中央",
     "nameKana": "ちばにゅーたうんちゅうおう",
     "nameEn": "Chibanyutaunchuuou",
-    "lat": 35.80037,
-    "lng": 140.11676,
+    "lat": 35.8003781,
+    "lng": 140.1167562,
     "transfers": [
       "京成成田スカイアクセス線"
     ],
@@ -391,8 +391,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "印西牧の原",
     "nameKana": "いんざいまきのはら",
     "nameEn": "Inzaimakinohara",
-    "lat": 35.80362,
-    "lng": 140.16718,
+    "lat": 35.8037121,
+    "lng": 140.1672118,
     "transfers": [],
     "address": "千葉県印西牧の原駅",
     "facilities": {
@@ -419,8 +419,8 @@ export const HOKUSO_STATIONS: Station[] = [
     "name": "印旛日本医大",
     "nameKana": "いんばにほんいだい",
     "nameEn": "Imbanihonidai",
-    "lat": 35.78791,
-    "lng": 140.20248,
+    "lat": 35.78792,
+    "lng": 140.2024841,
     "transfers": [
       "京成成田スカイアクセス線"
     ],

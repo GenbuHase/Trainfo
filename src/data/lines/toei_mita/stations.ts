@@ -74,8 +74,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "白金高輪",
     "nameKana": "しろかねたかなわ",
     "nameEn": "Shirokanetakanawa",
-    "lat": 35.6429466,
-    "lng": 139.7341229,
+    "lat": 35.6429858,
+    "lng": 139.7340158,
     "transfers": [
       "東京メトロ南北線"
     ],
@@ -105,8 +105,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "三田",
     "nameKana": "みた",
     "nameEn": "Mita",
-    "lat": 35.64837,
-    "lng": 139.74892,
+    "lat": 35.6484195,
+    "lng": 139.7487633,
     "transfers": [
       "都営地下鉄浅草線"
     ],
@@ -135,8 +135,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "芝公園",
     "nameKana": "しばこうえん",
     "nameEn": "Shibakouen",
-    "lat": 35.65397,
-    "lng": 139.7498,
+    "lat": 35.6539668,
+    "lng": 139.7498361,
     "transfers": [],
     "address": "東京都芝公園駅",
     "facilities": {
@@ -162,8 +162,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "御成門",
     "nameKana": "おなりもん",
     "nameEn": "Onarimon",
-    "lat": 35.66096,
-    "lng": 139.75149,
+    "lat": 35.6609982,
+    "lng": 139.7513677,
     "transfers": [],
     "address": "東京都御成門駅",
     "facilities": {
@@ -189,8 +189,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "内幸町",
     "nameKana": "うちさいわいちょう",
     "nameEn": "Uchisaiwaichou",
-    "lat": 35.6695,
-    "lng": 139.7555,
+    "lat": 35.6695626,
+    "lng": 139.7553488,
     "transfers": [],
     "address": "東京都内幸町駅",
     "facilities": {
@@ -216,8 +216,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "日比谷",
     "nameKana": "ひびや",
     "nameEn": "Hibiya",
-    "lat": 35.67735,
-    "lng": 139.7604,
+    "lat": 35.6773262,
+    "lng": 139.7604965,
     "transfers": [
       "東京メトロ日比谷線",
       "東京メトロ千代田線"
@@ -247,8 +247,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "大手町",
     "nameKana": "おおてまち",
     "nameEn": "Ootemachi",
-    "lat": 35.6849,
-    "lng": 139.76286,
+    "lat": 35.6848877,
+    "lng": 139.7629266,
     "transfers": [
       "東京メトロ丸ノ内線",
       "東京メトロ東西線",
@@ -280,8 +280,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "神保町",
     "nameKana": "じんぼうちょう",
     "nameEn": "Jimbouchou",
-    "lat": 35.69578102,
-    "lng": 139.7581611,
+    "lat": 35.6957679,
+    "lng": 139.7580717,
     "transfers": [
       "東京メトロ半蔵門線",
       "都営地下鉄新宿線"
@@ -311,8 +311,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "水道橋",
     "nameKana": "すいどうばし",
     "nameEn": "Suidoubashi",
-    "lat": 35.70381,
-    "lng": 139.75507,
+    "lat": 35.7038043,
+    "lng": 139.7550371,
     "transfers": [
       "ＪＲ中央・総武線各駅停車"
     ],
@@ -341,8 +341,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "春日",
     "nameKana": "かすが",
     "nameEn": "Kasuga",
-    "lat": 35.70997,
-    "lng": 139.75323,
+    "lat": 35.7099512,
+    "lng": 139.7531367,
     "transfers": [
       "都営地下鉄大江戸線"
     ],
@@ -371,8 +371,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "白山",
     "nameKana": "はくさん",
     "nameEn": "Hakusan",
-    "lat": 35.72198,
-    "lng": 139.75247,
+    "lat": 35.7219856,
+    "lng": 139.752148,
     "transfers": [],
     "address": "東京都白山駅",
     "facilities": {
@@ -398,8 +398,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "千石",
     "nameKana": "せんごく",
     "nameEn": "Sengoku",
-    "lat": 35.72748,
-    "lng": 139.7454,
+    "lat": 35.7274187,
+    "lng": 139.7453372,
     "transfers": [],
     "address": "東京都千石駅",
     "facilities": {
@@ -425,8 +425,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "巣鴨",
     "nameKana": "すがも",
     "nameEn": "Sugamo",
-    "lat": 35.7333,
-    "lng": 139.73865,
+    "lat": 35.7333304,
+    "lng": 139.7386866,
     "transfers": [
       "ＪＲ山手線外回り",
       "ＪＲ山手線内回り"
@@ -456,8 +456,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "西巣鴨",
     "nameKana": "にしすがも",
     "nameEn": "Nishisugamo",
-    "lat": 35.74279,
-    "lng": 139.72931,
+    "lat": 35.742815,
+    "lng": 139.7293491,
     "transfers": [],
     "address": "東京都西巣鴨駅",
     "facilities": {
@@ -483,8 +483,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "新板橋",
     "nameKana": "しんいたばし",
     "nameEn": "Shinitabashi",
-    "lat": 35.74875,
-    "lng": 139.72025,
+    "lat": 35.7487215,
+    "lng": 139.7202457,
     "transfers": [],
     "address": "東京都新板橋駅",
     "facilities": {
@@ -510,8 +510,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "板橋区役所前",
     "nameKana": "いたばしくやくしょまえ",
     "nameEn": "Itabashikuyakushomae",
-    "lat": 35.75082,
-    "lng": 139.71065,
+    "lat": 35.7508111,
+    "lng": 139.7106386,
     "transfers": [],
     "address": "東京都板橋区役所前駅",
     "facilities": {
@@ -537,8 +537,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "板橋本町",
     "nameKana": "いたばしほんちょう",
     "nameEn": "Itabashihonchou",
-    "lat": 35.76148,
-    "lng": 139.70546,
+    "lat": 35.7614842,
+    "lng": 139.7054765,
     "transfers": [],
     "address": "東京都板橋本町駅",
     "facilities": {
@@ -564,8 +564,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "本蓮沼",
     "nameKana": "もとはすぬま",
     "nameEn": "Motohasunuma",
-    "lat": 35.7696,
-    "lng": 139.70169,
+    "lat": 35.769568,
+    "lng": 139.701626,
     "transfers": [],
     "address": "東京都本蓮沼駅",
     "facilities": {
@@ -591,8 +591,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "志村坂上",
     "nameKana": "しむらさかうえ",
     "nameEn": "Shimurasakaue",
-    "lat": 35.7769,
-    "lng": 139.69416,
+    "lat": 35.7768693,
+    "lng": 139.6941185,
     "transfers": [],
     "address": "東京都志村坂上駅",
     "facilities": {
@@ -618,8 +618,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "志村三丁目",
     "nameKana": "しむらさんちょうめ",
     "nameEn": "Shimurasanchoume",
-    "lat": 35.77726,
-    "lng": 139.68499,
+    "lat": 35.7772314,
+    "lng": 139.6850013,
     "transfers": [],
     "address": "東京都志村三丁目駅",
     "facilities": {
@@ -645,8 +645,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "蓮根",
     "nameKana": "はすね",
     "nameEn": "Hasune",
-    "lat": 35.78469,
-    "lng": 139.67914,
+    "lat": 35.7846971,
+    "lng": 139.6790601,
     "transfers": [],
     "address": "東京都蓮根駅",
     "facilities": {
@@ -672,8 +672,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "西台",
     "nameKana": "にしだい",
     "nameEn": "Nishidai",
-    "lat": 35.78717,
-    "lng": 139.67169,
+    "lat": 35.7871579,
+    "lng": 139.6716881,
     "transfers": [],
     "address": "東京都西台駅",
     "facilities": {
@@ -699,8 +699,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "高島平",
     "nameKana": "たかしまだいら",
     "nameEn": "Takashimadaira",
-    "lat": 35.78912,
-    "lng": 139.66035,
+    "lat": 35.7889875,
+    "lng": 139.6603048,
     "transfers": [],
     "address": "東京都高島平駅",
     "facilities": {
@@ -726,8 +726,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "新高島平",
     "nameKana": "しんたかしまだいら",
     "nameEn": "Shintakashimadaira",
-    "lat": 35.7904,
-    "lng": 139.65337,
+    "lat": 35.7904021,
+    "lng": 139.6533706,
     "transfers": [],
     "address": "東京都新高島平駅",
     "facilities": {
@@ -753,8 +753,8 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "name": "西高島平",
     "nameKana": "にしたかしまだいら",
     "nameEn": "Nishitakashimadaira",
-    "lat": 35.7921,
-    "lng": 139.64455,
+    "lat": 35.7921312,
+    "lng": 139.6445593,
     "transfers": [],
     "address": "東京都西高島平駅",
     "facilities": {

@@ -9,8 +9,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "上北台",
     "nameKana": "かみきただい",
     "nameEn": "Kamikitadai",
-    "lat": 35.74603,
-    "lng": 139.41587,
+    "lat": 35.7460298,
+    "lng": 139.4158394,
     "transfers": [],
     "address": "東京都上北台駅",
     "facilities": {
@@ -37,8 +37,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "桜街道",
     "nameKana": "さくらかいどう",
     "nameEn": "Sakurakaidou",
-    "lat": 35.73932,
-    "lng": 139.4165,
+    "lat": 35.73933,
+    "lng": 139.4165851,
     "transfers": [],
     "address": "東京都桜街道駅",
     "facilities": {
@@ -64,8 +64,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "玉川上水",
     "nameKana": "たまがわじょうすい",
     "nameEn": "Tamagawajousui",
-    "lat": 35.73203,
-    "lng": 139.41776,
+    "lat": 35.7320474,
+    "lng": 139.4178898,
     "transfers": [
       "西武拝島線"
     ],
@@ -95,7 +95,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "nameKana": "すながわななばん",
     "nameEn": "Sunagawananaban",
     "lat": 35.72367,
-    "lng": 139.4181,
+    "lng": 139.4181116,
     "transfers": [],
     "address": "東京都砂川七番駅",
     "facilities": {
@@ -121,8 +121,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "泉体育館",
     "nameKana": "いずみたいいくかん",
     "nameEn": "Izumitaiikukan",
-    "lat": 35.71913,
-    "lng": 139.41941,
+    "lat": 35.7191159,
+    "lng": 139.4193692,
     "transfers": [],
     "address": "東京都泉体育館駅",
     "facilities": {
@@ -148,8 +148,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "立飛",
     "nameKana": "たちひ",
     "nameEn": "Tachihi",
-    "lat": 35.71405,
-    "lng": 139.41687,
+    "lat": 35.7140792,
+    "lng": 139.4168242,
     "transfers": [],
     "address": "東京都立飛駅",
     "facilities": {
@@ -175,8 +175,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "高松",
     "nameKana": "たかまつ",
     "nameEn": "Takamatsu",
-    "lat": 35.70984,
-    "lng": 139.41308,
+    "lat": 35.7098854,
+    "lng": 139.4129992,
     "transfers": [],
     "address": "東京都高松駅",
     "facilities": {
@@ -202,8 +202,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "立川北",
     "nameKana": "たちかわきた",
     "nameEn": "Tachikawakita",
-    "lat": 35.69997,
-    "lng": 139.41269,
+    "lat": 35.6999754,
+    "lng": 139.4124907,
     "transfers": [],
     "address": "東京都立川北駅",
     "facilities": {
@@ -229,8 +229,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "立川南",
     "nameKana": "たちかわみなみ",
     "nameEn": "Tachikawaminami",
-    "lat": 35.69587,
-    "lng": 139.41241,
+    "lat": 35.6958669,
+    "lng": 139.4124183,
     "transfers": [],
     "address": "東京都立川南駅",
     "facilities": {
@@ -256,8 +256,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "柴崎体育館",
     "nameKana": "しばさきたいいくかん",
     "nameEn": "Shibasakitaiikukan",
-    "lat": 35.68954,
-    "lng": 139.40916,
+    "lat": 35.6895269,
+    "lng": 139.4092087,
     "transfers": [],
     "address": "東京都柴崎体育館駅",
     "facilities": {
@@ -283,8 +283,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "甲州街道",
     "nameKana": "こうしゅうかいどう",
     "nameEn": "Koushuukaidou",
-    "lat": 35.67807,
-    "lng": 139.40946,
+    "lat": 35.6781056,
+    "lng": 139.409495,
     "transfers": [],
     "address": "東京都甲州街道駅",
     "facilities": {
@@ -310,8 +310,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "万願寺",
     "nameKana": "まんがんじ",
     "nameEn": "Manganji",
-    "lat": 35.67104,
-    "lng": 139.4201,
+    "lat": 35.6710596,
+    "lng": 139.4201424,
     "transfers": [],
     "address": "東京都万願寺駅",
     "facilities": {
@@ -337,8 +337,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "高幡不動",
     "nameKana": "たかはたふどう",
     "nameEn": "Takahatafudou",
-    "lat": 35.66163,
-    "lng": 139.41531,
+    "lat": 35.6616428,
+    "lng": 139.4152542,
     "transfers": [
       "京王線",
       "京王動物園線"
@@ -368,8 +368,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "程久保",
     "nameKana": "ほどくぼ",
     "nameEn": "Hodokubo",
-    "lat": 35.65554,
-    "lng": 139.41094,
+    "lat": 35.6555427,
+    "lng": 139.410933,
     "transfers": [],
     "address": "東京都程久保駅",
     "facilities": {
@@ -395,8 +395,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "多摩動物公園",
     "nameKana": "たまどうぶつこうえん",
     "nameEn": "Tamadoubutsukouen",
-    "lat": 35.64886,
-    "lng": 139.40391,
+    "lat": 35.6488819,
+    "lng": 139.4037608,
     "transfers": [
       "京王動物園線"
     ],
@@ -425,8 +425,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "中央大学・明星大学",
     "nameKana": "ちゅうおうだいがくめいせいだいがく",
     "nameEn": "Chuuoudaigakumeiseidaigaku",
-    "lat": 35.64204,
-    "lng": 139.40837,
+    "lat": 35.6420295,
+    "lng": 139.4083633,
     "transfers": [],
     "address": "東京都中央大学・明星大学駅",
     "facilities": {
@@ -452,8 +452,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "大塚・帝京大学",
     "nameKana": "おおつかていきょうだいがく",
     "nameEn": "Ootsukateikyoudaigaku",
-    "lat": 35.63706,
-    "lng": 139.41613,
+    "lat": 35.6370822,
+    "lng": 139.4161523,
     "transfers": [],
     "address": "東京都大塚・帝京大学駅",
     "facilities": {
@@ -479,8 +479,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "松が谷",
     "nameKana": "まつがや",
     "nameEn": "Matsugaya",
-    "lat": 35.63212,
-    "lng": 139.42192,
+    "lat": 35.6321275,
+    "lng": 139.4219522,
     "transfers": [],
     "address": "東京都松が谷駅",
     "facilities": {
@@ -506,8 +506,8 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "name": "多摩センター",
     "nameKana": "たませんたー",
     "nameEn": "Tamasenta",
-    "lat": 35.62419,
-    "lng": 139.4229,
+    "lat": 35.6241832,
+    "lng": 139.4229317,
     "transfers": [],
     "address": "東京都多摩センター駅",
     "facilities": {

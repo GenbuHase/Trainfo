@@ -8,8 +8,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "水戸",
     "nameKana": "みと",
     "nameEn": "Mito",
-    "lat": 36.37093,
-    "lng": 140.47827,
+    "lat": 36.3707563,
+    "lng": 140.4782925,
     "transfers": [
       "ＪＲ常磐線",
       "ＪＲ水郡線"
@@ -38,8 +38,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "東水戸",
     "nameKana": "ひがしみと",
     "nameEn": "Higashimito",
-    "lat": 36.36217,
-    "lng": 140.51523,
+    "lat": 36.3621682,
+    "lng": 140.5152287,
     "transfers": [],
     "address": "茨城県東水戸駅",
     "facilities": {
@@ -64,8 +64,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "常澄",
     "nameKana": "つねずみ",
     "nameEn": "Tsunezumi",
-    "lat": 36.34116,
-    "lng": 140.55797,
+    "lat": 36.341245,
+    "lng": 140.55803,
     "transfers": [],
     "address": "茨城県常澄駅",
     "facilities": {
@@ -90,8 +90,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "大洗",
     "nameKana": "おおあらい",
     "nameEn": "Ooarai",
-    "lat": 36.31478,
-    "lng": 140.56241,
+    "lat": 36.3147535,
+    "lng": 140.5625064,
     "transfers": [],
     "address": "茨城県大洗駅",
     "facilities": {
@@ -116,8 +116,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "涸沼",
     "nameKana": "ひぬま",
     "nameEn": "Hinuma",
-    "lat": 36.26626,
-    "lng": 140.5275,
+    "lat": 36.2662668,
+    "lng": 140.5274801,
     "transfers": [],
     "address": "茨城県涸沼駅",
     "facilities": {
@@ -142,8 +142,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "鹿島旭",
     "nameKana": "かしまあさひ",
     "nameEn": "Kashimaasahi",
-    "lat": 36.22416,
-    "lng": 140.51264,
+    "lat": 36.2241441,
+    "lng": 140.5126905,
     "transfers": [],
     "address": "茨城県鹿島旭駅",
     "facilities": {
@@ -168,8 +168,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "徳宿",
     "nameKana": "とくしゅく",
     "nameEn": "Tokushuku",
-    "lat": 36.1896,
-    "lng": 140.51445,
+    "lat": 36.1896001,
+    "lng": 140.5144445,
     "transfers": [],
     "address": "茨城県徳宿駅",
     "facilities": {
@@ -194,8 +194,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "新鉾田",
     "nameKana": "しんほこた",
     "nameEn": "Shinhokota",
-    "lat": 36.15301,
-    "lng": 140.52035,
+    "lat": 36.1530092,
+    "lng": 140.5203404,
     "transfers": [],
     "address": "茨城県新鉾田駅",
     "facilities": {
@@ -220,8 +220,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "北浦湖畔",
     "nameKana": "きたうらこはん",
     "nameEn": "Kitaurakohan",
-    "lat": 36.12072,
-    "lng": 140.53635,
+    "lat": 36.1207309,
+    "lng": 140.5363597,
     "transfers": [],
     "address": "茨城県北浦湖畔駅",
     "facilities": {
@@ -246,8 +246,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "大洋",
     "nameKana": "たいよう",
     "nameEn": "Taiyou",
-    "lat": 36.10868,
-    "lng": 140.57605,
+    "lat": 36.1086939,
+    "lng": 140.576069,
     "transfers": [],
     "address": "茨城県大洋駅",
     "facilities": {
@@ -272,8 +272,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "鹿島灘",
     "nameKana": "かしまなだ",
     "nameEn": "Kashimanada",
-    "lat": 36.07601,
-    "lng": 140.59658,
+    "lat": 36.0760204,
+    "lng": 140.5966101,
     "transfers": [],
     "address": "茨城県鹿島灘駅",
     "facilities": {
@@ -298,8 +298,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "鹿島大野",
     "nameKana": "かしまおおの",
     "nameEn": "Kashimaoono",
-    "lat": 36.05104,
-    "lng": 140.60968,
+    "lat": 36.051038,
+    "lng": 140.6096742,
     "transfers": [],
     "address": "茨城県鹿島大野駅",
     "facilities": {
@@ -324,8 +324,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "長者ケ浜潮騒はまなす公園前",
     "nameKana": "ちょうじゃがはましおさいはまなすこうえんまえ",
     "nameEn": "Choujagahamashiosaihamanasukouemmae",
-    "lat": 36.03163,
-    "lng": 140.6187,
+    "lat": 36.0315924,
+    "lng": 140.6185719,
     "transfers": [],
     "address": "茨城県長者ケ浜潮騒はまなす公園前駅",
     "facilities": {
@@ -350,8 +350,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "荒野台",
     "nameKana": "こうやだい",
     "nameEn": "Kouyadai",
-    "lat": 36.01723,
-    "lng": 140.62508,
+    "lat": 36.0172276,
+    "lng": 140.6250708,
     "transfers": [],
     "address": "茨城県荒野台駅",
     "facilities": {
@@ -376,8 +376,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "鹿島サッカースタジアム",
     "nameKana": "かしまさっかーすたじあむ",
     "nameEn": "Kashimasakkasutajiamu",
-    "lat": 35.99338,
-    "lng": 140.63577,
+    "lat": 35.9933745,
+    "lng": 140.6357466,
     "transfers": [
       "ＪＲ鹿島線"
     ],
@@ -405,8 +405,8 @@ export const KASHIMA_RINKAI_STATIONS: Station[] = [
     "name": "鹿島神宮",
     "nameKana": "かしまじんぐう",
     "nameEn": "Kashimajinguu",
-    "lat": 35.97061,
-    "lng": 140.62543,
+    "lat": 35.9706172,
+    "lng": 140.6254282,
     "transfers": [
       "ＪＲ鹿島線"
     ],

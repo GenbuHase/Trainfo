@@ -9,8 +9,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "国分寺",
     "nameKana": "こくぶんじ",
     "nameEn": "Kokubunji",
-    "lat": 35.70105,
-    "lng": 139.47928,
+    "lat": 35.7010764,
+    "lng": 139.4793706,
     "transfers": [
       "ＪＲ中央線快速",
       "西武国分寺線"
@@ -40,8 +40,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "一橋学園",
     "nameKana": "ひとつばしがくえん",
     "nameEn": "Hitotsubashigakuen",
-    "lat": 35.72251,
-    "lng": 139.48003,
+    "lat": 35.7225092,
+    "lng": 139.4800153,
     "transfers": [],
     "address": "東京都一橋学園駅",
     "facilities": {
@@ -67,8 +67,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "青梅街道",
     "nameKana": "おうめかいどう",
     "nameEn": "Oumekaidou",
-    "lat": 35.73134,
-    "lng": 139.4766,
+    "lat": 35.7313366,
+    "lng": 139.4766586,
     "transfers": [],
     "address": "東京都青梅街道駅",
     "facilities": {
@@ -94,8 +94,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "萩山",
     "nameKana": "はぎやま",
     "nameEn": "Hagiyama",
-    "lat": 35.74094,
-    "lng": 139.47668,
+    "lat": 35.740944,
+    "lng": 139.4766842,
     "transfers": [
       "西武拝島線"
     ],
@@ -124,8 +124,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "八坂",
     "nameKana": "やさか",
     "nameEn": "Yasaka",
-    "lat": 35.74519,
-    "lng": 139.46706,
+    "lat": 35.7452353,
+    "lng": 139.4670896,
     "transfers": [],
     "address": "東京都八坂駅",
     "facilities": {
@@ -151,8 +151,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "武蔵大和",
     "nameKana": "むさしやまと",
     "nameEn": "Musashiyamato",
-    "lat": 35.7568,
-    "lng": 139.44381,
+    "lat": 35.7567932,
+    "lng": 139.4437913,
     "transfers": [],
     "address": "東京都武蔵大和駅",
     "facilities": {
@@ -178,8 +178,8 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "name": "多摩湖",
     "nameKana": "たまこ",
     "nameEn": "Tamako",
-    "lat": 35.76646,
-    "lng": 139.44255,
+    "lat": 35.7664484,
+    "lng": 139.4424673,
     "transfers": [
       "西武山口線"
     ],

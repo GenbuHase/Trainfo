@@ -8,8 +8,8 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "name": "ユーカリが丘",
     "nameKana": "ゆーかりがおか",
     "nameEn": "Yukarigaoka",
-    "lat": 35.72244,
-    "lng": 140.157,
+    "lat": 35.7223892,
+    "lng": 140.1568895,
     "transfers": [
       "京成本線"
     ],
@@ -37,8 +37,8 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "name": "地区センター",
     "nameKana": "ちくせんたー",
     "nameEn": "Chikusenta",
-    "lat": 35.72585,
-    "lng": 140.15519,
+    "lat": 35.7258599,
+    "lng": 140.1553007,
     "transfers": [],
     "address": "千葉県地区センター駅",
     "facilities": {
@@ -63,8 +63,8 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "name": "公園",
     "nameKana": "こうえん",
     "nameEn": "Kouen",
-    "lat": 35.73077,
-    "lng": 140.15372,
+    "lat": 35.7307655,
+    "lng": 140.1536911,
     "transfers": [],
     "address": "千葉県公園駅",
     "facilities": {
@@ -89,8 +89,8 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "name": "女子大",
     "nameKana": "じょしだい",
     "nameEn": "Joshidai",
-    "lat": 35.7384,
-    "lng": 140.1549,
+    "lat": 35.7383771,
+    "lng": 140.154816,
     "transfers": [],
     "address": "千葉県女子大駅",
     "facilities": {
@@ -115,8 +115,8 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "name": "中学校",
     "nameKana": "ちゅうがっこう",
     "nameEn": "Chuugakkou",
-    "lat": 35.73979,
-    "lng": 140.14838,
+    "lat": 35.7398021,
+    "lng": 140.1482965,
     "transfers": [],
     "address": "千葉県中学校駅",
     "facilities": {
@@ -141,8 +141,8 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "name": "井野",
     "nameKana": "いの",
     "nameEn": "Ino",
-    "lat": 35.73262,
-    "lng": 140.14865,
+    "lat": 35.7326129,
+    "lng": 140.1486219,
     "transfers": [],
     "address": "千葉県井野駅",
     "facilities": {

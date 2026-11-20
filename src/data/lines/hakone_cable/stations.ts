@@ -9,8 +9,8 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "name": "強羅",
     "nameKana": "ごうら",
     "nameEn": "Goura",
-    "lat": 35.2506,
-    "lng": 139.04762,
+    "lat": 35.2506253,
+    "lng": 139.0476066,
     "transfers": [
       "箱根登山線"
     ],
@@ -39,8 +39,8 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "name": "公園下",
     "nameKana": "こうえんしも",
     "nameEn": "Kouenshimo",
-    "lat": 35.24996,
-    "lng": 139.04568,
+    "lat": 35.2499465,
+    "lng": 139.0456871,
     "transfers": [],
     "address": "神奈川県公園下駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "name": "公園上",
     "nameKana": "こうえんかみ",
     "nameEn": "Kouenkami",
-    "lat": 35.2491,
-    "lng": 139.04323,
+    "lat": 35.2490849,
+    "lng": 139.0432379,
     "transfers": [],
     "address": "神奈川県公園上駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "name": "中強羅",
     "nameKana": "なかごうら",
     "nameEn": "Nakagoura",
-    "lat": 35.24795,
-    "lng": 139.03997,
+    "lat": 35.2479442,
+    "lng": 139.039973,
     "transfers": [],
     "address": "神奈川県中強羅駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "name": "上強羅",
     "nameKana": "かみごうら",
     "nameEn": "Kamigoura",
-    "lat": 35.24701,
-    "lng": 139.03735,
+    "lat": 35.2470205,
+    "lng": 139.0373444,
     "transfers": [],
     "address": "神奈川県上強羅駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "name": "早雲山",
     "nameKana": "そううんざん",
     "nameEn": "Souunzan",
-    "lat": 35.24631,
-    "lng": 139.03543,
+    "lat": 35.2464695,
+    "lng": 139.035766,
     "transfers": [
       "箱根ロープウェイ"
     ],

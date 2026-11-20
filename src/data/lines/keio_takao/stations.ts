@@ -9,8 +9,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "北野",
     "nameKana": "きたの",
     "nameEn": "Kitano",
-    "lat": 35.64444,
-    "lng": 139.35429,
+    "lat": 35.6443872,
+    "lng": 139.3542541,
     "transfers": [
       "京王線"
     ],
@@ -42,8 +42,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "京王片倉",
     "nameKana": "けいおうかたくら",
     "nameEn": "Keioukatakura",
-    "lat": 35.64424,
-    "lng": 139.33739,
+    "lat": 35.644242,
+    "lng": 139.3373909,
     "transfers": [],
     "address": "東京都京王片倉駅",
     "facilities": {
@@ -70,8 +70,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "山田",
     "nameKana": "やまだ",
     "nameEn": "Yamada",
-    "lat": 35.64433,
-    "lng": 139.32115,
+    "lat": 35.6443366,
+    "lng": 139.3211507,
     "transfers": [],
     "address": "東京都山田駅",
     "facilities": {
@@ -98,8 +98,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "めじろ台",
     "nameKana": "めじろだい",
     "nameEn": "Mejirodai",
-    "lat": 35.64363,
-    "lng": 139.30846,
+    "lat": 35.6436313,
+    "lng": 139.3084594,
     "transfers": [],
     "address": "東京都めじろ台駅",
     "facilities": {
@@ -128,8 +128,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "狭間",
     "nameKana": "はざま",
     "nameEn": "Hazama",
-    "lat": 35.64044,
-    "lng": 139.29434,
+    "lat": 35.6404369,
+    "lng": 139.2943393,
     "transfers": [],
     "address": "東京都狭間駅",
     "facilities": {
@@ -156,8 +156,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "高尾",
     "nameKana": "たかお",
     "nameEn": "Takao",
-    "lat": 35.64182,
-    "lng": 139.28248,
+    "lat": 35.6418299,
+    "lng": 139.2824762,
     "transfers": [
       "ＪＲ中央本線",
       "ＪＲ中央線快速"
@@ -190,8 +190,8 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "name": "高尾山口",
     "nameKana": "たかおさんぐち",
     "nameEn": "Takaosanguchi",
-    "lat": 35.63284,
-    "lng": 139.27013,
+    "lat": 35.6328629,
+    "lng": 139.2700796,
     "transfers": [],
     "address": "東京都高尾山口駅",
     "facilities": {

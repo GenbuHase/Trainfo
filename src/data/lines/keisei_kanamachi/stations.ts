@@ -9,8 +9,8 @@ export const KEISEI_KANAMACHI_STATIONS: Station[] = [
     "name": "京成高砂",
     "nameKana": "けいせいたかさご",
     "nameEn": "Keiseitakasago",
-    "lat": 35.75083,
-    "lng": 139.86572,
+    "lat": 35.7508287,
+    "lng": 139.8657204,
     "transfers": [
       "京成本線",
       "京成成田スカイアクセス線",
@@ -41,8 +41,8 @@ export const KEISEI_KANAMACHI_STATIONS: Station[] = [
     "name": "柴又",
     "nameKana": "しばまた",
     "nameEn": "Shibamata",
-    "lat": 35.75642,
-    "lng": 139.8753,
+    "lat": 35.7564557,
+    "lng": 139.8752205,
     "transfers": [],
     "address": "東京都柴又駅",
     "facilities": {
@@ -68,8 +68,8 @@ export const KEISEI_KANAMACHI_STATIONS: Station[] = [
     "name": "京成金町",
     "nameKana": "けいせいかなまち",
     "nameEn": "Keiseikanamachi",
-    "lat": 35.76875,
-    "lng": 139.87021,
+    "lat": 35.7687602,
+    "lng": 139.8702398,
     "transfers": [],
     "address": "東京都京成金町駅",
     "facilities": {

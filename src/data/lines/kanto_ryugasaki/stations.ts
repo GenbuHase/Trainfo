@@ -8,8 +8,8 @@ export const KANTO_RYUGASAKI_STATIONS: Station[] = [
     "name": "佐貫",
     "nameKana": "さぬき",
     "nameEn": "Sanuki",
-    "lat": 35.92975,
-    "lng": 140.13833,
+    "lat": 35.9297295,
+    "lng": 140.138408,
     "transfers": [],
     "address": "茨城県佐貫駅",
     "facilities": {
@@ -35,8 +35,8 @@ export const KANTO_RYUGASAKI_STATIONS: Station[] = [
     "name": "入地",
     "nameKana": "いれじ",
     "nameEn": "Ireji",
-    "lat": 35.91887,
-    "lng": 140.15759,
+    "lat": 35.9189151,
+    "lng": 140.1576207,
     "transfers": [],
     "address": "茨城県入地駅",
     "facilities": {
@@ -61,8 +61,8 @@ export const KANTO_RYUGASAKI_STATIONS: Station[] = [
     "name": "竜ケ崎",
     "nameKana": "りゅうがさき",
     "nameEn": "Ryuugasaki",
-    "lat": 35.90843,
-    "lng": 140.17926,
+    "lat": 35.9085276,
+    "lng": 140.1792383,
     "transfers": [],
     "address": "茨城県竜ケ崎駅",
     "facilities": {

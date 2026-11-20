@@ -9,8 +9,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "鎌倉",
     "nameKana": "かまくら",
     "nameEn": "Kamakura",
-    "lat": 35.3181,
-    "lng": 139.55009,
+    "lat": 35.3180973,
+    "lng": 139.5500633,
     "transfers": [
       "ＪＲ横須賀線"
     ],
@@ -39,8 +39,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "和田塚",
     "nameKana": "わだづか",
     "nameEn": "Wadazuka",
-    "lat": 35.31371,
-    "lng": 139.54524,
+    "lat": 35.3136953,
+    "lng": 139.5452448,
     "transfers": [],
     "address": "神奈川県和田塚駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "由比ケ浜",
     "nameKana": "ゆいがはま",
     "nameEn": "Yuigahama",
-    "lat": 35.31281,
-    "lng": 139.54131,
+    "lat": 35.3127944,
+    "lng": 139.5413154,
     "transfers": [],
     "address": "神奈川県由比ケ浜駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "長谷",
     "nameKana": "はせ",
     "nameEn": "Hase",
-    "lat": 35.31125,
-    "lng": 139.53598,
+    "lat": 35.3112468,
+    "lng": 139.5359813,
     "transfers": [],
     "address": "神奈川県長谷駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "極楽寺",
     "nameKana": "ごくらくじ",
     "nameEn": "Gokurakuji",
-    "lat": 35.30904,
-    "lng": 139.52832,
+    "lat": 35.3089964,
+    "lng": 139.5283892,
     "transfers": [],
     "address": "神奈川県極楽寺駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "稲村ケ崎",
     "nameKana": "いなむらがさき",
     "nameEn": "Inamuragasaki",
-    "lat": 35.30432,
-    "lng": 139.52199,
+    "lat": 35.3043286,
+    "lng": 139.5219888,
     "transfers": [],
     "address": "神奈川県稲村ケ崎駅",
     "facilities": {
@@ -174,8 +174,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "七里ケ浜",
     "nameKana": "しちりがはま",
     "nameEn": "Shichirigahama",
-    "lat": 35.30631,
-    "lng": 139.5101,
+    "lat": 35.3062615,
+    "lng": 139.5101272,
     "transfers": [],
     "address": "神奈川県七里ケ浜駅",
     "facilities": {
@@ -201,8 +201,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "鎌倉高校前",
     "nameKana": "かまくらこうこうまえ",
     "nameEn": "Kamakurakoukoumae",
-    "lat": 35.30677,
-    "lng": 139.50023,
+    "lat": 35.3067048,
+    "lng": 139.500227,
     "transfers": [],
     "address": "神奈川県鎌倉高校前駅",
     "facilities": {
@@ -228,8 +228,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "腰越",
     "nameKana": "こしごえ",
     "nameEn": "Koshigoe",
-    "lat": 35.30845,
-    "lng": 139.49312,
+    "lat": 35.3084012,
+    "lng": 139.493094,
     "transfers": [],
     "address": "神奈川県腰越駅",
     "facilities": {
@@ -255,8 +255,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "江ノ島",
     "nameKana": "えのしま",
     "nameEn": "Enoshima",
-    "lat": 35.31113,
-    "lng": 139.48738,
+    "lat": 35.3111467,
+    "lng": 139.4873937,
     "transfers": [],
     "address": "神奈川県江ノ島駅",
     "facilities": {
@@ -282,8 +282,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "湘南海岸公園",
     "nameKana": "しょうなんかいがんこうえん",
     "nameEn": "Shounankaigankouen",
-    "lat": 35.31534,
-    "lng": 139.48312,
+    "lat": 35.3153176,
+    "lng": 139.4831023,
     "transfers": [],
     "address": "神奈川県湘南海岸公園駅",
     "facilities": {
@@ -309,8 +309,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "鵠沼",
     "nameKana": "くげぬま",
     "nameEn": "Kugenuma",
-    "lat": 35.32164,
-    "lng": 139.48278,
+    "lat": 35.3216398,
+    "lng": 139.4827811,
     "transfers": [],
     "address": "神奈川県鵠沼駅",
     "facilities": {
@@ -337,7 +337,7 @@ export const ENODEN_STATIONS: Station[] = [
     "nameKana": "やなぎこうじ",
     "nameEn": "Yanagikouji",
     "lat": 35.32706,
-    "lng": 139.48522,
+    "lng": 139.4852208,
     "transfers": [],
     "address": "神奈川県柳小路駅",
     "facilities": {
@@ -363,8 +363,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "石上",
     "nameKana": "いしがみ",
     "nameEn": "Ishigami",
-    "lat": 35.33215,
-    "lng": 139.48551,
+    "lat": 35.3321514,
+    "lng": 139.4855023,
     "transfers": [],
     "address": "神奈川県石上駅",
     "facilities": {
@@ -390,8 +390,8 @@ export const ENODEN_STATIONS: Station[] = [
     "name": "藤沢",
     "nameKana": "ふじさわ",
     "nameEn": "Fujisawa",
-    "lat": 35.33721,
-    "lng": 139.48725,
+    "lat": 35.3372129,
+    "lng": 139.4872405,
     "transfers": [
       "ＪＲ東海道本線",
       "小田急江ノ島線"

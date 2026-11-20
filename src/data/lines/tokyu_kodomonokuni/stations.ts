@@ -9,8 +9,8 @@ export const TOKYU_KODOMONOKUNI_STATIONS: Station[] = [
     "name": "長津田",
     "nameKana": "ながつた",
     "nameEn": "Nagatsuta",
-    "lat": 35.53201,
-    "lng": 139.49284,
+    "lat": 35.532036,
+    "lng": 139.4928431,
     "transfers": [
       "ＪＲ横浜線",
       "東急田園都市線"
@@ -40,8 +40,8 @@ export const TOKYU_KODOMONOKUNI_STATIONS: Station[] = [
     "name": "恩田",
     "nameKana": "おんだ",
     "nameEn": "Onda",
-    "lat": 35.54554,
-    "lng": 139.49222,
+    "lat": 35.5455769,
+    "lng": 139.492274,
     "transfers": [],
     "address": "神奈川県恩田駅",
     "facilities": {
@@ -67,8 +67,8 @@ export const TOKYU_KODOMONOKUNI_STATIONS: Station[] = [
     "name": "こどもの国",
     "nameKana": "こどものくに",
     "nameEn": "Kodomonokuni",
-    "lat": 35.55839,
-    "lng": 139.48656,
+    "lat": 35.5583809,
+    "lng": 139.4864927,
     "transfers": [],
     "address": "神奈川県こどもの国駅",
     "facilities": {

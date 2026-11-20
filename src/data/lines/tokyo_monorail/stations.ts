@@ -9,8 +9,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "浜松町",
     "nameKana": "はままつちょう",
     "nameEn": "Hamamatsuchou",
-    "lat": 35.65635,
-    "lng": 139.75673,
+    "lat": 35.6560794,
+    "lng": 139.7569159,
     "transfers": [
       "ＪＲ山手線外回り",
       "ＪＲ山手線内回り",
@@ -43,8 +43,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "天王洲アイル",
     "nameKana": "てんのうずあいる",
     "nameEn": "Tennouzuairu",
-    "lat": 35.62246,
-    "lng": 139.75116,
+    "lat": 35.6224053,
+    "lng": 139.7510336,
     "transfers": [
       "東京臨海高速鉄道りんかい線"
     ],
@@ -74,8 +74,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "大井競馬場前",
     "nameKana": "おおいけいばじょうまえ",
     "nameEn": "Ooikeibajoumae",
-    "lat": 35.59555,
-    "lng": 139.74724,
+    "lat": 35.5955558,
+    "lng": 139.7470962,
     "transfers": [],
     "address": "東京都大井競馬場前駅",
     "facilities": {
@@ -102,8 +102,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "流通センター",
     "nameKana": "りゅうつうせんたー",
     "nameEn": "Ryuutsuusenta",
-    "lat": 35.58188,
-    "lng": 139.749,
+    "lat": 35.5818956,
+    "lng": 139.7490536,
     "transfers": [],
     "address": "東京都流通センター駅",
     "facilities": {
@@ -130,8 +130,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "昭和島",
     "nameKana": "しょうわじま",
     "nameEn": "Shouwajima",
-    "lat": 35.57077,
-    "lng": 139.74995,
+    "lat": 35.5707622,
+    "lng": 139.7499971,
     "transfers": [],
     "address": "東京都昭和島駅",
     "facilities": {
@@ -157,8 +157,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "整備場",
     "nameKana": "せいびじょう",
     "nameEn": "Seibijou",
-    "lat": 35.55554,
-    "lng": 139.75336,
+    "lat": 35.5555398,
+    "lng": 139.7533828,
     "transfers": [],
     "address": "東京都整備場駅",
     "facilities": {
@@ -184,8 +184,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "天空橋",
     "nameKana": "てんくうばし",
     "nameEn": "Tenkuubashi",
-    "lat": 35.54918,
-    "lng": 139.75429,
+    "lat": 35.5491881,
+    "lng": 139.7543247,
     "transfers": [
       "京急空港線"
     ],
@@ -214,8 +214,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "羽田空港第３ターミナル",
     "nameKana": "はねだくうこうだいさんたーみなる",
     "nameEn": "Hanedakuukoudaisantaminaru",
-    "lat": 35.544127,
-    "lng": 139.768452,
+    "lat": 35.5441362,
+    "lng": 139.7684677,
     "transfers": [],
     "address": "東京都羽田空港第３ターミナル駅",
     "facilities": {
@@ -243,8 +243,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "新整備場",
     "nameKana": "しんせいびじょう",
     "nameEn": "Shinseibijou",
-    "lat": 35.54265,
-    "lng": 139.78674,
+    "lat": 35.5426583,
+    "lng": 139.7867181,
     "transfers": [],
     "address": "東京都新整備場駅",
     "facilities": {
@@ -270,8 +270,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "羽田空港第１ターミナル",
     "nameKana": "はねだくうこうだいいちたーみなる",
     "nameEn": "Hanedakuukoudaiichitaminaru",
-    "lat": 35.54925,
-    "lng": 139.78454,
+    "lat": 35.5492159,
+    "lng": 139.7844598,
     "transfers": [],
     "address": "東京都羽田空港第１ターミナル駅",
     "facilities": {
@@ -299,8 +299,8 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "name": "羽田空港第２ターミナル",
     "nameKana": "はねだくうこうだいにたーみなる",
     "nameEn": "Hanedakuukoudainitaminaru",
-    "lat": 35.55016,
-    "lng": 139.78862,
+    "lat": 35.5504731,
+    "lng": 139.7884883,
     "transfers": [],
     "address": "東京都羽田空港第２ターミナル駅",
     "facilities": {

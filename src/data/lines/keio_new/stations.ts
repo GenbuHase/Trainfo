@@ -9,8 +9,8 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.6895,
-    "lng": 139.69925,
+    "lat": 35.6895077,
+    "lng": 139.6993171,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ埼京線",
@@ -48,8 +48,8 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "name": "初台",
     "nameKana": "はつだい",
     "nameEn": "Hatsudai",
-    "lat": 35.68114,
-    "lng": 139.68792,
+    "lat": 35.6812907,
+    "lng": 139.6877348,
     "transfers": [],
     "address": "東京都初台駅",
     "facilities": {
@@ -75,8 +75,8 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "name": "幡ケ谷",
     "nameKana": "はたがや",
     "nameEn": "Hatagaya",
-    "lat": 35.67662,
-    "lng": 139.67723,
+    "lat": 35.6768566,
+    "lng": 139.6771453,
     "transfers": [],
     "address": "東京都幡ケ谷駅",
     "facilities": {
@@ -102,8 +102,8 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "name": "笹塚",
     "nameKana": "ささづか",
     "nameEn": "Sasazuka",
-    "lat": 35.67344,
-    "lng": 139.66646,
+    "lat": 35.6733099,
+    "lng": 139.6665249,
     "transfers": [
       "京王線"
     ],

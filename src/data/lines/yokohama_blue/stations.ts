@@ -9,8 +9,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "湘南台",
     "nameKana": "しょうなんだい",
     "nameEn": "Shounandai",
-    "lat": 35.39646,
-    "lng": 139.46704,
+    "lat": 35.3964229,
+    "lng": 139.4670523,
     "transfers": [
       "小田急江ノ島線",
       "相鉄いずみ野線"
@@ -41,8 +41,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "下飯田",
     "nameKana": "しもいいだ",
     "nameEn": "Shimoiida",
-    "lat": 35.40351,
-    "lng": 139.48326,
+    "lat": 35.4034519,
+    "lng": 139.4832912,
     "transfers": [],
     "address": "神奈川県下飯田駅",
     "facilities": {
@@ -69,8 +69,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "立場",
     "nameKana": "たてば",
     "nameEn": "Tateba",
-    "lat": 35.41429,
-    "lng": 139.50005,
+    "lat": 35.4142089,
+    "lng": 139.5000712,
     "transfers": [],
     "address": "神奈川県立場駅",
     "facilities": {
@@ -97,8 +97,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "中田",
     "nameKana": "なかだ",
     "nameEn": "Nakada",
-    "lat": 35.41143,
-    "lng": 139.51066,
+    "lat": 35.4114065,
+    "lng": 139.5106446,
     "transfers": [],
     "address": "神奈川県中田駅",
     "facilities": {
@@ -125,8 +125,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "踊場",
     "nameKana": "おどりば",
     "nameEn": "Odoriba",
-    "lat": 35.40532,
-    "lng": 139.5189,
+    "lat": 35.4053375,
+    "lng": 139.5189186,
     "transfers": [],
     "address": "神奈川県踊場駅",
     "facilities": {
@@ -153,8 +153,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "戸塚",
     "nameKana": "とつか",
     "nameEn": "Totsuka",
-    "lat": 35.40108,
-    "lng": 139.53474,
+    "lat": 35.4010095,
+    "lng": 139.5347506,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ横須賀線",
@@ -186,8 +186,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "舞岡",
     "nameKana": "まいおか",
     "nameEn": "Maioka",
-    "lat": 35.40238,
-    "lng": 139.55052,
+    "lat": 35.4024419,
+    "lng": 139.5505026,
     "transfers": [],
     "address": "神奈川県舞岡駅",
     "facilities": {
@@ -213,8 +213,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "下永谷",
     "nameKana": "しもながや",
     "nameEn": "Shimonagaya",
-    "lat": 35.40291,
-    "lng": 139.5584,
+    "lat": 35.4027503,
+    "lng": 139.5583529,
     "transfers": [],
     "address": "神奈川県下永谷駅",
     "facilities": {
@@ -240,8 +240,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "上永谷",
     "nameKana": "かみながや",
     "nameEn": "Kaminagaya",
-    "lat": 35.4017,
-    "lng": 139.57221,
+    "lat": 35.4016479,
+    "lng": 139.572165,
     "transfers": [],
     "address": "神奈川県上永谷駅",
     "facilities": {
@@ -268,8 +268,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "港南中央",
     "nameKana": "こうなんちゅうおう",
     "nameEn": "Kounanchuuou",
-    "lat": 35.40093,
-    "lng": 139.59049,
+    "lat": 35.4009058,
+    "lng": 139.5905056,
     "transfers": [],
     "address": "神奈川県港南中央駅",
     "facilities": {
@@ -295,8 +295,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "上大岡",
     "nameKana": "かみおおおか",
     "nameEn": "Kamioooka",
-    "lat": 35.40854,
-    "lng": 139.59595,
+    "lat": 35.408536,
+    "lng": 139.5959832,
     "transfers": [
       "京急本線"
     ],
@@ -326,8 +326,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "弘明寺",
     "nameKana": "ぐみょうじ",
     "nameEn": "Gumyouji",
-    "lat": 35.42276,
-    "lng": 139.60189,
+    "lat": 35.4227538,
+    "lng": 139.6019162,
     "transfers": [],
     "address": "神奈川県弘明寺駅",
     "facilities": {
@@ -353,8 +353,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "蒔田",
     "nameKana": "まいた",
     "nameEn": "Maita",
-    "lat": 35.42988,
-    "lng": 139.60993,
+    "lat": 35.429861,
+    "lng": 139.6099493,
     "transfers": [],
     "address": "神奈川県蒔田駅",
     "facilities": {
@@ -380,8 +380,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "吉野町",
     "nameKana": "よしのちょう",
     "nameEn": "Yoshinochou",
-    "lat": 35.43544,
-    "lng": 139.61876,
+    "lat": 35.4354192,
+    "lng": 139.6187681,
     "transfers": [],
     "address": "神奈川県吉野町駅",
     "facilities": {
@@ -407,8 +407,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "阪東橋",
     "nameKana": "ばんどうばし",
     "nameEn": "Bandoubashi",
-    "lat": 35.43738,
-    "lng": 139.62463,
+    "lat": 35.437362,
+    "lng": 139.6246424,
     "transfers": [],
     "address": "神奈川県阪東橋駅",
     "facilities": {
@@ -434,8 +434,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "伊勢佐木長者町",
     "nameKana": "いせざきちょうじゃまち",
     "nameEn": "Isezakichoujamachi",
-    "lat": 35.44103,
-    "lng": 139.63285,
+    "lat": 35.4410086,
+    "lng": 139.6328657,
     "transfers": [],
     "address": "神奈川県伊勢佐木長者町駅",
     "facilities": {
@@ -461,8 +461,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "関内",
     "nameKana": "かんない",
     "nameEn": "Kannai",
-    "lat": 35.44617,
-    "lng": 139.63531,
+    "lat": 35.4461971,
+    "lng": 139.635333,
     "transfers": [
       "ＪＲ根岸線"
     ],
@@ -492,8 +492,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "桜木町",
     "nameKana": "さくらぎちょう",
     "nameEn": "Sakuragichou",
-    "lat": 35.44964,
-    "lng": 139.63074,
+    "lat": 35.4496776,
+    "lng": 139.6308102,
     "transfers": [
       "ＪＲ根岸線"
     ],
@@ -523,8 +523,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "高島町",
     "nameKana": "たかしまちょう",
     "nameEn": "Takashimachou",
-    "lat": 35.45929,
-    "lng": 139.62316,
+    "lat": 35.4593297,
+    "lng": 139.6232406,
     "transfers": [],
     "address": "神奈川県高島町駅",
     "facilities": {
@@ -550,8 +550,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "横浜",
     "nameKana": "よこはま",
     "nameEn": "Yokohama",
-    "lat": 35.46542,
-    "lng": 139.62015,
+    "lat": 35.4654297,
+    "lng": 139.6201817,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ京浜東北線",
@@ -590,8 +590,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "三ツ沢下町",
     "nameKana": "みつざわしもちょう",
     "nameEn": "Mitsuzawashimochou",
-    "lat": 35.47646,
-    "lng": 139.6143,
+    "lat": 35.4764848,
+    "lng": 139.6142994,
     "transfers": [],
     "address": "神奈川県三ツ沢下町駅",
     "facilities": {
@@ -617,8 +617,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "三ツ沢上町",
     "nameKana": "みつざわかみちょう",
     "nameEn": "Mitsuzawakamichou",
-    "lat": 35.47642,
-    "lng": 139.60568,
+    "lat": 35.4764393,
+    "lng": 139.6056797,
     "transfers": [],
     "address": "神奈川県三ツ沢上町駅",
     "facilities": {
@@ -644,8 +644,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "片倉町",
     "nameKana": "かたくらちょう",
     "nameEn": "Katakurachou",
-    "lat": 35.49053,
-    "lng": 139.60686,
+    "lat": 35.4905202,
+    "lng": 139.6068785,
     "transfers": [],
     "address": "神奈川県片倉町駅",
     "facilities": {
@@ -671,8 +671,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "岸根公園",
     "nameKana": "きしねこうえん",
     "nameEn": "Kishinekouen",
-    "lat": 35.49598,
-    "lng": 139.61678,
+    "lat": 35.4959779,
+    "lng": 139.6167875,
     "transfers": [],
     "address": "神奈川県岸根公園駅",
     "facilities": {
@@ -698,8 +698,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "新横浜",
     "nameKana": "しんよこはま",
     "nameEn": "Shinyokohama",
-    "lat": 35.50931,
-    "lng": 139.61696,
+    "lat": 35.5093045,
+    "lng": 139.6169521,
     "transfers": [
       "ＪＲ東海道新幹線",
       "ＪＲ横浜線",
@@ -732,8 +732,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "北新横浜",
     "nameKana": "きたしんよこはま",
     "nameEn": "Kitashinyokohama",
-    "lat": 35.51953,
-    "lng": 139.61283,
+    "lat": 35.5195308,
+    "lng": 139.6128474,
     "transfers": [],
     "address": "神奈川県北新横浜駅",
     "facilities": {
@@ -759,8 +759,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "新羽",
     "nameKana": "にっぱ",
     "nameEn": "Nippa",
-    "lat": 35.52713,
-    "lng": 139.61208,
+    "lat": 35.5271434,
+    "lng": 139.612188,
     "transfers": [],
     "address": "神奈川県新羽駅",
     "facilities": {
@@ -787,8 +787,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "仲町台",
     "nameKana": "なかまちだい",
     "nameEn": "Nakamachidai",
-    "lat": 35.53514,
-    "lng": 139.59027,
+    "lat": 35.535169,
+    "lng": 139.5902789,
     "transfers": [],
     "address": "神奈川県仲町台駅",
     "facilities": {
@@ -815,8 +815,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "センター南",
     "nameKana": "せんたーみなみ",
     "nameEn": "Sentaminami",
-    "lat": 35.54483,
-    "lng": 139.57404,
+    "lat": 35.5448224,
+    "lng": 139.5740636,
     "transfers": [
       "横浜市営地下鉄グリーンライン"
     ],
@@ -846,8 +846,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "センター北",
     "nameKana": "せんたーきた",
     "nameEn": "Sentakita",
-    "lat": 35.55247,
-    "lng": 139.57785,
+    "lat": 35.5524601,
+    "lng": 139.5778804,
     "transfers": [
       "横浜市営地下鉄グリーンライン"
     ],
@@ -877,8 +877,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "中川",
     "nameKana": "なかがわ",
     "nameEn": "Nakagawa",
-    "lat": 35.56274,
-    "lng": 139.57024,
+    "lat": 35.562738,
+    "lng": 139.570238,
     "transfers": [],
     "address": "神奈川県中川駅",
     "facilities": {
@@ -905,8 +905,8 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "name": "あざみ野",
     "nameKana": "あざみの",
     "nameEn": "Azamino",
-    "lat": 35.56786,
-    "lng": 139.55477,
+    "lat": 35.5678836,
+    "lng": 139.5547769,
     "transfers": [
       "東急田園都市線"
     ],

@@ -9,8 +9,8 @@ export const KEIO_DOBUTSUEN_STATIONS: Station[] = [
     "name": "高幡不動",
     "nameKana": "たかはたふどう",
     "nameEn": "Takahatafudou",
-    "lat": 35.66267,
-    "lng": 139.41223,
+    "lat": 35.6625539,
+    "lng": 139.4122024,
     "transfers": [
       "京王線",
       "多摩モノレール"
@@ -40,8 +40,8 @@ export const KEIO_DOBUTSUEN_STATIONS: Station[] = [
     "name": "多摩動物公園",
     "nameKana": "たまどうぶつこうえん",
     "nameEn": "Tamadoubutsukouen",
-    "lat": 35.64987,
-    "lng": 139.40608,
+    "lat": 35.6498845,
+    "lng": 139.4060678,
     "transfers": [
       "多摩モノレール"
     ],

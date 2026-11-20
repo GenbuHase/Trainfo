@@ -9,8 +9,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "京成高砂",
     "nameKana": "けいせいたかさご",
     "nameEn": "Keiseitakasago",
-    "lat": 35.75083,
-    "lng": 139.86572,
+    "lat": 35.7508287,
+    "lng": 139.8657204,
     "transfers": [
       "京成本線",
       "京成金町線",
@@ -43,8 +43,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "東松戸",
     "nameKana": "ひがしまつど",
     "nameEn": "Higashimatsudo",
-    "lat": 35.76955,
-    "lng": 139.94232,
+    "lat": 35.7695398,
+    "lng": 139.9423287,
     "transfers": [
       "ＪＲ武蔵野線",
       "北総鉄道北総線"
@@ -76,8 +76,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "新鎌ケ谷",
     "nameKana": "しんかまがや",
     "nameEn": "Shinkamagaya",
-    "lat": 35.77989,
-    "lng": 139.99932,
+    "lat": 35.7797903,
+    "lng": 139.9993664,
     "transfers": [
       "東武アーバンパークライン",
       "京成松戸線",
@@ -111,8 +111,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "千葉ニュータウン中央",
     "nameKana": "ちばにゅーたうんちゅうおう",
     "nameEn": "Chibanyutaunchuuou",
-    "lat": 35.80037,
-    "lng": 140.11676,
+    "lat": 35.8003781,
+    "lng": 140.1167562,
     "transfers": [
       "北総鉄道北総線"
     ],
@@ -143,8 +143,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "印旛日本医大",
     "nameKana": "いんばにほんいだい",
     "nameEn": "Imbanihonidai",
-    "lat": 35.78791,
-    "lng": 140.20248,
+    "lat": 35.78792,
+    "lng": 140.2024841,
     "transfers": [
       "北総鉄道北総線"
     ],
@@ -175,8 +175,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "成田湯川",
     "nameKana": "なりたゆかわ",
     "nameEn": "Naritayukawa",
-    "lat": 35.799543,
-    "lng": 140.290659,
+    "lat": 35.7995626,
+    "lng": 140.2906585,
     "transfers": [],
     "address": "千葉県成田湯川駅",
     "facilities": {
@@ -204,8 +204,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "空港第２ビル",
     "nameKana": "くうこうだいにびる",
     "nameEn": "Kuukoudainibiru",
-    "lat": 35.77414,
-    "lng": 140.38676,
+    "lat": 35.7741127,
+    "lng": 140.386701,
     "transfers": [
       "ＪＲ成田線",
       "京成本線"
@@ -238,8 +238,8 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "name": "成田空港",
     "nameKana": "なりたくうこう",
     "nameEn": "Naritakuukou",
-    "lat": 35.76693,
-    "lng": 140.3871,
+    "lat": 35.7669541,
+    "lng": 140.3870463,
     "transfers": [
       "ＪＲ成田線",
       "京成本線"

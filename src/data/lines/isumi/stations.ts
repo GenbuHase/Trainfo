@@ -8,8 +8,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "大原",
     "nameKana": "おおはら",
     "nameEn": "Oohara",
-    "lat": 35.25052,
-    "lng": 140.39105,
+    "lat": 35.2505195,
+    "lng": 140.391023,
     "transfers": [
       "ＪＲ外房線"
     ],
@@ -37,8 +37,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "西大原",
     "nameKana": "にしおおはら",
     "nameEn": "Nishioohara",
-    "lat": 35.26052,
-    "lng": 140.37756,
+    "lat": 35.2604833,
+    "lng": 140.3775626,
     "transfers": [],
     "address": "千葉県西大原駅",
     "facilities": {
@@ -63,8 +63,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "上総東",
     "nameKana": "かずさあずま",
     "nameEn": "Kazusaazuma",
-    "lat": 35.26325,
-    "lng": 140.3445,
+    "lat": 35.2632913,
+    "lng": 140.3444974,
     "transfers": [],
     "address": "千葉県上総東駅",
     "facilities": {
@@ -89,8 +89,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "新田野",
     "nameKana": "にったの",
     "nameEn": "Nittano",
-    "lat": 35.27625,
-    "lng": 140.32828,
+    "lat": 35.2762684,
+    "lng": 140.328309,
     "transfers": [],
     "address": "千葉県新田野駅",
     "facilities": {
@@ -115,8 +115,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "国吉",
     "nameKana": "くによし",
     "nameEn": "Kuniyoshi",
-    "lat": 35.28046,
-    "lng": 140.3133,
+    "lat": 35.2804767,
+    "lng": 140.3133004,
     "transfers": [],
     "address": "千葉県国吉駅",
     "facilities": {
@@ -141,8 +141,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "上総中川",
     "nameKana": "かずさなかがわ",
     "nameEn": "Kazusanakagawa",
-    "lat": 35.28272,
-    "lng": 140.28015,
+    "lat": 35.2827707,
+    "lng": 140.2801629,
     "transfers": [],
     "address": "千葉県上総中川駅",
     "facilities": {
@@ -167,8 +167,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "城見ケ丘",
     "nameKana": "しろみがおか",
     "nameEn": "Shiromigaoka",
-    "lat": 35.29175,
-    "lng": 140.25289,
+    "lat": 35.2917701,
+    "lng": 140.2528874,
     "transfers": [],
     "address": "千葉県城見ケ丘駅",
     "facilities": {
@@ -193,8 +193,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "大多喜",
     "nameKana": "おおたき",
     "nameEn": "Ootaki",
-    "lat": 35.28688,
-    "lng": 140.2439,
+    "lat": 35.2868803,
+    "lng": 140.2438972,
     "transfers": [],
     "address": "千葉県大多喜駅",
     "facilities": {
@@ -219,8 +219,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "小谷松",
     "nameKana": "こやまつ",
     "nameEn": "Koyamatsu",
-    "lat": 35.26918,
-    "lng": 140.25071,
+    "lat": 35.2691581,
+    "lng": 140.2506912,
     "transfers": [],
     "address": "千葉県小谷松駅",
     "facilities": {
@@ -245,8 +245,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "東総元",
     "nameKana": "ひがしふさもと",
     "nameEn": "Higashifusamoto",
-    "lat": 35.2596,
-    "lng": 140.24799,
+    "lat": 35.2595038,
+    "lng": 140.2480485,
     "transfers": [],
     "address": "千葉県東総元駅",
     "facilities": {
@@ -271,8 +271,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "久我原",
     "nameKana": "くがはら",
     "nameEn": "Kugahara",
-    "lat": 35.24991,
-    "lng": 140.24788,
+    "lat": 35.2499576,
+    "lng": 140.2479657,
     "transfers": [],
     "address": "千葉県久我原駅",
     "facilities": {
@@ -297,8 +297,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "総元",
     "nameKana": "ふさもと",
     "nameEn": "Fusamoto",
-    "lat": 35.24059,
-    "lng": 140.24078,
+    "lat": 35.2405638,
+    "lng": 140.2407814,
     "transfers": [],
     "address": "千葉県総元駅",
     "facilities": {
@@ -323,8 +323,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "西畑",
     "nameKana": "にしはた",
     "nameEn": "Nishihata",
-    "lat": 35.25054,
-    "lng": 140.2152,
+    "lat": 35.2506172,
+    "lng": 140.2151543,
     "transfers": [],
     "address": "千葉県西畑駅",
     "facilities": {
@@ -349,8 +349,8 @@ export const ISUMI_STATIONS: Station[] = [
     "name": "上総中野",
     "nameKana": "かずさなかの",
     "nameEn": "Kazusanakano",
-    "lat": 35.25022,
-    "lng": 140.19921,
+    "lat": 35.2501221,
+    "lng": 140.1993991,
     "transfers": [
       "小湊鉄道"
     ],

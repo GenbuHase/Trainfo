@@ -9,8 +9,8 @@ export const SEIBU_YAMAGUCHI_STATIONS: Station[] = [
     "name": "多摩湖",
     "nameKana": "たまこ",
     "nameEn": "Tamako",
-    "lat": 35.76646,
-    "lng": 139.44255,
+    "lat": 35.7664646,
+    "lng": 139.4425799,
     "transfers": [
       "西武多摩湖線"
     ],
@@ -39,8 +39,8 @@ export const SEIBU_YAMAGUCHI_STATIONS: Station[] = [
     "name": "西武園ゆうえんち",
     "nameKana": "せいぶえんゆうえんち",
     "nameEn": "Seibuenyuuenchi",
-    "lat": 35.7693,
-    "lng": 139.44001,
+    "lat": 35.7692752,
+    "lng": 139.4399697,
     "transfers": [],
     "address": "埼玉県西武園ゆうえんち駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const SEIBU_YAMAGUCHI_STATIONS: Station[] = [
     "name": "西武球場前",
     "nameKana": "せいぶきゅうじょうまえ",
     "nameEn": "Seibukyuujoumae",
-    "lat": 35.77047,
-    "lng": 139.41994,
+    "lat": 35.7705036,
+    "lng": 139.4198787,
     "transfers": [
       "西武狭山線"
     ],

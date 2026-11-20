@@ -8,8 +8,8 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "name": "岡谷",
     "nameKana": "おかや",
     "nameEn": "Okaya",
-    "lat": 36.056577,
-    "lng": 138.044758,
+    "lat": 36.0566113,
+    "lng": 138.0447329,
     "transfers": [
       "ＪＲ中央本線"
     ],
@@ -38,8 +38,8 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "name": "川岸",
     "nameKana": "かわぎし",
     "nameEn": "Kawagishi",
-    "lat": 36.03287,
-    "lng": 138.0219,
+    "lat": 36.0329144,
+    "lng": 138.0217666,
     "transfers": [
       "ＪＲ中央本線"
     ],
@@ -67,8 +67,8 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "name": "辰野",
     "nameKana": "たつの",
     "nameEn": "Tatsuno",
-    "lat": 35.98394,
-    "lng": 137.99601,
+    "lat": 35.9839025,
+    "lng": 137.9960386,
     "transfers": [
       "ＪＲ中央本線",
       "ＪＲ飯田線"
@@ -98,8 +98,8 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "name": "信濃川島",
     "nameKana": "しなのかわしま",
     "nameEn": "Shinano-Kawashima",
-    "lat": 36.01389,
-    "lng": 137.97173,
+    "lat": 36.0138585,
+    "lng": 137.971662,
     "transfers": [
       "ＪＲ中央本線"
     ],
@@ -126,8 +126,8 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "name": "小野",
     "nameKana": "おの",
     "nameEn": "Ono",
-    "lat": 36.04799,
-    "lng": 137.97081,
+    "lat": 36.0479899,
+    "lng": 137.9708186,
     "transfers": [
       "ＪＲ中央本線"
     ],
@@ -154,8 +154,8 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "name": "塩尻",
     "nameKana": "しおじり",
     "nameEn": "Shiojiri",
-    "lat": 36.1144795,
-    "lng": 137.9475995,
+    "lat": 36.1144691,
+    "lng": 137.9479055,
     "transfers": [
       "ＪＲ中央本線",
       "ＪＲ篠ノ井線"

@@ -8,8 +8,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "軽井沢",
     "nameKana": "かるいざわ",
     "nameEn": "Karuizawa",
-    "lat": 36.34286,
-    "lng": 138.63542,
+    "lat": 36.3427861,
+    "lng": 138.6352303,
     "transfers": [
       "ＪＲ北陸新幹線"
     ],
@@ -38,8 +38,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "中軽井沢",
     "nameKana": "なかかるいざわ",
     "nameEn": "Naka-Karuizawa",
-    "lat": 36.34763,
-    "lng": 138.59332,
+    "lat": 36.3475608,
+    "lng": 138.5933145,
     "transfers": [],
     "address": "長野県中軽井沢駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "信濃追分",
     "nameKana": "しなのおいわけ",
     "nameEn": "Shinano-Oiwake",
-    "lat": 36.33483,
-    "lng": 138.55719,
+    "lat": 36.3348466,
+    "lng": 138.5571773,
     "transfers": [],
     "address": "長野県信濃追分駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "御代田",
     "nameKana": "みよた",
     "nameEn": "Miyota",
-    "lat": 36.31919,
-    "lng": 138.50466,
+    "lat": 36.3191751,
+    "lng": 138.5046579,
     "transfers": [],
     "address": "長野県御代田駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "平原",
     "nameKana": "ひらはら",
     "nameEn": "Hirahara",
-    "lat": 36.30848,
-    "lng": 138.45262,
+    "lat": 36.3084531,
+    "lng": 138.4526231,
     "transfers": [],
     "address": "長野県平原駅",
     "facilities": {
@@ -146,8 +146,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "小諸",
     "nameKana": "こもろ",
     "nameEn": "Komoro",
-    "lat": 36.32608,
-    "lng": 138.42241,
+    "lat": 36.3260594,
+    "lng": 138.4223808,
     "transfers": [
       "ＪＲ小海線"
     ],
@@ -177,8 +177,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "滋野",
     "nameKana": "しげの",
     "nameEn": "Shigeno",
-    "lat": 36.34246,
-    "lng": 138.36356,
+    "lat": 36.3424243,
+    "lng": 138.3635401,
     "transfers": [],
     "address": "長野県滋野駅",
     "facilities": {
@@ -204,8 +204,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "田中",
     "nameKana": "たなか",
     "nameEn": "Tanaka",
-    "lat": 36.35509,
-    "lng": 138.32805,
+    "lat": 36.355073,
+    "lng": 138.3280333,
     "transfers": [],
     "address": "長野県田中駅",
     "facilities": {
@@ -232,8 +232,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "大屋",
     "nameKana": "おおや",
     "nameEn": "Oya",
-    "lat": 36.37014,
-    "lng": 138.29555,
+    "lat": 36.3700788,
+    "lng": 138.2955235,
     "transfers": [],
     "address": "長野県大屋駅",
     "facilities": {
@@ -260,8 +260,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "信濃国分寺",
     "nameKana": "しなのこくぶんじ",
     "nameEn": "Shinano-Kokubunji",
-    "lat": 36.37783,
-    "lng": 138.27471,
+    "lat": 36.3778276,
+    "lng": 138.2747079,
     "transfers": [],
     "address": "長野県信濃国分寺駅",
     "facilities": {
@@ -287,8 +287,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "上田",
     "nameKana": "うえだ",
     "nameEn": "Ueda",
-    "lat": 36.39575,
-    "lng": 138.25026,
+    "lat": 36.3956875,
+    "lng": 138.250175,
     "transfers": [
       "ＪＲ北陸新幹線",
       "上田電鉄別所線"
@@ -319,8 +319,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "西上田",
     "nameKana": "にしうえだ",
     "nameEn": "Nishi-Ueda",
-    "lat": 36.41726,
-    "lng": 138.20804,
+    "lat": 36.4172501,
+    "lng": 138.2080342,
     "transfers": [],
     "address": "長野県西上田駅",
     "facilities": {
@@ -345,8 +345,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "テクノさかき",
     "nameKana": "てくのさかき",
     "nameEn": "Tekuno-Sakaki",
-    "lat": 36.43996,
-    "lng": 138.18833,
+    "lat": 36.439961,
+    "lng": 138.1883378,
     "transfers": [],
     "address": "長野県テクノさかき駅",
     "facilities": {
@@ -371,8 +371,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "坂城",
     "nameKana": "さかき",
     "nameEn": "Sakaki",
-    "lat": 36.46104,
-    "lng": 138.18242,
+    "lat": 36.4610184,
+    "lng": 138.1823906,
     "transfers": [],
     "address": "長野県坂城駅",
     "facilities": {
@@ -398,8 +398,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "戸倉",
     "nameKana": "とぐら",
     "nameEn": "Togura",
-    "lat": 36.4929,
-    "lng": 138.15308,
+    "lat": 36.492886,
+    "lng": 138.1530138,
     "transfers": [],
     "address": "長野県戸倉駅",
     "facilities": {
@@ -426,8 +426,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "千曲",
     "nameKana": "ちくま",
     "nameEn": "Chikuma",
-    "lat": 36.50961,
-    "lng": 138.14108,
+    "lat": 36.5096114,
+    "lng": 138.1410824,
     "transfers": [],
     "address": "長野県千曲駅",
     "facilities": {
@@ -452,8 +452,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "屋代",
     "nameKana": "やしろ",
     "nameEn": "Yashiro",
-    "lat": 36.53188,
-    "lng": 138.12836,
+    "lat": 36.5318687,
+    "lng": 138.1282939,
     "transfers": [],
     "address": "長野県屋代駅",
     "facilities": {
@@ -480,8 +480,8 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "name": "屋代高校前",
     "nameKana": "やしろこうこうまえ",
     "nameEn": "Yashiro-Koko-Mae",
-    "lat": 36.54744,
-    "lng": 138.1323,
+    "lat": 36.5474423,
+    "lng": 138.1322903,
     "transfers": [],
     "address": "長野県屋代高校前駅",
     "facilities": {

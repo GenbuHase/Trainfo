@@ -9,8 +9,8 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "name": "千葉みなと",
     "nameKana": "ちばみなと",
     "nameEn": "Chibaminato",
-    "lat": 35.60657,
-    "lng": 140.10332,
+    "lat": 35.6066031,
+    "lng": 140.1033685,
     "transfers": [
       "ＪＲ京葉線"
     ],
@@ -39,8 +39,8 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "name": "市役所前",
     "nameKana": "しやくしょまえ",
     "nameEn": "Shiyakushomae",
-    "lat": 35.60686,
-    "lng": 140.10743,
+    "lat": 35.6069248,
+    "lng": 140.1073627,
     "transfers": [],
     "address": "千葉県市役所前駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.6124,
-    "lng": 140.11427,
+    "lat": 35.6124083,
+    "lng": 140.1142547,
     "transfers": [
       "ＪＲ成田線",
       "ＪＲ外房線",
@@ -102,8 +102,8 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "name": "栄町",
     "nameKana": "さかえちょう",
     "nameEn": "Sakaechou",
-    "lat": 35.6127,
-    "lng": 140.11875,
+    "lat": 35.6126978,
+    "lng": 140.1187376,
     "transfers": [],
     "address": "千葉県栄町駅",
     "facilities": {
@@ -129,8 +129,8 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "name": "葭川公園",
     "nameKana": "よしかわこうえん",
     "nameEn": "Yoshikawakouen",
-    "lat": 35.60855,
-    "lng": 140.12008,
+    "lat": 35.6085494,
+    "lng": 140.1201177,
     "transfers": [],
     "address": "千葉県葭川公園駅",
     "facilities": {
@@ -156,8 +156,8 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "name": "県庁前",
     "nameKana": "けんちょうまえ",
     "nameEn": "Kenchoumae",
-    "lat": 35.60403,
-    "lng": 140.12205,
+    "lat": 35.6040132,
+    "lng": 140.1220078,
     "transfers": [],
     "address": "千葉県県庁前駅",
     "facilities": {
