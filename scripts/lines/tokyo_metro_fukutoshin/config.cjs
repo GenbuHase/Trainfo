@@ -4,12 +4,12 @@ const { shouldExcludeFromFukutoshin } = require('../../common/metroFilters.cjs')
 module.exports = {
   lineId: 'tokyo_metro_fukutoshin',
   name: '東京メトロ副都心線',
-  stationsFilePath: 'src/data/lines/fukutoshin/stations.ts',
+  stationsFilePath: 'src/data/lines/tokyo_metro_fukutoshin/stations.ts',
   buildStationTimetablesFromTrips: true,
   shouldExcludeTrip: shouldExcludeFromFukutoshin,
   outputPaths: {
-    stationTimetables: 'src/data/lines/fukutoshin/stationTimetables.json',
-    globalTimetable: 'src/data/lines/fukutoshin/globalTimetable.json',
+    stationTimetables: 'src/data/lines/tokyo_metro_fukutoshin/stationTimetables.json',
+    globalTimetable: 'src/data/lines/tokyo_metro_fukutoshin/globalTimetable.json',
   },
   stations: [
     { id: 'F-01', name: '和光市', yahooStationId: '22171', inGroupId: null, outGroupId: '3341' },

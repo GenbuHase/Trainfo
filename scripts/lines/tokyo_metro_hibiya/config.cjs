@@ -2,10 +2,10 @@
 module.exports = {
   "lineId": "tokyo_metro_hibiya",
   "name": "東京メトロ日比谷線",
-  "stationsFilePath": "src/data/lines/hibiya/stations.ts",
+  "stationsFilePath": "src/data/lines/tokyo_metro_hibiya/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/hibiya/stationTimetables.json",
-    "globalTimetable": "src/data/lines/hibiya/globalTimetable.json"
+    "stationTimetables": "src/data/lines/tokyo_metro_hibiya/stationTimetables.json",
+    "globalTimetable": "src/data/lines/tokyo_metro_hibiya/globalTimetable.json"
   },
   "stations": [
     {

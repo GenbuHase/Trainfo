@@ -180,7 +180,8 @@ function interpolateSegment(coords, ratio) {
 // 既知の実在スイッチバック駅（地形・配線上正規の折り返し）
 const KNOWN_SWITCHBACKS = [
   { lineId: 'echigo_tokimeki_myoko_haneuma', stationId: 'ETM-03', name: '二本木駅（スイッチバック）' },
-  { lineId: 'jr_shinonoi', stationId: 'SN-13', name: '姨捨駅（スイッチバック）' }
+  { lineId: 'jr_shinonoi', stationId: 'SN-13', name: '姨捨駅（スイッチバック）' },
+  { lineId: 'hakone_tozan', stationId: 'OHH-06', name: '出山信号場・上大平台信号場（箱根登山スイッチバック）' }
 ];
 
 function isKnownSwitchback(lineId, coord) {
@@ -191,6 +192,11 @@ function isKnownSwitchback(lineId, coord) {
   if (lineId === 'jr_shinonoi') {
     // 姨捨スイッチバック引上線折り返し点
     if (Math.abs(coord[0] - 36.4977) < 0.002 && Math.abs(coord[1] - 138.0992) < 0.002) return true;
+  }
+  if (lineId === 'hakone_tozan') {
+    // 出山信号場 (35.23248, 139.08660) および 上大平台信号場 (35.23596, 139.07524) スイッチバック折り返し点
+    if (Math.abs(coord[0] - 35.2325) < 0.002 && Math.abs(coord[1] - 139.0866) < 0.002) return true;
+    if (Math.abs(coord[0] - 35.2360) < 0.002 && Math.abs(coord[1] - 139.0752) < 0.002) return true;
   }
   return false;
 }
