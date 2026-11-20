@@ -9,8 +9,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "多摩川",
     "nameKana": "たまがわ",
     "nameEn": "Tamagawa",
-    "lat": 35.58894,
-    "lng": 139.66889,
+    "lat": 35.5889596,
+    "lng": 139.6690058,
     "transfers": [
       "東急東横線",
       "東急目黒線"
@@ -40,8 +40,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "沼部",
     "nameKana": "ぬまべ",
     "nameEn": "Numabe",
-    "lat": 35.58223,
-    "lng": 139.67344,
+    "lat": 35.582313,
+    "lng": 139.6735623,
     "transfers": [],
     "address": "東京都沼部駅",
     "facilities": {
@@ -67,8 +67,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "鵜の木",
     "nameKana": "うのき",
     "nameEn": "Unoki",
-    "lat": 35.57514,
-    "lng": 139.68079,
+    "lat": 35.5751939,
+    "lng": 139.6808707,
     "transfers": [],
     "address": "東京都鵜の木駅",
     "facilities": {
@@ -94,8 +94,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "下丸子",
     "nameKana": "しもまるこ",
     "nameEn": "Shimomaruko",
-    "lat": 35.57116,
-    "lng": 139.68584,
+    "lat": 35.5712395,
+    "lng": 139.6859229,
     "transfers": [],
     "address": "東京都下丸子駅",
     "facilities": {
@@ -121,8 +121,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "武蔵新田",
     "nameKana": "むさしにった",
     "nameEn": "Musashinitta",
-    "lat": 35.56754,
-    "lng": 139.69275,
+    "lat": 35.5676268,
+    "lng": 139.6928431,
     "transfers": [],
     "address": "東京都武蔵新田駅",
     "facilities": {
@@ -148,8 +148,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "矢口渡",
     "nameKana": "やぐちのわたし",
     "nameEn": "Yaguchinowatashi",
-    "lat": 35.5623,
-    "lng": 139.70074,
+    "lat": 35.5623815,
+    "lng": 139.7007899,
     "transfers": [],
     "address": "東京都矢口渡駅",
     "facilities": {
@@ -175,8 +175,8 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "name": "蒲田",
     "nameKana": "かまた",
     "nameEn": "Kamata",
-    "lat": 35.56166,
-    "lng": 139.71483,
+    "lat": 35.5617016,
+    "lng": 139.7148297,
     "transfers": [
       "ＪＲ京浜東北線",
       "東急池上線"

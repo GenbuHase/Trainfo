@@ -9,8 +9,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "中山",
     "nameKana": "なかやま",
     "nameEn": "Nakayama",
-    "lat": 35.51513,
-    "lng": 139.54052,
+    "lat": 35.5151954,
+    "lng": 139.540373,
     "transfers": [
       "ＪＲ横浜線"
     ],
@@ -39,8 +39,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "川和町",
     "nameKana": "かわわちょう",
     "nameEn": "Kawawachou",
-    "lat": 35.52872,
-    "lng": 139.54926,
+    "lat": 35.5286967,
+    "lng": 139.5492966,
     "transfers": [],
     "address": "神奈川県川和町駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "都筑ふれあいの丘",
     "nameKana": "つづきふれあいのおか",
     "nameEn": "Tsuzukifureainooka",
-    "lat": 35.536766,
-    "lng": 139.561897,
+    "lat": 35.5368066,
+    "lng": 139.5618768,
     "transfers": [],
     "address": "神奈川県都筑ふれあいの丘駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "センター南",
     "nameKana": "せんたーみなみ",
     "nameEn": "Sentaminami",
-    "lat": 35.54591,
-    "lng": 139.57486,
+    "lat": 35.5459082,
+    "lng": 139.5748657,
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
@@ -123,8 +123,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "センター北",
     "nameKana": "せんたーきた",
     "nameEn": "Sentakita",
-    "lat": 35.55382,
-    "lng": 139.57874,
+    "lat": 35.5537985,
+    "lng": 139.5788057,
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
@@ -153,8 +153,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "北山田",
     "nameKana": "きたやまた",
     "nameEn": "Kitayamata",
-    "lat": 35.56115,
-    "lng": 139.59251,
+    "lat": 35.5610805,
+    "lng": 139.5924908,
     "transfers": [],
     "address": "神奈川県北山田駅",
     "facilities": {
@@ -180,8 +180,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "東山田",
     "nameKana": "ひがしやまた",
     "nameEn": "Higashiyamata",
-    "lat": 35.55417,
-    "lng": 139.60643,
+    "lat": 35.5540894,
+    "lng": 139.6064275,
     "transfers": [],
     "address": "神奈川県東山田駅",
     "facilities": {
@@ -207,8 +207,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "高田",
     "nameKana": "たかた",
     "nameEn": "Takata",
-    "lat": 35.54925,
-    "lng": 139.62141,
+    "lat": 35.549163,
+    "lng": 139.6213793,
     "transfers": [],
     "address": "神奈川県高田駅",
     "facilities": {
@@ -234,8 +234,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "日吉本町",
     "nameKana": "ひよしほんちょう",
     "nameEn": "Hiyoshihonchou",
-    "lat": 35.550209,
-    "lng": 139.633879,
+    "lat": 35.5502454,
+    "lng": 139.6338501,
     "transfers": [],
     "address": "神奈川県日吉本町駅",
     "facilities": {
@@ -261,8 +261,8 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "name": "日吉",
     "nameKana": "ひよし",
     "nameEn": "Hiyoshi",
-    "lat": 35.55323,
-    "lng": 139.64722,
+    "lat": 35.5533335,
+    "lng": 139.6472568,
     "transfers": [
       "東急東横線",
       "東急目黒線",

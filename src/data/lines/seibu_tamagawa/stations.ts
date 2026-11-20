@@ -9,7 +9,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "name": "武蔵境",
     "nameKana": "むさしさかい",
     "nameEn": "Musashisakai",
-    "lat": 35.7019,
+    "lat": 35.701899,
     "lng": 139.54379,
     "transfers": [
       "ＪＲ中央線快速"
@@ -39,8 +39,8 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "name": "新小金井",
     "nameKana": "しんこがねい",
     "nameEn": "Shinkoganei",
-    "lat": 35.69561,
-    "lng": 139.52638,
+    "lat": 35.695598,
+    "lng": 139.5263984,
     "transfers": [],
     "address": "東京都新小金井駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "name": "多磨",
     "nameKana": "たま",
     "nameEn": "Tama",
-    "lat": 35.67634,
-    "lng": 139.51692,
+    "lat": 35.6763363,
+    "lng": 139.516932,
     "transfers": [],
     "address": "東京都多磨駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "name": "白糸台",
     "nameKana": "しらいとだい",
     "nameEn": "Shiraitodai",
-    "lat": 35.66682,
-    "lng": 139.5103,
+    "lat": 35.6668447,
+    "lng": 139.510278,
     "transfers": [],
     "address": "東京都白糸台駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "name": "競艇場前",
     "nameKana": "きょうていじょうまえ",
     "nameEn": "Kyouteijoumae",
-    "lat": 35.65635,
-    "lng": 139.50028,
+    "lat": 35.6563615,
+    "lng": 139.5002756,
     "transfers": [],
     "address": "東京都競艇場前駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "name": "是政",
     "nameKana": "これまさ",
     "nameEn": "Koremasa",
-    "lat": 35.65621,
-    "lng": 139.48807,
+    "lat": 35.6562912,
+    "lng": 139.4890091,
     "transfers": [],
     "address": "東京都是政駅",
     "facilities": {

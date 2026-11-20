@@ -9,8 +9,8 @@ export const RYUTETSU_STATIONS: Station[] = [
     "name": "馬橋",
     "nameKana": "まばし",
     "nameEn": "Mabashi",
-    "lat": 35.81176,
-    "lng": 139.91694,
+    "lat": 35.8117823,
+    "lng": 139.916969,
     "transfers": [
       "ＪＲ常磐線各駅停車"
     ],
@@ -39,8 +39,8 @@ export const RYUTETSU_STATIONS: Station[] = [
     "name": "幸谷",
     "nameKana": "こうや",
     "nameEn": "Kouya",
-    "lat": 35.82668,
-    "lng": 139.92,
+    "lat": 35.8266864,
+    "lng": 139.9199398,
     "transfers": [],
     "address": "千葉県幸谷駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const RYUTETSU_STATIONS: Station[] = [
     "name": "小金城趾",
     "nameKana": "こがねじょうし",
     "nameEn": "Koganejoushi",
-    "lat": 35.83578,
-    "lng": 139.91719,
+    "lat": 35.8358016,
+    "lng": 139.9172144,
     "transfers": [],
     "address": "千葉県小金城趾駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const RYUTETSU_STATIONS: Station[] = [
     "name": "鰭ケ崎",
     "nameKana": "ひれがさき",
     "nameEn": "Hiregasaki",
-    "lat": 35.84121,
-    "lng": 139.91085,
+    "lat": 35.8411913,
+    "lng": 139.9108243,
     "transfers": [],
     "address": "千葉県鰭ケ崎駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const RYUTETSU_STATIONS: Station[] = [
     "name": "平和台",
     "nameKana": "へいわだい",
     "nameEn": "Heiwadai",
-    "lat": 35.85145,
-    "lng": 139.90126,
+    "lat": 35.8514501,
+    "lng": 139.9012586,
     "transfers": [],
     "address": "千葉県平和台駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const RYUTETSU_STATIONS: Station[] = [
     "name": "流山",
     "nameKana": "ながれやま",
     "nameEn": "Nagareyama",
-    "lat": 35.85638,
-    "lng": 139.9019,
+    "lat": 35.8558007,
+    "lng": 139.9017829,
     "transfers": [],
     "address": "千葉県流山駅",
     "facilities": {

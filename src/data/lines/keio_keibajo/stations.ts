@@ -9,8 +9,8 @@ export const KEIO_KEIBAJO_STATIONS: Station[] = [
     "name": "東府中",
     "nameKana": "ひがしふちゅう",
     "nameEn": "Higashifuchuu",
-    "lat": 35.669,
-    "lng": 139.49478,
+    "lat": 35.669015,
+    "lng": 139.4947881,
     "transfers": [
       "京王線"
     ],
@@ -41,8 +41,8 @@ export const KEIO_KEIBAJO_STATIONS: Station[] = [
     "name": "府中競馬正門前",
     "nameKana": "ふちゅうけいばせいもんまえ",
     "nameEn": "Fuchuukeibaseimommae",
-    "lat": 35.66838,
-    "lng": 139.48449,
+    "lat": 35.6685848,
+    "lng": 139.4845262,
     "transfers": [],
     "address": "東京都府中競馬正門前駅",
     "facilities": {

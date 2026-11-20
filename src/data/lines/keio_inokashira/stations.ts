@@ -9,8 +9,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "渋谷",
     "nameKana": "しぶや",
     "nameEn": "Shibuya",
-    "lat": 35.658587,
-    "lng": 139.70009,
+    "lat": 35.6584902,
+    "lng": 139.6992839,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ埼京線",
@@ -48,8 +48,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "神泉",
     "nameKana": "しんせん",
     "nameEn": "Shinsen",
-    "lat": 35.65718,
-    "lng": 139.69334,
+    "lat": 35.6571888,
+    "lng": 139.6933393,
     "transfers": [],
     "address": "東京都神泉駅",
     "facilities": {
@@ -75,8 +75,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "駒場東大前",
     "nameKana": "こまばとうだいまえ",
     "nameEn": "Komabatoudaimae",
-    "lat": 35.65848,
-    "lng": 139.68498,
+    "lat": 35.6585129,
+    "lng": 139.6849946,
     "transfers": [],
     "address": "東京都駒場東大前駅",
     "facilities": {
@@ -102,8 +102,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "池ノ上",
     "nameKana": "いけのうえ",
     "nameEn": "Ikenoue",
-    "lat": 35.66046,
-    "lng": 139.67297,
+    "lat": 35.660481,
+    "lng": 139.6729771,
     "transfers": [],
     "address": "東京都池ノ上駅",
     "facilities": {
@@ -129,8 +129,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "下北沢",
     "nameKana": "しもきたざわ",
     "nameEn": "Shimokitazawa",
-    "lat": 35.66171,
-    "lng": 139.66597,
+    "lat": 35.6617097,
+    "lng": 139.6659699,
     "transfers": [
       "小田急小田原線"
     ],
@@ -160,8 +160,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "新代田",
     "nameKana": "しんだいた",
     "nameEn": "Shindaita",
-    "lat": 35.66241,
-    "lng": 139.66189,
+    "lat": 35.6624526,
+    "lng": 139.6618999,
     "transfers": [],
     "address": "東京都新代田駅",
     "facilities": {
@@ -187,8 +187,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "東松原",
     "nameKana": "ひがしまつばら",
     "nameEn": "Higashimatsubara",
-    "lat": 35.66261,
-    "lng": 139.65583,
+    "lat": 35.6625989,
+    "lng": 139.6558273,
     "transfers": [],
     "address": "東京都東松原駅",
     "facilities": {
@@ -215,7 +215,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "nameKana": "めいだいまえ",
     "nameEn": "Meidaimae",
     "lat": 35.66954,
-    "lng": 139.65028,
+    "lng": 139.6502802,
     "transfers": [
       "京王線"
     ],
@@ -245,8 +245,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "永福町",
     "nameKana": "えいふくちょう",
     "nameEn": "Eifukuchou",
-    "lat": 35.67648,
-    "lng": 139.64203,
+    "lat": 35.6765048,
+    "lng": 139.6420437,
     "transfers": [],
     "address": "東京都永福町駅",
     "facilities": {
@@ -273,8 +273,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "西永福",
     "nameKana": "にしえいふく",
     "nameEn": "Nishieifuku",
-    "lat": 35.67907,
-    "lng": 139.63459,
+    "lat": 35.6791083,
+    "lng": 139.6346098,
     "transfers": [],
     "address": "東京都西永福駅",
     "facilities": {
@@ -300,8 +300,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "浜田山",
     "nameKana": "はまだやま",
     "nameEn": "Hamadayama",
-    "lat": 35.68178,
-    "lng": 139.62701,
+    "lat": 35.6818267,
+    "lng": 139.6270279,
     "transfers": [],
     "address": "東京都浜田山駅",
     "facilities": {
@@ -327,8 +327,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "高井戸",
     "nameKana": "たかいど",
     "nameEn": "Takaido",
-    "lat": 35.68323,
-    "lng": 139.61581,
+    "lat": 35.6832643,
+    "lng": 139.6158123,
     "transfers": [],
     "address": "東京都高井戸駅",
     "facilities": {
@@ -354,8 +354,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "富士見ケ丘",
     "nameKana": "ふじみがおか",
     "nameEn": "Fujimigaoka",
-    "lat": 35.6847,
-    "lng": 139.60751,
+    "lat": 35.6847257,
+    "lng": 139.6075232,
     "transfers": [],
     "address": "東京都富士見ケ丘駅",
     "facilities": {
@@ -381,8 +381,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "久我山",
     "nameKana": "くがやま",
     "nameEn": "Kugayama",
-    "lat": 35.68788,
-    "lng": 139.59977,
+    "lat": 35.6879146,
+    "lng": 139.599802,
     "transfers": [],
     "address": "東京都久我山駅",
     "facilities": {
@@ -409,8 +409,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "三鷹台",
     "nameKana": "みたかだい",
     "nameEn": "Mitakadai",
-    "lat": 35.6919,
-    "lng": 139.58985,
+    "lat": 35.6919323,
+    "lng": 139.5898668,
     "transfers": [],
     "address": "東京都三鷹台駅",
     "facilities": {
@@ -436,8 +436,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "井の頭公園",
     "nameKana": "いのかしらこうえん",
     "nameEn": "Inokashirakouen",
-    "lat": 35.69704,
-    "lng": 139.58342,
+    "lat": 35.697061,
+    "lng": 139.5834445,
     "transfers": [],
     "address": "東京都井の頭公園駅",
     "facilities": {
@@ -463,8 +463,8 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "name": "吉祥寺",
     "nameKana": "きちじょうじ",
     "nameEn": "Kichijouji",
-    "lat": 35.70253,
-    "lng": 139.58016,
+    "lat": 35.7024847,
+    "lng": 139.5801792,
     "transfers": [
       "ＪＲ中央線快速",
       "ＪＲ中央・総武線各駅停車"

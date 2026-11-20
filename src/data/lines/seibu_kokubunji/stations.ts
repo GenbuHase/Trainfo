@@ -9,8 +9,8 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "name": "国分寺",
     "nameKana": "こくぶんじ",
     "nameEn": "Kokubunji",
-    "lat": 35.70011,
-    "lng": 139.48002,
+    "lat": 35.700256,
+    "lng": 139.4800128,
     "transfers": [
       "ＪＲ中央線快速",
       "西武多摩湖線"
@@ -40,8 +40,8 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "name": "恋ケ窪",
     "nameKana": "こいがくぼ",
     "nameEn": "Koigakubo",
-    "lat": 35.71174,
-    "lng": 139.46358,
+    "lat": 35.7117748,
+    "lng": 139.4636453,
     "transfers": [],
     "address": "東京都恋ケ窪駅",
     "facilities": {
@@ -67,8 +67,8 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "name": "鷹の台",
     "nameKana": "たかのだい",
     "nameEn": "Takanodai",
-    "lat": 35.72344,
-    "lng": 139.46113,
+    "lat": 35.7234351,
+    "lng": 139.4611753,
     "transfers": [],
     "address": "東京都鷹の台駅",
     "facilities": {
@@ -94,8 +94,8 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "name": "小川",
     "nameKana": "おがわ",
     "nameEn": "Ogawa",
-    "lat": 35.73814,
-    "lng": 139.46359,
+    "lat": 35.7381334,
+    "lng": 139.4636495,
     "transfers": [
       "西武拝島線"
     ],
@@ -124,8 +124,8 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "name": "東村山",
     "nameKana": "ひがしむらやま",
     "nameEn": "Higashimurayama",
-    "lat": 35.7609,
-    "lng": 139.46591,
+    "lat": 35.7609038,
+    "lng": 139.4657796,
     "transfers": [
       "西武新宿線",
       "西武西武園線"

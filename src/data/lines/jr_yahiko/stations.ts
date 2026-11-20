@@ -8,8 +8,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "弥彦",
     "nameKana": "やひこ",
     "nameEn": "Yahiko",
-    "lat": 37.69935,
-    "lng": 138.83241,
+    "lat": 37.6993912,
+    "lng": 138.8323896,
     "transfers": [],
     "address": "新潟県弥彦駅",
     "facilities": {
@@ -35,8 +35,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "矢作",
     "nameKana": "やはぎ",
     "nameEn": "Yahagi",
-    "lat": 37.69049,
-    "lng": 138.85202,
+    "lat": 37.6904888,
+    "lng": 138.8520192,
     "transfers": [],
     "address": "新潟県矢作駅",
     "facilities": {
@@ -61,8 +61,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "吉田",
     "nameKana": "よしだ",
     "nameEn": "Yoshida",
-    "lat": 37.68645,
-    "lng": 138.87745,
+    "lat": 37.6863251,
+    "lng": 138.877543,
     "transfers": [
       "ＪＲ越後線"
     ],
@@ -90,8 +90,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "西燕",
     "nameKana": "にしつばめ",
     "nameEn": "Nishi-Tsubame",
-    "lat": 37.6801,
-    "lng": 138.90891,
+    "lat": 37.6800991,
+    "lng": 138.9089088,
     "transfers": [],
     "address": "新潟県西燕駅",
     "facilities": {
@@ -116,8 +116,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "燕",
     "nameKana": "つばめ",
     "nameEn": "Tsubame",
-    "lat": 37.66752,
-    "lng": 138.9296,
+    "lat": 37.6674953,
+    "lng": 138.9295941,
     "transfers": [],
     "address": "新潟県燕駅",
     "facilities": {
@@ -143,8 +143,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "燕三条",
     "nameKana": "つばめさんじょう",
     "nameEn": "Tsubame-Sanjo",
-    "lat": 37.64852,
-    "lng": 138.94008,
+    "lat": 37.6485567,
+    "lng": 138.9401291,
     "transfers": [
       "ＪＲ上越新幹線"
     ],
@@ -172,8 +172,8 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "name": "北三条",
     "nameKana": "きたさんじょう",
     "nameEn": "Kita-Sanjo",
-    "lat": 37.63264,
-    "lng": 138.95638,
+    "lat": 37.6325847,
+    "lng": 138.9563653,
     "transfers": [],
     "address": "新潟県北三条駅",
     "facilities": {

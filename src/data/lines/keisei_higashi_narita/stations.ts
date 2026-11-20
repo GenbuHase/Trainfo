@@ -9,8 +9,8 @@ export const KEISEI_HIGASHI_NARITA_STATIONS: Station[] = [
     "name": "京成成田",
     "nameKana": "けいせいなりた",
     "nameEn": "Keiseinarita",
-    "lat": 35.77583,
-    "lng": 140.31481,
+    "lat": 35.7758408,
+    "lng": 140.3148003,
     "transfers": [
       "京成本線"
     ],
@@ -39,8 +39,8 @@ export const KEISEI_HIGASHI_NARITA_STATIONS: Station[] = [
     "name": "東成田",
     "nameKana": "ひがしなりた",
     "nameEn": "Higashinarita",
-    "lat": 35.77035,
-    "lng": 140.38676,
+    "lat": 35.7703684,
+    "lng": 140.386796,
     "transfers": [
       "芝山鉄道"
     ],

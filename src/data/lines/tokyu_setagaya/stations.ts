@@ -9,8 +9,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "三軒茶屋",
     "nameKana": "さんげんぢゃや",
     "nameEn": "Sangenjiyaya",
-    "lat": 35.64408,
-    "lng": 139.66876,
+    "lat": 35.6440785,
+    "lng": 139.6687601,
     "transfers": [
       "東急田園都市線"
     ],
@@ -39,8 +39,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "西太子堂",
     "nameKana": "にしたいしどう",
     "nameEn": "Nishitaishidou",
-    "lat": 35.64466,
-    "lng": 139.66598,
+    "lat": 35.6446886,
+    "lng": 139.6659967,
     "transfers": [],
     "address": "東京都西太子堂駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "若林",
     "nameKana": "わかばやし",
     "nameEn": "Wakabayashi",
-    "lat": 35.64585,
-    "lng": 139.65952,
+    "lat": 35.6458715,
+    "lng": 139.6595119,
     "transfers": [],
     "address": "東京都若林駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "松陰神社前",
     "nameKana": "しょういんじんじゃまえ",
     "nameEn": "Shouinjinjamae",
-    "lat": 35.64382,
-    "lng": 139.65463,
+    "lat": 35.643854,
+    "lng": 139.6546251,
     "transfers": [],
     "address": "東京都松陰神社前駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "世田谷",
     "nameKana": "せたがや",
     "nameEn": "Setagaya",
-    "lat": 35.64346,
-    "lng": 139.65042,
+    "lat": 35.6434616,
+    "lng": 139.6504198,
     "transfers": [],
     "address": "東京都世田谷駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "上町",
     "nameKana": "かみまち",
     "nameEn": "Kamimachi",
-    "lat": 35.64365,
-    "lng": 139.64628,
+    "lat": 35.6436449,
+    "lng": 139.646268,
     "transfers": [],
     "address": "東京都上町駅",
     "facilities": {
@@ -174,8 +174,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "宮の坂",
     "nameKana": "みやのさか",
     "nameEn": "Miyanosaka",
-    "lat": 35.64791,
-    "lng": 139.64503,
+    "lat": 35.6479169,
+    "lng": 139.6449922,
     "transfers": [],
     "address": "東京都宮の坂駅",
     "facilities": {
@@ -201,8 +201,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "山下",
     "nameKana": "やました",
     "nameEn": "Yamashita",
-    "lat": 35.65428,
-    "lng": 139.64646,
+    "lat": 35.6542734,
+    "lng": 139.6464201,
     "transfers": [],
     "address": "東京都山下駅",
     "facilities": {
@@ -228,8 +228,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "松原",
     "nameKana": "まつばら",
     "nameEn": "Matsubara",
-    "lat": 35.66056,
-    "lng": 139.64189,
+    "lat": 35.6605577,
+    "lng": 139.6419714,
     "transfers": [],
     "address": "東京都松原駅",
     "facilities": {
@@ -255,8 +255,8 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "name": "下高井戸",
     "nameKana": "しもたかいど",
     "nameEn": "Shimotakaido",
-    "lat": 35.6658,
-    "lng": 139.64196,
+    "lat": 35.6657809,
+    "lng": 139.6419347,
     "transfers": [
       "京王線"
     ],

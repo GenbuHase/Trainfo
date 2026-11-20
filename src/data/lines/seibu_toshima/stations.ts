@@ -9,7 +9,7 @@ export const SEIBU_TOSHIMA_STATIONS: Station[] = [
     "name": "練馬",
     "nameKana": "ねりま",
     "nameEn": "Nerima",
-    "lat": 35.737871,
+    "lat": 35.7378707,
     "lng": 139.654113,
     "transfers": [
       "西武池袋線",
@@ -41,8 +41,8 @@ export const SEIBU_TOSHIMA_STATIONS: Station[] = [
     "name": "豊島園",
     "nameKana": "としまえん",
     "nameEn": "Toshimaen",
-    "lat": 35.7416,
-    "lng": 139.648,
+    "lat": 35.7415986,
+    "lng": 139.6480192,
     "transfers": [],
     "address": "東京都豊島園駅",
     "facilities": {

@@ -9,8 +9,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "堀ノ内",
     "nameKana": "ほりのうち",
     "nameEn": "Horinouchi",
-    "lat": 35.26279,
-    "lng": 139.68772,
+    "lat": 35.2627764,
+    "lng": 139.6877107,
     "transfers": [
       "京急本線"
     ],
@@ -42,8 +42,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "新大津",
     "nameKana": "しんおおつ",
     "nameEn": "Shinootsu",
-    "lat": 35.25713,
-    "lng": 139.69025,
+    "lat": 35.2571397,
+    "lng": 139.6902033,
     "transfers": [],
     "address": "神奈川県新大津駅",
     "facilities": {
@@ -72,8 +72,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "北久里浜",
     "nameKana": "きたくりはま",
     "nameEn": "Kitakurihama",
-    "lat": 35.24918,
-    "lng": 139.68636,
+    "lat": 35.2491787,
+    "lng": 139.6864035,
     "transfers": [],
     "address": "神奈川県北久里浜駅",
     "facilities": {
@@ -102,8 +102,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "京急久里浜",
     "nameKana": "けいきゅうくりはま",
     "nameEn": "Keikyuukurihama",
-    "lat": 35.23214,
-    "lng": 139.70233,
+    "lat": 35.2321334,
+    "lng": 139.7024209,
     "transfers": [],
     "address": "神奈川県京急久里浜駅",
     "facilities": {
@@ -132,8 +132,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "ＹＲＰ野比",
     "nameKana": "わいあーるぴーのび",
     "nameEn": "Waiarupinobi",
-    "lat": 35.21319,
-    "lng": 139.68564,
+    "lat": 35.213188,
+    "lng": 139.6856447,
     "transfers": [],
     "address": "神奈川県ＹＲＰ野比駅",
     "facilities": {
@@ -162,8 +162,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "京急長沢",
     "nameKana": "けいきゅうながさわ",
     "nameEn": "Keikyuunagasawa",
-    "lat": 35.20565,
-    "lng": 139.67473,
+    "lat": 35.2056844,
+    "lng": 139.6747137,
     "transfers": [],
     "address": "神奈川県京急長沢駅",
     "facilities": {
@@ -192,8 +192,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "津久井浜",
     "nameKana": "つくいはま",
     "nameEn": "Tsukuihama",
-    "lat": 35.19857,
-    "lng": 139.66542,
+    "lat": 35.1985544,
+    "lng": 139.6654403,
     "transfers": [],
     "address": "神奈川県津久井浜駅",
     "facilities": {
@@ -222,8 +222,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "三浦海岸",
     "nameKana": "みうらかいがん",
     "nameEn": "Miurakaigan",
-    "lat": 35.18877,
-    "lng": 139.65401,
+    "lat": 35.1887788,
+    "lng": 139.6539996,
     "transfers": [],
     "address": "神奈川県三浦海岸駅",
     "facilities": {
@@ -252,8 +252,8 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "name": "三崎口",
     "nameKana": "みさきぐち",
     "nameEn": "Misakiguchi",
-    "lat": 35.17827,
-    "lng": 139.63338,
+    "lat": 35.1782585,
+    "lng": 139.6333984,
     "transfers": [],
     "address": "神奈川県三崎口駅",
     "facilities": {

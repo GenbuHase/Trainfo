@@ -8,8 +8,8 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "name": "香取",
     "nameKana": "かとり",
     "nameEn": "Katori",
-    "lat": 35.89795,
-    "lng": 140.5337,
+    "lat": 35.8979904,
+    "lng": 140.5336956,
     "transfers": [
       "ＪＲ成田線"
     ],
@@ -38,8 +38,8 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "name": "十二橋",
     "nameKana": "じゅうにきょう",
     "nameEn": "Juunikyou",
-    "lat": 35.91756,
-    "lng": 140.54586,
+    "lat": 35.9175596,
+    "lng": 140.5458725,
     "transfers": [],
     "address": "千葉県十二橋駅",
     "facilities": {
@@ -65,8 +65,8 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "name": "潮来",
     "nameKana": "いたこ",
     "nameEn": "Itako",
-    "lat": 35.93844,
-    "lng": 140.54998,
+    "lat": 35.9384317,
+    "lng": 140.5500254,
     "transfers": [],
     "address": "茨城県潮来駅",
     "facilities": {
@@ -92,8 +92,8 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "name": "延方",
     "nameKana": "のぶかた",
     "nameEn": "Nobukata",
-    "lat": 35.95794,
-    "lng": 140.58931,
+    "lat": 35.9579393,
+    "lng": 140.5893097,
     "transfers": [],
     "address": "茨城県延方駅",
     "facilities": {
@@ -119,8 +119,8 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "name": "鹿島神宮",
     "nameKana": "かしまじんぐう",
     "nameEn": "Kashimajinguu",
-    "lat": 35.97061,
-    "lng": 140.62543,
+    "lat": 35.9706172,
+    "lng": 140.6254282,
     "transfers": [],
     "address": "茨城県鹿島神宮駅",
     "facilities": {
@@ -146,8 +146,8 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "name": "鹿島サッカースタジアム",
     "nameKana": "かしまさっかーすたじあむ",
     "nameEn": "Kashimasakkasutajiamu",
-    "lat": 35.99338,
-    "lng": 140.63577,
+    "lat": 35.9933745,
+    "lng": 140.6357466,
     "transfers": [],
     "address": "茨城県鹿島サッカースタジアム駅",
     "facilities": {

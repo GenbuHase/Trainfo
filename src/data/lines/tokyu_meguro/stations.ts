@@ -43,8 +43,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "不動前",
     "nameKana": "ふどうまえ",
     "nameEn": "Fudoumae",
-    "lat": 35.62536,
-    "lng": 139.71304,
+    "lat": 35.6253605,
+    "lng": 139.7130396,
     "transfers": [],
     "address": "東京都不動前駅",
     "facilities": {
@@ -70,8 +70,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "武蔵小山",
     "nameKana": "むさしこやま",
     "nameEn": "Musashikoyama",
-    "lat": 35.62082,
-    "lng": 139.70502,
+    "lat": 35.6208323,
+    "lng": 139.7050097,
     "transfers": [],
     "address": "東京都武蔵小山駅",
     "facilities": {
@@ -98,8 +98,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "西小山",
     "nameKana": "にしこやま",
     "nameEn": "Nishikoyama",
-    "lat": 35.61574,
-    "lng": 139.69897,
+    "lat": 35.6157565,
+    "lng": 139.6989394,
     "transfers": [],
     "address": "東京都西小山駅",
     "facilities": {
@@ -125,8 +125,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "洗足",
     "nameKana": "せんぞく",
     "nameEn": "Senzoku",
-    "lat": 35.61043,
-    "lng": 139.69444,
+    "lat": 35.6104491,
+    "lng": 139.6944072,
     "transfers": [],
     "address": "東京都洗足駅",
     "facilities": {
@@ -152,8 +152,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "大岡山",
     "nameKana": "おおおかやま",
     "nameEn": "Oookayama",
-    "lat": 35.60725,
-    "lng": 139.68501,
+    "lat": 35.6073403,
+    "lng": 139.6849715,
     "transfers": [
       "東急大井町線"
     ],
@@ -183,8 +183,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "奥沢",
     "nameKana": "おくさわ",
     "nameEn": "Okusawa",
-    "lat": 35.60406,
-    "lng": 139.67285,
+    "lat": 35.6040813,
+    "lng": 139.672841,
     "transfers": [],
     "address": "東京都奥沢駅",
     "facilities": {
@@ -210,8 +210,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "田園調布",
     "nameKana": "でんえんちょうふ",
     "nameEn": "Denenchoufu",
-    "lat": 35.59663,
-    "lng": 139.66731,
+    "lat": 35.5966323,
+    "lng": 139.66736,
     "transfers": [
       "東急東横線"
     ],
@@ -241,8 +241,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "多摩川",
     "nameKana": "たまがわ",
     "nameEn": "Tamagawa",
-    "lat": 35.58894,
-    "lng": 139.66889,
+    "lat": 35.5889403,
+    "lng": 139.6688979,
     "transfers": [
       "東急東横線",
       "東急多摩川線"
@@ -273,8 +273,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "新丸子",
     "nameKana": "しんまるこ",
     "nameEn": "Shimmaruko",
-    "lat": 35.57992,
-    "lng": 139.66168,
+    "lat": 35.5799163,
+    "lng": 139.6616939,
     "transfers": [
       "東急東横線"
     ],
@@ -303,8 +303,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "武蔵小杉",
     "nameKana": "むさしこすぎ",
     "nameEn": "Musashikosugi",
-    "lat": 35.57656,
-    "lng": 139.66003,
+    "lat": 35.5765554,
+    "lng": 139.6600443,
     "transfers": [
       "ＪＲ湘南新宿ライン・埼京・相鉄直通線",
       "ＪＲ湘南新宿ライン",
@@ -339,8 +339,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "元住吉",
     "nameKana": "もとすみよし",
     "nameEn": "Motosumiyoshi",
-    "lat": 35.56511,
-    "lng": 139.65443,
+    "lat": 35.565116,
+    "lng": 139.6544128,
     "transfers": [
       "東急東横線"
     ],
@@ -369,8 +369,8 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "name": "日吉",
     "nameKana": "ひよし",
     "nameEn": "Hiyoshi",
-    "lat": 35.5534595,
-    "lng": 139.646943,
+    "lat": 35.5534676,
+    "lng": 139.6469044,
     "transfers": [
       "東急東横線",
       "東急新横浜線",

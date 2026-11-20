@@ -9,8 +9,8 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "name": "西所沢",
     "nameKana": "にしところざわ",
     "nameEn": "Nishitokorozawa",
-    "lat": 35.789064,
-    "lng": 139.456073,
+    "lat": 35.7889669,
+    "lng": 139.4559042,
     "transfers": [
       "西武池袋線"
     ],
@@ -40,8 +40,8 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "name": "下山口",
     "nameKana": "しもやまぐち",
     "nameEn": "Shimoyamaguchi",
-    "lat": 35.77961,
-    "lng": 139.44149,
+    "lat": 35.7795842,
+    "lng": 139.4415103,
     "transfers": [],
     "address": "埼玉県下山口駅",
     "facilities": {
@@ -68,8 +68,8 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "name": "西武球場前",
     "nameKana": "せいぶきゅうじょうまえ",
     "nameEn": "Seibukyuujoumae",
-    "lat": 35.77172,
-    "lng": 139.42062,
+    "lat": 35.7716808,
+    "lng": 139.42068,
     "transfers": [
       "西武山口線"
     ],

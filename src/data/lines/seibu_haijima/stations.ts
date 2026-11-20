@@ -9,8 +9,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "小平",
     "nameKana": "こだいら",
     "nameEn": "Kodaira",
-    "lat": 35.73735,
-    "lng": 139.48745,
+    "lat": 35.7373113,
+    "lng": 139.4874168,
     "transfers": [
       "西武新宿線"
     ],
@@ -40,8 +40,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "萩山",
     "nameKana": "はぎやま",
     "nameEn": "Hagiyama",
-    "lat": 35.74094,
-    "lng": 139.47668,
+    "lat": 35.7410111,
+    "lng": 139.476757,
     "transfers": [
       "西武多摩湖線"
     ],
@@ -71,8 +71,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "小川",
     "nameKana": "おがわ",
     "nameEn": "Ogawa",
-    "lat": 35.73814,
-    "lng": 139.46359,
+    "lat": 35.7381334,
+    "lng": 139.4636495,
     "transfers": [
       "西武国分寺線"
     ],
@@ -102,8 +102,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "東大和市",
     "nameKana": "ひがしやまとし",
     "nameEn": "Higashiyamatoshi",
-    "lat": 35.73258,
-    "lng": 139.43363,
+    "lat": 35.7324835,
+    "lng": 139.4336949,
     "transfers": [],
     "address": "東京都東大和市駅",
     "facilities": {
@@ -130,8 +130,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "玉川上水",
     "nameKana": "たまがわじょうすい",
     "nameEn": "Tamagawajousui",
-    "lat": 35.73174,
-    "lng": 139.4181,
+    "lat": 35.7317434,
+    "lng": 139.4181002,
     "transfers": [
       "多摩モノレール"
     ],
@@ -161,8 +161,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "武蔵砂川",
     "nameKana": "むさしすながわ",
     "nameEn": "Musashisunagawa",
-    "lat": 35.72875,
-    "lng": 139.39171,
+    "lat": 35.7288191,
+    "lng": 139.3916974,
     "transfers": [],
     "address": "東京都武蔵砂川駅",
     "facilities": {
@@ -189,8 +189,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "西武立川",
     "nameKana": "せいぶたちかわ",
     "nameEn": "Seibutachikawa",
-    "lat": 35.72611,
-    "lng": 139.3691,
+    "lat": 35.7261071,
+    "lng": 139.3691004,
     "transfers": [],
     "address": "東京都西武立川駅",
     "facilities": {
@@ -217,8 +217,8 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "name": "拝島",
     "nameKana": "はいじま",
     "nameEn": "Haijima",
-    "lat": 35.7212,
-    "lng": 139.3441,
+    "lat": 35.7212188,
+    "lng": 139.344138,
     "transfers": [
       "ＪＲ八高線",
       "ＪＲ青梅線",

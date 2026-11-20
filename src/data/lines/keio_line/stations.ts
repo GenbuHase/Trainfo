@@ -9,8 +9,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.6895,
-    "lng": 139.69925,
+    "lat": 35.6895077,
+    "lng": 139.6993171,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ埼京線",
@@ -53,8 +53,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "笹塚",
     "nameKana": "ささづか",
     "nameEn": "Sasazuka",
-    "lat": 35.67344,
-    "lng": 139.66646,
+    "lat": 35.6733099,
+    "lng": 139.6665249,
     "transfers": [
       "京王新線"
     ],
@@ -87,8 +87,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "代田橋",
     "nameKana": "だいたばし",
     "nameEn": "Daitabashi",
-    "lat": 35.67084,
-    "lng": 139.65874,
+    "lat": 35.670849,
+    "lng": 139.6587354,
     "transfers": [],
     "address": "東京都代田橋駅",
     "facilities": {
@@ -114,8 +114,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "明大前",
     "nameKana": "めいだいまえ",
     "nameEn": "Meidaimae",
-    "lat": 35.66832,
-    "lng": 139.65044,
+    "lat": 35.6683041,
+    "lng": 139.6504471,
     "transfers": [
       "京王井の頭線"
     ],
@@ -149,8 +149,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "下高井戸",
     "nameKana": "しもたかいど",
     "nameEn": "Shimotakaido",
-    "lat": 35.66607,
-    "lng": 139.64212,
+    "lat": 35.6660743,
+    "lng": 139.6421202,
     "transfers": [
       "東急世田谷線"
     ],
@@ -180,8 +180,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "桜上水",
     "nameKana": "さくらじょうすい",
     "nameEn": "Sakurajousui",
-    "lat": 35.66777,
-    "lng": 139.63062,
+    "lat": 35.6677515,
+    "lng": 139.6306159,
     "transfers": [],
     "address": "東京都桜上水駅",
     "facilities": {
@@ -210,8 +210,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "上北沢",
     "nameKana": "かみきたざわ",
     "nameEn": "Kamikitazawa",
-    "lat": 35.66872,
-    "lng": 139.6242,
+    "lat": 35.6686944,
+    "lng": 139.6241946,
     "transfers": [],
     "address": "東京都上北沢駅",
     "facilities": {
@@ -237,8 +237,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "八幡山",
     "nameKana": "はちまんやま",
     "nameEn": "Hachimanyama",
-    "lat": 35.67016,
-    "lng": 139.6139,
+    "lat": 35.6701536,
+    "lng": 139.6138988,
     "transfers": [],
     "address": "東京都八幡山駅",
     "facilities": {
@@ -265,8 +265,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "芦花公園",
     "nameKana": "ろかこうえん",
     "nameEn": "Rokakouen",
-    "lat": 35.67053,
-    "lng": 139.60822,
+    "lat": 35.6705287,
+    "lng": 139.6082204,
     "transfers": [],
     "address": "東京都芦花公園駅",
     "facilities": {
@@ -292,8 +292,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "千歳烏山",
     "nameKana": "ちとせからすやま",
     "nameEn": "Chitosekarasuyama",
-    "lat": 35.66816,
-    "lng": 139.60127,
+    "lat": 35.6681337,
+    "lng": 139.601284,
     "transfers": [],
     "address": "東京都千歳烏山駅",
     "facilities": {
@@ -323,8 +323,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "仙川",
     "nameKana": "せんがわ",
     "nameEn": "Sengawa",
-    "lat": 35.66236,
-    "lng": 139.58519,
+    "lat": 35.6623716,
+    "lng": 139.5851834,
     "transfers": [],
     "address": "東京都仙川駅",
     "facilities": {
@@ -352,8 +352,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "つつじケ丘",
     "nameKana": "つつじがおか",
     "nameEn": "Tsutsujigaoka",
-    "lat": 35.65838,
-    "lng": 139.57604,
+    "lat": 35.6584113,
+    "lng": 139.5760179,
     "transfers": [],
     "address": "東京都つつじケ丘駅",
     "facilities": {
@@ -382,8 +382,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "柴崎",
     "nameKana": "しばさき",
     "nameEn": "Shibasaki",
-    "lat": 35.65433,
-    "lng": 139.56736,
+    "lat": 35.6543629,
+    "lng": 139.5673363,
     "transfers": [],
     "address": "東京都柴崎駅",
     "facilities": {
@@ -409,8 +409,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "国領",
     "nameKana": "こくりょう",
     "nameEn": "Kokuryou",
-    "lat": 35.65045,
-    "lng": 139.55907,
+    "lat": 35.6504311,
+    "lng": 139.5590854,
     "transfers": [],
     "address": "東京都国領駅",
     "facilities": {
@@ -436,8 +436,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "布田",
     "nameKana": "ふだ",
     "nameEn": "Fuda",
-    "lat": 35.64979,
-    "lng": 139.55235,
+    "lat": 35.6497354,
+    "lng": 139.5523449,
     "transfers": [],
     "address": "東京都布田駅",
     "facilities": {
@@ -463,8 +463,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "調布",
     "nameKana": "ちょうふ",
     "nameEn": "Choufu",
-    "lat": 35.65143,
-    "lng": 139.54591,
+    "lat": 35.6514639,
+    "lng": 139.5459295,
     "transfers": [
       "京王相模原線"
     ],
@@ -497,8 +497,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "西調布",
     "nameKana": "にしちょうふ",
     "nameEn": "Nishichoufu",
-    "lat": 35.65692,
-    "lng": 139.53035,
+    "lat": 35.6569166,
+    "lng": 139.5303475,
     "transfers": [],
     "address": "東京都西調布駅",
     "facilities": {
@@ -525,8 +525,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "飛田給",
     "nameKana": "とびたきゅう",
     "nameEn": "Tobitakyuu",
-    "lat": 35.65963,
-    "lng": 139.52444,
+    "lat": 35.659632,
+    "lng": 139.5244414,
     "transfers": [],
     "address": "東京都飛田給駅",
     "facilities": {
@@ -553,8 +553,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "武蔵野台",
     "nameKana": "むさしのだい",
     "nameEn": "Musashinodai",
-    "lat": 35.66396,
-    "lng": 139.51209,
+    "lat": 35.6639708,
+    "lng": 139.5120935,
     "transfers": [],
     "address": "東京都武蔵野台駅",
     "facilities": {
@@ -581,8 +581,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "多磨霊園",
     "nameKana": "たまれいえん",
     "nameEn": "Tamareien",
-    "lat": 35.66602,
-    "lng": 139.50307,
+    "lat": 35.6660415,
+    "lng": 139.5030817,
     "transfers": [],
     "address": "東京都多磨霊園駅",
     "facilities": {
@@ -609,8 +609,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "東府中",
     "nameKana": "ひがしふちゅう",
     "nameEn": "Higashifuchuu",
-    "lat": 35.669,
-    "lng": 139.49478,
+    "lat": 35.669015,
+    "lng": 139.4947881,
     "transfers": [
       "京王競馬場線"
     ],
@@ -643,8 +643,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "府中",
     "nameKana": "ふちゅう",
     "nameEn": "Fuchuu",
-    "lat": 35.67234,
-    "lng": 139.47941,
+    "lat": 35.6723236,
+    "lng": 139.4794053,
     "transfers": [],
     "address": "東京都府中駅",
     "facilities": {
@@ -675,8 +675,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "分倍河原",
     "nameKana": "ぶばいがわら",
     "nameEn": "Bubaigawara",
-    "lat": 35.6686,
-    "lng": 139.46851,
+    "lat": 35.6685891,
+    "lng": 139.4685667,
     "transfers": [
       "ＪＲ南武線"
     ],
@@ -710,8 +710,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "中河原",
     "nameKana": "なかがわら",
     "nameEn": "Nakagawara",
-    "lat": 35.65951,
-    "lng": 139.45754,
+    "lat": 35.6595371,
+    "lng": 139.4575337,
     "transfers": [],
     "address": "東京都中河原駅",
     "facilities": {
@@ -739,8 +739,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "聖蹟桜ケ丘",
     "nameKana": "せいせきさくらがおか",
     "nameEn": "Seisekisakuragaoka",
-    "lat": 35.65076,
-    "lng": 139.4467,
+    "lat": 35.650732,
+    "lng": 139.4467082,
     "transfers": [],
     "address": "東京都聖蹟桜ケ丘駅",
     "facilities": {
@@ -771,8 +771,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "百草園",
     "nameKana": "もぐさえん",
     "nameEn": "Mogusaen",
-    "lat": 35.65723,
-    "lng": 139.43193,
+    "lat": 35.6572619,
+    "lng": 139.431944,
     "transfers": [],
     "address": "東京都百草園駅",
     "facilities": {
@@ -800,8 +800,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "高幡不動",
     "nameKana": "たかはたふどう",
     "nameEn": "Takahatafudou",
-    "lat": 35.66267,
-    "lng": 139.41223,
+    "lat": 35.6626778,
+    "lng": 139.412235,
     "transfers": [
       "京王動物園線",
       "多摩モノレール"
@@ -836,8 +836,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "南平",
     "nameKana": "みなみだいら",
     "nameEn": "Minamidaira",
-    "lat": 35.65473,
-    "lng": 139.39213,
+    "lat": 35.654748,
+    "lng": 139.392105,
     "transfers": [],
     "address": "東京都南平駅",
     "facilities": {
@@ -867,8 +867,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "平山城址公園",
     "nameKana": "ひらやまじょうしこうえん",
     "nameEn": "Hirayamajoushikouen",
-    "lat": 35.64668,
-    "lng": 139.37922,
+    "lat": 35.6466813,
+    "lng": 139.3792183,
     "transfers": [],
     "address": "東京都平山城址公園駅",
     "facilities": {
@@ -898,8 +898,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "長沼",
     "nameKana": "ながぬま",
     "nameEn": "Naganuma",
-    "lat": 35.64276,
-    "lng": 139.36669,
+    "lat": 35.6427671,
+    "lng": 139.3666903,
     "transfers": [],
     "address": "東京都長沼駅",
     "facilities": {
@@ -929,8 +929,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "北野",
     "nameKana": "きたの",
     "nameEn": "Kitano",
-    "lat": 35.64444,
-    "lng": 139.35429,
+    "lat": 35.6444793,
+    "lng": 139.3543158,
     "transfers": [
       "京王高尾線"
     ],
@@ -964,8 +964,8 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "name": "京王八王子",
     "nameKana": "けいおうはちおうじ",
     "nameEn": "Keiouhachiouji",
-    "lat": 35.65793,
-    "lng": 139.34309,
+    "lat": 35.6579493,
+    "lng": 139.3431094,
     "transfers": [],
     "address": "東京都京王八王子駅",
     "facilities": {

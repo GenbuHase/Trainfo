@@ -9,8 +9,8 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "name": "押上",
     "nameKana": "おしあげ",
     "nameEn": "Oshiage",
-    "lat": 35.71072,
-    "lng": 139.81324,
+    "lat": 35.7108037,
+    "lng": 139.8131715,
     "transfers": [
       "東武スカイツリーライン",
       "東京メトロ半蔵門線",
@@ -46,8 +46,8 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "name": "京成曳舟",
     "nameKana": "けいせいひきふね",
     "nameEn": "Keiseihikifune",
-    "lat": 35.71916,
-    "lng": 139.82093,
+    "lat": 35.7191409,
+    "lng": 139.8209532,
     "transfers": [],
     "address": "東京都京成曳舟駅",
     "facilities": {
@@ -73,8 +73,8 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "name": "八広",
     "nameKana": "やひろ",
     "nameEn": "Yahiro",
-    "lat": 35.7272,
-    "lng": 139.82827,
+    "lat": 35.7271404,
+    "lng": 139.8283384,
     "transfers": [],
     "address": "東京都八広駅",
     "facilities": {
@@ -100,8 +100,8 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "name": "四ツ木",
     "nameKana": "よつぎ",
     "nameEn": "Yotsugi",
-    "lat": 35.73217,
-    "lng": 139.83533,
+    "lat": 35.7321303,
+    "lng": 139.835376,
     "transfers": [],
     "address": "東京都四ツ木駅",
     "facilities": {
@@ -127,8 +127,8 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "name": "京成立石",
     "nameKana": "けいせいたていし",
     "nameEn": "Keiseitateishi",
-    "lat": 35.73834,
-    "lng": 139.84898,
+    "lat": 35.7383318,
+    "lng": 139.8489822,
     "transfers": [],
     "address": "東京都京成立石駅",
     "facilities": {
@@ -154,8 +154,8 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "name": "青砥",
     "nameKana": "あおと",
     "nameEn": "Aoto",
-    "lat": 35.74642,
-    "lng": 139.85669,
+    "lat": 35.7463877,
+    "lng": 139.8567584,
     "transfers": [
       "京成本線"
     ],

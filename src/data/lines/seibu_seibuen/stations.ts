@@ -9,8 +9,8 @@ export const SEIBU_SEIBUEN_STATIONS: Station[] = [
     "name": "東村山",
     "nameKana": "ひがしむらやま",
     "nameEn": "Higashimurayama",
-    "lat": 35.7609,
-    "lng": 139.46591,
+    "lat": 35.7609038,
+    "lng": 139.4657796,
     "transfers": [
       "西武新宿線",
       "西武国分寺線"
@@ -40,8 +40,8 @@ export const SEIBU_SEIBUEN_STATIONS: Station[] = [
     "name": "西武園",
     "nameKana": "せいぶえん",
     "nameEn": "Seibuen",
-    "lat": 35.76756,
-    "lng": 139.44934,
+    "lat": 35.767585,
+    "lng": 139.449355,
     "transfers": [],
     "address": "東京都西武園駅",
     "facilities": {

@@ -9,8 +9,8 @@ export const SHIBAYAMA_STATIONS: Station[] = [
     "name": "東成田",
     "nameKana": "ひがしなりた",
     "nameEn": "Higashinarita",
-    "lat": 35.77035,
-    "lng": 140.38676,
+    "lat": 35.7703684,
+    "lng": 140.386796,
     "transfers": [
       "京成東成田線"
     ],
@@ -39,8 +39,8 @@ export const SHIBAYAMA_STATIONS: Station[] = [
     "name": "芝山千代田",
     "nameKana": "しばやまちよだ",
     "nameEn": "Shibayamachiyoda",
-    "lat": 35.75375,
-    "lng": 140.40027,
+    "lat": 35.7537084,
+    "lng": 140.4002315,
     "transfers": [],
     "address": "千葉県芝山千代田駅",
     "facilities": {

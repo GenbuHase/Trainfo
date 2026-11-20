@@ -9,8 +9,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.68815,
-    "lng": 139.69791,
+    "lat": 35.6882151,
+    "lng": 139.6978697,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ埼京線",
@@ -49,8 +49,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "新宿三丁目",
     "nameKana": "しんじゅくさんちょうめ",
     "nameEn": "Shinjukusanchoume",
-    "lat": 35.69054,
-    "lng": 139.70558,
+    "lat": 35.6904659,
+    "lng": 139.7056531,
     "transfers": [
       "東京メトロ丸ノ内線",
       "東京メトロ副都心線"
@@ -80,8 +80,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "曙橋",
     "nameKana": "あけぼのばし",
     "nameEn": "Akebonobashi",
-    "lat": 35.69236,
-    "lng": 139.72159,
+    "lat": 35.6923576,
+    "lng": 139.7215905,
     "transfers": [],
     "address": "東京都曙橋駅",
     "facilities": {
@@ -107,8 +107,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "市ケ谷",
     "nameKana": "いちがや",
     "nameEn": "Ichigaya",
-    "lat": 35.6912,
-    "lng": 139.73649,
+    "lat": 35.6912243,
+    "lng": 139.7364809,
     "transfers": [
       "ＪＲ中央・総武線各駅停車",
       "東京メトロ有楽町線",
@@ -140,8 +140,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "九段下",
     "nameKana": "くだんした",
     "nameEn": "Kudanshita",
-    "lat": 35.69554,
-    "lng": 139.7514,
+    "lat": 35.6955394,
+    "lng": 139.7514002,
     "transfers": [
       "東京メトロ東西線",
       "東京メトロ半蔵門線"
@@ -171,8 +171,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "神保町",
     "nameKana": "じんぼうちょう",
     "nameEn": "Jimbouchou",
-    "lat": 35.69598749,
-    "lng": 139.7580105,
+    "lat": 35.6959745,
+    "lng": 139.7580111,
     "transfers": [
       "東京メトロ半蔵門線",
       "都営地下鉄三田線"
@@ -203,8 +203,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "小川町",
     "nameKana": "おがわまち",
     "nameEn": "Ogawamachi",
-    "lat": 35.69504,
-    "lng": 139.76639,
+    "lat": 35.6950524,
+    "lng": 139.766382,
     "transfers": [],
     "address": "東京都小川町駅",
     "facilities": {
@@ -230,8 +230,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "岩本町",
     "nameKana": "いわもとちょう",
     "nameEn": "Iwamotochou",
-    "lat": 35.69558,
-    "lng": 139.77513,
+    "lat": 35.6955853,
+    "lng": 139.7751303,
     "transfers": [],
     "address": "東京都岩本町駅",
     "facilities": {
@@ -257,8 +257,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "馬喰横山",
     "nameKana": "ばくろよこやま",
     "nameEn": "Bakuroyokoyama",
-    "lat": 35.69228,
-    "lng": 139.78261,
+    "lat": 35.6922707,
+    "lng": 139.7825973,
     "transfers": [],
     "address": "東京都馬喰横山駅",
     "facilities": {
@@ -285,8 +285,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "浜町",
     "nameKana": "はまちょう",
     "nameEn": "Hamachou",
-    "lat": 35.68879,
-    "lng": 139.78727,
+    "lat": 35.6887403,
+    "lng": 139.7872402,
     "transfers": [],
     "address": "東京都浜町駅",
     "facilities": {
@@ -312,8 +312,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "森下",
     "nameKana": "もりした",
     "nameEn": "Morishita",
-    "lat": 35.68804,
-    "lng": 139.79734,
+    "lat": 35.6879516,
+    "lng": 139.797344,
     "transfers": [
       "都営地下鉄大江戸線"
     ],
@@ -343,8 +343,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "菊川",
     "nameKana": "きくかわ",
     "nameEn": "Kikukawa",
-    "lat": 35.6884,
-    "lng": 139.80606,
+    "lat": 35.6883573,
+    "lng": 139.8060633,
     "transfers": [],
     "address": "東京都菊川駅",
     "facilities": {
@@ -370,8 +370,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "住吉",
     "nameKana": "すみよし",
     "nameEn": "Sumiyoshi",
-    "lat": 35.68895,
-    "lng": 139.81564,
+    "lat": 35.6889898,
+    "lng": 139.8156371,
     "transfers": [
       "東京メトロ半蔵門線"
     ],
@@ -400,8 +400,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "西大島",
     "nameKana": "にしおおじま",
     "nameEn": "Nishioojima",
-    "lat": 35.68936,
-    "lng": 139.82625,
+    "lat": 35.6893125,
+    "lng": 139.8262497,
     "transfers": [],
     "address": "東京都西大島駅",
     "facilities": {
@@ -427,8 +427,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "大島",
     "nameKana": "おおじま",
     "nameEn": "Oojima",
-    "lat": 35.68975,
-    "lng": 139.83425,
+    "lat": 35.6896227,
+    "lng": 139.8342663,
     "transfers": [],
     "address": "東京都大島駅",
     "facilities": {
@@ -455,8 +455,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "東大島",
     "nameKana": "ひがしおおじま",
     "nameEn": "Higashioojima",
-    "lat": 35.68985,
-    "lng": 139.84756,
+    "lat": 35.6898456,
+    "lng": 139.8475574,
     "transfers": [],
     "address": "東京都東大島駅",
     "facilities": {
@@ -482,8 +482,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "船堀",
     "nameKana": "ふなぼり",
     "nameEn": "Funabori",
-    "lat": 35.68375,
-    "lng": 139.86284,
+    "lat": 35.6837555,
+    "lng": 139.8628405,
     "transfers": [],
     "address": "東京都船堀駅",
     "facilities": {
@@ -510,8 +510,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "一之江",
     "nameKana": "いちのえ",
     "nameEn": "Ichinoe",
-    "lat": 35.6858,
-    "lng": 139.88188,
+    "lat": 35.6858079,
+    "lng": 139.8818782,
     "transfers": [],
     "address": "東京都一之江駅",
     "facilities": {
@@ -537,8 +537,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "瑞江",
     "nameKana": "みずえ",
     "nameEn": "Mizue",
-    "lat": 35.69268,
-    "lng": 139.89731,
+    "lat": 35.6926755,
+    "lng": 139.8973197,
     "transfers": [],
     "address": "東京都瑞江駅",
     "facilities": {
@@ -564,8 +564,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "篠崎",
     "nameKana": "しのざき",
     "nameEn": "Shinozaki",
-    "lat": 35.70543,
-    "lng": 139.90318,
+    "lat": 35.7054496,
+    "lng": 139.9031457,
     "transfers": [],
     "address": "東京都篠崎駅",
     "facilities": {
@@ -591,8 +591,8 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "name": "本八幡",
     "nameKana": "もとやわた",
     "nameEn": "Motoyawata",
-    "lat": 35.72263,
-    "lng": 139.92627,
+    "lat": 35.7226069,
+    "lng": 139.9263329,
     "transfers": [],
     "address": "千葉県本八幡駅",
     "facilities": {

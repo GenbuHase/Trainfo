@@ -9,8 +9,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "西船橋",
     "nameKana": "にしふなばし",
     "nameEn": "Nishifunabashi",
-    "lat": 35.7072783,
-    "lng": 139.9588697,
+    "lat": 35.7071951,
+    "lng": 139.9588038,
     "transfers": [
       "ＪＲ京葉線",
       "ＪＲ武蔵野線",
@@ -42,8 +42,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "東海神",
     "nameKana": "ひがしかいじん",
     "nameEn": "Higashikaijin",
-    "lat": 35.70545,
-    "lng": 139.97942,
+    "lat": 35.7054344,
+    "lng": 139.9794305,
     "transfers": [],
     "address": "千葉県東海神駅",
     "facilities": {
@@ -69,8 +69,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "飯山満",
     "nameKana": "はさま",
     "nameEn": "Hasama",
-    "lat": 35.71355,
-    "lng": 140.02126,
+    "lat": 35.7135686,
+    "lng": 140.0212495,
     "transfers": [],
     "address": "千葉県飯山満駅",
     "facilities": {
@@ -96,8 +96,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "北習志野",
     "nameKana": "きたならしの",
     "nameEn": "Kitanarashino",
-    "lat": 35.72176,
-    "lng": 140.04271,
+    "lat": 35.7217842,
+    "lng": 140.0426986,
     "transfers": [
       "京成松戸線"
     ],
@@ -126,8 +126,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "船橋日大前",
     "nameKana": "ふなばしにちだいまえ",
     "nameEn": "Funabashinichidaimae",
-    "lat": 35.72748,
-    "lng": 140.06084,
+    "lat": 35.7275279,
+    "lng": 140.060816,
     "transfers": [],
     "address": "千葉県船橋日大前駅",
     "facilities": {
@@ -153,8 +153,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "八千代緑が丘",
     "nameKana": "やちよみどりがおか",
     "nameEn": "Yachiyomidorigaoka",
-    "lat": 35.72886,
-    "lng": 140.07215,
+    "lat": 35.7288731,
+    "lng": 140.072148,
     "transfers": [],
     "address": "千葉県八千代緑が丘駅",
     "facilities": {
@@ -180,8 +180,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "八千代中央",
     "nameKana": "やちよちゅうおう",
     "nameEn": "Yachiyochuuou",
-    "lat": 35.72811,
-    "lng": 140.10219,
+    "lat": 35.7281517,
+    "lng": 140.1022046,
     "transfers": [],
     "address": "千葉県八千代中央駅",
     "facilities": {
@@ -207,8 +207,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "村上",
     "nameKana": "むらかみ",
     "nameEn": "Murakami",
-    "lat": 35.72419,
-    "lng": 140.1176,
+    "lat": 35.7241472,
+    "lng": 140.1175703,
     "transfers": [],
     "address": "千葉県村上駅",
     "facilities": {
@@ -234,8 +234,8 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "name": "東葉勝田台",
     "nameKana": "とうようかつただい",
     "nameEn": "Touyoukatsutadai",
-    "lat": 35.71583,
-    "lng": 140.1261,
+    "lat": 35.7158413,
+    "lng": 140.1261357,
     "transfers": [],
     "address": "千葉県東葉勝田台駅",
     "facilities": {

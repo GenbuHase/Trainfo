@@ -9,8 +9,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "新宿西口",
     "nameKana": "しんじゅくにしぐち",
     "nameEn": "Shinjukunishiguchi",
-    "lat": 35.6925,
-    "lng": 139.69931,
+    "lat": 35.692499,
+    "lng": 139.6992785,
     "transfers": [],
     "address": "東京都新宿西口駅",
     "facilities": {
@@ -37,8 +37,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "東新宿",
     "nameKana": "ひがししんじゅく",
     "nameEn": "Higashishinjuku",
-    "lat": 35.698,
-    "lng": 139.70686,
+    "lat": 35.6979371,
+    "lng": 139.7068462,
     "transfers": [
       "東京メトロ副都心線"
     ],
@@ -67,8 +67,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "若松河田",
     "nameKana": "わかまつかわだ",
     "nameEn": "Wakamatsukawada",
-    "lat": 35.69893,
-    "lng": 139.71743,
+    "lat": 35.6989436,
+    "lng": 139.7174233,
     "transfers": [],
     "address": "東京都若松河田駅",
     "facilities": {
@@ -94,8 +94,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "牛込柳町",
     "nameKana": "うしごめやなぎちょう",
     "nameEn": "Ushigomeyanagichou",
-    "lat": 35.69952,
-    "lng": 139.72439,
+    "lat": 35.6995382,
+    "lng": 139.7243929,
     "transfers": [],
     "address": "東京都牛込柳町駅",
     "facilities": {
@@ -121,8 +121,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "牛込神楽坂",
     "nameKana": "うしごめかぐらざか",
     "nameEn": "Ushigomekagurazaka",
-    "lat": 35.70062,
-    "lng": 139.73531,
+    "lat": 35.7006202,
+    "lng": 139.7353099,
     "transfers": [],
     "address": "東京都牛込神楽坂駅",
     "facilities": {
@@ -148,8 +148,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "飯田橋",
     "nameKana": "いいだばし",
     "nameEn": "Iidabashi",
-    "lat": 35.70309,
-    "lng": 139.74571,
+    "lat": 35.7030718,
+    "lng": 139.7457209,
     "transfers": [
       "ＪＲ中央・総武線各駅停車",
       "東京メトロ東西線",
@@ -181,8 +181,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "春日",
     "nameKana": "かすが",
     "nameEn": "Kasuga",
-    "lat": 35.7085,
-    "lng": 139.75179,
+    "lat": 35.7084817,
+    "lng": 139.7518158,
     "transfers": [
       "都営地下鉄三田線"
     ],
@@ -211,8 +211,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "本郷三丁目",
     "nameKana": "ほんごうさんちょうめ",
     "nameEn": "Hongousanchoume",
-    "lat": 35.70758,
-    "lng": 139.76106,
+    "lat": 35.7075018,
+    "lng": 139.7610615,
     "transfers": [
       "東京メトロ丸ノ内線"
     ],
@@ -241,8 +241,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "上野御徒町",
     "nameKana": "うえのおかちまち",
     "nameEn": "Uenookachimachi",
-    "lat": 35.70802,
-    "lng": 139.77246,
+    "lat": 35.7080071,
+    "lng": 139.772458,
     "transfers": [],
     "address": "東京都上野御徒町駅",
     "facilities": {
@@ -268,8 +268,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "新御徒町",
     "nameKana": "しんおかちまち",
     "nameEn": "Shinokachimachi",
-    "lat": 35.707,
-    "lng": 139.78191,
+    "lat": 35.7070043,
+    "lng": 139.7819108,
     "transfers": [
       "つくばエクスプレス"
     ],
@@ -298,8 +298,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "蔵前",
     "nameKana": "くらまえ",
     "nameEn": "Kuramae",
-    "lat": 35.70552,
-    "lng": 139.79223,
+    "lat": 35.7055325,
+    "lng": 139.7922367,
     "transfers": [
       "都営地下鉄浅草線"
     ],
@@ -328,8 +328,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "両国",
     "nameKana": "りょうごく",
     "nameEn": "Ryougoku",
-    "lat": 35.69692,
-    "lng": 139.79742,
+    "lat": 35.6969172,
+    "lng": 139.7973669,
     "transfers": [],
     "address": "東京都両国駅",
     "facilities": {
@@ -355,8 +355,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "森下",
     "nameKana": "もりした",
     "nameEn": "Morishita",
-    "lat": 35.68805,
-    "lng": 139.79818,
+    "lat": 35.6880501,
+    "lng": 139.7981818,
     "transfers": [
       "都営地下鉄新宿線"
     ],
@@ -385,8 +385,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "清澄白河",
     "nameKana": "きよすみしらかわ",
     "nameEn": "Kiyosumishirakawa",
-    "lat": 35.68322,
-    "lng": 139.79862,
+    "lat": 35.6832157,
+    "lng": 139.798546,
     "transfers": [
       "東京メトロ半蔵門線"
     ],
@@ -415,8 +415,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "門前仲町",
     "nameKana": "もんぜんなかちょう",
     "nameEn": "Monzennakachou",
-    "lat": 35.67273,
-    "lng": 139.79511,
+    "lat": 35.6727715,
+    "lng": 139.7950165,
     "transfers": [
       "東京メトロ東西線"
     ],
@@ -445,8 +445,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "月島",
     "nameKana": "つきしま",
     "nameEn": "Tsukishima",
-    "lat": 35.66351,
-    "lng": 139.78356,
+    "lat": 35.6634679,
+    "lng": 139.7836059,
     "transfers": [
       "東京メトロ有楽町線"
     ],
@@ -475,8 +475,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "勝どき",
     "nameKana": "かちどき",
     "nameEn": "Kachidoki",
-    "lat": 35.65865,
-    "lng": 139.77671,
+    "lat": 35.6586226,
+    "lng": 139.7767389,
     "transfers": [],
     "address": "東京都勝どき駅",
     "facilities": {
@@ -502,8 +502,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "築地市場",
     "nameKana": "つきじしじょう",
     "nameEn": "Tsukijishijou",
-    "lat": 35.6653,
-    "lng": 139.76632,
+    "lat": 35.6652744,
+    "lng": 139.7662862,
     "transfers": [],
     "address": "東京都築地市場駅",
     "facilities": {
@@ -529,8 +529,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "汐留",
     "nameKana": "しおどめ",
     "nameEn": "Shiodome",
-    "lat": 35.66443,
-    "lng": 139.76088,
+    "lat": 35.6642392,
+    "lng": 139.761143,
     "transfers": [
       "ゆりかもめ"
     ],
@@ -559,8 +559,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "大門",
     "nameKana": "だいもん",
     "nameEn": "Daimon",
-    "lat": 35.65664,
-    "lng": 139.75617,
+    "lat": 35.6565839,
+    "lng": 139.7561619,
     "transfers": [
       "都営地下鉄浅草線"
     ],
@@ -589,8 +589,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "赤羽橋",
     "nameKana": "あかばねばし",
     "nameEn": "Akabanebashi",
-    "lat": 35.65489,
-    "lng": 139.74497,
+    "lat": 35.6549002,
+    "lng": 139.7449712,
     "transfers": [],
     "address": "東京都赤羽橋駅",
     "facilities": {
@@ -616,8 +616,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "麻布十番",
     "nameKana": "あざぶじゅうばん",
     "nameEn": "Azabujuuban",
-    "lat": 35.65633,
-    "lng": 139.73682,
+    "lat": 35.6563052,
+    "lng": 139.7368129,
     "transfers": [
       "東京メトロ南北線"
     ],
@@ -646,8 +646,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "六本木",
     "nameKana": "ろっぽんぎ",
     "nameEn": "Roppongi",
-    "lat": 35.66365,
-    "lng": 139.73179,
+    "lat": 35.6636689,
+    "lng": 139.7318154,
     "transfers": [
       "東京メトロ日比谷線"
     ],
@@ -676,8 +676,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "青山一丁目",
     "nameKana": "あおやまいっちょうめ",
     "nameEn": "Aoyamaitchoume",
-    "lat": 35.67276,
-    "lng": 139.72406,
+    "lat": 35.67273,
+    "lng": 139.7239654,
     "transfers": [
       "東京メトロ銀座線",
       "東京メトロ半蔵門線"
@@ -707,8 +707,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "国立競技場",
     "nameKana": "こくりつきょうぎじょう",
     "nameEn": "Kokuritsukyougijou",
-    "lat": 35.67997,
-    "lng": 139.71441,
+    "lat": 35.6799253,
+    "lng": 139.7143901,
     "transfers": [],
     "address": "東京都国立競技場駅",
     "facilities": {
@@ -734,8 +734,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "代々木",
     "nameKana": "よよぎ",
     "nameEn": "Yoyogi",
-    "lat": 35.68456,
-    "lng": 139.70131,
+    "lat": 35.6845497,
+    "lng": 139.7012597,
     "transfers": [
       "ＪＲ中央・総武線各駅停車",
       "ＪＲ山手線外回り",
@@ -766,8 +766,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.68809,
-    "lng": 139.69918,
+    "lat": 35.6880784,
+    "lng": 139.6991286,
     "transfers": [
       "ＪＲ湘南新宿ライン",
       "ＪＲ埼京線",
@@ -805,8 +805,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "都庁前",
     "nameKana": "とちょうまえ",
     "nameEn": "Tochoumae",
-    "lat": 35.69045,
-    "lng": 139.6918,
+    "lat": 35.6903552,
+    "lng": 139.6918174,
     "transfers": [],
     "address": "東京都都庁前駅",
     "facilities": {
@@ -859,8 +859,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "中野坂上",
     "nameKana": "なかのさかうえ",
     "nameEn": "Nakanosakaue",
-    "lat": 35.69858,
-    "lng": 139.68299,
+    "lat": 35.6985818,
+    "lng": 139.682928,
     "transfers": [
       "東京メトロ丸ノ内線"
     ],
@@ -889,8 +889,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "東中野",
     "nameKana": "ひがしなかの",
     "nameEn": "Higashinakano",
-    "lat": 35.70802,
-    "lng": 139.68354,
+    "lat": 35.7080395,
+    "lng": 139.6834742,
     "transfers": [
       "ＪＲ中央・総武線各駅停車"
     ],
@@ -919,8 +919,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "中井",
     "nameKana": "なかい",
     "nameEn": "Nakai",
-    "lat": 35.71452,
-    "lng": 139.68662,
+    "lat": 35.7145531,
+    "lng": 139.686513,
     "transfers": [
       "西武新宿線"
     ],
@@ -949,8 +949,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "落合南長崎",
     "nameKana": "おちあいみなみながさき",
     "nameEn": "Ochiaiminaminagasaki",
-    "lat": 35.72368,
-    "lng": 139.6833,
+    "lat": 35.7236562,
+    "lng": 139.6832348,
     "transfers": [],
     "address": "東京都落合南長崎駅",
     "facilities": {
@@ -976,8 +976,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "新江古田",
     "nameKana": "しんえごた",
     "nameEn": "Shinegota",
-    "lat": 35.73249,
-    "lng": 139.67057,
+    "lat": 35.7325021,
+    "lng": 139.6705764,
     "transfers": [],
     "address": "東京都新江古田駅",
     "facilities": {
@@ -1003,8 +1003,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "練馬",
     "nameKana": "ねりま",
     "nameEn": "Nerima",
-    "lat": 35.73715,
-    "lng": 139.65363,
+    "lat": 35.7371794,
+    "lng": 139.6536229,
     "transfers": [
       "西武池袋線",
       "西武有楽町線",
@@ -1035,8 +1035,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "豊島園",
     "nameKana": "としまえん",
     "nameEn": "Toshimaen",
-    "lat": 35.74248,
-    "lng": 139.64923,
+    "lat": 35.7424927,
+    "lng": 139.6490661,
     "transfers": [],
     "address": "東京都豊島園駅",
     "facilities": {
@@ -1062,8 +1062,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "練馬春日町",
     "nameKana": "ねりまかすがちょう",
     "nameEn": "Nerimakasugachou",
-    "lat": 35.75164,
-    "lng": 139.63991,
+    "lat": 35.7515441,
+    "lng": 139.6398566,
     "transfers": [],
     "address": "東京都練馬春日町駅",
     "facilities": {
@@ -1089,8 +1089,8 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "name": "光が丘",
     "nameKana": "ひかりがおか",
     "nameEn": "Hikarigaoka",
-    "lat": 35.75846,
-    "lng": 139.62851,
+    "lat": 35.7584896,
+    "lng": 139.6285093,
     "transfers": [],
     "address": "東京都光が丘駅",
     "facilities": {

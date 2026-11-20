@@ -39,8 +39,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "川口元郷",
     "nameKana": "かわぐちもとごう",
     "nameEn": "Kawaguchimotogou",
-    "lat": 35.79974,
-    "lng": 139.72963,
+    "lat": 35.7997598,
+    "lng": 139.7295969,
     "transfers": [],
     "address": "埼玉県川口元郷駅",
     "facilities": {
@@ -66,8 +66,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "南鳩ケ谷",
     "nameKana": "みなみはとがや",
     "nameEn": "Minamihatogaya",
-    "lat": 35.81689,
-    "lng": 139.73631,
+    "lat": 35.8168945,
+    "lng": 139.7362895,
     "transfers": [],
     "address": "埼玉県南鳩ケ谷駅",
     "facilities": {
@@ -93,8 +93,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "鳩ケ谷",
     "nameKana": "はとがや",
     "nameEn": "Hatogaya",
-    "lat": 35.8316,
-    "lng": 139.73579,
+    "lat": 35.8315938,
+    "lng": 139.7357666,
     "transfers": [],
     "address": "埼玉県鳩ケ谷駅",
     "facilities": {
@@ -120,8 +120,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "新井宿",
     "nameKana": "あらいじゅく",
     "nameEn": "Araijuku",
-    "lat": 35.84304,
-    "lng": 139.73911,
+    "lat": 35.8430881,
+    "lng": 139.7391072,
     "transfers": [],
     "address": "埼玉県新井宿駅",
     "facilities": {
@@ -147,8 +147,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "戸塚安行",
     "nameKana": "とづかあんぎょう",
     "nameEn": "Tozukaangyou",
-    "lat": 35.85996,
-    "lng": 139.75379,
+    "lat": 35.8599627,
+    "lng": 139.7536943,
     "transfers": [],
     "address": "埼玉県戸塚安行駅",
     "facilities": {
@@ -174,8 +174,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "東川口",
     "nameKana": "ひがしかわぐち",
     "nameEn": "Higashikawaguchi",
-    "lat": 35.87725,
-    "lng": 139.7431,
+    "lat": 35.8772467,
+    "lng": 139.7429991,
     "transfers": [
       "ＪＲ武蔵野線"
     ],
@@ -204,8 +204,8 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "name": "浦和美園",
     "nameKana": "うらわみその",
     "nameEn": "Urawamisono",
-    "lat": 35.89431,
-    "lng": 139.72738,
+    "lat": 35.8942881,
+    "lng": 139.7273352,
     "transfers": [],
     "address": "埼玉県浦和美園駅",
     "facilities": {

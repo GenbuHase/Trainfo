@@ -9,8 +9,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "大井町",
     "nameKana": "おおいまち",
     "nameEn": "Ooimachi",
-    "lat": 35.60775,
-    "lng": 139.73373,
+    "lat": 35.6077736,
+    "lng": 139.7337315,
     "transfers": [
       "ＪＲ京浜東北線",
       "東京臨海高速鉄道りんかい線"
@@ -41,8 +41,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "下神明",
     "nameKana": "しもしんめい",
     "nameEn": "Shimoshimmei",
-    "lat": 35.60858,
-    "lng": 139.72668,
+    "lat": 35.6085965,
+    "lng": 139.7266891,
     "transfers": [],
     "address": "東京都下神明駅",
     "facilities": {
@@ -68,8 +68,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "戸越公園",
     "nameKana": "とごしこうえん",
     "nameEn": "Togoshikouen",
-    "lat": 35.60901,
-    "lng": 139.7188,
+    "lat": 35.6090156,
+    "lng": 139.7187988,
     "transfers": [],
     "address": "東京都戸越公園駅",
     "facilities": {
@@ -95,8 +95,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "中延",
     "nameKana": "なかのぶ",
     "nameEn": "Nakanobu",
-    "lat": 35.60596,
-    "lng": 139.7129,
+    "lat": 35.6059375,
+    "lng": 139.7129233,
     "transfers": [
       "都営地下鉄浅草線"
     ],
@@ -125,8 +125,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "荏原町",
     "nameKana": "えばらまち",
     "nameEn": "Ebaramachi",
-    "lat": 35.6038,
-    "lng": 139.70796,
+    "lat": 35.6038446,
+    "lng": 139.7079597,
     "transfers": [],
     "address": "東京都荏原町駅",
     "facilities": {
@@ -152,8 +152,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "旗の台",
     "nameKana": "はたのだい",
     "nameEn": "Hatanodai",
-    "lat": 35.60501,
-    "lng": 139.70176,
+    "lat": 35.6050471,
+    "lng": 139.7017698,
     "transfers": [
       "東急池上線"
     ],
@@ -183,8 +183,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "北千束",
     "nameKana": "きたせんぞく",
     "nameEn": "Kitasenzoku",
-    "lat": 35.60641,
-    "lng": 139.69288,
+    "lat": 35.606411,
+    "lng": 139.6928806,
     "transfers": [],
     "address": "東京都北千束駅",
     "facilities": {
@@ -210,8 +210,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "大岡山",
     "nameKana": "おおおかやま",
     "nameEn": "Oookayama",
-    "lat": 35.60712,
-    "lng": 139.68502,
+    "lat": 35.6072415,
+    "lng": 139.6849696,
     "transfers": [
       "東急目黒線"
     ],
@@ -241,8 +241,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "緑が丘",
     "nameKana": "みどりがおか",
     "nameEn": "Midorigaoka",
-    "lat": 35.60658,
-    "lng": 139.67875,
+    "lat": 35.606622,
+    "lng": 139.6787725,
     "transfers": [],
     "address": "東京都緑が丘駅",
     "facilities": {
@@ -268,8 +268,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "自由が丘",
     "nameKana": "じゆうがおか",
     "nameEn": "Jiyuugaoka",
-    "lat": 35.60712,
-    "lng": 139.6682,
+    "lat": 35.6071616,
+    "lng": 139.6682003,
     "transfers": [
       "東急東横線"
     ],
@@ -299,8 +299,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "九品仏",
     "nameKana": "くほんぶつ",
     "nameEn": "Kuhombutsu",
-    "lat": 35.60544,
-    "lng": 139.66058,
+    "lat": 35.6054791,
+    "lng": 139.6605913,
     "transfers": [],
     "address": "東京都九品仏駅",
     "facilities": {
@@ -326,8 +326,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "尾山台",
     "nameKana": "おやまだい",
     "nameEn": "Oyamadai",
-    "lat": 35.60709,
-    "lng": 139.65342,
+    "lat": 35.607098,
+    "lng": 139.6534229,
     "transfers": [],
     "address": "東京都尾山台駅",
     "facilities": {
@@ -353,8 +353,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "等々力",
     "nameKana": "とどろき",
     "nameEn": "Todoroki",
-    "lat": 35.60851,
-    "lng": 139.64743,
+    "lat": 35.6084712,
+    "lng": 139.6474098,
     "transfers": [],
     "address": "東京都等々力駅",
     "facilities": {
@@ -380,8 +380,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "上野毛",
     "nameKana": "かみのげ",
     "nameEn": "Kaminoge",
-    "lat": 35.61201,
-    "lng": 139.63888,
+    "lat": 35.6119514,
+    "lng": 139.6388316,
     "transfers": [],
     "address": "東京都上野毛駅",
     "facilities": {
@@ -407,8 +407,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "二子玉川",
     "nameKana": "ふたこたまがわ",
     "nameEn": "Futakotamagawa",
-    "lat": 35.6118,
-    "lng": 139.6267,
+    "lat": 35.6117437,
+    "lng": 139.6267808,
     "transfers": [
       "東急田園都市線"
     ],
@@ -438,8 +438,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "二子新地",
     "nameKana": "ふたこしんち",
     "nameEn": "Futakoshinchi",
-    "lat": 35.60721,
-    "lng": 139.62258,
+    "lat": 35.6071823,
+    "lng": 139.6226241,
     "transfers": [
       "東急田園都市線"
     ],
@@ -468,8 +468,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "高津",
     "nameKana": "たかつ",
     "nameEn": "Takatsu",
-    "lat": 35.60389,
-    "lng": 139.61852,
+    "lat": 35.6039272,
+    "lng": 139.6184907,
     "transfers": [
       "東急田園都市線"
     ],
@@ -498,8 +498,8 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "name": "溝の口",
     "nameKana": "みぞのくち",
     "nameEn": "Mizonokuchi",
-    "lat": 35.59976,
-    "lng": 139.61046,
+    "lat": 35.599774,
+    "lng": 139.6104456,
     "transfers": [
       "東急田園都市線"
     ],

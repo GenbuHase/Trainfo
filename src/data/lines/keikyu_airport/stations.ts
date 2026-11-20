@@ -9,8 +9,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "京急蒲田",
     "nameKana": "けいきゅうかまた",
     "nameEn": "Keikyuukamata",
-    "lat": 35.56163,
-    "lng": 139.7243,
+    "lat": 35.5615693,
+    "lng": 139.724429,
     "transfers": [
       "京急本線"
     ],
@@ -42,8 +42,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "糀谷",
     "nameKana": "こうじや",
     "nameEn": "Koujiya",
-    "lat": 35.55468,
-    "lng": 139.72933,
+    "lat": 35.5547328,
+    "lng": 139.7294068,
     "transfers": [],
     "address": "東京都糀谷駅",
     "facilities": {
@@ -71,8 +71,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "大鳥居",
     "nameKana": "おおとりい",
     "nameEn": "Ootorii",
-    "lat": 35.55255,
-    "lng": 139.7394,
+    "lat": 35.552529,
+    "lng": 139.7393914,
     "transfers": [],
     "address": "東京都大鳥居駅",
     "facilities": {
@@ -100,8 +100,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "穴守稲荷",
     "nameKana": "あなもりいなり",
     "nameEn": "Anamoriinari",
-    "lat": 35.55031,
-    "lng": 139.74677,
+    "lat": 35.5502973,
+    "lng": 139.7467638,
     "transfers": [],
     "address": "東京都穴守稲荷駅",
     "facilities": {
@@ -129,8 +129,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "天空橋",
     "nameKana": "てんくうばし",
     "nameEn": "Tenkuubashi",
-    "lat": 35.54803,
-    "lng": 139.7548,
+    "lat": 35.5480189,
+    "lng": 139.7547892,
     "transfers": [
       "東京モノレール羽田空港線"
     ],
@@ -161,8 +161,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "羽田空港第３ターミナル",
     "nameKana": "はねだくうこうだいさんたーみなる",
     "nameEn": "Hanedakuukoudaisantaminaru",
-    "lat": 35.544836,
-    "lng": 139.768073,
+    "lat": 35.5448556,
+    "lng": 139.7680766,
     "transfers": [],
     "address": "東京都羽田空港第３ターミナル駅",
     "facilities": {
@@ -191,8 +191,8 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "name": "羽田空港第１・第２ターミナル",
     "nameKana": "はねだくうこうだいいちだいにたーみなる",
     "nameEn": "Hanedakuukoudaiichidainitaminaru",
-    "lat": 35.54999,
-    "lng": 139.7864,
+    "lat": 35.5499375,
+    "lng": 139.7864385,
     "transfers": [],
     "address": "東京都羽田空港第１・第２ターミナル駅",
     "facilities": {
