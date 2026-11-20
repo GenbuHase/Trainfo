@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-H2_jWOW5.json`,import.meta.url).href;export{e as default};

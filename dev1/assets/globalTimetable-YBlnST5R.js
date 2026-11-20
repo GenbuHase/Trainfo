@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-BU3_pTVU.json`,import.meta.url).href;export{e as default};

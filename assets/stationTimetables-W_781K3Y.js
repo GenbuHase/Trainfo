@@ -1,0 +1,1 @@
+var e=new URL(`stationTimetables-CKr8YRf5.json`,import.meta.url).href;export{e as default};

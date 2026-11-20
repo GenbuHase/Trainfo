@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-Doi0lND5.json`,import.meta.url).href;export{e as default};

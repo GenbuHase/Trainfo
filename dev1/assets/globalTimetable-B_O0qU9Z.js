@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-1m8r-MBQ.json`,import.meta.url).href;export{e as default};

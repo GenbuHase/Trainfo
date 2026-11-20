@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-Mjg-yrd0.json`,import.meta.url).href;export{e as default};

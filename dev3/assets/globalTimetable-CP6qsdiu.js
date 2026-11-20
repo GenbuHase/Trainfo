@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-XG4-PqaX.json`,import.meta.url).href;export{e as default};

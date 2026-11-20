@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-BcCUyAmg.json`,import.meta.url).href;export{e as default};

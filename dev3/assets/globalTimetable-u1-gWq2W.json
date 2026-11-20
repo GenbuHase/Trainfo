@@ -1,0 +1,3772 @@
+[
+  {
+    "tripId": "WD_OUT_KSH-01_0551_55018",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55018",
+    "trainNumber": "511レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成津田沼",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0557_55018",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-26_0514_55018",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0611_55096",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55096",
+    "trainNumber": "610レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:17:00",
+        "departureTime": "06:28:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_0628_55096",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_0608_55096",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0618_55022",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55022",
+    "trainNumber": "6A09",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:17:00",
+        "departureTime": "06:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:23:00",
+        "departureTime": "06:24:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0624_55022",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-38_0612_55022",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0636_55026",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55026",
+    "trainNumber": "663K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:36:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:43:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0643_55026",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-38_0631_55026",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0646_55085",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55085",
+    "trainNumber": "6A08",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_0653_55085",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_0637_55085",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0700_55027",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55027",
+    "trainNumber": "6A13",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:58:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0711_55027",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-38_0653_55027",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0711_57545",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "57545",
+    "trainNumber": "762K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "西馬込",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:10:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:17:00",
+        "departureTime": "07:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_0719_57545",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_0707_57545",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0727_55088",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55088",
+    "trainNumber": "7A12",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_0734_55088",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_0723_55088",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0729_55031",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55031",
+    "trainNumber": "7A15",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:28:00",
+        "departureTime": "07:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0735_55031",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-38_0723_55031",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0748_54991",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54991",
+    "trainNumber": "6A21",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0754_54991",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_0628_54991",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0749_55089",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55089",
+    "trainNumber": "7A14",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:55:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_0807_55089",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_0745_55089",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0800_54977",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54977",
+    "trainNumber": "641レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:58:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:06:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0806_54977",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_0616_54977",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0807_55111",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55111",
+    "trainNumber": "8A20",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:05:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:13:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_0802_55111",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0825_55114",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55114",
+    "trainNumber": "840レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:24:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_0821_55114",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0832_54982",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54982",
+    "trainNumber": "645レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0838_54982",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_0643_54982",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0853_55115",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55115",
+    "trainNumber": "844レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:59:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_0849_55115",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0903_55035",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55035",
+    "trainNumber": "881レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:03:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:09:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0909_55035",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_0923_55120",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55120",
+    "trainNumber": "980レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:23:00",
+        "departureTime": "09:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_0920_55120",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_0934_55039",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55039",
+    "trainNumber": "981レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:34:00",
+        "departureTime": "09:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_0940_55039",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1003_55123",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55123",
+    "trainNumber": "1080a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:09:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1000_55123",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1014_55043",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55043",
+    "trainNumber": "1081a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:14:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1020_55043",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1043_55128",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55128",
+    "trainNumber": "1080b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:49:00",
+        "departureTime": "10:49:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1040_55128",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1054_55048",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55048",
+    "trainNumber": "1081b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:54:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1100_55048",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1123_55131",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55131",
+    "trainNumber": "1180レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "11:29:00",
+        "departureTime": "11:29:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1120_55131",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1134_55052",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55052",
+    "trainNumber": "1181レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "11:34:00",
+        "departureTime": "11:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "11:40:00",
+        "departureTime": "11:40:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1140_55052",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1206_55136",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55136",
+    "trainNumber": "1280a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "12:05:00",
+        "departureTime": "12:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "12:12:00",
+        "departureTime": "12:12:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1202_55136",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1225_55056",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55056",
+    "trainNumber": "1281レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "12:25:00",
+        "departureTime": "12:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1231_55056",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1250_55140",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55140",
+    "trainNumber": "1280b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1247_55140",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1305_55058",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55058",
+    "trainNumber": "1381a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "13:05:00",
+        "departureTime": "13:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1311_55058",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1330_55141",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55141",
+    "trainNumber": "1380レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1327_55141",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1345_55059",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55059",
+    "trainNumber": "1381b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "13:45:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "13:50:00",
+        "departureTime": "13:51:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1351_55059",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1410_55144",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55144",
+    "trainNumber": "1480a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "14:10:00",
+        "departureTime": "14:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "14:16:00",
+        "departureTime": "14:16:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1407_55144",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1425_55061",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55061",
+    "trainNumber": "1481レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "14:25:00",
+        "departureTime": "14:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1431_55061",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1450_55146",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55146",
+    "trainNumber": "1480b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "14:56:00",
+        "departureTime": "14:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1447_55146",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1505_55063",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55063",
+    "trainNumber": "1581a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "15:05:00",
+        "departureTime": "15:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1511_55063",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1530_55148",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55148",
+    "trainNumber": "1580レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1527_55148",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1545_55066",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55066",
+    "trainNumber": "1581b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1551_55066",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1603_55149",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55149",
+    "trainNumber": "1680レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "16:03:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:09:00",
+        "departureTime": "16:09:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1600_55149",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1617_55067",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55067",
+    "trainNumber": "1641a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:17:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1623_55067",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1643_55153",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55153",
+    "trainNumber": "1640レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:49:00",
+        "departureTime": "16:49:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1640_55153",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1654_55072",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55072",
+    "trainNumber": "1641b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1700_55072",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1723_55158",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55158",
+    "trainNumber": "1740a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:29:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1720_55158",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1734_55075",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55075",
+    "trainNumber": "1741レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1740_55075",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1759_55100",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55100",
+    "trainNumber": "1740b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:58:00",
+        "departureTime": "17:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:06:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_1806_55100",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_1755_55100",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1800_55004",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55004",
+    "trainNumber": "16A03",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "17:59:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:06:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1806_55004",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_1654_55004",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1822_57543",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "57543",
+    "trainNumber": "1852K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "西馬込",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:21:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:29:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_1829_57543",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_1818_57543",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1823_55012",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55012",
+    "trainNumber": "17A13",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:29:00",
+        "departureTime": "18:29:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1829_55012",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_1712_55012",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1844_55084",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55084",
+    "trainNumber": "18A12",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:51:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_1851_55084",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_1841_55084",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1856_54986",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54986",
+    "trainNumber": "1701レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:55:00",
+        "departureTime": "18:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:02:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1902_54986",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_1708_54986",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1921_55103",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55103",
+    "trainNumber": "1900レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:21:00",
+        "departureTime": "19:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:27:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_1931_55103",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_1918_55103",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1927_166983",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "166983",
+    "trainNumber": "1751K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "西馬込",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:27:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:33:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_1933_166983",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-09_1831_166983",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_1948_55166",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55166",
+    "trainNumber": "1950K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_1944_55166",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_1956_166981",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "166981",
+    "trainNumber": "1855K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "西馬込",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:01:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_2002_166981",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-09_1901_166981",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_2021_54987",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54987",
+    "trainNumber": "1819レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:17:00",
+        "departureTime": "20:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_2027_54987",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_1822_54987",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_2023_55078",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55078",
+    "trainNumber": "2054K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "宗吾参道",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:29:00",
+        "departureTime": "20:30:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_KSM-40_2030_55078",
+    "throughLineId": "keisei_main",
+    "prevTripId": "WD_INB_SBY-02_2020_55078",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_2050_55167",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55167",
+    "trainNumber": "2018レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_2046_55167",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_2054_51774",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "51774",
+    "trainNumber": "1983K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "羽田空港第1・第2ターミナル",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:01:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_2101_51774",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-09_2002_51774",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_2134_55169",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55169",
+    "trainNumber": "2182K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_2130_55169",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_2146_51775",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "51775",
+    "trainNumber": "1961K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "羽田空港第1・第2ターミナル",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "21:45:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_2152_51775",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-09_2052_51775",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_2214_55173",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55173",
+    "trainNumber": "2260K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "22:20:00",
+        "departureTime": "22:20:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_2211_55173",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_2235_54998",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54998",
+    "trainNumber": "21A09",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "22:33:00",
+        "departureTime": "22:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:41:00",
+        "departureTime": "22:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_2242_54998",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_2118_54998",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_2254_55178",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55178",
+    "trainNumber": "22A08",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:54:00",
+        "departureTime": "22:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "23:00:00",
+        "departureTime": "23:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_2251_55178",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "WD_OUT_KSH-01_2308_55001",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55001",
+    "trainNumber": "21A11",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "23:08:00",
+        "departureTime": "23:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "23:14:00",
+        "departureTime": "23:14:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SBY-01_2314_55001",
+    "throughLineId": "shibayama",
+    "prevTripId": "WD_OUT_KSM-01_2147_55001",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "WD_INB_KSH-02_2327_55181",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55181",
+    "trainNumber": "23A10",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "23:26:00",
+        "departureTime": "23:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "23:33:00",
+        "departureTime": "23:33:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SBY-02_2323_55181",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0551_55016",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55016",
+    "trainNumber": "547レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成津田沼",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0557_55016",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-26_0514_55016",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0609_55094",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55094",
+    "trainNumber": "646レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:15:00",
+        "departureTime": "06:16:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_0616_55094",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_0606_55094",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0618_55019",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55019",
+    "trainNumber": "6A07",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:15:00",
+        "departureTime": "06:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:23:00",
+        "departureTime": "06:24:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0624_55019",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-38_0610_55019",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0633_55023",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55023",
+    "trainNumber": "6A17",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:38:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0639_55023",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-38_0627_55023",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0639_55106",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55106",
+    "trainNumber": "6A06",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:38:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_0645_55106",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_0635_55106",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0657_55108",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55108",
+    "trainNumber": "6A16",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "06:56:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:03:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_0706_55108",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_0653_55108",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0700_55029",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55029",
+    "trainNumber": "6A21",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0706_55029",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-38_0654_55029",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0719_55109",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55109",
+    "trainNumber": "7A20",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:29:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_0729_55109",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_0716_55109",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0734_55033",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55033",
+    "trainNumber": "751K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "宗吾参道",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "07:30:00",
+        "departureTime": "07:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0740_55033",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-38_0725_55033",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0800_55856",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55856",
+    "trainNumber": "750K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "羽田空港第1・第2ターミナル",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:00:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_0807_55856",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_0757_55856",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0805_54979",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54979",
+    "trainNumber": "621レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:05:00",
+        "departureTime": "08:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0811_54979",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_0633_54979",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0835_55099",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55099",
+    "trainNumber": "820レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成上野",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:34:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_0842_55099",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_0831_55099",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0842_54984",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54984",
+    "trainNumber": "725レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0848_54984",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_0703_54984",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0900_55117",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55117",
+    "trainNumber": "824レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:06:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_0857_55117",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0912_55037",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55037",
+    "trainNumber": "925レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:18:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0918_55037",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_0935_55121",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55121",
+    "trainNumber": "924レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:41:00",
+        "departureTime": "09:41:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_0932_55121",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_0950_55041",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55041",
+    "trainNumber": "981レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_0956_55041",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1012_55126",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55126",
+    "trainNumber": "1080a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:18:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1008_55126",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1026_55045",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55045",
+    "trainNumber": "1081レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:26:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "10:32:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1033_55045",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1050_55129",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55129",
+    "trainNumber": "1080b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "10:50:00",
+        "departureTime": "10:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "10:56:00",
+        "departureTime": "10:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1047_55129",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1105_55049",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55049",
+    "trainNumber": "1181a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1111_55049",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1130_55133",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55133",
+    "trainNumber": "1180レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1127_55133",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1145_55054",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55054",
+    "trainNumber": "1181b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "11:45:00",
+        "departureTime": "11:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "11:50:00",
+        "departureTime": "11:51:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1151_55054",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1210_55138",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55138",
+    "trainNumber": "1280a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "12:16:00",
+        "departureTime": "12:16:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1207_55138",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1225_55055",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55055",
+    "trainNumber": "1281レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "12:25:00",
+        "departureTime": "12:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1231_55055",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1250_55139",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55139",
+    "trainNumber": "1280b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1247_55139",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1305_55057",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55057",
+    "trainNumber": "1381a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "13:05:00",
+        "departureTime": "13:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1311_55057",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1330_55142",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55142",
+    "trainNumber": "1380レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1327_55142",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1345_55060",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55060",
+    "trainNumber": "1381b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "13:45:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "13:50:00",
+        "departureTime": "13:51:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1351_55060",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1410_55143",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55143",
+    "trainNumber": "1480a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "14:10:00",
+        "departureTime": "14:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "14:16:00",
+        "departureTime": "14:16:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1407_55143",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1425_55062",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55062",
+    "trainNumber": "1481レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "14:25:00",
+        "departureTime": "14:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1431_55062",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1450_55145",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55145",
+    "trainNumber": "1480b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "14:56:00",
+        "departureTime": "14:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1447_55145",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1505_55064",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55064",
+    "trainNumber": "1581a",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "15:05:00",
+        "departureTime": "15:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:11:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1511_55064",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1530_55147",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55147",
+    "trainNumber": "1580レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1527_55147",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1545_55065",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55065",
+    "trainNumber": "1581b",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1551_55065",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1610_55151",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55151",
+    "trainNumber": "1680a",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:16:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1607_55151",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1625_55069",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55069",
+    "trainNumber": "1681レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成成田",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:25:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1631_55069",
+    "throughLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1650_55156",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55156",
+    "trainNumber": "1680b",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "16:56:00",
+        "departureTime": "16:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1647_55156",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1710_55002",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55002",
+    "trainNumber": "16A05",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:17:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1717_55002",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_1606_55002",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1730_55159",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55159",
+    "trainNumber": "17A04",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:30:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "17:36:00",
+        "departureTime": "17:36:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1727_55159",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1750_55003",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55003",
+    "trainNumber": "16A07",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "17:56:00",
+        "departureTime": "17:57:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1757_55003",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_1646_55003",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1811_55091",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55091",
+    "trainNumber": "18A06",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成高砂",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:17:00",
+        "departureTime": "18:24:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_1824_55091",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_1808_55091",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1830_55006",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55006",
+    "trainNumber": "17A01",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:30:00",
+        "departureTime": "18:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:37:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1837_55006",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_1725_55006",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1853_55161",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55161",
+    "trainNumber": "18A00",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "18:59:00",
+        "departureTime": "18:59:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1849_55161",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1910_55008",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55008",
+    "trainNumber": "18A03",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1917_55008",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_1805_55008",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_1933_55164",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55164",
+    "trainNumber": "19A02",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_1929_55164",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_1940_51772",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "51772",
+    "trainNumber": "1751K",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "羽田空港第1・第2ターミナル",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:46:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_1946_51772",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-09_1826_51772",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_2011_55093",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55093",
+    "trainNumber": "2050K",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成高砂",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:10:00",
+        "departureTime": "20:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:17:00",
+        "departureTime": "20:17:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_2017_55093",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_2007_55093",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_2021_54994",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54994",
+    "trainNumber": "18A09",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:15:00",
+        "departureTime": "20:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:26:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_2027_54994",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_1849_54994",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_2053_55080",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55080",
+    "trainNumber": "20A08",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "宗吾参道",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:59:00",
+        "departureTime": "21:02:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_2102_55080",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_2050_55080",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_2054_55009",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55009",
+    "trainNumber": "19A15",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "20:59:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_2100_55009",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_1946_55009",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_2124_55082",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55082",
+    "trainNumber": "21A14",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "宗吾参道",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_KSM-40_2131_55082",
+    "throughLineId": "keisei_main",
+    "prevTripId": "HD_INB_SBY-02_2121_55082",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_2134_54996",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54996",
+    "trainNumber": "20A23",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_2140_54996",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_2006_54996",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_2155_55171",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55171",
+    "trainNumber": "21A22",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "21:55:00",
+        "departureTime": "21:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "22:01:00",
+        "departureTime": "22:01:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_2152_55171",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_2207_54990",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "54990",
+    "trainNumber": "2025レ",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:13:00",
+        "departureTime": "22:14:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_2214_54990",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_2029_54990",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_2228_55176",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55176",
+    "trainNumber": "2224レ",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "22:34:00",
+        "departureTime": "22:34:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_2224_55176",
+    "prevLineId": "shibayama"
+  },
+  {
+    "tripId": "HD_OUT_KSH-01_2241_55014",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55014",
+    "trainNumber": "21A05",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "KSH-01",
+    "destinationStationId": "KSH-02",
+    "customOrigin": "京成上野",
+    "customDestination": "芝山千代田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "22:40:00",
+        "departureTime": "22:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:46:00",
+        "departureTime": "22:47:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SBY-01_2247_55014",
+    "throughLineId": "shibayama",
+    "prevTripId": "HD_OUT_KSM-01_2134_55014",
+    "prevLineId": "keisei_main"
+  },
+  {
+    "tripId": "HD_INB_KSH-02_2259_55180",
+    "lineId": "keisei_higashi_narita",
+    "trainId": "55180",
+    "trainNumber": "22A04",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "KSH-02",
+    "destinationStationId": "KSH-01",
+    "customOrigin": "芝山千代田",
+    "customDestination": "京成成田",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KSH-02",
+        "arrivalTime": "22:59:00",
+        "departureTime": "22:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KSH-01",
+        "arrivalTime": "23:05:00",
+        "departureTime": "23:05:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SBY-02_2256_55180",
+    "prevLineId": "shibayama"
+  }
+]

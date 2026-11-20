@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-DH8MTFon.json`,import.meta.url).href;export{e as default};

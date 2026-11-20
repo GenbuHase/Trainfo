@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-3_PhfODe.json`,import.meta.url).href;export{e as default};

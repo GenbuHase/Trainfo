@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-ev_Qmzhe.json`,import.meta.url).href;export{e as default};

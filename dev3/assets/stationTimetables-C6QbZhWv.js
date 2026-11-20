@@ -1,0 +1,1 @@
+var e=new URL(`stationTimetables-DJI0ApKr.json`,import.meta.url).href;export{e as default};

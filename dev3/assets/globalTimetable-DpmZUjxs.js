@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-BynSLuMJ.json`,import.meta.url).href;export{e as default};

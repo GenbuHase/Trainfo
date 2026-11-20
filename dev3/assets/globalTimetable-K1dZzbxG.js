@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-C8-adftU.json`,import.meta.url).href;export{e as default};

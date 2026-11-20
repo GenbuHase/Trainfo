@@ -1,0 +1,1 @@
+var e=new URL(`stationTimetables-CZ-DlOAC.json`,import.meta.url).href;export{e as default};
