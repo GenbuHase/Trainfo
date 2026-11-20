@@ -826,11 +826,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "06:32:00",
-        "departureTime": "06:44:00",
+        "departureTime": "06:33:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_0644_55572",
+    "throughTripId": "WD_INB_KSM-10_0633_69694",
     "throughLineId": "keisei_main"
   },
   {
@@ -935,11 +935,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "06:28:00",
-        "departureTime": "06:33:00",
+        "departureTime": "06:44:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_0633_69694",
+    "throughTripId": "WD_INB_KSM-10_0644_55572",
     "throughLineId": "keisei_main"
   },
   {
@@ -3117,9 +3117,7 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-40_0659_55633",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_INB_HOK-15_0726_69687",
@@ -4226,11 +4224,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "08:35:00",
-        "departureTime": "08:49:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_0849_69591",
+    "throughTripId": "WD_INB_KSM-10_0837_69582",
     "throughLineId": "keisei_main"
   },
   {
@@ -4338,9 +4336,7 @@
         "departureTime": "08:37:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-10_0837_69582",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_OUT_HOK-01_0804_50978",
@@ -4861,11 +4857,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "08:47:00",
-        "departureTime": "09:02:00",
+        "departureTime": "08:49:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_0902_69649",
+    "throughTripId": "WD_INB_KSM-10_0849_69591",
     "throughLineId": "keisei_main"
   },
   {
@@ -4969,11 +4965,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "09:00:00",
-        "departureTime": "09:25:00",
+        "departureTime": "09:02:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_0925_69584",
+    "throughTripId": "WD_INB_KSM-10_0902_69649",
     "throughLineId": "keisei_main"
   },
   {
@@ -5657,11 +5653,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "09:24:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:25:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_0954_69611",
+    "throughTripId": "WD_INB_KSM-10_0925_69584",
     "throughLineId": "keisei_main"
   },
   {
@@ -6519,7 +6515,8 @@
     "direction": "inbound",
     "originStationId": "HOK-15",
     "destinationStationId": "HOK-01",
-    "customDestination": "羽田空港第１・第２ターミナル(京急)",
+    "customOrigin": "印旛日本医大",
+    "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6610,10 +6607,12 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:53:00",
+        "departureTime": "09:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_KSM-10_0954_69611",
+    "throughLineId": "keisei_main"
   },
   {
     "tripId": "WD_OUT_HOK-01_0927_166408",
@@ -7945,11 +7944,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "10:54:00",
-        "departureTime": "11:04:00",
+        "departureTime": "10:55:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_1104_55476",
+    "throughTripId": "WD_INB_KSM-10_1055_69645",
     "throughLineId": "keisei_main"
   },
   {
@@ -8054,11 +8053,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "10:48:00",
-        "departureTime": "10:55:00",
+        "departureTime": "11:04:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_1055_69645",
+    "throughTripId": "WD_INB_KSM-10_1104_55476",
     "throughLineId": "keisei_main"
   },
   {
@@ -9656,11 +9655,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "12:09:00",
-        "departureTime": "12:12:00",
+        "departureTime": "12:25:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-35_1125_55494",
+    "throughTripId": "WD_INB_KSM-10_1225_55402",
     "throughLineId": "keisei_main"
   },
   {
@@ -10431,11 +10430,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "12:49:00",
-        "departureTime": "12:53:00",
+        "departureTime": "13:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-42_1135_55340",
+    "throughTripId": "WD_INB_KSM-10_1305_55406",
     "throughLineId": "keisei_main"
   },
   {
@@ -11148,11 +11147,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "13:29:00",
-        "departureTime": "13:32:00",
+        "departureTime": "13:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-42_1215_55347",
+    "throughTripId": "WD_INB_KSM-10_1345_55410",
     "throughLineId": "keisei_main"
   },
   {
@@ -11853,11 +11852,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "14:09:00",
-        "departureTime": "14:12:00",
+        "departureTime": "14:25:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-42_1254_55354",
+    "throughTripId": "WD_INB_KSM-10_1425_55415",
     "throughLineId": "keisei_main"
   },
   {
@@ -12628,11 +12627,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "14:49:00",
-        "departureTime": "14:53:00",
+        "departureTime": "15:04:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-42_1334_55384",
+    "throughTripId": "WD_INB_KSM-10_1504_55417",
     "throughLineId": "keisei_main"
   },
   {
@@ -13348,9 +13347,7 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-42_1414_55325",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_OUT_HOK-09_1502_57343",
@@ -16696,11 +16693,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "18:19:00",
-        "departureTime": "18:35:00",
+        "departureTime": "18:21:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_1835_69621",
+    "throughTripId": "WD_INB_KSM-10_1821_69620",
     "throughLineId": "keisei_main"
   },
   {
@@ -16983,11 +16980,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "18:16:00",
-        "departureTime": "18:21:00",
+        "departureTime": "18:41:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_1821_69620",
+    "throughTripId": "WD_INB_KSM-10_1841_55444",
     "throughLineId": "keisei_main"
   },
   {
@@ -17193,11 +17190,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "18:34:00",
-        "departureTime": "18:41:00",
+        "departureTime": "18:35:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_1841_55444",
+    "throughTripId": "WD_INB_KSM-10_1835_69621",
     "throughLineId": "keisei_main"
   },
   {
@@ -18944,9 +18941,7 @@
         "departureTime": "19:34:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-38_1818_54972",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_OUT_HOK-01_1901_51026",
@@ -20281,9 +20276,7 @@
         "departureTime": "20:20:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-26_1941_57177",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_OUT_HOK-01_1951_51029",
@@ -21078,11 +21071,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "20:56:00",
-        "departureTime": "21:21:00",
+        "departureTime": "21:01:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_2121_55597",
+    "throughTripId": "WD_INB_KSM-10_2101_69799",
     "throughLineId": "keisei_main"
   },
   {
@@ -21190,9 +21183,7 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-10_2101_69799",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_OUT_HOK-01_2024_166504",
@@ -22113,9 +22104,7 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-10_2140_69637",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_INB_HOK-15_2102_69637",
@@ -22218,11 +22207,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "21:39:00",
-        "departureTime": "22:02:00",
+        "departureTime": "21:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_2202_69638",
+    "throughTripId": "WD_INB_KSM-10_2140_69637",
     "throughLineId": "keisei_main"
   },
   {
@@ -22692,11 +22681,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "22:01:00",
-        "departureTime": "22:25:00",
+        "departureTime": "22:02:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_INB_KSM-10_2225_55461",
+    "throughTripId": "WD_INB_KSM-10_2202_69638",
     "throughLineId": "keisei_main"
   },
   {
@@ -24099,9 +24088,7 @@
         "departureTime": "22:54:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_INB_KSM-26_2219_57187",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "WD_INB_HOK-09_2223_57513",
@@ -27271,9 +27258,7 @@
         "departureTime": "07:24:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_INB_KSM-35_0637_55477",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "HD_OUT_HOK-01_0646_166391",
@@ -30534,11 +30519,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "09:29:00",
-        "departureTime": "09:32:00",
+        "departureTime": "09:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_0820_55320",
+    "throughTripId": "HD_INB_KSM-10_0945_55393",
     "throughLineId": "keisei_main"
   },
   {
@@ -31445,11 +31430,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "10:09:00",
-        "departureTime": "10:12:00",
+        "departureTime": "10:26:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-35_0925_55487",
+    "throughTripId": "HD_INB_KSM-10_1026_55395",
     "throughLineId": "keisei_main"
   },
   {
@@ -32242,11 +32227,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "10:49:00",
-        "departureTime": "10:53:00",
+        "departureTime": "11:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-35_1005_55491",
+    "throughTripId": "HD_INB_KSM-10_1105_55396",
     "throughLineId": "keisei_main"
   },
   {
@@ -33033,11 +33018,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "11:29:00",
-        "departureTime": "11:32:00",
+        "departureTime": "11:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1015_55327",
+    "throughTripId": "HD_INB_KSM-10_1145_55399",
     "throughLineId": "keisei_main"
   },
   {
@@ -33808,11 +33793,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "12:09:00",
-        "departureTime": "12:12:00",
+        "departureTime": "12:25:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1054_55332",
+    "throughTripId": "HD_INB_KSM-10_1225_55403",
     "throughLineId": "keisei_main"
   },
   {
@@ -34583,11 +34568,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "12:49:00",
-        "departureTime": "12:53:00",
+        "departureTime": "13:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1134_55337",
+    "throughTripId": "HD_INB_KSM-10_1305_55407",
     "throughLineId": "keisei_main"
   },
   {
@@ -35300,11 +35285,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "13:29:00",
-        "departureTime": "13:32:00",
+        "departureTime": "13:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1214_55346",
+    "throughTripId": "HD_INB_KSM-10_1345_55409",
     "throughLineId": "keisei_main"
   },
   {
@@ -36005,11 +35990,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "14:09:00",
-        "departureTime": "14:12:00",
+        "departureTime": "14:25:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1254_55356",
+    "throughTripId": "HD_INB_KSM-10_1425_55413",
     "throughLineId": "keisei_main"
   },
   {
@@ -36780,11 +36765,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "14:49:00",
-        "departureTime": "14:53:00",
+        "departureTime": "15:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1334_55362",
+    "throughTripId": "HD_INB_KSM-10_1505_55419",
     "throughLineId": "keisei_main"
   },
   {
@@ -37547,11 +37532,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "15:29:00",
-        "departureTime": "15:32:00",
+        "departureTime": "15:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1414_55365",
+    "throughTripId": "HD_INB_KSM-10_1545_55420",
     "throughLineId": "keisei_main"
   },
   {
@@ -38352,11 +38337,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "16:09:00",
-        "departureTime": "16:12:00",
+        "departureTime": "16:25:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1454_55370",
+    "throughTripId": "HD_INB_KSM-10_1625_55423",
     "throughLineId": "keisei_main"
   },
   {
@@ -39227,11 +39212,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "16:49:00",
-        "departureTime": "16:53:00",
+        "departureTime": "17:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1534_55373",
+    "throughTripId": "HD_INB_KSM-10_1705_55424",
     "throughLineId": "keisei_main"
   },
   {
@@ -40136,11 +40121,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "17:29:00",
-        "departureTime": "17:32:00",
+        "departureTime": "17:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1614_55377",
+    "throughTripId": "HD_INB_KSM-10_1745_55427",
     "throughLineId": "keisei_main"
   },
   {
@@ -40833,11 +40818,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "18:09:00",
-        "departureTime": "18:12:00",
+        "departureTime": "18:27:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-42_1654_55382",
+    "throughTripId": "HD_INB_KSM-10_1827_55390",
     "throughLineId": "keisei_main"
   },
   {
@@ -41692,11 +41677,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "18:49:00",
-        "departureTime": "19:03:00",
+        "departureTime": "19:15:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-35_1817_55482",
+    "throughTripId": "HD_INB_KSM-10_1915_55428",
     "throughLineId": "keisei_main"
   },
   {
@@ -42298,11 +42283,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "19:32:00",
-        "departureTime": "19:50:00",
+        "departureTime": "19:33:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-10_1950_69654",
+    "throughTripId": "HD_INB_KSM-10_1933_69651",
     "throughLineId": "keisei_main"
   },
   {
@@ -42610,9 +42595,7 @@
         "departureTime": "19:33:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_INB_KSM-10_1933_69651",
-    "throughLineId": "keisei_main"
+    ]
   },
   {
     "tripId": "HD_OUT_HOK-01_1908_166493",
@@ -42823,11 +42806,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "19:49:00",
-        "departureTime": "20:14:00",
+        "departureTime": "19:50:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-10_2014_69656",
+    "throughTripId": "HD_INB_KSM-10_1950_69654",
     "throughLineId": "keisei_main"
   },
   {
@@ -43201,11 +43184,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "20:13:00",
-        "departureTime": "20:33:00",
+        "departureTime": "20:14:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-10_2033_69658",
+    "throughTripId": "HD_INB_KSM-10_2014_69656",
     "throughLineId": "keisei_main"
   },
   {
@@ -43682,11 +43665,11 @@
       {
         "stationId": "HOK-01",
         "arrivalTime": "20:32:00",
-        "departureTime": "20:50:00",
+        "departureTime": "20:33:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_KSM-10_2050_69630",
+    "throughTripId": "HD_INB_KSM-10_2033_69658",
     "throughLineId": "keisei_main"
   },
   {
@@ -43970,7 +43953,8 @@
     "direction": "inbound",
     "originStationId": "HOK-15",
     "destinationStationId": "HOK-01",
-    "customDestination": "羽田空港第１・第２ターミナル(京急)",
+    "customOrigin": "印旛日本医大",
+    "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -44064,7 +44048,9 @@
         "departureTime": "20:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_KSM-10_2050_69630",
+    "throughLineId": "keisei_main"
   },
   {
     "tripId": "HD_INB_HOK-15_2019_55267",

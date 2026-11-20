@@ -6546,8 +6546,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_0739_295",
-    "throughLineId": "jr_chuo_sobu_local",
     "prevTripId": "WD_OUT_JB-01_0620_25045",
     "prevLineId": "jr_chuo_sobu_local"
   },
@@ -7012,11 +7010,11 @@
       {
         "stationId": "T-23",
         "arrivalTime": "07:38:00",
-        "departureTime": "07:47:00",
+        "departureTime": "07:39:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_0747_296",
+    "throughTripId": "WD_OUT_JB-30_0739_295",
     "throughLineId": "jr_chuo_sobu_local"
   },
   {
@@ -7712,11 +7710,11 @@
       {
         "stationId": "T-23",
         "arrivalTime": "07:45:00",
-        "departureTime": "08:02:00",
+        "departureTime": "07:47:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_0802_297",
+    "throughTripId": "WD_OUT_JB-30_0747_296",
     "throughLineId": "jr_chuo_sobu_local"
   },
   {
@@ -9580,6 +9578,7 @@
     "direction": "outbound",
     "originStationId": "T-01",
     "destinationStationId": "T-23",
+    "customOrigin": "中野",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -9722,7 +9721,9 @@
         "departureTime": "08:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JB-30_0802_297",
+    "throughLineId": "jr_chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0709_622",
@@ -55368,8 +55369,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_1819_300",
-    "throughLineId": "jr_chuo_sobu_local",
     "prevTripId": "WD_OUT_JB-01_1641_25050",
     "prevLineId": "jr_chuo_sobu_local"
   },
@@ -58614,11 +58613,11 @@
       {
         "stationId": "T-23",
         "arrivalTime": "18:18:00",
-        "departureTime": "18:40:00",
+        "departureTime": "18:19:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_1840_301",
+    "throughTripId": "WD_OUT_JB-30_1819_300",
     "throughLineId": "jr_chuo_sobu_local"
   },
   {
@@ -60740,11 +60739,11 @@
       {
         "stationId": "T-23",
         "arrivalTime": "18:39:00",
-        "departureTime": "18:49:00",
+        "departureTime": "18:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_1849_302",
+    "throughTripId": "WD_OUT_JB-30_1840_301",
     "throughLineId": "jr_chuo_sobu_local"
   },
   {
@@ -61678,11 +61677,11 @@
       {
         "stationId": "T-23",
         "arrivalTime": "18:48:00",
-        "departureTime": "19:08:00",
+        "departureTime": "18:49:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_1908_298",
+    "throughTripId": "WD_OUT_JB-30_1849_302",
     "throughLineId": "jr_chuo_sobu_local"
   },
   {
@@ -62246,11 +62245,11 @@
       {
         "stationId": "T-23",
         "arrivalTime": "19:06:00",
-        "departureTime": "19:21:00",
+        "departureTime": "19:08:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_JB-30_1921_299",
+    "throughTripId": "WD_OUT_JB-30_1908_298",
     "throughLineId": "jr_chuo_sobu_local"
   },
   {
@@ -63647,7 +63646,9 @@
         "departureTime": "19:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_JB-30_1921_299",
+    "throughLineId": "jr_chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1826_495",

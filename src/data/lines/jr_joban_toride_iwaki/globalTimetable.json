@@ -11823,15 +11823,15 @@
     "direction": "outbound",
     "originStationId": "JTI-01",
     "destinationStationId": "JTI-18",
-    "customOrigin": "品川",
+    "customOrigin": "平塚",
     "customDestination": "勝田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JTI-01",
-        "arrivalTime": "09:57:26",
-        "departureTime": "09:57:26",
+        "arrivalTime": "10:05:00",
+        "departureTime": "10:05:00",
         "isPassing": true
       },
       {
@@ -11937,7 +11937,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JJ-01_0931_7117",
+    "prevTripId": "WD_OUT_JL-26_1006_10484",
     "prevLineId": "jr_joban_rapid"
   },
   {
@@ -62832,9 +62832,7 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_INB_JJ-10_1845_10122",
-    "throughLineId": "jr_joban_rapid"
+    ]
   },
   {
     "tripId": "HD_OUT_JTI-01_1752_7185",
@@ -64017,11 +64015,11 @@
       {
         "stationId": "JTI-01",
         "arrivalTime": "18:44:00",
-        "departureTime": "18:49:00",
+        "departureTime": "18:45:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_JJ-10_1849_38084",
+    "throughTripId": "HD_INB_JJ-10_1845_10122",
     "throughLineId": "jr_joban_rapid"
   },
   {

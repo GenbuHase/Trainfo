@@ -4305,8 +4305,7 @@ module.exports = {
       "stationB": "KSSA-01",
       "dirA": "outbound",
       "dirB": "outbound",
-      "maxTimeDiff": 300,
-      "allowMidStationA": true
+      "maxTimeDiff": 300
     },
     {
       "name": "京成成田スカイアクセス線 -> 京成本線 (京成高砂直通 上野・押上方面)",
@@ -4316,8 +4315,7 @@ module.exports = {
       "stationB": "KSM-10",
       "dirA": "inbound",
       "dirB": "inbound",
-      "maxTimeDiff": 300,
-      "allowMidStationB": true
+      "maxTimeDiff": 300
     },
     {
       "name": "京成本線 -> 北総鉄道北総線 (京成高砂直通 新鎌ヶ谷・印旛日本医大方面)",
@@ -4328,7 +4326,6 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 300,
-      "allowMidStationA": true,
       "disallowedDestinations": ["成田空港", "空港第2ビル", "成田湯川"]
     },
     {
@@ -4339,8 +4336,7 @@ module.exports = {
       "stationB": "KSM-10",
       "dirA": "inbound",
       "dirB": "inbound",
-      "maxTimeDiff": 300,
-      "allowMidStationB": true
+      "maxTimeDiff": 300
     },
     {
       "name": "京成本線 -> 京成千葉線 (京成津田沼直通 千葉中央・ちはら台方面)",
@@ -4412,8 +4408,7 @@ module.exports = {
       "stationB": "KSH-01",
       "dirA": "outbound",
       "dirB": "outbound",
-      "maxTimeDiff": 300,
-      "allowMidStationA": true
+      "maxTimeDiff": 300
     },
     {
       "name": "京成東成田線 -> 京成本線 (京成成田直通 京成上野・押上方面)",
@@ -4423,8 +4418,7 @@ module.exports = {
       "stationB": "KSM-40",
       "dirA": "inbound",
       "dirB": "inbound",
-      "maxTimeDiff": 300,
-      "allowMidStationB": true
+      "maxTimeDiff": 300
     },
     {
       "name": "京成東成田線 -> 芝山鉄道線 (東成田直通 芝山千代田方面)",

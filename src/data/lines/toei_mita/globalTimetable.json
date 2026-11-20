@@ -247,7 +247,8 @@
     "direction": "inbound",
     "originStationId": "I-25",
     "destinationStationId": "I-01",
-    "customDestination": "日吉(神奈川県)",
+    "customOrigin": "高島平",
+    "customDestination": "日吉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -401,7 +402,9 @@
         "departureTime": "05:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_MG-01_0549_164834",
+    "throughLineId": "tokyu_meguro"
   },
   {
     "tripId": "WD_OUT_I-03_0500_164705",
@@ -1011,9 +1014,7 @@
         "departureTime": "05:49:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_MG-01_0549_164834",
-    "throughLineId": "tokyu_meguro"
+    ]
   },
   {
     "tripId": "WD_OUT_I-01_0516_114257",

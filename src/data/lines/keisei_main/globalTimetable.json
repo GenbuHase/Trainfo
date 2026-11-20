@@ -1677,9 +1677,7 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0534_50940",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-10_0503_54241",
@@ -2864,6 +2862,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_0534_50940",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0524_50940",
     "prevLineId": "keisei_oshiage"
   },
@@ -4054,9 +4054,7 @@
         "departureTime": "07:22:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0620_50945",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_0546_166387",
@@ -6503,9 +6501,7 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0652_51580",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-01_0609_53859",
@@ -7577,6 +7573,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_0620_50945",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0608_50945",
     "prevLineId": "keisei_oshiage"
   },
@@ -9547,7 +9545,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "06:28:00",
+        "arrivalTime": "06:32:00",
         "departureTime": "06:33:00",
         "isPassing": false
       },
@@ -9560,7 +9558,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0635_69694",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_0559_55184",
+    "prevTripId": "WD_INB_HOK-15_0552_69694",
     "prevLineId": "hokuso"
   },
   {
@@ -10661,7 +10659,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10725,7 +10724,9 @@
         "departureTime": "06:48:02",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_0738_57313",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_INB_KSM-35_0641_55610",
@@ -11213,7 +11214,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "06:32:00",
+        "arrivalTime": "06:28:00",
         "departureTime": "06:44:00",
         "isPassing": false
       },
@@ -11226,7 +11227,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0647_55572",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_0552_69694",
+    "prevTripId": "WD_INB_HOK-15_0559_55184",
     "prevLineId": "hokuso"
   },
   {
@@ -11519,11 +11520,11 @@
       {
         "stationId": "KSM-10",
         "arrivalTime": "06:49:00",
-        "departureTime": "07:11:00",
+        "departureTime": "06:52:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_0711_51583",
+    "throughTripId": "WD_OUT_KSSA-01_0652_51580",
     "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0639_51580",
     "prevLineId": "keisei_oshiage"
@@ -13350,9 +13351,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_0757_55633",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_0723_55188",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_INB_KSM-34_0700_54697",
@@ -13647,9 +13646,7 @@
         "departureTime": "07:08:02",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0738_57313",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_INB_KSM-35_0701_55613",
@@ -14458,6 +14455,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_0711_51583",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0701_51583",
     "prevLineId": "keisei_oshiage"
   },
@@ -16296,7 +16295,9 @@
         "departureTime": "07:36:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_0834_57315",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-38_0723_55031",
@@ -16600,9 +16601,7 @@
         "departureTime": "08:47:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0808_166970",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_INB_KSM-10_0726_69572",
@@ -18954,9 +18953,7 @@
         "departureTime": "07:48:07",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0834_57315",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_0742_166400",
@@ -21397,6 +21394,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_0808_166970",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0757_166970",
     "prevLineId": "keisei_oshiage"
   },
@@ -22646,9 +22645,7 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0850_166974",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-01_0813_53653",
@@ -22796,7 +22793,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22860,7 +22858,9 @@
         "departureTime": "08:32:58",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_0934_57320",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_INB_KSM-10_0818_69688",
@@ -25166,14 +25166,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "印旛日本医大",
+    "customOrigin": "印西牧の原",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "08:32:00",
+        "arrivalTime": "08:35:00",
         "departureTime": "08:37:00",
         "isPassing": false
       },
@@ -25186,7 +25186,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0840_69582",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_0804_55256",
+    "prevTripId": "WD_INB_HOK-14_0759_69582",
     "prevLineId": "hokuso"
   },
   {
@@ -25296,9 +25296,7 @@
         "departureTime": "08:47:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0934_57320",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_0840_166367",
@@ -25634,6 +25632,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_0850_166974",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0835_166974",
     "prevLineId": "keisei_oshiage"
   },
@@ -25908,7 +25908,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "08:35:00",
+        "arrivalTime": "08:47:00",
         "departureTime": "08:49:00",
         "isPassing": false
       },
@@ -25921,7 +25921,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0852_69591",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-14_0759_69582",
+    "prevTripId": "WD_INB_HOK-14_0816_69591",
     "prevLineId": "hokuso"
   },
   {
@@ -26634,9 +26634,7 @@
         "departureTime": "10:14:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_0937_166975",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_INB_KSM-34_0855_54715",
@@ -27614,14 +27612,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "印西牧の原",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "08:47:00",
+        "arrivalTime": "09:00:00",
         "departureTime": "09:02:00",
         "isPassing": false
       },
@@ -27634,7 +27632,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0904_69649",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-14_0816_69591",
+    "prevTripId": "WD_INB_HOK-15_0823_69649",
     "prevLineId": "hokuso"
   },
   {
@@ -28489,9 +28487,7 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1001_51596",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_0915_166582",
@@ -29017,7 +29013,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -29081,7 +29078,9 @@
         "departureTime": "09:32:53",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1018_57325",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_0917_51276",
@@ -29605,14 +29604,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "印旛日本医大",
+    "customOrigin": "印西牧の原",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "09:00:00",
+        "arrivalTime": "09:24:00",
         "departureTime": "09:25:00",
         "isPassing": false
       },
@@ -29625,7 +29624,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0928_69584",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_0823_69649",
+    "prevTripId": "WD_INB_HOK-14_0849_69584",
     "prevLineId": "hokuso"
   },
   {
@@ -30132,6 +30131,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_0937_166975",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0925_166975",
     "prevLineId": "keisei_oshiage"
   },
@@ -31188,7 +31189,7 @@
         "isPassing": true
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1018_57325",
+    "throughTripId": "WD_OUT_KSSA-01_1052_57328",
     "throughLineId": "keisei_narita_sky_access"
   },
   {
@@ -32175,9 +32176,7 @@
         "departureTime": "11:12:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1037_51579",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_INB_KSM-10_0954_69611",
@@ -32188,14 +32187,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "印西牧の原",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "09:24:00",
+        "arrivalTime": "09:53:00",
         "departureTime": "09:54:00",
         "isPassing": false
       },
@@ -32208,7 +32207,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_0958_69611",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-14_0849_69584",
+    "prevTripId": "WD_INB_HOK-15_0916_69611",
     "prevLineId": "hokuso"
   },
   {
@@ -32239,6 +32238,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1001_51596",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_0946_51596",
     "prevLineId": "keisei_oshiage"
   },
@@ -32691,9 +32692,7 @@
         "departureTime": "10:16:48",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1052_57328",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_INB_KSM-10_1001_69671",
@@ -35809,7 +35808,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -35873,7 +35873,9 @@
         "departureTime": "10:50:53",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1152_57331",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1035_51579",
@@ -35903,6 +35905,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1037_51579",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1027_51579",
     "prevLineId": "keisei_oshiage"
   },
@@ -37362,8 +37366,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1117_51568",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1043_166548",
     "prevLineId": "keisei_oshiage"
   },
@@ -37899,7 +37901,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "10:48:00",
+        "arrivalTime": "10:54:00",
         "departureTime": "10:55:00",
         "isPassing": false
       },
@@ -37912,7 +37914,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_1057_69645",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1021_55216",
+    "prevTripId": "WD_INB_HOK-15_1013_69645",
     "prevLineId": "hokuso"
   },
   {
@@ -38528,9 +38530,7 @@
         "departureTime": "11:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1152_57331",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-10_1100_54261",
@@ -38822,7 +38822,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "10:54:00",
+        "arrivalTime": "10:48:00",
         "departureTime": "11:04:00",
         "isPassing": false
       },
@@ -38835,7 +38835,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_1107_55476",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1013_69645",
+    "prevTripId": "WD_INB_HOK-15_1021_55216",
     "prevLineId": "hokuso"
   },
   {
@@ -39946,9 +39946,7 @@
         "departureTime": "12:48:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1158_51532",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_1110_51568",
@@ -39978,6 +39976,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1117_51568",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1104_51568",
     "prevLineId": "keisei_oshiage"
   },
@@ -40884,9 +40884,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1217_55494",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1141_55224",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_INB_KSM-10_1126_55220",
@@ -42053,9 +42051,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1257_55340",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1221_55226",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_OUT_KSM-01_1135_57331",
@@ -42067,7 +42063,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -42131,7 +42128,9 @@
         "departureTime": "11:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1252_57334",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1136_51101",
@@ -43699,6 +43698,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1158_51532",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1148_51532",
     "prevLineId": "keisei_oshiage"
   },
@@ -44373,9 +44374,7 @@
         "departureTime": "12:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1252_57334",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_1202_166421",
@@ -44915,8 +44914,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1238_51536",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1200_51170",
     "prevLineId": "keisei_oshiage"
   },
@@ -45734,9 +45731,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1337_55347",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1301_55231",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_OUT_KSM-09_1215_51104",
@@ -46578,14 +46573,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "12:25:00",
+        "arrivalTime": "12:09:00",
         "departureTime": "12:25:00",
         "isPassing": false
       },
@@ -46597,7 +46592,9 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1229_55402",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "WD_INB_HOK-15_1141_55224",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "WD_INB_KSM-26_1225_54558",
@@ -47563,7 +47560,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -47627,7 +47625,9 @@
         "departureTime": "12:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1352_57339",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1235_51536",
@@ -47657,6 +47657,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1238_51536",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1229_51536",
     "prevLineId": "keisei_oshiage"
   },
@@ -49489,9 +49491,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1417_55354",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1341_55236",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_INB_KSM-26_1255_54568",
@@ -50024,9 +50024,7 @@
         "departureTime": "13:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1352_57339",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_1302_166433",
@@ -50287,14 +50285,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "13:05:00",
+        "arrivalTime": "12:49:00",
         "departureTime": "13:05:00",
         "isPassing": false
       },
@@ -50306,7 +50304,9 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1309_55406",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "WD_INB_HOK-15_1221_55226",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "WD_INB_KSM-26_1305_54570",
@@ -50697,8 +50697,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1318_51539",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1300_51182",
     "prevLineId": "keisei_oshiage"
   },
@@ -51292,6 +51290,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1318_51539",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1309_51539",
     "prevLineId": "keisei_oshiage"
   },
@@ -52330,8 +52330,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1358_51544",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1320_51186",
     "prevLineId": "keisei_oshiage"
   },
@@ -53203,9 +53201,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1457_55384",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1421_55237",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_INB_KSM-26_1335_54578",
@@ -53387,7 +53383,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -53451,7 +53448,9 @@
         "departureTime": "13:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1452_57343",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1335_51112",
@@ -54004,14 +54003,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "13:45:00",
+        "arrivalTime": "13:29:00",
         "departureTime": "13:45:00",
         "isPassing": false
       },
@@ -54023,7 +54022,9 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1349_55410",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "WD_INB_HOK-15_1301_55231",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "WD_INB_KSM-26_1345_54582",
@@ -55007,6 +55008,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1358_51544",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1349_51544",
     "prevLineId": "keisei_oshiage"
   },
@@ -55505,9 +55508,7 @@
         "departureTime": "14:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1452_57343",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_1402_166446",
@@ -56047,8 +56048,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1438_51548",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1359_51193",
     "prevLineId": "keisei_oshiage"
   },
@@ -56920,9 +56919,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1538_55325",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1501_55206",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_INB_KSM-26_1415_54590",
@@ -57758,14 +57755,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "14:25:00",
+        "arrivalTime": "14:09:00",
         "departureTime": "14:25:00",
         "isPassing": false
       },
@@ -57777,7 +57774,9 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1429_55415",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "WD_INB_HOK-15_1341_55236",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "WD_INB_KSM-26_1425_54594",
@@ -58743,7 +58742,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -58807,7 +58807,9 @@
         "departureTime": "14:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1555_57346",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1435_51548",
@@ -58837,6 +58839,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1438_51548",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1429_51548",
     "prevLineId": "keisei_oshiage"
   },
@@ -59846,8 +59850,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1518_51550",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1440_51202",
     "prevLineId": "keisei_oshiage"
   },
@@ -61236,9 +61238,7 @@
         "departureTime": "15:07:58",
         "isPassing": true
       }
-    ],
-    "throughTripId": "WD_OUT_KSSA-01_1555_57346",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_1502_166456",
@@ -61281,14 +61281,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "15:04:00",
+        "arrivalTime": "14:49:00",
         "departureTime": "15:04:00",
         "isPassing": false
       },
@@ -61300,7 +61300,9 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_1509_55417",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "WD_INB_HOK-15_1421_55237",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "WD_INB_KSM-26_1505_54607",
@@ -62552,6 +62554,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1518_51550",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1509_51550",
     "prevLineId": "keisei_oshiage"
   },
@@ -63536,8 +63540,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1557_51555",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1520_51207",
     "prevLineId": "keisei_oshiage"
   },
@@ -66205,6 +66207,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1557_51555",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1549_51555",
     "prevLineId": "keisei_oshiage"
   },
@@ -68652,8 +68656,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1645_51571",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1612_166540",
     "prevLineId": "keisei_oshiage"
   },
@@ -70642,6 +70644,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1645_51571",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1635_51571",
     "prevLineId": "keisei_oshiage"
   },
@@ -72593,8 +72597,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1729_51598",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1652_166542",
     "prevLineId": "keisei_oshiage"
   },
@@ -75502,6 +75504,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1729_51598",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1719_51598",
     "prevLineId": "keisei_oshiage"
   },
@@ -76571,8 +76575,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1807_166977",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1730_51255",
     "prevLineId": "keisei_oshiage"
   },
@@ -80039,6 +80041,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_1807_166977",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1757_166977",
     "prevLineId": "keisei_oshiage"
   },
@@ -81749,9 +81753,7 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_INB_HOK-15_1901_57528",
-    "prevLineId": "hokuso"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-01_1820_57296",
@@ -82055,7 +82057,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "18:16:00",
+        "arrivalTime": "18:19:00",
         "departureTime": "18:21:00",
         "isPassing": false
       },
@@ -82068,7 +82070,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_1823_69620",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1744_55262",
+    "prevTripId": "WD_INB_HOK-15_1737_69620",
     "prevLineId": "hokuso"
   },
   {
@@ -83399,7 +83401,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "18:19:00",
+        "arrivalTime": "18:34:00",
         "departureTime": "18:35:00",
         "isPassing": false
       },
@@ -83412,7 +83414,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_1837_69621",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1737_69620",
+    "prevTripId": "WD_INB_HOK-15_1756_69621",
     "prevLineId": "hokuso"
   },
   {
@@ -84270,7 +84272,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "18:34:00",
+        "arrivalTime": "18:16:00",
         "departureTime": "18:41:00",
         "isPassing": false
       },
@@ -84283,7 +84285,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_1846_55444",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_1756_69621",
+    "prevTripId": "WD_INB_HOK-15_1744_55262",
     "prevLineId": "hokuso"
   },
   {
@@ -84505,8 +84507,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1844_69893",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1834_51257",
     "prevLineId": "keisei_oshiage"
   },
@@ -85318,7 +85318,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -85382,7 +85383,9 @@
         "departureTime": "19:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_1910_57304",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1851_166563",
@@ -85603,8 +85606,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1910_57304",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1844_166563",
     "prevLineId": "keisei_oshiage"
   },
@@ -87183,9 +87184,7 @@
         "departureTime": "20:15:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_INB_KSC-10_1921_57177",
-    "prevLineId": "keisei_chiba"
+    ]
   },
   {
     "tripId": "WD_OUT_KSM-09_1907_50987",
@@ -88623,8 +88622,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_1938_69894",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1914_166551",
     "prevLineId": "keisei_oshiage"
   },
@@ -90775,7 +90772,7 @@
     "direction": "inbound",
     "originStationId": "KSM-26",
     "destinationStationId": "KSM-01",
-    "customOrigin": "印旛日本医大",
+    "customOrigin": "ちはら台",
     "customDestination": "京成上野",
     "cars": 8,
     "isHoliday": false,
@@ -90937,8 +90934,8 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_HOK-15_1945_57531",
-    "prevLineId": "hokuso"
+    "prevTripId": "WD_INB_KSC-10_1921_57177",
+    "prevLineId": "keisei_chiba"
   },
   {
     "tripId": "WD_OUT_KSM-09_1943_166552",
@@ -91159,8 +91156,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_2007_57306",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_1934_166552",
     "prevLineId": "keisei_oshiage"
   },
@@ -91408,7 +91403,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -91472,7 +91468,9 @@
         "departureTime": "20:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_2007_57306",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_OUT_KSM-09_1947_51029",
@@ -96322,8 +96320,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_2103_57308",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_2024_166564",
     "prevLineId": "keisei_oshiage"
   },
@@ -97431,7 +97427,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -97495,7 +97492,9 @@
         "departureTime": "21:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSSA-01_2103_57308",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "WD_INB_KSM-10_2047_55196",
@@ -99019,7 +99018,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "20:50:00",
+        "arrivalTime": "20:56:00",
         "departureTime": "21:01:00",
         "isPassing": false
       },
@@ -99032,7 +99031,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_2104_69799",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_2022_55196",
+    "prevTripId": "WD_INB_HOK-15_2015_69799",
     "prevLineId": "hokuso"
   },
   {
@@ -101406,9 +101405,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_2123_55597",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_2015_69799",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_OUT_KSM-01_2123_56749",
@@ -102659,7 +102656,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "21:29:00",
+        "arrivalTime": "21:39:00",
         "departureTime": "21:40:00",
         "isPassing": false
       },
@@ -102672,7 +102669,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_2142_69637",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_2059_55269",
+    "prevTripId": "WD_INB_HOK-15_2102_69637",
     "prevLineId": "hokuso"
   },
   {
@@ -104056,9 +104053,7 @@
         "departureTime": "23:19:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "WD_INB_KSC-10_2223_57193",
-    "prevLineId": "keisei_chiba"
+    ]
   },
   {
     "tripId": "WD_INB_KSM-10_2155_55199",
@@ -104312,8 +104307,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_KSSA-01_2205_51522",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_2149_51251",
     "prevLineId": "keisei_oshiage"
   },
@@ -105042,7 +105035,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "21:39:00",
+        "arrivalTime": "22:01:00",
         "departureTime": "22:02:00",
         "isPassing": false
       },
@@ -105055,7 +105048,7 @@
     ],
     "throughTripId": "WD_INB_KSO-06_2204_69638",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_2102_69637",
+    "prevTripId": "WD_INB_HOK-15_2120_69638",
     "prevLineId": "hokuso"
   },
   {
@@ -105086,6 +105079,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSSA-01_2205_51522",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "WD_OUT_KSO-01_2156_51522",
     "prevLineId": "keisei_oshiage"
   },
@@ -105945,7 +105940,7 @@
     "direction": "inbound",
     "originStationId": "KSM-26",
     "destinationStationId": "KSM-01",
-    "customOrigin": "印旛日本医大",
+    "customOrigin": "ちはら台",
     "customDestination": "京成上野",
     "cars": 8,
     "isHoliday": false,
@@ -106107,8 +106102,8 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_HOK-15_2221_57533",
-    "prevLineId": "hokuso"
+    "prevTripId": "WD_INB_KSC-10_2201_57187",
+    "prevLineId": "keisei_chiba"
   },
   {
     "tripId": "WD_INB_KSM-10_2222_69881",
@@ -106376,9 +106371,7 @@
       }
     ],
     "throughTripId": "WD_INB_KSO-06_2227_55461",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "WD_INB_HOK-15_2120_69638",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "WD_OUT_KSM-10_2226_54262",
@@ -106577,14 +106570,14 @@
     "direction": "inbound",
     "originStationId": "KSM-26",
     "destinationStationId": "KSM-01",
-    "customOrigin": "ちはら台",
+    "customOrigin": "千葉中央",
     "customDestination": "京成上野",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-26",
-        "arrivalTime": "22:18:00",
+        "arrivalTime": "22:30:00",
         "departureTime": "22:32:00",
         "isPassing": false
       },
@@ -106739,7 +106732,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_KSC-10_2201_57187",
+    "prevTripId": "WD_INB_KSC-10_2212_56875",
     "prevLineId": "keisei_chiba"
   },
   {
@@ -107805,14 +107798,14 @@
     "direction": "inbound",
     "originStationId": "KSM-26",
     "destinationStationId": "KSM-01",
-    "customOrigin": "千葉中央",
+    "customOrigin": "ちはら台",
     "customDestination": "京成上野",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "KSM-26",
-        "arrivalTime": "22:30:00",
+        "arrivalTime": "22:41:00",
         "departureTime": "22:46:00",
         "isPassing": false
       },
@@ -107967,7 +107960,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_KSC-10_2212_56875",
+    "prevTripId": "WD_INB_KSC-10_2223_57193",
     "prevLineId": "keisei_chiba"
   },
   {
@@ -112887,9 +112880,7 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0536_50939",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-10_0503_54243",
@@ -114122,9 +114113,7 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0607_50942",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-38_0525_54294",
@@ -114302,6 +114291,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0536_50939",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0524_50939",
     "prevLineId": "keisei_oshiage"
   },
@@ -116472,6 +116463,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0607_50942",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0556_50942",
     "prevLineId": "keisei_oshiage"
   },
@@ -117045,9 +117038,7 @@
         "departureTime": "07:41:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0652_51523",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_INB_KSM-42_0609_54426",
@@ -118434,7 +118425,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -118498,7 +118490,9 @@
         "departureTime": "06:28:02",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_0733_57310",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-01_0624_53861",
@@ -120181,9 +120175,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_0727_55477",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_0639_55252",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_OUT_KSM-01_0640_57216",
@@ -120260,9 +120252,7 @@
         "departureTime": "06:48:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0733_57310",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_INB_KSM-10_0641_54464",
@@ -121118,9 +121108,7 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0723_51584",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_INB_KSM-40_0650_54888",
@@ -121404,6 +121392,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0652_51523",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0644_51523",
     "prevLineId": "keisei_oshiage"
   },
@@ -124075,7 +124065,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -124139,7 +124130,9 @@
         "departureTime": "07:31:53",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_0837_57316",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-10_0715_54264",
@@ -124661,11 +124654,11 @@
       {
         "stationId": "KSM-10",
         "arrivalTime": "07:23:00",
-        "departureTime": "07:49:00",
+        "departureTime": "07:23:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_0749_51589",
+    "throughTripId": "HD_OUT_KSSA-01_0723_51584",
     "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0715_51584",
     "prevLineId": "keisei_oshiage"
@@ -127084,9 +127077,7 @@
         "departureTime": "07:47:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0837_57316",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_0741_51769",
@@ -127415,6 +127406,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0749_51589",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0737_51589",
     "prevLineId": "keisei_oshiage"
   },
@@ -128000,9 +127993,7 @@
         "departureTime": "09:14:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0817_166971",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_0750_166571",
@@ -130022,11 +130013,11 @@
       {
         "stationId": "KSM-10",
         "arrivalTime": "08:12:00",
-        "departureTime": "08:34:00",
+        "departureTime": "08:17:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_0834_51591",
+    "throughTripId": "HD_OUT_KSSA-01_0817_166971",
     "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0802_166971",
     "prevLineId": "keisei_oshiage"
@@ -130539,7 +130530,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -130603,7 +130595,9 @@
         "departureTime": "08:35:53",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_0933_57319",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-10_0819_54248",
@@ -130995,9 +130989,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_0937_55320",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_0901_55208",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-40_0822_54871",
@@ -131711,6 +131703,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0834_51591",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0825_51591",
     "prevLineId": "keisei_oshiage"
   },
@@ -131980,9 +131974,7 @@
         "departureTime": "09:55:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0918_51592",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_INB_KSM-42_0835_54310",
@@ -132705,9 +132697,7 @@
         "departureTime": "09:42:00",
         "isPassing": false
       }
-    ],
-    "prevTripId": "HD_INB_KSSA-08_0829_57363",
-    "prevLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_INB_KSM-10_0839_55274",
@@ -132987,9 +132977,7 @@
         "departureTime": "08:47:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_0933_57319",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_INB_KSM-35_0841_54804",
@@ -135124,7 +135112,9 @@
         "departureTime": "09:07:53",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1012_57322",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_INB_KSM-10_0903_69643",
@@ -135886,6 +135876,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0918_51592",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0906_51592",
     "prevLineId": "keisei_oshiage"
   },
@@ -135964,9 +135956,7 @@
         "departureTime": "09:31:48",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1012_57322",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_0915_166585",
@@ -136882,9 +136872,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1018_55487",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_0941_55210",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-42_0925_54319",
@@ -137944,8 +137932,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_0958_51525",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0922_166536",
     "prevLineId": "keisei_oshiage"
   },
@@ -138974,7 +138960,9 @@
         "departureTime": "09:47:53",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1052_57327",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-01_0943_54059",
@@ -139203,14 +139191,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "09:45:00",
+        "arrivalTime": "09:29:00",
         "departureTime": "09:45:00",
         "isPassing": false
       },
@@ -139222,7 +139210,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_0948_55393",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_0901_55208",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-35_0945_55489",
@@ -140461,9 +140451,7 @@
         "departureTime": "10:10:48",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1052_57327",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_0956_51525",
@@ -140493,6 +140481,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_0958_51525",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_0950_51525",
     "prevLineId": "keisei_oshiage"
   },
@@ -141126,9 +141116,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1057_55491",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1021_55214",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-42_1005_54385",
@@ -142517,9 +142505,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1137_55327",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1101_55218",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_OUT_KSM-01_1016_53923",
@@ -143509,14 +143495,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "10:26:00",
+        "arrivalTime": "10:09:00",
         "departureTime": "10:26:00",
         "isPassing": false
       },
@@ -143528,7 +143514,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1029_55395",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_0941_55210",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_OUT_KSM-09_1026_51140",
@@ -143749,8 +143737,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1038_51526",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1019_51140",
     "prevLineId": "keisei_oshiage"
   },
@@ -144326,7 +144312,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -144390,7 +144377,9 @@
         "departureTime": "10:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1154_57333",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-09_1035_51526",
@@ -144420,6 +144409,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1038_51526",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1028_51526",
     "prevLineId": "keisei_oshiage"
   },
@@ -146034,9 +146025,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1217_55332",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1141_55222",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1055_54534",
@@ -146569,9 +146558,7 @@
         "departureTime": "11:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1154_57333",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_1102_166413",
@@ -146832,14 +146819,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "11:05:00",
+        "arrivalTime": "10:49:00",
         "departureTime": "11:05:00",
         "isPassing": false
       },
@@ -146851,7 +146838,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1109_55396",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1021_55214",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1105_54537",
@@ -147242,8 +147231,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1118_51529",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1100_51164",
     "prevLineId": "keisei_oshiage"
   },
@@ -147837,6 +147824,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1118_51529",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1109_51529",
     "prevLineId": "keisei_oshiage"
   },
@@ -148875,8 +148864,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1158_51530",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1120_51166",
     "prevLineId": "keisei_oshiage"
   },
@@ -149748,9 +149735,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1257_55337",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1221_55228",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1135_54544",
@@ -149962,7 +149947,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -150026,7 +150012,9 @@
         "departureTime": "11:52:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1252_57337",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_INB_KSM-10_1139_69723",
@@ -150543,14 +150531,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "11:45:00",
+        "arrivalTime": "11:29:00",
         "departureTime": "11:45:00",
         "isPassing": false
       },
@@ -150562,7 +150550,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1149_55399",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1101_55218",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1145_54548",
@@ -151546,6 +151536,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1158_51530",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1149_51530",
     "prevLineId": "keisei_oshiage"
   },
@@ -152044,9 +152036,7 @@
         "departureTime": "12:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1252_57337",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_1202_166423",
@@ -152586,8 +152576,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1238_51534",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1200_51171",
     "prevLineId": "keisei_oshiage"
   },
@@ -153459,9 +153447,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1337_55346",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1301_55230",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1215_54556",
@@ -154255,14 +154241,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "12:25:00",
+        "arrivalTime": "12:09:00",
         "departureTime": "12:25:00",
         "isPassing": false
       },
@@ -154274,7 +154260,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1229_55403",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1141_55222",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1225_54561",
@@ -155240,7 +155228,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -155304,7 +155293,9 @@
         "departureTime": "12:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1352_57341",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-09_1235_51534",
@@ -155334,6 +155325,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1238_51534",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1229_51534",
     "prevLineId": "keisei_oshiage"
   },
@@ -157166,9 +157159,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1417_55356",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1341_55234",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1255_54567",
@@ -157701,9 +157692,7 @@
         "departureTime": "13:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1352_57341",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_1302_166435",
@@ -157964,14 +157953,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "13:05:00",
+        "arrivalTime": "12:49:00",
         "departureTime": "13:05:00",
         "isPassing": false
       },
@@ -157983,7 +157972,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1309_55407",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1221_55228",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1305_54572",
@@ -158374,8 +158365,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1318_51538",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1300_51183",
     "prevLineId": "keisei_oshiage"
   },
@@ -158969,6 +158958,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1318_51538",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1309_51538",
     "prevLineId": "keisei_oshiage"
   },
@@ -160007,8 +159998,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1358_51543",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1320_51187",
     "prevLineId": "keisei_oshiage"
   },
@@ -160880,9 +160869,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1457_55362",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1421_55239",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1335_54579",
@@ -161064,7 +161051,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -161128,7 +161116,9 @@
         "departureTime": "13:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1452_57342",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-09_1335_51114",
@@ -161675,14 +161665,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "13:45:00",
+        "arrivalTime": "13:29:00",
         "departureTime": "13:45:00",
         "isPassing": false
       },
@@ -161694,7 +161684,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1349_55409",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1301_55230",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1345_54584",
@@ -162678,6 +162670,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1358_51543",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1349_51543",
     "prevLineId": "keisei_oshiage"
   },
@@ -163176,9 +163170,7 @@
         "departureTime": "14:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1452_57342",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_1402_166447",
@@ -163718,8 +163710,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1438_51549",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1400_51196",
     "prevLineId": "keisei_oshiage"
   },
@@ -164591,9 +164581,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1537_55365",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1501_55242",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1415_54593",
@@ -165387,14 +165375,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "14:25:00",
+        "arrivalTime": "14:09:00",
         "departureTime": "14:25:00",
         "isPassing": false
       },
@@ -165406,7 +165394,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1429_55413",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1341_55234",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1425_54597",
@@ -166372,7 +166362,8 @@
     "direction": "outbound",
     "originStationId": "KSM-01",
     "destinationStationId": "KSM-10",
-    "customDestination": "成田空港(鉄道)",
+    "customOrigin": "京成上野",
+    "customDestination": "成田空港",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -166436,7 +166427,9 @@
         "departureTime": "14:50:48",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSSA-01_1552_57345",
+    "throughLineId": "keisei_narita_sky_access"
   },
   {
     "tripId": "HD_OUT_KSM-09_1435_51549",
@@ -166466,6 +166459,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1438_51549",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1429_51549",
     "prevLineId": "keisei_oshiage"
   },
@@ -167427,8 +167422,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1518_51553",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1440_51203",
     "prevLineId": "keisei_oshiage"
   },
@@ -168300,9 +168293,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1617_55370",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1541_55244",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1455_54604",
@@ -168835,9 +168826,7 @@
         "departureTime": "15:07:53",
         "isPassing": true
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1552_57345",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_1502_166458",
@@ -169098,14 +169087,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "15:05:00",
+        "arrivalTime": "14:49:00",
         "departureTime": "15:05:00",
         "isPassing": false
       },
@@ -169117,7 +169106,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1509_55419",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1421_55239",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1505_54609",
@@ -170101,6 +170092,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1518_51553",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1509_51553",
     "prevLineId": "keisei_oshiage"
   },
@@ -171139,8 +171132,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1558_51556",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1520_51210",
     "prevLineId": "keisei_oshiage"
   },
@@ -172012,9 +172003,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1657_55373",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1621_55246",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1535_54614",
@@ -172807,14 +172796,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "15:45:00",
+        "arrivalTime": "15:29:00",
         "departureTime": "15:45:00",
         "isPassing": false
       },
@@ -172826,7 +172815,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1549_55420",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1501_55242",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1545_54620",
@@ -173810,6 +173801,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1558_51556",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1549_51556",
     "prevLineId": "keisei_oshiage"
   },
@@ -174851,8 +174844,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1638_51559",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1600_51214",
     "prevLineId": "keisei_oshiage"
   },
@@ -175724,9 +175715,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1737_55377",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1701_55247",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_OUT_KSM-09_1615_51127",
@@ -176561,14 +176550,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "16:25:00",
+        "arrivalTime": "16:09:00",
         "departureTime": "16:25:00",
         "isPassing": false
       },
@@ -176580,7 +176569,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1629_55423",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1541_55244",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1625_54631",
@@ -177564,6 +177555,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1638_51559",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1629_51559",
     "prevLineId": "keisei_oshiage"
   },
@@ -178609,8 +178602,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1718_51561",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1640_51218",
     "prevLineId": "keisei_oshiage"
   },
@@ -179486,9 +179477,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1817_55382",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1741_55249",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-26_1655_54639",
@@ -180281,14 +180270,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "17:05:00",
+        "arrivalTime": "16:49:00",
         "departureTime": "17:05:00",
         "isPassing": false
       },
@@ -180300,7 +180289,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1709_55424",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1621_55246",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1705_54641",
@@ -181288,6 +181279,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1718_51561",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1709_51561",
     "prevLineId": "keisei_oshiage"
   },
@@ -182377,8 +182370,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1758_51563",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1720_51222",
     "prevLineId": "keisei_oshiage"
   },
@@ -183813,14 +183804,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "17:45:00",
+        "arrivalTime": "17:29:00",
         "departureTime": "17:45:00",
         "isPassing": false
       },
@@ -183832,7 +183823,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1749_55427",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1701_55247",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-42_1745_54332",
@@ -185122,6 +185115,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1758_51563",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1749_51563",
     "prevLineId": "keisei_oshiage"
   },
@@ -187520,9 +187515,7 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1907_55482",
-    "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1821_55204",
-    "prevLineId": "hokuso"
+    "throughLineId": "keisei_oshiage"
   },
   {
     "tripId": "HD_INB_KSM-10_1819_69790",
@@ -188621,14 +188614,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "18:27:00",
+        "arrivalTime": "18:09:00",
         "departureTime": "18:27:00",
         "isPassing": false
       },
@@ -188640,7 +188633,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1829_55390",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1741_55249",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-26_1827_54652",
@@ -191816,8 +191811,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_1918_51567",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1858_51226",
     "prevLineId": "keisei_oshiage"
   },
@@ -192928,14 +192921,14 @@
     "direction": "inbound",
     "originStationId": "KSM-10",
     "destinationStationId": "KSM-09",
-    "customOrigin": "京成高砂",
+    "customOrigin": "印旛日本医大",
     "customDestination": "羽田空港第1・第2ターミナル",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "19:15:00",
+        "arrivalTime": "18:49:00",
         "departureTime": "19:15:00",
         "isPassing": false
       },
@@ -192947,7 +192940,9 @@
       }
     ],
     "throughTripId": "HD_INB_KSO-06_1918_55428",
-    "throughLineId": "keisei_oshiage"
+    "throughLineId": "keisei_oshiage",
+    "prevTripId": "HD_INB_HOK-15_1821_55204",
+    "prevLineId": "hokuso"
   },
   {
     "tripId": "HD_INB_KSM-35_1915_54776",
@@ -193147,6 +193142,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1918_51567",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1909_51567",
     "prevLineId": "keisei_oshiage"
   },
@@ -194382,9 +194379,7 @@
         "departureTime": "21:09:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_1957_51573",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-09_1926_51160",
@@ -195034,7 +195029,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "19:28:00",
+        "arrivalTime": "19:32:00",
         "departureTime": "19:33:00",
         "isPassing": false
       },
@@ -195047,7 +195042,7 @@
     ],
     "throughTripId": "HD_INB_KSO-06_1936_69651",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1900_55263",
+    "prevTripId": "HD_INB_HOK-15_1847_69651",
     "prevLineId": "hokuso"
   },
   {
@@ -197005,7 +197000,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "19:32:00",
+        "arrivalTime": "19:49:00",
         "departureTime": "19:50:00",
         "isPassing": false
       },
@@ -197018,7 +197013,7 @@
     ],
     "throughTripId": "HD_INB_KSO-06_1956_69654",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1847_69651",
+    "prevTripId": "HD_INB_HOK-15_1915_69654",
     "prevLineId": "hokuso"
   },
   {
@@ -197048,6 +197043,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_1957_51573",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_1948_51573",
     "prevLineId": "keisei_oshiage"
   },
@@ -199091,7 +199088,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "19:49:00",
+        "arrivalTime": "20:13:00",
         "departureTime": "20:14:00",
         "isPassing": false
       },
@@ -199104,7 +199101,7 @@
     ],
     "throughTripId": "HD_INB_KSO-06_2017_69656",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1915_69654",
+    "prevTripId": "HD_INB_HOK-15_1929_69656",
     "prevLineId": "hokuso"
   },
   {
@@ -201119,8 +201116,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_KSSA-01_2101_166979",
-    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_2026_51229",
     "prevLineId": "keisei_oshiage"
   },
@@ -201140,7 +201135,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "20:13:00",
+        "arrivalTime": "20:32:00",
         "departureTime": "20:33:00",
         "isPassing": false
       },
@@ -201153,7 +201148,7 @@
     ],
     "throughTripId": "HD_INB_KSO-06_2037_69658",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1929_69656",
+    "prevTripId": "HD_INB_HOK-15_1955_69658",
     "prevLineId": "hokuso"
   },
   {
@@ -202385,7 +202380,7 @@
     "stops": [
       {
         "stationId": "KSM-10",
-        "arrivalTime": "20:32:00",
+        "arrivalTime": "20:50:00",
         "departureTime": "20:50:00",
         "isPassing": false
       },
@@ -202398,7 +202393,7 @@
     ],
     "throughTripId": "HD_INB_KSO-06_2055_69630",
     "throughLineId": "keisei_oshiage",
-    "prevTripId": "HD_INB_HOK-15_1955_69658",
+    "prevTripId": "HD_INB_HOK-15_2009_69630",
     "prevLineId": "hokuso"
   },
   {
@@ -203737,6 +203732,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_2101_166979",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_2052_166979",
     "prevLineId": "keisei_oshiage"
   },
@@ -205073,9 +205070,7 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_KSSA-01_2204_51576",
-    "throughLineId": "keisei_narita_sky_access"
+    ]
   },
   {
     "tripId": "HD_OUT_KSM-01_2116_54170",
@@ -208728,6 +208723,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSSA-01_2204_51576",
+    "throughLineId": "keisei_narita_sky_access",
     "prevTripId": "HD_OUT_KSO-01_2155_51576",
     "prevLineId": "keisei_oshiage"
   },

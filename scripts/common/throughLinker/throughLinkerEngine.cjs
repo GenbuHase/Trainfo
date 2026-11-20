@@ -379,7 +379,12 @@ function linkPair({
       return (aSec || 0) - (bSec || 0);
     });
 
-  for (const tA of sortedTripsA) {
+  // Pass 1: 列車番号・trainId が一致する直通ペアを先行確定し、別列車による先取り誤リンクを防ぐ
+  // Pass 2: 残りの未接続便を時刻・行先近接スコアで接続
+  for (const pass of [1, 2]) {
+    if (pass === 2 && requireIdMatch) break;
+    for (const tA of sortedTripsA) {
+      if (tA.throughTripId) continue;
     const stopAIndex = allowMidStationA
       ? tA.stops.findLastIndex((s) => s.stationId === stationAId)
       : tA.stops.length - 1;
@@ -479,7 +484,7 @@ function linkPair({
         }
       }
 
-      if (requireIdMatch) continue;
+      if (pass === 1 || requireIdMatch) continue;
 
       // 2. 因果律と最大待機時間判定
       const isDestCompatible = destA && destB && areDestinationsCompatible(destA, destB);
@@ -626,6 +631,7 @@ function linkPair({
 
       linkedCount++;
     }
+  }
   }
 
   console.log(`  [${linkName}] 接続完了: ${linkedCount} 本`);
