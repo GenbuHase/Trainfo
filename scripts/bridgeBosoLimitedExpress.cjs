@@ -276,17 +276,17 @@ function bridgeBosoLimitedExpress() {
   console.log('=== 🏖️ 房総特急（新宿さざなみ・新宿わかしお・さざなみ・わかしお・しおさい）ダイヤ補完＆直通リンク開始 ===');
 
   const lineData = {
-    jr_chuo_sobu_local: safeReadJson(LINE_PATHS.chuo_sobu_local),
-    jr_sobu_rapid: safeReadJson(LINE_PATHS.sobu_rapid),
-    jr_uchibo: safeReadJson(LINE_PATHS.uchibo),
-    jr_sotobo: safeReadJson(LINE_PATHS.sotobo),
-    jr_keiyo: safeReadJson(LINE_PATHS.keiyo),
-    jr_sobu_main: safeReadJson(LINE_PATHS.sobu_main),
+    jr_chuo_sobu_local: safeReadJson(LINE_PATHS.jr_chuo_sobu_local),
+    jr_sobu_rapid: safeReadJson(LINE_PATHS.jr_sobu_rapid),
+    jr_uchibo: safeReadJson(LINE_PATHS.jr_uchibo),
+    jr_sotobo: safeReadJson(LINE_PATHS.jr_sotobo),
+    jr_keiyo: safeReadJson(LINE_PATHS.jr_keiyo),
+    jr_sobu_main: safeReadJson(LINE_PATHS.jr_sobu_main),
   };
 
   // 0-1. 総武快速線から新宿発着房総特急の不要・孤立トリップを除去
   const isShinjukuBoso = (t) => t.trainName && (t.trainName.includes('新宿さざなみ') || t.trainName.includes('新宿わかしお'));
-  lineData.sobu_rapid = lineData.sobu_rapid.filter((t) => !isShinjukuBoso(t));
+  lineData.jr_sobu_rapid = lineData.jr_sobu_rapid.filter((t) => !isShinjukuBoso(t));
 
   // 0-2. 新宿さざなみ・新宿わかしおは土休日運転のため、平日ダイヤから誤登録されたトリップを除去
   for (const key of ['jr_chuo_sobu_local', 'jr_sotobo', 'jr_uchibo']) {
@@ -343,7 +343,7 @@ function bridgeBosoLimitedExpress() {
     if (resolvedTrips.every((r) => Boolean(r.trip))) {
       // 京葉線の誤リンク解除（該当指定がある場合）
       if (chain.clearKeiyoFromTripId) {
-        for (const ky of lineData.keiyo) {
+        for (const ky of lineData.jr_keiyo) {
           if (ky.prevTripId === chain.clearKeiyoFromTripId || ky.previousTrip?.tripId === chain.clearKeiyoFromTripId) {
             delete ky.prevTripId;
             delete ky.prevLineId;

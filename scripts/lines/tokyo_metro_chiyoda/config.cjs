@@ -2,10 +2,10 @@
 module.exports = {
   lineId: 'tokyo_metro_chiyoda',
   name: '東京メトロ千代田線',
-  stationsFilePath: 'src/data/lines/chiyoda/stations.ts',
+  stationsFilePath: 'src/data/lines/tokyo_metro_chiyoda/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/chiyoda/stationTimetables.json',
-    globalTimetable: 'src/data/lines/chiyoda/globalTimetable.json',
+    stationTimetables: 'src/data/lines/tokyo_metro_chiyoda/stationTimetables.json',
+    globalTimetable: 'src/data/lines/tokyo_metro_chiyoda/globalTimetable.json',
   },
   stations: [
     { id: 'C-01', name: '代々木上原', yahooStationId: '23044', inGroupId: null, outGroupId: '3320' },

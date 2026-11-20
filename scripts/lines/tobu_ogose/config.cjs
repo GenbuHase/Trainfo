@@ -2,10 +2,10 @@
 module.exports = {
   lineId: 'tobu_ogose',
   name: '東武越生線',
-  stationsFilePath: 'src/data/lines/ogose/stations.ts',
+  stationsFilePath: 'src/data/lines/tobu_ogose/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/ogose/stationTimetables.json',
-    globalTimetable: 'src/data/lines/ogose/globalTimetable.json',
+    stationTimetables: 'src/data/lines/tobu_ogose/stationTimetables.json',
+    globalTimetable: 'src/data/lines/tobu_ogose/globalTimetable.json',
   },
   // Yahoo! 駅・路線グループ定義 (上り 2800: 坂戸方面, 下り 2801: 越生方面)
   // 坂戸は越生線の起点（越生線下りの始発駅）。越生線としての発車時刻表は下り(2801)のみ。

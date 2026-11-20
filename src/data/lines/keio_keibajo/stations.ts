@@ -1,0 +1,66 @@
+import type { Station } from '../../../types';
+
+export const KEIO_KEIBAJO_STATIONS: Station[] = [
+  {
+    "id": "KOK-01",
+    "stationNumber": "KO23",
+    "lineId": "keio_keibajo",
+    "number": 1,
+    "name": "東府中",
+    "nameKana": "ひがしふちゅう",
+    "nameEn": "Higashifuchuu",
+    "lat": 35.669,
+    "lng": 139.49478,
+    "transfers": [
+      "京王線"
+    ],
+    "address": "東京都東府中駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "express",
+      "limited_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KOK-02",
+    "stationNumber": "KO46",
+    "lineId": "keio_keibajo",
+    "number": 2,
+    "name": "府中競馬正門前",
+    "nameKana": "ふちゅうけいばせいもんまえ",
+    "nameEn": "Fuchuukeibaseimommae",
+    "lat": 35.66838,
+    "lng": 139.48449,
+    "transfers": [],
+    "address": "東京都府中競馬正門前駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "express",
+      "limited_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  }
+];

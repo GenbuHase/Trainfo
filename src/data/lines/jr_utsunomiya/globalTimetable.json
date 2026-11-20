@@ -692,6 +692,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -714,7 +715,9 @@
         "departureTime": "05:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_0537_37692",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-20_0524_5757",
@@ -2738,6 +2741,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -2760,7 +2764,9 @@
         "departureTime": "06:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_0636_37693",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-20_0616_34257",
@@ -3036,6 +3042,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -3057,7 +3064,9 @@
         "departureTime": "06:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_0540_37706",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-20_0625_33434",
@@ -5287,6 +5296,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -5309,7 +5319,9 @@
         "departureTime": "07:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_0726_37694",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-16_0712_34239",
@@ -5925,6 +5937,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -5946,7 +5959,9 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_0637_37707",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_OUT_JU-24_0721_5538",
@@ -8100,6 +8115,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -8122,7 +8138,9 @@
         "departureTime": "08:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_0824_37695",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-07_0811_34103",
@@ -8668,6 +8686,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -8689,7 +8708,9 @@
         "departureTime": "08:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_0731_37708",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-07_0821_40903",
@@ -10483,6 +10504,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -10504,7 +10526,9 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_0826_37709",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-07_0912_13928",
@@ -12688,6 +12712,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -12709,7 +12734,9 @@
         "departureTime": "10:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_0939_37710",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-24_1021_34185",
@@ -13138,6 +13165,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -13160,7 +13188,9 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_1048_37696",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-24_1035_33444",
@@ -16387,6 +16417,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -16408,7 +16439,9 @@
         "departureTime": "12:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_1139_37711",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-24_1218_34191",
@@ -16913,6 +16946,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -16935,7 +16969,9 @@
         "departureTime": "12:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_1248_37697",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_OUT_JU-02_1235_34421",
@@ -19805,6 +19841,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -19826,7 +19863,9 @@
         "departureTime": "14:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_1339_37712",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-24_1416_33718",
@@ -20487,6 +20526,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -20509,7 +20549,9 @@
         "departureTime": "14:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_1449_37698",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_OUT_JU-02_1435_34467",
@@ -22142,6 +22184,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -22164,7 +22207,9 @@
         "departureTime": "15:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_1538_37699",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_OUT_JU-04_1525_33617",
@@ -32873,6 +32918,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -32895,7 +32941,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_2014_37700",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-34_2000_5745",
@@ -32987,6 +33035,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -33008,7 +33057,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_1920_37713",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-07_2007_34144",
@@ -35071,6 +35122,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -35092,7 +35144,9 @@
         "departureTime": "21:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_2017_37714",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_OUT_JU-24_2100_5569",
@@ -35703,6 +35757,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -35725,7 +35780,9 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_2132_37701",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_OUT_JU-02_2119_34458",
@@ -37596,6 +37653,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -37617,7 +37675,9 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KRS-08_2135_37715",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-24_2219_5711",
@@ -38344,6 +38404,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": false,
@@ -38366,7 +38427,9 @@
         "departureTime": "23:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KRS-01_2300_37702",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "WD_INB_JU-07_2251_13919",
@@ -39914,6 +39977,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -39936,7 +40000,9 @@
         "departureTime": "05:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_0537_37692",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-20_0524_5758",
@@ -41754,6 +41820,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -41776,7 +41843,9 @@
         "departureTime": "06:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_0636_37693",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-34_0617_5714",
@@ -41920,6 +41989,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -41941,7 +42011,9 @@
         "departureTime": "06:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_0540_37706",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_0626_34288",
@@ -43718,6 +43790,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -43740,7 +43813,9 @@
         "departureTime": "07:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_0726_37694",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_0712_34095",
@@ -44168,6 +44243,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -44189,7 +44265,9 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_0637_37707",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-24_0721_5538",
@@ -46229,6 +46307,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -46251,7 +46330,9 @@
         "departureTime": "08:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_0824_37695",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_0812_34293",
@@ -46521,6 +46602,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -46542,7 +46624,9 @@
         "departureTime": "08:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_0731_37708",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-24_0821_5703",
@@ -48457,6 +48541,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -48478,7 +48563,9 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_0826_37709",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-24_0912_5542",
@@ -50790,6 +50877,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -50811,7 +50899,9 @@
         "departureTime": "10:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_0939_37710",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_1021_13940",
@@ -51321,6 +51411,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -51343,7 +51434,9 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_1048_37696",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_1034_34123",
@@ -54666,6 +54759,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -54687,7 +54781,9 @@
         "departureTime": "12:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_1139_37711",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-24_1220_5548",
@@ -55036,6 +55132,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -55058,7 +55155,9 @@
         "departureTime": "12:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_1248_37697",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-02_1235_34422",
@@ -57904,6 +58003,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -57925,7 +58025,9 @@
         "departureTime": "14:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_1339_37712",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-24_1416_33719",
@@ -58586,6 +58688,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -58608,7 +58711,9 @@
         "departureTime": "14:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_1449_37698",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-02_1435_34466",
@@ -60265,6 +60370,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -60287,7 +60393,9 @@
         "departureTime": "15:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_1538_37699",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-04_1525_33616",
@@ -70359,6 +70467,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -70381,7 +70490,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_2014_37700",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-34_2000_5745",
@@ -70473,6 +70584,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -70494,7 +70606,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_1920_37713",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_2007_34119",
@@ -72477,6 +72591,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -72498,7 +72613,9 @@
         "departureTime": "21:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_2017_37714",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-24_2100_5569",
@@ -73107,6 +73224,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -73129,7 +73247,9 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_2132_37701",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_OUT_JU-02_2119_34459",
@@ -74844,6 +74964,7 @@
     "originStationId": "JU-26",
     "destinationStationId": "JU-24",
     "customOrigin": "烏山",
+    "customDestination": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -74865,7 +74986,9 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KRS-08_2135_37715",
+    "prevLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-24_2218_5710",
@@ -75795,6 +75918,7 @@
     "direction": "outbound",
     "originStationId": "JU-24",
     "destinationStationId": "JU-26",
+    "customOrigin": "宇都宮",
     "customDestination": "烏山",
     "cars": 15,
     "isHoliday": true,
@@ -75817,7 +75941,9 @@
         "departureTime": "23:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KRS-01_2300_37702",
+    "throughLineId": "jr_karasuyama"
   },
   {
     "tripId": "HD_INB_JU-07_2251_13920",

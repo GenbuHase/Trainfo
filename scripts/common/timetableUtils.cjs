@@ -273,6 +273,7 @@ function buildUniversalStationMap() {
     let match;
     while ((match = regex.exec(content)) !== null) {
       stationMap.set(match[1], match[2]);
+      stationMap.set(`${entry.name}:${match[1]}`, match[2]);
     }
   }
   return stationMap;

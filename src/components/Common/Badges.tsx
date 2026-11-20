@@ -433,6 +433,51 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00a7db',
     numColor: '#00779e',
   },
+  // 都営地下鉄・都電・日暮里舎人ライナー
+  A: { borderColor: '#e85298', prefixColor: '#e85298', numColor: '#b83272' },
+  I: { borderColor: '#0079c2', prefixColor: '#0079c2', numColor: '#00558a' },
+  S: { borderColor: '#6cbb5a', prefixColor: '#6cbb5a', numColor: '#489138' },
+  E: { borderColor: '#b6007a', prefixColor: '#b6007a', numColor: '#850059' },
+  SA: { borderColor: '#e60072', prefixColor: '#e60072', numColor: '#b30058' },
+  NT: { borderColor: '#d83473', prefixColor: '#d83473', numColor: '#a82055' },
+  // 京王電鉄
+  KO: { borderColor: '#dd0077', prefixColor: '#dd0077', numColor: '#b0005e' },
+  IN: { borderColor: '#1d2088', prefixColor: '#1d2088', numColor: '#13155c' },
+  // 京成電鉄・北総・芝山
+  KS: { borderColor: '#005aaa', prefixColor: '#005aaa', numColor: '#003d75' },
+  HS: { borderColor: '#0080c6', prefixColor: '#0080c6', numColor: '#00558c' },
+  SR: { borderColor: '#2957a4', prefixColor: '#2957a4', numColor: '#1b3b73' },
+  // 京浜急行電鉄
+  KK: { borderColor: '#e60012', prefixColor: '#e60012', numColor: '#b8000e' },
+  // 西武鉄道（新宿線系統等）
+  SS: { borderColor: '#00a7db', prefixColor: '#00a7db', numColor: '#007ea6' },
+  ST: { borderColor: '#f5a200', prefixColor: '#f5a200', numColor: '#b87600' },
+  SK: { borderColor: '#009944', prefixColor: '#009944', numColor: '#007032' },
+  SW: { borderColor: '#ef7a00', prefixColor: '#ef7a00', numColor: '#b85a00' },
+  SY: { borderColor: '#ff3333', prefixColor: '#ff3333', numColor: '#cc0000' },
+  // 東急電鉄（目黒・田都・大井町・池上・多摩川・世田谷・こどもの国）
+  MG: { borderColor: '#009cd2', prefixColor: '#009cd2', numColor: '#0074a0' },
+  DT: { borderColor: '#20a288', prefixColor: '#20a288', numColor: '#147561' },
+  OM: { borderColor: '#f18c43', prefixColor: '#f18c43', numColor: '#c46a25' },
+  IK: { borderColor: '#ee86a7', prefixColor: '#ee86a7', numColor: '#b84b6e' },
+  TM: { borderColor: '#ae0378', prefixColor: '#ae0378', numColor: '#800258' },
+  SG: { borderColor: '#fcc70d', prefixColor: '#d4a300', numColor: '#8a6b00' },
+  KD: { borderColor: '#0068b7', prefixColor: '#0068b7', numColor: '#004b85' },
+  // 東葉高速鉄道
+  TR: { borderColor: '#53b332', prefixColor: '#53b332', numColor: '#3a8420' },
+  // 横浜市営・ゆりかもめ・モノレール・新交通・中小私鉄
+  B: { borderColor: '#0071c5', prefixColor: '#0071c5', numColor: '#004e8a' },
+  U: { borderColor: '#00b5ad', prefixColor: '#00b5ad', numColor: '#007a74' },
+  MO: { borderColor: '#003686', prefixColor: '#003686', numColor: '#002255' },
+  TT: { borderColor: '#ea5514', prefixColor: '#ea5514', numColor: '#b83c07' },
+  CM: { borderColor: '#005bac', prefixColor: '#005bac', numColor: '#003d75' },
+  SMR: { borderColor: '#e60012', prefixColor: '#e60012', numColor: '#b8000e' },
+  NS: { borderColor: '#00896c', prefixColor: '#00896c', numColor: '#005e4a' },
+  RN: { borderColor: '#ff6600', prefixColor: '#ff6600', numColor: '#cc5200' },
+  EN: { borderColor: '#007f4e', prefixColor: '#007f4e', numColor: '#005937' },
+  ID: { borderColor: '#0073be', prefixColor: '#0073be', numColor: '#00528a' },
+  AK: { borderColor: '#2e7d32', prefixColor: '#2e7d32', numColor: '#1b5e20' },
+  BE: { borderColor: '#1a237e', prefixColor: '#1a237e', numColor: '#0d1454' },
 };
 
 
@@ -469,10 +514,16 @@ export const StationBadge: React.FC<{
       prefix = parts.slice(0, 2).join('-');
       num = parts.slice(2).join('-');
     }
-  } else if (badgeId.includes('-')) {
-    [prefix, num] = badgeId.split('-');
   } else {
-    [prefix, num] = [badgeId.slice(0, 2), badgeId.slice(2)];
+    const alphaNumMatch = badgeId.match(/^([A-Za-z]+)-?(\d+.*)$/);
+    if (alphaNumMatch) {
+      prefix = alphaNumMatch[1];
+      num = alphaNumMatch[2];
+    } else if (badgeId.includes('-')) {
+      [prefix, num] = badgeId.split('-');
+    } else {
+      [prefix, num] = [badgeId.slice(0, 2), badgeId.slice(2)];
+    }
   }
   const badgeColor =
     (badgeId.startsWith('JR-') ? STATION_BADGE_COLORS[`JR-${prefix}`] : null) ||
@@ -520,9 +571,10 @@ export const TrainTypeBadge: React.FC<{
 
   return (
     <span
-      className={`inline-flex items-center justify-center shadow-xs text-white ${sizeClasses}`}
+      className={`inline-flex items-center justify-center shadow-xs ${sizeClasses}`}
       style={{
         backgroundColor: config.bgColor,
+        color: config.textColor || '#ffffff',
         border: `1px solid ${config.borderColor}`,
       }}
     >

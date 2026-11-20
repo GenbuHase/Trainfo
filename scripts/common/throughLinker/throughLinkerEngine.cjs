@@ -211,16 +211,23 @@ function areDestinationsCompatible(destA, destB) {
   return false;
 }
 
+function resolveStationName(stationMap, lineId, stationId) {
+  if (!stationMap || !stationId) return null;
+  if (lineId && stationMap.has(`${lineId}:${stationId}`)) {
+    return stationMap.get(`${lineId}:${stationId}`);
+  }
+  return stationMap.get(stationId) || null;
+}
+
 function getEffectiveDestination(trip, stationMap) {
   if (trip.customDestination) {
     return cleanStationName(trip.customDestination);
   }
-  if (trip.destinationStationId && stationMap && stationMap.has(trip.destinationStationId)) {
-    return stationMap.get(trip.destinationStationId);
-  }
+  const byDest = resolveStationName(stationMap, trip.lineId, trip.destinationStationId);
+  if (byDest) return byDest;
   const lastStop = trip.stops && trip.stops[trip.stops.length - 1];
-  if (lastStop && lastStop.stationId && stationMap && stationMap.has(lastStop.stationId)) {
-    return stationMap.get(lastStop.stationId);
+  if (lastStop && lastStop.stationId) {
+    return resolveStationName(stationMap, trip.lineId, lastStop.stationId);
   }
   return null;
 }
@@ -229,12 +236,11 @@ function getEffectiveOrigin(trip, stationMap) {
   if (trip.customOrigin) {
     return cleanStationName(trip.customOrigin);
   }
-  if (trip.originStationId && stationMap && stationMap.has(trip.originStationId)) {
-    return stationMap.get(trip.originStationId);
-  }
+  const byOrig = resolveStationName(stationMap, trip.lineId, trip.originStationId);
+  if (byOrig) return byOrig;
   const firstStop = trip.stops && trip.stops[0];
-  if (firstStop && firstStop.stationId && stationMap && stationMap.has(firstStop.stationId)) {
-    return stationMap.get(firstStop.stationId);
+  if (firstStop && firstStop.stationId) {
+    return resolveStationName(stationMap, trip.lineId, firstStop.stationId);
   }
   return null;
 }
@@ -641,7 +647,9 @@ function resolveAllChainDestinations(allTripsMap, stationMap) {
     }
 
     const lastStop = curr.stops[curr.stops.length - 1];
-    const finalStationName = stationMap.get(curr.destinationStationId) || (lastStop ? stationMap.get(lastStop.stationId) : null);
+    const finalStationName =
+      resolveStationName(stationMap, curr.lineId, curr.destinationStationId) ||
+      (lastStop ? resolveStationName(stationMap, curr.lineId, lastStop.stationId) : null);
     const dest = curr.customDestination ? cleanStationName(curr.customDestination) : null;
     return dest || finalStationName || '行先不明';
   }
@@ -657,7 +665,9 @@ function resolveAllChainDestinations(allTripsMap, stationMap) {
     }
 
     const firstStop = curr.stops[0];
-    const initialStationName = stationMap.get(curr.originStationId) || (firstStop ? stationMap.get(firstStop.stationId) : null);
+    const initialStationName =
+      resolveStationName(stationMap, curr.lineId, curr.originStationId) ||
+      (firstStop ? resolveStationName(stationMap, curr.lineId, firstStop.stationId) : null);
     const orig = curr.customOrigin ? cleanStationName(curr.customOrigin) : null;
     return orig || initialStationName || null;
   }
