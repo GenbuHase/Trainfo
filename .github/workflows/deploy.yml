@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - dev
   workflow_dispatch:
 
 # GitHub Pages へのデプロイ権限を設定
@@ -22,25 +23,64 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: リポジトリのチェックアウト
+      - name: 本番ブランチのチェックアウト
         uses: actions/checkout@v4
+        with:
+          ref: ${{ (github.ref_name == 'master' || github.ref_name == 'main') && github.sha || github.event.repository.default_branch }}
+          path: prod
 
       - name: Node.js のセットアップ
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
+          cache-dependency-path: prod/package-lock.json
 
-      - name: 依存関係のインストール
-        run: npm ci
+      - name: 本番用依存関係のインストールとビルド
+        working-directory: prod
+        run: |
+          npm ci
+          npm run build
 
-      - name: プロジェクトのビルド
-        run: npm run build
+      - name: 公開用ディレクトリへ本番ビルドを配置
+        run: |
+          mkdir -p _site
+          cp -a prod/dist/. _site/
+
+      - name: dev ブランチの存在確認
+        id: check-dev
+        working-directory: prod
+        run: |
+          if git ls-remote --exit-code --heads origin dev >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: dev ブランチのチェックアウト
+        if: steps.check-dev.outputs.exists == 'true' || github.ref_name == 'dev'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name == 'dev' && github.sha || 'dev' }}
+          path: dev
+
+      - name: dev 用依存関係のインストールとビルド
+        if: steps.check-dev.outputs.exists == 'true' || github.ref_name == 'dev'
+        working-directory: dev
+        run: |
+          npm ci
+          npm run build
+
+      - name: 公開用ディレクトリへ dev ビルドを配置
+        if: steps.check-dev.outputs.exists == 'true' || github.ref_name == 'dev'
+        run: |
+          mkdir -p _site/dev
+          cp -a dev/dist/. _site/dev/
 
       - name: Pages アーティファクトのアップロード
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: './_site'
 
   deploy:
     environment:
