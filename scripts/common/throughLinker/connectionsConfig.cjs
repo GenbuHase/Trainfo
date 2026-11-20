@@ -4616,7 +4616,9 @@ module.exports = {
     ]
   ],
   "freeLimitedExpressLinePrefixes": [
-    "sotetsu_"
+    "sotetsu_",
+    "tokyu_",
+    "minatomirai"
   ],
   "lineDestinationExclusions": {
     "tokyo_metro_yurakucho": {
