@@ -5,7 +5,9 @@ on:
     branches:
       - master
       - main
-      - dev
+      - deploy/dev1
+      - deploy/dev2
+      - deploy/dev3
   workflow_dispatch:
 
 # GitHub Pages へのデプロイ権限を設定
@@ -47,35 +49,34 @@ jobs:
           mkdir -p _site
           cp -a prod/dist/. _site/
 
-      - name: dev ブランチの存在確認
-        id: check-dev
+      - name: deploy/dev1 〜 deploy/dev3 のチェックアウトとビルド
         working-directory: prod
         run: |
-          if git ls-remote --exit-code --heads origin dev >/dev/null 2>&1; then
-            echo "exists=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "exists=false" >> "$GITHUB_OUTPUT"
-          fi
+          for env in dev1 dev2 dev3; do
+            branch="deploy/${env}"
+            if [ "${GITHUB_REF_NAME}" = "${branch}" ]; then
+              echo "=== Building ${branch} (current push: ${GITHUB_SHA}) ==="
+              git fetch --depth=1 origin "${GITHUB_SHA}"
+              target_ref="${GITHUB_SHA}"
+            elif git ls-remote --exit-code --heads origin "${branch}" >/dev/null 2>&1; then
+              echo "=== Building ${branch} (from origin) ==="
+              git fetch --depth=1 origin "refs/heads/${branch}:refs/remotes/origin/${branch}"
+              target_ref="origin/${branch}"
+            else
+              echo "=== Skipping ${branch} (branch does not exist on origin) ==="
+              continue
+            fi
 
-      - name: dev ブランチのチェックアウト
-        if: steps.check-dev.outputs.exists == 'true' || github.ref_name == 'dev'
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name == 'dev' && github.sha || 'dev' }}
-          path: dev
-
-      - name: dev 用依存関係のインストールとビルド
-        if: steps.check-dev.outputs.exists == 'true' || github.ref_name == 'dev'
-        working-directory: dev
-        run: |
-          npm ci
-          npm run build
-
-      - name: 公開用ディレクトリへ dev ビルドを配置
-        if: steps.check-dev.outputs.exists == 'true' || github.ref_name == 'dev'
-        run: |
-          mkdir -p _site/dev
-          cp -a dev/dist/. _site/dev/
+            git worktree add --detach "../${env}" "${target_ref}"
+            (
+              cd "../${env}"
+              npm ci
+              npm run build
+            )
+            mkdir -p "../_site/${env}"
+            cp -a "../${env}/dist/." "../_site/${env}/"
+            git worktree remove --force "../${env}"
+          done
 
       - name: Pages アーティファクトのアップロード
         uses: actions/upload-pages-artifact@v3
