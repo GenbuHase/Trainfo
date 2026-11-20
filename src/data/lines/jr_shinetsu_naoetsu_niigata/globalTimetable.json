@@ -364,6 +364,7 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
+    "customOrigin": "長岡",
     "customDestination": "巻",
     "cars": 4,
     "isHoliday": false,
@@ -488,7 +489,9 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_0701_33133",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-12_0537_19242",
@@ -1673,6 +1676,7 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
+    "customOrigin": "長岡",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": false,
@@ -1797,7 +1801,9 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_0811_33131",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-01_0652_33745",
@@ -2186,7 +2192,8 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-23",
-    "customOrigin": "吉田(新潟県)",
+    "customOrigin": "吉田",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2310,7 +2317,9 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_EG-18_0605_19433",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "WD_INB_SE-23_0708_18994",
@@ -4449,7 +4458,8 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-33",
-    "customOrigin": "吉田(新潟県)",
+    "customOrigin": "吉田",
+    "customDestination": "羽生田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4513,7 +4523,9 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_EG-18_0713_19432",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-22_0822_11376",
@@ -4692,7 +4704,8 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-23",
-    "customOrigin": "吉田(新潟県)",
+    "customOrigin": "吉田",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4816,7 +4829,9 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_EG-18_0751_19434",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-37_0857_32178",
@@ -4917,7 +4932,8 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "長岡",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5041,7 +5057,9 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1021_33134",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-33_0913_33251",
@@ -5052,6 +5070,7 @@
     "direction": "outbound",
     "originStationId": "SE-33",
     "destinationStationId": "SE-42",
+    "customOrigin": "羽生田",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": false,
@@ -5116,7 +5135,9 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1001_33140",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-22_0915_11377",
@@ -5788,6 +5809,7 @@
     "originStationId": "SE-42",
     "destinationStationId": "SE-23",
     "customOrigin": "内野",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5911,7 +5933,9 @@
         "departureTime": "11:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_EG-25_0930_19436",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-22_1014_11371",
@@ -7436,6 +7460,7 @@
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
+    "customOrigin": "新津",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": false,
@@ -7476,7 +7501,9 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1141_33137",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-01_1121_33746",
@@ -8595,7 +8622,8 @@
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "新津",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8635,7 +8663,9 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1321_33138",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_INB_SE-03_1259_35096",
@@ -9609,6 +9639,7 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
+    "customOrigin": "長岡",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": false,
@@ -9733,7 +9764,9 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1501_33132",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_INB_SE-42_1348_19018",
@@ -10729,7 +10762,8 @@
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "新津",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10769,7 +10803,9 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1520_33139",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_INB_SE-42_1508_19036",
@@ -13144,7 +13180,8 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "長岡",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -13268,7 +13305,9 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1823_33135",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-01_1703_33753",
@@ -14316,7 +14355,8 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "長岡",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -14440,7 +14480,9 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_EG-33_1900_33136",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-01_1741_19235",
@@ -14997,6 +15039,7 @@
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
     "customOrigin": "内野",
+    "customDestination": "新津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15036,7 +15079,9 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_EG-25_1752_19435",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "WD_OUT_SE-22_1832_11378",
@@ -19981,6 +20026,7 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
+    "customOrigin": "長岡",
     "customDestination": "巻",
     "cars": 4,
     "isHoliday": true,
@@ -20105,7 +20151,9 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_0701_33133",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-12_0537_19242",
@@ -21290,6 +21338,7 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
+    "customOrigin": "長岡",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": true,
@@ -21414,7 +21463,9 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_0811_33131",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-01_0652_33745",
@@ -21803,7 +21854,8 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-23",
-    "customOrigin": "吉田(新潟県)",
+    "customOrigin": "吉田",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21927,7 +21979,9 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_EG-18_0605_19433",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "HD_INB_SE-23_0708_18994",
@@ -23890,7 +23944,8 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-33",
-    "customOrigin": "吉田(新潟県)",
+    "customOrigin": "吉田",
+    "customDestination": "羽生田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23954,7 +24009,9 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_EG-18_0713_19432",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-22_0822_11376",
@@ -24133,7 +24190,8 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-23",
-    "customOrigin": "吉田(新潟県)",
+    "customOrigin": "吉田",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24257,7 +24315,9 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_EG-18_0751_19434",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-37_0857_32178",
@@ -24358,7 +24418,8 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "長岡",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24482,7 +24543,9 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1021_33134",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-33_0913_33251",
@@ -24493,6 +24556,7 @@
     "direction": "outbound",
     "originStationId": "SE-33",
     "destinationStationId": "SE-42",
+    "customOrigin": "羽生田",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": true,
@@ -24557,7 +24621,9 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1001_33140",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-22_0915_11377",
@@ -25229,6 +25295,7 @@
     "originStationId": "SE-42",
     "destinationStationId": "SE-23",
     "customOrigin": "内野",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25352,7 +25419,9 @@
         "departureTime": "11:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_EG-25_0930_19436",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-22_1014_11371",
@@ -27148,6 +27217,7 @@
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
+    "customOrigin": "新津",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": true,
@@ -27188,7 +27258,9 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1141_33137",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-01_1121_33746",
@@ -28335,7 +28407,8 @@
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "新津",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28375,7 +28448,9 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1321_33138",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_INB_SE-03_1259_35096",
@@ -29346,6 +29421,7 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
+    "customOrigin": "長岡",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": true,
@@ -29470,7 +29546,9 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1501_33132",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_INB_SE-42_1348_19018",
@@ -30502,7 +30580,8 @@
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "新津",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -30542,7 +30621,9 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1520_33139",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_INB_SE-42_1459_34098",
@@ -33221,7 +33302,8 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "長岡",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -33345,7 +33427,9 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1823_33135",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-01_1703_33753",
@@ -34393,7 +34477,8 @@
     "direction": "outbound",
     "originStationId": "SE-23",
     "destinationStationId": "SE-42",
-    "customDestination": "吉田(新潟県)",
+    "customOrigin": "長岡",
+    "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -34517,7 +34602,9 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_EG-33_1900_33136",
+    "throughLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-01_1741_19235",
@@ -35074,6 +35161,7 @@
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
     "customOrigin": "内野",
+    "customDestination": "新津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -35113,7 +35201,9 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_EG-25_1752_19435",
+    "prevLineId": "jr_echigo"
   },
   {
     "tripId": "HD_OUT_SE-22_1832_11378",

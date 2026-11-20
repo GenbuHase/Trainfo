@@ -152,6 +152,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "辰野",
     "cars": 6,
     "isHoliday": false,
@@ -192,7 +193,9 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_CT-06_0610_28623",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_INB_SN-19_0556_25000",
@@ -3376,7 +3379,7 @@
     "direction": "outbound",
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
-    "customOrigin": "岡谷",
+    "customOrigin": "飯田",
     "customDestination": "長野",
     "cars": 6,
     "isHoliday": false,
@@ -3847,6 +3850,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "岡谷",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3886,7 +3890,9 @@
         "departureTime": "09:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_CT-01_0811_25083",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "WD_OUT_SN-01_0859_25070",
@@ -4491,7 +4497,7 @@
     "direction": "outbound",
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
-    "customOrigin": "高尾",
+    "customOrigin": "天竜峡",
     "customDestination": "松本",
     "cars": 6,
     "isHoliday": false,
@@ -18187,6 +18193,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
+    "customOrigin": "松本",
     "customDestination": "辰野",
     "cars": 6,
     "isHoliday": true,
@@ -18227,7 +18234,9 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_CT-06_0610_28623",
+    "throughLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_INB_SN-19_0556_25000",
@@ -21192,7 +21201,7 @@
     "direction": "outbound",
     "originStationId": "SN-01",
     "destinationStationId": "SN-19",
-    "customOrigin": "岡谷",
+    "customOrigin": "飯田",
     "customDestination": "長野",
     "cars": 6,
     "isHoliday": true,
@@ -21618,6 +21627,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "岡谷",
+    "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -21657,7 +21667,9 @@
         "departureTime": "09:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_CT-01_0811_25083",
+    "prevLineId": "jr_chuo_tatsuno"
   },
   {
     "tripId": "HD_OUT_SN-01_0859_25070",
@@ -22262,7 +22274,7 @@
     "direction": "outbound",
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
-    "customOrigin": "高尾",
+    "customOrigin": "天竜峡",
     "customDestination": "松本",
     "cars": 6,
     "isHoliday": true,

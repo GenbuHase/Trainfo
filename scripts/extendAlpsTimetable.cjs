@@ -52,16 +52,16 @@ const ALPS_CONFIG = {
 function extendAlpsTimetable() {
   console.log('=== 🏔️ 特急アルプス ダイヤ補間・4線貫通リンク開始 ===\n');
 
-  if (!fs.existsSync(LINE_PATHS.chuo) || !fs.existsSync(LINE_PATHS.chuo_main) || !fs.existsSync(LINE_PATHS.shinonoi)) {
+  if (!fs.existsSync(LINE_PATHS.jr_chuo) || !fs.existsSync(LINE_PATHS.jr_chuo_main) || !fs.existsSync(LINE_PATHS.jr_shinonoi)) {
     console.error('Line files not found!');
     return;
   }
 
-  const chuoTrips = safeReadJson(LINE_PATHS.chuo);
-  const chuoMainTrips = safeReadJson(LINE_PATHS.chuo_main);
-  const shinonoiTrips = safeReadJson(LINE_PATHS.shinonoi);
+  const chuoTrips = safeReadJson(LINE_PATHS.jr_chuo);
+  const chuoMainTrips = safeReadJson(LINE_PATHS.jr_chuo_main);
+  const shinonoiTrips = safeReadJson(LINE_PATHS.jr_shinonoi);
   const shinonoiSt = safeReadJson(LINE_PATHS.shinonoiSt, {});
-  const oitoTrips = safeReadJson(LINE_PATHS.oito_east);
+  const oitoTrips = safeReadJson(LINE_PATHS.jr_oito_east);
 
   // 1. 中央線快速 (chuo): 新宿 23:58発 -> 高尾 00:53通過
   for (const trip of chuoTrips) {
@@ -221,11 +221,11 @@ function extendAlpsTimetable() {
     }
   }
 
-  safeWriteJson(LINE_PATHS.chuo, chuoTrips);
-  safeWriteJson(LINE_PATHS.chuo_main, chuoMainTrips);
-  safeWriteJson(LINE_PATHS.shinonoi, shinonoiTrips);
+  safeWriteJson(LINE_PATHS.jr_chuo, chuoTrips);
+  safeWriteJson(LINE_PATHS.jr_chuo_main, chuoMainTrips);
+  safeWriteJson(LINE_PATHS.jr_shinonoi, shinonoiTrips);
   safeWriteJson(LINE_PATHS.shinonoiSt, shinonoiSt);
-  safeWriteJson(LINE_PATHS.oito_east, oitoTrips);
+  safeWriteJson(LINE_PATHS.jr_oito_east, oitoTrips);
 
   console.log('\n🎉 特急アルプスの4線貫通ダイヤ・直通リンク整備が完了しました！');
 }

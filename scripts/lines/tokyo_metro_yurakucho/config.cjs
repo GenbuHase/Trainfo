@@ -4,12 +4,12 @@ const { shouldExcludeFromYurakucho } = require('../../common/metroFilters.cjs');
 module.exports = {
   lineId: 'tokyo_metro_yurakucho',
   name: '東京メトロ有楽町線',
-  stationsFilePath: 'src/data/lines/yurakucho/stations.ts',
+  stationsFilePath: 'src/data/lines/tokyo_metro_yurakucho/stations.ts',
   buildStationTimetablesFromTrips: true,
   shouldExcludeTrip: shouldExcludeFromYurakucho,
   outputPaths: {
-    stationTimetables: 'src/data/lines/yurakucho/stationTimetables.json',
-    globalTimetable: 'src/data/lines/yurakucho/globalTimetable.json',
+    stationTimetables: 'src/data/lines/tokyo_metro_yurakucho/stationTimetables.json',
+    globalTimetable: 'src/data/lines/tokyo_metro_yurakucho/globalTimetable.json',
   },
   stations: [
     { id: 'Y-01', name: '和光市', yahooStationId: '22171', inGroupId: null, outGroupId: '3341' },

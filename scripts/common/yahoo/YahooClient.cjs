@@ -14,7 +14,7 @@ class YahooClient {
     this.cacheDir = options.cacheDir || path.resolve(__dirname, '../../cache/yahoo/default');
     this.delayMs = options.delayMs !== undefined ? options.delayMs : 250;
     this.bypassCache = options.bypassCache || false;
-    this.maxRetries = options.maxRetries || 3;
+    this.maxRetries = options.maxRetries || 6;
     this.lastRequestTime = 0;
 
     // キャッシュディレクトリの作成
@@ -124,7 +124,10 @@ class YahooClient {
 
         if (res.status === 429 || res.status === 503) {
           retries++;
-          const waitTime = Math.pow(2, retries) * 1000;
+          if (retries > this.maxRetries) {
+            throw new Error(`HTTP ${res.status} ${res.statusText} after ${this.maxRetries} retries for ${url}`);
+          }
+          const waitTime = Math.min(Math.pow(2, retries) * 1000, 15000);
           console.warn(`[YahooClient] HTTP ${res.status}. Backing off for ${waitTime}ms... (retry ${retries}/${this.maxRetries})`);
           await this.sleep(waitTime);
           continue;
@@ -157,7 +160,7 @@ class YahooClient {
         if (retries > this.maxRetries) {
           throw err;
         }
-        const waitTime = Math.pow(2, retries) * 1000;
+        const waitTime = Math.min(Math.pow(2, retries) * 1000, 15000);
         console.warn(`[YahooClient] Error: ${err.message}. Retrying in ${waitTime}ms... (${retries}/${this.maxRetries})`);
         await this.sleep(waitTime);
       }

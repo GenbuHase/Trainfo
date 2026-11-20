@@ -2,10 +2,10 @@
 module.exports = {
   "lineId": "tokyo_metro_marunouchi",
   "name": "東京メトロ丸ノ内線",
-  "stationsFilePath": "src/data/lines/marunouchi/stations.ts",
+  "stationsFilePath": "src/data/lines/tokyo_metro_marunouchi/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/marunouchi/stationTimetables.json",
-    "globalTimetable": "src/data/lines/marunouchi/globalTimetable.json"
+    "stationTimetables": "src/data/lines/tokyo_metro_marunouchi/stationTimetables.json",
+    "globalTimetable": "src/data/lines/tokyo_metro_marunouchi/globalTimetable.json"
   },
   "stations": [
     {

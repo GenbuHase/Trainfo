@@ -2,10 +2,10 @@
 module.exports = {
   "lineId": "tokyo_metro_tozai",
   "name": "東京メトロ東西線",
-  "stationsFilePath": "src/data/lines/tozai/stations.ts",
+  "stationsFilePath": "src/data/lines/tokyo_metro_tozai/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/tozai/stationTimetables.json",
-    "globalTimetable": "src/data/lines/tozai/globalTimetable.json"
+    "stationTimetables": "src/data/lines/tokyo_metro_tozai/stationTimetables.json",
+    "globalTimetable": "src/data/lines/tokyo_metro_tozai/globalTimetable.json"
   },
   "stations": [
     {

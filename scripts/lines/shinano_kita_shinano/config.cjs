@@ -1,10 +1,10 @@
 module.exports = {
   lineId: 'shinano_kita_shinano',
   name: 'しなの鉄道北しなの線',
-  stationsFilePath: 'src/data/lines/kita_shinano/stations.ts',
+  stationsFilePath: 'src/data/lines/shinano_kita_shinano/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/kita_shinano/stationTimetables.json',
-    globalTimetable: 'src/data/lines/kita_shinano/globalTimetable.json',
+    stationTimetables: 'src/data/lines/shinano_kita_shinano/stationTimetables.json',
+    globalTimetable: 'src/data/lines/shinano_kita_shinano/globalTimetable.json',
   },
   stations: [
     { id: 'SRK-01', name: '長野', yahooStationId: '24282', inGroupId: null, outGroupId: '7901' },

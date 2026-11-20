@@ -194,6 +194,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -234,7 +235,9 @@
         "departureTime": "05:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_0514_24854",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-26_0452_32732",
@@ -245,6 +248,7 @@
     "direction": "inbound",
     "originStationId": "JTI-26",
     "destinationStationId": "JTI-13",
+    "customOrigin": "高萩",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -333,7 +337,9 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_0622_32621",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-17_0509_14346",
@@ -2329,6 +2335,7 @@
     "direction": "inbound",
     "originStationId": "JTI-26",
     "destinationStationId": "JTI-13",
+    "customOrigin": "高萩",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -2417,7 +2424,9 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_0713_32622",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-07_0605_10079",
@@ -4510,6 +4519,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4543,7 +4553,9 @@
         "departureTime": "07:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_0557_24832",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-01_0710_7032",
@@ -5253,6 +5265,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5292,7 +5305,9 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_0628_24837",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-17_0738_24537",
@@ -5303,6 +5318,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -5337,7 +5353,9 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_0755_24849",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-17_0740_14351",
@@ -6743,6 +6761,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-26",
     "customOrigin": "小山",
+    "customDestination": "高萩",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6830,7 +6849,9 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_0707_42121",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-18_0817_24543",
@@ -6841,6 +6862,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -6881,7 +6903,9 @@
         "departureTime": "09:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_0901_24855",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-17_0818_14352",
@@ -7851,6 +7875,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7890,7 +7915,9 @@
         "departureTime": "09:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_0733_24840",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-07_0850_39590",
@@ -9412,6 +9439,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9445,7 +9473,9 @@
         "departureTime": "09:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_0823_24833",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-07_0930_10089",
@@ -10331,6 +10361,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -10365,7 +10396,9 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_1021_24850",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-17_1005_14366",
@@ -10698,6 +10731,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -10731,7 +10765,9 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_0908_24834",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-07_1015_7115",
@@ -14364,6 +14400,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14403,7 +14440,9 @@
         "departureTime": "12:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_1036_24841",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-01_1151_7153",
@@ -20068,6 +20107,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -20108,7 +20148,9 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_1549_24856",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-26_1504_14414",
@@ -24042,6 +24084,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -24082,7 +24125,9 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_1718_24858",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-07_1643_10115",
@@ -25710,6 +25755,7 @@
     "direction": "inbound",
     "originStationId": "JTI-26",
     "destinationStationId": "JTI-13",
+    "customOrigin": "高萩",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -25798,7 +25844,9 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_1858_32623",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-35_1721_8346",
@@ -29309,6 +29357,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -29348,7 +29397,9 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_1737_24842",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-18_1847_10139",
@@ -30309,6 +30360,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -30349,7 +30401,9 @@
         "departureTime": "19:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_1950_24859",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-13_1917_10053",
@@ -30361,6 +30415,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30400,7 +30455,9 @@
         "departureTime": "19:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_1805_24843",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-13_1917_10054",
@@ -31554,6 +31611,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31587,7 +31645,9 @@
         "departureTime": "20:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_1838_24835",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-07_1950_7079",
@@ -32356,6 +32416,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -32390,7 +32451,9 @@
         "departureTime": "20:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_2044_24851",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-07_2012_10124",
@@ -33182,6 +33245,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33215,7 +33279,9 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_MT-01_1938_24836",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-18_2047_10141",
@@ -34270,6 +34336,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": false,
@@ -34304,7 +34371,9 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_2140_24852",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_OUT_JTI-01_2121_7169",
@@ -35299,6 +35368,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "下館",
     "cars": 10,
     "isHoliday": false,
@@ -35339,7 +35409,9 @@
         "departureTime": "22:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_MT-16_2248_24853",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "WD_INB_JTI-07_2204_7082",
@@ -37022,6 +37094,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -37062,7 +37135,9 @@
         "departureTime": "05:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_0514_24854",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-26_0452_32732",
@@ -37073,6 +37148,7 @@
     "direction": "inbound",
     "originStationId": "JTI-26",
     "destinationStationId": "JTI-13",
+    "customOrigin": "高萩",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -37161,7 +37237,9 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_0622_32621",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-17_0509_14346",
@@ -39117,6 +39195,7 @@
     "direction": "inbound",
     "originStationId": "JTI-26",
     "destinationStationId": "JTI-13",
+    "customOrigin": "高萩",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -39205,7 +39284,9 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_0713_32622",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_0605_10079",
@@ -41178,6 +41259,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -41211,7 +41293,9 @@
         "departureTime": "07:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_0557_24832",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_0708_10085",
@@ -41921,6 +42005,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -41960,7 +42045,9 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_0628_24837",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-17_0738_24537",
@@ -41971,6 +42058,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -42005,7 +42093,9 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_0755_24849",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-17_0740_14351",
@@ -43601,6 +43691,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-26",
     "customOrigin": "小山",
+    "customDestination": "高萩",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -43688,7 +43779,9 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_0707_42121",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-18_0817_24543",
@@ -43699,6 +43792,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -43739,7 +43833,9 @@
         "departureTime": "09:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_0901_24855",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-17_0818_14352",
@@ -44769,6 +44865,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -44808,7 +44905,9 @@
         "departureTime": "09:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_0733_24840",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-07_0850_39588",
@@ -46144,6 +46243,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -46177,7 +46277,9 @@
         "departureTime": "09:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_0823_24833",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_0930_10090",
@@ -47063,6 +47165,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -47097,7 +47200,9 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_1021_24850",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-17_1005_14366",
@@ -47301,6 +47406,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -47334,7 +47440,9 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_0908_24834",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-07_1015_7116",
@@ -50542,6 +50650,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -50581,7 +50690,9 @@
         "departureTime": "12:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_1036_24841",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-01_1151_7152",
@@ -56116,6 +56227,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -56156,7 +56268,9 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_1549_24856",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-26_1504_14414",
@@ -59963,6 +60077,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -60003,7 +60118,9 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_1718_24858",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_1643_10116",
@@ -61600,6 +61717,7 @@
     "direction": "inbound",
     "originStationId": "JTI-26",
     "destinationStationId": "JTI-13",
+    "customOrigin": "高萩",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -61688,7 +61806,9 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_1858_32623",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-35_1721_8347",
@@ -65006,6 +65126,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -65045,7 +65166,9 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_1737_24842",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-18_1847_10138",
@@ -65726,6 +65849,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -65766,7 +65890,9 @@
         "departureTime": "19:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_1950_24859",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-13_1917_10053",
@@ -65778,6 +65904,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-18",
     "customOrigin": "小山",
+    "customDestination": "勝田",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -65817,7 +65944,9 @@
         "departureTime": "19:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_1805_24843",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-13_1917_10054",
@@ -66971,6 +67100,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -67004,7 +67134,9 @@
         "departureTime": "20:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_1838_24835",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_1950_7079",
@@ -67646,6 +67778,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -67680,7 +67813,9 @@
         "departureTime": "20:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_2044_24851",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_2012_10125",
@@ -68472,6 +68607,7 @@
     "originStationId": "JTI-13",
     "destinationStationId": "JTI-17",
     "customOrigin": "小山",
+    "customDestination": "水戸",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -68505,7 +68641,9 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_MT-01_1938_24836",
+    "prevLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-18_2047_10141",
@@ -69560,6 +69698,7 @@
     "direction": "inbound",
     "originStationId": "JTI-17",
     "destinationStationId": "JTI-13",
+    "customOrigin": "水戸",
     "customDestination": "小山",
     "cars": 10,
     "isHoliday": true,
@@ -69594,7 +69733,9 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_2140_24852",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_OUT_JTI-01_2121_7168",
@@ -70589,6 +70730,7 @@
     "direction": "inbound",
     "originStationId": "JTI-18",
     "destinationStationId": "JTI-13",
+    "customOrigin": "勝田",
     "customDestination": "下館",
     "cars": 10,
     "isHoliday": true,
@@ -70629,7 +70771,9 @@
         "departureTime": "22:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_MT-16_2248_24853",
+    "throughLineId": "jr_mito"
   },
   {
     "tripId": "HD_INB_JTI-07_2204_7082",

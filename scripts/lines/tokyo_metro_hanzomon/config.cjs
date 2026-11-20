@@ -2,10 +2,10 @@
 module.exports = {
   "lineId": "tokyo_metro_hanzomon",
   "name": "東京メトロ半蔵門線",
-  "stationsFilePath": "src/data/lines/hanzomon/stations.ts",
+  "stationsFilePath": "src/data/lines/tokyo_metro_hanzomon/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/hanzomon/stationTimetables.json",
-    "globalTimetable": "src/data/lines/hanzomon/globalTimetable.json"
+    "stationTimetables": "src/data/lines/tokyo_metro_hanzomon/stationTimetables.json",
+    "globalTimetable": "src/data/lines/tokyo_metro_hanzomon/globalTimetable.json"
   },
   "stations": [
     {

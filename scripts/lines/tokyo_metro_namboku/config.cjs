@@ -2,10 +2,10 @@
 module.exports = {
   "lineId": "tokyo_metro_namboku",
   "name": "東京メトロ南北線",
-  "stationsFilePath": "src/data/lines/namboku/stations.ts",
+  "stationsFilePath": "src/data/lines/tokyo_metro_namboku/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/namboku/stationTimetables.json",
-    "globalTimetable": "src/data/lines/namboku/globalTimetable.json"
+    "stationTimetables": "src/data/lines/tokyo_metro_namboku/stationTimetables.json",
+    "globalTimetable": "src/data/lines/tokyo_metro_namboku/globalTimetable.json"
   },
   "stations": [
     {

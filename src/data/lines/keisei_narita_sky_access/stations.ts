@@ -1,0 +1,267 @@
+import type { Station } from '../../../types';
+
+export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
+  {
+    "id": "KSSA-01",
+    "stationNumber": "KS10",
+    "lineId": "keisei_narita_sky_access",
+    "number": 1,
+    "name": "京成高砂",
+    "nameKana": "けいせいたかさご",
+    "nameEn": "Keiseitakasago",
+    "lat": 35.75083,
+    "lng": 139.86572,
+    "transfers": [
+      "京成本線",
+      "京成金町線",
+      "北総鉄道北総線"
+    ],
+    "address": "東京都京成高砂駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-02",
+    "stationNumber": "HS05",
+    "lineId": "keisei_narita_sky_access",
+    "number": 2,
+    "name": "東松戸",
+    "nameKana": "ひがしまつど",
+    "nameEn": "Higashimatsudo",
+    "lat": 35.76955,
+    "lng": 139.94232,
+    "transfers": [
+      "ＪＲ武蔵野線",
+      "北総鉄道北総線"
+    ],
+    "address": "千葉県東松戸駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-03",
+    "stationNumber": "HS08",
+    "lineId": "keisei_narita_sky_access",
+    "number": 3,
+    "name": "新鎌ケ谷",
+    "nameKana": "しんかまがや",
+    "nameEn": "Shinkamagaya",
+    "lat": 35.77989,
+    "lng": 139.99932,
+    "transfers": [
+      "東武アーバンパークライン",
+      "京成松戸線",
+      "北総鉄道北総線"
+    ],
+    "address": "千葉県新鎌ケ谷駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp",
+      "limited_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-04",
+    "stationNumber": "HS12",
+    "lineId": "keisei_narita_sky_access",
+    "number": 4,
+    "name": "千葉ニュータウン中央",
+    "nameKana": "ちばにゅーたうんちゅうおう",
+    "nameEn": "Chibanyutaunchuuou",
+    "lat": 35.80037,
+    "lng": 140.11676,
+    "transfers": [
+      "北総鉄道北総線"
+    ],
+    "address": "千葉県千葉ニュータウン中央駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-05",
+    "stationNumber": "HS14",
+    "lineId": "keisei_narita_sky_access",
+    "number": 5,
+    "name": "印旛日本医大",
+    "nameKana": "いんばにほんいだい",
+    "nameEn": "Imbanihonidai",
+    "lat": 35.78791,
+    "lng": 140.20248,
+    "transfers": [
+      "北総鉄道北総線"
+    ],
+    "address": "千葉県印旛日本医大駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-06",
+    "stationNumber": "KS43",
+    "lineId": "keisei_narita_sky_access",
+    "number": 6,
+    "name": "成田湯川",
+    "nameKana": "なりたゆかわ",
+    "nameEn": "Naritayukawa",
+    "lat": 35.799543,
+    "lng": 140.290659,
+    "transfers": [],
+    "address": "千葉県成田湯川駅",
+    "facilities": {
+      "elevator": false,
+      "restroom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp"
+    ],
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-07",
+    "stationNumber": "KS41",
+    "lineId": "keisei_narita_sky_access",
+    "number": 7,
+    "name": "空港第２ビル",
+    "nameKana": "くうこうだいにびる",
+    "nameEn": "Kuukoudainibiru",
+    "lat": 35.77414,
+    "lng": 140.38676,
+    "transfers": [
+      "ＪＲ成田線",
+      "京成本線"
+    ],
+    "address": "千葉県空港第２ビル駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp",
+      "limited_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  },
+  {
+    "id": "KSSA-08",
+    "stationNumber": "KS42",
+    "lineId": "keisei_narita_sky_access",
+    "number": 8,
+    "name": "成田空港",
+    "nameKana": "なりたくうこう",
+    "nameEn": "Naritakuukou",
+    "lat": 35.76693,
+    "lng": 140.3871,
+    "transfers": [
+      "ＪＲ成田線",
+      "京成本線"
+    ],
+    "address": "千葉県成田空港駅",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid_exp",
+      "access_exp",
+      "limited_exp"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    }
+  }
+];

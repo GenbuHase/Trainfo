@@ -771,6 +771,7 @@
     "direction": "outbound",
     "originStationId": "NR-03",
     "destinationStationId": "NR-09",
+    "customOrigin": "成田",
     "customDestination": "鹿島神宮",
     "cars": 10,
     "isHoliday": false,
@@ -817,7 +818,9 @@
         "departureTime": "06:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSJ-01_0632_6053",
+    "throughLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-17_0548_18095",
@@ -1409,7 +1412,9 @@
       }
     ],
     "throughTripId": "WD_INB_SM-06_0717_33654",
-    "throughLineId": "jr_sobu_main"
+    "throughLineId": "jr_sobu_main",
+    "prevTripId": "WD_INB_KSJ-05_0602_33693",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-01_0622_37435",
@@ -2181,6 +2186,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2196,7 +2202,9 @@
         "departureTime": "07:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_0630_5937",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-03_0702_40309",
@@ -2710,7 +2718,7 @@
     "prevTripId": "WD_OUT_SM-01_0643_29247",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0643_29247",
       "trainNumber": "2001M"
     }
@@ -2764,7 +2772,7 @@
     "prevTripId": "WD_OUT_SM-01_0642_30354",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0642_30354",
       "trainNumber": "2201M"
     }
@@ -2854,6 +2862,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2869,7 +2878,9 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_0701_5938",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-03_0726_40192",
@@ -3108,7 +3119,7 @@
     "throughTripId": "WD_INB_SM-06_0759_29215",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_0759_29215",
       "trainNumber": "2002M"
     }
@@ -3267,7 +3278,7 @@
     "prevTripId": "WD_OUT_SM-01_0726_29248",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0726_29248",
       "trainNumber": "2003M"
     }
@@ -3321,7 +3332,7 @@
     "prevTripId": "WD_OUT_SM-01_0724_30355",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0724_30355",
       "trainNumber": "2203M"
     }
@@ -3458,6 +3469,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3473,7 +3485,9 @@
         "departureTime": "08:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_0740_5939",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-03_0801_15090",
@@ -3631,7 +3645,7 @@
     "throughTripId": "WD_INB_SM-06_0835_29243",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_0835_29243",
       "trainNumber": "2004M"
     }
@@ -3985,6 +3999,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-03",
     "customOrigin": "鹿島神宮",
+    "customDestination": "成田",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4030,7 +4045,9 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_0812_5952",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-36_0834_29249",
@@ -4081,7 +4098,7 @@
     "prevTripId": "WD_OUT_SM-01_0758_29249",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0758_29249",
       "trainNumber": "2005M"
     }
@@ -4447,7 +4464,7 @@
     "throughTripId": "WD_INB_SM-06_0913_29216",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_0913_29216",
       "trainNumber": "2006M"
     }
@@ -4540,6 +4557,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4555,7 +4573,9 @@
         "departureTime": "09:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_0844_5940",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-36_0900_29250",
@@ -4606,7 +4626,7 @@
     "prevTripId": "WD_OUT_SM-01_0829_29250",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0829_29250",
       "trainNumber": "2007M"
     }
@@ -4660,7 +4680,7 @@
     "prevTripId": "WD_OUT_SM-01_0818_30357",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0818_30357",
       "trainNumber": "2207M"
     }
@@ -4934,7 +4954,7 @@
     "throughTripId": "WD_INB_SM-06_0936_29220",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_0936_29220",
       "trainNumber": "2008M"
     }
@@ -5186,7 +5206,7 @@
     "prevTripId": "WD_OUT_SM-01_0858_30375",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0858_30375",
       "trainNumber": "2009M"
     }
@@ -5495,7 +5515,7 @@
     "throughTripId": "WD_INB_SM-06_1005_29203",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1005_29203",
       "trainNumber": "2010M"
     }
@@ -5659,7 +5679,7 @@
     "prevTripId": "WD_OUT_SM-01_0928_29251",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0928_29251",
       "trainNumber": "2011M"
     }
@@ -5722,6 +5742,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5737,7 +5758,9 @@
         "departureTime": "10:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_0944_5941",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-17_1001_33655",
@@ -6077,7 +6100,7 @@
     "throughTripId": "WD_INB_SM-06_1034_29221",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1034_29221",
       "trainNumber": "2012M"
     }
@@ -6377,7 +6400,7 @@
     "prevTripId": "WD_OUT_SM-01_0958_30377",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_0958_30377",
       "trainNumber": "2013M"
     }
@@ -6713,7 +6736,7 @@
     "throughTripId": "WD_INB_SM-06_1105_29204",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1105_29204",
       "trainNumber": "2014M"
     }
@@ -6877,7 +6900,7 @@
     "prevTripId": "WD_OUT_SM-01_1027_29252",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1027_29252",
       "trainNumber": "2015M"
     }
@@ -7173,7 +7196,7 @@
     "throughTripId": "WD_INB_SM-06_1134_29222",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1134_29222",
       "trainNumber": "2016M"
     }
@@ -7431,7 +7454,7 @@
     "prevTripId": "WD_OUT_SM-01_1100_30379",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1100_30379",
       "trainNumber": "2017M"
     }
@@ -7600,6 +7623,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7615,7 +7639,9 @@
         "departureTime": "11:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_1123_5942",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-37_1144_29205",
@@ -7666,7 +7692,7 @@
     "throughTripId": "WD_INB_SM-06_1205_29205",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1205_29205",
       "trainNumber": "2018M"
     }
@@ -7993,7 +8019,7 @@
     "prevTripId": "WD_OUT_SM-01_1127_29253",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1127_29253",
       "trainNumber": "2019M"
     }
@@ -8520,7 +8546,7 @@
     "throughTripId": "WD_INB_SM-06_1236_29223",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1236_29223",
       "trainNumber": "2020M"
     }
@@ -8574,7 +8600,7 @@
     "prevTripId": "WD_OUT_SM-01_1200_30380",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1200_30380",
       "trainNumber": "2021M"
     }
@@ -8904,7 +8930,7 @@
     "throughTripId": "WD_INB_SM-06_1306_29206",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1306_29206",
       "trainNumber": "2022M"
     }
@@ -9158,7 +9184,7 @@
     "prevTripId": "WD_OUT_SM-01_1227_29254",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1227_29254",
       "trainNumber": "2023M"
     }
@@ -9465,7 +9491,7 @@
     "throughTripId": "WD_INB_SM-06_1333_29224",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1333_29224",
       "trainNumber": "2024M"
     }
@@ -9723,7 +9749,7 @@
     "prevTripId": "WD_OUT_SM-01_1301_30381",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1301_30381",
       "trainNumber": "2025M"
     }
@@ -9892,6 +9918,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9907,7 +9934,9 @@
         "departureTime": "13:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_1323_5943",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-37_1344_29207",
@@ -9958,7 +9987,7 @@
     "throughTripId": "WD_INB_SM-06_1405_29207",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1405_29207",
       "trainNumber": "2026M"
     }
@@ -10312,7 +10341,7 @@
     "prevTripId": "WD_OUT_SM-01_1327_29255",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1327_29255",
       "trainNumber": "2027M"
     }
@@ -10738,7 +10767,7 @@
     "throughTripId": "WD_INB_SM-06_1436_29225",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1436_29225",
       "trainNumber": "2028M"
     }
@@ -10792,7 +10821,7 @@
     "prevTripId": "WD_OUT_SM-01_1401_30382",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1401_30382",
       "trainNumber": "2029M"
     }
@@ -11072,7 +11101,7 @@
     "throughTripId": "WD_INB_SM-06_1506_29208",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1506_29208",
       "trainNumber": "2030M"
     }
@@ -11326,7 +11355,7 @@
     "prevTripId": "WD_OUT_SM-01_1427_29256",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1427_29256",
       "trainNumber": "2031M"
     }
@@ -11575,7 +11604,7 @@
     "throughTripId": "WD_INB_SM-06_1534_29226",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1534_29226",
       "trainNumber": "2032M"
     }
@@ -11716,6 +11745,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11731,7 +11761,9 @@
         "departureTime": "15:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_1458_5944",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-20_1517_39162",
@@ -11860,7 +11892,7 @@
     "prevTripId": "WD_OUT_SM-01_1501_30383",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1501_30383",
       "trainNumber": "2033M"
     }
@@ -12045,7 +12077,7 @@
     "throughTripId": "WD_INB_SM-06_1605_29209",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1605_29209",
       "trainNumber": "2034M"
     }
@@ -12322,7 +12354,7 @@
     "prevTripId": "WD_OUT_SM-01_1527_29257",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1527_29257",
       "trainNumber": "2035M"
     }
@@ -12728,7 +12760,7 @@
     "throughTripId": "WD_INB_SM-06_1639_29227",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1639_29227",
       "trainNumber": "2036M"
     }
@@ -12782,7 +12814,7 @@
     "prevTripId": "WD_OUT_SM-01_1601_30384",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1601_30384",
       "trainNumber": "2037M"
     }
@@ -13090,7 +13122,7 @@
     "throughTripId": "WD_INB_SM-06_1705_29210",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1705_29210",
       "trainNumber": "2038M"
     }
@@ -13253,6 +13285,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13268,7 +13301,9 @@
         "departureTime": "16:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_1635_5945",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-01_1655_21664",
@@ -13385,7 +13420,7 @@
     "prevTripId": "WD_OUT_SM-01_1627_29258",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1627_29258",
       "trainNumber": "2039M"
     }
@@ -13439,7 +13474,7 @@
     "prevTripId": "WD_OUT_SM-01_1626_30365",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1626_30365",
       "trainNumber": "2239M"
     }
@@ -13806,7 +13841,7 @@
     "throughTripId": "WD_INB_SM-06_1736_29201",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1736_29201",
       "trainNumber": "2040M"
     }
@@ -14085,7 +14120,7 @@
     "prevTripId": "WD_OUT_SM-01_1701_30385",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1701_30385",
       "trainNumber": "2041M"
     }
@@ -14387,7 +14422,7 @@
     "throughTripId": "WD_INB_SM-06_1805_29211",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1805_29211",
       "trainNumber": "2042M"
     }
@@ -14441,7 +14476,7 @@
     "prevTripId": "WD_OUT_SM-01_1728_29259",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1728_29259",
       "trainNumber": "2043M"
     }
@@ -14495,7 +14530,7 @@
     "prevTripId": "WD_OUT_SM-01_1706_30366",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1706_30366",
       "trainNumber": "2243M"
     }
@@ -14558,6 +14593,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14573,7 +14609,9 @@
         "departureTime": "18:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_1750_5946",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-03_1809_21574",
@@ -14776,7 +14814,7 @@
     "throughTripId": "WD_INB_SM-06_1836_29228",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1836_29228",
       "trainNumber": "2044M"
     }
@@ -15009,7 +15047,7 @@
     "prevTripId": "WD_OUT_SM-01_1758_30373",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1758_30373",
       "trainNumber": "2045M"
     }
@@ -15428,7 +15466,7 @@
     "prevTripId": "WD_OUT_SM-01_1828_29260",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1828_29260",
       "trainNumber": "2047M"
     }
@@ -15560,7 +15598,7 @@
     "throughTripId": "WD_INB_SM-06_1905_29212",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1905_29212",
       "trainNumber": "2046M"
     }
@@ -15823,6 +15861,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15838,7 +15877,9 @@
         "departureTime": "19:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_1852_5947",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-17_1910_18125",
@@ -15916,7 +15957,7 @@
     "prevTripId": "WD_OUT_SM-01_1859_30374",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1859_30374",
       "trainNumber": "2049M"
     }
@@ -16119,7 +16160,7 @@
     "throughTripId": "WD_INB_SM-06_1933_29229",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_1933_29229",
       "trainNumber": "2048M"
     }
@@ -16193,6 +16234,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_OUT_KSJ-01_2012_42924",
+    "throughLineId": "jr_kashima",
     "prevTripId": "WD_OUT_SM-01_1853_42894",
     "prevLineId": "jr_sobu_main"
   },
@@ -16548,7 +16591,7 @@
     "prevTripId": "WD_OUT_SM-01_1930_29261",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1930_29261",
       "trainNumber": "2051M"
     }
@@ -16770,7 +16813,7 @@
     "throughTripId": "WD_INB_SM-06_2009_29213",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_2009_29213",
       "trainNumber": "2050M"
     }
@@ -17369,6 +17412,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17384,7 +17428,9 @@
         "departureTime": "20:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_2011_5948",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-03_2030_15092",
@@ -17583,6 +17629,7 @@
     "direction": "outbound",
     "originStationId": "NR-03",
     "destinationStationId": "NR-09",
+    "customOrigin": "成田",
     "customDestination": "鹿島神宮",
     "cars": 10,
     "isHoliday": false,
@@ -17629,7 +17676,9 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_KSJ-01_2121_6054",
+    "throughLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-37_2044_29214",
@@ -17680,7 +17729,7 @@
     "throughTripId": "WD_INB_SM-06_2102_29214",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_2102_29214",
       "trainNumber": "2052M"
     }
@@ -17761,7 +17810,7 @@
     "prevTripId": "WD_OUT_SM-01_2035_29262",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_2035_29262",
       "trainNumber": "2053M"
     }
@@ -18457,6 +18506,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -18472,7 +18522,9 @@
         "departureTime": "21:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_2120_5950",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_INB_NR-03_2143_40211",
@@ -18601,7 +18653,7 @@
     "throughTripId": "WD_INB_SM-06_2159_29202",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_INB_SM-06_2159_29202",
       "trainNumber": "2054M"
     }
@@ -19031,6 +19083,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -19046,7 +19099,9 @@
         "departureTime": "22:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_KSJ-05_2211_5951",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "WD_OUT_NR-16_2229_18073",
@@ -20564,6 +20619,7 @@
     "direction": "outbound",
     "originStationId": "NR-03",
     "destinationStationId": "NR-09",
+    "customOrigin": "成田",
     "customDestination": "鹿島神宮",
     "cars": 10,
     "isHoliday": true,
@@ -20610,7 +20666,9 @@
         "departureTime": "06:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSJ-01_0632_6053",
+    "throughLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-17_0548_18095",
@@ -21202,7 +21260,9 @@
       }
     ],
     "throughTripId": "HD_INB_SM-06_0717_33653",
-    "throughLineId": "jr_sobu_main"
+    "throughLineId": "jr_sobu_main",
+    "prevTripId": "HD_INB_KSJ-05_0602_33692",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-01_0622_37435",
@@ -21974,6 +22034,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -21989,7 +22050,9 @@
         "departureTime": "07:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_0630_5937",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-03_0702_40308",
@@ -22503,7 +22566,7 @@
     "prevTripId": "HD_OUT_SM-01_0643_29247",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0643_29247",
       "trainNumber": "2001M"
     }
@@ -22557,7 +22620,7 @@
     "prevTripId": "HD_OUT_SM-01_0642_30354",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0642_30354",
       "trainNumber": "2201M"
     }
@@ -22647,6 +22710,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -22662,7 +22726,9 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_0701_5938",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-03_0726_40193",
@@ -22901,7 +22967,7 @@
     "throughTripId": "HD_INB_SM-06_0759_29215",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_0759_29215",
       "trainNumber": "2002M"
     }
@@ -23060,7 +23126,7 @@
     "prevTripId": "HD_OUT_SM-01_0726_29248",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0726_29248",
       "trainNumber": "2003M"
     }
@@ -23114,7 +23180,7 @@
     "prevTripId": "HD_OUT_SM-01_0724_30355",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0724_30355",
       "trainNumber": "2203M"
     }
@@ -23251,6 +23317,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -23266,7 +23333,9 @@
         "departureTime": "08:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_0740_5939",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-03_0801_15090",
@@ -23428,7 +23497,7 @@
     "throughTripId": "HD_INB_SM-06_0835_29243",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_0835_29243",
       "trainNumber": "2004M"
     }
@@ -23782,6 +23851,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-03",
     "customOrigin": "鹿島神宮",
+    "customDestination": "成田",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -23827,7 +23897,9 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_0812_5952",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-36_0834_29249",
@@ -23878,7 +23950,7 @@
     "prevTripId": "HD_OUT_SM-01_0758_29249",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0758_29249",
       "trainNumber": "2005M"
     }
@@ -24244,7 +24316,7 @@
     "throughTripId": "HD_INB_SM-06_0913_29216",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_0913_29216",
       "trainNumber": "2006M"
     }
@@ -24337,6 +24409,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -24352,7 +24425,9 @@
         "departureTime": "09:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_0844_5940",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-36_0900_29250",
@@ -24403,7 +24478,7 @@
     "prevTripId": "HD_OUT_SM-01_0829_29250",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0829_29250",
       "trainNumber": "2007M"
     }
@@ -24457,7 +24532,7 @@
     "prevTripId": "HD_OUT_SM-01_0818_30357",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0818_30357",
       "trainNumber": "2207M"
     }
@@ -24731,7 +24806,7 @@
     "throughTripId": "HD_INB_SM-06_0936_29220",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_0936_29220",
       "trainNumber": "2008M"
     }
@@ -24983,7 +25058,7 @@
     "prevTripId": "HD_OUT_SM-01_0858_30375",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0858_30375",
       "trainNumber": "2009M"
     }
@@ -25292,7 +25367,7 @@
     "throughTripId": "HD_INB_SM-06_1005_29203",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1005_29203",
       "trainNumber": "2010M"
     }
@@ -25456,7 +25531,7 @@
     "prevTripId": "HD_OUT_SM-01_0928_29251",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0928_29251",
       "trainNumber": "2011M"
     }
@@ -25519,6 +25594,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -25534,7 +25610,9 @@
         "departureTime": "10:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_0944_5941",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-17_1001_33655",
@@ -25874,7 +25952,7 @@
     "throughTripId": "HD_INB_SM-06_1034_29221",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1034_29221",
       "trainNumber": "2012M"
     }
@@ -26174,7 +26252,7 @@
     "prevTripId": "HD_OUT_SM-01_0958_30376",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_0958_30376",
       "trainNumber": "2013M"
     }
@@ -26510,7 +26588,7 @@
     "throughTripId": "HD_INB_SM-06_1105_29204",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1105_29204",
       "trainNumber": "2014M"
     }
@@ -26674,7 +26752,7 @@
     "prevTripId": "HD_OUT_SM-01_1027_29252",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1027_29252",
       "trainNumber": "2015M"
     }
@@ -26970,7 +27048,7 @@
     "throughTripId": "HD_INB_SM-06_1134_29222",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1134_29222",
       "trainNumber": "2016M"
     }
@@ -27228,7 +27306,7 @@
     "prevTripId": "HD_OUT_SM-01_1100_30378",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1100_30378",
       "trainNumber": "2017M"
     }
@@ -27397,6 +27475,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -27412,7 +27491,9 @@
         "departureTime": "11:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_1123_5942",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-37_1144_29205",
@@ -27463,7 +27544,7 @@
     "throughTripId": "HD_INB_SM-06_1205_29205",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1205_29205",
       "trainNumber": "2018M"
     }
@@ -27790,7 +27871,7 @@
     "prevTripId": "HD_OUT_SM-01_1127_29253",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1127_29253",
       "trainNumber": "2019M"
     }
@@ -28317,7 +28398,7 @@
     "throughTripId": "HD_INB_SM-06_1236_29223",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1236_29223",
       "trainNumber": "2020M"
     }
@@ -28371,7 +28452,7 @@
     "prevTripId": "HD_OUT_SM-01_1200_30380",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1200_30380",
       "trainNumber": "2021M"
     }
@@ -28701,7 +28782,7 @@
     "throughTripId": "HD_INB_SM-06_1306_29206",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1306_29206",
       "trainNumber": "2022M"
     }
@@ -28955,7 +29036,7 @@
     "prevTripId": "HD_OUT_SM-01_1227_29254",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1227_29254",
       "trainNumber": "2023M"
     }
@@ -29262,7 +29343,7 @@
     "throughTripId": "HD_INB_SM-06_1333_29224",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1333_29224",
       "trainNumber": "2024M"
     }
@@ -29520,7 +29601,7 @@
     "prevTripId": "HD_OUT_SM-01_1301_30381",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1301_30381",
       "trainNumber": "2025M"
     }
@@ -29689,6 +29770,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -29704,7 +29786,9 @@
         "departureTime": "13:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_1323_5943",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-37_1344_29207",
@@ -29755,7 +29839,7 @@
     "throughTripId": "HD_INB_SM-06_1405_29207",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1405_29207",
       "trainNumber": "2026M"
     }
@@ -30109,7 +30193,7 @@
     "prevTripId": "HD_OUT_SM-01_1327_29255",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1327_29255",
       "trainNumber": "2027M"
     }
@@ -30535,7 +30619,7 @@
     "throughTripId": "HD_INB_SM-06_1436_29225",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1436_29225",
       "trainNumber": "2028M"
     }
@@ -30589,7 +30673,7 @@
     "prevTripId": "HD_OUT_SM-01_1401_30382",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1401_30382",
       "trainNumber": "2029M"
     }
@@ -30869,7 +30953,7 @@
     "throughTripId": "HD_INB_SM-06_1506_29208",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1506_29208",
       "trainNumber": "2030M"
     }
@@ -31123,7 +31207,7 @@
     "prevTripId": "HD_OUT_SM-01_1427_29256",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1427_29256",
       "trainNumber": "2031M"
     }
@@ -31372,7 +31456,7 @@
     "throughTripId": "HD_INB_SM-06_1534_29226",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1534_29226",
       "trainNumber": "2032M"
     }
@@ -31513,6 +31597,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -31528,7 +31613,9 @@
         "departureTime": "15:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_1458_5944",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-20_1517_39163",
@@ -31657,7 +31744,7 @@
     "prevTripId": "HD_OUT_SM-01_1501_30383",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1501_30383",
       "trainNumber": "2033M"
     }
@@ -31842,7 +31929,7 @@
     "throughTripId": "HD_INB_SM-06_1605_29209",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1605_29209",
       "trainNumber": "2034M"
     }
@@ -32119,7 +32206,7 @@
     "prevTripId": "HD_OUT_SM-01_1527_29257",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1527_29257",
       "trainNumber": "2035M"
     }
@@ -32529,7 +32616,7 @@
     "throughTripId": "HD_INB_SM-06_1639_29227",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1639_29227",
       "trainNumber": "2036M"
     }
@@ -32583,7 +32670,7 @@
     "prevTripId": "HD_OUT_SM-01_1601_30384",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1601_30384",
       "trainNumber": "2037M"
     }
@@ -32891,7 +32978,7 @@
     "throughTripId": "HD_INB_SM-06_1705_29210",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1705_29210",
       "trainNumber": "2038M"
     }
@@ -33054,6 +33141,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -33069,7 +33157,9 @@
         "departureTime": "16:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_1635_5945",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-01_1655_21664",
@@ -33186,7 +33276,7 @@
     "prevTripId": "HD_OUT_SM-01_1627_29258",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1627_29258",
       "trainNumber": "2039M"
     }
@@ -33240,7 +33330,7 @@
     "prevTripId": "HD_OUT_SM-01_1626_30365",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1626_30365",
       "trainNumber": "2239M"
     }
@@ -33611,7 +33701,7 @@
     "throughTripId": "HD_INB_SM-06_1736_29201",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1736_29201",
       "trainNumber": "2040M"
     }
@@ -33890,7 +33980,7 @@
     "prevTripId": "HD_OUT_SM-01_1706_30385",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1706_30385",
       "trainNumber": "2041M"
     }
@@ -34188,7 +34278,7 @@
     "throughTripId": "HD_INB_SM-06_1805_29211",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1805_29211",
       "trainNumber": "2042M"
     }
@@ -34242,7 +34332,7 @@
     "prevTripId": "HD_OUT_SM-01_1728_29259",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1728_29259",
       "trainNumber": "2043M"
     }
@@ -34296,7 +34386,7 @@
     "prevTripId": "HD_OUT_SM-01_1726_30366",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1726_30366",
       "trainNumber": "2243M"
     }
@@ -34359,6 +34449,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -34374,7 +34465,9 @@
         "departureTime": "18:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_1750_5946",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-03_1809_21574",
@@ -34577,7 +34670,7 @@
     "throughTripId": "HD_INB_SM-06_1836_29228",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1836_29228",
       "trainNumber": "2044M"
     }
@@ -34810,7 +34903,7 @@
     "prevTripId": "HD_OUT_SM-01_1758_30373",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1758_30373",
       "trainNumber": "2045M"
     }
@@ -35225,7 +35318,7 @@
     "prevTripId": "HD_OUT_SM-01_1828_29260",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1828_29260",
       "trainNumber": "2047M"
     }
@@ -35357,7 +35450,7 @@
     "throughTripId": "HD_INB_SM-06_1905_29212",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1905_29212",
       "trainNumber": "2046M"
     }
@@ -35620,6 +35713,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -35635,7 +35729,9 @@
         "departureTime": "19:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_1852_5947",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-17_1910_18125",
@@ -35713,7 +35809,7 @@
     "prevTripId": "HD_OUT_SM-01_1859_30374",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1859_30374",
       "trainNumber": "2049M"
     }
@@ -35916,7 +36012,7 @@
     "throughTripId": "HD_INB_SM-06_1933_29229",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_1933_29229",
       "trainNumber": "2048M"
     }
@@ -35990,6 +36086,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_KSJ-01_2012_5796",
+    "throughLineId": "jr_kashima",
     "prevTripId": "HD_OUT_SM-01_1853_5775",
     "prevLineId": "jr_sobu_main"
   },
@@ -36345,7 +36443,7 @@
     "prevTripId": "HD_OUT_SM-01_1930_29261",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1930_29261",
       "trainNumber": "2051M"
     }
@@ -36567,7 +36665,7 @@
     "throughTripId": "HD_INB_SM-06_2009_29213",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_2009_29213",
       "trainNumber": "2050M"
     }
@@ -37158,6 +37256,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -37173,7 +37272,9 @@
         "departureTime": "20:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_2011_5948",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-03_2030_15092",
@@ -37372,6 +37473,7 @@
     "direction": "outbound",
     "originStationId": "NR-03",
     "destinationStationId": "NR-09",
+    "customOrigin": "成田",
     "customDestination": "鹿島神宮",
     "cars": 10,
     "isHoliday": true,
@@ -37418,7 +37520,9 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_KSJ-01_2121_6054",
+    "throughLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-37_2044_29214",
@@ -37469,7 +37573,7 @@
     "throughTripId": "HD_INB_SM-06_2102_29214",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_2102_29214",
       "trainNumber": "2052M"
     }
@@ -37550,7 +37654,7 @@
     "prevTripId": "HD_OUT_SM-01_2035_29262",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_2035_29262",
       "trainNumber": "2053M"
     }
@@ -38250,6 +38354,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -38265,7 +38370,9 @@
         "departureTime": "21:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_2120_5950",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_INB_NR-03_2143_40210",
@@ -38394,7 +38501,7 @@
     "throughTripId": "HD_INB_SM-06_2159_29202",
     "throughLineId": "jr_sobu_main",
     "through": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_INB_SM-06_2159_29202",
       "trainNumber": "2054M"
     }
@@ -38824,6 +38931,7 @@
     "originStationId": "NR-09",
     "destinationStationId": "NR-08",
     "customOrigin": "鹿島神宮",
+    "customDestination": "佐原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -38839,7 +38947,9 @@
         "departureTime": "22:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_KSJ-05_2211_5951",
+    "prevLineId": "jr_kashima"
   },
   {
     "tripId": "HD_OUT_NR-16_2229_18073",
@@ -39652,7 +39762,7 @@
     "prevTripId": "WD_OUT_SM-01_1012_10521",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "WD_OUT_SM-01_1012_10521",
       "trainNumber": "9085M"
     }
@@ -39724,7 +39834,7 @@
     "prevTripId": "HD_OUT_SM-01_1012_10521",
     "prevLineId": "jr_sobu_main",
     "previousTrip": {
-      "lineId": "sobu_main",
+      "lineId": "jr_sobu_main",
       "tripId": "HD_OUT_SM-01_1012_10521",
       "trainNumber": "9085M"
     }
