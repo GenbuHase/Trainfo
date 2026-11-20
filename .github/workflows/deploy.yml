@@ -5,14 +5,12 @@ on:
     branches:
       - master
       - main
-      - deploy/dev1
-      - deploy/dev2
-      - deploy/dev3
+      - 'deploy/dev*'
   workflow_dispatch:
 
-# GitHub Pages へのデプロイ権限を設定
+# GitHub Pages へのデプロイおよび gh-pages 保管ブランチ更新の権限を設定
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -25,58 +23,97 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 本番ブランチのチェックアウト
+      - name: プッシュされたブランチのチェックアウト
         uses: actions/checkout@v4
         with:
-          ref: ${{ (github.ref_name == 'master' || github.ref_name == 'main') && github.sha || github.event.repository.default_branch }}
-          path: prod
+          path: src
 
       - name: Node.js のセットアップ
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'npm'
-          cache-dependency-path: prod/package-lock.json
+          cache-dependency-path: src/package-lock.json
 
-      - name: 本番用依存関係のインストールとビルド
-        working-directory: prod
+      - name: 依存関係のインストールとビルド
+        working-directory: src
         run: |
           npm ci
           npm run build
 
-      - name: 公開用ディレクトリへ本番ビルドを配置
+      - name: 既存の gh-pages 保管ブランチの存在確認
+        id: check-gh-pages
+        working-directory: src
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 既存の公開ファイルを取得（gh-pages ブランチ）
+        if: steps.check-gh-pages.outputs.exists == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: _site
+
+      - name: 初回用 _site ディレクトリの初期化
+        if: steps.check-gh-pages.outputs.exists != 'true'
         run: |
           mkdir -p _site
+          git -C _site init
+          git -C _site remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+
+      - name: 該当環境のみビルド結果を反映
+        run: |
+          if [[ "${GITHUB_REF_NAME}" == deploy/dev* ]]; then
+            target_dir="${GITHUB_REF_NAME#deploy/}"
+            echo "=== Updating /${target_dir} only ==="
+            rm -rf "_site/${target_dir}"
+            mkdir -p "_site/${target_dir}"
+            cp -a src/dist/. "_site/${target_dir}/"
+          else
+            echo "=== Updating root (/) only ==="
+            find _site -maxdepth 1 ! -path _site ! -name '.git' ! -name 'dev*' -exec rm -rf {} +
+            cp -a src/dist/. _site/
+          fi
+
+      - name: 初回ルート未構築時の本番ブランチ補完チェック
+        id: check-root
+        run: |
+          if [ ! -f "_site/index.html" ]; then
+            echo "missing=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "missing=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 本番ブランチのチェックアウト（初回補完用）
+        if: steps.check-root.outputs.missing == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          path: prod
+
+      - name: 本番ブランチのビルドとルート配置（初回補完用）
+        if: steps.check-root.outputs.missing == 'true'
+        run: |
+          cd prod
+          npm ci
+          npm run build
+          cd ..
           cp -a prod/dist/. _site/
 
-      - name: deploy/dev1 〜 deploy/dev3 のチェックアウトとビルド
-        working-directory: prod
+      - name: gh-pages ブランチを更新して保管
+        working-directory: _site
         run: |
-          for env in dev1 dev2 dev3; do
-            branch="deploy/${env}"
-            if [ "${GITHUB_REF_NAME}" = "${branch}" ]; then
-              echo "=== Building ${branch} (current push: ${GITHUB_SHA}) ==="
-              git fetch --depth=1 origin "${GITHUB_SHA}"
-              target_ref="${GITHUB_SHA}"
-            elif git ls-remote --exit-code --heads origin "${branch}" >/dev/null 2>&1; then
-              echo "=== Building ${branch} (from origin) ==="
-              git fetch --depth=1 origin "refs/heads/${branch}:refs/remotes/origin/${branch}"
-              target_ref="origin/${branch}"
-            else
-              echo "=== Skipping ${branch} (branch does not exist on origin) ==="
-              continue
-            fi
-
-            git worktree add --detach "../${env}" "${target_ref}"
-            (
-              cd "../${env}"
-              npm ci
-              npm run build
-            )
-            mkdir -p "../_site/${env}"
-            cp -a "../${env}/dist/." "../_site/${env}/"
-            git worktree remove --force "../${env}"
-          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan gh-pages-latest
+          git add -A
+          git commit -m "deploy: ${GITHUB_REF_NAME} (${GITHUB_SHA::7})"
+          git push --force origin gh-pages-latest:gh-pages
+          rm -rf .git
 
       - name: Pages アーティファクトのアップロード
         uses: actions/upload-pages-artifact@v3
