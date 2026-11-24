@@ -21,7 +21,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -48,8 +48,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -77,8 +77,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -106,7 +106,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -138,7 +138,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -166,8 +166,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -191,11 +191,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "埼玉県加須市柳生2111",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -222,8 +222,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -249,11 +249,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市藤岡町藤岡186",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -277,11 +277,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市岩舟町静和2072",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -305,11 +305,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市大平町富田530",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -340,7 +340,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -372,7 +372,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -398,11 +398,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市都賀町合戦場616",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -426,11 +426,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市都賀町家中5932",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -454,11 +454,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市西方町金崎341",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -482,11 +482,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県鹿沼市楡木町336",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -510,11 +510,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県鹿沼市樅山町344",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -541,8 +541,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -568,11 +568,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県鹿沼市玉田町604",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -596,11 +596,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県鹿沼市板荷211",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -624,11 +624,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市小代285-3",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -652,11 +652,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市明神114",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -686,7 +686,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -712,11 +712,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市今市392",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -742,11 +742,11 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     ],
     "address": "栃木県日光市松原町4-3",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",

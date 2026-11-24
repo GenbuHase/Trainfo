@@ -30,7 +30,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -123,7 +123,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -152,8 +152,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -181,7 +181,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -207,11 +207,11 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -241,7 +241,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -274,7 +274,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -299,11 +299,11 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -330,8 +330,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -355,11 +355,11 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -386,8 +386,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -414,7 +414,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -445,7 +445,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -475,7 +475,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -503,7 +503,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -536,7 +536,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -564,7 +564,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -592,7 +592,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -620,7 +620,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -648,7 +648,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -677,7 +677,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -705,7 +705,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -734,7 +734,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -764,7 +764,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -793,7 +793,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -824,7 +824,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -852,7 +852,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -881,7 +881,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -909,7 +909,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -938,7 +938,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -966,7 +966,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -993,8 +993,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1027,7 +1027,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1056,7 +1056,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1085,7 +1085,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1111,9 +1111,9 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -1143,7 +1143,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1172,7 +1172,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1202,8 +1202,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1232,7 +1232,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },

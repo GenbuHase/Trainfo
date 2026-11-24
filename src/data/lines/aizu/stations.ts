@@ -15,10 +15,10 @@ export const AIZU_STATIONS: Station[] = [
     ],
     "address": "福島県南会津郡南会津町滝原字羽根原",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -45,11 +45,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町糸沢字下平",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -73,11 +73,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町糸沢字今泉",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -101,11 +101,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町関本字百刈",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -129,11 +129,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町中荒井字長宿",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -157,10 +157,10 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町田島字西町甲",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -188,11 +188,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町田島字田島裏",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -216,11 +216,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡南会津町長野字下川原",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -244,11 +244,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡下郷町大字落合字下ノ原",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -272,11 +272,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡下郷町大字沢田字下林",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -300,10 +300,10 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡下郷町大字豊成字下モ",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -329,11 +329,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡下郷町大字弥五島字寺下",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -357,11 +357,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡下郷町大字弥五島字下林",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -386,9 +386,9 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県南会津郡下郷町大字湯野上字大島",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     },
@@ -415,11 +415,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県会津若松市大戸町大字大川乙",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -443,11 +443,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県会津若松市大戸町大字大川甲",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -471,7 +471,7 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県会津若松市大戸町大字上三寄乙",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
@@ -500,11 +500,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県会津若松市大戸町大字雨屋",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -528,11 +528,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県会津若松市門田町大字面川",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -556,11 +556,11 @@ export const AIZU_STATIONS: Station[] = [
     "transfers": [],
     "address": "福島県会津若松市門田町大字一ノ後",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -589,7 +589,7 @@ export const AIZU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

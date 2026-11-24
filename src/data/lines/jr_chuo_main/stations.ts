@@ -21,7 +21,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -74,7 +74,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -100,7 +100,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -127,7 +127,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -152,8 +152,8 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -177,10 +177,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "山梨県大月市富浜町鳥沢",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -205,7 +205,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -260,9 +260,9 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -286,9 +286,9 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -312,9 +312,9 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -336,9 +336,9 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "transfers": [],
     "address": "山梨県甲州市勝沼町菱山",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     },
@@ -364,8 +364,8 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "山梨県甲州市塩山上於曽",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     },
@@ -392,10 +392,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "山梨県山梨市上石森",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -420,7 +420,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -446,10 +446,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "山梨県笛吹市春日居町別田",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -499,10 +499,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "transfers": [],
     "address": "山梨県甲府市酒折一丁目",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -558,7 +558,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -583,9 +583,9 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "山梨県甲斐市下今井",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -611,7 +611,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -636,11 +636,11 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "transfers": [],
     "address": "山梨県韮崎市中田町中条",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -664,9 +664,9 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -690,7 +690,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     },
@@ -715,10 +715,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "山梨県北杜市長坂町長坂上条",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -771,10 +771,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "長野県諏訪郡富士見町境",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -797,8 +797,8 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "長野県諏訪郡富士見町富士見",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     },
@@ -824,10 +824,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "長野県諏訪郡富士見町富士見",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -850,10 +850,10 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "address": "長野県茅野市金沢",
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"
@@ -878,7 +878,7 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -989,11 +989,11 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "transfers": [],
     "address": "長野県塩尻市大字西条",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "regular"

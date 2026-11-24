@@ -27,7 +27,7 @@ export const SENSEKI_TOHOKU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -55,9 +55,9 @@ export const SENSEKI_TOHOKU_STATIONS: Station[] = [
     "isMajor": true,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   }

@@ -46,10 +46,10 @@ export const KEISEI_HIGASHI_NARITA_STATIONS: Station[] = [
     ],
     "address": "千葉県成田市古込",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

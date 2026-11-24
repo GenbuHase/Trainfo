@@ -21,7 +21,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -46,11 +46,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県館林市足次町972",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -74,11 +74,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市田島町171",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -102,11 +102,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市植上町1553",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -136,8 +136,8 @@ export const TOBU_SANO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -162,11 +162,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市堀米町610",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -190,11 +190,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市新吉水町345",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -218,11 +218,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市田沼町642",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -247,11 +247,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市多田町945",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -275,11 +275,11 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県佐野市葛生東一丁目1-19",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",

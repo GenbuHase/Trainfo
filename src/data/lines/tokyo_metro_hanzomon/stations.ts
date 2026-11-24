@@ -35,8 +35,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -66,8 +66,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -97,8 +97,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -130,8 +130,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -158,8 +158,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -189,8 +189,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -220,8 +220,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -253,7 +253,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -284,8 +284,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -315,8 +315,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -345,8 +345,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -375,8 +375,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -406,7 +406,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -438,8 +438,8 @@ export const HANZOMON_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   }
 ];

@@ -15,10 +15,10 @@ export const YAGAN_STATIONS: Station[] = [
     ],
     "address": "栃木県日光市藤原497",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -47,7 +47,7 @@ export const YAGAN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -73,11 +73,11 @@ export const YAGAN_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市川治温泉川治",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -105,7 +105,7 @@ export const YAGAN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -134,7 +134,7 @@ export const YAGAN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -160,11 +160,11 @@ export const YAGAN_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市中三依",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -191,9 +191,9 @@ export const YAGAN_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -218,11 +218,11 @@ export const YAGAN_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市横川",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -250,7 +250,7 @@ export const YAGAN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

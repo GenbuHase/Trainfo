@@ -18,10 +18,10 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     },
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -46,9 +46,9 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "isMajor": true,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

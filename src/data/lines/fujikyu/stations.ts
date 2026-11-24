@@ -54,10 +54,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -83,8 +83,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -111,8 +111,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -140,7 +140,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -167,8 +167,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -195,9 +195,9 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -222,10 +222,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -251,9 +251,9 @@ export const FUJIKYU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -280,8 +280,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -309,7 +309,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -335,10 +335,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
+      "restroom": false,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -362,11 +362,11 @@ export const FUJIKYU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -391,10 +391,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -422,7 +422,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -448,7 +448,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
@@ -477,10 +477,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
+      "elevator": false,
+      "restroom": false,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -509,7 +509,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   }

@@ -20,7 +20,7 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -46,11 +46,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市今市1291",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -74,11 +74,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市大桑町468",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -102,11 +102,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市高徳384",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -131,11 +131,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市鬼怒川温泉大原450",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -159,11 +159,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市鬼怒川温泉大原209-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -192,8 +192,8 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -221,11 +221,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県日光市藤原19",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -254,11 +254,11 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     ],
     "address": "栃木県日光市藤原497",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",

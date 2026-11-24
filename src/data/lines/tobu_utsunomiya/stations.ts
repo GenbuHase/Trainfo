@@ -20,7 +20,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -44,11 +44,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市大平町川連653",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -72,11 +72,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県栃木市大塚町1430",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -100,11 +100,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県下都賀郡壬生町駅東町1-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -128,11 +128,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県下都賀郡壬生町大字壬生甲3773",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -160,7 +160,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -184,11 +184,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県下都賀郡壬生町大字安塚854",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -215,8 +215,8 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -240,11 +240,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県宇都宮市大和二丁目11-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -268,11 +268,11 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "transfers": [],
     "address": "栃木県宇都宮市吉野二丁目8-23",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -299,8 +299,8 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"

@@ -104,7 +104,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -138,7 +138,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -169,7 +169,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -212,7 +212,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -268,7 +268,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -297,7 +297,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -324,7 +324,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -351,7 +351,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -382,7 +382,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -409,7 +409,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -438,7 +438,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -467,7 +467,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -494,7 +494,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -521,7 +521,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -554,7 +554,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -612,7 +612,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -641,7 +641,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -670,7 +670,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -732,8 +732,8 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -762,7 +762,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -789,7 +789,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -813,10 +813,10 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -841,9 +841,9 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -870,7 +870,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -894,10 +894,10 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -924,7 +924,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },

@@ -21,7 +21,7 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -45,11 +45,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県館林市成島町451",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -73,11 +73,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県邑楽郡邑楽町大字中野2528",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -101,11 +101,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県邑楽郡邑楽町大字篠塚1529",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -129,11 +129,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県邑楽郡大泉町東小泉一丁目1-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -157,11 +157,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県邑楽郡大泉町城之内二丁目11-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -185,11 +185,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県邑楽郡大泉町西小泉四丁目11-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -213,11 +213,11 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県太田市龍舞町2103",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -248,7 +248,7 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"

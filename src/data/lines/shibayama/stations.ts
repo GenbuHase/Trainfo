@@ -16,10 +16,10 @@ export const SHIBAYAMA_STATIONS: Station[] = [
     ],
     "address": "千葉県成田市古込",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -47,7 +47,7 @@ export const SHIBAYAMA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

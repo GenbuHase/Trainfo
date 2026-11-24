@@ -21,7 +21,7 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -46,11 +46,11 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県太田市鳥山町709",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -74,11 +74,11 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県太田市成塚町168-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -102,11 +102,11 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県太田市藪塚町2388",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -131,11 +131,11 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
     "transfers": [],
     "address": "群馬県みどり市笠懸町阿左美1032-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -162,8 +162,8 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -190,11 +190,11 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
     ],
     "address": "群馬県桐生市相生町二丁目274-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -221,11 +221,11 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
     ],
     "address": "群馬県みどり市大間々町大間々1445-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",

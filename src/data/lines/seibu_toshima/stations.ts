@@ -21,7 +21,7 @@ export const SEIBU_TOSHIMA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -46,11 +46,11 @@ export const SEIBU_TOSHIMA_STATIONS: Station[] = [
     "transfers": [],
     "address": "東京都練馬区練馬四丁目",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"

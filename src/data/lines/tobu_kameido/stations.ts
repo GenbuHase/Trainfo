@@ -19,8 +19,8 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -44,11 +44,11 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "transfers": [],
     "address": "東京都墨田区文花二丁目11-13",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -72,11 +72,11 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "transfers": [],
     "address": "東京都墨田区立花二丁目24-7",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -100,11 +100,11 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "transfers": [],
     "address": "東京都江東区亀戸八丁目5-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -130,11 +130,11 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     ],
     "address": "東京都江東区亀戸五丁目1-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"

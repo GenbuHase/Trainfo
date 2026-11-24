@@ -64,7 +64,7 @@ export const JOETSU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -91,10 +91,10 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -153,8 +153,8 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -182,8 +182,8 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -213,7 +213,7 @@ export const JOETSU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -238,10 +238,10 @@ export const JOETSU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -264,11 +264,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -293,9 +293,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -347,9 +347,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -373,9 +373,9 @@ export const JOETSU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -402,7 +402,7 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -442,9 +442,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -480,11 +480,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -507,11 +507,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -534,11 +534,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -561,11 +561,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -620,11 +620,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -647,10 +647,10 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -674,11 +674,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -703,9 +703,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -732,7 +732,7 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -757,11 +757,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -814,11 +814,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -846,7 +846,7 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -871,11 +871,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -900,9 +900,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -928,9 +928,9 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -958,7 +958,7 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -985,9 +985,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -1015,8 +1015,8 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
