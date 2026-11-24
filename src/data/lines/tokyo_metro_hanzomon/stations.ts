@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const HANZOMON_STATIONS: Station[] = [
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-01",
     "stationNumber": "Z-01",
     "number": 1,
@@ -22,27 +22,25 @@ export const HANZOMON_STATIONS: Station[] = [
       "相鉄・JR直通線",
       "京王井の頭線"
     ],
-    "address": "東京都渋谷区道玄坂二丁目1-1",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-02",
     "stationNumber": "Z-02",
     "number": 2,
@@ -61,21 +59,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-03",
     "stationNumber": "Z-03",
     "number": 3,
@@ -94,21 +90,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-04",
     "stationNumber": "Z-04",
     "number": 4,
@@ -129,21 +123,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-05",
     "stationNumber": "Z-05",
     "number": 5,
@@ -159,21 +151,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-06",
     "stationNumber": "Z-06",
     "number": 6,
@@ -192,21 +182,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-07",
     "stationNumber": "Z-07",
     "number": 7,
@@ -225,21 +213,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-08",
     "stationNumber": "Z-08",
     "number": 8,
@@ -260,21 +246,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-09",
     "stationNumber": "Z-09",
     "number": 9,
@@ -293,21 +277,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-10",
     "stationNumber": "Z-10",
     "number": 10,
@@ -326,21 +308,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-11",
     "stationNumber": "Z-11",
     "number": 11,
@@ -358,21 +338,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "3・4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-12",
     "stationNumber": "Z-12",
     "number": 12,
@@ -390,21 +368,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-13",
     "stationNumber": "Z-13",
     "number": 13,
@@ -423,21 +399,19 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "hanzomon",
+    "lineId": "tokyo_metro_hanzomon",
     "id": "Z-14",
     "stationNumber": "Z-14",
     "number": 14,
@@ -457,17 +431,15 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "3・4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   }
 ];

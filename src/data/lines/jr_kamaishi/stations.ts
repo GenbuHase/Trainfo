@@ -11,9 +11,9 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3930768,
     "lng": 141.1103151,
     "transfers": [
-      "JR東北本線"
+      "JR東北本線（一ノ関～盛岡）"
     ],
-    "address": "岩手県花巻駅周辺",
+    "address": "岩手県花巻市大通り一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,14 +41,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.4068589,
     "lng": 141.1417419,
     "transfers": [],
-    "address": "岩手県似内駅周辺",
+    "address": "岩手県花巻市上似内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -71,7 +70,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線"
     ],
-    "address": "岩手県新花巻駅周辺",
+    "address": "岩手県花巻市矢沢第10地割",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,14 +98,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.408508,
     "lng": 141.194199,
     "transfers": [],
-    "address": "岩手県小山田駅周辺",
+    "address": "岩手県花巻市幸田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -127,7 +125,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3831005,
     "lng": 141.232926,
     "transfers": [],
-    "address": "岩手県土沢駅周辺",
+    "address": "岩手県花巻市東和町土沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,14 +153,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3664942,
     "lng": 141.2580683,
     "transfers": [],
-    "address": "岩手県晴山駅周辺",
+    "address": "岩手県花巻市東和町東晴山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -183,14 +180,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3552437,
     "lng": 141.3189494,
     "transfers": [],
-    "address": "岩手県岩根橋駅周辺",
+    "address": "岩手県遠野市宮守町下宮守",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -211,7 +207,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3504373,
     "lng": 141.3503073,
     "transfers": [],
-    "address": "岩手県宮守駅周辺",
+    "address": "岩手県遠野市宮守町下宮守",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -239,14 +235,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3058024,
     "lng": 141.379667,
     "transfers": [],
-    "address": "岩手県柏木平駅周辺",
+    "address": "岩手県遠野市宮守町下鱒沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -267,7 +262,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3002089,
     "lng": 141.3995977,
     "transfers": [],
-    "address": "岩手県鱒沢駅周辺",
+    "address": "岩手県遠野市宮守町下鱒沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -295,14 +290,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.309908,
     "lng": 141.4286063,
     "transfers": [],
-    "address": "岩手県荒谷前駅周辺",
+    "address": "岩手県遠野市宮守町上鱒沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -323,14 +317,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3236742,
     "lng": 141.4562853,
     "transfers": [],
-    "address": "岩手県岩手二日町駅周辺",
+    "address": "岩手県遠野市綾織町上綾織",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -351,14 +344,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3284639,
     "lng": 141.4769877,
     "transfers": [],
-    "address": "岩手県綾織駅周辺",
+    "address": "岩手県遠野市綾織町新里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -379,7 +371,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3324341,
     "lng": 141.5311486,
     "transfers": [],
-    "address": "岩手県遠野駅周辺",
+    "address": "岩手県遠野市新穀町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -407,14 +399,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3115139,
     "lng": 141.5688962,
     "transfers": [],
-    "address": "岩手県青笹駅周辺",
+    "address": "岩手県遠野市青笹町青笹",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -435,7 +426,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2842716,
     "lng": 141.5861367,
     "transfers": [],
-    "address": "岩手県岩手上郷駅周辺",
+    "address": "岩手県遠野市上郷町板沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -463,14 +454,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2645937,
     "lng": 141.5960024,
     "transfers": [],
-    "address": "岩手県平倉駅周辺",
+    "address": "岩手県遠野市上郷町細越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -491,14 +481,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2546152,
     "lng": 141.6458846,
     "transfers": [],
-    "address": "岩手県足ケ瀬駅周辺",
+    "address": "岩手県遠野市上郷町細越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -519,7 +508,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.242168,
     "lng": 141.681916,
     "transfers": [],
-    "address": "岩手県上有住駅周辺",
+    "address": "岩手県住田町上有住",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -547,7 +536,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2807739,
     "lng": 141.7184277,
     "transfers": [],
-    "address": "岩手県陸中大橋駅周辺",
+    "address": "岩手県釜石市甲子町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -575,14 +564,13 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2507071,
     "lng": 141.7604816,
     "transfers": [],
-    "address": "岩手県洞泉駅周辺",
+    "address": "岩手県釜石市甲子町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -603,7 +591,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2563991,
     "lng": 141.8015862,
     "transfers": [],
-    "address": "岩手県松倉駅周辺",
+    "address": "岩手県釜石市甲子町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -631,7 +619,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.2645683,
     "lng": 141.8365965,
     "transfers": [],
-    "address": "岩手県小佐野駅周辺",
+    "address": "岩手県釜石市小佐野町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -661,7 +649,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "transfers": [
       "三陸鉄道リアス線"
     ],
-    "address": "岩手県釜石駅周辺",
+    "address": "岩手県釜石市鈴子町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

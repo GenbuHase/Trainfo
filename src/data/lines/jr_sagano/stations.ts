@@ -12,7 +12,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 34.98574,
     "lng": 135.75869,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市下京区東塩小路釜殿町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 34.98977,
     "lng": 135.74306,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市下京区朱雀正会町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -56,9 +56,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -72,7 +70,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 34.99723,
     "lng": 135.74219,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市下京区中堂寺北町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -86,9 +84,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -102,7 +98,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01229,
     "lng": 135.7418,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市中京区西ノ京星池町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -132,7 +128,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01828,
     "lng": 135.72981,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市中京区西ノ京中御門西町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -147,8 +143,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -162,7 +157,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01843,
     "lng": 135.71689,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市右京区花園扇野町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -176,9 +171,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -192,7 +185,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01705,
     "lng": 135.69961,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市右京区太秦垂箕山町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -206,9 +199,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -222,7 +213,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01893,
     "lng": 135.6799,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市右京区嵯峨天龍寺車道町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -237,8 +228,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -252,7 +242,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.02307,
     "lng": 135.63906,
     "transfers": [],
-    "address": "",
+    "address": "京都府亀岡市保津町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -266,9 +256,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -282,7 +270,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01092,
     "lng": 135.60346,
     "transfers": [],
-    "address": "",
+    "address": "京都府亀岡市篠町山本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -296,9 +284,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -312,7 +298,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.01654,
     "lng": 135.58347,
     "transfers": [],
-    "address": "",
+    "address": "京都府亀岡市追分町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -342,7 +328,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.03159,
     "lng": 135.55534,
     "transfers": [],
-    "address": "",
+    "address": "京都府亀岡市大井町並河一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -357,8 +343,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -372,7 +357,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.04762,
     "lng": 135.54876,
     "transfers": [],
-    "address": "",
+    "address": "京都府亀岡市千代川町今津三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -387,8 +372,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -402,7 +386,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.06847,
     "lng": 135.53305,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市八木町八木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -417,8 +401,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -432,7 +415,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.09148,
     "lng": 135.49913,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市八木町木原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -447,8 +430,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -462,7 +444,7 @@ export const JR_SAGANO_STATIONS: Station[] = [
     "lat": 35.10145,
     "lng": 135.48409,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市園部町小山東町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

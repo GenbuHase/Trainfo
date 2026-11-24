@@ -14,7 +14,7 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "transfers": [
       "京成千葉線"
     ],
-    "address": "千葉県千葉中央駅",
+    "address": "千葉県千葉市中央区本千葉町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "lat": 35.590526,
     "lng": 140.1316025,
     "transfers": [],
-    "address": "千葉県千葉寺駅",
+    "address": "千葉県千葉市中央区千葉寺町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "lat": 35.5842785,
     "lng": 140.1492305,
     "transfers": [],
-    "address": "千葉県大森台駅",
+    "address": "千葉県千葉市中央区大森町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "lat": 35.5607198,
     "lng": 140.1584514,
     "transfers": [],
-    "address": "千葉県学園前駅",
+    "address": "千葉県千葉市緑区おゆみ野中央一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "lat": 35.5501806,
     "lng": 140.1658903,
     "transfers": [],
-    "address": "千葉県おゆみ野駅",
+    "address": "千葉県千葉市緑区おゆみ野南三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -150,7 +150,7 @@ export const KEISEI_CHIHARA_STATIONS: Station[] = [
     "lat": 35.5343992,
     "lng": 140.1703215,
     "transfers": [],
-    "address": "千葉県ちはら台駅",
+    "address": "千葉県市原市ちはら台西一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

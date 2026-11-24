@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const MARUNOUCHI_STATIONS: Station[] = [
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-01",
     "stationNumber": "M-01",
     "number": 1,
@@ -28,12 +28,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-02",
     "stationNumber": "M-02",
     "number": 2,
@@ -56,12 +56,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-03",
     "stationNumber": "M-03",
     "number": 3,
@@ -84,12 +84,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-04",
     "stationNumber": "M-04",
     "number": 4,
@@ -112,12 +112,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-05",
     "stationNumber": "M-05",
     "number": 5,
@@ -140,12 +140,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-06",
     "stationNumber": "M-06",
     "number": 6,
@@ -171,12 +171,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-07",
     "stationNumber": "M-07",
     "number": 7,
@@ -199,12 +199,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-08",
     "stationNumber": "M-08",
     "number": 8,
@@ -239,12 +239,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-09",
     "stationNumber": "M-09",
     "number": 9,
@@ -270,12 +270,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-10",
     "stationNumber": "M-10",
     "number": 10,
@@ -298,12 +298,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-11",
     "stationNumber": "M-11",
     "number": 11,
@@ -326,12 +326,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-12",
     "stationNumber": "M-12",
     "number": 12,
@@ -358,12 +358,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-13",
     "stationNumber": "M-13",
     "number": 13,
@@ -391,12 +391,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-14",
     "stationNumber": "M-14",
     "number": 14,
@@ -423,12 +423,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-15",
     "stationNumber": "M-15",
     "number": 15,
@@ -454,12 +454,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-16",
     "stationNumber": "M-16",
     "number": 16,
@@ -485,12 +485,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-17",
     "stationNumber": "M-17",
     "number": 17,
@@ -507,10 +507,10 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "JR横須賀線",
       "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線"
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線"
     ],
     "address": "東京都千代田区丸の内一丁目9-1",
     "platforms": {
@@ -525,12 +525,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-18",
     "stationNumber": "M-18",
     "number": 18,
@@ -558,12 +558,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-19",
     "stationNumber": "M-19",
     "number": 19,
@@ -589,12 +589,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-20",
     "stationNumber": "M-20",
     "number": 20,
@@ -620,12 +620,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-21",
     "stationNumber": "M-21",
     "number": 21,
@@ -650,12 +650,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-22",
     "stationNumber": "M-22",
     "number": 22,
@@ -682,12 +682,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-23",
     "stationNumber": "M-23",
     "number": 23,
@@ -710,12 +710,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-24",
     "stationNumber": "M-24",
     "number": 24,
@@ -738,12 +738,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "M-25",
     "stationNumber": "M-25",
     "number": 25,
@@ -774,12 +774,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "Mb-03",
     "stationNumber": "Mb-03",
     "number": 26,
@@ -802,12 +802,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "Mb-04",
     "stationNumber": "Mb-04",
     "number": 27,
@@ -830,12 +830,12 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "marunouchi",
+    "lineId": "tokyo_metro_marunouchi",
     "id": "Mb-05",
     "stationNumber": "Mb-05",
     "number": 28,
@@ -858,8 +858,8 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   }
 ];

@@ -14,7 +14,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ南北線"
     ],
-    "address": "東京都赤羽岩淵駅",
+    "address": "東京都北区赤羽一丁目52-8",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "lat": 35.7997598,
     "lng": 139.7295969,
     "transfers": [],
-    "address": "埼玉県川口元郷駅",
+    "address": "埼玉県川口市元郷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "lat": 35.8168945,
     "lng": 139.7362895,
     "transfers": [],
-    "address": "埼玉県南鳩ケ谷駅",
+    "address": "埼玉県川口市南鳩ヶ谷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "lat": 35.8315938,
     "lng": 139.7357666,
     "transfers": [],
-    "address": "埼玉県鳩ケ谷駅",
+    "address": "埼玉県川口市大字里",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "lat": 35.8430881,
     "lng": 139.7391072,
     "transfers": [],
-    "address": "埼玉県新井宿駅",
+    "address": "埼玉県川口市大字新井宿",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -150,7 +150,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "lat": 35.8599627,
     "lng": 139.7536943,
     "transfers": [],
-    "address": "埼玉県戸塚安行駅",
+    "address": "埼玉県川口市大字長蔵新田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -179,7 +179,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ武蔵野線"
     ],
-    "address": "埼玉県東川口駅",
+    "address": "埼玉県川口市東川口一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -207,7 +207,7 @@ export const SAITAMA_RAPID_STATIONS: Station[] = [
     "lat": 35.8942881,
     "lng": 139.7273352,
     "transfers": [],
-    "address": "埼玉県浦和美園駅",
+    "address": "埼玉県さいたま市緑区美園四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

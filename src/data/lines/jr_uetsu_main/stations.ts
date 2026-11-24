@@ -27,7 +27,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     "lat": 37.800025,
     "lng": 139.121101,
     "transfers": [
-      "JR信越本線",
+      "JR信越本線（直江津～新潟）",
       "JR磐越西線"
     ],
     "address": "新潟県新潟市秋葉区新津",
@@ -36,9 +36,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -285,7 +283,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -332,14 +332,18 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     "nameEn": "Sakamachi",
     "lat": 38.1208156,
     "lng": 139.4470217,
-    "transfers": ["JR米坂線"],
+    "transfers": [
+      "JR米坂線"
+    ],
     "address": "新潟県村上市",
     "platforms": {
       "inbound": "上り 新津方面",
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -503,7 +507,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -611,7 +616,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -692,7 +698,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -939,7 +947,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1132,7 +1142,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1267,7 +1278,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1321,7 +1333,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1368,7 +1381,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     "nameEn": "Ugo-Honjo",
     "lat": 39.3865493,
     "lng": 140.0574435,
-    "transfers": ["由利高原鉄道鳥海山ろく線"],
+    "transfers": [
+      "由利高原鉄道鳥海山ろく線"
+    ],
     "address": "秋田県由利本荘市",
     "platforms": {
       "inbound": "上り 新津方面",
@@ -1376,7 +1391,6 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -1641,7 +1655,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     "lat": 39.7172882,
     "lng": 140.12952,
     "transfers": [
-      "JR奥羽本線",
+      "JR奥羽本線（秋田～青森）",
+      "JR奥羽本線（大曲～秋田）",
       "JR男鹿線"
     ],
     "address": "秋田県秋田市",
@@ -1651,7 +1666,6 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,

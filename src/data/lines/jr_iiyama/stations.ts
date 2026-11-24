@@ -11,7 +11,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.7109499,
     "lng": 138.2753056,
     "transfers": [],
-    "address": "長野県豊野駅",
+    "address": "長野県長野市豊野町豊野1002",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -38,7 +38,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.7220962,
     "lng": 138.294685,
     "transfers": [],
-    "address": "長野県信濃浅野駅",
+    "address": "長野県長野市豊野町浅野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -64,7 +64,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.7316231,
     "lng": 138.3071462,
     "transfers": [],
-    "address": "長野県立ヶ花駅",
+    "address": "長野県長野市豊野町蟹沢",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -90,7 +90,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.7530796,
     "lng": 138.3195573,
     "transfers": [],
-    "address": "長野県上今井駅",
+    "address": "長野県中野市大字上今井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -116,7 +116,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.7690043,
     "lng": 138.3236739,
     "transfers": [],
-    "address": "長野県替佐駅",
+    "address": "長野県中野市大字豊津",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -143,7 +143,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.8085316,
     "lng": 138.3489582,
     "transfers": [],
-    "address": "長野県蓮駅",
+    "address": "長野県飯山市大字蓮",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -171,7 +171,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ北陸新幹線"
     ],
-    "address": "長野県飯山駅",
+    "address": "長野県飯山市大字飯山770-3",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -199,7 +199,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.859153,
     "lng": 138.3638833,
     "transfers": [],
-    "address": "長野県北飯山駅",
+    "address": "長野県飯山市大字飯山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -226,7 +226,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.8852952,
     "lng": 138.3786927,
     "transfers": [],
-    "address": "長野県信濃平駅",
+    "address": "長野県飯山市大字常盤",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -252,7 +252,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9169501,
     "lng": 138.3932205,
     "transfers": [],
-    "address": "長野県戸狩野沢温泉駅",
+    "address": "長野県飯山市大字照里",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -280,7 +280,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9376623,
     "lng": 138.4189683,
     "transfers": [],
-    "address": "長野県上境駅",
+    "address": "長野県飯山市大字一山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -307,7 +307,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9625931,
     "lng": 138.4413183,
     "transfers": [],
-    "address": "長野県上桑名川駅",
+    "address": "長野県飯山市大字照岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -333,7 +333,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9758695,
     "lng": 138.4579813,
     "transfers": [],
-    "address": "長野県桑名川駅",
+    "address": "長野県飯山市大字照岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -359,7 +359,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.979172,
     "lng": 138.4807203,
     "transfers": [],
-    "address": "長野県西大滝駅",
+    "address": "長野県飯山市大字照岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -385,7 +385,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9834044,
     "lng": 138.5027038,
     "transfers": [],
-    "address": "長野県信濃白鳥駅",
+    "address": "長野県栄村大字豊栄",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -411,7 +411,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9860132,
     "lng": 138.533331,
     "transfers": [],
-    "address": "長野県平滝駅",
+    "address": "長野県栄村大字豊栄",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -437,7 +437,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.97978,
     "lng": 138.54994,
     "transfers": [],
-    "address": "長野県横倉駅",
+    "address": "長野県栄村大字北信",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -463,7 +463,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.98963,
     "lng": 138.57692,
     "transfers": [],
-    "address": "長野県森宮野原駅",
+    "address": "長野県栄村大字北信",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -491,7 +491,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 36.9990209,
     "lng": 138.603322,
     "transfers": [],
-    "address": "新潟県足滝駅",
+    "address": "新潟県津南町大字上郷寺石",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -517,7 +517,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.0051457,
     "lng": 138.626702,
     "transfers": [],
-    "address": "新潟県越後田中駅",
+    "address": "新潟県津南町大字上郷上田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -543,7 +543,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.0234122,
     "lng": 138.6391975,
     "transfers": [],
-    "address": "新潟県津南駅",
+    "address": "新潟県津南町大字外丸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -571,7 +571,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.0479182,
     "lng": 138.6712518,
     "transfers": [],
-    "address": "新潟県越後鹿渡駅",
+    "address": "新潟県津南町大字三箇",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -597,7 +597,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.0553852,
     "lng": 138.6947923,
     "transfers": [],
-    "address": "新潟県越後田沢駅",
+    "address": "新潟県十日町市田中",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -623,7 +623,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.0740318,
     "lng": 138.7179223,
     "transfers": [],
-    "address": "新潟県越後水沢駅",
+    "address": "新潟県十日町市馬場甲",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -705,7 +705,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.1591497,
     "lng": 138.772281,
     "transfers": [],
-    "address": "新潟県魚沼中条駅",
+    "address": "新潟県十日町市中条甲",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -731,7 +731,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.1980595,
     "lng": 138.7800074,
     "transfers": [],
-    "address": "新潟県下条駅",
+    "address": "新潟県十日町市下条四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -757,7 +757,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.2405575,
     "lng": 138.7967118,
     "transfers": [],
-    "address": "新潟県越後岩沢駅",
+    "address": "新潟県小千谷市大字岩沢",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -783,7 +783,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "lat": 37.2500784,
     "lng": 138.851404,
     "transfers": [],
-    "address": "新潟県内ヶ巻駅",
+    "address": "新潟県小千谷市大字川井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -811,7 +811,7 @@ export const JR_IIYAMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ上越線"
     ],
-    "address": "新潟県越後川口駅",
+    "address": "新潟県長岡市川口牛ケ島",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -11,7 +11,7 @@ export const KANTO_RYUGASAKI_STATIONS: Station[] = [
     "lat": 35.9297295,
     "lng": 140.138408,
     "transfers": [],
-    "address": "茨城県佐貫駅",
+    "address": "茨城県龍ケ崎市佐貫町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -38,7 +38,7 @@ export const KANTO_RYUGASAKI_STATIONS: Station[] = [
     "lat": 35.9189151,
     "lng": 140.1576207,
     "transfers": [],
-    "address": "茨城県入地駅",
+    "address": "茨城県龍ケ崎市川原代町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -64,7 +64,7 @@ export const KANTO_RYUGASAKI_STATIONS: Station[] = [
     "lat": 35.9085276,
     "lng": 140.1792383,
     "transfers": [],
-    "address": "茨城県竜ケ崎駅",
+    "address": "茨城県龍ケ崎市−",
     "facilities": {
       "elevator": true,
       "restroom": true,

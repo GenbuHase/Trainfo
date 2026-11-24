@@ -16,7 +16,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
       "ＪＲ山手線内回り",
       "都営地下鉄浅草線"
     ],
-    "address": "東京都五反田駅",
+    "address": "東京都品川区東五反田二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -44,7 +44,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.622578,
     "lng": 139.7226683,
     "transfers": [],
-    "address": "東京都大崎広小路駅",
+    "address": "東京都品川区大崎四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -71,7 +71,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.6163261,
     "lng": 139.7151593,
     "transfers": [],
-    "address": "東京都戸越銀座駅",
+    "address": "東京都品川区平塚一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -98,7 +98,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.6100262,
     "lng": 139.7121315,
     "transfers": [],
-    "address": "東京都荏原中延駅",
+    "address": "東京都品川区東中延一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -127,7 +127,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "東京都旗の台駅",
+    "address": "東京都品川区旗の台三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -155,7 +155,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.6024247,
     "lng": 139.6982981,
     "transfers": [],
-    "address": "東京都長原駅",
+    "address": "東京都大田区上池台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -182,7 +182,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.5997907,
     "lng": 139.6913438,
     "transfers": [],
-    "address": "東京都洗足池駅",
+    "address": "東京都大田区東雪谷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -209,7 +209,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.5970735,
     "lng": 139.6854361,
     "transfers": [],
-    "address": "東京都石川台駅",
+    "address": "東京都大田区東雪谷二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -236,7 +236,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.5923227,
     "lng": 139.6813204,
     "transfers": [],
-    "address": "東京都雪が谷大塚駅",
+    "address": "東京都大田区南雪谷二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -263,7 +263,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.5850461,
     "lng": 139.6825998,
     "transfers": [],
-    "address": "東京都御嶽山駅",
+    "address": "東京都大田区東嶺町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -290,7 +290,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.579798,
     "lng": 139.6855258,
     "transfers": [],
-    "address": "東京都久が原駅",
+    "address": "東京都大田区南久が原二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -344,7 +344,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.5720715,
     "lng": 139.7027716,
     "transfers": [],
-    "address": "東京都池上駅",
+    "address": "東京都大田区池上六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -371,7 +371,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
     "lat": 35.5642852,
     "lng": 139.7085259,
     "transfers": [],
-    "address": "東京都蓮沼駅",
+    "address": "東京都大田区東矢口三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -401,7 +401,7 @@ export const TOKYU_IKEGAMI_STATIONS: Station[] = [
       "ＪＲ京浜東北線",
       "東急多摩川線"
     ],
-    "address": "東京都蒲田駅",
+    "address": "東京都大田区西蒲田七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

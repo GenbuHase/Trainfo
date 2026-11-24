@@ -11,17 +11,17 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "lat": 34.668,
     "lng": 135.16477,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市兵庫区駅南通五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -38,7 +38,7 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "lat": 34.65722,
     "lng": 135.17442,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市兵庫区和田宮通三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -46,9 +46,9 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "isMajor": true,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

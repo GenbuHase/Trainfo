@@ -20,7 +20,7 @@ export const JOSHIN_STATIONS: Station[] = [
       "ＪＲ高崎線",
       "ＪＲ八高線"
     ],
-    "address": "群馬県高崎駅",
+    "address": "群馬県高崎市八島町222",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -47,7 +47,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.312699,
     "lng": 139.0123061,
     "transfers": [],
-    "address": "群馬県南高崎駅",
+    "address": "群馬県高崎市下和田町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.3026815,
     "lng": 139.0184356,
     "transfers": [],
-    "address": "群馬県佐野のわたし駅",
+    "address": "群馬県高崎市上佐野町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -99,7 +99,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2914227,
     "lng": 139.0188647,
     "transfers": [],
-    "address": "群馬県根小屋駅",
+    "address": "群馬県高崎市根小屋町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -125,7 +125,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2842514,
     "lng": 139.0298569,
     "transfers": [],
-    "address": "群馬県高崎商科大学前駅",
+    "address": "群馬県高崎市根小屋町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2781408,
     "lng": 139.0380906,
     "transfers": [],
-    "address": "群馬県山名駅",
+    "address": "群馬県高崎市山名町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -177,7 +177,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2710962,
     "lng": 139.0323461,
     "transfers": [],
-    "address": "群馬県西山名駅",
+    "address": "群馬県高崎市山名町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -203,7 +203,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2616577,
     "lng": 139.0102761,
     "transfers": [],
-    "address": "群馬県馬庭駅",
+    "address": "群馬県高崎市吉井町馬庭",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -229,7 +229,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2559997,
     "lng": 138.9839942,
     "transfers": [],
-    "address": "群馬県吉井駅",
+    "address": "群馬県高崎市吉井町吉井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -255,7 +255,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.255783,
     "lng": 138.9654698,
     "transfers": [],
-    "address": "群馬県西吉井駅",
+    "address": "群馬県高崎市吉井町長根",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -281,7 +281,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.256008,
     "lng": 138.9514393,
     "transfers": [],
-    "address": "群馬県上州新屋駅",
+    "address": "群馬県甘楽町大字金井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -307,7 +307,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2564446,
     "lng": 138.929088,
     "transfers": [],
-    "address": "群馬県上州福島駅",
+    "address": "群馬県甘楽町大字福島",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -333,7 +333,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2607587,
     "lng": 138.9013521,
     "transfers": [],
-    "address": "群馬県東富岡駅",
+    "address": "群馬県富岡市富岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -359,7 +359,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2605194,
     "lng": 138.8915193,
     "transfers": [],
-    "address": "群馬県上州富岡駅",
+    "address": "群馬県富岡市富岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -385,7 +385,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2601837,
     "lng": 138.8823683,
     "transfers": [],
-    "address": "群馬県西富岡駅",
+    "address": "群馬県富岡市七日市",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -437,7 +437,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2532272,
     "lng": 138.8639431,
     "transfers": [],
-    "address": "群馬県上州一ノ宮駅",
+    "address": "群馬県富岡市一ノ宮",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -463,7 +463,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.242701,
     "lng": 138.8441768,
     "transfers": [],
-    "address": "群馬県神農原駅",
+    "address": "群馬県富岡市神農原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -489,7 +489,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2384551,
     "lng": 138.8143151,
     "transfers": [],
-    "address": "群馬県南蛇井駅",
+    "address": "群馬県富岡市南蛇井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -515,7 +515,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2300169,
     "lng": 138.7986204,
     "transfers": [],
-    "address": "群馬県千平駅",
+    "address": "群馬県富岡市南蛇井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -541,7 +541,7 @@ export const JOSHIN_STATIONS: Station[] = [
     "lat": 36.2105425,
     "lng": 138.7870996,
     "transfers": [],
-    "address": "群馬県下仁田駅",
+    "address": "群馬県下仁田町大字下仁田",
     "facilities": {
       "elevator": true,
       "restroom": true,

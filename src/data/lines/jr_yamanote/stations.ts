@@ -18,13 +18,13 @@ export const YAMANOTE_STATIONS: Station[] = [
       "JR総武快速線",
       "JR京葉線",
       "JR上野東京ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区丸の内一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -56,7 +56,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "JR中央線",
       "東京メトロ銀座線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区鍛冶町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -86,10 +86,10 @@ export const YAMANOTE_STATIONS: Station[] = [
     "transfers": [
       "JR京浜東北線",
       "JR中央・総武線各駅停車",
-      "つくばエクスプレス",
+      "首都圏新都市鉄道つくばエクスプレス",
       "東京メトロ日比谷線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区神田佐久間町一丁目21",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -122,7 +122,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ日比谷線",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区上野五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -154,14 +154,14 @@ export const YAMANOTE_STATIONS: Station[] = [
       "JR高崎線",
       "JR常磐線快速",
       "JR上野東京ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区上野七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -191,7 +191,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "transfers": [
       "JR京浜東北線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区根岸一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -223,7 +223,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "京成本線",
       "日暮里・舎人ライナー"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都荒川区西日暮里二丁目19-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -255,7 +255,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "日暮里・舎人ライナー"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都荒川区西日暮里五丁目22-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -284,7 +284,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "transfers": [
       "JR京浜東北線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都北区東田端一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -314,7 +314,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ南北線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都豊島区駒込二丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -343,7 +343,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "transfers": [
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都豊島区巣鴨一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -372,7 +372,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "transfers": [
       "都電荒川線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都豊島区南大塚三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -407,7 +407,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ有楽町線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都豊島区南池袋一丁目28-2",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -435,7 +435,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "lat": 35.72145,
     "lng": 139.7066,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都豊島区目白三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -465,7 +465,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "西武新宿線",
       "東京メトロ東西線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区高田馬場一丁目35-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -493,7 +493,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "lat": 35.70175,
     "lng": 139.70032,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区百人町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -533,7 +533,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "都営大江戸線",
       "西武新宿線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区新宿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -564,7 +564,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "JR中央・総武線各駅停車",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都渋谷区千駄ヶ谷五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -594,7 +594,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都渋谷区神宮前一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -630,7 +630,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ半蔵門線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -663,7 +663,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "相鉄・JR直通線",
       "東京メトロ日比谷線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都渋谷区恵比寿南一丁目5-5",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -695,7 +695,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ南北線",
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都品川区上大崎二丁目16-9",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -726,7 +726,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東急池上線",
       "都営浅草線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都品川区東五反田二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -758,7 +758,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "相鉄・JR直通線",
       "東京臨海高速鉄道りんかい線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都品川区大崎一丁目21-4",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -790,10 +790,10 @@ export const YAMANOTE_STATIONS: Station[] = [
       "JR東海道線",
       "JR横須賀線",
       "JR上野東京ライン",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区高輪三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -825,7 +825,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "都営浅草線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区港南二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -856,7 +856,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "都営浅草線",
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区芝浦三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -884,11 +884,11 @@ export const YAMANOTE_STATIONS: Station[] = [
     "lng": 139.75728,
     "transfers": [
       "JR京浜東北線",
-      "東京モノレール",
+      "東京モノレール羽田空港線",
       "都営浅草線",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都浜松町駅",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -924,7 +924,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "都営浅草線",
       "ゆりかもめ"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区新橋二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -958,7 +958,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区有楽町一丁目11-1",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -13,7 +13,7 @@ export const TOGANE_STATIONS: Station[] = [
     "transfers": [
       "JR外房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県大網白里市南玉",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -26,8 +26,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true
   },
@@ -41,7 +40,7 @@ export const TOGANE_STATIONS: Station[] = [
     "lat": 35.54662,
     "lng": 140.34239,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県東金市福俵",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -54,8 +53,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -68,7 +66,7 @@ export const TOGANE_STATIONS: Station[] = [
     "lat": 35.55965,
     "lng": 140.36272,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県東金市東金",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -81,8 +79,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true
   },
@@ -96,7 +93,7 @@ export const TOGANE_STATIONS: Station[] = [
     "lat": 35.57938,
     "lng": 140.39564,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県東金市求名",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -109,8 +106,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -125,7 +121,7 @@ export const TOGANE_STATIONS: Station[] = [
     "transfers": [
       "JR総武本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県山武市津辺",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -138,8 +134,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true
   }

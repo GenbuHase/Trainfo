@@ -15,17 +15,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "ＪＲ東西線",
       "ＪＲ神戸線"
     ],
-    "address": "",
+    "address": "兵庫県尼崎市潮江一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -47,17 +47,15 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.75173,
     "lng": 135.42497,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県尼崎市上坂部一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -79,17 +77,13 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.7632,
     "lng": 135.42276,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県尼崎市猪名寺二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -111,17 +105,16 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.78009,
     "lng": 135.4218,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県伊丹市伊丹一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -143,17 +136,13 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.79976,
     "lng": 135.41971,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県伊丹市北伊丹九丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -175,17 +164,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.8247,
     "lng": 135.41042,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県川西市栄根二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -207,17 +196,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.81655,
     "lng": 135.37483,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県宝塚市中筋四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -242,17 +231,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "阪急今津線",
       "阪急宝塚本線"
     ],
-    "address": "",
+    "address": "兵庫県宝塚市栄町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -274,17 +263,14 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.81902,
     "lng": 135.32454,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西宮市生瀬町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -306,17 +292,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.82771,
     "lng": 135.30888,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西宮市名塩新町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -338,17 +324,14 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.85499,
     "lng": 135.3061,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県宝塚市玉瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -370,17 +353,14 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.86728,
     "lng": 135.25662,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市北区道場町生野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -404,17 +384,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "transfers": [
       "神鉄三田線"
     ],
-    "address": "",
+    "address": "兵庫県三田市駅前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -436,17 +416,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.90961,
     "lng": 135.2089,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県三田市福島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -468,17 +448,16 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.92937,
     "lng": 135.19169,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県三田市上井沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -500,17 +479,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.94795,
     "lng": 135.15491,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県三田市下相野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -532,17 +511,16 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.9778,
     "lng": 135.15534,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県三田市藍本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -564,17 +542,16 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 34.99749,
     "lng": 135.15239,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波篠山市草野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -596,17 +573,16 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 35.02251,
     "lng": 135.1557,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波篠山市古市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -628,17 +604,16 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "lat": 35.03813,
     "lng": 135.17501,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波篠山市南矢代",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -662,17 +637,17 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ福知山線"
     ],
-    "address": "",
+    "address": "兵庫県丹波篠山市大沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {

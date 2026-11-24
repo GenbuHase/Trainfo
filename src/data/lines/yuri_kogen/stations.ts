@@ -13,7 +13,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "transfers": [
       "JR羽越本線"
     ],
-    "address": "秋田県羽後本荘駅周辺",
+    "address": "秋田県由利本荘市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.3680096,
     "lng": 140.048732,
     "transfers": [],
-    "address": "秋田県薬師堂駅周辺",
+    "address": "秋田県由利本荘市薬師堂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -67,7 +67,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.3507104,
     "lng": 140.0596702,
     "transfers": [],
-    "address": "秋田県子吉駅周辺",
+    "address": "秋田県由利本荘市玉ノ池",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -94,7 +94,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.3284736,
     "lng": 140.0716576,
     "transfers": [],
-    "address": "秋田県鮎川駅周辺",
+    "address": "秋田県由利本荘市東鮎川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -121,7 +121,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.3204604,
     "lng": 140.0935867,
     "transfers": [],
-    "address": "秋田県黒沢駅周辺",
+    "address": "秋田県由利本荘市黒沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.3210139,
     "lng": 140.1021116,
     "transfers": [],
-    "address": "秋田県曲沢駅周辺",
+    "address": "秋田県由利本荘市前郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -175,7 +175,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.3126086,
     "lng": 140.1128962,
     "transfers": [],
-    "address": "秋田県前郷駅周辺",
+    "address": "秋田県由利本荘市前郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -202,7 +202,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.2959548,
     "lng": 140.1109976,
     "transfers": [],
-    "address": "秋田県久保田駅周辺",
+    "address": "秋田県由利本荘市久保田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -229,7 +229,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.2782634,
     "lng": 140.1164685,
     "transfers": [],
-    "address": "秋田県西滝沢駅周辺",
+    "address": "秋田県由利本荘市山本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -256,7 +256,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.2685056,
     "lng": 140.1149426,
     "transfers": [],
-    "address": "秋田県吉沢駅周辺",
+    "address": "秋田県由利本荘市吉沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -283,7 +283,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.2491367,
     "lng": 140.1202274,
     "transfers": [],
-    "address": "秋田県川辺駅周辺",
+    "address": "秋田県由利本荘市矢島町川辺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -310,7 +310,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "lat": 39.23044,
     "lng": 140.1388737,
     "transfers": [],
-    "address": "秋田県矢島駅周辺",
+    "address": "秋田県由利本荘市矢島町七日町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

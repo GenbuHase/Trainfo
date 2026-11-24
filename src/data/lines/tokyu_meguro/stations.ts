@@ -17,7 +17,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
       "東京メトロ南北線",
       "都営地下鉄三田線"
     ],
-    "address": "東京都目黒駅",
+    "address": "東京都品川区上大崎二丁目16-9",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -46,7 +46,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "lat": 35.6253605,
     "lng": 139.7130396,
     "transfers": [],
-    "address": "東京都不動前駅",
+    "address": "東京都品川区西五反田五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "lat": 35.6208323,
     "lng": 139.7050097,
     "transfers": [],
-    "address": "東京都武蔵小山駅",
+    "address": "東京都品川区小山三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -101,7 +101,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "lat": 35.6157565,
     "lng": 139.6989394,
     "transfers": [],
-    "address": "東京都西小山駅",
+    "address": "東京都品川区小山六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -128,7 +128,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "lat": 35.6104491,
     "lng": 139.6944072,
     "transfers": [],
-    "address": "東京都洗足駅",
+    "address": "東京都目黒区洗足二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -157,7 +157,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "東京都大岡山駅",
+    "address": "東京都大田区北千束一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -186,7 +186,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "lat": 35.6040813,
     "lng": 139.672841,
     "transfers": [],
-    "address": "東京都奥沢駅",
+    "address": "東京都世田谷区奥沢二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -215,7 +215,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "transfers": [
       "東急東横線"
     ],
-    "address": "東京都田園調布駅",
+    "address": "東京都大田区田園調布三丁目25-18",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -247,7 +247,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
       "東急東横線",
       "東急多摩川線"
     ],
-    "address": "東京都多摩川駅",
+    "address": "東京都大田区田園調布一丁目53-8",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -278,7 +278,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "transfers": [
       "東急東横線"
     ],
-    "address": "神奈川県新丸子駅",
+    "address": "神奈川県川崎市中原区新丸子町766",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -313,7 +313,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
       "ＪＲ南武線",
       "東急東横線"
     ],
-    "address": "神奈川県武蔵小杉駅",
+    "address": "神奈川県川崎市中原区小杉町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -344,7 +344,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
     "transfers": [
       "東急東横線"
     ],
-    "address": "神奈川県元住吉駅",
+    "address": "神奈川県川崎市中原区木月三丁目2-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -376,7 +376,7 @@ export const TOKYU_MEGURO_STATIONS: Station[] = [
       "東急新横浜線",
       "横浜市営地下鉄グリーンライン"
     ],
-    "address": "神奈川県日吉駅",
+    "address": "神奈川県横浜市港北区日吉二丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,

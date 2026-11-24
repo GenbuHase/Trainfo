@@ -12,8 +12,7 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "lat": 36.7256575,
     "lng": 139.6926346,
     "transfers": [
-      "東武日光線",
-      "東武鬼怒川線"
+      "東武日光線"
     ],
     "address": "栃木県日光市今市1110",
     "facilities": {
@@ -21,11 +20,10 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp",
       "sl_taiju"
     ],
@@ -45,16 +43,14 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Daiyamuko",
     "lat": 36.7324252,
     "lng": 139.6919758,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市今市1291",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -75,16 +71,14 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Okuwa",
     "lat": 36.7607054,
     "lng": 139.713466,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市大桑町468",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -105,16 +99,14 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Shin-Takatoku",
     "lat": 36.7799293,
     "lng": 139.7104823,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市高徳384",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -136,16 +128,14 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Kosagoe",
     "lat": 36.8024341,
     "lng": 139.7064642,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市鬼怒川温泉大原450",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -166,20 +156,17 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Tobu World Square",
     "lat": 36.8084293,
     "lng": 139.709135,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市鬼怒川温泉大原209-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp",
       "sl_taiju"
     ],
@@ -199,22 +186,21 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Kinugawa-Onsen",
     "lat": 36.8226312,
     "lng": 139.716559,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市鬼怒川温泉大原1390",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
       "rapid",
       "limited_exp",
-      "sl_taiju"
+      "sl_taiju",
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -232,21 +218,20 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "nameEn": "Kinugawa-Koen",
     "lat": 36.8409495,
     "lng": 139.722859,
-    "transfers": [
-      "東武鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市藤原19",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -265,21 +250,21 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "lat": 36.8524603,
     "lng": 139.7329134,
     "transfers": [
-      "東武鬼怒川線",
       "野岩鉄道会津鬼怒川線"
     ],
     "address": "栃木県日光市藤原497",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {

@@ -14,14 +14,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "JR石巻線",
       "JR気仙沼線"
     ],
-    "address": "宮城県前谷地駅周辺",
+    "address": "宮城県石巻市前谷地",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {
@@ -42,17 +41,15 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6120994,
     "lng": 141.3063889,
     "transfers": [
-      "JR気仙沼線",
-      "JR気仙沼線BRT"
+      "JR気仙沼線"
     ],
-    "address": "宮城県柳津駅周辺",
+    "address": "宮城県登米市津山町柳津",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {
@@ -73,14 +70,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6308794,
     "lng": 141.3538057,
     "transfers": [],
-    "address": "宮城県陸前横山駅周辺",
+    "address": "宮城県登米市津山町横山",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -101,14 +97,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6478168,
     "lng": 141.4333624,
     "transfers": [],
-    "address": "宮城県陸前戸倉駅周辺",
+    "address": "宮城県南三陸町戸倉",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -129,7 +124,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6796702,
     "lng": 141.4469488,
     "transfers": [],
-    "address": "宮城県志津川駅周辺",
+    "address": "宮城県南三陸町志津川",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -157,14 +152,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6791591,
     "lng": 141.4628131,
     "transfers": [],
-    "address": "宮城県南三陸町役場・病院前BRT停留所周辺",
+    "address": "宮城県南三陸町志津川",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {
@@ -185,14 +179,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6839331,
     "lng": 141.4503574,
     "transfers": [],
-    "address": "宮城県志津川中央団地BRT停留所周辺",
+    "address": "宮城県南三陸町志津川",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -213,7 +206,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6918776,
     "lng": 141.4895794,
     "transfers": [],
-    "address": "宮城県清水浜駅周辺",
+    "address": "宮城県南三陸町志津川",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -241,7 +234,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.7181545,
     "lng": 141.5196223,
     "transfers": [],
-    "address": "宮城県歌津駅周辺",
+    "address": "宮城県南三陸町歌津",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -269,7 +262,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.7392077,
     "lng": 141.5310226,
     "transfers": [],
-    "address": "宮城県陸前港BRT停留所周辺",
+    "address": "宮城県南三陸町歌津",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -297,7 +290,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.7536353,
     "lng": 141.5246684,
     "transfers": [],
-    "address": "宮城県蔵内BRT停留所周辺",
+    "address": "宮城県気仙沼市本吉町歌生",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -325,7 +318,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.7667063,
     "lng": 141.5093393,
     "transfers": [],
-    "address": "宮城県陸前小泉駅周辺",
+    "address": "宮城県気仙沼市本吉町下宿",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -353,14 +346,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.7864517,
     "lng": 141.502642,
     "transfers": [],
-    "address": "宮城県本吉駅周辺",
+    "address": "宮城県気仙沼市本吉町津谷松尾",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {
@@ -381,14 +373,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.7991009,
     "lng": 141.5374693,
     "transfers": [],
-    "address": "宮城県小金沢BRT停留所周辺",
+    "address": "宮城県気仙沼市本吉町谷地",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -409,14 +400,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8147046,
     "lng": 141.5623865,
     "transfers": [],
-    "address": "宮城県大谷海岸BRT停留所周辺",
+    "address": "宮城県気仙沼市本吉町三島",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -437,14 +427,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8191647,
     "lng": 141.5738137,
     "transfers": [],
-    "address": "宮城県大谷まちBRT停留所周辺",
+    "address": "宮城県気仙沼市本吉町野々下",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -465,14 +454,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8375413,
     "lng": 141.580537,
     "transfers": [],
-    "address": "宮城県陸前階上駅周辺",
+    "address": "宮城県気仙沼市長磯原",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -493,14 +481,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8534343,
     "lng": 141.581406,
     "transfers": [],
-    "address": "宮城県最知BRT停留所周辺",
+    "address": "宮城県気仙沼市最知川原",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -521,14 +508,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8620471,
     "lng": 141.5840256,
     "transfers": [],
-    "address": "宮城県岩月BRT停留所周辺",
+    "address": "宮城県気仙沼市岩月台ノ沢",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -549,14 +535,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8738701,
     "lng": 141.583612,
     "transfers": [],
-    "address": "宮城県松岩駅周辺",
+    "address": "宮城県気仙沼市松崎片浜",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -577,14 +562,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8851399,
     "lng": 141.5825217,
     "transfers": [],
-    "address": "宮城県赤岩港BRT停留所周辺",
+    "address": "宮城県気仙沼市赤岩港",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -605,14 +589,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.8952748,
     "lng": 141.5760589,
     "transfers": [],
-    "address": "宮城県南気仙沼駅周辺",
+    "address": "宮城県気仙沼市仲町一丁目",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -633,14 +616,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.898451,
     "lng": 141.5626787,
     "transfers": [],
-    "address": "宮城県不動の沢駅周辺",
+    "address": "宮城県気仙沼市四反田",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -661,14 +643,13 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.9046677,
     "lng": 141.5491111,
     "transfers": [],
-    "address": "宮城県東新城BRT停留所周辺",
+    "address": "宮城県気仙沼市東新城二丁目",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -690,17 +671,15 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lng": 141.5591952,
     "transfers": [
       "JR大船渡線",
-      "JR大船渡線BRT",
-      "JR気仙沼線BRT"
+      "JR大船渡線BRT"
     ],
-    "address": "宮城県気仙沼駅周辺",
+    "address": "宮城県気仙沼市古町一丁目",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {
@@ -727,8 +706,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {

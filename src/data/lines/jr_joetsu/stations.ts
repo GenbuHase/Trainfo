@@ -12,13 +12,12 @@ export const JOETSU_STATIONS: Station[] = [
     "lng": 139.0126097,
     "transfers": [
       "JR高崎線",
-      "JR上越線",
-      "JR信越本線",
+      "JR信越本線（高崎～横川）",
       "JR吾妻線",
       "JR両毛線",
       "JR八高線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "上信電鉄線"
     ],
     "address": "群馬県高崎市八島町",
@@ -28,7 +27,6 @@ export const JOETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -50,7 +48,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.3460252,
     "lng": 139.0170636,
     "transfers": [
-      "JR上越線",
       "JR両毛線",
       "JR吾妻線"
     ],
@@ -67,7 +64,7 @@ export const JOETSU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -81,7 +78,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.3570844,
     "lng": 139.0230202,
     "transfers": [
-      "JR上越線",
       "JR両毛線",
       "JR吾妻線"
     ],
@@ -95,10 +91,10 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -112,7 +108,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.3788486,
     "lng": 139.0471407,
     "transfers": [
-      "JR上越線",
       "JR両毛線",
       "JR吾妻線"
     ],
@@ -123,7 +118,6 @@ export const JOETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -145,7 +139,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.4159208,
     "lng": 139.0321125,
     "transfers": [
-      "JR上越線",
       "JR吾妻線"
     ],
     "address": "群馬県前橋市総社町植野",
@@ -160,8 +153,8 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -175,7 +168,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.4636616,
     "lng": 139.0192174,
     "transfers": [
-      "JR上越線",
       "JR吾妻線"
     ],
     "address": "群馬県渋川市八木原",
@@ -190,8 +182,8 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -205,7 +197,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.4906867,
     "lng": 139.0085523,
     "transfers": [
-      "JR上越線",
       "JR吾妻線"
     ],
     "address": "群馬県渋川市渋川",
@@ -215,7 +206,6 @@ export const JOETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -223,7 +213,7 @@ export const JOETSU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -236,9 +226,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Shikishima",
     "lat": 36.5383023,
     "lng": 139.0338283,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県渋川市赤城町敷島",
     "platforms": {
       "inbound": "上りホーム",
@@ -250,10 +238,10 @@ export const JOETSU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -265,9 +253,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Tsukuda",
     "lat": 36.5611315,
     "lng": 139.0428322,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県渋川市赤城町津久田",
     "platforms": {
       "inbound": "上りホーム",
@@ -278,11 +264,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -294,9 +280,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Iwamoto",
     "lat": 36.6030256,
     "lng": 139.0471049,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県沼田市岩本町",
     "platforms": {
       "inbound": "上りホーム",
@@ -309,9 +293,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -323,18 +307,14 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Numata",
     "lat": 36.6424116,
     "lng": 139.035678,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県沼田市清水町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -354,9 +334,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Gokan",
     "lat": 36.6792548,
     "lng": 139.0004095,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県利根郡みなかみ町後閑",
     "platforms": {
       "inbound": "上りホーム",
@@ -369,9 +347,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -383,9 +361,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Kamimoku",
     "lat": 36.7354657,
     "lng": 138.9845777,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県利根郡みなかみ町上牧",
     "platforms": {
       "inbound": "上りホーム",
@@ -397,9 +373,9 @@ export const JOETSU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -412,9 +388,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Minakami",
     "lat": 36.7787252,
     "lng": 138.9689588,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県利根郡みなかみ町鹿野沢",
     "platforms": {
       "inbound": "上りホーム",
@@ -422,14 +396,13 @@ export const JOETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -444,27 +417,34 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.8025972,
     "lng": 138.9862757,
     "platformCoordinates": {
-      "inbound": { "lat": 36.8025972, "lng": 138.9862757, "name": "上り" },
-      "outbound": { "lat": 36.8030084, "lng": 138.9856167, "name": "下り" }
+      "inbound": {
+        "lat": 36.8025972,
+        "lng": 138.9862757,
+        "name": "上り"
+      },
+      "outbound": {
+        "lat": 36.8030084,
+        "lng": 138.9856167,
+        "name": "下り"
+      }
     },
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県利根郡みなかみ町湯檜曽",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -477,27 +457,34 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.831314,
     "lng": 138.967419,
     "platformCoordinates": {
-      "inbound": { "lat": 36.831314, "lng": 138.967419, "name": "上り" },
-      "outbound": { "lat": 36.829534, "lng": 138.962617, "name": "下り" }
+      "inbound": {
+        "lat": 36.831314,
+        "lng": 138.967419,
+        "name": "上り"
+      },
+      "outbound": {
+        "lat": 36.829534,
+        "lng": 138.962617,
+        "name": "下り"
+      }
     },
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "群馬県利根郡みなかみ町湯檜曽",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -509,9 +496,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Tsuchitaru",
     "lat": 36.8747483,
     "lng": 138.8622042,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼郡湯沢町大字土樽",
     "platforms": {
       "inbound": "上りホーム",
@@ -522,11 +507,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -538,9 +523,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Echigo-Nakazato",
     "lat": 36.909711,
     "lng": 138.8484487,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼郡湯沢町大字土樽",
     "platforms": {
       "inbound": "上りホーム",
@@ -551,11 +534,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -567,9 +550,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Iwappara-Skiing-Ground",
     "lat": 36.9242628,
     "lng": 138.8397525,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼郡湯沢町大字土樽",
     "platforms": {
       "inbound": "上りホーム",
@@ -580,11 +561,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -597,8 +578,7 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.9358263,
     "lng": 138.8103482,
     "transfers": [
-      "JR上越線",
-      "上越新幹線",
+      "JR上越新幹線",
       "北越急行ほくほく線"
     ],
     "address": "新潟県南魚沼郡湯沢町大字湯沢",
@@ -629,9 +609,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Ishiuchi",
     "lat": 36.9893095,
     "lng": 138.8040912,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼市上薬師堂",
     "platforms": {
       "inbound": "上りホーム",
@@ -642,11 +620,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -658,9 +636,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Osawa",
     "lat": 37.0213756,
     "lng": 138.8213997,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼市大沢",
     "platforms": {
       "inbound": "上りホーム",
@@ -671,10 +647,10 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -687,9 +663,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Joetsu-Kokusai-Skijo-mae",
     "lat": 37.0288622,
     "lng": 138.8284212,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼市樺野沢",
     "platforms": {
       "inbound": "上りホーム",
@@ -700,11 +674,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -716,9 +690,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Shiozawa",
     "lat": 37.041563,
     "lng": 138.8484348,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼市塩沢",
     "platforms": {
       "inbound": "上りホーム",
@@ -731,9 +703,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -746,7 +718,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 37.0670998,
     "lng": 138.8759378,
     "transfers": [
-      "JR上越線",
       "北越急行ほくほく線"
     ],
     "address": "新潟県南魚沼市六日町",
@@ -755,14 +726,13 @@ export const JOETSU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -776,9 +746,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Itsukamachi",
     "lat": 37.1195584,
     "lng": 138.9080616,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼市五日町",
     "platforms": {
       "inbound": "上りホーム",
@@ -789,11 +757,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -806,8 +774,7 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 37.1678091,
     "lng": 138.9228616,
     "transfers": [
-      "JR上越線",
-      "上越新幹線"
+      "JR上越新幹線"
     ],
     "address": "新潟県南魚沼市浦佐",
     "platforms": {
@@ -836,9 +803,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Yairo",
     "lat": 37.191982,
     "lng": 138.9351497,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県南魚沼市浦佐",
     "platforms": {
       "inbound": "上りホーム",
@@ -849,11 +814,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -866,7 +831,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 37.2335257,
     "lng": 138.9534583,
     "transfers": [
-      "JR上越線",
       "JR只見線"
     ],
     "address": "新潟県魚沼市四日町",
@@ -882,7 +846,7 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -896,9 +860,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Echigo-Horinouchi",
     "lat": 37.2390504,
     "lng": 138.9278948,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県魚沼市堀之内",
     "platforms": {
       "inbound": "上りホーム",
@@ -909,11 +871,11 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -925,9 +887,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Kita-Horinouchi",
     "lat": 37.2557054,
     "lng": 138.8964258,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県魚沼市下島",
     "platforms": {
       "inbound": "上りホーム",
@@ -940,9 +900,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -955,7 +915,6 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 37.2729129,
     "lng": 138.8619611,
     "transfers": [
-      "JR上越線",
       "JR飯山線"
     ],
     "address": "新潟県長岡市川口牛ケ島",
@@ -969,9 +928,9 @@ export const JOETSU_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -985,9 +944,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Ojiya",
     "lat": 37.3098255,
     "lng": 138.8133463,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県小千谷市東栄一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -1001,7 +958,7 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -1015,9 +972,7 @@ export const JOETSU_STATIONS: Station[] = [
     "nameEn": "Echigo-Takiya",
     "lat": 37.3691078,
     "lng": 138.8350129,
-    "transfers": [
-      "JR上越線"
-    ],
+    "transfers": [],
     "address": "新潟県長岡市滝谷町",
     "platforms": {
       "inbound": "上りホーム",
@@ -1030,9 +985,9 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -1045,8 +1000,7 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 37.4228966,
     "lng": 138.8403332,
     "transfers": [
-      "JR上越線",
-      "JR信越本線"
+      "JR信越本線（直江津～新潟）"
     ],
     "address": "新潟県長岡市宮内三丁目",
     "platforms": {
@@ -1061,8 +1015,8 @@ export const JOETSU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -1076,8 +1030,8 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 37.447787,
     "lng": 138.853927,
     "transfers": [
-      "上越新幹線",
-      "JR信越本線"
+      "JR上越新幹線",
+      "JR信越本線（直江津～新潟）"
     ],
     "address": "新潟県長岡市城内町二丁目",
     "platforms": {

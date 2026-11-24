@@ -16,7 +16,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "京成金町線",
       "北総鉄道北総線"
     ],
-    "address": "東京都京成高砂駅",
+    "address": "東京都葛飾区高砂五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -49,7 +49,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "ＪＲ武蔵野線",
       "北総鉄道北総線"
     ],
-    "address": "千葉県東松戸駅",
+    "address": "千葉県松戸市東松戸一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -83,7 +83,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "京成松戸線",
       "北総鉄道北総線"
     ],
-    "address": "千葉県新鎌ケ谷駅",
+    "address": "千葉県鎌ケ谷市新鎌ケ谷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -116,7 +116,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "transfers": [
       "北総鉄道北総線"
     ],
-    "address": "千葉県千葉ニュータウン中央駅",
+    "address": "千葉県印西市中央南一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -148,7 +148,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "transfers": [
       "北総鉄道北総線"
     ],
-    "address": "千葉県印旛日本医大駅",
+    "address": "千葉県印西市若萩一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -178,7 +178,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
     "lat": 35.7995626,
     "lng": 140.2906585,
     "transfers": [],
-    "address": "千葉県成田湯川駅",
+    "address": "千葉県成田市松崎",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -210,7 +210,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "ＪＲ成田線",
       "京成本線"
     ],
-    "address": "千葉県空港第２ビル駅",
+    "address": "千葉県成田市古込",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -244,7 +244,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "ＪＲ成田線",
       "京成本線"
     ],
-    "address": "千葉県成田空港駅",
+    "address": "千葉県成田市天浪",
     "facilities": {
       "elevator": true,
       "restroom": true,

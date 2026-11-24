@@ -11,18 +11,16 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.8299011,
     "lng": 140.7342249,
     "transfers": [
-      "JR奥羽本線",
+      "JR奥羽本線（秋田～青森）",
       "青い森鉄道線"
     ],
-    "address": "青森県青森駅周辺",
+    "address": "青森県青森市柳川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -43,15 +41,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.857101,
     "lng": 140.6901901,
     "transfers": [],
-    "address": "青森県油川駅周辺",
+    "address": "青森県青森市大字羽白",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -72,15 +68,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.8869529,
     "lng": 140.6744297,
     "transfers": [],
-    "address": "青森県津軽宮田駅周辺",
+    "address": "青森県青森市大字奥内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -101,15 +95,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.9031582,
     "lng": 140.6722426,
     "transfers": [],
-    "address": "青森県奥内駅周辺",
+    "address": "青森県青森市大字清水",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -130,15 +122,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.916939,
     "lng": 140.665996,
     "transfers": [],
-    "address": "青森県左堰駅周辺",
+    "address": "青森県青森市大字左堰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -159,15 +149,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.931769,
     "lng": 140.662389,
     "transfers": [],
-    "address": "青森県後潟駅周辺",
+    "address": "青森県青森市大字六枚橋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -188,15 +176,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.9494006,
     "lng": 140.656176,
     "transfers": [],
-    "address": "青森県中沢駅周辺",
+    "address": "青森県蓬田村大字中沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -217,15 +203,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.9696192,
     "lng": 140.6546303,
     "transfers": [],
-    "address": "青森県蓬田駅周辺",
+    "address": "青森県蓬田村大字阿弥陀川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -246,15 +230,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.9881647,
     "lng": 140.652257,
     "transfers": [],
-    "address": "青森県郷沢駅周辺",
+    "address": "青森県蓬田村大字郷沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -275,15 +257,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.0081542,
     "lng": 140.6482762,
     "transfers": [],
-    "address": "青森県瀬辺地駅周辺",
+    "address": "青森県蓬田村大字瀬辺地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -304,15 +284,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.0383689,
     "lng": 140.6425216,
     "transfers": [],
-    "address": "青森県蟹田駅周辺",
+    "address": "青森県外ヶ浜町字上蟹田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -333,14 +311,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.0514769,
     "lng": 140.5971212,
     "transfers": [],
-    "address": "青森県中小国駅周辺",
+    "address": "青森県外ヶ浜町字蟹田小国南田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -362,14 +339,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.0657912,
     "lng": 140.5594227,
     "transfers": [],
-    "address": "青森県大平駅周辺",
+    "address": "青森県外ヶ浜町字蟹田大平山元",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -393,14 +369,12 @@ export const TSUGARU_STATIONS: Station[] = [
     "transfers": [
       "JR北海道新幹線（奥津軽いまべつ接続）"
     ],
-    "address": "青森県津軽二股駅周辺",
+    "address": "青森県今別町大字大川平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,
@@ -422,14 +396,12 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.1631519,
     "lng": 140.507479,
     "transfers": [],
-    "address": "青森県大川平駅周辺",
+    "address": "青森県今別町大字大川平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -451,14 +423,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.1796735,
     "lng": 140.4905047,
     "transfers": [],
-    "address": "青森県今別駅周辺",
+    "address": "青森県今別町大字今別",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,
@@ -480,14 +451,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.1806243,
     "lng": 140.4716366,
     "transfers": [],
-    "address": "青森県津軽浜名駅周辺",
+    "address": "青森県今別町大字今別",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -509,14 +479,13 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 41.1854265,
     "lng": 140.4444712,
     "transfers": [],
-    "address": "青森県三厩駅周辺",
+    "address": "青森県外ヶ浜町字三厩東町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,

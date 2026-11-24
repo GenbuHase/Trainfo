@@ -15,7 +15,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
       "ＪＲ常磐線快速",
       "ＪＲ常磐線各駅停車"
     ],
-    "address": "茨城県取手駅",
+    "address": "茨城県取手市中央町1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9091184,
     "lng": 140.0588947,
     "transfers": [],
-    "address": "茨城県西取手駅",
+    "address": "茨城県取手市本郷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9119831,
     "lng": 140.054178,
     "transfers": [],
-    "address": "茨城県寺原駅",
+    "address": "茨城県取手市駒場一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -97,7 +97,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9179525,
     "lng": 140.0414405,
     "transfers": [],
-    "address": "茨城県新取手駅",
+    "address": "茨城県取手市新取手三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9211166,
     "lng": 140.0346906,
     "transfers": [],
-    "address": "茨城県ゆめみ野駅",
+    "address": "茨城県取手市野々井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9263576,
     "lng": 140.0221879,
     "transfers": [],
-    "address": "茨城県稲戸井駅",
+    "address": "茨城県取手市米ノ井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.929599,
     "lng": 140.0138016,
     "transfers": [],
-    "address": "茨城県戸頭駅",
+    "address": "茨城県取手市上高井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -205,7 +205,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9345029,
     "lng": 140.0018383,
     "transfers": [],
-    "address": "茨城県南守谷駅",
+    "address": "茨城県守谷市本町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -232,9 +232,9 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9512277,
     "lng": 139.9919614,
     "transfers": [
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
-    "address": "茨城県守谷駅",
+    "address": "茨城県守谷市中央四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -262,7 +262,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9665127,
     "lng": 139.9857042,
     "transfers": [],
-    "address": "茨城県新守谷駅",
+    "address": "茨城県守谷市立沢",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -288,7 +288,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9816582,
     "lng": 139.9832517,
     "transfers": [],
-    "address": "茨城県小絹駅",
+    "address": "茨城県つくばみらい市小絹",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -314,7 +314,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.0182184,
     "lng": 139.9919616,
     "transfers": [],
-    "address": "茨城県水海道駅",
+    "address": "茨城県常総市水海道宝町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -341,7 +341,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.0324855,
     "lng": 139.9928377,
     "transfers": [],
-    "address": "茨城県北水海道駅",
+    "address": "茨城県常総市相野谷町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -367,7 +367,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.0476505,
     "lng": 139.990656,
     "transfers": [],
-    "address": "茨城県中妻駅",
+    "address": "茨城県常総市中妻町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -393,7 +393,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.0737697,
     "lng": 139.9829988,
     "transfers": [],
-    "address": "茨城県三妻駅",
+    "address": "茨城県常総市三坂町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -419,7 +419,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.1026624,
     "lng": 139.9739266,
     "transfers": [],
-    "address": "茨城県南石下駅",
+    "address": "茨城県常総市大房",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -445,7 +445,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.1175387,
     "lng": 139.9741736,
     "transfers": [],
-    "address": "茨城県石下駅",
+    "address": "茨城県常総市新石下",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -498,7 +498,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.1529174,
     "lng": 139.9705897,
     "transfers": [],
-    "address": "茨城県宗道駅",
+    "address": "茨城県下妻市宗道",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -524,7 +524,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.1818195,
     "lng": 139.964658,
     "transfers": [],
-    "address": "茨城県下妻駅",
+    "address": "茨城県下妻市下妻乙",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -551,7 +551,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.2028492,
     "lng": 139.9701043,
     "transfers": [],
-    "address": "茨城県大宝駅",
+    "address": "茨城県下妻市福田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -577,7 +577,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.2228519,
     "lng": 139.9762438,
     "transfers": [],
-    "address": "茨城県騰波ノ江駅",
+    "address": "茨城県下妻市若柳",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -603,7 +603,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.2468198,
     "lng": 139.9750265,
     "transfers": [],
-    "address": "茨城県黒子駅",
+    "address": "茨城県筑西市辻",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -629,7 +629,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 36.2788878,
     "lng": 139.9594815,
     "transfers": [],
-    "address": "茨城県大田郷駅",
+    "address": "茨城県筑西市玉戸",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -658,7 +658,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
       "ＪＲ水戸線",
       "真岡鐵道真岡線"
     ],
-    "address": "茨城県下館駅",
+    "address": "茨城県筑西市乙",
     "facilities": {
       "elevator": true,
       "restroom": true,

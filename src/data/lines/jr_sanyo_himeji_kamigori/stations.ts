@@ -12,7 +12,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.82698,
     "lng": 134.68865,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市豆腐町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -27,7 +27,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -41,7 +40,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.8233,
     "lng": 134.67137,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市西延末",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -56,8 +55,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -71,7 +68,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.81393,
     "lng": 134.646,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市飾磨区付城",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -86,7 +83,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -100,7 +96,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.81019,
     "lng": 134.61566,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市広畑区則直",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -115,7 +111,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -129,7 +124,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.81396,
     "lng": 134.58598,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市網干区和久",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -144,7 +139,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -158,7 +152,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.82555,
     "lng": 134.52265,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県たつの市揖保川町黍田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -172,9 +166,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -187,7 +179,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.81797,
     "lng": 134.47393,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県相生市本郷町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -202,7 +194,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -216,7 +207,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.82944,
     "lng": 134.39734,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県赤穂市有年横尾",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -230,9 +221,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -245,7 +234,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     "lat": 34.86648,
     "lng": 134.35235,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県上郡町竹万",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -260,7 +249,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   }

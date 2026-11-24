@@ -15,7 +15,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
       "東急東横線",
       "東急目黒線"
     ],
-    "address": "東京都多摩川駅",
+    "address": "東京都大田区田園調布一丁目53-8",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.582313,
     "lng": 139.6735623,
     "transfers": [],
-    "address": "東京都沼部駅",
+    "address": "東京都大田区田園調布本町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.5751939,
     "lng": 139.6808707,
     "transfers": [],
-    "address": "東京都鵜の木駅",
+    "address": "東京都大田区鵜の木二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -97,7 +97,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.5712395,
     "lng": 139.6859229,
     "transfers": [],
-    "address": "東京都下丸子駅",
+    "address": "東京都大田区下丸子三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.5676268,
     "lng": 139.6928431,
     "transfers": [],
-    "address": "東京都武蔵新田駅",
+    "address": "東京都大田区矢口一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.5623815,
     "lng": 139.7007899,
     "transfers": [],
-    "address": "東京都矢口渡駅",
+    "address": "東京都大田区多摩川一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -181,7 +181,7 @@ export const TOKYU_TAMAGAWA_STATIONS: Station[] = [
       "ＪＲ京浜東北線",
       "東急池上線"
     ],
-    "address": "東京都蒲田駅",
+    "address": "東京都大田区西蒲田七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

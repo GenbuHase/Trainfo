@@ -11,19 +11,19 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.7014809,
     "lng": 141.136534,
     "transfers": [
-      "東北新幹線",
-      "JR東北本線",
+      "JR東北新幹線",
+      "JR東北本線（一ノ関～盛岡）",
       "JR山田線",
       "JR花輪線",
-      "いわて銀河鉄道線"
+      "IGRいわて銀河鉄道線"
     ],
-    "address": "",
+    "address": "岩手県盛岡市盛岡駅前通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -44,13 +44,13 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.6889532,
     "lng": 140.9759241,
     "transfers": [],
-    "address": "",
+    "address": "岩手県雫石町寺の下",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -71,13 +71,13 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.7004492,
     "lng": 140.7223114,
     "transfers": [],
-    "address": "",
+    "address": "秋田県仙北市田沢湖生保内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -100,13 +100,13 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "秋田内陸縦貫鉄道秋田内陸線"
     ],
-    "address": "",
+    "address": "秋田県仙北市角館町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -131,13 +131,13 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "JR奥羽本線（大曲～秋田）",
       "JR田沢湖線"
     ],
-    "address": "",
+    "address": "秋田県大仙市大曲通町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -163,13 +163,13 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "JR羽越本線",
       "JR男鹿線"
     ],
-    "address": "",
+    "address": "秋田県秋田市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {

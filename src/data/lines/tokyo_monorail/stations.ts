@@ -48,7 +48,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "transfers": [
       "東京臨海高速鉄道りんかい線"
     ],
-    "address": "東京都天王洲アイル駅",
+    "address": "東京都品川区東品川二丁目2-22",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -77,7 +77,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5955558,
     "lng": 139.7470962,
     "transfers": [],
-    "address": "東京都大井競馬場前駅",
+    "address": "東京都品川区勝島二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -105,7 +105,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5818956,
     "lng": 139.7490536,
     "transfers": [],
-    "address": "東京都流通センター駅",
+    "address": "東京都大田区平和島六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -133,7 +133,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5707622,
     "lng": 139.7499971,
     "transfers": [],
-    "address": "東京都昭和島駅",
+    "address": "東京都大田区昭和島二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -160,7 +160,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5555398,
     "lng": 139.7533828,
     "transfers": [],
-    "address": "東京都整備場駅",
+    "address": "東京都大田区羽田空港一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -189,7 +189,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "transfers": [
       "京急空港線"
     ],
-    "address": "東京都天空橋駅",
+    "address": "東京都大田区羽田空港一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -217,7 +217,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5441362,
     "lng": 139.7684677,
     "transfers": [],
-    "address": "東京都羽田空港第３ターミナル駅",
+    "address": "東京都大田区羽田空港二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -246,7 +246,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5426583,
     "lng": 139.7867181,
     "transfers": [],
-    "address": "東京都新整備場駅",
+    "address": "東京都大田区羽田空港三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -273,7 +273,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5492159,
     "lng": 139.7844598,
     "transfers": [],
-    "address": "東京都羽田空港第１ターミナル駅",
+    "address": "東京都大田区羽田空港三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -302,7 +302,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "lat": 35.5504731,
     "lng": 139.7884883,
     "transfers": [],
-    "address": "東京都羽田空港第２ターミナル駅",
+    "address": "東京都大田区羽田空港三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

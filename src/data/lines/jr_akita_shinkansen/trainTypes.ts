@@ -11,14 +11,4 @@ export const AKITA_SHINKANSEN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#dc143c",
     "borderColor": "#dc143c"
   },
-  "hayabusa": {
-    "key": "hayabusa",
-    "name": "はやぶさ",
-    "nameEn": "Hayabusa",
-    "shortName": "はやぶさ",
-    "color": "#009587",
-    "textColor": "#ffffff",
-    "bgColor": "#009587",
-    "borderColor": "#009587"
-  }
 };

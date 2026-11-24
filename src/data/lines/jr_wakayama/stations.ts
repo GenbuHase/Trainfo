@@ -11,7 +11,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.59744,
     "lng": 135.70445,
     "transfers": [],
-    "address": "",
+    "address": "奈良県王寺町王寺二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -25,8 +25,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -39,7 +38,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.57842,
     "lng": 135.70395,
     "transfers": [],
-    "address": "",
+    "address": "奈良県王寺町畠田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -53,8 +52,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -67,7 +65,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.56272,
     "lng": 135.70195,
     "transfers": [],
-    "address": "",
+    "address": "奈良県香芝市上中",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -81,8 +79,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -95,7 +92,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.54439,
     "lng": 135.70482,
     "transfers": [],
-    "address": "",
+    "address": "奈良県香芝市下田西一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -109,8 +106,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -123,7 +119,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.52768,
     "lng": 135.71831,
     "transfers": [],
-    "address": "",
+    "address": "奈良県香芝市五位堂五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -137,8 +133,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -151,7 +146,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.517,
     "lng": 135.74407,
     "transfers": [],
-    "address": "",
+    "address": "奈良県大和高田市高砂町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -165,8 +160,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -179,7 +173,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.48967,
     "lng": 135.73639,
     "transfers": [],
-    "address": "",
+    "address": "奈良県葛城市柿本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -193,8 +187,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -207,7 +200,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.4658,
     "lng": 135.73379,
     "transfers": [],
-    "address": "",
+    "address": "奈良県御所市大字東松本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -221,8 +214,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -235,7 +227,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.45843,
     "lng": 135.74785,
     "transfers": [],
-    "address": "",
+    "address": "奈良県御所市大字玉手",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -249,8 +241,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -263,7 +254,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.45292,
     "lng": 135.76252,
     "transfers": [],
-    "address": "",
+    "address": "奈良県御所市大字柏原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -277,8 +268,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -291,7 +281,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.42185,
     "lng": 135.75069,
     "transfers": [],
-    "address": "",
+    "address": "奈良県御所市大字古瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -305,8 +295,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -319,7 +308,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.38267,
     "lng": 135.71436,
     "transfers": [],
-    "address": "",
+    "address": "奈良県五條市住川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -333,8 +322,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -347,7 +335,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.35624,
     "lng": 135.69971,
     "transfers": [],
-    "address": "",
+    "address": "奈良県五條市須恵三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -375,7 +363,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.34634,
     "lng": 135.68479,
     "transfers": [],
-    "address": "",
+    "address": "奈良県五條市二見三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,7 +391,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.32807,
     "lng": 135.6562,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県橋本市隅田町芋生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -431,7 +419,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.32276,
     "lng": 135.63541,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県橋本市隅田町下兵庫",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -459,7 +447,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.31828,
     "lng": 135.61551,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県橋本市古佐田一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -487,7 +475,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.3132,
     "lng": 135.5844,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県橋本市神野々",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -515,7 +503,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.30756,
     "lng": 135.55739,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県橋本市高野口町名倉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -543,7 +531,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.30465,
     "lng": 135.53281,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県かつらぎ町大字中飯降",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -571,7 +559,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.29852,
     "lng": 135.51779,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県かつらぎ町大字丁ノ町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -599,7 +587,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.29872,
     "lng": 135.49427,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県かつらぎ町大字大谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -627,7 +615,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.29239,
     "lng": 135.48043,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県かつらぎ町大字笠田東",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -655,7 +643,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.28016,
     "lng": 135.45305,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県かつらぎ町大字高田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -683,7 +671,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.2732,
     "lng": 135.43437,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県紀の川市名手市場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -711,7 +699,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.27089,
     "lng": 135.40492,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県紀の川市粉河",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -739,7 +727,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.26834,
     "lng": 135.39219,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県紀の川市深田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -753,8 +741,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -767,7 +754,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.26511,
     "lng": 135.36337,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県紀の川市西大井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -795,7 +782,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.26203,
     "lng": 135.34063,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県紀の川市下井阪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -809,8 +796,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -823,7 +809,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.25539,
     "lng": 135.32142,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県岩出市高塚",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -851,7 +837,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.24835,
     "lng": 135.31182,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県岩出市船戸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -865,8 +851,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -879,7 +864,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.24641,
     "lng": 135.28783,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市新庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -893,8 +878,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -907,7 +891,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.24462,
     "lng": 135.26251,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市布施屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -921,8 +905,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -935,7 +918,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.24166,
     "lng": 135.24525,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市井ノ口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -949,8 +932,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -963,7 +945,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.24208,
     "lng": 135.22909,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市岩橋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -977,8 +959,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -991,7 +972,7 @@ export const JR_WAKAYAMA_STATIONS: Station[] = [
     "lat": 34.23334,
     "lng": 135.19123,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市友田町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

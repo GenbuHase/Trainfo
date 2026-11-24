@@ -11,19 +11,20 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.7544085,
     "lng": 140.4586226,
     "transfers": [
-      "東北新幹線",
-      "JR東北本線",
+      "JR東北新幹線",
+      "JR東北本線（福島～仙台）",
+      "JR東北本線（黒磯～福島）",
       "JR奥羽本線（福島～新庄）",
       "阿武隈急行線",
       "福島交通飯坂線"
     ],
-    "address": "",
+    "address": "福島県福島市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -47,13 +48,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "JR米坂線",
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県米沢市駅前一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -76,13 +77,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県高畠町大字山崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -106,13 +107,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "山形鉄道フラワー長井線",
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県南陽市郡山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -135,13 +136,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県上山市矢来一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -166,13 +167,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "JR左沢線",
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県山形市城南町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -195,13 +196,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県天童市本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -224,13 +225,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県東根市大字蟹沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -253,13 +254,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県村山市楯岡新町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -282,13 +283,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県大石田町大字大石田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -314,13 +315,13 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "JR陸羽西線",
       "JR陸羽東線"
     ],
-    "address": "",
+    "address": "山形県新庄市多門町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {

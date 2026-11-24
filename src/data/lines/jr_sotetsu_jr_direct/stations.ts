@@ -23,7 +23,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: false,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local'],
     platforms: {
       inbound: '2番線',
       outbound: '1番線',
@@ -55,7 +55,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: true,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local', 'rapid', 'limited_exp'],
     platforms: {
       inbound: '3番線',
       outbound: '4番線',
@@ -84,7 +84,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: false,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local', 'rapid'],
     platforms: {
       inbound: '1番線',
       outbound: '2番線',
@@ -114,7 +114,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: true,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local', 'rapid'],
     platforms: {
       inbound: '5〜8番線',
       outbound: '5〜8番線',
@@ -145,7 +145,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: false,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local', 'rapid'],
     platforms: {
       inbound: '3番線',
       outbound: '4番線',
@@ -172,7 +172,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       '東京メトロ半蔵門線',
       '東京メトロ副都心線',
     ],
-    address: '東京都渋谷区道玄坂一丁目1-1',
+    address: '東京都渋谷区渋谷二丁目21-13',
     facilities: {
       elevator: true,
       restroom: true,
@@ -180,7 +180,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: true,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local', 'rapid', 'limited_exp'],
     platforms: {
       inbound: '3・4番線',
       outbound: '3・4番線',
@@ -218,7 +218,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       waitingRoom: true,
       ticketOffice: true,
     },
-    stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limited_exp'],
+    stoppingTypes: ['local', 'rapid', 'limited_exp'],
     platforms: {
       inbound: '1〜4番線',
       outbound: '1〜4番線',

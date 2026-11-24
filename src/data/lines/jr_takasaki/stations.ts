@@ -17,9 +17,9 @@ export const TAKASAKI_STATIONS: Station[] = [
       "JR京浜東北線",
       "JR宇都宮線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
@@ -31,9 +31,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "rapid_urban",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -56,8 +54,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lat": 35.7469489,
     "lng": 139.7536899,
     "transfers": [
-      "JR宇都宮線",
-      "JR高崎線"
+      "JR宇都宮線"
     ],
     "address": "東京都北区昭和町一丁目",
     "platforms": {
@@ -88,7 +85,6 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lng": 139.7206948,
     "transfers": [
       "JR宇都宮線",
-      "JR高崎線",
       "JR埼京線",
       "JR湘南新宿ライン",
       "JR京浜東北線"
@@ -102,7 +98,6 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -110,7 +105,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -126,7 +121,6 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lng": 139.6571243,
     "transfers": [
       "JR宇都宮線",
-      "JR高崎線",
       "JR湘南新宿ライン",
       "JR京浜東北線"
     ],
@@ -139,7 +133,6 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -147,7 +140,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -163,7 +156,6 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lng": 139.6338292,
     "transfers": [
       "JR宇都宮線",
-      "JR高崎線",
       "JR京浜東北線"
     ],
     "address": "埼玉県さいたま市大宮区吉敷町四丁目",
@@ -179,7 +171,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -195,15 +187,14 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lng": 139.6242153,
     "transfers": [
       "JR宇都宮線",
-      "JR高崎線",
       "JR埼京線",
       "JR川越線",
       "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR武蔵野線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東武アーバンパークライン",
       "埼玉新都市交通ニューシャトル"
     ],
@@ -216,15 +207,15 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -237,23 +228,22 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Miyahara",
     "lat": 35.9402349,
     "lng": 139.6093632,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市北区宮原町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -266,9 +256,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Ageo",
     "lat": 35.9735077,
     "lng": 139.5882483,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県上尾市柏座一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -278,15 +266,15 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -299,23 +287,22 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Kita-Ageo",
     "lat": 35.9856025,
     "lng": 139.5772,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県上尾市原新町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -328,9 +315,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Okegawa",
     "lat": 35.9987529,
     "lng": 139.5639704,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県桶川市南一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -340,15 +325,15 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -361,23 +346,24 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Kitamoto",
     "lat": 36.0316164,
     "lng": 139.533985,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県北本市北本一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -390,9 +376,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Konosu",
     "lat": 36.0592264,
     "lng": 139.5096075,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県鴻巣市本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -402,15 +386,15 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -423,23 +407,22 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Kita-Konosu",
     "lat": 36.0856122,
     "lng": 139.476987,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県鴻巣市赤見台一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -452,23 +435,22 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Fukiage",
     "lat": 36.1032644,
     "lng": 139.4530178,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県鴻巣市吹上本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -481,23 +463,22 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Gyoda",
     "lat": 36.1123751,
     "lng": 139.4336743,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県行田市壱里山町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -511,9 +492,8 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lat": 36.1394555,
     "lng": 139.3902414,
     "transfers": [
-      "JR高崎線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "秩父鉄道秩父本線"
     ],
     "address": "埼玉県熊谷市筑波二丁目",
@@ -525,12 +505,12 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
@@ -546,9 +526,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Kagohara",
     "lat": 36.1745746,
     "lng": 139.3304502,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県熊谷市新堀",
     "platforms": {
       "inbound": "上りホーム",
@@ -558,14 +536,14 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -578,9 +556,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Fukaya",
     "lat": 36.1915765,
     "lng": 139.2811131,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県深谷市西島町三丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -590,8 +566,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -611,9 +587,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Okabe",
     "lat": 36.2057532,
     "lng": 139.2376628,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県深谷市岡",
     "platforms": {
       "inbound": "上りホーム",
@@ -623,14 +597,14 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -643,9 +617,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Honjo",
     "lat": 36.2361122,
     "lng": 139.1885785,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県本庄市銀座三丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -655,8 +627,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -676,9 +648,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Jimbohara",
     "lat": 36.2536123,
     "lng": 139.1492549,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県児玉郡上里町大字神保原町",
     "platforms": {
       "inbound": "上りホーム",
@@ -688,14 +658,14 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -708,9 +678,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     "nameEn": "Shim-Machi",
     "lat": 36.2731124,
     "lng": 139.1053512,
-    "transfers": [
-      "JR高崎線"
-    ],
+    "transfers": [],
     "address": "群馬県高崎市新町",
     "platforms": {
       "inbound": "上りホーム",
@@ -720,14 +688,15 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -741,7 +710,6 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lat": 36.3004357,
     "lng": 139.0492175,
     "transfers": [
-      "JR高崎線",
       "JR八高線"
     ],
     "address": "群馬県高崎市倉賀野町",
@@ -753,14 +721,14 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -774,14 +742,13 @@ export const TAKASAKI_STATIONS: Station[] = [
     "lat": 36.3223687,
     "lng": 139.0126097,
     "transfers": [
-      "JR高崎線",
       "JR上越線",
-      "JR信越本線",
+      "JR信越本線（高崎～横川）",
       "JR吾妻線",
       "JR両毛線",
       "JR八高線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "上信電鉄線"
     ],
     "address": "群馬県高崎市八島町",
@@ -793,8 +760,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {

@@ -14,12 +14,12 @@ export const SHIBAYAMA_STATIONS: Station[] = [
     "transfers": [
       "京成東成田線"
     ],
-    "address": "千葉県東成田駅",
+    "address": "千葉県成田市古込",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -42,12 +42,12 @@ export const SHIBAYAMA_STATIONS: Station[] = [
     "lat": 35.7537084,
     "lng": 140.4002315,
     "transfers": [],
-    "address": "千葉県芝山千代田駅",
+    "address": "千葉県成田市木の根",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

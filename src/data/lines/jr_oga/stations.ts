@@ -11,16 +11,15 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.8099388,
     "lng": 140.0578894,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（秋田～青森）"
     ],
-    "address": "秋田県追分駅周辺",
+    "address": "秋田県秋田市金足追分",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -41,14 +40,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.844411,
     "lng": 140.0244751,
     "transfers": [],
-    "address": "秋田県出戸浜駅周辺",
+    "address": "秋田県潟上市天王",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -69,14 +67,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.8689681,
     "lng": 140.0040946,
     "transfers": [],
-    "address": "秋田県上二田駅周辺",
+    "address": "秋田県潟上市天王",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -97,14 +94,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.8814272,
     "lng": 139.9871459,
     "transfers": [],
-    "address": "秋田県二田駅周辺",
+    "address": "秋田県潟上市天王",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -125,14 +121,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.8988205,
     "lng": 139.9636176,
     "transfers": [],
-    "address": "秋田県天王駅周辺",
+    "address": "秋田県潟上市天王",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -153,14 +148,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.9048425,
     "lng": 139.9469657,
     "transfers": [],
-    "address": "秋田県船越駅周辺",
+    "address": "秋田県男鹿市船越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -181,14 +175,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.9152272,
     "lng": 139.9028431,
     "transfers": [],
-    "address": "秋田県脇本駅周辺",
+    "address": "秋田県男鹿市脇本脇本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -209,14 +202,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.9048836,
     "lng": 139.8622639,
     "transfers": [],
-    "address": "秋田県羽立駅周辺",
+    "address": "秋田県男鹿市船川港比詰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -237,14 +229,13 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.8847498,
     "lng": 139.848687,
     "transfers": [],
-    "address": "秋田県男鹿駅周辺",
+    "address": "秋田県男鹿市船川港船川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {

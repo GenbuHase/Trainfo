@@ -15,7 +15,7 @@ export const SHINETSU_STATIONS: Station[] = [
       "えちごトキめき鉄道日本海ひすいライン",
       "北越急行ほくほく線"
     ],
-    "address": "新潟県直江津駅",
+    "address": "新潟県上越市東町1-1",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -44,13 +44,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.1834865,
     "lng": 138.2675381,
     "transfers": [],
-    "address": "新潟県黒井駅",
+    "address": "新潟県上越市頸城区西福島",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -73,13 +74,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "transfers": [
       "北越急行ほくほく線"
     ],
-    "address": "新潟県犀潟駅",
+    "address": "新潟県上越市大潟区犀潟600-1",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -100,13 +102,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.2228273,
     "lng": 138.3250084,
     "transfers": [],
-    "address": "新潟県土底浜駅",
+    "address": "新潟県上越市大潟区土底浜",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -133,7 +136,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -154,13 +158,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.2525746,
     "lng": 138.362006,
     "transfers": [],
-    "address": "新潟県上下浜駅",
+    "address": "新潟県上越市柿崎区上下浜",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -181,14 +186,15 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.2778382,
     "lng": 138.3860734,
     "transfers": [],
-    "address": "新潟県柿崎駅",
+    "address": "新潟県上越市柿崎区柿崎",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
       "local",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -209,7 +215,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.3170347,
     "lng": 138.4314806,
     "transfers": [],
-    "address": "新潟県米山駅",
+    "address": "新潟県柏崎市米山町",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -236,7 +242,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.335794,
     "lng": 138.467221,
     "transfers": [],
-    "address": "新潟県笠島駅",
+    "address": "新潟県柏崎市大字笠島",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -263,13 +269,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.346143,
     "lng": 138.486169,
     "transfers": [],
-    "address": "新潟県青海川駅",
+    "address": "新潟県柏崎市大字青海川",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -290,7 +297,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.3557485,
     "lng": 138.5167593,
     "transfers": [],
-    "address": "新潟県鯨波駅",
+    "address": "新潟県柏崎市鯨波二丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -319,7 +326,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "transfers": [
       "JR越後線"
     ],
-    "address": "新潟県柏崎駅",
+    "address": "新潟県柏崎市駅前一丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -348,7 +355,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.3570971,
     "lng": 138.5864588,
     "transfers": [],
-    "address": "新潟県茨目駅",
+    "address": "新潟県柏崎市茨目二丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -375,7 +382,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.341155,
     "lng": 138.612057,
     "transfers": [],
-    "address": "新潟県安田駅",
+    "address": "新潟県柏崎市大字安田",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -402,7 +409,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.3386688,
     "lng": 138.6372948,
     "transfers": [],
-    "address": "新潟県北条駅",
+    "address": "新潟県柏崎市大字北条",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -429,7 +436,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.357354,
     "lng": 138.661243,
     "transfers": [],
-    "address": "新潟県越後広田駅",
+    "address": "新潟県柏崎市大字旧広田",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -456,7 +463,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.3665408,
     "lng": 138.6839148,
     "transfers": [],
-    "address": "新潟県長鳥駅",
+    "address": "新潟県柏崎市大字西長鳥",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -483,7 +490,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.354974,
     "lng": 138.7296593,
     "transfers": [],
-    "address": "新潟県塚山駅",
+    "address": "新潟県長岡市西谷",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -510,7 +517,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.38629,
     "lng": 138.756372,
     "transfers": [],
-    "address": "新潟県越後岩塚駅",
+    "address": "新潟県長岡市飯塚",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -537,13 +544,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.3972487,
     "lng": 138.7838122,
     "transfers": [],
-    "address": "新潟県来迎寺駅",
+    "address": "新潟県長岡市来迎寺",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -564,7 +572,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.401935,
     "lng": 138.8240178,
     "transfers": [],
-    "address": "新潟県前川駅",
+    "address": "新潟県長岡市上前島三丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -600,8 +608,7 @@ export const SHINETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -622,10 +629,10 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.447787,
     "lng": 138.853927,
     "transfers": [
-      "上越新幹線",
+      "JR上越新幹線",
       "JR上越線"
     ],
-    "address": "新潟県長岡駅",
+    "address": "新潟県長岡市城内町二丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -654,7 +661,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.468768,
     "lng": 138.86247,
     "transfers": [],
-    "address": "新潟県北長岡駅",
+    "address": "新潟県長岡市城岡二丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -681,7 +688,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.5047526,
     "lng": 138.8812197,
     "transfers": [],
-    "address": "新潟県押切駅",
+    "address": "新潟県長岡市池之島",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -708,7 +715,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.540094,
     "lng": 138.904792,
     "transfers": [],
-    "address": "新潟県見附駅",
+    "address": "新潟県見附市本所二丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -737,7 +744,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.572975,
     "lng": 138.92848,
     "transfers": [],
-    "address": "新潟県帯織駅",
+    "address": "新潟県三条市帯織",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -764,7 +771,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.5940323,
     "lng": 138.9436914,
     "transfers": [],
-    "address": "新潟県東光寺駅",
+    "address": "新潟県三条市金子新田",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -791,13 +798,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.6211398,
     "lng": 138.960895,
     "transfers": [],
-    "address": "新潟県三条駅",
+    "address": "新潟県三条市南新保",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -820,7 +828,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "transfers": [
       "JR弥彦線"
     ],
-    "address": "新潟県東三条駅",
+    "address": "新潟県三条市東三条一丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -849,7 +857,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.639322,
     "lng": 139.014608,
     "transfers": [],
-    "address": "新潟県保内駅",
+    "address": "新潟県三条市上保内",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -876,7 +884,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.6586869,
     "lng": 139.0488533,
     "transfers": [],
-    "address": "新潟県加茂駅",
+    "address": "新潟県加茂市寿町",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -905,7 +913,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.6934505,
     "lng": 139.0606049,
     "transfers": [],
-    "address": "新潟県羽生田駅",
+    "address": "新潟県田上町大字羽生田",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -932,7 +940,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.719418,
     "lng": 139.0748184,
     "transfers": [],
-    "address": "新潟県田上駅",
+    "address": "新潟県田上町大字田上",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -959,13 +967,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.7491452,
     "lng": 139.0956439,
     "transfers": [],
-    "address": "新潟県矢代田駅",
+    "address": "新潟県新潟市秋葉区矢代田",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -986,7 +995,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.7728979,
     "lng": 139.1144269,
     "transfers": [],
-    "address": "新潟県古津駅",
+    "address": "新潟県新潟市秋葉区朝日",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -1016,7 +1025,7 @@ export const SHINETSU_STATIONS: Station[] = [
       "JR羽越本線",
       "JR磐越西線"
     ],
-    "address": "新潟県新津駅",
+    "address": "新潟県新潟市秋葉区新津",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -1045,7 +1054,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.8133093,
     "lng": 139.117155,
     "transfers": [],
-    "address": "新潟県さつき野駅",
+    "address": "新潟県新潟市秋葉区さつき野一丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -1072,7 +1081,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.833307,
     "lng": 139.111477,
     "transfers": [],
-    "address": "新潟県荻川駅",
+    "address": "新潟県新潟市秋葉区中野四丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
@@ -1099,13 +1108,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.877154,
     "lng": 139.108065,
     "transfers": [],
-    "address": "新潟県亀田駅",
+    "address": "新潟県新潟市江南区東船場一丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1126,13 +1136,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.8965401,
     "lng": 139.0952171,
     "transfers": [],
-    "address": "新潟県越後石山駅",
+    "address": "新潟県新潟市東区石山二丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1153,11 +1164,11 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.912323,
     "lng": 139.0612537,
     "transfers": [
-      "上越新幹線",
+      "JR上越新幹線",
       "JR白新線",
       "JR越後線"
     ],
-    "address": "新潟県新潟駅",
+    "address": "新潟県新潟市中央区東大通1-1",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"

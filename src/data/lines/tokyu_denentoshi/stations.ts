@@ -22,7 +22,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "東京メトロ半蔵門線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都渋谷駅",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -52,7 +52,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.650702,
     "lng": 139.6845793,
     "transfers": [],
-    "address": "東京都池尻大橋駅",
+    "address": "東京都世田谷区池尻三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -83,7 +83,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "東急世田谷線"
     ],
-    "address": "東京都三軒茶屋駅",
+    "address": "東京都世田谷区三軒茶屋一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -113,7 +113,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.6326543,
     "lng": 139.660078,
     "transfers": [],
-    "address": "東京都駒沢大学駅",
+    "address": "東京都世田谷区駒沢二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -171,7 +171,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.6266411,
     "lng": 139.6341822,
     "transfers": [],
-    "address": "東京都用賀駅",
+    "address": "東京都世田谷区用賀四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -202,7 +202,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "東京都二子玉川駅",
+    "address": "東京都世田谷区玉川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -232,7 +232,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5279171,
     "lng": 139.485176,
     "transfers": [],
-    "address": "東京都つくし野駅",
+    "address": "東京都町田市つくし野四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -261,7 +261,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5171536,
     "lng": 139.4818643,
     "transfers": [],
-    "address": "東京都すずかけ台駅",
+    "address": "東京都町田市南つくし野三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -321,7 +321,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "神奈川県二子新地駅",
+    "address": "神奈川県川崎市高津区諏訪一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -353,7 +353,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "神奈川県高津駅",
+    "address": "神奈川県川崎市高津区二子四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -385,7 +385,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "神奈川県溝の口駅",
+    "address": "神奈川県川崎市高津区溝口二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -415,7 +415,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5939787,
     "lng": 139.6060403,
     "transfers": [],
-    "address": "神奈川県梶が谷駅",
+    "address": "神奈川県川崎市高津区末長一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -444,7 +444,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5870284,
     "lng": 139.5906843,
     "transfers": [],
-    "address": "神奈川県宮崎台駅",
+    "address": "神奈川県川崎市宮前区宮崎二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -473,7 +473,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5849452,
     "lng": 139.5820188,
     "transfers": [],
-    "address": "神奈川県宮前平駅",
+    "address": "神奈川県川崎市宮前区宮前平一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -502,7 +502,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5796331,
     "lng": 139.573093,
     "transfers": [],
-    "address": "神奈川県鷺沼駅",
+    "address": "神奈川県川崎市宮前区鷺沼三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -531,7 +531,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5773747,
     "lng": 139.5584179,
     "transfers": [],
-    "address": "神奈川県たまプラーザ駅",
+    "address": "神奈川県横浜市青葉区美しが丘一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -562,7 +562,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "神奈川県あざみ野駅",
+    "address": "神奈川県横浜市青葉区あざみ野二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -592,7 +592,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5581796,
     "lng": 139.5511907,
     "transfers": [],
-    "address": "神奈川県江田駅",
+    "address": "神奈川県横浜市青葉区荏田町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -650,7 +650,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5432963,
     "lng": 139.5271177,
     "transfers": [],
-    "address": "神奈川県藤が丘駅",
+    "address": "神奈川県横浜市青葉区藤が丘二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -679,7 +679,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5428433,
     "lng": 139.5166491,
     "transfers": [],
-    "address": "神奈川県青葉台駅",
+    "address": "神奈川県横浜市青葉区青葉台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -708,7 +708,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5358337,
     "lng": 139.5044981,
     "transfers": [],
-    "address": "神奈川県田奈駅",
+    "address": "神奈川県横浜市青葉区田奈町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -738,9 +738,9 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lng": 139.4953667,
     "transfers": [
       "ＪＲ横浜線",
-      "こどもの国線"
+      "東急こどもの国線"
     ],
-    "address": "神奈川県長津田駅",
+    "address": "神奈川県横浜市緑区長津田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -770,7 +770,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lat": 35.5103982,
     "lng": 139.4582351,
     "transfers": [],
-    "address": "神奈川県つきみ野駅",
+    "address": "神奈川県大和市つきみ野五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -801,7 +801,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "transfers": [
       "小田急江ノ島線"
     ],
-    "address": "神奈川県中央林間駅",
+    "address": "神奈川県大和市中央林間四丁目6-3",
     "facilities": {
       "elevator": true,
       "restroom": true,

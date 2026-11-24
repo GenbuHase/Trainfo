@@ -25,7 +25,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
       "ＪＲ京浜東北線",
       "東武アーバンパークライン"
     ],
-    "address": "埼玉県大宮駅",
+    "address": "埼玉県さいたま市大宮区錦町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -53,7 +53,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9206085,
     "lng": 139.6178316,
     "transfers": [],
-    "address": "埼玉県鉄道博物館駅",
+    "address": "埼玉県さいたま市大宮区大成町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -80,7 +80,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9360896,
     "lng": 139.6170032,
     "transfers": [],
-    "address": "埼玉県加茂宮駅",
+    "address": "埼玉県さいたま市北区宮原町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -107,7 +107,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9430342,
     "lng": 139.6183456,
     "transfers": [],
-    "address": "埼玉県東宮原駅",
+    "address": "埼玉県さいたま市北区宮原町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -134,7 +134,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9503487,
     "lng": 139.6197595,
     "transfers": [],
-    "address": "埼玉県今羽駅",
+    "address": "埼玉県さいたま市北区吉野町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -161,7 +161,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9573311,
     "lng": 139.6211295,
     "transfers": [],
-    "address": "埼玉県吉野原駅",
+    "address": "埼玉県さいたま市北区吉野町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -215,7 +215,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9712987,
     "lng": 139.6238278,
     "transfers": [],
-    "address": "埼玉県沼南駅",
+    "address": "埼玉県上尾市大字原市",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -242,7 +242,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9792898,
     "lng": 139.6248376,
     "transfers": [],
-    "address": "埼玉県丸山駅",
+    "address": "埼玉県伊奈町大字小室",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -269,7 +269,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9907695,
     "lng": 139.6225815,
     "transfers": [],
-    "address": "埼玉県志久駅",
+    "address": "埼玉県伊奈町大字小室",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -296,7 +296,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 35.9998496,
     "lng": 139.6170313,
     "transfers": [],
-    "address": "埼玉県伊奈中央駅",
+    "address": "埼玉県伊奈町中央一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -323,7 +323,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 36.0070995,
     "lng": 139.6090579,
     "transfers": [],
-    "address": "埼玉県羽貫駅",
+    "address": "埼玉県伊奈町学園一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -350,7 +350,7 @@ export const NEW_SHUTTLE_STATIONS: Station[] = [
     "lat": 36.0137846,
     "lng": 139.6005425,
     "transfers": [],
-    "address": "埼玉県内宿駅",
+    "address": "埼玉県伊奈町内宿台三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

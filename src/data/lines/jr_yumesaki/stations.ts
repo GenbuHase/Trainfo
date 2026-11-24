@@ -16,7 +16,7 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
       "ＪＲ大阪環状線内回り",
       "阪神なんば線"
     ],
-    "address": "",
+    "address": "大阪府大阪市此花区西九条三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -44,7 +44,7 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "lat": 34.67369,
     "lng": 135.4442,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市此花区島屋六丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "lat": 34.66725,
     "lng": 135.43802,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市此花区島屋六丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -100,7 +100,7 @@ export const JR_YUMESAKI_STATIONS: Station[] = [
     "lat": 34.66188,
     "lng": 135.43209,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市此花区桜島二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

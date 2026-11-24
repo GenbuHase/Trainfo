@@ -11,7 +11,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.23334,
     "lng": 135.19123,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市友田町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.21303,
     "lng": 135.18878,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市北中島一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -54,9 +54,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -69,7 +67,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.18704,
     "lng": 135.18755,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市紀三井寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -84,8 +82,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -98,7 +95,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.1703,
     "lng": 135.21039,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県海南市岡田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -113,8 +110,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -127,7 +123,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.15375,
     "lng": 135.21452,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県海南市名高",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -156,7 +152,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.14201,
     "lng": 135.19304,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県海南市冷水",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -170,9 +166,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -185,7 +179,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.12565,
     "lng": 135.15961,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県海南市下津町黒田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,8 +194,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -214,7 +207,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.10869,
     "lng": 135.14492,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県海南市下津町下津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -228,9 +221,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -243,7 +234,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.09931,
     "lng": 135.11525,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県有田市初島町浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -257,9 +248,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -272,7 +261,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.08597,
     "lng": 135.12482,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県有田市箕島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -301,7 +290,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.07808,
     "lng": 135.16916,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県有田市宮原町滝川原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,9 +304,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -330,7 +317,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.05705,
     "lng": 135.19676,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県有田川町大字明王寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -359,7 +346,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.03165,
     "lng": 135.17968,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県湯浅町大字湯浅",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -388,7 +375,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 34.01285,
     "lng": 135.1641,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県広川町大字山本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,9 +389,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -417,7 +402,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.96943,
     "lng": 135.12889,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県由良町大字門前",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -432,8 +417,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -446,7 +430,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.9264,
     "lng": 135.14507,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県日高町大字萩原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -460,9 +444,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -475,7 +457,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.90802,
     "lng": 135.1597,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県御坊市湯川町小松原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -504,7 +486,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.91111,
     "lng": 135.17667,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県御坊市藤田町藤井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -519,8 +501,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -533,7 +514,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.89662,
     "lng": 135.20639,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県日高川町大字和佐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -548,8 +529,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -562,7 +542,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.85232,
     "lng": 135.22907,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県印南町大字印南原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -577,8 +557,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -591,7 +570,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.8179,
     "lng": 135.22003,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県印南町大字印南",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -606,8 +585,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -620,7 +598,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.7959,
     "lng": 135.24093,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県印南町大字島田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -635,8 +613,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -649,7 +626,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.78065,
     "lng": 135.27903,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県みなべ町西岩代",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -664,8 +641,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -678,7 +654,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.76794,
     "lng": 135.32395,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県みなべ町芝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -707,7 +683,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.74694,
     "lng": 135.35555,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県田辺市芳養松原二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -722,8 +698,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -736,7 +711,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.73295,
     "lng": 135.38452,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県田辺市湊",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -765,7 +740,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.72048,
     "lng": 135.40278,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県田辺市新庄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -779,9 +754,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -794,7 +767,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.69624,
     "lng": 135.41751,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県上富田町朝来",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -808,9 +781,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -823,7 +794,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.67515,
     "lng": 135.38724,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県白浜町堅田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -838,7 +809,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -852,7 +822,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.65194,
     "lng": 135.39395,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県白浜町栄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -866,9 +836,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -881,7 +849,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.6095,
     "lng": 135.40461,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県白浜町椿",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -895,9 +863,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -910,7 +876,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.58462,
     "lng": 135.45822,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県白浜町矢田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -924,9 +890,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -939,7 +903,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.54644,
     "lng": 135.49579,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県すさみ町周参見",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -954,7 +918,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -968,7 +931,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.51528,
     "lng": 135.57571,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県すさみ町見老津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -982,9 +945,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -997,7 +958,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.50977,
     "lng": 135.60347,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県すさみ町江住",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1011,9 +972,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1026,7 +985,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.5012,
     "lng": 135.65525,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町和深",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1040,9 +999,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1055,7 +1012,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.4903,
     "lng": 135.67794,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町和深",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1069,9 +1026,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1084,7 +1039,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.48819,
     "lng": 135.71967,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町田並",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1098,9 +1053,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1113,7 +1066,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.491,
     "lng": 135.73667,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町有田上",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1127,9 +1080,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1142,7 +1093,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.47577,
     "lng": 135.78186,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町串本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1157,7 +1108,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1171,7 +1121,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.49756,
     "lng": 135.79636,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町姫",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1198,7 +1148,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.51889,
     "lng": 135.8208,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町西向",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1213,7 +1163,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1227,7 +1176,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.53696,
     "lng": 135.86832,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県串本町田原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1241,9 +1190,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1256,7 +1203,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.56076,
     "lng": 135.89438,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字浦神",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1270,9 +1217,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1285,7 +1230,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.5825,
     "lng": 135.92234,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字下里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1299,9 +1244,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1314,7 +1257,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.5909,
     "lng": 135.92724,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県太地町大字森浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1329,7 +1272,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1343,7 +1285,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.60911,
     "lng": 135.92492,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字湯川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1357,9 +1299,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1372,7 +1312,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.62739,
     "lng": 135.94127,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字朝日四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1387,7 +1327,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1401,7 +1340,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.63677,
     "lng": 135.93461,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字天満",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1415,9 +1354,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1430,7 +1367,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.64328,
     "lng": 135.9362,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字浜ノ宮",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1444,9 +1381,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1459,7 +1394,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.66239,
     "lng": 135.97199,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県那智勝浦町大字宇久井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1473,9 +1408,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1488,7 +1421,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.68011,
     "lng": 135.97073,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県新宮市佐野三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1502,9 +1435,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1517,7 +1448,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.68988,
     "lng": 135.98535,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県新宮市三輪崎一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1531,9 +1462,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1546,7 +1475,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     "lat": 33.7251,
     "lng": 135.99384,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県新宮市徐福二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1561,7 +1490,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   }

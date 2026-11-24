@@ -14,7 +14,7 @@ export const KEIKYU_DAISHI_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "神奈川県京急川崎駅",
+    "address": "神奈川県川崎市川崎区砂子一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -96,7 +96,7 @@ export const KEIKYU_DAISHI_STATIONS: Station[] = [
     "lat": 35.5356853,
     "lng": 139.7255809,
     "transfers": [],
-    "address": "神奈川県川崎大師駅",
+    "address": "神奈川県川崎市川崎区大師駅前一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const KEIKYU_DAISHI_STATIONS: Station[] = [
     "lat": 35.5365676,
     "lng": 139.7339404,
     "transfers": [],
-    "address": "神奈川県東門前駅",
+    "address": "神奈川県川崎市川崎区東門前一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -150,7 +150,7 @@ export const KEIKYU_DAISHI_STATIONS: Station[] = [
     "lat": 35.5366054,
     "lng": 139.7400199,
     "transfers": [],
-    "address": "神奈川県大師橋駅",
+    "address": "神奈川県川崎市川崎区大師河原二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -177,7 +177,7 @@ export const KEIKYU_DAISHI_STATIONS: Station[] = [
     "lat": 35.5348361,
     "lng": 139.747221,
     "transfers": [],
-    "address": "神奈川県小島新田駅",
+    "address": "神奈川県川崎市川崎区田町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

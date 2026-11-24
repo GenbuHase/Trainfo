@@ -17,7 +17,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
       "東急目黒線",
       "東京メトロ南北線"
     ],
-    "address": "東京都目黒駅",
+    "address": "東京都品川区上大崎二丁目16-9",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -48,7 +48,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ南北線"
     ],
-    "address": "東京都白金台駅",
+    "address": "東京都港区白金台四丁目5-10",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -79,7 +79,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ南北線"
     ],
-    "address": "東京都白金高輪駅",
+    "address": "東京都港区高輪一丁目3-20",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -110,7 +110,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄浅草線"
     ],
-    "address": "東京都三田駅",
+    "address": "東京都港区芝五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -138,7 +138,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.6539668,
     "lng": 139.7498361,
     "transfers": [],
-    "address": "東京都芝公園駅",
+    "address": "東京都港区芝公園四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -165,7 +165,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.6609982,
     "lng": 139.7513677,
     "transfers": [],
-    "address": "東京都御成門駅",
+    "address": "東京都港区芝公園三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -222,7 +222,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
       "東京メトロ日比谷線",
       "東京メトロ千代田線"
     ],
-    "address": "東京都日比谷駅",
+    "address": "東京都千代田区有楽町一丁目5-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -316,7 +316,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央・総武線各駅停車"
     ],
-    "address": "東京都水道橋駅",
+    "address": "東京都文京区本郷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -346,7 +346,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都春日駅",
+    "address": "東京都文京区本郷四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -374,7 +374,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7219856,
     "lng": 139.752148,
     "transfers": [],
-    "address": "東京都白山駅",
+    "address": "東京都文京区白山五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -401,7 +401,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7274187,
     "lng": 139.7453372,
     "transfers": [],
-    "address": "東京都千石駅",
+    "address": "東京都文京区本駒込二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -431,7 +431,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
       "ＪＲ山手線外回り",
       "ＪＲ山手線内回り"
     ],
-    "address": "東京都巣鴨駅",
+    "address": "東京都豊島区巣鴨三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -459,7 +459,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.742815,
     "lng": 139.7293491,
     "transfers": [],
-    "address": "東京都西巣鴨駅",
+    "address": "東京都豊島区西巣鴨三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -486,7 +486,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7487215,
     "lng": 139.7202457,
     "transfers": [],
-    "address": "東京都新板橋駅",
+    "address": "東京都板橋区板橋四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -567,7 +567,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.769568,
     "lng": 139.701626,
     "transfers": [],
-    "address": "東京都本蓮沼駅",
+    "address": "東京都板橋区蓮沼町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -648,7 +648,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7846971,
     "lng": 139.6790601,
     "transfers": [],
-    "address": "東京都蓮根駅",
+    "address": "東京都板橋区蓮根二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -675,7 +675,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7871579,
     "lng": 139.6716881,
     "transfers": [],
-    "address": "東京都西台駅",
+    "address": "東京都板橋区高島平九丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -702,7 +702,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7889875,
     "lng": 139.6603048,
     "transfers": [],
-    "address": "東京都高島平駅",
+    "address": "東京都板橋区高島平八丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -729,7 +729,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7904021,
     "lng": 139.6533706,
     "transfers": [],
-    "address": "東京都新高島平駅",
+    "address": "東京都板橋区高島平七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -756,7 +756,7 @@ export const TOEI_MITA_STATIONS: Station[] = [
     "lat": 35.7921312,
     "lng": 139.6445593,
     "transfers": [],
-    "address": "東京都西高島平駅",
+    "address": "東京都板橋区高島平六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

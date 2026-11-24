@@ -14,7 +14,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "JR京浜東北線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市神奈川区東神奈川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.4918,
     "lng": 139.64643,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市神奈川区大口通",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -72,7 +72,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "transfers": [
       "東急東横線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市港北区菊名七丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -103,10 +103,10 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "transfers": [
       "東急新横浜線",
       "相鉄新横浜線",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市港北区新横浜三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -135,7 +135,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.50824,
     "lng": 139.60046,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市港北区小机町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -162,7 +162,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.51099,
     "lng": 139.56781,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市緑区鴨居一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -192,7 +192,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄グリーンライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市緑区中山四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -221,7 +221,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.52604,
     "lng": 139.51723,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市緑区十日市場町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -249,9 +249,9 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lng": 139.49429,
     "transfers": [
       "東急田園都市線",
-      "こどもの国線"
+      "東急こどもの国線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市緑区長津田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -280,7 +280,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.53584,
     "lng": 139.47217,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都町田市南成瀬一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -309,7 +309,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "transfers": [
       "小田急小田原線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都町田市原町田六丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -338,7 +338,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.55608,
     "lng": 139.41905,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県相模原市南区古淵二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -365,7 +365,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.56897,
     "lng": 139.39439,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県相模原市中央区淵野辺三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -392,7 +392,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.5735,
     "lng": 139.38577,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県相模原市中央区矢部三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -419,7 +419,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.58097,
     "lng": 139.37162,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県相模原市中央区相模原一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -451,7 +451,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "JR相模線",
       "京王相模原線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県相模原市緑区橋本六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -480,7 +480,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.60751,
     "lng": 139.33162,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都町田市相原町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -508,7 +508,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lat": 35.63201,
     "lng": 139.33131,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都八王子市みなみ野一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -538,7 +538,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "transfers": [
       "京王高尾線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都八王子市片倉町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -571,7 +571,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "JR八高線",
       "京王線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都八王子市旭町",
     "facilities": {
       "elevator": true,
       "restroom": true,

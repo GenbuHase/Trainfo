@@ -15,7 +15,7 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
       "養老鉄道養老線",
       "樽見鉄道樽見線"
     ],
-    "address": "",
+    "address": "岐阜県大垣市高屋町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -28,7 +28,7 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -42,7 +42,7 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
     "lat": 35.37338,
     "lng": 136.58344,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県大垣市荒尾町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -52,10 +52,10 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -71,7 +71,7 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
     "transfers": [
       "西濃鉄道市橋線"
     ],
-    "address": "",
+    "address": "岐阜県大垣市赤坂町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -81,11 +81,11 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   }
 ];

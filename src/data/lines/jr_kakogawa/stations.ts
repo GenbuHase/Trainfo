@@ -11,7 +11,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.76709,
     "lng": 134.84046,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加古川市加古川町篠原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -38,7 +38,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.77896,
     "lng": 134.85747,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加古川市加古川町大野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -65,7 +65,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.79112,
     "lng": 134.87954,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加古川市神野町西条",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -92,7 +92,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.79476,
     "lng": 134.90726,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加古川市上荘町国包",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,7 +119,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.81969,
     "lng": 134.93263,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県小野市黍田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -146,7 +146,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.8339,
     "lng": 134.91796,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県小野市下来住町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -173,7 +173,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.85747,
     "lng": 134.90957,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県小野市粟生町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +200,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.87929,
     "lng": 134.91953,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県小野市新部町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.89785,
     "lng": 134.92818,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県小野市復井町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -254,7 +254,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.92058,
     "lng": 134.9349,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加東市河高",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.94124,
     "lng": 134.95527,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加東市上滝野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.94911,
     "lng": 134.9626,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県加東市上滝野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -335,7 +335,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.97204,
     "lng": 134.96903,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市野村町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -362,7 +362,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.97804,
     "lng": 134.97797,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市和布町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -389,7 +389,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 34.9891,
     "lng": 134.99582,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市鹿野町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -416,7 +416,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 35.00172,
     "lng": 134.9977,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市上比延町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -443,7 +443,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 35.02308,
     "lng": 134.99257,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市黒田庄町岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -470,7 +470,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 35.05327,
     "lng": 134.99604,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市黒田庄町黒田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -497,7 +497,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 35.06313,
     "lng": 135.00965,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西脇市黒田庄町黒田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -524,7 +524,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 35.07625,
     "lng": 135.03095,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市山南町谷川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -551,7 +551,7 @@ export const JR_KAKOGAWA_STATIONS: Station[] = [
     "lat": 35.08323,
     "lng": 135.04907,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市山南町玉巻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

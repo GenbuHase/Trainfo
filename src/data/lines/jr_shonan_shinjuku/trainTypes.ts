@@ -12,7 +12,6 @@ export const SHONAN_SHINJUKU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#e25822',
     borderColor: '#e25822',
   },
-  rapid: JR_RAPID_PRESETS.STANDARD,
   special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
   limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

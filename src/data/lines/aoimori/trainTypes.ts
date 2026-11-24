@@ -11,16 +11,6 @@ export const AOIMORI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#2cbadc',
     borderColor: '#005bac',
   },
-  local: {
-    key: 'local',
-    name: '普通',
-    nameEn: 'Local',
-    shortName: '普通',
-    color: '#2cbadc',
-    textColor: '#ffffff',
-    bgColor: '#2cbadc',
-    borderColor: '#005bac',
-  },
   rapid: {
     key: 'rapid',
     name: '快速',
@@ -40,15 +30,5 @@ export const AOIMORI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     textColor: '#ffffff',
     bgColor: '#e65100',
     borderColor: '#e65100',
-  },
-  limited_exp: {
-    key: 'limited_exp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#d32f2f',
-    textColor: '#ffffff',
-    bgColor: '#d32f2f',
-    borderColor: '#b71c1c',
   },
 };

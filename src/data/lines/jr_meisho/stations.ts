@@ -14,7 +14,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
       "ＪＲ紀勢本線",
       "近鉄山田線"
     ],
-    "address": "",
+    "address": "三重県松阪市京町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,7 +41,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.59782,
     "lng": 136.49965,
     "transfers": [],
-    "address": "",
+    "address": "三重県松阪市上ノ庄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -68,7 +68,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.61745,
     "lng": 136.48226,
     "transfers": [],
-    "address": "",
+    "address": "三重県松阪市嬉野権現前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -95,7 +95,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.6471,
     "lng": 136.44729,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市一志町八太",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -122,7 +122,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.65486,
     "lng": 136.43648,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市一志町八太",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -149,7 +149,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.6428,
     "lng": 136.41327,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市一志町井関",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -176,7 +176,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.64979,
     "lng": 136.38548,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市一志町井生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -203,7 +203,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.6476,
     "lng": 136.35618,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市白山町川口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -230,7 +230,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.63742,
     "lng": 136.33939,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市白山町川口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -257,7 +257,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.62567,
     "lng": 136.31883,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市白山町南家城",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -284,7 +284,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.59968,
     "lng": 136.30902,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市美杉町竹原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -311,7 +311,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.57376,
     "lng": 136.27814,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市美杉町八知",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -338,7 +338,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.55478,
     "lng": 136.26357,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市美杉町八知",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -365,7 +365,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.53194,
     "lng": 136.27066,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市美杉町八知",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -392,7 +392,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "lat": 34.51202,
     "lng": 136.25964,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市美杉町奥津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

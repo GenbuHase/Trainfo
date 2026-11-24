@@ -14,9 +14,9 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR東海道線",
       "JR横須賀線",
       "JR湘南新宿ライン",
-      "湘南モノレール"
+      "湘南モノレール江の島線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県鎌倉市大船一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.36811,
     "lng": 139.5512,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市栄区小菅ケ谷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -73,7 +73,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.37534,
     "lng": 139.5771,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市港南区港南台三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -101,7 +101,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.37897,
     "lng": 139.59747,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市磯子区洋光台三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -129,9 +129,9 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.38754,
     "lng": 139.61884,
     "transfers": [
-      "シーサイドライン"
+      "横浜シーサイドライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市磯子区新杉田町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -160,7 +160,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.40149,
     "lng": 139.61909,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市磯子区磯子三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -189,7 +189,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.41615,
     "lng": 139.63725,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市磯子区東町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -217,7 +217,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.42591,
     "lng": 139.64685,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市中区矢口台",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -245,7 +245,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.43952,
     "lng": 139.64263,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市中区吉浜町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -275,7 +275,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市中区港町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -307,7 +307,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR横浜線",
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県桜木町駅",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -346,7 +346,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "京急本線",
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市西区高島二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -378,7 +378,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR横浜線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市神奈川区東神奈川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -409,7 +409,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市神奈川区子安通二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -440,7 +440,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR鶴見線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区鶴見中央一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -474,7 +474,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "京急本線",
       "京急大師線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区駅前本町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -506,7 +506,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "東急池上線",
       "東急多摩川線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都大田区蒲田五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -535,7 +535,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.58823,
     "lng": 139.7277,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都大田区大森北一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -566,7 +566,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "東急大井町線",
       "東京臨海高速鉄道りんかい線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都品川区大井一丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -599,10 +599,10 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR東海道線",
       "JR横須賀線",
       "JR上野東京ライン",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区高輪三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -635,7 +635,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "都営浅草線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区港南二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -667,7 +667,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "都営浅草線",
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区芝浦三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -696,11 +696,11 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lng": 139.75728,
     "transfers": [
       "JR山手線",
-      "東京モノレール",
+      "東京モノレール羽田空港線",
       "都営浅草線",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都浜松町駅",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -737,7 +737,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "都営浅草線",
       "ゆりかもめ"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都港区新橋二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -771,7 +771,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区有楽町一丁目11-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -805,11 +805,11 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR総武快速線",
       "JR京葉線",
       "JR上野東京ライン",
-      "東北新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区丸の内一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -842,7 +842,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR中央線",
       "東京メトロ銀座線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区鍛冶町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -873,10 +873,10 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR中央・総武線各駅停車",
-      "つくばエクスプレス",
+      "首都圏新都市鉄道つくばエクスプレス",
       "東京メトロ日比谷線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区神田佐久間町一丁目21",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -910,7 +910,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "東京メトロ日比谷線",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区上野五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -943,12 +943,12 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR高崎線",
       "JR常磐線快速",
       "JR上野東京ライン",
-      "東北新幹線",
+      "JR東北新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区上野七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -979,7 +979,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "JR山手線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区根岸一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1011,7 +1011,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "京成本線",
       "日暮里・舎人ライナー"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都荒川区西日暮里二丁目19-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1043,7 +1043,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "日暮里・舎人ライナー"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都荒川区西日暮里五丁目22-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1072,7 +1072,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "JR山手線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都北区東田端一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1101,7 +1101,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.74773,
     "lng": 139.74475,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都北区西ケ原二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1132,7 +1132,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "東京メトロ南北線",
       "都電荒川線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都北区王子一丁目10-18",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1161,7 +1161,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.76284,
     "lng": 139.72748,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都北区東十条三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1195,7 +1195,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR湘南新宿ライン",
       "JR上野東京ライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都北区赤羽一丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1224,7 +1224,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.80093,
     "lng": 139.71793,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県川口市川口一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1253,7 +1253,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.8149,
     "lng": 139.70497,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県川口市並木二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1281,7 +1281,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.82721,
     "lng": 139.69116,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県蕨市塚越一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1311,7 +1311,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "JR武蔵野線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県さいたま市南区南浦和二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1345,7 +1345,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR湘南新宿ライン",
       "JR上野東京ライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県さいたま市浦和区高砂一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1374,7 +1374,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.8715,
     "lng": 139.64652,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県さいたま市浦和区北浦和四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1402,7 +1402,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.88361,
     "lng": 139.63934,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県さいたま市中央区大字下落合",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1434,7 +1434,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR高崎線",
       "JR上野東京ライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県さいたま市大宮区吉敷町四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1469,13 +1469,13 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR川越線",
       "JR湘南新宿ライン",
       "JR上野東京ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東武アーバンパークライン",
       "埼玉新都市交通ニューシャトル"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "埼玉県さいたま市大宮区錦町",
     "facilities": {
       "elevator": true,
       "restroom": true,

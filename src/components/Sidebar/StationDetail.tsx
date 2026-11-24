@@ -2,8 +2,10 @@ import React, { useState, useMemo, useRef, useEffect } from 'react';
 import type { Station, ActiveTrain, Direction } from '../../types';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
 import { getStationDepartures, getThroughChainTripIds, getStationAvailableDirections } from '../../data/timetableData';
+import { loadLinesTimetables, isLineLoaded, subscribeTimetableLoad } from '../../data/timetableLoader';
 import { STATION_MAP } from '../../data/stations';
 import { getLine, getAlternateStations } from '../../data/linesRegistry';
+import { useSelection } from '../../contexts/SelectionContext';
 import {
   Clock,
   Accessibility,
@@ -13,6 +15,7 @@ import {
   Radio,
   ArrowLeftRight,
   ChevronDown,
+  Map as MapIcon,
 } from 'lucide-react';
 
 interface StationDetailProps {
@@ -34,13 +37,30 @@ export const StationDetail: React.FC<StationDetailProps> = ({
   onOpenFullTimetable,
   onSelectStation,
 }) => {
+  const { selectedLineIds, addLines } = useSelection();
+  const [timetableLoadTick, setTimetableLoadTick] = useState<number>(0);
+
+  // 表示路線外の駅へ切り替えた場合も含め、対象路線の時刻表をオンデマンド読込して再描画する
+  useEffect(() => {
+    const unsubscribe = subscribeTimetableLoad(() => {
+      setTimetableLoadTick((tick) => tick + 1);
+    });
+    if (!isLineLoaded(station.lineId)) {
+      loadLinesTimetables([station.lineId]);
+    }
+    return unsubscribe;
+  }, [station.lineId]);
+
+  const isTargetLineLoaded = isLineLoaded(station.lineId);
+  const isLineDisplayed = selectedLineIds.includes(station.lineId);
+
   const line = getLine(station.lineId);
   const themeColor = line?.lineColor || '#004b97';
-  // 該当駅で利用可能な進行方向の判定（終着駅・起点駅・支線末端などで片方向しか運行がない場合を検知）
-  const { hasInbound, hasOutbound } = useMemo(
-    () => getStationAvailableDirections(station.id, station.lineId),
-    [station.id, station.lineId]
-  );
+  // 該当駅で利用可能な進行方向の判定（時刻表ロード完了後に再計算されるよう timetableLoadTick を含める）
+  const { hasInbound, hasOutbound } = useMemo(() => {
+    void timetableLoadTick;
+    return getStationAvailableDirections(station.id, station.lineId);
+  }, [station.id, station.lineId, timetableLoadTick]);
 
   const [selectedDirectionState, setSelectedDirection] = useState<Direction>(() =>
     !hasOutbound ? 'inbound' : 'outbound'
@@ -63,13 +83,14 @@ export const StationDetail: React.FC<StationDetailProps> = ({
   const unregisteredTransfers = useMemo(() => {
     if (!station.transfers || station.transfers.length === 0) return [];
     const currentLineName = line?.name || '';
+    const currentLineShortName = line?.shortName || '';
     const alternateLineNames = new Set(alternateStations.map((alt) => alt.lineName));
     return station.transfers.filter((tr) => {
-      if (tr === currentLineName) return false;
+      if (tr === currentLineName || (currentLineShortName && tr === currentLineShortName)) return false;
       if (alternateLineNames.has(tr)) return false;
       return true;
     });
-  }, [station.transfers, line?.name, alternateStations]);
+  }, [station.transfers, line?.name, line?.shortName, alternateStations]);
 
   const [isLineMenuOpen, setIsLineMenuOpen] = useState<boolean>(false);
   const lineMenuRef = useRef<HTMLDivElement>(null);
@@ -125,6 +146,17 @@ export const StationDetail: React.FC<StationDetailProps> = ({
               <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-white/20 backdrop-blur-xs text-white">
                 {line?.name || '路線'}
               </span>
+              {!isLineDisplayed && (
+                <button
+                  type="button"
+                  onClick={() => addLines([station.lineId])}
+                  className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded bg-amber-400/90 hover:bg-amber-300 text-slate-900 transition-colors shadow-2xs cursor-pointer"
+                  title="この路線を地図と列車シミュレーションに表示します"
+                >
+                  <MapIcon className="w-3 h-3" />
+                  地図に表示
+                </button>
+              )}
               <span className="text-xs text-white/70 tracking-wider font-mono">{station.nameEn}</span>
             </div>
             <div className="flex items-center gap-2.5">
@@ -280,7 +312,11 @@ export const StationDetail: React.FC<StationDetailProps> = ({
             </div>
 
             {/* 発車一覧 */}
-            {activeDepartures.length === 0 ? (
+            {!isTargetLineLoaded ? (
+              <div className="text-center py-6 text-slate-400 text-xs">
+                時刻表データを読み込み中...
+              </div>
+            ) : activeDepartures.length === 0 ? (
               <div className="text-center py-6 text-slate-400 text-xs">
                 本日の運行は終了、または直近の列車がありません
               </div>

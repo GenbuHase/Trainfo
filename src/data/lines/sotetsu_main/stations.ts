@@ -18,7 +18,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "JR湘南新宿ライン",
       "東急東横線",
       "京急本線",
-      "みなとみらい線",
+      "横浜高速鉄道みなとみらい線",
       "横浜市営地下鉄ブルーライン"
     ],
     "address": "神奈川県横浜市西区南幸一丁目1-1",
@@ -32,10 +32,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express",
       "commuter_exp",
-      "limited_exp",
-      "commuter_limited_exp"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "1・2・3番線",
@@ -63,8 +61,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -92,8 +89,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -121,8 +117,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -151,8 +146,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "commuter_exp"
+      "rapid"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -180,8 +174,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -209,8 +202,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -242,7 +234,6 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express",
       "commuter_exp",
       "limited_exp",
       "commuter_limited_exp"
@@ -275,7 +266,6 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express",
       "commuter_exp",
       "commuter_limited_exp"
     ],
@@ -309,7 +299,6 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express",
       "commuter_exp",
       "limited_exp",
       "commuter_limited_exp"
@@ -342,7 +331,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -372,7 +361,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -402,7 +391,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -434,9 +423,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express",
       "limited_exp",
-      "commuter_limited_exp"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -466,7 +454,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -496,7 +484,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -526,7 +514,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -559,9 +547,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "express",
       "limited_exp",
-      "commuter_limited_exp"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",

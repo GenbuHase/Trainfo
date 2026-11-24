@@ -12,10 +12,10 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lng": 141.1380476,
     "transfers": [
       "JR東北本線（仙台～一ノ関）",
-      "東北新幹線",
+      "JR東北新幹線",
       "JR大船渡線"
     ],
-    "address": "岩手県一ノ関駅周辺",
+    "address": "岩手県一関市駅前",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 38.9512248,
     "lng": 141.1319482,
     "transfers": [],
-    "address": "岩手県山ノ目駅周辺",
+    "address": "岩手県一関市中里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 38.9881059,
     "lng": 141.1176681,
     "transfers": [],
-    "address": "岩手県平泉駅周辺",
+    "address": "岩手県平泉町平泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +96,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.0485492,
     "lng": 141.1262325,
     "transfers": [],
-    "address": "岩手県前沢駅周辺",
+    "address": "岩手県奥州市前沢駅東一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -123,7 +123,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.0941477,
     "lng": 141.1408961,
     "transfers": [],
-    "address": "岩手県陸中折居駅周辺",
+    "address": "岩手県奥州市水沢真城",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -150,7 +150,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.1389835,
     "lng": 141.1464161,
     "transfers": [],
-    "address": "岩手県水沢駅周辺",
+    "address": "岩手県奥州市水沢東大通り一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -177,7 +177,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.1998235,
     "lng": 141.1127248,
     "transfers": [],
-    "address": "岩手県金ケ崎駅周辺",
+    "address": "岩手県金ケ崎町西根",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -204,7 +204,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.2279357,
     "lng": 141.0977259,
     "transfers": [],
-    "address": "岩手県六原駅周辺",
+    "address": "岩手県金ケ崎町三ケ尻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -231,10 +231,10 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.2818198,
     "lng": 141.1216713,
     "transfers": [
-      "東北新幹線",
+      "JR東北新幹線",
       "JR北上線"
     ],
-    "address": "岩手県北上駅周辺",
+    "address": "岩手県北上市大通り一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.3229973,
     "lng": 141.1204107,
     "transfers": [],
-    "address": "岩手県村崎野駅周辺",
+    "address": "岩手県北上市村崎野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -290,7 +290,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "transfers": [
       "JR釜石線"
     ],
-    "address": "岩手県花巻駅周辺",
+    "address": "岩手県花巻市大通り一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -318,7 +318,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.4427026,
     "lng": 141.127521,
     "transfers": [],
-    "address": "岩手県花巻空港駅周辺",
+    "address": "岩手県花巻市二枚橋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -346,7 +346,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.4913305,
     "lng": 141.1468613,
     "transfers": [],
-    "address": "岩手県石鳥谷駅周辺",
+    "address": "岩手県花巻市石鳥谷町好地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -374,7 +374,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.5387651,
     "lng": 141.1605272,
     "transfers": [],
-    "address": "岩手県日詰駅周辺",
+    "address": "岩手県紫波町北日詰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.5547507,
     "lng": 141.1600095,
     "transfers": [],
-    "address": "岩手県紫波中央駅周辺",
+    "address": "岩手県紫波町日詰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -430,7 +430,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.5809163,
     "lng": 141.154729,
     "transfers": [],
-    "address": "岩手県古館駅周辺",
+    "address": "岩手県紫波町中島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -458,7 +458,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.6132739,
     "lng": 141.148071,
     "transfers": [],
-    "address": "岩手県矢幅駅周辺",
+    "address": "岩手県矢巾町駅東一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -486,7 +486,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.6537767,
     "lng": 141.1466662,
     "transfers": [],
-    "address": "岩手県岩手飯岡駅周辺",
+    "address": "岩手県盛岡市永井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -514,7 +514,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.6875489,
     "lng": 141.1487365,
     "transfers": [],
-    "address": "岩手県仙北町駅周辺",
+    "address": "岩手県盛岡市仙北二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -543,13 +543,13 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lng": 141.1368084,
     "transfers": [
       "IGRいわて銀河鉄道線",
-      "東北新幹線",
-      "秋田新幹線",
+      "JR東北新幹線",
+      "JR秋田新幹線",
       "JR田沢湖線",
       "JR山田線",
       "JR花輪線"
     ],
-    "address": "岩手県盛岡駅周辺",
+    "address": "岩手県盛岡市盛岡駅前通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

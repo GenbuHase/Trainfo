@@ -15,7 +15,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
       "JR田沢湖線",
       "JR奥羽本線（新庄～大曲）"
     ],
-    "address": "",
+    "address": "秋田県大仙市大曲通町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -43,7 +43,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.4953478,
     "lng": 140.4259212,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大仙市神宮寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.5481703,
     "lng": 140.3720182,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大仙市刈和野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +96,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.5665918,
     "lng": 140.3232041,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大仙市協和峰吉川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -122,7 +122,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.6191485,
     "lng": 140.3205848,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大仙市協和境",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.6634365,
     "lng": 140.2739989,
     "transfers": [],
-    "address": "",
+    "address": "秋田県秋田市河辺神内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -174,7 +174,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.6507066,
     "lng": 140.2185652,
     "transfers": [],
-    "address": "",
+    "address": "秋田県秋田市河辺和田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -201,7 +201,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
     "lat": 39.6615809,
     "lng": 140.1448476,
     "transfers": [],
-    "address": "",
+    "address": "秋田県秋田市四ツ小屋小阿地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -233,7 +233,7 @@ export const OU_OMAGARI_AKITA_STATIONS: Station[] = [
       "JR男鹿線",
       "JR奥羽本線（秋田～青森）"
     ],
-    "address": "",
+    "address": "秋田県秋田市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

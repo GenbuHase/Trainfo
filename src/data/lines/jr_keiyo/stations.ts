@@ -18,11 +18,11 @@ export const KEIYO_STATIONS: Station[] = [
       "JR横須賀線",
       "JR総武快速線",
       "JR上野東京ライン",
-      "東北新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区丸の内一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -37,7 +37,6 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
       "limited_exp"
     ],
     "stationNumber": "JE-01",
@@ -55,7 +54,7 @@ export const KEIYO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ日比谷線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都中央区八丁堀二丁目22-5",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -69,8 +68,7 @@ export const KEIYO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "commuter_rapid"
+      "rapid"
     ],
     "stationNumber": "JE-02"
   },
@@ -84,7 +82,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.66732,
     "lng": 139.79331,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江東区越中島二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -111,7 +109,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.6595,
     "lng": 139.81653,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江東区潮見二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -141,7 +139,7 @@ export const KEIYO_STATIONS: Station[] = [
       "東京臨海高速鉄道りんかい線",
       "東京メトロ有楽町線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江東区新木場一丁目5",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -155,8 +153,7 @@ export const KEIYO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "commuter_rapid"
+      "rapid"
     ],
     "stationNumber": "JE-05",
     "isMajor": true
@@ -171,7 +168,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.64382,
     "lng": 139.86243,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江戸川区臨海町六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -200,7 +197,7 @@ export const KEIYO_STATIONS: Station[] = [
     "transfers": [
       "ディズニーリゾートライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県浦安市舞浜",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -229,7 +226,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.65021,
     "lng": 139.91336,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県浦安市入船一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -258,7 +255,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.66742,
     "lng": 139.92413,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市川市塩浜二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -285,7 +282,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.6915,
     "lng": 139.9604,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市川市二俣新町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -314,7 +311,7 @@ export const KEIYO_STATIONS: Station[] = [
     "transfers": [
       "JR武蔵野線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県船橋市若松二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -343,7 +340,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.66685,
     "lng": 140.01392,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県習志野市茜浜二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -370,7 +367,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.65877323,
     "lng": 140.02617032,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市美浜区浜田二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -397,7 +394,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.64785,
     "lng": 140.04291,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市美浜区ひび野二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -427,7 +424,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.63649,
     "lng": 140.06002,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市美浜区真砂三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -455,7 +452,7 @@ export const KEIYO_STATIONS: Station[] = [
     "lat": 35.62943,
     "lng": 140.07499,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市美浜区高洲三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -485,7 +482,7 @@ export const KEIYO_STATIONS: Station[] = [
     "transfers": [
       "千葉都市モノレール"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区中央港一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -516,7 +513,7 @@ export const KEIYO_STATIONS: Station[] = [
       "JR外房線",
       "JR内房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区今井二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -531,7 +528,6 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
       "limited_exp"
     ],
     "stationNumber": "JE-18",

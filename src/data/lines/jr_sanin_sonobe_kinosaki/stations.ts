@@ -11,7 +11,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.10145,
     "lng": 135.48409,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市園部町小山東町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -26,7 +26,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -40,7 +39,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.13289,
     "lng": 135.49109,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市園部町船岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -54,9 +53,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -69,7 +66,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.16147,
     "lng": 135.5039,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市日吉町殿田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -84,7 +81,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -98,7 +94,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.18005,
     "lng": 135.48903,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市日吉町保野田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -112,9 +108,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -127,7 +121,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.19555,
     "lng": 135.46781,
     "transfers": [],
-    "address": "",
+    "address": "京都府南丹市日吉町胡麻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -141,9 +135,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -156,7 +148,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.21269,
     "lng": 135.42232,
     "transfers": [],
-    "address": "",
+    "address": "京都府京丹波町下山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -170,9 +162,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -185,7 +175,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.26057,
     "lng": 135.39968,
     "transfers": [],
-    "address": "",
+    "address": "京都府京丹波町本庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -199,9 +189,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -214,7 +202,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.26648,
     "lng": 135.38626,
     "transfers": [],
-    "address": "",
+    "address": "京都府京丹波町安栖里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -228,9 +216,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -243,7 +229,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.27444,
     "lng": 135.33638,
     "transfers": [],
-    "address": "",
+    "address": "京都府京丹波町広野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -257,9 +243,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -272,7 +256,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.2931,
     "lng": 135.31746,
     "transfers": [],
-    "address": "",
+    "address": "京都府綾部市上原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -286,9 +270,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -301,7 +283,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.30202,
     "lng": 135.25326,
     "transfers": [],
-    "address": "",
+    "address": "京都府綾部市天神町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -316,7 +298,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -330,7 +311,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.30481,
     "lng": 135.20594,
     "transfers": [],
-    "address": "",
+    "address": "京都府綾部市高津町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -344,9 +325,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -359,7 +338,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.30118,
     "lng": 135.18112,
     "transfers": [],
-    "address": "",
+    "address": "京都府福知山市石原一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -373,9 +352,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -388,7 +365,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.29688,
     "lng": 135.11731,
     "transfers": [],
-    "address": "",
+    "address": "京都府福知山市字天田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,7 +380,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -417,7 +393,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.32946,
     "lng": 135.07407,
     "transfers": [],
-    "address": "",
+    "address": "京都府福知山市字下小田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -431,9 +407,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -446,7 +420,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.31987,
     "lng": 134.99973,
     "transfers": [],
-    "address": "",
+    "address": "京都府福知山市夜久野町額田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -460,9 +434,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -475,7 +447,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.34184,
     "lng": 134.93076,
     "transfers": [],
-    "address": "",
+    "address": "京都府福知山市夜久野町平野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -489,9 +461,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -504,7 +474,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.32174,
     "lng": 134.88183,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市山東町滝田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -518,9 +488,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -533,7 +501,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.3414,
     "lng": 134.85136,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市和田山町東谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -548,7 +516,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -562,7 +529,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.3699,
     "lng": 134.81235,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県養父市堀畑",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -576,9 +543,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -591,7 +556,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.41348,
     "lng": 134.78071,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県養父市八鹿町八鹿",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -606,7 +571,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -620,7 +584,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.46899,
     "lng": 134.77531,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県豊岡市日高町江原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -635,7 +599,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -649,7 +612,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.49606,
     "lng": 134.79988,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県豊岡市日高町上石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -663,9 +626,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -678,7 +639,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.54238,
     "lng": 134.81436,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県豊岡市大手町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -693,7 +654,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -707,7 +667,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.58776,
     "lng": 134.79957,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県豊岡市城崎町上山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -721,9 +681,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -736,7 +694,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     "lat": 35.62262,
     "lng": 134.81321,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県豊岡市城崎町湯島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -751,7 +709,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   }

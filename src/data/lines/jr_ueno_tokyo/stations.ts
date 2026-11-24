@@ -19,10 +19,10 @@ export const UENO_TOKYO_STATIONS: Station[] = [
       "JR横須賀線",
       "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
@@ -32,9 +32,6 @@ export const UENO_TOKYO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -42,8 +39,8 @@ export const UENO_TOKYO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -62,9 +59,9 @@ export const UENO_TOKYO_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
@@ -76,9 +73,6 @@ export const UENO_TOKYO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,

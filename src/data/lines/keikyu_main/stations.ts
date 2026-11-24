@@ -14,7 +14,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄浅草線"
     ],
-    "address": "東京都泉岳寺駅",
+    "address": "東京都港区高輪二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -54,7 +54,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "ＪＲ横須賀線",
       "ＪＲ東海道本線"
     ],
-    "address": "東京都品川駅",
+    "address": "東京都港区高輪三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -87,7 +87,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.6224006,
     "lng": 139.7392937,
     "transfers": [],
-    "address": "東京都北品川駅",
+    "address": "東京都品川区北品川一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -114,7 +114,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.6167128,
     "lng": 139.7414384,
     "transfers": [],
-    "address": "東京都新馬場駅",
+    "address": "東京都品川区北品川二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -141,7 +141,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.6097241,
     "lng": 139.7429176,
     "transfers": [],
-    "address": "東京都青物横丁駅",
+    "address": "東京都品川区南品川三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -172,7 +172,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.6054674,
     "lng": 139.74271,
     "transfers": [],
-    "address": "東京都鮫洲駅",
+    "address": "東京都品川区東大井一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -199,7 +199,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.598848,
     "lng": 139.7390741,
     "transfers": [],
-    "address": "東京都立会川駅",
+    "address": "東京都品川区東大井二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -230,7 +230,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5873639,
     "lng": 139.7353773,
     "transfers": [],
-    "address": "東京都大森海岸駅",
+    "address": "東京都大田区大森北二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -257,7 +257,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5786189,
     "lng": 139.7349545,
     "transfers": [],
-    "address": "東京都平和島駅",
+    "address": "東京都大田区大森北六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -315,7 +315,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5664627,
     "lng": 139.7280114,
     "transfers": [],
-    "address": "東京都梅屋敷駅",
+    "address": "東京都大田区蒲田二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -344,7 +344,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "京急空港線"
     ],
-    "address": "東京都京急蒲田駅",
+    "address": "東京都大田区蒲田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -377,7 +377,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5494898,
     "lng": 139.7148704,
     "transfers": [],
-    "address": "東京都雑色駅",
+    "address": "東京都大田区仲六郷二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -404,7 +404,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5402508,
     "lng": 139.7073186,
     "transfers": [],
-    "address": "東京都六郷土手駅",
+    "address": "東京都大田区仲六郷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -433,7 +433,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "京急大師線"
     ],
-    "address": "神奈川県京急川崎駅",
+    "address": "神奈川県川崎市川崎区駅前本町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -468,7 +468,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ南武線"
     ],
-    "address": "神奈川県八丁畷駅",
+    "address": "神奈川県川崎市川崎区池田一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -523,7 +523,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5065346,
     "lng": 139.677401,
     "transfers": [],
-    "address": "神奈川県京急鶴見駅",
+    "address": "神奈川県横浜市鶴見区鶴見中央一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -551,7 +551,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.5006111,
     "lng": 139.6732257,
     "transfers": [],
-    "address": "神奈川県花月総持寺駅",
+    "address": "神奈川県横浜市鶴見区生麦五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -578,7 +578,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4959432,
     "lng": 139.6677814,
     "transfers": [],
-    "address": "神奈川県生麦駅",
+    "address": "神奈川県横浜市鶴見区生麦三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -605,7 +605,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4874084,
     "lng": 139.6563409,
     "transfers": [],
-    "address": "神奈川県京急新子安駅",
+    "address": "神奈川県横浜市神奈川区子安通三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -632,7 +632,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4846631,
     "lng": 139.6452486,
     "transfers": [],
-    "address": "神奈川県子安駅",
+    "address": "神奈川県横浜市神奈川区子安通一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -689,7 +689,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4779142,
     "lng": 139.6354283,
     "transfers": [],
-    "address": "神奈川県京急東神奈川駅",
+    "address": "神奈川県横浜市神奈川区東神奈川二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -717,7 +717,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.471552,
     "lng": 139.6275714,
     "transfers": [],
-    "address": "神奈川県神奈川駅",
+    "address": "神奈川県横浜市神奈川区青木町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -753,9 +753,9 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "東急東横線",
       "相鉄本線",
       "横浜市営地下鉄ブルーライン",
-      "みなとみらい線"
+      "横浜高速鉄道みなとみらい線"
     ],
-    "address": "神奈川県横浜駅",
+    "address": "神奈川県横浜市西区高島二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -788,7 +788,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.45714,
     "lng": 139.6193915,
     "transfers": [],
-    "address": "神奈川県戸部駅",
+    "address": "神奈川県横浜市西区戸部本町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -870,7 +870,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4367815,
     "lng": 139.6130019,
     "transfers": [],
-    "address": "神奈川県南太田駅",
+    "address": "神奈川県横浜市南区南太田一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -897,7 +897,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4337621,
     "lng": 139.5998591,
     "transfers": [],
-    "address": "神奈川県井土ケ谷駅",
+    "address": "神奈川県横浜市南区永田東一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -925,7 +925,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.4237069,
     "lng": 139.5970147,
     "transfers": [],
-    "address": "神奈川県弘明寺駅",
+    "address": "神奈川県横浜市南区弘明寺町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -955,7 +955,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "神奈川県上大岡駅",
+    "address": "神奈川県横浜市港南区上大岡西一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -988,7 +988,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3937073,
     "lng": 139.6109488,
     "transfers": [],
-    "address": "神奈川県屏風浦駅",
+    "address": "神奈川県横浜市磯子区森五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1015,7 +1015,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3835708,
     "lng": 139.6158991,
     "transfers": [],
-    "address": "神奈川県杉田駅",
+    "address": "神奈川県横浜市磯子区杉田二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1043,7 +1043,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3672365,
     "lng": 139.6297375,
     "transfers": [],
-    "address": "神奈川県京急富岡駅",
+    "address": "神奈川県横浜市金沢区富岡西七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1070,7 +1070,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3603866,
     "lng": 139.629297,
     "transfers": [],
-    "address": "神奈川県能見台駅",
+    "address": "神奈川県横浜市金沢区能見台通",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1098,7 +1098,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3433139,
     "lng": 139.6217112,
     "transfers": [],
-    "address": "神奈川県金沢文庫駅",
+    "address": "神奈川県横浜市金沢区谷津町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1132,7 +1132,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "京急逗子線"
     ],
-    "address": "神奈川県金沢八景駅",
+    "address": "神奈川県横浜市金沢区瀬戸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1165,7 +1165,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3156032,
     "lng": 139.6249216,
     "transfers": [],
-    "address": "神奈川県追浜駅",
+    "address": "神奈川県横須賀市追浜町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1195,7 +1195,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.3009409,
     "lng": 139.6252516,
     "transfers": [],
-    "address": "神奈川県京急田浦駅",
+    "address": "神奈川県横須賀市船越町五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1222,7 +1222,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.2867148,
     "lng": 139.6427107,
     "transfers": [],
-    "address": "神奈川県安針塚駅",
+    "address": "神奈川県横須賀市長浦町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1249,7 +1249,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.2805479,
     "lng": 139.6528612,
     "transfers": [],
-    "address": "神奈川県逸見駅",
+    "address": "神奈川県横須賀市東逸見町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1276,7 +1276,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.280342,
     "lng": 139.6631899,
     "transfers": [],
-    "address": "神奈川県汐入駅",
+    "address": "神奈川県横須賀市本町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1306,7 +1306,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.2788905,
     "lng": 139.6696496,
     "transfers": [],
-    "address": "神奈川県横須賀中央駅",
+    "address": "神奈川県横須賀市若松町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1337,7 +1337,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.2696787,
     "lng": 139.6772004,
     "transfers": [],
-    "address": "神奈川県県立大学駅",
+    "address": "神奈川県横須賀市安浦町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1366,7 +1366,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "京急久里浜線"
     ],
-    "address": "神奈川県堀ノ内駅",
+    "address": "神奈川県横須賀市三春町四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1398,7 +1398,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.2607051,
     "lng": 139.6961551,
     "transfers": [],
-    "address": "神奈川県京急大津駅",
+    "address": "神奈川県横須賀市大津町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1427,7 +1427,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.259531,
     "lng": 139.708839,
     "transfers": [],
-    "address": "神奈川県馬堀海岸駅",
+    "address": "神奈川県横須賀市馬堀町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1456,7 +1456,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "lat": 35.2519004,
     "lng": 139.715055,
     "transfers": [],
-    "address": "神奈川県浦賀駅",
+    "address": "神奈川県横須賀市浦賀一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

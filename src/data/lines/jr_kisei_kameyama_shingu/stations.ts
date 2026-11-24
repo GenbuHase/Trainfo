@@ -13,15 +13,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ関西本線"
     ],
-    "address": "",
+    "address": "三重県亀山市御幸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -42,15 +40,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.81358,
     "lng": 136.47964,
     "transfers": [],
-    "address": "",
+    "address": "三重県亀山市下庄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -71,15 +67,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.76215,
     "lng": 136.49956,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市大里窪田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -103,15 +97,15 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "近鉄名古屋線",
       "伊勢鉄道"
     ],
-    "address": "",
+    "address": "三重県津市羽所町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -132,15 +126,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.70241,
     "lng": 136.50488,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市西阿漕町岩田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -161,15 +153,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.66831,
     "lng": 136.51324,
     "transfers": [],
-    "address": "",
+    "address": "三重県津市高茶屋小森町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -190,15 +180,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.61851,
     "lng": 136.50752,
     "transfers": [],
-    "address": "",
+    "address": "三重県松阪市小津町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -222,15 +210,15 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "ＪＲ名松線",
       "近鉄山田線"
     ],
-    "address": "",
+    "address": "三重県松阪市京町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -251,15 +239,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.55334,
     "lng": 136.55386,
     "transfers": [],
-    "address": "",
+    "address": "三重県松阪市下村町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -282,15 +268,15 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ参宮線"
     ],
-    "address": "",
+    "address": "三重県多気町多気",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -311,15 +297,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.50367,
     "lng": 136.54653,
     "transfers": [],
-    "address": "",
+    "address": "三重県多気町相可",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -340,15 +324,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.47887,
     "lng": 136.53979,
     "transfers": [],
-    "address": "",
+    "address": "三重県多気町平谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -369,15 +351,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.4451,
     "lng": 136.50891,
     "transfers": [],
-    "address": "",
+    "address": "三重県大台町栃原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -398,15 +378,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.42022,
     "lng": 136.47452,
     "transfers": [],
-    "address": "",
+    "address": "三重県大台町上楠",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -427,14 +405,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.39443,
     "lng": 136.40812,
     "transfers": [],
-    "address": "",
+    "address": "三重県大台町佐原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": false,
@@ -456,15 +433,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.36087,
     "lng": 136.41264,
     "transfers": [],
-    "address": "",
+    "address": "三重県大台町大ヶ所",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -485,15 +460,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.33067,
     "lng": 136.41093,
     "transfers": [],
-    "address": "",
+    "address": "三重県大紀町阿曽",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -514,15 +487,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.30011,
     "lng": 136.39487,
     "transfers": [],
-    "address": "",
+    "address": "三重県大紀町崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -543,15 +514,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.27789,
     "lng": 136.35886,
     "transfers": [],
-    "address": "",
+    "address": "三重県大紀町大内山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -572,15 +541,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.25752,
     "lng": 136.35646,
     "transfers": [],
-    "address": "",
+    "address": "三重県大紀町大内山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -601,14 +568,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.20911,
     "lng": 136.33941,
     "transfers": [],
-    "address": "",
+    "address": "三重県紀北町東長島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": false,
@@ -630,15 +596,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.16818,
     "lng": 136.28318,
     "transfers": [],
-    "address": "",
+    "address": "三重県紀北町三浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -659,15 +623,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.14228,
     "lng": 136.22956,
     "transfers": [],
-    "address": "",
+    "address": "三重県紀北町上里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -688,15 +650,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.11259,
     "lng": 136.22676,
     "transfers": [],
-    "address": "",
+    "address": "三重県紀北町相賀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -717,14 +677,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.07366,
     "lng": 136.19018,
     "transfers": [],
-    "address": "",
+    "address": "三重県尾鷲市中村町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -746,15 +705,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.06202,
     "lng": 136.22366,
     "transfers": [],
-    "address": "",
+    "address": "三重県尾鷲市大字大曽根浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -775,15 +732,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.01547,
     "lng": 136.24237,
     "transfers": [],
-    "address": "",
+    "address": "三重県尾鷲市九鬼町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -804,15 +759,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 34.00142,
     "lng": 136.20215,
     "transfers": [],
-    "address": "",
+    "address": "三重県尾鷲市三木里町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -833,15 +786,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.97131,
     "lng": 136.19023,
     "transfers": [],
-    "address": "",
+    "address": "三重県尾鷲市曽根町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -862,15 +813,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.93912,
     "lng": 136.1806,
     "transfers": [],
-    "address": "",
+    "address": "三重県熊野市二木島町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -891,15 +840,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.92739,
     "lng": 136.14457,
     "transfers": [],
-    "address": "",
+    "address": "三重県熊野市新鹿町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -920,15 +867,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.90992,
     "lng": 136.13762,
     "transfers": [],
-    "address": "",
+    "address": "三重県熊野市波田須町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -949,15 +894,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.90194,
     "lng": 136.11736,
     "transfers": [],
-    "address": "",
+    "address": "三重県熊野市大泊町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -978,14 +921,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.88913,
     "lng": 136.09834,
     "transfers": [],
-    "address": "",
+    "address": "三重県熊野市井戸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -1007,15 +949,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.87592,
     "lng": 136.08538,
     "transfers": [],
-    "address": "",
+    "address": "三重県熊野市有馬町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1036,15 +976,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.83915,
     "lng": 136.062,
     "transfers": [],
-    "address": "",
+    "address": "三重県御浜町大字下市木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1065,15 +1003,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.82769,
     "lng": 136.05524,
     "transfers": [],
-    "address": "",
+    "address": "三重県御浜町大字下市木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1094,15 +1030,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.8042,
     "lng": 136.04202,
     "transfers": [],
-    "address": "",
+    "address": "三重県御浜町大字阿田和",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1123,15 +1057,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.75962,
     "lng": 136.02383,
     "transfers": [],
-    "address": "",
+    "address": "三重県紀宝町井田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1152,15 +1084,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "lat": 33.73638,
     "lng": 136.0151,
     "transfers": [],
-    "address": "",
+    "address": "三重県紀宝町鵜殿",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1183,14 +1113,13 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲきのくに線"
     ],
-    "address": "",
+    "address": "和歌山県新宮市徐福二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,

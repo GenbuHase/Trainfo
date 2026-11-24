@@ -11,7 +11,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "lat": 37.6993912,
     "lng": 138.8323896,
     "transfers": [],
-    "address": "新潟県弥彦駅",
+    "address": "新潟県弥彦村大字弥彦",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -38,7 +38,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "lat": 37.6904888,
     "lng": 138.8520192,
     "transfers": [],
-    "address": "新潟県矢作駅",
+    "address": "新潟県弥彦村大字矢作",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -66,7 +66,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ越後線"
     ],
-    "address": "新潟県吉田駅",
+    "address": "新潟県燕市吉田堤町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -93,7 +93,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "lat": 37.6800991,
     "lng": 138.9089088,
     "transfers": [],
-    "address": "新潟県西燕駅",
+    "address": "新潟県燕市花見",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -119,7 +119,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "lat": 37.6674953,
     "lng": 138.9295941,
     "transfers": [],
-    "address": "新潟県燕駅",
+    "address": "新潟県燕市本町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -148,7 +148,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ上越新幹線"
     ],
-    "address": "新潟県燕三条駅",
+    "address": "新潟県三条市下須頃497",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -175,7 +175,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "lat": 37.6325847,
     "lng": 138.9563653,
     "transfers": [],
-    "address": "新潟県北三条駅",
+    "address": "新潟県三条市元町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -203,7 +203,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ信越本線"
     ],
-    "address": "新潟県東三条駅",
+    "address": "新潟県三条市東三条一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

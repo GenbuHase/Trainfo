@@ -13,7 +13,7 @@ export const NARITA_STATIONS: Station[] = [
     "transfers": [
       "JR総武本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県佐倉市六崎",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.73119,
     "lng": 140.27495,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県酒々井町酒々井",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -72,7 +72,7 @@ export const NARITA_STATIONS: Station[] = [
       "京成本線",
       "京成東成田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県成田市花崎町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -101,7 +101,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.83249,
     "lng": 140.33967,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県成田市幡谷",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -127,7 +127,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.87646,
     "lng": 140.34728,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県成田市猿山",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -153,7 +153,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.89458,
     "lng": 140.40971,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県神崎町郡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -179,7 +179,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.88944,
     "lng": 140.45673,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県香取市大戸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -207,7 +207,7 @@ export const NARITA_STATIONS: Station[] = [
     "transfers": [
       "JR鹿島線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県香取市佐原イ",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -237,7 +237,7 @@ export const NARITA_STATIONS: Station[] = [
     "transfers": [
       "JR鹿島線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県香取市津宮",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -263,7 +263,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.88491,
     "lng": 140.57076,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県香取市一ノ分目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -289,7 +289,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.84969,
     "lng": 140.60544,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県香取市小見川",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -315,7 +315,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.83993,
     "lng": 140.65527,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県東庄町笹川い",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -341,7 +341,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.81822,
     "lng": 140.70236,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県東庄町石出",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -367,7 +367,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.79245,
     "lng": 140.72145,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市笹本町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -393,7 +393,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.76481,
     "lng": 140.75978,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市野尻町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -421,7 +421,7 @@ export const NARITA_STATIONS: Station[] = [
     "transfers": [
       "JR総武本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市長塚町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -450,7 +450,7 @@ export const NARITA_STATIONS: Station[] = [
       "JR総武本線",
       "銚子電鉄"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市西芝町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -480,7 +480,7 @@ export const NARITA_STATIONS: Station[] = [
       "京成本線",
       "成田スカイアクセス線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県成田市古込",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -511,9 +511,9 @@ export const NARITA_STATIONS: Station[] = [
     "lng": 140.38551,
     "transfers": [
       "京成本線",
-      "成田スカイアクセス線"
+      "京成成田スカイアクセス線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県成田市天浪",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -546,7 +546,7 @@ export const NARITA_STATIONS: Station[] = [
       "JR常磐線快速",
       "JR常磐線各駅停車"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県我孫子市本町二丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -573,7 +573,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.86907,
     "lng": 140.04873,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県我孫子市下ケ戸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -599,7 +599,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.86703,
     "lng": 140.07914,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県我孫子市中里",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -625,7 +625,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.8625,
     "lng": 140.10804,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県我孫子市新木",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -651,7 +651,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.84839,
     "lng": 140.13339,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県我孫子市布佐",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -677,7 +677,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.83898,
     "lng": 140.1493,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県印西市木下",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -703,7 +703,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.83005,
     "lng": 140.19411,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県印西市小林",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -729,7 +729,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.83526,
     "lng": 140.24343,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県栄町安食",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -755,7 +755,7 @@ export const NARITA_STATIONS: Station[] = [
     "lat": 35.80717,
     "lng": 140.27849,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県成田市大竹",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -14,7 +14,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
       "JR東北本線（仙台～一ノ関）",
       "JR陸羽東線"
     ],
-    "address": "宮城県小牛田駅周辺",
+    "address": "宮城県美里町字藤ケ崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.5492627,
     "lng": 141.0993993,
     "transfers": [],
-    "address": "宮城県上涌谷駅周辺",
+    "address": "宮城県涌谷町字掃部沖名",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.5377483,
     "lng": 141.1278028,
     "transfers": [],
-    "address": "宮城県涌谷駅周辺",
+    "address": "宮城県涌谷町字新町裏",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "transfers": [
       "JR気仙沼線"
     ],
-    "address": "宮城県前谷地駅周辺",
+    "address": "宮城県石巻市前谷地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4979581,
     "lng": 141.2395823,
     "transfers": [],
-    "address": "宮城県佳景山駅周辺",
+    "address": "宮城県石巻市鹿又",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4858262,
     "lng": 141.2828856,
     "transfers": [],
-    "address": "宮城県鹿又駅周辺",
+    "address": "宮城県石巻市鹿又",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -181,7 +181,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4657712,
     "lng": 141.287946,
     "transfers": [],
-    "address": "宮城県曽波神駅周辺",
+    "address": "宮城県石巻市鹿又",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -211,7 +211,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
       "JR仙石線",
       "JR仙石東北ライン"
     ],
-    "address": "宮城県石巻駅周辺",
+    "address": "宮城県石巻市鋳銭場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -239,7 +239,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4454259,
     "lng": 141.3350339,
     "transfers": [],
-    "address": "宮城県陸前稲井駅周辺",
+    "address": "宮城県石巻市井内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -267,7 +267,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.419843,
     "lng": 141.3650127,
     "transfers": [],
-    "address": "宮城県渡波駅周辺",
+    "address": "宮城県石巻市渡波町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -295,7 +295,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4290947,
     "lng": 141.3690561,
     "transfers": [],
-    "address": "宮城県万石浦駅周辺",
+    "address": "宮城県石巻市流留",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -323,7 +323,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4323145,
     "lng": 141.382387,
     "transfers": [],
-    "address": "宮城県沢田駅周辺",
+    "address": "宮城県石巻市沢田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -351,7 +351,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.436569,
     "lng": 141.4214896,
     "transfers": [],
-    "address": "宮城県浦宿駅周辺",
+    "address": "宮城県女川町浦宿浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -379,7 +379,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     "lat": 38.4468109,
     "lng": 141.4435933,
     "transfers": [],
-    "address": "宮城県女川駅周辺",
+    "address": "宮城県女川町女川二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

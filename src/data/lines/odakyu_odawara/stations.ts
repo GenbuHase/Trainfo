@@ -31,8 +31,6 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp",
       "express",
       "commuter_exp",
       "rapid_exp",
@@ -154,8 +152,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express",
       "commuter_exp",
-      "rapid_exp",
-      "limited_exp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -359,7 +356,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "semi_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -386,7 +384,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "semi_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -446,7 +445,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "semi_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -473,7 +473,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "semi_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -500,7 +501,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "semi_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -533,7 +535,6 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "semi_exp",
       "commuter_semi_exp",
       "express",
-      "commuter_exp",
       "rapid_exp"
     ],
     "platforms": {
@@ -566,8 +567,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "semi_exp",
       "commuter_semi_exp",
       "express",
-      "commuter_exp",
-      "limited_exp"
+      "commuter_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -720,7 +720,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -749,7 +750,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -778,7 +780,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -877,7 +880,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -906,7 +910,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -935,7 +940,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1002,7 +1008,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_exp",
-      "commuter_semi_exp"
+      "commuter_semi_exp",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1063,9 +1070,9 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
-      "rapid_exp"
+      "rapid_exp",
+      "commuter_semi_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1093,10 +1100,10 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
       "rapid_exp",
-      "limited_exp"
+      "limited_exp",
+      "commuter_semi_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -1125,7 +1132,6 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
       "rapid_exp"
     ],
@@ -1155,7 +1161,6 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
       "rapid_exp"
     ],
@@ -1185,7 +1190,6 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
       "rapid_exp",
       "limited_exp"
@@ -1217,7 +1221,6 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
       "rapid_exp"
     ],
@@ -1249,10 +1252,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
       "express",
-      "rapid_exp",
-      "limited_exp"
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -1281,7 +1282,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express"
+      "express",
+      "rapid_exp"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1308,7 +1310,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1335,7 +1338,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1362,7 +1366,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -1389,7 +1394,8 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "express"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -1409,7 +1415,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線",
       "JR東海道新幹線",
-      "箱根登山電車",
+      "小田急箱根鉄道線（箱根登山電車）",
       "伊豆箱根鉄道大雄山線"
     ],
     "address": "神奈川県小田原市栄町一丁目1-1",

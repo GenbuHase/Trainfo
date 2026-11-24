@@ -5,7 +5,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-01",
     "stationNumber": "Y-01",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 1,
     "name": "和光市",
     "nameKana": "わこうし",
@@ -36,7 +36,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-02",
     "stationNumber": "Y-02",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 2,
     "name": "地下鉄成増",
     "nameKana": "ちかてつなります",
@@ -67,7 +67,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-03",
     "stationNumber": "Y-03",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 3,
     "name": "地下鉄赤塚",
     "nameKana": "ちかてつあかつか",
@@ -98,7 +98,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-04",
     "stationNumber": "Y-04",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 4,
     "name": "平和台",
     "nameKana": "へいわだい",
@@ -128,7 +128,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-05",
     "stationNumber": "Y-05",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 5,
     "name": "氷川台",
     "nameKana": "ひかわだい",
@@ -158,7 +158,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-06",
     "stationNumber": "Y-06",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 6,
     "name": "小竹向原",
     "nameKana": "こたけむかいはら",
@@ -189,7 +189,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-07",
     "stationNumber": "Y-07",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 7,
     "name": "千川",
     "nameKana": "せんかわ",
@@ -219,7 +219,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-08",
     "stationNumber": "Y-08",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 8,
     "name": "要町",
     "nameKana": "かなめちょう",
@@ -249,7 +249,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-09",
     "stationNumber": "Y-09",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 9,
     "name": "池袋",
     "nameKana": "いけぶくろ",
@@ -285,7 +285,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-10",
     "stationNumber": "Y-10",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 10,
     "name": "東池袋",
     "nameKana": "ひがしいけぶくろ",
@@ -315,7 +315,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-11",
     "stationNumber": "Y-11",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 11,
     "name": "護国寺",
     "nameKana": "ごこくじ",
@@ -343,7 +343,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-12",
     "stationNumber": "Y-12",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 12,
     "name": "江戸川橋",
     "nameKana": "えどがわばし",
@@ -371,7 +371,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-13",
     "stationNumber": "Y-13",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 13,
     "name": "飯田橋",
     "nameKana": "いいだばし",
@@ -405,7 +405,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-14",
     "stationNumber": "Y-14",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 14,
     "name": "市ケ谷",
     "nameKana": "いちがや",
@@ -437,7 +437,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-15",
     "stationNumber": "Y-15",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 15,
     "name": "麹町",
     "nameKana": "こうじまち",
@@ -465,7 +465,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-16",
     "stationNumber": "Y-16",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 16,
     "name": "永田町",
     "nameKana": "ながたちょう",
@@ -497,7 +497,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-17",
     "stationNumber": "Y-17",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 17,
     "name": "桜田門",
     "nameKana": "さくらだもん",
@@ -525,7 +525,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-18",
     "stationNumber": "Y-18",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 18,
     "name": "有楽町",
     "nameKana": "ゆうらくちょう",
@@ -558,7 +558,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-19",
     "stationNumber": "Y-19",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 19,
     "name": "銀座一丁目",
     "nameKana": "ぎんざいっちょうめ",
@@ -588,7 +588,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-20",
     "stationNumber": "Y-20",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 20,
     "name": "新富町",
     "nameKana": "しんとみちょう",
@@ -618,7 +618,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-21",
     "stationNumber": "Y-21",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 21,
     "name": "月島",
     "nameKana": "つきしま",
@@ -648,7 +648,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-22",
     "stationNumber": "Y-22",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 22,
     "name": "豊洲",
     "nameKana": "とよす",
@@ -679,7 +679,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-23",
     "stationNumber": "Y-23",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 23,
     "name": "辰巳",
     "nameKana": "たつみ",
@@ -707,7 +707,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-24",
     "stationNumber": "Y-24",
-    "lineId": "yurakucho",
+    "lineId": "tokyo_metro_yurakucho",
     "number": 24,
     "name": "新木場",
     "nameKana": "しんきば",

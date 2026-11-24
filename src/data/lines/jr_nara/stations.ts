@@ -12,7 +12,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.98513,
     "lng": 135.75748,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市下京区東塩小路釜殿町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -28,8 +28,8 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "miyako_rapid",
+      "limited_exp"
     ]
   },
   {
@@ -43,7 +43,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.98093,
     "lng": 135.76985,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市東山区福稲岸ノ上町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -59,7 +59,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -74,7 +73,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.96621,
     "lng": 135.77091,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市伏見区深草稲荷御前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -90,7 +89,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -105,7 +103,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.94736,
     "lng": 135.77528,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市伏見区深草大亀谷大山町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,10 +117,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -136,7 +131,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.93234,
     "lng": 135.77291,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市伏見区桃山町松平武蔵",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -150,10 +145,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -167,7 +159,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.9326,
     "lng": 135.7979,
     "transfers": [],
-    "address": "",
+    "address": "京都府宇治市六地藏",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -183,7 +175,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -198,7 +189,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.92424,
     "lng": 135.79882,
     "transfers": [],
-    "address": "",
+    "address": "京都府宇治市木幡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -212,10 +203,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -229,7 +217,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.91227,
     "lng": 135.80387,
     "transfers": [],
-    "address": "",
+    "address": "京都府宇治市五ケ庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -243,10 +231,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -260,7 +245,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.89008,
     "lng": 135.80021,
     "transfers": [],
-    "address": "",
+    "address": "京都府宇治市宇治",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -276,8 +261,8 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "miyako_rapid",
+      "limited_exp"
     ]
   },
   {
@@ -291,7 +276,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.88895,
     "lng": 135.78557,
     "transfers": [],
-    "address": "",
+    "address": "京都府宇治市小倉町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -307,7 +292,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -322,7 +306,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.87385,
     "lng": 135.7807,
     "transfers": [],
-    "address": "",
+    "address": "京都府宇治市広野町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -338,7 +322,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -353,7 +336,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.85513,
     "lng": 135.78134,
     "transfers": [],
-    "address": "",
+    "address": "京都府城陽市寺田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,7 +352,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -384,7 +366,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.84214,
     "lng": 135.79036,
     "transfers": [],
-    "address": "",
+    "address": "京都府城陽市長池",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -399,9 +381,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -415,7 +395,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.82787,
     "lng": 135.80043,
     "transfers": [],
-    "address": "",
+    "address": "京都府城陽市市辺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -430,9 +410,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -446,7 +424,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.81724,
     "lng": 135.8064,
     "transfers": [],
-    "address": "",
+    "address": "京都府井手町大字多賀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -461,9 +439,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -477,7 +453,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.80014,
     "lng": 135.80698,
     "transfers": [],
-    "address": "",
+    "address": "京都府井手町大字井手",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -493,7 +469,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -508,7 +483,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.77427,
     "lng": 135.816,
     "transfers": [],
-    "address": "",
+    "address": "京都府木津川市山城町平尾",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -523,9 +498,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -539,7 +512,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.7499,
     "lng": 135.82153,
     "transfers": [],
-    "address": "",
+    "address": "京都府木津川市山城町上狛",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -554,9 +527,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -570,7 +541,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.73686,
     "lng": 135.8249,
     "transfers": [],
-    "address": "",
+    "address": "京都府木津川市木津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -601,7 +572,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.71002,
     "lng": 135.80981,
     "transfers": [],
-    "address": "",
+    "address": "奈良県奈良市佐保台一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -617,8 +588,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "rapid"
     ]
   },
   {
@@ -632,7 +602,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "lat": 34.68162,
     "lng": 135.81941,
     "transfers": [],
-    "address": "",
+    "address": "奈良県奈良市三条本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -649,7 +619,8 @@ export const JR_NARA_STATIONS: Station[] = [
       "local",
       "semi_rapid",
       "rapid",
-      "miyako_rapid"
+      "miyako_rapid",
+      "limited_exp"
     ]
   }
 ];

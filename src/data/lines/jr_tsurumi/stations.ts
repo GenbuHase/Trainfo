@@ -14,7 +14,7 @@ export const TSURUMI_STATIONS: Station[] = [
       "JR京浜東北線",
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区鶴見中央一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.50057,
     "lng": 139.67597,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区生麦五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -69,7 +69,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.49733,
     "lng": 139.68097,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区小野町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -96,7 +96,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.49592,
     "lng": 139.69003,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区弁天町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -123,7 +123,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.49771,
     "lng": 139.69598,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区弁天町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -150,7 +150,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.4997,
     "lng": 139.70088,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区安善町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -177,7 +177,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.50181,
     "lng": 139.70619,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区白石町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -206,7 +206,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "transfers": [
       "JR南武線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区南渡田町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -234,7 +234,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.5072,
     "lng": 139.72381,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区扇町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -261,7 +261,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.50145,
     "lng": 139.7223,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区扇町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -289,7 +289,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.4915,
     "lng": 139.7004,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区末広町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -316,7 +316,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.48597,
     "lng": 139.70029,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県横浜市鶴見区末広町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -344,7 +344,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "lat": 35.49514,
     "lng": 139.71157,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区大川町",
     "facilities": {
       "elevator": true,
       "restroom": true,

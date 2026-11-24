@@ -11,22 +11,21 @@ export const AIZU_STATIONS: Station[] = [
     "lat": 37.0900108,
     "lng": 139.7053594,
     "transfers": [
-      "野岩鉄道会津鬼怒川線",
-      "会津鉄道会津線"
+      "野岩鉄道会津鬼怒川線"
     ],
     "address": "福島県南会津郡南会津町滝原字羽根原",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
       "rapid",
       "limited_exp",
-      "aizu_ozatoro"
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -43,19 +42,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Nanatsugatake-Tozanguchi",
     "lat": 37.1241018,
     "lng": 139.717334,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町糸沢字下平",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -72,19 +70,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Aizu-Sanson-Dojo",
     "lat": 37.1448708,
     "lng": 139.7320494,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町糸沢字今泉",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -101,19 +98,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Aizu-Arakai",
     "lat": 37.1534056,
     "lng": 139.7337399,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町関本字百刈",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -130,19 +126,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Naka-Arai",
     "lat": 37.1802912,
     "lng": 139.7509627,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町中荒井字長宿",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -159,22 +154,21 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Aizu-Tajima",
     "lat": 37.2033415,
     "lng": 139.7742598,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町田島字西町甲",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
       "rapid",
       "limited_exp",
-      "aizu_ozatoro"
+      "aizu_ozatoro",
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -191,19 +185,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Tajima-Kokomae",
     "lat": 37.2096156,
     "lng": 139.8007239,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町田島字田島裏",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -220,19 +213,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Aizu-Nagano",
     "lat": 37.215269,
     "lng": 139.8238737,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡南会津町長野字下川原",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -249,19 +241,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Yoson-Koen",
     "lat": 37.2245222,
     "lng": 139.8417837,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡下郷町大字落合字下ノ原",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -278,19 +269,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Furusato-Koen",
     "lat": 37.2431317,
     "lng": 139.8589422,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡下郷町大字沢田字下林",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -307,15 +297,13 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Aizu-Shimogo",
     "lat": 37.2551492,
     "lng": 139.8649061,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡下郷町大字豊成字下モ",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -338,19 +326,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Yagoshima",
     "lat": 37.2664369,
     "lng": 139.8900924,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡下郷町大字弥五島字寺下",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -367,20 +354,19 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Tonohetsuri",
     "lat": 37.274789,
     "lng": 139.9016766,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡下郷町大字弥五島字下林",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "aizu_ozatoro"
+      "aizu_ozatoro",
+      "rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -397,14 +383,12 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Yunokami-Onsen",
     "lat": 37.3039977,
     "lng": 139.89514,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県南会津郡下郷町大字湯野上字大島",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     },
@@ -428,19 +412,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Ashinomaki-Onsen-Minami",
     "lat": 37.3346097,
     "lng": 139.9187333,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県会津若松市大戸町大字大川乙",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -457,19 +440,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Okawa-Dam-Koen",
     "lat": 37.347152,
     "lng": 139.920871,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県会津若松市大戸町大字大川甲",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -486,12 +468,10 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Ashinomaki-Onsen",
     "lat": 37.3955469,
     "lng": 139.9322392,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県会津若松市大戸町大字上三寄乙",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
@@ -517,19 +497,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Amaya",
     "lat": 37.4167365,
     "lng": 139.9176788,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県会津若松市大戸町大字雨屋",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -546,19 +525,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Monden",
     "lat": 37.4423911,
     "lng": 139.9137528,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県会津若松市門田町大字面川",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -575,19 +553,18 @@ export const AIZU_STATIONS: Station[] = [
     "nameEn": "Minami-Wakamatsu",
     "lat": 37.4591041,
     "lng": 139.9144772,
-    "transfers": [
-      "会津鉄道会津線"
-    ],
+    "transfers": [],
     "address": "福島県会津若松市門田町大字一ノ後",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -605,7 +582,6 @@ export const AIZU_STATIONS: Station[] = [
     "lat": 37.4859438,
     "lng": 139.9142758,
     "transfers": [
-      "会津鉄道会津線",
       "JR只見線"
     ],
     "address": "福島県会津若松市材木町一丁目9-1",
@@ -613,7 +589,7 @@ export const AIZU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

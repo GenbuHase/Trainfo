@@ -13,23 +13,22 @@ export const RYOMO_STATIONS: Station[] = [
     "transfers": [
       "JR宇都宮線",
       "JR水戸線",
-      "東北新幹線"
+      "JR東北新幹線"
     ],
-    "address": "群馬県/栃木県",
+    "address": "栃木県小山市城山町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -43,22 +42,21 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3506655,
     "lng": 139.7818838,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県小山市大字大本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -73,21 +71,20 @@ export const RYOMO_STATIONS: Station[] = [
     "transfers": [
       "東武日光線"
     ],
-    "address": "群馬県/栃木県",
+    "address": "栃木県栃木市沼和田町1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -101,22 +98,21 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3442887,
     "lng": 139.6972165,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県栃木市大平町富田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -129,22 +125,21 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3266804,
     "lng": 139.6577238,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県栃木市岩舟町静",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -159,21 +154,20 @@ export const RYOMO_STATIONS: Station[] = [
     "transfers": [
       "東武佐野線"
     ],
-    "address": "群馬県/栃木県",
+    "address": "栃木県佐野市若松町488",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -187,21 +181,20 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3161615,
     "lng": 139.5288074,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県足利市多田木町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -215,22 +208,21 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3151578,
     "lng": 139.5183925,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県足利市迫間町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -243,21 +235,20 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3319671,
     "lng": 139.4562493,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県足利市伊勢町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -271,22 +262,21 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.347362,
     "lng": 139.4112837,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県足利市鹿島町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -299,21 +289,20 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3751771,
     "lng": 139.3741668,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "栃木県足利市小俣町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -329,21 +318,20 @@ export const RYOMO_STATIONS: Station[] = [
     "transfers": [
       "わたらせ渓谷線"
     ],
-    "address": "群馬県/栃木県",
+    "address": "群馬県桐生市末広町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -357,21 +345,20 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3590487,
     "lng": 139.2423029,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "群馬県伊勢崎市国定町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -387,21 +374,20 @@ export const RYOMO_STATIONS: Station[] = [
     "transfers": [
       "東武伊勢崎線"
     ],
-    "address": "群馬県/栃木県",
+    "address": "群馬県伊勢崎市曲輪町2-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -415,21 +401,20 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3541169,
     "lng": 139.1397662,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "群馬県前橋市小屋原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -443,21 +428,20 @@ export const RYOMO_STATIONS: Station[] = [
     "lat": 36.3705515,
     "lng": 139.1096721,
     "transfers": [],
-    "address": "群馬県/栃木県",
+    "address": "群馬県前橋市天川大島町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -475,21 +459,20 @@ export const RYOMO_STATIONS: Station[] = [
       "JR上野東京ライン",
       "JR湘南新宿ライン"
     ],
-    "address": "群馬県/栃木県",
+    "address": "群馬県前橋市表町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -507,14 +490,13 @@ export const RYOMO_STATIONS: Station[] = [
       "JR上越線",
       "JR吾妻線"
     ],
-    "address": "群馬県/栃木県",
+    "address": "群馬県前橋市古市町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

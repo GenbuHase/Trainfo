@@ -1,5 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
-import { JR_RAPID_PRESETS, LIMITED_EXP_PRESETS } from '../../trainTypePresets';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const JOBAN_TORIDE_IWAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -12,8 +12,6 @@ export const JOBAN_TORIDE_IWAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0071c5',
     borderColor: '#005596',
   },
-  special_rapid: JR_RAPID_PRESETS.JOBAN_SPECIAL_RAPID,
-  limited_exp: LIMITED_EXP_PRESETS.JOBAN,
   // 既存コード・ダイヤデータ互換用
   limited_express: LIMITED_EXP_PRESETS.JOBAN,
 };

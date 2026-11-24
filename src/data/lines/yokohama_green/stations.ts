@@ -14,7 +14,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ横浜線"
     ],
-    "address": "神奈川県中山駅",
+    "address": "神奈川県横浜市緑区中山一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -69,7 +69,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "lat": 35.5368066,
     "lng": 139.5618768,
     "transfers": [],
-    "address": "神奈川県都筑ふれあいの丘駅",
+    "address": "神奈川県横浜市都筑区葛が谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -98,7 +98,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "神奈川県センター南駅",
+    "address": "神奈川県横浜市都筑区茅ケ崎中央",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -128,7 +128,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "神奈川県センター北駅",
+    "address": "神奈川県横浜市都筑区中川中央一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -156,7 +156,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "lat": 35.5610805,
     "lng": 139.5924908,
     "transfers": [],
-    "address": "神奈川県北山田駅",
+    "address": "神奈川県横浜市都筑区北山田一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -183,7 +183,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "lat": 35.5540894,
     "lng": 139.6064275,
     "transfers": [],
-    "address": "神奈川県東山田駅",
+    "address": "神奈川県横浜市都筑区東山田町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -210,7 +210,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
     "lat": 35.549163,
     "lng": 139.6213793,
     "transfers": [],
-    "address": "神奈川県高田駅",
+    "address": "神奈川県横浜市港北区高田東三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -268,7 +268,7 @@ export const YOKOHAMA_GREEN_STATIONS: Station[] = [
       "東急目黒線",
       "東急新横浜線"
     ],
-    "address": "神奈川県日吉駅",
+    "address": "神奈川県横浜市港北区日吉二丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,

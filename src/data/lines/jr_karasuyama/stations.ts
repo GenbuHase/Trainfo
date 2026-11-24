@@ -13,7 +13,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ宇都宮線"
     ],
-    "address": "栃木県宝積寺駅",
+    "address": "栃木県塩谷郡高根沢町大字宝積寺",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.6501489,
     "lng": 140.0090408,
     "transfers": [],
-    "address": "栃木県下野花岡駅",
+    "address": "栃木県高根沢町大字花岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -66,7 +66,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.6573083,
     "lng": 140.0300702,
     "transfers": [],
-    "address": "栃木県仁井田駅",
+    "address": "栃木県高根沢町大字文挾",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -92,7 +92,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.666555,
     "lng": 140.0520853,
     "transfers": [],
-    "address": "栃木県鴻野山駅",
+    "address": "栃木県那須烏山市鴻野山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -118,7 +118,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.6560183,
     "lng": 140.0959633,
     "transfers": [],
-    "address": "栃木県大金駅",
+    "address": "栃木県那須烏山市大金",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -144,7 +144,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.6427891,
     "lng": 140.116924,
     "transfers": [],
-    "address": "栃木県小塙駅",
+    "address": "栃木県那須烏山市小塙",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -170,7 +170,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.6488345,
     "lng": 140.1379301,
     "transfers": [],
-    "address": "栃木県滝駅",
+    "address": "栃木県那須烏山市滝",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -196,7 +196,7 @@ export const JR_KARASUYAMA_STATIONS: Station[] = [
     "lat": 36.6498256,
     "lng": 140.1547735,
     "transfers": [],
-    "address": "栃木県烏山駅",
+    "address": "栃木県那須烏山市南二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

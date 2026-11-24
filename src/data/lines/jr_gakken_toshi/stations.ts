@@ -15,14 +15,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "ＪＲ大和路線",
       "ＪＲ奈良線"
     ],
-    "address": "",
+    "address": "京都府木津川市木津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -46,14 +45,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.738,
     "lng": 135.80286,
     "transfers": [],
-    "address": "",
+    "address": "京都府木津川市相楽",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -77,14 +75,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.75985,
     "lng": 135.79205,
     "transfers": [],
-    "address": "",
+    "address": "京都府精華町大字祝園",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -108,14 +105,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.78022,
     "lng": 135.78862,
     "transfers": [],
-    "address": "",
+    "address": "京都府精華町大字下狛",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -139,14 +135,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.79899,
     "lng": 135.78427,
     "transfers": [],
-    "address": "",
+    "address": "京都府京田辺市三山木中央一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -170,14 +165,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.8053,
     "lng": 135.77865,
     "transfers": [],
-    "address": "",
+    "address": "京都府京田辺市三山木垣ノ内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -201,14 +195,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.82071,
     "lng": 135.76895,
     "transfers": [],
-    "address": "",
+    "address": "京都府京田辺市田辺中央四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -232,14 +225,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.83074,
     "lng": 135.7503,
     "transfers": [],
-    "address": "",
+    "address": "京都府京田辺市大住丸山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -263,14 +255,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.83374,
     "lng": 135.72784,
     "transfers": [],
-    "address": "",
+    "address": "京都府京田辺市山手中央",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -294,14 +285,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.82617,
     "lng": 135.71339,
     "transfers": [],
-    "address": "",
+    "address": "大阪府枚方市長尾元町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -325,14 +315,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.81479,
     "lng": 135.7029,
     "transfers": [],
-    "address": "",
+    "address": "大阪府枚方市藤阪南町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -356,14 +345,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.80188,
     "lng": 135.69804,
     "transfers": [],
-    "address": "",
+    "address": "大阪府枚方市津田駅前一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -387,14 +375,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.77668,
     "lng": 135.68502,
     "transfers": [],
-    "address": "",
+    "address": "大阪府交野市森南一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -418,14 +405,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.76762,
     "lng": 135.66408,
     "transfers": [],
-    "address": "",
+    "address": "大阪府交野市星田五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -449,14 +435,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.75583,
     "lng": 135.65337,
     "transfers": [],
-    "address": "",
+    "address": "大阪府寝屋川市打上元町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -480,14 +465,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.74595,
     "lng": 135.64544,
     "transfers": [],
-    "address": "",
+    "address": "大阪府四條畷市岡山東一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -511,14 +495,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.72963,
     "lng": 135.63922,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大東市学園町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -542,16 +525,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.71795,
     "lng": 135.63688,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大東市野崎一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -573,14 +553,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.70631,
     "lng": 135.62238,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大東市住道二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -604,16 +583,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.69897,
     "lng": 135.59681,
     "transfers": [],
-    "address": "",
+    "address": "大阪府東大阪市西鴻池町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -635,16 +611,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "lat": 34.69197,
     "lng": 135.581,
     "transfers": [],
-    "address": "",
+    "address": "大阪府東大阪市稲田上町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -668,14 +641,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲおおさか東線"
     ],
-    "address": "",
+    "address": "大阪府大阪市鶴見区放出東三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -702,16 +674,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "ＪＲおおさか東線",
       "OsakaMetro今里筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市城東区鴫野西五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -739,14 +708,13 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "京阪本線",
       "OsakaMetro長堀鶴見緑地線"
     ],
-    "address": "",
+    "address": "大阪府大阪市都島区片町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],

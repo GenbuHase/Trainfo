@@ -11,16 +11,6 @@ export const GOTEMBA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#449f44",
     "borderColor": "#449f44"
   },
-  "rapid": {
-    "key": "rapid",
-    "name": "快速",
-    "nameEn": "Rapid",
-    "shortName": "快速",
-    "color": "#0073bc",
-    "textColor": "#ffffff",
-    "bgColor": "#0073bc",
-    "borderColor": "#0073bc"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",

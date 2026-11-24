@@ -14,14 +14,13 @@ export const FUJIKYU_STATIONS: Station[] = [
     "transfers": [
       "JR中央本線"
     ],
-    "address": "",
+    "address": "山梨県大月市大月一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -44,7 +43,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.6097342,
     "lng": 138.9379836,
     "transfers": [],
-    "address": "",
+    "address": "山梨県大月市大月二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -55,10 +54,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -72,7 +71,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5939296,
     "lng": 138.931248,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市田野倉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -84,8 +83,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -100,7 +99,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5756529,
     "lng": 138.9296842,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市古川渡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -112,8 +111,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -128,7 +127,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5681329,
     "lng": 138.9186719,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市四日市場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -141,7 +140,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -156,22 +155,20 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5581034,
     "lng": 138.9074282,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市つる一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -186,7 +183,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5515268,
     "lng": 138.9049011,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市上谷一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -198,9 +195,9 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -214,22 +211,21 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5433946,
     "lng": 138.8980195,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市田原二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -244,7 +240,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5391903,
     "lng": 138.8889291,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市十日市場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -255,9 +251,9 @@ export const FUJIKYU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -272,7 +268,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5367716,
     "lng": 138.8715617,
     "transfers": [],
-    "address": "",
+    "address": "山梨県都留市桂町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -284,8 +280,8 @@ export const FUJIKYU_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -300,21 +296,20 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5245983,
     "lng": 138.8465324,
     "transfers": [],
-    "address": "",
+    "address": "山梨県西桂町小沼",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -329,7 +324,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5094381,
     "lng": 138.8268718,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士吉田市上暮地一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -340,10 +335,10 @@ export const FUJIKYU_STATIONS: Station[] = [
     "isMajor": false,
     "facilities": {
       "elevator": true,
-      "restroom": true,
+      "restroom": false,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -357,7 +352,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.5020365,
     "lng": 138.8120631,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士吉田市富士見四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -367,11 +362,11 @@ export const FUJIKYU_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
@@ -385,22 +380,21 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.4982047,
     "lng": 138.8052318,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士吉田市新町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -415,7 +409,7 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.4953877,
     "lng": 138.7993377,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士吉田市新町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -428,7 +422,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -443,19 +437,18 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.4836699,
     "lng": 138.7948338,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士吉田市上吉田二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
@@ -473,22 +466,21 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.4891037,
     "lng": 138.7824329,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士河口湖町船津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
+      "elevator": false,
+      "restroom": false,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -503,14 +495,13 @@ export const FUJIKYU_STATIONS: Station[] = [
     "lat": 35.4979748,
     "lng": 138.7701711,
     "transfers": [],
-    "address": "",
+    "address": "山梨県富士河口湖町船津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -518,7 +509,7 @@ export const FUJIKYU_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   }

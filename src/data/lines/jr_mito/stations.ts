@@ -15,7 +15,7 @@ export const JR_MITO_STATIONS: Station[] = [
       "ＪＲ宇都宮線",
       "ＪＲ両毛線"
     ],
-    "address": "栃木県小山駅",
+    "address": "栃木県小山市城山町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3007503,
     "lng": 139.8540142,
     "transfers": [],
-    "address": "茨城県小田林駅",
+    "address": "茨城県結城市大字小田林",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -68,7 +68,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.2982839,
     "lng": 139.8719334,
     "transfers": [],
-    "address": "茨城県結城駅",
+    "address": "茨城県結城市大字結城",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -94,7 +94,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.296701,
     "lng": 139.8908829,
     "transfers": [],
-    "address": "茨城県東結城駅",
+    "address": "茨城県結城市大字結城",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -120,7 +120,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.2959503,
     "lng": 139.91525,
     "transfers": [],
-    "address": "茨城県川島駅",
+    "address": "茨城県筑西市伊佐山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -146,7 +146,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.2985076,
     "lng": 139.9377497,
     "transfers": [],
-    "address": "茨城県玉戸駅",
+    "address": "茨城県筑西市伊讃美",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -175,7 +175,7 @@ export const JR_MITO_STATIONS: Station[] = [
       "関東鉄道常総線",
       "真岡鐵道真岡線"
     ],
-    "address": "茨城県下館駅",
+    "address": "茨城県筑西市乙",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -202,7 +202,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3276319,
     "lng": 140.0385105,
     "transfers": [],
-    "address": "茨城県新治駅",
+    "address": "茨城県筑西市新治",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -228,7 +228,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3457727,
     "lng": 140.0735369,
     "transfers": [],
-    "address": "茨城県大和駅",
+    "address": "茨城県桜川市高森",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -254,7 +254,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3595438,
     "lng": 140.107607,
     "transfers": [],
-    "address": "茨城県岩瀬駅",
+    "address": "茨城県桜川市犬田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -280,7 +280,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3554552,
     "lng": 140.1420671,
     "transfers": [],
-    "address": "茨城県羽黒駅",
+    "address": "茨城県桜川市友部",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -306,7 +306,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3512148,
     "lng": 140.1863875,
     "transfers": [],
-    "address": "茨城県福原駅",
+    "address": "茨城県笠間市福原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -332,7 +332,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3684221,
     "lng": 140.2142083,
     "transfers": [],
-    "address": "茨城県稲田駅",
+    "address": "茨城県笠間市稲田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -358,7 +358,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3730272,
     "lng": 140.2467198,
     "transfers": [],
-    "address": "茨城県笠間駅",
+    "address": "茨城県笠間市下市毛",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -384,7 +384,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "lat": 36.3447136,
     "lng": 140.2886802,
     "transfers": [],
-    "address": "茨城県宍戸駅",
+    "address": "茨城県笠間市大田町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -412,7 +412,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ常磐線"
     ],
-    "address": "茨城県友部駅",
+    "address": "茨城県笠間市友部駅前1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,

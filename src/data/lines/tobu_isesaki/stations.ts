@@ -13,7 +13,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "lng": 139.7267148,
     "transfers": [
       "東武スカイツリーライン",
-      "東武伊勢崎線",
       "東武日光線"
     ],
     "address": "埼玉県南埼玉郡宮代町百間二丁目3-45",
@@ -22,15 +21,12 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -48,23 +44,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Wado",
     "lat": 36.0398759,
     "lng": 139.7008347,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県南埼玉郡宮代町大字和戸410",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -83,8 +73,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "lat": 36.0655648,
     "lng": 139.6774489,
     "transfers": [
-      "JR宇都宮線",
-      "東武伊勢崎線"
+      "JR宇都宮線"
     ],
     "address": "埼玉県久喜市久喜中央二丁目",
     "facilities": {
@@ -92,15 +81,12 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -118,20 +104,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Washinomiya",
     "lat": 36.0962346,
     "lng": 139.656837,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県久喜市鷲宮中央一丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -149,20 +132,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Hanasaki",
     "lat": 36.1098873,
     "lng": 139.6336014,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県加須市花崎一丁目26-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -180,20 +160,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Kazo",
     "lat": 36.122955,
     "lng": 139.5954555,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県加須市大門町20-58",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "section_exp",
       "limited_exp"
     ],
     "isMajor": true,
@@ -212,20 +189,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Minami-Hanyu",
     "lat": 36.1498491,
     "lng": 139.5565909,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "埼玉県羽生市大字南羽生一丁目19-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -244,7 +218,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "lat": 36.1703688,
     "lng": 139.5339948,
     "transfers": [
-      "東武伊勢崎線",
       "秩父鉄道秩父本線"
     ],
     "address": "埼玉県羽生市南一丁目1-55",
@@ -252,12 +225,11 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "section_exp",
       "limited_exp"
     ],
     "isMajor": true,
@@ -276,20 +248,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Kawamata",
     "lat": 36.2088291,
     "lng": 139.5264365,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県邑楽郡明和町中谷398-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -307,20 +276,17 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Morinjimae",
     "lat": 36.2267199,
     "lng": 139.5270004,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県館林市堀工町1570",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -339,7 +305,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "lat": 36.246561,
     "lng": 139.5278805,
     "transfers": [
-      "東武伊勢崎線",
       "東武佐野線",
       "東武小泉線"
     ],
@@ -349,11 +314,10 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
-      "section_exp",
       "limited_exp"
     ],
     "isMajor": true,
@@ -372,16 +336,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Tatara",
     "lat": 36.2740024,
     "lng": 139.4997548,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県館林市日向町1060",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -402,16 +364,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Agata",
     "lat": 36.2908214,
     "lng": 139.4719916,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "栃木県足利市県町1380",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -432,16 +392,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Fukui",
     "lat": 36.3050867,
     "lng": 139.4586591,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "栃木県足利市福居町1275",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -462,16 +420,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Tobu-Izumi",
     "lat": 36.3154501,
     "lng": 139.4550869,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "栃木県足利市福居町2174",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -492,16 +448,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Ashikagashi",
     "lat": 36.3293359,
     "lng": 139.4482297,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "栃木県足利市南町4216",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -523,16 +477,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Yashu-Yamabe",
     "lat": 36.3263219,
     "lng": 139.4320455,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "栃木県足利市八幡町一丁目19-2",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -553,16 +505,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Niragawa",
     "lat": 36.3078782,
     "lng": 139.4019259,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県太田市台之郷町1104",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -584,7 +534,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "lat": 36.2941214,
     "lng": 139.3787386,
     "transfers": [
-      "東武伊勢崎線",
       "東武桐生線",
       "東武小泉線"
     ],
@@ -594,7 +543,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -616,16 +565,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Hosoya",
     "lat": 36.2825312,
     "lng": 139.348431,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県太田市細谷町1298",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -646,16 +593,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Kizaki",
     "lat": 36.2713939,
     "lng": 139.312971,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県太田市新田木崎町1250",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -677,16 +622,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Serada",
     "lat": 36.2729459,
     "lng": 139.2819011,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県太田市世良田町1553-2",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -707,16 +650,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Sakaimachi",
     "lat": 36.2771925,
     "lng": 139.2563345,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県伊勢崎市境百々414",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -738,16 +679,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Goshi",
     "lat": 36.2955063,
     "lng": 139.2237752,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県伊勢崎市境寸木419",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -768,16 +707,14 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "nameEn": "Shin-Isesaki",
     "lat": 36.3178616,
     "lng": 139.20192,
-    "transfers": [
-      "東武伊勢崎線"
-    ],
+    "transfers": [],
     "address": "群馬県伊勢崎市中央町24-11",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -800,7 +737,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     "lat": 36.326617,
     "lng": 139.1945681,
     "transfers": [
-      "東武伊勢崎線",
       "JR両毛線"
     ],
     "address": "群馬県伊勢崎市曲輪町2-1",
@@ -809,7 +745,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",

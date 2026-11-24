@@ -14,7 +14,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "transfers": [
       "東急田園都市線"
     ],
-    "address": "東京都三軒茶屋駅",
+    "address": "東京都世田谷区太子堂四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.6446886,
     "lng": 139.6659967,
     "transfers": [],
-    "address": "東京都西太子堂駅",
+    "address": "東京都世田谷区太子堂四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.6458715,
     "lng": 139.6595119,
     "transfers": [],
-    "address": "東京都若林駅",
+    "address": "東京都世田谷区若林四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.643854,
     "lng": 139.6546251,
     "transfers": [],
-    "address": "東京都松陰神社前駅",
+    "address": "東京都世田谷区世田谷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.6434616,
     "lng": 139.6504198,
     "transfers": [],
-    "address": "東京都世田谷駅",
+    "address": "東京都世田谷区世田谷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -177,7 +177,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.6479169,
     "lng": 139.6449922,
     "transfers": [],
-    "address": "東京都宮の坂駅",
+    "address": "東京都世田谷区豪徳寺二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -204,7 +204,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.6542734,
     "lng": 139.6464201,
     "transfers": [],
-    "address": "東京都山下駅",
+    "address": "東京都世田谷区豪徳寺一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -231,7 +231,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "lat": 35.6605577,
     "lng": 139.6419714,
     "transfers": [],
-    "address": "東京都松原駅",
+    "address": "東京都世田谷区松原四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -260,7 +260,7 @@ export const TOKYU_SETAGAYA_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都下高井戸駅",
+    "address": "東京都世田谷区松原三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

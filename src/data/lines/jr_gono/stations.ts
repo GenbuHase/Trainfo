@@ -11,9 +11,9 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.1914603,
     "lng": 140.0656159,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（秋田～青森）"
     ],
-    "address": "秋田県東能代駅周辺",
+    "address": "秋田県能代市鰄渕",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.2069658,
     "lng": 140.0330202,
     "transfers": [],
-    "address": "秋田県能代駅周辺",
+    "address": "秋田県能代市元町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -71,15 +71,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.2257476,
     "lng": 140.0392284,
     "transfers": [],
-    "address": "秋田県向能代駅周辺",
+    "address": "秋田県能代市落合",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -100,15 +98,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.2541585,
     "lng": 140.0337522,
     "transfers": [],
-    "address": "秋田県北能代駅周辺",
+    "address": "秋田県能代市竹生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -129,15 +125,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.270982,
     "lng": 140.036791,
     "transfers": [],
-    "address": "秋田県鳥形駅周辺",
+    "address": "秋田県能代市坂形",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -158,15 +152,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.2965565,
     "lng": 140.0377814,
     "transfers": [],
-    "address": "秋田県沢目駅周辺",
+    "address": "秋田県八峰町峰浜水沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -187,15 +179,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.3316572,
     "lng": 140.0325541,
     "transfers": [],
-    "address": "秋田県東八森駅周辺",
+    "address": "秋田県八峰町八森",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -216,15 +206,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.370987,
     "lng": 140.0181367,
     "transfers": [],
-    "address": "秋田県八森駅周辺",
+    "address": "秋田県八峰町八森",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -245,15 +233,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.3802448,
     "lng": 140.0019305,
     "transfers": [],
-    "address": "秋田県滝ノ間駅周辺",
+    "address": "秋田県八峰町八森",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -274,7 +260,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.3866983,
     "lng": 139.9875353,
     "transfers": [],
-    "address": "秋田県あきた白神駅周辺",
+    "address": "秋田県八峰町八森",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -303,7 +289,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.40601,
     "lng": 139.966707,
     "transfers": [],
-    "address": "秋田県岩館駅周辺",
+    "address": "秋田県八峰町八森",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -332,15 +318,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.4924738,
     "lng": 139.9501457,
     "transfers": [],
-    "address": "青森県大間越駅周辺",
+    "address": "青森県深浦町大字大間越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -361,15 +345,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.512981,
     "lng": 139.9503412,
     "transfers": [],
-    "address": "青森県白神岳登山口駅周辺",
+    "address": "青森県深浦町大字黒崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -390,15 +372,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.5347511,
     "lng": 139.946761,
     "transfers": [],
-    "address": "青森県松神駅周辺",
+    "address": "青森県深浦町大字松神",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -419,7 +399,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.5515624,
     "lng": 139.9422281,
     "transfers": [],
-    "address": "青森県十二湖駅周辺",
+    "address": "青森県深浦町大字松神",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -448,15 +428,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.5831185,
     "lng": 139.9244996,
     "transfers": [],
-    "address": "青森県陸奥岩崎駅周辺",
+    "address": "青森県深浦町大字岩崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -477,15 +455,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.586154,
     "lng": 139.8954495,
     "transfers": [],
-    "address": "青森県陸奥沢辺駅周辺",
+    "address": "青森県深浦町大字沢辺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -506,7 +482,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.5933058,
     "lng": 139.871245,
     "transfers": [],
-    "address": "青森県ウェスパ椿山駅周辺",
+    "address": "青森県深浦町大字舮作",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -535,15 +511,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6082019,
     "lng": 139.8645962,
     "transfers": [],
-    "address": "青森県艫作駅周辺",
+    "address": "青森県深浦町大字舮作",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -564,15 +538,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6300899,
     "lng": 139.8913309,
     "transfers": [],
-    "address": "青森県横磯駅周辺",
+    "address": "青森県深浦町大字横磯",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -593,7 +565,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6504406,
     "lng": 139.9294496,
     "transfers": [],
-    "address": "青森県深浦駅周辺",
+    "address": "青森県深浦町大字深浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -622,15 +594,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.674468,
     "lng": 139.9557251,
     "transfers": [],
-    "address": "青森県広戸駅周辺",
+    "address": "青森県深浦町大字広戸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -651,15 +621,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6861241,
     "lng": 139.9704062,
     "transfers": [],
-    "address": "青森県追良瀬駅周辺",
+    "address": "青森県深浦町大字追良瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -680,15 +648,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7073745,
     "lng": 139.9832248,
     "transfers": [],
-    "address": "青森県驫木駅周辺",
+    "address": "青森県深浦町大字驫木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -709,15 +675,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7318298,
     "lng": 139.9945608,
     "transfers": [],
-    "address": "青森県風合瀬駅周辺",
+    "address": "青森県深浦町大字風合瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -738,15 +702,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7597811,
     "lng": 140.0340443,
     "transfers": [],
-    "address": "青森県大戸瀬駅周辺",
+    "address": "青森県深浦町大字田野沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -767,7 +729,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7679416,
     "lng": 140.0551245,
     "transfers": [],
-    "address": "青森県千畳敷駅周辺",
+    "address": "青森県深浦町大字北金ケ沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -796,15 +758,14 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7458106,
     "lng": 140.0955488,
     "transfers": [],
-    "address": "青森県北金ケ沢駅周辺",
+    "address": "青森県深浦町大字関",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -825,15 +786,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7411591,
     "lng": 140.1250127,
     "transfers": [],
-    "address": "青森県陸奥柳田駅周辺",
+    "address": "青森県深浦町大字柳田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -854,15 +813,13 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.762164,
     "lng": 140.162814,
     "transfers": [],
-    "address": "青森県陸奥赤石駅周辺",
+    "address": "青森県鰺ヶ沢町大字赤石町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "limited_exp"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -883,7 +840,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.775478,
     "lng": 140.2208595,
     "transfers": [],
-    "address": "青森県鰺ケ沢駅周辺",
+    "address": "青森県鰺ヶ沢町大字舞戸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -912,15 +869,14 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7821403,
     "lng": 140.2674247,
     "transfers": [],
-    "address": "青森県鳴沢駅周辺",
+    "address": "青森県鰺ヶ沢町大字北浮田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -941,15 +897,14 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7873575,
     "lng": 140.2978654,
     "transfers": [],
-    "address": "青森県越水駅周辺",
+    "address": "青森県つがる市森田町大館",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -970,7 +925,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7817786,
     "lng": 140.3384754,
     "transfers": [],
-    "address": "青森県陸奥森田駅周辺",
+    "address": "青森県つがる市森田町床舞",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -999,15 +954,14 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7872729,
     "lng": 140.364149,
     "transfers": [],
-    "address": "青森県中田駅周辺",
+    "address": "青森県つがる市森田町中田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1028,7 +982,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.802565,
     "lng": 140.388475,
     "transfers": [],
-    "address": "青森県木造駅周辺",
+    "address": "青森県つがる市木造宮崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1059,7 +1013,7 @@ export const GONO_STATIONS: Station[] = [
     "transfers": [
       "津軽鉄道線（津軽五所川原）"
     ],
-    "address": "青森県五所川原駅周辺",
+    "address": "青森県五所川原市字大町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1088,7 +1042,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7579873,
     "lng": 140.4354121,
     "transfers": [],
-    "address": "青森県陸奥鶴田駅周辺",
+    "address": "青森県鶴田町大字鶴田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1117,15 +1071,14 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.7365993,
     "lng": 140.4373796,
     "transfers": [],
-    "address": "青森県鶴泊駅周辺",
+    "address": "青森県鶴田町大字鶴泊",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1146,7 +1099,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6974388,
     "lng": 140.4616109,
     "transfers": [],
-    "address": "青森県板柳駅周辺",
+    "address": "青森県板柳町大字福野田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1175,15 +1128,14 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6751643,
     "lng": 140.4806331,
     "transfers": [],
-    "address": "青森県林崎駅周辺",
+    "address": "青森県藤崎町大字林崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1204,7 +1156,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6540867,
     "lng": 140.4998012,
     "transfers": [],
-    "address": "青森県藤崎駅周辺",
+    "address": "青森県藤崎町大字藤崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1233,9 +1185,9 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6469755,
     "lng": 140.5216315,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（秋田～青森）"
     ],
-    "address": "青森県川部駅周辺",
+    "address": "青森県田舎館村大字川部",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -15,7 +15,7 @@ export const TOKYU_KODOMONOKUNI_STATIONS: Station[] = [
       "ＪＲ横浜線",
       "東急田園都市線"
     ],
-    "address": "神奈川県長津田駅",
+    "address": "神奈川県横浜市緑区長津田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const TOKYU_KODOMONOKUNI_STATIONS: Station[] = [
     "lat": 35.5455769,
     "lng": 139.492274,
     "transfers": [],
-    "address": "神奈川県恩田駅",
+    "address": "神奈川県横浜市青葉区恩田町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const TOKYU_KODOMONOKUNI_STATIONS: Station[] = [
     "lat": 35.5583809,
     "lng": 139.4864927,
     "transfers": [],
-    "address": "神奈川県こどもの国駅",
+    "address": "神奈川県横浜市青葉区奈良町",
     "facilities": {
       "elevator": true,
       "restroom": true,

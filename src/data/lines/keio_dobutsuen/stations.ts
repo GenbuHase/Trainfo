@@ -13,14 +13,14 @@ export const KEIO_DOBUTSUEN_STATIONS: Station[] = [
     "lng": 139.4122024,
     "transfers": [
       "京王線",
-      "多摩モノレール"
+      "多摩都市モノレール線"
     ],
-    "address": "東京都高幡不動駅",
+    "address": "東京都日野市高幡",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -43,9 +43,9 @@ export const KEIO_DOBUTSUEN_STATIONS: Station[] = [
     "lat": 35.6498845,
     "lng": 139.4060678,
     "transfers": [
-      "多摩モノレール"
+      "多摩都市モノレール線"
     ],
-    "address": "東京都多摩動物公園駅",
+    "address": "東京都日野市程久保三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -13,7 +13,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ根岸線"
     ],
-    "address": "神奈川県新杉田駅",
+    "address": "神奈川県横浜市磯子区新杉田町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -66,7 +66,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3774062,
     "lng": 139.6414909,
     "transfers": [],
-    "address": "神奈川県鳥浜駅",
+    "address": "神奈川県横浜市金沢区幸浦一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -92,7 +92,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3723878,
     "lng": 139.6426696,
     "transfers": [],
-    "address": "神奈川県並木北駅",
+    "address": "神奈川県横浜市金沢区幸浦一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -118,7 +118,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3657998,
     "lng": 139.643035,
     "transfers": [],
-    "address": "神奈川県並木中央駅",
+    "address": "神奈川県横浜市金沢区幸浦二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -144,7 +144,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3587434,
     "lng": 139.643751,
     "transfers": [],
-    "address": "神奈川県幸浦駅",
+    "address": "神奈川県横浜市金沢区幸浦二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -170,7 +170,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3534317,
     "lng": 139.6467514,
     "transfers": [],
-    "address": "神奈川県産業振興センター駅",
+    "address": "神奈川県横浜市金沢区福浦一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -196,7 +196,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3492695,
     "lng": 139.6485832,
     "transfers": [],
-    "address": "神奈川県福浦駅",
+    "address": "神奈川県横浜市金沢区福浦二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -248,7 +248,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3411531,
     "lng": 139.6405276,
     "transfers": [],
-    "address": "神奈川県八景島駅",
+    "address": "神奈川県横浜市金沢区海の公園",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -274,7 +274,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3418495,
     "lng": 139.6356375,
     "transfers": [],
-    "address": "神奈川県海の公園柴口駅",
+    "address": "神奈川県横浜市金沢区海の公園",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -300,7 +300,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3368676,
     "lng": 139.6320416,
     "transfers": [],
-    "address": "神奈川県海の公園南口駅",
+    "address": "神奈川県横浜市金沢区海の公園",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -326,7 +326,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3307238,
     "lng": 139.6319178,
     "transfers": [],
-    "address": "神奈川県野島公園駅",
+    "address": "神奈川県横浜市金沢区平潟町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -352,7 +352,7 @@ export const SEASIDE_LINE_STATIONS: Station[] = [
     "lat": 35.3316197,
     "lng": 139.6211484,
     "transfers": [],
-    "address": "神奈川県金沢八景駅",
+    "address": "神奈川県横浜市金沢区瀬戸",
     "facilities": {
       "elevator": true,
       "restroom": true,

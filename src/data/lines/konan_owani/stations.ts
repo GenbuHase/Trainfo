@@ -12,7 +12,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5993595,
     "lng": 140.4723901,
     "transfers": [],
-    "address": "青森県中央弘前駅周辺",
+    "address": "青森県弘前市大字吉野町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5930094,
     "lng": 140.4681664,
     "transfers": [],
-    "address": "青森県弘高下駅周辺",
+    "address": "青森県弘前市大字桜林町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -68,7 +68,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5835044,
     "lng": 140.4705693,
     "transfers": [],
-    "address": "青森県弘前学院大前駅周辺",
+    "address": "青森県弘前市大字中野一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +96,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.576923,
     "lng": 140.472782,
     "transfers": [],
-    "address": "青森県聖愛中高前駅周辺",
+    "address": "青森県弘前市大字城南一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -124,7 +124,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5671528,
     "lng": 140.4806093,
     "transfers": [],
-    "address": "青森県千年駅周辺",
+    "address": "青森県弘前市大字松原西三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -152,7 +152,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5643684,
     "lng": 140.4863414,
     "transfers": [],
-    "address": "青森県小栗山駅周辺",
+    "address": "青森県弘前市大字小栗山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5606135,
     "lng": 140.4972671,
     "transfers": [],
-    "address": "青森県松木平駅周辺",
+    "address": "青森県弘前市大字小栗山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -208,7 +208,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5579188,
     "lng": 140.5163177,
     "transfers": [],
-    "address": "青森県津軽大沢駅周辺",
+    "address": "青森県弘前市大字大沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -236,7 +236,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5557908,
     "lng": 140.5276294,
     "transfers": [],
-    "address": "青森県義塾高校前駅周辺",
+    "address": "青森県弘前市大字石川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -264,7 +264,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5509406,
     "lng": 140.5413931,
     "transfers": [],
-    "address": "青森県石川駅周辺",
+    "address": "青森県弘前市大字石川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -292,7 +292,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.5431741,
     "lng": 140.5504352,
     "transfers": [],
-    "address": "青森県石川プール前駅周辺",
+    "address": "青森県弘前市大字小金崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -320,7 +320,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.535661,
     "lng": 140.5527145,
     "transfers": [],
-    "address": "青森県鯖石駅周辺",
+    "address": "青森県大鰐町大字鯖石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -348,7 +348,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "lat": 40.525061,
     "lng": 140.5576756,
     "transfers": [],
-    "address": "青森県宿川原駅周辺",
+    "address": "青森県大鰐町大字宿川原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -378,7 +378,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "transfers": [
       "JR奥羽本線（大鰐温泉）"
     ],
-    "address": "青森県大鰐駅周辺",
+    "address": "青森県大鰐町大字大鰐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -12,7 +12,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2433949,
     "lng": 140.8440117,
     "transfers": [],
-    "address": "宮城県八木山動物公園駅周辺",
+    "address": "宮城県仙台市太白区八木山本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2552501,
     "lng": 140.8353433,
     "transfers": [],
-    "address": "宮城県青葉山駅周辺",
+    "address": "宮城県仙台市青葉区荒巻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -68,7 +68,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2608821,
     "lng": 140.8503638,
     "transfers": [],
-    "address": "宮城県川内駅周辺",
+    "address": "宮城県仙台市青葉区川内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +96,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2602515,
     "lng": 140.8567785,
     "transfers": [],
-    "address": "宮城県国際センター駅周辺",
+    "address": "宮城県仙台市青葉区青葉山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -124,7 +124,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2589973,
     "lng": 140.8644629,
     "transfers": [],
-    "address": "宮城県大町西公園駅周辺",
+    "address": "宮城県仙台市青葉区片平一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -152,7 +152,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2596981,
     "lng": 140.8719207,
     "transfers": [],
-    "address": "宮城県青葉通一番町駅周辺",
+    "address": "宮城県仙台市青葉区一番町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -191,7 +191,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
       "仙台空港アクセス線",
       "仙台市地下鉄南北線"
     ],
-    "address": "宮城県仙台駅周辺",
+    "address": "宮城県仙台市青葉区中央一丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -219,7 +219,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2579376,
     "lng": 140.8858661,
     "transfers": [],
-    "address": "宮城県宮城野通駅周辺",
+    "address": "宮城県仙台市宮城野区榴岡四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -247,7 +247,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2511739,
     "lng": 140.8932704,
     "transfers": [],
-    "address": "宮城県連坊駅周辺",
+    "address": "宮城県仙台市若林区連坊二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -275,7 +275,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2496833,
     "lng": 140.9056895,
     "transfers": [],
-    "address": "宮城県薬師堂駅周辺",
+    "address": "宮城県仙台市若林区木ノ下三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -303,7 +303,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2515983,
     "lng": 140.9208595,
     "transfers": [],
-    "address": "宮城県卸町駅周辺",
+    "address": "宮城県仙台市若林区卸町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -331,7 +331,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2509885,
     "lng": 140.9356293,
     "transfers": [],
-    "address": "宮城県六丁の目駅周辺",
+    "address": "宮城県仙台市若林区六丁の目中町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -359,7 +359,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "lat": 38.2449236,
     "lng": 140.9485771,
     "transfers": [],
-    "address": "宮城県荒井駅周辺",
+    "address": "宮城県仙台市若林区荒井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

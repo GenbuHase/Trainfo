@@ -13,7 +13,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "transfers": [
       "JR大船渡線BRT"
     ],
-    "address": "岩手県盛駅周辺",
+    "address": "岩手県大船渡市盛町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.0682084,
     "lng": 141.7421022,
     "transfers": [],
-    "address": "岩手県陸前赤崎駅周辺",
+    "address": "岩手県大船渡市赤崎町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -67,7 +67,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.0542007,
     "lng": 141.7989788,
     "transfers": [],
-    "address": "岩手県綾里駅周辺",
+    "address": "岩手県大船渡市三陸町綾里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -94,7 +94,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.0744002,
     "lng": 141.8163943,
     "transfers": [],
-    "address": "岩手県恋し浜駅周辺",
+    "address": "岩手県大船渡市三陸町綾里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -121,7 +121,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.093452,
     "lng": 141.8065792,
     "transfers": [],
-    "address": "岩手県甫嶺駅周辺",
+    "address": "岩手県大船渡市三陸町越喜来",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.1172003,
     "lng": 141.8099869,
     "transfers": [],
-    "address": "岩手県三陸駅周辺",
+    "address": "岩手県大船渡市三陸町越喜来",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -175,7 +175,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.1510917,
     "lng": 141.8360118,
     "transfers": [],
-    "address": "岩手県吉浜駅周辺",
+    "address": "岩手県大船渡市三陸町吉浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -202,7 +202,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.2017921,
     "lng": 141.8613539,
     "transfers": [],
-    "address": "岩手県唐丹駅周辺",
+    "address": "岩手県釜石市唐丹町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -229,7 +229,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.2460523,
     "lng": 141.8860497,
     "transfers": [],
-    "address": "岩手県平田駅周辺",
+    "address": "岩手県釜石市大字平田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -258,7 +258,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "transfers": [
       "JR釜石線"
     ],
-    "address": "岩手県釜石駅周辺",
+    "address": "岩手県釜石市鈴子町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -285,7 +285,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.3082279,
     "lng": 141.8889773,
     "transfers": [],
-    "address": "岩手県両石駅周辺",
+    "address": "岩手県釜石市両石町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -312,7 +312,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.3268633,
     "lng": 141.8880137,
     "transfers": [],
-    "address": "岩手県鵜住居駅周辺",
+    "address": "岩手県釜石市鵜住居町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -339,7 +339,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.3566039,
     "lng": 141.9022324,
     "transfers": [],
-    "address": "岩手県大槌駅周辺",
+    "address": "岩手県大槌町本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -366,7 +366,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.3698457,
     "lng": 141.938865,
     "transfers": [],
-    "address": "岩手県吉里吉里駅周辺",
+    "address": "岩手県大槌町吉里吉里四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -393,7 +393,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.3836466,
     "lng": 141.9351291,
     "transfers": [],
-    "address": "岩手県浪板海岸駅周辺",
+    "address": "岩手県大槌町吉里々々",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -420,7 +420,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.4312024,
     "lng": 141.9739513,
     "transfers": [],
-    "address": "岩手県岩手船越駅周辺",
+    "address": "岩手県山田町船越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -448,7 +448,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.4540258,
     "lng": 141.9552778,
     "transfers": [],
-    "address": "岩手県織笠駅周辺",
+    "address": "岩手県山田町織笠",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -475,7 +475,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.4639054,
     "lng": 141.9507652,
     "transfers": [],
-    "address": "岩手県陸中山田駅周辺",
+    "address": "岩手県山田町川向町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -503,7 +503,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.5343425,
     "lng": 141.9246671,
     "transfers": [],
-    "address": "岩手県豊間根駅周辺",
+    "address": "岩手県山田町豊間根",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -531,7 +531,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.5643549,
     "lng": 141.9328947,
     "transfers": [],
-    "address": "岩手県払川駅周辺",
+    "address": "岩手県宮古市津軽石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -558,7 +558,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.5814432,
     "lng": 141.937742,
     "transfers": [],
-    "address": "岩手県津軽石駅周辺",
+    "address": "岩手県宮古市津軽石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -586,7 +586,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.619315,
     "lng": 141.9464052,
     "transfers": [],
-    "address": "岩手県八木沢・宮古短大駅周辺",
+    "address": "岩手県宮古市八木沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -613,7 +613,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.6299529,
     "lng": 141.9608947,
     "transfers": [],
-    "address": "岩手県磯鶏駅周辺",
+    "address": "岩手県宮古市磯鶏西",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -642,7 +642,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "transfers": [
       "JR山田線"
     ],
-    "address": "岩手県宮古駅周辺",
+    "address": "岩手県宮古市宮町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -670,7 +670,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.646277,
     "lng": 141.9332485,
     "transfers": [],
-    "address": "岩手県山口団地駅周辺",
+    "address": "岩手県宮古市山口四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -697,7 +697,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.686553,
     "lng": 141.942534,
     "transfers": [],
-    "address": "岩手県一の渡駅周辺",
+    "address": "岩手県宮古市崎山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -724,7 +724,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.711118,
     "lng": 141.93588,
     "transfers": [],
-    "address": "岩手県佐羽根駅周辺",
+    "address": "岩手県宮古市田代",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -751,7 +751,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.731517,
     "lng": 141.964384,
     "transfers": [],
-    "address": "岩手県田老駅周辺",
+    "address": "岩手県宮古市田老",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -778,7 +778,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.7355245,
     "lng": 141.967244,
     "transfers": [],
-    "address": "岩手県新田老駅周辺",
+    "address": "岩手県宮古市田老",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -805,7 +805,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.8095699,
     "lng": 141.9621696,
     "transfers": [],
-    "address": "岩手県摂待駅周辺",
+    "address": "岩手県宮古市田老",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -832,7 +832,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.8425519,
     "lng": 141.9584901,
     "transfers": [],
-    "address": "岩手県岩泉小本駅周辺",
+    "address": "岩手県岩泉町小本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -859,7 +859,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.916067,
     "lng": 141.939579,
     "transfers": [],
-    "address": "岩手県島越駅周辺",
+    "address": "岩手県田野畑村島越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -886,7 +886,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 39.9339742,
     "lng": 141.9340522,
     "transfers": [],
-    "address": "岩手県田野畑駅周辺",
+    "address": "岩手県田野畑村和野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -913,7 +913,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.0027981,
     "lng": 141.8862732,
     "transfers": [],
-    "address": "岩手県普代駅周辺",
+    "address": "岩手県普代村第九地割字銅屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -940,7 +940,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.0328525,
     "lng": 141.8829478,
     "transfers": [],
-    "address": "岩手県白井海岸駅周辺",
+    "address": "岩手県普代村第十九地割字白井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -967,7 +967,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.0517534,
     "lng": 141.8594586,
     "transfers": [],
-    "address": "岩手県堀内駅周辺",
+    "address": "岩手県普代村第二十地割字馬場野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -994,7 +994,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.082598,
     "lng": 141.8289195,
     "transfers": [],
-    "address": "岩手県野田玉川駅周辺",
+    "address": "岩手県野田村大字玉川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1021,7 +1021,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.0966886,
     "lng": 141.8241876,
     "transfers": [],
-    "address": "岩手県十府ケ浦海岸駅周辺",
+    "address": "岩手県野田村大字野田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1048,7 +1048,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.1161656,
     "lng": 141.8189711,
     "transfers": [],
-    "address": "岩手県陸中野田駅周辺",
+    "address": "岩手県野田村大字野田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1075,7 +1075,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "lat": 40.1324765,
     "lng": 141.7858819,
     "transfers": [],
-    "address": "岩手県陸中宇部駅周辺",
+    "address": "岩手県久慈市宇部町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1104,7 +1104,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "transfers": [
       "JR八戸線"
     ],
-    "address": "岩手県久慈駅周辺",
+    "address": "岩手県久慈市駅前",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

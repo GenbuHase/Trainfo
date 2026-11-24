@@ -12,7 +12,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 34.99256,
     "lng": 135.81506,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市山科区御陵鳥ノ向町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -28,8 +28,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -43,7 +42,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.02532,
     "lng": 135.8584,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市桜野町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -59,8 +58,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -74,7 +72,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.05029,
     "lng": 135.86767,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市唐崎二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -88,10 +86,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -105,7 +100,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.06972,
     "lng": 135.87794,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市坂本三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -121,8 +116,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -136,7 +130,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.09598,
     "lng": 135.89368,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市雄琴二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -152,8 +146,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -167,7 +160,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.11999,
     "lng": 135.91436,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市本堅田五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -198,7 +191,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.13815,
     "lng": 135.92256,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市小野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -212,10 +205,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -229,7 +219,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.16042,
     "lng": 135.92305,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市和邇中浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -243,10 +233,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -260,7 +247,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.18171,
     "lng": 135.91501,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市八屋戸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -274,10 +261,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -291,7 +275,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.20137,
     "lng": 135.92415,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市木戸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -305,10 +289,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -322,7 +303,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.21915,
     "lng": 135.94316,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市北比良",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -336,10 +317,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -353,7 +331,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.2355,
     "lng": 135.95877,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市南小松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,8 +347,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -384,7 +361,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.25248,
     "lng": 135.96925,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市北小松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -400,8 +377,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -415,7 +391,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.29389,
     "lng": 136.00951,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県高島市勝野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -431,8 +407,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -446,7 +421,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.32916,
     "lng": 136.02023,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県高島市安曇川町西万木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -462,8 +437,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -477,7 +451,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.35474,
     "lng": 136.03538,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県高島市新旭町旭",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -493,8 +467,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -508,7 +481,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.39683,
     "lng": 136.03188,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県高島市今津町名小路二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -539,7 +512,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.44143,
     "lng": 136.03865,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県高島市マキノ町中庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -555,8 +528,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -570,7 +542,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.46175,
     "lng": 136.06081,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県高島市マキノ町西浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -586,8 +558,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -601,7 +572,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.49805,
     "lng": 136.12113,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市西浅井町大浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -617,8 +588,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -632,7 +602,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "lat": 35.54105,
     "lng": 136.15092,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市西浅井町余",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -648,8 +618,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   }
 ];

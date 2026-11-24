@@ -5,7 +5,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-01",
     "stationNumber": "F-01",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 1,
     "name": "和光市",
     "nameKana": "わこうし",
@@ -38,7 +38,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-02",
     "stationNumber": "F-02",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 2,
     "name": "地下鉄成増",
     "nameKana": "ちかてつなります",
@@ -70,7 +70,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-03",
     "stationNumber": "F-03",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 3,
     "name": "地下鉄赤塚",
     "nameKana": "ちかてつあかつか",
@@ -102,7 +102,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-04",
     "stationNumber": "F-04",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 4,
     "name": "平和台",
     "nameKana": "へいわだい",
@@ -133,7 +133,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-05",
     "stationNumber": "F-05",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 5,
     "name": "氷川台",
     "nameKana": "ひかわだい",
@@ -164,7 +164,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-06",
     "stationNumber": "F-06",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 6,
     "name": "小竹向原",
     "nameKana": "こたけむかいはら",
@@ -197,7 +197,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-07",
     "stationNumber": "F-07",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 7,
     "name": "千川",
     "nameKana": "せんかわ",
@@ -227,7 +227,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-08",
     "stationNumber": "F-08",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 8,
     "name": "要町",
     "nameKana": "かなめちょう",
@@ -257,7 +257,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-09",
     "stationNumber": "F-09",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 9,
     "name": "池袋",
     "nameKana": "いけぶくろ",
@@ -296,7 +296,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-10",
     "stationNumber": "F-10",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 10,
     "name": "雑司が谷",
     "nameKana": "ぞうしがや",
@@ -326,7 +326,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-11",
     "stationNumber": "F-11",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 11,
     "name": "西早稲田",
     "nameKana": "にしわせだ",
@@ -354,7 +354,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-12",
     "stationNumber": "F-12",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 12,
     "name": "東新宿",
     "nameKana": "ひがししんじゅく",
@@ -384,7 +384,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-13",
     "stationNumber": "F-13",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 13,
     "name": "新宿三丁目",
     "nameKana": "しんじゅくさんちょうめ",
@@ -418,7 +418,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-14",
     "stationNumber": "F-14",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 14,
     "name": "北参道",
     "nameKana": "きたさんどう",
@@ -446,7 +446,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-15",
     "stationNumber": "F-15",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 15,
     "name": "明治神宮前〈原宿〉",
     "nameKana": "めいじじんぐうまえ",
@@ -467,7 +467,8 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express"
+      "express",
+      "commuter_exp"
     ],
     "isMajor": true,
     "platforms": {
@@ -478,7 +479,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-16",
     "stationNumber": "F-16",
-    "lineId": "fukutoshin",
+    "lineId": "tokyo_metro_fukutoshin",
     "number": 16,
     "name": "渋谷",
     "nameKana": "しぶや",

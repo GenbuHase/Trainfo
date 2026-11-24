@@ -14,6 +14,5 @@ export const UTSUNOMIYA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
   rapid_rabbit: JR_RAPID_PRESETS.RABBIT,
-  commuter_rapid: JR_RAPID_PRESETS.COMMUTER_RAPID,
   limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

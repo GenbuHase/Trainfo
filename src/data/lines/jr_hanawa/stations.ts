@@ -18,7 +18,7 @@ export const HANAWA_STATIONS: Station[] =  [
       "JR田沢湖線",
       "JR山田線"
     ],
-    "address": "岩手県盛岡駅周辺",
+    "address": "岩手県盛岡市盛岡駅前通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -46,7 +46,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.7248775,
     "lng": 141.1183674,
     "transfers": [],
-    "address": "岩手県青山駅周辺",
+    "address": "岩手県盛岡市前九年三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -73,7 +73,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.7447184,
     "lng": 141.1292387,
     "transfers": [],
-    "address": "岩手県厨川駅周辺",
+    "address": "岩手県盛岡市厨川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -100,7 +100,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.783546,
     "lng": 141.1488503,
     "transfers": [],
-    "address": "岩手県巣子駅周辺",
+    "address": "岩手県滝沢市巣子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.7989748,
     "lng": 141.1495265,
     "transfers": [],
-    "address": "岩手県滝沢駅周辺",
+    "address": "岩手県滝沢市野沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.8349944,
     "lng": 141.1545109,
     "transfers": [],
-    "address": "岩手県渋民駅周辺",
+    "address": "岩手県盛岡市下田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -183,7 +183,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "transfers": [
       "IGRいわて銀河鉄道線"
     ],
-    "address": "岩手県好摩駅周辺",
+    "address": "岩手県盛岡市好摩",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -210,7 +210,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.902583,
     "lng": 141.142466,
     "transfers": [],
-    "address": "岩手県東大更駅周辺",
+    "address": "岩手県八幡平市大更",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -237,7 +237,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.9137592,
     "lng": 141.1009053,
     "transfers": [],
-    "address": "岩手県大更駅周辺",
+    "address": "岩手県八幡平市大更",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -265,7 +265,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.950774,
     "lng": 141.0855698,
     "transfers": [],
-    "address": "岩手県平館駅周辺",
+    "address": "岩手県八幡平市平舘",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -292,7 +292,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.9565583,
     "lng": 141.0720345,
     "transfers": [],
-    "address": "岩手県北森駅周辺",
+    "address": "岩手県八幡平市野駄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -320,7 +320,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 39.9693537,
     "lng": 141.0435135,
     "transfers": [],
-    "address": "岩手県松尾八幡平駅周辺",
+    "address": "岩手県八幡平市松尾",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -347,7 +347,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.0123954,
     "lng": 140.9976755,
     "transfers": [],
-    "address": "岩手県安比高原駅周辺",
+    "address": "岩手県八幡平市安比高原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -375,7 +375,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.048762,
     "lng": 141.004289,
     "transfers": [],
-    "address": "岩手県赤坂田駅周辺",
+    "address": "岩手県八幡平市赤坂田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.0766715,
     "lng": 141.02066,
     "transfers": [],
-    "address": "岩手県小屋の畑駅周辺",
+    "address": "岩手県八幡平市保戸坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.0973548,
     "lng": 141.0491912,
     "transfers": [],
-    "address": "岩手県荒屋新町駅周辺",
+    "address": "岩手県八幡平市荒屋新町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -457,7 +457,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.1074805,
     "lng": 141.0275678,
     "transfers": [],
-    "address": "岩手県横間駅周辺",
+    "address": "岩手県八幡平市打田内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -484,7 +484,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.1396379,
     "lng": 140.9442521,
     "transfers": [],
-    "address": "岩手県田山駅周辺",
+    "address": "岩手県八幡平市石名坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -511,7 +511,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.1162368,
     "lng": 140.8822362,
     "transfers": [],
-    "address": "岩手県兄畑駅周辺",
+    "address": "岩手県八幡平市沖ノ平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -538,7 +538,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.1223045,
     "lng": 140.8403769,
     "transfers": [],
-    "address": "秋田県湯瀬温泉駅周辺",
+    "address": "秋田県鹿角市八幡平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -566,7 +566,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.143214,
     "lng": 140.804386,
     "transfers": [],
-    "address": "秋田県八幡平駅周辺",
+    "address": "秋田県鹿角市八幡平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -593,7 +593,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.158901,
     "lng": 140.793291,
     "transfers": [],
-    "address": "秋田県陸中大里駅周辺",
+    "address": "秋田県鹿角市八幡平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -620,7 +620,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.1893784,
     "lng": 140.785481,
     "transfers": [],
-    "address": "秋田県鹿角花輪駅周辺",
+    "address": "秋田県鹿角市花輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -648,7 +648,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2308177,
     "lng": 140.7880208,
     "transfers": [],
-    "address": "秋田県柴平駅周辺",
+    "address": "秋田県鹿角市花輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -675,7 +675,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2558781,
     "lng": 140.7707003,
     "transfers": [],
-    "address": "秋田県十和田南駅周辺",
+    "address": "秋田県鹿角市十和田錦木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -703,7 +703,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2298371,
     "lng": 140.7373831,
     "transfers": [],
-    "address": "秋田県末広駅周辺",
+    "address": "秋田県鹿角市十和田末広",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -730,7 +730,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2224827,
     "lng": 140.7127864,
     "transfers": [],
-    "address": "秋田県土深井駅周辺",
+    "address": "秋田県鹿角市十和田末広",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -757,7 +757,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2303213,
     "lng": 140.6932989,
     "transfers": [],
-    "address": "秋田県沢尻駅周辺",
+    "address": "秋田県大館市十二所",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -784,7 +784,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2143512,
     "lng": 140.6678773,
     "transfers": [],
-    "address": "秋田県十二所駅周辺",
+    "address": "秋田県大館市十二所",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -811,7 +811,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2099219,
     "lng": 140.6397371,
     "transfers": [],
-    "address": "秋田県大滝温泉駅周辺",
+    "address": "秋田県大館市十二所",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -839,7 +839,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2292987,
     "lng": 140.5724616,
     "transfers": [],
-    "address": "秋田県扇田駅周辺",
+    "address": "秋田県大館市比内町扇田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -866,7 +866,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "lat": 40.2661485,
     "lng": 140.5546407,
     "transfers": [],
-    "address": "秋田県東大館駅周辺",
+    "address": "秋田県大館市南神明町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -895,7 +895,7 @@ export const HANAWA_STATIONS: Station[] =  [
     "transfers": [
       "JR奥羽本線（秋田～青森）"
     ],
-    "address": "秋田県大館駅周辺",
+    "address": "秋田県大館市御成町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -15,7 +15,7 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
       "ＪＲ中央線快速",
       "西武多摩湖線"
     ],
-    "address": "東京都国分寺駅",
+    "address": "東京都国分寺市南町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "lat": 35.7117748,
     "lng": 139.4636453,
     "transfers": [],
-    "address": "東京都恋ケ窪駅",
+    "address": "東京都国分寺市戸倉一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "lat": 35.7234351,
     "lng": 139.4611753,
     "transfers": [],
-    "address": "東京都鷹の台駅",
+    "address": "東京都小平市津田町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -99,7 +99,7 @@ export const SEIBU_KOKUBUNJI_STATIONS: Station[] = [
     "transfers": [
       "西武拝島線"
     ],
-    "address": "東京都小川駅",
+    "address": "東京都小平市小川東町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -15,7 +15,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
       "京成本線",
       "京成松戸線"
     ],
-    "address": "千葉県京成津田沼駅",
+    "address": "千葉県習志野市津田沼三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6730693,
     "lng": 140.0415239,
     "transfers": [],
-    "address": "千葉県京成幕張本郷駅",
+    "address": "千葉県千葉市花見川区幕張本郷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6604709,
     "lng": 140.0560027,
     "transfers": [],
-    "address": "千葉県京成幕張駅",
+    "address": "千葉県千葉市花見川区幕張町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -97,7 +97,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6523675,
     "lng": 140.0672188,
     "transfers": [],
-    "address": "千葉県検見川駅",
+    "address": "千葉県千葉市花見川区検見川町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6367906,
     "lng": 140.085775,
     "transfers": [],
-    "address": "千葉県京成稲毛駅",
+    "address": "千葉県千葉市稲毛区稲毛三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6248367,
     "lng": 140.0975802,
     "transfers": [],
-    "address": "千葉県みどり台駅",
+    "address": "千葉県千葉市稲毛区緑町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6171997,
     "lng": 140.1031384,
     "transfers": [],
-    "address": "千葉県西登戸駅",
+    "address": "千葉県千葉市中央区登戸四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -205,7 +205,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6123644,
     "lng": 140.1090054,
     "transfers": [],
-    "address": "千葉県新千葉駅",
+    "address": "千葉県千葉市中央区登戸二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -232,7 +232,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "lat": 35.6115913,
     "lng": 140.1146729,
     "transfers": [],
-    "address": "千葉県京成千葉駅",
+    "address": "千葉県千葉市中央区新町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -261,7 +261,7 @@ export const KEISEI_CHIBA_STATIONS: Station[] = [
     "transfers": [
       "京成千原線"
     ],
-    "address": "千葉県千葉中央駅",
+    "address": "千葉県千葉市中央区本千葉町",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -14,7 +14,7 @@ export const ENODEN_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ横須賀線"
     ],
-    "address": "神奈川県鎌倉駅",
+    "address": "神奈川県鎌倉市小町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3136953,
     "lng": 139.5452448,
     "transfers": [],
-    "address": "神奈川県和田塚駅",
+    "address": "神奈川県鎌倉市由比ガ浜三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3127944,
     "lng": 139.5413154,
     "transfers": [],
-    "address": "神奈川県由比ケ浜駅",
+    "address": "神奈川県鎌倉市由比ガ浜三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3112468,
     "lng": 139.5359813,
     "transfers": [],
-    "address": "神奈川県長谷駅",
+    "address": "神奈川県鎌倉市長谷二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3089964,
     "lng": 139.5283892,
     "transfers": [],
-    "address": "神奈川県極楽寺駅",
+    "address": "神奈川県鎌倉市極楽寺三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -177,7 +177,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3062615,
     "lng": 139.5101272,
     "transfers": [],
-    "address": "神奈川県七里ケ浜駅",
+    "address": "神奈川県鎌倉市七里ガ浜一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -204,7 +204,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3067048,
     "lng": 139.500227,
     "transfers": [],
-    "address": "神奈川県鎌倉高校前駅",
+    "address": "神奈川県鎌倉市腰越一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -231,7 +231,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3084012,
     "lng": 139.493094,
     "transfers": [],
-    "address": "神奈川県腰越駅",
+    "address": "神奈川県鎌倉市腰越二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -258,7 +258,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3111467,
     "lng": 139.4873937,
     "transfers": [],
-    "address": "神奈川県江ノ島駅",
+    "address": "神奈川県藤沢市片瀬海岸一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -285,7 +285,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3153176,
     "lng": 139.4831023,
     "transfers": [],
-    "address": "神奈川県湘南海岸公園駅",
+    "address": "神奈川県藤沢市片瀬四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -312,7 +312,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3216398,
     "lng": 139.4827811,
     "transfers": [],
-    "address": "神奈川県鵠沼駅",
+    "address": "神奈川県藤沢市鵠沼松が岡一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -339,7 +339,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.32706,
     "lng": 139.4852208,
     "transfers": [],
-    "address": "神奈川県柳小路駅",
+    "address": "神奈川県藤沢市鵠沼藤が谷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -366,7 +366,7 @@ export const ENODEN_STATIONS: Station[] = [
     "lat": 35.3321514,
     "lng": 139.4855023,
     "transfers": [],
-    "address": "神奈川県石上駅",
+    "address": "神奈川県藤沢市鵠沼橘一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -396,7 +396,7 @@ export const ENODEN_STATIONS: Station[] = [
       "ＪＲ東海道本線",
       "小田急江ノ島線"
     ],
-    "address": "神奈川県藤沢駅",
+    "address": "神奈川県藤沢市藤沢",
     "facilities": {
       "elevator": true,
       "restroom": true,

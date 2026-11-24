@@ -19,12 +19,12 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "JR横須賀線",
       "JR京葉線",
       "JR上野東京ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ丸ノ内線"
     ],
-    "address": "",
+    "address": "東京都千代田区丸の内一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -60,7 +60,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "JR上野東京ライン",
       "京急本線"
     ],
-    "address": "",
+    "address": "東京都港区高輪三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -94,7 +94,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "東急新横浜線",
       "横浜市営地下鉄ブルーライン"
     ],
-    "address": "",
+    "address": "神奈川県横浜市港北区新横浜三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -128,7 +128,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "箱根登山鉄道線",
       "伊豆箱根鉄道大雄山線"
     ],
-    "address": "",
+    "address": "神奈川県小田原市栄町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -190,7 +190,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "伊豆箱根鉄道駿豆線"
     ],
-    "address": "",
+    "address": "静岡県三島市一番町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -218,7 +218,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 35.142,
     "lng": 138.66255,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士市川成島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -247,7 +247,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "静岡鉄道静岡清水線"
     ],
-    "address": "",
+    "address": "静岡県静岡市葵区黒金町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -277,7 +277,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "天竜浜名湖鉄道天竜浜名湖線"
     ],
-    "address": "",
+    "address": "静岡県掛川市南一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -306,7 +306,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "遠州鉄道鉄道線"
     ],
-    "address": "",
+    "address": "静岡県浜松市中央区砂山町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -339,7 +339,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "豊橋鉄道渥美線",
       "豊橋鉄道東田本線"
     ],
-    "address": "",
+    "address": "愛知県豊橋市花田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -367,7 +367,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.96901,
     "lng": 137.06032,
     "transfers": [],
-    "address": "",
+    "address": "愛知県安城市三河安城町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -394,15 +394,15 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 35.17208,
     "lng": 136.88033,
     "transfers": [
-      "JR中央本線",
-      "JR関西本線",
+      "JR中央本線（名古屋～塩尻）",
+      "JR関西本線（名古屋～亀山）",
       "名鉄名古屋本線",
       "近鉄名古屋線",
       "あおなみ線",
       "名古屋市営地下鉄東山線",
       "名古屋市営地下鉄桜通線"
     ],
-    "address": "",
+    "address": "愛知県名古屋市中村区名駅一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -433,7 +433,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "名鉄羽島線"
     ],
-    "address": "",
+    "address": "岐阜県羽島市舟橋町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -461,10 +461,10 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 35.31579,
     "lng": 136.290606,
     "transfers": [
-      "JR北陸本線",
+      "JR北陸本線（米原～敦賀）",
       "近江鉄道本線"
     ],
-    "address": "",
+    "address": "滋賀県米原市米原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -497,7 +497,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "近鉄京都線",
       "京都市営地下鉄烏丸線"
     ],
-    "address": "",
+    "address": "京都府京都市下京区東塩小路釜殿町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -529,7 +529,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "JRおおさか東線",
       "Osaka Metro御堂筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市淀川区西中島五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

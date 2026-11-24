@@ -13,7 +13,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "transfers": [
       "JR奥羽本線（鷹ノ巣）"
     ],
-    "address": "秋田県鷹巣駅周辺",
+    "address": "秋田県北秋田市松葉町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.2246416,
     "lng": 140.3578959,
     "transfers": [],
-    "address": "秋田県西鷹巣駅周辺",
+    "address": "秋田県北秋田市鷹巣",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +70,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.2049663,
     "lng": 140.3492324,
     "transfers": [],
-    "address": "秋田県縄文小ケ田駅周辺",
+    "address": "秋田県北秋田市脇神",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.1871674,
     "lng": 140.3409084,
     "transfers": [],
-    "address": "秋田県大野台駅周辺",
+    "address": "秋田県北秋田市上杉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.1610329,
     "lng": 140.3304322,
     "transfers": [],
-    "address": "秋田県合川駅周辺",
+    "address": "秋田県北秋田市下杉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -156,7 +156,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.146154,
     "lng": 140.350069,
     "transfers": [],
-    "address": "秋田県上杉駅周辺",
+    "address": "秋田県北秋田市上杉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -184,7 +184,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.1283044,
     "lng": 140.3735099,
     "transfers": [],
-    "address": "秋田県米内沢駅周辺",
+    "address": "秋田県北秋田市米内沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -213,7 +213,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.101076,
     "lng": 140.417748,
     "transfers": [],
-    "address": "秋田県桂瀬駅周辺",
+    "address": "秋田県北秋田市桂瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -241,7 +241,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.0613456,
     "lng": 140.4178652,
     "transfers": [],
-    "address": "秋田県阿仁前田温泉駅周辺",
+    "address": "秋田県北秋田市小又",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -270,7 +270,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.0506296,
     "lng": 140.402536,
     "transfers": [],
-    "address": "秋田県前田南駅周辺",
+    "address": "秋田県北秋田市五味堀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -298,7 +298,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.033423,
     "lng": 140.401101,
     "transfers": [],
-    "address": "秋田県小渕駅周辺",
+    "address": "秋田県北秋田市阿仁小渕",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -326,7 +326,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 40.0005384,
     "lng": 140.4011967,
     "transfers": [],
-    "address": "秋田県阿仁合駅周辺",
+    "address": "秋田県北秋田市阿仁銀山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -355,7 +355,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9798362,
     "lng": 140.4024699,
     "transfers": [],
-    "address": "秋田県荒瀬駅周辺",
+    "address": "秋田県北秋田市阿仁荒瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -383,7 +383,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9585373,
     "lng": 140.4124308,
     "transfers": [],
-    "address": "秋田県萱草駅周辺",
+    "address": "秋田県北秋田市阿仁萱草",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -411,7 +411,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9351159,
     "lng": 140.4131318,
     "transfers": [],
-    "address": "秋田県笑内駅周辺",
+    "address": "秋田県北秋田市阿仁笑内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -439,7 +439,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9211895,
     "lng": 140.430716,
     "transfers": [],
-    "address": "秋田県岩野目駅周辺",
+    "address": "秋田県北秋田市阿仁幸屋渡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -467,7 +467,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9049578,
     "lng": 140.4530645,
     "transfers": [],
-    "address": "秋田県比立内駅周辺",
+    "address": "秋田県北秋田市阿仁幸屋渡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -496,7 +496,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9113775,
     "lng": 140.4891048,
     "transfers": [],
-    "address": "秋田県奥阿仁駅周辺",
+    "address": "秋田県北秋田市阿仁戸鳥内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -524,7 +524,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.9194084,
     "lng": 140.516151,
     "transfers": [],
-    "address": "秋田県阿仁マタギ駅周辺",
+    "address": "秋田県北秋田市阿仁中村",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -553,7 +553,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.8592669,
     "lng": 140.581124,
     "transfers": [],
-    "address": "秋田県戸沢駅周辺",
+    "address": "秋田県仙北市西木町上桧木内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -581,7 +581,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.8180131,
     "lng": 140.5825622,
     "transfers": [],
-    "address": "秋田県上桧木内駅周辺",
+    "address": "秋田県仙北市西木町上桧木内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -610,7 +610,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.8018135,
     "lng": 140.58612,
     "transfers": [],
-    "address": "秋田県左通駅周辺",
+    "address": "秋田県仙北市西木町上桧木内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -638,7 +638,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.771017,
     "lng": 140.6027289,
     "transfers": [],
-    "address": "秋田県羽後中里駅周辺",
+    "address": "秋田県仙北市西木町桧木内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -666,7 +666,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.7442963,
     "lng": 140.5906483,
     "transfers": [],
-    "address": "秋田県松葉駅周辺",
+    "address": "秋田県仙北市西木町桧木内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -695,7 +695,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.7278286,
     "lng": 140.5655791,
     "transfers": [],
-    "address": "秋田県羽後長戸呂駅周辺",
+    "address": "秋田県仙北市西木町桧木内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -723,7 +723,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.6878919,
     "lng": 140.552874,
     "transfers": [],
-    "address": "秋田県八津駅周辺",
+    "address": "秋田県仙北市西木町小山田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -752,7 +752,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.6533045,
     "lng": 140.5630957,
     "transfers": [],
-    "address": "秋田県西明寺駅周辺",
+    "address": "秋田県仙北市西木町門屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -781,7 +781,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "lat": 39.6273176,
     "lng": 140.5743349,
     "transfers": [],
-    "address": "秋田県羽後太田駅周辺",
+    "address": "秋田県仙北市田沢湖角館東前郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -812,7 +812,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "JR秋田新幹線",
       "JR田沢湖線"
     ],
-    "address": "秋田県角館駅周辺",
+    "address": "秋田県仙北市角館町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

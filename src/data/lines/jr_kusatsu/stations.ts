@@ -11,7 +11,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.84749,
     "lng": 136.25574,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊賀市柘植町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -38,7 +38,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.88912,
     "lng": 136.23014,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県甲賀市甲賀町上野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -65,7 +65,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.90074,
     "lng": 136.2136,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県甲賀市甲賀町大原市場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -92,7 +92,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.91875,
     "lng": 136.18637,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県甲賀市甲南町寺庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,7 +119,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.93233,
     "lng": 136.1685,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県甲賀市甲南町深川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -146,7 +146,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.95264,
     "lng": 136.15255,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県甲賀市水口町貴生川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -173,7 +173,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 34.98311,
     "lng": 136.11666,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県湖南市三雲",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +200,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 35.00124,
     "lng": 136.08127,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県湖南市平松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 35.01818,
     "lng": 136.05226,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県湖南市石部北二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -254,7 +254,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 35.02741,
     "lng": 135.99902,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県栗東市手原四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
     "lat": 35.02243,
     "lng": 135.96214,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県草津市渋川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -7,16 +7,10 @@ export const OME_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: CHUO_PRESETS.LOCAL,
   // 快速: オレンジバーミリオン
   rapid: CHUO_PRESETS.RAPID,
-  // 通勤快速: パープル
-  commuter_rapid: CHUO_PRESETS.COMMUTER,
   // 特別快速（ホリデー快速おくたま等）: スカイブルー
   special_rapid: CHUO_PRESETS.SPECIAL_RAPID,
-  // 中央特快: スカイブルー
-  chuo_special_rapid: CHUO_PRESETS.CHUO_SPECIAL_RAPID,
   // 青梅特快: グリーン
   ome_special_rapid: CHUO_PRESETS.OME_SPECIAL_RAPID,
-  // 通勤特快: レッド
-  commuter_special_rapid: CHUO_PRESETS.COMMUTER_SPECIAL_RAPID,
   // 特急（おうめ等）: ボルドー
   limited_exp: LIMITED_EXP_PRESETS.CHUO,
 };

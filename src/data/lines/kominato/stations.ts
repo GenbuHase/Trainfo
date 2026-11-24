@@ -13,7 +13,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ内房線"
     ],
-    "address": "千葉県五井駅",
+    "address": "千葉県市原市五井中央西二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -66,7 +66,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.4819442,
     "lng": 140.1239439,
     "transfers": [],
-    "address": "千葉県海士有木駅",
+    "address": "千葉県市原市海士有木",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -92,7 +92,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.4662724,
     "lng": 140.1267697,
     "transfers": [],
-    "address": "千葉県上総三又駅",
+    "address": "千葉県市原市海士有木",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -118,7 +118,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.4544188,
     "lng": 140.1263233,
     "transfers": [],
-    "address": "千葉県上総山田駅",
+    "address": "千葉県市原市磯ケ谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -144,7 +144,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.4399452,
     "lng": 140.1142879,
     "transfers": [],
-    "address": "千葉県光風台駅",
+    "address": "千葉県市原市中高根",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -170,7 +170,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.4240454,
     "lng": 140.1145738,
     "transfers": [],
-    "address": "千葉県馬立駅",
+    "address": "千葉県市原市馬立",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -196,7 +196,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.4002804,
     "lng": 140.1419462,
     "transfers": [],
-    "address": "千葉県上総牛久駅",
+    "address": "千葉県市原市牛久",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -222,7 +222,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3880411,
     "lng": 140.1506774,
     "transfers": [],
-    "address": "千葉県上総川間駅",
+    "address": "千葉県市原市下矢田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -248,7 +248,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3811442,
     "lng": 140.1652689,
     "transfers": [],
-    "address": "千葉県上総鶴舞駅",
+    "address": "千葉県市原市池和田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -274,7 +274,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3677033,
     "lng": 140.1547484,
     "transfers": [],
-    "address": "千葉県上総久保駅",
+    "address": "千葉県市原市久保",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -300,7 +300,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3528021,
     "lng": 140.150072,
     "transfers": [],
-    "address": "千葉県高滝駅",
+    "address": "千葉県市原市養老",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -326,7 +326,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3375003,
     "lng": 140.1456751,
     "transfers": [],
-    "address": "千葉県里見駅",
+    "address": "千葉県市原市平野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -352,7 +352,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3207859,
     "lng": 140.1420808,
     "transfers": [],
-    "address": "千葉県飯給駅",
+    "address": "千葉県市原市飯給",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -378,7 +378,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.3024571,
     "lng": 140.1398483,
     "transfers": [],
-    "address": "千葉県月崎駅",
+    "address": "千葉県市原市月崎",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -404,7 +404,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.2834014,
     "lng": 140.1463493,
     "transfers": [],
-    "address": "千葉県上総大久保駅",
+    "address": "千葉県市原市大久保",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -430,7 +430,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "lat": 35.2666716,
     "lng": 140.1591009,
     "transfers": [],
-    "address": "千葉県養老渓谷駅",
+    "address": "千葉県市原市朝生原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -458,7 +458,7 @@ export const KOMINATO_STATIONS: Station[] = [
     "transfers": [
       "いすみ鉄道"
     ],
-    "address": "千葉県上総中野駅",
+    "address": "千葉県大多喜町中野",
     "facilities": {
       "elevator": true,
       "restroom": true,

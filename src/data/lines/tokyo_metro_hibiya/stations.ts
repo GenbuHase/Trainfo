@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const HIBIYA_STATIONS: Station[] = [
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-01",
     "stationNumber": "H-01",
     "number": 1,
@@ -27,12 +27,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-02",
     "stationNumber": "H-02",
     "number": 2,
@@ -52,19 +52,20 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-03",
     "stationNumber": "H-03",
     "number": 3,
@@ -80,19 +81,20 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-04",
     "stationNumber": "H-04",
     "number": 4,
@@ -110,19 +112,20 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-05",
     "stationNumber": "H-05",
     "number": 5,
@@ -138,19 +141,20 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-06",
     "stationNumber": "H-06",
     "number": 6,
@@ -168,19 +172,20 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-07",
     "stationNumber": "H-07",
     "number": 7,
@@ -207,12 +212,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-08",
     "stationNumber": "H-08",
     "number": 8,
@@ -234,20 +239,19 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "th_liner"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-09",
     "stationNumber": "H-09",
     "number": 9,
@@ -274,12 +278,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-10",
     "stationNumber": "H-10",
     "number": 10,
@@ -304,12 +308,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-11",
     "stationNumber": "H-11",
     "number": 11,
@@ -334,12 +338,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-12",
     "stationNumber": "H-12",
     "number": 12,
@@ -364,12 +368,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-13",
     "stationNumber": "H-13",
     "number": 13,
@@ -387,19 +391,20 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-14",
     "stationNumber": "H-14",
     "number": 14,
@@ -424,12 +429,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-15",
     "stationNumber": "H-15",
     "number": 15,
@@ -452,12 +457,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-16",
     "stationNumber": "H-16",
     "number": 16,
@@ -471,7 +476,7 @@ export const HIBIYA_STATIONS: Station[] = [
       "JR京浜東北線",
       "JR総武快速線",
       "JR中央・総武線各駅停車",
-      "つくばエクスプレス",
+      "首都圏新都市鉄道つくばエクスプレス",
       "都営新宿線（岩本町駅）"
     ],
     "address": "東京都千代田区神田佐久間町一丁目21",
@@ -488,12 +493,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-17",
     "stationNumber": "H-17",
     "number": 17,
@@ -521,12 +526,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-18",
     "stationNumber": "H-18",
     "number": 18,
@@ -541,9 +546,9 @@ export const HIBIYA_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ銀座線",
       "京成本線"
     ],
@@ -561,12 +566,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-19",
     "stationNumber": "H-19",
     "number": 19,
@@ -589,12 +594,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-20",
     "stationNumber": "H-20",
     "number": 20,
@@ -619,12 +624,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-21",
     "stationNumber": "H-21",
     "number": 21,
@@ -635,7 +640,7 @@ export const HIBIYA_STATIONS: Station[] = [
     "lng": 139.7987987,
     "transfers": [
       "JR常磐線快速",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都荒川区南千住四丁目3-1",
     "platforms": {
@@ -650,12 +655,12 @@ export const HIBIYA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-22",
     "stationNumber": "H-22",
     "number": 22,
@@ -669,7 +674,7 @@ export const HIBIYA_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "JR常磐線快速",
       "JR常磐線各駅停車",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都足立区千住旭町42-1",
     "platforms": {
@@ -677,16 +682,15 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "6・7番線"
     },
     "stoppingTypes": [
-      "local",
-      "th_liner"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   }
 ];

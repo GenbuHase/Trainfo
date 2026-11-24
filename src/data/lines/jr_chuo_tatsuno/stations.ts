@@ -13,7 +13,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "長野県岡谷駅",
+    "address": "長野県岡谷市本町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "長野県川岸駅",
+    "address": "長野県岡谷市川岸東三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
       "ＪＲ中央本線",
       "ＪＲ飯田線"
     ],
-    "address": "長野県辰野駅",
+    "address": "長野県辰野町大字辰野",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -103,7 +103,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "長野県信濃川島駅",
+    "address": "長野県辰野町大字上島",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -131,7 +131,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "長野県小野駅",
+    "address": "長野県辰野町大字小野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -160,7 +160,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
       "ＪＲ中央本線",
       "ＪＲ篠ノ井線"
     ],
-    "address": "長野県塩尻駅",
+    "address": "長野県塩尻市大字大門八番町",
     "facilities": {
       "elevator": true,
       "restroom": true,

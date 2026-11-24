@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const NIHONKAI_HISUI_STATIONS: Station[] = [
   {
     "id": "ETH-01",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 1,
     "name": "市振",
     "nameKana": "いちぶり",
@@ -11,7 +11,6 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "lat": 36.9803609,
     "lng": 137.6502199,
     "transfers": [
-      "日本海ひすいライン",
       "あいの風とやま鉄道"
     ],
     "address": "新潟県糸魚川市大字市振910-3",
@@ -25,16 +24,16 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-02",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 2,
     "name": "親不知",
     "nameKana": "おやしらず",
@@ -53,16 +52,16 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-03",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 3,
     "name": "青海",
     "nameKana": "おうみ",
@@ -81,16 +80,16 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-04",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 4,
     "name": "糸魚川",
     "nameKana": "いといがわ",
@@ -99,13 +98,12 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "lng": 137.8624689,
     "transfers": [
       "JR北陸新幹線",
-      "JR大糸線",
-      "日本海ひすいライン"
+      "JR大糸線（南小谷～糸魚川）"
     ],
     "address": "新潟県糸魚川市大町1丁目7-47",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2・3番線",
+      "outbound": "1・2番線"
     },
     "stoppingTypes": [
       "local",
@@ -122,7 +120,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-05",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 5,
     "name": "えちご押上ひすい海岸",
     "nameKana": "えちごおしあげひすいかいがん",
@@ -136,21 +134,20 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-06",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 6,
     "name": "梶屋敷",
     "nameKana": "かじやしき",
@@ -164,21 +161,20 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-07",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 7,
     "name": "浦本",
     "nameKana": "うらもと",
@@ -192,21 +188,20 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-08",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 8,
     "name": "能生",
     "nameKana": "のう",
@@ -216,8 +211,8 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県糸魚川市大字能生2583",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "3番線",
+      "outbound": "2番線"
     },
     "stoppingTypes": [
       "local",
@@ -225,16 +220,16 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
   },
   {
     "id": "ETH-09",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 9,
     "name": "筒石",
     "nameKana": "つついし",
@@ -244,25 +239,24 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県糸魚川市大字仙納927-2",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "糸魚川方面ホーム",
+      "outbound": "直江津方面ホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-10",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 10,
     "name": "名立",
     "nameKana": "なだち",
@@ -281,16 +275,16 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-11",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 11,
     "name": "有間川",
     "nameKana": "ありまがわ",
@@ -309,16 +303,16 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-12",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 12,
     "name": "谷浜",
     "nameKana": "たにはま",
@@ -332,21 +326,20 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETH-13",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 13,
     "name": "直江津",
     "nameKana": "なおえつ",
@@ -354,15 +347,14 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "lat": 37.170251,
     "lng": 138.242265,
     "transfers": [
-      "JR信越本線",
-      "妙高はねうまライン",
-      "日本海ひすいライン",
+      "JR信越本線（直江津～新潟）",
+      "えちごトキめき鉄道妙高はねうまライン",
       "北越急行ほくほく線"
     ],
     "address": "新潟県上越市東町1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2〜5番線",
+      "outbound": "1〜5番線"
     },
     "stoppingTypes": [
       "local",

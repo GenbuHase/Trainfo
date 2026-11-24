@@ -12,7 +12,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7289988,
     "lng": 139.7715228,
     "transfers": [],
-    "address": "東京都日暮里駅",
+    "address": "東京都荒川区西日暮里二丁目19-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7340986,
     "lng": 139.7681918,
     "transfers": [],
-    "address": "東京都西日暮里駅",
+    "address": "東京都荒川区西日暮里五丁目22-1",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -67,7 +67,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7433712,
     "lng": 139.76913,
     "transfers": [],
-    "address": "東京都赤土小学校前駅",
+    "address": "東京都荒川区東尾久四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -94,7 +94,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7486403,
     "lng": 139.769892,
     "transfers": [],
-    "address": "東京都熊野前駅",
+    "address": "東京都荒川区東尾久三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -121,7 +121,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.754872,
     "lng": 139.7704598,
     "transfers": [],
-    "address": "東京都足立小台駅",
+    "address": "東京都足立区小台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -148,7 +148,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7645203,
     "lng": 139.7708538,
     "transfers": [],
-    "address": "東京都扇大橋駅",
+    "address": "東京都足立区扇二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -175,7 +175,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7686718,
     "lng": 139.770717,
     "transfers": [],
-    "address": "東京都高野駅",
+    "address": "東京都足立区扇二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -202,7 +202,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7741904,
     "lng": 139.7703523,
     "transfers": [],
-    "address": "東京都江北駅",
+    "address": "東京都足立区江北四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -229,7 +229,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7814899,
     "lng": 139.7701301,
     "transfers": [],
-    "address": "東京都西新井大師西駅",
+    "address": "東京都足立区江北六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -256,7 +256,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.78893,
     "lng": 139.7701043,
     "transfers": [],
-    "address": "東京都谷在家駅",
+    "address": "東京都足立区谷在家三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -283,7 +283,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.7971195,
     "lng": 139.7702772,
     "transfers": [],
-    "address": "東京都舎人公園駅",
+    "address": "東京都足立区舎人公園",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -310,7 +310,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.8059398,
     "lng": 139.7701617,
     "transfers": [],
-    "address": "東京都舎人駅",
+    "address": "東京都足立区舎人一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -337,7 +337,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "lat": 35.8147864,
     "lng": 139.7707973,
     "transfers": [],
-    "address": "東京都見沼代親水公園駅",
+    "address": "東京都足立区舎人二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

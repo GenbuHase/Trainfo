@@ -14,7 +14,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JRおおさか東線",
       "Osaka Metro御堂筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市淀川区西中島五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -48,7 +48,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "神戸市営地下鉄西神・山手線",
       "神戸市営地下鉄北神線"
     ],
-    "address": "",
+    "address": "兵庫県神戸市中央区葺合町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -79,7 +79,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.66694,
     "lng": 134.96136,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県明石市小久保二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -87,7 +87,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "nozomi",
       "hikari",
-      "kodama"
+      "kodama",
+      "sakura"
     ],
     "isMajor": true,
     "facilities": {
@@ -108,12 +109,12 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.82626,
     "lng": 134.69225,
     "transfers": [
-      "JR山陽本線",
+      "JR山陽本線（姫路～上郡）",
       "JR播但線",
       "JR姫新線",
       "山陽電鉄本線"
     ],
-    "address": "",
+    "address": "兵庫県姫路市南駅前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -144,10 +145,10 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.81841,
     "lng": 134.47211,
     "transfers": [
-      "JR山陽本線",
+      "JR山陽本線（姫路～上郡）",
       "JR赤穂線"
     ],
-    "address": "",
+    "address": "兵庫県相生市菅原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -184,7 +185,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "岡山電気軌道東山本線",
       "岡山電気軌道清輝橋線"
     ],
-    "address": "",
+    "address": "岡山県岡山市北区駅元町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -217,7 +218,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR山陽本線"
     ],
-    "address": "",
+    "address": "岡山県倉敷市玉島爪崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -248,7 +249,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR山陽本線",
       "JR福塩線"
     ],
-    "address": "",
+    "address": "広島県福山市三之丸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -257,7 +258,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "nozomi",
       "sakura",
       "hikari",
-      "kodama"
+      "kodama",
+      "mizuho"
     ],
     "isMajor": true,
     "facilities": {
@@ -278,13 +280,14 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.43082,
     "lng": 133.19219,
     "transfers": [],
-    "address": "",
+    "address": "広島県尾道市栗原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -308,13 +311,14 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR山陽本線",
       "JR呉線"
     ],
-    "address": "",
+    "address": "広島県三原市城町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -335,13 +339,14 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.38887,
     "lng": 132.75895,
     "transfers": [],
-    "address": "",
+    "address": "広島県東広島市三永一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -368,7 +373,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR芸備線",
       "広島電鉄本線"
     ],
-    "address": "",
+    "address": "広島県広島市南区松原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -401,13 +406,14 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "錦川鉄道錦川清流線"
     ],
-    "address": "",
+    "address": "山口県岩国市御庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -431,7 +437,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR山陽本線",
       "JR岩徳線"
     ],
-    "address": "",
+    "address": "山口県周南市千代田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -465,7 +471,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR山口線",
       "JR宇部線"
     ],
-    "address": "",
+    "address": "山口県山口市小郡令和一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -474,7 +480,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "nozomi",
       "sakura",
       "hikari",
-      "kodama"
+      "kodama",
+      "mizuho"
     ],
     "isMajor": true,
     "facilities": {
@@ -498,13 +505,14 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR山陽本線",
       "JR美祢線"
     ],
-    "address": "",
+    "address": "山口県山陽小野田市大字厚狭",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "sakura"
     ],
     "isMajor": false,
     "facilities": {
@@ -527,7 +535,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR山陽本線"
     ],
-    "address": "",
+    "address": "山口県下関市秋根南町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -535,7 +543,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "sakura",
       "hikari",
-      "kodama"
+      "kodama",
+      "tsubame"
     ],
     "isMajor": false,
     "facilities": {
@@ -560,7 +569,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "JR日豊本線",
       "北九州モノレール小倉線"
     ],
-    "address": "",
+    "address": "福岡県北九州市小倉北区浅野一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -598,7 +607,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "福岡市地下鉄空港線",
       "福岡市地下鉄七隈線"
     ],
-    "address": "",
+    "address": "福岡県福岡市博多区博多駅中央街",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

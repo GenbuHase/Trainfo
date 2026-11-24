@@ -15,7 +15,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
       "ＪＲ篠ノ井線",
       "ＪＲ大糸線"
     ],
-    "address": "長野県松本駅",
+    "address": "長野県松本市深志1丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2271616,
     "lng": 137.9633579,
     "transfers": [],
-    "address": "長野県西松本駅",
+    "address": "長野県松本市中条",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2269858,
     "lng": 137.9564679,
     "transfers": [],
-    "address": "長野県渚駅",
+    "address": "長野県松本市渚四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -97,7 +97,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2291244,
     "lng": 137.9495474,
     "transfers": [],
-    "address": "長野県信濃荒井駅",
+    "address": "長野県松本市大字島立",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2269967,
     "lng": 137.9416502,
     "transfers": [],
-    "address": "長野県大庭駅",
+    "address": "長野県松本市大字島立",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2252167,
     "lng": 137.9229752,
     "transfers": [],
-    "address": "長野県下新駅",
+    "address": "長野県松本市大字新村",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2196956,
     "lng": 137.9139486,
     "transfers": [],
-    "address": "長野県北新・松本大学前駅",
+    "address": "長野県松本市大字新村",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -234,7 +234,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2128826,
     "lng": 137.8915826,
     "transfers": [],
-    "address": "長野県三溝駅",
+    "address": "長野県松本市波田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -261,7 +261,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2081785,
     "lng": 137.8817105,
     "transfers": [],
-    "address": "長野県森口駅",
+    "address": "長野県松本市波田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -288,7 +288,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2062894,
     "lng": 137.8719155,
     "transfers": [],
-    "address": "長野県下島駅",
+    "address": "長野県松本市波田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -315,7 +315,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.2006063,
     "lng": 137.856793,
     "transfers": [],
-    "address": "長野県波田駅",
+    "address": "長野県松本市波田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -343,7 +343,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.1952616,
     "lng": 137.8403678,
     "transfers": [],
-    "address": "長野県渕東駅",
+    "address": "長野県松本市波田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -370,7 +370,7 @@ export const ALPICO_KAMIKOCHI_STATIONS: Station[] = [
     "lat": 36.1899368,
     "lng": 137.8221641,
     "transfers": [],
-    "address": "長野県新島々駅",
+    "address": "長野県松本市波田",
     "facilities": {
       "elevator": true,
       "restroom": true,

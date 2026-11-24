@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const GINZA_STATIONS: Station[] = [
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-01",
     "stationNumber": "G-01",
     "number": 1,
@@ -22,7 +22,7 @@ export const GINZA_STATIONS: Station[] = [
       "相鉄・JR直通線",
       "京王井の頭線"
     ],
-    "address": "東京都渋谷区道玄坂一丁目1-2",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "1・2番線"
@@ -35,12 +35,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-02",
     "stationNumber": "G-02",
     "number": 2,
@@ -66,12 +66,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-03",
     "stationNumber": "G-03",
     "number": 3,
@@ -94,12 +94,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-04",
     "stationNumber": "G-04",
     "number": 4,
@@ -125,12 +125,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-05",
     "stationNumber": "G-05",
     "number": 5,
@@ -158,12 +158,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-06",
     "stationNumber": "G-06",
     "number": 6,
@@ -190,12 +190,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-07",
     "stationNumber": "G-07",
     "number": 7,
@@ -220,12 +220,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-08",
     "stationNumber": "G-08",
     "number": 8,
@@ -255,12 +255,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-09",
     "stationNumber": "G-09",
     "number": 9,
@@ -286,12 +286,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-10",
     "stationNumber": "G-10",
     "number": 10,
@@ -316,12 +316,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-11",
     "stationNumber": "G-11",
     "number": 11,
@@ -347,12 +347,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-12",
     "stationNumber": "G-12",
     "number": 12,
@@ -378,12 +378,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-13",
     "stationNumber": "G-13",
     "number": 13,
@@ -410,12 +410,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-14",
     "stationNumber": "G-14",
     "number": 14,
@@ -438,12 +438,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-15",
     "stationNumber": "G-15",
     "number": 15,
@@ -471,12 +471,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-16",
     "stationNumber": "G-16",
     "number": 16,
@@ -492,9 +492,9 @@ export const GINZA_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "京成本線"
     ],
     "address": "東京都台東区東上野三丁目19-6",
@@ -510,12 +510,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-17",
     "stationNumber": "G-17",
     "number": 17,
@@ -538,12 +538,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-18",
     "stationNumber": "G-18",
     "number": 18,
@@ -568,12 +568,12 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-19",
     "stationNumber": "G-19",
     "number": 19,
@@ -585,7 +585,7 @@ export const GINZA_STATIONS: Station[] = [
     "transfers": [
       "東武スカイツリーライン",
       "都営浅草線",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都台東区浅草一丁目1-3",
     "platforms": {
@@ -600,8 +600,8 @@ export const GINZA_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   }
 ];

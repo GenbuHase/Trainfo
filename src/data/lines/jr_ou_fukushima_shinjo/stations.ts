@@ -13,11 +13,12 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線",
       "JR山形新幹線",
-      "JR東北本線",
+      "JR東北本線（福島～仙台）",
+      "JR東北本線（黒磯～福島）",
       "阿武隈急行線",
       "福島交通飯坂線"
     ],
-    "address": "",
+    "address": "福島県福島市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -44,7 +45,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.7660165,
     "lng": 140.4252664,
     "transfers": [],
-    "address": "",
+    "address": "福島県福島市笹木野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +71,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.771659,
     "lng": 140.3899142,
     "transfers": [],
-    "address": "",
+    "address": "福島県福島市町庭坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +97,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.8116458,
     "lng": 140.2690623,
     "transfers": [],
-    "address": "",
+    "address": "山形県米沢市大字板谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -122,7 +123,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.8124411,
     "lng": 140.2355271,
     "transfers": [],
-    "address": "",
+    "address": "山形県米沢市大字大沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +149,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.837423,
     "lng": 140.2002606,
     "transfers": [],
-    "address": "",
+    "address": "山形県米沢市大字大沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -172,7 +173,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.8645113,
     "lng": 140.1463614,
     "transfers": [],
-    "address": "",
+    "address": "山形県米沢市大字関根",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -201,7 +202,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
       "JR山形新幹線",
       "JR米坂線"
     ],
-    "address": "",
+    "address": "山形県米沢市駅前一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -228,7 +229,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 37.9542203,
     "lng": 140.1427437,
     "transfers": [],
-    "address": "",
+    "address": "山形県米沢市大字浅川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -256,7 +257,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR山形新幹線"
     ],
-    "address": "",
+    "address": "山形県高畠町大字福沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -286,7 +287,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
       "JR山形新幹線",
       "山形鉄道フラワー長井線"
     ],
-    "address": "",
+    "address": "山形県南陽市郡山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -313,7 +314,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.0935271,
     "lng": 140.2037652,
     "transfers": [],
-    "address": "",
+    "address": "山形県南陽市小岩沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -339,7 +340,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.1244693,
     "lng": 140.2183449,
     "transfers": [],
-    "address": "",
+    "address": "山形県上山市中山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -367,7 +368,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR山形新幹線"
     ],
-    "address": "",
+    "address": "山形県上山市矢来一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -394,7 +395,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.1716613,
     "lng": 140.2983159,
     "transfers": [],
-    "address": "",
+    "address": "山形県上山市金瓶",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -420,7 +421,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.2059707,
     "lng": 140.3033677,
     "transfers": [],
-    "address": "",
+    "address": "山形県山形市大字松原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -450,7 +451,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
       "JR仙山線",
       "JR左沢線"
     ],
-    "address": "",
+    "address": "山形県山形市香澄町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -480,7 +481,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR左沢線"
     ],
-    "address": "",
+    "address": "山形県山形市宮町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -509,7 +510,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR仙山線"
     ],
-    "address": "",
+    "address": "山形県山形市落合町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -536,7 +537,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.3028361,
     "lng": 140.3447547,
     "transfers": [],
-    "address": "",
+    "address": "山形県山形市大字青柳",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -562,7 +563,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.3144003,
     "lng": 140.3476536,
     "transfers": [],
-    "address": "",
+    "address": "山形県山形市大字漆山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -588,7 +589,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.3310203,
     "lng": 140.3590603,
     "transfers": [],
-    "address": "",
+    "address": "山形県天童市中里一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -614,7 +615,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.3415877,
     "lng": 140.365749,
     "transfers": [],
-    "address": "",
+    "address": "山形県天童市大字北目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -642,7 +643,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR山形新幹線"
     ],
-    "address": "",
+    "address": "山形県天童市本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -669,7 +670,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.3871808,
     "lng": 140.3748126,
     "transfers": [],
-    "address": "",
+    "address": "山形県天童市大字乱川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -695,7 +696,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.4127417,
     "lng": 140.378532,
     "transfers": [],
-    "address": "",
+    "address": "山形県東根市神町中央一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -723,7 +724,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR山形新幹線"
     ],
-    "address": "",
+    "address": "山形県東根市さくらんぼ駅前一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -750,7 +751,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.4510749,
     "lng": 140.3840932,
     "transfers": [],
-    "address": "",
+    "address": "山形県東根市宮崎三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -778,7 +779,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR山形新幹線"
     ],
-    "address": "",
+    "address": "山形県村山市楯岡新町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -805,7 +806,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.5490107,
     "lng": 140.3914218,
     "transfers": [],
-    "address": "",
+    "address": "山形県村山市大字土生田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -833,7 +834,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR山形新幹線"
     ],
-    "address": "",
+    "address": "山形県大石田町大字大石田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -860,7 +861,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.6302147,
     "lng": 140.3712022,
     "transfers": [],
-    "address": "",
+    "address": "山形県大石田町大字鷹巣",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -886,7 +887,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.6555496,
     "lng": 140.3611463,
     "transfers": [],
-    "address": "",
+    "address": "山形県尾花沢市大字芦沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -912,7 +913,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "lat": 38.6916516,
     "lng": 140.3162025,
     "transfers": [],
-    "address": "",
+    "address": "山形県舟形町舟形",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -943,7 +944,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
       "JR陸羽西線",
       "JR奥羽本線（新庄～大曲）"
     ],
-    "address": "",
+    "address": "山形県新庄市多門町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

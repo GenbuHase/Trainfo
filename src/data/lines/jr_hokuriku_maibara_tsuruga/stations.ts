@@ -17,15 +17,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "ＪＲ琵琶湖線",
       "近江鉄道本線"
     ],
-    "address": "",
+    "address": "滋賀県米原市米原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -48,16 +46,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.33581,
     "lng": 136.28777,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県米原市宇賀野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -79,16 +74,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.35589,
     "lng": 136.282,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市田村町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -110,15 +102,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.37759,
     "lng": 136.26563,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市北船町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -141,16 +131,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.42391,
     "lng": 136.25759,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市大寺町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -172,16 +159,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.44811,
     "lng": 136.24963,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市湖北町山脇",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -203,16 +187,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.47156,
     "lng": 136.23724,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市高月町落川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -234,16 +215,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.50497,
     "lng": 136.22213,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市木之本町木之本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -265,16 +243,13 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.53395,
     "lng": 136.19945,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県長浜市余呉町下余呉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -298,7 +273,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ湖西線"
     ],
-    "address": "",
+    "address": "滋賀県長浜市西浅井町余",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -306,8 +281,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "new_rapid",
-      "limited_exp"
+      "new_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -329,7 +303,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "lat": 35.59458,
     "lng": 136.10046,
     "transfers": [],
-    "address": "",
+    "address": "福井県敦賀市疋田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -337,8 +311,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "new_rapid",
-      "limited_exp"
+      "new_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -364,7 +337,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "ＪＲ小浜線",
       "ハピラインふくい"
     ],
-    "address": "",
+    "address": "福井県敦賀市鉄輪町一丁目1-24",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

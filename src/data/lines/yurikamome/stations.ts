@@ -20,7 +20,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
       "東京メトロ銀座線",
       "都営地下鉄浅草線"
     ],
-    "address": "東京都新橋駅",
+    "address": "東京都港区新橋二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -50,7 +50,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都汐留駅",
+    "address": "東京都港区東新橋一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -78,7 +78,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6543437,
     "lng": 139.7622511,
     "transfers": [],
-    "address": "東京都竹芝駅",
+    "address": "東京都港区海岸一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -105,7 +105,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6489004,
     "lng": 139.7590338,
     "transfers": [],
-    "address": "東京都日の出駅",
+    "address": "東京都港区海岸二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -132,7 +132,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6419489,
     "lng": 139.757795,
     "transfers": [],
-    "address": "東京都芝浦ふ頭駅",
+    "address": "東京都港区海岸三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -159,7 +159,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6299288,
     "lng": 139.7789396,
     "transfers": [],
-    "address": "東京都お台場海浜公園駅",
+    "address": "東京都港区台場二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -186,7 +186,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6260249,
     "lng": 139.7717496,
     "transfers": [],
-    "address": "東京都台場駅",
+    "address": "東京都港区台場二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -213,7 +213,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6216505,
     "lng": 139.77293,
     "transfers": [],
-    "address": "東京都東京国際クルーズターミナル駅",
+    "address": "東京都江東区青海一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -240,7 +240,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6175492,
     "lng": 139.7793128,
     "transfers": [],
-    "address": "東京都テレコムセンター駅",
+    "address": "東京都江東区青海二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -267,7 +267,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6251273,
     "lng": 139.7819121,
     "transfers": [],
-    "address": "東京都青海駅",
+    "address": "東京都江東区青海一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -294,7 +294,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6298369,
     "lng": 139.7905935,
     "transfers": [],
-    "address": "東京都東京ビッグサイト駅",
+    "address": "東京都江東区有明三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -321,7 +321,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6342737,
     "lng": 139.7935381,
     "transfers": [],
-    "address": "東京都有明駅",
+    "address": "東京都江東区有明三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -348,7 +348,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.640276,
     "lng": 139.7887084,
     "transfers": [],
-    "address": "東京都有明テニスの森駅",
+    "address": "東京都江東区有明一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -402,7 +402,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "lat": 35.6488505,
     "lng": 139.7904198,
     "transfers": [],
-    "address": "東京都新豊洲駅",
+    "address": "東京都江東区豊洲六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -431,7 +431,7 @@ export const YURIKAMOME_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ有楽町線"
     ],
-    "address": "東京都豊洲駅",
+    "address": "東京都江東区豊洲四丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,

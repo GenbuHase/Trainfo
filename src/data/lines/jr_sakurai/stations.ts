@@ -12,7 +12,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.68162,
     "lng": 135.81941,
     "transfers": [],
-    "address": "",
+    "address": "奈良県奈良市三条本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -26,8 +26,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -41,7 +40,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.67028,
     "lng": 135.82815,
     "transfers": [],
-    "address": "",
+    "address": "奈良県奈良市南京終町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -55,8 +54,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -70,7 +68,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.64388,
     "lng": 135.82622,
     "transfers": [],
-    "address": "",
+    "address": "奈良県奈良市今市町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -84,8 +82,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -99,7 +96,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.62174,
     "lng": 135.82602,
     "transfers": [],
-    "address": "",
+    "address": "奈良県天理市櫟本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -113,8 +110,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -128,7 +124,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.5989,
     "lng": 135.83074,
     "transfers": [],
-    "address": "",
+    "address": "奈良県天理市川原城町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -142,8 +138,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -157,7 +152,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.57347,
     "lng": 135.83511,
     "transfers": [],
-    "address": "",
+    "address": "奈良県天理市兵庫町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -171,8 +166,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -186,7 +180,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.55857,
     "lng": 135.83871,
     "transfers": [],
-    "address": "",
+    "address": "奈良県天理市柳本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,8 +194,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -215,7 +208,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.54485,
     "lng": 135.84102,
     "transfers": [],
-    "address": "",
+    "address": "奈良県桜井市大字辻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -229,8 +222,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -244,7 +236,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.52651,
     "lng": 135.8487,
     "transfers": [],
-    "address": "",
+    "address": "奈良県桜井市大字三輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -258,8 +250,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -273,7 +264,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.51281,
     "lng": 135.84467,
     "transfers": [],
-    "address": "",
+    "address": "奈良県桜井市大字谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -287,8 +278,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -302,7 +292,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.51049,
     "lng": 135.82432,
     "transfers": [],
-    "address": "",
+    "address": "奈良県橿原市出垣内町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -316,8 +306,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -331,7 +320,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.50825,
     "lng": 135.79349,
     "transfers": [],
-    "address": "",
+    "address": "奈良県橿原市八木町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -345,8 +334,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -360,7 +348,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.50967,
     "lng": 135.76503,
     "transfers": [],
-    "address": "",
+    "address": "奈良県橿原市曲川町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -374,8 +362,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -389,7 +376,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
     "lat": 34.517,
     "lng": 135.74407,
     "transfers": [],
-    "address": "",
+    "address": "奈良県大和高田市高砂町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,8 +390,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   }
 ];

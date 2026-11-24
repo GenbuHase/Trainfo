@@ -16,7 +16,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "ＪＲ東海道本線",
       "名鉄名古屋本線"
     ],
-    "address": "",
+    "address": "愛知県豊橋市花田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -46,15 +46,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.77515,
     "lng": 137.37444,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊橋市北島町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -76,15 +74,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.7806,
     "lng": 137.37086,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊橋市横須賀町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -106,15 +102,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.79711,
     "lng": 137.36261,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市小坂井町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -136,15 +131,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.80888,
     "lng": 137.38226,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市牛久保町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -166,7 +160,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.82305,
     "lng": 137.39779,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市豊川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -195,15 +189,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.84828,
     "lng": 137.41485,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市一宮町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -224,15 +217,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.86469,
     "lng": 137.43188,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市上長山町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -253,15 +245,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.86803,
     "lng": 137.44205,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市東上町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -282,15 +273,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.87625,
     "lng": 137.45604,
     "transfers": [],
-    "address": "",
+    "address": "愛知県豊川市東上町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -311,15 +301,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.88973,
     "lng": 137.47855,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市野田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -340,7 +329,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.90154,
     "lng": 137.49379,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市字宮ノ後",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,15 +358,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.9063,
     "lng": 137.50346,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市平井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -398,15 +386,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.91052,
     "lng": 137.51494,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市富永",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -427,15 +414,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.91228,
     "lng": 137.52781,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市川路",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -456,15 +442,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.93018,
     "lng": 137.54845,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市大海",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -485,15 +470,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.92112,
     "lng": 137.55106,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市有海",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -514,15 +497,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.9257,
     "lng": 137.56436,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市長篠",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -543,7 +524,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.9325,
     "lng": 137.57592,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市長篠",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -572,15 +553,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.95152,
     "lng": 137.60284,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市富栄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -601,7 +581,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.97015,
     "lng": 137.61288,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市豊岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -630,15 +610,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.98858,
     "lng": 137.62013,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市豊岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -659,15 +638,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 34.99069,
     "lng": 137.64439,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市豊岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -688,15 +665,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.00233,
     "lng": 137.6644,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市川合",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -717,15 +693,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.02418,
     "lng": 137.70367,
     "transfers": [],
-    "address": "",
+    "address": "愛知県新城市池場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -746,15 +720,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.0289,
     "lng": 137.7134,
     "transfers": [],
-    "address": "",
+    "address": "愛知県東栄町大字三輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -775,15 +748,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.04919,
     "lng": 137.7439,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町浦川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -804,15 +775,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.05002,
     "lng": 137.75206,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町浦川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -833,15 +802,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.05614,
     "lng": 137.76327,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町浦川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -862,15 +830,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.06036,
     "lng": 137.7748,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町浦川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -891,15 +857,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.06911,
     "lng": 137.78606,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町川合",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -920,7 +884,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.08498,
     "lng": 137.80277,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町半場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -949,15 +913,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.09181,
     "lng": 137.8093,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町佐久間",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -978,15 +941,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.11459,
     "lng": 137.85431,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町相月",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1007,15 +968,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.13128,
     "lng": 137.86178,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区佐久間町相月",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1036,15 +996,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.15373,
     "lng": 137.86939,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区水窪町地頭方",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1065,7 +1023,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.16293,
     "lng": 137.87044,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区水窪町地頭方",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1094,15 +1052,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.19081,
     "lng": 137.81852,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区水窪町奥領家",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1123,15 +1079,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.21005,
     "lng": 137.83641,
     "transfers": [],
-    "address": "",
+    "address": "静岡県浜松市天竜区水窪町奥領家",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1152,15 +1106,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.23612,
     "lng": 137.83533,
     "transfers": [],
-    "address": "",
+    "address": "長野県天龍村平岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1181,15 +1133,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.25429,
     "lng": 137.83443,
     "transfers": [],
-    "address": "",
+    "address": "長野県天龍村平岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1210,15 +1161,13 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.26763,
     "lng": 137.83285,
     "transfers": [],
-    "address": "",
+    "address": "長野県天龍村平岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1239,7 +1188,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.27396,
     "lng": 137.85404,
     "transfers": [],
-    "address": "",
+    "address": "長野県天龍村平岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1268,15 +1217,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.31207,
     "lng": 137.84843,
     "transfers": [],
-    "address": "",
+    "address": "長野県天龍村平岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1297,7 +1245,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.3359,
     "lng": 137.84106,
     "transfers": [],
-    "address": "",
+    "address": "長野県泰阜村温田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1326,15 +1274,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.34883,
     "lng": 137.83819,
     "transfers": [],
-    "address": "",
+    "address": "長野県泰阜村田本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1355,15 +1302,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.37509,
     "lng": 137.81443,
     "transfers": [],
-    "address": "",
+    "address": "長野県泰阜村門島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1384,15 +1330,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.40209,
     "lng": 137.80991,
     "transfers": [],
-    "address": "",
+    "address": "長野県泰阜村唐笠",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1413,15 +1358,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.41886,
     "lng": 137.81697,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市千栄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1442,15 +1386,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.42889,
     "lng": 137.81683,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市千栄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1471,7 +1414,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.44082,
     "lng": 137.81746,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市川路",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1500,15 +1443,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.45282,
     "lng": 137.81567,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市川路",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1529,15 +1471,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.46367,
     "lng": 137.82768,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市時又",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1558,15 +1499,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.47528,
     "lng": 137.83964,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市駄科",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1587,15 +1527,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.48713,
     "lng": 137.83926,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市毛賀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1616,15 +1555,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.49633,
     "lng": 137.84117,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市八幡町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1645,15 +1583,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.5043,
     "lng": 137.83938,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市鼎下山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1674,15 +1611,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.50665,
     "lng": 137.82794,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市鼎下山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1703,15 +1639,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.51269,
     "lng": 137.8092,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市鼎切石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1732,7 +1667,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.51996,
     "lng": 137.82166,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市上飯田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1761,15 +1696,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.52222,
     "lng": 137.83016,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市大王路二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1790,15 +1724,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.52009,
     "lng": 137.83941,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市上郷黒田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1819,15 +1752,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.534,
     "lng": 137.8618,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯田市座光寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1848,15 +1780,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.54433,
     "lng": 137.87672,
     "transfers": [],
-    "address": "",
+    "address": "長野県高森町下市田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1877,15 +1808,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.54974,
     "lng": 137.88663,
     "transfers": [],
-    "address": "",
+    "address": "長野県高森町下市田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1906,15 +1836,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.57287,
     "lng": 137.89605,
     "transfers": [],
-    "address": "",
+    "address": "長野県高森町山吹",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1935,15 +1864,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.57788,
     "lng": 137.90375,
     "transfers": [],
-    "address": "",
+    "address": "長野県高森町山吹",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1964,15 +1892,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.5953,
     "lng": 137.91295,
     "transfers": [],
-    "address": "",
+    "address": "長野県松川町元大島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1993,15 +1920,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.61708,
     "lng": 137.90418,
     "transfers": [],
-    "address": "",
+    "address": "長野県松川町上片桐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2022,15 +1948,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.62713,
     "lng": 137.9104,
     "transfers": [],
-    "address": "",
+    "address": "長野県中川村片桐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2051,15 +1976,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.64432,
     "lng": 137.90055,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯島町七久保",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2080,15 +2004,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.6544,
     "lng": 137.91113,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯島町七久保",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2109,15 +2032,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.66508,
     "lng": 137.9325,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯島町本郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2138,15 +2060,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.67718,
     "lng": 137.9291,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯島町飯島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2167,15 +2088,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.69518,
     "lng": 137.93291,
     "transfers": [],
-    "address": "",
+    "address": "長野県飯島町田切",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2196,15 +2116,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.71178,
     "lng": 137.93403,
     "transfers": [],
-    "address": "",
+    "address": "長野県駒ヶ根市赤穂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2225,15 +2144,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.72645,
     "lng": 137.93513,
     "transfers": [],
-    "address": "",
+    "address": "長野県駒ヶ根市下市場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2254,15 +2172,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.73592,
     "lng": 137.93672,
     "transfers": [],
-    "address": "",
+    "address": "長野県駒ヶ根市東町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -2283,15 +2200,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.74788,
     "lng": 137.94034,
     "transfers": [],
-    "address": "",
+    "address": "長野県駒ヶ根市赤穂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2312,15 +2228,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.76761,
     "lng": 137.93889,
     "transfers": [],
-    "address": "",
+    "address": "長野県宮田村−",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2341,15 +2256,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.77823,
     "lng": 137.94416,
     "transfers": [],
-    "address": "",
+    "address": "長野県伊那市西春近",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2370,15 +2284,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.80409,
     "lng": 137.944,
     "transfers": [],
-    "address": "",
+    "address": "長野県伊那市西春近",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2399,15 +2312,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.81351,
     "lng": 137.94021,
     "transfers": [],
-    "address": "",
+    "address": "長野県伊那市西春近",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2428,15 +2340,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.83822,
     "lng": 137.95886,
     "transfers": [],
-    "address": "",
+    "address": "長野県伊那市荒井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -2457,15 +2368,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.84487,
     "lng": 137.96408,
     "transfers": [],
-    "address": "",
+    "address": "長野県伊那市山寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2486,15 +2396,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.86057,
     "lng": 137.97756,
     "transfers": [],
-    "address": "",
+    "address": "長野県南箕輪村−",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2515,15 +2424,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.87911,
     "lng": 137.9841,
     "transfers": [],
-    "address": "",
+    "address": "長野県南箕輪村−",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2544,15 +2452,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.90051,
     "lng": 137.98797,
     "transfers": [],
-    "address": "",
+    "address": "長野県箕輪町大字中箕輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2573,15 +2480,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.91344,
     "lng": 137.98851,
     "transfers": [],
-    "address": "",
+    "address": "長野県箕輪町大字中箕輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2602,15 +2508,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.93599,
     "lng": 137.98535,
     "transfers": [],
-    "address": "",
+    "address": "長野県箕輪町大字中箕輪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2631,15 +2536,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.95272,
     "lng": 137.98522,
     "transfers": [],
-    "address": "",
+    "address": "長野県辰野町大字伊那富",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2660,15 +2564,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.96837,
     "lng": 137.98364,
     "transfers": [],
-    "address": "",
+    "address": "長野県辰野町大字伊那富",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2689,15 +2592,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "lat": 35.97594,
     "lng": 137.99034,
     "transfers": [],
-    "address": "",
+    "address": "長野県辰野町大字伊那富",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2720,15 +2622,14 @@ export const JR_IIDA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "",
+    "address": "長野県辰野町大字辰野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

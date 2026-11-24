@@ -23,7 +23,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
       "小田急小田原線",
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都新宿駅",
+    "address": "東京都新宿区新宿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -55,7 +55,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
       "東京メトロ丸ノ内線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都新宿三丁目駅",
+    "address": "東京都新宿区新宿三丁目5-4",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -83,7 +83,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6923576,
     "lng": 139.7215905,
     "transfers": [],
-    "address": "東京都曙橋駅",
+    "address": "東京都新宿区住吉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -146,7 +146,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
       "東京メトロ東西線",
       "東京メトロ半蔵門線"
     ],
-    "address": "東京都九段下駅",
+    "address": "東京都千代田区九段南一丁目6-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -260,7 +260,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6922707,
     "lng": 139.7825973,
     "transfers": [],
-    "address": "東京都馬喰横山駅",
+    "address": "東京都中央区日本橋横山町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -317,7 +317,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都森下駅",
+    "address": "東京都江東区森下一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -346,7 +346,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6883573,
     "lng": 139.8060633,
     "transfers": [],
-    "address": "東京都菊川駅",
+    "address": "東京都墨田区菊川三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -375,7 +375,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ半蔵門線"
     ],
-    "address": "東京都住吉駅",
+    "address": "東京都江東区住吉二丁目24-12",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -403,7 +403,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6893125,
     "lng": 139.8262497,
     "transfers": [],
-    "address": "東京都西大島駅",
+    "address": "東京都江東区大島一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -430,7 +430,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6896227,
     "lng": 139.8342663,
     "transfers": [],
-    "address": "東京都大島駅",
+    "address": "東京都江東区大島五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -458,7 +458,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6898456,
     "lng": 139.8475574,
     "transfers": [],
-    "address": "東京都東大島駅",
+    "address": "東京都江東区大島九丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -485,7 +485,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6837555,
     "lng": 139.8628405,
     "transfers": [],
-    "address": "東京都船堀駅",
+    "address": "東京都江戸川区船堀二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -513,7 +513,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6858079,
     "lng": 139.8818782,
     "transfers": [],
-    "address": "東京都一之江駅",
+    "address": "東京都江戸川区一之江七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -540,7 +540,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6926755,
     "lng": 139.8973197,
     "transfers": [],
-    "address": "東京都瑞江駅",
+    "address": "東京都江戸川区瑞江二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -567,7 +567,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7054496,
     "lng": 139.9031457,
     "transfers": [],
-    "address": "東京都篠崎駅",
+    "address": "東京都江戸川区篠崎町七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -594,7 +594,7 @@ export const TOEI_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7226069,
     "lng": 139.9263329,
     "transfers": [],
-    "address": "千葉県本八幡駅",
+    "address": "千葉県市川市八幡三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

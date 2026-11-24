@@ -11,7 +11,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.82773,
     "lng": 134.68868,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市豆腐町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -38,7 +38,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.84169,
     "lng": 134.65916,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市西今宿三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -65,7 +65,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.8557,
     "lng": 134.64285,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市青山北一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -92,7 +92,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.86388,
     "lng": 134.60631,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市相野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,7 +119,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.86356,
     "lng": 134.55497,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県たつの市龍野町中村",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -146,7 +146,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.88821,
     "lng": 134.55783,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県たつの市神岡町大住寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -173,7 +173,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.92099,
     "lng": 134.54668,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県たつの市新宮町新宮",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +200,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.94249,
     "lng": 134.49386,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県たつの市新宮町千本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.95279,
     "lng": 134.47038,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県たつの市新宮町鍛冶屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -254,7 +254,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.98517,
     "lng": 134.43485,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県佐用町三日月",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.99039,
     "lng": 134.38517,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県佐用町下徳久",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 35.0033,
     "lng": 134.35584,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県佐用町佐用",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -322,7 +322,8 @@ export const JR_KISHIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ]
   },
   {
@@ -335,7 +336,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
     "lat": 34.98377,
     "lng": 134.32175,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県佐用町上月",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -349,7 +350,8 @@ export const JR_KISHIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ]
   }
 ];

@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const KITA_SHINANO_STATIONS: Station[] = [
   {
     "id": "SRK-01",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 1,
     "name": "長野",
     "nameKana": "ながの",
@@ -14,7 +14,6 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "JR北陸新幹線",
       "JR篠ノ井線",
       "JR信越本線",
-      "しなの鉄道北しなの線",
       "長野電鉄長野線"
     ],
     "address": "長野県長野市南千歳1-25",
@@ -28,7 +27,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
@@ -37,7 +36,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-02",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 2,
     "name": "北長野",
     "nameKana": "きたながの",
@@ -51,21 +50,20 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "SRK-03",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 3,
     "name": "三才",
     "nameKana": "さんさい",
@@ -79,21 +77,20 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
     "id": "SRK-04",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 4,
     "name": "豊野",
     "nameKana": "とよの",
@@ -115,13 +112,13 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
   {
     "id": "SRK-05",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 5,
     "name": "牟礼",
     "nameKana": "むれ",
@@ -143,13 +140,13 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
     "id": "SRK-06",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 6,
     "name": "古間",
     "nameKana": "ふるま",
@@ -163,21 +160,20 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
     "id": "SRK-07",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 7,
     "name": "黒姫",
     "nameKana": "くろひめ",
@@ -198,14 +194,14 @@ export const KITA_SHINANO_STATIONS: Station[] = [
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     }
   },
   {
     "id": "SRK-08",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 8,
     "name": "妙高高原",
     "nameKana": "みょうこうこうげん",
@@ -213,8 +209,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
     "lat": 36.8725757,
     "lng": 138.212362,
     "transfers": [
-      "妙高はねうまライン",
-      "しなの鉄道北しなの線"
+      "えちごトキめき鉄道妙高はねうまライン"
     ],
     "address": "新潟県妙高市大字田口312",
     "platforms": {
@@ -227,9 +222,9 @@ export const KITA_SHINANO_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }

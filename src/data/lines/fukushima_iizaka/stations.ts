@@ -18,7 +18,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
       "JR奥羽本線（福島～新庄）",
       "阿武隈急行線"
     ],
-    "address": "福島県福島駅周辺",
+    "address": "福島県福島市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.7603546,
     "lng": 140.4593676,
     "transfers": [],
-    "address": "福島県曽根田駅周辺",
+    "address": "福島県福島市曽根田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.7670192,
     "lng": 140.4552943,
     "transfers": [],
-    "address": "福島県美術館図書館前駅周辺",
+    "address": "福島県福島市森合",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.7760332,
     "lng": 140.4479471,
     "transfers": [],
-    "address": "福島県岩代清水駅周辺",
+    "address": "福島県福島市泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.778293,
     "lng": 140.445866,
     "transfers": [],
-    "address": "福島県泉駅周辺",
+    "address": "福島県福島市泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.7836073,
     "lng": 140.4409252,
     "transfers": [],
-    "address": "福島県上松川駅周辺",
+    "address": "福島県福島市南沢又",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.7874508,
     "lng": 140.4396553,
     "transfers": [],
-    "address": "福島県笹谷駅周辺",
+    "address": "福島県福島市笹谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.7959108,
     "lng": 140.4410404,
     "transfers": [],
-    "address": "福島県桜水駅周辺",
+    "address": "福島県福島市笹谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.8053914,
     "lng": 140.4427588,
     "transfers": [],
-    "address": "福島県平野駅周辺",
+    "address": "福島県福島市飯坂町平野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.8164037,
     "lng": 140.4461369,
     "transfers": [],
-    "address": "福島県医王寺前駅周辺",
+    "address": "福島県福島市飯坂町平野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -288,7 +288,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.8274832,
     "lng": 140.4507956,
     "transfers": [],
-    "address": "福島県花水坂駅周辺",
+    "address": "福島県福島市飯坂町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,7 +315,7 @@ export const FUKUSHIMA_IIZAKA_STATIONS: Station[] =  [
     "lat": 37.8298778,
     "lng": 140.4542351,
     "transfers": [],
-    "address": "福島県飯坂温泉駅周辺",
+    "address": "福島県福島市飯坂町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

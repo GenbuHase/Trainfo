@@ -14,15 +14,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ東海道本線"
     ],
-    "address": "",
+    "address": "愛知県大府市中央町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -44,15 +42,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.99433,
     "lng": 136.97028,
     "transfers": [],
-    "address": "",
+    "address": "愛知県東浦町大字森岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -74,15 +70,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.98197,
     "lng": 136.97186,
     "transfers": [],
-    "address": "",
+    "address": "愛知県東浦町大字緒川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -104,15 +98,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.96826,
     "lng": 136.97288,
     "transfers": [],
-    "address": "",
+    "address": "愛知県東浦町大字石浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -134,15 +126,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.95032,
     "lng": 136.97103,
     "transfers": [],
-    "address": "",
+    "address": "愛知県東浦町大字藤江",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -164,15 +154,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.91944,
     "lng": 136.96119,
     "transfers": [],
-    "address": "",
+    "address": "愛知県半田市亀崎常盤町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -194,15 +182,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.90348,
     "lng": 136.94223,
     "transfers": [],
-    "address": "",
+    "address": "愛知県半田市浜田町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -224,15 +210,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.89475,
     "lng": 136.93054,
     "transfers": [],
-    "address": "",
+    "address": "愛知県半田市山崎町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -254,15 +238,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.87473,
     "lng": 136.9238,
     "transfers": [],
-    "address": "",
+    "address": "愛知県半田市川崎町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -284,15 +266,13 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
     "lat": 34.85379,
     "lng": 136.9212,
     "transfers": [],
-    "address": "",
+    "address": "愛知県武豊町字金下",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

@@ -14,7 +14,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "",
+    "address": "岐阜県多治見市音羽町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "lat": 35.34885,
     "lng": 137.10077,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県多治見市小泉町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +70,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "lat": 35.3612,
     "lng": 137.09027,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県多治見市高根町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -98,7 +98,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "lat": 35.38165,
     "lng": 137.07225,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県多治見市姫町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "lat": 35.39339,
     "lng": 137.06384,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県可児市下切",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "lat": 35.42392,
     "lng": 137.05537,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県可児市下恵土",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -182,7 +182,7 @@ export const JR_TAITA_STATIONS: Station[] = [
     "lat": 35.44439,
     "lng": 137.04512,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県美濃加茂市川合町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -213,7 +213,7 @@ export const JR_TAITA_STATIONS: Station[] = [
       "ＪＲ高山本線",
       "長良川鉄道"
     ],
-    "address": "",
+    "address": "岐阜県美濃加茂市太田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

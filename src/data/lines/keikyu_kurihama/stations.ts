@@ -14,7 +14,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "神奈川県堀ノ内駅",
+    "address": "神奈川県横須賀市三春町四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.2571397,
     "lng": 139.6902033,
     "transfers": [],
-    "address": "神奈川県新大津駅",
+    "address": "神奈川県横須賀市大津町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -75,7 +75,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.2491787,
     "lng": 139.6864035,
     "transfers": [],
-    "address": "神奈川県北久里浜駅",
+    "address": "神奈川県横須賀市根岸町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -105,7 +105,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.2321334,
     "lng": 139.7024209,
     "transfers": [],
-    "address": "神奈川県京急久里浜駅",
+    "address": "神奈川県横須賀市久里浜四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -135,7 +135,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.213188,
     "lng": 139.6856447,
     "transfers": [],
-    "address": "神奈川県ＹＲＰ野比駅",
+    "address": "神奈川県横須賀市野比一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -165,7 +165,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.2056844,
     "lng": 139.6747137,
     "transfers": [],
-    "address": "神奈川県京急長沢駅",
+    "address": "神奈川県横須賀市長沢一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -195,7 +195,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.1985544,
     "lng": 139.6654403,
     "transfers": [],
-    "address": "神奈川県津久井浜駅",
+    "address": "神奈川県横須賀市津久井四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -225,7 +225,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.1887788,
     "lng": 139.6539996,
     "transfers": [],
-    "address": "神奈川県三浦海岸駅",
+    "address": "神奈川県三浦市南下浦町上宮田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -255,7 +255,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
     "lat": 35.1782585,
     "lng": 139.6333984,
     "transfers": [],
-    "address": "神奈川県三崎口駅",
+    "address": "神奈川県三浦市初声町下宮田",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -140,7 +140,7 @@ export const RINKAI_STATIONS: Station[] = [
     "lat": 35.6205792,
     "lng": 139.750912,
     "transfers": [
-      "東京モノレール"
+      "東京モノレール羽田空港線"
     ],
     "address": "東京都品川区東品川二丁目2-22",
     "facilities": {

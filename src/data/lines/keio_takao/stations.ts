@@ -14,7 +14,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都北野駅",
+    "address": "東京都八王子市打越町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "lat": 35.644242,
     "lng": 139.3373909,
     "transfers": [],
-    "address": "東京都京王片倉駅",
+    "address": "東京都八王子市片倉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "lat": 35.6443366,
     "lng": 139.3211507,
     "transfers": [],
-    "address": "東京都山田駅",
+    "address": "東京都八王子市緑町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -101,7 +101,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "lat": 35.6436313,
     "lng": 139.3084594,
     "transfers": [],
-    "address": "東京都めじろ台駅",
+    "address": "東京都八王子市めじろ台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -131,7 +131,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "lat": 35.6404369,
     "lng": 139.2943393,
     "transfers": [],
-    "address": "東京都狭間駅",
+    "address": "東京都八王子市東浅川町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -162,7 +162,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
       "ＪＲ中央本線",
       "ＪＲ中央線快速"
     ],
-    "address": "東京都高尾駅",
+    "address": "東京都八王子市高尾町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -193,7 +193,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
     "lat": 35.6328629,
     "lng": 139.2700796,
     "transfers": [],
-    "address": "東京都高尾山口駅",
+    "address": "東京都八王子市高尾町",
     "facilities": {
       "elevator": true,
       "restroom": true,

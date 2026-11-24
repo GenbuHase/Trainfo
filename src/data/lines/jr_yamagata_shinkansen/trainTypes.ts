@@ -11,14 +11,4 @@ export const YAMAGATA_SHINKANSEN_TRAIN_TYPES: Record<string, TrainTypeConfig> = 
     "bgColor": "#ea5514",
     "borderColor": "#ea5514"
   },
-  "yamabiko": {
-    "key": "yamabiko",
-    "name": "やまびこ",
-    "nameEn": "Yamabiko",
-    "shortName": "やまびこ",
-    "color": "#008000",
-    "textColor": "#ffffff",
-    "bgColor": "#008000",
-    "borderColor": "#008000"
-  }
 };

@@ -1424,7 +1424,7 @@ const ADJACENT_STATION_ALIASES: Record<string, string[]> = {
   '鷹ノ巣': ['鷹巣'],
 };
 
-// 同一駅名（および隣接接続異名駅）を持つ他路線の乗換駅候補リストを取得
+// 同一駅名（および隣接接続異名駅）を持つ近接他路線の乗換駅候補リストを取得
 export function getAlternateStations(
   station: Station | null | undefined
 ): { station: Station; lineName: string }[] {
@@ -1433,7 +1433,13 @@ export function getAlternateStations(
   const results: { station: Station; lineName: string }[] = [];
   for (const line of getAllLines()) {
     if (line.id !== station.lineId) {
-      const found = line.stations.find((s) => s.name === station.name || aliasSet.has(s.name));
+      const found = line.stations.find((s) => {
+        if (s.name !== station.name && !aliasSet.has(s.name)) return false;
+        // 全国の同名異駅（例: 新潟県の新井駅と兵庫県のJR播但線新井駅）の誤結合を防ぐため近接1km以内のみ対象とする
+        const dLatKm = (s.lat - station.lat) * 111;
+        const dLngKm = (s.lng - station.lng) * 91;
+        return Math.hypot(dLatKm, dLngKm) <= 1.0;
+      });
       if (found) {
         results.push({ station: found, lineName: line.name });
       }

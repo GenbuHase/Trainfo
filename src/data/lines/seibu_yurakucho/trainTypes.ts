@@ -33,16 +33,6 @@ export const SEIBU_YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#00ccff',
     borderColor: '#00ccff',
   },
-  express: {
-    key: 'express',
-    name: '急行',
-    nameEn: 'Express',
-    shortName: '急行',
-    color: '#ff6600',
-    textColor: '#ffffff',
-    bgColor: '#ff6600',
-    borderColor: '#ff6600',
-  },
   rapid_exp: {
     key: 'rapid_exp',
     name: '快速急行',

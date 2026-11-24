@@ -14,7 +14,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "JR京葉線",
       "JR外房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区今井二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.55114,
     "lng": 140.1318,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区村田町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -57,7 +57,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -70,7 +71,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.53545,
     "lng": 140.11924,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市原市八幡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -84,7 +85,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -99,7 +101,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "transfers": [
       "小湊鉄道線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市原市五井中央西一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -128,7 +130,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.47779,
     "lng": 140.04024,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市原市姉崎東一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -157,7 +159,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.4508,
     "lng": 139.99642,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県袖ケ浦市蔵波",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -171,7 +173,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -184,7 +187,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.43228,
     "lng": 139.95826,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県袖ケ浦市奈良輪",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -198,7 +201,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -211,7 +215,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.41399,
     "lng": 139.93322,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市岩根三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -239,7 +243,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "transfers": [
       "JR久留里線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市富士見一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -268,7 +272,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.33324,
     "lng": 139.89699,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市東坂田一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -297,7 +301,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.33105,
     "lng": 139.85967,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県富津市大堀",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -310,8 +314,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -324,7 +327,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.29076,
     "lng": 139.85587,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県富津市千種新田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -337,8 +340,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -351,7 +353,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.25905,
     "lng": 139.87648,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県富津市亀田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -365,7 +367,6 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -379,7 +380,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.22095,
     "lng": 139.87075,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県富津市湊",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -392,8 +393,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -406,7 +406,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.1981,
     "lng": 139.83091,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県富津市萩生",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -432,7 +432,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.16766,
     "lng": 139.82331,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県富津市金谷",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -460,7 +460,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.14086,
     "lng": 139.83859,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鋸南町保田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -487,7 +487,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.11322,
     "lng": 139.83374,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鋸南町竜島",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -500,8 +500,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -514,7 +513,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.09214,
     "lng": 139.85,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県南房総市市部",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -541,7 +540,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.04716,
     "lng": 139.8375,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県南房総市富浦町原岡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -568,7 +567,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.03,
     "lng": 139.85077,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県館山市船形",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -594,7 +593,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 34.995,
     "lng": 139.86195,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県館山市北条",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -622,7 +621,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 34.9977,
     "lng": 139.91023,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県館山市稲",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -648,7 +647,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 34.97671,
     "lng": 139.95321,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県南房総市千倉町瀬戸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -661,8 +660,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true
   },
@@ -676,7 +674,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 34.99043,
     "lng": 139.96595,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県南房総市千倉町白子",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -702,7 +700,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.02162,
     "lng": 139.98003,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県南房総市和田町松田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -728,7 +726,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.04211,
     "lng": 140.01986,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県南房総市和田町仁我浦",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -754,7 +752,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.0626,
     "lng": 140.06221,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鴨川市東江見",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -780,7 +778,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "lat": 35.08233,
     "lng": 140.096,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鴨川市太海",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -808,7 +806,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "transfers": [
       "JR外房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鴨川市横渚",
     "facilities": {
       "elevator": true,
       "restroom": true,

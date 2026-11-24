@@ -14,7 +14,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ阪和線"
     ],
-    "address": "",
+    "address": "大阪府泉佐野市日根野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -22,7 +22,8 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "kanku_rapid",
-      "limited_exp"
+      "limited_exp",
+      "direct_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -46,7 +47,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "南海空港線"
     ],
-    "address": "",
+    "address": "大阪府泉佐野市りんくう往来北",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -54,7 +55,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "kanku_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -78,7 +79,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "南海空港線"
     ],
-    "address": "",
+    "address": "大阪府田尻町泉州空港中",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -86,7 +87,8 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "kanku_rapid",
-      "limited_exp"
+      "limited_exp",
+      "direct_rapid"
     ],
     "isMajor": true,
     "facilities": {

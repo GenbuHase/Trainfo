@@ -1,5 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
-import { JR_RAPID_PRESETS, LIMITED_EXP_PRESETS } from '../../trainTypePresets';
+import { JR_RAPID_PRESETS } from '../../trainTypePresets';
 
 export const KITAKAMI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   regular: {
@@ -12,19 +12,7 @@ export const KITAKAMI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#851a72',
     borderColor: '#631255',
   },
-  local: {
-    key: 'local',
-    name: '普通',
-    nameEn: 'Local',
-    shortName: '普通',
-    color: '#851a72',
-    textColor: '#ffffff',
-    bgColor: '#851a72',
-    borderColor: '#631255',
-  },
   rapid: JR_RAPID_PRESETS.STANDARD,
-  special_rapid: JR_RAPID_PRESETS.SPECIAL_RAPID,
-  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
   substitution_bus: {
     key: 'substitution_bus',
     name: '代行バス',

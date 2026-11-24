@@ -24,11 +24,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -56,11 +52,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -90,11 +82,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -125,11 +113,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -157,11 +141,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -191,11 +171,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -226,11 +202,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -258,11 +230,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -290,11 +258,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -325,11 +289,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -357,11 +317,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -392,11 +348,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1・2番線",
@@ -426,11 +378,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -461,11 +409,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express",
-      "commuter_semi_exp",
-      "commuter_exp"
+      "local"
     ],
     "platforms": {
       "inbound": "1・2番線",

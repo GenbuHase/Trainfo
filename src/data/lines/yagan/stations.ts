@@ -11,15 +11,14 @@ export const YAGAN_STATIONS: Station[] = [
     "lat": 36.8524603,
     "lng": 139.7329134,
     "transfers": [
-      "東武鬼怒川線",
-      "野岩鉄道会津鬼怒川線"
+      "東武鬼怒川線"
     ],
     "address": "栃木県日光市藤原497",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -42,15 +41,13 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Ryuokyo",
     "lat": 36.8609534,
     "lng": 139.7186723,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市藤原1357",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -73,16 +70,14 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Kawaji-Onsen",
     "lat": 36.8839174,
     "lng": 139.7037945,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市川治温泉川治",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -104,15 +99,13 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Kawaji-Yumoto",
     "lat": 36.8954501,
     "lng": 139.7027656,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市川治温泉川治22",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -135,15 +128,13 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Yunishigawa-Onsen",
     "lat": 36.9298675,
     "lng": 139.6885626,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市西川",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -166,16 +157,14 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Nakamiyori-Onsen",
     "lat": 36.9845774,
     "lng": 139.6969945,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市中三依",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -197,16 +186,14 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Kamimiyori-Shiobaraonsen-guchi",
     "lat": 37.0144318,
     "lng": 139.727602,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市上三依",
     "facilities": {
       "elevator": true,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",
@@ -228,16 +215,14 @@ export const YAGAN_STATIONS: Station[] = [
     "nameEn": "Ojika-Kogen",
     "lat": 37.0476111,
     "lng": 139.7242453,
-    "transfers": [
-      "野岩鉄道会津鬼怒川線"
-    ],
+    "transfers": [],
     "address": "栃木県日光市横川",
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -258,7 +243,6 @@ export const YAGAN_STATIONS: Station[] = [
     "lat": 37.0900108,
     "lng": 139.7053594,
     "transfers": [
-      "野岩鉄道会津鬼怒川線",
       "会津鉄道会津線"
     ],
     "address": "福島県南会津郡南会津町滝原字羽根原",
@@ -266,7 +250,7 @@ export const YAGAN_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [

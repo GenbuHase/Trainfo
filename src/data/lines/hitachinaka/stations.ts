@@ -13,7 +13,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ常磐線"
     ],
-    "address": "茨城県勝田駅",
+    "address": "茨城県ひたちなか市勝田中央1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3878548,
     "lng": 140.5248782,
     "transfers": [],
-    "address": "茨城県工機前駅",
+    "address": "茨城県ひたちなか市大字武田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -66,7 +66,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3820422,
     "lng": 140.534603,
     "transfers": [],
-    "address": "茨城県金上駅",
+    "address": "茨城県ひたちなか市大平四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -92,7 +92,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3673083,
     "lng": 140.5624459,
     "transfers": [],
-    "address": "茨城県中根駅",
+    "address": "茨城県ひたちなか市大字三反田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -118,7 +118,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3522495,
     "lng": 140.5804681,
     "transfers": [],
-    "address": "茨城県高田の鉄橋駅",
+    "address": "茨城県ひたちなか市田中後",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -144,7 +144,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3450302,
     "lng": 140.5882117,
     "transfers": [],
-    "address": "茨城県那珂湊駅",
+    "address": "茨城県ひたちなか市釈迦町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -170,7 +170,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3496736,
     "lng": 140.6012975,
     "transfers": [],
-    "address": "茨城県殿山駅",
+    "address": "茨城県ひたちなか市牛久保二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -196,7 +196,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3578316,
     "lng": 140.607676,
     "transfers": [],
-    "address": "茨城県平磯駅",
+    "address": "茨城県ひたちなか市平磯町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -222,7 +222,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.372456,
     "lng": 140.616932,
     "transfers": [],
-    "address": "茨城県美乃浜学園駅",
+    "address": "茨城県ひたちなか市磯崎町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -248,7 +248,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3780394,
     "lng": 140.617889,
     "transfers": [],
-    "address": "茨城県磯崎駅",
+    "address": "茨城県ひたちなか市磯崎町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -274,7 +274,7 @@ export const HITACHINAKA_STATIONS: Station[] = [
     "lat": 36.3837452,
     "lng": 140.6124516,
     "transfers": [],
-    "address": "茨城県阿字ケ浦駅",
+    "address": "茨城県ひたちなか市阿字ケ浦町",
     "facilities": {
       "elevator": true,
       "restroom": true,

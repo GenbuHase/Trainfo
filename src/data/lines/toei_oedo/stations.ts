@@ -12,7 +12,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.692499,
     "lng": 139.6992785,
     "transfers": [],
-    "address": "東京都新宿西口駅",
+    "address": "東京都新宿区西新宿一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ副都心線"
     ],
-    "address": "東京都東新宿駅",
+    "address": "東京都新宿区新宿七丁目27-11",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -70,7 +70,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6989436,
     "lng": 139.7174233,
     "transfers": [],
-    "address": "東京都若松河田駅",
+    "address": "東京都新宿区若松町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7006202,
     "lng": 139.7353099,
     "transfers": [],
-    "address": "東京都牛込神楽坂駅",
+    "address": "東京都新宿区箪笥町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -156,7 +156,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
       "東京メトロ有楽町線",
       "東京メトロ南北線"
     ],
-    "address": "東京都飯田橋駅",
+    "address": "東京都新宿区神楽坂一丁目13",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -186,7 +186,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄三田線"
     ],
-    "address": "東京都春日駅",
+    "address": "東京都文京区小石川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -216,7 +216,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ丸ノ内線"
     ],
-    "address": "東京都本郷三丁目駅",
+    "address": "東京都文京区本郷二丁目39-12",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -271,7 +271,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7070043,
     "lng": 139.7819108,
     "transfers": [
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都新御徒町駅",
     "facilities": {
@@ -303,7 +303,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄浅草線"
     ],
-    "address": "東京都蔵前駅",
+    "address": "東京都台東区寿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -331,7 +331,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6969172,
     "lng": 139.7973669,
     "transfers": [],
-    "address": "東京都両国駅",
+    "address": "東京都墨田区横網一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -360,7 +360,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄新宿線"
     ],
-    "address": "東京都森下駅",
+    "address": "東京都江東区森下一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -390,7 +390,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ半蔵門線"
     ],
-    "address": "東京都清澄白河駅",
+    "address": "東京都江東区清澄三丁目3-24",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -450,7 +450,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ有楽町線"
     ],
-    "address": "東京都月島駅",
+    "address": "東京都中央区月島一丁目3-9",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -478,7 +478,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6586226,
     "lng": 139.7767389,
     "transfers": [],
-    "address": "東京都勝どき駅",
+    "address": "東京都中央区勝どき二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -534,7 +534,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "ゆりかもめ"
     ],
-    "address": "東京都汐留駅",
+    "address": "東京都港区東新橋一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -564,7 +564,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄浅草線"
     ],
-    "address": "東京都大門駅",
+    "address": "東京都港区浜松町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -592,7 +592,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6549002,
     "lng": 139.7449712,
     "transfers": [],
-    "address": "東京都赤羽橋駅",
+    "address": "東京都港区東麻布一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -621,7 +621,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ南北線"
     ],
-    "address": "東京都麻布十番駅",
+    "address": "東京都港区麻布十番四丁目4-9",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -651,7 +651,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ日比谷線"
     ],
-    "address": "東京都六本木駅",
+    "address": "東京都港区六本木六丁目1-25",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -682,7 +682,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
       "東京メトロ銀座線",
       "東京メトロ半蔵門線"
     ],
-    "address": "東京都青山一丁目駅",
+    "address": "東京都港区南青山一丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -710,7 +710,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6799253,
     "lng": 139.7143901,
     "transfers": [],
-    "address": "東京都国立競技場駅",
+    "address": "東京都新宿区霞ヶ丘町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -741,7 +741,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
       "ＪＲ山手線外回り",
       "ＪＲ山手線内回り"
     ],
-    "address": "東京都代々木駅",
+    "address": "東京都渋谷区代々木一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -780,7 +780,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
       "小田急小田原線",
       "都営地下鉄新宿線"
     ],
-    "address": "東京都新宿駅",
+    "address": "東京都新宿区新宿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -808,7 +808,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6903552,
     "lng": 139.6918174,
     "transfers": [],
-    "address": "東京都都庁前駅",
+    "address": "東京都新宿区西新宿二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -835,7 +835,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.6896,
     "lng": 139.68398,
     "transfers": [],
-    "address": "東京都西新宿五丁目駅",
+    "address": "東京都新宿区西新宿五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -864,7 +864,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ丸ノ内線"
     ],
-    "address": "東京都中野坂上駅",
+    "address": "東京都中野区本町二丁目46-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -894,7 +894,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央・総武線各駅停車"
     ],
-    "address": "東京都東中野駅",
+    "address": "東京都中野区東中野三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -924,7 +924,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "transfers": [
       "西武新宿線"
     ],
-    "address": "東京都中井駅",
+    "address": "東京都新宿区上落合二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -952,7 +952,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7236562,
     "lng": 139.6832348,
     "transfers": [],
-    "address": "東京都落合南長崎駅",
+    "address": "東京都新宿区西落合三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -979,7 +979,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7325021,
     "lng": 139.6705764,
     "transfers": [],
-    "address": "東京都新江古田駅",
+    "address": "東京都練馬区豊玉北一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1010,7 +1010,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
       "西武有楽町線",
       "西武豊島線"
     ],
-    "address": "東京都練馬駅",
+    "address": "東京都練馬区練馬一丁目3-5",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1038,7 +1038,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7424927,
     "lng": 139.6490661,
     "transfers": [],
-    "address": "東京都豊島園駅",
+    "address": "東京都練馬区練馬四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1092,7 +1092,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7584896,
     "lng": 139.6285093,
     "transfers": [],
-    "address": "東京都光が丘駅",
+    "address": "東京都練馬区光が丘三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

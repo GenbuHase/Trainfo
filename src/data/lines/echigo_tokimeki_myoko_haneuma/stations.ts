@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const MYOKO_HANEUMA_STATIONS: Station[] = [
   {
     "id": "ETM-01",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 1,
     "name": "妙高高原",
     "nameKana": "みょうこうこうげん",
@@ -11,31 +11,28 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "lat": 36.8725757,
     "lng": 138.212362,
     "transfers": [
-      "妙高はねうまライン",
       "しなの鉄道北しなの線"
     ],
     "address": "新潟県妙高市大字田口312",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2・3番線",
+      "outbound": "1・3番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
   },
   {
     "id": "ETM-02",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 2,
     "name": "関山",
     "nameKana": "せきやま",
@@ -45,25 +42,24 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県妙高市大字関山1213-15",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2番線",
+      "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETM-03",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 3,
     "name": "二本木",
     "nameKana": "にほんぎ",
@@ -73,57 +69,52 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県上越市中郷区板橋552",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "1番線",
+      "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETM-04",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 4,
     "name": "新井",
     "nameKana": "あらい",
     "nameEn": "Arai",
     "lat": 37.0270389,
     "lng": 138.2555559,
-    "transfers": [
-      "妙高はねうまライン",
-      "北越急行ほくほく線直通"
-    ],
-    "address": "東京都中野区上高田5丁目43-20",
+    "transfers": [],
+    "address": "新潟県妙高市栄町1丁目1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2番線",
+      "outbound": "1・3番線"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
   },
   {
     "id": "ETM-05",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 5,
     "name": "北新井",
     "nameKana": "きたあらい",
@@ -133,25 +124,24 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県妙高市柳井田町1丁目10-20",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "のりば",
+      "outbound": "のりば"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETM-06",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 6,
     "name": "上越妙高",
     "nameKana": "じょうえつみょうこう",
@@ -159,13 +149,12 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "lat": 37.0813259,
     "lng": 138.2479995,
     "transfers": [
-      "北陸新幹線",
-      "妙高はねうまライン"
+      "JR北陸新幹線"
     ],
-    "address": "新潟県上越市大和",
+    "address": "新潟県上越市大和2丁目",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "1番線",
+      "outbound": "2番線"
     },
     "stoppingTypes": [
       "local",
@@ -183,7 +172,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-07",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 7,
     "name": "南高田",
     "nameKana": "みなみたかだ",
@@ -193,25 +182,24 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県上越市南高田町1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "のりば",
+      "outbound": "のりば"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
     "id": "ETM-08",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 8,
     "name": "高田",
     "nameKana": "たかだ",
@@ -219,10 +207,10 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "lat": 37.115143,
     "lng": 138.2419916,
     "transfers": [],
-    "address": "東京都新宿区高田馬場1丁目35-2",
+    "address": "新潟県上越市仲町4丁目1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "1番線",
+      "outbound": "2・3番線"
     },
     "stoppingTypes": [
       "local",
@@ -240,7 +228,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-09",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 9,
     "name": "春日山",
     "nameKana": "かすがやま",
@@ -250,25 +238,25 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県上越市春日山町3丁目1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "のりば",
+      "outbound": "のりば"
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
   },
   {
     "id": "ETM-10",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 10,
     "name": "直江津",
     "nameKana": "なおえつ",
@@ -276,15 +264,14 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "lat": 37.170251,
     "lng": 138.242265,
     "transfers": [
-      "JR信越本線",
-      "妙高はねうまライン",
-      "日本海ひすいライン",
+      "JR信越本線（直江津～新潟）",
+      "えちごトキめき鉄道日本海ひすいライン",
       "北越急行ほくほく線"
     ],
     "address": "新潟県上越市東町1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "1〜3番線",
+      "outbound": "1〜5番線"
     },
     "stoppingTypes": [
       "local",

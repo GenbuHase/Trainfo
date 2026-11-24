@@ -14,12 +14,12 @@ export const KEIO_KEIBAJO_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都東府中駅",
+    "address": "東京都府中市清水が丘一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -44,13 +44,13 @@ export const KEIO_KEIBAJO_STATIONS: Station[] = [
     "lat": 35.6685848,
     "lng": 139.4845262,
     "transfers": [],
-    "address": "東京都府中競馬正門前駅",
+    "address": "東京都府中市八幡町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local",

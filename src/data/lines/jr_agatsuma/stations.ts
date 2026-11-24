@@ -13,7 +13,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ上越線"
     ],
-    "address": "群馬県渋川駅",
+    "address": "群馬県渋川市渋川",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -41,7 +41,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5296325,
     "lng": 138.976322,
     "transfers": [],
-    "address": "群馬県金島駅",
+    "address": "群馬県渋川市川島",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -67,7 +67,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5407123,
     "lng": 138.9570702,
     "transfers": [],
-    "address": "群馬県祖母島駅",
+    "address": "群馬県渋川市祖母島",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -93,7 +93,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5525379,
     "lng": 138.9217117,
     "transfers": [],
-    "address": "群馬県小野上駅",
+    "address": "群馬県渋川市村上",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -119,7 +119,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.556897,
     "lng": 138.9039,
     "transfers": [],
-    "address": "群馬県小野上温泉駅",
+    "address": "群馬県渋川市村上",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -171,7 +171,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5853555,
     "lng": 138.8504598,
     "transfers": [],
-    "address": "群馬県中之条駅",
+    "address": "群馬県中之条町大字伊勢町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -224,7 +224,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5487258,
     "lng": 138.8004076,
     "transfers": [],
-    "address": "群馬県郷原駅",
+    "address": "群馬県東吾妻町大字郷原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -250,7 +250,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5526543,
     "lng": 138.7845422,
     "transfers": [],
-    "address": "群馬県矢倉駅",
+    "address": "群馬県東吾妻町大字矢倉",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -276,7 +276,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5635604,
     "lng": 138.7592203,
     "transfers": [],
-    "address": "群馬県岩島駅",
+    "address": "群馬県東吾妻町大字岩下",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -302,7 +302,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5448427,
     "lng": 138.6963566,
     "transfers": [],
-    "address": "群馬県川原湯温泉駅",
+    "address": "群馬県長野原町大字川原湯",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -328,7 +328,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5464671,
     "lng": 138.649344,
     "transfers": [],
-    "address": "群馬県長野原草津口駅",
+    "address": "群馬県長野原町大字長野原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -355,7 +355,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5537233,
     "lng": 138.6276851,
     "transfers": [],
-    "address": "群馬県群馬大津駅",
+    "address": "群馬県長野原町大字大津",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -381,7 +381,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5496703,
     "lng": 138.6048496,
     "transfers": [],
-    "address": "群馬県羽根尾駅",
+    "address": "群馬県長野原町大字羽根尾",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -407,7 +407,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5440796,
     "lng": 138.5785139,
     "transfers": [],
-    "address": "群馬県袋倉駅",
+    "address": "群馬県嬬恋村大字袋倉",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -433,7 +433,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5319378,
     "lng": 138.551057,
     "transfers": [],
-    "address": "群馬県万座・鹿沢口駅",
+    "address": "群馬県嬬恋村大字鎌原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -459,7 +459,7 @@ export const JR_AGATSUMA_STATIONS: Station[] = [
     "lat": 36.5134307,
     "lng": 138.5286266,
     "transfers": [],
-    "address": "群馬県大前駅",
+    "address": "群馬県嬬恋村大字大前",
     "facilities": {
       "elevator": true,
       "restroom": true,

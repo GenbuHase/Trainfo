@@ -11,16 +11,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_TRAIN_TYPES: Record<string, TrainTypeConfi
     "bgColor": "#0072bc",
     "borderColor": "#0072bc"
   },
-  "special_rapid": {
-    "name": "新快速",
-    "shortName": "新快",
-    "color": "#0072bc",
-    "key": "special_rapid",
-    "nameEn": "Special Rapid",
-    "textColor": "#ffffff",
-    "bgColor": "#0072bc",
-    "borderColor": "#0072bc"
-  },
   "limited_exp": {
     "name": "特急",
     "shortName": "特急",

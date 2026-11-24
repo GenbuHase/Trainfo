@@ -31,16 +31,6 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_TRAIN_TYPES: Record<string, TrainTypeConf
     "bgColor": "#0082ba",
     "borderColor": "#006591"
   },
-  "rapid_mie": {
-    "key": "rapid_mie",
-    "name": "快速みえ",
-    "nameEn": "Rapid Mie",
-    "shortName": "みえ",
-    "color": "#ff7322",
-    "textColor": "#ffffff",
-    "bgColor": "#ff7322",
-    "borderColor": "#cc5200"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",

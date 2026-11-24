@@ -11,7 +11,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.82773,
     "lng": 134.68868,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市豆腐町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -39,7 +39,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.83406,
     "lng": 134.70522,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市京口町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -53,8 +53,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -67,7 +66,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.85583,
     "lng": 134.71066,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市増位新町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -81,8 +80,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -95,7 +93,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.86612,
     "lng": 134.7246,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市砥堀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -109,8 +107,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -123,7 +120,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.88443,
     "lng": 134.72801,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市仁豊野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -137,8 +134,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -151,7 +147,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.91072,
     "lng": 134.73573,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市香寺町中屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -165,8 +161,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -179,7 +174,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.92828,
     "lng": 134.7427,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県姫路市香寺町溝口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -193,8 +188,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -207,7 +201,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.96147,
     "lng": 134.75148,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県福崎町福田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -235,7 +229,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 34.98848,
     "lng": 134.75831,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県市川町甘地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -249,8 +243,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -263,7 +256,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.02301,
     "lng": 134.75456,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県市川町鶴居",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -277,8 +270,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -291,7 +283,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.04991,
     "lng": 134.75286,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神河町新野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -305,8 +297,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -319,7 +310,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.06468,
     "lng": 134.74304,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神河町鍛治",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -347,7 +338,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.11726,
     "lng": 134.74833,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神河町栗",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -361,8 +352,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -375,7 +365,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.16395,
     "lng": 134.78922,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市生野町口銀谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,7 +393,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.23714,
     "lng": 134.79544,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市新井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -417,8 +407,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -431,7 +420,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.26736,
     "lng": 134.812,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市物部",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -445,8 +434,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -459,7 +447,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.29989,
     "lng": 134.83613,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市和田山町竹田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -487,7 +475,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
     "lat": 35.3414,
     "lng": 134.85136,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県朝来市和田山町東谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

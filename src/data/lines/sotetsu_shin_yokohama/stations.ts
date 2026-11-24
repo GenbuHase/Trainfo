@@ -28,8 +28,6 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express",
-      "commuter_exp",
       "limited_exp",
       "commuter_limited_exp"
     ],
@@ -62,8 +60,6 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express",
-      "commuter_exp",
       "limited_exp",
       "commuter_limited_exp"
     ],
@@ -96,8 +92,6 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express",
-      "commuter_exp",
       "limited_exp",
       "commuter_limited_exp"
     ],

@@ -11,7 +11,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.3907177,
     "lng": 139.0755872,
     "transfers": [],
-    "address": "群馬県中央前橋駅",
+    "address": "群馬県前橋市三河町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -38,7 +38,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.3912061,
     "lng": 139.0811371,
     "transfers": [],
-    "address": "群馬県城東駅",
+    "address": "群馬県前橋市城東町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -64,7 +64,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.3937963,
     "lng": 139.089623,
     "transfers": [],
-    "address": "群馬県三俣駅",
+    "address": "群馬県前橋市三俣町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -90,7 +90,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.393969,
     "lng": 139.0960274,
     "transfers": [],
-    "address": "群馬県片貝駅",
+    "address": "群馬県前橋市西片貝町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -116,7 +116,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.3941614,
     "lng": 139.1069999,
     "transfers": [],
-    "address": "群馬県上泉駅",
+    "address": "群馬県前橋市上泉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -142,7 +142,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.397534,
     "lng": 139.1175859,
     "transfers": [],
-    "address": "群馬県赤坂駅",
+    "address": "群馬県前橋市上泉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -168,7 +168,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4052542,
     "lng": 139.1290694,
     "transfers": [],
-    "address": "群馬県心臓血管センター駅",
+    "address": "群馬県前橋市亀泉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -194,7 +194,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.407317,
     "lng": 139.1338012,
     "transfers": [],
-    "address": "群馬県江木駅",
+    "address": "群馬県前橋市江木町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -220,7 +220,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4127899,
     "lng": 139.1567271,
     "transfers": [],
-    "address": "群馬県大胡駅",
+    "address": "群馬県前橋市茂木町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -246,7 +246,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4154602,
     "lng": 139.1737228,
     "transfers": [],
-    "address": "群馬県樋越駅",
+    "address": "群馬県前橋市樋越町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -272,7 +272,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4136028,
     "lng": 139.1850256,
     "transfers": [],
-    "address": "群馬県北原駅",
+    "address": "群馬県前橋市粕川町込皆戸",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -298,7 +298,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4138745,
     "lng": 139.1969479,
     "transfers": [],
-    "address": "群馬県新屋駅",
+    "address": "群馬県前橋市粕川町新屋",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -324,7 +324,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4169538,
     "lng": 139.2113087,
     "transfers": [],
-    "address": "群馬県粕川駅",
+    "address": "群馬県前橋市粕川町西田面",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -350,7 +350,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.416992,
     "lng": 139.2224621,
     "transfers": [],
-    "address": "群馬県膳駅",
+    "address": "群馬県前橋市粕川町膳",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -376,7 +376,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4185231,
     "lng": 139.2374415,
     "transfers": [],
-    "address": "群馬県新里駅",
+    "address": "群馬県桐生市新里町小林",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -402,7 +402,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4182465,
     "lng": 139.257479,
     "transfers": [],
-    "address": "群馬県新川駅",
+    "address": "群馬県桐生市新里町新川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -428,7 +428,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4218252,
     "lng": 139.2673206,
     "transfers": [],
-    "address": "群馬県東新川駅",
+    "address": "群馬県桐生市新里町新川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -456,7 +456,7 @@ export const JOMO_STATIONS: Station[] = [
     "transfers": [
       "東武桐生線"
     ],
-    "address": "群馬県赤城駅",
+    "address": "群馬県みどり市大間々町大間々1445-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -483,7 +483,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4192558,
     "lng": 139.2980496,
     "transfers": [],
-    "address": "群馬県桐生球場前駅",
+    "address": "群馬県桐生市相生町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -509,7 +509,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.415103,
     "lng": 139.3077844,
     "transfers": [],
-    "address": "群馬県天王宿駅",
+    "address": "群馬県桐生市相生町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -535,7 +535,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4137825,
     "lng": 139.3155473,
     "transfers": [],
-    "address": "群馬県富士山下駅",
+    "address": "群馬県桐生市相生町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -561,7 +561,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.4168742,
     "lng": 139.3211506,
     "transfers": [],
-    "address": "群馬県丸山下駅",
+    "address": "群馬県桐生市堤町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -587,7 +587,7 @@ export const JOMO_STATIONS: Station[] = [
     "lat": 36.414167,
     "lng": 139.3324831,
     "transfers": [],
-    "address": "群馬県西桐生駅",
+    "address": "群馬県桐生市宮前町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

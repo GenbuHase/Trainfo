@@ -1,6 +1,5 @@
 // JR埼京線・川越線 列車種別定義（公式カラー準拠）
 import type { TrainTypeConfig } from '../../../types';
-import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const SAIKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 各駅停車: #00ac9a (埼京グリーン)
@@ -36,6 +35,4 @@ export const SAIKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#e60012',
     borderColor: '#f87171',
   },
-  // 特急（臨時特急など）: #d32f2f (JR特急レッド)
-  limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

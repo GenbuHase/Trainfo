@@ -18,10 +18,9 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "JR横須賀線",
       "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
@@ -32,8 +31,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -59,9 +57,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
@@ -74,8 +71,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -103,9 +99,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR武蔵野線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
       "東武アーバンパークライン",
       "埼玉新都市交通ニューシャトル"
     ],
@@ -117,8 +112,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -140,8 +134,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lng": 139.38958832,
     "transfers": [
       "JR高崎線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR上越新幹線",
       "秩父鉄道秩父本線"
     ],
     "address": "埼玉県熊谷市筑波二丁目",
@@ -150,7 +143,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "hakutaka",
       "asama"
     ],
     "isMajor": false,
@@ -201,12 +193,11 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR高崎線",
       "JR上越線",
-      "JR信越本線",
+      "JR信越本線（高崎～横川）",
       "JR吾妻線",
       "JR両毛線",
       "JR八高線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR上越新幹線",
       "上信電鉄線"
     ],
     "address": "群馬県高崎市八島町",
@@ -215,10 +206,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -266,7 +255,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.3425685,
     "lng": 138.6336585,
     "transfers": [
-      "JR北陸新幹線",
       "しなの鉄道線"
     ],
     "address": "長野県北佐久郡軽井沢町大字軽井沢1178-1246",
@@ -275,7 +263,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
       "hakutaka",
       "asama"
     ],
@@ -298,7 +285,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.2774589,
     "lng": 138.4629706,
     "transfers": [
-      "JR北陸新幹線",
       "JR小海線"
     ],
     "address": "長野県佐久市佐久平駅東52",
@@ -329,7 +315,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.3965011,
     "lng": 138.2496583,
     "transfers": [
-      "JR北陸新幹線",
       "しなの鉄道線",
       "上田電鉄別所線"
     ],
@@ -339,7 +324,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
       "hakutaka",
       "asama"
     ],
@@ -362,7 +346,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.6427963,
     "lng": 138.1888562,
     "transfers": [
-      "JR北陸新幹線",
       "JR篠ノ井線",
       "JR信越本線",
       "しなの鉄道北しなの線",
@@ -376,8 +359,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -398,7 +380,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.8457787,
     "lng": 138.3584762,
     "transfers": [
-      "JR北陸新幹線",
       "JR飯山線"
     ],
     "address": "長野県飯山市大字飯山770-3",
@@ -428,8 +409,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.0813292,
     "lng": 138.2485374,
     "transfers": [
-      "北陸新幹線",
-      "妙高はねうまライン"
+      "えちごトキめき鉄道妙高はねうまライン"
     ],
     "address": "新潟県上越市大和",
     "platforms": {
@@ -437,9 +417,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
-      "hakutaka",
-      "tsurugi"
+      "hakutaka"
     ],
     "isMajor": true,
     "facilities": {
@@ -460,9 +438,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.0426979,
     "lng": 137.8599319,
     "transfers": [
-      "JR北陸新幹線",
-      "JR大糸線",
-      "日本海ひすいライン"
+      "JR大糸線（南小谷～糸魚川）",
+      "えちごトキめき鉄道日本海ひすいライン"
     ],
     "address": "新潟県糸魚川市大町1丁目7-47",
     "platforms": {
@@ -470,8 +447,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "hakutaka",
-      "tsurugi"
+      "hakutaka"
     ],
     "isMajor": true,
     "facilities": {
@@ -492,7 +468,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.8742181,
     "lng": 137.4813491,
     "transfers": [
-      "JR北陸新幹線",
       "富山地方鉄道本線（新黒部）"
     ],
     "address": "富山県黒部市若栗3210-3",
@@ -501,8 +476,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "hakutaka",
-      "tsurugi"
+      "hakutaka"
     ],
     "isMajor": true,
     "facilities": {
@@ -523,7 +497,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.701368,
     "lng": 137.2134438,
     "transfers": [
-      "JR北陸新幹線",
       "JR高山本線",
       "あいの風とやま鉄道",
       "富山地方鉄道本線",
@@ -558,7 +531,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.7269446,
     "lng": 137.0120241,
     "transfers": [
-      "JR北陸新幹線",
       "JR城端線"
     ],
     "address": "富山県高岡市下黒田3011",
@@ -590,7 +562,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.5780366,
     "lng": 136.648151,
     "transfers": [
-      "JR北陸新幹線",
       "IRいしかわ鉄道",
       "北陸鉄道浅野川線"
     ],
@@ -623,7 +594,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.402476,
     "lng": 136.4531602,
     "transfers": [
-      "JR北陸新幹線",
       "IRいしかわ鉄道"
     ],
     "address": "石川県小松市土居原町466番",
@@ -655,7 +625,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.3202315,
     "lng": 136.3509149,
     "transfers": [
-      "JR北陸新幹線",
       "IRいしかわ鉄道"
     ],
     "address": "石川県加賀市作見町ヲ58",
@@ -687,7 +656,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.2153427,
     "lng": 136.2354877,
     "transfers": [
-      "JR北陸新幹線",
       "ハピラインふくい"
     ],
     "address": "福井県あわら市春宮1丁目12-15",
@@ -719,7 +687,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 36.0617497,
     "lng": 136.223543,
     "transfers": [
-      "JR北陸新幹線",
       "ハピラインふくい",
       "JR越美北線",
       "えちぜん鉄道勝山永平寺線",
@@ -753,9 +720,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Echizen-Takefu",
     "lat": 35.8958816,
     "lng": 136.1990645,
-    "transfers": [
-      "JR北陸新幹線"
-    ],
+    "transfers": [],
     "address": "福井県越前市大屋町39-10-5",
     "platforms": {
       "inbound": "上りホーム",
@@ -785,8 +750,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 35.6450309,
     "lng": 136.0780817,
     "transfers": [
-      "JR北陸新幹線",
-      "JR北陸本線",
+      "JR北陸本線（米原～敦賀）",
       "JR小浜線",
       "ハピラインふくい"
     ],

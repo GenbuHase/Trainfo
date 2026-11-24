@@ -14,7 +14,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "東京都京急蒲田駅",
+    "address": "東京都大田区蒲田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "lat": 35.5547328,
     "lng": 139.7294068,
     "transfers": [],
-    "address": "東京都糀谷駅",
+    "address": "東京都大田区西糀谷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -74,7 +74,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "lat": 35.552529,
     "lng": 139.7393914,
     "transfers": [],
-    "address": "東京都大鳥居駅",
+    "address": "東京都大田区西糀谷三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -103,7 +103,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "lat": 35.5502973,
     "lng": 139.7467638,
     "transfers": [],
-    "address": "東京都穴守稲荷駅",
+    "address": "東京都大田区羽田四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -134,7 +134,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "東京モノレール羽田空港線"
     ],
-    "address": "東京都天空橋駅",
+    "address": "東京都大田区羽田空港一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -164,7 +164,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "lat": 35.5448556,
     "lng": 139.7680766,
     "transfers": [],
-    "address": "東京都羽田空港第３ターミナル駅",
+    "address": "東京都大田区羽田空港二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -194,7 +194,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
     "lat": 35.5499375,
     "lng": 139.7864385,
     "transfers": [],
-    "address": "東京都羽田空港第１・第２ターミナル駅",
+    "address": "東京都大田区羽田空港三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

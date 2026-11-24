@@ -18,16 +18,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "京阪本線",
       "OsakaMetro長堀鶴見緑地線"
     ],
-    "address": "",
+    "address": "大阪府大阪市都島区片町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -49,16 +46,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.69504,
     "lng": 135.52479,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市都島区網島町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -80,16 +74,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.69749,
     "lng": 135.51232,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市北区天神橋二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -111,16 +102,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.69843,
     "lng": 135.49584,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市北区梅田一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -142,16 +130,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.69454,
     "lng": 135.48464,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市福島区福島三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -173,16 +158,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.69613,
     "lng": 135.4724,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市福島区海老江五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -204,16 +186,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.7137,
     "lng": 135.4556,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市西淀川区御幣島二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -235,16 +214,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
     "lat": 34.72806,
     "lng": 135.45272,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市淀川区加島三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -269,16 +245,13 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "ＪＲ神戸線",
       "ＪＲ宝塚線"
     ],
-    "address": "",
+    "address": "兵庫県尼崎市潮江一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

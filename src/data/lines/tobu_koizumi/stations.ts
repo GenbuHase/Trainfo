@@ -13,8 +13,7 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "lng": 139.5278314,
     "transfers": [
       "東武伊勢崎線",
-      "東武佐野線",
-      "東武小泉線"
+      "東武佐野線"
     ],
     "address": "群馬県館林市本町二丁目1-1",
     "facilities": {
@@ -22,7 +21,7 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -43,16 +42,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Narushima",
     "lat": 36.2492107,
     "lng": 139.5056625,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県館林市成島町451",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -73,16 +70,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Hon-Nakano",
     "lat": 36.2584253,
     "lng": 139.4694393,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県邑楽郡邑楽町大字中野2528",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -103,16 +98,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Shinozuka",
     "lat": 36.256788,
     "lng": 139.4462611,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県邑楽郡邑楽町大字篠塚1529",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -133,16 +126,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Higashi-Koizumi",
     "lat": 36.2596844,
     "lng": 139.4285654,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県邑楽郡大泉町東小泉一丁目1-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -163,16 +154,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Koizumimachi",
     "lat": 36.2614698,
     "lng": 139.4203753,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県邑楽郡大泉町城之内二丁目11-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -193,16 +182,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Nishi-Koizumi",
     "lat": 36.2586078,
     "lng": 139.4085642,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県邑楽郡大泉町西小泉四丁目11-1",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -223,16 +210,14 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "nameEn": "Ryumai",
     "lat": 36.278773,
     "lng": 139.4090886,
-    "transfers": [
-      "東武小泉線"
-    ],
+    "transfers": [],
     "address": "群馬県太田市龍舞町2103",
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"
@@ -255,8 +240,7 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
     "lng": 139.3787178,
     "transfers": [
       "東武伊勢崎線",
-      "東武桐生線",
-      "東武小泉線"
+      "東武桐生線"
     ],
     "address": "群馬県太田市東本町16-1",
     "facilities": {
@@ -264,7 +248,7 @@ export const TOBU_KOIZUMI_STATIONS: Station[] = [
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     },
     "stoppingTypes": [
       "local"

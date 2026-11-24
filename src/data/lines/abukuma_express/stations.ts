@@ -18,7 +18,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
       "JR奥羽本線（福島～新庄）",
       "福島交通飯坂線"
     ],
-    "address": "福島県福島駅周辺",
+    "address": "福島県福島市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.7955329,
     "lng": 140.4796174,
     "transfers": [],
-    "address": "福島県卸町駅周辺",
+    "address": "福島県福島市鎌田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.7989709,
     "lng": 140.4891209,
     "transfers": [],
-    "address": "福島県福島学院前駅周辺",
+    "address": "福島県福島市瀬上町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8023021,
     "lng": 140.4984185,
     "transfers": [],
-    "address": "福島県瀬上駅周辺",
+    "address": "福島県福島市瀬上町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8065457,
     "lng": 140.5101316,
     "transfers": [],
-    "address": "福島県向瀬上駅周辺",
+    "address": "福島県福島市瀬上町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8084631,
     "lng": 140.5272735,
     "transfers": [],
-    "address": "福島県高子駅周辺",
+    "address": "福島県伊達市保原町上保原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8096723,
     "lng": 140.5431601,
     "transfers": [],
-    "address": "福島県上保原駅周辺",
+    "address": "福島県伊達市保原町上保原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8145802,
     "lng": 140.556472,
     "transfers": [],
-    "address": "福島県保原駅周辺",
+    "address": "福島県伊達市保原町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8200157,
     "lng": 140.5669169,
     "transfers": [],
-    "address": "福島県大泉駅周辺",
+    "address": "福島県伊達市保原町大泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8279126,
     "lng": 140.5804659,
     "transfers": [],
-    "address": "福島県二井田駅周辺",
+    "address": "福島県伊達市保原町二井田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -288,7 +288,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8377611,
     "lng": 140.5930096,
     "transfers": [],
-    "address": "福島県新田駅周辺",
+    "address": "福島県伊達市梁川町陽光台",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,7 +315,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8458873,
     "lng": 140.6032613,
     "transfers": [],
-    "address": "福島県梁川駅周辺",
+    "address": "福島県伊達市梁川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -342,7 +342,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8574948,
     "lng": 140.6155192,
     "transfers": [],
-    "address": "福島県やながわ希望の森公園前駅周辺",
+    "address": "福島県伊達市梁川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,7 +369,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.874438,
     "lng": 140.6272908,
     "transfers": [],
-    "address": "福島県富野駅周辺",
+    "address": "福島県伊達市梁川町舟生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -396,7 +396,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.8954305,
     "lng": 140.6465727,
     "transfers": [],
-    "address": "福島県兜駅周辺",
+    "address": "福島県伊達市梁川町舟生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -423,7 +423,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.913718,
     "lng": 140.686133,
     "transfers": [],
-    "address": "宮城県あぶくま駅周辺",
+    "address": "宮城県丸森町字滝ノ上",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -450,7 +450,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.9305042,
     "lng": 140.7615591,
     "transfers": [],
-    "address": "宮城県丸森駅周辺",
+    "address": "宮城県丸森町舘矢間山田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -477,7 +477,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.9429086,
     "lng": 140.7719047,
     "transfers": [],
-    "address": "宮城県北丸森駅周辺",
+    "address": "宮城県丸森町木沼",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -504,7 +504,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.9649193,
     "lng": 140.7696538,
     "transfers": [],
-    "address": "宮城県南角田駅周辺",
+    "address": "宮城県角田市角田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -531,7 +531,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.9793513,
     "lng": 140.7725784,
     "transfers": [],
-    "address": "宮城県角田駅周辺",
+    "address": "宮城県角田市角田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -558,7 +558,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 37.9967089,
     "lng": 140.7759742,
     "transfers": [],
-    "address": "宮城県横倉駅周辺",
+    "address": "宮城県角田市横倉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -585,7 +585,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 38.0191318,
     "lng": 140.7804961,
     "transfers": [],
-    "address": "宮城県岡駅周辺",
+    "address": "宮城県角田市岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -612,7 +612,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "lat": 38.0503824,
     "lng": 140.7899947,
     "transfers": [],
-    "address": "宮城県東船岡駅周辺",
+    "address": "宮城県柴田町大字上名生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -641,7 +641,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "transfers": [
       "JR東北本線（福島～仙台）"
     ],
-    "address": "宮城県槻木駅周辺",
+    "address": "宮城県柴田町槻木新町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

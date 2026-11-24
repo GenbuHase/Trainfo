@@ -14,7 +14,7 @@ export const MOKA_STATIONS: Station[] = [
       "ＪＲ水戸線",
       "関東鉄道常総線"
     ],
-    "address": "茨城県下館駅",
+    "address": "茨城県筑西市乙",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -41,7 +41,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.318944,
     "lng": 139.972226,
     "transfers": [],
-    "address": "茨城県下館二高前駅",
+    "address": "茨城県筑西市岡芹",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -67,7 +67,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.3409851,
     "lng": 139.971122,
     "transfers": [],
-    "address": "茨城県折本駅",
+    "address": "茨城県筑西市谷部",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -93,7 +93,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.3588044,
     "lng": 139.9705089,
     "transfers": [],
-    "address": "茨城県ひぐち駅",
+    "address": "茨城県筑西市折本",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -119,7 +119,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.3763563,
     "lng": 139.9717494,
     "transfers": [],
-    "address": "栃木県久下田駅",
+    "address": "栃木県真岡市久下田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -145,7 +145,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.4111982,
     "lng": 139.9803226,
     "transfers": [],
-    "address": "栃木県寺内駅",
+    "address": "栃木県真岡市寺内",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -171,7 +171,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.4397327,
     "lng": 140.0028636,
     "transfers": [],
-    "address": "栃木県真岡駅",
+    "address": "栃木県真岡市台町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -197,7 +197,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.4491611,
     "lng": 140.0144517,
     "transfers": [],
-    "address": "栃木県北真岡駅",
+    "address": "栃木県真岡市中郷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -223,7 +223,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.4533033,
     "lng": 140.0481738,
     "transfers": [],
-    "address": "栃木県西田井駅",
+    "address": "栃木県真岡市西田井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -249,7 +249,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.455644,
     "lng": 140.0670518,
     "transfers": [],
-    "address": "栃木県北山駅",
+    "address": "栃木県真岡市西田井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -275,7 +275,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.4623299,
     "lng": 140.088302,
     "transfers": [],
-    "address": "栃木県益子駅",
+    "address": "栃木県益子町大字益子",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -301,7 +301,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.4913781,
     "lng": 140.0942902,
     "transfers": [],
-    "address": "栃木県七井駅",
+    "address": "栃木県益子町大字大沢",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -327,7 +327,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.5163784,
     "lng": 140.0899293,
     "transfers": [],
-    "address": "栃木県多田羅駅",
+    "address": "栃木県市貝町大字多田羅",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -379,7 +379,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.5341806,
     "lng": 140.144404,
     "transfers": [],
-    "address": "栃木県笹原田駅",
+    "address": "栃木県市貝町大字笹原田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -405,7 +405,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.5293651,
     "lng": 140.1555984,
     "transfers": [],
-    "address": "栃木県天矢場駅",
+    "address": "栃木県茂木町大字北高岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -431,7 +431,7 @@ export const MOKA_STATIONS: Station[] = [
     "lat": 36.5303101,
     "lng": 140.1813606,
     "transfers": [],
-    "address": "栃木県茂木駅",
+    "address": "栃木県茂木町大字茂木",
     "facilities": {
       "elevator": true,
       "restroom": true,

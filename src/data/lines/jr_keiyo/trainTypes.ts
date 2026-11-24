@@ -21,16 +21,6 @@ export const KEIYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "nameEn": "Rapid",
     "color": "#007ac1"
   },
-  "commuter_rapid": {
-    "key": "commuter_rapid",
-    "name": "通勤快速",
-    "shortName": "通快",
-    "bgColor": "#e05a00",
-    "textColor": "#ffffff",
-    "borderColor": "#e05a00",
-    "nameEn": "Commuter Rapid",
-    "color": "#e05a00"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",

@@ -11,16 +11,6 @@ export const IZUHAKONE_SUNZU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0083ca",
     "borderColor": "#0083ca"
   },
-  "rapid": {
-    "key": "rapid",
-    "name": "快速",
-    "nameEn": "Rapid",
-    "shortName": "快速",
-    "color": "#ff6600",
-    "textColor": "#ffffff",
-    "bgColor": "#ff6600",
-    "borderColor": "#ff6600"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",

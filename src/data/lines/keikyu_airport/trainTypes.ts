@@ -11,16 +11,6 @@ export const KEIKYU_AIRPORT_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#334155",
     "borderColor": "#1e293b"
   },
-  "express": {
-    "key": "express",
-    "name": "急行",
-    "nameEn": "Express",
-    "shortName": "急行",
-    "color": "#0073bc",
-    "textColor": "#ffffff",
-    "bgColor": "#0073bc",
-    "borderColor": "#00558f"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",
@@ -51,14 +41,4 @@ export const KEIKYU_AIRPORT_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#f37321",
     "borderColor": "#d45d10"
   },
-  "liner": {
-    "key": "liner",
-    "name": "ウィング号",
-    "nameEn": "Wing",
-    "shortName": "ウィング",
-    "color": "#6a1b9a",
-    "textColor": "#ffffff",
-    "bgColor": "#6a1b9a",
-    "borderColor": "#4a148c"
-  }
 };

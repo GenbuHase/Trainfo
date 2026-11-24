@@ -15,7 +15,7 @@ export const CHOSHI_STATIONS: Station[] = [
       "ＪＲ成田線",
       "ＪＲ総武本線"
     ],
-    "address": "千葉県銚子駅",
+    "address": "千葉県銚子市西芝町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -70,7 +70,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.7288761,
     "lng": 140.8394221,
     "transfers": [],
-    "address": "千葉県観音駅",
+    "address": "千葉県銚子市南町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -97,7 +97,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.7309783,
     "lng": 140.8468287,
     "transfers": [],
-    "address": "千葉県本銚子駅",
+    "address": "千葉県銚子市愛宕町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.7286619,
     "lng": 140.8566982,
     "transfers": [],
-    "address": "千葉県笠上黒生駅",
+    "address": "千葉県銚子市笠上町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.7253493,
     "lng": 140.8599633,
     "transfers": [],
-    "address": "千葉県西海鹿島駅",
+    "address": "千葉県銚子市海鹿島町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.7223759,
     "lng": 140.8628649,
     "transfers": [],
-    "address": "千葉県海鹿島駅",
+    "address": "千葉県銚子市君ケ浜",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -205,7 +205,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.7143909,
     "lng": 140.8606252,
     "transfers": [],
-    "address": "千葉県君ケ浜駅",
+    "address": "千葉県銚子市君ケ浜",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -232,7 +232,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.705922,
     "lng": 140.8609619,
     "transfers": [],
-    "address": "千葉県犬吠駅",
+    "address": "千葉県銚子市犬吠埼",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -259,7 +259,7 @@ export const CHOSHI_STATIONS: Station[] = [
     "lat": 35.6996349,
     "lng": 140.8575309,
     "transfers": [],
-    "address": "千葉県外川駅",
+    "address": "千葉県銚子市外川町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

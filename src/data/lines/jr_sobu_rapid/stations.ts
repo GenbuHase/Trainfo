@@ -17,12 +17,11 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "JR中央線",
       "JR東海道線",
       "JR横須賀線",
-      "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
@@ -32,7 +31,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "rapid",
-      "commuter_rapid",
       "limited_exp",
       "local"
     ],
@@ -41,7 +39,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -56,7 +54,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.6890433,
     "lng": 139.7741801,
     "transfers": [
-      "JR総武快速線",
       "東京メトロ銀座線",
       "東京メトロ半蔵門線"
     ],
@@ -67,7 +64,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "rapid",
-      "commuter_rapid",
       "local"
     ],
     "isMajor": false,
@@ -75,7 +71,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -90,7 +86,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.6933851,
     "lng": 139.7824152,
     "transfers": [
-      "JR総武快速線",
       "都営浅草線",
       "都営新宿線"
     ],
@@ -101,7 +96,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "rapid",
-      "commuter_rapid",
       "local"
     ],
     "isMajor": false,
@@ -109,7 +103,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -124,7 +118,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.6969287,
     "lng": 139.8139442,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車",
       "東京メトロ半蔵門線"
     ],
@@ -135,7 +128,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "rapid",
-      "commuter_rapid",
       "limited_exp",
       "local"
     ],
@@ -144,7 +136,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -159,7 +151,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.7170544,
     "lng": 139.8578694,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車"
     ],
     "address": "東京都葛飾区新小岩一丁目",
@@ -176,7 +167,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -191,7 +182,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.7289842,
     "lng": 139.9082651,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車"
     ],
     "address": "千葉県市川市市川一丁目",
@@ -208,7 +198,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -223,7 +213,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.7018128,
     "lng": 139.9852737,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車",
       "東武アーバンパークライン",
       "京成本線"
@@ -235,7 +224,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "rapid",
-      "commuter_rapid",
       "limited_exp",
       "local"
     ],
@@ -244,7 +232,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -259,7 +247,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.691534,
     "lng": 140.0203671,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車",
       "新京成線"
     ],
@@ -277,7 +264,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -292,7 +279,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.6371305,
     "lng": 140.0927036,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車",
       "京成千葉線"
     ],
@@ -310,7 +296,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   },
@@ -325,7 +311,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     "lat": 35.6138757,
     "lng": 140.1128979,
     "transfers": [
-      "JR総武快速線",
       "JR中央・総武線各駅停車",
       "JR総武本線",
       "JR成田線",
@@ -340,7 +325,6 @@ export const SOBU_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "rapid",
-      "commuter_rapid",
       "limited_exp",
       "local"
     ],
@@ -349,7 +333,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": true,
+      "waitingRoom": false,
       "ticketOffice": true
     }
   }

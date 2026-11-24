@@ -11,16 +11,6 @@ export const JR_KOUMI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#009944",
     "borderColor": "#007a36"
   },
-  "local": {
-    "key": "local",
-    "name": "普通",
-    "nameEn": "Local",
-    "shortName": "普通",
-    "color": "#009944",
-    "textColor": "#ffffff",
-    "bgColor": "#009944",
-    "borderColor": "#007a36"
-  },
   "rapid": {
     "key": "rapid",
     "name": "快速",
