@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const GINZA_STATIONS: Station[] = [
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-01",
     "stationNumber": "G-01",
     "number": 1,
@@ -40,7 +40,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-02",
     "stationNumber": "G-02",
     "number": 2,
@@ -71,7 +71,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-03",
     "stationNumber": "G-03",
     "number": 3,
@@ -99,7 +99,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-04",
     "stationNumber": "G-04",
     "number": 4,
@@ -130,7 +130,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-05",
     "stationNumber": "G-05",
     "number": 5,
@@ -163,7 +163,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-06",
     "stationNumber": "G-06",
     "number": 6,
@@ -195,7 +195,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-07",
     "stationNumber": "G-07",
     "number": 7,
@@ -225,7 +225,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-08",
     "stationNumber": "G-08",
     "number": 8,
@@ -260,7 +260,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-09",
     "stationNumber": "G-09",
     "number": 9,
@@ -291,7 +291,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-10",
     "stationNumber": "G-10",
     "number": 10,
@@ -321,7 +321,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-11",
     "stationNumber": "G-11",
     "number": 11,
@@ -352,7 +352,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-12",
     "stationNumber": "G-12",
     "number": 12,
@@ -383,7 +383,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-13",
     "stationNumber": "G-13",
     "number": 13,
@@ -415,7 +415,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-14",
     "stationNumber": "G-14",
     "number": 14,
@@ -443,7 +443,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-15",
     "stationNumber": "G-15",
     "number": 15,
@@ -476,7 +476,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-16",
     "stationNumber": "G-16",
     "number": 16,
@@ -515,7 +515,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-17",
     "stationNumber": "G-17",
     "number": 17,
@@ -543,7 +543,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-18",
     "stationNumber": "G-18",
     "number": 18,
@@ -573,7 +573,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "ginza",
+    "lineId": "tokyo_metro_ginza",
     "id": "G-19",
     "stationNumber": "G-19",
     "number": 19,

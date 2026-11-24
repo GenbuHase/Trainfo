@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const MYOKO_HANEUMA_STATIONS: Station[] = [
   {
     "id": "ETM-01",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 1,
     "name": "妙高高原",
     "nameKana": "みょうこうこうげん",
@@ -35,7 +35,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-02",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 2,
     "name": "関山",
     "nameKana": "せきやま",
@@ -63,7 +63,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-03",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 3,
     "name": "二本木",
     "nameKana": "にほんぎ",
@@ -91,7 +91,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-04",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 4,
     "name": "新井",
     "nameKana": "あらい",
@@ -123,7 +123,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-05",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 5,
     "name": "北新井",
     "nameKana": "きたあらい",
@@ -151,7 +151,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-06",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 6,
     "name": "上越妙高",
     "nameKana": "じょうえつみょうこう",
@@ -183,7 +183,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-07",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 7,
     "name": "南高田",
     "nameKana": "みなみたかだ",
@@ -211,7 +211,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-08",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 8,
     "name": "高田",
     "nameKana": "たかだ",
@@ -240,7 +240,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-09",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 9,
     "name": "春日山",
     "nameKana": "かすがやま",
@@ -268,7 +268,7 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
   },
   {
     "id": "ETM-10",
-    "lineId": "myoko_haneuma",
+    "lineId": "echigo_tokimeki_myoko_haneuma",
     "number": 10,
     "name": "直江津",
     "nameKana": "なおえつ",

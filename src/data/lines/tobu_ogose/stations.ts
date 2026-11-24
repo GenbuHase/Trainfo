@@ -4,7 +4,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-26",
     "stationNumber": "TJ-26",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 26,
     "name": "坂戸",
     "nameKana": "さかど",
@@ -34,7 +34,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-41",
     "stationNumber": "TJ-41",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 41,
     "name": "一本松",
     "nameKana": "いっぽんまつ",
@@ -62,7 +62,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-42",
     "stationNumber": "TJ-42",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 42,
     "name": "西大家",
     "nameKana": "にしおおや",
@@ -90,7 +90,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-43",
     "stationNumber": "TJ-43",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 43,
     "name": "川角",
     "nameKana": "かわかど",
@@ -118,7 +118,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-44",
     "stationNumber": "TJ-44",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 44,
     "name": "武州長瀬",
     "nameKana": "ぶしゅうながせ",
@@ -146,7 +146,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-45",
     "stationNumber": "TJ-45",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 45,
     "name": "東毛呂",
     "nameKana": "ひがしもろ",
@@ -176,7 +176,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-46",
     "stationNumber": "TJ-46",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 46,
     "name": "武州唐沢",
     "nameKana": "ぶしゅうからさわ",
@@ -204,7 +204,7 @@ export const STATIONS: Station[] = [
   {
     "id": "TJ-47",
     "stationNumber": "TJ-47",
-    "lineId": "ogose",
+    "lineId": "tobu_ogose",
     "number": 47,
     "name": "越生",
     "nameKana": "おごせ",

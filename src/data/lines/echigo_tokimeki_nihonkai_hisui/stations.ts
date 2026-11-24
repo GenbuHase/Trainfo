@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const NIHONKAI_HISUI_STATIONS: Station[] = [
   {
     "id": "ETH-01",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 1,
     "name": "市振",
     "nameKana": "いちぶり",
@@ -34,7 +34,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-02",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 2,
     "name": "親不知",
     "nameKana": "おやしらず",
@@ -62,7 +62,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-03",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 3,
     "name": "青海",
     "nameKana": "おうみ",
@@ -90,7 +90,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-04",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 4,
     "name": "糸魚川",
     "nameKana": "いといがわ",
@@ -122,7 +122,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-05",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 5,
     "name": "えちご押上ひすい海岸",
     "nameKana": "えちごおしあげひすいかいがん",
@@ -150,7 +150,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-06",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 6,
     "name": "梶屋敷",
     "nameKana": "かじやしき",
@@ -178,7 +178,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-07",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 7,
     "name": "浦本",
     "nameKana": "うらもと",
@@ -206,7 +206,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-08",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 8,
     "name": "能生",
     "nameKana": "のう",
@@ -234,7 +234,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-09",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 9,
     "name": "筒石",
     "nameKana": "つついし",
@@ -262,7 +262,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-10",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 10,
     "name": "名立",
     "nameKana": "なだち",
@@ -290,7 +290,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-11",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 11,
     "name": "有間川",
     "nameKana": "ありまがわ",
@@ -318,7 +318,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-12",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 12,
     "name": "谷浜",
     "nameKana": "たにはま",
@@ -346,7 +346,7 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
   },
   {
     "id": "ETH-13",
-    "lineId": "nihonkai_hisui",
+    "lineId": "echigo_tokimeki_nihonkai_hisui",
     "number": 13,
     "name": "直江津",
     "nameKana": "なおえつ",

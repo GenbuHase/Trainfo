@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const NAMBOKU_STATIONS: Station[] = [
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-01",
     "stationNumber": "N-01",
     "number": 1,
@@ -35,7 +35,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-02",
     "stationNumber": "N-02",
     "number": 2,
@@ -66,7 +66,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-03",
     "stationNumber": "N-03",
     "number": 3,
@@ -97,7 +97,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-04",
     "stationNumber": "N-04",
     "number": 4,
@@ -128,7 +128,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-05",
     "stationNumber": "N-05",
     "number": 5,
@@ -157,7 +157,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-06",
     "stationNumber": "N-06",
     "number": 6,
@@ -190,7 +190,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-07",
     "stationNumber": "N-07",
     "number": 7,
@@ -224,7 +224,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-08",
     "stationNumber": "N-08",
     "number": 8,
@@ -257,7 +257,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-09",
     "stationNumber": "N-09",
     "number": 9,
@@ -290,7 +290,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-10",
     "stationNumber": "N-10",
     "number": 10,
@@ -324,7 +324,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-11",
     "stationNumber": "N-11",
     "number": 11,
@@ -357,7 +357,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-12",
     "stationNumber": "N-12",
     "number": 12,
@@ -386,7 +386,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-13",
     "stationNumber": "N-13",
     "number": 13,
@@ -415,7 +415,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-14",
     "stationNumber": "N-14",
     "number": 14,
@@ -446,7 +446,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-15",
     "stationNumber": "N-15",
     "number": 15,
@@ -475,7 +475,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-16",
     "stationNumber": "N-16",
     "number": 16,
@@ -507,7 +507,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-17",
     "stationNumber": "N-17",
     "number": 17,
@@ -536,7 +536,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-18",
     "stationNumber": "N-18",
     "number": 18,
@@ -565,7 +565,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "namboku",
+    "lineId": "tokyo_metro_namboku",
     "id": "N-19",
     "stationNumber": "N-19",
     "number": 19,

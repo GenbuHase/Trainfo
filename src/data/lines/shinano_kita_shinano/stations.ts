@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const KITA_SHINANO_STATIONS: Station[] = [
   {
     "id": "SRK-01",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 1,
     "name": "長野",
     "nameKana": "ながの",
@@ -37,7 +37,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-02",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 2,
     "name": "北長野",
     "nameKana": "きたながの",
@@ -65,7 +65,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-03",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 3,
     "name": "三才",
     "nameKana": "さんさい",
@@ -93,7 +93,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-04",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 4,
     "name": "豊野",
     "nameKana": "とよの",
@@ -121,7 +121,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-05",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 5,
     "name": "牟礼",
     "nameKana": "むれ",
@@ -149,7 +149,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-06",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 6,
     "name": "古間",
     "nameKana": "ふるま",
@@ -177,7 +177,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-07",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 7,
     "name": "黒姫",
     "nameKana": "くろひめ",
@@ -205,7 +205,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
   },
   {
     "id": "SRK-08",
-    "lineId": "kita_shinano",
+    "lineId": "shinano_kita_shinano",
     "number": 8,
     "name": "妙高高原",
     "nameKana": "みょうこうこうげん",

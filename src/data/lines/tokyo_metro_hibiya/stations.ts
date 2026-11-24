@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const HIBIYA_STATIONS: Station[] = [
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-01",
     "stationNumber": "H-01",
     "number": 1,
@@ -32,7 +32,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-02",
     "stationNumber": "H-02",
     "number": 2,
@@ -64,7 +64,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-03",
     "stationNumber": "H-03",
     "number": 3,
@@ -92,7 +92,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-04",
     "stationNumber": "H-04",
     "number": 4,
@@ -122,7 +122,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-05",
     "stationNumber": "H-05",
     "number": 5,
@@ -150,7 +150,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-06",
     "stationNumber": "H-06",
     "number": 6,
@@ -180,7 +180,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-07",
     "stationNumber": "H-07",
     "number": 7,
@@ -212,7 +212,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-08",
     "stationNumber": "H-08",
     "number": 8,
@@ -247,7 +247,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-09",
     "stationNumber": "H-09",
     "number": 9,
@@ -279,7 +279,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-10",
     "stationNumber": "H-10",
     "number": 10,
@@ -309,7 +309,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-11",
     "stationNumber": "H-11",
     "number": 11,
@@ -339,7 +339,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-12",
     "stationNumber": "H-12",
     "number": 12,
@@ -369,7 +369,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-13",
     "stationNumber": "H-13",
     "number": 13,
@@ -399,7 +399,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-14",
     "stationNumber": "H-14",
     "number": 14,
@@ -429,7 +429,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-15",
     "stationNumber": "H-15",
     "number": 15,
@@ -457,7 +457,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-16",
     "stationNumber": "H-16",
     "number": 16,
@@ -493,7 +493,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-17",
     "stationNumber": "H-17",
     "number": 17,
@@ -526,7 +526,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-18",
     "stationNumber": "H-18",
     "number": 18,
@@ -566,7 +566,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-19",
     "stationNumber": "H-19",
     "number": 19,
@@ -594,7 +594,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-20",
     "stationNumber": "H-20",
     "number": 20,
@@ -624,7 +624,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-21",
     "stationNumber": "H-21",
     "number": 21,
@@ -655,7 +655,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    "lineId": "hibiya",
+    "lineId": "tokyo_metro_hibiya",
     "id": "H-22",
     "stationNumber": "H-22",
     "number": 22,
