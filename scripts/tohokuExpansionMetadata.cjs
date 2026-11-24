@@ -307,6 +307,7 @@ const STATION_READINGS = {
   '羽後本荘': ['うごほんじょう', 'Ugo-Honjō'],
   '子吉': ['こよし', 'Koyoshi'],
   '鮎川': ['あゆかわ', 'Ayukawa'],
+  '黒沢': ['くろさわ', 'Kurosawa'],
   '曲沢': ['まがりさわ', 'Magarisawa'],
   '前郷': ['まえごう', 'Maegō'],
   '久保田': ['くぼた', 'Kubota'],

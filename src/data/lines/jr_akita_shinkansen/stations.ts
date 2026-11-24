@@ -14,6 +14,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "東北新幹線",
       "JR東北本線",
       "JR山田線",
+      "JR花輪線",
       "いわて銀河鉄道線"
     ],
     "address": "",
@@ -97,7 +98,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.5925352,
     "lng": 140.5717095,
     "transfers": [
-      "秋田内陸縦貫鉄道"
+      "秋田内陸縦貫鉄道秋田内陸線"
     ],
     "address": "",
     "platforms": {

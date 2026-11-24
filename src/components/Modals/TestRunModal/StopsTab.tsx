@@ -461,7 +461,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       {/* 駅名・駅ナンバリング */}
                       <div className="col-span-5 sm:col-span-4 flex items-center gap-2 min-w-0 pr-1">
                         {st.stationNumber && (
-                          <StationBadge id={st.stationNumber} size="sm" />
+                          <StationBadge id={st.stationNumber} lineId={st.lineId} size="sm" />
                         )}
                         <div className="truncate">
                           <span
