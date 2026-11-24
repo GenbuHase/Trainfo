@@ -11,7 +11,6 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "lat": 36.9803609,
     "lng": 137.6502199,
     "transfers": [
-      "日本海ひすいライン",
       "あいの風とやま鉄道"
     ],
     "address": "新潟県糸魚川市大字市振910-3",
@@ -25,11 +24,11 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -53,11 +52,11 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -81,11 +80,11 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -99,13 +98,12 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "lng": 137.8624689,
     "transfers": [
       "JR北陸新幹線",
-      "JR大糸線",
-      "日本海ひすいライン"
+      "JR大糸線（南小谷～糸魚川）"
     ],
     "address": "新潟県糸魚川市大町1丁目7-47",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2・3番線",
+      "outbound": "1・2番線"
     },
     "stoppingTypes": [
       "local",
@@ -136,16 +134,15 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
       "multipurposeToilet": true,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -164,16 +161,15 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -192,16 +188,15 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -216,8 +211,8 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県糸魚川市大字能生2583",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "3番線",
+      "outbound": "2番線"
     },
     "stoppingTypes": [
       "local",
@@ -225,9 +220,9 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": true,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
       "ticketOffice": true
     }
@@ -244,20 +239,19 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "transfers": [],
     "address": "新潟県糸魚川市大字仙納927-2",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "糸魚川方面ホーム",
+      "outbound": "直江津方面ホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -281,11 +275,11 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -309,11 +303,11 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
+      "elevator": false,
+      "restroom": false,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -332,16 +326,15 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
-      "elevator": true,
+      "elevator": false,
       "restroom": true,
-      "multipurposeToilet": true,
+      "multipurposeToilet": false,
       "waitingRoom": true,
-      "ticketOffice": true
+      "ticketOffice": false
     }
   },
   {
@@ -354,15 +347,14 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "lat": 37.170251,
     "lng": 138.242265,
     "transfers": [
-      "JR信越本線",
-      "妙高はねうまライン",
-      "日本海ひすいライン",
+      "JR信越本線（直江津～新潟）",
+      "えちごトキめき鉄道妙高はねうまライン",
       "北越急行ほくほく線"
     ],
     "address": "新潟県上越市東町1-1",
     "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
+      "inbound": "2〜5番線",
+      "outbound": "1〜5番線"
     },
     "stoppingTypes": [
       "local",

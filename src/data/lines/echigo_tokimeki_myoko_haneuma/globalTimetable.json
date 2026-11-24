@@ -1420,7 +1420,9 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_ETH-01_0929_38812",
+    "prevLineId": "echigo_tokimeki_nihonkai_hisui"
   },
   {
     "tripId": "WD_INB_ETM-10_1110_14904",
@@ -5624,52 +5626,6 @@
     ]
   },
   {
-    "tripId": "HD_OUT_ETM-06_1002_38934",
-    "lineId": "echigo_tokimeki_myoko_haneuma",
-    "trainId": "38934",
-    "trainNumber": "8361D",
-    "trainType": "rapid",
-    "trainName": "ゆざわShu＊Kura",
-    "direction": "outbound",
-    "originStationId": "ETM-06",
-    "destinationStationId": "ETM-10",
-    "customDestination": "越後湯沢",
-    "cars": 2,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "ETM-06",
-        "arrivalTime": "10:02:00",
-        "departureTime": "10:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "ETM-07",
-        "arrivalTime": "10:04:00",
-        "departureTime": "10:04:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "ETM-08",
-        "arrivalTime": "10:06:00",
-        "departureTime": "10:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "ETM-09",
-        "arrivalTime": "10:11:00",
-        "departureTime": "10:11:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "ETM-10",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:18:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
     "tripId": "HD_OUT_ETM-06_1002_38939",
     "lineId": "echigo_tokimeki_myoko_haneuma",
     "trainId": "38939",
@@ -5717,52 +5673,6 @@
     ],
     "throughTripId": "HD_OUT_SE-01_1018_38939",
     "throughLineId": "jr_shinetsu_naoetsu_niigata"
-  },
-  {
-    "tripId": "HD_OUT_ETM-06_1002_35033",
-    "lineId": "echigo_tokimeki_myoko_haneuma",
-    "trainId": "35033",
-    "trainNumber": "8361D",
-    "trainType": "rapid",
-    "trainName": "越乃Shu＊Kura",
-    "direction": "outbound",
-    "originStationId": "ETM-06",
-    "destinationStationId": "ETM-10",
-    "customDestination": "十日町",
-    "cars": 2,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "ETM-06",
-        "arrivalTime": "10:02:00",
-        "departureTime": "10:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "ETM-07",
-        "arrivalTime": "10:04:00",
-        "departureTime": "10:04:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "ETM-08",
-        "arrivalTime": "10:06:00",
-        "departureTime": "10:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "ETM-09",
-        "arrivalTime": "10:11:00",
-        "departureTime": "10:11:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "ETM-10",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:18:00",
-        "isPassing": false
-      }
-    ]
   },
   {
     "tripId": "HD_OUT_ETM-01_1013_14934",
@@ -5954,7 +5864,9 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_ETH-01_0929_38812",
+    "prevLineId": "echigo_tokimeki_nihonkai_hisui"
   },
   {
     "tripId": "HD_INB_ETM-10_1110_14904",

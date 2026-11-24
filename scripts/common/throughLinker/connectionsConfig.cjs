@@ -1469,6 +1469,28 @@ module.exports = {
       "requireIdMatch": true
     },
     {
+      "name": "日本海ひすいライン -> 妙高はねうまライン (直江津経由直通 1631D/2326D等)",
+      "lineA": "echigo_tokimeki_nihonkai_hisui",
+      "lineB": "echigo_tokimeki_myoko_haneuma",
+      "stationA": "ETH-13",
+      "stationB": "ETM-10",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 1200,
+      "requireIdMatch": true
+    },
+    {
+      "name": "妙高はねうまライン -> 日本海ひすいライン (直江津経由直通)",
+      "lineA": "echigo_tokimeki_myoko_haneuma",
+      "lineB": "echigo_tokimeki_nihonkai_hisui",
+      "stationA": "ETM-10",
+      "stationB": "ETH-13",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 1200,
+      "requireIdMatch": true
+    },
+    {
       "name": "スカイツリーライン -> 伊勢崎線 (下り 東武動物公園経由 久喜・館林・伊勢崎方面直通)",
       "lineA": "tobu_skytree",
       "lineB": "tobu_isesaki",
