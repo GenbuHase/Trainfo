@@ -11,8 +11,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "lat": 38.5123152,
     "lng": 141.1938703,
     "transfers": [
-      "JR石巻線",
-      "JR気仙沼線"
+      "JR石巻線"
     ],
     "address": "宮城県前谷地駅周辺",
     "platforms": {
@@ -154,7 +153,6 @@ export const KESENNUMA_STATIONS: Station[] = [
     "lat": 38.6116887,
     "lng": 141.3059037,
     "transfers": [
-      "JR気仙沼線",
       "JR気仙沼線BRT"
     ],
     "address": "宮城県柳津駅周辺",

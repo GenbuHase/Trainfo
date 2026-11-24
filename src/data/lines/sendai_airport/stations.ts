@@ -11,8 +11,8 @@ export const SENDAI_AIRPORT_STATIONS: Station[] = [
     "lat": 38.1733513,
     "lng": 140.8827087,
     "transfers": [
-      "JR東北本線",
-      "JR常磐線"
+      "JR東北本線（福島～仙台）",
+      "JR常磐線（いわき～仙台）"
     ],
     "address": "宮城県名取駅周辺",
     "platforms": {

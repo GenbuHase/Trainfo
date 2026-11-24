@@ -524,7 +524,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.1031271,
     "lng": 138.8593352,
     "transfers": [
-      "JR東海道本線"
+      "JR東海道本線（熱海～豊橋）"
     ],
     "address": "",
     "platforms": {

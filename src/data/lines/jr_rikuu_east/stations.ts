@@ -96,7 +96,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.5705529,
     "lng": 140.9679338,
     "transfers": [
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "宮城県古川駅周辺",
     "platforms": {

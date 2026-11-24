@@ -71,7 +71,7 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "lat": 35.7716808,
     "lng": 139.42068,
     "transfers": [
-      "西武山口線"
+      "西武山口線（レオライナー）"
     ],
     "address": "埼玉県西武球場前駅",
     "facilities": {

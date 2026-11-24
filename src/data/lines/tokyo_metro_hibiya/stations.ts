@@ -471,7 +471,7 @@ export const HIBIYA_STATIONS: Station[] = [
       "JR京浜東北線",
       "JR総武快速線",
       "JR中央・総武線各駅停車",
-      "つくばエクスプレス",
+      "首都圏新都市鉄道つくばエクスプレス",
       "都営新宿線（岩本町駅）"
     ],
     "address": "東京都千代田区神田佐久間町一丁目21",
@@ -541,9 +541,9 @@ export const HIBIYA_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ銀座線",
       "京成本線"
     ],
@@ -635,7 +635,7 @@ export const HIBIYA_STATIONS: Station[] = [
     "lng": 139.7987987,
     "transfers": [
       "JR常磐線快速",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都荒川区南千住四丁目3-1",
     "platforms": {
@@ -669,7 +669,7 @@ export const HIBIYA_STATIONS: Station[] = [
       "東京メトロ千代田線",
       "JR常磐線快速",
       "JR常磐線各駅停車",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都足立区千住旭町42-1",
     "platforms": {

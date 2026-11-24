@@ -492,9 +492,9 @@ export const GINZA_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "京成本線"
     ],
     "address": "東京都台東区東上野三丁目19-6",
@@ -585,7 +585,7 @@ export const GINZA_STATIONS: Station[] = [
     "transfers": [
       "東武スカイツリーライン",
       "都営浅草線",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都台東区浅草一丁目1-3",
     "platforms": {

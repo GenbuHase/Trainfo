@@ -13,7 +13,7 @@ export const RYOMO_STATIONS: Station[] = [
     "transfers": [
       "JR宇都宮線",
       "JR水戸線",
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "群馬県/栃木県",
     "platforms": {

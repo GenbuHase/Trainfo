@@ -12,7 +12,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lng": 141.1216713,
     "transfers": [
       "JR東北新幹線",
-      "JR東北本線"
+      "JR東北本線（一ノ関～盛岡）"
     ],
     "address": "岩手県北上駅周辺",
     "platforms": {
@@ -420,7 +420,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.3103014,
     "lng": 140.5604512,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（新庄～大曲）"
     ],
     "address": "秋田県横手駅周辺",
     "platforms": {

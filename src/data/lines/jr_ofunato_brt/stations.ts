@@ -12,7 +12,6 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lng": 141.5593231,
     "transfers": [
       "JR大船渡線",
-      "JR大船渡線BRT",
       "JR気仙沼線BRT"
     ],
     "address": "宮城県気仙沼駅周辺",

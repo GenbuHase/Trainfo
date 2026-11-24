@@ -622,7 +622,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.447787,
     "lng": 138.853927,
     "transfers": [
-      "上越新幹線",
+      "JR上越新幹線",
       "JR上越線"
     ],
     "address": "新潟県長岡駅",
@@ -1153,7 +1153,7 @@ export const SHINETSU_STATIONS: Station[] = [
     "lat": 37.912323,
     "lng": 139.0612537,
     "transfers": [
-      "上越新幹線",
+      "JR上越新幹線",
       "JR白新線",
       "JR越後線"
     ],

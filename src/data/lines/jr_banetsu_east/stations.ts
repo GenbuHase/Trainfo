@@ -11,7 +11,8 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.058241,
     "lng": 140.892273,
     "transfers": [
-      "JR常磐線"
+      "JR常磐線（いわき～仙台）",
+      "JR常磐線（取手～いわき）"
     ],
     "address": "福島県いわき駅",
     "platforms": {
@@ -418,9 +419,9 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.3981971,
     "lng": 140.3897215,
     "transfers": [
-      "東北新幹線",
+      "JR東北新幹線",
       "山形新幹線",
-      "JR東北本線",
+      "JR東北本線（黒磯～福島）",
       "JR磐越西線",
       "JR水郡線"
     ],

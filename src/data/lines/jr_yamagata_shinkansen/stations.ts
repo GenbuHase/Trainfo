@@ -11,8 +11,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.7544085,
     "lng": 140.4586226,
     "transfers": [
-      "東北新幹線",
-      "JR東北本線",
+      "JR東北新幹線",
+      "JR東北本線（福島～仙台）",
+      "JR東北本線（黒磯～福島）",
       "JR奥羽本線（福島～新庄）",
       "阿武隈急行線",
       "福島交通飯坂線"
@@ -23,7 +24,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -53,7 +54,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -82,7 +83,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -112,7 +113,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -141,7 +142,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -172,7 +173,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -201,7 +202,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -230,7 +231,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -259,7 +260,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -288,7 +289,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {
@@ -320,7 +321,7 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "tsubasa"
     ],
     "isMajor": true,
     "facilities": {

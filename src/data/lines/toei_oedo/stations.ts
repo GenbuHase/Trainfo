@@ -271,7 +271,7 @@ export const TOEI_OEDO_STATIONS: Station[] = [
     "lat": 35.7070043,
     "lng": 139.7819108,
     "transfers": [
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都新御徒町駅",
     "facilities": {

@@ -511,7 +511,7 @@ export const NARITA_STATIONS: Station[] = [
     "lng": 140.38551,
     "transfers": [
       "京成本線",
-      "成田スカイアクセス線"
+      "京成成田スカイアクセス線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
     "facilities": {

@@ -608,7 +608,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "JR常磐線快速",
       "東武スカイツリーライン",
       "東京メトロ日比谷線",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都足立区千住旭町42-1",
     "facilities": {

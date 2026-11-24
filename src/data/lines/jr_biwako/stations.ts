@@ -12,7 +12,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.31579,
     "lng": 136.290606,
     "transfers": [
-      "JR北陸本線",
+      "JR北陸本線（米原～敦賀）",
       "近江鉄道本線"
     ],
     "address": "",
@@ -23,7 +23,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -56,7 +56,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -174,7 +174,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "new_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -235,7 +235,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "new_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -294,7 +294,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -325,7 +325,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -387,7 +387,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -418,7 +418,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -480,7 +480,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -542,7 +542,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -577,7 +577,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -613,7 +613,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,

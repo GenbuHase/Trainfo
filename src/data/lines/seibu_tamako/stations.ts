@@ -181,7 +181,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "lat": 35.7664484,
     "lng": 139.4424673,
     "transfers": [
-      "西武山口線"
+      "西武山口線（レオライナー）"
     ],
     "address": "東京都多摩湖駅",
     "facilities": {

@@ -763,7 +763,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     "lat": 35.14265,
     "lng": 136.90122,
     "transfers": [
-      "JR中央本線",
+      "JR中央本線（名古屋～塩尻）",
       "名鉄名古屋本線",
       "名古屋市営地下鉄名城線",
       "名古屋市営地下鉄名港線"
@@ -830,8 +830,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     "lat": 35.17197,
     "lng": 136.88137,
     "transfers": [
-      "JR中央本線",
-      "JR関西本線",
+      "JR中央本線（名古屋～塩尻）",
+      "JR関西本線（名古屋～亀山）",
       "名鉄名古屋本線",
       "近鉄名古屋線",
       "あおなみ線",
@@ -1324,7 +1324,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     "lat": 35.31579,
     "lng": 136.290606,
     "transfers": [
-      "JR北陸本線",
+      "JR北陸本線（米原～敦賀）",
       "近江鉄道本線"
     ],
     "address": "",

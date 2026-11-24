@@ -798,7 +798,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.1121,
     "lng": 140.864,
     "transfers": [
-      "JR東北本線"
+      "JR東北本線（福島～仙台）"
     ],
     "address": "宮城県岩沼市館下一丁目4-1",
     "facilities": {
@@ -828,7 +828,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.1431,
     "lng": 140.8803,
     "transfers": [
-      "JR東北本線"
+      "JR東北本線（福島～仙台）"
     ],
     "address": "宮城県名取市植松四丁目",
     "facilities": {
@@ -858,7 +858,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.1734,
     "lng": 140.8827,
     "transfers": [
-      "JR東北本線",
+      "JR東北本線（福島～仙台）",
       "仙台空港アクセス線"
     ],
     "address": "宮城県名取市増田二丁目5-1",
@@ -889,7 +889,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.1973,
     "lng": 140.8834,
     "transfers": [
-      "JR東北本線"
+      "JR東北本線（福島～仙台）"
     ],
     "address": "宮城県仙台市太白区中田五丁目1-1",
     "facilities": {
@@ -919,7 +919,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.2178,
     "lng": 140.8834,
     "transfers": [
-      "JR東北本線"
+      "JR東北本線（福島～仙台）"
     ],
     "address": "宮城県仙台市太白区太子堂1-1",
     "facilities": {
@@ -949,7 +949,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.2268,
     "lng": 140.8855,
     "transfers": [
-      "JR東北本線",
+      "JR東北本線（福島～仙台）",
       "仙台市地下鉄南北線"
     ],
     "address": "宮城県仙台市太白区長町五丁目1-1",
@@ -980,10 +980,11 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.2599,
     "lng": 140.8823,
     "transfers": [
-      "JR東北本線",
+      "JR東北本線（福島～仙台）",
+      "JR東北本線（仙台～一ノ関）",
       "JR仙山線",
       "JR仙石線",
-      "東北新幹線",
+      "JR東北新幹線",
       "秋田新幹線",
       "仙台市地下鉄南北線",
       "仙台市地下鉄東西線"

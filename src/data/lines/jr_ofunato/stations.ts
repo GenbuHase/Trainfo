@@ -12,7 +12,8 @@ export const OFUNATO_STATIONS: Station[] = [
     "lng": 141.1380476,
     "transfers": [
       "JR東北新幹線",
-      "JR東北本線"
+      "JR東北本線（一ノ関～盛岡）",
+      "JR東北本線（仙台～一ノ関）"
     ],
     "address": "岩手県一ノ関駅周辺",
     "platforms": {
@@ -378,7 +379,6 @@ export const OFUNATO_STATIONS: Station[] = [
     "lat": 38.909879,
     "lng": 141.5592196,
     "transfers": [
-      "JR大船渡線",
       "JR大船渡線BRT",
       "JR気仙沼線BRT"
     ],

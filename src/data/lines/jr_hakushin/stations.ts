@@ -18,7 +18,7 @@ export const HAKUSHIN_STATIONS: Station[] = [
     "lat": 37.912323,
     "lng": 139.0612537,
     "transfers": [
-      "JR信越本線",
+      "JR信越本線（直江津～新潟）",
       "JR上越新幹線",
       "JR越後線"
     ],

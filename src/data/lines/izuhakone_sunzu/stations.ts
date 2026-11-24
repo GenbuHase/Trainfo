@@ -12,8 +12,8 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.1259904,
     "lng": 138.9111786,
     "transfers": [
-      "JR東海道本線",
-      "東海道新幹線"
+      "JR東海道本線（熱海～豊橋）",
+      "JR東海道新幹線"
     ],
     "address": "",
     "platforms": {

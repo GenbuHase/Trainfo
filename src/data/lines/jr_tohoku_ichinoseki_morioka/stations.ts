@@ -12,7 +12,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lng": 141.1380476,
     "transfers": [
       "JR東北本線（仙台～一ノ関）",
-      "東北新幹線",
+      "JR東北新幹線",
       "JR大船渡線"
     ],
     "address": "岩手県一ノ関駅周辺",
@@ -231,7 +231,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lat": 39.2818198,
     "lng": 141.1216713,
     "transfers": [
-      "東北新幹線",
+      "JR東北新幹線",
       "JR北上線"
     ],
     "address": "岩手県北上駅周辺",
@@ -543,8 +543,8 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "lng": 141.1368084,
     "transfers": [
       "IGRいわて銀河鉄道線",
-      "東北新幹線",
-      "秋田新幹線",
+      "JR東北新幹線",
+      "JR秋田新幹線",
       "JR田沢湖線",
       "JR山田線",
       "JR花輪線"

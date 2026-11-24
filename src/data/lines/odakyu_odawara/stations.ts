@@ -1409,7 +1409,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線",
       "JR東海道新幹線",
-      "箱根登山電車",
+      "小田急箱根鉄道線（箱根登山電車）",
       "伊豆箱根鉄道大雄山線"
     ],
     "address": "神奈川県小田原市栄町一丁目1-1",

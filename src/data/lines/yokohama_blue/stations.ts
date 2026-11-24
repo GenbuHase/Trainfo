@@ -562,7 +562,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
       "東急東横線",
       "京急本線",
       "相鉄本線",
-      "みなとみらい線"
+      "横浜高速鉄道みなとみらい線"
     ],
     "address": "神奈川県横浜駅",
     "facilities": {

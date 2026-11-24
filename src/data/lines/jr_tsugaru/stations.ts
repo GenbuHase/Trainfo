@@ -11,7 +11,7 @@ export const TSUGARU_STATIONS: Station[] = [
     "lat": 40.8299011,
     "lng": 140.7342249,
     "transfers": [
-      "JR奥羽本線",
+      "JR奥羽本線（秋田～青森）",
       "青い森鉄道線"
     ],
     "address": "青森県青森駅周辺",

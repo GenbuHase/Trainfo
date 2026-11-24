@@ -17,7 +17,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
       "JR仙石線",
       "JR仙石東北ライン",
       "仙台空港アクセス線",
-      "東北新幹線",
+      "JR東北新幹線",
       "秋田新幹線",
       "仙台市地下鉄南北線",
       "仙台市地下鉄東西線"
@@ -616,7 +616,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lng": 141.1380476,
     "transfers": [
       "JR東北本線（一ノ関～盛岡）",
-      "東北新幹線",
+      "JR東北新幹線",
       "JR大船渡線"
     ],
     "address": "岩手県一ノ関駅周辺",

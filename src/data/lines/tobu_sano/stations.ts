@@ -13,7 +13,6 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "lng": 139.5280462,
     "transfers": [
       "東武伊勢崎線",
-      "東武佐野線",
       "東武小泉線"
     ],
     "address": "群馬県館林市本町二丁目1-1",
@@ -44,9 +43,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Watarase",
     "lat": 36.2619576,
     "lng": 139.5378175,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "群馬県館林市足次町972",
     "facilities": {
       "elevator": true,
@@ -74,9 +71,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Tajima",
     "lat": 36.2903597,
     "lng": 139.5649323,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市田島町171",
     "facilities": {
       "elevator": true,
@@ -104,9 +99,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Sanoshi",
     "lat": 36.3062247,
     "lng": 139.5756438,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市植上町1553",
     "facilities": {
       "elevator": true,
@@ -136,7 +129,6 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "lat": 36.3169125,
     "lng": 139.5790619,
     "transfers": [
-      "東武佐野線",
       "JR両毛線"
     ],
     "address": "栃木県佐野市若松町488",
@@ -167,9 +159,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Horigome",
     "lat": 36.3283552,
     "lng": 139.5803044,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市堀米町610",
     "facilities": {
       "elevator": true,
@@ -197,9 +187,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Yoshimizu",
     "lat": 36.3456289,
     "lng": 139.5792474,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市新吉水町345",
     "facilities": {
       "elevator": true,
@@ -227,9 +215,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Tanuma",
     "lat": 36.3669779,
     "lng": 139.5817105,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市田沼町642",
     "facilities": {
       "elevator": true,
@@ -258,9 +244,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Tada",
     "lat": 36.3782966,
     "lng": 139.5930429,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市多田町945",
     "facilities": {
       "elevator": true,
@@ -288,9 +272,7 @@ export const TOBU_SANO_STATIONS: Station[] = [
     "nameEn": "Kuzu",
     "lat": 36.3980815,
     "lng": 139.609112,
-    "transfers": [
-      "東武佐野線"
-    ],
+    "transfers": [],
     "address": "栃木県佐野市葛生東一丁目1-19",
     "facilities": {
       "elevator": true,

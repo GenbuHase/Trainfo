@@ -13,8 +13,7 @@ export const ITO_STATIONS: Station[] = [
     "lng": 139.0780587,
     "transfers": [
       "JR東海道線",
-      "JR伊東線",
-      "東海道新幹線"
+      "JR東海道新幹線"
     ],
     "address": "静岡県熱海市田原本町",
     "platforms": {
@@ -45,9 +44,7 @@ export const ITO_STATIONS: Station[] = [
     "nameEn": "Kinomiya",
     "lat": 35.0988553,
     "lng": 139.0655865,
-    "transfers": [
-      "JR伊東線"
-    ],
+    "transfers": [],
     "address": "静岡県熱海市福道町",
     "platforms": {
       "inbound": "上りホーム",
@@ -76,9 +73,7 @@ export const ITO_STATIONS: Station[] = [
     "nameEn": "Izu-Taga",
     "lat": 35.058848,
     "lng": 139.0668437,
-    "transfers": [
-      "JR伊東線"
-    ],
+    "transfers": [],
     "address": "静岡県熱海市上多賀",
     "platforms": {
       "inbound": "上りホーム",
@@ -107,9 +102,7 @@ export const ITO_STATIONS: Station[] = [
     "nameEn": "Ajiro",
     "lat": 35.0436971,
     "lng": 139.0811393,
-    "transfers": [
-      "JR伊東線"
-    ],
+    "transfers": [],
     "address": "静岡県熱海市網代",
     "platforms": {
       "inbound": "上りホーム",
@@ -139,9 +132,7 @@ export const ITO_STATIONS: Station[] = [
     "nameEn": "Usami",
     "lat": 35.0059064,
     "lng": 139.0797254,
-    "transfers": [
-      "JR伊東線"
-    ],
+    "transfers": [],
     "address": "静岡県伊東市宇佐美",
     "platforms": {
       "inbound": "上りホーム",
@@ -171,7 +162,6 @@ export const ITO_STATIONS: Station[] = [
     "lat": 34.9755861,
     "lng": 139.0922222,
     "transfers": [
-      "JR伊東線",
       "伊豆急行線"
     ],
     "address": "静岡県伊東市湯川三丁目",

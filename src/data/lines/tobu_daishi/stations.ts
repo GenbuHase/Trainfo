@@ -12,8 +12,7 @@ export const TOBU_DAISHI_STATIONS: Station[] = [
     "lat": 35.7772965,
     "lng": 139.7900257,
     "transfers": [
-      "東武スカイツリーライン",
-      "東武大師線"
+      "東武スカイツリーライン"
     ],
     "address": "東京都足立区西新井栄町二丁目1-1",
     "facilities": {
@@ -42,9 +41,7 @@ export const TOBU_DAISHI_STATIONS: Station[] = [
     "nameEn": "Daishimae",
     "lat": 35.7788876,
     "lng": 139.7817593,
-    "transfers": [
-      "東武大師線"
-    ],
+    "transfers": [],
     "address": "東京都足立区西新井一丁目3-1",
     "facilities": {
       "elevator": true,

@@ -31,7 +31,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -93,7 +93,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -237,7 +237,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "new_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -445,7 +445,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -512,7 +512,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
+      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,

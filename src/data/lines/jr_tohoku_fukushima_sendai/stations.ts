@@ -13,8 +13,8 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "transfers": [
       "JR東北本線（黒磯～福島）",
       "JR奥羽本線（福島～新庄）",
-      "東北新幹線",
-      "山形新幹線",
+      "JR東北新幹線",
+      "JR山形新幹線",
       "阿武隈急行線",
       "福島交通飯坂線"
     ],
@@ -553,7 +553,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
       "JR仙石線",
       "JR仙石東北ライン",
       "仙台空港アクセス線",
-      "東北新幹線",
+      "JR東北新幹線",
       "秋田新幹線",
       "仙台市地下鉄南北線",
       "仙台市地下鉄東西線"

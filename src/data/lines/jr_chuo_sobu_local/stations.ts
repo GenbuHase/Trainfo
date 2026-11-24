@@ -565,7 +565,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
-      "つくばエクスプレス",
+      "首都圏新都市鉄道つくばエクスプレス",
       "東京メトロ日比谷線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",

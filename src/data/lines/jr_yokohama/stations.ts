@@ -103,7 +103,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "transfers": [
       "東急新横浜線",
       "相鉄新横浜線",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "横浜市営地下鉄ブルーライン"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
@@ -249,7 +249,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "lng": 139.49429,
     "transfers": [
       "東急田園都市線",
-      "こどもの国線"
+      "東急こどもの国線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
     "facilities": {

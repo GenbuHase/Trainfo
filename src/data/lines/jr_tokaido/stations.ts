@@ -15,14 +15,13 @@ export const TOKAIDO_STATIONS: Station[] = [
       "JR山手線",
       "JR京浜東北線",
       "JR中央線",
-      "JR東海道線",
       "JR横須賀線",
       "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
@@ -60,7 +59,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
-      "JR東海道線",
       "JR横須賀線",
       "東京メトロ銀座線",
       "都営浅草線",
@@ -101,9 +99,8 @@ export const TOKAIDO_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
-      "JR東海道線",
       "JR横須賀線",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "京急本線"
     ],
     "address": "東京都港区高輪三丁目",
@@ -139,7 +136,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.5312563,
     "lng": 139.697085,
     "transfers": [
-      "JR東海道線",
       "JR京浜東北線",
       "JR南武線",
       "京急本線",
@@ -177,7 +173,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.4657932,
     "lng": 139.6222892,
     "transfers": [
-      "JR東海道線",
       "JR横須賀線",
       "JR湘南新宿ライン",
       "JR京浜東北線",
@@ -222,7 +217,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.400582,
     "lng": 139.5342993,
     "transfers": [
-      "JR東海道線",
       "JR横須賀線",
       "JR湘南新宿ライン",
       "横浜市営地下鉄ブルーライン"
@@ -259,11 +253,10 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.3543387,
     "lng": 139.5313165,
     "transfers": [
-      "JR東海道線",
       "JR横須賀線",
       "JR湘南新宿ライン",
       "JR根岸線",
-      "湘南モノレール"
+      "湘南モノレール江の島線"
     ],
     "address": "神奈川県鎌倉市大船一丁目",
     "platforms": {
@@ -298,7 +291,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.3386826,
     "lng": 139.4862632,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン",
       "小田急江ノ島線",
       "江ノ島電鉄線"
@@ -336,7 +328,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.3367611,
     "lng": 139.4464206,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県藤沢市辻堂一丁目",
@@ -369,7 +360,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.3304237,
     "lng": 139.407581,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン",
       "JR相模線"
     ],
@@ -406,7 +396,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.3272631,
     "lng": 139.3492239,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県平塚市宝町",
@@ -441,7 +430,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.3112739,
     "lng": 139.3134213,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県中郡大磯町大磯",
@@ -474,7 +462,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.2987247,
     "lng": 139.2576496,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県中郡二宮町二宮",
@@ -507,7 +494,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.2812092,
     "lng": 139.2142253,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン",
       "JR御殿場線"
     ],
@@ -543,7 +529,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.2756843,
     "lng": 139.180261,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県小田原市鴨宮",
@@ -576,9 +561,8 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.2561433,
     "lng": 139.1558376,
     "transfers": [
-      "JR東海道線",
       "JR湘南新宿ライン",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "小田急小田原線",
       "箱根登山鉄道線",
       "伊豆箱根鉄道大雄山線"
@@ -615,9 +599,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     "nameEn": "Hayakawa",
     "lat": 35.2391958,
     "lng": 139.1451554,
-    "transfers": [
-      "JR東海道線"
-    ],
+    "transfers": [],
     "address": "神奈川県小田原市早川一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -647,9 +629,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     "nameEn": "Nebukawa",
     "lat": 35.2026861,
     "lng": 139.1386693,
-    "transfers": [
-      "JR東海道線"
-    ],
+    "transfers": [],
     "address": "神奈川県小田原市根府川",
     "platforms": {
       "inbound": "上りホーム",
@@ -679,9 +659,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     "nameEn": "Manazuru",
     "lat": 35.1569849,
     "lng": 139.1322196,
-    "transfers": [
-      "JR東海道線"
-    ],
+    "transfers": [],
     "address": "神奈川県足柄下郡真鶴町真鶴",
     "platforms": {
       "inbound": "上りホーム",
@@ -711,9 +689,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     "nameEn": "Yugawara",
     "lat": 35.1462899,
     "lng": 139.102151,
-    "transfers": [
-      "JR東海道線"
-    ],
+    "transfers": [],
     "address": "神奈川県足柄下郡湯河原町宮下",
     "platforms": {
       "inbound": "上りホーム",
@@ -745,10 +721,9 @@ export const TOKAIDO_STATIONS: Station[] = [
     "lat": 35.1039035,
     "lng": 139.0780587,
     "transfers": [
-      "JR東海道線",
       "JR伊東線",
       "JR東海道本線（熱海～豊橋）",
-      "東海道新幹線"
+      "JR東海道新幹線"
     ],
     "address": "静岡県熱海市田原本町",
     "platforms": {

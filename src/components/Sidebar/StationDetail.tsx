@@ -63,13 +63,14 @@ export const StationDetail: React.FC<StationDetailProps> = ({
   const unregisteredTransfers = useMemo(() => {
     if (!station.transfers || station.transfers.length === 0) return [];
     const currentLineName = line?.name || '';
+    const currentLineShortName = line?.shortName || '';
     const alternateLineNames = new Set(alternateStations.map((alt) => alt.lineName));
     return station.transfers.filter((tr) => {
-      if (tr === currentLineName) return false;
+      if (tr === currentLineName || (currentLineShortName && tr === currentLineShortName)) return false;
       if (alternateLineNames.has(tr)) return false;
       return true;
     });
-  }, [station.transfers, line?.name, alternateStations]);
+  }, [station.transfers, line?.name, line?.shortName, alternateStations]);
 
   const [isLineMenuOpen, setIsLineMenuOpen] = useState<boolean>(false);
   const lineMenuRef = useRef<HTMLDivElement>(null);

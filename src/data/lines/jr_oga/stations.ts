@@ -11,7 +11,7 @@ export const OGA_STATIONS: Station[] = [
     "lat": 39.8099388,
     "lng": 140.0578894,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（秋田～青森）"
     ],
     "address": "秋田県追分駅周辺",
     "platforms": {

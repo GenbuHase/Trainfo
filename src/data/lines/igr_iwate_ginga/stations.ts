@@ -12,8 +12,8 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lng": 141.1368084,
     "transfers": [
       "JR東北本線（一ノ関～盛岡）",
-      "東北新幹線",
-      "秋田新幹線",
+      "JR東北新幹線",
+      "JR秋田新幹線",
       "JR田沢湖線",
       "JR山田線",
       "JR花輪線"
@@ -236,7 +236,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.9604279,
     "lng": 141.2171455,
     "transfers": [
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "岩手県いわて沼宮内駅周辺",
     "platforms": {
@@ -400,7 +400,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.2599434,
     "lng": 141.2859497,
     "transfers": [
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "岩手県二戸駅周辺",
     "platforms": {

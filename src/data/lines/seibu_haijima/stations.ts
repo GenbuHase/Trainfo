@@ -133,7 +133,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "lat": 35.7317434,
     "lng": 139.4181002,
     "transfers": [
-      "多摩モノレール"
+      "多摩都市モノレール線"
     ],
     "address": "東京都玉川上水駅",
     "facilities": {

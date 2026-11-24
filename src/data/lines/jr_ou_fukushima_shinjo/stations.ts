@@ -13,7 +13,8 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線",
       "JR山形新幹線",
-      "JR東北本線",
+      "JR東北本線（福島～仙台）",
+      "JR東北本線（黒磯～福島）",
       "阿武隈急行線",
       "福島交通飯坂線"
     ],

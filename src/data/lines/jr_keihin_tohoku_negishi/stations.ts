@@ -14,7 +14,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR東海道線",
       "JR横須賀線",
       "JR湘南新宿ライン",
-      "湘南モノレール"
+      "湘南モノレール江の島線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
     "facilities": {
@@ -129,7 +129,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lat": 35.38754,
     "lng": 139.61884,
     "transfers": [
-      "シーサイドライン"
+      "横浜シーサイドライン"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
     "facilities": {
@@ -599,7 +599,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR東海道線",
       "JR横須賀線",
       "JR上野東京ライン",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "京急本線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
@@ -696,7 +696,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "lng": 139.75728,
     "transfers": [
       "JR山手線",
-      "東京モノレール",
+      "東京モノレール羽田空港線",
       "都営浅草線",
       "都営大江戸線"
     ],
@@ -805,8 +805,8 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR総武快速線",
       "JR京葉線",
       "JR上野東京ライン",
-      "東北新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
@@ -873,7 +873,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR中央・総武線各駅停車",
-      "つくばエクスプレス",
+      "首都圏新都市鉄道つくばエクスプレス",
       "東京メトロ日比谷線"
     ],
     "address": "東京都・神奈川県・千葉県・埼玉県",
@@ -943,7 +943,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR高崎線",
       "JR常磐線快速",
       "JR上野東京ライン",
-      "東北新幹線",
+      "JR東北新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
@@ -1469,9 +1469,9 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "JR川越線",
       "JR湘南新宿ライン",
       "JR上野東京ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東武アーバンパークライン",
       "埼玉新都市交通ニューシャトル"
     ],

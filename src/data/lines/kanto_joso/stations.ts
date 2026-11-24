@@ -232,7 +232,7 @@ export const KANTO_JOSO_STATIONS: Station[] = [
     "lat": 35.9512277,
     "lng": 139.9919614,
     "transfers": [
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "茨城県守谷駅",
     "facilities": {

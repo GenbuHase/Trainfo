@@ -242,8 +242,8 @@ export const CHICHIBU_STATIONS: Station[] = [
     "lng": 139.389546,
     "transfers": [
       "JR高崎線",
-      "上越新幹線",
-      "北陸新幹線"
+      "JR上越新幹線",
+      "JR北陸新幹線"
     ],
     "address": "埼玉県熊谷市桜木町1丁目202-1",
     "platforms": {

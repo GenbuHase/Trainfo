@@ -11,11 +11,11 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.7014809,
     "lng": 141.136534,
     "transfers": [
-      "東北新幹線",
-      "JR東北本線",
+      "JR東北新幹線",
+      "JR東北本線（一ノ関～盛岡）",
       "JR山田線",
       "JR花輪線",
-      "いわて銀河鉄道線"
+      "IGRいわて銀河鉄道線"
     ],
     "address": "",
     "platforms": {
@@ -23,7 +23,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -50,7 +50,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -77,7 +77,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -106,7 +106,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -137,7 +137,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -169,7 +169,7 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "limited_exp"
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {

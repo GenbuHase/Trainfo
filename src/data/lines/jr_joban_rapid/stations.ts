@@ -119,7 +119,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "lng": 139.7989556,
     "transfers": [
       "東京メトロ日比谷線",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都荒川区南千住四丁目2-1",
     "facilities": {
@@ -154,7 +154,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
       "東武スカイツリーライン",
       "東京メトロ千代田線",
       "東京メトロ日比谷線",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都足立区千住旭町42-1",
     "facilities": {

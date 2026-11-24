@@ -56,7 +56,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ]

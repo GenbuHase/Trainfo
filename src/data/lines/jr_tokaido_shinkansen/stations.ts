@@ -19,9 +19,9 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "JR横須賀線",
       "JR京葉線",
       "JR上野東京ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "",
@@ -394,8 +394,8 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 35.17208,
     "lng": 136.88033,
     "transfers": [
-      "JR中央本線",
-      "JR関西本線",
+      "JR中央本線（名古屋～塩尻）",
+      "JR関西本線（名古屋～亀山）",
       "名鉄名古屋本線",
       "近鉄名古屋線",
       "あおなみ線",
@@ -461,7 +461,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 35.31579,
     "lng": 136.290606,
     "transfers": [
-      "JR北陸本線",
+      "JR北陸本線（米原～敦賀）",
       "近江鉄道本線"
     ],
     "address": "",

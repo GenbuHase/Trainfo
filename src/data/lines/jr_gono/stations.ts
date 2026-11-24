@@ -11,7 +11,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.1914603,
     "lng": 140.0656159,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（秋田～青森）"
     ],
     "address": "秋田県東能代駅周辺",
     "platforms": {
@@ -1233,7 +1233,7 @@ export const GONO_STATIONS: Station[] = [
     "lat": 40.6469755,
     "lng": 140.5216315,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（秋田～青森）"
     ],
     "address": "青森県川部駅周辺",
     "platforms": {

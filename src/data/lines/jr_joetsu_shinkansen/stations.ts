@@ -20,7 +20,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "JR横須賀線",
       "JR京葉線",
       "JR上野東京ライン",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
@@ -30,8 +30,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -70,8 +69,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -101,7 +99,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "JR湘南新宿ライン",
       "JR上野東京ライン",
       "東武野田線",
-      "埼玉新都市交通伊奈線"
+      "埼玉新都市交通伊奈線（ニューシャトル）"
     ],
     "address": "埼玉県さいたま市大宮区錦町",
     "platforms": {
@@ -110,8 +108,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -144,8 +141,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -173,8 +169,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": false,
     "facilities": {
@@ -198,7 +193,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "JR北陸新幹線",
       "JR高崎線",
       "JR上越線",
-      "JR信越本線",
+      "JR信越本線（高崎～横川）",
       "JR八高線",
       "JR両毛線",
       "JR吾妻線",
@@ -211,8 +206,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -240,8 +234,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": false,
     "facilities": {
@@ -272,8 +265,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -303,8 +295,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": false,
     "facilities": {
@@ -325,7 +316,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.447836,
     "lng": 138.8539585,
     "transfers": [
-      "JR信越本線",
+      "JR信越本線（直江津～新潟）",
       "JR上越線"
     ],
     "address": "新潟県長岡市城内町二丁目794-4",
@@ -335,8 +326,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {
@@ -366,8 +356,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": false,
     "facilities": {
@@ -388,7 +377,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.9119375,
     "lng": 139.0614492,
     "transfers": [
-      "JR信越本線",
+      "JR信越本線（直江津～新潟）",
       "JR白新線",
       "JR越後線"
     ],
@@ -399,8 +388,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "toki",
-      "tanigawa",
-      "limited_exp"
+      "tanigawa"
     ],
     "isMajor": true,
     "facilities": {

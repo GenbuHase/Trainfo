@@ -564,7 +564,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "nameKana": "みなみながれやま",
     "nameEn": "Minami-Nagareyama",
     "transfers": [
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "千葉県流山市南流山二丁目",
     "platforms": {
@@ -656,7 +656,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "nameKana": "ひがしまつど",
     "nameEn": "Higashi-Matsudo",
     "transfers": [
-      "北総線",
+      "北総鉄道北総線",
       "京成成田空港線（成田スカイアクセス）"
     ],
     "address": "千葉県松戸市東松戸一丁目",
@@ -842,9 +842,9 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR埼京線",
       "JR川越線",
       "JR湘南新宿ライン",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東武野田線",
       "埼玉新都市交通ニューシャトル"
     ],

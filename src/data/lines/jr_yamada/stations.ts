@@ -13,10 +13,9 @@ export const YAMADA_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線",
       "JR秋田新幹線",
-      "JR東北本線",
+      "JR東北本線（一ノ関～盛岡）",
       "IGRいわて銀河鉄道線",
-      "JR田沢湖線",
-      "JR山田線"
+      "JR田沢湖線"
     ],
     "address": "岩手県盛岡駅周辺",
     "platforms": {

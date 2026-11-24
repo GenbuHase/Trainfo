@@ -19,10 +19,9 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
       "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR武蔵野線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東武アーバンパークライン",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "埼玉新都市交通ニューシャトル"
     ],
     "address": "埼玉県さいたま市大宮区錦町",
@@ -54,9 +53,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Kita-Omiya",
     "lat": 35.9170855,
     "lng": 139.6244863,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市大宮区土手町三丁目285",
     "facilities": {
       "elevator": true,
@@ -84,9 +81,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Omiya-koen",
     "lat": 35.9238418,
     "lng": 139.6329643,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市大宮区寿能町一丁目41",
     "facilities": {
       "elevator": true,
@@ -114,9 +109,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Owada",
     "lat": 35.9292803,
     "lng": 139.6505779,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市見沼区大和田町二丁目1774",
     "facilities": {
       "elevator": true,
@@ -144,9 +137,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Nanasato",
     "lat": 35.936403,
     "lng": 139.6658015,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市見沼区大字風渡野601-3",
     "facilities": {
       "elevator": true,
@@ -174,9 +165,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Iwatsuki",
     "lat": 35.9502507,
     "lng": 139.6929646,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市岩槻区本町一丁目1-1",
     "facilities": {
       "elevator": true,
@@ -206,9 +195,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Higashi-Iwatsuki",
     "lat": 35.9633357,
     "lng": 139.7122248,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市岩槻区東岩槻一丁目1-1",
     "facilities": {
       "elevator": true,
@@ -236,9 +223,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Toyoharu",
     "lat": 35.9680508,
     "lng": 139.7262415,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市上蛭田261",
     "facilities": {
       "elevator": true,
@@ -266,9 +251,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Yagisaki",
     "lat": 35.9781411,
     "lng": 139.7416497,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市粕壁6943",
     "facilities": {
       "elevator": true,
@@ -297,8 +280,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "lat": 35.9800499,
     "lng": 139.7520632,
     "transfers": [
-      "東武スカイツリーライン",
-      "東武アーバンパークライン"
+      "東武スカイツリーライン"
     ],
     "address": "埼玉県春日部市粕壁一丁目10-1",
     "facilities": {
@@ -329,9 +311,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Fujino-Ushijima",
     "lat": 35.9802876,
     "lng": 139.7780338,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市牛島1585",
     "facilities": {
       "elevator": true,
@@ -361,9 +341,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Minami-Sakurai",
     "lat": 35.9804661,
     "lng": 139.8079078,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市米島1185",
     "facilities": {
       "elevator": true,
@@ -393,9 +371,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Kawama",
     "lat": 35.9792349,
     "lng": 139.8339851,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県野田市尾崎847",
     "facilities": {
       "elevator": true,
@@ -425,9 +401,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Nanakodai",
     "lat": 35.9710264,
     "lng": 139.8527545,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県野田市七光台402",
     "facilities": {
       "elevator": true,
@@ -457,9 +431,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Shimizu-koen",
     "lat": 35.9595468,
     "lng": 139.8598762,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県野田市清水402",
     "facilities": {
       "elevator": true,
@@ -489,9 +461,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Atago",
     "lat": 35.9500288,
     "lng": 139.8650544,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県野田市中野台246",
     "facilities": {
       "elevator": true,
@@ -521,9 +491,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Nodashi",
     "lat": 35.9435957,
     "lng": 139.8706798,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県野田市野田128",
     "facilities": {
       "elevator": true,
@@ -553,9 +521,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Umesato",
     "lat": 35.9312368,
     "lng": 139.8913696,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県野田市山崎1890",
     "facilities": {
       "elevator": true,
@@ -585,9 +551,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Unga",
     "lat": 35.9143484,
     "lng": 139.9061364,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県流山市東深井字運河404",
     "facilities": {
       "elevator": true,
@@ -617,9 +581,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Edogawadai",
     "lat": 35.8974168,
     "lng": 139.910392,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県流山市江戸川台東一丁目1",
     "facilities": {
       "elevator": true,
@@ -648,9 +610,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Hatsuishi",
     "lat": 35.8835002,
     "lng": 139.9180848,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県流山市西初石三丁目100",
     "facilities": {
       "elevator": true,
@@ -680,8 +640,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "lat": 35.8720837,
     "lng": 139.9258034,
     "transfers": [
-      "東武アーバンパークライン",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "千葉県流山市おおたかの森西一丁目1-1",
     "facilities": {
@@ -712,9 +671,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Toyoshiki",
     "lat": 35.8665091,
     "lng": 139.9393965,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県柏市豊四季159",
     "facilities": {
       "elevator": true,
@@ -744,7 +701,6 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "lat": 35.861853,
     "lng": 139.9703108,
     "transfers": [
-      "東武アーバンパークライン",
       "JR常磐線快速",
       "JR常磐線各駅停車"
     ],
@@ -777,9 +733,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Shin-Kashiwa",
     "lat": 35.8385351,
     "lng": 139.9667005,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県柏市新柏一丁目1507",
     "facilities": {
       "elevator": true,
@@ -807,9 +761,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Masuo",
     "lat": 35.8295952,
     "lng": 139.9767219,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県柏市増尾一丁目1-1",
     "facilities": {
       "elevator": true,
@@ -837,9 +789,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Sakasai",
     "lat": 35.8232472,
     "lng": 139.9839293,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県柏市逆井字原分172",
     "facilities": {
       "elevator": true,
@@ -867,9 +817,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Takayanagi",
     "lat": 35.8082156,
     "lng": 139.998959,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県柏市高柳1492",
     "facilities": {
       "elevator": true,
@@ -898,9 +846,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Mutsumi",
     "lat": 35.7938659,
     "lng": 139.9994229,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県松戸市六実四丁目4-1",
     "facilities": {
       "elevator": true,
@@ -929,7 +875,6 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "lat": 35.7803435,
     "lng": 139.9995301,
     "transfers": [
-      "東武アーバンパークライン",
       "北総鉄道北総線",
       "京成成田空港線",
       "新京成線"
@@ -962,9 +907,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Kamagaya",
     "lat": 35.7640429,
     "lng": 139.9973717,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県鎌ケ谷市道野辺中央二丁目1-1",
     "facilities": {
       "elevator": true,
@@ -992,9 +935,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Magomezawa",
     "lat": 35.7415698,
     "lng": 139.9922747,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県船橋市藤原七丁目2-1",
     "facilities": {
       "elevator": true,
@@ -1022,9 +963,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Tsukada",
     "lat": 35.721657,
     "lng": 139.9825426,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県船橋市前貝塚町565-11",
     "facilities": {
       "elevator": true,
@@ -1052,9 +991,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "nameEn": "Shin-Funabashi",
     "lat": 35.7106527,
     "lng": 139.9796819,
-    "transfers": [
-      "東武アーバンパークライン"
-    ],
+    "transfers": [],
     "address": "千葉県船橋市山手一丁目1-1",
     "facilities": {
       "elevator": true,
@@ -1085,7 +1022,6 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "transfers": [
       "JR総武快速線",
       "JR中央・総武線各駅停車",
-      "東武アーバンパークライン",
       "京成本線"
     ],
     "address": "千葉県船橋市本町七丁目",

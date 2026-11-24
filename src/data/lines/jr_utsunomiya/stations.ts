@@ -17,9 +17,9 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "JR京浜東北線",
       "JR高崎線",
       "JR常磐線快速",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
       "京成本線"
@@ -56,7 +56,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 35.7469489,
     "lng": 139.7536899,
     "transfers": [
-      "JR宇都宮線",
       "JR高崎線"
     ],
     "address": "東京都北区昭和町一丁目",
@@ -87,7 +86,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 35.7780922,
     "lng": 139.7206948,
     "transfers": [
-      "JR宇都宮線",
       "JR高崎線",
       "JR埼京線",
       "JR湘南新宿ライン",
@@ -125,7 +123,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 35.8589661,
     "lng": 139.6571243,
     "transfers": [
-      "JR宇都宮線",
       "JR高崎線",
       "JR湘南新宿ライン",
       "JR京浜東北線"
@@ -162,7 +159,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 35.8935861,
     "lng": 139.6338292,
     "transfers": [
-      "JR宇都宮線",
       "JR高崎線",
       "JR京浜東北線"
     ],
@@ -194,16 +190,15 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 35.9063522,
     "lng": 139.6242153,
     "transfers": [
-      "JR宇都宮線",
       "JR高崎線",
       "JR埼京線",
       "JR川越線",
       "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR武蔵野線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東武アーバンパークライン",
       "埼玉新都市交通ニューシャトル"
     ],
@@ -237,9 +232,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Toro",
     "lat": 35.9318035,
     "lng": 139.6320838,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市北区土呂町一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -266,9 +259,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Higashi-Omiya",
     "lat": 35.9486432,
     "lng": 139.6402152,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "埼玉県さいたま市見沼区東大宮五丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -295,9 +286,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Hasuda",
     "lat": 35.981426,
     "lng": 139.6529966,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "埼玉県蓮田市本町",
     "platforms": {
       "inbound": "上りホーム",
@@ -327,9 +316,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Shiraoka",
     "lat": 36.0175236,
     "lng": 139.6668294,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "埼玉県白岡市小久喜",
     "platforms": {
       "inbound": "上りホーム",
@@ -356,9 +343,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Shin-Shiraoka",
     "lat": 36.038668,
     "lng": 139.6720662,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "埼玉県白岡市新白岡七丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -386,7 +371,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.0656306,
     "lng": 139.67723,
     "transfers": [
-      "JR宇都宮線",
       "東武伊勢崎線"
     ],
     "address": "埼玉県久喜市久喜中央二丁目",
@@ -418,9 +402,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Higashi-Washinomiya",
     "lat": 36.0895236,
     "lng": 139.6794661,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "埼玉県久喜市桜田三丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -448,7 +430,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.136417,
     "lng": 139.6940977,
     "transfers": [
-      "JR宇都宮線",
       "東武日光線"
     ],
     "address": "埼玉県久喜市栗橋北一丁目",
@@ -477,9 +458,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Koga",
     "lat": 36.1946049,
     "lng": 139.7095755,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "茨城県古河市本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -509,9 +488,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Nogi",
     "lat": 36.2302,
     "lng": 139.7348787,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県下都賀郡野木町大字丸林",
     "platforms": {
       "inbound": "上りホーム",
@@ -538,9 +515,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Mamada",
     "lat": 36.257944,
     "lng": 139.7610803,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県小山市乙女三丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -568,10 +543,9 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.3122377,
     "lng": 139.8059151,
     "transfers": [
-      "JR宇都宮線",
       "JR両毛線",
       "JR水戸線",
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "栃木県小山市城山町三丁目",
     "platforms": {
@@ -602,9 +576,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Koganei",
     "lat": 36.374634,
     "lng": 139.8421678,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県下野市駅東一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -634,9 +606,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Jichiidai",
     "lat": 36.3953364,
     "lng": 139.8544684,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県下野市医大前三丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -666,9 +636,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Ishibashi",
     "lat": 36.4363396,
     "lng": 139.8665578,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県下野市石橋",
     "platforms": {
       "inbound": "上りホーム",
@@ -698,9 +666,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Suzumenomiya",
     "lat": 36.4939339,
     "lng": 139.876934,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県宇都宮市雀の宮一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -731,10 +697,9 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.5592607,
     "lng": 139.8983936,
     "transfers": [
-      "JR宇都宮線",
       "JR日光線",
       "JR烏山線",
-      "東北新幹線",
+      "JR東北新幹線",
       "宇都宮ライトレール"
     ],
     "address": "栃木県宇都宮市川向町",
@@ -767,7 +732,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.5984221,
     "lng": 139.944313,
     "transfers": [
-      "JR宇都宮線",
       "JR烏山線"
     ],
     "address": "栃木県宇都宮市下岡本町",
@@ -797,7 +761,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.6314616,
     "lng": 139.979455,
     "transfers": [
-      "JR宇都宮線",
       "JR烏山線"
     ],
     "address": "栃木県塩谷郡高根沢町大字宝積寺",
@@ -826,9 +789,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Ujiie",
     "lat": 36.6814984,
     "lng": 139.96208,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県さくら市氏家",
     "platforms": {
       "inbound": "上りホーム",
@@ -855,9 +816,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Kamasusaka",
     "lat": 36.7212287,
     "lng": 139.9501884,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県さくら市蒲須坂",
     "platforms": {
       "inbound": "上りホーム",
@@ -884,9 +843,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Kataoka",
     "lat": 36.7541522,
     "lng": 139.9458057,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県矢板市片岡",
     "platforms": {
       "inbound": "上りホーム",
@@ -913,9 +870,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Yaita",
     "lat": 36.806752,
     "lng": 139.9329574,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県矢板市扇町一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -942,9 +897,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Nozaki",
     "lat": 36.8437545,
     "lng": 139.957881,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県大田原市野崎一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -971,9 +924,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "nameEn": "Nishi-Nasuno",
     "lat": 36.8843495,
     "lng": 139.9866443,
-    "transfers": [
-      "JR宇都宮線"
-    ],
+    "transfers": [],
     "address": "栃木県那須塩原市永森",
     "platforms": {
       "inbound": "上りホーム",
@@ -1001,8 +952,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.9316096,
     "lng": 140.0209363,
     "transfers": [
-      "JR宇都宮線",
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "栃木県那須塩原市大原間",
     "platforms": {
@@ -1031,7 +981,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "lat": 36.9702668,
     "lng": 140.0600487,
     "transfers": [
-      "JR宇都宮線",
       "JR東北本線(郡山方面)"
     ],
     "address": "栃木県那須塩原市本町",

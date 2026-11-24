@@ -175,7 +175,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.5092157,
     "lng": 141.4313762,
     "transfers": [
-      "東北新幹線",
+      "JR東北新幹線",
       "JR八戸線"
     ],
     "address": "青森県八戸駅周辺",

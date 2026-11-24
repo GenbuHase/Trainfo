@@ -632,7 +632,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
       "京急本線",
       "相鉄本線",
       "横浜市営地下鉄ブルーライン",
-      "みなとみらい線"
+      "横浜高速鉄道みなとみらい線"
     ],
     "address": "神奈川県横浜市西区南幸一丁目1-1",
     "facilities": {

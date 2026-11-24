@@ -148,7 +148,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.1231915,
     "lng": 140.1882733,
     "transfers": [
-      "東北新幹線"
+      "JR東北新幹線"
     ],
     "address": "福島県新白河駅周辺",
     "platforms": {
@@ -368,7 +368,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.399064,
     "lng": 140.3891895,
     "transfers": [
-      "東北新幹線",
+      "JR東北新幹線",
       "山形新幹線",
       "JR磐越西線",
       "JR磐越東線",
@@ -646,8 +646,8 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "transfers": [
       "JR東北本線（福島～仙台）",
       "JR奥羽本線（福島～新庄）",
-      "東北新幹線",
-      "山形新幹線",
+      "JR東北新幹線",
+      "JR山形新幹線",
       "阿武隈急行線",
       "福島交通飯坂線"
     ],

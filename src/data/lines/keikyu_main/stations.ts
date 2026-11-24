@@ -753,7 +753,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "東急東横線",
       "相鉄本線",
       "横浜市営地下鉄ブルーライン",
-      "みなとみらい線"
+      "横浜高速鉄道みなとみらい線"
     ],
     "address": "神奈川県横浜駅",
     "facilities": {

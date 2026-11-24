@@ -738,7 +738,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
     "lng": 139.4953667,
     "transfers": [
       "ＪＲ横浜線",
-      "こどもの国線"
+      "東急こどもの国線"
     ],
     "address": "神奈川県長津田駅",
     "facilities": {

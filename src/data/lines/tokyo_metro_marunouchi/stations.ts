@@ -507,10 +507,10 @@ export const MARUNOUCHI_STATIONS: Station[] = [
       "JR横須賀線",
       "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線"
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線"
     ],
     "address": "東京都千代田区丸の内一丁目9-1",
     "platforms": {

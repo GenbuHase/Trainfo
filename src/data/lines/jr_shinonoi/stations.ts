@@ -152,7 +152,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "nameKana": "まつもと",
     "nameEn": "Matsumoto",
     "transfers": [
-      "JR大糸線",
+      "JR大糸線（松本～南小谷）",
       "アルピコ交通上高地線"
     ],
     "address": "長野県松本市深志一丁目",

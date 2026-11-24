@@ -108,7 +108,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.82626,
     "lng": 134.69225,
     "transfers": [
-      "JR山陽本線",
+      "JR山陽本線（姫路～上郡）",
       "JR播但線",
       "JR姫新線",
       "山陽電鉄本線"
@@ -144,7 +144,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "lat": 34.81841,
     "lng": 134.47211,
     "transfers": [
-      "JR山陽本線",
+      "JR山陽本線（姫路～上郡）",
       "JR赤穂線"
     ],
     "address": "",

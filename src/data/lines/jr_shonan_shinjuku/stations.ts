@@ -16,12 +16,11 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "JR高崎線",
       "JR埼京線",
       "JR川越線",
-      "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR武蔵野線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
       "東武アーバンパークライン",
       "埼玉新都市交通ニューシャトル"
     ],
@@ -58,7 +57,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",
-      "JR湘南新宿ライン",
       "JR京浜東北線"
     ],
     "address": "埼玉県さいたま市浦和区高砂一丁目",
@@ -95,7 +93,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "JR宇都宮線",
       "JR高崎線",
       "JR埼京線",
-      "JR湘南新宿ライン",
       "JR京浜東北線"
     ],
     "address": "東京都北区赤羽一丁目",
@@ -131,7 +128,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR埼京線",
-      "JR湘南新宿ライン",
       "東武東上線",
       "西武池袋線",
       "東京メトロ丸ノ内線",
@@ -172,7 +168,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "JR山手線",
       "JR中央線",
       "JR埼京線",
-      "JR湘南新宿ライン",
       "相鉄・JR直通線",
       "小田急小田原線",
       "京王線",
@@ -213,7 +208,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR埼京線",
-      "JR湘南新宿ライン",
       "相鉄・JR直通線",
       "東急東横線",
       "東急田園都市線",
@@ -255,7 +249,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR埼京線",
-      "JR湘南新宿ライン",
       "相鉄・JR直通線",
       "東京メトロ日比谷線"
     ],
@@ -290,7 +283,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR山手線",
       "JR埼京線",
-      "JR湘南新宿ライン",
       "相鉄・JR直通線",
       "東京臨海高速鉄道りんかい線"
     ],
@@ -325,7 +317,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "lng": 139.6634772,
     "transfers": [
       "JR横須賀線",
-      "JR湘南新宿ライン",
       "JR南武線",
       "相鉄・JR直通線",
       "東急東横線",
@@ -364,7 +355,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線",
       "JR横須賀線",
-      "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR根岸線",
       "JR横浜線",
@@ -407,7 +397,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線",
       "JR横須賀線",
-      "JR湘南新宿ライン",
       "横浜市営地下鉄ブルーライン"
     ],
     "address": "神奈川県横浜市戸塚区戸塚町",
@@ -442,9 +431,8 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線",
       "JR横須賀線",
-      "JR湘南新宿ライン",
       "JR根岸線",
-      "湘南モノレール"
+      "湘南モノレール江の島線"
     ],
     "address": "神奈川県鎌倉市大船一丁目",
     "platforms": {

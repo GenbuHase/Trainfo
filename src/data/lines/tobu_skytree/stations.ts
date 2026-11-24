@@ -12,7 +12,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.7121581,
     "lng": 139.7983811,
     "transfers": [
-      "東武スカイツリーライン",
       "東京メトロ銀座線",
       "都営浅草線"
     ],
@@ -46,9 +45,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "TOKYO SKYTREE",
     "lat": 35.7105143,
     "lng": 139.8093769,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都墨田区押上一丁目1-2",
     "facilities": {
       "elevator": true,
@@ -80,7 +77,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.7106266,
     "lng": 139.8131034,
     "transfers": [
-      "東武スカイツリーライン",
       "東京メトロ半蔵門線",
       "都営浅草線",
       "京成押上線"
@@ -115,7 +111,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.7183011,
     "lng": 139.8168537,
     "transfers": [
-      "東武スカイツリーライン",
       "東武亀戸線"
     ],
     "address": "東京都墨田区東向島二丁目26-1",
@@ -150,9 +145,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Higashi-Mukojima",
     "lat": 35.7242844,
     "lng": 139.8192895,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都墨田区東向島四丁目29-17",
     "facilities": {
       "elevator": true,
@@ -182,9 +175,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Kanegafuchi",
     "lat": 35.7335814,
     "lng": 139.8202682,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都墨田区墨田五丁目50-2",
     "facilities": {
       "elevator": true,
@@ -214,9 +205,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Horikiri",
     "lat": 35.7429878,
     "lng": 139.8178049,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都足立区千住曙町34-1",
     "facilities": {
       "elevator": true,
@@ -247,7 +236,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.7446431,
     "lng": 139.812121,
     "transfers": [
-      "東武スカイツリーライン",
       "京成本線（京成関屋）"
     ],
     "address": "東京都足立区千住曙町1-2",
@@ -280,11 +268,10 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.7507089,
     "lng": 139.8056059,
     "transfers": [
-      "東武スカイツリーライン",
       "東京メトロ日比谷線",
       "東京メトロ千代田線",
       "JR常磐線快速",
-      "つくばエクスプレス"
+      "首都圏新都市鉄道つくばエクスプレス"
     ],
     "address": "東京都足立区千住旭町42-1",
     "facilities": {
@@ -318,9 +305,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Kosuge",
     "lat": 35.7591008,
     "lng": 139.8129082,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都足立区足立二丁目47-14",
     "facilities": {
       "elevator": true,
@@ -348,9 +333,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Gotanno",
     "lat": 35.7658371,
     "lng": 139.8095981,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都足立区足立四丁目38-11",
     "facilities": {
       "elevator": true,
@@ -378,9 +361,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Umejima",
     "lat": 35.7723245,
     "lng": 139.7980187,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都足立区梅島三丁目32-15",
     "facilities": {
       "elevator": true,
@@ -409,7 +390,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.7772965,
     "lng": 139.7900257,
     "transfers": [
-      "東武スカイツリーライン",
       "東武大師線"
     ],
     "address": "東京都足立区西新井栄町二丁目1-1",
@@ -443,9 +423,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Takenotsuka",
     "lat": 35.7944796,
     "lng": 139.7907791,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "東京都足立区竹の塚六丁目6-1",
     "facilities": {
       "elevator": true,
@@ -473,9 +451,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Yatsuka",
     "lat": 35.8150143,
     "lng": 139.801453,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県草加市谷塚一丁目1-21",
     "facilities": {
       "elevator": true,
@@ -503,9 +479,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Soka",
     "lat": 35.8283815,
     "lng": 139.8034432,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県草加市高砂二丁目5-25",
     "facilities": {
       "elevator": true,
@@ -538,9 +512,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Dokkyodaigakumae",
     "lat": 35.8433939,
     "lng": 139.8005709,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県草加市松原一丁目1-1",
     "facilities": {
       "elevator": true,
@@ -568,9 +540,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Shinden",
     "lat": 35.8543217,
     "lng": 139.7952646,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県草加市金明町273-2",
     "facilities": {
       "elevator": true,
@@ -598,9 +568,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Gamo",
     "lat": 35.8671164,
     "lng": 139.791564,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県越谷市蒲生寿町17-1",
     "facilities": {
       "elevator": true,
@@ -629,7 +597,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.8755004,
     "lng": 139.7898179,
     "transfers": [
-      "東武スカイツリーライン",
       "JR武蔵野線（南越谷）"
     ],
     "address": "埼玉県越谷市南越谷一丁目11-4",
@@ -664,9 +631,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Koshigaya",
     "lat": 35.8872129,
     "lng": 139.7864168,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県越谷市弥生町4-11",
     "facilities": {
       "elevator": true,
@@ -698,9 +663,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Kita-Koshigaya",
     "lat": 35.9015228,
     "lng": 139.7799253,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県越谷市大沢三丁目4-1",
     "facilities": {
       "elevator": true,
@@ -730,9 +693,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Obukuro",
     "lat": 35.9241648,
     "lng": 139.7779276,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県越谷市大字袋山1389",
     "facilities": {
       "elevator": true,
@@ -762,9 +723,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Sengendai",
     "lat": 35.9357906,
     "lng": 139.7744891,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県越谷市千間台東一丁目61",
     "facilities": {
       "elevator": true,
@@ -798,9 +757,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Takesato",
     "lat": 35.9486172,
     "lng": 139.7706979,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市大場450",
     "facilities": {
       "elevator": true,
@@ -830,9 +787,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Ichinowari",
     "lat": 35.9642077,
     "lng": 139.7660835,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市一ノ割一丁目1-1",
     "facilities": {
       "elevator": true,
@@ -863,7 +818,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 35.9803787,
     "lng": 139.7522602,
     "transfers": [
-      "東武スカイツリーライン",
       "東武アーバンパークライン"
     ],
     "address": "埼玉県春日部市粕壁一丁目10-1",
@@ -899,9 +853,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Kita-Kasukabe",
     "lat": 35.9904503,
     "lng": 139.7439761,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県春日部市梅田本町一丁目22-7",
     "facilities": {
       "elevator": true,
@@ -931,9 +883,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "nameEn": "Himemiya",
     "lat": 36.0040947,
     "lng": 139.7388353,
-    "transfers": [
-      "東武スカイツリーライン"
-    ],
+    "transfers": [],
     "address": "埼玉県南埼玉郡宮代町字川端379",
     "facilities": {
       "elevator": true,
@@ -964,7 +914,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "lat": 36.0246822,
     "lng": 139.7267148,
     "transfers": [
-      "東武スカイツリーライン",
       "東武伊勢崎線",
       "東武日光線"
     ],

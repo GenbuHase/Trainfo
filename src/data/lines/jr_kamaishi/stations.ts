@@ -11,7 +11,7 @@ export const KAMAISHI_STATIONS: Station[] = [
     "lat": 39.3930768,
     "lng": 141.1103151,
     "transfers": [
-      "JR東北本線"
+      "JR東北本線（一ノ関～盛岡）"
     ],
     "address": "岩手県花巻駅周辺",
     "platforms": {

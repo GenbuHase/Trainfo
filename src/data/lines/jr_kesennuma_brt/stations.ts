@@ -42,8 +42,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lat": 38.6120994,
     "lng": 141.3063889,
     "transfers": [
-      "JR気仙沼線",
-      "JR気仙沼線BRT"
+      "JR気仙沼線"
     ],
     "address": "宮城県柳津駅周辺",
     "platforms": {
@@ -690,8 +689,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "lng": 141.5591952,
     "transfers": [
       "JR大船渡線",
-      "JR大船渡線BRT",
-      "JR気仙沼線BRT"
+      "JR大船渡線BRT"
     ],
     "address": "宮城県気仙沼駅周辺",
     "platforms": {

@@ -804,7 +804,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lng": 139.412235,
     "transfers": [
       "京王動物園線",
-      "多摩モノレール"
+      "多摩都市モノレール線"
     ],
     "address": "東京都高幡不動駅",
     "facilities": {

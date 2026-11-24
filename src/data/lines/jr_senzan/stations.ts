@@ -12,8 +12,9 @@ export const SENZAN_STATIONS: Station[] = [
     "lng": 140.8823894,
     "transfers": [
       "JR東北新幹線",
-      "JR東北本線",
-      "JR常磐線",
+      "JR東北本線（福島～仙台）",
+      "JR東北本線（仙台～一ノ関）",
+      "JR常磐線（いわき～仙台）",
       "JR仙石線",
       "JR仙石東北ライン",
       "仙台空港アクセス線",

@@ -13,9 +13,8 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線",
       "JR秋田新幹線",
-      "JR東北本線",
+      "JR東北本線（一ノ関～盛岡）",
       "IGRいわて銀河鉄道線",
-      "JR田沢湖線",
       "JR山田線"
     ],
     "address": "岩手県盛岡駅周辺",
@@ -502,7 +501,8 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lng": 140.479817,
     "transfers": [
       "JR秋田新幹線",
-      "JR奥羽本線"
+      "JR奥羽本線（大曲～秋田）",
+      "JR奥羽本線（新庄～大曲）"
     ],
     "address": "秋田県大曲駅周辺",
     "platforms": {

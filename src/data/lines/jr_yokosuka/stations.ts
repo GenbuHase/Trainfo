@@ -16,13 +16,12 @@ export const YOKOSUKA_STATIONS: Station[] = [
       "JR京浜東北線",
       "JR中央線",
       "JR東海道線",
-      "JR横須賀線",
       "JR総武快速線",
       "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
+      "JR東北新幹線",
+      "JR上越新幹線",
+      "JR北陸新幹線",
+      "JR東海道新幹線",
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
@@ -58,7 +57,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
       "JR山手線",
       "JR京浜東北線",
       "JR東海道線",
-      "JR横須賀線",
       "東京メトロ銀座線",
       "都営浅草線",
       "ゆりかもめ"
@@ -95,8 +93,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
       "JR山手線",
       "JR京浜東北線",
       "JR東海道線",
-      "JR横須賀線",
-      "東海道新幹線",
+      "JR東海道新幹線",
       "京急本線"
     ],
     "address": "東京都港区高輪三丁目",
@@ -129,7 +126,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.6018553,
     "lng": 139.7216911,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "相鉄・JR直通線"
     ],
@@ -162,7 +158,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.5745045,
     "lng": 139.6634772,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "JR南武線",
       "相鉄・JR直通線",
@@ -199,7 +194,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.5516018,
     "lng": 139.6718421,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県川崎市幸区鹿島田一丁目",
@@ -232,7 +226,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lng": 139.6222892,
     "transfers": [
       "JR東海道線",
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "JR京浜東北線",
       "JR根岸線",
@@ -273,7 +266,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.4466264,
     "lng": 139.5997794,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県横浜市保土ケ谷区岩井町",
@@ -305,7 +297,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.4303663,
     "lng": 139.5568268,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県横浜市戸塚区品濃町",
@@ -338,7 +329,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lng": 139.5342993,
     "transfers": [
       "JR東海道線",
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "横浜市営地下鉄ブルーライン"
     ],
@@ -372,10 +362,9 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lng": 139.5313165,
     "transfers": [
       "JR東海道線",
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "JR根岸線",
-      "湘南モノレール"
+      "湘南モノレール江の島線"
     ],
     "address": "神奈川県鎌倉市大船一丁目",
     "platforms": {
@@ -407,7 +396,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.337416,
     "lng": 139.5451771,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン"
     ],
     "address": "神奈川県鎌倉市山ノ内",
@@ -439,7 +427,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.3191834,
     "lng": 139.5504957,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "江ノ島電鉄線"
     ],
@@ -473,7 +460,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.2977187,
     "lng": 139.5790738,
     "transfers": [
-      "JR横須賀線",
       "JR湘南新宿ライン",
       "京急逗子線"
     ],
@@ -506,9 +492,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "nameEn": "Higashi-Zushi",
     "lat": 35.298836,
     "lng": 139.6016507,
-    "transfers": [
-      "JR横須賀線"
-    ],
+    "transfers": [],
     "address": "神奈川県逗子市沼間一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -537,9 +521,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "nameEn": "Taura",
     "lat": 35.2928548,
     "lng": 139.6369531,
-    "transfers": [
-      "JR横須賀線"
-    ],
+    "transfers": [],
     "address": "神奈川県横須賀市田浦町一丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -569,7 +551,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.2841074,
     "lng": 139.655214,
     "transfers": [
-      "JR横須賀線",
       "京急本線"
     ],
     "address": "神奈川県横須賀市東逸見町一丁目",
@@ -600,9 +581,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "nameEn": "Kinugasa",
     "lat": 35.2571568,
     "lng": 139.6611857,
-    "transfers": [
-      "JR横須賀線"
-    ],
+    "transfers": [],
     "address": "神奈川県横須賀市衣笠栄町二丁目",
     "platforms": {
       "inbound": "上りホーム",
@@ -632,7 +611,6 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "lat": 35.2326762,
     "lng": 139.7012101,
     "transfers": [
-      "JR横須賀線",
       "京急久里浜線"
     ],
     "address": "神奈川県横須賀市久里浜一丁目",

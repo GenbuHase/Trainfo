@@ -11,9 +11,9 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.3981971,
     "lng": 140.3897215,
     "transfers": [
-      "東北新幹線",
+      "JR東北新幹線",
       "山形新幹線",
-      "JR東北本線",
+      "JR東北本線（黒磯～福島）",
       "JR磐越東線",
       "JR水郡線"
     ],
@@ -1149,7 +1149,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.8000228,
     "lng": 139.1213036,
     "transfers": [
-      "JR信越本線",
+      "JR信越本線（直江津～新潟）",
       "JR羽越本線"
     ],
     "address": "福島県/新潟県新津駅",

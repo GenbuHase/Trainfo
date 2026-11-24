@@ -14,7 +14,6 @@ export const KITA_SHINANO_STATIONS: Station[] = [
       "JR北陸新幹線",
       "JR篠ノ井線",
       "JR信越本線",
-      "しなの鉄道北しなの線",
       "長野電鉄長野線"
     ],
     "address": "長野県長野市南千歳1-25",
@@ -213,8 +212,7 @@ export const KITA_SHINANO_STATIONS: Station[] = [
     "lat": 36.8725757,
     "lng": 138.212362,
     "transfers": [
-      "妙高はねうまライン",
-      "しなの鉄道北しなの線"
+      "えちごトキめき鉄道妙高はねうまライン"
     ],
     "address": "新潟県妙高市大字田口312",
     "platforms": {

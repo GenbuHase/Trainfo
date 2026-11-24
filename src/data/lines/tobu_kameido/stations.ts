@@ -12,8 +12,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "lat": 35.7183011,
     "lng": 139.8168537,
     "transfers": [
-      "東武スカイツリーライン",
-      "東武亀戸線"
+      "東武スカイツリーライン"
     ],
     "address": "東京都墨田区東向島二丁目26-1",
     "facilities": {
@@ -42,9 +41,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "nameEn": "Omurai",
     "lat": 35.71035,
     "lng": 139.827639,
-    "transfers": [
-      "東武亀戸線"
-    ],
+    "transfers": [],
     "address": "東京都墨田区文花二丁目11-13",
     "facilities": {
       "elevator": true,
@@ -72,9 +69,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "nameEn": "Higashi-Azuma",
     "lat": 35.707072,
     "lng": 139.8318266,
-    "transfers": [
-      "東武亀戸線"
-    ],
+    "transfers": [],
     "address": "東京都墨田区立花二丁目24-7",
     "facilities": {
       "elevator": true,
@@ -102,9 +97,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "nameEn": "Kameidosuijin",
     "lat": 35.6999506,
     "lng": 139.8335131,
-    "transfers": [
-      "東武亀戸線"
-    ],
+    "transfers": [],
     "address": "東京都江東区亀戸八丁目5-1",
     "facilities": {
       "elevator": true,
@@ -133,7 +126,6 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     "lat": 35.697646,
     "lng": 139.8270326,
     "transfers": [
-      "東武亀戸線",
       "JR中央・総武線各駅停車"
     ],
     "address": "東京都江東区亀戸五丁目1-1",
