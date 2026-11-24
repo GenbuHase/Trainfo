@@ -31,14 +31,4 @@ export const SHINANO_SHINANO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0284c7",
     "borderColor": "#0369a1"
   },
-  "limited_exp": {
-    "key": "limited_exp",
-    "name": "観光列車",
-    "nameEn": "Tourist Train",
-    "shortName": "ろくもん",
-    "color": "#7f1d1d",
-    "textColor": "#ffffff",
-    "bgColor": "#7f1d1d",
-    "borderColor": "#d97706"
-  }
 };

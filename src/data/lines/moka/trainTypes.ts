@@ -11,14 +11,4 @@ export const MOKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#43a047",
     "borderColor": "#43a047"
   },
-  "sl": {
-    "key": "sl",
-    "name": "SLもおか",
-    "nameEn": "SL Moka",
-    "shortName": "SL",
-    "color": "#1e1c1c",
-    "textColor": "#ffffff",
-    "bgColor": "#1e1c1c",
-    "borderColor": "#d4af37"
-  }
 };

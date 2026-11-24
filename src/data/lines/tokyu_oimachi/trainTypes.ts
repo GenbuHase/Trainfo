@@ -11,16 +11,6 @@ export const TOKYU_OIMACHI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#f18c43",
     "borderColor": "#f18c43"
   },
-  "semi_exp": {
-    "key": "semi_exp",
-    "name": "準急",
-    "nameEn": "Semi-Express",
-    "shortName": "準急",
-    "color": "#009944",
-    "textColor": "#ffffff",
-    "bgColor": "#009944",
-    "borderColor": "#007a36"
-  },
   "express": {
     "key": "express",
     "name": "急行",

@@ -22,15 +22,5 @@ export const SOBU_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0074be',
     borderColor: '#0074be',
   },
-  commuter_rapid: {
-    key: 'commuter_rapid',
-    name: '通勤快速',
-    nameEn: 'Commuter Rapid',
-    shortName: '通快',
-    color: '#d32f2f',
-    textColor: '#ffffff',
-    bgColor: '#d32f2f',
-    borderColor: '#d32f2f',
-  },
   limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

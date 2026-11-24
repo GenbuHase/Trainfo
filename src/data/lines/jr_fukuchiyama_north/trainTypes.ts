@@ -11,16 +11,6 @@ export const JR_FUKUCHIYAMA_NORTH_TRAIN_TYPES: Record<string, TrainTypeConfig> =
     "bgColor": "#fcc800",
     "borderColor": "#fcc800"
   },
-  "tambaji_rapid": {
-    "key": "tambaji_rapid",
-    "name": "丹波路快速",
-    "nameEn": "Tambaji Rapid",
-    "shortName": "丹快",
-    "color": "#fcc800",
-    "textColor": "#000000",
-    "bgColor": "#fcc800",
-    "borderColor": "#c09800"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",

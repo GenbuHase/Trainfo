@@ -11,14 +11,4 @@ export const TOYO_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#53b332",
     "borderColor": "#53b332"
   },
-  "rapid": {
-    "key": "rapid",
-    "name": "快速",
-    "nameEn": "Rapid",
-    "shortName": "快速",
-    "color": "#0073bc",
-    "textColor": "#ffffff",
-    "bgColor": "#0073bc",
-    "borderColor": "#00558f"
-  }
 };

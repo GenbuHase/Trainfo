@@ -12,7 +12,6 @@ export const JOBAN_IWAKI_SENDAI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0071c5',
     borderColor: '#005596',
   },
-  limited_exp: LIMITED_EXP_PRESETS.JOBAN,
   // 既存コード・ダイヤデータ互換用
   limited_express: LIMITED_EXP_PRESETS.JOBAN,
 };

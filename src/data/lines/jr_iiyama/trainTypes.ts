@@ -11,16 +11,6 @@ export const JR_IIYAMA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#7cbb42",
     "borderColor": "#5e962b"
   },
-  "local": {
-    "key": "local",
-    "name": "普通",
-    "nameEn": "Local",
-    "shortName": "普通",
-    "color": "#7cbb42",
-    "textColor": "#ffffff",
-    "bgColor": "#7cbb42",
-    "borderColor": "#5e962b"
-  },
   "rapid": {
     "key": "rapid",
     "name": "快速",

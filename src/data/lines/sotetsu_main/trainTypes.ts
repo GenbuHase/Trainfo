@@ -7,8 +7,6 @@ export const SOTETSU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: SOTETSU_PRESETS.LOCAL,
   // 快速: 青
   rapid: SOTETSU_PRESETS.RAPID,
-  // 急行: 赤
-  express: SOTETSU_PRESETS.EXPRESS,
   // 通勤急行: 山吹/オレンジ
   commuter_exp: SOTETSU_PRESETS.COMMUTER_EXP,
   // 通勤特急: ピンク/マゼンタ

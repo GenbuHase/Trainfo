@@ -11,16 +11,6 @@ export const JR_CHUO_TATSUNO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#0072bc",
     "borderColor": "#00558f"
   },
-  "local": {
-    "key": "local",
-    "name": "普通",
-    "nameEn": "Local",
-    "shortName": "普通",
-    "color": "#0072bc",
-    "textColor": "#ffffff",
-    "bgColor": "#0072bc",
-    "borderColor": "#00558f"
-  },
   "rapid": {
     "key": "rapid",
     "name": "快速",

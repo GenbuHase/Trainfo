@@ -11,36 +11,6 @@ export const KEISEI_NARITA_SKY_ACCESS_TRAIN_TYPES: Record<string, TrainTypeConfi
     "bgColor": "#334155",
     "borderColor": "#1e293b"
   },
-  "rapid": {
-    "key": "rapid",
-    "name": "快速",
-    "nameEn": "Rapid",
-    "shortName": "快速",
-    "color": "#e91e63",
-    "textColor": "#ffffff",
-    "bgColor": "#e91e63",
-    "borderColor": "#c2185b"
-  },
-  "commuter_limited_exp": {
-    "key": "commuter_limited_exp",
-    "name": "通勤特急",
-    "shortName": "通特",
-    "nameEn": "Commuter Ltd. Exp.",
-    "color": "#009688",
-    "textColor": "#ffffff",
-    "bgColor": "#009688",
-    "borderColor": "#00796b"
-  },
-  "express": {
-    "key": "express",
-    "name": "特急",
-    "nameEn": "Limited Express",
-    "shortName": "特急",
-    "color": "#e60012",
-    "textColor": "#ffffff",
-    "bgColor": "#e60012",
-    "borderColor": "#b8000e"
-  },
   "rapid_exp": {
     "key": "rapid_exp",
     "name": "快速特急",

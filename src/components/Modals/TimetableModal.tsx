@@ -285,15 +285,20 @@ export const TimetableModal: React.FC = () => {
           {/* 種別凡例 */}
           <div className="flex items-center gap-1.5 flex-wrap">
             <span className="text-[11px] text-slate-400 font-medium">種別凡例:</span>
-            {Object.values(trainTypesMap).map((type) => (
-              <span
-                key={type.key}
-                className="text-[10px] font-bold px-1.5 py-0.5 rounded text-white shadow-2xs"
-                style={{ backgroundColor: type.bgColor }}
-              >
-                {type.shortName}
-              </span>
-            ))}
+            {Object.values(trainTypesMap)
+              .filter((type, idx, arr) => {
+                const sig = `${type.shortName}|${type.bgColor}`;
+                return arr.findIndex((t) => `${t.shortName}|${t.bgColor}` === sig) === idx;
+              })
+              .map((type) => (
+                <span
+                  key={type.key}
+                  className="text-[10px] font-bold px-1.5 py-0.5 rounded text-white shadow-2xs"
+                  style={{ backgroundColor: type.bgColor }}
+                >
+                  {type.shortName}
+                </span>
+              ))}
           </div>
         </div>
 

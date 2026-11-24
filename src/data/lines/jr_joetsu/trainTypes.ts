@@ -13,16 +13,5 @@ export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#00b3e6',
   },
   rapid: JR_RAPID_PRESETS.STANDARD,
-  rapid_urban: JR_RAPID_PRESETS.URBAN,
-  special_rapid: {
-    key: 'special_rapid',
-    name: '特別快速',
-    nameEn: 'Special Rapid',
-    shortName: '特快',
-    color: '#0073bc',
-    textColor: '#ffffff',
-    bgColor: '#0073bc',
-    borderColor: '#0073bc',
-  },
   limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

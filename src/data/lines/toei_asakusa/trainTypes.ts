@@ -11,16 +11,6 @@ export const TOEI_ASAKUSA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "bgColor": "#e85298",
     "borderColor": "#e85298"
   },
-  "express": {
-    "key": "express",
-    "name": "急行",
-    "nameEn": "Express",
-    "shortName": "急行",
-    "color": "#0073bc",
-    "textColor": "#ffffff",
-    "bgColor": "#0073bc",
-    "borderColor": "#00558f"
-  },
   "limited_exp": {
     "key": "limited_exp",
     "name": "特急",
@@ -30,16 +20,6 @@ export const TOEI_ASAKUSA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "textColor": "#ffffff",
     "bgColor": "#e60012",
     "borderColor": "#b8000e"
-  },
-  "rapid_exp": {
-    "key": "rapid_exp",
-    "name": "快特",
-    "nameEn": "Rapid Ltd. Exp.",
-    "shortName": "快特",
-    "color": "#009944",
-    "textColor": "#ffffff",
-    "bgColor": "#009944",
-    "borderColor": "#007a36"
   },
   "access_exp": {
     "key": "access_exp",

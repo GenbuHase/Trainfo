@@ -1,5 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
-import { JR_RAPID_PRESETS, LIMITED_EXP_PRESETS } from '../../trainTypePresets';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const ITO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -12,6 +12,5 @@ export const ITO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#378640',
     borderColor: '#378640',
   },
-  rapid: JR_RAPID_PRESETS.STANDARD,
   limited_exp: LIMITED_EXP_PRESETS.STANDARD,
 };

@@ -424,9 +424,11 @@ async function runAllUnitTests() {
 
       const stMap = new Map(line.stations.map((s) => [s.id, s]));
       const stopCounts = new Map<string, number>();
+      const usedTrainTypes = new Set<string>();
       for (const s of line.stations) stopCounts.set(s.id, 0);
 
       for (const trip of line.globalTimetable) {
+        usedTrainTypes.add(trip.trainType);
         if (trip.stops.length < 2) {
           assert.ok(
             ALLOWED_SINGLE_STOP_LINES.has(lineId) && trip.stops.length === 1 && !trip.throughTripId && !trip.prevTripId,
@@ -501,6 +503,14 @@ async function runAllUnitTests() {
         if (cnt === 0 && !ALLOWED_ZERO_STOP_STATIONS.has(`${lineId}:${s.id}`)) {
           assert.fail(`${lineId}: 駅 ${s.id}(${s.name}) に発着・通過する列車が 0 本です`);
         }
+      }
+
+      // line.trainTypes に時刻表で未使用の凡例種別キーが残っていないこと
+      for (const declaredTypeKey of Object.keys(line.trainTypes)) {
+        assert.ok(
+          usedTrainTypes.has(declaredTypeKey),
+          `${lineId}: trainTypes に未使用種別 '${declaredTypeKey}' が残っています`
+        );
       }
 
       // 発車標 (getFullDayStationTimetable) の解決が代表駅で正常に動作すること
