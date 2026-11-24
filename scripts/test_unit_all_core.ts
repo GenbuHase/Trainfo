@@ -304,6 +304,15 @@ async function runAllUnitTests() {
     const kakogawaTanikawa = getLine('jr_kakogawa')!.stations.find((s) => s.name === '谷川')!;
     const altsTanikawa = getAlternateStations(kakogawaTanikawa); // 加古川線 谷川駅
     assert.ok(altsTanikawa.some((a) => a.station.lineId === 'jr_fukuchiyama_north'), '谷川駅でJR福知山線へのリンクがありません');
+
+    // 同名遠隔駅（新井: 妙高はねうまライン vs JR播但線、高田: 妙高はねうまライン vs 奈良/横浜）が誤混入しないこと
+    const etmArai = getLine('echigo_tokimeki_myoko_haneuma')!.stations.find((s) => s.id === 'ETM-04')!;
+    const altsArai = getAlternateStations(etmArai);
+    assert.equal(altsArai.length, 0, `新井駅に遠隔同名駅が誤混入しています: ${altsArai.map((a) => a.station.lineId).join(',')}`);
+
+    const etmTakada = getLine('echigo_tokimeki_myoko_haneuma')!.stations.find((s) => s.id === 'ETM-08')!;
+    const altsTakada = getAlternateStations(etmTakada);
+    assert.equal(altsTakada.length, 0, `高田駅に遠隔同名駅が誤混入しています: ${altsTakada.map((a) => a.station.lineId).join(',')}`);
   });
 
   // -----------------------------------------------------------------------
