@@ -22,7 +22,7 @@ export const tokyuMeguroLine: LineDefinition = {
     "inboundFull": "上り 目黒・南北線・三田線方面",
     "outboundFull": "下り 武蔵小杉・日吉・新横浜方面",
     "inboundShort": "上り（目黒方面）",
-    "outboundShort": "下り（日吉・新横浜方面）"
+    "outboundShort": "下り（日吉方面）"
 },
   stations: TOKYU_MEGURO_STATIONS,
   trackSegments: TOKYU_MEGURO_TRACK_SEGMENTS,

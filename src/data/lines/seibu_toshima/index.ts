@@ -21,7 +21,7 @@ export const seibuToshimaLine: LineDefinition = {
     "outbound": "豊島園方面",
     "inboundFull": "上り 練馬・池袋方面",
     "outboundFull": "下り 豊島園方面",
-    "inboundShort": "上り（練馬・池袋方面）",
+    "inboundShort": "上り（練馬方面）",
     "outboundShort": "下り（豊島園方面）"
 },
   stations: SEIBU_TOSHIMA_STATIONS,
