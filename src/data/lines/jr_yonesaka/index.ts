@@ -12,7 +12,7 @@ export const yonesakaLine: LineDefinition = {
   lineColor: '#b074d6',
   accentColor: '#7c5ba6',
   defaultCars: 2,
-  defaultBounds: [[37.876,139.4273],[38.1408,140.1484]],
+  defaultBounds: [[37.876,139.4269],[38.1404,140.1483]],
   directionNames: {
     "inbound": "今泉・米沢方面",
     "outbound": "今泉・小国・坂町方面",

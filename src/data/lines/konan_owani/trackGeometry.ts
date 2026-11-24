@@ -224,8 +224,8 @@ export const KONAN_OWANI_TRACK_SEGMENTS: TrackSegment[] = [
         140.470403
       ],
       [
-        40.5833123,
-        140.4705557
+        40.5835044,
+        140.4705693
       ]
     ]
   },
@@ -238,12 +238,12 @@ export const KONAN_OWANI_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "聖愛中高前",
     "coordinates": [
       [
-        40.5833123,
-        140.4705557
+        40.5835044,
+        140.4705693
       ],
       [
-        40.5828339,
-        140.4706879
+        40.5829304,
+        140.4707316
       ],
       [
         40.5825253,

@@ -178,8 +178,8 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "name": "金木",
     "nameKana": "かなぎ",
     "nameEn": "Kanagi",
-    "lat": 40.9029557,
-    "lng": 140.4598252,
+    "lat": 40.9031518,
+    "lng": 140.4598927,
     "transfers": [],
     "address": "青森県金木駅周辺",
     "platforms": {

@@ -10,6 +10,10 @@ export const YONESAKA_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "南米沢",
     "coordinates": [
       [
+        37.9094865,
+        140.1282841
+      ],
+      [
         37.9089281,
         140.1283555
       ],
@@ -6586,8 +6590,12 @@ export const YONESAKA_TRACK_SEGMENTS: TrackSegment[] = [
         139.4479126
       ],
       [
-        38.120836,
-        139.4472537
+        38.1211652,
+        139.4475059
+      ],
+      [
+        38.1204316,
+        139.4469102
       ]
     ]
   }

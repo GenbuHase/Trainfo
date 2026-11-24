@@ -8,8 +8,8 @@ export const YONESAKA_STATIONS: Station[] =  [
     "name": "米沢",
     "nameKana": "よねざわ",
     "nameEn": "Yonezawa",
-    "lat": 37.9089281,
-    "lng": 140.1283555,
+    "lat": 37.9094865,
+    "lng": 140.1282841,
     "transfers": [
       "JR山形新幹線",
       "JR奥羽本線（福島～新庄）"
@@ -534,8 +534,8 @@ export const YONESAKA_STATIONS: Station[] =  [
     "name": "坂町",
     "nameKana": "さかまち",
     "nameEn": "Sakamachi",
-    "lat": 38.120836,
-    "lng": 139.4472537,
+    "lat": 38.1204316,
+    "lng": 139.4469102,
     "transfers": [
       "JR羽越本線"
     ],

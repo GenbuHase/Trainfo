@@ -65,8 +65,8 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "name": "弘前学院大前",
     "nameKana": "ひろさきがくいんだいまえ",
     "nameEn": "Hirosaki-Gakuindaimae",
-    "lat": 40.5833123,
-    "lng": 140.4705557,
+    "lat": 40.5835044,
+    "lng": 140.4705693,
     "transfers": [],
     "address": "青森県弘前学院大前駅周辺",
     "platforms": {

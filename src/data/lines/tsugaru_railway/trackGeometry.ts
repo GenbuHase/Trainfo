@@ -852,8 +852,12 @@ export const TSUGARU_RAILWAY_TRACK_SEGMENTS: TrackSegment[] = [
         140.4594724
       ],
       [
-        40.9029557,
-        140.4598252
+        40.9025496,
+        140.45968255000003
+      ],
+      [
+        40.9031518,
+        140.4598927
       ]
     ]
   },
@@ -866,12 +870,8 @@ export const TSUGARU_RAILWAY_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "芦野公園",
     "coordinates": [
       [
-        40.9029557,
-        140.4598252
-      ],
-      [
-        40.9035495,
-        140.46003125
+        40.9031518,
+        140.4598927
       ],
       [
         40.9041433,

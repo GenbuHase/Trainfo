@@ -637,8 +637,8 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "name": "宮古",
     "nameKana": "みやこ",
     "nameEn": "Miyako",
-    "lat": 39.6402686,
-    "lng": 141.9460466,
+    "lat": 39.6399511,
+    "lng": 141.9475529,
     "transfers": [
       "JR山田線"
     ],
@@ -1045,8 +1045,8 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "name": "陸中野田",
     "nameKana": "りくちゅうのだ",
     "nameEn": "Rikuchū-Noda",
-    "lat": 40.116319,
-    "lng": 141.818748,
+    "lat": 40.1161656,
+    "lng": 141.8189711,
     "transfers": [],
     "address": "岩手県陸中野田駅周辺",
     "platforms": {

@@ -836,8 +836,8 @@ export const HANAWA_STATIONS: Station[] =  [
     "name": "扇田",
     "nameKana": "おうぎた",
     "nameEn": "Ōgita",
-    "lat": 40.2294519,
-    "lng": 140.5722739,
+    "lat": 40.2292987,
+    "lng": 140.5724616,
     "transfers": [],
     "address": "秋田県扇田駅周辺",
     "platforms": {

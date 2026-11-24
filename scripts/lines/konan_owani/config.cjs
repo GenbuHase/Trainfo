@@ -160,7 +160,7 @@ module.exports = {
   shouldExcludeTrip: (d) => /(12月1日|１２月１日).*運休|4月1日.*運転/.test(d.driveComment || ''),
   baseSectionSeconds: {
     "1": 70,
-    "2": 90,
+    "2": 88,
     "3": 70,
     "4": 106,
     "5": 70,

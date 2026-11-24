@@ -198,6 +198,56 @@ function closestNode(coord, compNodes, nodeMap) {
   return { nid: best, d: minD };
 }
 
+function projectToSegment(p, a, b) {
+  const latFactor = Math.cos(((a[0] + b[0]) / 2) * Math.PI / 180);
+  const bx = (b[1] - a[1]) * latFactor;
+  const by = b[0] - a[0];
+  const px = (p[1] - a[1]) * latFactor;
+  const py = p[0] - a[0];
+  const len2 = bx * bx + by * by;
+  const t = len2 > 0 ? Math.max(0, Math.min(1, (px * bx + py * by) / len2)) : 0;
+  const pt = [
+    Number((a[0] + t * (b[0] - a[0])).toFixed(7)),
+    Number((a[1] + t * (b[1] - a[1])).toFixed(7)),
+  ];
+  return { pt, t, dist: distMeters(p, pt) };
+}
+
+function projectPointToGraph(coord, adj, nodeMap, maxDist = 250) {
+  let best = null;
+  for (const [u, edges] of adj.entries()) {
+    const pu = nodeMap.get(u);
+    if (!pu) continue;
+    for (const e of edges) {
+      if (String(u) >= String(e.to)) continue;
+      const pv = nodeMap.get(e.to);
+      if (!pv) continue;
+      const res = projectToSegment(coord, pu, pv);
+      if (res.dist <= maxDist && (!best || res.dist < best.dist)) {
+        best = { ...res, u, v: e.to, wid: e.wid };
+      }
+    }
+  }
+  return best;
+}
+
+function insertVirtualNodeOnEdge(adj, nodeMap, allGraphNodes, u, v, pt, vid) {
+  const pu = nodeMap.get(u);
+  const pv = nodeMap.get(v);
+  nodeMap.set(vid, pt);
+  allGraphNodes.add(vid);
+  const d1 = distMeters(pu, pt);
+  const d2 = distMeters(pt, pv);
+  adj.set(vid, [
+    { to: u, dist: d1, wid: 'virt' },
+    { to: v, dist: d2, wid: 'virt' },
+  ]);
+  const edgesU = adj.get(u) || [];
+  const edgesV = adj.get(v) || [];
+  adj.set(u, [...edgesU.filter((e) => e.to !== v), { to: vid, dist: d1, wid: 'virt' }]);
+  adj.set(v, [...edgesV.filter((e) => e.to !== u), { to: vid, dist: d2, wid: 'virt' }]);
+}
+
 function candidatesNear(coord, compNodes, nodeMap, maxDist = 140) {
   const cands = [];
   for (const nid of compNodes) {
@@ -325,9 +375,15 @@ function buildLine(spec, osm) {
           bestCand = c;
         }
       }
-      // 軌道上の最近傍ノードにスナップし、0.0m 一致を保証
-      const snap = closestNode([bestCand.lat, bestCand.lng], allGraphNodes.size > 0 ? allGraphNodes : mainComp, nodeMap);
-      if (snap.nid != null && snap.d < 300) {
+      // 軌道上の最近傍ノード、または直線/長い辺の途中であれば線分への垂直射影点にスナップし、0.0m 一致を保証
+      const targetNodes = allGraphNodes.size > 0 ? allGraphNodes : mainComp;
+      const snap = closestNode([bestCand.lat, bestCand.lng], targetNodes, nodeMap);
+      const proj = projectPointToGraph([bestCand.lat, bestCand.lng], mainAdj, nodeMap, 250);
+      if (proj && proj.t > 0.02 && proj.t < 0.98 && (snap.nid == null || proj.dist < snap.d - 15)) {
+        const vid = `virt_${spec.lineId}_${num}`;
+        insertVirtualNodeOnEdge(mainAdj, nodeMap, allGraphNodes, proj.u, proj.v, proj.pt, vid);
+        [lat, lng] = proj.pt;
+      } else if (snap.nid != null && snap.d < 300) {
         [lat, lng] = nodeMap.get(snap.nid);
       } else {
         lat = bestCand.lat;

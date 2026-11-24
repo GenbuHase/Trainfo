@@ -200,7 +200,7 @@ module.exports = {
   defaultTrainType: 'regular',
   defaultCars: 2,
   baseSectionSeconds: {
-    "1": 243,
+    "1": 248,
     "2": 283,
     "3": 254,
     "4": 242,
@@ -218,6 +218,6 @@ module.exports = {
     "16": 437,
     "17": 539,
     "18": 312,
-    "19": 579
+    "19": 583
 },
 };

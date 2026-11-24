@@ -464,8 +464,8 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "name": "比立内",
     "nameKana": "ひたちない",
     "nameEn": "Hitachinai",
-    "lat": 39.9050942,
-    "lng": 140.4528395,
+    "lat": 39.9049578,
+    "lng": 140.4530645,
     "transfers": [],
     "address": "秋田県比立内駅周辺",
     "platforms": {
@@ -493,8 +493,8 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "name": "奥阿仁",
     "nameKana": "おくあに",
     "nameEn": "Okuani",
-    "lat": 39.9118011,
-    "lng": 140.4900584,
+    "lat": 39.9113775,
+    "lng": 140.4891048,
     "transfers": [],
     "address": "秋田県奥阿仁駅周辺",
     "platforms": {
@@ -521,8 +521,8 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "name": "阿仁マタギ",
     "nameKana": "あにまたぎ",
     "nameEn": "Ani-Matagi",
-    "lat": 39.9200444,
-    "lng": 140.5139995,
+    "lat": 39.9194084,
+    "lng": 140.516151,
     "transfers": [],
     "address": "秋田県阿仁マタギ駅周辺",
     "platforms": {
@@ -578,8 +578,8 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
     "name": "上桧木内",
     "nameKana": "かみひのきない",
     "nameEn": "Kami-Hinokinai",
-    "lat": 39.8178545,
-    "lng": 140.5827103,
+    "lat": 39.8180131,
+    "lng": 140.5825622,
     "transfers": [],
     "address": "秋田県上桧木内駅周辺",
     "platforms": {
