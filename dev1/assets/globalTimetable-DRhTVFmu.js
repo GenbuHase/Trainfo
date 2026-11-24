@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-Dzx_jEKE.json`,import.meta.url).href;export{e as default};

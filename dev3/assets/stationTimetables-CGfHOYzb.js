@@ -1,0 +1,1 @@
+var e=new URL(`stationTimetables-CoPVO-N3.json`,import.meta.url).href;export{e as default};

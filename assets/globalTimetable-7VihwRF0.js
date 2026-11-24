@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-CDW_bUeE.json`,import.meta.url).href;export{e as default};

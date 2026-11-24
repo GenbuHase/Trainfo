@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-CWmqmpQL.json`,import.meta.url).href;export{e as default};

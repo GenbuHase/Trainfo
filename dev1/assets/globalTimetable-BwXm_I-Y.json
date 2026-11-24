@@ -1,0 +1,4506 @@
+[
+  {
+    "tripId": "WD_INB_CT-03_0602_31527",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31527",
+    "trainNumber": "2401M",
+    "trainType": "rapid",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "06:13:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-78_0512_31523",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_0610_28623",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "28623",
+    "trainNumber": "148M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "customOrigin": "松本",
+    "customDestination": "辰野",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "06:21:00",
+        "departureTime": "06:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_SN-06_0552_28228",
+    "prevLineId": "jr_shinonoi"
+  },
+  {
+    "tripId": "WD_INB_CT-03_0636_31524",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31524",
+    "trainNumber": "1403M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "06:50:00",
+        "departureTime": "06:50:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-78_0536_31520",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0637_43236",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43236",
+    "trainNumber": "1408M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_0650_43226",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_0651_24760",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24760",
+    "trainNumber": "151M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0705_38170",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38170",
+    "trainNumber": "1410M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "上諏訪",
+    "customDestination": "伊那福岡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:15:00",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_0722_38166",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_OUT_CO-57_0654_38000",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-03_0716_43230",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43230",
+    "trainNumber": "1405M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "茅野",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:11:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:22:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:28:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_INB_CO-59_0731_43221",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-60_0501_43220",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_0721_24985",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24985",
+    "trainNumber": "152M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "07:21:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_CT-03_0727_24993",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24993",
+    "trainNumber": "150M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0729_43231",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43231",
+    "trainNumber": "1412M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_0746_43221",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_0747_43243",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43243",
+    "trainNumber": "2201M",
+    "trainType": "rapid",
+    "trainName": "みすず",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "長野",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_OUT_CO-59_0808_43234",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-60_0545_43233",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_0750_24761",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24761",
+    "trainNumber": "153M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:50:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "07:55:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0811_25083",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "25083",
+    "trainNumber": "155M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-06",
+    "customOrigin": "岡谷",
+    "customDestination": "松本",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:15:00",
+        "departureTime": "08:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "08:27:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_SN-01_0847_24638",
+    "throughLineId": "jr_shinonoi"
+  },
+  {
+    "tripId": "WD_INB_CT-03_0822_43226",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43226",
+    "trainNumber": "203M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:33:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_INB_CO-59_0833_43217",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-51_0518_43216",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0824_42963",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "42963",
+    "trainNumber": "1262M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "茅野",
+    "customDestination": "辰野",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "cm_WD_OUT_CO-56_0801_42912",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0844_28622",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "28622",
+    "trainNumber": "202M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "長野",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:48:00",
+        "departureTime": "08:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_0856_28618",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_INB_CO-61_0811_28227",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-03_0855_43244",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43244",
+    "trainNumber": "205M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "松本",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "09:01:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_OUT_JC-24_0615_6887",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-51_0616_43234",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_0930_31523",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31523",
+    "trainNumber": "1407M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "伊那大島",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "09:28:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "09:36:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "09:41:00",
+        "departureTime": "09:41:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-68_0739_31519",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_0945_38172",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38172",
+    "trainNumber": "544M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_0959_38168",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_OUT_CO-57_0922_38002",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-06_1000_24986",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24986",
+    "trainNumber": "154M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "10:22:00",
+        "departureTime": "10:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1042_43237",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43237",
+    "trainNumber": "1416M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1057_43227",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1054_31528",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31528",
+    "trainNumber": "1413M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "伊那松島",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:05:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-89_1028_31524",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_1100_24762",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24762",
+    "trainNumber": "157M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "11:25:00",
+        "departureTime": "11:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_CT-03_1148_43228",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43228",
+    "trainNumber": "1419M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "11:46:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "11:54:00",
+        "departureTime": "11:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "11:58:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_INB_CO-59_1159_43219",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-60_0944_43218",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1230_43238",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43238",
+    "trainNumber": "1418M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "12:34:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "12:41:00",
+        "departureTime": "12:43:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1243_43228",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_1300_24987",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24987",
+    "trainNumber": "156M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "13:12:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "13:17:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1330_31552",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31552",
+    "trainNumber": "204M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "松本",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "13:41:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1345_31548",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_INB_CO-61_1311_32075",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1344_31519",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31519",
+    "trainNumber": "1421M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "13:40:00",
+        "departureTime": "13:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "13:50:00",
+        "departureTime": "13:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "13:55:00",
+        "departureTime": "13:55:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-51_1054_31515",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_1400_24763",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24763",
+    "trainNumber": "159M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "14:00:00",
+        "departureTime": "14:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "14:05:00",
+        "departureTime": "14:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "14:10:00",
+        "departureTime": "14:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "14:25:00",
+        "departureTime": "14:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_CT-03_1447_31525",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31525",
+    "trainNumber": "1423M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "14:44:00",
+        "departureTime": "14:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "14:53:00",
+        "departureTime": "14:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "15:00:00",
+        "departureTime": "15:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-78_1350_31521",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1450_43239",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43239",
+    "trainNumber": "1420M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "14:54:00",
+        "departureTime": "14:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "15:01:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1503_43229",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1542_43227",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43227",
+    "trainNumber": "1425M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "茅野",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "15:40:00",
+        "departureTime": "15:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "15:55:00",
+        "departureTime": "15:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_INB_CO-59_1556_43218",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-51_1233_43217",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1546_43242",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43242",
+    "trainNumber": "1568M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "豊橋",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "15:56:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1558_43232",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_1600_24988",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24988",
+    "trainNumber": "158M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "16:16:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1638_38171",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38171",
+    "trainNumber": "1570M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "16:42:00",
+        "departureTime": "16:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1650_38167",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_OUT_CO-57_1628_38001",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1649_31526",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31526",
+    "trainNumber": "1429M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "16:55:00",
+        "departureTime": "16:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-78_1545_31522",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_1700_24764",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24764",
+    "trainNumber": "161M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "17:05:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "17:25:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1709_31551",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31551",
+    "trainNumber": "2208M",
+    "trainType": "rapid",
+    "trainName": "みすず",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "松本",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:04:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1725_31547",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_INB_CO-61_1653_32074",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1722_31518",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31518",
+    "trainNumber": "1519M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "豊橋",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "17:28:00",
+        "departureTime": "17:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:33:00",
+        "departureTime": "17:33:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-01_1042_31514",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_1743_24989",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24989",
+    "trainNumber": "160M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "17:43:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "17:55:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "17:59:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:05:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1752_38169",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38169",
+    "trainNumber": "1424M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "茅野",
+    "customDestination": "平岡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "17:56:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1808_38165",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_WD_OUT_CO-56_1723_37999",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1820_43229",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43229",
+    "trainNumber": "209M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_INB_CO-59_1834_43220",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-60_1554_43219",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_1822_24765",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24765",
+    "trainNumber": "163M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1843_43232",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43232",
+    "trainNumber": "1426M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "18:43:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:53:00",
+        "departureTime": "18:55:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1855_43222",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_1901_24990",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24990",
+    "trainNumber": "162M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:22:00",
+        "departureTime": "19:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_CT-03_1911_31520",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31520",
+    "trainNumber": "1431M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:08:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-51_1613_31516",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1912_43240",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43240",
+    "trainNumber": "1428M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:24:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1927_43230",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_1930_24766",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24766",
+    "trainNumber": "165M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_1933_43233",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43233",
+    "trainNumber": "1432M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:37:00",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:44:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_1954_43223",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_1951_31521",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31521",
+    "trainNumber": "211M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:57:00",
+        "departureTime": "19:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-51_1720_31517",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_2022_24991",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24991",
+    "trainNumber": "164M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "20:34:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "20:38:00",
+        "departureTime": "20:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:44:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_2036_43241",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43241",
+    "trainNumber": "210M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "20:36:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_2048_43231",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_2048_31522",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31522",
+    "trainNumber": "1433M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "20:59:00",
+        "departureTime": "20:59:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-51_1753_31518",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-03_2053_24767",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24767",
+    "trainNumber": "167M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "20:58:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "21:17:00",
+        "departureTime": "21:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_CT-03_2126_31517",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31517",
+    "trainNumber": "1531M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "豊橋",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "21:32:00",
+        "departureTime": "21:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "21:37:00",
+        "departureTime": "21:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_jr_iida-01_1438_31513",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_2140_43235",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43235",
+    "trainNumber": "1434M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "21:51:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_2152_43225",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-06_2157_24992",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24992",
+    "trainNumber": "166M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "21:57:00",
+        "departureTime": "21:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "22:09:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:19:00",
+        "departureTime": "22:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:26:00",
+        "departureTime": "22:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:31:00",
+        "departureTime": "22:31:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_CT-01_2232_43234",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43234",
+    "trainNumber": "1436M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:44:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_jr_iida-94_2244_43224",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_INB_CT-03_2243_43225",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43225",
+    "trainNumber": "1539M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "豊橋",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:49:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:53:00",
+        "departureTime": "22:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_INB_CO-59_2254_43216",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "WD_OUT_jr_iida-01_1642_43215",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "WD_OUT_CT-01_2244_24759",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24759",
+    "trainNumber": "169M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:44:00",
+        "departureTime": "22:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:48:00",
+        "departureTime": "22:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:56:00",
+        "departureTime": "22:56:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_CT-03_0602_31527",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31527",
+    "trainNumber": "2401M",
+    "trainType": "rapid",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "06:13:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-78_0512_31523",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_0610_28623",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "28623",
+    "trainNumber": "148M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "customOrigin": "松本",
+    "customDestination": "辰野",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "06:21:00",
+        "departureTime": "06:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_SN-06_0552_28228",
+    "prevLineId": "jr_shinonoi"
+  },
+  {
+    "tripId": "HD_INB_CT-03_0636_31524",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31524",
+    "trainNumber": "1403M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "06:50:00",
+        "departureTime": "06:50:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-78_0536_31520",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0637_43236",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43236",
+    "trainNumber": "1408M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_0650_43226",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_0651_24760",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24760",
+    "trainNumber": "151M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0705_38170",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38170",
+    "trainNumber": "1410M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "上諏訪",
+    "customDestination": "伊那福岡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:15:00",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_0722_38166",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_OUT_CO-57_0654_38000",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-03_0716_43230",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43230",
+    "trainNumber": "1405M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "茅野",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:11:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:22:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:28:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_INB_CO-59_0731_43221",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-60_0501_43220",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_0721_24985",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24985",
+    "trainNumber": "152M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "07:21:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_CT-03_0727_24993",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24993",
+    "trainNumber": "150M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0729_43231",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43231",
+    "trainNumber": "1412M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_0746_43221",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_0747_43243",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43243",
+    "trainNumber": "2201M",
+    "trainType": "rapid",
+    "trainName": "みすず",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "長野",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_OUT_CO-59_0808_43234",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-60_0545_43233",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_0750_24761",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24761",
+    "trainNumber": "153M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "07:50:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "07:55:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0811_25083",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "25083",
+    "trainNumber": "155M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-06",
+    "customOrigin": "岡谷",
+    "customDestination": "松本",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:15:00",
+        "departureTime": "08:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "08:27:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_SN-01_0847_24638",
+    "throughLineId": "jr_shinonoi"
+  },
+  {
+    "tripId": "HD_INB_CT-03_0822_43226",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43226",
+    "trainNumber": "203M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:33:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_INB_CO-59_0833_43217",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-51_0518_43216",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0824_42963",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "42963",
+    "trainNumber": "1262M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "茅野",
+    "customDestination": "辰野",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "cm_HD_OUT_CO-56_0801_42912",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0844_28622",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "28622",
+    "trainNumber": "202M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "長野",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "08:48:00",
+        "departureTime": "08:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_0856_28618",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_INB_CO-61_0811_28227",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-03_0855_43244",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43244",
+    "trainNumber": "205M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "松本",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "09:01:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_OUT_JC-24_0615_6887",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-51_0616_43234",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_0930_31523",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31523",
+    "trainNumber": "1407M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "伊那大島",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "09:28:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "09:36:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "09:41:00",
+        "departureTime": "09:41:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-68_0739_31519",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_0945_38172",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38172",
+    "trainNumber": "544M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_0959_38168",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_OUT_CO-57_0922_38002",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-06_1000_24986",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24986",
+    "trainNumber": "154M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "10:22:00",
+        "departureTime": "10:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1042_43237",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43237",
+    "trainNumber": "1416M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1057_43227",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1054_31528",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31528",
+    "trainNumber": "1413M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "伊那松島",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:05:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-89_1028_31524",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_1100_24762",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24762",
+    "trainNumber": "157M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "11:25:00",
+        "departureTime": "11:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_CT-03_1148_43228",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43228",
+    "trainNumber": "1419M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "11:46:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "11:54:00",
+        "departureTime": "11:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "11:58:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_INB_CO-59_1159_43219",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-60_0944_43218",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1230_43238",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43238",
+    "trainNumber": "1418M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "12:34:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "12:41:00",
+        "departureTime": "12:43:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1243_43228",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_1300_24987",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24987",
+    "trainNumber": "156M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "13:12:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "13:17:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1330_31552",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31552",
+    "trainNumber": "204M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "松本",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "13:41:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1345_31548",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_INB_CO-61_1311_32075",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1344_31519",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31519",
+    "trainNumber": "1421M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "13:40:00",
+        "departureTime": "13:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "13:50:00",
+        "departureTime": "13:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "13:55:00",
+        "departureTime": "13:55:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-51_1054_31515",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_1400_24763",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24763",
+    "trainNumber": "159M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "14:00:00",
+        "departureTime": "14:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "14:05:00",
+        "departureTime": "14:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "14:10:00",
+        "departureTime": "14:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "14:25:00",
+        "departureTime": "14:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_CT-03_1447_31525",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31525",
+    "trainNumber": "1423M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "14:44:00",
+        "departureTime": "14:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "14:53:00",
+        "departureTime": "14:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "15:00:00",
+        "departureTime": "15:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-78_1350_31521",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1450_43239",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43239",
+    "trainNumber": "1420M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "14:54:00",
+        "departureTime": "14:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "15:01:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1503_43229",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1542_43227",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43227",
+    "trainNumber": "1425M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "茅野",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "15:40:00",
+        "departureTime": "15:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "15:55:00",
+        "departureTime": "15:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_INB_CO-59_1556_43218",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-51_1233_43217",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1546_43242",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43242",
+    "trainNumber": "1568M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "豊橋",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "15:56:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1558_43232",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_1600_24988",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24988",
+    "trainNumber": "158M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "16:16:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1638_38171",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38171",
+    "trainNumber": "1570M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "上諏訪",
+    "customDestination": "豊橋",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "16:42:00",
+        "departureTime": "16:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1650_38167",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_OUT_CO-57_1628_38001",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1649_31526",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31526",
+    "trainNumber": "1429M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "駒ケ根",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "16:55:00",
+        "departureTime": "16:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-78_1545_31522",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_1700_24764",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24764",
+    "trainNumber": "161M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "17:05:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "17:25:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1709_31551",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31551",
+    "trainNumber": "2208M",
+    "trainType": "rapid",
+    "trainName": "みすず",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "松本",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:04:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1725_31547",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_INB_CO-61_1653_32074",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1722_31518",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31518",
+    "trainNumber": "1519M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "豊橋",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "17:28:00",
+        "departureTime": "17:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:33:00",
+        "departureTime": "17:33:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-01_1042_31514",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_1743_24989",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24989",
+    "trainNumber": "160M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "17:43:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "17:55:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "17:59:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:05:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1752_38169",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "38169",
+    "trainNumber": "1424M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "茅野",
+    "customDestination": "平岡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "17:56:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1808_38165",
+    "throughLineId": "jr_iida",
+    "prevTripId": "cm_HD_OUT_CO-56_1723_37999",
+    "prevLineId": "jr_chuo_main"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1820_43229",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43229",
+    "trainNumber": "209M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "飯田",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_INB_CO-59_1834_43220",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-60_1554_43219",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_1822_24765",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24765",
+    "trainNumber": "163M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1843_43232",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43232",
+    "trainNumber": "1426M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "18:43:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "18:53:00",
+        "departureTime": "18:55:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1855_43222",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_1901_24990",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24990",
+    "trainNumber": "162M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:22:00",
+        "departureTime": "19:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_CT-03_1911_31520",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31520",
+    "trainNumber": "1431M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:08:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-51_1613_31516",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1912_43240",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43240",
+    "trainNumber": "1428M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:24:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1927_43230",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_1930_24766",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24766",
+    "trainNumber": "165M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_1933_43233",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43233",
+    "trainNumber": "1432M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:37:00",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:44:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_1954_43223",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_1951_31521",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31521",
+    "trainNumber": "211M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "19:57:00",
+        "departureTime": "19:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-51_1720_31517",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_2022_24991",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24991",
+    "trainNumber": "164M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "20:34:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "20:38:00",
+        "departureTime": "20:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:44:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_2036_43241",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43241",
+    "trainNumber": "210M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "天竜峡",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "20:36:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_2048_43231",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_2048_31522",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31522",
+    "trainNumber": "1433M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "天竜峡",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "20:59:00",
+        "departureTime": "20:59:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-51_1753_31518",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-03_2053_24767",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24767",
+    "trainNumber": "167M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-06",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "20:58:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "21:17:00",
+        "departureTime": "21:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_CT-03_2126_31517",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "31517",
+    "trainNumber": "1531M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "豊橋",
+    "customDestination": "岡谷",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "21:32:00",
+        "departureTime": "21:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "21:37:00",
+        "departureTime": "21:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_jr_iida-01_1438_31513",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_2140_43235",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43235",
+    "trainNumber": "1434M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "飯田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "21:51:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_2152_43225",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-06_2157_24992",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24992",
+    "trainNumber": "166M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-06",
+    "destinationStationId": "CT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-06",
+        "arrivalTime": "21:57:00",
+        "departureTime": "21:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-05",
+        "arrivalTime": "22:09:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-04",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:19:00",
+        "departureTime": "22:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:26:00",
+        "departureTime": "22:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:31:00",
+        "departureTime": "22:31:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_CT-01_2232_43234",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43234",
+    "trainNumber": "1436M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "customOrigin": "岡谷",
+    "customDestination": "駒ケ根",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:44:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_jr_iida-94_2244_43224",
+    "throughLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_INB_CT-03_2243_43225",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "43225",
+    "trainNumber": "1539M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "CT-03",
+    "destinationStationId": "CT-01",
+    "customOrigin": "豊橋",
+    "customDestination": "上諏訪",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:49:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:53:00",
+        "departureTime": "22:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_INB_CO-59_2254_43216",
+    "throughLineId": "jr_chuo_main",
+    "prevTripId": "HD_OUT_jr_iida-01_1642_43215",
+    "prevLineId": "jr_iida"
+  },
+  {
+    "tripId": "HD_OUT_CT-01_2244_24759",
+    "lineId": "jr_chuo_tatsuno",
+    "trainId": "24759",
+    "trainNumber": "169M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "CT-01",
+    "destinationStationId": "CT-03",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CT-01",
+        "arrivalTime": "22:44:00",
+        "departureTime": "22:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-02",
+        "arrivalTime": "22:48:00",
+        "departureTime": "22:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CT-03",
+        "arrivalTime": "22:56:00",
+        "departureTime": "22:56:00",
+        "isPassing": false
+      }
+    ]
+  }
+]

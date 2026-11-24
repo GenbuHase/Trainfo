@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-BDhu4sb4.json`,import.meta.url).href;export{e as default};

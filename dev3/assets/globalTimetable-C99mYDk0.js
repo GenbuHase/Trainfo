@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-Db_UwhOV.json`,import.meta.url).href;export{e as default};

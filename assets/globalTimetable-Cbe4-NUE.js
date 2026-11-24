@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-MoxD71En.json`,import.meta.url).href;export{e as default};

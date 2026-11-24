@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-BIFi-eMM.json`,import.meta.url).href;export{e as default};

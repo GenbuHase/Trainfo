@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-DTSrfsXI.json`,import.meta.url).href;export{e as default};

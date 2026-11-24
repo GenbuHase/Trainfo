@@ -1,0 +1,1 @@
+var e=new URL(`globalTimetable-dci_pfyq.json`,import.meta.url).href;export{e as default};
