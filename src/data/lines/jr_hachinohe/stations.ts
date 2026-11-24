@@ -657,7 +657,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "nameEn": "Kuji",
     "lat": 40.1902903,
     "lng": 141.7708835,
-    "transfers": [],
+    "transfers": ["三陸鉄道リアス線"],
     "address": "岩手県久慈駅周辺",
     "platforms": {
       "inbound": "上りホーム",

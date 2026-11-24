@@ -384,7 +384,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     nameEn: 'Morioka',
     lat: 39.7014809,
     lng: 141.136534,
-    transfers: ["JR東北本線","JR田沢湖線","JR山田線","IGRいわて銀河鉄道"],
+    transfers: ["JR東北本線","JR田沢湖線","JR山田線","JR花輪線","IGRいわて銀河鉄道"],
     address: '岩手県盛岡市盛岡駅前通',
     platforms: {"inbound":"11-12番線","outbound":"13-14番線"},
     stoppingTypes: ["hayabusa","hayate","yamabiko","komachi","limited_exp"],

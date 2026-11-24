@@ -13,7 +13,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "東北新幹線",
       "JR東北本線",
-      "JR奥羽本線（福島～新庄）"
+      "JR奥羽本線（福島～新庄）",
+      "阿武隈急行線",
+      "福島交通飯坂線"
     ],
     "address": "",
     "platforms": {

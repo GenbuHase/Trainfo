@@ -267,6 +267,21 @@ export type LineId =
   | 'moka'
   | 'kashima_rinkai'
   | 'hitachinaka'
+  // 東北エリア＋米坂線追加路線 (14路線)
+  | 'jr_yonesaka'
+  | 'jr_aterazawa'
+  | 'jr_hanawa'
+  | 'sendai_subway_namboku'
+  | 'sendai_subway_tozai'
+  | 'sanriku_rias'
+  | 'konan_konan'
+  | 'konan_owani'
+  | 'tsugaru_railway'
+  | 'akita_nairiku'
+  | 'yuri_kogen'
+  | 'yamagata_flower_nagai'
+  | 'abukuma_express'
+  | 'fukushima_iizaka'
   | (string & {});
 
 

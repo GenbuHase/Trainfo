@@ -381,7 +381,7 @@ export const Header: React.FC = () => {
                         )}
                       </div>
                     </div>
-                    {station.stationNumber && <StationBadge id={station.stationNumber} size="sm" />}
+                    {station.stationNumber && <StationBadge id={station.stationNumber} lineId={station.lineId} size="sm" />}
                   </button>
                 );
               })}

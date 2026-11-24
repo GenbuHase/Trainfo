@@ -331,7 +331,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lng": 140.5711801,
     "transfers": [
       "JR秋田新幹線",
-      "秋田内陸縦貫鉄道線"
+      "秋田内陸縦貫鉄道秋田内陸線"
     ],
     "address": "秋田県角館駅周辺",
     "platforms": {

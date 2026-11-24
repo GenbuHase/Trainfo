@@ -117,7 +117,7 @@ export const TimetableModal: React.FC = () => {
         {/* モーダルヘッダー */}
         <div className="p-4 sm:p-5 border-b border-slate-200 flex items-center justify-between gap-3 bg-slate-50">
           <div className="flex items-center gap-3 min-w-0">
-            {station.stationNumber && <StationBadge id={station.stationNumber} size="lg" />}
+            {station.stationNumber && <StationBadge id={station.stationNumber} lineId={station.lineId} size="lg" />}
             <div className="min-w-0">
               <div className="flex items-center gap-2 flex-wrap">
                 <span

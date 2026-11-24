@@ -128,7 +128,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
               <span className="text-xs text-white/70 tracking-wider font-mono">{station.nameEn}</span>
             </div>
             <div className="flex items-center gap-2.5">
-              {station.stationNumber && <StationBadge id={station.stationNumber} size="lg" />}
+              {station.stationNumber && <StationBadge id={station.stationNumber} lineId={station.lineId} size="lg" />}
               <h2 className="text-2xl font-black tracking-tight">{station.name}</h2>
             </div>
             <p className="text-xs text-white/70 mt-0.5">{station.nameKana}</p>

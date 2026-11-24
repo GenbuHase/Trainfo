@@ -75,7 +75,9 @@ export const SENZAN_STATIONS: Station[] = [
     "nameEn": "Kita-Sendai",
     "lat": 38.2817626,
     "lng": 140.8696768,
-    "transfers": [],
+    "transfers": [
+      "仙台市地下鉄南北線"
+    ],
     "address": "宮城県北仙台駅周辺",
     "platforms": {
       "inbound": "上りホーム",

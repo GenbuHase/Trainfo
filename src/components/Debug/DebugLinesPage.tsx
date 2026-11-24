@@ -389,7 +389,7 @@ const LineCard: React.FC<LineCardProps> = ({
               </span>
               {sampleStation?.stationNumber && (
                 <div className="scale-90 origin-left">
-                  <StationBadge id={sampleStation.stationNumber} size="sm" />
+                  <StationBadge id={sampleStation.stationNumber} lineId={line.id} size="sm" />
                 </div>
               )}
             </div>

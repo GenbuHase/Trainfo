@@ -332,7 +332,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     "nameEn": "Sakamachi",
     "lat": 38.1208156,
     "lng": 139.4470217,
-    "transfers": [],
+    "transfers": ["JR米坂線"],
     "address": "新潟県村上市",
     "platforms": {
       "inbound": "上り 新津方面",
@@ -1368,7 +1368,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     "nameEn": "Ugo-Honjo",
     "lat": 39.3865493,
     "lng": 140.0574435,
-    "transfers": [],
+    "transfers": ["由利高原鉄道鳥海山ろく線"],
     "address": "秋田県由利本荘市",
     "platforms": {
       "inbound": "上り 新津方面",

@@ -29,9 +29,9 @@ flowchart TD
 | `src/data/lines/<lineId>/globalTimetable.json` | 全列車の運行ダイヤ・列車番号・直通先データ | 中（個別便の手動補正時） |
 | `src/data/lines/<lineId>/stationTimetables.json` | 各駅の時刻表モーダル表示用データ（`globalTimetable.json` から自動生成） | 編集不要（自動生成） |
 | `scripts/lines/<lineId>/config.cjs` | Yahoo! スクレイパー用の駅ID・方面グループID・所要時間設定 | 中（路線追加・ダイヤ更新時） |
-| `scripts/common/throughLinker/connectionsConfig.cjs` | 路線間の直通運転ペア定義ファイル（全389接続ペア） | 中（直通路線追加時） |
+| `scripts/common/throughLinker/connectionsConfig.cjs` | 路線間の直通運転ペア定義ファイル（全391接続ペア） | 中（直通路線追加時） |
 | `scripts/common/throughLinker/coupleAllExpress.cjs` | 複数編成の併結・分割運転（新幹線・中央線・踊り子・東武・小田急等）リンカー | 低（併結系統追加時） |
-| `src/data/linesRegistry.ts` | 全262路線の登録リスト・事業者順（`OPERATOR_DISPLAY_ORDER`）・5大エリア分類（`LINE_AREA_MAP`）・乗換駅検索 | 中（路線追加時） |
+| `src/data/linesRegistry.ts` | 全276路線の登録リスト・事業者順（`OPERATOR_DISPLAY_ORDER`）・5大エリア分類（`LINE_AREA_MAP`）・乗換駅検索 | 中（路線追加時） |
 | `src/data/timetableLoader.ts` | `import.meta.glob` によるダイヤJSONの動的遅延読み込みローダー | 編集不要（自動検出） |
 | `src/utils/timeUtils.ts` | 鉄道運行日基準（04:00起点）の時刻変換・現在時刻解決共通ユーティリティ | 低 |
 
@@ -301,7 +301,7 @@ node scripts/runYahooImporter.cjs --line <lineId>
 ### Step 5: フロントエンドへの登録
 
 1. `src/types/index.ts` の `LineId` ユニオン型に `| '<lineId>'` を追加します。
-2. `src/data/linesRegistry.ts` に作成した `index.ts` から路線定義をインポートし、`LINES_REGISTRY` および `LINE_AREA_MAP`（エリア別タブ分類: `'kanto' | 'koshinetsu' | 'tohoku' | 'tokai' | 'kansai'`）、新規事業者の場合は `OPERATOR_DISPLAY_ORDER` に追加します。
+2. `src/data/linesRegistry.ts` に作成した `index.ts` から路線定義をインポートし、`LINES_REGISTRY` の該当地域・系統グループの適切な位置へ挿入します。あわせて `LINE_AREA_MAP`（エリア別タブ分類: `'kanto' | 'koshinetsu' | 'tohoku' | 'tokai' | 'kansai'`）に追加し、新規事業者の場合は `OPERATOR_DISPLAY_ORDER` と `AREA_OPERATOR_ORDER[area]` の双方において、末尾への機械的追記ではなく地理的・系統的に適切な位置（会社別とエリア別の順序が一致する位置）へ挿入します（詳細は [docs/ROUTE_EXPANSION_PLAYBOOK.md](ROUTE_EXPANSION_PLAYBOOK.md) 第37条を参照）。
    > [!NOTE]
    > `src/data/timetableLoader.ts` は Vite の `import.meta.glob('./lines/*/globalTimetable.json')`（および Node.js `tsx` 用の動的 `import()` フォールバック）によって `src/data/lines/<lineId>/` 配下の JSON を自動検出するため、手動でのローダー追記は不要です。
 

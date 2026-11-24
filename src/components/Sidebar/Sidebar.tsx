@@ -98,7 +98,7 @@ export const Sidebar: React.FC = () => {
                     className="w-full flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 transition-colors text-left text-xs"
                   >
                     <div className="flex items-center gap-2">
-                      {station.stationNumber && <StationBadge id={station.stationNumber} size="sm" />}
+                      {station.stationNumber && <StationBadge id={station.stationNumber} lineId={station.lineId} size="sm" />}
                       <div className="flex flex-col">
                         <div className="flex items-center gap-1.5">
                           <span className="font-semibold text-slate-800">{station.name}</span>
