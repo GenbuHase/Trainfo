@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import type { Station, Direction } from '../../types';
 import { getFullDayStationTimetable, formatTrainNumber, getStationAvailableDirections } from '../../data/timetableData';
+import { loadLinesTimetables, isLineLoaded, subscribeTimetableLoad } from '../../data/timetableLoader';
 import { StationBadge } from '../Common/Badges';
 import { TRAIN_TYPES } from '../../data/trainTypes';
 import { getLine, getAlternateStations, getTrainTypeConfig } from '../../data/linesRegistry';
@@ -25,12 +26,28 @@ export const TimetableModal: React.FC = () => {
     selection.selectStation(st);
   };
 
+  const [timetableLoadTick, setTimetableLoadTick] = useState<number>(0);
+
+  // モーダル内で未表示路線へ切り替えた場合も対象路線の時刻表をオンデマンド読込して再描画する
+  useEffect(() => {
+    if (!isOpen || !station) return;
+    const unsubscribe = subscribeTimetableLoad(() => {
+      setTimetableLoadTick((tick) => tick + 1);
+    });
+    if (!isLineLoaded(station.lineId)) {
+      loadLinesTimetables([station.lineId]);
+    }
+    return unsubscribe;
+  }, [isOpen, station]);
+
+  const isTargetLineLoaded = station ? isLineLoaded(station.lineId) : true;
+
   const line = station ? getLine(station.lineId) : undefined;
   // 該当駅で利用可能な進行方向の判定（終着駅・起点駅・支線末端などで片方向しか運行がない場合を検知）
-  const { hasInbound, hasOutbound } = useMemo(
-    () => (station ? getStationAvailableDirections(station.id, station.lineId) : { hasInbound: true, hasOutbound: true }),
-    [station]
-  );
+  const { hasInbound, hasOutbound } = useMemo(() => {
+    void timetableLoadTick;
+    return station ? getStationAvailableDirections(station.id, station.lineId) : { hasInbound: true, hasOutbound: true };
+  }, [station, timetableLoadTick]);
 
   const [directionState, setDirection] = useState<Direction>(() => (!hasOutbound ? 'inbound' : 'outbound'));
   const [isHoliday, setIsHoliday] = useState<boolean>(defaultIsHoliday);
@@ -282,7 +299,12 @@ export const TimetableModal: React.FC = () => {
 
         {/* 時刻表グリッド本体 */}
         <div className="flex-1 overflow-y-auto p-4 sm:p-5">
-          <div className="border border-slate-200 rounded-xl overflow-hidden shadow-2xs">
+          {!isTargetLineLoaded ? (
+            <div className="py-12 text-center text-sm text-slate-400">
+              時刻表データを読み込み中...
+            </div>
+          ) : (
+            <div className="border border-slate-200 rounded-xl overflow-hidden shadow-2xs">
             <div className="divide-y divide-slate-100">
               {fullDayData.map((row) => {
                 const departures = direction === 'inbound' ? row.inbound : row.outbound;
@@ -353,7 +375,8 @@ export const TimetableModal: React.FC = () => {
                 );
               })}
             </div>
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
