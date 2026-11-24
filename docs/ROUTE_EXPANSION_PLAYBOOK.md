@@ -1,7 +1,7 @@
 # Trainfo 路線追加プレイブック（標準手順書とチェックリスト）
 
 本ドキュメントは Trainfo に新しい路線を追加する際の標準ワークフロー、データ構造、実装手順、不具合防止策をまとめたマニュアルです。
-首都圏・北関東・甲信越・東北・東海・近畿・山陽エリアにまたがる66事業者・全276路線（ユニーク4,193駅 / 駅ID 4,992駅 / 延べ5,030駅）（JR東日本92路線、JR東海15路線、JR西日本33路線、東京メトロ9路線、東京都交通局6路線、東武鉄道13路線、西武鉄道11路線、京王電鉄7路線、京成電鉄8路線、京浜急行電鉄5路線、小田急電鉄3路線、東急電鉄9路線、横浜高速鉄道1路線、相模鉄道3路線、埼玉高速鉄道1路線、東葉高速鉄道1路線、横浜市交通局2路線、首都圏新都市鉄道1路線、東京臨海高速鉄道1路線、東京モノレール1路線、ゆりかもめ1路線、多摩都市モノレール1路線、千葉都市モノレール2路線、湘南モノレール1路線、埼玉新都市交通1路線、横浜シーサイドライン1路線、宇都宮ライトレール1路線、北総鉄道1路線、芝山鉄道1路線、秩父鉄道1路線、関東鉄道2路線、流鉄1路線、銚子電気鉄道1路線、小湊鉄道1路線、いすみ鉄道1路線、山万1路線、江ノ島電鉄1路線、小田急箱根2路線、伊豆箱根鉄道2路線、上信電鉄1路線、上毛電気鉄道1路線、真岡鐵道1路線、鹿島臨海鉄道1路線、ひたちなか海浜鉄道1路線、富士山麓電気鉄道1路線、伊豆急行1路線、野岩鉄道1路線、会津鉄道1路線、北越急行1路線、えちごトキめき鉄道2路線、しなの鉄道2路線、長野電鉄1路線、アルピコ交通1路線、上田電鉄1路線、IGRいわて銀河鉄道1路線、青い森鉄道1路線、仙台空港鉄道1路線、仙台市交通局2路線、三陸鉄道1路線、弘南鉄道2路線、津軽鉄道1路線、秋田内陸縦貫鉄道1路線、由利高原鉄道1路線、山形鉄道1路線、阿武隈急行1路線、福島交通1路線）の実装と、Yahoo! 乗換案内データソース共通基盤・駅探公式列車番号突合基盤・汎用直通リンカー基盤（391接続ペア）・併結運転リンカー基盤・オンデマンド動的時刻表ローダーで得られた知見を集約しています。
+各事業者・各路線の実装と、Yahoo! 乗換案内データソース共通基盤・駅探公式列車番号突合基盤・汎用直通リンカー基盤（391接続ペア）・併結運転リンカー基盤・オンデマンド動的時刻表ローダーで得られた知見を集約しています。
 
 ---
 
@@ -275,7 +275,8 @@ Trainfo では `scripts/common/yahoo/` のデータソース共通基盤を採�
    ```
 
 2. 集約レジストリへの追加（`src/data/linesRegistry.ts`）
-   作成した路線オブジェクトを `LINES_REGISTRY` に登録し、表示路線セレクターのエリア別分類（`kanto` / `koshinetsu` / `tohoku` / `tokai` / `kansai`）として `LINE_AREA_MAP` に追加します。新規事業者の場合は `OPERATOR_DISPLAY_ORDER` および `AREA_OPERATOR_ORDER` にも追加します。
+   作成した路線オブジェクトを `LINES_REGISTRY` に登録し、表示路線セレクターのエリア別分類（`kanto` / `koshinetsu` / `tohoku` / `tokai` / `kansai`）として `LINE_AREA_MAP` に追加します。新規事業者の場合は `OPERATOR_DISPLAY_ORDER`（会社別）および `AREA_OPERATOR_ORDER[area]`（エリア別）の双方にも追加します。
+   この際、**配列やオブジェクトの末尾へ機械的に追記するのではなく、必ず「第37条」の順序規約に従い、系統順（幹線→支線・ローカル）および地理的順序（都市圏・公営・主要三セク→南から北／東から西・沿線接続順）に沿った適切なブロック位置へ挿入し、会社別とエリア別の並び順を一致させてください。**
 
 3. オンデマンド動的ローダーの確認（`src/data/timetableLoader.ts`）
    `timetableLoader.ts` は Vite の `import.meta.glob('./lines/*/globalTimetable.json')` と `import.meta.glob('./lines/*/stationTimetables.json')`（Node.js `tsx` 実行時は動的 `import()` フォールバック）を使用しているため、`src/data/lines/<lineId>/` 配下に JSON を配置して `LINES_REGISTRY` に登録するだけで自動的に路線別チャンクへ分割・遅延ロードされます。
@@ -567,7 +568,7 @@ Leaflet の `fadeAnimation: false` と `preferCanvas: true` を設定してタ�
 
 ### 34. 同名駅における自線軌道上配置と駅名完全一致原則
 
-ターミナル駅・乗換駅（大手町、新宿、永田町、飯田橋、渋谷、池袋等）では路線ごとに実際のホーム位置が数十〜350m以上離れるため、他社線の代表座標や駅前広場ノードを流用せず、必ず自路線の線路セグメント端点と一致（誤差 0.0m）させます。また OSM ノード照合時は前方一致（`startsWith`）を禁止して完全一致のみを採用し、「上野」に「上野広小路」が誤マッチしてセグメントが退化する不具合を防ぎます。
+ターミナル駅・乗換駅（大手町、新宿、永田町、飯田橋、渋谷、池袋等）では路線ごとに実際のホーム位置が数十〜350m以上離れるため、他社線の代表座標や駅前広場ノードを流用せず、必ず自路線の線路セグメント端点と一致（誤差 0.0m）させます。また OSM ノード照合時は前方一致（`startsWith`）を禁止して完全一致のみを採用し、「上野」に「上野広小路」が誤マッチしてセグメントが退化する不具合を防ぎます。加えて、トンネル・山岳・長大構内など OSM の既存頂点ノード間隔が広い区間では、最寄り頂点ノードではなく**軌道線分（エッジ）への垂直射影点**（仮想ノード分割）へ吸着させることで駅位置のズレ（約90〜200mの引きずられ）を防止します。
 
 ### 35. 直通境界駅における構内線路ギャップゼロ保証
 
@@ -576,6 +577,17 @@ Leaflet の `fadeAnimation: false` と `preferCanvas: true` を設定してタ�
 ### 36. 路線追加・ダイヤ改訂完了時のドキュメント同期
 
 新路線の追加・統廃合やダイヤ改訂の完了時には統計スクリプトで最新の事業者数・総路線数・延べ駅数・ユニーク駅数・エリア別路線数を算出し、`README.md`、`docs/LINE_COLORS_GUIDELINES.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md` を同期します。
+
+### 37. 表示路線・事業者順序の系統的・地理的統一原則
+
+UI（`DisplayFilterDock.tsx` 等）でユーザーに表示される路線順・事業者順は [src/data/linesRegistry.ts](../src/data/linesRegistry.ts) の定義順で決定されるため、路線追加時は末尾への単純追記を避け、以下の順序規約を厳守します。
+
+1. **同一事業者内の路線順序（`LINES_REGISTRY`）**:
+   `getLinesGroupedByOperator()` と `getLinesGroupedByArea()` の双方で `LINES_REGISTRY` のオブジェクト定義順がそのまま路線表示順になります。既存のJR線区ブロック（新幹線 → 幹線・都市圏幹線 → 地域線区・支線・BRT）や私鉄本線・支線グループの該当箇所へ挿入してください。
+2. **事業者順序（`OPERATOR_DISPLAY_ORDER` と `AREA_OPERATOR_ORDER` の一致）**:
+   `OPERATOR_DISPLAY_ORDER`（会社別タブ順）と `AREA_OPERATOR_ORDER[area]`（エリア別タブ順）は、同じエリア内で「JR → 公営・都市圏アクセス路線 → 主要三セク・幹線私鉄 → 南から北（または東から西・沿線接続順）の地方私鉄・ローカル三セク」となるよう配列内の適切な位置へ挿入し、**会社別とエリア別で同一地域内の事業者順序が逆転しないよう同期**させます。
+3. **ドキュメントとの順序一致**:
+   `README.md` の「収録路線一覧」および末尾の事業者一覧の記載順も、`LINES_REGISTRY`・`OPERATOR_DISPLAY_ORDER` と一致させます。
 
 ---
 
@@ -613,7 +625,8 @@ Leaflet の `fadeAnimation: false` と `preferCanvas: true` を設定してタ�
 ### Phase 5: レジストリ登録と動的ローダー統合
 
 - [ ] `src/data/lines/<lineId>/index.ts` を作成する（時刻表フィールドは空で初期化）
-- [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` と `LINE_AREA_MAP`（新規事業者なら `OPERATOR_DISPLAY_ORDER` 等も）に追加する
+- [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` の該当地域・系統グループ位置へ挿入し、`LINE_AREA_MAP` に追加する
+- [ ] 新規事業者の場合は `OPERATOR_DISPLAY_ORDER` と `AREA_OPERATOR_ORDER[area]` 双方の地理的・系統的に適切な位置へ挿入し、両者の並び順が一致していることを確認する（第37条）
 - [ ] `src/data/timetableLoader.ts` から動的ロードできることを確認する
 
 ### Phase 6: 直通運転・ハンドオーバー構築（直通路線のみ）
@@ -636,7 +649,7 @@ Leaflet の `fadeAnimation: false` と `preferCanvas: true` を設定してタ�
 
 ### Phase 9: ドキュメント更新と完了
 
-- [ ] `README.md`、`docs/LINE_COLORS_GUIDELINES.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md` の総路線数（全262路線等）・駅数・路線一覧を更新する
+- [ ] `README.md`、`docs/LINE_COLORS_GUIDELINES.md`、`docs/MAINTENANCE_GUIDE.md`、`docs/ROUTE_EXPANSION_PLAYBOOK.md` の総路線数（全276路線等）・駅数・路線一覧（記載順は `linesRegistry.ts` に揃える）を更新する
 - [ ] `git status` と `git diff` で不要な差分がないことを確認する
 
 ---

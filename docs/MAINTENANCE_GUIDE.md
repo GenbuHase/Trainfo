@@ -301,7 +301,7 @@ node scripts/runYahooImporter.cjs --line <lineId>
 ### Step 5: フロントエンドへの登録
 
 1. `src/types/index.ts` の `LineId` ユニオン型に `| '<lineId>'` を追加します。
-2. `src/data/linesRegistry.ts` に作成した `index.ts` から路線定義をインポートし、`LINES_REGISTRY` および `LINE_AREA_MAP`（エリア別タブ分類: `'kanto' | 'koshinetsu' | 'tohoku' | 'tokai' | 'kansai'`）、新規事業者の場合は `OPERATOR_DISPLAY_ORDER` に追加します。
+2. `src/data/linesRegistry.ts` に作成した `index.ts` から路線定義をインポートし、`LINES_REGISTRY` の該当地域・系統グループの適切な位置へ挿入します。あわせて `LINE_AREA_MAP`（エリア別タブ分類: `'kanto' | 'koshinetsu' | 'tohoku' | 'tokai' | 'kansai'`）に追加し、新規事業者の場合は `OPERATOR_DISPLAY_ORDER` と `AREA_OPERATOR_ORDER[area]` の双方において、末尾への機械的追記ではなく地理的・系統的に適切な位置（会社別とエリア別の順序が一致する位置）へ挿入します（詳細は [docs/ROUTE_EXPANSION_PLAYBOOK.md](ROUTE_EXPANSION_PLAYBOOK.md) 第37条を参照）。
    > [!NOTE]
    > `src/data/timetableLoader.ts` は Vite の `import.meta.glob('./lines/*/globalTimetable.json')`（および Node.js `tsx` 用の動的 `import()` フォールバック）によって `src/data/lines/<lineId>/` 配下の JSON を自動検出するため、手動でのローダー追記は不要です。
 
