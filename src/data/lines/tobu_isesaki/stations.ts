@@ -25,11 +25,8 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -57,11 +54,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -92,11 +85,8 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -124,8 +114,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -153,8 +142,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -183,7 +171,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_exp",
       "limited_exp"
     ],
     "isMajor": true,
@@ -212,8 +199,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -244,7 +230,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_exp",
       "limited_exp"
     ],
     "isMajor": true,
@@ -273,8 +258,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -302,8 +286,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -335,7 +318,6 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_exp",
       "limited_exp"
     ],
     "isMajor": true,

@@ -58,13 +58,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -92,13 +86,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -126,13 +114,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -160,13 +142,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -194,13 +170,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -228,13 +198,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -262,13 +226,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -301,8 +259,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -337,8 +294,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -366,13 +322,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -400,13 +350,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -434,13 +378,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
-      "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -473,8 +411,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -503,12 +440,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -537,12 +470,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -571,12 +500,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -639,12 +564,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -673,12 +594,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -711,8 +628,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -741,12 +657,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -775,12 +687,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -809,12 +717,8 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
-      "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -847,8 +751,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -913,12 +816,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -947,12 +847,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -982,7 +879,6 @@ export const JR_HANWA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
       "semi_rapid",
@@ -1015,12 +911,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1049,12 +942,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1084,11 +974,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1118,11 +1006,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1151,12 +1037,9 @@ export const JR_HANWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
-      "semi_rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1191,7 +1074,6 @@ export const JR_HANWA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "kanku_rapid",
       "kishuji_rapid",
       "rapid",
       "semi_rapid",

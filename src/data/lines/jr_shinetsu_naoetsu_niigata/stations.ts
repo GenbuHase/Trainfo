@@ -50,7 +50,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -79,7 +80,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -106,7 +108,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -133,7 +136,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -160,7 +164,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -188,7 +193,8 @@ export const SHINETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -269,7 +275,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -543,7 +550,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -600,8 +608,7 @@ export const SHINETSU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -797,7 +804,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -965,7 +973,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1105,7 +1114,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1132,7 +1142,8 @@ export const SHINETSU_STATIONS: Station[] = [
       "outbound": "下り 新潟方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {

@@ -23,8 +23,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -51,8 +50,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -79,8 +77,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -111,8 +108,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -139,8 +135,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -167,8 +162,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -195,8 +189,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -225,8 +218,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "regular"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -285,7 +277,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -315,7 +306,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,
@@ -343,7 +333,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -373,7 +362,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,
@@ -401,7 +389,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -429,7 +416,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -460,7 +446,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,
@@ -488,7 +473,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -516,7 +500,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -544,7 +527,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,
@@ -572,7 +554,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -600,7 +581,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,
@@ -630,7 +610,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": false,
@@ -660,7 +639,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,
@@ -697,7 +675,6 @@ export const HACHIKO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "isMajor": true,

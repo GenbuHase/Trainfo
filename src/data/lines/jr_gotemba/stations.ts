@@ -191,8 +191,7 @@ export const GOTEMBA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

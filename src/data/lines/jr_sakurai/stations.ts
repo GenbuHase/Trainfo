@@ -26,8 +26,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -55,8 +54,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -84,8 +82,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -113,8 +110,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -142,8 +138,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -171,8 +166,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -200,8 +194,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -229,8 +222,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -258,8 +250,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -287,8 +278,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -316,8 +306,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -345,8 +334,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -374,8 +362,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -403,8 +390,7 @@ export const JR_SAKURAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   }
 ];

@@ -20,9 +20,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -50,9 +48,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -80,9 +76,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -110,9 +104,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -140,9 +132,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -170,9 +160,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -200,9 +188,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -230,9 +216,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -260,9 +244,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -290,9 +272,7 @@ export const JR_TAKETOYO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

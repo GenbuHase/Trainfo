@@ -80,7 +80,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -244,7 +245,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -300,7 +302,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -327,7 +330,9 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -354,7 +359,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -381,7 +387,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -494,7 +501,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -687,8 +695,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -796,7 +803,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -823,8 +831,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -852,8 +859,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -990,8 +996,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "outbound": "下り 会津若松・新津方面"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1046,8 +1051,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -1159,8 +1163,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

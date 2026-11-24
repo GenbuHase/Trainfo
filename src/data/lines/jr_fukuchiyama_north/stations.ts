@@ -20,7 +20,6 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "tambaji_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -48,9 +47,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "tambaji_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -77,9 +74,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "tambaji_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -109,7 +104,6 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "tambaji_rapid",
       "limited_exp"
     ],
     "isMajor": false,
@@ -138,7 +132,6 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "tambaji_rapid",
       "limited_exp"
     ],
     "isMajor": false,
@@ -166,9 +159,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "tambaji_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -196,7 +187,6 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "tambaji_rapid",
       "limited_exp"
     ],
     "isMajor": false,
@@ -224,9 +214,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "tambaji_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -253,9 +241,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "tambaji_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -285,7 +271,6 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "tambaji_rapid",
       "limited_exp"
     ],
     "isMajor": true,

@@ -31,8 +31,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -72,8 +71,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -114,8 +112,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -146,7 +143,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "hakutaka",
       "asama"
     ],
     "isMajor": false,
@@ -210,10 +206,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -269,7 +263,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
       "hakutaka",
       "asama"
     ],
@@ -331,7 +324,6 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
       "hakutaka",
       "asama"
     ],
@@ -367,8 +359,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kagayaki",
       "hakutaka",
-      "asama",
-      "tsurugi"
+      "asama"
     ],
     "isMajor": true,
     "facilities": {
@@ -426,9 +417,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kagayaki",
-      "hakutaka",
-      "tsurugi"
+      "hakutaka"
     ],
     "isMajor": true,
     "facilities": {
@@ -458,8 +447,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "hakutaka",
-      "tsurugi"
+      "hakutaka"
     ],
     "isMajor": true,
     "facilities": {
@@ -488,8 +476,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "hakutaka",
-      "tsurugi"
+      "hakutaka"
     ],
     "isMajor": true,
     "facilities": {

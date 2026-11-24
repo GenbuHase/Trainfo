@@ -54,9 +54,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -84,8 +82,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -113,8 +110,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -170,9 +166,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -200,8 +194,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -228,9 +221,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -257,9 +248,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -315,9 +304,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -402,9 +389,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -432,8 +417,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -460,9 +444,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -519,8 +501,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -548,8 +529,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -577,8 +557,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -606,8 +585,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -635,8 +613,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -664,8 +641,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -722,8 +698,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ]
   },
   {
@@ -779,9 +754,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -808,9 +781,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -838,7 +809,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -866,9 +836,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -895,9 +863,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -924,9 +890,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -954,7 +918,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -982,9 +945,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1011,9 +972,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1040,9 +999,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1069,9 +1026,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1098,9 +1053,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1127,9 +1080,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1157,7 +1108,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1213,7 +1163,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1241,9 +1190,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1270,9 +1217,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1299,9 +1244,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1329,7 +1272,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1357,9 +1299,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1387,7 +1327,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -1415,9 +1354,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1444,9 +1381,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1473,9 +1408,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1502,9 +1435,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1531,9 +1462,7 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -1561,7 +1490,6 @@ export const JR_KINOKUNI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   }

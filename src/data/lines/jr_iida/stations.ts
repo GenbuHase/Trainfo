@@ -52,9 +52,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -82,9 +80,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -113,8 +109,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -143,8 +138,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -202,8 +196,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -231,8 +224,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -260,8 +252,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -289,8 +280,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -318,8 +308,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -376,8 +365,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -405,8 +393,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -434,8 +421,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -463,8 +449,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -491,9 +476,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -520,9 +503,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -579,8 +560,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -637,8 +617,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -665,9 +644,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -695,8 +672,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -723,9 +699,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -753,8 +727,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -781,9 +754,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -810,9 +781,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -840,8 +809,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -868,9 +836,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -897,9 +863,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -956,8 +920,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -984,9 +947,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1014,8 +975,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1042,9 +1002,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1100,9 +1058,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1129,9 +1085,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1158,9 +1112,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1188,8 +1140,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1216,9 +1167,7 @@ export const JR_IIDA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1275,8 +1224,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1333,8 +1281,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1362,8 +1309,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1391,8 +1337,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1420,8 +1365,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1449,8 +1393,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1507,8 +1450,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1536,8 +1478,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1565,8 +1506,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1594,8 +1534,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1623,8 +1562,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1652,8 +1590,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1681,8 +1618,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1710,8 +1646,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1768,8 +1703,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1797,8 +1731,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1826,8 +1759,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1855,8 +1787,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1884,8 +1815,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1913,8 +1843,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1942,8 +1871,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1971,8 +1899,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2000,8 +1927,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2029,8 +1955,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2058,8 +1983,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2087,8 +2011,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2116,8 +2039,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2145,8 +2067,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2174,8 +2095,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2203,8 +2123,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2232,8 +2151,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2261,8 +2179,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -2290,8 +2207,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2319,8 +2235,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2348,8 +2263,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2377,8 +2291,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2406,8 +2319,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2435,8 +2347,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -2464,8 +2375,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2493,8 +2403,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2522,8 +2431,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2551,8 +2459,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2580,8 +2487,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2609,8 +2515,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2638,8 +2543,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2667,8 +2571,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2696,8 +2599,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -2727,8 +2629,7 @@ export const JR_IIDA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

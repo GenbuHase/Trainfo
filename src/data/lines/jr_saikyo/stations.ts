@@ -594,8 +594,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "limited_exp"
+      "commuter_rapid"
     ],
     "isMajor": true,
     "platforms": {

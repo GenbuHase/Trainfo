@@ -24,10 +24,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -55,10 +52,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -86,10 +80,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -117,10 +108,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -148,10 +136,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -179,10 +164,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -210,10 +192,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -241,10 +220,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -275,10 +251,7 @@ export const JR_TOZAI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

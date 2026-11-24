@@ -27,7 +27,10 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -59,7 +62,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -91,7 +96,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -127,7 +134,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -161,7 +170,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -196,7 +207,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -228,7 +241,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -265,7 +280,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -297,7 +314,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -329,7 +348,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -367,7 +388,10 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -399,7 +423,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -429,9 +455,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "yamatoji_rapid",
-      "kanku_rapid",
-      "kishuji_rapid"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -466,7 +490,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -500,7 +526,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -534,7 +562,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -564,9 +594,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "yamatoji_rapid",
-      "kanku_rapid",
-      "kishuji_rapid"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -601,9 +629,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "direct_rapid",
-      "yamatoji_rapid",
-      "kanku_rapid",
-      "kishuji_rapid"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -640,7 +666,9 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "direct_rapid",
       "yamatoji_rapid",
       "kanku_rapid",
-      "kishuji_rapid"
+      "kishuji_rapid",
+      "semi_rapid",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

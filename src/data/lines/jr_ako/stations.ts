@@ -25,8 +25,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -53,8 +52,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -81,8 +79,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -109,8 +106,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -137,8 +133,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -165,8 +160,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -193,8 +187,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -221,8 +214,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -249,8 +241,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -277,8 +268,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -305,8 +295,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -333,8 +322,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -361,8 +349,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -389,8 +376,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -417,8 +403,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -445,8 +430,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -473,8 +457,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -501,8 +484,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   },
   {
@@ -529,8 +511,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid"
+      "local"
     ]
   }
 ];

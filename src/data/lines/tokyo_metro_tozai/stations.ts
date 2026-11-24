@@ -466,7 +466,8 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "commuter_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -494,7 +495,8 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "commuter_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -522,7 +524,8 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "commuter_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -580,8 +583,7 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "commuter_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -609,8 +611,7 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "commuter_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -638,8 +639,7 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "3・4番線"
     },
     "stoppingTypes": [
-      "local",
-      "commuter_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -667,8 +667,7 @@ export const TOZAI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "commuter_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {

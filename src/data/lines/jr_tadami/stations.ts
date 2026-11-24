@@ -20,7 +20,8 @@ export const TADAMI_STATIONS: Station[] = [
       "outbound": "下り 小出方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -47,7 +48,8 @@ export const TADAMI_STATIONS: Station[] = [
       "outbound": "下り 小出方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -76,7 +78,8 @@ export const TADAMI_STATIONS: Station[] = [
       "outbound": "下り 小出方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {

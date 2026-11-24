@@ -28,9 +28,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -61,9 +59,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -94,9 +90,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -129,9 +123,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -159,9 +151,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -192,9 +182,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -225,9 +213,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -260,9 +246,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -293,9 +277,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -326,9 +308,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -358,9 +338,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "3・4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -390,9 +368,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -423,9 +399,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -457,9 +431,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "outbound": "3・4番線"
     },
     "stoppingTypes": [
-      "local",
-      "semi_exp",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

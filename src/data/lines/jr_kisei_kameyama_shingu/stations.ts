@@ -19,9 +19,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -48,9 +46,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -77,9 +73,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -110,8 +104,8 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -138,9 +132,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -167,9 +159,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -196,9 +186,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -229,8 +217,8 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -257,9 +245,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -289,8 +275,8 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -317,9 +303,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -346,9 +330,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -375,9 +357,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -404,9 +384,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -434,7 +412,6 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": false,
@@ -462,9 +439,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -491,9 +466,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -520,9 +493,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -549,9 +520,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -578,9 +547,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -608,7 +575,6 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": false,
@@ -636,9 +602,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -665,9 +629,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -694,9 +656,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -724,7 +684,6 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -752,9 +711,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -781,9 +738,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -810,9 +765,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -839,9 +792,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -868,9 +819,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -897,9 +846,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -926,9 +873,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -955,9 +900,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -985,7 +928,6 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -1013,9 +955,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1042,9 +982,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1071,9 +1009,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1100,9 +1036,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1129,9 +1063,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1158,9 +1090,7 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1190,7 +1120,6 @@ export const JR_KISEI_KAMEYAMA_SHINGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,

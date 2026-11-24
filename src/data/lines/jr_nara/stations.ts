@@ -28,8 +28,8 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "miyako_rapid",
+      "limited_exp"
     ]
   },
   {
@@ -59,7 +59,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -90,7 +89,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -119,10 +117,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -150,10 +145,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -183,7 +175,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -212,10 +203,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -243,10 +231,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "local"
     ]
   },
   {
@@ -276,8 +261,8 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "miyako_rapid",
+      "limited_exp"
     ]
   },
   {
@@ -307,7 +292,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -338,7 +322,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -369,7 +352,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -399,9 +381,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -430,9 +410,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -461,9 +439,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -493,7 +469,6 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
       "miyako_rapid"
     ]
   },
@@ -523,9 +498,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -554,9 +527,7 @@ export const JR_NARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "semi_rapid"
     ]
   },
   {
@@ -617,8 +588,7 @@ export const JR_NARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "semi_rapid",
-      "rapid",
-      "miyako_rapid"
+      "rapid"
     ]
   },
   {
@@ -649,7 +619,8 @@ export const JR_NARA_STATIONS: Station[] = [
       "local",
       "semi_rapid",
       "rapid",
-      "miyako_rapid"
+      "miyako_rapid",
+      "limited_exp"
     ]
   }
 ];

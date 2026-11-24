@@ -803,7 +803,8 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "local"
     ],
     "facilities": {
       "elevator": true,
@@ -916,7 +917,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular",
       "rapid",
-      "limited_exp"
+      "local"
     ],
     "facilities": {
       "elevator": true,

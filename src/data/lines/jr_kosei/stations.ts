@@ -28,8 +28,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -59,8 +58,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -88,10 +86,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -121,8 +116,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -152,8 +146,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -212,10 +205,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -243,10 +233,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -274,10 +261,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -305,10 +289,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -336,10 +317,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -369,8 +347,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -400,8 +377,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -431,8 +407,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -462,8 +437,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -493,8 +467,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -555,8 +528,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -586,8 +558,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -617,8 +588,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   },
   {
@@ -648,8 +618,7 @@ export const JR_KOSEI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ]
   }
 ];

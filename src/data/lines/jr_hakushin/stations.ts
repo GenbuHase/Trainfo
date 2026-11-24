@@ -166,7 +166,8 @@ export const HAKUSHIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {

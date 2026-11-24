@@ -27,7 +27,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "local",
       "section_semi_exp",
       "section_exp",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -58,7 +59,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "local",
       "section_semi_exp",
       "section_exp",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -90,7 +92,6 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "semi_exp",
       "express"
     ],
@@ -127,7 +128,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "semi_exp",
       "section_exp",
       "express",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -287,7 +289,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "semi_exp",
       "section_exp",
       "express",
-      "limited_exp"
+      "limited_exp",
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {
@@ -493,8 +496,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "section_semi_exp",
       "semi_exp",
       "section_exp",
-      "express",
-      "th_liner"
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -738,8 +740,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "semi_exp",
       "section_exp",
       "express",
-      "th_liner",
-      "limited_exp"
+      "th_liner"
     ],
     "isMajor": true,
     "platforms": {

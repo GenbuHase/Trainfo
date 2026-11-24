@@ -90,9 +90,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -121,8 +119,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -151,8 +148,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -181,8 +177,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -213,9 +208,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -246,8 +239,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -276,8 +268,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -306,8 +297,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -335,9 +325,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -365,9 +353,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -395,9 +381,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -425,9 +409,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -458,8 +440,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "limited_exp"
+      "direct_rapid"
     ],
     "isMajor": true,
     "facilities": {

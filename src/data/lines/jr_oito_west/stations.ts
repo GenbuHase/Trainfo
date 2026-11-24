@@ -21,7 +21,8 @@ export const OITO_WEST_STATIONS: Station[] = [
       "outbound": "2・3番線"
     },
     "stoppingTypes": [
-      "regular"
+      "regular",
+      "local"
     ],
     "facilities": {
       "elevator": true,
@@ -75,7 +76,8 @@ export const OITO_WEST_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "regular"
+      "regular",
+      "local"
     ],
     "facilities": {
       "elevator": false,
@@ -156,7 +158,8 @@ export const OITO_WEST_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "regular"
+      "regular",
+      "local"
     ],
     "facilities": {
       "elevator": false,
@@ -240,7 +243,8 @@ export const OITO_WEST_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "regular"
+      "regular",
+      "local"
     ],
     "facilities": {
       "elevator": true,

@@ -31,9 +31,7 @@ export const TAKASAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "rapid_urban",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -100,7 +98,6 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -136,7 +133,6 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -211,8 +207,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -239,7 +235,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -269,8 +266,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -297,7 +294,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -327,8 +325,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -355,7 +353,10 @@ export const TAKASAKI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -385,8 +386,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -413,7 +414,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -440,7 +442,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -467,7 +470,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -501,8 +505,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -532,7 +536,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -562,8 +566,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -593,7 +597,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -623,8 +627,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -654,7 +658,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -684,7 +688,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -716,7 +721,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -755,8 +760,8 @@ export const TAKASAKI_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_urban",
-      "commuter_rapid",
-      "limited_exp"
+      "limited_exp",
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {

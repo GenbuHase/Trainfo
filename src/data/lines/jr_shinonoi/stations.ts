@@ -103,7 +103,8 @@ export const SHINONOI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "regular"
+      "regular",
+      "rapid"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.1915589,
@@ -191,7 +192,8 @@ export const SHINONOI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.300706,
@@ -332,8 +334,7 @@ export const SHINONOI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "lineId": "jr_shinonoi",
     "lat": 36.4573387,

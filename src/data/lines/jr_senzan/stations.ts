@@ -281,8 +281,7 @@ export const SENZAN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -309,8 +308,7 @@ export const SENZAN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -365,8 +363,7 @@ export const SENZAN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -393,8 +390,7 @@ export const SENZAN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -449,8 +445,7 @@ export const SENZAN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -477,8 +472,7 @@ export const SENZAN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {

@@ -21,9 +21,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -55,9 +55,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -88,9 +88,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -124,7 +124,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -155,7 +157,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -186,7 +190,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -217,7 +223,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -251,7 +259,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -280,8 +290,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -311,8 +319,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -342,8 +348,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -375,9 +379,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -406,8 +409,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -437,9 +438,8 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -472,7 +472,9 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -501,8 +503,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -532,8 +532,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -563,8 +561,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -600,9 +596,10 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "yamatoji_rapid",
-      "rapid"
+      "rapid",
+      "semi_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -636,8 +633,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": true,
@@ -672,8 +667,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": false,
@@ -703,8 +696,6 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "yamatoji_rapid",
       "rapid"
     ],
     "isMajor": true,

@@ -24,7 +24,6 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp",
       "sl_taiju"
     ],
@@ -168,7 +167,6 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp",
       "sl_taiju"
     ],
@@ -201,7 +199,8 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp",
-      "sl_taiju"
+      "sl_taiju",
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -231,7 +230,8 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -263,7 +263,8 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {

@@ -22,8 +22,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -53,8 +52,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -84,8 +82,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "3・4番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -115,8 +112,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -144,8 +140,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -177,8 +172,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -211,8 +205,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "6番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -244,8 +237,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -277,8 +269,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "4番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -311,8 +302,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "6番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -344,8 +334,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "3番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -373,8 +362,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -402,8 +390,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -433,8 +420,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -462,8 +448,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -494,8 +479,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -523,8 +507,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -552,8 +535,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -583,8 +565,7 @@ export const NAMBOKU_STATIONS: Station[] = [
       "outbound": "1・2番線"
     },
     "stoppingTypes": [
-      "local",
-      "express"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

@@ -322,7 +322,8 @@ export const JR_KISHIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ]
   },
   {
@@ -349,7 +350,8 @@ export const JR_KISHIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ]
   }
 ];

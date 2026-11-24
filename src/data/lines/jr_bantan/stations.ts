@@ -53,8 +53,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -81,8 +80,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -109,8 +107,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -137,8 +134,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -165,8 +161,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -193,8 +188,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -249,8 +243,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -277,8 +270,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -305,8 +297,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -361,8 +352,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -417,8 +407,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -445,8 +434,7 @@ export const JR_BANTAN_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {

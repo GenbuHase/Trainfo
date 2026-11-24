@@ -23,7 +23,6 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -145,7 +144,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -173,7 +173,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -201,7 +202,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -232,8 +234,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "homeliner"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -612,9 +613,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "homeliner"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -671,9 +670,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "homeliner",
-      "limited_exp"
+      "homeliner"
     ],
     "isMajor": true,
     "facilities": {
@@ -730,9 +727,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "homeliner",
-      "limited_exp"
+      "homeliner"
     ],
     "isMajor": true,
     "facilities": {
@@ -822,8 +817,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "homeliner",
-      "limited_exp"
+      "homeliner"
     ],
     "isMajor": true,
     "facilities": {
@@ -937,8 +931,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "homeliner",
-      "limited_exp"
+      "homeliner"
     ],
     "isMajor": true,
     "facilities": {
@@ -1026,7 +1019,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "homeliner",
-      "limited_exp"
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -1054,7 +1048,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1082,7 +1077,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1110,7 +1106,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1138,7 +1135,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1166,7 +1164,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1196,7 +1195,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1224,7 +1224,8 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1258,9 +1259,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "homeliner",
-      "limited_exp"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

@@ -20,8 +20,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -49,8 +48,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -78,8 +76,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -107,8 +104,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -136,8 +132,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -167,8 +162,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -196,8 +190,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -225,8 +218,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -254,8 +246,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -286,8 +277,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_mie"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

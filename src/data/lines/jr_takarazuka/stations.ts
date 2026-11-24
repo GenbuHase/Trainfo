@@ -22,10 +22,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -54,10 +54,8 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -85,11 +83,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -118,10 +112,9 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -149,11 +142,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -182,10 +171,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -214,10 +203,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -249,10 +238,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -281,10 +270,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -313,10 +299,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -345,10 +331,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -377,10 +360,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
-      "tambaji_rapid",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -411,10 +391,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -443,10 +423,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -475,10 +455,9 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -507,10 +486,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -539,10 +518,9 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -571,10 +549,9 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -603,10 +580,9 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -635,10 +611,9 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -669,10 +644,10 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "tambaji_rapid",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {

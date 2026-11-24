@@ -28,7 +28,6 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "local",
       "rapid",
       "semi_rapid",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -58,10 +57,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -90,10 +86,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -122,10 +115,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -153,11 +143,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -188,10 +174,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -219,11 +202,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -257,7 +236,6 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "local",
       "rapid",
       "semi_rapid",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -287,10 +265,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -319,10 +294,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -351,10 +323,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -385,7 +354,6 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "local",
       "rapid",
       "semi_rapid",
-      "rapid_mie",
       "limited_exp"
     ],
     "isMajor": true,
@@ -416,9 +384,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -450,9 +416,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -482,9 +446,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -514,9 +476,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -546,9 +506,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -580,9 +538,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "semi_rapid",
-      "rapid_mie",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {

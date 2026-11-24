@@ -24,12 +24,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "homeliner",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -58,9 +56,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "new_rapid"
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -89,9 +85,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "new_rapid"
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -120,9 +114,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "new_rapid"
+      "new_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -151,9 +144,9 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
-      "new_rapid"
+      "new_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -184,11 +177,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -219,9 +211,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "new_rapid"
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -250,9 +240,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "new_rapid"
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -281,9 +269,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
-      "new_rapid"
+      "new_rapid",
+      "section_rapid",
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -312,9 +301,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid",
-      "new_rapid"
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -345,11 +332,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -378,7 +364,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -407,11 +393,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -440,7 +425,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -469,7 +454,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -498,7 +483,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -529,11 +514,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -562,7 +546,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -593,11 +577,9 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
-      "special_rapid",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -626,8 +608,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
-      "rapid"
+      "rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -655,7 +637,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -683,7 +666,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -711,7 +695,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -741,7 +726,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -775,12 +761,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "homeliner",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -808,7 +792,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -845,12 +830,12 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -880,7 +865,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -908,7 +894,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -936,7 +923,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -968,12 +956,12 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -1001,7 +989,8 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1034,12 +1023,12 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -1068,10 +1057,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
-      "special_rapid"
+      "special_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1100,11 +1089,11 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "homeliner"
+      "homeliner",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1136,12 +1125,12 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
       "homeliner",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -1170,10 +1159,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
-      "special_rapid"
+      "special_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1202,11 +1191,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limited_exp"
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -1235,10 +1223,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
-      "special_rapid"
+      "special_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1267,10 +1255,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
-      "special_rapid"
+      "special_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1299,10 +1287,10 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
-      "special_rapid"
+      "special_rapid",
+      "section_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1334,11 +1322,11 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_rapid",
       "rapid",
       "new_rapid",
       "special_rapid",
-      "limited_exp"
+      "limited_exp",
+      "section_rapid"
     ],
     "isMajor": true,
     "facilities": {

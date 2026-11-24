@@ -53,8 +53,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -81,8 +80,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -109,8 +107,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {

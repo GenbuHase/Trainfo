@@ -22,7 +22,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -53,7 +52,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -84,7 +82,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -115,7 +112,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -146,7 +142,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -177,7 +172,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -208,7 +202,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -239,7 +232,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -270,7 +262,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -301,7 +292,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -332,7 +322,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -363,7 +352,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -394,7 +382,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -425,7 +412,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -456,7 +442,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -487,7 +472,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -518,7 +502,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -548,10 +531,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -580,7 +560,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -610,10 +589,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -641,10 +617,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -675,7 +648,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],
@@ -708,10 +680,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "direct_rapid",
-      "rapid",
-      "semi_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -746,7 +715,6 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "direct_rapid",
       "rapid",
       "semi_rapid"
     ],

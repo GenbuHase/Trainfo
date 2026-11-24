@@ -57,7 +57,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -84,7 +85,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -171,7 +173,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -198,7 +201,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ]
   },
   {
@@ -310,8 +314,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -337,8 +340,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -365,7 +367,6 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -392,8 +393,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -500,8 +500,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -661,8 +660,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true
   },

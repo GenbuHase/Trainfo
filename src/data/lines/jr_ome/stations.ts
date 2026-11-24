@@ -26,10 +26,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -61,10 +58,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid",
       "special_rapid"
     ],
     "isMajor": false,
@@ -95,10 +89,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -128,10 +120,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -161,10 +151,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -198,10 +186,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -233,10 +218,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -266,10 +249,7 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid",
       "special_rapid"
     ],
     "isMajor": true,
@@ -300,10 +280,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -333,10 +311,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -366,10 +342,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -399,10 +373,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "special_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -432,12 +404,8 @@ export const OME_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter_rapid",
-      "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -465,8 +433,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -494,8 +461,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -523,8 +489,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -552,8 +517,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -581,8 +545,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -610,8 +573,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -640,7 +602,6 @@ export const OME_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid"
     ],
     "isMajor": true,
@@ -669,8 +630,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -698,8 +658,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -727,8 +686,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -756,8 +714,7 @@ export const OME_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -786,7 +743,6 @@ export const OME_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid"
     ],
     "isMajor": true,

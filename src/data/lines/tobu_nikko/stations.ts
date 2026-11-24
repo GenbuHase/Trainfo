@@ -24,13 +24,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -59,11 +53,6 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": false,
@@ -92,12 +81,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
-      "express",
-      "rapid"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -126,11 +110,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "section_semi_exp",
-      "semi_exp",
-      "section_exp",
       "express",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -162,8 +142,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -248,8 +227,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "limited_exp",
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -334,7 +313,7 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "express"
     ],
     "isMajor": false,
     "platforms": {
@@ -365,8 +344,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "limited_exp",
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -397,8 +376,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "limited_exp",
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -567,8 +546,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "limited_exp",
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -711,9 +690,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp",
-      "sl_taiju"
+      "express"
     ],
     "isMajor": true,
     "platforms": {
@@ -772,9 +750,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp",
-      "sl_taiju"
+      "express"
     ],
     "isMajor": true,
     "platforms": {

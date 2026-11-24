@@ -21,8 +21,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -50,8 +49,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -79,8 +77,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -108,8 +105,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -137,8 +133,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -166,8 +161,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -195,8 +189,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -224,8 +217,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -253,8 +245,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
-      "substitution_bus"
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -310,8 +301,6 @@ export const KITAKAMI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -339,8 +328,6 @@ export const KITAKAMI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -368,8 +355,6 @@ export const KITAKAMI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -397,8 +382,6 @@ export const KITAKAMI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -428,8 +411,6 @@ export const KITAKAMI_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,

@@ -20,8 +20,7 @@ export const SENDAI_AIRPORT_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -48,8 +47,7 @@ export const SENDAI_AIRPORT_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -76,8 +74,7 @@ export const SENDAI_AIRPORT_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -104,8 +101,7 @@ export const SENDAI_AIRPORT_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {

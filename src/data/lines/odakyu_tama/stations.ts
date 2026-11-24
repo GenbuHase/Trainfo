@@ -25,8 +25,6 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp",
       "express",
       "commuter_exp",
       "rapid_exp"
@@ -58,8 +56,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp"
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -87,8 +84,6 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp",
       "express",
       "commuter_exp",
       "rapid_exp"
@@ -120,8 +115,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp"
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -149,8 +143,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp"
+      "express"
     ],
     "platforms": {
       "inbound": "1番線",
@@ -180,8 +173,6 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp",
       "express",
       "commuter_exp",
       "rapid_exp"
@@ -216,8 +207,6 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp",
       "express",
       "commuter_exp",
       "rapid_exp"
@@ -249,8 +238,6 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "semi_exp",
-      "commuter_semi_exp",
       "express",
       "commuter_exp",
       "rapid_exp"

@@ -32,9 +32,6 @@ export const UENO_TOKYO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -76,9 +73,6 @@ export const UENO_TOKYO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,

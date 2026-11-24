@@ -188,8 +188,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -272,8 +271,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -300,8 +298,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -666,8 +663,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {
@@ -694,8 +690,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -722,8 +717,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": false,
     "facilities": {
@@ -750,8 +744,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "outbound": "下り方面のりば"
     },
     "stoppingTypes": [
-      "brt",
-      "rapid"
+      "brt"
     ],
     "isMajor": true,
     "facilities": {

@@ -31,9 +31,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "rapid_rabbit",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -98,9 +96,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "rapid_rabbit",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -134,9 +130,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "rapid_rabbit",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -211,7 +205,6 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "local",
       "rapid",
       "rapid_rabbit",
-      "commuter_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -266,7 +259,9 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid_rabbit",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -295,8 +290,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": true,
     "facilities": {
@@ -381,8 +375,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": true,
     "facilities": {
@@ -467,8 +460,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": true,
     "facilities": {
@@ -555,8 +547,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": true,
     "facilities": {
@@ -585,8 +576,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": true,
     "facilities": {
@@ -615,8 +605,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": false,
     "facilities": {
@@ -645,8 +634,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": false,
     "facilities": {
@@ -675,8 +663,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": false,
     "facilities": {
@@ -710,8 +697,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "rapid_rabbit",
-      "commuter_rapid"
+      "rapid_rabbit"
     ],
     "isMajor": true,
     "facilities": {

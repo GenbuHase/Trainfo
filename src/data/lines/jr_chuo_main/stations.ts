@@ -25,14 +25,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
-      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -60,13 +52,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "regular"
     ],
     "platforms": {
@@ -93,13 +78,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "regular"
     ],
     "platforms": {
@@ -126,14 +104,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
-      "limited_exp",
       "regular"
     ],
     "isMajor": true,
@@ -161,13 +131,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "regular"
     ],
     "platforms": {
@@ -194,13 +157,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "regular"
     ],
     "platforms": {
@@ -227,13 +183,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "regular"
     ],
     "platforms": {
@@ -260,13 +209,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "regular"
     ],
     "platforms": {
@@ -295,13 +237,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "commuter_rapid",
-      "special_rapid",
-      "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid",
       "limited_exp",
       "regular"
     ],
@@ -330,7 +265,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -357,7 +291,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -384,7 +317,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -411,7 +343,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "limited_exp",
       "regular"
     ],
@@ -439,7 +370,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "limited_exp",
       "regular"
     ],
@@ -468,7 +398,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -495,7 +424,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "limited_exp",
       "regular"
     ],
@@ -524,7 +452,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -551,7 +478,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "limited_exp",
       "regular"
     ],
@@ -580,7 +506,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -609,7 +534,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "limited_exp",
       "regular"
     ],
@@ -638,7 +562,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -666,7 +589,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -693,7 +615,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -722,7 +643,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -749,7 +669,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -776,7 +695,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -803,7 +721,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -832,7 +749,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -861,7 +777,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -888,7 +803,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -916,7 +830,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -943,7 +856,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -970,7 +882,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -999,7 +910,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -1028,7 +938,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -1059,7 +968,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],
@@ -1088,7 +996,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular"
     ],
     "platforms": {
@@ -1118,7 +1025,6 @@ export const CHUO_MAIN_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
       "regular",
       "limited_exp"
     ],

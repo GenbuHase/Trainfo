@@ -32,7 +32,6 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -68,7 +67,6 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -98,8 +96,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -130,8 +127,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -166,9 +162,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "limited_express"
+      "special_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -200,7 +194,6 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid"
     ],
     "isMajor": true,
@@ -233,7 +226,6 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -266,9 +258,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -298,9 +288,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -333,7 +321,6 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid"
     ],
     "isMajor": true,

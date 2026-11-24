@@ -26,7 +26,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -54,9 +53,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -84,7 +81,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -112,9 +108,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -141,9 +135,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -170,9 +162,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -199,9 +189,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -228,9 +216,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -257,9 +243,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -286,9 +270,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -316,7 +298,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -344,9 +325,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -373,9 +352,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -403,7 +380,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -431,9 +407,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -460,9 +434,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -489,9 +461,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -518,9 +488,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -548,7 +516,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -576,9 +543,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -606,7 +571,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -635,7 +599,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -663,9 +626,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -693,7 +654,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   },
@@ -721,9 +681,7 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -751,7 +709,6 @@ export const JR_SANIN_SONOBE_KINOSAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ]
   }

@@ -417,8 +417,7 @@ export const IZUKYU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {

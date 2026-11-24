@@ -51,8 +51,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -79,8 +78,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -107,8 +105,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -135,8 +132,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -191,8 +187,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -219,8 +214,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -247,8 +241,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -303,8 +296,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -415,8 +407,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -443,8 +434,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -471,8 +461,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -527,8 +516,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -555,8 +543,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -611,8 +598,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -639,8 +625,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -667,8 +652,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -695,8 +679,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -723,8 +706,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -779,8 +761,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -839,8 +820,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -870,8 +850,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -900,8 +879,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -930,8 +908,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -961,8 +938,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_express"
+      "local"
     ],
     "isMajor": true,
     "platforms": {

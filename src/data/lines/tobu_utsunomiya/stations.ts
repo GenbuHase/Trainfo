@@ -23,8 +23,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -108,8 +107,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -165,8 +163,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "platforms": {
@@ -250,8 +247,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "platforms": {
@@ -307,8 +303,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "platforms": {

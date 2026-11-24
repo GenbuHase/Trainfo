@@ -25,7 +25,7 @@ export const AIZU_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp",
-      "aizu_ozatoro"
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -52,7 +52,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -79,7 +80,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -106,7 +108,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -133,7 +136,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -163,7 +167,8 @@ export const AIZU_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp",
-      "aizu_ozatoro"
+      "aizu_ozatoro",
+      "section_rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -190,7 +195,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -217,7 +223,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -244,7 +251,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -271,7 +279,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -327,7 +336,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -355,7 +365,8 @@ export const AIZU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "aizu_ozatoro"
+      "aizu_ozatoro",
+      "rapid"
     ],
     "isMajor": true,
     "platforms": {
@@ -411,7 +422,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -438,7 +450,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -494,7 +507,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -521,7 +535,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {
@@ -548,7 +563,8 @@ export const AIZU_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "platforms": {

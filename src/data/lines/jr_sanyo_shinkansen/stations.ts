@@ -87,7 +87,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "nozomi",
       "hikari",
-      "kodama"
+      "kodama",
+      "sakura"
     ],
     "isMajor": true,
     "facilities": {
@@ -257,7 +258,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "nozomi",
       "sakura",
       "hikari",
-      "kodama"
+      "kodama",
+      "mizuho"
     ],
     "isMajor": true,
     "facilities": {
@@ -284,7 +286,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -314,7 +317,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -341,7 +345,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -407,7 +412,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "hikari"
     ],
     "isMajor": false,
     "facilities": {
@@ -474,7 +480,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "nozomi",
       "sakura",
       "hikari",
-      "kodama"
+      "kodama",
+      "mizuho"
     ],
     "isMajor": true,
     "facilities": {
@@ -504,7 +511,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "kodama"
+      "kodama",
+      "sakura"
     ],
     "isMajor": false,
     "facilities": {
@@ -535,7 +543,8 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "sakura",
       "hikari",
-      "kodama"
+      "kodama",
+      "tsubame"
     ],
     "isMajor": false,
     "facilities": {

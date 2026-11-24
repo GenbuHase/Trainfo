@@ -19,8 +19,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -47,8 +46,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -75,8 +73,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -103,8 +100,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -131,8 +127,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -159,8 +154,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -187,8 +181,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -215,8 +208,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -243,8 +235,7 @@ export const OGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {

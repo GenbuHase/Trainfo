@@ -126,9 +126,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_limited_exp",
-      "limited_exp",
-      "s_train"
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -158,9 +156,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_limited_exp",
-      "limited_exp",
-      "s_train"
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "2番線",

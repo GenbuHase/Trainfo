@@ -27,7 +27,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -64,7 +65,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -96,7 +98,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -128,7 +130,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -162,7 +165,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -191,8 +194,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -224,7 +226,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -254,7 +256,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -283,8 +285,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -316,7 +317,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -346,7 +347,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -374,9 +375,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -408,7 +407,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -438,7 +438,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -468,7 +468,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -498,7 +498,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -528,7 +528,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -560,7 +560,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -590,7 +591,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "semi_rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -620,7 +621,8 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "limited_exp"
+      "limited_exp",
+      "semi_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -647,9 +649,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -676,9 +676,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -705,9 +703,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -735,7 +731,6 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": false,
@@ -763,9 +758,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -792,9 +785,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -821,9 +812,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -850,9 +839,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -879,9 +866,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -909,7 +894,6 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": false,
@@ -938,7 +922,6 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -966,9 +949,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -995,9 +976,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1024,9 +1003,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1053,9 +1030,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1082,9 +1057,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1111,9 +1084,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1140,9 +1111,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1169,9 +1138,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1201,7 +1168,6 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,

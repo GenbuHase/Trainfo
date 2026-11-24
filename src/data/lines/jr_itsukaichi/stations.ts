@@ -24,10 +24,6 @@ export const ITSUKAICHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -56,11 +52,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -88,11 +80,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -121,10 +109,6 @@ export const ITSUKAICHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -153,11 +137,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -185,11 +165,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -218,10 +194,6 @@ export const ITSUKAICHI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "regular",
-      "rapid",
-      "special_rapid",
-      "commuter_special_rapid",
       "limited_exp"
     ],
     "isMajor": true,

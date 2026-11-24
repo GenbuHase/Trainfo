@@ -24,8 +24,6 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -54,10 +52,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -85,10 +80,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -117,8 +109,6 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "new_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -147,10 +137,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -178,10 +165,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -209,10 +193,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -240,10 +221,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -271,10 +249,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "new_rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -306,8 +281,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "new_rapid",
-      "limited_exp"
+      "new_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -337,8 +311,7 @@ export const JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "new_rapid",
-      "limited_exp"
+      "new_rapid"
     ],
     "isMajor": false,
     "facilities": {

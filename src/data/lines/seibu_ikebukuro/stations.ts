@@ -332,7 +332,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "commuter_exp",
-      "rapid",
       "commuter_semi_exp",
       "semi_exp",
       "local"
@@ -365,7 +364,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     "stoppingTypes": [
       "s_train",
       "commuter_exp",
-      "rapid",
       "commuter_semi_exp",
       "semi_exp",
       "local"
@@ -400,7 +398,8 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "express",
       "rapid",
       "semi_exp",
-      "local"
+      "local",
+      "commuter_semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -428,7 +427,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "express",
       "commuter_exp",
       "rapid",
       "commuter_semi_exp",
@@ -461,10 +459,10 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "express",
       "rapid",
       "semi_exp",
-      "local"
+      "local",
+      "commuter_semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -496,7 +494,8 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     "stoppingTypes": [
       "rapid",
       "semi_exp",
-      "local"
+      "local",
+      "commuter_semi_exp"
     ],
     "isMajor": false,
     "platforms": {
@@ -565,7 +564,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "s_train",
-      "rapid_exp",
       "express",
       "commuter_exp",
       "rapid",
@@ -866,7 +864,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -895,7 +892,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -924,7 +920,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -953,7 +948,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -982,7 +976,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -1011,7 +1004,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -1040,7 +1032,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -1069,7 +1060,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -1099,7 +1089,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "limited_exp",
-      "rapid_exp",
       "local"
     ],
     "isMajor": false,
@@ -1132,7 +1121,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     "stoppingTypes": [
       "limited_exp",
       "s_train",
-      "rapid_exp",
       "local"
     ],
     "isMajor": true,

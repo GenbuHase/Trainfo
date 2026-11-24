@@ -26,8 +26,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true
   },
@@ -54,8 +53,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -81,8 +79,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true
   },
@@ -109,8 +106,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ]
   },
   {
@@ -138,8 +134,7 @@ export const TOGANE_STATIONS: Station[] = [
       "outbound": "2"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": true
   }

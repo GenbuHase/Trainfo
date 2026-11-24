@@ -31,7 +31,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -66,7 +65,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -102,9 +100,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {
@@ -141,7 +137,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -182,7 +177,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -223,7 +217,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -258,8 +251,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -293,8 +285,8 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -329,7 +321,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -371,7 +362,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -406,7 +396,6 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid"
     ],
     "isMajor": true,
@@ -441,9 +430,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "special_rapid",
-      "limited_exp"
+      "special_rapid"
     ],
     "isMajor": true,
     "facilities": {

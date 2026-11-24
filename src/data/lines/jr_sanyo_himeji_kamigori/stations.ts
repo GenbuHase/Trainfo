@@ -27,7 +27,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -56,7 +55,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -85,7 +83,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -114,7 +111,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -143,7 +139,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -171,9 +166,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -201,7 +194,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   },
@@ -229,9 +221,7 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
       "ticketOffice": false
     },
     "stoppingTypes": [
-      "local",
-      "special_rapid",
-      "limited_exp"
+      "local"
     ]
   },
   {
@@ -259,7 +249,6 @@ export const JR_SANYO_HIMEJI_KAMIGORI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "special_rapid",
       "limited_exp"
     ]
   }

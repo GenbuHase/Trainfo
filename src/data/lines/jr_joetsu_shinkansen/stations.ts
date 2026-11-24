@@ -294,8 +294,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "1番線"
     },
     "stoppingTypes": [
-      "toki",
-      "tanigawa"
+      "toki"
     ],
     "isMajor": false,
     "facilities": {
@@ -325,8 +324,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "11番線"
     },
     "stoppingTypes": [
-      "toki",
-      "tanigawa"
+      "toki"
     ],
     "isMajor": true,
     "facilities": {
@@ -355,8 +353,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "11番線"
     },
     "stoppingTypes": [
-      "toki",
-      "tanigawa"
+      "toki"
     ],
     "isMajor": false,
     "facilities": {
@@ -387,8 +384,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "11-14番線"
     },
     "stoppingTypes": [
-      "toki",
-      "tanigawa"
+      "toki"
     ],
     "isMajor": true,
     "facilities": {

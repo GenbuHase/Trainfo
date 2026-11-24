@@ -49,8 +49,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -78,8 +77,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -107,8 +105,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -136,8 +133,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -165,8 +161,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -223,8 +218,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -251,8 +245,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -279,8 +272,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -307,8 +299,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -335,8 +326,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -363,8 +353,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -391,8 +380,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -447,8 +435,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -503,8 +490,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -531,8 +517,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -587,8 +572,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -615,8 +599,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -643,8 +626,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -699,8 +681,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -783,8 +764,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -811,8 +791,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -839,8 +818,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -895,8 +873,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -923,8 +900,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -951,8 +927,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -979,8 +954,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1035,8 +1009,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -1063,8 +1036,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "limited_exp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {

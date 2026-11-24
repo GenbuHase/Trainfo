@@ -52,7 +52,8 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": true,
     "facilities": {
@@ -80,7 +81,8 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": false,
     "facilities": {
@@ -110,7 +112,8 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": true,
     "facilities": {
@@ -138,7 +141,8 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": false,
     "facilities": {
@@ -168,7 +172,8 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": false,
     "facilities": {
@@ -234,8 +239,7 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local",
-      "th_liner"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -387,7 +391,8 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "th_liner"
     ],
     "isMajor": true,
     "facilities": {
@@ -677,8 +682,7 @@ export const HIBIYA_STATIONS: Station[] = [
       "outbound": "6・7番線"
     },
     "stoppingTypes": [
-      "local",
-      "th_liner"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

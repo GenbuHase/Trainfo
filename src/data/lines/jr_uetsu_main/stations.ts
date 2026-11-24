@@ -36,9 +36,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limited_exp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -285,7 +283,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -341,7 +341,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -505,7 +507,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -613,7 +616,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -694,7 +698,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -941,7 +947,9 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp",
+      "rapid"
     ],
     "isMajor": false,
     "facilities": {
@@ -1134,7 +1142,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1269,7 +1278,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1323,7 +1333,8 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "outbound": "下り 秋田方面"
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -1380,7 +1391,6 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -1656,7 +1666,6 @@ export const UETSU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_exp"
     ],
     "isMajor": true,

@@ -467,7 +467,8 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express"
+      "express",
+      "commuter_exp"
     ],
     "isMajor": true,
     "platforms": {

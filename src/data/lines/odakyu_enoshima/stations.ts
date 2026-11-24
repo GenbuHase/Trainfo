@@ -491,7 +491,6 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "rapid_exp",
       "limited_exp"
     ],
     "platforms": {

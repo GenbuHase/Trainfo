@@ -31,10 +31,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -71,10 +67,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -110,10 +102,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -148,10 +136,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid"
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -191,10 +176,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid",
       "limited_exp"
     ],
     "isMajor": true,
@@ -227,11 +208,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -265,9 +242,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -302,9 +276,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -337,8 +308,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -370,9 +340,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -405,10 +372,8 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -438,9 +403,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_acty"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -471,8 +434,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty"
+      "limited_exp"
     ],
     "isMajor": false,
     "facilities": {
@@ -504,10 +466,8 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_exp"
     ],
     "isMajor": true,
     "facilities": {
@@ -537,9 +497,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_acty"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -574,9 +532,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
-      "commuter_rapid",
       "special_rapid",
       "limited_exp"
     ],
@@ -606,9 +561,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_acty"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -636,9 +589,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_acty"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -666,9 +617,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_acty"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -697,8 +646,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
       "limited_exp"
     ],
     "isMajor": true,
@@ -732,8 +679,6 @@ export const TOKAIDO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
-      "rapid_acty",
       "limited_exp"
     ],
     "isMajor": true,

@@ -29,7 +29,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "hayate",
       "yamabiko",
       "nasuno",
       "komachi",
@@ -71,7 +70,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "hayate",
       "yamabiko",
       "nasuno",
       "komachi",
@@ -114,7 +112,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "hayate",
       "yamabiko",
       "nasuno",
       "komachi",
@@ -150,8 +147,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "yamabiko",
-      "nasuno",
-      "tsubasa"
+      "nasuno"
     ],
     "isMajor": false,
     "facilities": {
@@ -182,7 +178,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "1-4番線"
     },
     "stoppingTypes": [
-      "hayabusa",
       "yamabiko",
       "nasuno",
       "tsubasa"
@@ -215,8 +210,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "yamabiko",
-      "nasuno",
-      "tsubasa"
+      "nasuno"
     ],
     "isMajor": false,
     "facilities": {
@@ -278,7 +272,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "12-13番線"
     },
     "stoppingTypes": [
-      "hayabusa",
       "yamabiko",
       "nasuno",
       "tsubasa"
@@ -315,7 +308,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "13-14番線"
     },
     "stoppingTypes": [
-      "hayabusa",
       "yamabiko",
       "tsubasa"
     ],
@@ -381,7 +373,6 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "hayate",
       "yamabiko",
       "komachi"
     ],
@@ -413,7 +404,8 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "yamabiko"
+      "yamabiko",
+      "komachi"
     ],
     "isMajor": false,
     "facilities": {
@@ -441,7 +433,8 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "yamabiko"
+      "yamabiko",
+      "komachi"
     ],
     "isMajor": false,
     "facilities": {
@@ -473,7 +466,8 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "yamabiko"
+      "yamabiko",
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -501,7 +495,8 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "yamabiko"
+      "yamabiko",
+      "komachi"
     ],
     "isMajor": false,
     "facilities": {
@@ -532,7 +527,8 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "yamabiko"
+      "yamabiko",
+      "komachi"
     ],
     "isMajor": true,
     "facilities": {
@@ -562,7 +558,8 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "hayabusa",
-      "yamabiko"
+      "yamabiko",
+      "komachi"
     ],
     "isMajor": false,
     "facilities": {
@@ -627,8 +624,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "outbound": "2番線"
     },
     "stoppingTypes": [
-      "hayabusa",
-      "hayate"
+      "hayabusa"
     ],
     "isMajor": false,
     "facilities": {

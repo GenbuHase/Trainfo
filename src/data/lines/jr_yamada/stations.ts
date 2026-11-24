@@ -24,7 +24,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,
@@ -52,9 +51,7 @@ export const YAMADA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -81,9 +78,7 @@ export const YAMADA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": false,
     "facilities": {
@@ -110,9 +105,7 @@ export const YAMADA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
-      "substitution_bus"
+      "regular"
     ],
     "isMajor": true,
     "facilities": {
@@ -139,8 +132,6 @@ export const YAMADA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -168,8 +159,6 @@ export const YAMADA_STATIONS: Station[] = [
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -198,7 +187,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -227,7 +215,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -256,7 +243,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -285,7 +271,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -314,7 +299,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,
@@ -343,7 +327,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -372,7 +355,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -401,7 +383,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": false,
@@ -432,7 +413,6 @@ export const YAMADA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "regular",
-      "rapid",
       "substitution_bus"
     ],
     "isMajor": true,

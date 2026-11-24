@@ -95,8 +95,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
       "local",
       "express",
       "commuter_limited_exp",
-      "limited_exp",
-      "s_train"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -152,7 +151,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express"
+      "express",
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -244,7 +245,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express"
+      "express",
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -276,7 +279,9 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "express"
+      "express",
+      "limited_exp",
+      "commuter_limited_exp"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -343,8 +348,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
       "local",
       "express",
       "commuter_limited_exp",
-      "limited_exp",
-      "s_train"
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -407,7 +411,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "express",
-      "commuter_limited_exp"
+      "commuter_limited_exp",
+      "limited_exp"
     ],
     "platforms": {
       "inbound": "3・4番線",

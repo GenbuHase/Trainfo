@@ -749,7 +749,8 @@ export const NAMBU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limited_exp"
     ],
     "stationNumber": "JN-26",
     "isMajor": true
