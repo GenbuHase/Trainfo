@@ -176,7 +176,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "local",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -418,7 +418,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

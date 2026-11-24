@@ -83,7 +83,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -560,7 +560,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -588,7 +588,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"
@@ -616,7 +616,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -781,7 +781,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"
@@ -836,7 +836,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -863,7 +863,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -921,7 +921,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"

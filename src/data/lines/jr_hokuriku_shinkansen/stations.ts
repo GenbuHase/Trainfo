@@ -145,7 +145,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "asama"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -266,7 +266,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "asama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -296,7 +296,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "asama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -327,7 +327,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "asama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -419,7 +419,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "hakutaka"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -449,7 +449,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "hakutaka"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -478,7 +478,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "hakutaka"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -543,7 +543,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "tsurugi"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -575,7 +575,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "tsurugi"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -606,7 +606,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "tsurugi"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -637,7 +637,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "tsurugi"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -668,7 +668,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "tsurugi"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -731,7 +731,7 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
       "hakutaka",
       "tsurugi"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

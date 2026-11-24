@@ -54,7 +54,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-03",
@@ -80,7 +81,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-04",
@@ -106,7 +108,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-05",
@@ -132,7 +135,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-06",
@@ -158,7 +162,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-07",
@@ -184,7 +189,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-08",
@@ -210,7 +216,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-09",
@@ -236,7 +243,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-10",
@@ -262,7 +270,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-11",
@@ -289,7 +298,7 @@ export const KURURI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "KR-12",
@@ -315,7 +324,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-13",
@@ -341,7 +351,8 @@ export const KURURI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "KR-14",

@@ -120,7 +120,7 @@ export const TOZAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -218,7 +218,7 @@ export const TOZAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -440,7 +440,7 @@ export const TOZAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -557,7 +557,7 @@ export const TOZAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

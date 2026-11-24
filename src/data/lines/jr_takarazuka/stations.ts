@@ -176,7 +176,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "limited_exp",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -208,7 +208,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "limited_exp",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -304,7 +304,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "limited_exp",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -428,7 +428,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "limited_exp",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -491,7 +491,7 @@ export const JR_TAKARAZUKA_STATIONS: Station[] = [
       "limited_exp",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

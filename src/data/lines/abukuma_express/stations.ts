@@ -53,7 +53,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -215,7 +215,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -323,7 +323,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -458,7 +458,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -539,7 +539,7 @@ export const ABUKUMA_EXPRESS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

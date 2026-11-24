@@ -57,7 +57,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -88,7 +88,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -117,6 +117,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -147,7 +148,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -176,6 +177,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -204,6 +206,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

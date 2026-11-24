@@ -164,7 +164,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -360,7 +360,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -415,7 +415,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -525,7 +525,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -607,7 +607,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -662,7 +662,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -989,7 +989,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1098,7 +1098,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1153,7 +1153,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

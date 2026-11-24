@@ -58,6 +58,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-14"
   },
   {
@@ -89,7 +90,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JH-15",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JH-16",
@@ -150,6 +151,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-17"
   },
   {
@@ -178,6 +180,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JH-18"
   },
   {
@@ -236,6 +239,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-20"
   },
   {
@@ -295,6 +299,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-22"
   },
   {
@@ -353,6 +358,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-24"
   },
   {
@@ -380,6 +386,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-25"
   },
   {
@@ -407,6 +414,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JH-26"
   },
   {
@@ -436,7 +444,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JH-27",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JH-28",
@@ -496,6 +504,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JH-29"
   },
   {
@@ -524,6 +533,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JH-30"
   },
   {
@@ -554,6 +564,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": true,
     "stationNumber": "JH-31"
   },
   {

@@ -311,7 +311,7 @@ export const AIZU_STATIONS: Station[] = [
       "rapid",
       "aizu_ozatoro"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -368,7 +368,7 @@ export const AIZU_STATIONS: Station[] = [
       "aizu_ozatoro",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -397,7 +397,7 @@ export const AIZU_STATIONS: Station[] = [
       "rapid",
       "aizu_ozatoro"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -482,7 +482,7 @@ export const AIZU_STATIONS: Station[] = [
       "rapid",
       "aizu_ozatoro"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

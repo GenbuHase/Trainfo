@@ -691,7 +691,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "limited_exp",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -723,7 +723,7 @@ export const TAKASAKI_STATIONS: Station[] = [
       "rapid_urban",
       "special_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

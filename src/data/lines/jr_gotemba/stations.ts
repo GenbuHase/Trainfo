@@ -193,7 +193,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": false,
@@ -250,7 +250,7 @@ export const GOTEMBA_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": false,
@@ -419,7 +419,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

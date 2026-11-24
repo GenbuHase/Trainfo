@@ -49,6 +49,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -104,6 +105,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -130,7 +132,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -186,6 +188,7 @@ export const JR_YAHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

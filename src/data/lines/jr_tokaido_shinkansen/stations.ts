@@ -199,7 +199,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "hikari",
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -256,7 +256,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "hikari",
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -285,7 +285,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -315,7 +315,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "hikari",
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -473,7 +473,7 @@ export const TOKAIDO_SHINKANSEN_STATIONS: Station[] = [
       "hikari",
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -59,7 +59,8 @@ export const UCHIBO_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-03",
@@ -87,7 +88,8 @@ export const UCHIBO_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-04",
@@ -147,7 +149,7 @@ export const UCHIBO_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "UB-06",
@@ -175,7 +177,8 @@ export const UCHIBO_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-07",
@@ -203,7 +206,8 @@ export const UCHIBO_STATIONS: Station[] = [
       "local",
       "rapid",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-08",
@@ -229,7 +233,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-09",
@@ -315,7 +320,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-12",
@@ -341,7 +347,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-13",
@@ -368,7 +375,8 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-14",
@@ -394,7 +402,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-15",
@@ -420,7 +429,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-16",
@@ -475,7 +485,8 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-18",
@@ -501,7 +512,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-19",
@@ -528,7 +540,8 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-20",
@@ -555,7 +568,8 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "limited_exp"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-21",
@@ -581,7 +595,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-22",
@@ -635,7 +650,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-24",
@@ -662,7 +678,7 @@ export const UCHIBO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "UB-25",
@@ -688,7 +704,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-26",
@@ -714,7 +731,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-27",
@@ -740,7 +758,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-28",
@@ -766,7 +785,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-29",
@@ -792,7 +812,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "UB-30",

@@ -287,7 +287,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -345,7 +345,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -619,7 +619,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -702,7 +702,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "limited_exp",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -951,7 +951,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "limited_exp",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1145,7 +1145,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1281,7 +1281,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1336,7 +1336,7 @@ export const UETSU_MAIN_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

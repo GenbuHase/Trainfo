@@ -97,7 +97,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -205,7 +205,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -448,7 +448,7 @@ export const JR_AKO_STATIONS: Station[] = [
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

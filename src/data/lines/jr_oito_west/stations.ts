@@ -98,7 +98,7 @@ export const OITO_WEST_STATIONS: Station[] = [
     "lng": 137.8654071,
     "transfers": [],
     "address": "新潟県糸魚川市大字大所",
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

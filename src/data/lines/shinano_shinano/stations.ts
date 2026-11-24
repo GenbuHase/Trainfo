@@ -53,7 +53,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -81,6 +81,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -108,6 +109,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -134,6 +136,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -192,6 +195,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -220,6 +224,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -248,6 +253,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -275,6 +281,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -333,6 +340,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -359,6 +367,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -386,6 +395,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -413,7 +423,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -440,6 +450,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -467,7 +478,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -494,6 +505,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -553,6 +565,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -582,6 +595,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -610,6 +624,7 @@ export const SHINANO_SHINANO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

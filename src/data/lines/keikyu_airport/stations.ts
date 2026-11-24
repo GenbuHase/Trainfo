@@ -58,6 +58,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
       "limited_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -87,6 +88,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
       "limited_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -116,6 +118,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
       "limited_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -147,7 +150,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
       "limited_exp",
       "access_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -178,6 +181,7 @@ export const KEIKYU_AIRPORT_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -60,7 +60,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "hikari",
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -90,7 +90,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "kodama",
       "sakura"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -261,7 +261,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "kodama",
       "mizuho"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -448,7 +448,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "hikari",
       "kodama"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -483,7 +483,7 @@ export const SANYO_SHINKANSEN_STATIONS: Station[] = [
       "kodama",
       "mizuho"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

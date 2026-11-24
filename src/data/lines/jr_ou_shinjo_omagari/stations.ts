@@ -52,6 +52,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -78,6 +79,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -132,6 +134,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -158,6 +161,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -184,6 +188,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -211,6 +216,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -238,6 +244,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -264,6 +271,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -290,6 +298,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -344,6 +353,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -371,6 +381,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -397,6 +408,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -423,6 +435,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -479,6 +492,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -506,6 +520,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

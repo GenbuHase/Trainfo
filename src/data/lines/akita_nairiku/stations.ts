@@ -80,7 +80,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -733,7 +733,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

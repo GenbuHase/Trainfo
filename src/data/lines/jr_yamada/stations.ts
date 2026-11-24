@@ -107,7 +107,7 @@ export const YAMADA_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -301,7 +301,7 @@ export const YAMADA_STATIONS: Station[] = [
       "regular",
       "substitution_bus"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -183,7 +183,7 @@ export const YURI_KOGEN_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

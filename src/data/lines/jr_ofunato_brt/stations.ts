@@ -51,7 +51,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -79,7 +79,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -218,7 +218,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -246,7 +246,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -552,7 +552,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -665,7 +665,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "stoppingTypes": [
       "brt"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

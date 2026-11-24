@@ -54,7 +54,8 @@ export const TOGANE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "TG-03",
@@ -81,7 +82,7 @@ export const TOGANE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "TG-04",
@@ -107,7 +108,8 @@ export const TOGANE_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "TG-05",

@@ -265,7 +265,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -505,7 +505,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

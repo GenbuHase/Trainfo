@@ -25,7 +25,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -161,7 +161,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "semi_rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -669,7 +669,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

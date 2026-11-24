@@ -301,7 +301,7 @@ export const HANAWA_STATIONS: Station[] =  [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -547,7 +547,7 @@ export const HANAWA_STATIONS: Station[] =  [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -820,7 +820,7 @@ export const HANAWA_STATIONS: Station[] =  [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

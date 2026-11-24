@@ -271,7 +271,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -353,7 +353,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -381,7 +381,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -545,7 +545,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "stoppingTypes": [
       "substitution_bus"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

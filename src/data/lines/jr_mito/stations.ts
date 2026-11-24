@@ -53,6 +53,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -79,6 +80,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -105,6 +107,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -131,6 +134,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -157,6 +161,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -213,6 +218,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -239,6 +245,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -265,6 +272,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -291,6 +299,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -317,6 +326,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -343,6 +353,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,6 +380,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -395,6 +407,7 @@ export const JR_MITO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

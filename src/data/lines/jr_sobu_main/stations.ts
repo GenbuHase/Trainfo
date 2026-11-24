@@ -62,7 +62,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-03",
@@ -91,7 +92,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid"
-    ]
+    ],
+    "isMajor": true
   },
   {
     "id": "SM-04",
@@ -147,7 +149,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-06",
@@ -205,7 +208,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-08",
@@ -232,7 +236,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-09",
@@ -288,7 +293,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-11",
@@ -345,7 +351,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-13",
@@ -372,7 +379,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "limited_exp"
-    ]
+    ],
+    "isMajor": true
   },
   {
     "id": "SM-14",
@@ -398,7 +406,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-15",
@@ -452,7 +461,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-17",
@@ -507,7 +517,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "limited_exp"
-    ]
+    ],
+    "isMajor": true
   },
   {
     "id": "SM-19",
@@ -533,7 +544,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-20",
@@ -559,7 +571,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "SM-21",
@@ -587,7 +600,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": true
   },
   {
     "id": "SM-22",

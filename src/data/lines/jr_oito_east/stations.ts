@@ -437,7 +437,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     "lng": 137.8584757,
     "transfers": [],
     "address": "長野県北安曇郡松川村",
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

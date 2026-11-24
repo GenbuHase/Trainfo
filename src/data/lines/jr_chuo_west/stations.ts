@@ -100,7 +100,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -228,7 +228,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -563,7 +563,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "limited_exp",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -733,7 +733,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -896,7 +896,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

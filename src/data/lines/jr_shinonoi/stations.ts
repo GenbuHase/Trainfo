@@ -198,7 +198,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "lineId": "jr_shinonoi",
     "lat": 36.300706,
     "lng": 137.9412254,
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -367,7 +367,7 @@ export const SHINONOI_STATIONS: Station[] = [
     "lineId": "jr_shinonoi",
     "lat": 36.502817,
     "lng": 138.093209,
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

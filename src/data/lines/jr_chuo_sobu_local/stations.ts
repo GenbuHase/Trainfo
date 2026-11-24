@@ -60,7 +60,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-02",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-03",
@@ -89,6 +89,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-03"
   },
   {
@@ -120,7 +121,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-04",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-05",
@@ -149,6 +150,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-05"
   },
   {
@@ -178,6 +180,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-06"
   },
   {
@@ -209,7 +212,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-07",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-08",
@@ -238,6 +241,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-08"
   },
   {
@@ -265,6 +269,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-09"
   },
   {
@@ -337,6 +342,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-11"
   },
   {
@@ -366,6 +372,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-12"
   },
   {
@@ -393,6 +400,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-13"
   },
   {
@@ -457,7 +465,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-15",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-16",
@@ -519,6 +527,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-17"
   },
   {
@@ -551,7 +560,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-18",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-19",
@@ -613,6 +622,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-20"
   },
   {
@@ -642,6 +652,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-21"
   },
   {
@@ -703,6 +714,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-23"
   },
   {
@@ -730,6 +742,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-24"
   },
   {
@@ -760,7 +773,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-25",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-26",
@@ -787,6 +800,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-26"
   },
   {
@@ -817,7 +831,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-27",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-28",
@@ -847,6 +861,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "stationNumber": "JB-28"
   },
   {
@@ -874,6 +889,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-29"
   },
   {
@@ -967,6 +983,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-32"
   },
   {
@@ -1027,6 +1044,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-34"
   },
   {
@@ -1056,6 +1074,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-35"
   },
   {
@@ -1085,6 +1104,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-36"
   },
   {
@@ -1116,7 +1136,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JB-37",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JB-38",
@@ -1143,6 +1163,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JB-38"
   },
   {

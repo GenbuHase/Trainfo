@@ -57,6 +57,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-02"
   },
   {
@@ -84,6 +85,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-03"
   },
   {
@@ -111,6 +113,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-04"
   },
   {
@@ -138,6 +141,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-05"
   },
   {
@@ -165,6 +169,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-06"
   },
   {
@@ -192,6 +197,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-07"
   },
   {
@@ -249,6 +255,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-09"
   },
   {
@@ -277,7 +284,7 @@ export const TSURUMI_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JI-10",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JI-51",
@@ -304,6 +311,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JI-51"
   },
   {
@@ -332,7 +340,7 @@ export const TSURUMI_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JI-52",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JI-61",
@@ -359,6 +367,7 @@ export const TSURUMI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "stationNumber": "JI-61"
   }
 ];

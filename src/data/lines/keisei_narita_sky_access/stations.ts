@@ -62,7 +62,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -129,7 +129,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -161,7 +161,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -191,6 +191,7 @@ export const KEISEI_NARITA_SKY_ACCESS_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

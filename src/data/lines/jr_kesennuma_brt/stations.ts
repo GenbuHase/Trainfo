@@ -160,7 +160,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "stoppingTypes": [
       "brt"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -215,7 +215,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -243,7 +243,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -271,7 +271,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -299,7 +299,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -327,7 +327,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
       "brt",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -354,7 +354,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "stoppingTypes": [
       "brt"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

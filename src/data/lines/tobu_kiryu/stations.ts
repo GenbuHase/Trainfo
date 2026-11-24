@@ -169,7 +169,7 @@ export const TOBU_KIRYU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

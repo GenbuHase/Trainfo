@@ -65,6 +65,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,6 +127,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,6 +157,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -184,6 +187,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -245,6 +249,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -274,6 +279,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -303,6 +309,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -334,7 +341,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -366,7 +373,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -428,6 +435,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -457,6 +465,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -486,6 +495,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -515,6 +525,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -544,6 +555,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -605,6 +617,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -634,6 +647,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -663,6 +677,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -692,6 +707,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -721,6 +737,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -783,6 +800,7 @@ export const TOKYU_DENENTOSHI_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

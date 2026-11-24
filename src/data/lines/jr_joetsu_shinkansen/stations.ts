@@ -143,7 +143,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "toki",
       "tanigawa"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -267,7 +267,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
       "toki",
       "tanigawa"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -326,7 +326,7 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "stoppingTypes": [
       "toki"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

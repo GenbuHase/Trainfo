@@ -68,7 +68,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "special_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -102,7 +102,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -288,7 +288,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "special_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -398,7 +398,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "local",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

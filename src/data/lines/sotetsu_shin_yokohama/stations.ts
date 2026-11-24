@@ -67,7 +67,7 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "SO-08",

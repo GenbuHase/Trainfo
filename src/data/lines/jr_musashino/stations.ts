@@ -49,6 +49,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.680753,
     "lng": 139.471688,
@@ -111,6 +112,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.731214,
     "lng": 139.470657,
@@ -142,6 +144,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular",
       "limited_exp"
     ],
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.778382,
     "lng": 139.493752,
@@ -170,6 +173,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.795024,
     "lng": 139.514484,
@@ -198,6 +202,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.803766,
     "lng": 139.556185,
@@ -257,6 +262,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.844247,
     "lng": 139.627881,
@@ -349,6 +355,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.864001,
     "lng": 139.704201,
@@ -379,6 +386,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.875311,
     "lng": 139.744293,
@@ -439,6 +447,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.876295,
     "lng": 139.822273,
@@ -467,6 +476,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.876632,
     "lng": 139.84351,
@@ -496,6 +506,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular",
       "limited_exp"
     ],
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.868129,
     "lng": 139.858148,
@@ -524,6 +535,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.858844,
     "lng": 139.869213,
@@ -552,6 +564,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.844942,
     "lng": 139.886728,
@@ -582,6 +595,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.838791,
     "lng": 139.903371,
@@ -644,6 +658,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.791955,
     "lng": 139.938409,
@@ -675,6 +690,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.770279,
     "lng": 139.944018,
@@ -703,6 +719,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.755406,
     "lng": 139.951316,
@@ -731,6 +748,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.730895,
     "lng": 139.966657,
@@ -794,6 +812,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.66742,
     "lng": 139.92413,
@@ -816,7 +835,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR京葉線（東京方面）"
     ],
     "address": "千葉県船橋市若松二丁目",
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -894,6 +913,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.699222,
     "lng": 139.446532,
@@ -923,6 +943,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.8334733,
     "lng": 139.9311657,
@@ -953,6 +974,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.8116098,
     "lng": 139.9172261,
@@ -984,6 +1006,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.50958,
     "lng": 139.67649,
@@ -1023,6 +1046,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "limited_exp"
     ],
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.4657932,
     "lng": 139.6222892,

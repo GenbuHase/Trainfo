@@ -252,7 +252,7 @@ export const OME_STATIONS: Station[] = [
       "ome_special_rapid",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
