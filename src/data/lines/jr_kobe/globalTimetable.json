@@ -235,7 +235,9 @@
         "departureTime": "00:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2309_22870",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0005_38838",
@@ -631,6 +633,7 @@
     "direction": "inbound",
     "originStationId": "JR-A63",
     "destinationStationId": "JR-A47",
+    "customOrigin": "神戸",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -737,7 +740,9 @@
         "departureTime": "05:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0539_23803",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0500_23772",
@@ -972,7 +977,9 @@
         "departureTime": "06:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0600_18205",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0524_22910",
@@ -1091,7 +1098,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0506_22910",
+    "prevTripId": "WD_OUT_JR-A38_0458_22910",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -1211,7 +1218,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0516_22888",
+    "prevTripId": "WD_OUT_JR-A38_0508_22888",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -1489,7 +1496,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0524_22911",
+    "prevTripId": "WD_OUT_JR-A38_0516_22911",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -1608,7 +1615,9 @@
         "departureTime": "06:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0627_18207",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0551_22793",
@@ -1726,7 +1735,9 @@
         "departureTime": "06:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0502_22793",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0552_18208",
@@ -1844,7 +1855,9 @@
         "departureTime": "06:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0640_18208",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0557_10451",
@@ -2119,6 +2132,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_JR-A47_0608_17981",
+    "throughLineId": "jr_kyoto",
     "prevTripId": "WD_INB_jr_takarazuka-08_0537_17981",
     "prevLineId": "jr_takarazuka"
   },
@@ -2239,7 +2254,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0537_22890",
+    "prevTripId": "WD_OUT_JR-A38_0529_22890",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -2501,7 +2516,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0547_23786",
+    "prevTripId": "WD_OUT_JR-A38_0539_23786",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -2620,6 +2635,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A63",
     "customOrigin": "京都",
+    "customDestination": "神戸",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2725,7 +2741,9 @@
         "departureTime": "06:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0525_23782",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0614_30038",
@@ -3462,7 +3480,9 @@
         "departureTime": "07:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0709_18211",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0626_17983",
@@ -3618,7 +3638,9 @@
         "departureTime": "07:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0535_22796",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0629_18169",
@@ -3941,6 +3963,7 @@
     "direction": "inbound",
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
+    "customOrigin": "尼崎",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -3963,7 +3986,9 @@
         "departureTime": "06:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0647_23812",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0638_4284",
@@ -4321,7 +4346,9 @@
         "departureTime": "07:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0552_22798",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_0641_35084",
@@ -5057,6 +5084,7 @@
     "direction": "inbound",
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
+    "customOrigin": "尼崎",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -5079,7 +5107,9 @@
         "departureTime": "07:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0700_23813",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0652_22799",
@@ -5197,7 +5227,9 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0559_22799",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0653_39712",
@@ -5541,7 +5573,9 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0743_18214",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0656_3967",
@@ -5914,6 +5948,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A49",
     "customOrigin": "京都",
+    "customDestination": "尼崎",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -5935,7 +5970,9 @@
         "departureTime": "07:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0609_23777",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0703_37127",
@@ -6626,7 +6663,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0648_22892",
+    "prevTripId": "WD_OUT_JR-A38_0639_22892",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -6888,6 +6925,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "WD_INB_JR-A47_0725_40839",
+    "throughLineId": "jr_kyoto",
     "prevTripId": "WD_INB_jr_takarazuka-14_0624_40839",
     "prevLineId": "jr_takarazuka"
   },
@@ -7247,7 +7286,9 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0621_22801",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0718_18171",
@@ -7414,6 +7455,7 @@
     "direction": "inbound",
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
+    "customOrigin": "尼崎",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -7436,7 +7478,9 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0730_23814",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0722_23804",
@@ -7447,6 +7491,7 @@
     "direction": "inbound",
     "originStationId": "JR-A63",
     "destinationStationId": "JR-A47",
+    "customOrigin": "神戸",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -7553,7 +7598,9 @@
         "departureTime": "08:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0810_23804",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0722_22802",
@@ -7671,7 +7718,9 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0631_22802",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0722_3941",
@@ -8029,7 +8078,9 @@
         "departureTime": "08:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0816_18217",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0727_39724",
@@ -8343,7 +8394,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0708_23788",
+    "prevTripId": "WD_OUT_JR-A38_0659_23788",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -8978,7 +9029,9 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0644_22803",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_0737_35085",
@@ -9816,7 +9869,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0722_22895",
+    "prevTripId": "WD_OUT_JR-A38_0713_22895",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -10105,6 +10158,7 @@
     "direction": "inbound",
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
+    "customOrigin": "尼崎",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -10127,7 +10181,9 @@
         "departureTime": "07:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0757_23815",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0748_18218",
@@ -10245,7 +10301,9 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0836_18218",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0748_38839",
@@ -10634,7 +10692,9 @@
         "departureTime": "08:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0654_22804",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0752_17988",
@@ -11137,7 +11197,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0734_22896",
+    "prevTripId": "WD_OUT_JR-A38_0725_22896",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -11376,7 +11436,9 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0849_18219",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_0758_39567",
@@ -11508,6 +11570,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A49",
     "customOrigin": "京都",
+    "customDestination": "尼崎",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11529,7 +11592,9 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0706_23778",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0802_30041",
@@ -12161,7 +12226,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0744_22897",
+    "prevTripId": "WD_OUT_JR-A38_0735_22897",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -12447,6 +12512,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A49",
     "customOrigin": "京都",
+    "customDestination": "尼崎",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12468,7 +12534,9 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0716_23779",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0811_37170",
@@ -13053,7 +13121,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0754_22898",
+    "prevTripId": "WD_OUT_JR-A38_0745_22898",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -13504,7 +13572,9 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0726_22807",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0822_31808",
@@ -13968,7 +14038,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0804_23789",
+    "prevTripId": "WD_OUT_JR-A38_0755_23789",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -14837,7 +14907,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0814_23790",
+    "prevTripId": "WD_OUT_JR-A38_0805_23790",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -15441,7 +15511,9 @@
         "departureTime": "09:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0746_22810",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0842_30061",
@@ -15964,7 +16036,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0825_23791",
+    "prevTripId": "WD_OUT_JR-A38_0816_23791",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -16323,7 +16395,9 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0758_22811",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0852_23810",
@@ -16526,6 +16600,7 @@
     "direction": "inbound",
     "originStationId": "JR-A49",
     "destinationStationId": "JR-A47",
+    "customOrigin": "尼崎",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": false,
@@ -16548,7 +16623,9 @@
         "departureTime": "09:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_0907_23816",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A61_0900_41841",
@@ -17013,7 +17090,9 @@
         "departureTime": "09:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0807_22813",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_0903_39709",
@@ -17336,7 +17415,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0846_23792",
+    "prevTripId": "WD_OUT_JR-A38_0837_23792",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -17682,7 +17761,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0850_22899",
+    "prevTripId": "WD_OUT_JR-A38_0842_22899",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -18318,7 +18397,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_0859_22900",
+    "prevTripId": "WD_OUT_JR-A38_0850_22900",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -18755,6 +18834,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A51",
     "customOrigin": "京都",
+    "customDestination": "甲子園口",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18788,7 +18868,9 @@
         "departureTime": "09:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0831_23781",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A49_0928_30063",
@@ -19933,7 +20015,9 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0844_22785",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_0939_35166",
@@ -20973,7 +21057,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0857_22787",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_0953_35088",
@@ -21941,7 +22027,9 @@
         "departureTime": "10:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0917_22789",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1008_35095",
@@ -22984,7 +23072,9 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0932_22790",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1023_35154",
@@ -23988,7 +24078,9 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_0947_22791",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1038_35155",
@@ -24992,7 +25084,9 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1002_22792",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1053_35169",
@@ -26210,7 +26304,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1046_22871",
+    "prevTripId": "WD_OUT_JR-A38_1039_22871",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -27255,7 +27349,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1101_22872",
+    "prevTripId": "WD_OUT_JR-A38_1054_22872",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -28261,7 +28355,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1116_22873",
+    "prevTripId": "WD_OUT_JR-A38_1109_22873",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -29267,7 +29361,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1131_22874",
+    "prevTripId": "WD_OUT_JR-A38_1124_22874",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -30273,7 +30367,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1146_22875",
+    "prevTripId": "WD_OUT_JR-A38_1139_22875",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -31318,7 +31412,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1201_22876",
+    "prevTripId": "WD_OUT_JR-A38_1154_22876",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -32442,7 +32536,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1216_22877",
+    "prevTripId": "WD_OUT_JR-A38_1209_22877",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -33448,7 +33542,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1231_22878",
+    "prevTripId": "WD_OUT_JR-A38_1224_22878",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -34666,7 +34760,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1246_22879",
+    "prevTripId": "WD_OUT_JR-A38_1239_22879",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -35672,7 +35766,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1301_22880",
+    "prevTripId": "WD_OUT_JR-A38_1254_22880",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -36557,7 +36651,9 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1425_18273",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1338_22881",
@@ -36676,7 +36772,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1316_22881",
+    "prevTripId": "WD_OUT_JR-A38_1309_22881",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -37561,7 +37657,9 @@
         "departureTime": "14:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1440_18274",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1353_22882",
@@ -37680,7 +37778,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1331_22882",
+    "prevTripId": "WD_OUT_JR-A38_1324_22882",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -38565,7 +38663,9 @@
         "departureTime": "14:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1455_18275",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1408_22883",
@@ -38684,7 +38784,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1346_22883",
+    "prevTripId": "WD_OUT_JR-A38_1339_22883",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -39608,7 +39708,9 @@
         "departureTime": "15:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1510_18276",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1423_22884",
@@ -39727,7 +39829,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1401_22884",
+    "prevTripId": "WD_OUT_JR-A38_1354_22884",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -40718,7 +40820,9 @@
         "departureTime": "15:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1525_18277",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1438_22885",
@@ -40837,7 +40941,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1416_22885",
+    "prevTripId": "WD_OUT_JR-A38_1409_22885",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -41722,7 +41826,9 @@
         "departureTime": "15:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1540_18278",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1453_22886",
@@ -41841,7 +41947,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1431_22886",
+    "prevTripId": "WD_OUT_JR-A38_1424_22886",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -42832,7 +42938,9 @@
         "departureTime": "15:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1555_18279",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1508_22901",
@@ -42951,7 +43059,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1446_22901",
+    "prevTripId": "WD_OUT_JR-A38_1439_22901",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -43875,7 +43983,9 @@
         "departureTime": "16:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1610_18280",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1523_22904",
@@ -43994,7 +44104,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1501_22904",
+    "prevTripId": "WD_OUT_JR-A38_1454_22904",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -44879,7 +44989,9 @@
         "departureTime": "16:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1625_18283",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1538_22906",
@@ -44998,7 +45110,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1516_22906",
+    "prevTripId": "WD_OUT_JR-A38_1509_22906",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -45883,7 +45995,9 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1640_18284",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1553_22908",
@@ -46002,7 +46116,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_1531_22908",
+    "prevTripId": "WD_OUT_JR-A38_1524_22908",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -46887,7 +47001,9 @@
         "departureTime": "16:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1655_18285",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1608_22817",
@@ -47005,7 +47121,9 @@
         "departureTime": "16:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1517_22817",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1608_35103",
@@ -47928,7 +48046,9 @@
         "departureTime": "17:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1710_18220",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1623_22819",
@@ -48046,7 +48166,9 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1532_22819",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1623_35083",
@@ -49000,7 +49122,9 @@
         "departureTime": "17:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1725_18223",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1638_22821",
@@ -49118,7 +49242,9 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1547_22821",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1638_35157",
@@ -50121,7 +50247,9 @@
         "departureTime": "17:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1740_18224",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1653_22823",
@@ -50239,7 +50367,9 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1601_22823",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1653_35105",
@@ -51193,7 +51323,9 @@
         "departureTime": "17:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1755_18226",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1708_22825",
@@ -51311,7 +51443,9 @@
         "departureTime": "17:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1616_22825",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1708_35107",
@@ -52234,7 +52368,9 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1810_18229",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1723_22827",
@@ -52352,7 +52488,9 @@
         "departureTime": "18:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1631_22827",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1723_35109",
@@ -53306,7 +53444,9 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1825_18231",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1738_22829",
@@ -53424,7 +53564,9 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1646_22829",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1738_35111",
@@ -54425,7 +54567,9 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1840_18233",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1753_22831",
@@ -54543,7 +54687,9 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1658_22831",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1753_35113",
@@ -55626,7 +55772,9 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1855_18234",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1808_22833",
@@ -55744,7 +55892,9 @@
         "departureTime": "18:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1713_22833",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1808_35115",
@@ -56784,7 +56934,9 @@
         "departureTime": "19:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1910_18235",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1823_22835",
@@ -56902,7 +57054,9 @@
         "departureTime": "19:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1728_22835",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1823_35117",
@@ -57985,7 +58139,9 @@
         "departureTime": "19:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1925_18236",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1838_22837",
@@ -58103,7 +58259,9 @@
         "departureTime": "19:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1743_22837",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1838_35119",
@@ -59108,7 +59266,9 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1940_18237",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1853_22839",
@@ -59226,7 +59386,9 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1758_22839",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1853_35121",
@@ -60192,7 +60354,9 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_1955_18239",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1908_22841",
@@ -60310,7 +60474,9 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1813_22841",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1908_35123",
@@ -61303,7 +61469,9 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2010_18240",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1923_22843",
@@ -61421,7 +61589,9 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1828_22843",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1923_35125",
@@ -62308,7 +62478,9 @@
         "departureTime": "20:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2025_18241",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1938_22845",
@@ -62426,7 +62598,9 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1843_22845",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1938_35127",
@@ -63428,7 +63602,9 @@
         "departureTime": "20:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2040_18242",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_1953_22847",
@@ -63546,7 +63722,9 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1858_22847",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_1953_35129",
@@ -64515,7 +64693,9 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2055_18244",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2008_22849",
@@ -64633,7 +64813,9 @@
         "departureTime": "20:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1913_22849",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_2008_35131",
@@ -65517,7 +65699,9 @@
         "departureTime": "21:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2110_18245",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2023_22851",
@@ -65635,7 +65819,9 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1928_22851",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_2023_35133",
@@ -66640,7 +66826,9 @@
         "departureTime": "21:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2125_18247",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2038_22853",
@@ -66758,7 +66946,9 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1943_22853",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_2038_35135",
@@ -67715,7 +67905,9 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2140_18249",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2053_22854",
@@ -67833,7 +68025,9 @@
         "departureTime": "21:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_1958_22854",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_2053_35137",
@@ -68681,7 +68875,9 @@
         "departureTime": "21:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2155_18251",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2108_22856",
@@ -68799,7 +68995,9 @@
         "departureTime": "21:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2013_22856",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_2108_35139",
@@ -69683,7 +69881,9 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2212_18253",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A49_2123_35140",
@@ -69907,7 +70107,9 @@
         "departureTime": "22:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2028_22858",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2129_40540",
@@ -70688,6 +70890,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A63",
     "customOrigin": "京都",
+    "customDestination": "神戸",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -70793,7 +70996,9 @@
         "departureTime": "22:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2043_23784",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2140_18254",
@@ -70911,7 +71116,9 @@
         "departureTime": "22:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2232_18254",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2145_39744",
@@ -71675,7 +71882,9 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2058_22860",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2156_10496",
@@ -71913,7 +72122,9 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2252_18256",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2200_10378",
@@ -72521,7 +72732,9 @@
         "departureTime": "22:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2117_22862",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2213_10441",
@@ -72915,7 +73128,9 @@
         "departureTime": "23:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2313_18258",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2220_10340",
@@ -73779,7 +73994,9 @@
         "departureTime": "23:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2137_22864",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2233_10442",
@@ -74797,7 +75014,9 @@
         "departureTime": "23:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2155_22865",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2253_10444",
@@ -75741,7 +75960,9 @@
         "departureTime": "23:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2217_22868",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_OUT_JR-A47_2320_4000",
@@ -75979,7 +76200,9 @@
         "departureTime": "00:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JR-A31_2235_22869",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2331_37125",
@@ -76476,10 +76699,12 @@
       {
         "stationId": "JR-A47",
         "arrivalTime": "23:48:00",
-        "departureTime": "00:00:00",
+        "departureTime": "23:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JR-A47_2355_23817",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "WD_INB_JR-A63_2347_38837",
@@ -76748,7 +76973,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_JR-A41_2325_22909",
+    "prevTripId": "WD_OUT_JR-A38_2317_22909",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -77023,7 +77248,9 @@
         "departureTime": "00:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2309_22870",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_0005_38838",
@@ -77419,6 +77646,7 @@
     "direction": "inbound",
     "originStationId": "JR-A63",
     "destinationStationId": "JR-A47",
+    "customOrigin": "神戸",
     "customDestination": "京都",
     "cars": 8,
     "isHoliday": true,
@@ -77525,7 +77753,9 @@
         "departureTime": "05:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0539_23803",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_0500_23771",
@@ -77760,7 +77990,9 @@
         "departureTime": "05:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0557_18204",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_0524_22887",
@@ -77879,7 +78111,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0506_22887",
+    "prevTripId": "HD_OUT_JR-A38_0458_22887",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -77998,7 +78230,9 @@
         "departureTime": "06:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0612_18206",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_0537_17982",
@@ -78275,7 +78509,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0521_22889",
+    "prevTripId": "HD_OUT_JR-A38_0513_22889",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -78500,7 +78734,9 @@
         "departureTime": "06:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0502_22794",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_0559_18209",
@@ -78618,7 +78854,9 @@
         "departureTime": "06:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0648_18209",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_0600_10371",
@@ -78773,7 +79011,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0539_23785",
+    "prevTripId": "HD_OUT_JR-A38_0531_23785",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -79045,7 +79283,9 @@
         "departureTime": "06:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0524_22795",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_0614_30038",
@@ -79199,7 +79439,9 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0702_18210",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_0618_23793",
@@ -79629,6 +79871,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A51",
     "customOrigin": "京都",
+    "customDestination": "甲子園口",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -79662,7 +79905,9 @@
         "departureTime": "06:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0535_23780",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_0629_18212",
@@ -79780,7 +80025,9 @@
         "departureTime": "07:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0715_18212",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_0630_29993",
@@ -80229,7 +80476,9 @@
         "departureTime": "07:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0551_22797",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0641_35089",
@@ -80453,7 +80702,9 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0730_18213",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_0643_23806",
@@ -80764,7 +81015,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0626_23787",
+    "prevTripId": "HD_OUT_JR-A38_0618_23787",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -81058,7 +81309,9 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0600_22800",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_0657_17984",
@@ -81214,7 +81467,9 @@
         "departureTime": "07:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0746_18215",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_0701_39707",
@@ -81905,7 +82160,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0645_22891",
+    "prevTripId": "HD_OUT_JR-A38_0637_22891",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -82060,7 +82315,9 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_0801_18216",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_0713_23807",
@@ -82823,7 +83080,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0700_22893",
+    "prevTripId": "HD_OUT_JR-A38_0652_22893",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -83821,7 +84078,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_0714_22894",
+    "prevTripId": "HD_OUT_JR-A38_0706_22894",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -84955,7 +85212,9 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0700_22805",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0753_35091",
@@ -85959,7 +86218,9 @@
         "departureTime": "08:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0715_22806",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0808_35160",
@@ -86100,6 +86361,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_JR-A47_0825_18041",
+    "throughLineId": "jr_kyoto",
     "prevTripId": "HD_INB_jr_takarazuka-14_0719_18041",
     "prevLineId": "jr_takarazuka"
   },
@@ -87078,7 +87341,9 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0730_22808",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0823_35087",
@@ -87219,6 +87484,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_JR-A47_0840_18042",
+    "throughLineId": "jr_kyoto",
     "prevTripId": "HD_INB_jr_takarazuka-14_0734_18042",
     "prevLineId": "jr_takarazuka"
   },
@@ -88083,7 +88350,9 @@
         "departureTime": "09:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0745_22809",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0838_35161",
@@ -88224,6 +88493,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_JR-A47_0855_18043",
+    "throughLineId": "jr_kyoto",
     "prevTripId": "HD_INB_jr_takarazuka-14_0746_18043",
     "prevLineId": "jr_takarazuka"
   },
@@ -89085,7 +89356,9 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0800_22812",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0853_35092",
@@ -89226,6 +89499,8 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_JR-A47_0910_18044",
+    "throughLineId": "jr_kyoto",
     "prevTripId": "HD_INB_jr_takarazuka-14_0807_18044",
     "prevLineId": "jr_takarazuka"
   },
@@ -90194,7 +90469,9 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0815_22814",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0908_35164",
@@ -91201,7 +91478,9 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0830_22815",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0923_35093",
@@ -92435,7 +92714,9 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0845_22786",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_0938_37449",
@@ -93557,7 +93838,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0900_22788",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_0953_35094",
@@ -94561,7 +94844,9 @@
         "departureTime": "10:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0917_22789",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1008_35167",
@@ -95640,7 +95925,9 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0932_22790",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1023_35096",
@@ -96644,7 +96931,9 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_0947_22791",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1038_35168",
@@ -97684,7 +97973,9 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1002_22792",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1053_35097",
@@ -98902,7 +99193,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1046_22871",
+    "prevTripId": "HD_OUT_JR-A38_1039_22871",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -99983,7 +100274,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1101_22872",
+    "prevTripId": "HD_OUT_JR-A38_1054_22872",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -100989,7 +101280,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1116_22873",
+    "prevTripId": "HD_OUT_JR-A38_1109_22873",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -101995,7 +102286,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1131_22874",
+    "prevTripId": "HD_OUT_JR-A38_1124_22874",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -103001,7 +103292,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1146_22875",
+    "prevTripId": "HD_OUT_JR-A38_1139_22875",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -104046,7 +104337,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1201_22876",
+    "prevTripId": "HD_OUT_JR-A38_1154_22876",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -105170,7 +105461,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1216_22877",
+    "prevTripId": "HD_OUT_JR-A38_1209_22877",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -106176,7 +106467,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1231_22878",
+    "prevTripId": "HD_OUT_JR-A38_1224_22878",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -107394,7 +107685,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1246_22879",
+    "prevTripId": "HD_OUT_JR-A38_1239_22879",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -108400,7 +108691,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1301_22880",
+    "prevTripId": "HD_OUT_JR-A38_1254_22880",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -109285,7 +109576,9 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1425_18273",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1338_22881",
@@ -109404,7 +109697,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1316_22881",
+    "prevTripId": "HD_OUT_JR-A38_1309_22881",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -110289,7 +110582,9 @@
         "departureTime": "14:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1440_18274",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1353_22882",
@@ -110408,7 +110703,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1331_22882",
+    "prevTripId": "HD_OUT_JR-A38_1324_22882",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -111293,7 +111588,9 @@
         "departureTime": "14:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1455_18275",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1408_22883",
@@ -111412,7 +111709,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1346_22883",
+    "prevTripId": "HD_OUT_JR-A38_1339_22883",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -112336,7 +112633,9 @@
         "departureTime": "15:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1510_18276",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1423_22884",
@@ -112455,7 +112754,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1401_22884",
+    "prevTripId": "HD_OUT_JR-A38_1354_22884",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -113446,7 +113745,9 @@
         "departureTime": "15:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1525_18277",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1438_22885",
@@ -113565,7 +113866,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1416_22885",
+    "prevTripId": "HD_OUT_JR-A38_1409_22885",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -114450,7 +114751,9 @@
         "departureTime": "15:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1540_18278",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1453_22886",
@@ -114569,7 +114872,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1431_22886",
+    "prevTripId": "HD_OUT_JR-A38_1424_22886",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -115560,7 +115863,9 @@
         "departureTime": "15:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1555_18279",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1508_22902",
@@ -115679,7 +115984,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1446_22902",
+    "prevTripId": "HD_OUT_JR-A38_1439_22902",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -116603,7 +116908,9 @@
         "departureTime": "16:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1610_18281",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1523_22903",
@@ -116722,7 +117029,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1501_22903",
+    "prevTripId": "HD_OUT_JR-A38_1454_22903",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -117607,7 +117914,9 @@
         "departureTime": "16:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1625_18282",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1538_22905",
@@ -117726,7 +118035,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1516_22905",
+    "prevTripId": "HD_OUT_JR-A38_1509_22905",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -118611,7 +118920,9 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1640_18284",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1553_22907",
@@ -118730,7 +119041,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_1531_22907",
+    "prevTripId": "HD_OUT_JR-A38_1524_22907",
     "prevLineId": "jr_kyoto"
   },
   {
@@ -119615,7 +119926,9 @@
         "departureTime": "16:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1655_18285",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1608_22816",
@@ -119733,7 +120046,9 @@
         "departureTime": "16:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1517_22816",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1608_35102",
@@ -120656,7 +120971,9 @@
         "departureTime": "17:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1710_18221",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1623_22818",
@@ -120774,7 +121091,9 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1532_22818",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1623_35082",
@@ -121728,7 +122047,9 @@
         "departureTime": "17:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1725_18222",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1638_22820",
@@ -121846,7 +122167,9 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1547_22820",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1638_35156",
@@ -122849,7 +123172,9 @@
         "departureTime": "17:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1740_18225",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1653_22822",
@@ -122967,7 +123292,9 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1601_22822",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1653_35104",
@@ -123921,7 +124248,9 @@
         "departureTime": "17:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1755_18227",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1708_22824",
@@ -124039,7 +124368,9 @@
         "departureTime": "17:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1616_22824",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1708_35106",
@@ -124962,7 +125293,9 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1810_18228",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1723_22826",
@@ -125080,7 +125413,9 @@
         "departureTime": "18:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1631_22826",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1723_35108",
@@ -126034,7 +126369,9 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1825_18230",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1738_22828",
@@ -126152,7 +126489,9 @@
         "departureTime": "18:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1646_22828",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1738_35110",
@@ -127036,7 +127375,9 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1840_18232",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1753_22830",
@@ -127154,7 +127495,9 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1658_22830",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1753_35112",
@@ -128120,7 +128463,9 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1855_18234",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1808_22832",
@@ -128238,7 +128583,9 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1713_22832",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1808_35114",
@@ -129161,7 +129508,9 @@
         "departureTime": "19:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1910_18235",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1823_22834",
@@ -129279,7 +129628,9 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1728_22834",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1823_35116",
@@ -130245,7 +130596,9 @@
         "departureTime": "19:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1925_18236",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1838_22836",
@@ -130363,7 +130716,9 @@
         "departureTime": "19:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1743_22836",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1838_35118",
@@ -131247,7 +131602,9 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1940_18238",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1853_22838",
@@ -131365,7 +131722,9 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1758_22838",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1853_35120",
@@ -132331,7 +132690,9 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_1955_18239",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1908_22840",
@@ -132449,7 +132810,9 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1813_22840",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1908_35122",
@@ -133442,7 +133805,9 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2010_18240",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1923_22842",
@@ -133560,7 +133925,9 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1828_22842",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1923_35124",
@@ -134447,7 +134814,9 @@
         "departureTime": "20:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2025_18241",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1938_22844",
@@ -134565,7 +134934,9 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1843_22844",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1938_35126",
@@ -135567,7 +135938,9 @@
         "departureTime": "20:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2040_18242",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_1953_22846",
@@ -135685,7 +136058,9 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1858_22846",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_1953_35128",
@@ -136533,7 +136908,9 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2055_18243",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2008_22848",
@@ -136651,7 +137028,9 @@
         "departureTime": "20:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1913_22848",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_2008_35130",
@@ -137535,7 +137914,9 @@
         "departureTime": "21:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2112_18246",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2023_22850",
@@ -137653,7 +138034,9 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1928_22850",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_2023_35132",
@@ -138658,7 +139041,9 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1943_22852",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_2038_35134",
@@ -138882,7 +139267,9 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2132_18248",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2045_39742",
@@ -139627,7 +140014,9 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_1958_22855",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A49_2053_35136",
@@ -139971,7 +140360,9 @@
         "departureTime": "21:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2152_18250",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2100_10384",
@@ -140579,7 +140970,9 @@
         "departureTime": "21:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2013_22857",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_2113_10411",
@@ -140973,7 +141366,9 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2212_18252",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2120_40840",
@@ -141490,6 +141885,7 @@
     "originStationId": "JR-A47",
     "destinationStationId": "JR-A63",
     "customOrigin": "京都",
+    "customDestination": "神戸",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -141595,7 +141991,9 @@
         "departureTime": "22:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2037_23783",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_2133_10448",
@@ -142109,7 +142507,9 @@
         "departureTime": "22:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2232_18255",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A49_2147_30026",
@@ -142633,7 +143033,9 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2057_22859",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_2153_10440",
@@ -142991,7 +143393,9 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2252_18257",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2200_10379",
@@ -143561,7 +143965,9 @@
         "departureTime": "22:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2117_22861",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_2213_10408",
@@ -143955,7 +144361,9 @@
         "departureTime": "23:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2313_18259",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2220_3953",
@@ -144819,7 +145227,9 @@
         "departureTime": "23:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2137_22863",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_2233_10443",
@@ -145837,7 +146247,9 @@
         "departureTime": "23:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2157_22866",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_INB_JR-A63_2300_10414",
@@ -146192,10 +146604,12 @@
       {
         "stationId": "JR-A47",
         "arrivalTime": "23:48:00",
-        "departureTime": "00:00:00",
+        "departureTime": "23:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JR-A47_2355_18260",
+    "throughLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2310_3937",
@@ -146659,7 +147073,9 @@
         "departureTime": "23:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JR-A31_2217_22867",
+    "prevLineId": "jr_kyoto"
   },
   {
     "tripId": "HD_OUT_JR-A47_2320_4001",
@@ -147500,7 +147916,7 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_JR-A41_2325_22909",
+    "prevTripId": "HD_OUT_JR-A38_2317_22909",
     "prevLineId": "jr_kyoto"
   },
   {

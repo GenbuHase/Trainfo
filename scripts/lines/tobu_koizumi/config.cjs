@@ -8,6 +8,11 @@ module.exports = {
     globalTimetable: 'src/data/lines/tobu_koizumi/globalTimetable.json',
   },
   directStops: true,
+  resolveDirection: (firstSt, lastSt) => (firstSt.number < lastSt.number ? 'outbound' : 'inbound'),
+  junctionPassingRules: [
+    { fromId: 'TI-44', toId: 'TI-47', viaIds: [] },
+    { fromId: 'TI-47', toId: 'TI-44', viaIds: [] },
+  ],
   stations: [
     {
       "id": "TI-10",
@@ -73,7 +78,10 @@ module.exports = {
       "outGroupId": null
     }
   ],
-  stationNameAliases: {},
+  stationNameAliases: {
+    "太田(群馬県)": "太田",
+    "太田（群馬県）": "太田"
+  },
   trainTypeMap: {
   "普通": "local",
   "各駅停車": "local",
