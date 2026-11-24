@@ -9,6 +9,7 @@ const { extendChuoHachiojiTakao } = require('./extend_chuo_hachioji_takao.cjs');
 const { bridgeBosoLimitedExpress } = require('./bridgeBosoLimitedExpress.cjs');
 const { bridgeNexAndAyame } = require('./bridgeNexAndAyame.cjs');
 const { linkOdakyuLines } = require('./link_odakyu_lines.cjs');
+const { linkHanawaTohoku } = require('./linkHanawaTohoku.cjs');
 const { runAllCoupling } = require('./common/throughLinker/coupleAllExpress.cjs');
 const { rebuildAllStationTimetables } = require('./rebuildAllStationTimetables.cjs');
 
@@ -34,6 +35,7 @@ extendChuoHachiojiTakao();
 bridgeBosoLimitedExpress();
 bridgeNexAndAyame();
 linkOdakyuLines();
+linkHanawaTohoku();
 
 // 4. 直通リンク・時刻同期・End-to-End行先反映後の駅時刻表 (stationTimetables.json) を一括再集約
 rebuildAllStationTimetables();

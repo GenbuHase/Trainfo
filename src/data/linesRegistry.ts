@@ -263,6 +263,20 @@ import { jomoLine } from './lines/jomo';
 import { mokaLine } from './lines/moka';
 import { kashimaRinkaiLine } from './lines/kashima_rinkai';
 import { hitachinakaLine } from './lines/hitachinaka';
+import { yonesakaLine } from './lines/jr_yonesaka';
+import { aterazawaLine } from './lines/jr_aterazawa';
+import { hanawaLine } from './lines/jr_hanawa';
+import { sendaiSubwayNambokuLine } from './lines/sendai_subway_namboku';
+import { sendaiSubwayTozaiLine } from './lines/sendai_subway_tozai';
+import { sanrikuRiasLine } from './lines/sanriku_rias';
+import { konanKonanLine } from './lines/konan_konan';
+import { konanOwaniLine } from './lines/konan_owani';
+import { tsugaruRailwayLine } from './lines/tsugaru_railway';
+import { akitaNairikuLine } from './lines/akita_nairiku';
+import { yuriKogenLine } from './lines/yuri_kogen';
+import { yamagataFlowerNagaiLine } from './lines/yamagata_flower_nagai';
+import { abukumaExpressLine } from './lines/abukuma_express';
+import { fukushimaIizakaLine } from './lines/fukushima_iizaka';
 
 
 // 登録路線マップ（新幹線・主要幹線・都市圏路線・ローカル線の自然な順序）
@@ -358,6 +372,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   jr_kamaishi: kamaishiLine,
   jr_yamada: yamadaLine,
   jr_hachinohe: hachinoheLine,
+  jr_hanawa: hanawaLine,
   jr_ominato: ominatoLine,
   jr_tsugaru: tsugaruLine,
   jr_gono: gonoLine,
@@ -367,6 +382,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   jr_banetsu_east: banetsuEastLine,
   jr_banetsu_west: banetsuWestLine,
   jr_tadami: tadamiLine,
+  jr_yonesaka: yonesakaLine,
+  jr_aterazawa: aterazawaLine,
   jr_rikuu_east: rikuuEastLine,
   jr_rikuu_west: rikuuWestLine,
   jr_kesennuma: kesennumaLine,
@@ -616,6 +633,35 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
 
   // === 仙台空港鉄道 ===
   sendai_airport: sendaiAirportLine,
+
+  // === 仙台市交通局（仙台市地下鉄） ===
+  sendai_subway_namboku: sendaiSubwayNambokuLine,
+  sendai_subway_tozai: sendaiSubwayTozaiLine,
+
+  // === 三陸鉄道 ===
+  sanriku_rias: sanrikuRiasLine,
+
+  // === 弘南鉄道 ===
+  konan_konan: konanKonanLine,
+  konan_owani: konanOwaniLine,
+
+  // === 津軽鉄道 ===
+  tsugaru_railway: tsugaruRailwayLine,
+
+  // === 秋田内陸縦貫鉄道 ===
+  akita_nairiku: akitaNairikuLine,
+
+  // === 由利高原鉄道 ===
+  yuri_kogen: yuriKogenLine,
+
+  // === 山形鉄道 ===
+  yamagata_flower_nagai: yamagataFlowerNagaiLine,
+
+  // === 阿武隈急行 ===
+  abukuma_express: abukumaExpressLine,
+
+  // === 福島交通 ===
+  fukushima_iizaka: fukushimaIizakaLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -693,6 +739,15 @@ export const OPERATOR_DISPLAY_ORDER = [
   'IGRいわて銀河鉄道',
   '青い森鉄道',
   '仙台空港鉄道',
+  '仙台市交通局',
+  '阿武隈急行',
+  '福島交通',
+  '山形鉄道',
+  '三陸鉄道',
+  '由利高原鉄道',
+  '秋田内陸縦貫鉄道',
+  '弘南鉄道',
+  '津軽鉄道',
 ];
 
 // 運行会社ごとにグループ化した路線リストを取得
@@ -991,6 +1046,20 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   moka: 'kanto',
   kashima_rinkai: 'kanto',
   hitachinaka: 'kanto',
+  jr_yonesaka: 'tohoku',
+  jr_aterazawa: 'tohoku',
+  jr_hanawa: 'tohoku',
+  sendai_subway_namboku: 'tohoku',
+  sendai_subway_tozai: 'tohoku',
+  sanriku_rias: 'tohoku',
+  konan_konan: 'tohoku',
+  konan_owani: 'tohoku',
+  tsugaru_railway: 'tohoku',
+  akita_nairiku: 'tohoku',
+  yuri_kogen: 'tohoku',
+  yamagata_flower_nagai: 'tohoku',
+  abukuma_express: 'tohoku',
+  fukushima_iizaka: 'tohoku',
 };
 
 export const AREA_INFO: Record<RegionArea, { name: string; icon: string }> = {
@@ -1070,10 +1139,19 @@ export const AREA_OPERATOR_ORDER: Record<RegionArea, string[]> = {
   tohoku: [
     'JR東日本',
     '仙台空港鉄道',
-    'IGRいわて銀河鉄道',
-    '青い森鉄道',
+    '仙台市交通局',
+    '阿武隈急行',
+    '福島交通',
+    '山形鉄道',
     '野岩鉄道',
     '会津鉄道',
+    '三陸鉄道',
+    'IGRいわて銀河鉄道',
+    '青い森鉄道',
+    '由利高原鉄道',
+    '秋田内陸縦貫鉄道',
+    '弘南鉄道',
+    '津軽鉄道',
   ],
   tokai: [
     'JR東海',
@@ -1336,15 +1414,26 @@ export function calculateBoundsForLines(selectedLineIds: LineId[]): [[number, nu
   ];
 }
 
-// 同一駅名を持つ他路線の乗換駅候補リストを取得
+// 同一駅名または隣接接続異名駅ペア（例: 大鰐↔大鰐温泉, 津軽五所川原↔五所川原, 鷹巣↔鷹ノ巣）
+const ADJACENT_STATION_ALIASES: Record<string, string[]> = {
+  '大鰐': ['大鰐温泉'],
+  '大鰐温泉': ['大鰐'],
+  '津軽五所川原': ['五所川原'],
+  '五所川原': ['津軽五所川原'],
+  '鷹巣': ['鷹ノ巣'],
+  '鷹ノ巣': ['鷹巣'],
+};
+
+// 同一駅名（および隣接接続異名駅）を持つ他路線の乗換駅候補リストを取得
 export function getAlternateStations(
   station: Station | null | undefined
 ): { station: Station; lineName: string }[] {
   if (!station) return [];
+  const aliasSet = new Set(ADJACENT_STATION_ALIASES[station.name] || []);
   const results: { station: Station; lineName: string }[] = [];
   for (const line of getAllLines()) {
     if (line.id !== station.lineId) {
-      const found = line.stations.find((s) => s.name === station.name);
+      const found = line.stations.find((s) => s.name === station.name || aliasSet.has(s.name));
       if (found) {
         results.push({ station: found, lineName: line.name });
       }

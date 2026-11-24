@@ -2321,6 +2321,26 @@ module.exports = {
       "maxTimeDiff": 600
     },
     {
+      "name": "阿武隈急行線 -> JR東北本線（福島～仙台） (下り 槻木経由 仙台方面直通)",
+      "lineA": "abukuma_express",
+      "lineB": "jr_tohoku_fukushima_sendai",
+      "stationA": "ABK-24",
+      "stationB": "TFS-13",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "JR東北本線（福島～仙台） -> 阿武隈急行線 (上り 槻木経由 丸森・梁川方面直通)",
+      "lineA": "jr_tohoku_fukushima_sendai",
+      "lineB": "abukuma_express",
+      "stationA": "TFS-13",
+      "stationB": "ABK-24",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
       "name": "JR東北本線（仙台～一ノ関） -> JR仙石東北ライン (下り 塩釜経由 高城町・石巻方面直通)",
       "lineA": "jr_tohoku_sendai_ichinoseki",
       "lineB": "jr_senseki_tohoku",

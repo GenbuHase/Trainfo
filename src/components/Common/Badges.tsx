@@ -478,6 +478,16 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   ID: { borderColor: '#0073be', prefixColor: '#0073be', numColor: '#00528a' },
   AK: { borderColor: '#2e7d32', prefixColor: '#2e7d32', numColor: '#1b5e20' },
   BE: { borderColor: '#1a237e', prefixColor: '#1a237e', numColor: '#0d1454' },
+  // 弘南鉄道大鰐線
+  KW: { borderColor: '#d70a19', prefixColor: '#d70a19', numColor: '#a30712' },
+};
+
+// 他事業者と同記号（N/T/KK等）が重複する路線の路線ID別駅ナンバリング配色
+const LINE_STATION_BADGE_COLORS: Partial<Record<string, StationBadgeColor>> = {
+  sendai_subway_namboku: { borderColor: '#317c66', prefixColor: '#317c66', numColor: '#215948' },
+  sendai_subway_tozai: { borderColor: '#00b1dd', prefixColor: '#00b1dd', numColor: '#007ca0' },
+  konan_konan: { borderColor: '#000000', prefixColor: '#000000', numColor: '#1e293b' },
+  konan_owani: { borderColor: '#d70a19', prefixColor: '#d70a19', numColor: '#a30712' },
 };
 
 
@@ -491,8 +501,9 @@ const DEFAULT_BADGE_COLOR: StationBadgeColor = {
 export const StationBadge: React.FC<{
   id?: string;
   stationNumber?: string;
+  lineId?: LineId;
   size?: 'sm' | 'md' | 'lg';
-}> = ({ id, stationNumber, size = 'md' }) => {
+}> = ({ id, stationNumber, lineId, size = 'md' }) => {
   const badgeId = stationNumber || id;
   if (!badgeId) return null;
 
@@ -526,6 +537,7 @@ export const StationBadge: React.FC<{
     }
   }
   const badgeColor =
+    (lineId ? LINE_STATION_BADGE_COLORS[lineId] : null) ||
     (badgeId.startsWith('JR-') ? STATION_BADGE_COLORS[`JR-${prefix}`] : null) ||
     STATION_BADGE_COLORS[prefix] ||
     DEFAULT_BADGE_COLOR;

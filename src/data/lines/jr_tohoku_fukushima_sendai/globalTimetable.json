@@ -1564,7 +1564,8 @@
     "direction": "outbound",
     "originStationId": "TFS-13",
     "destinationStationId": "TFS-20",
-    "customOrigin": "梁川(福島県)",
+    "customOrigin": "梁川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1616,7 +1617,9 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_ABK-12_0612_41730",
+    "prevLineId": "abukuma_express"
   },
   {
     "tripId": "WD_OUT_TFS-08_0705_7197",
@@ -2555,7 +2558,8 @@
     "direction": "inbound",
     "originStationId": "TFS-20",
     "destinationStationId": "TFS-13",
-    "customDestination": "梁川(福島県)",
+    "customOrigin": "仙台",
+    "customDestination": "梁川",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2607,7 +2611,9 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_ABK-24_0826_40686",
+    "throughLineId": "abukuma_express"
   },
   {
     "tripId": "WD_OUT_TFS-14_0759_7169",
@@ -10696,7 +10702,8 @@
     "direction": "outbound",
     "originStationId": "TFS-13",
     "destinationStationId": "TFS-20",
-    "customOrigin": "梁川(福島県)",
+    "customOrigin": "梁川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10748,7 +10755,9 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_ABK-12_1649_41731",
+    "prevLineId": "abukuma_express"
   },
   {
     "tripId": "WD_INB_TFS-20_1745_24797",
@@ -11295,7 +11304,8 @@
     "direction": "inbound",
     "originStationId": "TFS-20",
     "destinationStationId": "TFS-13",
-    "customDestination": "梁川(福島県)",
+    "customOrigin": "仙台",
+    "customDestination": "梁川",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11347,7 +11357,9 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_ABK-24_1851_40687",
+    "throughLineId": "abukuma_express"
   },
   {
     "tripId": "WD_INB_TFS-20_1830_9930",
@@ -16302,7 +16314,8 @@
     "direction": "outbound",
     "originStationId": "TFS-13",
     "destinationStationId": "TFS-20",
-    "customOrigin": "梁川(福島県)",
+    "customOrigin": "梁川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16354,7 +16367,9 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_ABK-12_0612_41730",
+    "prevLineId": "abukuma_express"
   },
   {
     "tripId": "HD_OUT_TFS-08_0705_7197",
@@ -17237,7 +17252,8 @@
     "direction": "inbound",
     "originStationId": "TFS-20",
     "destinationStationId": "TFS-13",
-    "customDestination": "梁川(福島県)",
+    "customOrigin": "仙台",
+    "customDestination": "梁川",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17289,7 +17305,9 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_ABK-24_0826_40686",
+    "throughLineId": "abukuma_express"
   },
   {
     "tripId": "HD_INB_TFS-20_0802_24769",
@@ -25322,7 +25340,8 @@
     "direction": "outbound",
     "originStationId": "TFS-13",
     "destinationStationId": "TFS-20",
-    "customOrigin": "梁川(福島県)",
+    "customOrigin": "梁川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25374,7 +25393,9 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_ABK-12_1649_41731",
+    "prevLineId": "abukuma_express"
   },
   {
     "tripId": "HD_INB_TFS-20_1745_24797",
@@ -25921,7 +25942,8 @@
     "direction": "inbound",
     "originStationId": "TFS-20",
     "destinationStationId": "TFS-13",
-    "customDestination": "梁川(福島県)",
+    "customOrigin": "仙台",
+    "customDestination": "梁川",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25973,7 +25995,9 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_ABK-24_1851_40687",
+    "throughLineId": "abukuma_express"
   },
   {
     "tripId": "HD_INB_TFS-20_1830_9930",

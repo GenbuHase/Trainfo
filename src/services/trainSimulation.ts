@@ -549,7 +549,9 @@ export function calculateActiveTrains(
       const destA = train.customDestination || STATION_MAP.get(train.destinationStationId)?.name || train.destinationStationId;
       const destB = other.customDestination || STATION_MAP.get(other.destinationStationId)?.name || other.destinationStationId;
       if (destA !== destB) return false;
-      if (train.trainId && other.trainId && train.trainId !== other.trainId) return false;
+      const sameLine = train.lineId === other.lineId;
+      if (sameLine && train.trainId && other.trainId && train.trainId !== other.trainId) return false;
+      if (!sameLine && (!train.trainNumber || !other.trainNumber)) return false;
 
       // 異なる路線間で、共有駅（駅IDまたは物理駅名一致）が境界駅1駅のみの場合は直通接続であり同一区間重複ではない
       const sharedStationCount = other.stops.filter((s) => {
