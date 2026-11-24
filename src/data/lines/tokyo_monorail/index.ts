@@ -21,8 +21,8 @@ export const tokyoMonorailLine: LineDefinition = {
     "outbound": "羽田空港第2ターミナル方面",
     "inboundFull": "上り 浜松町方面",
     "outboundFull": "下り 羽田空港第2ターミナル方面",
-    "inboundShort": "浜松町方面",
-    "outboundShort": "羽田空港第2ターミナル方面"
+    "inboundShort": "上り（浜松町方面）",
+    "outboundShort": "下り（羽田空港第2ターミナル方面）"
 },
   stations: TOKYO_MONORAIL_STATIONS,
   trackSegments: TOKYO_MONORAIL_TRACK_SEGMENTS,

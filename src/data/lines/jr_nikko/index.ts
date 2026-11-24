@@ -21,8 +21,8 @@ export const jrNikkoLine: LineDefinition = {
     "outbound": "日光方面",
     "inboundFull": "上り 宇都宮方面",
     "outboundFull": "下り 日光方面",
-    "inboundShort": "宇都宮方面",
-    "outboundShort": "日光方面"
+    "inboundShort": "上り（宇都宮方面）",
+    "outboundShort": "下り（日光方面）"
 },
   stations: JR_NIKKO_STATIONS,
   trackSegments: JR_NIKKO_TRACK_SEGMENTS,

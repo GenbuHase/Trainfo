@@ -17,8 +17,8 @@ export const tazawakoLine: LineDefinition = {
     "outbound": "雫石・角館・大曲方面",
     "inboundFull": "上り 田沢湖・盛岡方面",
     "outboundFull": "下り 雫石・角館・大曲方面",
-    "inboundShort": "上り (盛岡方面)",
-    "outboundShort": "下り (大曲方面)"
+    "inboundShort": "上り（盛岡方面）",
+    "outboundShort": "下り（大曲方面）"
 },
   stations: TAZAWAKO_STATIONS,
   trackSegments: TAZAWAKO_TRACK_SEGMENTS,

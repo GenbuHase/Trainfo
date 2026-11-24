@@ -17,8 +17,8 @@ export const jrBantanLine: LineDefinition = {
   "outbound": "寺前・生野・和田山方面",
   "inboundFull": "上り 福崎・姫路方面",
   "outboundFull": "下り 寺前・生野・和田山方面",
-  "inboundShort": "姫路方面",
-  "outboundShort": "和田山方面"
+  "inboundShort": "上り（姫路方面）",
+  "outboundShort": "下り（和田山方面）"
 },
   stations: JR_BANTAN_STATIONS,
   trackSegments: JR_BANTAN_TRACK_SEGMENTS,

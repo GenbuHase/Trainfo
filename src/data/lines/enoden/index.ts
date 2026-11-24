@@ -21,8 +21,8 @@ export const enodenLine: LineDefinition = {
     "outbound": "長谷・鎌倉方面",
     "inboundFull": "上り 江ノ島・藤沢方面",
     "outboundFull": "下り 長谷・鎌倉方面",
-    "inboundShort": "江ノ島",
-    "outboundShort": "長谷"
+    "inboundShort": "上り（藤沢方面）",
+    "outboundShort": "下り（鎌倉方面）"
 },
   stations: ENODEN_STATIONS,
   trackSegments: ENODEN_TRACK_SEGMENTS,

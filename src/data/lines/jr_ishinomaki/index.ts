@@ -17,8 +17,8 @@ export const ishinomakiLine: LineDefinition = {
     "outbound": "石巻・女川方面",
     "inboundFull": "上り 前谷地・小牛田方面",
     "outboundFull": "下り 石巻・女川方面",
-    "inboundShort": "小牛田方面",
-    "outboundShort": "女川方面"
+    "inboundShort": "上り（小牛田方面）",
+    "outboundShort": "下り（女川方面）"
 },
   stations: ISHINOMAKI_STATIONS,
   trackSegments: ISHINOMAKI_TRACK_SEGMENTS,

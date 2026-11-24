@@ -21,8 +21,8 @@ export const keikyuDaishiLine: LineDefinition = {
     "outbound": "川崎大師・小島新田方面",
     "inboundFull": "上り 京急川崎方面",
     "outboundFull": "下り 川崎大師・小島新田方面",
-    "inboundShort": "京急川崎方面",
-    "outboundShort": "川崎大師"
+    "inboundShort": "上り（京急川崎方面）",
+    "outboundShort": "下り（小島新田方面）"
 },
   stations: KEIKYU_DAISHI_STATIONS,
   trackSegments: KEIKYU_DAISHI_TRACK_SEGMENTS,

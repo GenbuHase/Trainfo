@@ -17,8 +17,8 @@ export const tobuKiryuLine: LineDefinition = {
       "outbound": "新桐生・赤城方面",
       "inboundFull": "上り 太田方面",
       "outboundFull": "下り 新桐生・赤城方面",
-      "inboundShort": "太田方面",
-      "outboundShort": "赤城方面"
+      "inboundShort": "上り（太田方面）",
+      "outboundShort": "下り（赤城方面）"
   },
   stations: TOBU_KIRYU_STATIONS,
   trackSegments: TOBU_KIRYU_TRACK_SEGMENTS,

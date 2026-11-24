@@ -21,8 +21,8 @@ export const alpicoKamikochiLine: LineDefinition = {
     "outbound": "新島々方面",
     "inboundFull": "上り 新村・松本方面",
     "outboundFull": "下り 波田・新島々方面",
-    "inboundShort": "松本方面",
-    "outboundShort": "新島々方面"
+    "inboundShort": "上り（松本方面）",
+    "outboundShort": "下り（新島々方面）"
 },
   stations: ALPICO_KAMIKOCHI_STATIONS,
   trackSegments: ALPICO_KAMIKOCHI_TRACK_SEGMENTS,

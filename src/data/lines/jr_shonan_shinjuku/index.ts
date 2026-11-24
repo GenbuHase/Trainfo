@@ -17,8 +17,8 @@ export const shonanShinjukuLine: LineDefinition = {
     'outbound': '横浜・大船・小田原・逗子方面',
     'inboundFull': '北行 新宿・大宮・高崎・宇都宮方面',
     'outboundFull': '南行 横浜・大船・小田原・逗子方面',
-    'inboundShort': '大宮方面',
-    'outboundShort': '大船方面'
+    'inboundShort': '上り（大宮方面）',
+    'outboundShort': '下り（大船方面）'
 },
   stations: SHONAN_SHINJUKU_STATIONS,
   trackSegments: SHONAN_SHINJUKU_TRACK_SEGMENTS,

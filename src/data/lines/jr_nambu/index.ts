@@ -17,8 +17,8 @@ export const nambuLine: LineDefinition = {
   "outbound": "下り 登戸・府中本町・立川方面",
   "inboundFull": "上り 武蔵小杉・川崎・浜川崎方面",
   "outboundFull": "下り 登戸・府中本町・立川方面",
-  "inboundShort": "川崎方面",
-  "outboundShort": "立川方面"
+  "inboundShort": "上り（川崎方面）",
+  "outboundShort": "下り（立川方面）"
 },
   stations: NAMBU_STATIONS,
   trackSegments: NAMBU_TRACK_SEGMENTS,

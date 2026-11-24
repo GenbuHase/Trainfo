@@ -21,8 +21,8 @@ export const toeiOedoLine: LineDefinition = {
     "outbound": "飯田橋・両国・光が丘方面",
     "inboundFull": "上り 六本木・大門・都庁前方面",
     "outboundFull": "下り 飯田橋・両国・光が丘方面",
-    "inboundShort": "六本木",
-    "outboundShort": "飯田橋"
+    "inboundShort": "上り（都庁前方面）",
+    "outboundShort": "下り（光が丘方面）"
 },
   stations: TOEI_OEDO_STATIONS,
   trackSegments: TOEI_OEDO_TRACK_SEGMENTS,

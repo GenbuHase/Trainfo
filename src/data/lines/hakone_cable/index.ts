@@ -21,8 +21,8 @@ export const hakoneCableLine: LineDefinition = {
     "outbound": "早雲山方面",
     "inboundFull": "上り 強羅方面",
     "outboundFull": "下り 早雲山方面",
-    "inboundShort": "強羅方面",
-    "outboundShort": "早雲山方面"
+    "inboundShort": "上り（強羅方面）",
+    "outboundShort": "下り（早雲山方面）"
 },
   stations: HAKONE_CABLE_STATIONS,
   trackSegments: HAKONE_CABLE_TRACK_SEGMENTS,

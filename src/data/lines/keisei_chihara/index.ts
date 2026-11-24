@@ -21,8 +21,8 @@ export const keiseiChiharaLine: LineDefinition = {
     "outbound": "ちはら台方面",
     "inboundFull": "上り 千葉中央・京成津田沼方面",
     "outboundFull": "下り ちはら台方面",
-    "inboundShort": "千葉中央",
-    "outboundShort": "ちはら台方面"
+    "inboundShort": "上り（千葉中央方面）",
+    "outboundShort": "下り（ちはら台方面）"
 },
   stations: KEISEI_CHIHARA_STATIONS,
   trackSegments: KEISEI_CHIHARA_TRACK_SEGMENTS,

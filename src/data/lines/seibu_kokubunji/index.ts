@@ -21,8 +21,8 @@ export const seibuKokubunjiLine: LineDefinition = {
     "outbound": "東村山方面",
     "inboundFull": "上り 国分寺方面",
     "outboundFull": "下り 東村山方面",
-    "inboundShort": "国分寺方面",
-    "outboundShort": "東村山方面"
+    "inboundShort": "上り（国分寺方面）",
+    "outboundShort": "下り（東村山方面）"
 },
   stations: SEIBU_KOKUBUNJI_STATIONS,
   trackSegments: SEIBU_KOKUBUNJI_TRACK_SEGMENTS,

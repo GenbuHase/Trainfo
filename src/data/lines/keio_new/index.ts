@@ -21,8 +21,8 @@ export const keioNewLine: LineDefinition = {
     "outbound": "幡ヶ谷・笹塚・橋本方面",
     "inboundFull": "上り 新宿・都営新宿線方面",
     "outboundFull": "下り 幡ヶ谷・笹塚・橋本方面",
-    "inboundShort": "新宿",
-    "outboundShort": "幡ヶ谷"
+    "inboundShort": "上り（新宿方面）",
+    "outboundShort": "下り（笹塚・橋本方面）"
 },
   stations: KEIO_NEW_STATIONS,
   trackSegments: KEIO_NEW_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const aoimoriLine: LineDefinition = {
     "outbound": "野辺地・青森方面",
     "inboundFull": "上り 八戸・三戸・盛岡方面",
     "outboundFull": "下り 野辺地・浅虫温泉・青森方面",
-    "inboundShort": "八戸方面",
-    "outboundShort": "青森方面"
+    "inboundShort": "上り（八戸方面）",
+    "outboundShort": "下り（青森方面）"
 },
   stations: AOIMORI_STATIONS,
   trackSegments: AOIMORI_TRACK_SEGMENTS,

@@ -18,8 +18,8 @@ export const hanawaLine: LineDefinition = {
     "outbound": "鹿角花輪・十和田南・大館方面",
     "inboundFull": "上り 好摩・盛岡方面",
     "outboundFull": "下り 鹿角花輪・大館方面",
-    "inboundShort": "盛岡方面",
-    "outboundShort": "大館方面"
+    "inboundShort": "上り（盛岡方面）",
+    "outboundShort": "下り（大館方面）"
 },
   stations: HANAWA_STATIONS,
   trackSegments: HANAWA_TRACK_SEGMENTS,

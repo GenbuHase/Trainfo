@@ -17,8 +17,8 @@ export const jrSanguLine: LineDefinition = {
     "outbound": "伊勢市・鳥羽方面",
     "inboundFull": "上り 多気・亀山・名古屋方面",
     "outboundFull": "下り 伊勢市・鳥羽方面",
-    "inboundShort": "多気方面",
-    "outboundShort": "鳥羽方面"
+    "inboundShort": "上り（多気方面）",
+    "outboundShort": "下り（鳥羽方面）"
 },
   stations: JR_SANGU_STATIONS,
   trackSegments: JR_SANGU_TRACK_SEGMENTS,

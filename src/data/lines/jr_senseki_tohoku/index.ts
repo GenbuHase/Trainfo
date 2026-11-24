@@ -17,8 +17,8 @@ export const sensekiTohokuLine: LineDefinition = {
     "outbound": "高城町・石巻方面",
     "inboundFull": "上り 塩釜・仙台方面",
     "outboundFull": "下り 高城町・矢本・石巻方面",
-    "inboundShort": "仙台方面",
-    "outboundShort": "石巻方面"
+    "inboundShort": "上り（仙台方面）",
+    "outboundShort": "下り（石巻方面）"
 },
   stations: SENSEKI_TOHOKU_STATIONS,
   trackSegments: SENSEKI_TOHOKU_TRACK_SEGMENTS,

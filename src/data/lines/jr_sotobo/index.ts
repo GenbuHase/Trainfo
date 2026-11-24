@@ -17,8 +17,8 @@ export const sotoboLine: LineDefinition = {
   "outbound": "下り 茂原・安房鴨川方面",
   "inboundFull": "上り 蘇我・千葉・東京方面",
   "outboundFull": "下り 茂原・勝浦・安房鴨川方面",
-  "inboundShort": "千葉方面",
-  "outboundShort": "安房鴨川方面"
+  "inboundShort": "上り（千葉方面）",
+  "outboundShort": "下り（安房鴨川方面）"
 },
   stations: SOTOBO_STATIONS,
   trackSegments: SOTOBO_TRACK_SEGMENTS,

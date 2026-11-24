@@ -17,8 +17,8 @@ export const tobuUtsunomiyaLine: LineDefinition = {
       "outbound": "東武宇都宮方面",
       "inboundFull": "上り 新栃木・栃木方面",
       "outboundFull": "下り 東武宇都宮方面",
-      "inboundShort": "新栃木方面",
-      "outboundShort": "宇都宮方面"
+      "inboundShort": "上り（新栃木方面）",
+      "outboundShort": "下り（宇都宮方面）"
   },
   stations: TOBU_UTSUNOMIYA_STATIONS,
   trackSegments: TOBU_UTSUNOMIYA_TRACK_SEGMENTS,

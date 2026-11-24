@@ -21,8 +21,8 @@ export const jrKarasuyamaLine: LineDefinition = {
     "outbound": "烏山方面",
     "inboundFull": "上り 宝積寺・宇都宮方面",
     "outboundFull": "下り 烏山方面",
-    "inboundShort": "宝積寺",
-    "outboundShort": "烏山方面"
+    "inboundShort": "上り（宝積寺方面）",
+    "outboundShort": "下り（烏山方面）"
 },
   stations: JR_KARASUYAMA_STATIONS,
   trackSegments: JR_KARASUYAMA_TRACK_SEGMENTS,

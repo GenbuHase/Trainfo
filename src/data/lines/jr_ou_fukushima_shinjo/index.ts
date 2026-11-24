@@ -17,8 +17,8 @@ export const ouFukushimaShinjoLine: LineDefinition = {
   "outbound": "新庄方面",
   "inboundFull": "上り 福島方面",
   "outboundFull": "下り 新庄方面",
-  "inboundShort": "福島方面",
-  "outboundShort": "新庄方面"
+  "inboundShort": "上り（福島方面）",
+  "outboundShort": "下り（新庄方面）"
 },
   stations: OU_FUKUSHIMA_SHINJO_STATIONS,
   trackSegments: OU_FUKUSHIMA_SHINJO_TRACK_SEGMENTS,

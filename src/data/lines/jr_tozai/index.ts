@@ -17,8 +17,8 @@ export const jrTozaiLine: LineDefinition = {
     "outbound": "尼崎・宝塚・神戸線方面",
     "inboundFull": "上り 京橋・四条畷・同志社前方面",
     "outboundFull": "下り 尼崎・宝塚・三ノ宮方面",
-    "inboundShort": "京橋方面",
-    "outboundShort": "尼崎方面"
+    "inboundShort": "上り（京橋方面）",
+    "outboundShort": "下り（尼崎方面）"
 },
   stations: JR_TOZAI_STATIONS,
   trackSegments: JR_TOZAI_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const tokaidoAtamiToyohashiLine: LineDefinition = {
       "outbound": "静岡・浜松・豊橋方面",
       "inboundFull": "上り 沼津・熱海・東京方面",
       "outboundFull": "下り 静岡・浜松・豊橋方面",
-      "inboundShort": "熱海方面",
-      "outboundShort": "豊橋方面"
+      "inboundShort": "上り（熱海方面）",
+      "outboundShort": "下り（豊橋方面）"
   },
   stations: TOKAIDO_ATAMI_TOYOHASHI_STATIONS,
   trackSegments: TOKAIDO_ATAMI_TOYOHASHI_TRACK_SEGMENTS,

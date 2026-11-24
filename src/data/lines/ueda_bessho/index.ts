@@ -21,8 +21,8 @@ export const uedaBesshoLine: LineDefinition = {
     "outbound": "別所温泉方面",
     "inboundFull": "上り 下之郷・上田方面",
     "outboundFull": "下り 下之郷・別所温泉方面",
-    "inboundShort": "上田方面",
-    "outboundShort": "別所温泉方面"
+    "inboundShort": "上り（上田方面）",
+    "outboundShort": "下り（別所温泉方面）"
 },
   stations: UEDA_BESSHO_STATIONS,
   trackSegments: UEDA_BESSHO_TRACK_SEGMENTS,

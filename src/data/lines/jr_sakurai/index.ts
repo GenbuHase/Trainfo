@@ -17,8 +17,8 @@ export const jrSakuraiLine: LineDefinition = {
   "outbound": "桜井・高田・王寺方面",
   "inboundFull": "上り 天理・奈良方面",
   "outboundFull": "下り 桜井・高田・王寺方面",
-  "inboundShort": "奈良方面",
-  "outboundShort": "高田方面"
+  "inboundShort": "上り（奈良方面）",
+  "outboundShort": "下り（高田方面）"
 },
   stations: JR_SAKURAI_STATIONS,
   trackSegments: JR_SAKURAI_TRACK_SEGMENTS,

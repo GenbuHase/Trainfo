@@ -18,8 +18,8 @@ export const aterazawaLine: LineDefinition = {
     "outbound": "寒河江・左沢方面",
     "inboundFull": "上り 寒河江・山形方面",
     "outboundFull": "下り 寒河江・左沢方面",
-    "inboundShort": "山形方面",
-    "outboundShort": "左沢方面"
+    "inboundShort": "上り（山形方面）",
+    "outboundShort": "下り（左沢方面）"
 },
   stations: ATERAZAWA_STATIONS,
   trackSegments: ATERAZAWA_TRACK_SEGMENTS,

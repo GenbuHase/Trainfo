@@ -21,8 +21,8 @@ export const keiseiOshiageLine: LineDefinition = {
     "outbound": "青砥・京成高砂方面",
     "inboundFull": "上り 押上・都営浅草線方面",
     "outboundFull": "下り 青砥・京成高砂方面",
-    "inboundShort": "押上",
-    "outboundShort": "青砥"
+    "inboundShort": "上り（押上方面）",
+    "outboundShort": "下り（青砥・高砂方面）"
 },
   stations: KEISEI_OSHIAGE_STATIONS,
   trackSegments: KEISEI_OSHIAGE_TRACK_SEGMENTS,

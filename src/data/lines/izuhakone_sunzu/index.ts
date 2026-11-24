@@ -17,8 +17,8 @@ export const izuhakoneSunzuLine: LineDefinition = {
   "outbound": "修善寺方面",
   "inboundFull": "上り 三島方面",
   "outboundFull": "下り 修善寺方面",
-  "inboundShort": "三島方面",
-  "outboundShort": "修善寺方面"
+  "inboundShort": "上り（三島方面）",
+  "outboundShort": "下り（修善寺方面）"
 },
   stations: IZUHAKONE_SUNZU_STATIONS,
   trackSegments: IZUHAKONE_SUNZU_TRACK_SEGMENTS,

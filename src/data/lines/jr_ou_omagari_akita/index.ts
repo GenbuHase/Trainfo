@@ -17,8 +17,8 @@ export const ouOmagariAkitaLine: LineDefinition = {
   "outbound": "秋田方面",
   "inboundFull": "上り 大曲方面",
   "outboundFull": "下り 秋田方面",
-  "inboundShort": "大曲方面",
-  "outboundShort": "秋田方面"
+  "inboundShort": "上り（大曲方面）",
+  "outboundShort": "下り（秋田方面）"
 },
   stations: OU_OMAGARI_AKITA_STATIONS,
   trackSegments: OU_OMAGARI_AKITA_TRACK_SEGMENTS,

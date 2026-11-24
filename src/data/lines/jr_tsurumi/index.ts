@@ -17,8 +17,8 @@ export const tsurumiLine: LineDefinition = {
   "outbound": "下り 浜川崎・扇町方面",
   "inboundFull": "上り 鶴見方面",
   "outboundFull": "下り 弁天橋・浜川崎・扇町・海芝浦方面",
-  "inboundShort": "鶴見方面",
-  "outboundShort": "扇町方面"
+  "inboundShort": "上り（鶴見方面）",
+  "outboundShort": "下り（扇町方面）"
 },
   stations: TSURUMI_STATIONS,
   trackSegments: TSURUMI_TRACK_SEGMENTS,

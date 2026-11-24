@@ -17,8 +17,8 @@ export const jrTakayamaLine: LineDefinition = {
     "outbound": "美濃太田・高山・富山方面",
     "inboundFull": "上り 美濃太田・岐阜方面",
     "outboundFull": "下り 高山・富山方面",
-    "inboundShort": "岐阜方面",
-    "outboundShort": "富山方面"
+    "inboundShort": "上り（岐阜方面）",
+    "outboundShort": "下り（富山方面）"
 },
   stations: JR_TAKAYAMA_STATIONS,
   trackSegments: JR_TAKAYAMA_TRACK_SEGMENTS,

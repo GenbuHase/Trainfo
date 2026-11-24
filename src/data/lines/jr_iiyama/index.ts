@@ -21,8 +21,8 @@ export const jrIiyamaLine: LineDefinition = {
     "outbound": "十日町・越後川口方面",
     "inboundFull": "上り 飯山・豊野・長野方面",
     "outboundFull": "下り 戸狩野沢温泉・十日町・越後川口方面",
-    "inboundShort": "豊野方面",
-    "outboundShort": "越後川口方面"
+    "inboundShort": "上り（豊野方面）",
+    "outboundShort": "下り（越後川口方面）"
 },
   stations: JR_IIYAMA_STATIONS,
   trackSegments: JR_IIYAMA_TRACK_SEGMENTS,

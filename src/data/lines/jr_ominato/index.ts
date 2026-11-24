@@ -17,8 +17,8 @@ export const ominatoLine: LineDefinition = {
     "outbound": "下北・大湊方面",
     "inboundFull": "上り 野辺地方面",
     "outboundFull": "下り 下北・大湊方面",
-    "inboundShort": "上り (野辺地方面)",
-    "outboundShort": "下り (大湊方面)"
+    "inboundShort": "上り（野辺地方面）",
+    "outboundShort": "下り（大湊方面）"
 },
   stations: OMINATO_STATIONS,
   trackSegments: OMINATO_TRACK_SEGMENTS,

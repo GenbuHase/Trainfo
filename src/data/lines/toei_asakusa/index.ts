@@ -21,8 +21,8 @@ export const toeiAsakusaLine: LineDefinition = {
     "outbound": "日本橋・押上・京成線方面",
     "inboundFull": "上り 五反田・西馬込・京急線方面",
     "outboundFull": "下り 日本橋・押上・京成線方面",
-    "inboundShort": "五反田",
-    "outboundShort": "日本橋"
+    "inboundShort": "上り（西馬込方面）",
+    "outboundShort": "下り（押上方面）"
 },
   stations: TOEI_ASAKUSA_STATIONS,
   trackSegments: TOEI_ASAKUSA_TRACK_SEGMENTS,

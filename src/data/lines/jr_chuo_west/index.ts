@@ -17,8 +17,8 @@ export const jrChuoWestLine: LineDefinition = {
     "outbound": "中津川・塩尻方面",
     "inboundFull": "上り 多治見・名古屋方面",
     "outboundFull": "下り 中津川・木曽福島・塩尻方面",
-    "inboundShort": "名古屋方面",
-    "outboundShort": "塩尻方面"
+    "inboundShort": "上り（名古屋方面）",
+    "outboundShort": "下り（塩尻方面）"
 },
   stations: JR_CHUO_WEST_STATIONS,
   trackSegments: JR_CHUO_WEST_TRACK_SEGMENTS,

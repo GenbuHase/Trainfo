@@ -25,7 +25,7 @@ export const odakyuOdawaraLine: LineDefinition = {
     outbound: '小田原・箱根湯本方面',
     inboundFull: '上り 新宿・代々木上原方面',
     outboundFull: '下り 小田原・箱根湯本方面',
-    inboundShort: '上り (新宿方面)',
-    outboundShort: '下り (小田原方面)',
+    inboundShort: '上り（新宿方面）',
+    outboundShort: '下り（小田原方面）',
   },
 };

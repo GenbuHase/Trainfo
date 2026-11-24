@@ -17,8 +17,8 @@ export const ouAkitaAomoriLine: LineDefinition = {
   "outbound": "青森方面",
   "inboundFull": "上り 秋田方面",
   "outboundFull": "下り 青森方面",
-  "inboundShort": "秋田方面",
-  "outboundShort": "青森方面"
+  "inboundShort": "上り（秋田方面）",
+  "outboundShort": "下り（青森方面）"
 },
   stations: OU_AKITA_AOMORI_STATIONS,
   trackSegments: OU_AKITA_AOMORI_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const yurikamomeLine: LineDefinition = {
     "outbound": "お台場・有明・豊洲方面",
     "inboundFull": "上り 新橋方面",
     "outboundFull": "下り お台場・有明・豊洲方面",
-    "inboundShort": "新橋方面",
-    "outboundShort": "お台場"
+    "inboundShort": "上り（新橋方面）",
+    "outboundShort": "下り（豊洲方面）"
 },
   stations: YURIKAMOME_STATIONS,
   trackSegments: YURIKAMOME_TRACK_SEGMENTS,

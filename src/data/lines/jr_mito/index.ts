@@ -21,8 +21,8 @@ export const jrMitoLine: LineDefinition = {
     "outbound": "笠間・友部・水戸方面",
     "inboundFull": "上り 下館・小山方面",
     "outboundFull": "下り 笠間・友部・水戸方面",
-    "inboundShort": "下館",
-    "outboundShort": "笠間"
+    "inboundShort": "上り（小山方面）",
+    "outboundShort": "下り（友部・水戸方面）"
 },
   stations: JR_MITO_STATIONS,
   trackSegments: JR_MITO_TRACK_SEGMENTS,

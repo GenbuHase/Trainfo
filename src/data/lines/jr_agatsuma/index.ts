@@ -21,8 +21,8 @@ export const jrAgatsumaLine: LineDefinition = {
     "outbound": "長野原草津口・大前方面",
     "inboundFull": "上り 高崎・渋川方面",
     "outboundFull": "下り 長野原草津口・大前方面",
-    "inboundShort": "高崎",
-    "outboundShort": "長野原草津口"
+    "inboundShort": "上り（高崎方面）",
+    "outboundShort": "下り（大前方面）"
 },
   stations: JR_AGATSUMA_STATIONS,
   trackSegments: JR_AGATSUMA_TRACK_SEGMENTS,

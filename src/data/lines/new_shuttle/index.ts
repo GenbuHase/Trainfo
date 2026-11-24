@@ -21,8 +21,8 @@ export const newShuttleLine: LineDefinition = {
     "outbound": "丸山・内宿方面",
     "inboundFull": "上り 大宮方面",
     "outboundFull": "下り 丸山・内宿方面",
-    "inboundShort": "大宮方面",
-    "outboundShort": "丸山"
+    "inboundShort": "上り（大宮方面）",
+    "outboundShort": "下り（内宿方面）"
 },
   stations: NEW_SHUTTLE_STATIONS,
   trackSegments: NEW_SHUTTLE_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const seibuSeibuenLine: LineDefinition = {
     "outbound": "西武園方面",
     "inboundFull": "上り 東村山方面",
     "outboundFull": "下り 西武園方面",
-    "inboundShort": "東村山方面",
-    "outboundShort": "西武園方面"
+    "inboundShort": "上り（東村山方面）",
+    "outboundShort": "下り（西武園方面）"
 },
   stations: SEIBU_SEIBUEN_STATIONS,
   trackSegments: SEIBU_SEIBUEN_TRACK_SEGMENTS,

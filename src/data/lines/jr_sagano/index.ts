@@ -17,8 +17,8 @@ export const jrSaganoLine: LineDefinition = {
   "outbound": "亀岡・園部方面",
   "inboundFull": "上り 二条・京都方面",
   "outboundFull": "下り 亀岡・園部方面",
-  "inboundShort": "京都方面",
-  "outboundShort": "園部方面"
+  "inboundShort": "上り（京都方面）",
+  "outboundShort": "下り（園部方面）"
 },
   stations: JR_SAGANO_STATIONS,
   trackSegments: JR_SAGANO_TRACK_SEGMENTS,

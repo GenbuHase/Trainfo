@@ -17,8 +17,8 @@ export const tobuSanoLine: LineDefinition = {
       "outbound": "佐野・葛生方面",
       "inboundFull": "上り 館林方面",
       "outboundFull": "下り 佐野・葛生方面",
-      "inboundShort": "館林方面",
-      "outboundShort": "葛生方面"
+      "inboundShort": "上り（館林方面）",
+      "outboundShort": "下り（葛生方面）"
   },
   stations: TOBU_SANO_STATIONS,
   trackSegments: TOBU_SANO_TRACK_SEGMENTS,

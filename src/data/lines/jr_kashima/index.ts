@@ -21,8 +21,8 @@ export const jrKashimaLine: LineDefinition = {
     "outbound": "鹿島神宮・鹿島サッカースタジアム方面",
     "inboundFull": "上り 香取・佐原・千葉方面",
     "outboundFull": "下り 鹿島神宮・鹿島サッカースタジアム方面",
-    "inboundShort": "香取",
-    "outboundShort": "鹿島神宮"
+    "inboundShort": "上り（佐原・千葉方面）",
+    "outboundShort": "下り（鹿島神宮方面）"
 },
   stations: JR_KASHIMA_STATIONS,
   trackSegments: JR_KASHIMA_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const tamaMonorailLine: LineDefinition = {
     "outbound": "高幡不動・多摩センター方面",
     "inboundFull": "上り 立川・上北台方面",
     "outboundFull": "下り 高幡不動・多摩センター方面",
-    "inboundShort": "立川",
-    "outboundShort": "高幡不動"
+    "inboundShort": "上り（上北台方面）",
+    "outboundShort": "下り（多摩センター方面）"
 },
   stations: TAMA_MONORAIL_STATIONS,
   trackSegments: TAMA_MONORAIL_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const senzanLine: LineDefinition = {
     "outbound": "愛子・作並・山形方面",
     "inboundFull": "上り 仙台方面",
     "outboundFull": "下り 愛子・作並・山形方面",
-    "inboundShort": "上り (仙台方面)",
-    "outboundShort": "下り (山形方面)"
+    "inboundShort": "上り（仙台方面）",
+    "outboundShort": "下り（山形方面）"
 },
   stations: SENZAN_STATIONS,
   trackSegments: SENZAN_TRACK_SEGMENTS,

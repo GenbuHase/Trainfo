@@ -21,8 +21,8 @@ export const keikyuAirportLine: LineDefinition = {
     "outbound": "羽田空港第1・第2ターミナル方面",
     "inboundFull": "上り 京急蒲田・品川・横浜方面",
     "outboundFull": "下り 羽田空港第1・第2ターミナル方面",
-    "inboundShort": "京急蒲田",
-    "outboundShort": "羽田空港第1"
+    "inboundShort": "上り（京急蒲田方面）",
+    "outboundShort": "下り（羽田空港方面）"
 },
   stations: KEIKYU_AIRPORT_STATIONS,
   trackSegments: KEIKYU_AIRPORT_TRACK_SEGMENTS,

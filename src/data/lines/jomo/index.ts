@@ -21,8 +21,8 @@ export const jomoLine: LineDefinition = {
     "outbound": "赤城・西桐生方面",
     "inboundFull": "上り 中央前橋方面",
     "outboundFull": "下り 赤城・西桐生方面",
-    "inboundShort": "中央前橋方面",
-    "outboundShort": "赤城"
+    "inboundShort": "上り（中央前橋方面）",
+    "outboundShort": "下り（西桐生方面）"
 },
   stations: JOMO_STATIONS,
   trackSegments: JOMO_TRACK_SEGMENTS,

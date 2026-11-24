@@ -21,8 +21,8 @@ export const seibuTamagawaLine: LineDefinition = {
     "outbound": "是政方面",
     "inboundFull": "上り 武蔵境方面",
     "outboundFull": "下り 是政方面",
-    "inboundShort": "武蔵境方面",
-    "outboundShort": "是政方面"
+    "inboundShort": "上り（武蔵境方面）",
+    "outboundShort": "下り（是政方面）"
 },
   stations: SEIBU_TAMAGAWA_STATIONS,
   trackSegments: SEIBU_TAMAGAWA_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const keikyuZushiLine: LineDefinition = {
     "outbound": "逗子・葉山方面",
     "inboundFull": "上り 金沢八景・横浜・品川方面",
     "outboundFull": "下り 逗子・葉山方面",
-    "inboundShort": "金沢八景",
-    "outboundShort": "逗子"
+    "inboundShort": "上り（金沢八景方面）",
+    "outboundShort": "下り（逗子・葉山方面）"
 },
   stations: KEIKYU_ZUSHI_STATIONS,
   trackSegments: KEIKYU_ZUSHI_TRACK_SEGMENTS,

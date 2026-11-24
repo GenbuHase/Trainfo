@@ -17,8 +17,8 @@ export const sobuRapidLine: LineDefinition = {
     'outbound': '船橋・津田沼・千葉方面',
     'inboundFull': '上り 東京・品川・逗子方面',
     'outboundFull': '下り 船橋・津田沼・千葉方面',
-    'inboundShort': '東京方面',
-    'outboundShort': '千葉方面'
+    'inboundShort': '上り（東京方面）',
+    'outboundShort': '下り（千葉方面）'
 },
   stations: SOBU_RAPID_STATIONS,
   trackSegments: SOBU_RAPID_TRACK_SEGMENTS,

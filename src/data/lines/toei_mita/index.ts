@@ -21,8 +21,8 @@ export const toeiMitaLine: LineDefinition = {
     "outbound": "巣鴨・西高島平方面",
     "inboundFull": "上り 目黒・東急目黒線方面",
     "outboundFull": "下り 巣鴨・西高島平方面",
-    "inboundShort": "目黒",
-    "outboundShort": "巣鴨"
+    "inboundShort": "上り（目黒方面）",
+    "outboundShort": "下り（西高島平方面）"
 },
   stations: TOEI_MITA_STATIONS,
   trackSegments: TOEI_MITA_TRACK_SEGMENTS,

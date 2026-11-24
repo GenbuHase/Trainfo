@@ -17,8 +17,8 @@ export const naritaLine: LineDefinition = {
   "outbound": "下り 成田・成田空港・銚子方面",
   "inboundFull": "上り 佐倉・千葉・我孫子・東京方面",
   "outboundFull": "下り 成田・成田空港・佐原・銚子方面",
-  "inboundShort": "佐倉・我孫子方面",
-  "outboundShort": "成田・銚子方面"
+  "inboundShort": "上り（佐倉・我孫子方面）",
+  "outboundShort": "下り（成田・銚子方面）"
 },
   stations: NARITA_STATIONS,
   trackSegments: NARITA_TRACK_SEGMENTS,

@@ -559,8 +559,8 @@ export interface LineDirectionNames {
   outbound: string;      // 例: '森林公園・小川町・寄居方面', '大宮・川越方面'
   inboundFull: string;   // 例: '上り 池袋方面', '上り 新宿・大崎方面'
   outboundFull: string;  // 例: '下り 森林公園・小川町・寄居方面', '下り 大宮・川越方面'
-  inboundShort: string;  // 例: '上り (池袋方面)', '上り (大崎方面)'
-  outboundShort: string; // 例: '下り (寄居方面)', '下り (川越方面)'
+  inboundShort: string;  // 例: '上り（池袋方面）', '上り（大崎方面）'
+  outboundShort: string; // 例: '下り（寄居方面）', '下り（川越方面）'
 }
 
 // 路線メタデータ

@@ -21,8 +21,8 @@ export const keioSagamiharaLine: LineDefinition = {
     "outbound": "京王多摩センター・橋本方面",
     "inboundFull": "上り 調布・新宿方面",
     "outboundFull": "下り 京王多摩センター・橋本方面",
-    "inboundShort": "調布",
-    "outboundShort": "京王多摩センター"
+    "inboundShort": "上り（新宿方面）",
+    "outboundShort": "下り（橋本方面）"
 },
   stations: KEIO_SAGAMIHARA_STATIONS,
   trackSegments: KEIO_SAGAMIHARA_TRACK_SEGMENTS,

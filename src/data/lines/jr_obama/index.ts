@@ -17,8 +17,8 @@ export const jrObamaLine: LineDefinition = {
   "outbound": "小浜・東舞鶴方面",
   "inboundFull": "上り 小浜・敦賀方面",
   "outboundFull": "下り 小浜・東舞鶴方面",
-  "inboundShort": "敦賀方面",
-  "outboundShort": "東舞鶴方面"
+  "inboundShort": "上り（敦賀方面）",
+  "outboundShort": "下り（東舞鶴方面）"
 },
   stations: JR_OBAMA_STATIONS,
   trackSegments: JR_OBAMA_TRACK_SEGMENTS,

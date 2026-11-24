@@ -17,8 +17,8 @@ export const jrOsakaHigashiLine: LineDefinition = {
     "outbound": "放出・久宝寺方面",
     "inboundFull": "上り 新大阪・大阪方面",
     "outboundFull": "下り 放出・久宝寺・奈良方面",
-    "inboundShort": "大阪方面",
-    "outboundShort": "久宝寺方面"
+    "inboundShort": "上り（大阪方面）",
+    "outboundShort": "下り（久宝寺方面）"
 },
   stations: JR_OSAKA_HIGASHI_STATIONS,
   trackSegments: JR_OSAKA_HIGASHI_TRACK_SEGMENTS,

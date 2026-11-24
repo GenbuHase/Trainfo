@@ -21,8 +21,8 @@ export const saitamaRapidLine: LineDefinition = {
     "outbound": "東川口・浦和美園方面",
     "inboundFull": "上り 赤羽岩淵・南北線・東急線方面",
     "outboundFull": "下り 東川口・浦和美園方面",
-    "inboundShort": "赤羽岩淵",
-    "outboundShort": "東川口"
+    "inboundShort": "上り（赤羽岩淵方面）",
+    "outboundShort": "下り（浦和美園方面）"
 },
   stations: SAITAMA_RAPID_STATIONS,
   trackSegments: SAITAMA_RAPID_TRACK_SEGMENTS,

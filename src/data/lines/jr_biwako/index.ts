@@ -17,8 +17,8 @@ export const jrBiwakoLine: LineDefinition = {
       "outbound": "草津・京都・大阪方面",
       "inboundFull": "上り 彦根・米原・長浜方面",
       "outboundFull": "下り 草津・京都・大阪・三ノ宮方面",
-      "inboundShort": "米原方面",
-      "outboundShort": "京都方面"
+      "inboundShort": "上り（米原方面）",
+      "outboundShort": "下り（京都方面）"
   },
   stations: JR_BIWAKO_STATIONS,
   trackSegments: JR_BIWAKO_TRACK_SEGMENTS,

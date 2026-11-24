@@ -17,8 +17,8 @@ export const tobuSkytreeLine: LineDefinition = {
       "outbound": "東武動物公園方面",
       "inboundFull": "上り 浅草・押上方面",
       "outboundFull": "下り 東武動物公園方面",
-      "inboundShort": "浅草方面",
-      "outboundShort": "動物公園方面"
+      "inboundShort": "上り（浅草方面）",
+      "outboundShort": "下り（動物公園方面）"
   },
   stations: TOBU_SKYTREE_STATIONS,
   trackSegments: TOBU_SKYTREE_TRACK_SEGMENTS,

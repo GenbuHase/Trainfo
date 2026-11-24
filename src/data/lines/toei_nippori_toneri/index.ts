@@ -21,8 +21,8 @@ export const toeiNipporiToneriLine: LineDefinition = {
     "outbound": "江北・見沼代親水公園方面",
     "inboundFull": "上り 西日暮里・日暮里方面",
     "outboundFull": "下り 江北・見沼代親水公園方面",
-    "inboundShort": "西日暮里",
-    "outboundShort": "江北"
+    "inboundShort": "上り（日暮里方面）",
+    "outboundShort": "下り（見沼代親水公園方面）"
 },
   stations: TOEI_NIPPORI_TONERI_STATIONS,
   trackSegments: TOEI_NIPPORI_TONERI_TRACK_SEGMENTS,

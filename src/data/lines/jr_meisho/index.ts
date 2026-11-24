@@ -17,8 +17,8 @@ export const jrMeishoLine: LineDefinition = {
     "outbound": "家城・伊勢奥津方面",
     "inboundFull": "上り 松阪方面",
     "outboundFull": "下り 家城・伊勢奥津方面",
-    "inboundShort": "松阪方面",
-    "outboundShort": "伊勢奥津方面"
+    "inboundShort": "上り（松阪方面）",
+    "outboundShort": "下り（伊勢奥津方面）"
 },
   stations: JR_MEISHO_STATIONS,
   trackSegments: JR_MEISHO_TRACK_SEGMENTS,

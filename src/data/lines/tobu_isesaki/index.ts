@@ -17,8 +17,8 @@ export const tobuIsesakiLine: LineDefinition = {
       "outbound": "館林・伊勢崎方面",
       "inboundFull": "上り 久喜・浅草方面",
       "outboundFull": "下り 館林・伊勢崎方面",
-      "inboundShort": "久喜方面",
-      "outboundShort": "伊勢崎方面"
+      "inboundShort": "上り（久喜方面）",
+      "outboundShort": "下り（伊勢崎方面）"
   },
   stations: TOBU_ISESAKI_STATIONS,
   trackSegments: TOBU_ISESAKI_TRACK_SEGMENTS,

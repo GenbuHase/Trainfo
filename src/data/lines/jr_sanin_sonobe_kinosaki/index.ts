@@ -17,8 +17,8 @@ export const jrSaninSonobeKinosakiLine: LineDefinition = {
   "outbound": "福知山・豊岡・城崎温泉方面",
   "inboundFull": "上り 綾部・園部・京都方面",
   "outboundFull": "下り 福知山・豊岡・城崎温泉方面",
-  "inboundShort": "園部方面",
-  "outboundShort": "城崎温泉方面"
+  "inboundShort": "上り（園部方面）",
+  "outboundShort": "下り（城崎温泉方面）"
 },
   stations: JR_SANIN_SONOBE_KINOSAKI_STATIONS,
   trackSegments: JR_SANIN_SONOBE_KINOSAKI_TRACK_SEGMENTS,

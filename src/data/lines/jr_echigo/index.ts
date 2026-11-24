@@ -21,8 +21,8 @@ export const jrEchigoLine: LineDefinition = {
     "outbound": "新潟方面",
     "inboundFull": "上り 内野・吉田・柏崎方面",
     "outboundFull": "下り 関屋・白山・新潟方面",
-    "inboundShort": "柏崎方面",
-    "outboundShort": "新潟方面"
+    "inboundShort": "上り（柏崎方面）",
+    "outboundShort": "下り（新潟方面）"
 },
   stations: JR_ECHIGO_STATIONS,
   trackSegments: JR_ECHIGO_TRACK_SEGMENTS,

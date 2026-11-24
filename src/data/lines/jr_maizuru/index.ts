@@ -17,8 +17,8 @@ export const jrMaizuruLine: LineDefinition = {
   "outbound": "西舞鶴・東舞鶴方面",
   "inboundFull": "上り 綾部・福知山・京都方面",
   "outboundFull": "下り 西舞鶴・東舞鶴方面",
-  "inboundShort": "綾部方面",
-  "outboundShort": "東舞鶴方面"
+  "inboundShort": "上り（綾部方面）",
+  "outboundShort": "下り（東舞鶴方面）"
 },
   stations: JR_MAIZURU_STATIONS,
   trackSegments: JR_MAIZURU_TRACK_SEGMENTS,

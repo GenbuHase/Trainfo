@@ -17,8 +17,8 @@ export const jrSanyoHimejiKamigoriLine: LineDefinition = {
   "outbound": "相生・上郡・岡山方面",
   "inboundFull": "上り 姫路・神戸・大阪方面",
   "outboundFull": "下り 相生・上郡・岡山方面",
-  "inboundShort": "姫路方面",
-  "outboundShort": "上郡方面"
+  "inboundShort": "上り（姫路方面）",
+  "outboundShort": "下り（上郡方面）"
 },
   stations: JR_SANYO_HIMEJI_KAMIGORI_STATIONS,
   trackSegments: JR_SANYO_HIMEJI_KAMIGORI_TRACK_SEGMENTS,

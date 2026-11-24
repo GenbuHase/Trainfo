@@ -21,8 +21,8 @@ export const keiseiKanamachiLine: LineDefinition = {
     "outbound": "京成金町方面",
     "inboundFull": "上り 京成高砂方面",
     "outboundFull": "下り 京成金町方面",
-    "inboundShort": "京成高砂方面",
-    "outboundShort": "京成金町方面"
+    "inboundShort": "上り（京成高砂方面）",
+    "outboundShort": "下り（京成金町方面）"
 },
   stations: KEISEI_KANAMACHI_STATIONS,
   trackSegments: KEISEI_KANAMACHI_TRACK_SEGMENTS,

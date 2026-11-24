@@ -17,8 +17,8 @@ export const tobuNikkoLine: LineDefinition = {
       "outbound": "栃木・東武日光方面",
       "inboundFull": "上り 南栗橋・浅草方面",
       "outboundFull": "下り 栃木・東武日光方面",
-      "inboundShort": "南栗橋方面",
-      "outboundShort": "東武日光方面"
+      "inboundShort": "上り（南栗橋方面）",
+      "outboundShort": "下り（東武日光方面）"
   },
   stations: TOBU_NIKKO_STATIONS,
   trackSegments: TOBU_NIKKO_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const keioKeibajoLine: LineDefinition = {
     "outbound": "府中競馬正門前方面",
     "inboundFull": "上り 東府中方面",
     "outboundFull": "下り 府中競馬正門前方面",
-    "inboundShort": "東府中方面",
-    "outboundShort": "府中競馬正門前方面"
+    "inboundShort": "上り（東府中方面）",
+    "outboundShort": "下り（府中競馬正門前方面）"
 },
   stations: KEIO_KEIBAJO_STATIONS,
   trackSegments: KEIO_KEIBAJO_TRACK_SEGMENTS,

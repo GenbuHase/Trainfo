@@ -17,8 +17,8 @@ export const tohokuKuroisoFukushimaLine: LineDefinition = {
     "outbound": "郡山・福島方面",
     "inboundFull": "上り 新白河・黒磯方面",
     "outboundFull": "下り 郡山・福島方面",
-    "inboundShort": "黒磯方面",
-    "outboundShort": "福島方面"
+    "inboundShort": "上り（黒磯方面）",
+    "outboundShort": "下り（福島方面）"
 },
   stations: TOHOKU_KUROISO_FUKUSHIMA_STATIONS,
   trackSegments: TOHOKU_KUROISO_FUKUSHIMA_TRACK_SEGMENTS,

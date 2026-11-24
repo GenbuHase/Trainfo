@@ -21,8 +21,8 @@ export const keiseiHigashiNaritaLine: LineDefinition = {
     "outbound": "東成田・芝山千代田方面",
     "inboundFull": "上り 京成成田方面",
     "outboundFull": "下り 東成田・芝山千代田方面",
-    "inboundShort": "京成成田方面",
-    "outboundShort": "東成田"
+    "inboundShort": "上り（京成成田方面）",
+    "outboundShort": "下り（東成田・芝山千代田方面）"
 },
   stations: KEISEI_HIGASHI_NARITA_STATIONS,
   trackSegments: KEISEI_HIGASHI_NARITA_TRACK_SEGMENTS,

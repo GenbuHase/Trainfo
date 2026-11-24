@@ -17,8 +17,8 @@ export const jrTaketoyoLine: LineDefinition = {
     "outbound": "半田・武豊方面",
     "inboundFull": "上り 大府・名古屋方面",
     "outboundFull": "下り 半田・武豊方面",
-    "inboundShort": "大府方面",
-    "outboundShort": "武豊方面"
+    "inboundShort": "上り（大府方面）",
+    "outboundShort": "下り（武豊方面）"
 },
   stations: JR_TAKETOYO_STATIONS,
   trackSegments: JR_TAKETOYO_TRACK_SEGMENTS,

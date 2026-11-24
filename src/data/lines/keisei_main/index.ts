@@ -21,8 +21,8 @@ export const keiseiMainLine: LineDefinition = {
     "outbound": "京成津田沼・京成成田・成田空港方面",
     "inboundFull": "上り 青砥・日暮里・京成上野方面",
     "outboundFull": "下り 京成津田沼・京成成田・成田空港方面",
-    "inboundShort": "青砥",
-    "outboundShort": "京成津田沼"
+    "inboundShort": "上り（京成上野方面）",
+    "outboundShort": "下り（成田空港方面）"
 },
   stations: KEISEI_MAIN_STATIONS,
   trackSegments: KEISEI_MAIN_TRACK_SEGMENTS,

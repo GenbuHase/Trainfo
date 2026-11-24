@@ -21,8 +21,8 @@ export const jrYahikoLine: LineDefinition = {
     "outbound": "燕三条・東三条方面",
     "inboundFull": "上り 吉田・弥彦方面",
     "outboundFull": "下り 燕三条・東三条方面",
-    "inboundShort": "弥彦方面",
-    "outboundShort": "東三条方面"
+    "inboundShort": "上り（弥彦方面）",
+    "outboundShort": "下り（東三条方面）"
 },
   stations: JR_YAHIKO_STATIONS,
   trackSegments: JR_YAHIKO_TRACK_SEGMENTS,

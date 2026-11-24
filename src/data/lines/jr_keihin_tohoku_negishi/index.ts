@@ -17,8 +17,8 @@ export const keihinTohokuNegishiLine: LineDefinition = {
   "outbound": "南行 品川・横浜・大船方面",
   "inboundFull": "北行 東京・上野・赤羽・大宮方面",
   "outboundFull": "南行 品川・川崎・横浜・大船方面",
-  "inboundShort": "大宮方面",
-  "outboundShort": "大船方面"
+  "inboundShort": "上り（大宮方面）",
+  "outboundShort": "下り（大船方面）"
 },
   stations: KEIHIN_TOHOKU_NEGISHI_STATIONS,
   trackSegments: KEIHIN_TOHOKU_NEGISHI_TRACK_SEGMENTS,

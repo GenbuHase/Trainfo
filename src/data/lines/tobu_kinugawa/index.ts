@@ -17,8 +17,8 @@ export const tobuKinugawaLine: LineDefinition = {
       "outbound": "鬼怒川温泉・新藤原方面",
       "inboundFull": "上り 下今市・浅草方面",
       "outboundFull": "下り 鬼怒川温泉・新藤原方面",
-      "inboundShort": "下今市方面",
-      "outboundShort": "新藤原方面"
+      "inboundShort": "上り（下今市方面）",
+      "outboundShort": "下り（新藤原方面）"
   },
   stations: TOBU_KINUGAWA_STATIONS,
   trackSegments: TOBU_KINUGAWA_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const shibayamaLine: LineDefinition = {
     "outbound": "芝山千代田方面",
     "inboundFull": "上り 東成田・京成成田方面",
     "outboundFull": "下り 芝山千代田方面",
-    "inboundShort": "東成田",
-    "outboundShort": "芝山千代田方面"
+    "inboundShort": "上り（東成田方面）",
+    "outboundShort": "下り（芝山千代田方面）"
 },
   stations: SHIBAYAMA_STATIONS,
   trackSegments: SHIBAYAMA_TRACK_SEGMENTS,

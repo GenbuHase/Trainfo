@@ -21,8 +21,8 @@ export const ryutetsuLine: LineDefinition = {
     "outbound": "流山方面",
     "inboundFull": "上り 馬橋方面",
     "outboundFull": "下り 流山方面",
-    "inboundShort": "馬橋方面",
-    "outboundShort": "流山方面"
+    "inboundShort": "上り（馬橋方面）",
+    "outboundShort": "下り（流山方面）"
 },
   stations: RYUTETSU_STATIONS,
   trackSegments: RYUTETSU_TRACK_SEGMENTS,

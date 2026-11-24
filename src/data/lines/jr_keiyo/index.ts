@@ -17,8 +17,8 @@ export const keiyoLine: LineDefinition = {
   "outbound": "下り 海浜幕張・蘇我方面",
   "inboundFull": "上り 新木場・東京方面",
   "outboundFull": "下り 舞浜・海浜幕張・蘇我方面",
-  "inboundShort": "東京方面",
-  "outboundShort": "蘇我方面"
+  "inboundShort": "上り（東京方面）",
+  "outboundShort": "下り（蘇我方面）"
 },
   stations: KEIYO_STATIONS,
   trackSegments: KEIYO_TRACK_SEGMENTS,

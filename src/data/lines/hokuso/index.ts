@@ -21,8 +21,8 @@ export const hokusoLine: LineDefinition = {
     "outbound": "新鎌ヶ谷・印旛日本医大方面",
     "inboundFull": "上り 京成高砂・押上・浅草線方面",
     "outboundFull": "下り 新鎌ヶ谷・印旛日本医大方面",
-    "inboundShort": "京成高砂",
-    "outboundShort": "新鎌ヶ谷"
+    "inboundShort": "上り（京成高砂方面）",
+    "outboundShort": "下り（印旛日本医大方面）"
 },
   stations: HOKUSO_STATIONS,
   trackSegments: HOKUSO_TRACK_SEGMENTS,

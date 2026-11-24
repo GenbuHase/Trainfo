@@ -17,8 +17,8 @@ export const kamaishiLine: LineDefinition = {
     "outbound": "遠野・釜石方面",
     "inboundFull": "上り 花巻・盛岡方面",
     "outboundFull": "下り 遠野・釜石方面",
-    "inboundShort": "上り (花巻方面)",
-    "outboundShort": "下り (釜石方面)"
+    "inboundShort": "上り（花巻方面）",
+    "outboundShort": "下り（釜石方面）"
 },
   stations: KAMAISHI_STATIONS,
   trackSegments: KAMAISHI_TRACK_SEGMENTS,

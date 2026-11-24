@@ -21,8 +21,8 @@ export const yokohamaBlueLine: LineDefinition = {
     "outbound": "横浜・新横浜・あざみ野方面",
     "inboundFull": "上り 戸塚・湘南台方面",
     "outboundFull": "下り 横浜・新横浜・あざみ野方面",
-    "inboundShort": "戸塚",
-    "outboundShort": "横浜"
+    "inboundShort": "上り（湘南台方面）",
+    "outboundShort": "下り（あざみ野方面）"
 },
   stations: YOKOHAMA_BLUE_STATIONS,
   trackSegments: YOKOHAMA_BLUE_TRACK_SEGMENTS,

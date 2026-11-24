@@ -17,8 +17,8 @@ export const akitaShinkansenLine: LineDefinition = {
   "outbound": "大曲・秋田方面",
   "inboundFull": "上り 盛岡・東京方面",
   "outboundFull": "下り 大曲・秋田方面",
-  "inboundShort": "東京方面",
-  "outboundShort": "秋田方面"
+  "inboundShort": "上り（東京方面）",
+  "outboundShort": "下り（秋田方面）"
 },
   stations: AKITA_SHINKANSEN_STATIONS,
   trackSegments: AKITA_SHINKANSEN_TRACK_SEGMENTS,

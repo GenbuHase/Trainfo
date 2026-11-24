@@ -17,8 +17,8 @@ export const utsunomiyaLine: LineDefinition = {
     'outbound': '久喜・宇都宮・黒磯方面',
     'inboundFull': '上り 大宮・上野方面',
     'outboundFull': '下り 久喜・宇都宮・黒磯方面',
-    'inboundShort': '上野方面',
-    'outboundShort': '宇都宮方面'
+    'inboundShort': '上り（上野方面）',
+    'outboundShort': '下り（宇都宮方面）'
   },
   stations: UTSUNOMIYA_STATIONS,
   trackSegments: UTSUNOMIYA_TRACK_SEGMENTS,

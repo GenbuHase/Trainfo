@@ -17,8 +17,8 @@ export const igrIwateGingaLine: LineDefinition = {
     "outbound": "二戸・八戸方面",
     "inboundFull": "上り 好摩・盛岡方面",
     "outboundFull": "下り いわて沼宮内・二戸・八戸方面",
-    "inboundShort": "盛岡方面",
-    "outboundShort": "八戸方面"
+    "inboundShort": "上り（盛岡方面）",
+    "outboundShort": "下り（八戸方面）"
 },
   stations: IGR_IWATE_GINGA_STATIONS,
   trackSegments: IGR_IWATE_GINGA_TRACK_SEGMENTS,

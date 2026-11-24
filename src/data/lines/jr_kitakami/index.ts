@@ -17,8 +17,8 @@ export const kitakamiLine: LineDefinition = {
     "outbound": "ほっとゆだ・横手方面",
     "inboundFull": "上り ほっとゆだ・北上方面",
     "outboundFull": "下り ほっとゆだ・横手方面",
-    "inboundShort": "上り (北上方面)",
-    "outboundShort": "下り (横手方面)"
+    "inboundShort": "上り（北上方面）",
+    "outboundShort": "下り（横手方面）"
 },
   stations: KITAKAMI_STATIONS,
   trackSegments: KITAKAMI_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const joshinLine: LineDefinition = {
     "outbound": "富岡・下仁田方面",
     "inboundFull": "上り 高崎方面",
     "outboundFull": "下り 富岡・下仁田方面",
-    "inboundShort": "高崎方面",
-    "outboundShort": "富岡"
+    "inboundShort": "上り（高崎方面）",
+    "outboundShort": "下り（下仁田方面）"
 },
   stations: JOSHIN_STATIONS,
   trackSegments: JOSHIN_TRACK_SEGMENTS,

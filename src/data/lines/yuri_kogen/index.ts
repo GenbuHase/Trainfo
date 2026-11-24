@@ -18,8 +18,8 @@ export const yuriKogenLine: LineDefinition = {
     "outbound": "前郷・矢島方面",
     "inboundFull": "上り 羽後本荘方面",
     "outboundFull": "下り 矢島方面",
-    "inboundShort": "羽後本荘方面",
-    "outboundShort": "矢島方面"
+    "inboundShort": "上り（羽後本荘方面）",
+    "outboundShort": "下り（矢島方面）"
 },
   stations: YURI_KOGEN_STATIONS,
   trackSegments: YURI_KOGEN_TRACK_SEGMENTS,

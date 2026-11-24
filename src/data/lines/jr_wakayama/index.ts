@@ -17,8 +17,8 @@ export const jrWakayamaLine: LineDefinition = {
   "outbound": "橋本・五条・和歌山方面",
   "inboundFull": "上り 高田・王寺方面",
   "outboundFull": "下り 橋本・五条・和歌山方面",
-  "inboundShort": "王寺方面",
-  "outboundShort": "和歌山方面"
+  "inboundShort": "上り（王寺方面）",
+  "outboundShort": "下り（和歌山方面）"
 },
   stations: JR_WAKAYAMA_STATIONS,
   trackSegments: JR_WAKAYAMA_TRACK_SEGMENTS,

@@ -18,8 +18,8 @@ export const yamagataFlowerNagaiLine: LineDefinition = {
     "outbound": "長井・荒砥方面",
     "inboundFull": "上り 今泉・赤湯方面",
     "outboundFull": "下り 長井・荒砥方面",
-    "inboundShort": "赤湯方面",
-    "outboundShort": "荒砥方面"
+    "inboundShort": "上り（赤湯方面）",
+    "outboundShort": "下り（荒砥方面）"
 },
   stations: YAMAGATA_FLOWER_NAGAI_STATIONS,
   trackSegments: YAMAGATA_FLOWER_NAGAI_TRACK_SEGMENTS,

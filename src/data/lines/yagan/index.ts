@@ -17,8 +17,8 @@ export const yaganLine: LineDefinition = {
       "outbound": "会津田島・会津若松方面",
       "inboundFull": "上り 新藤原・浅草方面",
       "outboundFull": "下り 会津田島・会津若松方面",
-      "inboundShort": "新藤原方面",
-      "outboundShort": "会津田島方面"
+      "inboundShort": "上り（新藤原方面）",
+      "outboundShort": "下り（会津田島方面）"
   },
   stations: YAGAN_STATIONS,
   trackSegments: YAGAN_TRACK_SEGMENTS,

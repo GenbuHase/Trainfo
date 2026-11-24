@@ -17,8 +17,8 @@ export const tohokuRifuLine: LineDefinition = {
     "outbound": "新利府・利府方面",
     "inboundFull": "上り 岩切・仙台方面",
     "outboundFull": "下り 新利府・利府方面",
-    "inboundShort": "岩切・仙台方面",
-    "outboundShort": "利府方面"
+    "inboundShort": "上り（岩切・仙台方面）",
+    "outboundShort": "下り（利府方面）"
 },
   stations: TOHOKU_RIFU_STATIONS,
   trackSegments: TOHOKU_RIFU_TRACK_SEGMENTS,

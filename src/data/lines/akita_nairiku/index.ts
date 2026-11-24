@@ -18,8 +18,8 @@ export const akitaNairikuLine: LineDefinition = {
     "outbound": "阿仁合・角館方面",
     "inboundFull": "上り 阿仁合・鷹巣方面",
     "outboundFull": "下り 阿仁合・角館方面",
-    "inboundShort": "鷹巣方面",
-    "outboundShort": "角館方面"
+    "inboundShort": "上り（鷹巣方面）",
+    "outboundShort": "下り（角館方面）"
 },
   stations: AKITA_NAIRIKU_STATIONS,
   trackSegments: AKITA_NAIRIKU_TRACK_SEGMENTS,

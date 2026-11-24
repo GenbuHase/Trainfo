@@ -21,8 +21,8 @@ export const kantoRyugasakiLine: LineDefinition = {
     "outbound": "竜ヶ崎方面",
     "inboundFull": "上り 佐貫方面",
     "outboundFull": "下り 竜ヶ崎方面",
-    "inboundShort": "佐貫方面",
-    "outboundShort": "竜ヶ崎方面"
+    "inboundShort": "上り（佐貫方面）",
+    "outboundShort": "下り（竜ヶ崎方面）"
 },
   stations: KANTO_RYUGASAKI_STATIONS,
   trackSegments: KANTO_RYUGASAKI_TRACK_SEGMENTS,

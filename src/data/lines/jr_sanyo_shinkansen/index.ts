@@ -17,8 +17,8 @@ export const sanyoShinkansenLine: LineDefinition = {
       "outbound": "広島・博多方面",
       "inboundFull": "上り 岡山・新大阪・東京方面",
       "outboundFull": "下り 岡山・広島・小倉・博多方面",
-      "inboundShort": "新大阪方面",
-      "outboundShort": "博多方面"
+      "inboundShort": "上り（新大阪方面）",
+      "outboundShort": "下り（博多方面）"
   },
   stations: SANYO_SHINKANSEN_STATIONS,
   trackSegments: SANYO_SHINKANSEN_TRACK_SEGMENTS,

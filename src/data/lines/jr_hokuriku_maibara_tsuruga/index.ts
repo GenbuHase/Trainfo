@@ -17,8 +17,8 @@ export const jrHokurikuMaibaraTsurugaLine: LineDefinition = {
     "outbound": "近江塩津・敦賀方面",
     "inboundFull": "上り 長浜・米原・京都方面",
     "outboundFull": "下り 木ノ本・近江塩津・敦賀方面",
-    "inboundShort": "米原方面",
-    "outboundShort": "敦賀方面"
+    "inboundShort": "上り（米原方面）",
+    "outboundShort": "下り（敦賀方面）"
 },
   stations: JR_HOKURIKU_MAIBARA_TSURUGA_STATIONS,
   trackSegments: JR_HOKURIKU_MAIBARA_TSURUGA_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const hachinoheLine: LineDefinition = {
     "outbound": "本八戸・鮫・久慈方面",
     "inboundFull": "上り 八戸方面",
     "outboundFull": "下り 本八戸・鮫・久慈方面",
-    "inboundShort": "上り (八戸方面)",
-    "outboundShort": "下り (久慈方面)"
+    "inboundShort": "上り（八戸方面）",
+    "outboundShort": "下り（久慈方面）"
 },
   stations: HACHINOHE_STATIONS,
   trackSegments: HACHINOHE_TRACK_SEGMENTS,

@@ -18,8 +18,8 @@ export const yonesakaLine: LineDefinition = {
     "outbound": "今泉・小国・坂町方面",
     "inboundFull": "上り 今泉・米沢方面",
     "outboundFull": "下り 小国・坂町方面",
-    "inboundShort": "米沢方面",
-    "outboundShort": "坂町方面"
+    "inboundShort": "上り（米沢方面）",
+    "outboundShort": "下り（坂町方面）"
 },
   stations: YONESAKA_STATIONS,
   trackSegments: YONESAKA_TRACK_SEGMENTS,

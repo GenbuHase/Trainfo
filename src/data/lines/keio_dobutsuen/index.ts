@@ -21,8 +21,8 @@ export const keioDobutsuenLine: LineDefinition = {
     "outbound": "多摩動物公園方面",
     "inboundFull": "上り 高幡不動方面",
     "outboundFull": "下り 多摩動物公園方面",
-    "inboundShort": "高幡不動方面",
-    "outboundShort": "多摩動物公園方面"
+    "inboundShort": "上り（高幡不動方面）",
+    "outboundShort": "下り（多摩動物公園方面）"
 },
   stations: KEIO_DOBUTSUEN_STATIONS,
   trackSegments: KEIO_DOBUTSUEN_TRACK_SEGMENTS,

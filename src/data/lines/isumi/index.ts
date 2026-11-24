@@ -21,8 +21,8 @@ export const isumiLine: LineDefinition = {
     "outbound": "大多喜・上総中野方面",
     "inboundFull": "上り 大原方面",
     "outboundFull": "下り 大多喜・上総中野方面",
-    "inboundShort": "大原方面",
-    "outboundShort": "大多喜"
+    "inboundShort": "上り（大原方面）",
+    "outboundShort": "下り（上総中野方面）"
 },
   stations: ISUMI_STATIONS,
   trackSegments: ISUMI_TRACK_SEGMENTS,

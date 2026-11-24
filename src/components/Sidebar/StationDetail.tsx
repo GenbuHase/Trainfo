@@ -266,9 +266,9 @@ export const StationDetail: React.FC<StationDetailProps> = ({
       <div className="p-4 space-y-5 flex-1">
         {/* 電光掲示板風 リアルタイム発車標 */}
         <section>
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-center gap-1.5 font-bold text-sm text-slate-800">
-              <Clock className="w-4 h-4" style={{ color: themeColor }} />
+          <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div className="flex items-center gap-1.5 font-bold text-sm text-slate-800 whitespace-nowrap">
+              <Clock className="w-4 h-4 shrink-0" style={{ color: themeColor }} />
               <span>発車案内（リアルタイム）</span>
             </div>
 
@@ -277,7 +277,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
               <button
                 onClick={() => setSelectedDirection('inbound')}
                 disabled={!hasInbound}
-                className={`px-2.5 py-1 rounded-md transition-all ${
+                className={`px-2.5 py-1 rounded-md transition-all whitespace-nowrap ${
                   selectedDirection === 'inbound'
                     ? 'bg-white shadow-xs font-bold'
                     : 'text-slate-500 hover:text-slate-900 disabled:opacity-30'
@@ -289,7 +289,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
               <button
                 onClick={() => setSelectedDirection('outbound')}
                 disabled={!hasOutbound}
-                className={`px-2.5 py-1 rounded-md transition-all ${
+                className={`px-2.5 py-1 rounded-md transition-all whitespace-nowrap ${
                   selectedDirection === 'outbound'
                     ? 'bg-white shadow-xs font-bold'
                     : 'text-slate-500 hover:text-slate-900 disabled:opacity-30'
