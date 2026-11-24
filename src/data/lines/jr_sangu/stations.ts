@@ -13,7 +13,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ紀勢本線"
     ],
-    "address": "",
+    "address": "三重県多気町多気",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,7 +41,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.49766,
     "lng": 136.59705,
     "transfers": [],
-    "address": "",
+    "address": "三重県多気町土羽",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.48843,
     "lng": 136.63438,
     "transfers": [],
-    "address": "",
+    "address": "三重県玉城町佐田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -97,7 +97,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.50314,
     "lng": 136.67236,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊勢市小俣町本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -125,7 +125,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.49593,
     "lng": 136.69529,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊勢市常磐一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,7 +155,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "transfers": [
       "近鉄山田線"
     ],
-    "address": "",
+    "address": "三重県伊勢市吹上一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -183,7 +183,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.49595,
     "lng": 136.74021,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊勢市黒瀬町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -211,7 +211,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.50347,
     "lng": 136.7791,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊勢市二見町三津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -239,7 +239,7 @@ export const JR_SANGU_STATIONS: Station[] = [
     "lat": 34.49595,
     "lng": 136.79953,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊勢市二見町松下",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -270,7 +270,7 @@ export const JR_SANGU_STATIONS: Station[] = [
       "近鉄鳥羽線",
       "近鉄志摩線"
     ],
-    "address": "",
+    "address": "三重県鳥羽市鳥羽一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

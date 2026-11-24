@@ -11,7 +11,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.85032,
     "lng": 136.44867,
     "transfers": [],
-    "address": "",
+    "address": "三重県亀山市御幸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -38,7 +38,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.84908,
     "lng": 136.39342,
     "transfers": [],
-    "address": "",
+    "address": "三重県亀山市関町新所",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -65,7 +65,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.84188,
     "lng": 136.33976,
     "transfers": [],
-    "address": "",
+    "address": "三重県亀山市加太市場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -92,7 +92,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.84749,
     "lng": 136.25574,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊賀市柘植町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,7 +119,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.82154,
     "lng": 136.20743,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊賀市新堂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -146,7 +146,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.80374,
     "lng": 136.16219,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊賀市外山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -173,7 +173,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.78906,
     "lng": 136.12188,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊賀市野間",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +200,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.76692,
     "lng": 136.05358,
     "transfers": [],
-    "address": "",
+    "address": "三重県伊賀市島ヶ原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.76285,
     "lng": 136.0237,
     "transfers": [],
-    "address": "",
+    "address": "京都府南山城村大字北大河原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -254,7 +254,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.77207,
     "lng": 135.9886,
     "transfers": [],
-    "address": "",
+    "address": "京都府南山城村大字北大河原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.75897,
     "lng": 135.93487,
     "transfers": [],
-    "address": "",
+    "address": "京都府笠置町大字笠置",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const JR_KANSAI_KAMEYAMA_KAMO_STATIONS: Station[] = [
     "lat": 34.75203,
     "lng": 135.86911,
     "transfers": [],
-    "address": "",
+    "address": "京都府木津川市加茂町駅西一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

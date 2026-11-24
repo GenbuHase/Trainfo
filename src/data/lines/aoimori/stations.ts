@@ -13,7 +13,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "transfers": [
       "IGRいわて銀河鉄道線"
     ],
-    "address": "青森県目時駅周辺",
+    "address": "青森県三戸町大字目時",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.3954265,
     "lng": 141.2731014,
     "transfers": [],
-    "address": "青森県三戸駅周辺",
+    "address": "青森県南部町大字大向",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -67,7 +67,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.4149072,
     "lng": 141.3046503,
     "transfers": [],
-    "address": "青森県諏訪ノ平駅周辺",
+    "address": "青森県南部町大字玉掛",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -94,7 +94,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.4485004,
     "lng": 141.3462058,
     "transfers": [],
-    "address": "青森県剣吉駅周辺",
+    "address": "青森県南部町大字剣吉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -121,7 +121,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.466955,
     "lng": 141.3750446,
     "transfers": [],
-    "address": "青森県苫米地駅周辺",
+    "address": "青森県南部町大字苫米地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.4753038,
     "lng": 141.4058372,
     "transfers": [],
-    "address": "青森県北高岩駅周辺",
+    "address": "青森県八戸市大字上野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -178,7 +178,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "JR東北新幹線",
       "JR八戸線"
     ],
-    "address": "青森県八戸駅周辺",
+    "address": "青森県八戸市大字尻内町字館田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.5631204,
     "lng": 141.4389694,
     "transfers": [],
-    "address": "青森県陸奥市川駅周辺",
+    "address": "青森県八戸市大字市川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.5918741,
     "lng": 141.4077007,
     "transfers": [],
-    "address": "青森県下田駅周辺",
+    "address": "青森県おいらせ町境田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -262,7 +262,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.6298239,
     "lng": 141.3705214,
     "transfers": [],
-    "address": "青森県向山駅周辺",
+    "address": "青森県おいらせ町向山四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -289,7 +289,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.6693771,
     "lng": 141.3537557,
     "transfers": [],
-    "address": "青森県三沢駅周辺",
+    "address": "青森県三沢市大字犬落瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -318,7 +318,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.7100322,
     "lng": 141.2995373,
     "transfers": [],
-    "address": "青森県小川原駅周辺",
+    "address": "青森県東北町大字大浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -345,7 +345,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.7329611,
     "lng": 141.2647565,
     "transfers": [],
-    "address": "青森県上北町駅周辺",
+    "address": "青森県東北町上北北一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -373,7 +373,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.7799392,
     "lng": 141.2131951,
     "transfers": [],
-    "address": "青森県乙供駅周辺",
+    "address": "青森県東北町字上笹橋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -401,7 +401,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.8044316,
     "lng": 141.1531263,
     "transfers": [],
-    "address": "青森県千曳駅周辺",
+    "address": "青森県東北町字夫雑原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -430,7 +430,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "transfers": [
       "JR大湊線"
     ],
-    "address": "青森県野辺地駅周辺",
+    "address": "青森県野辺地町字上小中野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -458,7 +458,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.9004341,
     "lng": 141.0711011,
     "transfers": [],
-    "address": "青森県狩場沢駅周辺",
+    "address": "青森県平内町大字狩場沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -485,7 +485,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.9217784,
     "lng": 141.0245309,
     "transfers": [],
-    "address": "青森県清水川駅周辺",
+    "address": "青森県平内町大字清水川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -512,7 +512,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.9298953,
     "lng": 140.9551504,
     "transfers": [],
-    "address": "青森県小湊駅周辺",
+    "address": "青森県平内町大字小湊",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -540,7 +540,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.9180001,
     "lng": 140.9131095,
     "transfers": [],
-    "address": "青森県西平内駅周辺",
+    "address": "青森県平内町大字小豆沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -567,7 +567,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.8911374,
     "lng": 140.8625203,
     "transfers": [],
-    "address": "青森県浅虫温泉駅周辺",
+    "address": "青森県青森市大字浅虫",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -596,7 +596,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.846124,
     "lng": 140.8170073,
     "transfers": [],
-    "address": "青森県野内駅周辺",
+    "address": "青森県青森市大字野内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -625,7 +625,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.8339935,
     "lng": 140.8073191,
     "transfers": [],
-    "address": "青森県矢田前駅周辺",
+    "address": "青森県青森市大字原別",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -654,7 +654,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.8179684,
     "lng": 140.797929,
     "transfers": [],
-    "address": "青森県小柳駅周辺",
+    "address": "青森県青森市自由ケ丘一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -683,7 +683,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.8103236,
     "lng": 140.7830183,
     "transfers": [],
-    "address": "青森県東青森駅周辺",
+    "address": "青森県青森市大字松森",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -712,7 +712,7 @@ export const AOIMORI_STATIONS: Station[] = [
     "lat": 40.8056872,
     "lng": 140.769443,
     "transfers": [],
-    "address": "青森県筒井駅周辺",
+    "address": "青森県青森市筒井三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -744,7 +744,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "JR奥羽本線（秋田～青森）",
       "JR津軽線"
     ],
-    "address": "青森県青森駅周辺",
+    "address": "青森県青森市柳川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

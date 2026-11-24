@@ -13,7 +13,7 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "transfers": [
       "京成本線"
     ],
-    "address": "千葉県ユーカリが丘駅",
+    "address": "千葉県佐倉市ユーカリが丘四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -66,7 +66,7 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "lat": 35.7307655,
     "lng": 140.1536911,
     "transfers": [],
-    "address": "千葉県公園駅",
+    "address": "千葉県佐倉市ユーカリが丘六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -92,7 +92,7 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "lat": 35.7383771,
     "lng": 140.154816,
     "transfers": [],
-    "address": "千葉県女子大駅",
+    "address": "千葉県佐倉市井野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -118,7 +118,7 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "lat": 35.7398021,
     "lng": 140.1482965,
     "transfers": [],
-    "address": "千葉県中学校駅",
+    "address": "千葉県佐倉市宮ノ台三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -144,7 +144,7 @@ export const YAMAMAN_YUKARIGAOKA_STATIONS: Station[] = [
     "lat": 35.7326129,
     "lng": 140.1486219,
     "transfers": [],
-    "address": "千葉県井野駅",
+    "address": "千葉県佐倉市ユーカリが丘七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

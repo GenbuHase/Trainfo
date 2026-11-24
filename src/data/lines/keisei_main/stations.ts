@@ -12,7 +12,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7118019,
     "lng": 139.7733573,
     "transfers": [],
-    "address": "東京都京成上野駅",
+    "address": "東京都台東区上野公園",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -51,7 +51,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "ＪＲ山手線内回り",
       "ＪＲ京浜東北線"
     ],
-    "address": "東京都日暮里駅",
+    "address": "東京都荒川区西日暮里二丁目19-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -85,7 +85,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7375253,
     "lng": 139.7745333,
     "transfers": [],
-    "address": "東京都新三河島駅",
+    "address": "東京都荒川区西日暮里六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -139,7 +139,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7422272,
     "lng": 139.7974724,
     "transfers": [],
-    "address": "東京都千住大橋駅",
+    "address": "東京都足立区千住橋戸町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -167,7 +167,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7440178,
     "lng": 139.8122577,
     "transfers": [],
-    "address": "東京都京成関屋駅",
+    "address": "東京都足立区千住曙町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -194,7 +194,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7476763,
     "lng": 139.8280188,
     "transfers": [],
-    "address": "東京都堀切菖蒲園駅",
+    "address": "東京都葛飾区堀切五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -221,7 +221,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7475447,
     "lng": 139.8403286,
     "transfers": [],
-    "address": "東京都お花茶屋駅",
+    "address": "東京都葛飾区宝町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -250,7 +250,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "transfers": [
       "京成押上線"
     ],
-    "address": "東京都青砥駅",
+    "address": "東京都葛飾区青戸三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -288,7 +288,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "京成成田スカイアクセス線",
       "北総鉄道北総線"
     ],
-    "address": "東京都京成高砂駅",
+    "address": "東京都葛飾区高砂五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -321,7 +321,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7426008,
     "lng": 139.883031,
     "transfers": [],
-    "address": "東京都京成小岩駅",
+    "address": "東京都江戸川区北小岩二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -351,7 +351,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7377557,
     "lng": 139.8958164,
     "transfers": [],
-    "address": "東京都江戸川駅",
+    "address": "東京都江戸川区北小岩三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -378,7 +378,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7363582,
     "lng": 139.9028004,
     "transfers": [],
-    "address": "千葉県国府台駅",
+    "address": "千葉県市川市市川三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -432,7 +432,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7285257,
     "lng": 139.9188468,
     "transfers": [],
-    "address": "千葉県菅野駅",
+    "address": "千葉県市川市菅野二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -459,7 +459,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7240606,
     "lng": 139.9277562,
     "transfers": [],
-    "address": "千葉県京成八幡駅",
+    "address": "千葉県市川市八幡三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -490,7 +490,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7199848,
     "lng": 139.9374343,
     "transfers": [],
-    "address": "千葉県鬼越駅",
+    "address": "千葉県市川市鬼越一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -517,7 +517,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7172151,
     "lng": 139.9438585,
     "transfers": [],
-    "address": "千葉県京成中山駅",
+    "address": "千葉県船橋市本中山一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -544,7 +544,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7145664,
     "lng": 139.9521805,
     "transfers": [],
-    "address": "千葉県東中山駅",
+    "address": "千葉県船橋市東中山二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -574,7 +574,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7119467,
     "lng": 139.9584437,
     "transfers": [],
-    "address": "千葉県京成西船駅",
+    "address": "千葉県船橋市印内一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -601,7 +601,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7061589,
     "lng": 139.9714389,
     "transfers": [],
-    "address": "千葉県海神駅",
+    "address": "千葉県船橋市海神五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -628,7 +628,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.6999743,
     "lng": 139.9847661,
     "transfers": [],
-    "address": "千葉県京成船橋駅",
+    "address": "千葉県船橋市本町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -660,7 +660,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.6939614,
     "lng": 139.9913748,
     "transfers": [],
-    "address": "千葉県大神宮下駅",
+    "address": "千葉県船橋市宮本二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -687,7 +687,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.6896335,
     "lng": 139.9979867,
     "transfers": [],
-    "address": "千葉県船橋競馬場駅",
+    "address": "千葉県船橋市宮本八丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -717,7 +717,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.6852243,
     "lng": 140.0075842,
     "transfers": [],
-    "address": "千葉県谷津駅",
+    "address": "千葉県習志野市谷津五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -747,7 +747,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "京成千葉線",
       "京成松戸線"
     ],
-    "address": "千葉県京成津田沼駅",
+    "address": "千葉県習志野市津田沼三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -779,7 +779,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.6859433,
     "lng": 140.0480404,
     "transfers": [],
-    "address": "千葉県京成大久保駅",
+    "address": "千葉県習志野市本大久保三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -809,7 +809,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.6867018,
     "lng": 140.067418,
     "transfers": [],
-    "address": "千葉県実籾駅",
+    "address": "千葉県習志野市実籾二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -839,7 +839,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7008926,
     "lng": 140.0901868,
     "transfers": [],
-    "address": "千葉県八千代台駅",
+    "address": "千葉県八千代市八千代台南一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -871,7 +871,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7120872,
     "lng": 140.1080359,
     "transfers": [],
-    "address": "千葉県京成大和田駅",
+    "address": "千葉県八千代市大和田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -901,7 +901,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7153596,
     "lng": 140.1252324,
     "transfers": [],
-    "address": "千葉県勝田台駅",
+    "address": "千葉県八千代市勝田台北一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -932,7 +932,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7175081,
     "lng": 140.1453174,
     "transfers": [],
-    "address": "千葉県志津駅",
+    "address": "千葉県佐倉市上志津",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -965,7 +965,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "transfers": [
       "山万ユーカリが丘線"
     ],
-    "address": "千葉県ユーカリが丘駅",
+    "address": "千葉県佐倉市ユーカリが丘四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -997,7 +997,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7295044,
     "lng": 140.1803342,
     "transfers": [],
-    "address": "千葉県京成臼井駅",
+    "address": "千葉県佐倉市王子台三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1028,7 +1028,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.725146,
     "lng": 140.2290113,
     "transfers": [],
-    "address": "千葉県京成佐倉駅",
+    "address": "千葉県佐倉市栄町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1060,7 +1060,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7300373,
     "lng": 140.2510513,
     "transfers": [],
-    "address": "千葉県大佐倉駅",
+    "address": "千葉県佐倉市大佐倉",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1091,7 +1091,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7373849,
     "lng": 140.270658,
     "transfers": [],
-    "address": "千葉県京成酒々井駅",
+    "address": "千葉県酒々井町中川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1122,7 +1122,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.7527297,
     "lng": 140.2811163,
     "transfers": [],
-    "address": "千葉県宗吾参道駅",
+    "address": "千葉県酒々井町下岩橋",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1153,7 +1153,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "lat": 35.760339,
     "lng": 140.2948558,
     "transfers": [],
-    "address": "千葉県公津の杜駅",
+    "address": "千葉県成田市公津の杜四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1186,7 +1186,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "transfers": [
       "京成東成田線"
     ],
-    "address": "千葉県京成成田駅",
+    "address": "千葉県成田市花崎町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1222,7 +1222,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "ＪＲ成田線",
       "京成成田スカイアクセス線"
     ],
-    "address": "千葉県空港第２ビル駅",
+    "address": "千葉県成田市古込",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1258,7 +1258,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "ＪＲ成田線",
       "京成成田スカイアクセス線"
     ],
-    "address": "千葉県成田空港駅",
+    "address": "千葉県成田市天浪",
     "facilities": {
       "elevator": true,
       "restroom": true,

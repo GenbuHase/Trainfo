@@ -19,7 +19,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
       "千葉都市モノレール",
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区新千葉一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -48,7 +48,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.6177,
     "lng": 140.1233,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区祐光二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -76,7 +76,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "千葉都市モノレール"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市若葉区都賀三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -103,7 +103,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.66323,
     "lng": 140.16599,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県四街道市鹿渡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -132,7 +132,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.68626,
     "lng": 140.20076,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県四街道市物井",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -161,7 +161,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "JR成田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県佐倉市六崎",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -190,7 +190,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.70454,
     "lng": 140.26689,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県酒々井町馬橋",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -217,7 +217,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.68471,
     "lng": 140.28755,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県八街市榎戸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -244,7 +244,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.66272,
     "lng": 140.31834,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県八街市八街ほ",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -273,7 +273,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.62797,
     "lng": 140.36312,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県山武市椎崎",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -302,7 +302,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "JR東金線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県山武市津辺",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -331,7 +331,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.63718,
     "lng": 140.45887,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県山武市松尾町五反田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -357,7 +357,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.66233,
     "lng": 140.49187,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県横芝光町横芝",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -384,7 +384,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.68561,
     "lng": 140.52241,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県匝瑳市飯倉",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -410,7 +410,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.69974,
     "lng": 140.55323,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県匝瑳市八日市場イ",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -438,7 +438,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.71813,
     "lng": 140.60239,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県旭市ニ",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -464,7 +464,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.72199,
     "lng": 140.65587,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県旭市ロ",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -492,7 +492,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.72969,
     "lng": 140.6846,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県旭市後草",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -519,7 +519,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.73807,
     "lng": 140.71458,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県旭市倉橋",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -545,7 +545,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "lat": 35.74748,
     "lng": 140.73832,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市猿田町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -573,7 +573,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "JR成田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市長塚町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -601,7 +601,7 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "transfers": [
       "銚子電鉄"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県銚子市西芝町",
     "facilities": {
       "elevator": true,
       "restroom": true,

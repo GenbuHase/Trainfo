@@ -14,7 +14,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都調布駅",
+    "address": "東京都調布市布田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -46,7 +46,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6439893,
     "lng": 139.5361597,
     "transfers": [],
-    "address": "東京都京王多摩川駅",
+    "address": "東京都調布市多摩川四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -75,7 +75,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6329367,
     "lng": 139.51674,
     "transfers": [],
-    "address": "東京都京王よみうりランド駅",
+    "address": "東京都稲城市矢野口",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -105,7 +105,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6362273,
     "lng": 139.5004987,
     "transfers": [],
-    "address": "東京都稲城駅",
+    "address": "東京都稲城市東長沼",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -134,7 +134,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6305118,
     "lng": 139.4473211,
     "transfers": [],
-    "address": "東京都京王永山駅",
+    "address": "東京都多摩市永山一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -164,7 +164,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6248416,
     "lng": 139.4231859,
     "transfers": [],
-    "address": "東京都京王多摩センター駅",
+    "address": "東京都多摩市落合一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -194,7 +194,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6239497,
     "lng": 139.399364,
     "transfers": [],
-    "address": "東京都京王堀之内駅",
+    "address": "東京都八王子市堀之内三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -223,7 +223,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6139429,
     "lng": 139.3796026,
     "transfers": [],
-    "address": "東京都南大沢駅",
+    "address": "東京都八王子市南大沢二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -253,7 +253,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6017578,
     "lng": 139.3669244,
     "transfers": [],
-    "address": "東京都多摩境駅",
+    "address": "東京都町田市小山ヶ丘三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -282,7 +282,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6341159,
     "lng": 139.5318452,
     "transfers": [],
-    "address": "神奈川県京王稲田堤駅",
+    "address": "神奈川県川崎市多摩区菅四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -313,7 +313,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
     "lat": 35.6194535,
     "lng": 139.4712605,
     "transfers": [],
-    "address": "神奈川県若葉台駅",
+    "address": "神奈川県川崎市麻生区黒川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -345,7 +345,7 @@ export const KEIO_SAGAMIHARA_STATIONS: Station[] = [
       "ＪＲ横浜線",
       "ＪＲ相模線"
     ],
-    "address": "神奈川県橋本駅",
+    "address": "神奈川県相模原市緑区橋本二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -17,7 +17,7 @@ export const YAMADA_STATIONS: Station[] = [
       "IGRいわて銀河鉄道線",
       "JR田沢湖線"
     ],
-    "address": "岩手県盛岡駅周辺",
+    "address": "岩手県盛岡市盛岡駅前通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.7114956,
     "lng": 141.148516,
     "transfers": [],
-    "address": "岩手県上盛岡駅周辺",
+    "address": "岩手県盛岡市本町通三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.7160339,
     "lng": 141.1713191,
     "transfers": [],
-    "address": "岩手県山岸駅周辺",
+    "address": "岩手県盛岡市山岸三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.7439231,
     "lng": 141.2038353,
     "transfers": [],
-    "address": "岩手県上米内駅周辺",
+    "address": "岩手県盛岡市上米内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6517598,
     "lng": 141.351454,
     "transfers": [],
-    "address": "岩手県区界駅周辺",
+    "address": "岩手県宮古市区界第一地割",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6357249,
     "lng": 141.4376987,
     "transfers": [],
-    "address": "岩手県松草駅周辺",
+    "address": "岩手県宮古市区界第四地割",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.640706,
     "lng": 141.5977644,
     "transfers": [],
-    "address": "岩手県川内駅周辺",
+    "address": "岩手県宮古市川内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -208,7 +208,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6173956,
     "lng": 141.6255534,
     "transfers": [],
-    "address": "岩手県箱石駅周辺",
+    "address": "岩手県宮古市箱石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -236,7 +236,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.5972217,
     "lng": 141.6813108,
     "transfers": [],
-    "address": "岩手県陸中川井駅周辺",
+    "address": "岩手県宮古市川井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -264,7 +264,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6045202,
     "lng": 141.7677045,
     "transfers": [],
-    "address": "岩手県腹帯駅周辺",
+    "address": "岩手県宮古市腹帯",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -292,7 +292,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6206297,
     "lng": 141.7990032,
     "transfers": [],
-    "address": "岩手県茂市駅周辺",
+    "address": "岩手県宮古市茂市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -320,7 +320,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6296697,
     "lng": 141.8388039,
     "transfers": [],
-    "address": "岩手県蟇目駅周辺",
+    "address": "岩手県宮古市蟇目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -348,7 +348,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6305018,
     "lng": 141.8613492,
     "transfers": [],
-    "address": "岩手県花原市駅周辺",
+    "address": "岩手県宮古市花原市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -376,7 +376,7 @@ export const YAMADA_STATIONS: Station[] = [
     "lat": 39.6323145,
     "lng": 141.9123209,
     "transfers": [],
-    "address": "岩手県千徳駅周辺",
+    "address": "岩手県宮古市上鼻一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -406,7 +406,7 @@ export const YAMADA_STATIONS: Station[] = [
     "transfers": [
       "三陸鉄道リアス線"
     ],
-    "address": "岩手県宮古駅周辺",
+    "address": "岩手県宮古市宮町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

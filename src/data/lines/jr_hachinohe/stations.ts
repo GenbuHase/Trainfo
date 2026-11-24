@@ -14,7 +14,7 @@ export const HACHINOHE_STATIONS: Station[] = [
       "JR東北新幹線",
       "青い森鉄道線"
     ],
-    "address": "青森県八戸駅周辺",
+    "address": "青森県八戸市大字尻内町字館田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5214187,
     "lng": 141.4658712,
     "transfers": [],
-    "address": "青森県長苗代駅周辺",
+    "address": "青森県八戸市大字長苗代",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5162548,
     "lng": 141.4888217,
     "transfers": [],
-    "address": "青森県本八戸駅周辺",
+    "address": "青森県八戸市内丸一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -97,7 +97,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5187266,
     "lng": 141.5102394,
     "transfers": [],
-    "address": "青森県小中野駅周辺",
+    "address": "青森県八戸市小中野四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -124,7 +124,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5230771,
     "lng": 141.5273194,
     "transfers": [],
-    "address": "青森県陸奥湊駅周辺",
+    "address": "青森県八戸市大字湊町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -152,7 +152,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5220565,
     "lng": 141.541828,
     "transfers": [],
-    "address": "青森県白銀駅周辺",
+    "address": "青森県八戸市白銀一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -179,7 +179,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5306459,
     "lng": 141.5553941,
     "transfers": [],
-    "address": "青森県鮫駅周辺",
+    "address": "青森県八戸市大字鮫町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5165172,
     "lng": 141.5926763,
     "transfers": [],
-    "address": "青森県陸奥白浜駅周辺",
+    "address": "青森県八戸市大字鮫町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.5070498,
     "lng": 141.6072643,
     "transfers": [],
-    "address": "青森県種差海岸駅周辺",
+    "address": "青森県八戸市大字鮫町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.4947811,
     "lng": 141.623437,
     "transfers": [],
-    "address": "青森県大久喜駅周辺",
+    "address": "青森県八戸市大字鮫町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -288,7 +288,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.476223,
     "lng": 141.6370382,
     "transfers": [],
-    "address": "青森県金浜駅周辺",
+    "address": "青森県八戸市大字金浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,7 +315,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.4671517,
     "lng": 141.6509651,
     "transfers": [],
-    "address": "青森県大蛇駅周辺",
+    "address": "青森県階上町大字道仏",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -342,7 +342,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.4564163,
     "lng": 141.6654833,
     "transfers": [],
-    "address": "青森県階上駅周辺",
+    "address": "青森県階上町大字道仏",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,7 +369,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.444143,
     "lng": 141.682057,
     "transfers": [],
-    "address": "岩手県角の浜駅周辺",
+    "address": "岩手県洋野町種市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -396,7 +396,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.4252835,
     "lng": 141.6995578,
     "transfers": [],
-    "address": "岩手県平内駅周辺",
+    "address": "岩手県洋野町種市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -423,7 +423,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.4111121,
     "lng": 141.7150656,
     "transfers": [],
-    "address": "岩手県種市駅周辺",
+    "address": "岩手県洋野町種市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -450,7 +450,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.3807319,
     "lng": 141.7348277,
     "transfers": [],
-    "address": "岩手県玉川駅周辺",
+    "address": "岩手県洋野町種市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -477,7 +477,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.3659898,
     "lng": 141.7469664,
     "transfers": [],
-    "address": "岩手県宿戸駅周辺",
+    "address": "岩手県洋野町種市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -504,7 +504,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.3454421,
     "lng": 141.7665421,
     "transfers": [],
-    "address": "岩手県陸中八木駅周辺",
+    "address": "岩手県洋野町種市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -531,7 +531,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.3238582,
     "lng": 141.7729792,
     "transfers": [],
-    "address": "岩手県有家駅周辺",
+    "address": "岩手県洋野町有家",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -558,7 +558,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.304668,
     "lng": 141.78789,
     "transfers": [],
-    "address": "岩手県陸中中野駅周辺",
+    "address": "岩手県洋野町中野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -585,7 +585,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.2614344,
     "lng": 141.7606305,
     "transfers": [],
-    "address": "岩手県侍浜駅周辺",
+    "address": "岩手県久慈市侍浜町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -612,7 +612,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.2074065,
     "lng": 141.7922251,
     "transfers": [],
-    "address": "岩手県陸中夏井駅周辺",
+    "address": "岩手県久慈市夏井町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -639,7 +639,7 @@ export const HACHINOHE_STATIONS: Station[] = [
     "lat": 40.1902903,
     "lng": 141.7708835,
     "transfers": ["三陸鉄道リアス線"],
-    "address": "岩手県久慈駅周辺",
+    "address": "岩手県久慈市駅前",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

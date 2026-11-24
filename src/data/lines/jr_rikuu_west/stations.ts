@@ -16,7 +16,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
       "JR奥羽本線（新庄～大曲）",
       "JR陸羽東線"
     ],
-    "address": "山形県新庄駅周辺",
+    "address": "山形県新庄市多門町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -44,7 +44,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.7515272,
     "lng": 140.2439332,
     "transfers": [],
-    "address": "山形県升形駅周辺",
+    "address": "山形県新庄市大字升形",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.7476752,
     "lng": 140.209197,
     "transfers": [],
-    "address": "山形県羽前前波駅周辺",
+    "address": "山形県新庄市大字升形",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -97,7 +97,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.7373047,
     "lng": 140.1860921,
     "transfers": [],
-    "address": "山形県津谷駅周辺",
+    "address": "山形県戸沢村大字津谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -125,7 +125,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.7371559,
     "lng": 140.1453477,
     "transfers": [],
-    "address": "山形県古口駅周辺",
+    "address": "山形県戸沢村大字古口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.752661,
     "lng": 140.0707196,
     "transfers": [],
-    "address": "山形県高屋駅周辺",
+    "address": "山形県戸沢村大字古口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -178,7 +178,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.7900877,
     "lng": 140.0210168,
     "transfers": [],
-    "address": "山形県清川駅周辺",
+    "address": "山形県庄内町清川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -206,7 +206,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.7934544,
     "lng": 139.9773788,
     "transfers": [],
-    "address": "山形県狩川駅周辺",
+    "address": "山形県庄内町狩川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "lat": 38.8180991,
     "lng": 139.9450573,
     "transfers": [],
-    "address": "山形県南野駅周辺",
+    "address": "山形県庄内町沢新田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -264,7 +264,7 @@ export const RIKUU_WEST_STATIONS: Station[] = [
     "transfers": [
       "JR羽越本線"
     ],
-    "address": "山形県余目駅周辺",
+    "address": "山形県東田川郡三川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

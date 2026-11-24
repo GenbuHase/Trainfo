@@ -14,7 +14,7 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "神奈川県金沢八景駅",
+    "address": "神奈川県横浜市金沢区瀬戸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "lat": 35.3228575,
     "lng": 139.611871,
     "transfers": [],
-    "address": "神奈川県六浦駅",
+    "address": "神奈川県横浜市金沢区六浦五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -71,7 +71,7 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "lat": 35.3065105,
     "lng": 139.593234,
     "transfers": [],
-    "address": "神奈川県神武寺駅",
+    "address": "神奈川県逗子市池子",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -99,7 +99,7 @@ export const KEIKYU_ZUSHI_STATIONS: Station[] = [
     "lat": 35.2943039,
     "lng": 139.5803593,
     "transfers": [],
-    "address": "神奈川県逗子・葉山駅",
+    "address": "神奈川県逗子市逗子五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

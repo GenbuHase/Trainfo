@@ -12,7 +12,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.7460298,
     "lng": 139.4158394,
     "transfers": [],
-    "address": "東京都上北台駅",
+    "address": "東京都東大和市上北台一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.73933,
     "lng": 139.4165851,
     "transfers": [],
-    "address": "東京都桜街道駅",
+    "address": "東京都東大和市上北台三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "transfers": [
       "西武拝島線"
     ],
-    "address": "東京都玉川上水駅",
+    "address": "東京都東大和市桜が丘四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -97,7 +97,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.72367,
     "lng": 139.4181116,
     "transfers": [],
-    "address": "東京都砂川七番駅",
+    "address": "東京都立川市幸町五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.7191159,
     "lng": 139.4193692,
     "transfers": [],
-    "address": "東京都泉体育館駅",
+    "address": "東京都立川市幸町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.7140792,
     "lng": 139.4168242,
     "transfers": [],
-    "address": "東京都立飛駅",
+    "address": "東京都立川市泉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.7098854,
     "lng": 139.4129992,
     "transfers": [],
-    "address": "東京都高松駅",
+    "address": "東京都立川市緑町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -205,7 +205,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6999754,
     "lng": 139.4124907,
     "transfers": [],
-    "address": "東京都立川北駅",
+    "address": "東京都立川市曙町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -232,7 +232,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6958669,
     "lng": 139.4124183,
     "transfers": [],
-    "address": "東京都立川南駅",
+    "address": "東京都立川市柴崎町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -259,7 +259,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6895269,
     "lng": 139.4092087,
     "transfers": [],
-    "address": "東京都柴崎体育館駅",
+    "address": "東京都立川市柴崎町六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -286,7 +286,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6781056,
     "lng": 139.409495,
     "transfers": [],
-    "address": "東京都甲州街道駅",
+    "address": "東京都日野市大字日野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -313,7 +313,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6710596,
     "lng": 139.4201424,
     "transfers": [],
-    "address": "東京都万願寺駅",
+    "address": "東京都日野市万願寺四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -343,7 +343,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
       "京王線",
       "京王動物園線"
     ],
-    "address": "東京都高幡不動駅",
+    "address": "東京都日野市高幡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -371,7 +371,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6555427,
     "lng": 139.410933,
     "transfers": [],
-    "address": "東京都程久保駅",
+    "address": "東京都日野市程久保八丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -400,7 +400,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "transfers": [
       "京王動物園線"
     ],
-    "address": "東京都多摩動物公園駅",
+    "address": "東京都日野市程久保七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -428,7 +428,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6420295,
     "lng": 139.4083633,
     "transfers": [],
-    "address": "東京都中央大学・明星大学駅",
+    "address": "東京都八王子市東中野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -455,7 +455,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6370822,
     "lng": 139.4161523,
     "transfers": [],
-    "address": "東京都大塚・帝京大学駅",
+    "address": "東京都八王子市大塚",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -482,7 +482,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6321275,
     "lng": 139.4219522,
     "transfers": [],
-    "address": "東京都松が谷駅",
+    "address": "東京都八王子市松が谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -509,7 +509,7 @@ export const TAMA_MONORAIL_STATIONS: Station[] = [
     "lat": 35.6241832,
     "lng": 139.4229317,
     "transfers": [],
-    "address": "東京都多摩センター駅",
+    "address": "東京都多摩市落合一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

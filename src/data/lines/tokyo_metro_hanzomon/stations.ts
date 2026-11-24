@@ -22,7 +22,7 @@ export const HANZOMON_STATIONS: Station[] = [
       "相鉄・JR直通線",
       "京王井の頭線"
     ],
-    "address": "東京都渋谷区道玄坂二丁目1-1",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

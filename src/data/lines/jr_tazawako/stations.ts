@@ -17,7 +17,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
       "IGRいわて銀河鉄道線",
       "JR山田線"
     ],
-    "address": "岩手県盛岡駅周辺",
+    "address": "岩手県盛岡市盛岡駅前通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -44,7 +44,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.7129346,
     "lng": 141.1008483,
     "transfers": [],
-    "address": "岩手県前潟駅周辺",
+    "address": "岩手県盛岡市上厨川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -71,7 +71,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.711558,
     "lng": 141.0720532,
     "transfers": [],
-    "address": "岩手県大釜駅周辺",
+    "address": "岩手県滝沢市篠木明法",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -98,7 +98,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.7098774,
     "lng": 141.0248423,
     "transfers": [],
-    "address": "岩手県小岩井駅周辺",
+    "address": "岩手県滝沢市大釜風林",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "transfers": [
       "JR秋田新幹線"
     ],
-    "address": "岩手県雫石駅周辺",
+    "address": "岩手県雫石町寺の下",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.6934072,
     "lng": 140.9439562,
     "transfers": [],
-    "address": "岩手県春木場駅周辺",
+    "address": "岩手県雫石町上野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -181,7 +181,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.6850376,
     "lng": 140.9064553,
     "transfers": [],
-    "address": "岩手県赤渕駅周辺",
+    "address": "岩手県雫石町御明神",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -210,7 +210,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "transfers": [
       "JR秋田新幹線"
     ],
-    "address": "秋田県田沢湖駅周辺",
+    "address": "秋田県仙北市田沢湖生保内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -237,7 +237,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.6691713,
     "lng": 140.6926002,
     "transfers": [],
-    "address": "秋田県刺巻駅周辺",
+    "address": "秋田県仙北市田沢湖刺巻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -264,7 +264,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.6227936,
     "lng": 140.6277733,
     "transfers": [],
-    "address": "秋田県神代駅周辺",
+    "address": "秋田県仙北市田沢湖卒田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -291,7 +291,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.6120115,
     "lng": 140.6009184,
     "transfers": [],
-    "address": "秋田県生田駅周辺",
+    "address": "秋田県仙北市田沢湖神代",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -321,7 +321,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
       "JR秋田新幹線",
       "秋田内陸縦貫鉄道秋田内陸線"
     ],
-    "address": "秋田県角館駅周辺",
+    "address": "秋田県仙北市角館町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -348,7 +348,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.5686158,
     "lng": 140.5580018,
     "transfers": [],
-    "address": "秋田県鶯野駅周辺",
+    "address": "秋田県大仙市下鴬野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -375,7 +375,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.5459206,
     "lng": 140.5407569,
     "transfers": [],
-    "address": "秋田県羽後長野駅周辺",
+    "address": "秋田県大仙市長野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.5190492,
     "lng": 140.5275442,
     "transfers": [],
-    "address": "秋田県鑓見内駅周辺",
+    "address": "秋田県大仙市鑓見内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.5017238,
     "lng": 140.5120897,
     "transfers": [],
-    "address": "秋田県羽後四ツ屋駅周辺",
+    "address": "秋田県大仙市四ツ屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -456,7 +456,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
     "lat": 39.4895423,
     "lng": 140.4981067,
     "transfers": [],
-    "address": "秋田県北大曲駅周辺",
+    "address": "秋田県大仙市四ツ屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -487,7 +487,7 @@ export const TAZAWAKO_STATIONS: Station[] = [
       "JR奥羽本線（大曲～秋田）",
       "JR奥羽本線（新庄～大曲）"
     ],
-    "address": "秋田県大曲駅周辺",
+    "address": "秋田県大仙市大曲通町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

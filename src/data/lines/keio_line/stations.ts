@@ -23,7 +23,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
       "都営地下鉄新宿線",
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都新宿駅",
+    "address": "東京都新宿区新宿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -58,7 +58,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "京王新線"
     ],
-    "address": "東京都笹塚駅",
+    "address": "東京都渋谷区笹塚一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -90,7 +90,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.670849,
     "lng": 139.6587354,
     "transfers": [],
-    "address": "東京都代田橋駅",
+    "address": "東京都世田谷区大原二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -119,7 +119,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "京王井の頭線"
     ],
-    "address": "東京都明大前駅",
+    "address": "東京都世田谷区松原二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -154,7 +154,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "東急世田谷線"
     ],
-    "address": "東京都下高井戸駅",
+    "address": "東京都世田谷区松原三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -183,7 +183,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6677515,
     "lng": 139.6306159,
     "transfers": [],
-    "address": "東京都桜上水駅",
+    "address": "東京都世田谷区桜上水五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -213,7 +213,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6686944,
     "lng": 139.6241946,
     "transfers": [],
-    "address": "東京都上北沢駅",
+    "address": "東京都世田谷区上北沢四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -240,7 +240,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6701536,
     "lng": 139.6138988,
     "transfers": [],
-    "address": "東京都八幡山駅",
+    "address": "東京都杉並区上高井戸一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -268,7 +268,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6705287,
     "lng": 139.6082204,
     "transfers": [],
-    "address": "東京都芦花公園駅",
+    "address": "東京都世田谷区南烏山三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -295,7 +295,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6681337,
     "lng": 139.601284,
     "transfers": [],
-    "address": "東京都千歳烏山駅",
+    "address": "東京都世田谷区南烏山六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -326,7 +326,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6623716,
     "lng": 139.5851834,
     "transfers": [],
-    "address": "東京都仙川駅",
+    "address": "東京都調布市仙川町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -355,7 +355,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6584113,
     "lng": 139.5760179,
     "transfers": [],
-    "address": "東京都つつじケ丘駅",
+    "address": "東京都調布市東つつじケ丘二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -385,7 +385,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6543629,
     "lng": 139.5673363,
     "transfers": [],
-    "address": "東京都柴崎駅",
+    "address": "東京都調布市菊野台二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -412,7 +412,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6504311,
     "lng": 139.5590854,
     "transfers": [],
-    "address": "東京都国領駅",
+    "address": "東京都調布市国領町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -439,7 +439,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6497354,
     "lng": 139.5523449,
     "transfers": [],
-    "address": "東京都布田駅",
+    "address": "東京都調布市国領町五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -468,7 +468,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "京王相模原線"
     ],
-    "address": "東京都調布駅",
+    "address": "東京都調布市布田四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -500,7 +500,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6569166,
     "lng": 139.5303475,
     "transfers": [],
-    "address": "東京都西調布駅",
+    "address": "東京都調布市上石原二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -528,7 +528,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.659632,
     "lng": 139.5244414,
     "transfers": [],
-    "address": "東京都飛田給駅",
+    "address": "東京都調布市飛田給二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -556,7 +556,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6639708,
     "lng": 139.5120935,
     "transfers": [],
-    "address": "東京都武蔵野台駅",
+    "address": "東京都府中市白糸台四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -584,7 +584,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6660415,
     "lng": 139.5030817,
     "transfers": [],
-    "address": "東京都多磨霊園駅",
+    "address": "東京都府中市清水が丘三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -614,7 +614,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "京王競馬場線"
     ],
-    "address": "東京都東府中駅",
+    "address": "東京都府中市清水が丘一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -646,7 +646,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6723236,
     "lng": 139.4794053,
     "transfers": [],
-    "address": "東京都府中駅",
+    "address": "東京都府中市宮町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -680,7 +680,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ南武線"
     ],
-    "address": "東京都分倍河原駅",
+    "address": "東京都府中市片町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -713,7 +713,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6595371,
     "lng": 139.4575337,
     "transfers": [],
-    "address": "東京都中河原駅",
+    "address": "東京都府中市住吉町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -742,7 +742,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.650732,
     "lng": 139.4467082,
     "transfers": [],
-    "address": "東京都聖蹟桜ケ丘駅",
+    "address": "東京都多摩市関戸一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -774,7 +774,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6572619,
     "lng": 139.431944,
     "transfers": [],
-    "address": "東京都百草園駅",
+    "address": "東京都日野市百草",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -806,7 +806,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
       "京王動物園線",
       "多摩都市モノレール線"
     ],
-    "address": "東京都高幡不動駅",
+    "address": "東京都日野市高幡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -839,7 +839,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.654748,
     "lng": 139.392105,
     "transfers": [],
-    "address": "東京都南平駅",
+    "address": "東京都日野市南平六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -870,7 +870,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6466813,
     "lng": 139.3792183,
     "transfers": [],
-    "address": "東京都平山城址公園駅",
+    "address": "東京都日野市平山五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -901,7 +901,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6427671,
     "lng": 139.3666903,
     "transfers": [],
-    "address": "東京都長沼駅",
+    "address": "東京都八王子市長沼町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -934,7 +934,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "transfers": [
       "京王高尾線"
     ],
-    "address": "東京都北野駅",
+    "address": "東京都八王子市打越町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -967,7 +967,7 @@ export const KEIO_LINE_STATIONS: Station[] = [
     "lat": 35.6579493,
     "lng": 139.3431094,
     "transfers": [],
-    "address": "東京都京王八王子駅",
+    "address": "東京都八王子市明神町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

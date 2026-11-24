@@ -13,7 +13,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "transfers": [
       "JR宇都宮線"
     ],
-    "address": "栃木県黒磯駅周辺",
+    "address": "栃木県那須塩原市本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 36.9967218,
     "lng": 140.0874129,
     "transfers": [],
-    "address": "栃木県高久駅周辺",
+    "address": "栃木県那須町大字高久甲",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -67,7 +67,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.0232378,
     "lng": 140.1200589,
     "transfers": [],
-    "address": "栃木県黒田原駅周辺",
+    "address": "栃木県那須町大字寺子丙",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -94,7 +94,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.0556648,
     "lng": 140.1555544,
     "transfers": [],
-    "address": "栃木県豊原駅周辺",
+    "address": "栃木県那須町大字豊原甲",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -121,7 +121,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.0948044,
     "lng": 140.1842158,
     "transfers": [],
-    "address": "福島県白坂駅周辺",
+    "address": "福島県白河市白坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -150,7 +150,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線"
     ],
-    "address": "福島県新白河駅周辺",
+    "address": "福島県西郷村字道南東",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -177,7 +177,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.1302198,
     "lng": 140.2130046,
     "transfers": [],
-    "address": "福島県白河駅周辺",
+    "address": "福島県白河市郭内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -204,7 +204,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.1374382,
     "lng": 140.259785,
     "transfers": [],
-    "address": "福島県久田野駅周辺",
+    "address": "福島県白河市久田野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -231,7 +231,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.1582986,
     "lng": 140.2989319,
     "transfers": [],
-    "address": "福島県泉崎駅周辺",
+    "address": "福島県泉崎村大字泉崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -258,7 +258,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.2055129,
     "lng": 140.3281304,
     "transfers": [],
-    "address": "福島県矢吹駅周辺",
+    "address": "福島県矢吹町中町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -285,7 +285,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.2506299,
     "lng": 140.3469528,
     "transfers": [],
-    "address": "福島県鏡石駅周辺",
+    "address": "福島県鏡石町中央",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -312,7 +312,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.3005399,
     "lng": 140.3719041,
     "transfers": [],
-    "address": "福島県須賀川駅周辺",
+    "address": "福島県須賀川市中山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -341,7 +341,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "transfers": [
       "JR水郡線"
     ],
-    "address": "福島県安積永盛駅周辺",
+    "address": "福島県郡山市笹川三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -374,7 +374,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
       "JR磐越東線",
       "JR水郡線"
     ],
-    "address": "福島県郡山駅周辺",
+    "address": "福島県郡山市燧田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -401,7 +401,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.4463308,
     "lng": 140.3882146,
     "transfers": [],
-    "address": "福島県日和田駅周辺",
+    "address": "福島県郡山市日和田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -428,7 +428,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.4828869,
     "lng": 140.388059,
     "transfers": [],
-    "address": "福島県五百川駅周辺",
+    "address": "福島県本宮市荒井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -455,7 +455,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.5141948,
     "lng": 140.3993055,
     "transfers": [],
-    "address": "福島県本宮駅周辺",
+    "address": "福島県本宮市本宮",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -482,7 +482,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.5631961,
     "lng": 140.4137599,
     "transfers": [],
-    "address": "福島県杉田駅周辺",
+    "address": "福島県二本松市杉田町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -509,7 +509,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.589513,
     "lng": 140.4355181,
     "transfers": [],
-    "address": "福島県二本松駅周辺",
+    "address": "福島県二本松市本町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -536,7 +536,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.6121853,
     "lng": 140.4663795,
     "transfers": [],
-    "address": "福島県安達駅周辺",
+    "address": "福島県二本松市油井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -563,7 +563,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.6537591,
     "lng": 140.4841143,
     "transfers": [],
-    "address": "福島県松川駅周辺",
+    "address": "福島県福島市松川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -590,7 +590,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.6806904,
     "lng": 140.4519372,
     "transfers": [],
-    "address": "福島県金谷川駅周辺",
+    "address": "福島県福島市松川町関谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -617,7 +617,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
     "lat": 37.7236462,
     "lng": 140.455699,
     "transfers": [],
-    "address": "福島県南福島駅周辺",
+    "address": "福島県福島市永井川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -651,7 +651,7 @@ export const TOHOKU_KUROISO_FUKUSHIMA_STATIONS: Station[] = [
       "阿武隈急行線",
       "福島交通飯坂線"
     ],
-    "address": "福島県福島駅周辺",
+    "address": "福島県福島市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

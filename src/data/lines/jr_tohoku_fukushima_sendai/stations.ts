@@ -18,7 +18,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
       "阿武隈急行線",
       "福島交通飯坂線"
     ],
-    "address": "福島県福島駅周辺",
+    "address": "福島県福島市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 37.8001299,
     "lng": 140.4775992,
     "transfers": [],
-    "address": "福島県東福島駅周辺",
+    "address": "福島県福島市宮代",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 37.8242039,
     "lng": 140.4932975,
     "transfers": [],
-    "address": "福島県伊達駅周辺",
+    "address": "福島県伊達市柏木町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 37.8554508,
     "lng": 140.5173965,
     "transfers": [],
-    "address": "福島県桑折駅周辺",
+    "address": "福島県桑折町大字南半田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 37.8791745,
     "lng": 140.5395785,
     "transfers": [],
-    "address": "福島県藤田駅周辺",
+    "address": "福島県国見町大字山崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 37.9082797,
     "lng": 140.581154,
     "transfers": [],
-    "address": "福島県貝田駅周辺",
+    "address": "福島県国見町大字貝田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 37.9340042,
     "lng": 140.604347,
     "transfers": [],
-    "address": "宮城県越河駅周辺",
+    "address": "宮城県白石市越河五賀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 38.0035636,
     "lng": 140.6263517,
     "transfers": [],
-    "address": "宮城県白石駅周辺",
+    "address": "宮城県白石市字沢目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 38.0351198,
     "lng": 140.6511274,
     "transfers": [],
-    "address": "宮城県東白石駅周辺",
+    "address": "宮城県白石市白川内親",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 38.0325134,
     "lng": 140.6925253,
     "transfers": [],
-    "address": "宮城県北白川駅周辺",
+    "address": "宮城県白石市白川津田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -288,7 +288,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 38.0475032,
     "lng": 140.740347,
     "transfers": [],
-    "address": "宮城県大河原駅周辺",
+    "address": "宮城県大河原町大谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,7 +315,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "lat": 38.0594983,
     "lng": 140.7682353,
     "transfers": [],
-    "address": "宮城県船岡駅周辺",
+    "address": "宮城県柴田町船岡土手内一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -344,7 +344,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "transfers": [
       "阿武隈急行線"
     ],
-    "address": "宮城県槻木駅周辺",
+    "address": "宮城県柴田町槻木新町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -373,7 +373,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "transfers": [
       "JR常磐線（いわき～仙台）"
     ],
-    "address": "宮城県岩沼駅周辺",
+    "address": "宮城県岩沼市館下一丁目4-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "transfers": [
       "JR常磐線（いわき～仙台）"
     ],
-    "address": "宮城県館腰駅周辺",
+    "address": "宮城県名取市植松四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -432,7 +432,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
       "JR常磐線（いわき～仙台）",
       "仙台空港アクセス線"
     ],
-    "address": "宮城県名取駅周辺",
+    "address": "宮城県名取市増田二丁目5-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -461,7 +461,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "transfers": [
       "JR常磐線（いわき～仙台）"
     ],
-    "address": "宮城県南仙台駅周辺",
+    "address": "宮城県仙台市太白区中田五丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -490,7 +490,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "transfers": [
       "JR常磐線（いわき～仙台）"
     ],
-    "address": "宮城県太子堂駅周辺",
+    "address": "宮城県仙台市太白区太子堂1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -520,7 +520,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
       "JR常磐線（いわき～仙台）",
       "仙台市地下鉄南北線"
     ],
-    "address": "宮城県長町駅周辺",
+    "address": "宮城県仙台市太白区長町五丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -558,7 +558,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
       "仙台市地下鉄南北線",
       "仙台市地下鉄東西線"
     ],
-    "address": "宮城県仙台駅周辺",
+    "address": "宮城県仙台市青葉区中央一丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

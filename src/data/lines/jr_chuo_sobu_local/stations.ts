@@ -13,7 +13,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR中央線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都三鷹市下連雀三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -44,7 +44,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR中央線",
       "京王井の頭線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都武蔵野市吉祥寺南町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -74,7 +74,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR中央線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都杉並区西荻南三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -104,7 +104,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR中央線",
       "東京メトロ丸ノ内線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都杉並区上荻一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -134,7 +134,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR中央線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都杉並区阿佐谷南二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -163,7 +163,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR中央線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都杉並区高円寺南四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -193,7 +193,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR中央線",
       "東京メトロ東西線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都中野区中野五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -223,7 +223,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都中野区東中野四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -250,7 +250,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.69978,
     "lng": 139.69801,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区百人町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -290,7 +290,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "都営大江戸線",
       "西武新宿線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区新宿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -322,7 +322,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR山手線",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都渋谷区千駄ヶ谷五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -351,7 +351,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都渋谷区千駄ヶ谷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -378,7 +378,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.67987,
     "lng": 139.72241,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区南元町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -409,7 +409,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "東京メトロ丸ノ内線",
       "東京メトロ南北線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区四谷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -441,7 +441,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "東京メトロ南北線",
       "都営新宿線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都市ケ谷駅",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -474,7 +474,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "東京メトロ南北線",
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都新宿区神楽坂一丁目13",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -504,7 +504,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "都営三田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区神田三崎町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -535,7 +535,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "東京メトロ丸ノ内線",
       "東京メトロ千代田線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区神田駿河台二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -568,7 +568,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "首都圏新都市鉄道つくばエクスプレス",
       "東京メトロ日比谷線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都千代田区神田佐久間町一丁目21",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -598,7 +598,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "都営浅草線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都台東区浅草橋一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -627,7 +627,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "都営大江戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都墨田区横網一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -657,7 +657,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR総武快速線",
       "東京メトロ半蔵門線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都墨田区江東橋三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -688,7 +688,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "東武亀戸線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江東区亀戸五丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -715,7 +715,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.70595,
     "lng": 139.84158,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江戸川区平井三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -744,7 +744,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR総武快速線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都葛飾区新小岩一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -772,7 +772,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.73384,
     "lng": 139.88259,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都江戸川区南小岩七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -801,7 +801,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "JR総武快速線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市川市市川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -832,7 +832,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "都営新宿線",
       "京成本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県市川市八幡二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -859,7 +859,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.71391,
     "lng": 139.94395,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県船橋市本中山二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -891,7 +891,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "東京メトロ東西線",
       "東葉高速鉄道"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県船橋市西船四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -923,7 +923,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "東武アーバンパークライン",
       "京成本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県船橋市本町七丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -952,7 +952,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.69996,
     "lng": 140.00277,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県船橋市東船橋二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -982,7 +982,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR総武快速線",
       "新京成線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県習志野市津田沼一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1012,7 +1012,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市花見川区幕張本郷二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1041,7 +1041,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市花見川区幕張町五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1070,7 +1070,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "transfers": [
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市花見川区南花園二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1100,7 +1100,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "JR総武快速線",
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市稲毛区稲毛東三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1128,7 +1128,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "lat": 35.6219,
     "lng": 140.10398,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区春日二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1163,7 +1163,7 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
       "千葉都市モノレール",
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区新千葉一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

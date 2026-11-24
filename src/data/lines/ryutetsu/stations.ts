@@ -14,7 +14,7 @@ export const RYUTETSU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ常磐線各駅停車"
     ],
-    "address": "千葉県馬橋駅",
+    "address": "千葉県松戸市馬橋119",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const RYUTETSU_STATIONS: Station[] = [
     "lat": 35.8266864,
     "lng": 139.9199398,
     "transfers": [],
-    "address": "千葉県幸谷駅",
+    "address": "千葉県松戸市新松戸一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const RYUTETSU_STATIONS: Station[] = [
     "lat": 35.8358016,
     "lng": 139.9172144,
     "transfers": [],
-    "address": "千葉県小金城趾駅",
+    "address": "千葉県松戸市大金平四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const RYUTETSU_STATIONS: Station[] = [
     "lat": 35.8411913,
     "lng": 139.9108243,
     "transfers": [],
-    "address": "千葉県鰭ケ崎駅",
+    "address": "千葉県流山市大字鰭ケ崎",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const RYUTETSU_STATIONS: Station[] = [
     "lat": 35.8514501,
     "lng": 139.9012586,
     "transfers": [],
-    "address": "千葉県平和台駅",
+    "address": "千葉県流山市流山四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -150,7 +150,7 @@ export const RYUTETSU_STATIONS: Station[] = [
     "lat": 35.8558007,
     "lng": 139.9017829,
     "transfers": [],
-    "address": "千葉県流山駅",
+    "address": "千葉県流山市流山一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

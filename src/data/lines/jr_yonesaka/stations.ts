@@ -14,7 +14,7 @@ export const YONESAKA_STATIONS: Station[] =  [
       "JR山形新幹線",
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "山形県米沢駅周辺",
+    "address": "山形県米沢市駅前一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 37.8960254,
     "lng": 140.1082348,
     "transfers": [],
-    "address": "山形県南米沢駅周辺",
+    "address": "山形県米沢市太田町四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +70,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 37.917329,
     "lng": 140.0847796,
     "transfers": [],
-    "address": "山形県西米沢駅周辺",
+    "address": "山形県米沢市直江町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -98,7 +98,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 37.9432327,
     "lng": 140.0755549,
     "transfers": [],
-    "address": "山形県成島駅周辺",
+    "address": "山形県米沢市広幡町上小菅",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 37.9690561,
     "lng": 140.0672478,
     "transfers": [],
-    "address": "山形県中郡駅周辺",
+    "address": "山形県川西町大字時田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0045424,
     "lng": 140.0484742,
     "transfers": [],
-    "address": "山形県羽前小松駅周辺",
+    "address": "山形県川西町大字上小松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -182,7 +182,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0257849,
     "lng": 140.052063,
     "transfers": [],
-    "address": "山形県犬川駅周辺",
+    "address": "山形県川西町大字下小松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -212,7 +212,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "transfers": [
       "山形鉄道フラワー長井線"
     ],
-    "address": "山形県今泉駅周辺",
+    "address": "山形県長井市今泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -240,7 +240,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0621014,
     "lng": 140.0045628,
     "transfers": [],
-    "address": "山形県萩生駅周辺",
+    "address": "山形県飯豊町大字萩生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -267,7 +267,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0386173,
     "lng": 139.9942769,
     "transfers": [],
-    "address": "山形県羽前椿駅周辺",
+    "address": "山形県飯豊町大字椿",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -294,7 +294,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0120475,
     "lng": 139.961521,
     "transfers": [],
-    "address": "山形県手ノ子駅周辺",
+    "address": "山形県飯豊町大字手ノ子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -321,7 +321,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.028575,
     "lng": 139.872753,
     "transfers": [],
-    "address": "山形県羽前沼沢駅周辺",
+    "address": "山形県小国町大字沼沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -348,7 +348,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0509468,
     "lng": 139.8228082,
     "transfers": [],
-    "address": "山形県伊佐領駅周辺",
+    "address": "山形県小国町大字伊佐領",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -375,7 +375,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0453936,
     "lng": 139.7803805,
     "transfers": [],
-    "address": "山形県羽前松岡駅周辺",
+    "address": "山形県小国町大字松岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0613356,
     "lng": 139.7502282,
     "transfers": [],
-    "address": "山形県小国駅周辺",
+    "address": "山形県小国町大字小国町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.066444,
     "lng": 139.6635762,
     "transfers": [],
-    "address": "新潟県越後金丸駅周辺",
+    "address": "新潟県関川村大字金丸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -456,7 +456,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0705944,
     "lng": 139.6224436,
     "transfers": [],
-    "address": "新潟県越後片貝駅周辺",
+    "address": "新潟県関川村大字片貝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -483,7 +483,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0900351,
     "lng": 139.5600564,
     "transfers": [],
-    "address": "新潟県越後下関駅周辺",
+    "address": "新潟県関川村大字下関",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -510,7 +510,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "lat": 38.0996602,
     "lng": 139.5181483,
     "transfers": [],
-    "address": "新潟県越後大島駅周辺",
+    "address": "新潟県関川村大字土沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -539,7 +539,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "transfers": [
       "JR羽越本線"
     ],
-    "address": "新潟県坂町駅周辺",
+    "address": "新潟県村上市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

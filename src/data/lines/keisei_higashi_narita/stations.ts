@@ -14,7 +14,7 @@ export const KEISEI_HIGASHI_NARITA_STATIONS: Station[] = [
     "transfers": [
       "京成本線"
     ],
-    "address": "千葉県京成成田駅",
+    "address": "千葉県成田市花崎町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -44,7 +44,7 @@ export const KEISEI_HIGASHI_NARITA_STATIONS: Station[] = [
     "transfers": [
       "芝山鉄道"
     ],
-    "address": "千葉県東成田駅",
+    "address": "千葉県成田市古込",
     "facilities": {
       "elevator": true,
       "restroom": true,

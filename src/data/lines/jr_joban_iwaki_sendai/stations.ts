@@ -724,7 +724,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "lat": 38.0396,
     "lng": 140.8615,
     "transfers": [],
-    "address": "宮城県亘理郡亘理町字道田",
+    "address": "宮城県亘理町字道田西",
     "facilities": {
       "elevator": true,
       "restroom": true,

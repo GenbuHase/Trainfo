@@ -13,7 +13,7 @@ export const SENSEKI_TOHOKU_STATIONS: Station[] = [
     "transfers": [
       "JR東北本線（仙台～一ノ関）"
     ],
-    "address": "宮城県塩釜駅周辺",
+    "address": "宮城県塩竈市東玉川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -43,7 +43,7 @@ export const SENSEKI_TOHOKU_STATIONS: Station[] = [
     "transfers": [
       "JR仙石線"
     ],
-    "address": "宮城県高城町駅周辺",
+    "address": "宮城県松島町高城",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

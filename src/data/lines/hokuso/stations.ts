@@ -16,7 +16,7 @@ export const HOKUSO_STATIONS: Station[] = [
       "京成金町線",
       "京成成田スカイアクセス線"
     ],
-    "address": "東京都京成高砂駅",
+    "address": "東京都葛飾区高砂五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -47,7 +47,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7509611,
     "lng": 139.8791173,
     "transfers": [],
-    "address": "東京都新柴又駅",
+    "address": "東京都葛飾区柴又五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -74,7 +74,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7572736,
     "lng": 139.8997261,
     "transfers": [],
-    "address": "千葉県矢切駅",
+    "address": "千葉県松戸市下矢切",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -101,7 +101,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7628348,
     "lng": 139.9132665,
     "transfers": [],
-    "address": "千葉県北国分駅",
+    "address": "千葉県市川市堀之内三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -128,7 +128,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7654385,
     "lng": 139.9316462,
     "transfers": [],
-    "address": "千葉県秋山駅",
+    "address": "千葉県松戸市秋山二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -158,7 +158,7 @@ export const HOKUSO_STATIONS: Station[] = [
       "ＪＲ武蔵野線",
       "京成成田スカイアクセス線"
     ],
-    "address": "千葉県東松戸駅",
+    "address": "千葉県松戸市東松戸一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -188,7 +188,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7753237,
     "lng": 139.9571969,
     "transfers": [],
-    "address": "千葉県松飛台駅",
+    "address": "千葉県松戸市紙敷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -246,7 +246,7 @@ export const HOKUSO_STATIONS: Station[] = [
       "京成松戸線",
       "京成成田スカイアクセス線"
     ],
-    "address": "千葉県新鎌ケ谷駅",
+    "address": "千葉県鎌ケ谷市新鎌ケ谷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -277,7 +277,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7844361,
     "lng": 140.0325903,
     "transfers": [],
-    "address": "千葉県西白井駅",
+    "address": "千葉県白井市根",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -305,7 +305,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7847918,
     "lng": 140.0543489,
     "transfers": [],
-    "address": "千葉県白井駅",
+    "address": "千葉県白井市復",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -333,7 +333,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.7869998,
     "lng": 140.0764343,
     "transfers": [],
-    "address": "千葉県小室駅",
+    "address": "千葉県船橋市小室町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -363,7 +363,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "transfers": [
       "京成成田スカイアクセス線"
     ],
-    "address": "千葉県千葉ニュータウン中央駅",
+    "address": "千葉県印西市中央南一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -394,7 +394,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "lat": 35.8037121,
     "lng": 140.1672118,
     "transfers": [],
-    "address": "千葉県印西牧の原駅",
+    "address": "千葉県印西市原一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -424,7 +424,7 @@ export const HOKUSO_STATIONS: Station[] = [
     "transfers": [
       "京成成田スカイアクセス線"
     ],
-    "address": "千葉県印旛日本医大駅",
+    "address": "千葉県印西市若萩一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

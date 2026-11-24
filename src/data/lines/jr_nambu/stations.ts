@@ -16,7 +16,7 @@ export const NAMBU_STATIONS: Station[] = [
       "京急本線",
       "京急大師線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区駅前本町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.53158,
     "lng": 139.68401,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市幸区南幸町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -72,7 +72,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.53996,
     "lng": 139.68017,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市幸区塚越四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -102,7 +102,7 @@ export const NAMBU_STATIONS: Station[] = [
       "JR横須賀線",
       "JR湘南新宿ライン"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市幸区鹿島田一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -131,7 +131,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.56098,
     "lng": 139.67094,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市中原区田尻町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -158,7 +158,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.57271,
     "lng": 139.66714,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市中原区下沼部",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -191,7 +191,7 @@ export const NAMBU_STATIONS: Station[] = [
       "東急東横線",
       "東急目黒線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市中原区小杉町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -220,7 +220,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.58094,
     "lng": 139.64144,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市中原区上小田中四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -248,7 +248,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.58688,
     "lng": 139.63035,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市中原区上新城二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -279,7 +279,7 @@ export const NAMBU_STATIONS: Station[] = [
       "東急田園都市線",
       "東急大井町線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市高津区久本一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -308,7 +308,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.60328,
     "lng": 139.60136,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市高津区下作延六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -335,7 +335,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.60967,
     "lng": 139.59383,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市高津区久地四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -362,7 +362,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.61515,
     "lng": 139.58022,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市多摩区宿河原四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -391,7 +391,7 @@ export const NAMBU_STATIONS: Station[] = [
     "transfers": [
       "小田急小田原線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市多摩区登戸3435",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -420,7 +420,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.62989,
     "lng": 139.5517,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市多摩区中野島六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -449,7 +449,7 @@ export const NAMBU_STATIONS: Station[] = [
     "transfers": [
       "京王相模原線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市多摩区菅稲田堤一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -478,7 +478,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.6414,
     "lng": 139.52103,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都稲城市矢野口",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -505,7 +505,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.64394,
     "lng": 139.50338,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都稲城市東長沼",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -533,7 +533,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.64918,
     "lng": 139.4891,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都稲城市大丸",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -562,7 +562,7 @@ export const NAMBU_STATIONS: Station[] = [
     "transfers": [
       "JR武蔵野線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都府中市本町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -593,7 +593,7 @@ export const NAMBU_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都府中市片町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -622,7 +622,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.67078,
     "lng": 139.45762,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都府中市本宿町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -649,7 +649,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.68111,
     "lng": 139.44752,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都国立市谷保",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -676,7 +676,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.68499,
     "lng": 139.4322,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都国立市石田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -703,7 +703,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.69331,
     "lng": 139.42405,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都立川市錦町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -735,7 +735,7 @@ export const NAMBU_STATIONS: Station[] = [
       "JR青梅線",
       "多摩都市モノレール"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "東京都立川市曙町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -767,7 +767,7 @@ export const NAMBU_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区下並木",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -794,7 +794,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.51859,
     "lng": 139.69886,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区渡田新町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -821,7 +821,7 @@ export const NAMBU_STATIONS: Station[] = [
     "lat": 35.51486348,
     "lng": 139.70441782,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区小田栄一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -850,7 +850,7 @@ export const NAMBU_STATIONS: Station[] = [
     "transfers": [
       "JR鶴見線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "神奈川県川崎市川崎区鋼管通五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -13,7 +13,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "transfers": [
       "JR石巻線"
     ],
-    "address": "宮城県前谷地駅周辺",
+    "address": "宮城県石巻市前谷地",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "lat": 38.5262126,
     "lng": 141.2207116,
     "transfers": [],
-    "address": "宮城県和渕駅周辺",
+    "address": "宮城県石巻市和渕",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -67,7 +67,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "lat": 38.5531667,
     "lng": 141.2257896,
     "transfers": [],
-    "address": "宮城県のの岳駅周辺",
+    "address": "宮城県涌谷町猪岡短台",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -94,7 +94,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "lat": 38.5825764,
     "lng": 141.2444137,
     "transfers": [],
-    "address": "宮城県陸前豊里駅周辺",
+    "address": "宮城県登米市豊里町浦軒",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -121,7 +121,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "lat": 38.6056937,
     "lng": 141.2648016,
     "transfers": [],
-    "address": "宮城県御岳堂駅周辺",
+    "address": "宮城県登米市豊里町大沢沼田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -150,7 +150,7 @@ export const KESENNUMA_STATIONS: Station[] = [
     "transfers": [
       "JR気仙沼線BRT"
     ],
-    "address": "宮城県柳津駅周辺",
+    "address": "宮城県登米市津山町柳津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

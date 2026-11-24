@@ -13,7 +13,7 @@ export const OMINATO_STATIONS: Station[] = [
     "transfers": [
       "青い森鉄道線"
     ],
-    "address": "青森県野辺地駅周辺",
+    "address": "青森県野辺地町字上小中野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,7 +41,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 40.8711076,
     "lng": 141.1342547,
     "transfers": [],
-    "address": "青森県北野辺地駅周辺",
+    "address": "青森県野辺地町字石神裏",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 40.9139798,
     "lng": 141.1893847,
     "transfers": [],
-    "address": "青森県有戸駅周辺",
+    "address": "青森県野辺地町字小沢平",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -97,7 +97,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.0221752,
     "lng": 141.2465754,
     "transfers": [],
-    "address": "青森県吹越駅周辺",
+    "address": "青森県横浜町字吹越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -125,7 +125,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.0863776,
     "lng": 141.2498185,
     "transfers": [],
-    "address": "青森県陸奥横浜駅周辺",
+    "address": "青森県横浜町字舘ノ後",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.132216,
     "lng": 141.276828,
     "transfers": [],
-    "address": "青森県有畑駅周辺",
+    "address": "青森県横浜町字苗代川目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -181,7 +181,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.1916065,
     "lng": 141.2791747,
     "transfers": [],
-    "address": "青森県近川駅周辺",
+    "address": "青森県むつ市大字奥内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -209,7 +209,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.229304,
     "lng": 141.248172,
     "transfers": [],
-    "address": "青森県金谷沢駅周辺",
+    "address": "青森県むつ市大字奥内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -237,7 +237,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.2679458,
     "lng": 141.2092635,
     "transfers": [],
-    "address": "青森県赤川駅周辺",
+    "address": "青森県むつ市赤川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -265,7 +265,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.2829772,
     "lng": 141.1897987,
     "transfers": [],
-    "address": "青森県下北駅周辺",
+    "address": "青森県むつ市下北町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -293,7 +293,7 @@ export const OMINATO_STATIONS: Station[] = [
     "lat": 41.2804269,
     "lng": 141.1615289,
     "transfers": [],
-    "address": "青森県大湊駅周辺",
+    "address": "青森県むつ市大湊新町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

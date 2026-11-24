@@ -14,7 +14,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ北陸新幹線"
     ],
-    "address": "長野県上田駅",
+    "address": "長野県上田市天神1丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3926171,
     "lng": 138.243012,
     "transfers": [],
-    "address": "長野県城下駅",
+    "address": "長野県上田市諏訪形",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3914782,
     "lng": 138.2275543,
     "transfers": [],
-    "address": "長野県赤坂上駅",
+    "address": "長野県上田市上田原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3905183,
     "lng": 138.2221045,
     "transfers": [],
-    "address": "長野県上田原駅",
+    "address": "長野県上田市上田原",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -151,7 +151,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3842208,
     "lng": 138.2162497,
     "transfers": [],
-    "address": "長野県寺下駅",
+    "address": "長野県上田市神畑",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3781712,
     "lng": 138.2169553,
     "transfers": [],
-    "address": "長野県神畑駅",
+    "address": "長野県上田市神畑",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -205,7 +205,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3716335,
     "lng": 138.2150765,
     "transfers": [],
-    "address": "長野県大学前駅",
+    "address": "長野県上田市下之郷",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -233,7 +233,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3635493,
     "lng": 138.2173067,
     "transfers": [],
-    "address": "長野県下之郷駅",
+    "address": "長野県上田市下之郷",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -261,7 +261,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3633049,
     "lng": 138.2050377,
     "transfers": [],
-    "address": "長野県中塩田駅",
+    "address": "長野県上田市五加",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -315,7 +315,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3606403,
     "lng": 138.1937415,
     "transfers": [],
-    "address": "長野県中野駅",
+    "address": "長野県上田市中野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -342,7 +342,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3598179,
     "lng": 138.1831614,
     "transfers": [],
-    "address": "長野県舞田駅",
+    "address": "長野県上田市舞田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -369,7 +369,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.358593,
     "lng": 138.1761312,
     "transfers": [],
-    "address": "長野県八木沢駅",
+    "address": "長野県上田市八木沢",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -396,7 +396,7 @@ export const UEDA_BESSHO_STATIONS: Station[] = [
     "lat": 36.3534995,
     "lng": 138.1620636,
     "transfers": [],
-    "address": "長野県別所温泉駅",
+    "address": "長野県上田市別所温泉",
     "facilities": {
       "elevator": true,
       "restroom": true,

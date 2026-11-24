@@ -14,7 +14,7 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "transfers": [
       "西武池袋線"
     ],
-    "address": "埼玉県西所沢駅",
+    "address": "埼玉県所沢市西所沢一丁目11-9",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "lat": 35.7795842,
     "lng": 139.4415103,
     "transfers": [],
-    "address": "埼玉県下山口駅",
+    "address": "埼玉県所沢市大字荒幡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
     "transfers": [
       "西武山口線（レオライナー）"
     ],
-    "address": "埼玉県西武球場前駅",
+    "address": "埼玉県所沢市大字上山口",
     "facilities": {
       "elevator": true,
       "restroom": true,

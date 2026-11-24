@@ -14,7 +14,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ東海道本線"
     ],
-    "address": "",
+    "address": "岐阜県岐阜市橋本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -43,7 +43,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.40216,
     "lng": 136.80237,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県岐阜市蔵前二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -71,7 +71,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.40046,
     "lng": 136.83464,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県各務原市那加新那加町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.40334,
     "lng": 136.87267,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県各務原市川崎町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.40393,
     "lng": 136.90179,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県各務原市鵜沼各務原町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,7 +155,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.3974,
     "lng": 136.947,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県各務原市鵜沼山崎町九丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -184,7 +184,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.42647,
     "lng": 136.97767,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県坂祝町取組",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -215,7 +215,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "ＪＲ太多線",
       "長良川鉄道"
     ],
-    "address": "",
+    "address": "岐阜県美濃加茂市太田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -243,7 +243,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.45774,
     "lng": 137.04815,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県美濃加茂市森山町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -270,7 +270,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.48772,
     "lng": 137.0653,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県川辺町中川辺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -297,7 +297,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.51561,
     "lng": 137.08784,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県川辺町上川辺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -324,7 +324,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.54139,
     "lng": 137.11984,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県七宗町上麻生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -351,7 +351,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.57976,
     "lng": 137.18425,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県白川町坂ノ東",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -379,7 +379,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.63294,
     "lng": 137.1831,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県白川町白山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -406,7 +406,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.66196,
     "lng": 137.1646,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市金山町大船渡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -434,7 +434,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.72516,
     "lng": 137.20085,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市焼石",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -461,7 +461,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.80532,
     "lng": 137.24004,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市幸田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -489,7 +489,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.84967,
     "lng": 137.2249,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市萩原町中呂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -516,7 +516,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.87557,
     "lng": 137.21342,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市萩原町萩原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -544,7 +544,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.91175,
     "lng": 137.20451,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市萩原町上呂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -571,7 +571,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.92834,
     "lng": 137.23502,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市萩原町宮田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -598,7 +598,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 35.95012,
     "lng": 137.25615,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県下呂市小坂町大島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -626,7 +626,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.0017,
     "lng": 137.28854,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県高山市久々野町渚",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -653,7 +653,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.05161,
     "lng": 137.27746,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県高山市久々野町久々野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -681,7 +681,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.08821,
     "lng": 137.24715,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県高山市一之宮町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -708,7 +708,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.13996,
     "lng": 137.25149,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県高山市花里町四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -736,7 +736,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.18066,
     "lng": 137.2457,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県高山市下切町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -763,7 +763,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.21081,
     "lng": 137.21624,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県高山市国府町広瀬町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -790,7 +790,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.23611,
     "lng": 137.1908,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市古川町金森町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -818,7 +818,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.24961,
     "lng": 137.16946,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市古川町杉崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -845,7 +845,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.26087,
     "lng": 137.14638,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市古川町袈裟丸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -872,7 +872,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.30022,
     "lng": 137.11319,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市河合町小無雁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -899,7 +899,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.32727,
     "lng": 137.14007,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市宮川町林",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -926,7 +926,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.38362,
     "lng": 137.18205,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市宮川町打保",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -953,7 +953,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.41613,
     "lng": 137.19264,
     "transfers": [],
-    "address": "",
+    "address": "岐阜県飛騨市宮川町杉原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -980,7 +980,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.4722,
     "lng": 137.2374,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市猪谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1008,7 +1008,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.53007,
     "lng": 137.22879,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市楡原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1035,7 +1035,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.56205,
     "lng": 137.21115,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市笹津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1062,7 +1062,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.58975,
     "lng": 137.17452,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市八尾町城生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1089,7 +1089,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.59226,
     "lng": 137.13779,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市八尾町福島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1117,7 +1117,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.63525,
     "lng": 137.13248,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市婦中町千里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1144,7 +1144,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.66442,
     "lng": 137.16065,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市婦中町速星",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1172,7 +1172,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.67814,
     "lng": 137.16881,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市婦中町西本郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1199,7 +1199,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
     "lat": 36.69977,
     "lng": 137.17753,
     "transfers": [],
-    "address": "",
+    "address": "富山県富山市寺町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1229,7 +1229,7 @@ export const JR_TAKAYAMA_STATIONS: Station[] = [
       "ＪＲ北陸新幹線",
       "あいの風とやま鉄道"
     ],
-    "address": "",
+    "address": "富山県富山市明輪町1-225",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -15,7 +15,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
       "小田急江ノ島線",
       "相鉄いずみ野線"
     ],
-    "address": "神奈川県湘南台駅",
+    "address": "神奈川県藤沢市湘南台二丁目15",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -44,7 +44,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4034519,
     "lng": 139.4832912,
     "transfers": [],
-    "address": "神奈川県下飯田駅",
+    "address": "神奈川県横浜市泉区下飯田町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -72,7 +72,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4142089,
     "lng": 139.5000712,
     "transfers": [],
-    "address": "神奈川県立場駅",
+    "address": "神奈川県横浜市泉区中田西一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -100,7 +100,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4114065,
     "lng": 139.5106446,
     "transfers": [],
-    "address": "神奈川県中田駅",
+    "address": "神奈川県横浜市泉区中田南三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -128,7 +128,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4053375,
     "lng": 139.5189186,
     "transfers": [],
-    "address": "神奈川県踊場駅",
+    "address": "神奈川県横浜市泉区中田東一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -160,7 +160,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
       "ＪＲ横須賀線",
       "ＪＲ東海道本線"
     ],
-    "address": "神奈川県戸塚駅",
+    "address": "神奈川県横浜市戸塚区戸塚町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -189,7 +189,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4024419,
     "lng": 139.5505026,
     "transfers": [],
-    "address": "神奈川県舞岡駅",
+    "address": "神奈川県横浜市戸塚区舞岡町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -216,7 +216,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4027503,
     "lng": 139.5583529,
     "transfers": [],
-    "address": "神奈川県下永谷駅",
+    "address": "神奈川県横浜市港南区下永谷四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -243,7 +243,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4016479,
     "lng": 139.572165,
     "transfers": [],
-    "address": "神奈川県上永谷駅",
+    "address": "神奈川県横浜市港南区丸山台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -271,7 +271,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4009058,
     "lng": 139.5905056,
     "transfers": [],
-    "address": "神奈川県港南中央駅",
+    "address": "神奈川県横浜市港南区港南中央通",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -300,7 +300,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "神奈川県上大岡駅",
+    "address": "神奈川県横浜市港南区上大岡西一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -329,7 +329,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4227538,
     "lng": 139.6019162,
     "transfers": [],
-    "address": "神奈川県弘明寺駅",
+    "address": "神奈川県横浜市南区大岡二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -356,7 +356,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.429861,
     "lng": 139.6099493,
     "transfers": [],
-    "address": "神奈川県蒔田駅",
+    "address": "神奈川県横浜市南区宮元町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -410,7 +410,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.437362,
     "lng": 139.6246424,
     "transfers": [],
-    "address": "神奈川県阪東橋駅",
+    "address": "神奈川県横浜市南区高根町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -466,7 +466,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ根岸線"
     ],
-    "address": "神奈川県関内駅",
+    "address": "神奈川県横浜市中区尾上町四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -564,7 +564,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
       "相鉄本線",
       "横浜高速鉄道みなとみらい線"
     ],
-    "address": "神奈川県横浜駅",
+    "address": "神奈川県横浜市西区高島二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -674,7 +674,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.4959779,
     "lng": 139.6167875,
     "transfers": [],
-    "address": "神奈川県岸根公園駅",
+    "address": "神奈川県横浜市港北区岸根町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -706,7 +706,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
       "東急新横浜線",
       "相鉄新横浜線"
     ],
-    "address": "神奈川県新横浜駅",
+    "address": "神奈川県横浜市港北区新横浜三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -735,7 +735,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.5195308,
     "lng": 139.6128474,
     "transfers": [],
-    "address": "神奈川県北新横浜駅",
+    "address": "神奈川県横浜市港北区北新横浜一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -762,7 +762,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.5271434,
     "lng": 139.612188,
     "transfers": [],
-    "address": "神奈川県新羽駅",
+    "address": "神奈川県横浜市港北区新羽町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -820,7 +820,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄グリーンライン"
     ],
-    "address": "神奈川県センター南駅",
+    "address": "神奈川県横浜市都筑区茅ケ崎中央",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -851,7 +851,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "transfers": [
       "横浜市営地下鉄グリーンライン"
     ],
-    "address": "神奈川県センター北駅",
+    "address": "神奈川県横浜市都筑区中川中央一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -880,7 +880,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "lat": 35.562738,
     "lng": 139.570238,
     "transfers": [],
-    "address": "神奈川県中川駅",
+    "address": "神奈川県横浜市都筑区中川一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -910,7 +910,7 @@ export const YOKOHAMA_BLUE_STATIONS: Station[] = [
     "transfers": [
       "東急田園都市線"
     ],
-    "address": "神奈川県あざみ野駅",
+    "address": "神奈川県横浜市青葉区新石川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

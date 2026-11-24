@@ -14,7 +14,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ東海道本線"
     ],
-    "address": "",
+    "address": "静岡県富士市本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -43,7 +43,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.15765,
     "lng": 138.63921,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士市柚木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -71,7 +71,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.16861,
     "lng": 138.64613,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士市松本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.1881,
     "lng": 138.64793,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士市入山瀬四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.20507,
     "lng": 138.63591,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士市天間",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,7 +155,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.21443,
     "lng": 138.62742,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士宮市源道寺町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -183,7 +183,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.22089,
     "lng": 138.61665,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士宮市中央町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -212,7 +212,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.22469,
     "lng": 138.60334,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士宮市西町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -239,7 +239,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.19963,
     "lng": 138.58436,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士宮市沼久保",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -266,7 +266,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.19685,
     "lng": 138.56406,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士宮市羽鮒",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -293,7 +293,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.23022,
     "lng": 138.53708,
     "transfers": [],
-    "address": "",
+    "address": "静岡県富士宮市下稲子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -320,7 +320,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.22996,
     "lng": 138.51686,
     "transfers": [],
-    "address": "",
+    "address": "山梨県南部町十島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -347,7 +347,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.2473,
     "lng": 138.49133,
     "transfers": [],
-    "address": "",
+    "address": "山梨県南部町井出",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -374,7 +374,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.26467,
     "lng": 138.47536,
     "transfers": [],
-    "address": "",
+    "address": "山梨県南部町内船",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -401,7 +401,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.28191,
     "lng": 138.46521,
     "transfers": [],
-    "address": "",
+    "address": "山梨県南部町内船",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.32784,
     "lng": 138.45213,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町大島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -456,7 +456,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.36193,
     "lng": 138.45312,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町角打",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -484,7 +484,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.37996,
     "lng": 138.45416,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町帯金",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -511,7 +511,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.41882,
     "lng": 138.46008,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町波高島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -538,7 +538,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.42602,
     "lng": 138.47288,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町常葉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -566,7 +566,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.44516,
     "lng": 138.47691,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町常葉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -593,7 +593,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.46266,
     "lng": 138.48213,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町市之瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -620,7 +620,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.48156,
     "lng": 138.46696,
     "transfers": [],
-    "address": "",
+    "address": "山梨県身延町三澤",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -647,7 +647,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.49297,
     "lng": 138.46328,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町岩間",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -675,7 +675,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.50381,
     "lng": 138.47153,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町落居",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -702,7 +702,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.54189,
     "lng": 138.47093,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町黒沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -730,7 +730,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.56048,
     "lng": 138.49402,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町市川大門",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -758,7 +758,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.56063,
     "lng": 138.50241,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町市川大門",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -785,7 +785,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.56338,
     "lng": 138.51144,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町上野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -812,7 +812,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.56955,
     "lng": 138.52111,
     "transfers": [],
-    "address": "",
+    "address": "山梨県市川三郷町上野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -839,7 +839,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.59527,
     "lng": 138.52709,
     "transfers": [],
-    "address": "",
+    "address": "山梨県中央市布施",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -867,7 +867,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.60488,
     "lng": 138.5286,
     "transfers": [],
-    "address": "",
+    "address": "山梨県中央市上三條",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -894,7 +894,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.6174,
     "lng": 138.53352,
     "transfers": [],
-    "address": "",
+    "address": "山梨県昭和町河東中島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -921,7 +921,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.63087,
     "lng": 138.553,
     "transfers": [],
-    "address": "",
+    "address": "山梨県甲府市国母八丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -948,7 +948,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.63681,
     "lng": 138.57024,
     "transfers": [],
-    "address": "",
+    "address": "山梨県甲府市住吉二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -975,7 +975,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.64418,
     "lng": 138.57869,
     "transfers": [],
-    "address": "",
+    "address": "山梨県甲府市南口町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1003,7 +1003,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.6601,
     "lng": 138.58896,
     "transfers": [],
-    "address": "",
+    "address": "山梨県甲府市善光寺一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1030,7 +1030,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "lat": 35.66245,
     "lng": 138.57858,
     "transfers": [],
-    "address": "",
+    "address": "山梨県甲府市城東一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1059,7 +1059,7 @@ export const JR_MINOBU_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "",
+    "address": "山梨県甲府市丸の内一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

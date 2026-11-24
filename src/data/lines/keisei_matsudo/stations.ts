@@ -15,7 +15,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
       "ＪＲ常磐線快速",
       "ＪＲ常磐線各駅停車"
     ],
-    "address": "千葉県松戸駅",
+    "address": "千葉県松戸市松戸1181",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7895865,
     "lng": 139.9161945,
     "transfers": [],
-    "address": "千葉県上本郷駅",
+    "address": "千葉県松戸市南花島三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7905592,
     "lng": 139.9229277,
     "transfers": [],
-    "address": "千葉県松戸新田駅",
+    "address": "千葉県松戸市松戸新田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -97,7 +97,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7892591,
     "lng": 139.9294259,
     "transfers": [],
-    "address": "千葉県みのり台駅",
+    "address": "千葉県松戸市松戸新田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -124,7 +124,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7913332,
     "lng": 139.9374235,
     "transfers": [],
-    "address": "千葉県八柱駅",
+    "address": "千葉県松戸市日暮一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -151,7 +151,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.8032718,
     "lng": 139.9499984,
     "transfers": [],
-    "address": "千葉県常盤平駅",
+    "address": "千葉県松戸市常盤平三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -178,7 +178,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7967844,
     "lng": 139.9659615,
     "transfers": [],
-    "address": "千葉県五香駅",
+    "address": "千葉県松戸市常盤平五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -205,7 +205,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7899986,
     "lng": 139.9760985,
     "transfers": [],
-    "address": "千葉県元山駅",
+    "address": "千葉県松戸市五香南一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -232,7 +232,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7818669,
     "lng": 139.975547,
     "transfers": [],
-    "address": "千葉県くぬぎ山駅",
+    "address": "千葉県鎌ケ谷市くぬぎ山五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -259,7 +259,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.77676,
     "lng": 139.9903517,
     "transfers": [],
-    "address": "千葉県北初富駅",
+    "address": "千葉県鎌ケ谷市北中沢一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -290,7 +290,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
       "京成成田スカイアクセス線",
       "北総鉄道北総線"
     ],
-    "address": "千葉県新鎌ケ谷駅",
+    "address": "千葉県鎌ケ谷市新鎌ケ谷一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -318,7 +318,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7724836,
     "lng": 140.0006032,
     "transfers": [],
-    "address": "千葉県初富駅",
+    "address": "千葉県鎌ケ谷市中央一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -345,7 +345,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7581423,
     "lng": 140.0131615,
     "transfers": [],
-    "address": "千葉県鎌ケ谷大仏駅",
+    "address": "千葉県鎌ケ谷市鎌ケ谷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -372,7 +372,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7541373,
     "lng": 140.0231607,
     "transfers": [],
-    "address": "千葉県二和向台駅",
+    "address": "千葉県船橋市二和東六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -399,7 +399,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7487181,
     "lng": 140.0286152,
     "transfers": [],
-    "address": "千葉県三咲駅",
+    "address": "千葉県船橋市三咲二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -426,7 +426,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7375881,
     "lng": 140.0259056,
     "transfers": [],
-    "address": "千葉県滝不動駅",
+    "address": "千葉県船橋市南三咲三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -453,7 +453,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7300179,
     "lng": 140.0300307,
     "transfers": [],
-    "address": "千葉県高根公団駅",
+    "address": "千葉県船橋市高根台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -480,7 +480,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7262771,
     "lng": 140.0356237,
     "transfers": [],
-    "address": "千葉県高根木戸駅",
+    "address": "千葉県船橋市習志野台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -509,7 +509,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "transfers": [
       "東葉高速鉄道"
     ],
-    "address": "千葉県北習志野駅",
+    "address": "千葉県船橋市習志野台三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -537,7 +537,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7148874,
     "lng": 140.042652,
     "transfers": [],
-    "address": "千葉県習志野駅",
+    "address": "千葉県船橋市習志野台四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -564,7 +564,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.708772,
     "lng": 140.0363273,
     "transfers": [],
-    "address": "千葉県薬園台駅",
+    "address": "千葉県船橋市滝台町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -591,7 +591,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.7003641,
     "lng": 140.0270055,
     "transfers": [],
-    "address": "千葉県前原駅",
+    "address": "千葉県船橋市前原西七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -618,7 +618,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
     "lat": 35.6900241,
     "lng": 140.0242488,
     "transfers": [],
-    "address": "千葉県新津田沼駅",
+    "address": "千葉県習志野市津田沼一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -648,7 +648,7 @@ export const KEISEI_MATSUDO_STATIONS: Station[] = [
       "京成本線",
       "京成千葉線"
     ],
-    "address": "千葉県京成津田沼駅",
+    "address": "千葉県習志野市津田沼三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

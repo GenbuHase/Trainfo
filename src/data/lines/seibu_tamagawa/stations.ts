@@ -14,7 +14,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央線快速"
     ],
-    "address": "東京都武蔵境駅",
+    "address": "東京都武蔵野市境四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.695598,
     "lng": 139.5263984,
     "transfers": [],
-    "address": "東京都新小金井駅",
+    "address": "東京都小金井市東町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.6763363,
     "lng": 139.516932,
     "transfers": [],
-    "address": "東京都多磨駅",
+    "address": "東京都府中市紅葉丘三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.6668447,
     "lng": 139.510278,
     "transfers": [],
-    "address": "東京都白糸台駅",
+    "address": "東京都府中市白糸台二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.6563615,
     "lng": 139.5002756,
     "transfers": [],
-    "address": "東京都競艇場前駅",
+    "address": "東京都府中市小柳町五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -150,7 +150,7 @@ export const SEIBU_TAMAGAWA_STATIONS: Station[] = [
     "lat": 35.6562912,
     "lng": 139.4890091,
     "transfers": [],
-    "address": "東京都是政駅",
+    "address": "東京都府中市是政五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

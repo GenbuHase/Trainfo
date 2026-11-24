@@ -16,7 +16,7 @@ export const SEIBU_TOSHIMA_STATIONS: Station[] = [
       "西武有楽町線",
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都練馬駅",
+    "address": "東京都練馬区練馬一丁目3-5",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -44,7 +44,7 @@ export const SEIBU_TOSHIMA_STATIONS: Station[] = [
     "lat": 35.7415986,
     "lng": 139.6480192,
     "transfers": [],
-    "address": "東京都豊島園駅",
+    "address": "東京都練馬区練馬四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

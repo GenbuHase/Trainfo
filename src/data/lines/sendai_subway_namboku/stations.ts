@@ -12,7 +12,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.3232105,
     "lng": 140.8806657,
     "transfers": [],
-    "address": "宮城県泉中央駅周辺",
+    "address": "宮城県仙台市泉区泉中央一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.3132219,
     "lng": 140.8838276,
     "transfers": [],
-    "address": "宮城県八乙女駅周辺",
+    "address": "宮城県仙台市泉区八乙女中央一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -68,7 +68,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.3031263,
     "lng": 140.8863691,
     "transfers": [],
-    "address": "宮城県黒松駅周辺",
+    "address": "宮城県仙台市泉区黒松一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +96,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2958463,
     "lng": 140.8837309,
     "transfers": [],
-    "address": "宮城県旭ケ丘駅周辺",
+    "address": "宮城県仙台市青葉区旭ケ丘三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -124,7 +124,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2882379,
     "lng": 140.8783054,
     "transfers": [],
-    "address": "宮城県台原駅周辺",
+    "address": "宮城県仙台市青葉区台原森林公園",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "transfers": [
       "JR仙山線"
     ],
-    "address": "宮城県北仙台駅周辺",
+    "address": "宮城県仙台市青葉区堤町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -182,7 +182,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.272041,
     "lng": 140.8691508,
     "transfers": [],
-    "address": "宮城県北四番丁駅周辺",
+    "address": "宮城県仙台市青葉区二日町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -210,7 +210,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2667945,
     "lng": 140.8711774,
     "transfers": [],
-    "address": "宮城県勾当台公園駅周辺",
+    "address": "宮城県仙台市青葉区本町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -238,7 +238,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2628473,
     "lng": 140.8754865,
     "transfers": [],
-    "address": "宮城県広瀬通駅周辺",
+    "address": "宮城県仙台市青葉区中央二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -277,7 +277,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
       "仙台空港アクセス線",
       "仙台市地下鉄東西線"
     ],
-    "address": "宮城県仙台駅周辺",
+    "address": "宮城県仙台市青葉区中央一丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -305,7 +305,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2518599,
     "lng": 140.8810999,
     "transfers": [],
-    "address": "宮城県五橋駅周辺",
+    "address": "宮城県仙台市青葉区五橋二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -333,7 +333,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2474383,
     "lng": 140.881698,
     "transfers": [],
-    "address": "宮城県愛宕橋駅周辺",
+    "address": "宮城県仙台市若林区土樋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -361,7 +361,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2407251,
     "lng": 140.8878766,
     "transfers": [],
-    "address": "宮城県河原町駅周辺",
+    "address": "宮城県仙台市若林区河原町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -389,7 +389,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.234348,
     "lng": 140.887548,
     "transfers": [],
-    "address": "宮城県長町一丁目駅周辺",
+    "address": "宮城県仙台市太白区長町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -421,7 +421,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
       "JR常磐線（いわき～仙台）",
       "仙台空港アクセス線"
     ],
-    "address": "宮城県長町駅周辺",
+    "address": "宮城県仙台市太白区長町五丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -449,7 +449,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2247174,
     "lng": 140.877075,
     "transfers": [],
-    "address": "宮城県長町南駅周辺",
+    "address": "宮城県仙台市太白区長町南三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -477,7 +477,7 @@ export const SENDAI_SUBWAY_NAMBOKU_STATIONS: Station[] =  [
     "lat": 38.2144566,
     "lng": 140.8706368,
     "transfers": [],
-    "address": "宮城県富沢駅周辺",
+    "address": "宮城県仙台市太白区富沢四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

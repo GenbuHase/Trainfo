@@ -13,7 +13,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央本線"
     ],
-    "address": "山梨県小淵沢駅",
+    "address": "山梨県北杜市小淵沢町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -41,7 +41,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 35.8796851,
     "lng": 138.359832,
     "transfers": [],
-    "address": "山梨県甲斐小泉駅",
+    "address": "山梨県北杜市長坂町小荒間",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -67,7 +67,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 35.8962437,
     "lng": 138.4092032,
     "transfers": [],
-    "address": "山梨県甲斐大泉駅",
+    "address": "山梨県北杜市大泉町西井出",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -93,7 +93,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 35.9189203,
     "lng": 138.4362178,
     "transfers": [],
-    "address": "山梨県清里駅",
+    "address": "山梨県北杜市高根町清里",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -121,7 +121,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 35.9550248,
     "lng": 138.4745573,
     "transfers": [],
-    "address": "長野県野辺山駅",
+    "address": "長野県南牧村大字野辺山",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -149,7 +149,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 35.9762327,
     "lng": 138.5269705,
     "transfers": [],
-    "address": "長野県信濃川上駅",
+    "address": "長野県川上村大字御所平",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -176,7 +176,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.0039996,
     "lng": 138.5193772,
     "transfers": [],
-    "address": "長野県佐久広瀬駅",
+    "address": "長野県南牧村大字広瀬",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -202,7 +202,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.0214623,
     "lng": 138.4905401,
     "transfers": [],
-    "address": "長野県佐久海ノ口駅",
+    "address": "長野県南牧村大字海ノ口",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -228,7 +228,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.0416381,
     "lng": 138.4735098,
     "transfers": [],
-    "address": "長野県海尻駅",
+    "address": "長野県南牧村大字海尻",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -254,7 +254,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.061332,
     "lng": 138.4706716,
     "transfers": [],
-    "address": "長野県松原湖駅",
+    "address": "長野県小海町大字豊里",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -280,7 +280,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.0891397,
     "lng": 138.4831722,
     "transfers": [],
-    "address": "長野県小海駅",
+    "address": "長野県小海町大字小海",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -308,7 +308,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1022987,
     "lng": 138.4859006,
     "transfers": [],
-    "address": "長野県馬流駅",
+    "address": "長野県小海町大字東馬流",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -334,7 +334,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1160808,
     "lng": 138.4774027,
     "transfers": [],
-    "address": "長野県高岩駅",
+    "address": "長野県佐久穂町大字穂積",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -360,7 +360,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1338741,
     "lng": 138.4776045,
     "transfers": [],
-    "address": "長野県八千穂駅",
+    "address": "長野県佐久穂町大字穂積",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -387,7 +387,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1560859,
     "lng": 138.4860378,
     "transfers": [],
-    "address": "長野県海瀬駅",
+    "address": "長野県佐久穂町大字海瀬",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -413,7 +413,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1666834,
     "lng": 138.4898549,
     "transfers": [],
-    "address": "長野県羽黒下駅",
+    "address": "長野県佐久穂町大字平林",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -439,7 +439,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1809627,
     "lng": 138.4891907,
     "transfers": [],
-    "address": "長野県青沼駅",
+    "address": "長野県佐久市入澤",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -465,7 +465,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.1936519,
     "lng": 138.4880951,
     "transfers": [],
-    "address": "長野県臼田駅",
+    "address": "長野県佐久市下越",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -492,7 +492,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2039162,
     "lng": 138.4906221,
     "transfers": [],
-    "address": "長野県龍岡城駅",
+    "address": "長野県佐久市田口",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -518,7 +518,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2200925,
     "lng": 138.4880715,
     "transfers": [],
-    "address": "長野県太田部駅",
+    "address": "長野県佐久市太田部",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -544,7 +544,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2303048,
     "lng": 138.4794286,
     "transfers": [],
-    "address": "長野県中込駅",
+    "address": "長野県佐久市中込",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -572,7 +572,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2384133,
     "lng": 138.4751387,
     "transfers": [],
-    "address": "長野県滑津駅",
+    "address": "長野県佐久市中込",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -598,7 +598,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2552993,
     "lng": 138.4766462,
     "transfers": [],
-    "address": "長野県北中込駅",
+    "address": "長野県佐久市中込",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -654,7 +654,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ北陸新幹線"
     ],
-    "address": "長野県佐久平駅",
+    "address": "長野県佐久市佐久平駅東52",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -682,7 +682,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2810584,
     "lng": 138.4532564,
     "transfers": [],
-    "address": "長野県中佐都駅",
+    "address": "長野県佐久市長土呂",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -708,7 +708,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.2925553,
     "lng": 138.4504006,
     "transfers": [],
-    "address": "長野県美里駅",
+    "address": "長野県小諸市大字市",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -734,7 +734,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.3044087,
     "lng": 138.4481386,
     "transfers": [],
-    "address": "長野県三岡駅",
+    "address": "長野県小諸市大字森山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -760,7 +760,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.3114713,
     "lng": 138.4401817,
     "transfers": [],
-    "address": "長野県乙女駅",
+    "address": "長野県小諸市甲",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -786,7 +786,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.3173378,
     "lng": 138.4319799,
     "transfers": [],
-    "address": "長野県東小諸駅",
+    "address": "長野県小諸市甲",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -812,7 +812,7 @@ export const JR_KOUMI_STATIONS: Station[] = [
     "lat": 36.3258189,
     "lng": 138.4225541,
     "transfers": [],
-    "address": "長野県小諸駅",
+    "address": "長野県小諸市相生町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

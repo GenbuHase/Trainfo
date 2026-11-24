@@ -17,7 +17,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "OsakaMetro御堂筋線",
       "OsakaMetro谷町線"
     ],
-    "address": "",
+    "address": "大阪府大阪市天王寺区悲田院町",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -52,7 +52,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.64833,
     "lng": 135.52401,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市阿倍野区天王寺町北二丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -86,7 +86,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.65925,
     "lng": 135.52823,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市天王寺区堂ケ芝一丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -124,7 +124,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "近鉄奈良線",
       "OsakaMetro千日前線"
     ],
-    "address": "",
+    "address": "大阪府大阪市天王寺区舟橋町",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -160,7 +160,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "transfers": [
       "OsakaMetro長堀鶴見緑地線"
     ],
-    "address": "",
+    "address": "大阪府大阪市天王寺区玉造元町",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -197,7 +197,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "OsakaMetro中央線",
       "OsakaMetro長堀鶴見緑地線"
     ],
-    "address": "",
+    "address": "大阪府大阪市中央区森ノ宮中央一丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -231,7 +231,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.68688,
     "lng": 135.53427,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市中央区大阪城",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -270,7 +270,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "京阪本線",
       "OsakaMetro長堀鶴見緑地線"
     ],
-    "address": "",
+    "address": "大阪府大阪市都島区片町二丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -304,7 +304,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.7052,
     "lng": 135.52163,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市都島区中野町五丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -338,7 +338,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.70443,
     "lng": 135.51317,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市北区錦町",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -378,7 +378,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "ＪＲ神戸線",
       "ＪＲ宝塚線"
     ],
-    "address": "",
+    "address": "大阪府大阪市北区梅田三丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -413,7 +413,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.69757,
     "lng": 135.48736,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市福島区福島六丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -447,7 +447,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.6895,
     "lng": 135.47567,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市福島区吉野三丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -480,7 +480,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "ＪＲゆめ咲線",
       "阪神なんば線"
     ],
-    "address": "",
+    "address": "大阪府大阪市此花区西九条三丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -516,7 +516,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "transfers": [
       "OsakaMetro中央線"
     ],
-    "address": "",
+    "address": "大阪府大阪市港区波除三丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -552,7 +552,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "transfers": [
       "OsakaMetro長堀鶴見緑地線"
     ],
-    "address": "",
+    "address": "大阪府大阪市大正区三軒家東一丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -586,7 +586,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
     "lat": 34.65814,
     "lng": 135.48964,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市浪速区浪速東一丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -621,7 +621,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "南海本線",
       "南海高野線"
     ],
-    "address": "",
+    "address": "大阪府大阪市浪速区浪速東三丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"
@@ -656,7 +656,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "南海本線",
       "南海高野線"
     ],
-    "address": "",
+    "address": "大阪府大阪市浪速区恵美須西三丁目",
     "platforms": {
       "inbound": "内回りホーム",
       "outbound": "外回りホーム"

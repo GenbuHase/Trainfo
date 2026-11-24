@@ -14,7 +14,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
       "JR常磐線（いわき～仙台）",
       "JR常磐線（取手～いわき）"
     ],
-    "address": "福島県いわき駅",
+    "address": "福島県いわき市平字田町1",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -41,7 +41,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.0807911,
     "lng": 140.8660749,
     "transfers": [],
-    "address": "福島県赤井駅",
+    "address": "福島県いわき市平赤井",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -68,7 +68,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.1265509,
     "lng": 140.862624,
     "transfers": [],
-    "address": "福島県小川郷駅",
+    "address": "福島県いわき市小川町高萩",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -95,7 +95,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.1795033,
     "lng": 140.8259724,
     "transfers": [],
-    "address": "福島県江田駅",
+    "address": "福島県いわき市小川町上小川",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -122,7 +122,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.20559,
     "lng": 140.750335,
     "transfers": [],
-    "address": "福島県川前駅",
+    "address": "福島県いわき市川前町川前",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -149,7 +149,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.252955,
     "lng": 140.66275,
     "transfers": [],
-    "address": "福島県夏井駅",
+    "address": "福島県小野町大字夏井",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -203,7 +203,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.3243634,
     "lng": 140.6596052,
     "transfers": [],
-    "address": "福島県神俣駅",
+    "address": "福島県田村市滝根町神俣",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -230,7 +230,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.3508901,
     "lng": 140.6439846,
     "transfers": [],
-    "address": "福島県菅谷駅",
+    "address": "福島県田村市滝根町菅谷",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -257,7 +257,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.3868088,
     "lng": 140.6308941,
     "transfers": [],
-    "address": "福島県大越駅",
+    "address": "福島県田村市大越町上大越",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -284,7 +284,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.420611,
     "lng": 140.605579,
     "transfers": [],
-    "address": "福島県磐城常葉駅",
+    "address": "福島県田村市船引町今泉",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -311,7 +311,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.4431638,
     "lng": 140.5746202,
     "transfers": [],
-    "address": "福島県船引駅",
+    "address": "福島県田村市船引町船引",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -338,7 +338,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.4541235,
     "lng": 140.5206901,
     "transfers": [],
-    "address": "福島県要田駅",
+    "address": "福島県田村市船引町要田",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -365,7 +365,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.4496368,
     "lng": 140.4793865,
     "transfers": [],
-    "address": "福島県三春駅",
+    "address": "福島県三春町大字平沢",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -392,7 +392,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
     "lat": 37.416716,
     "lng": 140.435074,
     "transfers": [],
-    "address": "福島県舞木駅",
+    "address": "福島県郡山市舞木町",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"
@@ -425,7 +425,7 @@ export const BANETSU_EAST_STATIONS: Station[] = [
       "JR磐越西線",
       "JR水郡線"
     ],
-    "address": "福島県郡山駅",
+    "address": "福島県郡山市燧田",
     "platforms": {
       "inbound": "上り いわき方面",
       "outbound": "下り 郡山方面"

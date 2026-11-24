@@ -18,7 +18,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "OsakaMetro御堂筋線",
       "OsakaMetro谷町線"
     ],
-    "address": "",
+    "address": "大阪府大阪市天王寺区南河堀町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -52,7 +52,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.63804,
     "lng": 135.52378,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市阿倍野区美章園二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -80,7 +80,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.62511,
     "lng": 135.52069,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市東住吉区山坂二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -108,7 +108,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.6174,
     "lng": 135.51675,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市東住吉区山坂五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -136,7 +136,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.60996,
     "lng": 135.51217,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市住吉区長居東四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -164,7 +164,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.60168,
     "lng": 135.50654,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市住吉区我孫子三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -192,7 +192,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.59238,
     "lng": 135.50297,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市住吉区杉本三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -220,7 +220,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.58581,
     "lng": 135.50255,
     "transfers": [],
-    "address": "",
+    "address": "大阪府堺市北区常磐町一丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -248,7 +248,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.57827,
     "lng": 135.49902,
     "transfers": [],
-    "address": "",
+    "address": "大阪府堺市堺区東雲西町一丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -283,7 +283,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "transfers": [
       "南海高野線"
     ],
-    "address": "",
+    "address": "大阪府堺市堺区向陵西町四丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -316,7 +316,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.55921,
     "lng": 135.48953,
     "transfers": [],
-    "address": "",
+    "address": "大阪府堺市堺区百舌鳥夕雲町一丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -344,7 +344,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.55003,
     "lng": 135.47893,
     "transfers": [],
-    "address": "",
+    "address": "大阪府堺市西区上野芝町三丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -372,7 +372,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.54268,
     "lng": 135.46879,
     "transfers": [],
-    "address": "",
+    "address": "大阪府堺市西区津久野町一丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -400,7 +400,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.5327,
     "lng": 135.45954,
     "transfers": [],
-    "address": "",
+    "address": "大阪府堺市西区鳳東町一丁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -433,7 +433,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.52306,
     "lng": 135.45166,
     "transfers": [],
-    "address": "",
+    "address": "大阪府高石市取石二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -463,7 +463,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.51116,
     "lng": 135.44195,
     "transfers": [],
-    "address": "",
+    "address": "大阪府和泉市太町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -493,7 +493,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.50089,
     "lng": 135.43346,
     "transfers": [],
-    "address": "",
+    "address": "大阪府和泉市池上町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -523,7 +523,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.48873,
     "lng": 135.42441,
     "transfers": [],
-    "address": "",
+    "address": "大阪府和泉市府中町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -557,7 +557,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.46614,
     "lng": 135.40597,
     "transfers": [],
-    "address": "",
+    "address": "大阪府岸和田市大町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -587,7 +587,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.45788,
     "lng": 135.39739,
     "transfers": [],
-    "address": "",
+    "address": "大阪府岸和田市下松町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -617,7 +617,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.44981,
     "lng": 135.38655,
     "transfers": [],
-    "address": "",
+    "address": "大阪府岸和田市土生町四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -650,7 +650,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.4405,
     "lng": 135.37364,
     "transfers": [],
-    "address": "",
+    "address": "大阪府貝塚市半田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -680,7 +680,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.42768,
     "lng": 135.35911,
     "transfers": [],
-    "address": "",
+    "address": "大阪府貝塚市橋本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -710,7 +710,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.41619,
     "lng": 135.34966,
     "transfers": [],
-    "address": "",
+    "address": "大阪府泉佐野市泉ケ丘一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -740,7 +740,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.40558,
     "lng": 135.34063,
     "transfers": [],
-    "address": "",
+    "address": "大阪府熊取町大久保西",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -775,7 +775,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ関西空港線"
     ],
-    "address": "",
+    "address": "大阪府泉佐野市日根野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -809,7 +809,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.38156,
     "lng": 135.31948,
     "transfers": [],
-    "address": "",
+    "address": "大阪府泉佐野市長滝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -840,7 +840,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.37199,
     "lng": 135.29847,
     "transfers": [],
-    "address": "",
+    "address": "大阪府泉南市新家",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -871,7 +871,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.35951,
     "lng": 135.28043,
     "transfers": [],
-    "address": "",
+    "address": "大阪府泉南市信達牧野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -904,7 +904,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.34183,
     "lng": 135.26315,
     "transfers": [],
-    "address": "",
+    "address": "大阪府阪南市和泉鳥取",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -935,7 +935,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.32591,
     "lng": 135.26991,
     "transfers": [],
-    "address": "",
+    "address": "大阪府阪南市山中渓",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -966,7 +966,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.26929,
     "lng": 135.24678,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市北野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -998,7 +998,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.26307,
     "lng": 135.20761,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市六十谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1030,7 +1030,7 @@ export const JR_HANWA_STATIONS: Station[] = [
     "lat": 34.24255,
     "lng": 135.1899,
     "transfers": [],
-    "address": "",
+    "address": "和歌山県和歌山市中之島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1066,7 +1066,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "ＪＲ和歌山線",
       "わかやま電鉄貴志川線"
     ],
-    "address": "",
+    "address": "和歌山県和歌山市友田町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -17,7 +17,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
       "ＪＲ中央・総武線各駅停車",
       "東京メトロ東西線"
     ],
-    "address": "千葉県西船橋駅",
+    "address": "千葉県船橋市西船四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "lat": 35.7054344,
     "lng": 139.9794305,
     "transfers": [],
-    "address": "千葉県東海神駅",
+    "address": "千葉県船橋市海神二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -72,7 +72,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "lat": 35.7135686,
     "lng": 140.0212495,
     "transfers": [],
-    "address": "千葉県飯山満駅",
+    "address": "千葉県船橋市飯山満町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -101,7 +101,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "transfers": [
       "京成松戸線"
     ],
-    "address": "千葉県北習志野駅",
+    "address": "千葉県船橋市習志野台三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -129,7 +129,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "lat": 35.7275279,
     "lng": 140.060816,
     "transfers": [],
-    "address": "千葉県船橋日大前駅",
+    "address": "千葉県船橋市坪井東三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -156,7 +156,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "lat": 35.7288731,
     "lng": 140.072148,
     "transfers": [],
-    "address": "千葉県八千代緑が丘駅",
+    "address": "千葉県八千代市緑が丘一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -183,7 +183,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "lat": 35.7281517,
     "lng": 140.1022046,
     "transfers": [],
-    "address": "千葉県八千代中央駅",
+    "address": "千葉県八千代市ゆりのき台三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -237,7 +237,7 @@ export const TOYO_RAPID_STATIONS: Station[] = [
     "lat": 35.7158413,
     "lng": 140.1261357,
     "transfers": [],
-    "address": "千葉県東葉勝田台駅",
+    "address": "千葉県八千代市勝田台北一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

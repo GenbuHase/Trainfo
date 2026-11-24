@@ -11,7 +11,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.64582,
     "lng": 136.07788,
     "transfers": [],
-    "address": "",
+    "address": "福井県敦賀市鉄輪町一丁目1-24",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -38,7 +38,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.61833,
     "lng": 136.06811,
     "transfers": [],
-    "address": "",
+    "address": "福井県敦賀市山泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -65,7 +65,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.61682,
     "lng": 136.02838,
     "transfers": [],
-    "address": "",
+    "address": "福井県敦賀市野坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -92,7 +92,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.61428,
     "lng": 135.98631,
     "transfers": [],
-    "address": "",
+    "address": "福井県美浜町太田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,7 +119,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.60549,
     "lng": 135.93751,
     "transfers": [],
-    "address": "",
+    "address": "福井県美浜町郷市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -146,7 +146,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.5845,
     "lng": 135.90955,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町上瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -173,7 +173,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.5548,
     "lng": 135.9095,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町三方",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +200,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.53171,
     "lng": 135.9062,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町藤井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.51559,
     "lng": 135.89608,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町井崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -254,7 +254,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.50543,
     "lng": 135.8667,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町大鳥羽",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48502,
     "lng": 135.86823,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町有田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.4638,
     "lng": 135.85508,
     "transfers": [],
-    "address": "",
+    "address": "福井県若狭町井ノ口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -335,7 +335,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.47322,
     "lng": 135.80645,
     "transfers": [],
-    "address": "",
+    "address": "福井県小浜市平野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -362,7 +362,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48536,
     "lng": 135.78033,
     "transfers": [],
-    "address": "",
+    "address": "福井県小浜市遠敷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -389,7 +389,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.4918,
     "lng": 135.74464,
     "transfers": [],
-    "address": "",
+    "address": "福井県小浜市駅前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -416,7 +416,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48127,
     "lng": 135.70762,
     "transfers": [],
-    "address": "",
+    "address": "福井県小浜市西勢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -443,7 +443,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48062,
     "lng": 135.66531,
     "transfers": [],
-    "address": "",
+    "address": "福井県小浜市加斗",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -470,7 +470,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48265,
     "lng": 135.61984,
     "transfers": [],
-    "address": "",
+    "address": "福井県おおい町本郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -497,7 +497,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48863,
     "lng": 135.58251,
     "transfers": [],
-    "address": "",
+    "address": "福井県高浜町和田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -524,7 +524,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.4861,
     "lng": 135.54887,
     "transfers": [],
-    "address": "",
+    "address": "福井県高浜町宮崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -551,7 +551,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48873,
     "lng": 135.52095,
     "transfers": [],
-    "address": "",
+    "address": "福井県高浜町東三松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -578,7 +578,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.4818,
     "lng": 135.50047,
     "transfers": [],
-    "address": "",
+    "address": "福井県高浜町青",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -605,7 +605,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.48604,
     "lng": 135.4513,
     "transfers": [],
-    "address": "",
+    "address": "京都府舞鶴市字吉坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -632,7 +632,7 @@ export const JR_OBAMA_STATIONS: Station[] = [
     "lat": 35.46855,
     "lng": 135.39479,
     "transfers": [],
-    "address": "",
+    "address": "京都府舞鶴市浜町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

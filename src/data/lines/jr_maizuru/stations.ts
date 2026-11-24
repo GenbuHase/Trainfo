@@ -11,7 +11,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "lat": 35.30202,
     "lng": 135.25326,
     "transfers": [],
-    "address": "",
+    "address": "京都府綾部市天神町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -39,7 +39,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "lat": 35.32847,
     "lng": 135.29518,
     "transfers": [],
-    "address": "",
+    "address": "京都府綾部市渕垣町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -66,7 +66,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "lat": 35.34818,
     "lng": 135.31126,
     "transfers": [],
-    "address": "",
+    "address": "京都府綾部市梅迫町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -93,7 +93,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "lat": 35.40666,
     "lng": 135.32577,
     "transfers": [],
-    "address": "",
+    "address": "京都府舞鶴市字真倉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -120,7 +120,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "lat": 35.4406,
     "lng": 135.33032,
     "transfers": [],
-    "address": "",
+    "address": "京都府舞鶴市字伊佐津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const JR_MAIZURU_STATIONS: Station[] = [
     "lat": 35.46855,
     "lng": 135.39479,
     "transfers": [],
-    "address": "",
+    "address": "京都府舞鶴市浜町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

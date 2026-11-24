@@ -12,7 +12,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "lat": 35.5879391,
     "lng": 139.7067721,
     "transfers": [],
-    "address": "東京都西馬込駅",
+    "address": "東京都大田区南馬込五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "lat": 35.5962033,
     "lng": 139.7118599,
     "transfers": [],
-    "address": "東京都馬込駅",
+    "address": "東京都大田区東馬込一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "東急大井町線"
     ],
-    "address": "東京都中延駅",
+    "address": "東京都品川区豊町六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -103,7 +103,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "lat": 35.6151072,
     "lng": 139.71665,
     "transfers": [],
-    "address": "東京都戸越駅",
+    "address": "東京都品川区戸越三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -136,7 +136,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
       "ＪＲ山手線内回り",
       "東急池上線"
     ],
-    "address": "東京都五反田駅",
+    "address": "東京都品川区東五反田五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -166,7 +166,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "lat": 35.631498,
     "lng": 139.7301927,
     "transfers": [],
-    "address": "東京都高輪台駅",
+    "address": "東京都港区高輪三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -197,7 +197,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "京急本線"
     ],
-    "address": "東京都泉岳寺駅",
+    "address": "東京都港区高輪二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -229,7 +229,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄三田線"
     ],
-    "address": "東京都三田駅",
+    "address": "東京都港区芝四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -261,7 +261,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都大門駅",
+    "address": "東京都港区芝大門二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -299,7 +299,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
       "東京メトロ銀座線",
       "ゆりかもめ"
     ],
-    "address": "東京都新橋駅",
+    "address": "東京都港区新橋二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -331,7 +331,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "東京メトロ日比谷線"
     ],
-    "address": "東京都東銀座駅",
+    "address": "東京都中央区銀座四丁目12-15",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -393,7 +393,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
       "東京メトロ銀座線",
       "東京メトロ東西線"
     ],
-    "address": "東京都日本橋駅",
+    "address": "東京都中央区日本橋一丁目3-11",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -455,7 +455,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "lat": 35.6912923,
     "lng": 139.7847992,
     "transfers": [],
-    "address": "東京都東日本橋駅",
+    "address": "東京都中央区東日本橋二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -486,7 +486,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ中央・総武線各駅停車"
     ],
-    "address": "東京都浅草橋駅",
+    "address": "東京都台東区柳橋一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -518,7 +518,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都蔵前駅",
+    "address": "東京都台東区蔵前二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -551,7 +551,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
       "東武スカイツリーライン",
       "東京メトロ銀座線"
     ],
-    "address": "東京都浅草駅",
+    "address": "東京都台東区花川戸一丁目4-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -581,7 +581,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
     "lat": 35.7085396,
     "lng": 139.8043035,
     "transfers": [],
-    "address": "東京都本所吾妻橋駅",
+    "address": "東京都墨田区吾妻橋二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -614,7 +614,7 @@ export const TOEI_ASAKUSA_STATIONS: Station[] = [
       "京成押上線",
       "東京メトロ半蔵門線"
     ],
-    "address": "東京都押上駅",
+    "address": "東京都墨田区押上一丁目10-2",
     "facilities": {
       "elevator": true,
       "restroom": true,

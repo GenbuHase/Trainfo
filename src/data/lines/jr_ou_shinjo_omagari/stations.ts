@@ -16,7 +16,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
       "JR陸羽西線",
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "",
+    "address": "山形県新庄市多門町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -44,7 +44,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 38.8117872,
     "lng": 140.3100601,
     "transfers": [],
-    "address": "",
+    "address": "山形県新庄市大字泉田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +70,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 38.8364585,
     "lng": 140.2421793,
     "transfers": [],
-    "address": "",
+    "address": "山形県鮭川村大字石名坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -96,7 +96,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 38.8581239,
     "lng": 140.2546164,
     "transfers": [],
-    "address": "",
+    "address": "山形県真室川町大字新町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -124,7 +124,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 38.9325994,
     "lng": 140.2639108,
     "transfers": [],
-    "address": "",
+    "address": "山形県真室川町大字釜渕",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -150,7 +150,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 38.9713813,
     "lng": 140.319974,
     "transfers": [],
-    "address": "",
+    "address": "山形県真室川町大字大滝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -176,7 +176,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 38.9930125,
     "lng": 140.3612145,
     "transfers": [],
-    "address": "",
+    "address": "山形県真室川町大字及位",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -202,7 +202,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.049793,
     "lng": 140.4137586,
     "transfers": [],
-    "address": "",
+    "address": "秋田県湯沢市上院内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -229,7 +229,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.0647152,
     "lng": 140.4514729,
     "transfers": [],
-    "address": "",
+    "address": "秋田県湯沢市小野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -256,7 +256,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.1101158,
     "lng": 140.4837748,
     "transfers": [],
-    "address": "",
+    "address": "秋田県湯沢市上関",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -282,7 +282,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.1343086,
     "lng": 140.4852469,
     "transfers": [],
-    "address": "",
+    "address": "秋田県湯沢市関口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.1636507,
     "lng": 140.4870222,
     "transfers": [],
-    "address": "",
+    "address": "秋田県湯沢市表町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -336,7 +336,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.1979808,
     "lng": 140.5028614,
     "transfers": [],
-    "address": "",
+    "address": "秋田県湯沢市成沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -362,7 +362,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.2207428,
     "lng": 140.5261925,
     "transfers": [],
-    "address": "",
+    "address": "秋田県横手市十文字町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -389,7 +389,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.2495862,
     "lng": 140.538936,
     "transfers": [],
-    "address": "",
+    "address": "秋田県横手市平鹿町醍醐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -415,7 +415,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.2764964,
     "lng": 140.553896,
     "transfers": [],
-    "address": "",
+    "address": "秋田県横手市柳田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -443,7 +443,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "transfers": [
       "JR北上線"
     ],
-    "address": "",
+    "address": "秋田県横手市駅前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -471,7 +471,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.3645711,
     "lng": 140.5386916,
     "transfers": [],
-    "address": "",
+    "address": "秋田県美郷町飯詰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -497,7 +497,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
     "lat": 39.4064982,
     "lng": 140.5151193,
     "transfers": [],
-    "address": "",
+    "address": "秋田県美郷町上深井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -528,7 +528,7 @@ export const OU_SHINJO_OMAGARI_STATIONS: Station[] = [
       "JR田沢湖線",
       "JR奥羽本線（大曲～秋田）"
     ],
-    "address": "",
+    "address": "秋田県大仙市大曲通町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -11,7 +11,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.81797,
     "lng": 134.47393,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県相生市本郷町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -38,7 +38,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.8009,
     "lng": 134.45006,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県相生市佐方二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -65,7 +65,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.76817,
     "lng": 134.41669,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県赤穂市浜市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -92,7 +92,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.75661,
     "lng": 134.39136,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県赤穂市加里屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,7 +119,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.74882,
     "lng": 134.3508,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県赤穂市鷏和",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -146,7 +146,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.74666,
     "lng": 134.33263,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県赤穂市福浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -173,7 +173,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.74632,
     "lng": 134.29809,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市日生町寒河",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +200,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.73498,
     "lng": 134.27751,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市日生町寒河",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.74101,
     "lng": 134.22466,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市穂浪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -254,7 +254,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.74846,
     "lng": 134.19767,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市東片上",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.74542,
     "lng": 134.18497,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市西片上",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.73876,
     "lng": 134.16187,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市伊部",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -335,7 +335,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.72812,
     "lng": 134.12084,
     "transfers": [],
-    "address": "",
+    "address": "岡山県備前市香登本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -362,7 +362,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.69861,
     "lng": 134.09809,
     "transfers": [],
-    "address": "",
+    "address": "岡山県瀬戸内市長船町福岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -389,7 +389,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.66904,
     "lng": 134.09143,
     "transfers": [],
-    "address": "",
+    "address": "岡山県瀬戸内市邑久町山田庄",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -416,7 +416,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.66154,
     "lng": 134.07151,
     "transfers": [],
-    "address": "",
+    "address": "岡山県瀬戸内市邑久町大富",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -443,7 +443,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.66181,
     "lng": 134.03584,
     "transfers": [],
-    "address": "",
+    "address": "岡山県岡山市東区西大寺上二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -470,7 +470,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.6657,
     "lng": 134.00596,
     "transfers": [],
-    "address": "",
+    "address": "岡山県岡山市東区大多羅町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -497,7 +497,7 @@ export const JR_AKO_STATIONS: Station[] = [
     "lat": 34.68548,
     "lng": 133.98599,
     "transfers": [],
-    "address": "",
+    "address": "岡山県岡山市中区長岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

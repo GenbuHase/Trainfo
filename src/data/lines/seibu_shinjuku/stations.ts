@@ -12,7 +12,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.6960878,
     "lng": 139.6999469,
     "transfers": [],
-    "address": "東京都西武新宿駅",
+    "address": "東京都新宿区歌舞伎町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -50,7 +50,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "ＪＲ山手線内回り",
       "東京メトロ東西線"
     ],
-    "address": "東京都高田馬場駅",
+    "address": "東京都新宿区高田馬場一丁目35-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -84,7 +84,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7157455,
     "lng": 139.6950584,
     "transfers": [],
-    "address": "東京都下落合駅",
+    "address": "東京都新宿区下落合一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -113,7 +113,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都中井駅",
+    "address": "東京都新宿区中井一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -141,7 +141,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7158842,
     "lng": 139.6720481,
     "transfers": [],
-    "address": "東京都新井薬師前駅",
+    "address": "東京都中野区上高田五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -168,7 +168,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7193246,
     "lng": 139.6640837,
     "transfers": [],
-    "address": "東京都沼袋駅",
+    "address": "東京都中野区沼袋一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -195,7 +195,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7195617,
     "lng": 139.6534309,
     "transfers": [],
-    "address": "東京都野方駅",
+    "address": "東京都中野区野方六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -222,7 +222,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7223678,
     "lng": 139.6448231,
     "transfers": [],
-    "address": "東京都都立家政駅",
+    "address": "東京都中野区鷺宮一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -249,7 +249,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.722648,
     "lng": 139.6390505,
     "transfers": [],
-    "address": "東京都鷺ノ宮駅",
+    "address": "東京都中野区鷺宮三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -279,7 +279,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7239663,
     "lng": 139.624093,
     "transfers": [],
-    "address": "東京都下井草駅",
+    "address": "東京都杉並区下井草二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -306,7 +306,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7246392,
     "lng": 139.6154075,
     "transfers": [],
-    "address": "東京都井荻駅",
+    "address": "東京都杉並区下井草五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -333,7 +333,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7252937,
     "lng": 139.6022195,
     "transfers": [],
-    "address": "東京都上井草駅",
+    "address": "東京都杉並区上井草三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -360,7 +360,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7262262,
     "lng": 139.5915701,
     "transfers": [],
-    "address": "東京都上石神井駅",
+    "address": "東京都練馬区上石神井一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -390,7 +390,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7277254,
     "lng": 139.5755249,
     "transfers": [],
-    "address": "東京都武蔵関駅",
+    "address": "東京都練馬区関町北二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -418,7 +418,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7288552,
     "lng": 139.5628034,
     "transfers": [],
-    "address": "東京都東伏見駅",
+    "address": "東京都西東京市東伏見二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -446,7 +446,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7285628,
     "lng": 139.5518557,
     "transfers": [],
-    "address": "東京都西武柳沢駅",
+    "address": "東京都西東京市柳沢六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -474,7 +474,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7270334,
     "lng": 139.5381042,
     "transfers": [],
-    "address": "東京都田無駅",
+    "address": "東京都西東京市田無町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -505,7 +505,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.726345,
     "lng": 139.5126555,
     "transfers": [],
-    "address": "東京都花小金井駅",
+    "address": "東京都小平市花小金井南町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -536,7 +536,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "西武拝島線"
     ],
-    "address": "東京都小平駅",
+    "address": "東京都小平市美園町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -567,7 +567,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7500621,
     "lng": 139.4721348,
     "transfers": [],
-    "address": "東京都久米川駅",
+    "address": "東京都東村山市栄町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -634,7 +634,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "transfers": [
       "西武池袋線"
     ],
-    "address": "埼玉県所沢駅",
+    "address": "埼玉県所沢市くすのき台一丁目14-5",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -667,7 +667,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.7989494,
     "lng": 139.4649226,
     "transfers": [],
-    "address": "埼玉県航空公園駅",
+    "address": "埼玉県所沢市並木二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -696,7 +696,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.8065889,
     "lng": 139.4562182,
     "transfers": [],
-    "address": "埼玉県新所沢駅",
+    "address": "埼玉県所沢市松葉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -727,7 +727,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.8329208,
     "lng": 139.4265811,
     "transfers": [],
-    "address": "埼玉県入曽駅",
+    "address": "埼玉県狭山市大字南入曽",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -789,7 +789,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.8737757,
     "lng": 139.4331872,
     "transfers": [],
-    "address": "埼玉県新狭山駅",
+    "address": "埼玉県狭山市新狭山三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -819,7 +819,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.8893903,
     "lng": 139.4536829,
     "transfers": [],
-    "address": "埼玉県南大塚駅",
+    "address": "埼玉県川越市南台三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -849,7 +849,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "lat": 35.9120462,
     "lng": 139.4803821,
     "transfers": [],
-    "address": "埼玉県本川越駅",
+    "address": "埼玉県川越市新富町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

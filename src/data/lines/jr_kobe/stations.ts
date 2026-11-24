@@ -23,7 +23,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "阪急京都本線",
       "阪神本線"
     ],
-    "address": "",
+    "address": "大阪府大阪市北区梅田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -54,7 +54,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.7123,
     "lng": 135.46928,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市淀川区塚本二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -85,7 +85,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "JR東西線",
       "JR宝塚線"
     ],
-    "address": "",
+    "address": "兵庫県尼崎市潮江一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -116,7 +116,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.73774,
     "lng": 135.40036,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県尼崎市立花町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -144,7 +144,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.73907,
     "lng": 135.37539,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西宮市甲子園口北町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -172,7 +172,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.73901,
     "lng": 135.34728,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西宮市池田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -201,7 +201,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.73903,
     "lng": 135.33128,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県西宮市神楽町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -229,7 +229,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.73412,
     "lng": 135.30662,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県芦屋市船戸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -259,7 +259,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.73039,
     "lng": 135.29169,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市東灘区森北町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -287,7 +287,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.72659,
     "lng": 135.27671,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市東灘区岡本一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -317,7 +317,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "transfers": [
       "六甲ライナー"
     ],
-    "address": "",
+    "address": "兵庫県神戸市東灘区住吉本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -346,7 +346,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.71436,
     "lng": 135.23776,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市灘区永手町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -375,7 +375,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.708497,
     "lng": 135.224692,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市灘区灘南通五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,7 +403,7 @@ export const JR_KOBE_STATIONS: Station[] = [
     "lat": 34.70569,
     "lng": 135.21576,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県神戸市灘区岩屋北町七丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -437,7 +437,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "神戸市営地下鉄海岸線",
       "ポートライナー"
     ],
-    "address": "",
+    "address": "兵庫県神戸市中央区加納町四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -471,7 +471,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "阪神本線",
       "神戸高速線"
     ],
-    "address": "",
+    "address": "兵庫県神戸市中央区元町高架通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -504,7 +504,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "神戸市営地下鉄海岸線",
       "神戸高速線"
     ],
-    "address": "",
+    "address": "兵庫県神戸市中央区相生町四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -16,7 +16,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
       "JR男鹿線",
       "JR奥羽本線（大曲～秋田）"
     ],
-    "address": "",
+    "address": "秋田県秋田市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.738458,
     "lng": 140.1116484,
     "transfers": [],
-    "address": "",
+    "address": "秋田県秋田市泉菅野二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.758649,
     "lng": 140.0738802,
     "transfers": [],
-    "address": "",
+    "address": "秋田県秋田市土崎港中央六丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.7803534,
     "lng": 140.0681139,
     "transfers": [],
-    "address": "",
+    "address": "秋田県秋田市飯島道東二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -128,7 +128,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "JR男鹿線"
     ],
-    "address": "",
+    "address": "秋田県秋田市金足追分",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -156,7 +156,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.8695808,
     "lng": 140.0624131,
     "transfers": [],
-    "address": "",
+    "address": "秋田県潟上市昭和大久保",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -183,7 +183,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.8994001,
     "lng": 140.0732548,
     "transfers": [],
-    "address": "",
+    "address": "秋田県潟上市飯田川飯塚",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -210,7 +210,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.9117533,
     "lng": 140.0758122,
     "transfers": [],
-    "address": "",
+    "address": "秋田県井川町浜井川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -237,7 +237,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.9477394,
     "lng": 140.0784261,
     "transfers": [],
-    "address": "",
+    "address": "秋田県八郎潟町字中田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -266,7 +266,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 39.9962288,
     "lng": 140.0774783,
     "transfers": [],
-    "address": "",
+    "address": "秋田県三種町鯉川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -292,7 +292,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.04391,
     "lng": 140.082701,
     "transfers": [],
-    "address": "",
+    "address": "秋田県三種町鹿渡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -318,7 +318,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.1035554,
     "lng": 140.0707607,
     "transfers": [],
-    "address": "",
+    "address": "秋田県三種町森岳",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -346,7 +346,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.140913,
     "lng": 140.063914,
     "transfers": [],
-    "address": "",
+    "address": "秋田県三種町志戸橋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -374,7 +374,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "JR五能線"
     ],
-    "address": "",
+    "address": "秋田県能代市鰄渕",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,7 +403,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2038605,
     "lng": 140.1186301,
     "transfers": [],
-    "address": "",
+    "address": "秋田県能代市字戸草沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2178357,
     "lng": 140.1720232,
     "transfers": [],
-    "address": "",
+    "address": "秋田県能代市二ツ井町飛根",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -455,7 +455,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2130605,
     "lng": 140.2362638,
     "transfers": [],
-    "address": "",
+    "address": "秋田県能代市二ツ井町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -483,7 +483,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2143637,
     "lng": 140.3115498,
     "transfers": [],
-    "address": "",
+    "address": "秋田県北秋田市前山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -511,7 +511,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "秋田内陸縦貫鉄道秋田内陸線"
     ],
-    "address": "",
+    "address": "秋田県北秋田市松葉町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -540,7 +540,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2513928,
     "lng": 140.39829,
     "transfers": [],
-    "address": "",
+    "address": "秋田県北秋田市綴子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -566,7 +566,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2712371,
     "lng": 140.4485967,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大館市早口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -593,7 +593,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.2764827,
     "lng": 140.4975266,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大館市川口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -621,7 +621,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "JR花輪線"
     ],
-    "address": "",
+    "address": "秋田県大館市御成町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -650,7 +650,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.3383888,
     "lng": 140.5919104,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大館市白沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -677,7 +677,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.3992759,
     "lng": 140.607813,
     "transfers": [],
-    "address": "",
+    "address": "秋田県大館市長走",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -704,7 +704,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.4418709,
     "lng": 140.6323566,
     "transfers": [],
-    "address": "",
+    "address": "青森県平川市碇ヶ関",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -730,7 +730,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.478947,
     "lng": 140.6225108,
     "transfers": [],
-    "address": "",
+    "address": "青森県平川市碇ヶ関",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -758,7 +758,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.5158269,
     "lng": 140.6031591,
     "transfers": [],
-    "address": "",
+    "address": "青森県大鰐町大字長峰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -787,7 +787,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "弘南鉄道大鰐線"
     ],
-    "address": "",
+    "address": "青森県大鰐町大字大鰐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -816,7 +816,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.5558946,
     "lng": 140.5311758,
     "transfers": [],
-    "address": "",
+    "address": "青森県弘前市大字石川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -845,7 +845,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "弘南鉄道弘南線"
     ],
-    "address": "",
+    "address": "青森県弘前市大字表町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -874,7 +874,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.6218355,
     "lng": 140.4980535,
     "transfers": [],
-    "address": "",
+    "address": "青森県弘前市大字撫牛子一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -903,7 +903,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "transfers": [
       "JR五能線"
     ],
-    "address": "",
+    "address": "青森県田舎館村大字川部",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -931,7 +931,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.670489,
     "lng": 140.5435636,
     "transfers": [],
-    "address": "",
+    "address": "青森県藤崎町大字常盤",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -958,7 +958,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.709567,
     "lng": 140.580135,
     "transfers": [],
-    "address": "",
+    "address": "青森県青森市浪岡大字女鹿沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -986,7 +986,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.7566828,
     "lng": 140.5878208,
     "transfers": [],
-    "address": "",
+    "address": "青森県青森市浪岡大字大釈迦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1013,7 +1013,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.7913416,
     "lng": 140.6349554,
     "transfers": [],
-    "address": "",
+    "address": "青森県青森市大字鶴ケ坂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1040,7 +1040,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
     "lat": 40.8278404,
     "lng": 140.6716426,
     "transfers": [],
-    "address": "",
+    "address": "青森県青森市大字新城",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1070,7 +1070,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
       "JR東北新幹線",
       "JR北海道新幹線"
     ],
-    "address": "",
+    "address": "青森県青森市大字石江字高間",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1102,7 +1102,7 @@ export const OU_AKITA_AOMORI_STATIONS: Station[] = [
       "JR津軽線",
       "青い森鉄道線"
     ],
-    "address": "",
+    "address": "青森県青森市柳川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

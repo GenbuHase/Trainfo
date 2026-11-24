@@ -13,7 +13,7 @@ export const TOHOKU_RIFU_STATIONS: Station[] = [
     "transfers": [
       "JR東北本線（仙台～一ノ関）"
     ],
-    "address": "宮城県岩切駅周辺",
+    "address": "宮城県仙台市宮城野区岩切",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -40,7 +40,7 @@ export const TOHOKU_RIFU_STATIONS: Station[] = [
     "lat": 38.3169649,
     "lng": 140.9728498,
     "transfers": [],
-    "address": "宮城県新利府駅周辺",
+    "address": "宮城県利府町利府",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -67,7 +67,7 @@ export const TOHOKU_RIFU_STATIONS: Station[] = [
     "lat": 38.329289,
     "lng": 140.9847502,
     "transfers": [],
-    "address": "宮城県利府駅周辺",
+    "address": "宮城県利府町森郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -15,7 +15,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
       "ＪＲ北陸新幹線",
       "ＪＲ信越本線・篠ノ井線"
     ],
-    "address": "長野県長野駅",
+    "address": "長野県長野市南千歳1-25",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -72,7 +72,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6535785,
     "lng": 138.1921324,
     "transfers": [],
-    "address": "長野県権堂駅",
+    "address": "長野県長野市大字鶴賀",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -101,7 +101,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6589917,
     "lng": 138.1936655,
     "transfers": [],
-    "address": "長野県善光寺下駅",
+    "address": "長野県長野市三輪六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -128,7 +128,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6624503,
     "lng": 138.2036084,
     "transfers": [],
-    "address": "長野県本郷駅",
+    "address": "長野県長野市三輪三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -156,7 +156,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6655721,
     "lng": 138.2127394,
     "transfers": [],
-    "address": "長野県桐原駅",
+    "address": "長野県長野市桐原一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -183,7 +183,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6673266,
     "lng": 138.2205048,
     "transfers": [],
-    "address": "長野県信濃吉田駅",
+    "address": "長野県長野市吉田三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -212,7 +212,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6664389,
     "lng": 138.2402617,
     "transfers": [],
-    "address": "長野県朝陽駅",
+    "address": "長野県長野市大字北堀",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -240,7 +240,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6625355,
     "lng": 138.2483662,
     "transfers": [],
-    "address": "長野県附属中学前駅",
+    "address": "長野県長野市大字北堀",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -267,7 +267,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6635428,
     "lng": 138.2586624,
     "transfers": [],
-    "address": "長野県柳原駅",
+    "address": "長野県長野市大字柳原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -321,7 +321,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6557363,
     "lng": 138.2891941,
     "transfers": [],
-    "address": "長野県日野駅",
+    "address": "長野県須坂市大字小山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -348,7 +348,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6572653,
     "lng": 138.3045732,
     "transfers": [],
-    "address": "長野県須坂駅",
+    "address": "長野県須坂市大字須坂",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -377,7 +377,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6787299,
     "lng": 138.3086683,
     "transfers": [],
-    "address": "長野県北須坂駅",
+    "address": "長野県須坂市大字小河原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -404,7 +404,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.6992661,
     "lng": 138.3132168,
     "transfers": [],
-    "address": "長野県小布施駅",
+    "address": "長野県小布施町大字小布施",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -433,7 +433,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7042796,
     "lng": 138.3225435,
     "transfers": [],
-    "address": "長野県都住駅",
+    "address": "長野県小布施町大字都住",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -460,7 +460,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7128809,
     "lng": 138.3499188,
     "transfers": [],
-    "address": "長野県桜沢駅",
+    "address": "長野県中野市大字三ツ和",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -487,7 +487,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7270395,
     "lng": 138.3626913,
     "transfers": [],
-    "address": "長野県延徳駅",
+    "address": "長野県中野市大字中野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -514,7 +514,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7444895,
     "lng": 138.3649895,
     "transfers": [],
-    "address": "長野県信州中野駅",
+    "address": "長野県中野市西一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -543,7 +543,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7506583,
     "lng": 138.3738497,
     "transfers": [],
-    "address": "長野県中野松川駅",
+    "address": "長野県中野市大字中野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -570,7 +570,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7608671,
     "lng": 138.3933349,
     "transfers": [],
-    "address": "長野県信濃竹原駅",
+    "address": "長野県中野市大字竹原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -597,7 +597,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7596516,
     "lng": 138.4032844,
     "transfers": [],
-    "address": "長野県夜間瀬駅",
+    "address": "長野県山ノ内町大字夜間瀬",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -624,7 +624,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7499153,
     "lng": 138.4076265,
     "transfers": [],
-    "address": "長野県上条駅",
+    "address": "長野県山ノ内町大字平穏",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -651,7 +651,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
     "lat": 36.7419583,
     "lng": 138.41469,
     "transfers": [],
-    "address": "長野県湯田中駅",
+    "address": "長野県山ノ内町大字平穏",
     "facilities": {
       "elevator": true,
       "restroom": true,

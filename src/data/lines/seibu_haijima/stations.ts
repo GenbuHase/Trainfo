@@ -14,7 +14,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "transfers": [
       "西武新宿線"
     ],
-    "address": "東京都小平駅",
+    "address": "東京都小平市美園町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,7 +45,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "transfers": [
       "西武多摩湖線"
     ],
-    "address": "東京都萩山駅",
+    "address": "東京都東村山市萩山町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -76,7 +76,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "transfers": [
       "西武国分寺線"
     ],
-    "address": "東京都小川駅",
+    "address": "東京都小平市小川東町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -135,7 +135,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "transfers": [
       "多摩都市モノレール線"
     ],
-    "address": "東京都玉川上水駅",
+    "address": "東京都立川市幸町六丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -164,7 +164,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "lat": 35.7288191,
     "lng": 139.3916974,
     "transfers": [],
-    "address": "東京都武蔵砂川駅",
+    "address": "東京都立川市上砂町四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -192,7 +192,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
     "lat": 35.7261071,
     "lng": 139.3691004,
     "transfers": [],
-    "address": "東京都西武立川駅",
+    "address": "東京都立川市西砂町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -224,7 +224,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "ＪＲ青梅線",
       "ＪＲ五日市線"
     ],
-    "address": "東京都拝島駅",
+    "address": "東京都昭島市松原町四丁目14-4",
     "facilities": {
       "elevator": true,
       "restroom": true,

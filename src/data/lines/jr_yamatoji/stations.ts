@@ -14,7 +14,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ関西本線"
     ],
-    "address": "",
+    "address": "京都府木津川市加茂町駅西一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -48,7 +48,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "ＪＲ奈良線",
       "ＪＲ学研都市線"
     ],
-    "address": "",
+    "address": "京都府木津川市木津",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -81,7 +81,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ奈良線"
     ],
-    "address": "",
+    "address": "奈良県奈良市佐保台一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -115,7 +115,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "ＪＲ奈良線",
       "ＪＲ万葉まほろば線"
     ],
-    "address": "",
+    "address": "奈良県奈良市三条本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.64888,
     "lng": 135.79068,
     "transfers": [],
-    "address": "",
+    "address": "奈良県大和郡山市高田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -181,7 +181,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.62282,
     "lng": 135.76401,
     "transfers": [],
-    "address": "",
+    "address": "奈良県大和郡山市小泉町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -214,7 +214,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.60206,
     "lng": 135.73979,
     "transfers": [],
-    "address": "",
+    "address": "奈良県斑鳩町興留九丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -250,7 +250,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "ＪＲ和歌山線",
       "近鉄生駒線"
     ],
-    "address": "",
+    "address": "奈良県王寺町王寺二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -283,7 +283,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.58905,
     "lng": 135.68785,
     "transfers": [],
-    "address": "",
+    "address": "奈良県三郷町−",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -312,7 +312,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.57498,
     "lng": 135.66362,
     "transfers": [],
-    "address": "",
+    "address": "大阪府柏原市大字青谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -341,7 +341,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.57137,
     "lng": 135.6397,
     "transfers": [],
-    "address": "",
+    "address": "大阪府柏原市大字高井田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -372,7 +372,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "transfers": [
       "近鉄道明寺線"
     ],
-    "address": "",
+    "address": "大阪府柏原市上市一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.59991,
     "lng": 135.61621,
     "transfers": [],
-    "address": "",
+    "address": "大阪府八尾市天王寺屋七丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -431,7 +431,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.61692,
     "lng": 135.59777,
     "transfers": [],
-    "address": "",
+    "address": "大阪府八尾市安中町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -463,7 +463,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲおおさか東線"
     ],
-    "address": "",
+    "address": "大阪府八尾市龍華町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -496,7 +496,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.62674,
     "lng": 135.56728,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市平野区加美鞍作一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -525,7 +525,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.63059,
     "lng": 135.55231,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市平野区平野元町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -554,7 +554,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.63767,
     "lng": 135.53834,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市東住吉区杭全一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -589,7 +589,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "OsakaMetro御堂筋線",
       "OsakaMetro谷町線"
     ],
-    "address": "",
+    "address": "大阪府大阪市天王寺区悲田院町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -626,7 +626,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "南海本線",
       "南海高野線"
     ],
-    "address": "",
+    "address": "大阪府大阪市浪速区恵美須西三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -660,7 +660,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
       "南海本線",
       "南海高野線"
     ],
-    "address": "",
+    "address": "大阪府大阪市浪速区浪速東三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -689,7 +689,7 @@ export const JR_YAMATOJI_STATIONS: Station[] = [
     "lat": 34.66715,
     "lng": 135.49552,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市浪速区湊町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

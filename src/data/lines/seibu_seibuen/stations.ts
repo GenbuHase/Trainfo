@@ -43,7 +43,7 @@ export const SEIBU_SEIBUEN_STATIONS: Station[] = [
     "lat": 35.767585,
     "lng": 139.449355,
     "transfers": [],
-    "address": "東京都西武園駅",
+    "address": "東京都東村山市多摩湖町四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

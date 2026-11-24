@@ -908,7 +908,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     "lat": 35.7640429,
     "lng": 139.9973717,
     "transfers": [],
-    "address": "千葉県鎌ケ谷市道野辺中央二丁目1-1",
+    "address": "千葉県鎌ケ谷市道野辺本町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

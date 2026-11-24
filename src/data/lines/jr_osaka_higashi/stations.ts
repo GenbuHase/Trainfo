@@ -18,7 +18,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "ＪＲ関西空港線・きのくに線・大和路線特急",
       "OsakaMetro御堂筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市北区梅田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -54,7 +54,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "ＪＲ関西空港線・きのくに線・大和路線特急",
       "OsakaMetro御堂筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市淀川区西中島五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -84,7 +84,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.74933,
     "lng": 135.51037,
     "transfers": [],
-    "address": "",
+    "address": "大阪府吹田市南吹田二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -112,7 +112,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.74139,
     "lng": 135.51931,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市東淀川区菅原五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -141,7 +141,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.72436,
     "lng": 135.53024,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市都島区大東町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -170,7 +170,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.70757,
     "lng": 135.54143,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市城東区野江三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -202,7 +202,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
       "ＪＲ学研都市線",
       "OsakaMetro今里筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市城東区鴫野西五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -232,7 +232,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ学研都市線"
     ],
-    "address": "",
+    "address": "大阪府大阪市鶴見区放出東三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.67975,
     "lng": 135.57255,
     "transfers": [],
-    "address": "",
+    "address": "大阪府東大阪市川俣一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -290,7 +290,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.66507,
     "lng": 135.57229,
     "transfers": [],
-    "address": "",
+    "address": "大阪府東大阪市高井田元町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -319,7 +319,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.65942,
     "lng": 135.57246,
     "transfers": [],
-    "address": "",
+    "address": "大阪府東大阪市永和一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -347,7 +347,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.65056,
     "lng": 135.5705,
     "transfers": [],
-    "address": "",
+    "address": "大阪府東大阪市長瀬町三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -375,7 +375,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.63778,
     "lng": 135.56694,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市平野区加美北五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -403,7 +403,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "lat": 34.62803,
     "lng": 135.56721,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市平野区加美東四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -433,7 +433,7 @@ export const JR_OSAKA_HIGASHI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ大和路線"
     ],
-    "address": "",
+    "address": "大阪府八尾市龍華町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

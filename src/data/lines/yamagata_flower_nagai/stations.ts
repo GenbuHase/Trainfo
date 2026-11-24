@@ -14,7 +14,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
       "JR山形新幹線",
       "JR奥羽本線（福島～新庄）"
     ],
-    "address": "山形県赤湯駅周辺",
+    "address": "山形県南陽市若狭郷屋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,7 +41,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.0553822,
     "lng": 140.1491687,
     "transfers": [],
-    "address": "山形県南陽市役所駅周辺",
+    "address": "山形県南陽市三間通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -68,7 +68,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.0708809,
     "lng": 140.1350786,
     "transfers": [],
-    "address": "山形県宮内駅周辺",
+    "address": "山形県南陽市宮内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -95,7 +95,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.066453,
     "lng": 140.1225468,
     "transfers": [],
-    "address": "山形県おりはた駅周辺",
+    "address": "山形県南陽市漆山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -122,7 +122,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.0573947,
     "lng": 140.0985035,
     "transfers": [],
-    "address": "山形県梨郷駅周辺",
+    "address": "山形県南陽市竹原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -149,7 +149,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.0554437,
     "lng": 140.0642829,
     "transfers": [],
-    "address": "山形県西大塚駅周辺",
+    "address": "山形県川西町大字西大塚",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -178,7 +178,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "transfers": [
       "JR米坂線"
     ],
-    "address": "山形県今泉駅周辺",
+    "address": "山形県長井市今泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -205,7 +205,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.0768846,
     "lng": 140.0297053,
     "transfers": [],
-    "address": "山形県時庭駅周辺",
+    "address": "山形県長井市時庭",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -232,7 +232,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.0974609,
     "lng": 140.0346119,
     "transfers": [],
-    "address": "山形県南長井駅周辺",
+    "address": "山形県長井市四ツ谷二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -259,7 +259,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.106571,
     "lng": 140.0336356,
     "transfers": [],
-    "address": "山形県長井駅周辺",
+    "address": "山形県長井市栄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -286,7 +286,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.1140121,
     "lng": 140.0327469,
     "transfers": [],
-    "address": "山形県あやめ公園駅周辺",
+    "address": "山形県長井市幸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -313,7 +313,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.1310183,
     "lng": 140.0350479,
     "transfers": [],
-    "address": "山形県羽前成田駅周辺",
+    "address": "山形県長井市成田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -340,7 +340,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.1501108,
     "lng": 140.0411434,
     "transfers": [],
-    "address": "山形県白兎駅周辺",
+    "address": "山形県長井市白兎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -367,7 +367,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.1613919,
     "lng": 140.0467548,
     "transfers": [],
-    "address": "山形県蚕桑駅周辺",
+    "address": "山形県白鷹町大字高玉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -394,7 +394,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.1825926,
     "lng": 140.0710329,
     "transfers": [],
-    "address": "山形県鮎貝駅周辺",
+    "address": "山形県白鷹町大字鮎貝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -421,7 +421,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.1857714,
     "lng": 140.0776392,
     "transfers": [],
-    "address": "山形県四季の郷駅周辺",
+    "address": "山形県白鷹町大字鮎貝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -448,7 +448,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "lat": 38.18805,
     "lng": 140.0974533,
     "transfers": [],
-    "address": "山形県荒砥駅周辺",
+    "address": "山形県白鷹町大字荒砥甲",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

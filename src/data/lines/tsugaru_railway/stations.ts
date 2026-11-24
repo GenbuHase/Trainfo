@@ -13,7 +13,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "transfers": [
       "JR五能線（五所川原）"
     ],
-    "address": "青森県津軽五所川原駅周辺",
+    "address": "青森県五所川原市字大町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,7 +41,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.817456,
     "lng": 140.4566692,
     "transfers": [],
-    "address": "青森県十川駅周辺",
+    "address": "青森県五所川原市大字太刀打",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.8212196,
     "lng": 140.4786852,
     "transfers": [],
-    "address": "青森県五農校前駅周辺",
+    "address": "青森県五所川原市大字一野坪",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -97,7 +97,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.829504,
     "lng": 140.479389,
     "transfers": [],
-    "address": "青森県津軽飯詰駅周辺",
+    "address": "青森県五所川原市大字飯詰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -125,7 +125,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.8579612,
     "lng": 140.4777669,
     "transfers": [],
-    "address": "青森県毘沙門駅周辺",
+    "address": "青森県五所川原市大字毘沙門",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.8813162,
     "lng": 140.4691368,
     "transfers": [],
-    "address": "青森県嘉瀬駅周辺",
+    "address": "青森県五所川原市金木町嘉瀬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -181,7 +181,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.9031518,
     "lng": 140.4598927,
     "transfers": [],
-    "address": "青森県金木駅周辺",
+    "address": "青森県五所川原市金木町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -209,7 +209,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.9123303,
     "lng": 140.4513781,
     "transfers": [],
-    "address": "青森県芦野公園駅周辺",
+    "address": "青森県五所川原市金木町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -237,7 +237,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.925997,
     "lng": 140.443775,
     "transfers": [],
-    "address": "青森県川倉駅周辺",
+    "address": "青森県五所川原市金木町川倉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -264,7 +264,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.9396439,
     "lng": 140.4373349,
     "transfers": [],
-    "address": "青森県大沢内駅周辺",
+    "address": "青森県中泊町大字大沢内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -292,7 +292,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.951035,
     "lng": 140.4409287,
     "transfers": [],
-    "address": "青森県深郷田駅周辺",
+    "address": "青森県中泊町大字深郷田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -319,7 +319,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
     "lat": 40.9646016,
     "lng": 140.4410935,
     "transfers": [],
-    "address": "青森県津軽中里駅周辺",
+    "address": "青森県中泊町大字中里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

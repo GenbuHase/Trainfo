@@ -16,7 +16,7 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
       "東京メトロ半蔵門線",
       "都営地下鉄浅草線"
     ],
-    "address": "東京都押上駅",
+    "address": "東京都墨田区押上一丁目10-2",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -49,7 +49,7 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "lat": 35.7191409,
     "lng": 139.8209532,
     "transfers": [],
-    "address": "東京都京成曳舟駅",
+    "address": "東京都墨田区京島一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -76,7 +76,7 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "lat": 35.7271404,
     "lng": 139.8283384,
     "transfers": [],
-    "address": "東京都八広駅",
+    "address": "東京都墨田区八広六丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -103,7 +103,7 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "lat": 35.7321303,
     "lng": 139.835376,
     "transfers": [],
-    "address": "東京都四ツ木駅",
+    "address": "東京都葛飾区四つ木一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -130,7 +130,7 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "lat": 35.7383318,
     "lng": 139.8489822,
     "transfers": [],
-    "address": "東京都京成立石駅",
+    "address": "東京都葛飾区立石四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -159,7 +159,7 @@ export const KEISEI_OSHIAGE_STATIONS: Station[] = [
     "transfers": [
       "京成本線"
     ],
-    "address": "東京都青砥駅",
+    "address": "東京都葛飾区青戸三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

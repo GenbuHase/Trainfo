@@ -15,7 +15,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
       "ＪＲ中央線快速",
       "西武国分寺線"
     ],
-    "address": "東京都国分寺駅",
+    "address": "東京都国分寺市南町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -43,7 +43,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "lat": 35.7225092,
     "lng": 139.4800153,
     "transfers": [],
-    "address": "東京都一橋学園駅",
+    "address": "東京都小平市学園東町一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -70,7 +70,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "lat": 35.7313366,
     "lng": 139.4766586,
     "transfers": [],
-    "address": "東京都青梅街道駅",
+    "address": "東京都小平市小川町二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -99,7 +99,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "transfers": [
       "西武拝島線"
     ],
-    "address": "東京都萩山駅",
+    "address": "東京都東村山市萩山町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -127,7 +127,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "lat": 35.7452353,
     "lng": 139.4670896,
     "transfers": [],
-    "address": "東京都八坂駅",
+    "address": "東京都東村山市栄町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -154,7 +154,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "lat": 35.7567932,
     "lng": 139.4437913,
     "transfers": [],
-    "address": "東京都武蔵大和駅",
+    "address": "東京都東村山市廻田町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -183,7 +183,7 @@ export const SEIBU_TAMAKO_STATIONS: Station[] = [
     "transfers": [
       "西武山口線（レオライナー）"
     ],
-    "address": "東京都多摩湖駅",
+    "address": "東京都東村山市多摩湖町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

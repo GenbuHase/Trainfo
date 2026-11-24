@@ -19,7 +19,7 @@ export const SOTOBO_STATIONS: Station[] = [
       "千葉都市モノレール",
       "京成千葉線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区新千葉一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -50,7 +50,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "transfers": [
       "千葉都市モノレール"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区長洲一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -81,7 +81,7 @@ export const SOTOBO_STATIONS: Station[] = [
       "JR京葉線",
       "JR内房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市中央区今井二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -110,7 +110,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.56307,
     "lng": 140.17825,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市緑区鎌取町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -138,7 +138,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.54727,
     "lng": 140.21288,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市緑区誉田町二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -166,7 +166,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.53043,
     "lng": 140.27125,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県千葉市緑区土気町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -196,7 +196,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "transfers": [
       "JR東金線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県大網白里市駒込",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -225,7 +225,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.50425,
     "lng": 140.31144,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県大網白里市ながた野一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -251,7 +251,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.48115,
     "lng": 140.30741,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県茂原市本納",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -277,7 +277,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.44845,
     "lng": 140.29945,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県茂原市長尾",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -303,7 +303,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.426,
     "lng": 140.30555,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県茂原市六ツ野",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -332,7 +332,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.40337,
     "lng": 140.34642,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県長生村岩沼",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -358,7 +358,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.37331,
     "lng": 140.36526,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県一宮町一宮",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -387,7 +387,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.3459,
     "lng": 140.37715,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県一宮町東浪見",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -413,7 +413,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.32066,
     "lng": 140.38119,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県いすみ市岬町椎木",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -439,7 +439,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.29558,
     "lng": 140.38519,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県いすみ市岬町井沢",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -465,7 +465,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.28258,
     "lng": 140.39156,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県いすみ市岬町三門",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -493,7 +493,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "transfers": [
       "いすみ鉄道"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県いすみ市大原",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -521,7 +521,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.22206,
     "lng": 140.37868,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県いすみ市小沢",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -547,7 +547,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.18675,
     "lng": 140.35082,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県御宿町須賀",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -574,7 +574,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.15309,
     "lng": 140.31283,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県勝浦市墨名",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -602,7 +602,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.14152,
     "lng": 140.27946,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県勝浦市鵜原",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -629,7 +629,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.13749,
     "lng": 140.25117,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県勝浦市興津",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -656,7 +656,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.11821,
     "lng": 140.22531,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県勝浦市浜行川",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -683,7 +683,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.12885,
     "lng": 140.19102,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鴨川市内浦",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -710,7 +710,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "lat": 35.12546,
     "lng": 140.15384,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鴨川市天津",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -739,7 +739,7 @@ export const SOTOBO_STATIONS: Station[] = [
     "transfers": [
       "JR内房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県鴨川市横渚",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -17,7 +17,7 @@ export const SHONAN_MONORAIL_STATIONS: Station[] = [
       "ＪＲ東海道本線",
       "ＪＲ根岸線"
     ],
-    "address": "神奈川県大船駅",
+    "address": "神奈川県鎌倉市大船一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -99,7 +99,7 @@ export const SHONAN_MONORAIL_STATIONS: Station[] = [
     "lat": 35.3331432,
     "lng": 139.5191267,
     "transfers": [],
-    "address": "神奈川県湘南深沢駅",
+    "address": "神奈川県鎌倉市梶原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -126,7 +126,7 @@ export const SHONAN_MONORAIL_STATIONS: Station[] = [
     "lat": 35.3193856,
     "lng": 139.5042385,
     "transfers": [],
-    "address": "神奈川県西鎌倉駅",
+    "address": "神奈川県鎌倉市西鎌倉一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -153,7 +153,7 @@ export const SHONAN_MONORAIL_STATIONS: Station[] = [
     "lat": 35.3173041,
     "lng": 139.4959937,
     "transfers": [],
-    "address": "神奈川県片瀬山駅",
+    "address": "神奈川県鎌倉市西鎌倉四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -180,7 +180,7 @@ export const SHONAN_MONORAIL_STATIONS: Station[] = [
     "lat": 35.313925,
     "lng": 139.4912456,
     "transfers": [],
-    "address": "神奈川県目白山下駅",
+    "address": "神奈川県藤沢市片瀬三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -207,7 +207,7 @@ export const SHONAN_MONORAIL_STATIONS: Station[] = [
     "lat": 35.3117305,
     "lng": 139.4876244,
     "transfers": [],
-    "address": "神奈川県湘南江の島駅",
+    "address": "神奈川県藤沢市片瀬三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

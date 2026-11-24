@@ -14,7 +14,7 @@ export const SEIBU_YAMAGUCHI_STATIONS: Station[] = [
     "transfers": [
       "西武多摩湖線"
     ],
-    "address": "東京都多摩湖駅",
+    "address": "東京都東村山市多摩湖町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const SEIBU_YAMAGUCHI_STATIONS: Station[] = [
     "lat": 35.7692752,
     "lng": 139.4399697,
     "transfers": [],
-    "address": "埼玉県西武園ゆうえんち駅",
+    "address": "埼玉県所沢市大字山口",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -71,7 +71,7 @@ export const SEIBU_YAMAGUCHI_STATIONS: Station[] = [
     "transfers": [
       "西武狭山線"
     ],
-    "address": "埼玉県西武球場前駅",
+    "address": "埼玉県所沢市大字上山口",
     "facilities": {
       "elevator": true,
       "restroom": true,

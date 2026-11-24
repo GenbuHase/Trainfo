@@ -22,7 +22,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
       "仙台市地下鉄南北線",
       "仙台市地下鉄東西線"
     ],
-    "address": "宮城県仙台駅周辺",
+    "address": "宮城県仙台市青葉区中央一丁目1-1",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -52,7 +52,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.2764727,
     "lng": 140.9200215,
     "transfers": [],
-    "address": "宮城県東仙台駅周辺",
+    "address": "宮城県仙台市宮城野区新田一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -82,7 +82,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "transfers": [
       "JR東北本線（利府支線）"
     ],
-    "address": "宮城県岩切駅周辺",
+    "address": "宮城県仙台市宮城野区岩切",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -110,7 +110,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.2995796,
     "lng": 140.9792267,
     "transfers": [],
-    "address": "宮城県陸前山王駅周辺",
+    "address": "宮城県多賀城市山王",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -138,7 +138,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.300934,
     "lng": 140.9941949,
     "transfers": [],
-    "address": "宮城県国府多賀城駅周辺",
+    "address": "宮城県多賀城市高崎一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -168,7 +168,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "transfers": [
       "JR仙石東北ライン"
     ],
-    "address": "宮城県塩釜駅周辺",
+    "address": "宮城県塩竈市東玉川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -197,7 +197,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.3800111,
     "lng": 141.0658381,
     "transfers": [],
-    "address": "宮城県松島駅周辺",
+    "address": "宮城県松島町松島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -225,7 +225,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.3973719,
     "lng": 141.0650553,
     "transfers": [],
-    "address": "宮城県愛宕駅周辺",
+    "address": "宮城県松島町高城",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -252,7 +252,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.4315514,
     "lng": 141.0823998,
     "transfers": [],
-    "address": "宮城県品井沼駅周辺",
+    "address": "宮城県松島町幡谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -279,7 +279,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.4746618,
     "lng": 141.0980102,
     "transfers": [],
-    "address": "宮城県鹿島台駅周辺",
+    "address": "宮城県大崎市鹿島台平渡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -307,7 +307,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.5123065,
     "lng": 141.0752624,
     "transfers": [],
-    "address": "宮城県松山町駅周辺",
+    "address": "宮城県大崎市松山金谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -338,7 +338,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
       "JR陸羽東線",
       "JR石巻線"
     ],
-    "address": "宮城県小牛田駅周辺",
+    "address": "宮城県美里町字藤ケ崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -367,7 +367,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.5961705,
     "lng": 141.0590147,
     "transfers": [],
-    "address": "宮城県田尻駅周辺",
+    "address": "宮城県大崎市田尻沼部",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -395,7 +395,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.6552561,
     "lng": 141.0738865,
     "transfers": [],
-    "address": "宮城県瀬峰駅周辺",
+    "address": "宮城県栗原市瀬峰",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -423,7 +423,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.6817619,
     "lng": 141.0854159,
     "transfers": [],
-    "address": "宮城県梅ケ沢駅周辺",
+    "address": "宮城県登米市迫町新田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -451,7 +451,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.7118261,
     "lng": 141.1198197,
     "transfers": [],
-    "address": "宮城県新田駅周辺",
+    "address": "宮城県登米市迫町新田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -479,7 +479,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.7686968,
     "lng": 141.1590722,
     "transfers": [],
-    "address": "宮城県石越駅周辺",
+    "address": "宮城県登米市石越町南郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -507,7 +507,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.7970428,
     "lng": 141.1757121,
     "transfers": [],
-    "address": "岩手県油島駅周辺",
+    "address": "岩手県一関市花泉町油島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -534,7 +534,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.8334051,
     "lng": 141.1800007,
     "transfers": [],
-    "address": "岩手県花泉駅周辺",
+    "address": "岩手県一関市花泉町花泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -561,7 +561,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.8547426,
     "lng": 141.1567948,
     "transfers": [],
-    "address": "岩手県清水原駅周辺",
+    "address": "岩手県一関市花泉町花泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -588,7 +588,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
     "lat": 38.8673477,
     "lng": 141.1211282,
     "transfers": [],
-    "address": "宮城県有壁駅周辺",
+    "address": "宮城県栗原市金成有壁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -619,7 +619,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
       "JR東北新幹線",
       "JR大船渡線"
     ],
-    "address": "岩手県一ノ関駅周辺",
+    "address": "岩手県一関市駅前",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

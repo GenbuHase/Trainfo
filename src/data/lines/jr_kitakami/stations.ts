@@ -14,7 +14,7 @@ export const KITAKAMI_STATIONS: Station[] = [
       "JR東北新幹線",
       "JR東北本線（一ノ関～盛岡）"
     ],
-    "address": "岩手県北上駅周辺",
+    "address": "岩手県北上市大通り一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.2945921,
     "lng": 141.1117438,
     "transfers": [],
-    "address": "岩手県柳原駅周辺",
+    "address": "岩手県北上市柳原町四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +70,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.29839,
     "lng": 141.0758365,
     "transfers": [],
-    "address": "岩手県江釣子駅周辺",
+    "address": "岩手県北上市上江釣子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -98,7 +98,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.3010205,
     "lng": 141.040073,
     "transfers": [],
-    "address": "岩手県藤根駅周辺",
+    "address": "岩手県北上市和賀町藤根",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.3077084,
     "lng": 140.9976417,
     "transfers": [],
-    "address": "岩手県立川目駅周辺",
+    "address": "岩手県北上市和賀町竪川目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -154,7 +154,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.3092376,
     "lng": 140.9724789,
     "transfers": [],
-    "address": "岩手県横川目駅周辺",
+    "address": "岩手県北上市和賀町横川目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -182,7 +182,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.3011127,
     "lng": 140.9318093,
     "transfers": [],
-    "address": "岩手県岩沢駅周辺",
+    "address": "岩手県北上市和賀町岩沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -210,7 +210,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.30844,
     "lng": 140.909233,
     "transfers": [],
-    "address": "岩手県和賀仙人駅周辺",
+    "address": "岩手県北上市和賀町仙人",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -238,7 +238,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.295263,
     "lng": 140.8356048,
     "transfers": [],
-    "address": "岩手県ゆだ錦秋湖駅周辺",
+    "address": "岩手県西和賀町耳取",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -266,7 +266,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.31485,
     "lng": 140.7760961,
     "transfers": [],
-    "address": "岩手県ほっとゆだ駅周辺",
+    "address": "岩手県西和賀町川尻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -295,7 +295,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.3008533,
     "lng": 140.7367001,
     "transfers": [],
-    "address": "岩手県ゆだ高原駅周辺",
+    "address": "岩手県西和賀町白木野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -322,7 +322,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.2763263,
     "lng": 140.699651,
     "transfers": [],
-    "address": "秋田県黒沢駅周辺",
+    "address": "秋田県横手市山内黒沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -349,7 +349,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.2935264,
     "lng": 140.6464807,
     "transfers": [],
-    "address": "秋田県小松川駅周辺",
+    "address": "秋田県横手市山内小松川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -376,7 +376,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "lat": 39.2780858,
     "lng": 140.6187106,
     "transfers": [],
-    "address": "秋田県相野々駅周辺",
+    "address": "秋田県横手市山内土渕",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -405,7 +405,7 @@ export const KITAKAMI_STATIONS: Station[] = [
     "transfers": [
       "JR奥羽本線（新庄～大曲）"
     ],
-    "address": "秋田県横手駅周辺",
+    "address": "秋田県横手市駅前町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

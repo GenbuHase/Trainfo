@@ -18,7 +18,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
       "JR山田線",
       "JR花輪線"
     ],
-    "address": "岩手県盛岡駅周辺",
+    "address": "岩手県盛岡市盛岡駅前通",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.7248775,
     "lng": 141.1183674,
     "transfers": [],
-    "address": "岩手県青山駅周辺",
+    "address": "岩手県盛岡市前九年三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.7447184,
     "lng": 141.1292387,
     "transfers": [],
-    "address": "岩手県厨川駅周辺",
+    "address": "岩手県盛岡市厨川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.783546,
     "lng": 141.1488503,
     "transfers": [],
-    "address": "岩手県巣子駅周辺",
+    "address": "岩手県滝沢市巣子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.7989753,
     "lng": 141.1495271,
     "transfers": [],
-    "address": "岩手県滝沢駅周辺",
+    "address": "岩手県滝沢市野沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.8349942,
     "lng": 141.154511,
     "transfers": [],
-    "address": "岩手県渋民駅周辺",
+    "address": "岩手県盛岡市下田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -182,7 +182,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "transfers": [
       "JR花輪線"
     ],
-    "address": "岩手県好摩駅周辺",
+    "address": "岩手県盛岡市好摩",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -209,7 +209,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 39.9194582,
     "lng": 141.1992679,
     "transfers": [],
-    "address": "岩手県岩手川口駅周辺",
+    "address": "岩手県岩手町大字川口",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -238,7 +238,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線"
     ],
-    "address": "岩手県いわて沼宮内駅周辺",
+    "address": "岩手県岩手郡岩手町大字江刈内第7地割",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -265,7 +265,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.0045952,
     "lng": 141.2373084,
     "transfers": [],
-    "address": "岩手県御堂駅周辺",
+    "address": "岩手県岩手町大字五日市",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -292,7 +292,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.0657832,
     "lng": 141.228548,
     "transfers": [],
-    "address": "岩手県奥中山高原駅周辺",
+    "address": "岩手県一戸町中山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -319,7 +319,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.1236282,
     "lng": 141.2607871,
     "transfers": [],
-    "address": "岩手県小繋駅周辺",
+    "address": "岩手県一戸町小繫",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -346,7 +346,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.1712241,
     "lng": 141.3078206,
     "transfers": [],
-    "address": "岩手県小鳥谷駅周辺",
+    "address": "岩手県一戸町小鳥谷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -373,7 +373,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.2103725,
     "lng": 141.2975147,
     "transfers": [],
-    "address": "岩手県一戸駅周辺",
+    "address": "岩手県一戸町西法寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,7 +402,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線"
     ],
-    "address": "岩手県二戸駅周辺",
+    "address": "岩手県二戸市石切所字枋ノ木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.2852987,
     "lng": 141.2910157,
     "transfers": [],
-    "address": "岩手県斗米駅周辺",
+    "address": "岩手県二戸市米沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -456,7 +456,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "lat": 40.3235836,
     "lng": 141.3036904,
     "transfers": [],
-    "address": "岩手県金田一温泉駅周辺",
+    "address": "岩手県二戸市金田一",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -485,7 +485,7 @@ export const IGR_IWATE_GINGA_STATIONS: Station[] = [
     "transfers": [
       "青い森鉄道線"
     ],
-    "address": "青森県目時駅周辺",
+    "address": "青森県三戸町大字目時",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

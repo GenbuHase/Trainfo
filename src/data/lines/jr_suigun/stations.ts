@@ -14,7 +14,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
       "ＪＲ常磐線",
       "鹿島臨海鉄道大洗鹿島線"
     ],
-    "address": "茨城県水戸駅",
+    "address": "茨城県水戸市宮町一丁目1-1",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -41,7 +41,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.3834509,
     "lng": 140.4844918,
     "transfers": [],
-    "address": "茨城県常陸青柳駅",
+    "address": "茨城県ひたちなか市大字枝川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -67,7 +67,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4040988,
     "lng": 140.4829879,
     "transfers": [],
-    "address": "茨城県常陸津田駅",
+    "address": "茨城県ひたちなか市大字津田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -93,7 +93,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.424337,
     "lng": 140.4903541,
     "transfers": [],
-    "address": "茨城県後台駅",
+    "address": "茨城県那珂市後台",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -119,7 +119,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.435546,
     "lng": 140.4941003,
     "transfers": [],
-    "address": "茨城県下菅谷駅",
+    "address": "茨城県那珂市菅谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -145,7 +145,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4460594,
     "lng": 140.4926398,
     "transfers": [],
-    "address": "茨城県中菅谷駅",
+    "address": "茨城県那珂市菅谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -171,7 +171,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4564174,
     "lng": 140.4926635,
     "transfers": [],
-    "address": "茨城県上菅谷駅",
+    "address": "茨城県那珂市菅谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -197,7 +197,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4725768,
     "lng": 140.4676152,
     "transfers": [],
-    "address": "茨城県常陸鴻巣駅",
+    "address": "茨城県那珂市鴻巣",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -223,7 +223,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4985517,
     "lng": 140.4490328,
     "transfers": [],
-    "address": "茨城県瓜連駅",
+    "address": "茨城県那珂市瓜連",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -249,7 +249,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.5064228,
     "lng": 140.4377244,
     "transfers": [],
-    "address": "茨城県静駅",
+    "address": "茨城県那珂市下大賀",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -275,7 +275,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.5477563,
     "lng": 140.4121441,
     "transfers": [],
-    "address": "茨城県常陸大宮駅",
+    "address": "茨城県常陸大宮市上町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -327,7 +327,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.6058333,
     "lng": 140.3893059,
     "transfers": [],
-    "address": "茨城県野上原駅",
+    "address": "茨城県常陸大宮市野上",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -353,7 +353,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.6238324,
     "lng": 140.401376,
     "transfers": [],
-    "address": "茨城県山方宿駅",
+    "address": "茨城県常陸大宮市山方",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -379,7 +379,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.6452104,
     "lng": 140.3920886,
     "transfers": [],
-    "address": "茨城県中舟生駅",
+    "address": "茨城県常陸大宮市舟生",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -405,7 +405,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.668599,
     "lng": 140.3871233,
     "transfers": [],
-    "address": "茨城県下小川駅",
+    "address": "茨城県常陸大宮市盛金",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -431,7 +431,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.6961084,
     "lng": 140.3859371,
     "transfers": [],
-    "address": "茨城県西金駅",
+    "address": "茨城県大子町大字西金",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -457,7 +457,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.7195676,
     "lng": 140.3776546,
     "transfers": [],
-    "address": "茨城県上小川駅",
+    "address": "茨城県大子町大字頃藤",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -483,7 +483,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.7554508,
     "lng": 140.3795634,
     "transfers": [],
-    "address": "茨城県袋田駅",
+    "address": "茨城県大子町大字袋田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -509,7 +509,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.7712812,
     "lng": 140.3504995,
     "transfers": [],
-    "address": "茨城県常陸大子駅",
+    "address": "茨城県大子町大字大子",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -535,7 +535,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.8157807,
     "lng": 140.3755192,
     "transfers": [],
-    "address": "茨城県下野宮駅",
+    "address": "茨城県大子町大字下野宮",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -561,7 +561,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.8494823,
     "lng": 140.3948985,
     "transfers": [],
-    "address": "福島県矢祭山駅",
+    "address": "福島県矢祭町大字内川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -587,7 +587,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.8708024,
     "lng": 140.4233441,
     "transfers": [],
-    "address": "福島県東館駅",
+    "address": "福島県矢祭町大字東舘",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -613,7 +613,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.8943465,
     "lng": 140.4169574,
     "transfers": [],
-    "address": "福島県南石井駅",
+    "address": "福島県矢祭町大字下石井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -639,7 +639,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.90412,
     "lng": 140.4154098,
     "transfers": [],
-    "address": "福島県磐城石井駅",
+    "address": "福島県矢祭町大字中石井",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -665,7 +665,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.9589734,
     "lng": 140.4119355,
     "transfers": [],
-    "address": "福島県磐城塙駅",
+    "address": "福島県塙町大字塙",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -691,7 +691,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.0008798,
     "lng": 140.3937251,
     "transfers": [],
-    "address": "福島県近津駅",
+    "address": "福島県棚倉町大字寺山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -717,7 +717,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.0228105,
     "lng": 140.3933553,
     "transfers": [],
-    "address": "福島県中豊駅",
+    "address": "福島県棚倉町大字流",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -743,7 +743,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.035414,
     "lng": 140.3840055,
     "transfers": [],
-    "address": "福島県磐城棚倉駅",
+    "address": "福島県棚倉町大字棚倉",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -769,7 +769,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.0801397,
     "lng": 140.4144457,
     "transfers": [],
-    "address": "福島県磐城浅川駅",
+    "address": "福島県浅川町大字浅川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -795,7 +795,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.1048254,
     "lng": 140.4169438,
     "transfers": [],
-    "address": "福島県里白石駅",
+    "address": "福島県浅川町大字里白石",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -821,7 +821,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.1410864,
     "lng": 140.4441112,
     "transfers": [],
-    "address": "福島県磐城石川駅",
+    "address": "福島県石川町字当町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -847,7 +847,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.175557,
     "lng": 140.4210839,
     "transfers": [],
-    "address": "福島県野木沢駅",
+    "address": "福島県石川町大字中野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -873,7 +873,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.1929992,
     "lng": 140.4055878,
     "transfers": [],
-    "address": "福島県川辺沖駅",
+    "address": "福島県玉川村大字川辺",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -899,7 +899,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.2150397,
     "lng": 140.4054394,
     "transfers": [],
-    "address": "福島県泉郷駅",
+    "address": "福島県玉川村大字中",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -925,7 +925,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.269731,
     "lng": 140.4059445,
     "transfers": [],
-    "address": "福島県川東駅",
+    "address": "福島県須賀川市小作田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -951,7 +951,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.295304,
     "lng": 140.4297207,
     "transfers": [],
-    "address": "福島県小塩江駅",
+    "address": "福島県須賀川市塩田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -977,7 +977,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.3137195,
     "lng": 140.4316603,
     "transfers": [],
-    "address": "福島県谷田川駅",
+    "address": "福島県郡山市田村町谷田川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1003,7 +1003,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 37.3303634,
     "lng": 140.4067127,
     "transfers": [],
-    "address": "福島県磐城守山駅",
+    "address": "福島県郡山市田村町守山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1031,7 +1031,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ東北本線"
     ],
-    "address": "福島県安積永盛駅",
+    "address": "福島県郡山市笹川三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1064,7 +1064,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
       "ＪＲ磐越東線",
       "ＪＲ磐越西線"
     ],
-    "address": "福島県郡山駅",
+    "address": "福島県郡山市燧田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1091,7 +1091,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4767841,
     "lng": 140.4979964,
     "transfers": [],
-    "address": "茨城県南酒出駅",
+    "address": "茨城県那珂市南酒出",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1117,7 +1117,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.4853818,
     "lng": 140.5034118,
     "transfers": [],
-    "address": "茨城県額田駅",
+    "address": "茨城県那珂市額田南郷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1143,7 +1143,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.5079025,
     "lng": 140.5170204,
     "transfers": [],
-    "address": "茨城県河合駅",
+    "address": "茨城県常陸太田市上河合町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1169,7 +1169,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.5194556,
     "lng": 140.5248352,
     "transfers": [],
-    "address": "茨城県谷河原駅",
+    "address": "茨城県常陸太田市磯部町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -1195,7 +1195,7 @@ export const JR_SUIGUN_STATIONS: Station[] = [
     "lat": 36.5308806,
     "lng": 140.5281736,
     "transfers": [],
-    "address": "茨城県常陸太田駅",
+    "address": "茨城県常陸太田市山下町",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -14,7 +14,7 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "transfers": [
       "箱根登山線"
     ],
-    "address": "神奈川県強羅駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "lat": 35.2499465,
     "lng": 139.0456871,
     "transfers": [],
-    "address": "神奈川県公園下駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -69,7 +69,7 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "lat": 35.2490849,
     "lng": 139.0432379,
     "transfers": [],
-    "address": "神奈川県公園上駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -96,7 +96,7 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "lat": 35.2479442,
     "lng": 139.039973,
     "transfers": [],
-    "address": "神奈川県中強羅駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -123,7 +123,7 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "lat": 35.2470205,
     "lng": 139.0373444,
     "transfers": [],
-    "address": "神奈川県上強羅駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -152,7 +152,7 @@ export const HAKONE_CABLE_STATIONS: Station[] = [
     "transfers": [
       "箱根ロープウェイ"
     ],
-    "address": "神奈川県早雲山駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": true,
       "restroom": true,

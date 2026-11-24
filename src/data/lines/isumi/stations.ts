@@ -13,7 +13,7 @@ export const ISUMI_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ外房線"
     ],
-    "address": "千葉県大原駅",
+    "address": "千葉県いすみ市大原",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2604833,
     "lng": 140.3775626,
     "transfers": [],
-    "address": "千葉県西大原駅",
+    "address": "千葉県いすみ市新田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -66,7 +66,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2632913,
     "lng": 140.3444974,
     "transfers": [],
-    "address": "千葉県上総東駅",
+    "address": "千葉県いすみ市佐室",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -92,7 +92,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2762684,
     "lng": 140.328309,
     "transfers": [],
-    "address": "千葉県新田野駅",
+    "address": "千葉県いすみ市新田野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -118,7 +118,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2804767,
     "lng": 140.3133004,
     "transfers": [],
-    "address": "千葉県国吉駅",
+    "address": "千葉県いすみ市苅谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -144,7 +144,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2827707,
     "lng": 140.2801629,
     "transfers": [],
-    "address": "千葉県上総中川駅",
+    "address": "千葉県いすみ市行川",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -170,7 +170,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2917701,
     "lng": 140.2528874,
     "transfers": [],
-    "address": "千葉県城見ケ丘駅",
+    "address": "千葉県大多喜町船子",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -196,7 +196,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2868803,
     "lng": 140.2438972,
     "transfers": [],
-    "address": "千葉県大多喜駅",
+    "address": "千葉県大多喜町大多喜",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -222,7 +222,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2691581,
     "lng": 140.2506912,
     "transfers": [],
-    "address": "千葉県小谷松駅",
+    "address": "千葉県大多喜町小谷松",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -248,7 +248,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2595038,
     "lng": 140.2480485,
     "transfers": [],
-    "address": "千葉県東総元駅",
+    "address": "千葉県大多喜町大戸",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -274,7 +274,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2499576,
     "lng": 140.2479657,
     "transfers": [],
-    "address": "千葉県久我原駅",
+    "address": "千葉県大多喜町大戸",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -300,7 +300,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2405638,
     "lng": 140.2407814,
     "transfers": [],
-    "address": "千葉県総元駅",
+    "address": "千葉県大多喜町黒原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -326,7 +326,7 @@ export const ISUMI_STATIONS: Station[] = [
     "lat": 35.2506172,
     "lng": 140.2151543,
     "transfers": [],
-    "address": "千葉県西畑駅",
+    "address": "千葉県大多喜町庄司",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -354,7 +354,7 @@ export const ISUMI_STATIONS: Station[] = [
     "transfers": [
       "小湊鉄道"
     ],
-    "address": "千葉県上総中野駅",
+    "address": "千葉県大多喜町中野",
     "facilities": {
       "elevator": true,
       "restroom": true,

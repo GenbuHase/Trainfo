@@ -15,7 +15,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
       "JR東海道本線（熱海～豊橋）",
       "JR東海道新幹線"
     ],
-    "address": "",
+    "address": "静岡県三島市一番町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -44,7 +44,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.1194399,
     "lng": 138.9111278,
     "transfers": [],
-    "address": "",
+    "address": "静岡県三島市広小路町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.1159129,
     "lng": 138.9190673,
     "transfers": [],
-    "address": "",
+    "address": "静岡県三島市北田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -101,7 +101,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.111516,
     "lng": 138.925281,
     "transfers": [],
-    "address": "",
+    "address": "静岡県三島市南二日町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -129,7 +129,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.0922979,
     "lng": 138.939359,
     "transfers": [],
-    "address": "",
+    "address": "静岡県三島市大場",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -158,7 +158,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.0798857,
     "lng": 138.9413737,
     "transfers": [],
-    "address": "",
+    "address": "静岡県函南町塚本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -186,7 +186,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.0668394,
     "lng": 138.9435382,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆の国市原木",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -214,7 +214,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.0544056,
     "lng": 138.9453384,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆の国市四日町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -242,7 +242,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.0412299,
     "lng": 138.9472809,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆の国市南條",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -271,7 +271,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 35.015508,
     "lng": 138.9460009,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆の国市田京",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -299,7 +299,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 34.9942155,
     "lng": 138.9374318,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆の国市大仁",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -328,7 +328,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 34.9890185,
     "lng": 138.9544425,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆市牧之郷",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -356,7 +356,7 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "lat": 34.9795476,
     "lng": 138.9516543,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊豆市柏久保",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

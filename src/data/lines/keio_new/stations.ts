@@ -23,7 +23,7 @@ export const KEIO_NEW_STATIONS: Station[] = [
       "都営地下鉄新宿線",
       "都営地下鉄大江戸線"
     ],
-    "address": "東京都新宿駅",
+    "address": "東京都新宿区新宿三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -51,7 +51,7 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "lat": 35.6812907,
     "lng": 139.6877348,
     "transfers": [],
-    "address": "東京都初台駅",
+    "address": "東京都渋谷区初台一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -78,7 +78,7 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "lat": 35.6768566,
     "lng": 139.6771453,
     "transfers": [],
-    "address": "東京都幡ケ谷駅",
+    "address": "東京都渋谷区幡ヶ谷一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -107,7 +107,7 @@ export const KEIO_NEW_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都笹塚駅",
+    "address": "東京都渋谷区笹塚一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

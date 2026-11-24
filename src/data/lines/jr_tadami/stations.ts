@@ -14,7 +14,7 @@ export const TADAMI_STATIONS: Station[] = [
       "JR磐越西線",
       "会津鉄道会津線"
     ],
-    "address": "福島県/新潟県会津若松駅",
+    "address": "福島県会津若松市駅前町",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -72,7 +72,7 @@ export const TADAMI_STATIONS: Station[] = [
     "transfers": [
       "会津鉄道会津線"
     ],
-    "address": "福島県/新潟県西若松駅",
+    "address": "福島県会津若松市材木町一丁目9-1",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -100,7 +100,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.463488,
     "lng": 139.892987,
     "transfers": [],
-    "address": "福島県/新潟県会津本郷駅",
+    "address": "福島県会津若松市北会津町上米塚",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -127,7 +127,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.470839,
     "lng": 139.841266,
     "transfers": [],
-    "address": "福島県/新潟県会津高田駅",
+    "address": "福島県会津美里町字柳台",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -154,7 +154,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.501885,
     "lng": 139.828603,
     "transfers": [],
-    "address": "福島県/新潟県根岸駅",
+    "address": "福島県会津美里町米田",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -181,7 +181,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.517161,
     "lng": 139.828499,
     "transfers": [],
-    "address": "福島県/新潟県新鶴駅",
+    "address": "福島県会津美里町立石田",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -208,7 +208,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.5349943,
     "lng": 139.8283575,
     "transfers": [],
-    "address": "福島県/新潟県若宮駅",
+    "address": "福島県会津坂下町大字五ノ併",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -235,7 +235,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.5567784,
     "lng": 139.8216844,
     "transfers": [],
-    "address": "福島県/新潟県会津坂下駅",
+    "address": "福島県会津坂下町字曲田",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -262,7 +262,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.569368,
     "lng": 139.785241,
     "transfers": [],
-    "address": "福島県/新潟県塔寺駅",
+    "address": "福島県会津坂下町大字気多宮",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -289,7 +289,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.5533464,
     "lng": 139.75652,
     "transfers": [],
-    "address": "福島県/新潟県会津坂本駅",
+    "address": "福島県会津坂下町大字坂本",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -316,7 +316,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.5383428,
     "lng": 139.7237087,
     "transfers": [],
-    "address": "福島県/新潟県会津柳津駅",
+    "address": "福島県柳津町大字柳津",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -343,7 +343,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.51636,
     "lng": 139.709911,
     "transfers": [],
-    "address": "福島県/新潟県郷戸駅",
+    "address": "福島県柳津町大字柳津",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -370,7 +370,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.494315,
     "lng": 139.69799,
     "transfers": [],
-    "address": "福島県/新潟県滝谷駅",
+    "address": "福島県柳津町大字郷戸",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -397,7 +397,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.4918272,
     "lng": 139.6790773,
     "transfers": [],
-    "address": "福島県/新潟県会津桧原駅",
+    "address": "福島県三島町大字桧原",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -424,7 +424,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.480937,
     "lng": 139.661528,
     "transfers": [],
-    "address": "福島県/新潟県会津西方駅",
+    "address": "福島県三島町大字名入",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -451,7 +451,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.4709934,
     "lng": 139.6471055,
     "transfers": [],
-    "address": "福島県/新潟県会津宮下駅",
+    "address": "福島県三島町大字宮下",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -478,7 +478,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.4702287,
     "lng": 139.5935867,
     "transfers": [],
-    "address": "福島県/新潟県早戸駅",
+    "address": "福島県三島町大字早戸",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -505,7 +505,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.4831489,
     "lng": 139.5605062,
     "transfers": [],
-    "address": "福島県/新潟県会津水沼駅",
+    "address": "福島県金山町大字水沼",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -532,7 +532,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.4734442,
     "lng": 139.5319984,
     "transfers": [],
-    "address": "福島県/新潟県会津中川駅",
+    "address": "福島県金山町大字中川",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -559,7 +559,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.455076,
     "lng": 139.52384,
     "transfers": [],
-    "address": "福島県/新潟県会津川口駅",
+    "address": "福島県金山町大字川口",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -586,7 +586,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.4449849,
     "lng": 139.4990402,
     "transfers": [],
-    "address": "福島県/新潟県本名駅",
+    "address": "福島県金山町大字本名",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -613,7 +613,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.3985423,
     "lng": 139.4690323,
     "transfers": [],
-    "address": "福島県/新潟県会津越川駅",
+    "address": "福島県金山町大字越川",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -640,7 +640,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.392224,
     "lng": 139.4357281,
     "transfers": [],
-    "address": "福島県/新潟県会津横田駅",
+    "address": "福島県金山町大字横田",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -667,7 +667,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.3928466,
     "lng": 139.412727,
     "transfers": [],
-    "address": "福島県/新潟県会津大塩駅",
+    "address": "福島県金山町大字大塩",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -694,7 +694,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.3936374,
     "lng": 139.3554447,
     "transfers": [],
-    "address": "福島県/新潟県会津塩沢駅",
+    "address": "福島県只見町大字塩沢",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -721,7 +721,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.3816379,
     "lng": 139.3332882,
     "transfers": [],
-    "address": "福島県/新潟県会津蒲生駅",
+    "address": "福島県只見町大字蒲生",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -748,7 +748,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.350239,
     "lng": 139.314783,
     "transfers": [],
-    "address": "福島県/新潟県只見駅",
+    "address": "福島県只見町大字只見",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -775,7 +775,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.341687,
     "lng": 139.121373,
     "transfers": [],
-    "address": "福島県/新潟県大白川駅",
+    "address": "新潟県魚沼市大白川",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -802,7 +802,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.3589411,
     "lng": 139.0656947,
     "transfers": [],
-    "address": "福島県/新潟県入広瀬駅",
+    "address": "新潟県魚沼市大栃山",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -829,7 +829,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.347094,
     "lng": 139.050894,
     "transfers": [],
-    "address": "福島県/新潟県上条駅",
+    "address": "新潟県魚沼市渋川",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -856,7 +856,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.3204553,
     "lng": 139.0176287,
     "transfers": [],
-    "address": "福島県/新潟県越後須原駅",
+    "address": "新潟県魚沼市須原",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -883,7 +883,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.294413,
     "lng": 138.992578,
     "transfers": [],
-    "address": "福島県/新潟県魚沼田中駅",
+    "address": "新潟県魚沼市田中",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -910,7 +910,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.274238,
     "lng": 138.981339,
     "transfers": [],
-    "address": "福島県/新潟県越後広瀬駅",
+    "address": "新潟県魚沼市並柳",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"
@@ -937,7 +937,7 @@ export const TADAMI_STATIONS: Station[] = [
     "lat": 37.256737,
     "lng": 138.975698,
     "transfers": [],
-    "address": "福島県/新潟県藪神駅",
+    "address": "新潟県魚沼市今泉",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"

@@ -12,7 +12,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7323471,
     "lng": 139.7912671,
     "transfers": [],
-    "address": "東京都三ノ輪橋駅",
+    "address": "東京都荒川区南千住一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7336734,
     "lng": 139.7889756,
     "transfers": [],
-    "address": "東京都荒川一中前駅",
+    "address": "東京都荒川区南千住一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -94,7 +94,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7388301,
     "lng": 139.7846488,
     "transfers": [],
-    "address": "東京都荒川二丁目駅",
+    "address": "東京都荒川区荒川二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -121,7 +121,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7419535,
     "lng": 139.7841737,
     "transfers": [],
-    "address": "東京都荒川七丁目駅",
+    "address": "東京都荒川区荒川七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -202,7 +202,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.745737,
     "lng": 139.7737899,
     "transfers": [],
-    "address": "東京都東尾久三丁目駅",
+    "address": "東京都荒川区東尾久三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -229,7 +229,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.749229,
     "lng": 139.7690121,
     "transfers": [],
-    "address": "東京都熊野前駅",
+    "address": "東京都荒川区東尾久五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -256,7 +256,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.74988,
     "lng": 139.7658971,
     "transfers": [],
-    "address": "東京都宮ノ前駅",
+    "address": "東京都荒川区東尾久五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -283,7 +283,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7505239,
     "lng": 139.7614715,
     "transfers": [],
-    "address": "東京都小台駅",
+    "address": "東京都荒川区西尾久五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -310,7 +310,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.750689,
     "lng": 139.7574125,
     "transfers": [],
-    "address": "東京都荒川遊園地前駅",
+    "address": "東京都荒川区西尾久七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -337,7 +337,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7508656,
     "lng": 139.7530511,
     "transfers": [],
-    "address": "東京都荒川車庫前駅",
+    "address": "東京都荒川区西尾久七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -364,7 +364,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7510936,
     "lng": 139.7470221,
     "transfers": [],
-    "address": "東京都梶原駅",
+    "address": "東京都北区上中里三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -418,7 +418,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7527395,
     "lng": 139.7382393,
     "transfers": [],
-    "address": "東京都王子駅前駅",
+    "address": "東京都北区王子一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -445,7 +445,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7502278,
     "lng": 139.7374565,
     "transfers": [],
-    "address": "東京都飛鳥山駅",
+    "address": "東京都北区滝野川一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -472,7 +472,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.74718,
     "lng": 139.7353301,
     "transfers": [],
-    "address": "東京都滝野川一丁目駅",
+    "address": "東京都北区滝野川一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -499,7 +499,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7444265,
     "lng": 139.7328371,
     "transfers": [],
-    "address": "東京都西ケ原四丁目駅",
+    "address": "東京都北区西ケ原四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -526,7 +526,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7412837,
     "lng": 139.7304743,
     "transfers": [],
-    "address": "東京都新庚申塚駅",
+    "address": "東京都豊島区西巣鴨三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -553,7 +553,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7393322,
     "lng": 139.7296313,
     "transfers": [],
-    "address": "東京都庚申塚駅",
+    "address": "東京都豊島区西巣鴨二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -580,7 +580,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7353925,
     "lng": 139.7278508,
     "transfers": [],
-    "address": "東京都巣鴨新田駅",
+    "address": "東京都豊島区北大塚二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -607,7 +607,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7318025,
     "lng": 139.7294808,
     "transfers": [],
-    "address": "東京都大塚駅前駅",
+    "address": "東京都豊島区北大塚二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -634,7 +634,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7289207,
     "lng": 139.7249932,
     "transfers": [],
-    "address": "東京都向原駅",
+    "address": "東京都豊島区東池袋四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -661,7 +661,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7255574,
     "lng": 139.7209853,
     "transfers": [],
-    "address": "東京都東池袋四丁目駅",
+    "address": "東京都豊島区東池袋五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -688,7 +688,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7240422,
     "lng": 139.7178051,
     "transfers": [],
-    "address": "東京都都電雑司ケ谷駅",
+    "address": "東京都豊島区南池袋四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -715,7 +715,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7207607,
     "lng": 139.7152886,
     "transfers": [],
-    "address": "東京都鬼子母神前駅",
+    "address": "東京都豊島区雑司が谷三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -742,7 +742,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.715977,
     "lng": 139.7123553,
     "transfers": [],
-    "address": "東京都学習院下駅",
+    "address": "東京都豊島区高田二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -769,7 +769,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7129548,
     "lng": 139.714456,
     "transfers": [],
-    "address": "東京都面影橋駅",
+    "address": "東京都新宿区西早稲田三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -796,7 +796,7 @@ export const TOEI_ARAKAWA_STATIONS: Station[] = [
     "lat": 35.7119047,
     "lng": 139.7187974,
     "transfers": [],
-    "address": "東京都早稲田駅",
+    "address": "東京都新宿区西早稲田一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

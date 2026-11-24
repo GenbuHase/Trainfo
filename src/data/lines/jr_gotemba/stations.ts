@@ -14,7 +14,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線"
     ],
-    "address": "",
+    "address": "神奈川県小田原市国府津四丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3037445,
     "lng": 139.183086,
     "transfers": [],
-    "address": "",
+    "address": "神奈川県小田原市曽我別所",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -70,7 +70,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3222284,
     "lng": 139.1631762,
     "transfers": [],
-    "address": "",
+    "address": "神奈川県大井町上大井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -98,7 +98,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3338379,
     "lng": 139.1505493,
     "transfers": [],
-    "address": "",
+    "address": "神奈川県大井町金子",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -128,7 +128,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "transfers": [
       "小田急小田原線（新松田駅）"
     ],
-    "address": "",
+    "address": "神奈川県松田町松田惣領",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -157,7 +157,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3564098,
     "lng": 139.1092192,
     "transfers": [],
-    "address": "",
+    "address": "神奈川県山北町向原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -185,7 +185,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3607487,
     "lng": 139.080168,
     "transfers": [],
-    "address": "",
+    "address": "神奈川県山北町山北",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -213,7 +213,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3668455,
     "lng": 139.0381971,
     "transfers": [],
-    "address": "",
+    "address": "神奈川県山北町谷ケ",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -241,7 +241,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3595824,
     "lng": 138.9962701,
     "transfers": [],
-    "address": "",
+    "address": "静岡県小山町小山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -270,7 +270,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3333087,
     "lng": 138.9814826,
     "transfers": [],
-    "address": "",
+    "address": "静岡県小山町竹之下",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -298,7 +298,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.3016804,
     "lng": 138.9356804,
     "transfers": [],
-    "address": "",
+    "address": "静岡県御殿場市新橋",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -327,7 +327,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.2793595,
     "lng": 138.9269364,
     "transfers": [],
-    "address": "",
+    "address": "静岡県御殿場市竈",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -355,7 +355,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.2565648,
     "lng": 138.9202576,
     "transfers": [],
-    "address": "",
+    "address": "静岡県御殿場市中山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -383,7 +383,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.2142376,
     "lng": 138.919229,
     "transfers": [],
-    "address": "",
+    "address": "静岡県裾野市岩波",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -411,7 +411,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.1706885,
     "lng": 138.9090606,
     "transfers": [],
-    "address": "",
+    "address": "静岡県裾野市平松",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -439,7 +439,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.1490749,
     "lng": 138.8997132,
     "transfers": [],
-    "address": "",
+    "address": "静岡県長泉町納米里",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -467,7 +467,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.128054,
     "lng": 138.8952699,
     "transfers": [],
-    "address": "",
+    "address": "静岡県長泉町下土狩",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -495,7 +495,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "lat": 35.1159367,
     "lng": 138.8813066,
     "transfers": [],
-    "address": "",
+    "address": "静岡県沼津市大岡",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -525,7 +525,7 @@ export const GOTEMBA_STATIONS: Station[] = [
     "transfers": [
       "JR東海道本線（熱海～豊橋）"
     ],
-    "address": "",
+    "address": "静岡県沼津市大手町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

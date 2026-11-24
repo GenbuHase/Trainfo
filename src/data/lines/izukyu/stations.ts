@@ -14,7 +14,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "transfers": [
       "JR伊東線"
     ],
-    "address": "",
+    "address": "静岡県伊東市湯川三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -43,7 +43,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.9572701,
     "lng": 139.0878394,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊東市桜ガ丘一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -71,7 +71,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.950849,
     "lng": 139.1240728,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊東市川奈",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.910678,
     "lng": 139.132289,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊東市富戸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -127,7 +127,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.890723,
     "lng": 139.122333,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊東市富戸",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,7 +155,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.8771252,
     "lng": 139.1078286,
     "transfers": [],
-    "address": "",
+    "address": "静岡県伊東市八幡野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -184,7 +184,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.8435776,
     "lng": 139.0740728,
     "transfers": [],
-    "address": "",
+    "address": "静岡県東伊豆町大川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -212,7 +212,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.8289542,
     "lng": 139.0735882,
     "transfers": [],
-    "address": "",
+    "address": "静岡県東伊豆町奈良本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -240,7 +240,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.8186346,
     "lng": 139.0711277,
     "transfers": [],
-    "address": "",
+    "address": "静岡県東伊豆町奈良本",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -269,7 +269,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.8027563,
     "lng": 139.0610582,
     "transfers": [],
-    "address": "",
+    "address": "静岡県東伊豆町白田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -297,7 +297,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.7749337,
     "lng": 139.0396925,
     "transfers": [],
-    "address": "",
+    "address": "静岡県東伊豆町稲取",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -326,7 +326,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.7552558,
     "lng": 139.0083954,
     "transfers": [],
-    "address": "",
+    "address": "静岡県河津町見高",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -354,7 +354,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.7473206,
     "lng": 138.9956983,
     "transfers": [],
-    "address": "",
+    "address": "静岡県河津町浜",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -383,7 +383,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.72285,
     "lng": 138.949777,
     "transfers": [],
-    "address": "",
+    "address": "静岡県下田市落合",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -411,7 +411,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.70079,
     "lng": 138.9412647,
     "transfers": [],
-    "address": "",
+    "address": "静岡県下田市河内",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -439,7 +439,7 @@ export const IZUKYU_STATIONS: Station[] = [
     "lat": 34.6811294,
     "lng": 138.9446618,
     "transfers": [],
-    "address": "",
+    "address": "静岡県下田市東本郷一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

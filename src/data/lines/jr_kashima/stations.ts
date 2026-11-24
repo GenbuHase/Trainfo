@@ -13,7 +13,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ成田線"
     ],
-    "address": "千葉県香取駅",
+    "address": "千葉県香取市津宮",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -41,7 +41,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "lat": 35.9175596,
     "lng": 140.5458725,
     "transfers": [],
-    "address": "千葉県十二橋駅",
+    "address": "千葉県香取市磯山",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -68,7 +68,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "lat": 35.9384317,
     "lng": 140.5500254,
     "transfers": [],
-    "address": "茨城県潮来駅",
+    "address": "茨城県潮来市あやめ一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -95,7 +95,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "lat": 35.9579393,
     "lng": 140.5893097,
     "transfers": [],
-    "address": "茨城県延方駅",
+    "address": "茨城県潮来市宮前一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -122,7 +122,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "lat": 35.9706172,
     "lng": 140.6254282,
     "transfers": [],
-    "address": "茨城県鹿島神宮駅",
+    "address": "茨城県鹿嶋市宮下四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -149,7 +149,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
     "lat": 35.9933745,
     "lng": 140.6357466,
     "transfers": [],
-    "address": "茨城県鹿島サッカースタジアム駅",
+    "address": "茨城県鹿嶋市大字宮中",
     "facilities": {
       "elevator": true,
       "restroom": true,

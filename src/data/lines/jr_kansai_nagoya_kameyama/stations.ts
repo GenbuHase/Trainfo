@@ -19,7 +19,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "名古屋市営地下鉄桜通線",
       "名古屋臨海高速鉄道あおなみ線"
     ],
-    "address": "",
+    "address": "愛知県名古屋市中村区名駅一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -50,7 +50,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.14858,
     "lng": 136.8514,
     "transfers": [],
-    "address": "",
+    "address": "愛知県名古屋市中村区岩塚町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -79,7 +79,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.1431,
     "lng": 136.81297,
     "transfers": [],
-    "address": "",
+    "address": "愛知県名古屋市中川区春田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -108,7 +108,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.14207,
     "lng": 136.79412,
     "transfers": [],
-    "address": "",
+    "address": "愛知県蟹江町大字今",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -137,7 +137,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.13309,
     "lng": 136.76488,
     "transfers": [],
-    "address": "",
+    "address": "愛知県愛西市大野町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -167,7 +167,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "transfers": [
       "名鉄尾西線"
     ],
-    "address": "",
+    "address": "愛知県弥富市鯏浦町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -196,7 +196,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.0985,
     "lng": 136.6964,
     "transfers": [],
-    "address": "",
+    "address": "三重県桑名市長島町西外面",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -227,7 +227,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
       "近鉄名古屋線",
       "養老鉄道養老線"
     ],
-    "address": "",
+    "address": "三重県桑名市大字桑名",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -258,7 +258,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.0335,
     "lng": 136.65774,
     "transfers": [],
-    "address": "",
+    "address": "三重県朝日町大字柿",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -287,7 +287,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 35.00728,
     "lng": 136.65364,
     "transfers": [],
-    "address": "",
+    "address": "三重県四日市市富田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -316,7 +316,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 34.99749,
     "lng": 136.65061,
     "transfers": [],
-    "address": "",
+    "address": "三重県四日市市富田浜町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -345,7 +345,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 34.96094,
     "lng": 136.62932,
     "transfers": [],
-    "address": "",
+    "address": "三重県四日市市本町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -376,7 +376,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 34.94233,
     "lng": 136.6105,
     "transfers": [],
-    "address": "",
+    "address": "三重県四日市市大字日永",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -408,7 +408,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "transfers": [
       "伊勢鉄道"
     ],
-    "address": "",
+    "address": "三重県四日市市河原田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -438,7 +438,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 34.89805,
     "lng": 136.56861,
     "transfers": [],
-    "address": "",
+    "address": "三重県鈴鹿市木田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -468,7 +468,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 34.89046,
     "lng": 136.53101,
     "transfers": [],
-    "address": "",
+    "address": "三重県鈴鹿市加佐登一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -498,7 +498,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "lat": 34.86907,
     "lng": 136.49327,
     "transfers": [],
-    "address": "",
+    "address": "三重県亀山市井田川町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -530,7 +530,7 @@ export const JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ紀勢本線"
     ],
-    "address": "",
+    "address": "三重県亀山市御幸町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

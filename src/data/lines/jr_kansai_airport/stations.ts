@@ -14,7 +14,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ阪和線"
     ],
-    "address": "",
+    "address": "大阪府泉佐野市日根野",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -47,7 +47,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "南海空港線"
     ],
-    "address": "",
+    "address": "大阪府泉佐野市りんくう往来北",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -79,7 +79,7 @@ export const JR_KANSAI_AIRPORT_STATIONS: Station[] = [
     "transfers": [
       "南海空港線"
     ],
-    "address": "",
+    "address": "大阪府田尻町泉州空港中",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

@@ -15,7 +15,7 @@ export const JR_NIKKO_STATIONS: Station[] = [
       "ＪＲ山形新幹線",
       "ＪＲ宇都宮線"
     ],
-    "address": "栃木県宇都宮駅",
+    "address": "栃木県宇都宮市川向町",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -42,7 +42,7 @@ export const JR_NIKKO_STATIONS: Station[] = [
     "lat": 36.5381792,
     "lng": 139.8581454,
     "transfers": [],
-    "address": "栃木県鶴田駅",
+    "address": "栃木県宇都宮市西川田町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -68,7 +68,7 @@ export const JR_NIKKO_STATIONS: Station[] = [
     "lat": 36.5717837,
     "lng": 139.7626036,
     "transfers": [],
-    "address": "栃木県鹿沼駅",
+    "address": "栃木県鹿沼市上野町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -94,7 +94,7 @@ export const JR_NIKKO_STATIONS: Station[] = [
     "lat": 36.63725,
     "lng": 139.7280101,
     "transfers": [],
-    "address": "栃木県文挾駅",
+    "address": "栃木県日光市小倉",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -120,7 +120,7 @@ export const JR_NIKKO_STATIONS: Station[] = [
     "lat": 36.6871858,
     "lng": 139.7320364,
     "transfers": [],
-    "address": "栃木県下野大沢駅",
+    "address": "栃木県日光市土沢",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -172,7 +172,7 @@ export const JR_NIKKO_STATIONS: Station[] = [
     "lat": 36.7478668,
     "lng": 139.6214693,
     "transfers": [],
-    "address": "栃木県日光駅",
+    "address": "栃木県日光市相生町",
     "facilities": {
       "elevator": true,
       "restroom": true,

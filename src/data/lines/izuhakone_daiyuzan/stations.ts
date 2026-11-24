@@ -17,7 +17,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
       "小田急小田原線",
       "箱根登山線"
     ],
-    "address": "神奈川県小田原駅",
+    "address": "神奈川県小田原市栄町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -72,7 +72,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.2692893,
     "lng": 139.1573577,
     "transfers": [],
-    "address": "神奈川県井細田駅",
+    "address": "神奈川県小田原市扇町三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -99,7 +99,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.2754193,
     "lng": 139.1551693,
     "transfers": [],
-    "address": "神奈川県五百羅漢駅",
+    "address": "神奈川県小田原市扇町五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -126,7 +126,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.2801072,
     "lng": 139.1485302,
     "transfers": [],
-    "address": "神奈川県穴部駅",
+    "address": "神奈川県小田原市穴部",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -153,7 +153,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.2881129,
     "lng": 139.138987,
     "transfers": [],
-    "address": "神奈川県飯田岡駅",
+    "address": "神奈川県小田原市飯田岡",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -180,7 +180,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.2926914,
     "lng": 139.1335219,
     "transfers": [],
-    "address": "神奈川県相模沼田駅",
+    "address": "神奈川県南足柄市沼田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -207,7 +207,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.2990821,
     "lng": 139.1285763,
     "transfers": [],
-    "address": "神奈川県岩原駅",
+    "address": "神奈川県南足柄市岩原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -234,7 +234,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.3015302,
     "lng": 139.1264603,
     "transfers": [],
-    "address": "神奈川県塚原駅",
+    "address": "神奈川県南足柄市塚原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -261,7 +261,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.3159441,
     "lng": 139.1182388,
     "transfers": [],
-    "address": "神奈川県和田河原駅",
+    "address": "神奈川県南足柄市和田河原",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -288,7 +288,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.3176699,
     "lng": 139.1095095,
     "transfers": [],
-    "address": "神奈川県富士フイルム前駅",
+    "address": "神奈川県南足柄市狩野",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -315,7 +315,7 @@ export const IZUHAKONE_DAIYUZAN_STATIONS: Station[] = [
     "lat": 35.3190786,
     "lng": 139.1037001,
     "transfers": [],
-    "address": "神奈川県大雄山駅",
+    "address": "神奈川県南足柄市関本",
     "facilities": {
       "elevator": true,
       "restroom": true,

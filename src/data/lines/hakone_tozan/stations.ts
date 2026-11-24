@@ -17,7 +17,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
       "小田急小田原線",
       "伊豆箱根鉄道大雄山線"
     ],
-    "address": "神奈川県小田原駅",
+    "address": "神奈川県小田原市栄町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -46,7 +46,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2450475,
     "lng": 139.1455768,
     "transfers": [],
-    "address": "神奈川県箱根板橋駅",
+    "address": "神奈川県小田原市板橋",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -73,7 +73,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.24631,
     "lng": 139.12956,
     "transfers": [],
-    "address": "神奈川県風祭駅",
+    "address": "神奈川県小田原市風祭",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -100,7 +100,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2405891,
     "lng": 139.1207208,
     "transfers": [],
-    "address": "神奈川県入生田駅",
+    "address": "神奈川県小田原市入生田",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -127,7 +127,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2334436,
     "lng": 139.1035063,
     "transfers": [],
-    "address": "神奈川県箱根湯本駅",
+    "address": "神奈川県箱根町湯本",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -155,7 +155,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2345727,
     "lng": 139.0937637,
     "transfers": [],
-    "address": "神奈川県塔ノ沢駅",
+    "address": "神奈川県箱根町塔之澤",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -182,7 +182,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2387918,
     "lng": 139.0737186,
     "transfers": [],
-    "address": "神奈川県大平台駅",
+    "address": "神奈川県箱根町大平台",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -209,7 +209,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2417451,
     "lng": 139.063299,
     "transfers": [],
-    "address": "神奈川県宮ノ下駅",
+    "address": "神奈川県箱根町宮ノ下",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -236,7 +236,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2402732,
     "lng": 139.0535921,
     "transfers": [],
-    "address": "神奈川県小涌谷駅",
+    "address": "神奈川県箱根町小涌谷",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -263,7 +263,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2464242,
     "lng": 139.0509854,
     "transfers": [],
-    "address": "神奈川県彫刻の森駅",
+    "address": "神奈川県箱根町二ノ平",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -290,7 +290,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "lat": 35.2508526,
     "lng": 139.0483241,
     "transfers": [],
-    "address": "神奈川県強羅駅",
+    "address": "神奈川県箱根町強羅",
     "facilities": {
       "elevator": true,
       "restroom": true,

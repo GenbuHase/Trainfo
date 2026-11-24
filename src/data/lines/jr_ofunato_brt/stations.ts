@@ -14,7 +14,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
       "JR大船渡線",
       "JR気仙沼線BRT"
     ],
-    "address": "宮城県気仙沼駅周辺",
+    "address": "宮城県気仙沼市古町一丁目",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -42,7 +42,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.908759,
     "lng": 141.5701338,
     "transfers": [],
-    "address": "宮城県内湾入口BRT停留所周辺",
+    "address": "宮城県気仙沼市八日町一丁目",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -70,7 +70,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.9158925,
     "lng": 141.5796672,
     "transfers": [],
-    "address": "宮城県鹿折唐桑駅周辺",
+    "address": "宮城県気仙沼市西みなと町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -98,7 +98,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.9210145,
     "lng": 141.5854956,
     "transfers": [],
-    "address": "宮城県八幡大橋BRT停留所周辺",
+    "address": "宮城県気仙沼市東八幡前",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -126,7 +126,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.9601601,
     "lng": 141.6315495,
     "transfers": [],
-    "address": "宮城県唐桑大沢BRT停留所周辺",
+    "address": "宮城県気仙沼市唐桑町港",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -154,7 +154,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.9861091,
     "lng": 141.618884,
     "transfers": [],
-    "address": "岩手県長部BRT停留所周辺",
+    "address": "岩手県陸前高田市気仙町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -182,7 +182,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0042903,
     "lng": 141.6133777,
     "transfers": [],
-    "address": "岩手県陸前今泉BRT停留所周辺",
+    "address": "岩手県陸前高田市気仙町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -209,7 +209,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0076553,
     "lng": 141.6273076,
     "transfers": [],
-    "address": "岩手県奇跡の一本松BRT停留所周辺",
+    "address": "岩手県陸前高田市気仙町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -237,7 +237,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0146757,
     "lng": 141.6298249,
     "transfers": [],
-    "address": "岩手県陸前高田駅周辺",
+    "address": "岩手県陸前高田市高田町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -265,7 +265,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0173599,
     "lng": 141.6399759,
     "transfers": [],
-    "address": "岩手県高田高校前BRT停留所周辺",
+    "address": "岩手県陸前高田市高田町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -292,7 +292,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0254073,
     "lng": 141.6417466,
     "transfers": [],
-    "address": "岩手県高田病院BRT停留所周辺",
+    "address": "岩手県陸前高田市高田町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -319,7 +319,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0113453,
     "lng": 141.6730944,
     "transfers": [],
-    "address": "岩手県脇ノ沢BRT停留所周辺",
+    "address": "岩手県陸前高田市米崎町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -347,7 +347,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0010039,
     "lng": 141.6891003,
     "transfers": [],
-    "address": "岩手県西下BRT停留所周辺",
+    "address": "岩手県陸前高田市小友町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -375,7 +375,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.9891208,
     "lng": 141.699709,
     "transfers": [],
-    "address": "岩手県小友駅周辺",
+    "address": "岩手県陸前高田市小友町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -403,7 +403,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0028178,
     "lng": 141.7111232,
     "transfers": [],
-    "address": "岩手県碁石海岸口BRT停留所周辺",
+    "address": "岩手県大船渡市末崎町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -431,7 +431,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.015324,
     "lng": 141.7138646,
     "transfers": [],
-    "address": "岩手県細浦駅周辺",
+    "address": "岩手県大船渡市末崎町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -459,7 +459,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0288929,
     "lng": 141.7126994,
     "transfers": [],
-    "address": "岩手県大船渡丸森BRT停留所周辺",
+    "address": "岩手県大船渡市大船渡町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -487,7 +487,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0384872,
     "lng": 141.7212104,
     "transfers": [],
-    "address": "岩手県下船渡駅周辺",
+    "address": "岩手県大船渡市大船渡町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -543,7 +543,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0629075,
     "lng": 141.7207196,
     "transfers": [],
-    "address": "岩手県大船渡駅周辺",
+    "address": "岩手県大船渡市大船渡町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -571,7 +571,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0716655,
     "lng": 141.7181203,
     "transfers": [],
-    "address": "岩手県地ノ森BRT停留所周辺",
+    "address": "岩手県大船渡市大船渡町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -599,7 +599,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0798731,
     "lng": 141.7135297,
     "transfers": [],
-    "address": "岩手県田茂山BRT停留所周辺",
+    "address": "岩手県大船渡市盛町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -629,7 +629,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "transfers": [
       "三陸鉄道リアス線"
     ],
-    "address": "岩手県盛駅周辺",
+    "address": "岩手県大船渡市盛町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -657,7 +657,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 38.9602565,
     "lng": 141.5668173,
     "transfers": [],
-    "address": "宮城県上鹿折駅周辺",
+    "address": "宮城県気仙沼市上東側根",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -684,7 +684,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0271126,
     "lng": 141.6254342,
     "transfers": [],
-    "address": "岩手県栃ケ沢公園BRT停留所周辺",
+    "address": "岩手県陸前高田市高田町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -711,7 +711,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.033595,
     "lng": 141.6095686,
     "transfers": [],
-    "address": "岩手県竹駒駅周辺",
+    "address": "岩手県陸前高田市竹駒町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"
@@ -738,7 +738,7 @@ export const OFUNATO_BRT_STATIONS: Station[] = [
     "lat": 39.0228099,
     "lng": 141.5799988,
     "transfers": [],
-    "address": "岩手県陸前矢作駅周辺",
+    "address": "岩手県陸前高田市矢作町",
     "platforms": {
       "inbound": "上り方面のりば",
       "outbound": "下り方面のりば"

@@ -44,7 +44,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.6085965,
     "lng": 139.7266891,
     "transfers": [],
-    "address": "東京都下神明駅",
+    "address": "東京都品川区二葉一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -71,7 +71,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.6090156,
     "lng": 139.7187988,
     "transfers": [],
-    "address": "東京都戸越公園駅",
+    "address": "東京都品川区戸越五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -100,7 +100,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "都営地下鉄浅草線"
     ],
-    "address": "東京都中延駅",
+    "address": "東京都品川区中延四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -157,7 +157,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急池上線"
     ],
-    "address": "東京都旗の台駅",
+    "address": "東京都品川区旗の台五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -186,7 +186,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.606411,
     "lng": 139.6928806,
     "transfers": [],
-    "address": "東京都北千束駅",
+    "address": "東京都大田区北千束二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -215,7 +215,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急目黒線"
     ],
-    "address": "東京都大岡山駅",
+    "address": "東京都目黒区大岡山二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -244,7 +244,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.606622,
     "lng": 139.6787725,
     "transfers": [],
-    "address": "東京都緑が丘駅",
+    "address": "東京都目黒区緑が丘三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -273,7 +273,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急東横線"
     ],
-    "address": "東京都自由が丘駅",
+    "address": "東京都目黒区自由が丘一丁目9-8",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -302,7 +302,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.6054791,
     "lng": 139.6605913,
     "transfers": [],
-    "address": "東京都九品仏駅",
+    "address": "東京都世田谷区奥沢七丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -329,7 +329,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.607098,
     "lng": 139.6534229,
     "transfers": [],
-    "address": "東京都尾山台駅",
+    "address": "東京都世田谷区等々力五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -356,7 +356,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.6084712,
     "lng": 139.6474098,
     "transfers": [],
-    "address": "東京都等々力駅",
+    "address": "東京都世田谷区等々力三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -383,7 +383,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "lat": 35.6119514,
     "lng": 139.6388316,
     "transfers": [],
-    "address": "東京都上野毛駅",
+    "address": "東京都世田谷区上野毛一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -412,7 +412,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急田園都市線"
     ],
-    "address": "東京都二子玉川駅",
+    "address": "東京都世田谷区玉川一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -443,7 +443,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急田園都市線"
     ],
-    "address": "神奈川県二子新地駅",
+    "address": "神奈川県川崎市高津区二子二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -473,7 +473,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急田園都市線"
     ],
-    "address": "神奈川県高津駅",
+    "address": "神奈川県川崎市高津区二子四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -503,7 +503,7 @@ export const TOKYU_OIMACHI_STATIONS: Station[] = [
     "transfers": [
       "東急田園都市線"
     ],
-    "address": "神奈川県溝の口駅",
+    "address": "神奈川県川崎市高津区溝口二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

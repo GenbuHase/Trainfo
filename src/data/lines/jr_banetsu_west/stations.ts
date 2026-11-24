@@ -17,7 +17,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "JR磐越東線",
       "JR水郡線"
     ],
-    "address": "福島県/新潟県郡山駅",
+    "address": "福島県郡山市燧田",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -46,7 +46,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.420361,
     "lng": 140.3695,
     "transfers": [],
-    "address": "福島県/新潟県郡山富田駅",
+    "address": "福島県郡山市富田町",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -74,7 +74,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.451746,
     "lng": 140.341912,
     "transfers": [],
-    "address": "福島県/新潟県喜久田駅",
+    "address": "福島県郡山市喜久田町堀之内",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -102,7 +102,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.472048,
     "lng": 140.310133,
     "transfers": [],
-    "address": "福島県/新潟県安子ケ島駅",
+    "address": "福島県郡山市熱海町安子島",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -129,7 +129,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.480743,
     "lng": 140.2707,
     "transfers": [],
-    "address": "福島県/新潟県磐梯熱海駅",
+    "address": "福島県郡山市熱海町熱海三丁目",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -158,7 +158,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.495648,
     "lng": 140.219401,
     "transfers": [],
-    "address": "福島県/新潟県中山宿駅",
+    "address": "福島県郡山市熱海町中山",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -185,7 +185,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.487689,
     "lng": 140.163935,
     "transfers": [],
-    "address": "福島県/新潟県上戸駅",
+    "address": "福島県猪苗代町大字山潟",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -212,7 +212,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.515577,
     "lng": 140.143619,
     "transfers": [],
-    "address": "福島県/新潟県関都駅",
+    "address": "福島県猪苗代町大字関都",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -239,7 +239,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.5358412,
     "lng": 140.1366292,
     "transfers": [],
-    "address": "福島県/新潟県川桁駅",
+    "address": "福島県猪苗代町大字川桁",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -267,7 +267,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.546286,
     "lng": 140.103122,
     "transfers": [],
-    "address": "福島県/新潟県猪苗代駅",
+    "address": "福島県猪苗代町大字千代田",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -296,7 +296,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.552837,
     "lng": 140.054079,
     "transfers": [],
-    "address": "福島県/新潟県翁島駅",
+    "address": "福島県猪苗代町大字磐根",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -353,7 +353,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.566465,
     "lng": 139.948239,
     "transfers": [],
-    "address": "福島県/新潟県東長原駅",
+    "address": "福島県会津若松市河東町東長原",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -381,7 +381,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.549235,
     "lng": 139.933343,
     "transfers": [],
-    "address": "福島県/新潟県広田駅",
+    "address": "福島県会津若松市河東町広田",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -412,7 +412,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "JR只見線",
       "会津鉄道会津線"
     ],
-    "address": "福島県/新潟県会津若松駅",
+    "address": "福島県会津若松市駅前町",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -441,7 +441,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.5545985,
     "lng": 139.9119261,
     "transfers": [],
-    "address": "福島県/新潟県堂島駅",
+    "address": "福島県会津若松市河東町郡山",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -468,7 +468,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.579519,
     "lng": 139.8952506,
     "transfers": [],
-    "address": "福島県/新潟県笈川駅",
+    "address": "福島県湯川村大字湊",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -495,7 +495,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.59393,
     "lng": 139.88716,
     "transfers": [],
-    "address": "福島県/新潟県塩川駅",
+    "address": "福島県喜多方市塩川町",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -523,7 +523,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6160875,
     "lng": 139.8810081,
     "transfers": [],
-    "address": "福島県/新潟県姥堂駅",
+    "address": "福島県喜多方市塩川町源太屋敷",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -550,7 +550,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.633499,
     "lng": 139.876787,
     "transfers": [],
-    "address": "福島県/新潟県会津豊川駅",
+    "address": "福島県喜多方市豊川町一井",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -577,7 +577,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.643838,
     "lng": 139.868792,
     "transfers": [],
-    "address": "福島県/新潟県喜多方駅",
+    "address": "福島県喜多方市字町田下",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -606,7 +606,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6388135,
     "lng": 139.7657496,
     "transfers": [],
-    "address": "福島県/新潟県山都駅",
+    "address": "福島県喜多方市山都町",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -634,7 +634,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6179157,
     "lng": 139.721421,
     "transfers": [],
-    "address": "福島県/新潟県荻野駅",
+    "address": "福島県喜多方市高郷町上郷",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -661,7 +661,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6088517,
     "lng": 139.6913211,
     "transfers": [],
-    "address": "福島県/新潟県尾登駅",
+    "address": "福島県西会津町登世島",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -688,7 +688,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.5909222,
     "lng": 139.6443845,
     "transfers": [],
-    "address": "福島県/新潟県野沢駅",
+    "address": "福島県西会津町野沢",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -716,7 +716,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6248328,
     "lng": 139.63409,
     "transfers": [],
-    "address": "福島県/新潟県上野尻駅",
+    "address": "福島県西会津町上野尻",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -743,7 +743,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.666876,
     "lng": 139.602879,
     "transfers": [],
-    "address": "福島県/新潟県徳沢駅",
+    "address": "福島県西会津町群岡",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -770,7 +770,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.680541,
     "lng": 139.576348,
     "transfers": [],
-    "address": "福島県/新潟県豊実駅",
+    "address": "新潟県阿賀町豊実",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -797,7 +797,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.7057552,
     "lng": 139.5344616,
     "transfers": [],
-    "address": "福島県/新潟県日出谷駅",
+    "address": "新潟県阿賀町日出谷",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -825,7 +825,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6957135,
     "lng": 139.4790482,
     "transfers": [],
-    "address": "福島県/新潟県鹿瀬駅",
+    "address": "新潟県阿賀町向鹿瀬",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -852,7 +852,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.6880475,
     "lng": 139.4472634,
     "transfers": [],
-    "address": "福島県/新潟県津川駅",
+    "address": "新潟県阿賀町角島",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -880,7 +880,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.7079001,
     "lng": 139.3815813,
     "transfers": [],
-    "address": "福島県/新潟県三川駅",
+    "address": "新潟県阿賀町白崎",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -908,7 +908,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.715974,
     "lng": 139.353419,
     "transfers": [],
-    "address": "福島県/新潟県五十島駅",
+    "address": "新潟県阿賀町五十島",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -935,7 +935,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.736876,
     "lng": 139.321815,
     "transfers": [],
-    "address": "福島県/新潟県東下条駅",
+    "address": "新潟県阿賀町熊渡",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -962,7 +962,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.735003,
     "lng": 139.29095,
     "transfers": [],
-    "address": "福島県/新潟県咲花駅",
+    "address": "新潟県五泉市佐取",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -990,7 +990,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.737569,
     "lng": 139.260466,
     "transfers": [],
-    "address": "福島県/新潟県馬下駅",
+    "address": "新潟県五泉市馬下",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -1017,7 +1017,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.729594,
     "lng": 139.222481,
     "transfers": [],
-    "address": "福島県/新潟県猿和田駅",
+    "address": "新潟県五泉市猿和田",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -1044,7 +1044,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.7342694,
     "lng": 139.1798962,
     "transfers": [],
-    "address": "福島県/新潟県五泉駅",
+    "address": "新潟県五泉市駅前一丁目",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -1072,7 +1072,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.7469155,
     "lng": 139.1697061,
     "transfers": [],
-    "address": "福島県/新潟県北五泉駅",
+    "address": "新潟県五泉市北五泉駅前",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -1099,7 +1099,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.7683848,
     "lng": 139.1625008,
     "transfers": [],
-    "address": "福島県/新潟県新関駅",
+    "address": "新潟県新潟市秋葉区大関",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -1126,7 +1126,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "lat": 37.7874583,
     "lng": 139.14419,
     "transfers": [],
-    "address": "福島県/新潟県東新津駅",
+    "address": "新潟県新潟市秋葉区草水町一丁目",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"
@@ -1156,7 +1156,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "JR信越本線（直江津～新潟）",
       "JR羽越本線"
     ],
-    "address": "福島県/新潟県新津駅",
+    "address": "新潟県新潟市秋葉区新津",
     "platforms": {
       "inbound": "上り 郡山方面",
       "outbound": "下り 会津若松・新津方面"

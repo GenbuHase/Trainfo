@@ -22,7 +22,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
       "東京メトロ半蔵門線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都渋谷駅",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -51,7 +51,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6571888,
     "lng": 139.6933393,
     "transfers": [],
-    "address": "東京都神泉駅",
+    "address": "東京都渋谷区神泉町",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -78,7 +78,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6585129,
     "lng": 139.6849946,
     "transfers": [],
-    "address": "東京都駒場東大前駅",
+    "address": "東京都目黒区駒場三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -105,7 +105,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.660481,
     "lng": 139.6729771,
     "transfers": [],
-    "address": "東京都池ノ上駅",
+    "address": "東京都世田谷区代沢二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -134,7 +134,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "transfers": [
       "小田急小田原線"
     ],
-    "address": "東京都下北沢駅",
+    "address": "東京都世田谷区北沢二丁目24-2",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -163,7 +163,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6624526,
     "lng": 139.6618999,
     "transfers": [],
-    "address": "東京都新代田駅",
+    "address": "東京都世田谷区代田五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -190,7 +190,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6625989,
     "lng": 139.6558273,
     "transfers": [],
-    "address": "東京都東松原駅",
+    "address": "東京都世田谷区松原五丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -219,7 +219,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "transfers": [
       "京王線"
     ],
-    "address": "東京都明大前駅",
+    "address": "東京都世田谷区松原一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -276,7 +276,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6791083,
     "lng": 139.6346098,
     "transfers": [],
-    "address": "東京都西永福駅",
+    "address": "東京都杉並区永福三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -303,7 +303,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6818267,
     "lng": 139.6270279,
     "transfers": [],
-    "address": "東京都浜田山駅",
+    "address": "東京都杉並区浜田山二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -330,7 +330,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6832643,
     "lng": 139.6158123,
     "transfers": [],
-    "address": "東京都高井戸駅",
+    "address": "東京都杉並区高井戸東二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -357,7 +357,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6847257,
     "lng": 139.6075232,
     "transfers": [],
-    "address": "東京都富士見ケ丘駅",
+    "address": "東京都杉並区久我山二丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -384,7 +384,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6879146,
     "lng": 139.599802,
     "transfers": [],
-    "address": "東京都久我山駅",
+    "address": "東京都杉並区久我山三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -412,7 +412,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.6919323,
     "lng": 139.5898668,
     "transfers": [],
-    "address": "東京都三鷹台駅",
+    "address": "東京都三鷹市井の頭一丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -439,7 +439,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
     "lat": 35.697061,
     "lng": 139.5834445,
     "transfers": [],
-    "address": "東京都井の頭公園駅",
+    "address": "東京都三鷹市井の頭三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -469,7 +469,7 @@ export const KEIO_INOKASHIRA_STATIONS: Station[] = [
       "ＪＲ中央線快速",
       "ＪＲ中央・総武線各駅停車"
     ],
-    "address": "東京都吉祥寺駅",
+    "address": "東京都武蔵野市吉祥寺南町一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

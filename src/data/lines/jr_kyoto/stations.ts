@@ -17,7 +17,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
       "近鉄京都線",
       "京都市営地下鉄烏丸線"
     ],
-    "address": "",
+    "address": "京都府京都市下京区東塩小路釜殿町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -48,7 +48,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.98085,
     "lng": 135.73123,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市南区吉祥院西ノ庄門口町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -77,7 +77,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.96477,
     "lng": 135.71037,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市南区久世高田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -106,7 +106,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.95563,
     "lng": 135.7098,
     "transfers": [],
-    "address": "",
+    "address": "京都府京都市南区久世中久世町五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -135,7 +135,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.92245,
     "lng": 135.70041,
     "transfers": [],
-    "address": "",
+    "address": "京都府長岡京市神足二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -164,7 +164,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.89206,
     "lng": 135.67858,
     "transfers": [],
-    "address": "",
+    "address": "大阪府島本町山崎五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -193,7 +193,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.88035,
     "lng": 135.66248,
     "transfers": [],
-    "address": "",
+    "address": "大阪府島本町桜井二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -222,7 +222,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.85049,
     "lng": 135.61569,
     "transfers": [],
-    "address": "",
+    "address": "大阪府高槻市芥川町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -253,7 +253,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.83717,
     "lng": 135.59245,
     "transfers": [],
-    "address": "",
+    "address": "大阪府高槻市大畑町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -281,7 +281,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.82889,
     "lng": 135.57831,
     "transfers": [],
-    "address": "",
+    "address": "大阪府茨木市西河原一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -309,7 +309,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.81512,
     "lng": 135.56208,
     "transfers": [],
-    "address": "",
+    "address": "大阪府茨木市駅前一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -338,7 +338,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.79134,
     "lng": 135.55136,
     "transfers": [],
-    "address": "",
+    "address": "大阪府摂津市千里丘一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -366,7 +366,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.77647,
     "lng": 135.5407,
     "transfers": [],
-    "address": "",
+    "address": "大阪府吹田市芝田町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -394,7 +394,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.76245,
     "lng": 135.52295,
     "transfers": [],
-    "address": "",
+    "address": "大阪府吹田市西の庄町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -422,7 +422,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
     "lat": 34.7384,
     "lng": 135.50362,
     "transfers": [],
-    "address": "",
+    "address": "大阪府大阪市淀川区宮原二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -453,7 +453,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
       "JRおおさか東線",
       "Osaka Metro御堂筋線"
     ],
-    "address": "",
+    "address": "大阪府大阪市淀川区西中島五丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -495,7 +495,7 @@ export const JR_KYOTO_STATIONS: Station[] = [
       "阪急京都本線",
       "阪神本線"
     ],
-    "address": "",
+    "address": "大阪府大阪市北区梅田三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

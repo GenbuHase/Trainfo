@@ -14,7 +14,7 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ京葉線"
     ],
-    "address": "千葉県千葉みなと駅",
+    "address": "千葉県千葉市中央区中央港一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -77,7 +77,7 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
       "ＪＲ中央・総武線各駅停車",
       "千葉都市モノレール２号線"
     ],
-    "address": "千葉県千葉駅",
+    "address": "千葉県千葉市中央区新千葉一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -132,7 +132,7 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "lat": 35.6085494,
     "lng": 140.1201177,
     "transfers": [],
-    "address": "千葉県葭川公園駅",
+    "address": "千葉県千葉市中央区中央三丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -159,7 +159,7 @@ export const CHIBA_MONORAIL_1_STATIONS: Station[] = [
     "lat": 35.6040132,
     "lng": 140.1220078,
     "transfers": [],
-    "address": "千葉県県庁前駅",
+    "address": "千葉県千葉市中央区市場町",
     "facilities": {
       "elevator": true,
       "restroom": true,

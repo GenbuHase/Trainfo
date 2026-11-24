@@ -16,7 +16,7 @@ export const KEISEI_KANAMACHI_STATIONS: Station[] = [
       "京成成田スカイアクセス線",
       "北総鉄道北総線"
     ],
-    "address": "東京都京成高砂駅",
+    "address": "東京都葛飾区高砂五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -44,7 +44,7 @@ export const KEISEI_KANAMACHI_STATIONS: Station[] = [
     "lat": 35.7564557,
     "lng": 139.8752205,
     "transfers": [],
-    "address": "東京都柴又駅",
+    "address": "東京都葛飾区柴又四丁目",
     "facilities": {
       "elevator": false,
       "restroom": true,

@@ -265,7 +265,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     "lat": 36.1910664,
     "lng": 140.2800099,
     "transfers": [],
-    "address": "茨城県石岡市国府一丁目1-17",
+    "address": "茨城県石岡市国府一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,

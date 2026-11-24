@@ -15,7 +15,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
       "JR奥羽本線（福島～新庄）",
       "JR仙山線"
     ],
-    "address": "山形県山形駅周辺",
+    "address": "山形県山形市双葉町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -45,7 +45,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
       "JR奥羽本線（福島～新庄）",
       "JR仙山線"
     ],
-    "address": "山形県北山形駅周辺",
+    "address": "山形県山形市北町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -72,7 +72,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.2771,
     "lng": 140.302474,
     "transfers": [],
-    "address": "山形県東金井駅周辺",
+    "address": "山形県山形市陣場三丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -99,7 +99,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.2947515,
     "lng": 140.2716114,
     "transfers": [],
-    "address": "山形県羽前山辺駅周辺",
+    "address": "山形県山辺町大字山辺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3207184,
     "lng": 140.2704453,
     "transfers": [],
-    "address": "山形県羽前金沢駅周辺",
+    "address": "山形県中山町大字達磨寺",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3335019,
     "lng": 140.2731634,
     "transfers": [],
-    "address": "山形県羽前長崎駅周辺",
+    "address": "山形県中山町大字長崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3560107,
     "lng": 140.2775765,
     "transfers": [],
-    "address": "山形県南寒河江駅周辺",
+    "address": "山形県寒河江市大字島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3716681,
     "lng": 140.2752016,
     "transfers": [],
-    "address": "山形県寒河江駅周辺",
+    "address": "山形県寒河江市本町一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3797915,
     "lng": 140.2666266,
     "transfers": [],
-    "address": "山形県西寒河江駅周辺",
+    "address": "山形県寒河江市六供町二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,7 +261,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3974258,
     "lng": 140.2485051,
     "transfers": [],
-    "address": "山形県羽前高松駅周辺",
+    "address": "山形県寒河江市大字八鍬",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -288,7 +288,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.380425,
     "lng": 140.22757,
     "transfers": [],
-    "address": "山形県柴橋駅周辺",
+    "address": "山形県寒河江市大字松川",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,7 +315,7 @@ export const ATERAZAWA_STATIONS: Station[] =  [
     "lat": 38.3820916,
     "lng": 140.2079423,
     "transfers": [],
-    "address": "山形県左沢駅周辺",
+    "address": "山形県大江町大字左沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

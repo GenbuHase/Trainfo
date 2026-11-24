@@ -13,7 +13,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ宝塚線"
     ],
-    "address": "",
+    "address": "兵庫県丹波篠山市大沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -41,7 +41,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.07269,
     "lng": 135.16838,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波篠山市西古佐",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -68,7 +68,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.08775,
     "lng": 135.09477,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市山南町下滝",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -97,7 +97,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "transfers": [
       "谷川岳ロープウェイ"
     ],
-    "address": "",
+    "address": "兵庫県丹波市山南町玉巻",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -125,7 +125,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.1279,
     "lng": 135.07596,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市柏原町柏原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.15393,
     "lng": 135.064,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市氷上町石生",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.16826,
     "lng": 135.0991,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市春日町黒井",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -208,7 +208,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.20847,
     "lng": 135.13051,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市市島町市島",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -235,7 +235,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "lat": 35.24414,
     "lng": 135.1348,
     "transfers": [],
-    "address": "",
+    "address": "兵庫県丹波市市島町中竹田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -264,7 +264,7 @@ export const JR_FUKUCHIYAMA_NORTH_STATIONS: Station[] = [
     "transfers": [
       "ＪＲ宝塚線"
     ],
-    "address": "",
+    "address": "京都府福知山市字天田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

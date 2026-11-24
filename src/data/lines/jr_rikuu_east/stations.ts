@@ -14,7 +14,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
       "JR東北本線（仙台～一ノ関）",
       "JR石巻線"
     ],
-    "address": "宮城県小牛田駅周辺",
+    "address": "宮城県美里町字藤ケ崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -42,7 +42,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.559972,
     "lng": 141.0226175,
     "transfers": [],
-    "address": "宮城県北浦駅周辺",
+    "address": "宮城県美里町北浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -69,7 +69,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.5650268,
     "lng": 141.0000733,
     "transfers": [],
-    "address": "宮城県陸前谷地駅周辺",
+    "address": "宮城県美里町北浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -98,7 +98,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "transfers": [
       "JR東北新幹線"
     ],
-    "address": "宮城県古川駅周辺",
+    "address": "宮城県大崎市古川駅前大通一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -126,7 +126,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.5725298,
     "lng": 140.9369507,
     "transfers": [],
-    "address": "宮城県塚目駅周辺",
+    "address": "宮城県大崎市古川塚目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -153,7 +153,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.5783466,
     "lng": 140.8952747,
     "transfers": [],
-    "address": "宮城県西古川駅周辺",
+    "address": "宮城県大崎市古川新堀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -180,7 +180,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.6059529,
     "lng": 140.897232,
     "transfers": [],
-    "address": "宮城県東大崎駅周辺",
+    "address": "宮城県大崎市古川大崎",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -207,7 +207,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.6303048,
     "lng": 140.8896365,
     "transfers": [],
-    "address": "宮城県西大崎駅周辺",
+    "address": "宮城県大崎市岩出山下野目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,7 +234,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.6523452,
     "lng": 140.8717017,
     "transfers": [],
-    "address": "宮城県岩出山駅周辺",
+    "address": "宮城県大崎市岩出山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -262,7 +262,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.6582256,
     "lng": 140.8638948,
     "transfers": [],
-    "address": "宮城県有備館駅周辺",
+    "address": "宮城県大崎市岩出山",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -290,7 +290,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.6803172,
     "lng": 140.8593878,
     "transfers": [],
-    "address": "宮城県上野目駅周辺",
+    "address": "宮城県大崎市岩出山下一栗",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -317,7 +317,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7091634,
     "lng": 140.8355215,
     "transfers": [],
-    "address": "宮城県池月駅周辺",
+    "address": "宮城県大崎市岩出山池月",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -344,7 +344,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7367402,
     "lng": 140.7801528,
     "transfers": [],
-    "address": "宮城県川渡温泉駅周辺",
+    "address": "宮城県大崎市鳴子温泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -372,7 +372,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7445129,
     "lng": 140.7373203,
     "transfers": [],
-    "address": "宮城県鳴子御殿湯駅周辺",
+    "address": "宮城県大崎市鳴子温泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -400,7 +400,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.743466,
     "lng": 140.716093,
     "transfers": [],
-    "address": "宮城県鳴子温泉駅周辺",
+    "address": "宮城県大崎市鳴子温泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -429,7 +429,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7265345,
     "lng": 140.6678724,
     "transfers": [],
-    "address": "宮城県中山平温泉駅周辺",
+    "address": "宮城県大崎市鳴子温泉",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -456,7 +456,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7352699,
     "lng": 140.6134414,
     "transfers": [],
-    "address": "山形県堺田駅周辺",
+    "address": "山形県最上町大字堺田",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -483,7 +483,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7305706,
     "lng": 140.5537397,
     "transfers": [],
-    "address": "山形県赤倉温泉駅周辺",
+    "address": "山形県最上町大字富澤",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -510,7 +510,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7420882,
     "lng": 140.5427453,
     "transfers": [],
-    "address": "山形県立小路駅周辺",
+    "address": "山形県最上町大字富澤",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -537,7 +537,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7561662,
     "lng": 140.5173539,
     "transfers": [],
-    "address": "山形県最上駅周辺",
+    "address": "山形県最上町大字向町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -564,7 +564,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7659809,
     "lng": 140.4758947,
     "transfers": [],
-    "address": "山形県大堀駅周辺",
+    "address": "山形県最上町大字志茂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -591,7 +591,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7649613,
     "lng": 140.4542354,
     "transfers": [],
-    "address": "山形県鵜杉駅周辺",
+    "address": "山形県最上町大字志茂",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -618,7 +618,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7550211,
     "lng": 140.4203867,
     "transfers": [],
-    "address": "山形県瀬見温泉駅周辺",
+    "address": "山形県最上町大字大堀",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -645,7 +645,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.718747,
     "lng": 140.3820899,
     "transfers": [],
-    "address": "山形県東長沢駅周辺",
+    "address": "山形県舟形町長沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -672,7 +672,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7097377,
     "lng": 140.3660094,
     "transfers": [],
-    "address": "山形県長沢駅周辺",
+    "address": "山形県舟形町長沢",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -699,7 +699,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
     "lat": 38.7214098,
     "lng": 140.3163502,
     "transfers": [],
-    "address": "山形県南新庄駅周辺",
+    "address": "山形県新庄市大字鳥越",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -731,7 +731,7 @@ export const RIKUU_EAST_STATIONS: Station[] = [
       "JR奥羽本線（新庄～大曲）",
       "JR陸羽西線"
     ],
-    "address": "山形県新庄駅周辺",
+    "address": "山形県新庄市多門町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

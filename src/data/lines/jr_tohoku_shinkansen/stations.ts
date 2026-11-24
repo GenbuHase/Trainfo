@@ -233,7 +233,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
     "transfers": [
       "JR東北本線（黒磯～福島）"
     ],
-    "address": "福島県西白河郡西郷村字道南東",
+    "address": "福島県西郷村字道南東",
     "platforms": {
       "inbound": "1番線",
       "outbound": "4番線"

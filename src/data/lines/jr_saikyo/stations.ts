@@ -90,7 +90,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "東京メトロ半蔵門線",
       "東京メトロ副都心線"
     ],
-    "address": "東京都渋谷区道玄坂一丁目1-1",
+    "address": "東京都渋谷区渋谷二丁目21-13",
     "facilities": {
       "elevator": true,
       "restroom": true,

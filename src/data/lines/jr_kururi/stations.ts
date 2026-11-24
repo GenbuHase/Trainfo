@@ -13,7 +13,7 @@ export const KURURI_STATIONS: Station[] = [
     "transfers": [
       "JR内房線"
     ],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市富士見一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -40,7 +40,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.3917,
     "lng": 139.94875,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市永井作",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -66,7 +66,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.39084,
     "lng": 139.96609,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市清川二丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -92,7 +92,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.39002,
     "lng": 139.98631,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市笹子",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -118,7 +118,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.38621,
     "lng": 140.02067,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県袖ケ浦市横田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -144,7 +144,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.38615,
     "lng": 140.0364,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県袖ケ浦市横田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -170,7 +170,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.36649,
     "lng": 140.05845,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県木更津市真里",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -196,7 +196,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.35463,
     "lng": 140.0554,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市山本",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -222,7 +222,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.32791,
     "lng": 140.05985,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市末吉",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -248,7 +248,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.31438,
     "lng": 140.06175,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市俵田",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -274,7 +274,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.29523,
     "lng": 140.07574,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市久留里市場",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -301,7 +301,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.27402,
     "lng": 140.06439,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市平山",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -327,7 +327,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.25788,
     "lng": 140.06406,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市広岡",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -353,7 +353,7 @@ export const KURURI_STATIONS: Station[] = [
     "lat": 35.2334,
     "lng": 140.08917,
     "transfers": [],
-    "address": "東京都・神奈川県・千葉県・埼玉県",
+    "address": "千葉県君津市藤林",
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -15,7 +15,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "JR北陸本線（米原～敦賀）",
       "近江鉄道本線"
     ],
-    "address": "",
+    "address": "滋賀県米原市米原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -47,7 +47,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "transfers": [
       "近江鉄道本線"
     ],
-    "address": "",
+    "address": "滋賀県彦根市古沢町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -77,7 +77,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.24537,
     "lng": 136.24724,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県彦根市西今町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -105,7 +105,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.22629,
     "lng": 136.22632,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県彦根市川瀬馬場町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -133,7 +133,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.20235,
     "lng": 136.19296,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県彦根市稲枝町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -161,7 +161,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.17913,
     "lng": 136.16507,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県東近江市林町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -190,7 +190,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.14283,
     "lng": 136.13425,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県近江八幡市安土町上豊浦",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -220,7 +220,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "transfers": [
       "近江鉄道八日市線"
     ],
-    "address": "",
+    "address": "滋賀県近江八幡市鷹飼町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -250,7 +250,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.0985,
     "lng": 136.07041,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県近江八幡市安養寺町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -278,7 +278,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.06752,
     "lng": 136.02113,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県野洲市小篠原",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -308,7 +308,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.05112,
     "lng": 135.99671,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県守山市勝部町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -338,7 +338,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.03818,
     "lng": 135.98094,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県栗東市綣二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -368,7 +368,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "transfers": [
       "JR草津線"
     ],
-    "address": "",
+    "address": "滋賀県草津市渋川一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -398,7 +398,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.0033,
     "lng": 135.94696,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県草津市野路一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -428,7 +428,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 34.98659,
     "lng": 135.92472,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市大萱一丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -458,7 +458,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "transfers": [
       "京阪石山坂本線"
     ],
-    "address": "",
+    "address": "滋賀県大津市粟津町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -490,7 +490,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "transfers": [
       "京阪石山坂本線"
     ],
-    "address": "",
+    "address": "滋賀県大津市馬場二丁目",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -518,7 +518,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "lat": 35.00311,
     "lng": 135.86398,
     "transfers": [],
-    "address": "",
+    "address": "滋賀県大津市春日町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -552,7 +552,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "京都市営地下鉄東西線",
       "京阪京津線"
     ],
-    "address": "",
+    "address": "京都府京都市山科区御陵鳥ノ向町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -588,7 +588,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "近鉄京都線",
       "京都市営地下鉄烏丸線"
     ],
-    "address": "",
+    "address": "京都府京都市下京区東塩小路釜殿町",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
