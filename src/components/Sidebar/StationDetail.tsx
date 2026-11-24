@@ -269,7 +269,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
           <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
             <div className="flex items-center gap-1.5 font-bold text-sm text-slate-800 whitespace-nowrap">
               <Clock className="w-4 h-4 shrink-0" style={{ color: themeColor }} />
-              <span>発車案内（リアルタイム）</span>
+              <span>発車案内</span>
             </div>
 
             {/* 上り / 下り タブ切り替え */}
