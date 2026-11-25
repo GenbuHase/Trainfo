@@ -21,8 +21,8 @@ export const tokyuTamagawaLine: LineDefinition = {
     "outbound": "蒲田方面",
     "inboundFull": "上り 多摩川方面",
     "outboundFull": "下り 蒲田方面",
-    "inboundShort": "多摩川方面",
-    "outboundShort": "蒲田方面"
+    "inboundShort": "上り（多摩川方面）",
+    "outboundShort": "下り（蒲田方面）"
 },
   stations: TOKYU_TAMAGAWA_STATIONS,
   trackSegments: TOKYU_TAMAGAWA_TRACK_SEGMENTS,

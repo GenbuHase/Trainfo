@@ -83,7 +83,7 @@ export const SHINETSU_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -196,7 +196,7 @@ export const SHINETSU_STATIONS: Station[] = [
       "limited_exp",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

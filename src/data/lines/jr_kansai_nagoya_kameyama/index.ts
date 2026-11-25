@@ -17,8 +17,8 @@ export const jrKansaiNagoyaKameyamaLine: LineDefinition = {
     "outbound": "桑名・四日市・亀山方面",
     "inboundFull": "上り 蟹江・名古屋方面",
     "outboundFull": "下り 桑名・四日市・亀山方面",
-    "inboundShort": "名古屋方面",
-    "outboundShort": "亀山方面"
+    "inboundShort": "上り（名古屋方面）",
+    "outboundShort": "下り（亀山方面）"
 },
   stations: JR_KANSAI_NAGOYA_KAMEYAMA_STATIONS,
   trackSegments: JR_KANSAI_NAGOYA_KAMEYAMA_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const gonoLine: LineDefinition = {
     "outbound": "深浦・五所川原・川部・弘前方面",
     "inboundFull": "上り 東能代方面",
     "outboundFull": "下り 川部・弘前方面",
-    "inboundShort": "上り (東能代方面)",
-    "outboundShort": "下り (川部方面)"
+    "inboundShort": "上り（東能代方面）",
+    "outboundShort": "下り（川部方面）"
 },
   stations: GONO_STATIONS,
   trackSegments: GONO_TRACK_SEGMENTS,

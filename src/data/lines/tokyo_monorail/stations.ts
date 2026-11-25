@@ -89,6 +89,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
       "local",
       "semi_rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -117,6 +118,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
       "local",
       "semi_rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -144,6 +146,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -171,6 +174,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -200,7 +204,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -230,6 +234,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
       "semi_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -257,6 +262,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -286,6 +292,7 @@ export const TOKYO_MONORAIL_STATIONS: Station[] = [
       "semi_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

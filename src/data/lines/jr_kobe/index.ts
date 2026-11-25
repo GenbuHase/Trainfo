@@ -17,8 +17,8 @@ export const jrKobeLine: LineDefinition = {
       "outbound": "三ノ宮・神戸・姫路方面",
       "inboundFull": "上り 尼崎・大阪・京都方面",
       "outboundFull": "下り 芦屋・三ノ宮・神戸・姫路方面",
-      "inboundShort": "大阪方面",
-      "outboundShort": "神戸方面"
+      "inboundShort": "上り（大阪方面）",
+      "outboundShort": "下り（神戸方面）"
   },
   stations: JR_KOBE_STATIONS,
   trackSegments: JR_KOBE_TRACK_SEGMENTS,

@@ -123,7 +123,7 @@ export const RINKAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

@@ -648,7 +648,7 @@ export const TOKAIDO_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

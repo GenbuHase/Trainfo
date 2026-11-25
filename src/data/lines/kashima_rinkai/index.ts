@@ -21,8 +21,8 @@ export const kashimaRinkaiLine: LineDefinition = {
     "outbound": "大洗・鹿島神宮方面",
     "inboundFull": "上り 水戸方面",
     "outboundFull": "下り 大洗・鹿島神宮方面",
-    "inboundShort": "水戸方面",
-    "outboundShort": "大洗"
+    "inboundShort": "上り（水戸方面）",
+    "outboundShort": "下り（鹿島神宮方面）"
 },
   stations: KASHIMA_RINKAI_STATIONS,
   trackSegments: KASHIMA_RINKAI_TRACK_SEGMENTS,

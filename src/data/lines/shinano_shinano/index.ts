@@ -21,8 +21,8 @@ export const shinanoLine: LineDefinition = {
     "outbound": "篠ノ井・長野方面",
     "inboundFull": "上り 上田・小諸・軽井沢方面",
     "outboundFull": "下り 戸倉・篠ノ井・長野方面",
-    "inboundShort": "軽井沢方面",
-    "outboundShort": "長野方面"
+    "inboundShort": "上り（軽井沢方面）",
+    "outboundShort": "下り（長野方面）"
 },
   stations: SHINANO_SHINANO_STATIONS,
   trackSegments: SHINANO_SHINANO_TRACK_SEGMENTS,

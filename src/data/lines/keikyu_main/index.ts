@@ -21,8 +21,8 @@ export const keikyuMainLine: LineDefinition = {
     "outbound": "横浜・横須賀中央・浦賀方面",
     "inboundFull": "上り 品川・泉岳寺・浅草線方面",
     "outboundFull": "下り 横浜・横須賀中央・浦賀方面",
-    "inboundShort": "品川",
-    "outboundShort": "横浜"
+    "inboundShort": "上り（品川方面）",
+    "outboundShort": "下り（浦賀方面）"
 },
   stations: KEIKYU_MAIN_STATIONS,
   trackSegments: KEIKYU_MAIN_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const jrHanwaLine: LineDefinition = {
     "outbound": "鳳・日根野・和歌山方面",
     "inboundFull": "上り 天王寺・大阪環状線方面",
     "outboundFull": "下り 鳳・日根野・関西空港・和歌山方面",
-    "inboundShort": "天王寺方面",
-    "outboundShort": "和歌山方面"
+    "inboundShort": "上り（天王寺方面）",
+    "outboundShort": "下り（和歌山方面）"
 },
   stations: JR_HANWA_STATIONS,
   trackSegments: JR_HANWA_TRACK_SEGMENTS,

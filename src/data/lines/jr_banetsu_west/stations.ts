@@ -334,7 +334,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -697,7 +697,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -861,7 +861,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1053,7 +1053,7 @@ export const BANETSU_WEST_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -59,6 +59,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -89,6 +90,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -119,6 +121,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -149,6 +152,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -179,6 +183,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -209,6 +214,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -239,6 +245,7 @@ export const KEIKYU_KURIHAMA_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

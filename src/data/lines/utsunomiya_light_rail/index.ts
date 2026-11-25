@@ -21,8 +21,8 @@ export const utsunomiyaLightRailLine: LineDefinition = {
     "outbound": "芳賀・高根沢工業団地方面",
     "inboundFull": "上り 宇都宮駅東口方面",
     "outboundFull": "下り 芳賀・高根沢工業団地方面",
-    "inboundShort": "宇都宮駅東口方面",
-    "outboundShort": "芳賀"
+    "inboundShort": "上り（宇都宮駅東口方面）",
+    "outboundShort": "下り（芳賀・高根沢工業団地方面）"
 },
   stations: UTSUNOMIYA_LIGHT_RAIL_STATIONS,
   trackSegments: UTSUNOMIYA_LIGHT_RAIL_TRACK_SEGMENTS,

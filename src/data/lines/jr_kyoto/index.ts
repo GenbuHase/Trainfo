@@ -17,8 +17,8 @@ export const jrKyotoLine: LineDefinition = {
       "outbound": "大阪・三ノ宮方面",
       "inboundFull": "上り 高槻・京都・草津・米原方面",
       "outboundFull": "下り 新大阪・大阪・三ノ宮・姫路方面",
-      "inboundShort": "京都方面",
-      "outboundShort": "大阪方面"
+      "inboundShort": "上り（京都方面）",
+      "outboundShort": "下り（大阪方面）"
   },
   stations: JR_KYOTO_STATIONS,
   trackSegments: JR_KYOTO_TRACK_SEGMENTS,

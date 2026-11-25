@@ -25,7 +25,7 @@ export const odakyuTamaLine: LineDefinition = {
     outbound: '唐木田方面',
     inboundFull: '上り 新百合ヶ丘・新宿・千代田線方面',
     outboundFull: '下り 唐木田方面',
-    inboundShort: '上り (新百合ヶ丘方面)',
-    outboundShort: '下り (唐木田方面)',
+    inboundShort: '上り（新百合ヶ丘方面）',
+    outboundShort: '下り（唐木田方面）',
   },
 };

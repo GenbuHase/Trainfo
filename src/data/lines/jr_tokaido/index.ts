@@ -17,8 +17,8 @@ export const tokaidoLine: LineDefinition = {
     'outbound': '横浜・小田原・熱海方面',
     'inboundFull': '上り 品川・東京・上野方面',
     'outboundFull': '下り 横浜・小田原・熱海方面',
-    'inboundShort': '東京方面',
-    'outboundShort': '熱海方面'
+    'inboundShort': '上り（東京方面）',
+    'outboundShort': '下り（熱海方面）'
   },
   stations: TOKAIDO_STATIONS,
   trackSegments: TOKAIDO_TRACK_SEGMENTS,

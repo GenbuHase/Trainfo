@@ -95,6 +95,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -152,6 +153,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -179,6 +181,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -206,6 +209,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -233,6 +237,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -263,6 +268,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "express",
       "commuter_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -290,6 +296,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -317,6 +324,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -344,6 +352,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -374,6 +383,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "express",
       "commuter_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -402,6 +412,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -430,6 +441,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -458,6 +470,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -489,6 +502,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "commuter_exp",
       "rapid_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -518,6 +532,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -580,6 +595,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -680,6 +696,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -711,6 +728,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "commuter_exp",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -741,6 +759,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -773,6 +792,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "rapid_exp",
       "limited_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -803,6 +823,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -833,6 +854,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

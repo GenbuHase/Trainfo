@@ -17,8 +17,8 @@ export const tohokuIchinosekiMoriokaLine: LineDefinition = {
     "outbound": "花巻・盛岡方面",
     "inboundFull": "上り 北上・一ノ関方面",
     "outboundFull": "下り 花巻・盛岡方面",
-    "inboundShort": "一ノ関方面",
-    "outboundShort": "盛岡方面"
+    "inboundShort": "上り（一ノ関方面）",
+    "outboundShort": "下り（盛岡方面）"
 },
   stations: TOHOKU_ICHINOSEKI_MORIOKA_STATIONS,
   trackSegments: TOHOKU_ICHINOSEKI_MORIOKA_TRACK_SEGMENTS,

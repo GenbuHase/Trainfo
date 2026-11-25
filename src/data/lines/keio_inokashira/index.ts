@@ -21,8 +21,8 @@ export const keioInokashiraLine: LineDefinition = {
     "outbound": "久我山・吉祥寺方面",
     "inboundFull": "上り 明大前・渋谷方面",
     "outboundFull": "下り 久我山・吉祥寺方面",
-    "inboundShort": "明大前",
-    "outboundShort": "久我山"
+    "inboundShort": "上り（渋谷方面）",
+    "outboundShort": "下り（吉祥寺方面）"
 },
   stations: KEIO_INOKASHIRA_STATIONS,
   trackSegments: KEIO_INOKASHIRA_TRACK_SEGMENTS,

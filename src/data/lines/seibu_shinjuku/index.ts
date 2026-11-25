@@ -21,8 +21,8 @@ export const seibuShinjukuLine: LineDefinition = {
     "outbound": "所沢・本川越方面",
     "inboundFull": "上り 高田馬場・西武新宿方面",
     "outboundFull": "下り 所沢・本川越方面",
-    "inboundShort": "高田馬場",
-    "outboundShort": "所沢"
+    "inboundShort": "上り（西武新宿方面）",
+    "outboundShort": "下り（本川越方面）"
 },
   stations: SEIBU_SHINJUKU_STATIONS,
   trackSegments: SEIBU_SHINJUKU_TRACK_SEGMENTS,

@@ -55,6 +55,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -114,6 +115,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -142,6 +144,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

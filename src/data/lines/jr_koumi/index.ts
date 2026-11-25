@@ -21,8 +21,8 @@ export const jrKoumiLine: LineDefinition = {
     "outbound": "小諸方面",
     "inboundFull": "上り 野辺山・小淵沢方面",
     "outboundFull": "下り 小海・佐久平・小諸方面",
-    "inboundShort": "小淵沢方面",
-    "outboundShort": "小諸方面"
+    "inboundShort": "上り（小淵沢方面）",
+    "outboundShort": "下り（小諸方面）"
 },
   stations: JR_KOUMI_STATIONS,
   trackSegments: JR_KOUMI_TRACK_SEGMENTS,

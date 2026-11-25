@@ -17,8 +17,8 @@ export const chuoSobuLocalLine: LineDefinition = {
   "outbound": "東行 御茶ノ水・錦糸町・千葉方面",
   "inboundFull": "西行 新宿・中野・三鷹方面",
   "outboundFull": "東行 御茶ノ水・錦糸町・船橋・千葉方面",
-  "inboundShort": "三鷹方面",
-  "outboundShort": "千葉方面"
+  "inboundShort": "上り（三鷹方面）",
+  "outboundShort": "下り（千葉方面）"
 },
   stations: CHUO_SOBU_LOCAL_STATIONS,
   trackSegments: CHUO_SOBU_LOCAL_TRACK_SEGMENTS,

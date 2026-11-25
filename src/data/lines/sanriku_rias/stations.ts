@@ -75,7 +75,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -156,7 +156,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1056,7 +1056,7 @@ export const SANRIKU_RIAS_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

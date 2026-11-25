@@ -165,7 +165,7 @@ export const CHICHIBU_STATIONS: Station[] = [
       "local",
       "express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -424,7 +424,7 @@ export const CHICHIBU_STATIONS: Station[] = [
       "local",
       "express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -482,7 +482,7 @@ export const CHICHIBU_STATIONS: Station[] = [
       "express",
       "sl"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -656,7 +656,7 @@ export const CHICHIBU_STATIONS: Station[] = [
       "local",
       "express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -772,7 +772,7 @@ export const CHICHIBU_STATIONS: Station[] = [
       "express",
       "sl"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -919,7 +919,7 @@ export const CHICHIBU_STATIONS: Station[] = [
       "local",
       "express"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

@@ -85,7 +85,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -265,7 +265,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -295,7 +295,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -385,7 +385,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -563,7 +563,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -682,7 +682,7 @@ export const JR_GAKKEN_TOSHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

@@ -211,7 +211,7 @@ export const JR_OSAKA_LOOP_STATIONS: Station[] = [
       "semi_rapid",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

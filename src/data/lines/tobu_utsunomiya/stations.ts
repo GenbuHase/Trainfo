@@ -109,7 +109,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -165,7 +165,7 @@ export const TOBU_UTSUNOMIYA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

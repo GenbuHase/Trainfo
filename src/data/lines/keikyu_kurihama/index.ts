@@ -21,8 +21,8 @@ export const keikyuKurihamaLine: LineDefinition = {
     "outbound": "京急久里浜・三崎口方面",
     "inboundFull": "上り 堀ノ内・横浜・品川方面",
     "outboundFull": "下り 京急久里浜・三崎口方面",
-    "inboundShort": "堀ノ内",
-    "outboundShort": "京急久里浜"
+    "inboundShort": "上り（品川・横浜方面）",
+    "outboundShort": "下り（三崎口方面）"
 },
   stations: KEIKYU_KURIHAMA_STATIONS,
   trackSegments: KEIKYU_KURIHAMA_TRACK_SEGMENTS,

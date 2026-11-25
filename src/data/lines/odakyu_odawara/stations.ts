@@ -64,6 +64,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -91,6 +92,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -120,6 +122,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -182,6 +185,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -244,6 +248,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -271,6 +276,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -300,6 +306,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -334,7 +341,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "inbound": "1・2番線",
       "outbound": "3・4番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "OH-12",
@@ -359,6 +366,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -387,6 +395,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -448,6 +457,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -476,6 +486,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -504,6 +515,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -573,7 +585,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "inbound": "1・2番線",
       "outbound": "3・4番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "OH-20",
@@ -599,6 +611,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "semi_exp",
       "commuter_semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -628,6 +641,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "semi_exp",
       "commuter_semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -657,6 +671,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "semi_exp",
       "commuter_semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -723,6 +738,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -753,6 +769,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2・3番線"
@@ -783,6 +800,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -883,6 +901,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -913,6 +932,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3番線"
@@ -943,6 +963,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1011,6 +1032,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "commuter_semi_exp",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1074,6 +1096,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "rapid_exp",
       "commuter_semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1135,6 +1158,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1164,6 +1188,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1224,6 +1249,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1285,6 +1311,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1313,6 +1340,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1341,6 +1369,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1369,6 +1398,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -1397,6 +1427,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3番線"

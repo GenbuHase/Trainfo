@@ -21,8 +21,8 @@ export const seibuSayamaLine: LineDefinition = {
     "outbound": "西武球場前方面",
     "inboundFull": "上り 西所沢・池袋方面",
     "outboundFull": "下り 西武球場前方面",
-    "inboundShort": "西所沢",
-    "outboundShort": "西武球場前方面"
+    "inboundShort": "上り（西所沢方面）",
+    "outboundShort": "下り（西武球場前方面）"
 },
   stations: SEIBU_SAYAMA_STATIONS,
   trackSegments: SEIBU_SAYAMA_TRACK_SEGMENTS,

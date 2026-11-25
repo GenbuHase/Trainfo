@@ -288,7 +288,7 @@ export const TOHOKU_SENDAI_ICHINOSEKI_STATIONS: Station[] = [
       "regular",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

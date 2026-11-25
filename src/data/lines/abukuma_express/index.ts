@@ -18,8 +18,8 @@ export const abukumaExpressLine: LineDefinition = {
     "outbound": "梁川・丸森・槻木・仙台方面",
     "inboundFull": "上り 梁川・福島方面",
     "outboundFull": "下り 丸森・槻木・仙台方面",
-    "inboundShort": "福島方面",
-    "outboundShort": "槻木方面"
+    "inboundShort": "上り（福島方面）",
+    "outboundShort": "下り（槻木方面）"
 },
   stations: ABUKUMA_EXPRESS_STATIONS,
   trackSegments: ABUKUMA_EXPRESS_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const tokyuIkegamiLine: LineDefinition = {
     "outbound": "蒲田方面",
     "inboundFull": "上り 五反田方面",
     "outboundFull": "下り 蒲田方面",
-    "inboundShort": "五反田方面",
-    "outboundShort": "蒲田方面"
+    "inboundShort": "上り（五反田方面）",
+    "outboundShort": "下り（蒲田方面）"
 },
   stations: TOKYU_IKEGAMI_STATIONS,
   trackSegments: TOKYU_IKEGAMI_TRACK_SEGMENTS,

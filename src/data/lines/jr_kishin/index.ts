@@ -17,8 +17,8 @@ export const jrKishinLine: LineDefinition = {
   "outbound": "佐用・上月方面",
   "inboundFull": "上り 播磨新宮・姫路方面",
   "outboundFull": "下り 佐用・上月方面",
-  "inboundShort": "姫路方面",
-  "outboundShort": "上月方面"
+  "inboundShort": "上り（姫路方面）",
+  "outboundShort": "下り（上月方面）"
 },
   stations: JR_KISHIN_STATIONS,
   trackSegments: JR_KISHIN_TRACK_SEGMENTS,

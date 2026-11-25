@@ -21,8 +21,8 @@ export const seasideLineLine: LineDefinition = {
     "outbound": "金沢八景方面",
     "inboundFull": "上り 新杉田方面",
     "outboundFull": "下り 金沢八景方面",
-    "inboundShort": "新杉田方面",
-    "outboundShort": "金沢八景方面"
+    "inboundShort": "上り（新杉田方面）",
+    "outboundShort": "下り（金沢八景方面）"
 },
   stations: SEASIDE_LINE_STATIONS,
   trackSegments: SEASIDE_LINE_TRACK_SEGMENTS,

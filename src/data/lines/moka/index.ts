@@ -21,8 +21,8 @@ export const mokaLine: LineDefinition = {
     "outbound": "真岡・茂木方面",
     "inboundFull": "上り 下館方面",
     "outboundFull": "下り 真岡・茂木方面",
-    "inboundShort": "下館方面",
-    "outboundShort": "真岡"
+    "inboundShort": "上り（下館方面）",
+    "outboundShort": "下り（茂木方面）"
 },
   stations: MOKA_STATIONS,
   trackSegments: MOKA_TRACK_SEGMENTS,

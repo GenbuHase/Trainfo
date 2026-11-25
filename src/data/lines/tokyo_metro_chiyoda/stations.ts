@@ -523,7 +523,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     },
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "C-18",
@@ -615,6 +615,6 @@ export const CHIYODA_STATIONS: Station[] = [
       "inbound": "1・2番線",
       "outbound": "1・2番線"
     },
-    "isMajor": false
+    "isMajor": true
   }
 ];

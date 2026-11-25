@@ -17,8 +17,8 @@ export const jrGakkenToshiLine: LineDefinition = {
     "outbound": "松井山手・同志社前・木津方面",
     "inboundFull": "上り 京橋・JR東西線方面",
     "outboundFull": "下り 四条畷・松井山手・同志社前・木津方面",
-    "inboundShort": "京橋方面",
-    "outboundShort": "木津方面"
+    "inboundShort": "上り（京橋方面）",
+    "outboundShort": "下り（木津方面）"
 },
   stations: JR_GAKKEN_TOSHI_STATIONS,
   trackSegments: JR_GAKKEN_TOSHI_TRACK_SEGMENTS,

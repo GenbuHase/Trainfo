@@ -21,8 +21,8 @@ export const shonanMonorailLine: LineDefinition = {
     "outbound": "湘南江の島方面",
     "inboundFull": "上り 大船方面",
     "outboundFull": "下り 湘南江の島方面",
-    "inboundShort": "大船方面",
-    "outboundShort": "湘南江の島方面"
+    "inboundShort": "上り（大船方面）",
+    "outboundShort": "下り（湘南江の島方面）"
 },
   stations: SHONAN_MONORAIL_STATIONS,
   trackSegments: SHONAN_MONORAIL_TRACK_SEGMENTS,

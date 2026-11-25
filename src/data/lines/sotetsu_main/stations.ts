@@ -152,7 +152,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
       "inbound": "1・2番線",
       "outbound": "3・4番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "SO-06",

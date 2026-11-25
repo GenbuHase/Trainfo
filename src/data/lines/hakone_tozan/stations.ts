@@ -57,6 +57,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -84,6 +85,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -111,6 +113,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -139,6 +142,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -166,6 +170,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -193,6 +198,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -220,6 +226,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -247,6 +254,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -274,6 +282,7 @@ export const HAKONE_TOZAN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

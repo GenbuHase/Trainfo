@@ -302,7 +302,7 @@ export const SENSEKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -383,7 +383,7 @@ export const SENSEKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -410,7 +410,7 @@ export const SENSEKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -464,7 +464,7 @@ export const SENSEKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -631,7 +631,7 @@ export const SENSEKI_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

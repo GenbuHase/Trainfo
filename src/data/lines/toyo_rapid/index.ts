@@ -21,8 +21,8 @@ export const toyoRapidLine: LineDefinition = {
     "outbound": "北習志野・東葉勝田台方面",
     "inboundFull": "上り 西船橋・東京メトロ東西線方面",
     "outboundFull": "下り 北習志野・東葉勝田台方面",
-    "inboundShort": "西船橋",
-    "outboundShort": "北習志野"
+    "inboundShort": "上り（西船橋方面）",
+    "outboundShort": "下り（東葉勝田台方面）"
 },
   stations: TOYO_RAPID_STATIONS,
   trackSegments: TOYO_RAPID_TRACK_SEGMENTS,

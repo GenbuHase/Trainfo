@@ -21,8 +21,8 @@ export const yokohamaGreenLine: LineDefinition = {
     "outbound": "センター南・日吉方面",
     "inboundFull": "上り 中山方面",
     "outboundFull": "下り センター南・日吉方面",
-    "inboundShort": "中山方面",
-    "outboundShort": "センター南"
+    "inboundShort": "上り（中山方面）",
+    "outboundShort": "下り（日吉方面）"
 },
   stations: YOKOHAMA_GREEN_STATIONS,
   trackSegments: YOKOHAMA_GREEN_TRACK_SEGMENTS,

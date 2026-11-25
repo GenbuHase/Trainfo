@@ -51,6 +51,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -78,6 +79,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -105,6 +107,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -132,6 +135,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -159,6 +163,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -186,6 +191,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -213,6 +219,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -240,6 +247,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -267,6 +275,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -294,6 +303,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -321,6 +331,7 @@ export const TOEI_NIPPORI_TONERI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

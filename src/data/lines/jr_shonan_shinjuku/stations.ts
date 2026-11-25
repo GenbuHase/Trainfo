@@ -288,7 +288,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
       "special_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

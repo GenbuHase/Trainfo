@@ -21,8 +21,8 @@ export const seibuTamakoLine: LineDefinition = {
     "outbound": "多摩湖方面",
     "inboundFull": "上り 萩山・国分寺方面",
     "outboundFull": "下り 多摩湖方面",
-    "inboundShort": "萩山",
-    "outboundShort": "多摩湖方面"
+    "inboundShort": "上り（国分寺方面）",
+    "outboundShort": "下り（多摩湖方面）"
 },
   stations: SEIBU_TAMAKO_STATIONS,
   trackSegments: SEIBU_TAMAKO_TRACK_SEGMENTS,

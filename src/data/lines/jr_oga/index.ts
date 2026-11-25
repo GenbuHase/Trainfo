@@ -17,8 +17,8 @@ export const ogaLine: LineDefinition = {
     "outbound": "男鹿方面",
     "inboundFull": "上り 追分・秋田方面",
     "outboundFull": "下り 男鹿方面",
-    "inboundShort": "上り (追分・秋田方面)",
-    "outboundShort": "下り (男鹿方面)"
+    "inboundShort": "上り（追分・秋田方面）",
+    "outboundShort": "下り（男鹿方面）"
 },
   stations: OGA_STATIONS,
   trackSegments: OGA_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const jrKansaiAirportLine: LineDefinition = {
     "outbound": "関西空港方面",
     "inboundFull": "上り 日根野・天王寺・大阪方面",
     "outboundFull": "下り りんくうタウン・関西空港方面",
-    "inboundShort": "日根野方面",
-    "outboundShort": "関西空港方面"
+    "inboundShort": "上り（日根野方面）",
+    "outboundShort": "下り（関西空港方面）"
 },
   stations: JR_KANSAI_AIRPORT_STATIONS,
   trackSegments: JR_KANSAI_AIRPORT_TRACK_SEGMENTS,

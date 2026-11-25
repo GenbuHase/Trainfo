@@ -170,7 +170,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "local",
       "new_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -21,8 +21,8 @@ export const seibuHaijimaLine: LineDefinition = {
     "outbound": "玉川上水・拝島方面",
     "inboundFull": "上り 小平・西武新宿方面",
     "outboundFull": "下り 玉川上水・拝島方面",
-    "inboundShort": "小平",
-    "outboundShort": "玉川上水"
+    "inboundShort": "上り（西武新宿方面）",
+    "outboundShort": "下り（拝島方面）"
 },
   stations: SEIBU_HAIJIMA_STATIONS,
   trackSegments: SEIBU_HAIJIMA_TRACK_SEGMENTS,

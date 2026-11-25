@@ -17,8 +17,8 @@ export const jrIidaLine: LineDefinition = {
     "outbound": "天竜峡・飯田・辰野方面",
     "inboundFull": "上り 豊川・豊橋方面",
     "outboundFull": "下り 天竜峡・飯田・辰野方面",
-    "inboundShort": "豊橋方面",
-    "outboundShort": "辰野方面"
+    "inboundShort": "上り（豊橋方面）",
+    "outboundShort": "下り（辰野方面）"
 },
   stations: JR_IIDA_STATIONS,
   trackSegments: JR_IIDA_TRACK_SEGMENTS,

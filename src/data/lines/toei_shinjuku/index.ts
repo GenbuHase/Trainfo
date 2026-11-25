@@ -21,8 +21,8 @@ export const toeiShinjukuLine: LineDefinition = {
     "outbound": "大島・本八幡方面",
     "inboundFull": "上り 新宿・京王線方面",
     "outboundFull": "下り 大島・本八幡方面",
-    "inboundShort": "新宿",
-    "outboundShort": "大島"
+    "inboundShort": "上り（新宿方面）",
+    "outboundShort": "下り（本八幡方面）"
 },
   stations: TOEI_SHINJUKU_STATIONS,
   trackSegments: TOEI_SHINJUKU_TRACK_SEGMENTS,

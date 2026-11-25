@@ -17,8 +17,8 @@ export const jrYumesakiLine: LineDefinition = {
     "outbound": "ユニバーサルシティ・桜島方面",
     "inboundFull": "上り 西九条・大阪方面",
     "outboundFull": "下り ユニバーサルシティ・桜島方面",
-    "inboundShort": "西九条方面",
-    "outboundShort": "桜島方面"
+    "inboundShort": "上り（西九条方面）",
+    "outboundShort": "下り（桜島方面）"
 },
   stations: JR_YUMESAKI_STATIONS,
   trackSegments: JR_YUMESAKI_TRACK_SEGMENTS,

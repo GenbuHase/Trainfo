@@ -53,6 +53,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
       "regular",
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -80,6 +81,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
       "regular",
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -107,6 +109,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
       "regular",
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -134,6 +137,7 @@ export const JR_KASHIMA_STATIONS: Station[] = [
       "regular",
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

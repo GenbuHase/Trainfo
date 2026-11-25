@@ -492,7 +492,7 @@ export const GONO_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -739,7 +739,7 @@ export const GONO_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1109,7 +1109,7 @@ export const GONO_STATIONS: Station[] = [
       "rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

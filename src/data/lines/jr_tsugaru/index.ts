@@ -17,8 +17,8 @@ export const tsugaruLine: LineDefinition = {
     "outbound": "蟹田・今別・三厩方面",
     "inboundFull": "上り 蟹田・青森方面",
     "outboundFull": "下り 蟹田・三厩方面",
-    "inboundShort": "上り (青森方面)",
-    "outboundShort": "下り (三厩方面)"
+    "inboundShort": "上り（青森方面）",
+    "outboundShort": "下り（三厩方面）"
 },
   stations: TSUGARU_STATIONS,
   trackSegments: TSUGARU_TRACK_SEGMENTS,

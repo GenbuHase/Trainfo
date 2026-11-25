@@ -21,8 +21,8 @@ export const hitachinakaLine: LineDefinition = {
     "outbound": "那珂湊・阿字ヶ浦方面",
     "inboundFull": "上り 勝田方面",
     "outboundFull": "下り 那珂湊・阿字ヶ浦方面",
-    "inboundShort": "勝田方面",
-    "outboundShort": "那珂湊"
+    "inboundShort": "上り（勝田方面）",
+    "outboundShort": "下り（阿字ヶ浦方面）"
 },
   stations: HITACHINAKA_STATIONS,
   trackSegments: HITACHINAKA_TRACK_SEGMENTS,

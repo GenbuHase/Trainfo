@@ -21,8 +21,8 @@ export const kominatoLine: LineDefinition = {
     "outbound": "養老渓谷・上総中野方面",
     "inboundFull": "上り 五井方面",
     "outboundFull": "下り 養老渓谷・上総中野方面",
-    "inboundShort": "五井方面",
-    "outboundShort": "養老渓谷"
+    "inboundShort": "上り（五井方面）",
+    "outboundShort": "下り（上総中野方面）"
 },
   stations: KOMINATO_STATIONS,
   trackSegments: KOMINATO_TRACK_SEGMENTS,

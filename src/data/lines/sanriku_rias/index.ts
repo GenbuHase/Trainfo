@@ -18,8 +18,8 @@ export const sanrikuRiasLine: LineDefinition = {
     "outbound": "釜石・宮古・久慈方面",
     "inboundFull": "上り 宮古・釜石・盛方面",
     "outboundFull": "下り 釜石・宮古・久慈方面",
-    "inboundShort": "盛方面",
-    "outboundShort": "久慈方面"
+    "inboundShort": "上り（盛方面）",
+    "outboundShort": "下り（久慈方面）"
 },
   stations: SANRIKU_RIAS_STATIONS,
   trackSegments: SANRIKU_RIAS_TRACK_SEGMENTS,

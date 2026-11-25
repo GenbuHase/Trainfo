@@ -21,8 +21,8 @@ export const toeiArakawaLine: LineDefinition = {
     "outbound": "大塚・早稲田方面",
     "inboundFull": "上り 王子・三ノ輪橋方面",
     "outboundFull": "下り 大塚・早稲田方面",
-    "inboundShort": "王子",
-    "outboundShort": "大塚"
+    "inboundShort": "上り（三ノ輪橋方面）",
+    "outboundShort": "下り（早稲田方面）"
 },
   stations: TOEI_ARAKAWA_STATIONS,
   trackSegments: TOEI_ARAKAWA_TRACK_SEGMENTS,

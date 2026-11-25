@@ -21,8 +21,8 @@ export const izuhakoneDaiyuzanLine: LineDefinition = {
     "outbound": "大雄山方面",
     "inboundFull": "上り 小田原方面",
     "outboundFull": "下り 大雄山方面",
-    "inboundShort": "小田原方面",
-    "outboundShort": "大雄山方面"
+    "inboundShort": "上り（小田原方面）",
+    "outboundShort": "下り（大雄山方面）"
 },
   stations: IZUHAKONE_DAIYUZAN_STATIONS,
   trackSegments: IZUHAKONE_DAIYUZAN_TRACK_SEGMENTS,

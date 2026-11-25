@@ -253,7 +253,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "section_semi_exp",
       "section_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -498,7 +498,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "section_exp",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -649,7 +649,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "section_exp",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -679,7 +679,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "section_semi_exp",
       "semi_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -742,7 +742,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
       "express",
       "th_liner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

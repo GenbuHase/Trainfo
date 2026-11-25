@@ -17,8 +17,8 @@ export const tokaidoShinkansenLine: LineDefinition = {
       "outbound": "名古屋・新大阪方面",
       "inboundFull": "上り 名古屋・新横浜・東京方面",
       "outboundFull": "下り 名古屋・京都・新大阪方面",
-      "inboundShort": "東京方面",
-      "outboundShort": "新大阪方面"
+      "inboundShort": "上り（東京方面）",
+      "outboundShort": "下り（新大阪方面）"
   },
   stations: TOKAIDO_SHINKANSEN_STATIONS,
   trackSegments: TOKAIDO_SHINKANSEN_TRACK_SEGMENTS,

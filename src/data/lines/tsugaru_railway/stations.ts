@@ -190,7 +190,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
       "regular",
       "semi_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -218,7 +218,7 @@ export const TSUGARU_RAILWAY_STATIONS: Station[] =  [
       "regular",
       "semi_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

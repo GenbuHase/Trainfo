@@ -18,8 +18,8 @@ export const sendaiSubwayNambokuLine: LineDefinition = {
     "outbound": "仙台・富沢方面",
     "inboundFull": "北行 仙台・泉中央方面",
     "outboundFull": "南行 仙台・富沢方面",
-    "inboundShort": "泉中央方面",
-    "outboundShort": "富沢方面"
+    "inboundShort": "上り（泉中央方面）",
+    "outboundShort": "下り（富沢方面）"
 },
   stations: SENDAI_SUBWAY_NAMBOKU_STATIONS,
   trackSegments: SENDAI_SUBWAY_NAMBOKU_TRACK_SEGMENTS,

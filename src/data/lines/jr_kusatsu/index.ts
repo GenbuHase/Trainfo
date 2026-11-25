@@ -17,8 +17,8 @@ export const jrKusatsuLine: LineDefinition = {
   "outbound": "草津・京都方面",
   "inboundFull": "上り 貴生川・柘植方面",
   "outboundFull": "下り 草津・京都方面",
-  "inboundShort": "柘植方面",
-  "outboundShort": "草津方面"
+  "inboundShort": "上り（柘植方面）",
+  "outboundShort": "下り（草津方面）"
 },
   stations: JR_KUSATSU_STATIONS,
   trackSegments: JR_KUSATSU_TRACK_SEGMENTS,

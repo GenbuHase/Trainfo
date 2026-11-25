@@ -77,7 +77,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -327,7 +327,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -411,7 +411,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -467,7 +467,7 @@ export const TOHOKU_ICHINOSEKI_MORIOKA_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

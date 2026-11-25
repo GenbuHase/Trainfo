@@ -133,7 +133,7 @@ export const OFUNATO_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -161,7 +161,7 @@ export const OFUNATO_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -215,7 +215,7 @@ export const OFUNATO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

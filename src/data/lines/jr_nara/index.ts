@@ -17,8 +17,8 @@ export const jrNaraLine: LineDefinition = {
   "outbound": "木津・奈良方面",
   "inboundFull": "上り 宇治・京都方面",
   "outboundFull": "下り 木津・奈良方面",
-  "inboundShort": "京都方面",
-  "outboundShort": "奈良方面"
+  "inboundShort": "上り（京都方面）",
+  "outboundShort": "下り（奈良方面）"
 },
   stations: JR_NARA_STATIONS,
   trackSegments: JR_NARA_TRACK_SEGMENTS,

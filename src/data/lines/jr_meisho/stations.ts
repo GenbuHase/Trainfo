@@ -400,7 +400,7 @@ export const JR_MEISHO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

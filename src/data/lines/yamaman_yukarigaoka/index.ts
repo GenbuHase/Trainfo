@@ -21,8 +21,8 @@ export const yamamanYukarigaokaLine: LineDefinition = {
     "outbound": "女子大・井野・ユーカリが丘循環",
     "inboundFull": "上り ユーカリが丘方面",
     "outboundFull": "下り 女子大・井野・ユーカリが丘循環",
-    "inboundShort": "ユーカリが丘方面",
-    "outboundShort": "女子大"
+    "inboundShort": "上り（ユーカリが丘方面）",
+    "outboundShort": "下り（女子大・井野方面）"
 },
   stations: YAMAMAN_YUKARIGAOKA_STATIONS,
   trackSegments: YAMAMAN_YUKARIGAOKA_TRACK_SEGMENTS,

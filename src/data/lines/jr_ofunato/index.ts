@@ -17,8 +17,8 @@ export const ofunatoLine: LineDefinition = {
     "outbound": "千厩・気仙沼方面",
     "inboundFull": "上り 一ノ関方面",
     "outboundFull": "下り 千厩・気仙沼方面",
-    "inboundShort": "上り (一ノ関方面)",
-    "outboundShort": "下り (気仙沼方面)"
+    "inboundShort": "上り（一ノ関方面）",
+    "outboundShort": "下り（気仙沼方面）"
 },
   stations: OFUNATO_STATIONS,
   trackSegments: OFUNATO_TRACK_SEGMENTS,

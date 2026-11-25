@@ -193,7 +193,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "rapid",
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -259,7 +259,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
       "rapid",
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

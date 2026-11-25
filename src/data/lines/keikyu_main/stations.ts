@@ -98,6 +98,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -125,6 +126,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -156,6 +158,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -183,6 +186,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -214,6 +218,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -241,6 +246,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -272,6 +278,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -299,6 +306,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -326,6 +334,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -388,6 +397,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -415,6 +425,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -479,7 +490,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -507,6 +518,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -535,6 +547,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -562,6 +575,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -589,6 +603,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -616,6 +631,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -643,6 +659,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -673,6 +690,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "limited_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -701,6 +719,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -728,6 +747,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -799,6 +819,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -827,6 +848,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -854,6 +876,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -881,6 +904,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -909,6 +933,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -937,6 +962,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -999,6 +1025,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1027,6 +1054,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1054,6 +1082,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1082,6 +1111,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1114,6 +1144,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1179,6 +1210,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1206,6 +1238,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1233,6 +1266,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1260,6 +1294,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1290,6 +1325,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "access_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1321,6 +1357,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "access_exp",
       "liner"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1348,6 +1385,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1411,6 +1449,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "limited_exp",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1440,6 +1479,7 @@ export const KEIKYU_MAIN_STATIONS: Station[] = [
       "limited_exp",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

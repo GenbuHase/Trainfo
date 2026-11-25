@@ -137,7 +137,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -251,7 +251,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -477,7 +477,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -534,7 +534,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -591,7 +591,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -762,7 +762,7 @@ export const AKITA_NAIRIKU_STATIONS: Station[] =  [
       "rapid",
       "express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -32,6 +32,7 @@ export const STATIONS: Station[] = [
     address: '東京都豊島区池袋本町一丁目36-6',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -48,6 +49,7 @@ export const STATIONS: Station[] = [
     address: '東京都豊島区池袋本町四丁目47-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -64,6 +66,7 @@ export const STATIONS: Station[] = [
     address: '東京都板橋区大山町4-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -80,6 +83,7 @@ export const STATIONS: Station[] = [
     address: '東京都板橋区中板橋15-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -96,6 +100,7 @@ export const STATIONS: Station[] = [
     address: '東京都板橋区常盤台一丁目43-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -112,6 +117,7 @@ export const STATIONS: Station[] = [
     address: '東京都板橋区上板橋二丁目36-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp'],
+    isMajor: false,
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -128,6 +134,7 @@ export const STATIONS: Station[] = [
     address: '東京都板橋区徳丸二丁目2-14',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -144,6 +151,7 @@ export const STATIONS: Station[] = [
     address: '東京都板橋区赤塚新町一丁目21-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -194,6 +202,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県朝霞市本町二丁目13-52',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express'],
+    isMajor: false,
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -227,7 +236,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県新座市東北二丁目38-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express'],
-    isMajor: true,
+    isMajor: false,
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -244,6 +253,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県志木市館二丁目5-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local', 'semi_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -260,6 +270,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県富士見市東みずほ台二丁目29-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local', 'semi_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -276,6 +287,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県富士見市鶴瀬東一丁目11-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -309,6 +321,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県ふじみ野市上福岡一丁目1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -325,6 +338,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県川越市大字砂906',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local', 'semi_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -375,6 +389,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県川越市大字的場2442',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -391,6 +406,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県鶴ヶ島市大字上広谷18',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -407,6 +423,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県坂戸市関間四丁目13-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -440,6 +457,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県坂戸市末広町1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -456,6 +474,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県東松山市大字高坂東一丁目1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -472,6 +491,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県東松山市箭弓町一丁目12-11',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp', 'kawagoe_exp', 'tj_liner'],
+    isMajor: true,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -505,6 +525,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県比企郡滑川町大字月の輪一丁目1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp', 'kawagoe_exp', 'tj_liner'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -521,6 +542,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県比企郡嵐山町大字菅谷135-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp', 'kawagoe_exp', 'tj_liner'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -554,6 +576,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県比企郡小川町大字靱負29-3',
     facilities: { elevator: false, restroom: true, multipurposeToilet: false, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -570,6 +593,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県大里郡寄居町大字富田1564-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '1番線' },
   },
   {
@@ -586,6 +610,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県大里郡寄居町大字富田305-1',
     facilities: { elevator: false, restroom: true, multipurposeToilet: false, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -602,6 +627,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県大里郡寄居町大字鉢形250-1',
     facilities: { elevator: false, restroom: true, multipurposeToilet: false, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -618,6 +644,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県大里郡寄居町大字寄居字諏訪651-4',
     facilities: { elevator: false, restroom: true, multipurposeToilet: false, waitingRoom: false, ticketOffice: false },
     stoppingTypes: ['local'],
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '1番線' },
   },
   {

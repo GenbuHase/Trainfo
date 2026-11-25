@@ -17,8 +17,8 @@ export const ofunatoBrtLine: LineDefinition = {
     "outbound": "陸前高田・大船渡・盛 / 上鹿折 / 陸前矢作方面",
     "inboundFull": "上り 陸前高田・気仙沼方面",
     "outboundFull": "下り 盛・上鹿折・陸前矢作方面",
-    "inboundShort": "上り (気仙沼方面)",
-    "outboundShort": "下り (盛・矢作・上鹿折方面)"
+    "inboundShort": "上り（気仙沼方面）",
+    "outboundShort": "下り（盛・矢作・上鹿折方面）"
 },
   stations: OFUNATO_BRT_STATIONS,
   trackSegments: OFUNATO_BRT_TRACK_SEGMENTS,

@@ -50,6 +50,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -76,6 +77,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -102,6 +104,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -128,6 +131,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -155,6 +159,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -182,6 +187,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -208,6 +214,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -234,6 +241,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -261,6 +269,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -288,6 +297,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -315,6 +325,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -342,6 +353,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -369,6 +381,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -396,6 +409,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -423,6 +437,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -450,6 +465,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -477,6 +493,7 @@ export const UTSUNOMIYA_LIGHT_RAIL_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

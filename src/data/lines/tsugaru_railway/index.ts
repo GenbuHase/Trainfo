@@ -18,8 +18,8 @@ export const tsugaruRailwayLine: LineDefinition = {
     "outbound": "金木・津軽中里方面",
     "inboundFull": "上り 津軽五所川原方面",
     "outboundFull": "下り 津軽中里方面",
-    "inboundShort": "津軽五所川原方面",
-    "outboundShort": "津軽中里方面"
+    "inboundShort": "上り（津軽五所川原方面）",
+    "outboundShort": "下り（津軽中里方面）"
 },
   stations: TSUGARU_RAILWAY_STATIONS,
   trackSegments: TSUGARU_RAILWAY_TRACK_SEGMENTS,

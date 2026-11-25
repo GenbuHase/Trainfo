@@ -401,7 +401,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "local",
       "commuter_semi_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -497,7 +497,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "local",
       "commuter_semi_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -571,7 +571,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "semi_exp",
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -737,7 +737,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "semi_exp",
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "4・5番線"
@@ -866,7 +866,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "2番線",
       "outbound": "2番線"

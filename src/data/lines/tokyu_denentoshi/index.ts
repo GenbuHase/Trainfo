@@ -21,8 +21,8 @@ export const tokyuDenentoshiLine: LineDefinition = {
     "outbound": "二子玉川・長津田・中央林間方面",
     "inboundFull": "上り 渋谷・半蔵門線・東武線方面",
     "outboundFull": "下り 二子玉川・長津田・中央林間方面",
-    "inboundShort": "渋谷",
-    "outboundShort": "二子玉川"
+    "inboundShort": "上り（渋谷方面）",
+    "outboundShort": "下り（中央林間方面）"
 },
   stations: TOKYU_DENENTOSHI_STATIONS,
   trackSegments: TOKYU_DENENTOSHI_TRACK_SEGMENTS,

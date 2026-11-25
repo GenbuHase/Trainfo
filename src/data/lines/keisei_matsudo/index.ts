@@ -21,8 +21,8 @@ export const keiseiMatsudoLine: LineDefinition = {
     "outbound": "新津田沼・京成津田沼方面",
     "inboundFull": "上り 新鎌ヶ谷・松戸方面",
     "outboundFull": "下り 新津田沼・京成津田沼方面",
-    "inboundShort": "新鎌ヶ谷",
-    "outboundShort": "新津田沼"
+    "inboundShort": "上り（松戸方面）",
+    "outboundShort": "下り（京成津田沼方面）"
 },
   stations: KEISEI_MATSUDO_STATIONS,
   trackSegments: KEISEI_MATSUDO_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const tohokuFukushimaSendaiLine: LineDefinition = {
     "outbound": "岩沼・仙台方面",
     "inboundFull": "上り 白石・福島方面",
     "outboundFull": "下り 岩沼・仙台方面",
-    "inboundShort": "福島方面",
-    "outboundShort": "仙台方面"
+    "inboundShort": "上り（福島方面）",
+    "outboundShort": "下り（仙台方面）"
 },
   stations: TOHOKU_FUKUSHIMA_SENDAI_STATIONS,
   trackSegments: TOHOKU_FUKUSHIMA_SENDAI_TRACK_SEGMENTS,

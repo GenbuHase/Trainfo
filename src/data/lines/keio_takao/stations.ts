@@ -57,6 +57,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -85,6 +86,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -115,6 +117,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
       "limited_exp",
       "liner"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -143,6 +146,7 @@ export const KEIO_TAKAO_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

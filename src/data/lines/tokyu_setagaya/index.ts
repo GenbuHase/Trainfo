@@ -21,8 +21,8 @@ export const tokyuSetagayaLine: LineDefinition = {
     "outbound": "下高井戸方面",
     "inboundFull": "上り 三軒茶屋方面",
     "outboundFull": "下り 下高井戸方面",
-    "inboundShort": "三軒茶屋方面",
-    "outboundShort": "下高井戸方面"
+    "inboundShort": "上り（三軒茶屋方面）",
+    "outboundShort": "下り（下高井戸方面）"
 },
   stations: TOKYU_SETAGAYA_STATIONS,
   trackSegments: TOKYU_SETAGAYA_TRACK_SEGMENTS,

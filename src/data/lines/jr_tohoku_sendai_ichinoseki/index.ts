@@ -17,8 +17,8 @@ export const tohokuSendaiIchinosekiLine: LineDefinition = {
     "outbound": "小牛田・一ノ関方面",
     "inboundFull": "上り 塩釜・仙台方面",
     "outboundFull": "下り 小牛田・一ノ関方面",
-    "inboundShort": "仙台方面",
-    "outboundShort": "一ノ関方面"
+    "inboundShort": "上り（仙台方面）",
+    "outboundShort": "下り（一ノ関方面）"
 },
   stations: TOHOKU_SENDAI_ICHINOSEKI_STATIONS,
   trackSegments: TOHOKU_SENDAI_ICHINOSEKI_TRACK_SEGMENTS,

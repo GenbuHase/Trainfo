@@ -67,6 +67,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"
@@ -132,7 +133,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
       "inbound": "2番線",
       "outbound": "1番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "MM-05",
@@ -162,7 +163,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
       "inbound": "2番線",
       "outbound": "1番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "MM-06",

@@ -17,8 +17,8 @@ export const yokosukaLine: LineDefinition = {
     'outbound': '横浜・逗子・久里浜方面',
     'inboundFull': '上り 品川・東京・千葉方面',
     'outboundFull': '下り 横浜・逗子・久里浜方面',
-    'inboundShort': '東京方面',
-    'outboundShort': '久里浜方面'
+    'inboundShort': '上り（東京方面）',
+    'outboundShort': '下り（久里浜方面）'
 },
   stations: YOKOSUKA_STATIONS,
   trackSegments: YOKOSUKA_TRACK_SEGMENTS,

@@ -109,7 +109,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,

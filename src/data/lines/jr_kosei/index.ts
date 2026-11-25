@@ -17,8 +17,8 @@ export const jrKoseiLine: LineDefinition = {
   "outbound": "近江今津・近江塩津・敦賀方面",
   "inboundFull": "上り 京都・大阪方面",
   "outboundFull": "下り 近江今津・近江塩津・敦賀方面",
-  "inboundShort": "京都方面",
-  "outboundShort": "近江塩津方面"
+  "inboundShort": "上り（京都方面）",
+  "outboundShort": "下り（近江塩津方面）"
 },
   stations: JR_KOSEI_STATIONS,
   trackSegments: JR_KOSEI_TRACK_SEGMENTS,

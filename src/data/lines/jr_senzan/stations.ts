@@ -256,7 +256,7 @@ export const SENZAN_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -338,7 +338,7 @@ export const SENZAN_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -420,7 +420,7 @@ export const SENZAN_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

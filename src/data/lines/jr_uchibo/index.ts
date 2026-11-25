@@ -17,8 +17,8 @@ export const uchiboLine: LineDefinition = {
   "outbound": "下り 木更津・館山方面",
   "inboundFull": "上り 蘇我・千葉・東京方面",
   "outboundFull": "下り 木更津・君津・館山・安房鴨川方面",
-  "inboundShort": "蘇我・千葉方面",
-  "outboundShort": "館山方面"
+  "inboundShort": "上り（蘇我・千葉方面）",
+  "outboundShort": "下り（館山方面）"
 },
   stations: UCHIBO_STATIONS,
   trackSegments: UCHIBO_TRACK_SEGMENTS,

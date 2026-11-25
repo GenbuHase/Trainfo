@@ -124,7 +124,7 @@ export const JR_KISHIN_STATIONS: Station[] = [
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,

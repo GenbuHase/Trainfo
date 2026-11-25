@@ -21,8 +21,8 @@ export const keioLineLine: LineDefinition = {
     "outbound": "府中・高幡不動・京王八王子方面",
     "inboundFull": "上り 調布・明大前・新宿方面",
     "outboundFull": "下り 府中・高幡不動・京王八王子方面",
-    "inboundShort": "調布",
-    "outboundShort": "府中"
+    "inboundShort": "上り（新宿方面）",
+    "outboundShort": "下り（京王八王子方面）"
 },
   stations: KEIO_LINE_STATIONS,
   trackSegments: KEIO_LINE_TRACK_SEGMENTS,

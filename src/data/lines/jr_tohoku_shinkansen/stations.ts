@@ -149,7 +149,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "yamabiko",
       "nasuno"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -212,7 +212,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "yamabiko",
       "nasuno"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -242,7 +242,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "yamabiko",
       "nasuno"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -407,7 +407,7 @@ export const TOHOKU_SHINKANSEN_STATIONS: Station[] = [
       "yamabiko",
       "komachi"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,

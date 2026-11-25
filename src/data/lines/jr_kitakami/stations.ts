@@ -276,7 +276,7 @@ export const KITAKAMI_STATIONS: Station[] = [
       "rapid",
       "substitution_bus"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

@@ -96,6 +96,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -123,6 +124,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -151,6 +153,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -178,6 +181,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -205,6 +209,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -232,6 +237,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -335,6 +341,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -362,6 +369,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -389,6 +397,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -416,6 +425,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -443,6 +453,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -474,6 +485,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -501,6 +513,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -528,6 +541,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -558,6 +572,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -585,6 +600,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -612,6 +628,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -644,6 +661,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "limited_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -671,6 +689,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -701,6 +720,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -728,6 +748,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -793,6 +814,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -823,6 +845,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -855,6 +878,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "limited_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -885,6 +909,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -916,6 +941,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -947,6 +973,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1012,6 +1039,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1044,6 +1072,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "rapid_exp",
       "limited_exp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1075,6 +1104,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1106,6 +1136,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1137,6 +1168,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -1168,6 +1200,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

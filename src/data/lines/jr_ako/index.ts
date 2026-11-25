@@ -17,8 +17,8 @@ export const jrAkoLine: LineDefinition = {
   "outbound": "日生・西大寺・岡山方面",
   "inboundFull": "上り 播州赤穂・相生・姫路方面",
   "outboundFull": "下り 日生・西大寺・岡山方面",
-  "inboundShort": "相生方面",
-  "outboundShort": "東岡山方面"
+  "inboundShort": "上り（相生方面）",
+  "outboundShort": "下り（東岡山方面）"
 },
   stations: JR_AKO_STATIONS,
   trackSegments: JR_AKO_TRACK_SEGMENTS,

@@ -21,8 +21,8 @@ export const jrChuoTatsunoLine: LineDefinition = {
     "outbound": "辰野・塩尻方面",
     "inboundFull": "上り 辰野・岡谷・上諏訪方面",
     "outboundFull": "下り 辰野・塩尻・松本方面",
-    "inboundShort": "岡谷方面",
-    "outboundShort": "塩尻方面"
+    "inboundShort": "上り（岡谷方面）",
+    "outboundShort": "下り（塩尻方面）"
 },
   stations: JR_CHUO_TATSUNO_STATIONS,
   trackSegments: JR_CHUO_TATSUNO_TRACK_SEGMENTS,

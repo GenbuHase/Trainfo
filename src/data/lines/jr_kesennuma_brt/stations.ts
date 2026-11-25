@@ -160,7 +160,7 @@ export const KESENNUMA_BRT_STATIONS: Station[] = [
     "stoppingTypes": [
       "brt"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

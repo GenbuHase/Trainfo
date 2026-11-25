@@ -16,12 +16,12 @@ export const shinonoiLine: LineDefinition = {
     [36.680, 138.220], // 長野周辺
   ],
   directionNames: {
-    inbound: '松本・塩尻方面',
-    outbound: '松本・篠ノ井・長野方面',
-    inboundFull: '上り 松本・塩尻・名古屋方面',
-    outboundFull: '下り 松本・篠ノ井・長野方面',
-    inboundShort: '松本・塩尻方面',
-    outboundShort: '松本・長野方面',
+    inbound: '塩尻方面',
+    outbound: '篠ノ井方面',
+    inboundFull: '上り 塩尻方面',
+    outboundFull: '下り 篠ノ井方面',
+    inboundShort: '上り（塩尻方面）',
+    outboundShort: '下り（篠ノ井方面）',
   },
   stations: SHINONOI_STATIONS,
   trackSegments: SHINONOI_TRACK_SEGMENTS,

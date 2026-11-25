@@ -17,8 +17,8 @@ export const kururiLine: LineDefinition = {
   "outbound": "下り 久留里・上総亀山方面",
   "inboundFull": "上り 木更津方面",
   "outboundFull": "下り 久留里・上総亀山方面",
-  "inboundShort": "木更津方面",
-  "outboundShort": "上総亀山方面"
+  "inboundShort": "上り（木更津方面）",
+  "outboundShort": "下り（上総亀山方面）"
 },
   stations: KURURI_STATIONS,
   trackSegments: KURURI_TRACK_SEGMENTS,

@@ -48,7 +48,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -104,7 +104,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -160,7 +160,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -311,7 +311,7 @@ export const SENDAI_SUBWAY_TOZAI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

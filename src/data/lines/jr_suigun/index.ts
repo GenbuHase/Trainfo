@@ -21,8 +21,8 @@ export const jrSuigunLine: LineDefinition = {
     "outbound": "常陸太田・郡山方面",
     "inboundFull": "上り 常陸大子・水戸方面",
     "outboundFull": "下り 常陸太田・郡山方面",
-    "inboundShort": "常陸大子",
-    "outboundShort": "常陸太田"
+    "inboundShort": "上り（水戸方面）",
+    "outboundShort": "下り（常陸太田・郡山方面）"
 },
   stations: JR_SUIGUN_STATIONS,
   trackSegments: JR_SUIGUN_TRACK_SEGMENTS,

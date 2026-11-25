@@ -17,8 +17,8 @@ export const jrKiseiKameyamaShinguLine: LineDefinition = {
     "outbound": "松阪・尾鷲・新宮方面",
     "inboundFull": "上り 津・亀山方面",
     "outboundFull": "下り 松阪・尾鷲・新宮方面",
-    "inboundShort": "亀山方面",
-    "outboundShort": "新宮方面"
+    "inboundShort": "上り（亀山方面）",
+    "outboundShort": "下り（新宮方面）"
 },
   stations: JR_KISEI_KAMEYAMA_SHINGU_STATIONS,
   trackSegments: JR_KISEI_KAMEYAMA_SHINGU_TRACK_SEGMENTS,

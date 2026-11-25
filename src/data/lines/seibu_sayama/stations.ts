@@ -55,6 +55,7 @@ export const SEIBU_SAYAMA_STATIONS: Station[] = [
       "local",
       "semi_exp"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

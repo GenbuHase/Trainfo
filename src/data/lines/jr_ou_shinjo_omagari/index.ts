@@ -17,8 +17,8 @@ export const ouShinjoOmagariLine: LineDefinition = {
   "outbound": "大曲方面",
   "inboundFull": "上り 新庄方面",
   "outboundFull": "下り 大曲方面",
-  "inboundShort": "新庄方面",
-  "outboundShort": "大曲方面"
+  "inboundShort": "上り（新庄方面）",
+  "outboundShort": "下り（大曲方面）"
 },
   stations: OU_SHINJO_OMAGARI_STATIONS,
   trackSegments: OU_SHINJO_OMAGARI_TRACK_SEGMENTS,

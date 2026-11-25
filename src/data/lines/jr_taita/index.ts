@@ -17,8 +17,8 @@ export const jrTaitaLine: LineDefinition = {
     "outbound": "美濃太田方面",
     "inboundFull": "上り 多治見方面",
     "outboundFull": "下り 美濃太田方面",
-    "inboundShort": "多治見方面",
-    "outboundShort": "美濃太田方面"
+    "inboundShort": "上り（多治見方面）",
+    "outboundShort": "下り（美濃太田方面）"
 },
   stations: JR_TAITA_STATIONS,
   trackSegments: JR_TAITA_TRACK_SEGMENTS,

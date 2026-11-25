@@ -17,8 +17,8 @@ export const jrMinobuLine: LineDefinition = {
     "outbound": "身延・甲府方面",
     "inboundFull": "上り 富士宮・富士方面",
     "outboundFull": "下り 身延・甲府方面",
-    "inboundShort": "富士方面",
-    "outboundShort": "甲府方面"
+    "inboundShort": "上り（富士方面）",
+    "outboundShort": "下り（甲府方面）"
 },
   stations: JR_MINOBU_STATIONS,
   trackSegments: JR_MINOBU_TRACK_SEGMENTS,

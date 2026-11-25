@@ -341,7 +341,7 @@ export const JR_NARA_STATIONS: Station[] = [
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

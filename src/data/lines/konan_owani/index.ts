@@ -18,8 +18,8 @@ export const konanOwaniLine: LineDefinition = {
     "outbound": "津軽大沢・大鰐方面",
     "inboundFull": "上り 中央弘前方面",
     "outboundFull": "下り 大鰐方面",
-    "inboundShort": "中央弘前方面",
-    "outboundShort": "大鰐方面"
+    "inboundShort": "上り（中央弘前方面）",
+    "outboundShort": "下り（大鰐方面）"
 },
   stations: KONAN_OWANI_STATIONS,
   trackSegments: KONAN_OWANI_TRACK_SEGMENTS,

@@ -409,7 +409,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -470,7 +470,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -615,7 +615,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -672,7 +672,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "local",
       "homeliner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -729,7 +729,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "local",
       "homeliner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -876,7 +876,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "local",
       "homeliner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -933,7 +933,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "local",
       "homeliner"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1198,7 +1198,7 @@ export const TOKAIDO_ATAMI_TOYOHASHI_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,

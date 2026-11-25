@@ -85,6 +85,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       ticketOffice: true,
     },
     stoppingTypes: ['local', 'rapid'],
+    isMajor: false,
     platforms: {
       inbound: '1番線',
       outbound: '2番線',
@@ -119,7 +120,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       inbound: '5〜8番線',
       outbound: '5〜8番線',
     },
-    isMajor: true,
+    isMajor: false,
   },
   {
     id: 'JS-18',
@@ -146,6 +147,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
       ticketOffice: true,
     },
     stoppingTypes: ['local', 'rapid'],
+    isMajor: false,
     platforms: {
       inbound: '3番線',
       outbound: '4番線',

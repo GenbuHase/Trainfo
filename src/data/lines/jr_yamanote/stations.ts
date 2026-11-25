@@ -137,6 +137,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "stationNumber": "JY-04"
   },
   {
@@ -206,6 +207,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-06"
   },
   {
@@ -270,6 +272,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-08"
   },
   {
@@ -300,7 +303,7 @@ export const YAMANOTE_STATIONS: Station[] = [
       "local"
     ],
     "stationNumber": "JY-09",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JY-10",
@@ -329,6 +332,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-10"
   },
   {
@@ -358,6 +362,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-11"
   },
   {
@@ -387,6 +392,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-12"
   },
   {
@@ -450,6 +456,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-14"
   },
   {
@@ -508,6 +515,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-16"
   },
   {
@@ -579,6 +587,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-18"
   },
   {
@@ -609,6 +618,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "stationNumber": "JY-19"
   },
   {
@@ -741,6 +751,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-23"
   },
   {
@@ -840,6 +851,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-26"
   },
   {
@@ -871,6 +883,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JY-27"
   },
   {
@@ -973,6 +986,7 @@ export const YAMANOTE_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": true,
     "stationNumber": "JY-30"
   }
 ];

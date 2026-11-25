@@ -65,6 +65,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "3番線",
       "outbound": "4番線"
@@ -214,6 +215,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -243,6 +245,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -305,6 +308,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -332,6 +336,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -360,6 +365,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -387,6 +393,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -414,6 +421,7 @@ export const SAIKYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -474,6 +482,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -502,6 +511,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -530,6 +540,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -558,6 +569,7 @@ export const SAIKYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

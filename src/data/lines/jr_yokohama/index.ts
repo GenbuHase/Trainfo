@@ -17,8 +17,8 @@ export const yokohamaLine: LineDefinition = {
   "outbound": "下り 町田・橋本・八王子方面",
   "inboundFull": "上り 新横浜・東神奈川・桜木町・磯子・大船方面",
   "outboundFull": "下り 中山・町田・橋本・八王子方面",
-  "inboundShort": "東神奈川方面",
-  "outboundShort": "八王子方面"
+  "inboundShort": "上り（東神奈川方面）",
+  "outboundShort": "下り（八王子方面）"
 },
   stations: YOKOHAMA_STATIONS,
   trackSegments: YOKOHAMA_TRACK_SEGMENTS,

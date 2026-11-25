@@ -70,6 +70,7 @@ export const KEIYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JE-02"
   },
   {
@@ -97,6 +98,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-03"
   },
   {
@@ -124,6 +126,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-04"
   },
   {
@@ -183,6 +186,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-06"
   },
   {
@@ -243,7 +247,7 @@ export const KEIYO_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JE-08",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JE-09",
@@ -270,6 +274,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-09"
   },
   {
@@ -297,6 +302,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-10"
   },
   {
@@ -355,6 +361,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-12"
   },
   {
@@ -382,6 +389,7 @@ export const KEIYO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JE-13"
   },
   {
@@ -440,6 +448,7 @@ export const KEIYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JE-15"
   },
   {
@@ -468,6 +477,7 @@ export const KEIYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JE-16"
   },
   {
@@ -498,6 +508,7 @@ export const KEIYO_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": true,
     "stationNumber": "JE-17"
   },
   {

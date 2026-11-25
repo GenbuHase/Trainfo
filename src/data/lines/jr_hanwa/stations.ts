@@ -261,7 +261,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -413,7 +413,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -630,7 +630,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -753,7 +753,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -884,7 +884,7 @@ export const JR_HANWA_STATIONS: Station[] = [
       "semi_rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": true,

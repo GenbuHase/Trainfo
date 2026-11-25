@@ -17,8 +17,8 @@ export const itoLine: LineDefinition = {
     'outbound': '伊東・伊豆急下田方面',
     'inboundFull': '上り 熱海・東京方面',
     'outboundFull': '下り 伊東・伊豆急下田方面',
-    'inboundShort': '熱海方面',
-    'outboundShort': '伊東方面'
+    'inboundShort': '上り（熱海方面）',
+    'outboundShort': '下り（伊東方面）'
 },
   stations: ITO_STATIONS,
   trackSegments: ITO_TRACK_SEGMENTS,

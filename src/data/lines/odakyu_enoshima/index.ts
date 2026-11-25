@@ -25,7 +25,7 @@ export const odakyuEnoshimaLine: LineDefinition = {
     outbound: '藤沢・片瀬江ノ島方面',
     inboundFull: '上り 相模大野・町田・新宿方面',
     outboundFull: '下り 藤沢・片瀬江ノ島方面',
-    inboundShort: '上り (相模大野方面)',
-    outboundShort: '下り (片瀬江ノ島方面)',
+    inboundShort: '上り（相模大野方面）',
+    outboundShort: '下り（片瀬江ノ島方面）',
   },
 };

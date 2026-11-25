@@ -17,8 +17,8 @@ export const tokaidoMinoakasakaLine: LineDefinition = {
       "outbound": "美濃赤坂方面",
       "inboundFull": "上り 大垣方面",
       "outboundFull": "下り 美濃赤坂方面",
-      "inboundShort": "大垣方面",
-      "outboundShort": "美濃赤坂方面"
+      "inboundShort": "上り（大垣方面）",
+      "outboundShort": "下り（美濃赤坂方面）"
   },
   stations: TOKAIDO_MINOAKASAKA_STATIONS,
   trackSegments: TOKAIDO_MINOAKASAKA_TRACK_SEGMENTS,

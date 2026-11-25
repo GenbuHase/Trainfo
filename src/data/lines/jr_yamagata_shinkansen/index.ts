@@ -17,8 +17,8 @@ export const yamagataShinkansenLine: LineDefinition = {
   "outbound": "山形・新庄方面",
   "inboundFull": "上り 福島・東京方面",
   "outboundFull": "下り 山形・新庄方面",
-  "inboundShort": "東京方面",
-  "outboundShort": "新庄方面"
+  "inboundShort": "上り（東京方面）",
+  "outboundShort": "下り（新庄方面）"
 },
   stations: YAMAGATA_SHINKANSEN_STATIONS,
   trackSegments: YAMAGATA_SHINKANSEN_TRACK_SEGMENTS,

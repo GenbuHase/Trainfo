@@ -17,8 +17,8 @@ export const tobuKameidoLine: LineDefinition = {
       "outbound": "亀戸方面",
       "inboundFull": "上り 曳舟方面",
       "outboundFull": "下り 亀戸方面",
-      "inboundShort": "曳舟方面",
-      "outboundShort": "亀戸方面"
+      "inboundShort": "上り（曳舟方面）",
+      "outboundShort": "下り（亀戸方面）"
   },
   stations: TOBU_KAMEIDO_STATIONS,
   trackSegments: TOBU_KAMEIDO_TRACK_SEGMENTS,

@@ -18,8 +18,8 @@ export const sendaiSubwayTozaiLine: LineDefinition = {
     "outbound": "仙台・荒井方面",
     "inboundFull": "西行 仙台・八木山動物公園方面",
     "outboundFull": "東行 仙台・荒井方面",
-    "inboundShort": "八木山動物公園方面",
-    "outboundShort": "荒井方面"
+    "inboundShort": "上り（八木山動物公園方面）",
+    "outboundShort": "下り（荒井方面）"
 },
   stations: SENDAI_SUBWAY_TOZAI_STATIONS,
   trackSegments: SENDAI_SUBWAY_TOZAI_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const jrWadamisakiLine: LineDefinition = {
   "outbound": "和田岬方面",
   "inboundFull": "上り 兵庫方面",
   "outboundFull": "下り 和田岬方面",
-  "inboundShort": "兵庫方面",
-  "outboundShort": "和田岬方面"
+  "inboundShort": "上り（兵庫方面）",
+  "outboundShort": "下り（和田岬方面）"
 },
   stations: JR_WADAMISAKI_STATIONS,
   trackSegments: JR_WADAMISAKI_TRACK_SEGMENTS,

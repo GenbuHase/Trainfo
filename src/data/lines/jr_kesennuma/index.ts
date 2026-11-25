@@ -17,8 +17,8 @@ export const kesennumaLine: LineDefinition = {
     "outbound": "柳津方面",
     "inboundFull": "上り 前谷地・小牛田方面",
     "outboundFull": "下り 柳津方面",
-    "inboundShort": "上り (前谷地方面)",
-    "outboundShort": "下り (柳津方面)"
+    "inboundShort": "上り（前谷地方面）",
+    "outboundShort": "下り（柳津方面）"
 },
   stations: KESENNUMA_STATIONS,
   trackSegments: KESENNUMA_TRACK_SEGMENTS,

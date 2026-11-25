@@ -410,7 +410,7 @@ export const YONESAKA_STATIONS: Station[] =  [
     "stoppingTypes": [
       "substitution_bus"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

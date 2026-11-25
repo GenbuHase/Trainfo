@@ -17,8 +17,8 @@ export const sendaiAirportLine: LineDefinition = {
     "outbound": "仙台空港方面",
     "inboundFull": "上り 名取・仙台方面",
     "outboundFull": "下り 仙台空港方面",
-    "inboundShort": "上り (名取方面)",
-    "outboundShort": "下り (仙台空港方面)"
+    "inboundShort": "上り（名取方面）",
+    "outboundShort": "下り（仙台空港方面）"
 },
   stations: SENDAI_AIRPORT_STATIONS,
   trackSegments: SENDAI_AIRPORT_TRACK_SEGMENTS,

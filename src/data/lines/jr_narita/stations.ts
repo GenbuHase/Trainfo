@@ -57,7 +57,8 @@ export const NARITA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-03",
@@ -115,7 +116,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-05",
@@ -141,7 +143,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-06",
@@ -167,7 +170,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-07",
@@ -193,7 +197,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-08",
@@ -251,7 +256,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": true
   },
   {
     "id": "NR-10",
@@ -277,7 +283,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-11",
@@ -303,7 +310,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-12",
@@ -329,7 +337,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-13",
@@ -355,7 +364,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-14",
@@ -381,7 +391,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-15",
@@ -407,7 +418,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-16",
@@ -435,7 +447,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": true
   },
   {
     "id": "NR-17",
@@ -587,7 +600,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-22",
@@ -613,7 +627,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-23",
@@ -639,7 +654,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-24",
@@ -665,7 +681,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-25",
@@ -691,7 +708,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-26",
@@ -717,7 +735,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-27",
@@ -743,7 +762,8 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   },
   {
     "id": "NR-28",
@@ -769,6 +789,7 @@ export const NARITA_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local"
-    ]
+    ],
+    "isMajor": false
   }
 ];

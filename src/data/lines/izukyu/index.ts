@@ -17,8 +17,8 @@ export const izukyuLine: LineDefinition = {
   "outbound": "伊豆急下田方面",
   "inboundFull": "上り 伊東・熱海・東京方面",
   "outboundFull": "下り 伊豆急下田方面",
-  "inboundShort": "熱海方面",
-  "outboundShort": "下田方面"
+  "inboundShort": "上り（熱海方面）",
+  "outboundShort": "下り（下田方面）"
 },
   stations: IZUKYU_STATIONS,
   trackSegments: IZUKYU_TRACK_SEGMENTS,

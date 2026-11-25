@@ -18,8 +18,8 @@ export const fukushimaIizakaLine: LineDefinition = {
     "outbound": "桜水・飯坂温泉方面",
     "inboundFull": "上り 福島方面",
     "outboundFull": "下り 飯坂温泉方面",
-    "inboundShort": "福島方面",
-    "outboundShort": "飯坂温泉方面"
+    "inboundShort": "上り（福島方面）",
+    "outboundShort": "下り（飯坂温泉方面）"
 },
   stations: FUKUSHIMA_IIZAKA_STATIONS,
   trackSegments: FUKUSHIMA_IIZAKA_TRACK_SEGMENTS,

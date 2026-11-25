@@ -21,8 +21,8 @@ export const kantoJosoLine: LineDefinition = {
     "outbound": "水海道・下館方面",
     "inboundFull": "上り 守谷・取手方面",
     "outboundFull": "下り 水海道・下館方面",
-    "inboundShort": "守谷",
-    "outboundShort": "水海道"
+    "inboundShort": "上り（取手方面）",
+    "outboundShort": "下り（下館方面）"
 },
   stations: KANTO_JOSO_STATIONS,
   trackSegments: KANTO_JOSO_TRACK_SEGMENTS,

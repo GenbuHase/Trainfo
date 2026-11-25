@@ -76,7 +76,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -267,7 +267,7 @@ export const YAMAGATA_FLOWER_NAGAI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

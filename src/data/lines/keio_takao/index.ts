@@ -21,8 +21,8 @@ export const keioTakaoLine: LineDefinition = {
     "outbound": "めじろ台・高尾山口方面",
     "inboundFull": "上り 北野・新宿方面",
     "outboundFull": "下り めじろ台・高尾山口方面",
-    "inboundShort": "北野",
-    "outboundShort": "めじろ台"
+    "inboundShort": "上り（新宿方面）",
+    "outboundShort": "下り（高尾山口方面）"
 },
   stations: KEIO_TAKAO_STATIONS,
   trackSegments: KEIO_TAKAO_TRACK_SEGMENTS,

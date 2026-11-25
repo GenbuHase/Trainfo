@@ -18,8 +18,8 @@ export const konanKonanLine: LineDefinition = {
     "outbound": "平賀・黒石方面",
     "inboundFull": "上り 平賀・弘前方面",
     "outboundFull": "下り 平賀・黒石方面",
-    "inboundShort": "弘前方面",
-    "outboundShort": "黒石方面"
+    "inboundShort": "上り（弘前方面）",
+    "outboundShort": "下り（黒石方面）"
 },
   stations: KONAN_KONAN_STATIONS,
   trackSegments: KONAN_KONAN_TRACK_SEGMENTS,

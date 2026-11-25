@@ -954,7 +954,7 @@ export const JOETSU_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

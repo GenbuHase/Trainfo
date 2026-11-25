@@ -1196,7 +1196,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "special_rapid",
       "section_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": false,

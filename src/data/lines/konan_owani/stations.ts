@@ -216,7 +216,7 @@ export const KONAN_OWANI_STATIONS: Station[] =  [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

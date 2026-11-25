@@ -21,8 +21,8 @@ export const chibaMonorail1Line: LineDefinition = {
     "outbound": "千葉・県庁前方面",
     "inboundFull": "上り 千葉みなと方面",
     "outboundFull": "下り 千葉・県庁前方面",
-    "inboundShort": "千葉みなと方面",
-    "outboundShort": "千葉"
+    "inboundShort": "上り（千葉みなと方面）",
+    "outboundShort": "下り（県庁前方面）"
 },
   stations: CHIBA_MONORAIL_1_STATIONS,
   trackSegments: CHIBA_MONORAIL_1_TRACK_SEGMENTS,

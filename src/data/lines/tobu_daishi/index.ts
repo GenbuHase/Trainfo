@@ -17,8 +17,8 @@ export const tobuDaishiLine: LineDefinition = {
       "outbound": "大師前方面",
       "inboundFull": "上り 西新井方面",
       "outboundFull": "下り 大師前方面",
-      "inboundShort": "西新井方面",
-      "outboundShort": "大師前方面"
+      "inboundShort": "上り（西新井方面）",
+      "outboundShort": "下り（大師前方面）"
   },
   stations: TOBU_DAISHI_STATIONS,
   trackSegments: TOBU_DAISHI_TRACK_SEGMENTS,

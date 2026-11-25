@@ -17,8 +17,8 @@ export const fujikyuLine: LineDefinition = {
   "outbound": "富士山・河口湖方面",
   "inboundFull": "上り 大月・新宿・東京方面",
   "outboundFull": "下り 富士山・河口湖方面",
-  "inboundShort": "大月方面",
-  "outboundShort": "河口湖方面"
+  "inboundShort": "上り（大月方面）",
+  "outboundShort": "下り（河口湖方面）"
 },
   stations: FUJIKYU_STATIONS,
   trackSegments: FUJIKYU_TRACK_SEGMENTS,

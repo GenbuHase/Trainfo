@@ -21,8 +21,8 @@ export const choshiLine: LineDefinition = {
     "outbound": "犬吠・外川方面",
     "inboundFull": "上り 銚子方面",
     "outboundFull": "下り 犬吠・外川方面",
-    "inboundShort": "銚子方面",
-    "outboundShort": "犬吠"
+    "inboundShort": "上り（銚子方面）",
+    "outboundShort": "下り（外川方面）"
 },
   stations: CHOSHI_STATIONS,
   trackSegments: CHOSHI_TRACK_SEGMENTS,

@@ -17,8 +17,8 @@ export const takasakiLine: LineDefinition = {
     'outbound': '熊谷・高崎・前橋方面',
     'inboundFull': '上り 大宮・上野方面',
     'outboundFull': '下り 熊谷・高崎・前橋方面',
-    'inboundShort': '上野方面',
-    'outboundShort': '高崎方面'
+    'inboundShort': '上り（上野方面）',
+    'outboundShort': '下り（高崎方面）'
   },
   stations: TAKASAKI_STATIONS,
   trackSegments: TAKASAKI_TRACK_SEGMENTS,

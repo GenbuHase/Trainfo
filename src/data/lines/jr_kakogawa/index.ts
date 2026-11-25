@@ -17,8 +17,8 @@ export const jrKakogawaLine: LineDefinition = {
   "outbound": "西脇市・谷川方面",
   "inboundFull": "上り 厄神・加古川方面",
   "outboundFull": "下り 西脇市・谷川方面",
-  "inboundShort": "加古川方面",
-  "outboundShort": "谷川方面"
+  "inboundShort": "上り（加古川方面）",
+  "outboundShort": "下り（谷川方面）"
 },
   stations: JR_KAKOGAWA_STATIONS,
   trackSegments: JR_KAKOGAWA_TRACK_SEGMENTS,

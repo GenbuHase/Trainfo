@@ -80,7 +80,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -436,7 +436,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"
@@ -627,7 +627,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"
@@ -681,7 +681,7 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"

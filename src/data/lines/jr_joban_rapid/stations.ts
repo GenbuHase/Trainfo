@@ -260,7 +260,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "4・5番線",
       "outbound": "1・2番線"

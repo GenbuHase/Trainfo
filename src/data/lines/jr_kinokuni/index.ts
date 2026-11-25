@@ -17,8 +17,8 @@ export const jrKinokuniLine: LineDefinition = {
   "outbound": "御坊・白浜・新宮方面",
   "inboundFull": "上り 和歌山・天王寺・大阪方面",
   "outboundFull": "下り 御坊・白浜・新宮方面",
-  "inboundShort": "和歌山方面",
-  "outboundShort": "新宮方面"
+  "inboundShort": "上り（和歌山方面）",
+  "outboundShort": "下り（新宮方面）"
 },
   stations: JR_KINOKUNI_STATIONS,
   trackSegments: JR_KINOKUNI_TRACK_SEGMENTS,

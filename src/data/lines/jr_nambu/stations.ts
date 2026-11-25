@@ -60,6 +60,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-02"
   },
   {
@@ -87,6 +88,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-03"
   },
   {
@@ -119,7 +121,7 @@ export const NAMBU_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JN-04",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JN-05",
@@ -146,6 +148,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-05"
   },
   {
@@ -173,6 +176,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-06"
   },
   {
@@ -236,6 +240,7 @@ export const NAMBU_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JN-08"
   },
   {
@@ -264,6 +269,7 @@ export const NAMBU_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JN-09"
   },
   {
@@ -323,6 +329,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-11"
   },
   {
@@ -350,6 +357,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-12"
   },
   {
@@ -377,6 +385,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-13"
   },
   {
@@ -435,6 +444,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-15"
   },
   {
@@ -493,6 +503,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-17"
   },
   {
@@ -521,6 +532,7 @@ export const NAMBU_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
+    "isMajor": false,
     "stationNumber": "JN-18"
   },
   {
@@ -548,6 +560,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-19"
   },
   {
@@ -637,6 +650,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-22"
   },
   {
@@ -664,6 +678,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-23"
   },
   {
@@ -691,6 +706,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-24"
   },
   {
@@ -718,6 +734,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-25"
   },
   {
@@ -782,6 +799,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-51"
   },
   {
@@ -809,6 +827,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-52"
   },
   {
@@ -836,6 +855,7 @@ export const NAMBU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
+    "isMajor": false,
     "stationNumber": "JN-53"
   },
   {

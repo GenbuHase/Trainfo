@@ -79,7 +79,7 @@ export const TOKAIDO_MINOAKASAKA_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": false,
       "restroom": false,

@@ -17,8 +17,8 @@ export const sobuMainLine: LineDefinition = {
   "outbound": "下り 成東・銚子方面",
   "inboundFull": "上り 佐倉・千葉・東京方面",
   "outboundFull": "下り 八街・成東・銚子方面",
-  "inboundShort": "千葉方面",
-  "outboundShort": "銚子方面"
+  "inboundShort": "上り（千葉方面）",
+  "outboundShort": "下り（銚子方面）"
 },
   stations: SOBU_MAIN_STATIONS,
   trackSegments: SOBU_MAIN_TRACK_SEGMENTS,

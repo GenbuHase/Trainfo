@@ -21,8 +21,8 @@ export const hakoneTozanLine: LineDefinition = {
     "outbound": "大平台・強羅方面",
     "inboundFull": "上り 箱根湯本・小田原方面",
     "outboundFull": "下り 大平台・強羅方面",
-    "inboundShort": "箱根湯本",
-    "outboundShort": "大平台"
+    "inboundShort": "上り（小田原方面）",
+    "outboundShort": "下り（強羅方面）"
 },
   stations: HAKONE_TOZAN_STATIONS,
   trackSegments: HAKONE_TOZAN_TRACK_SEGMENTS,

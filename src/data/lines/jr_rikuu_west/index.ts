@@ -17,8 +17,8 @@ export const rikuuWestLine: LineDefinition = {
     "outbound": "古口・余目方面",
     "inboundFull": "上り 古口・新庄方面",
     "outboundFull": "下り 古口・余目・酒田方面",
-    "inboundShort": "新庄方面",
-    "outboundShort": "余目・酒田方面"
+    "inboundShort": "上り（新庄方面）",
+    "outboundShort": "下り（余目・酒田方面）"
 },
   stations: RIKUU_WEST_STATIONS,
   trackSegments: RIKUU_WEST_TRACK_SEGMENTS,

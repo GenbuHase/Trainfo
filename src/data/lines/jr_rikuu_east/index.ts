@@ -17,8 +17,8 @@ export const rikuuEastLine: LineDefinition = {
     "outbound": "鳴子温泉・新庄方面",
     "inboundFull": "上り 鳴子温泉・古川・小牛田方面",
     "outboundFull": "下り 古川・鳴子温泉・新庄方面",
-    "inboundShort": "小牛田方面",
-    "outboundShort": "新庄方面"
+    "inboundShort": "上り（小牛田方面）",
+    "outboundShort": "下り（新庄方面）"
 },
   stations: RIKUU_EAST_STATIONS,
   trackSegments: RIKUU_EAST_TRACK_SEGMENTS,

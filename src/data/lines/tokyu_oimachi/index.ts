@@ -21,8 +21,8 @@ export const tokyuOimachiLine: LineDefinition = {
     "outbound": "二子玉川・溝の口方面",
     "inboundFull": "上り 自由が丘・大井町方面",
     "outboundFull": "下り 二子玉川・溝の口方面",
-    "inboundShort": "自由が丘",
-    "outboundShort": "二子玉川"
+    "inboundShort": "上り（大井町方面）",
+    "outboundShort": "下り（溝の口方面）"
 },
   stations: TOKYU_OIMACHI_STATIONS,
   trackSegments: TOKYU_OIMACHI_TRACK_SEGMENTS,

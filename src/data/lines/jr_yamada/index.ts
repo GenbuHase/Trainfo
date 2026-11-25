@@ -17,8 +17,8 @@ export const yamadaLine: LineDefinition = {
     "outbound": "上米内・茂市・宮古方面",
     "inboundFull": "上り 盛岡方面",
     "outboundFull": "下り 上米内・宮古方面",
-    "inboundShort": "上り (盛岡方面)",
-    "outboundShort": "下り (宮古方面)"
+    "inboundShort": "上り（盛岡方面）",
+    "outboundShort": "下り（宮古方面）"
 },
   stations: YAMADA_STATIONS,
   trackSegments: YAMADA_TRACK_SEGMENTS,

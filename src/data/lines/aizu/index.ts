@@ -17,8 +17,8 @@ export const aizuLine: LineDefinition = {
       "outbound": "会津若松方面",
       "inboundFull": "上り 会津高原尾瀬口・浅草方面",
       "outboundFull": "下り 会津若松方面",
-      "inboundShort": "尾瀬口方面",
-      "outboundShort": "会津若松方面"
+      "inboundShort": "上り（尾瀬口方面）",
+      "outboundShort": "下り（会津若松方面）"
   },
   stations: AIZU_STATIONS,
   trackSegments: AIZU_TRACK_SEGMENTS,

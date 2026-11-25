@@ -17,8 +17,8 @@ export const sensekiLine: LineDefinition = {
     "outbound": "松島海岸・石巻方面",
     "inboundFull": "上り 多賀城・仙台・あおば通方面",
     "outboundFull": "下り 多賀城・高城町・石巻方面",
-    "inboundShort": "あおば通方面",
-    "outboundShort": "石巻方面"
+    "inboundShort": "上り（あおば通方面）",
+    "outboundShort": "下り（石巻方面）"
 },
   stations: SENSEKI_STATIONS,
   trackSegments: SENSEKI_TRACK_SEGMENTS,

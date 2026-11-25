@@ -17,8 +17,8 @@ export const gotembaLine: LineDefinition = {
   "outbound": "沼津方面",
   "inboundFull": "上り 国府津方面",
   "outboundFull": "下り 沼津方面",
-  "inboundShort": "国府津方面",
-  "outboundShort": "沼津方面"
+  "inboundShort": "上り（国府津方面）",
+  "outboundShort": "下り（沼津方面）"
 },
   stations: GOTEMBA_STATIONS,
   trackSegments: GOTEMBA_TRACK_SEGMENTS,

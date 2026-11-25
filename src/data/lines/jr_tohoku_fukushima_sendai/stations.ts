@@ -296,7 +296,7 @@ export const TOHOKU_FUKUSHIMA_SENDAI_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

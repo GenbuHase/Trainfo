@@ -17,8 +17,8 @@ export const toganeLine: LineDefinition = {
   "outbound": "下り 東金・成東方面",
   "inboundFull": "上り 大網・千葉・東京方面",
   "outboundFull": "下り 東金・成東方面",
-  "inboundShort": "大網方面",
-  "outboundShort": "成東方面"
+  "inboundShort": "上り（大網方面）",
+  "outboundShort": "下り（成東方面）"
 },
   stations: TOGANE_STATIONS,
   trackSegments: TOGANE_TRACK_SEGMENTS,

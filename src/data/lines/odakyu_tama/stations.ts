@@ -58,6 +58,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -92,7 +93,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "OT-03",
@@ -117,6 +118,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -145,6 +147,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
       "local",
       "express"
     ],
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

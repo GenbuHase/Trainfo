@@ -17,8 +17,8 @@ export const tobuUrbanParkLine: LineDefinition = {
       "outbound": "柏・船橋方面",
       "inboundFull": "大宮方面",
       "outboundFull": "柏・船橋方面",
-      "inboundShort": "大宮方面",
-      "outboundShort": "船橋方面"
+      "inboundShort": "上り（大宮方面）",
+      "outboundShort": "下り（船橋方面）"
   },
   stations: TOBU_URBAN_PARK_STATIONS,
   trackSegments: TOBU_URBAN_PARK_TRACK_SEGMENTS,

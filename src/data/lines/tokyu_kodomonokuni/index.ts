@@ -21,8 +21,8 @@ export const tokyuKodomonokuniLine: LineDefinition = {
     "outbound": "こどもの国方面",
     "inboundFull": "上り 長津田方面",
     "outboundFull": "下り こどもの国方面",
-    "inboundShort": "長津田方面",
-    "outboundShort": "こどもの国方面"
+    "inboundShort": "上り（長津田方面）",
+    "outboundShort": "下り（こどもの国方面）"
 },
   stations: TOKYU_KODOMONOKUNI_STATIONS,
   trackSegments: TOKYU_KODOMONOKUNI_TRACK_SEGMENTS,

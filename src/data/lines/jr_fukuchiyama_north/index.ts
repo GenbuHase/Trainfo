@@ -17,8 +17,8 @@ export const jrFukuchiyamaNorthLine: LineDefinition = {
     "outbound": "谷川・福知山方面",
     "inboundFull": "上り 篠山口・三田・宝塚方面",
     "outboundFull": "下り 谷川・柏原・福知山方面",
-    "inboundShort": "篠山口方面",
-    "outboundShort": "福知山方面"
+    "inboundShort": "上り（篠山口方面）",
+    "outboundShort": "下り（福知山方面）"
 },
   stations: JR_FUKUCHIYAMA_NORTH_STATIONS,
   trackSegments: JR_FUKUCHIYAMA_NORTH_TRACK_SEGMENTS,

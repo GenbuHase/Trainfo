@@ -17,8 +17,8 @@ export const kesennumaBrtLine: LineDefinition = {
     "outbound": "志津川・本吉・気仙沼方面",
     "inboundFull": "上り 志津川・柳津・前谷地方面",
     "outboundFull": "下り 志津川・本吉・気仙沼方面",
-    "inboundShort": "上り (前谷地・柳津方面)",
-    "outboundShort": "下り (気仙沼方面)"
+    "inboundShort": "上り（前谷地・柳津方面）",
+    "outboundShort": "下り（気仙沼方面）"
 },
   stations: KESENNUMA_BRT_STATIONS,
   trackSegments: KESENNUMA_BRT_TRACK_SEGMENTS,
