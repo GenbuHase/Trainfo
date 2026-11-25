@@ -151,7 +151,7 @@ export const JR_KUSATSU_STATIONS: Station[] = [
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,

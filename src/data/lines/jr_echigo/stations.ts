@@ -566,7 +566,7 @@ export const JR_ECHIGO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -786,7 +786,7 @@ export const JR_ECHIGO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

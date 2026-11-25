@@ -58,7 +58,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -428,7 +428,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -609,7 +609,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -639,7 +639,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

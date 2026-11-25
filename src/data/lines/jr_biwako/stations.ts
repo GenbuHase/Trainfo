@@ -288,7 +288,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "new_rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -318,7 +318,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "new_rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -408,7 +408,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "new_rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -498,7 +498,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -528,7 +528,7 @@ export const JR_BIWAKO_STATIONS: Station[] = [
       "new_rapid",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,

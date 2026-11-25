@@ -386,7 +386,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.875311,
     "lng": 139.744293,
@@ -506,7 +506,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.868129,
     "lng": 139.858148,
@@ -595,7 +595,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "lineId": "jr_musashino",
     "lat": 35.838791,
     "lng": 139.903371,
@@ -835,7 +835,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR京葉線（東京方面）"
     ],
     "address": "千葉県船橋市若松二丁目",
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -875,7 +875,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "埼玉新都市交通ニューシャトル"
     ],
     "address": "埼玉県さいたま市大宮区錦町",
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "3番線",
       "outbound": "3番線"
@@ -974,7 +974,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.8116098,
     "lng": 139.9172261,
@@ -1006,7 +1006,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.50958,
     "lng": 139.67649,
@@ -1046,7 +1046,7 @@ export const MUSASHINO_STATIONS: Station[] = [
     "stoppingTypes": [
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "lineId": "jr_musashino",
     "lat": 35.4657932,
     "lng": 139.6222892,

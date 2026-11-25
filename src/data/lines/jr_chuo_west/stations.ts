@@ -228,7 +228,7 @@ export const JR_CHUO_WEST_STATIONS: Station[] = [
       "rapid",
       "semi_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,

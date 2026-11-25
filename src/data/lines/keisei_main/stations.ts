@@ -485,7 +485,7 @@ export const KEISEI_MAIN_STATIONS: Station[] = [
       "express",
       "rapid_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

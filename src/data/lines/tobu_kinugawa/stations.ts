@@ -233,7 +233,7 @@ export const TOBU_KINUGAWA_STATIONS: Station[] = [
       "limited_exp",
       "section_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

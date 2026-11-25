@@ -239,7 +239,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "rapid",
       "new_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -326,7 +326,7 @@ export const JR_KOBE_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

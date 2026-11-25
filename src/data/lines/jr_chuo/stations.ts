@@ -322,7 +322,7 @@ export const CHUO_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "4番線",
       "outbound": "3番線"
@@ -384,7 +384,7 @@ export const CHUO_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "4番線",
       "outbound": "3番線"

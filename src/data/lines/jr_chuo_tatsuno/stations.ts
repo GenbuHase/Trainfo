@@ -55,7 +55,7 @@ export const JR_CHUO_TATSUNO_STATIONS: Station[] = [
       "regular",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

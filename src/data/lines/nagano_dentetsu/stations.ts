@@ -56,7 +56,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -142,7 +142,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -199,7 +199,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -228,7 +228,7 @@ export const NAGANO_DENTETSU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

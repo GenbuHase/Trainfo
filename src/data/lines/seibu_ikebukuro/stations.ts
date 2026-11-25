@@ -866,7 +866,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "2番線",
       "outbound": "2番線"
@@ -1091,7 +1091,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
       "limited_exp",
       "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

@@ -502,7 +502,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "commuter_exp",
       "rapid_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -792,7 +792,7 @@ export const SEIBU_SHINJUKU_STATIONS: Station[] = [
       "rapid_exp",
       "limited_exp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

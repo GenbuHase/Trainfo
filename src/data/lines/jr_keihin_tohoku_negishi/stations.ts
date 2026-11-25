@@ -330,7 +330,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JK-11",
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "JK-12",
@@ -530,7 +530,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JK-17",
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "JK-18",
@@ -591,7 +591,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JK-19",
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "JK-20",
@@ -870,7 +870,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JK-27",
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "JK-28",
@@ -937,7 +937,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "stationNumber": "JK-29"
   },
   {
@@ -1071,7 +1071,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "stationNumber": "JK-33"
   },
   {
@@ -1164,7 +1164,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JK-36",
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "JK-37",
@@ -1471,7 +1471,7 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JK-46",
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "JK-47",

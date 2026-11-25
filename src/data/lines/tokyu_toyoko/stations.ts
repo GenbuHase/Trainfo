@@ -161,7 +161,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
       "inbound": "2番線",
       "outbound": "1番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "TY-06",
@@ -256,7 +256,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
       "inbound": "3・4番線",
       "outbound": "1・2番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "TY-09",
@@ -290,7 +290,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
       "inbound": "3・4番線",
       "outbound": "1・2番線"
     },
-    "isMajor": true
+    "isMajor": false
   },
   {
     "id": "TY-10",

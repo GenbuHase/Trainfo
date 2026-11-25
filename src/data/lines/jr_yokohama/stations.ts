@@ -90,7 +90,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "rapid"
     ],
     "stationNumber": "JH-15",
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "JH-16",
@@ -564,7 +564,7 @@ export const YOKOHAMA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "stationNumber": "JH-31"
   },
   {

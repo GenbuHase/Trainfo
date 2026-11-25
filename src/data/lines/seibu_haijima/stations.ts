@@ -88,7 +88,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
@@ -148,7 +148,7 @@ export const SEIBU_HAIJIMA_STATIONS: Station[] = [
       "local",
       "liner"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"

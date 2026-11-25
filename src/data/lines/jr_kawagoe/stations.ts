@@ -66,7 +66,7 @@ export const KAWAGOE_STATIONS: Station[] = [
       "commuter_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -96,7 +96,7 @@ export const KAWAGOE_STATIONS: Station[] = [
       "commuter_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -126,7 +126,7 @@ export const KAWAGOE_STATIONS: Station[] = [
       "commuter_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -156,7 +156,7 @@ export const KAWAGOE_STATIONS: Station[] = [
       "commuter_rapid",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

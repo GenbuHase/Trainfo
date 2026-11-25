@@ -91,7 +91,7 @@ export const RINKAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -155,7 +155,7 @@ export const RINKAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -218,7 +218,7 @@ export const RINKAI_STATIONS: Station[] = [
       "rapid",
       "commuter_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

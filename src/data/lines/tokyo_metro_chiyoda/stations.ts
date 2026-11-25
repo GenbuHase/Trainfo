@@ -91,7 +91,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     },
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "C-04",
@@ -211,7 +211,7 @@ export const CHIYODA_STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     },
-    "isMajor": false
+    "isMajor": true
   },
   {
     "id": "C-08",

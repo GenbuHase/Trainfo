@@ -316,7 +316,7 @@ export const JOETSU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -438,7 +438,7 @@ export const JOETSU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -478,7 +478,7 @@ export const JOETSU_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,

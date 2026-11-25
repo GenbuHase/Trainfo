@@ -213,7 +213,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "local",
       "section_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -398,7 +398,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "special_rapid",
       "section_rapid"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -729,7 +729,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -868,7 +868,7 @@ export const TOKAIDO_TOYOHASHI_MAIBARA_STATIONS: Station[] = [
       "local",
       "rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

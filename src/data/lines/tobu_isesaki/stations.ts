@@ -606,7 +606,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -663,7 +663,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -720,7 +720,7 @@ export const TOBU_ISESAKI_STATIONS: Station[] = [
       "local",
       "limited_exp"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"

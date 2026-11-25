@@ -220,7 +220,7 @@ export const HACHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -250,7 +250,7 @@ export const HACHIKO_STATIONS: Station[] = [
       "local",
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -308,7 +308,7 @@ export const HACHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -364,7 +364,7 @@ export const HACHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -641,7 +641,7 @@ export const HACHIKO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,

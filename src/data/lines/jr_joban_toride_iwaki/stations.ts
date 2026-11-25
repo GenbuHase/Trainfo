@@ -893,7 +893,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
       "local",
       "limited_express"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "1番線"

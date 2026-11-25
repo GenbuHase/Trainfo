@@ -159,7 +159,7 @@ export const STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     },
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,

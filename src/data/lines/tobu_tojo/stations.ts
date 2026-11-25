@@ -542,7 +542,7 @@ export const STATIONS: Station[] = [
     address: '埼玉県比企郡嵐山町大字菅谷135-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'semi_exp', 'express', 'rapid_exp', 'kawagoe_exp', 'tj_liner'],
-    isMajor: true,
+    isMajor: false,
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {

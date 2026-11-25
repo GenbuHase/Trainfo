@@ -606,7 +606,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -635,7 +635,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -664,7 +664,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,
@@ -693,7 +693,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -722,7 +722,7 @@ export const AOIMORI_STATIONS: Station[] = [
       "rapid",
       "special_rapid"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": false,
       "restroom": true,

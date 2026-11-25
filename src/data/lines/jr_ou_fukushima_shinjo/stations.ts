@@ -668,7 +668,7 @@ export const OU_FUKUSHIMA_SHINJO_STATIONS: Station[] = [
     "stoppingTypes": [
       "regular"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
